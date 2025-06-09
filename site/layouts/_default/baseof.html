@@ -24,9 +24,9 @@
       <div class="container-fluid text-center p-2 bg-{{ hugo.Environment }}">
         {{ if .Page.Draft }}!!DRAFT!! |{{ end }}
         {{ if eq hugo.Environment "development" }}
-          Local | v0.0.0 | No Robots
+          Local | {{ partial "functions/get-version.html" . }} | No Robots
         {{ else }}
-          {{ .Site.Params.buildInfo | default "No Build Info" }} | v{{ .Site.Params.version | default "v0.0.0" }} | No Robots
+          {{ .Site.Params.buildInfo | default "No Build Info" }} | {{ partial "functions/get-version.html" . }} | No Robots
         {{ end }}
         | <a href="#debugArea">Debug Info</a>
       </div>
@@ -51,7 +51,7 @@
 
     {{ block "footer" . }}
       <footer class="footer bg-dark text-white p-4 mt-auto">
-        <div class="container text-center">© {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</div>
+        <div class="container text-center">{{ partial "functions/get-version.html" . }} | © {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</div>
       </footer>
     {{ end }}
 
