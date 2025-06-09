@@ -1,4 +1,5 @@
 {{- define "main" }}
+  {{- $isComingSoon := and .Date (lt now .Date) (eq hugo.Environment "production") }}
   <section class="my-2" style="max-width: 1200px; margin: 0 auto;">
     <div class="row">
       <!-- Sidebar with table of contents -->
@@ -10,7 +11,11 @@
           </div>
           <h4 class="h6 text-muted mb-3 flex-shrink-0">Table of Contents</h4>
           <div class="overflow-auto flex-grow-1">
-            {{ .Page.TableOfContents }}
+            {{- if $isComingSoon }}
+              <div class="alert alert-warning" role="alert">This guide is coming soon! Stay tuned for updates.</div>
+            {{ else }}
+              {{ .Page.TableOfContents }}
+            {{- end }}
           </div>
         </nav>
       </aside>
@@ -51,8 +56,13 @@
                 <span class="version-number">v#{GitVersion_Major}#.#{GitVersion_Minor}#</span>
               </div>
             </header>
-
-            <div class="content-body pt-3">{{ .Content }}</div>
+            <div class="content-body pt-3">
+              {{- if $isComingSoon }}
+                <div class="alert alert-warning" role="alert">This guide is coming soon! Stay tuned for updates.</div>
+              {{ else }}
+                {{ .Content }}
+              {{- end }}
+            </div>
 
             <footer class="content-footer mt-4">
               <nav class="content-navigation d-flex justify-content-between">

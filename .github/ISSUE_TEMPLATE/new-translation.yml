@@ -1,0 +1,126 @@
+name: New Translation Request
+description: Request to add a new language translation for the Scrum Guide Expansion Pack
+title: "[TRANSLATION] Add [LANGUAGE] translation"
+labels: ["translation", "community", "enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in contributing a translation to the Scrum Guide Expansion Pack! 
+        
+        Please fill out the form below to request a new translation. Once approved, we'll provide you with the necessary resources and guidance to get started.
+
+  - type: input
+    id: language
+    attributes:
+      label: Target Language
+      description: What language would you like to translate the guide into?
+      placeholder: e.g., Portuguese, Italian, Japanese
+    validations:
+      required: true
+
+  - type: input
+    id: language-code
+    attributes:
+      label: Language Code
+      description: What is the ISO 639-1 language code for this language?
+      placeholder: e.g., pt, it, ja
+    validations:
+      required: true
+
+  - type: input
+    id: translator-name
+    attributes:
+      label: Translator Name
+      description: Your name or organization name (as it will appear in the credits)
+      placeholder: e.g., John Doe or Acme Translation Services
+    validations:
+      required: true
+
+  - type: input
+    id: translator-link
+    attributes:
+      label: Translator Website/Profile (Optional)
+      description: Link to your website, LinkedIn profile, or organization page
+      placeholder: e.g., https://www.linkedin.com/in/johndoe
+
+  - type: dropdown
+    id: experience
+    attributes:
+      label: Translation Experience
+      description: What is your experience with translation work?
+      options:
+        - Professional translator
+        - Native speaker with translation experience
+        - Native speaker without formal translation experience
+        - Other (please specify in additional info)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scrum-experience
+    attributes:
+      label: Scrum Experience
+      description: What is your experience with Scrum?
+      options:
+        - Certified Scrum Master/Product Owner/Developer
+        - Professional Scrum certification holder
+        - Working with Scrum for 2+ years
+        - Working with Scrum for less than 2 years
+        - New to Scrum but eager to learn
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why would you like to contribute this translation? How will it help your community?
+      placeholder: Tell us about your motivation and the impact this translation will have...
+    validations:
+      required: true
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Expected Timeline
+      description: How long do you estimate it will take to complete the translation?
+      placeholder: e.g., 2-3 weeks, 1 month, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other information you'd like to share about this translation request?
+      placeholder: Include any relevant details, questions, or special considerations...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      description: By submitting this request, you agree to the following terms
+      options:
+        - label: I understand that this is a volunteer contribution to the community
+          required: true
+        - label: I agree to maintain the accuracy and quality of the translation
+          required: true
+        - label: I understand that the translation will be published under the same license as the original content
+          required: true
+        - label: I am committed to completing the translation in a reasonable timeframe
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        **Next Steps:**
+        1. A project maintainer will review your request
+        2. If approved, you'll receive access to translation resources and guidelines
+        3. You'll be added to the translation coordination process
+        4. Upon completion, your translation will be published and you'll be credited
+        
+        Thank you for your contribution to the Scrum community! 🎉

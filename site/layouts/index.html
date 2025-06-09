@@ -1,4 +1,8 @@
 {{- define "main" }}
+  {{- $guidePage := .Site.GetPage "/guide" }}
+  {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
+
+
   <section class="section container-fluid main-header">
     <div class="container">
       <div class="row">
@@ -10,7 +14,7 @@
               <p class="card-text flex-grow-1">{{ i18n "read_online_description" . }}</p>
             </div>
             <div class="card-footer">
-              <a href="{{ (.Site.GetPage "/guide").Permalink }}" class="btn btn-primary">{{ i18n "read_online_button" }}</a>
+              <a href="{{ $guidePage.RelPermalink }}" class="btn btn-primary">{{ i18n "read_online_button" }}</a>
             </div>
           </div>
         </div>
@@ -22,13 +26,17 @@
               <p class="card-text flex-grow-1">{{ i18n "download_description" . }}</p>
             </div>
             <div class="card-footer">
-              {{- $guidePage := .Site.GetPage "/guide" }}
-              {{- $pdfResource := $guidePage.Resources.GetMatch "*.pdf" }}
-              {{- if $pdfResource }}
-                <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary" download>{{ i18n "download_button" . }}</a>
-              {{- else }}
-                <a href="/pdf/{{ $guidePage.Title | urlize }}.pdf" class="btn btn-primary" download>{{ i18n "download_button" . }}</a>
-              {{- end }}
+              {{ if $isComingSoon }}
+                <a href="#" class="btn btn-primary disabled">coming soon</a>
+              {{ else }}
+                {{- $pdfPattern := printf "*.%s.pdf" .Language.Lang }}
+                {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
+                {{- if $pdfResource }}
+                  <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary" download>{{ i18n "download_button" . }}</a>
+                {{- else }}
+                  <a href="#" class="btn btn-primary" download><i class="fa-solid fa-ban"></i> {{ i18n "download_button" . }}</a>
+                {{- end }}
+              {{ end }}
             </div>
           </div>
         </div>
@@ -40,7 +48,11 @@
               <p class="card-text flex-grow-1">{{ i18n "join_discussion_description" . }}</p>
             </div>
             <div class="card-footer">
-              <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary">{{ i18n "join_discussion_button" }}</a>
+              {{ if $isComingSoon }}
+                <a href="#" class="btn btn-primary disabled">coming soon</a>
+              {{ else }}
+                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary">{{ i18n "join_discussion_button" }}</a>
+              {{ end }}
             </div>
           </div>
         </div>
@@ -69,7 +81,11 @@
               <p class="lead text-center">
                 {{ i18n "open_source_description" . }}
               </p>
-              <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">{{ i18n "join_discussion_button" }}</a>
+              {{ if $isComingSoon }}
+                <a href="#" class="btn btn-primary disabled">{{ i18n "join_discussion_button" }}</a>
+              {{ else }}
+                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">{{ i18n "join_discussion_button" }}</a>
+              {{ end }}
             </div>
           </div>
         </div>
