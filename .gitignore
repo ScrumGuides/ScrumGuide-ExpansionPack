@@ -1,0 +1,7 @@
+# ignore directories
+/public/
+/site/public/
+**/.obsidian/
+**/_gen/
+/resources/
+/.processing/

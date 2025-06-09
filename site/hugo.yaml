@@ -1,0 +1,56 @@
+languageCode: en
+title: Scrum Guides 2025 Expansion Pack
+
+publishDir: ../public
+resourceDir: ../resources
+
+summaryLength: 30
+
+enableRobotsTXT: true
+
+# Disable default taxonomies (tags and categories)
+taxonomies: {}
+
+# Site-wide parameters
+params:
+  description: "Scrum Guides 2025 Expansion Pack"
+  keywords: "Scrum"
+  og_image: "/images/og-image.jpg" # URL to the default Open Graph image
+  siteProdUrl: "https://scrumguidesexpansionpack.org"
+
+# Enable sitemap and robots.txt
+sitemap:
+  filename: "sitemap.xml"
+  changefreq: "daily"
+  priority: 0.5
+
+# RSS feed settings
+rss:
+  filename: "rss.xml"
+  name: "RSS Feed"
+  description: "Subscribe to our RSS feed"
+
+outputs:
+  home: [html, json, rss]
+  section: [html, rss]
+  taxonomy: [html, rss]
+  term: [html, rss]
+  page: [html, rss]
+
+outputFormats:
+  json:
+    mediaType: "application/json"
+    baseName: "pages"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows raw HTML in Markdown
+    extensions:
+      table: true
+      linkify: true
+      typographer: true
+    parser:
+      attribute:
+        block: true
+        title: true

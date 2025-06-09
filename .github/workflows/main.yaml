@@ -1,0 +1,344 @@
+name: Build & Release (ScrumGuidesExpansionPack)
+
+permissions:
+  contents: read
+  pull-requests: write
+
+on:
+  push:
+    branches: ["main"]
+    tags-ignore: ["v*-*"]
+  pull_request:
+    branches: ["main"]
+  merge_group:
+    branches: ["main"]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: pwsh
+
+jobs:
+  # Setup & Configuration
+  Setup:
+    name: "Setup & Configuration "
+    runs-on: ubuntu-latest
+    outputs:
+      GitVersion_BranchName: ${{ steps.gitversion.outputs.GitVersion_BranchName }}
+      GitVersion_SemVer: ${{ steps.gitversion.outputs.GitVersion_SemVer }}
+      GitVersion_PreReleaseLabel: ${{ steps.gitversion.outputs.GitVersion_PreReleaseLabel }}
+      GitVersion_AssemblySemVer: ${{ steps.gitversion.outputs.GitVersion_AssemblySemVer }}
+      GitVersion_InformationalVersion: ${{ steps.gitversion.outputs.GitVersion_InformationalVersion }}
+      GitVersion_NuGetVersion: ${{ steps.gitversion.outputs.GitVersion_NuGetVersion }}
+      GitVersion_PreReleaseNumber: ${{ steps.gitversion.outputs.GitVersion_PreReleaseNumber }}
+      GitVersion_MajorMinorPatch: ${{ steps.gitversion.outputs.GitVersion_MajorMinorPatch }}
+      ScrumGuidesExpansionPack_Ring: ${{ steps.ScrumGuidesExpansionPack.outputs.Ring }}
+      ScrumGuidesExpansionPack_AzureSitesEnvironment: ${{ steps.ScrumGuidesExpansionPack.outputs.AzureSitesEnvironment }}
+      ScrumGuidesExpansionPack_AzureSitesConfig: ${{ steps.ScrumGuidesExpansionPack.outputs.AzureSitesConfig }}
+      ScrumGuidesExpansionPack_BLOB_URL_BIT: ${{ steps.ScrumGuidesExpansionPack.outputs.BLOB_URL_BIT }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: List folders
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path "${{ github.workspace }}" -Directory -Force | Select-Object -ExpandProperty FullName
+      - name: Install GitVersion
+        uses: gittools/actions/gitversion/setup@v3.0.0
+        with:
+          versionSpec: "5.x"
+          includePrerelease: true
+      - name: Execute GitVersion
+        id: gitversion
+        uses: gittools/actions/gitversion/execute@v3.0.0
+        with:
+          useConfigFile: true
+          configFilePath: .github/GitVersion.yml
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            content:
+              - 'content/**'
+      - name: "Build ScrumGuidesExpansionPack Outputs"
+        shell: pwsh
+        id: ScrumGuidesExpansionPack
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Get Branch Name
+          Write-Output "::group::Get Branch Name"
+          Write-Output "-------------------------------------------"
+          $branchName = "${{ github.head_ref || github.ref_name }}"
+          Write-Output "We are running on: $branchName!"
+          $branchSafeName = $branchName.Replace("/", "-")
+          Write-Output "branchSafeName: $branchSafeName!"
+          Write-Output "-------------------------------------------"
+          Write-Output "::endgroup::"
+          # Ring Setup
+          Write-Output "::group::Ring Control Setup"
+          Write-Output "-------------------------------------------"
+          Write-Output "Ring Control Setup"
+          Write-Output "-------------------------------------------"
+          $Ring = "Canary"
+          $BLOB_URL_BIT = "/blob"
+
+          switch ($Env:GitVersion_PreReleaseLabel) {
+              "" {
+                  $Ring = "Production";
+                  $PRODUCTION_ENVIRONMENT_STATIC_SITES = "${{ vars.PRODUCTION_ENVIRONMENT_STATIC_SITES }}"
+                  if ($PRODUCTION_ENVIRONMENT_STATIC_SITES -eq "production") {
+                    $AzureSitesEnvironment = ""
+                  } else {
+                    $AzureSitesEnvironment = $PRODUCTION_ENVIRONMENT_STATIC_SITES
+                  }
+                  $AzureSitesConfig = "production"
+                  $docs_baseURL = "/"
+              }    
+              "Preview" {
+                  $Ring = "Preview";
+                  $AzureSitesEnvironment = "preview";
+                  $AzureSitesConfig = "preview"
+                  $docs_baseURL = "/preview"
+              }
+              default {
+                  $Ring = "Canary";
+                  $AzureSitesEnvironment = "canary-${{ github.event.pull_request.number }}"
+                  $AzureSitesConfig = "canary"
+                  $BLOB_URL_BIT = 'https://ScrumGuidesExpansionPackblobs.blob.core.windows.net/$web'
+                  $docs_baseURL = "/canary/$branchSafeName"
+              }
+          }
+          Write-Output "We are running for the $Ring Ring!"
+          echo "Ring=$Ring" >> $env:GITHUB_OUTPUT
+
+          Write-Output "We are running for the $AzureSitesEnvironment AzureSitesEnvironment!"
+          echo "AzureSitesEnvironment=$AzureSitesEnvironment" >> $env:GITHUB_OUTPUT
+
+           Write-Output "We are running for the $AzureSitesConfig AzureSitesConfig!"
+          echo "AzureSitesConfig=$AzureSitesConfig" >> $env:GITHUB_OUTPUT
+
+           Write-Output "We are running for the $BLOB_URL_BIT BLOB_URL_BIT!"
+          echo "BLOB_URL_BIT=$BLOB_URL_BIT" >> $env:GITHUB_OUTPUT
+
+          Write-Output "docs_baseURL=$docs_baseURL"
+          echo "docs_baseURL=$docs_baseURL" >> $env:GITHUB_OUTPUT
+          Write-Output "-------------------------------------------"
+          Write-Output "::endgroup::"
+
+  # Setup Validator
+  SetupSummeryStage:
+    name: "Build Run Data"
+    runs-on: ubuntu-latest
+    needs: Setup
+    steps:
+      - name: "Show Summery"
+        if: always()
+        shell: pwsh
+        id: ScrumGuidesExpansionPack-summery
+        run: |
+          $markdown = @"
+             ## ${{needs.Setup.outputs.GitVersion_SemVer}} (${{needs.Setup.outputs.ScrumGuidesExpansionPack_Ring}})
+             ### ScrumGuidesExpansionPack
+               - ScrumGuidesExpansionPack_Ring: ${{needs.Setup.outputs.ScrumGuidesExpansionPack_Ring}}
+               - ScrumGuidesExpansionPack_AzureSitesEnvironment: ${{needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesEnvironment}}
+               - ScrumGuidesExpansionPack_AzureSitesConfig: ${{needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesConfig}}
+               - ScrumGuidesExpansionPack_BLOB_URL_BIT: ${{needs.Setup.outputs.ScrumGuidesExpansionPack_BLOB_URL_BIT}}
+
+             ### GitVersion
+               - GitVersion_BranchName: ${{needs.Setup.outputs.GitVersion_BranchName}}
+               - GitVersion_SemVer: ${{needs.Setup.outputs.GitVersion_SemVer}}
+               - GitVersion_PreReleaseLabel: ${{needs.Setup.outputs.GitVersion_PreReleaseLabel}}
+               - GitVersion_AssemblySemVer: ${{needs.Setup.outputs.GitVersion_AssemblySemVer}}
+               - GitVersion_InformationalVersion: ${{needs.Setup.outputs.GitVersion_InformationalVersion}}
+               - GitVersion_NuGetVersion: ${{needs.Setup.outputs.GitVersion_NuGetVersion}}
+          "@
+          echo $markdown >> $Env:GITHUB_STEP_SUMMARY
+
+  # Build Docs
+  BuildSite:
+    name: "Build Site"
+    runs-on: ubuntu-latest
+    if: ${{ success() }}
+    needs: [Setup]
+    env:
+      GitVersion_SemVer: ${{ needs.Setup.outputs.GitVersion_SemVer }}
+      GitVersion_AssemblySemVer: ${{ needs.Setup.outputs.GitVersion_AssemblySemVer }}
+      GitVersion_InformationalVersion: ${{ needs.Setup.outputs.GitVersion_InformationalVersion }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+      - uses: cschleiden/replace-tokens@v1
+        with:
+          files: '["**/*.html", "**/*.yaml"]'
+          tokenPrefix: "#{"
+          tokenSuffix: "}#"
+        env:
+          GitVersion_SemVer: ${{ needs.Setup.outputs.GitVersion_SemVer }}
+          GitVersion_AssemblySemVer: ${{ needs.Setup.outputs.GitVersion_AssemblySemVer }}
+          GitVersion_InformationalVersion: ${{ needs.Setup.outputs.GitVersion_InformationalVersion }}
+          GitVersion.SemVer: ${{ needs.Setup.outputs.GitVersion_SemVer }}
+          ScrumGuidesExpansionPack_AzureSitesConfig: ${{ needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesConfig }}
+          PR_Number: ${{ github.event.number }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "${{ vars.HUGO_BUILD_VERSION }}"
+          extended: true
+
+      - name: Build
+        run: |
+          Write-Host "Building site for ${{ (needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesConfig) }}";
+          $env:HUGO_ENV = "${{ (needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesConfig) }}";
+          hugo --source site --config hugo.yaml,hugo.${{ (needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesConfig) }}.yaml --logLevel info; # --minify
+
+      - name: Copy Files
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path "${{ github.workspace }}" -Directory | Select-Object -ExpandProperty FullName
+          Copy-Item -Path "./staticwebapp.config.json" -Destination ./public/
+          Get-ChildItem -Path "./" -Filter "staticwebapp.config.*.json" | ForEach-Object {
+              Copy-Item -Path $_.FullName -Destination "./public/"
+          }
+
+      - name: Check if folder size exceeds 500MB
+        shell: pwsh
+        run: |
+          $folder = "./public/"
+          $size = (Get-ChildItem -Recurse -File -Path $folder | Measure-Object -Property Length -Sum).Sum
+
+          # Example: Perform an action if the folder is larger than 500MB (524288000 bytes)
+          if ($size -gt 524288000 ) {
+            Write-Host "Folder is larger than 500MB"
+            # Add additional actions or logic here
+          } else {
+            Write-Host "Folder is under 500MB"
+          }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Site
+          path: ./public/**/*
+
+  # Release to Docs
+  Publsh:
+    name: "Publish Site"
+    runs-on: ubuntu-latest
+    needs: [Setup, BuildSite]
+    if: ${{ success() }}
+    outputs:
+      static_web_app_url: ${{ steps.azureDeploy.outputs.static_web_app_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+      - name: Download a single artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: Site
+          path: ./_site
+
+      - name: Merge Configuration Files
+        run: |
+          # Find all files matching the pattern in a safe way
+          $files = Get-ChildItem -Path "." -Recurse -Filter "staticwebapp.*.json" -ErrorAction Stop
+
+          if ($files.Count -eq 0) {
+              Write-Host "No files matching the pattern 'staticwebapp.*.json' were found."
+              exit 1
+          }
+
+          # Output each file's full name (for verification/debugging purposes)
+          $files | ForEach-Object {
+              Write-Host "Found file: $($_.FullName)"
+          }
+
+          # Paths to main and environment-specific config files
+          $rootConfig = "./_site/staticwebapp.config.json"
+          $environmentConfig = "./_site/staticwebapp.config.${{ (needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesConfig) }}.json"
+          # $routesConfig = "./_site/staticwebapp.config.routes.json"
+
+          # Check if both target files exist
+          if ((Test-Path -Path $rootConfig -ErrorAction Stop) -and (Test-Path -Path $environmentConfig -ErrorAction Stop)) {
+              try {
+                  # Run jq to merge files and capture the output
+                  $mergedContent = & jq -s 'reduce .[] as $item ({}; . * $item)' $rootConfig $environmentConfig # $routesConfig 
+
+                  if ($mergedContent -ne "") {
+                      # Write the merged content to the output file
+                      $mergedContent | Set-Content -Path "./staticwebapp.config.json"
+                      Write-Host "Merged JSON files successfully."
+                  }
+                  else {
+                      Write-Host "jq command produced empty output. Check JSON structures in input files."
+                      exit 1
+                  }
+              }
+              catch {
+                  Write-Host "Error merging JSON files with jq: $_"
+                  exit 1
+              }
+          }
+          else {
+              Write-Host "One or both of the specified config files were not found:"
+              if (!(Test-Path -Path $rootConfig)) { Write-Host " - $rootConfig not found" }
+              if (!(Test-Path -Path $environmentConfig)) { Write-Host " - $environmentConfig not found" }
+              exit 1
+          }
+
+          # Verify and read the merged file content
+          try {
+              $content = Get-Content -Path "./staticwebapp.config.json" -ErrorAction Stop
+              Write-Host "Content of merged config file:"
+              Write-Output $content
+          }
+          catch {
+              Write-Host "Error reading the merged config file: $_"
+              exit 1
+          }
+
+      - name: "Find  files"
+        id: files
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path ".\" -File
+          $path = "./_site"
+          $size = (Get-ChildItem -Path $path -Recurse | Measure-Object -Property Length -Sum).Sum
+          $sizeOnDisk = "{0:N2} MB" -f ($size / 1MB)
+          $sizeOnDisk
+          echo "sizeOnDisk=$sizeOnDisk" >> $env:GITHUB_OUTPUT
+
+      - name: Build and Deploy
+        uses: Azure/static-web-apps-deploy@v1
+        id: azureDeploy
+        env:
+          VERBOSE: true
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: ./_site
+          skip_app_build: true
+          skip_api_build: false
+          output_location: ""
+          deployment_environment: ${{ (needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesEnvironment) }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_LEMON_STONE_0045B7F10 }}
+
+      - name: "Show Summery"
+        if: always()
+        shell: pwsh
+        id: ScrumGuidesExpansionPack-summery
+        run: |
+          $markdown = @"
+              ## ${{needs.Setup.outputs.GitVersion_SemVer}} (${{needs.Setup.outputs.ScrumGuidesExpansionPack_Ring}})
+             Deployed to [${{steps.azureDeploy.outputs.static_web_app_url}}](${{steps.azureDeploy.outputs.static_web_app_url}})
+             Files on Disk: ${{steps.files.outputs.sizeOnDisk}}
+          "@
+          echo $markdown >> $Env:GITHUB_STEP_SUMMARY
