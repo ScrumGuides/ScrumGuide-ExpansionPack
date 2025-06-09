@@ -1,5 +1,0 @@
-{{- if ne hugo.Environment "development" }}
-  {{- return "v#{GitVersion.SemVer}#" }}
-{{- else }}
-  {{- return "v0.0.0" }}
-{{- end }}

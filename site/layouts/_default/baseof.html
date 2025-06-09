@@ -24,9 +24,9 @@
       <div class="container-fluid text-center p-2 bg-{{ hugo.Environment }}">
         {{ if .Page.Draft }}!!DRAFT!! |{{ end }}
         {{ if eq hugo.Environment "development" }}
-          Local | {{ partial "functions/get-version.html" . }} | No Robots
+          Local | v0.0.0 | No Robots
         {{ else }}
-          #{nkdAgility_AzureSitesConfig}# | {{ partial "functions/get-version.html" . }} | No Robots
+          #{nkdAgility_AzureSitesConfig}# | v#{GitVersion.SemVer}# | No Robots
         {{ end }}
         | <a href="#debugArea">Debug Info</a>
       </div>
@@ -51,7 +51,7 @@
 
     {{ block "footer" . }}
       <footer class="footer bg-dark text-white p-4 mt-auto">
-        <div class="container text-center">{{ partial "functions/get-version.html" . }} | © {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</div>
+        <div class="container text-center">v#{GitVersion.SemVer}# | © {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</div>
       </footer>
     {{ end }}
 
