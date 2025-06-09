@@ -16,10 +16,7 @@ guide_whatis: |
   Scrum is about learning fast, adapting, and delivering value. The Expansion Pack helps teams do just that, even in uncertain, accelerated, tech-driven settings.
 ---
 
-Authors: Ralph Jocham, John Coleman, and Jeff Sutherland  
-based on the original Scrum Guide by Ken Schwaber & Jeff Sutherland (40)
-
-Version 1.0 June _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._
+based on the original [Scrum Guide by Ken Schwaber & Jeff Sutherland](https://scrumguides.org/scrum-guide.html)
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
