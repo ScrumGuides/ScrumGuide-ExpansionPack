@@ -3,7 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KFKRF35Z");
+    </script>
+    <!-- End Google Tag Manager -->
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="description" content="{{ (.Summary | default .Site.Params.description) | plainify }}" />
     <meta name="keywords" content="{{ .Keywords | default .Site.Params.keywords }}" />
@@ -20,6 +33,9 @@
   </head>
 
   <body data-ndka-environment="{{ hugo.Environment }}" data-ndka-version="{{ .Site.Params.version | default "v0.0.0" }}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFKRF35Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     {{ if ne hugo.Environment "production" }}
       <div class="container-fluid text-center p-2 bg-{{ hugo.Environment }}">
         {{ if .Page.Draft }}!!DRAFT!! |{{ end }}
