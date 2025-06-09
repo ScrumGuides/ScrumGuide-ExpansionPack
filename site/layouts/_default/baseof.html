@@ -73,6 +73,10 @@
                   <td><pre>{{ debug.Dump .Params }}</pre></td>
                 </tr>
                 <tr>
+                  <td>Template</td>
+                  <td>{{ block "template" . }}unknown{{ end }}</td>
+                </tr>
+                <tr>
                   <td>Layout</td>
                   <td>{{ .Layout }}</td>
                 </tr>

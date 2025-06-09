@@ -1,0 +1,65 @@
+{{- define "main" }}
+  <section class="my-2" style="max-width: 1200px; margin: 0 auto;">
+    <div class="row">
+      <!-- Sidebar with table of contents -->
+      <aside class="col-md-3 position-sticky" style="top: 1rem; height: fit-content;">
+        <nav class="content-list bg-light p-3 rounded">
+          <h4 class="h6 text-muted mb-3">Table of Contents</h4>
+          {{ .Page.TableOfContents }}
+        </nav>
+      </aside>
+
+      <!-- Main content area -->
+      <main class="col-md-9">
+        <div class="content-wrapper px-3">
+          <article class="content-details">
+            <header class="content-header">
+              <h2 class="content-title">{{ .Title }}</h2>
+              {{ if .Date }}
+                <div class="publish-date">
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    Published:
+                    {{ .Date.Format "January 2, 2006" }}
+                  </time>
+                </div>
+              {{ end }}
+            </header>
+
+            <div class="content-body">
+              {{ .Content }}
+            </div>
+
+            {{ if .Params.type }}
+              <div class="content-type">
+                <strong>Type:</strong> {{ .Params.type }}
+              </div>
+            {{ end }}
+
+
+            <footer class="content-footer mt-4">
+              <nav class="content-navigation d-flex justify-content-between">
+                {{ with .PrevInSection }}
+                  <a href="{{ .Permalink }}" class="prev-content btn btn-outline-secondary">← {{ .Title }}</a>
+                {{ else }}
+                  <span></span>
+                {{ end }}
+                {{ with .NextInSection }}
+                  <a href="{{ .Permalink }}" class="next-content btn btn-outline-secondary">{{ .Title }} →</a>
+                {{ else }}
+                  <span></span>
+                {{ end }}
+              </nav>
+
+              <div class="back-to-home mt-3">
+                <a href="/" class="text-decoration-none">← Back to Home</a>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+  </section>
+{{- end }}
+{{- define "template" }}
+  guide/single.html
+{{- end }}
