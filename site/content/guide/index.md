@@ -32,7 +32,7 @@ _Disclaimer: No warranties are given. Use at your own risk._
 _This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
 
-# Background {#background}
+## Background {#background}
 
 Ken Schwaber and Jeff Sutherland led the development of the Scrum framework. The [2020 Scrum Guide](https://scrumguides.org/) (40) describes the Scrum Essentials. Tobias Mayer's [A Simple Guide to Scrum](https://scrum.academy/guide/) (58) is a shortened, edited version of the official Scrum Guide by Ken Schwaber and Jeff Sutherland. The [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) elaborate on the 2020 Scrum Guide (40) from a 2025 perspective. For mass adoption, the Scrum Guide (40) needed to be simple.
 
@@ -49,7 +49,7 @@ This Expansion Pack is designed to support all aspects of product delivery by a 
 
 Stakeholder value refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes.
 
-# Scrum in a Nutshell {#scrum-in-a-nutshell}
+## Scrum in a Nutshell {#scrum-in-a-nutshell}
 
 Scrum is a framework for complex (30-35) product delivery, where expertise is valuable but more than expertise is needed, and cause and effect are only coherent in retrospect. Scrum addresses the full product lifecycle, which includes (but is not limited to) creating, replacing, sustaining, adapting, continuously changing, maintaining, and retiring products or features. Scrum helps individuals, teams, and organizations become and stay flexible and create value by adapting to change.
 
@@ -77,7 +77,7 @@ Scrum integrates with existing practices or, in some cases, makes them unnecessa
 
 In the context of knowledge work, the term Scrum, borrowed from the game of rugby, was coined by Takeuchi and Nonaka (29) to describe teams that worked this way and where knowledge was spread rapidly throughout an enterprise to deliver outstanding products.
 
-# Supporting and Complementary Theory {#supporting-and-complementary-theory}
+## Supporting and Complementary Theory {#supporting-and-complementary-theory}
 
 Scrum is founded on a self-managing Scrum Team (47), emergence, empiricism (67), and lean thinking (63). It is underpinned by the supporting and complementary theory below and ideas such as:
 
@@ -87,7 +87,7 @@ Scrum is founded on a self-managing Scrum Team (47), emergence, empiricism (67),
 - Discovery, delivery, and value realization,
 - Continuous improvement.
 
-## Complexity–The Case for Scrum {#complexity–the-case-for-scrum}
+### Complexity–The Case for Scrum {#complexity–the-case-for-scrum}
 
 For complex work, like building products, there are more unknowns than knowns, expertise alone is valuable but insufficient, and cause and effect are only coherent in retrospect. Complexity thinking (30-35) provides valuable tools and ideas and facilitates insights. The Scrum Team members require time to think, help each other, do rework, or pivot. Cognitive diversity and empiricism can help deal with complex work.
 
@@ -99,7 +99,7 @@ The opportunities from emergence through Inspection and adaptation of the _who_,
 
 Build trust through a self-managing team, Inspection, Adaptation, delivering valuable work, and uncovering new insights.
 
-## Emergence {#emergence}
+### Emergence {#emergence}
 
 Emergence (71) is when meaningful patterns or behaviors arise from interactions within complex (30-35) systems-patterns you can’t predict just by looking at the parts alone. In Scrum, emergence isn’t tightly controlled but is guided by enabling constraints like timeboxes, roles, and feedback loops, which create the conditions for self-management and adaptability without dictating exact outcomes. These structures act like 'islands' in a sea of unpredictability, similar to how physical systems can spontaneously form organized patterns amid randomness, as described in Stephen Wolfram’s work (38). The key is that the structure in Scrum provides enough guidance for teams to self-manage and for new solutions to emerge rather than prescribing every detail.
 
@@ -107,7 +107,7 @@ Scrum Teams, operating as complex adaptive systems, are influenced, not directed
 
 This approach recognizes that self-management (47) is not something to be designed top-down but something to be discovered in the right environment—an environment that feels purposeful, coherent, and alive, echoing Christopher Alexander’s ‘Quality Without a Name’ (39). Ultimately, Scrum treats emergence not as a risk to be eliminated but as a force to be cultivated for excellence in product development.
 
-## Self-Managing Scrum Team {#self-managing-scrum-team}
+### Self-Managing Scrum Team {#self-managing-scrum-team}
 
 A self-managing (47) Scrum Team checks whether they are on track, takes action when not on track, decides how to work, resolves Scrum Team conflict, and fixes problems in the Scrum Team. This means that, generally, managers (111), if they are part of the landscape, do not tell the Scrum Team what to do or decide which Scrum Team member needs to be taken aside to fix issues, directly or indirectly. If managers exist it's generally better if they demonstrate leadership.
 
@@ -135,11 +135,11 @@ An effective Scrum adoption reduces the distance between Stakeholders who presen
 Cadence  
 Working in Sprints provides a consistent rhythm that helps the Scrum Team focus on clear, short-term goals. This cadence supports regular inspection and adaptation, enabling the Scrum Team to learn and adjust informed by feedback. Over time, it builds a sustainable pace of delivery, improving predictability and fostering continuous improvement.
 
-## The Three Pillars of Scrum’s Empirical Process Control {#the-three-pillars-of-scrum’s-empirical-process-control}
+### The Three Pillars of Scrum’s Empirical Process Control {#the-three-pillars-of-scrum’s-empirical-process-control}
 
 Empiricism, at its core, is the philosophy that knowledge comes from experience and observation. Valuable insights emerge from curiosity, experience, experimentation, data, visualization, and observation. Empirical process control (64-66) is a method of managing complex (30-35) processes, like those in Scrum, by adapting informed by observed results, relying on the three pillars of transparency, inspection, and adaptation.
 
-### Transparency
+#### Transparency
 
 Transparency is a pillar of Scrum. It reveals reality and work clarity, and enables empiricism. Transparency reveals a more accurate perception of reality and is the entry point for Inspection and Adaptation. The emergent process, work, and results must be visible to those performing the work or receiving the inputs in the form of goals, Product Backlog Items, and associated outputs in the form of Increments.
 
@@ -149,7 +149,7 @@ Result feedback is data, ideally both quantitative and qualitative, that might r
 
 Achieving Transparency is unrealistic and potentially inapplicable if there are institutional inefficiencies or there is a lack of trust. As a corollary, Scrum can make institutional inefficiencies transparent, and with collective will, trust can be built.
 
-### Inspection
+#### Inspection
 
 Inspection is a pillar of Scrum. Inspection is looking at reality, given the direction of the product (the Product Goal) and the effectiveness of the Scrum Team and Stakeholders. Inspection enables Adaptation. Inspection is about looking at reality intentionally and is informed by the things that were made transparent, including evidence or observation. To foster Inspection and Adaptation, Scrum provides cadence in the form of its events.
 
@@ -157,7 +157,7 @@ The Scrum Artifacts, associated commitments, and progress toward agreed goals mu
 
 Inspection without Transparency is ill-informed, misleading, and wasteful.
 
-### Adaptation
+#### Adaptation
 
 Adaptation is a pillar of Scrum. Given the direction of the product, the Scrum Team and Stakeholders are expected to adapt to reality the moment improvement opportunities emerge, such as experiment outcomes, insights, risks, or opportunities. Adaptation becomes more difficult when institutional inefficiencies exist or when the people involved are not ready, willing, or able to do what needs to be done.
 
@@ -165,7 +165,7 @@ Adaptation starts with accepting ‘reality,’ informed by evidence. Adaptation
 
 Without Adaptation, Transparency and Inspection are meaningless.
 
-## The Scrum Values {#the-scrum-values}
+### The Scrum Values {#the-scrum-values}
 
 The Scrum Values _—focus_, _openness_, _commitment_, _courage_, and *respect—*help create a Scrum Team environment that supports psychological safety and positive collaboration, which align with principles identified in neuroscience as beneficial for learning and effective teamwork. Consider the context.
 
@@ -198,7 +198,7 @@ Individual Scrum Team members can look at the Scrum Values through the lens of J
 - Decide—Deciding what to do requires timely analysis, such as backlog refinement, bringing potential next steps into Focus through parallel safe-to-fail experiments to test hypotheses, like small-scale probes (probes should be small, parallel, and designed so that failure is survivable and informative).
 - Act—With clarity on what needs to be done, why, and by whom, Commitment can drive the team to execute effectively within enabling constraints like time-boxed sprints, fostering emergent solutions.
 
-## Product Thinking {#product-thinking}
+### Product Thinking {#product-thinking}
 
 People consume products (including services), not projects. A product is the conduit to deliver value, balancing the short- and long-term. This is why Scrum has a Product Owner and not a Project Owner. Products are long-term and need to be taken care of for their entire existence, whereas a project is time-boxed and often leaves an orphaned product behind once the project is completed.
 
@@ -221,13 +221,13 @@ For products, Scrum supports feasibility, usability, desirability, value, and vi
 
 Scrum favors a healthy balance of the short-term and the long-term. Goal orientation enables potential outcomes through an emphasis on value and risk reduction. The Sprint Goal _(here_ and _now)_ should be a step toward the Product Goal _(there_ and _then)_, which enables pathways to the long-term. The Product Goal often supports the product strategy and Product Vision.
 
-## Systems Thinking {#systems-thinking}
+### Systems Thinking {#systems-thinking}
 
 Systems thinking (55) acknowledges the interconnectedness of elements within organizational and social contexts, recognizing that actions in one area ripple in ways that aren’t always predictable or linear. Theory-informed experiments, feedback loops, and follow-up data analysis help surface valuable and actionable insights. Systems Thinking provides valuable tools and ideas and facilitates insights.
 
 For an organization to become adaptive (80), it is necessary to avoid local sub-optimizations such as reducing unit costs while increasing long-term costs, eroding quality goals only to lose customer trust, or improving a Scrum Team, workflow, or process that should not exist. For complex work (30-35), it’s not always possible to link cause and effect, except in hindsight. It’s helpful, nevertheless, to consider possible and actual upstream, cross-stream, and downstream effects of interventions.
 
-## Discovery {#discovery}
+### Discovery {#discovery}
 
 Discovery (50-51) often starts with understanding people’s expectations, needs, and wants through observation, analysis, conversations, and synthesis toward a desired outcome. Once a Scrum Team has gathered insights, it frames the problem or opportunity and orders them by potential value. The Scrum Team crowdsources possible solutions without judging them too quickly. If the potential value is high but there is a lack of evidence that the value can be realized, the Scrum Team should do research, assumption testing, or build simple prototypes they can test with real customers, decision-makers, or users. Discovery is never over; consider regular interviews or observations of customers, decision-makers, or users.
 
@@ -235,7 +235,7 @@ Discovery is about learning toward a desired outcome through prioritizing, doing
 
 If discovery is needed, it should (insofar as it is possible) be included in a manner that is consistent with Scrum. For example, discovery work is made transparent in the Product Backlog and Sprint Backlog, Scrum Team members practice discovery and other skills, learnings are discussed during the Sprint and at the Scrum events, and at least one Increment is produced (and ideally released) every Sprint, regardless of how much discovery is done. There is a balance to be struck: discovery can help avoid building the wrong thing, but it can be overdone, and, in the end, the result feedback matters the most.
 
-## Leadership {#leadership}
+### Leadership {#leadership}
 
 Leadership is the ability to influence, guide, and inspire a group of people to achieve a common goal while avoiding demotivation. It inspires thoughts, actions, and passion and fosters clear strategic directions. It embraces purposeful and intentional Go See, Listen, and Understand, collecting facts and observations to inform decisions, better known as Genchi Genbutsu (84).
 
@@ -247,7 +247,7 @@ Leadership happens from all angles, should be at all levels, and fosters reflect
 
 Product Owners and Scrum Masters balance leadership, authority, and subtle control by providing clear intent, fostering initiative, and reinforcing accountability. They guide rather than micromanage, ensuring the Scrum Team understands the vision and goals, has the autonomy to execute, and remains accountable for outcomes. When intervention is needed, they step in decisively while preserving the Scrum Team’s ownership of their accountabilities. Product Developers demonstrate leadership with their self-managing team orientation, professionalism, and goal orientation; self-management comes with responsibilities. Supporters demonstrate leadership by supporting short- and long-term impediment removal, improving the coherence of management processes with Scrum, and supporting emergent change in a powerful direction when requested.
 
-## First Principles Thinking {#first-principles-thinking}
+### First Principles Thinking {#first-principles-thinking}
 
 First principles thinking is a method of problem-solving that involves breaking down challenges into their most fundamental truths and discovering solutions from the ground up. Instead of relying on analogy or established conventions, this approach asks, _'What do we know for certain?'_ and reconstructs understanding and solutions from those basic elements. Examples could include but are not limited to:
 
@@ -255,7 +255,7 @@ First principles thinking is a method of problem-solving that involves breaking 
 - Questioning every assumption and reconstructing solutions based on facts and essential principles, which can enable breakthroughs.
 - Advocating original thinking, continuous improvement, and the _Courage_ to challenge the status quo-unlocking creativity and enabling transformative results.
 
-## People and Change {#people-and-change}
+### People and Change {#people-and-change}
 
 The level of difficulty in adopting Scrum should not be underestimated. Scrum offers some guiding principles through its elements. It offers an approach to go back to first principles.
 
@@ -265,7 +265,7 @@ An effective Scrum adoption uses an emergent approach, has effective change agen
 
 Start with disciplined emergent change in a direction. Strive to make emergent change so normal that it eventually becomes part of the scheduled work. A Scrum adoption has direction but not a predefined destination. The change is emergent and therefore not predictable. Curiosity enables a pattern of sense, listen, learn, and adapt in a direction. It’s important to foster relationships and understand perspectives, and to listen to what is not being said and what is not happening. Change is hard work, yet fulfilling.
 
-# The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
+## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
 
 The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholders. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team.
 
@@ -303,7 +303,7 @@ A Scrum Team has aligned autonomy. Aligned autonomy means the Scrum Team has the
 
 For successful outcomes, the Scrum Team and Supporters should cultivate a willingness to unlearn outdated principles. Inspection and Adaptation require a climate that anticipates and tolerates mistakes. It is essential to _Focus_ criticism on ideas rather than individuals. All Scrum Team members ‘play on the same field’ with coherently overlapping work, and are all accountable for success.
 
-## Stakeholder {#stakeholder}
+### Stakeholder {#stakeholder}
 
 Stakeholder is a role. A Stakeholder is an entity, individual, or group interested in, affected by, or impacting inputs, activities, and outcomes. Stakeholders have a direct or indirect interest inside or outside the organization, its products, or services.
 
@@ -327,13 +327,13 @@ The term satisfaction gap means the difference between what Stakeholders experie
 
 Governance refers to structures, standards, regulations, norms, processes, and practices that consciously constrain and guide a Product’s direction, decision-making, and accountability. Governance fosters transparency and guides adherence to standards of value, viability, and professionalism. It provides mechanisms for managing risks and adapting the Product to changing needs or environments, supporting its long-lived and evolutionary nature. For a successful Scrum adoption, it’s crucial that governance is coherent with Scrum, e.g., a single point of contact per governance area, who has intentional interactions around quality and compliance with the Scrum Team, regular Inspection and Adaptation of the governance, and no surprises.
 
-### Supporter
+#### Supporter
 
 Supporter is a specific Stakeholder type. Supporters are supporting Stakeholders and change agents. Supporters are often part of a powerful guiding coalition (83), who remove demotivating factors and inspire. Supporters support the Scrum Team to thrive and influence the organization's workflows, processes, systems, Products, services, and work environment to become coherent with a Scrum adoption and emergence (71). Supporters should participate when and where needed or as requested. Value creation often requires effective and constructive collaboration with other Stakeholders.
 
 Depending on the size of the organization, examples of Supporters include (but are not limited to) colleagues, decision-makers, financial sponsors, governance oversight, managers, subject matter experts, marketing, HR, finance, procurement, and early adopters. Supporters who do not empower Scrum Teams to do what is recommended in this document are not really Supporters. Executives and board members have a crucial role in fostering a climate where Supporters support. Supporters should demonstrate leadership that the Scrum Team appreciates.
 
-### Artificial Intelligence
+#### Artificial Intelligence
 
 Artificial Intelligence (AI) is increasingly part of the work environment and may significantly expand a Scrum Team’s capabilities in discovery, decision-making, product development, and value realization.
 
@@ -362,7 +362,7 @@ Scrum encourages the Scrum Team to experiment with AI responsibly using small, s
 
 The focus should remain on the human dynamics of teamwork and collaboration, with AI positioned as a potential aid.
 
-## Product Developer {#product-developer}
+### Product Developer {#product-developer}
 
 ‘Product Developer’ is a role and an accountability. All Product Developers together should possess all the skills needed to create Increments. The combined skill set is often referred to as cross-functional.
 
@@ -386,7 +386,7 @@ Product Developers are always collectively accountable for:
 
 Context matters, it is crucial to consider the specific circumstances. But as a rule of thumb, a Product Developer who is neither willing nor ready nor able to be a professional should step down as a Product Developer.
 
-## Product Owner {#product-owner}
+### Product Owner {#product-owner}
 
 Product Owner is a role and an accountability. The Product Owner must be human. To be effective, the Product Owner should be a leader for the product. The Product Owner maximizes long-term value and needs to know where the value is and when it is needed. The Product Owner is expected to work at all levels and across all relevant business areas. The Product Owner collaborates with Stakeholders, the Scrum Master, and the Product Developers to create value.
 
@@ -422,7 +422,7 @@ If the Scrum Team inadvisably works on multiple products, platforms, or projects
 
 The Product Owner is one person, not a committee or technology. Those wanting to change the Product Backlog need to convince the Product Owner. The Product Owner maximizes long-term value and often makes trade-offs in doing so.
 
-## Scrum Master {#scrum-master}
+### Scrum Master {#scrum-master}
 
 The Scrum Master is a role and an accountability. The Scrum Master must be human. The Scrum Master is a change agent who works at all organizational levels and across business areas. The Scrum Master leads by example and guides the effectiveness of the Product Owner, Scrum Team, Stakeholders, and Supporters in their adoption of Scrum. The Scrum Master understands complexity (30-35) and is skillful in enabling the next right thing.
 
@@ -490,7 +490,7 @@ The Scrum Master is one person, not a committee or technology, and serves the Pr
 
 Being a Scrum Master is a calling where helping others succeed is reward enough. A Scrum Master doesn’t seek the spotlight. Like any good leader, they give credit to others and take responsibility when things go wrong. Staying in the role for a longer time helps guide the Scrum Team toward its full potential, but only if the Product Developers collectively develop self-management. Parent-style Scrum Master behavior does not foster a self-managing Scrum Team. Context matters. But as a rule of thumb, a Scrum Master who is neither willing, ready, nor able to be an agent of change should step down as a Scrum Master.
 
-# The Scrum Artifacts in the Expansion Pack {#the-scrum-artifacts-in-the-expansion-pack}
+## The Scrum Artifacts in the Expansion Pack {#the-scrum-artifacts-in-the-expansion-pack}
 
 Scrum’s artifacts provide Transparency about what the Scrum Team and Stakeholders believe will deliver value. Thus, everyone can have the same basis for Inspection and Adaptation.
 
@@ -507,7 +507,7 @@ These commitments reinforce the pillars of Transparency, Inspection, and Adaptat
 
 If the Product Goal shifts often, it could indicate that something is off, perhaps due to a lack of _Focus_ on what matters. _Focus_ is about being professional and deciding what not to work on.
 
-## Product {#product}
+### Product {#product}
 
 The Product is an artifact. A Product can be a holistic experience or a platform. It can also be a service, physical, digital, or hybrid, delivering continuous value to Stakeholders (including but not limited to users).
 
@@ -528,7 +528,7 @@ Context matters. But as a rule of thumb, for a Product to create and maintain tr
 
 The Product is the manifestation of _why_ we do _what_ we do.
 
-### Commitment: Definition of Outcome Done
+#### Commitment: Definition of Outcome Done
 
 The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It’s often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations.
 
@@ -546,7 +546,7 @@ User eXperience (UX) or Customer eXperience (CX) debt is the sum of design and i
 
 Measures over time make Product, market, and Stakeholder trends (including but not limited to customer or user) transparent; these can be reviewed at any time during the Sprint, including the Sprint Review.
 
-## Increment {#increment}
+### Increment {#increment}
 
 The Increment is an artifact. It is the integration of the work completed to the standard of the Definition of Output Done. The Increment is an output and a product candidate.
 
@@ -554,7 +554,7 @@ Multiple Increments may be created within a Sprint through the completion of Pro
 
 The Increment is not completed until it meets the quality standard of the Definition of Output Done. Only an Increment can be released. An Increment should be a concrete stepping stone toward the Product Goal. Increments may be delivered to Stakeholders or released prior to the Sprint Review. _The best value validation is attained through result feedback._
 
-### Commitment: Definition of Output Done
+#### Commitment: Definition of Output Done
 
 The Definition of Output Done is a commitment. It formally describes the quality measures that express due diligence for the Increment so that it could be delivered to Stakeholders.
 
@@ -566,25 +566,25 @@ The Scrum Team is duty-bound to conform to the Definition of Output Done and con
 
 A released Increment enables result feedback for Definition of Outcome Done value validation.
 
-## Product Backlog {#product-backlog}
+### Product Backlog {#product-backlog}
 
 The Product Backlog is an artifact. It is the emergent, ordered (sequenced) list of Product Backlog Items needed to attain the Product Goal. The Product Backlog provides Transparency (work clarity) and is the single source of work for the Scrum Team in order to achieve the Product Goal. The Product Owner, always keeping value in mind, guides the ordering of the Product Backlog Items in the Product Backlog. A smaller Product Backlog often provides more Transparency.
 
-### Product Backlog Item
+#### Product Backlog Item
 
 A Product Backlog Item is a potentially valuable item in the Product Backlog. It is not necessarily in any specific format. It is intended to deal with a problem or opportunity. It can include Acceptance Criteria that can tell when work is completed, in addition to the Definition of Output Done. One might deliver exactly what was requested but still not deliver sufficient outcomes. So, a Product Backlog Item can also include clearly defined Outcome Criteria that can tell when sufficient value is delivered, in addition to what is already in the Definition of Outcome Done.
 
 A Product Backlog Item is a single piece of work that discovers or delivers value. A Product Backlog Item can evolve anytime, even while Product Developers work on it. During refinement, it is broken down into smaller, more understandable (mostly to the Scrum Team) Product Backlog Items that could deliver value. Occasionally, an item in the Product Backlog might not be related to the Product Goal; if this happens often, it’s worth examining if the _Focus_ level might not be where it needs to be. The Scrum Team and Stakeholders should _Focus_ on outcomes over outputs, keep the trade-off balance right, and not let the Scrum Team become a ‘feature-factory’ or ‘discovery-factory.’
 
-### Acceptance Criteria
+#### Acceptance Criteria
 
 Acceptance Criteria, if they exist, describe when an output for a specific Product Backlog Item is complete, in addition to the Definition of Output Done. Acceptance Criteria in refined items should provide unambiguous clarity on _what_ is requested. Acceptance Criteria include criteria specific to a Product Backlog Item not already addressed in the Definition of Output Done; they can be functional or non-functional. Acceptance Criteria can evolve anytime, even while Product Developers work on them.
 
-### Outcome Criteria
+#### Outcome Criteria
 
 Outcome criteria, if they exist, describe the intention of the Product Backlog Item; it is the _why_ behind the _what_. The fulfillment of Outcome Criteria often complements the Definition of Outcome Done for the Product. They can include criteria specific to a Product Backlog Item not already addressed in the Definition of Outcome Done. If questions arise, the Outcome Criteria provide direction; they can be in the form of a narrative or measures, ideally, the latter. Outcome Criteria can evolve anytime, even while Product Developers work on them.
 
-### Refinement
+#### Refinement
 
 Refinement is an activity. It may be formal (an additional event) or informal. Refinement is an ongoing emergent process that fosters clarity and reduces risk; it builds enough understanding and confidence that the selected or upcoming Product Backlog Items are ready (can be completed in accordance with the Definition of Output Done within a small number of days, or shorter). Various types of dependencies are considered.
 
@@ -592,7 +592,7 @@ Refinement involves breaking down Product Backlog Items into smaller, more under
 
 Participants often include Stakeholders and members of the Scrum Team; it is not uncommon for Product Developers to work directly with Stakeholders. Refinement is often supported or facilitated by the Product Owner. The Product Owner can _Focus_ more on product ownership if the Product Developers have a broad understanding of the Product. Generally speaking, it is a forward-looking activity that offers clarity, direction, and potential _Focus_ for upcoming Sprints.
 
-### Commitment: Product Goal
+#### Commitment: Product Goal
 
 The Product Goal is a commitment. It is represented through the Product Backlog, which is owned by the Product Owner. It is the current single, more strategic, ambitious objective (the _why_). It gives direction for the Product and enables _Focus_ for the Product Developers working on the Product. It improves Transparency by providing a clear, valuable direction for the Product Developers to work toward, using a more tactical Sprint Goal (the _why_ for the Sprint).
 
@@ -600,7 +600,7 @@ A Product Goal is the medium-term objective for the Scrum Team and the Stakehold
 
 A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders (including but not limited to customers or users) expectations and limits. Through Inspection and Adaptation, it’s essential to embrace uncertainty (72), result feedback, side effects, and other learnings.
 
-### What about a Product Vision?
+#### What about a Product Vision?
 
 Many organizations work with a Product Vision, which helps visualize a potential future. The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision.
 
@@ -610,7 +610,7 @@ The key thing to note is that a Product Vision is often a work of fiction; none 
 
 A Product Vision is often inspiring but can be overwhelming. The Product Goal reduces overwhelm by acting as a more tangible vertical slice of a Product Vision or as an enabler for a Product Vision.
 
-## Sprint Backlog {#sprint-backlog}
+### Sprint Backlog {#sprint-backlog}
 
 The Sprint Backlog is an artifact. It is composed of the Sprint Goal (the _why_ for the Sprint), the set of Product Backlog Items selected (the _what_, also known as the forecast) for the Sprint, and often has an actionable plan for delivering the Increment (the _how_). It provides Transparency (work clarity) throughout the Sprint.
 
@@ -618,13 +618,13 @@ The Sprint Backlog is a plan by and for the Product Developers. It is the Produc
 
 Within the context of the Sprint Goal, the Product Developers update their plan, even the forecast, throughout the Sprint as more is learned. The Sprint Backlog should have enough work to get started, e.g., start with one or two Product Backlog Items toward the Sprint Goal. The Product Developers inspect their progress toward the Sprint Goal in the Daily Scrum. Product Developers learn to adapt and respond to uncertainty (72).
 
-### Commitment: Sprint Goal
+#### Commitment: Sprint Goal
 
 The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint Goal is the single unifying objective of the Sprint (the _why_) for the Product Developers, created in Sprint Planning. Delivery of the Sprint Goal is a commitment by the Product Developers. The Sprint Backlog (including the _why_, the _what,_ and, often, the _how_) provides _Focus_ and flexibility regarding the evolving work, thus improving Transparency.
 
 The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work.
 
-# The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack}
+## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack}
 
 Scrum combines four timeboxed events for Inspection and Adaptation within a containing fifth event of determinate length, the Sprint. These events support the Scrum pillars of Transparency, Inspection, and Adaptation. Releases enable value, ideally, continuously. Infrequent releases lead to delayed result feedback.
 
@@ -636,7 +636,7 @@ Each event has its own purpose and should include deep, meaningful work. Togethe
 
 Communication is key to ensuring the Scrum Team and Supporters _Focus_ on the right thing. Apart from the Sprint, events may consume less time as long as coherence is not lost.
 
-## The Sprint {#the-sprint}
+### The Sprint {#the-sprint}
 
 The Sprint is an event where ideas are turned into value. The Sprint is the container event. It is an iteration of a determinate time in which work is carried out. It provides _Focus_ and stability. A Sprint is no longer than four weeks. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal happens within Sprints.
 
@@ -659,7 +659,7 @@ You could think about a Sprint as a mini project with a clear outcome, determina
 
 A Sprint could be canceled if the Sprint Goal becomes obsolete. Only the Product Owner has the authority to cancel the Sprint. Shorter Sprints lower the likelihood of a cancellation.
 
-## Sprint Planning {#sprint-planning}
+### Sprint Planning {#sprint-planning}
 
 Sprint Planning is an event. This first event of the Sprint is where the Scrum Team gives _Focus_ and creates commitment.
 
@@ -667,11 +667,11 @@ During Sprint Planning, the more strategic Product Goal (the _why_ for the Produ
 
 Sprint Planning addresses the following topics:
 
-### The _Why_ for the Sprint
+#### The _Why_ for the Sprint
 
 The Product Owner proposes ideas for how the product could increase its value and utility in the current Sprint. The Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to Stakeholders toward the Product Goal. The Sprint Goal must be finalized by the end of Sprint Planning.
 
-### The _What_ toward the _Why_
+#### The _What_ toward the _Why_
 
 Through collaboration with the Product Owner, the Product Developers select items from the Product Backlog to include in the current Sprint. The Scrum Team may refine these items, which increases understanding and confidence. Selected items should be achievable according to the standard of the Definition of Output Done, alongside other items.
 
@@ -679,13 +679,13 @@ Selecting how much can be completed within a Sprint may be challenging. However,
 
 Successful Scrum Teams do not overload themselves. In fact, they plan to finish work early, sometimes using a buffer for unexpected events (85). This helps the Scrum Team to stay focused, improve quality, and satisfy stakeholders by delivering value sooner. Chronic overload or sudden shifts can cause excessive negative stress, which Jeff Sutherland calls 'Bayesian surprise.' They can disrupt the Scrum Team’s psychological flow (70) and performance. Clear communication, professional handling of emergence (71), and small, regular changes help prevent this, so Scrum Teams should aim for early delivery.
 
-### The _How_ for the _What_
+#### The _How_ for the _What_
 
 How the work is done is at the sole discretion of the Product Developers. No one else tells the Product Developers how to do their work. The Product Developers select their own work; no one else assigns or pushes Product Backlog Items to the Product Developers, not even the Product Owner.
 
 Sprint Planning is timeboxed to a maximum of eight hours for a four-week Sprint. The event is usually shorter for shorter Sprints. Context matters. But as a rule of thumb, do enough planning to get started with the work, e.g., plan a few Product Backlog Items toward the Sprint Goal.
 
-## Daily Scrum {#daily-scrum}
+### Daily Scrum {#daily-scrum}
 
 The Daily Scrum is an event. At the Daily Scrum, the Product Developers collaborate on progress toward the Sprint Goal and update the actionable plan, the Sprint Backlog, until the next Daily Scrum. In the event the Sprint Goal has already been achieved, the Product Developers collaborate on meaningful progress toward the Product Goal.
 
@@ -699,7 +699,7 @@ To enable the flow of value (68,69) and enable potential outcomes sooner, the Pr
 
 The Daily Scrum is timeboxed to a maximum of fifteen minutes per day; it may be shorter.
 
-## Sprint Review {#sprint-review}
+### Sprint Review {#sprint-review}
 
 The Sprint Review is an event. It is an interactive, collaborative working session. Often, the Scrum Team shares the current Product Goal and presents the Definition of Output Done and the Definition of Outcome Done to the Stakeholders. The Scrum Team shares the results of their work, what trade-offs were made, and how much progress was made toward the Product Goal (the why behind the work). If available, current and up-to-date measures of progress toward the Definition of Outcome Done are shared and considered.
 
@@ -715,7 +715,7 @@ It’s always important to consider Stakeholders and what they value, including 
 
 The Sprint Review is the second-to-last event of the Sprint and is timeboxed to a maximum of four hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
 
-## Sprint Retrospective {#sprint-retrospective}
+### Sprint Retrospective {#sprint-retrospective}
 
 The Sprint Retrospective is an event. At this event, the Scrum Team agrees on how to improve. Bad assumptions are also explored, i.e., assumptions that led the Scrum Team in the wrong direction. Good things like particular technologies, processes, patterns, etc., might also be pointed out and reinforced. Inspected elements often vary with the domain of work. Reflection is more effective in a psychologically safe environment.
 
@@ -737,7 +737,7 @@ The most impactful improvements should be addressed as soon as possible. The Scr
 
 The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
 
-# Multi-Scrum-Team Products {#multi-scrum-team-products}
+## Multi-Scrum-Team Products {#multi-scrum-team-products}
 
 If a Scrum Team becomes too large, it should consider reorganizing into multiple cohesive Scrum Teams, each focused on the same product. Multiple Scrum Teams on the same product should share the same Product Goal, Product Backlog, Product Owner, baseline Definition of Outcome Done, and baseline Definition of Output Done.
 
@@ -774,7 +774,7 @@ Free teams from command and control. Err on the side of aligned autonomy. Foster
 
 When in doubt, study the New New Product Development Game (29), embrace the good of what’s new in the present, but abandon any notions of an industrial complex (30-35) where only the brave people have the agency to do anything.
 
-# End Note {#end-note}
+## End Note {#end-note}
 
 Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (36,37) on Complex Adaptive Systems (CAS) (74-77) theory from Los Alamos Labs, which shows that systems evolve quicker at the edge of chaos.
 
@@ -786,7 +786,7 @@ Attain at least one Increment each Sprint as a habit before you adapt Scrum. Eve
 
 Be careful about copying approaches from other organizations without also fostering their culture. Emergent change in the direction of travel is the change. The change includes (but is not limited to) leadership, workflows, processes, and systems, including HR, Finance, Procurement, and more. Scrum is part of a never-ending expedition of continual improvement and evolution in a direction of travel rather than a destination.
 
-## Acknowledgments {#acknowledgments}
+### Acknowledgments {#acknowledgments}
 
 Scrum was inspired by Lean (63), the Toyota Production System (59-60), the Harvard Business Review article 'The New New Product Development Game' by Hirotaka Takeuchi and Ikujiro Nonaka (29), and Empiricism at Dupont (61).
 
@@ -794,9 +794,7 @@ Scrum was developed in the early 1990s. Ken Schwaber and Jeff Sutherland first c
 
 We also thank reviewers who provided feedback to earlier drafts, including but not limited to, Daryn Basson, Alex Benes, Deb Bhattacharya, Magdalena Firlit, Peter Fischbach, Michael Forni, Tom Gilb, Martin Hinshelwood, Jesse Houwing, Michael Huynh, Matthew Ijogi, Marc Kaufmann, Christian Neverdal, Stas Pavlov, Ian Sharp, Alisa Stolze, Mark Summers, and Nader Talai.
 
-#
-
-# Scrum _Expanded_ on One Page {#scrum-expanded-on-one-page}
+## Scrum _Expanded_ on One Page {#scrum-expanded-on-one-page}
 
 Scrum is described in the [2020 Scrum Guide](https://scrumguides.org/) (40). Scrum is a lightweight framework for addressing complex (30-35) work, particularly in product discovery, development, delivery, and value realization. Scrum is based on empirical process control (decisions informed by evidence) and lean thinking (reducing waste and focusing on the flow of value) (63). Scrum is purposefully incomplete, guiding interactions rather than prescribing detailed recipes.
 
@@ -841,9 +839,7 @@ Scrum enables Scrum Teams to identify, represent, or measure emergence (71), emb
 - Product Backlog & Product Goal – the ordered (sequenced) list of work to achieve a medium-term, more strategic objective.
 - Sprint Backlog & Sprint Goal – Selected Product Backlog Items and a plan for the Sprint, short-term objective.
 
-#
-
-# Expansion Log {#expansion-log}
+## Expansion Log {#expansion-log}
 
 Additions
 
@@ -893,7 +889,7 @@ Suggestions
 - De-emphasis of the nebulous organization in order to attach the change to roles
 - More intentional observance of the Scrum Values, considering the context
 
-# Appendix {#appendix}
+## Appendix {#appendix}
 
 **Section 2: MORE executive SUCCESS extract**  
 Title: MORE executive SUCCESS extract  
@@ -902,19 +898,19 @@ Source: (6)
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), © 2017-2025 Orderly Disruption Limited  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
-# The Adaptive Enterprise {#the-adaptive-enterprise}
+### The Adaptive Enterprise {#the-adaptive-enterprise}
 
 It’s difficult for an enterprise to be adaptive (80) without a climate where words and actions match. Over eighty engagement models were studied. Amongst those were scaling or descaling frameworks, and product operating models, which can be useful for multi-Scrum-Team products. Models range from going too far to not doing enough in helping the product organization become more adaptive. There is no grand, universal truth or context-free ‘Goldilocks zone.’
 
 Of the engagement models studied, there are a number of notable contenders, including but not limited to Beyond Budgeting, Humanocracy, and Sociocracy, that, depending on the context, should be explored. Consider the combination with each other and with other approaches.
 
-## Beyond Budgeting {#beyond-budgeting}
+### Beyond Budgeting {#beyond-budgeting}
 
 Beyond Budgeting (15-28, 90-98, 103\) is a management philosophy that rejects traditional, rigid annual budgeting in favor of a decentralized and adaptive approach to organizational control and performance management. It is built on 12 guiding principles-six focused on leadership and six on management processes-that promote decentralized decision-making, transparency, team autonomy, and a strong alignment with customer value.
 
 Instead of fixed targets and detailed annual plans, Beyond Budgeting encourages dynamic goal-setting, continuous planning, and allocation informed by real-time needs, fostering adaptiveness and responsiveness in a rapidly changing business environment. This approach aims to empower teams, enhance innovation, and ensure organizations are better equipped to navigate uncertainty (72) and complexity (30-35). Beyond Budgeting is badly named (false assumption it’s only about Finance) and well named at the same time (indeed going beyond budgeting).
 
-## Humanocracy {#humanocracy}
+### Humanocracy {#humanocracy}
 
 Humanocracy (2), as defined by Gary Hamel, is a management model that replaces rigid hierarchies and centralized control with systems that maximize each person’s contribution and creativity. In a humanocracy, organizations exist to serve and empower people, not just treat employees as resources for company goals.
 
@@ -922,7 +918,7 @@ It is built on principles like distributed ownership, meritocracy, openness, exp
 
 While models like Haier’s Rendanheyi (56, 101\) share values of decentralization and empowerment, humanocracy is a broader philosophy focused on replacing bureaucracy with people-centric principles that unlock collective capability and value.
 
-## Sociocracy {#sociocracy}
+### Sociocracy {#sociocracy}
 
 Sociocracy (11-14) is a governance system that organizes people into self-managing (47) circles and makes decisions by consent, not majority vote. Developed by Gerard Endenburg (81) in the Netherlands in the 1970s, it ensures everyone affected by a decision has a voice, with proposals advancing unless a reasoned objection is raised. Guided by the principle of 'good enough for now, safe enough to try,' sociocracy distributes authority, promotes transparency, accountability, and continuous improvement, and fosters collaboration and shared ownership. Its principles have influenced models like Holacracy and self-managing teams.
 
@@ -930,7 +926,7 @@ The most established variant is the Sociocratic Circle-Organization Method (SCM)
 
 While newer variants like Sociocracy 3.0 (S3) offer more flexibility, SCM remains the most historically validated and widely documented form of sociocracy.
 
-# The Adaptive Executive or Board Member {#the-adaptive-executive-or-board-member}
+### The Adaptive Executive or Board Member {#the-adaptive-executive-or-board-member}
 
 MORE Executive SUCCESS identifies a number of opportunities for executives and board members:
 
@@ -949,19 +945,19 @@ Many players and engagement models purportedly support executive adaptiveness, w
 
 Whether using tactics, strategies, methods, and frameworks or none, organizations should first embrace the ethos that underpins ambidexterity, humane effectiveness, adaptiveness, and timeliness at the top. Otherwise, executives and board members will continue to oversee 'change theater' and an incomplete patchwork of timely, humane, effective pockets within organizations.
 
-## Shining a Light on Executive Behavior {#shining-a-light-on-executive-behavior}
+#### Shining a Light on Executive Behavior {#shining-a-light-on-executive-behavior}
 
 Executive and board member posture or actions will influence the new behavior of others more than any of their words or directives. Nevertheless, it would be best to revise the questions asked to improve ambidexterity, humane effectiveness, adaptiveness, and timeliness.
 
 Ambidexterity, humane effectiveness, adaptiveness, and timeliness require the eventual extinction of incoherent executive behavior. Examples of more helpful behaviors are accepting failure, seeking information before judging, giving opportunities to try something new to learn things, making it okay not to know, and helping people focus. There are some notable options for dealing with executive behavior.
 
-### Immunity To Change®
+##### Immunity To Change®
 
 Lisa Laskow Lahey and Robert Kegan (principals at The Developmental Edge) created a change approach known as Immunity to Change® (3,4). People often know what to do, but they won’t do it because of conflicting internal commitments. Metaphorically, people have 'one foot on the gas and one foot on the brake'.
 
 *I*mmunity to Change® is a framework for defining those 'hidden commitments' and 'limiting assumptions' that prevent people from changing and realizing their goals. The Immunity to Change® theory and map have helped countless professionals and organizations to unearth and move beyond the commitments preventing their professional and organizational growth.
 
-### Intent-Based Leadership®
+##### Intent-Based Leadership®
 
 _Intent-Based Leadership® (IBL)_ (7, 8, 9\) _is a language teams use for high performance that replaces the programmed industrial-age language. IBL stresses the concept of intent from leaders and the team. It is based on the books Turn The Ship Around and Leadership is Language by L. David Marquet._
 
@@ -979,7 +975,7 @@ _Disclaimer: No warranties are given. Use at your own risk._
 _This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _By using this Cynefin Framework Kind of Explanation unofficial & unauthorized, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
 
-## Cynefin® {#cynefin®}
+#### Cynefin® {#cynefin®}
 
 Cynefin® (30-35) offers a compass for leadership decision-making. It was popularized by the HBR article ‘A Leader's Framework for Decision Making’ by Dave Snowden and Mary Boone in 2007 and again in ‘Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework’, also known as the ‘EU Field Guide.’ Its premise is that one should act differently depending on the dynamics of the space. It is often oversimplified. A given problem could exist in all domains simultaneously, each having different aspects.
 
@@ -1081,7 +1077,7 @@ Author: Roger L. Martin, Tom Gilb
 Source: (41), (43-48)  
 Copyright: All rights reserved. Adapted
 
-## Emergent Strategy {#emergent-strategy}
+#### Emergent Strategy {#emergent-strategy}
 
 Strategy is not limited by scale; if it exists, it should be clearly articulated at the corporate, business unit, or product level and remain coherent and integrated across these levels. Crucially, strategy should distinguish between ends (quantified, Stakeholder-valued outcomes) and means (initiatives or activities).
 
@@ -1144,13 +1140,11 @@ An Emergent Strategy is supported by an emergent outcome-oriented roadmap, which
 
 Emergent strategy deployment means letting plans and actions develop naturally as the Scrum Team and Stakeholders respond to real-world changes. Instead of following a fixed path, they pay attention to what is happening around them and make adjustments as they go. Over time, the steps taken form a pattern that becomes the actual strategy, even if it’s different from what was first intended.
 
-# Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
+## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
 This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
 
-#
-
-# References {#references}
+## References {#references}
 
 1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (April 5, 2023)._
 2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (April 5, 2023)._
