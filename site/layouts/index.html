@@ -29,22 +29,35 @@
                 <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">Join the Discussion</a>
               </div>
             </div>
-           </div>
-            <div class="col-12 col-xl-6">
+           </div>            <div class="col-12 col-xl-6">
             <h2 class="text-center">About the creators of Scrum Guide Expansion Pack</h2>
 
               {{- range where .Site.Pages "Section" "creators" }}
               {{- if ne .Title "Creators" }}
-              <div class="card">
-                  <div class="card-body text-center">
-                    <i class="fa-solid fa-user-tie mb-3"></i>
-                    <h5 class="card-title">{{ .Title }}</h5>
-                    <p class="card-text">{{ .Description }}</p>
+              <div class="card mb-3">
+                <div class="row g-0">     
+                  <div class="col-md-4">
+                    {{- $imageResource := "" }}
+
+                      {{- $urlifiedTitle := .Title | urlize }}
+                      {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
+                    {{- if $imageResource }}
+                    <img src="{{ $imageResource.RelPermalink }}" class="img-fluid rounded-start h-100" alt="{{ .Title }}" style="object-fit: cover;">
+                    {{- else }}
+                    <div class="d-flex align-items-center justify-content-center h-100 bg-light rounded-start">
+                      <i class="fa-solid fa-user-tie fa-3x text-muted"></i>
+                    </div>
+                    {{- end }}
                   </div>
-                  <div class="card-footer text-center">
-                    <a href="{{ .Permalink }}" class="btn btn-outline-primary">Read {{.Params.short_title | default .Title}}'s bio</a>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ .Title }}</h5>
+                      <p class="card-text">{{ .Description }}</p>
+                      <a href="{{ .Permalink }}" class="btn btn-outline-primary">Read {{.Params.short_title | default .Title}}'s bio</a>
+                    </div>
                   </div>
                 </div>
+              </div>
               {{- end }}
               {{- end }}   
           </div>
