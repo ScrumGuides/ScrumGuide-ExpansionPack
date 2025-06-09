@@ -1,4 +1,7 @@
 # French translations
+- id: and
+  translation: "et"
+
 - id: read_online_title
   translation: "Lire {{ .Site.Title }} en ligne"
 
@@ -28,6 +31,67 @@
 
 - id: guide_content_not_found
   translation: "Contenu du guide non trouvé"
+
+# Download page translations
+- id: download_page_title
+  translation: "Télécharger le {{ .Title }} officiel"
+
+- id: download_page_description
+  translation: "{{ .Title }} est défini ici par"
+
+- id: download_page_originators
+  translation: ", les créateurs du {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Les traductions sont fournies par les généreux individus et groupes listés ci-dessous. Veuillez sélectionner le guide dans la langue que vous souhaitez télécharger."
+
+- id: download_translation_error
+  translation: "Si vous avez trouvé une possible erreur de traduction avec le {{ .Title }}, veuillez contacter directement le traducteur. Si vous avez besoin d'un support supplémentaire, veuillez contacter"
+
+- id: download_official_version
+  translation: "Version Officielle"
+
+- id: download_community_translations
+  translation: "Traductions Communautaires"
+
+- id: download_current_version_released
+  translation: "La version officielle actuelle du Guide Scrum a été publiée en"
+
+- id: download_older_translations_notice
+  translation: "Les traductions du Guide Scrum avec des dates plus anciennes peuvent ne pas contenir les informations les plus récentes. Veuillez naviguer vers la page d'Historique des Révisions du Guide Scrum pour voir les changements majeurs."
+
+- id: download_table_language
+  translation: "Langue"
+
+- id: download_table_translations_by
+  translation: "Traduit Par"
+
+- id: download_table_action
+  translation: "Action"
+
+- id: download_official_current_version
+  translation: "Version Officielle Actuelle"
+
+- id: download_button_text
+  translation: "Télécharger"
+
+- id: download_coming_soon
+  translation: "Bientôt Disponible"
+
+- id: download_missing_language
+  translation: "Votre langue manque ?"
+
+- id: download_contribute_translation
+  translation: "Aidez la communauté en contribuant une nouvelle traduction."
+
+- id: download_add_translation
+  translation: "Ajouter une Traduction"
+
+- id: download_community_contributors
+  translation: "Contributeurs Communautaires"
+
+- id: read_online_action
+  translation: "Lire en Ligne"
 
 # Navigation translations
 - id: nav_read_online

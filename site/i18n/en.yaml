@@ -1,4 +1,7 @@
 # English translations
+- id: and
+  translation: "and"
+
 - id: read_online_title
   translation: "Read the {{ .Site.Title }} online"
 
@@ -59,3 +62,64 @@
 
 - id: nav_faq
   translation: "FAQ"
+
+# Download page translations
+- id: download_page_title
+  translation: "Download the official {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} is defined here by"
+
+- id: download_page_originators
+  translation: ", the originators of the {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Translations provided by the generous individuals and groups listed below. Please select the guide in the language you would like to download."
+
+- id: download_translation_error
+  translation: "If you have found a possible translation error with the {{ .Title }} please contact the translator directly. If you need additional support please contact"
+
+- id: download_official_version
+  translation: "Official Version"
+
+- id: download_community_translations
+  translation: "Community Translations"
+
+- id: download_current_version_released
+  translation: "The current official version of the Scrum Guide was released in"
+
+- id: download_older_translations_notice
+  translation: "Translations of the Scrum Guide with older dates may not contain the most recent information. Please navigate to the Scrum Guide Revision History page to see the major changes."
+
+- id: download_table_language
+  translation: "Language"
+
+- id: download_table_translations_by
+  translation: "Translations By"
+
+- id: download_table_action
+  translation: "Action"
+
+- id: download_official_current_version
+  translation: "Official Current Version"
+
+- id: download_button_text
+  translation: "Download"
+
+- id: download_coming_soon
+  translation: "Coming Soon"
+
+- id: download_missing_language
+  translation: "Missing your language?"
+
+- id: download_contribute_translation
+  translation: "Help the community by contributing a new translation."
+
+- id: download_add_translation
+  translation: "Add Translation"
+
+- id: download_community_contributors
+  translation: "Community Contributors"
+
+- id: read_online_action
+  translation: "Read Online"

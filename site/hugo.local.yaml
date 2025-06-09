@@ -7,17 +7,24 @@ buildExpired: true
 disableAliases: true
 
 languages:
-  es:
-    languageName: Español
-    weight: 2
-    title: Paquete de expansión de la Guía Scrum
-    params:
-      description: "Paquete de expansión de la Guía Scrum"
-      keywords: "Scrum"
   de:
     languageName: Deutsch
-    weight: 3
-    title: Scrum‑Guide Erweiterungspaket
+    weight: 2
+    title: Scrum Guide Erweiterungspaket
     params:
-      description: "Scrum‑Guide Erweiterungspaket"
+      description: "Scrum Guide Erweiterungspaket"
+      keywords: "Scrum"
+  es:
+    languageName: Español
+    weight: 3
+    title: Paquete de Expansión de la Guía Scrum
+    params:
+      description: "Paquete de Expansión de la Guía Scrum"
+      keywords: "Scrum"
+  fr:
+    languageName: Français
+    weight: 4
+    title: Pack d'Extension du Guide Scrum
+    params:
+      description: "Pack d'Extension du Guide Scrum"
       keywords: "Scrum"

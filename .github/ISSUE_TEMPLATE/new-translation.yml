@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         Thanks for your interest in contributing a translation to the Scrum Guide Expansion Pack! 
-        
+
         Please fill out the form below to request a new translation. Once approved, we'll provide you with the necessary resources and guidance to get started.
 
   - type: input
@@ -116,11 +116,11 @@ body:
     attributes:
       value: |
         ---
-        
+
         **Next Steps:**
         1. A project maintainer will review your request
         2. If approved, you'll receive access to translation resources and guidelines
         3. You'll be added to the translation coordination process
         4. Upon completion, your translation will be published and you'll be credited
-        
+
         Thank you for your contribution to the Scrum community! 🎉

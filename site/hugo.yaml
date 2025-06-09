@@ -14,6 +14,27 @@ languages:
     params:
       description: "Scrum Guide Expansion Pack"
       keywords: "Scrum"
+  de:
+    languageName: Deutsch
+    weight: 2
+    title: Scrum Guide Expansion Pack
+    params:
+      description: "Scrum Guide Expansion Pack"
+      keywords: "Scrum"
+  es:
+    languageName: Español
+    weight: 3
+    title: Scrum Guide Expansion Pack
+    params:
+      description: "Scrum Guide Expansion Pack"
+      keywords: "Scrum"
+  fr:
+    languageName: Français
+    weight: 4
+    title: Scrum Guide Expansion Pack
+    params:
+      description: "Scrum Guide Expansion Pack"
+      keywords: "Scrum"
 
 summaryLength: 30
 
