@@ -4,6 +4,10 @@
       <!-- Sidebar with table of contents -->
       <aside class="col-md-3 position-sticky" style="top: 1rem; max-height: 100vh;">
         <nav class="content-list bg-light p-3 rounded h-100 d-flex flex-column">
+          <div class="content-collaboration d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom">
+            <a href="{{ .Site.Params.githubUrl }}/discussions" class="text-decoration-none text-primary"> <i class="fa-solid fa-comments me-1"></i>Join Discussion </a>
+            {{ partial "components/share-dropdown.html" . }}
+          </div>
           <h4 class="h6 text-muted mb-3 flex-shrink-0">Table of Contents</h4>
           <div class="overflow-auto flex-grow-1">
             {{ .Page.TableOfContents }}
@@ -16,7 +20,7 @@
         <div class="content-wrapper px-3">
           <article class="content-details">
             <header class="content-header">
-              <h2 class="content-title">{{ .Title }}ss</h2>
+              <h2 class="content-title">{{ .Title }}</h2>
               {{ if .Date }}
                 <div class="publish-date">
                   <time datetime="{{ .Date.Format "2006-01-02" }}">
@@ -48,7 +52,7 @@
               </div>
             </header>
 
-            <div class="content-body">{{ .Content }}</div>
+            <div class="content-body pt-3">{{ .Content }}</div>
 
             <footer class="content-footer mt-4">
               <nav class="content-navigation d-flex justify-content-between">
