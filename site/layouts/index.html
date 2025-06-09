@@ -1,8 +1,54 @@
 {{- define "main" }}
- 
-  <section class="section">
+  <section class="section container-fluid main-header">
     <div class="container">
-     fgfdgfdgdfg
-      
+      <div class="row">       
+         <div class="col-4 p-5">          
+          <div class="card card-dark">            <div class="card-body text-center">
+              <i class="fa-solid fa-newspaper"></i>
+              <h5 class="card-title">Read the official Scrum Guide Expansion Pack online</h5>
+              <p class="card-text">This is a sample card with some text content. You can replace this with your own content.</p>
+            </div>
+            <div class="card-footer">
+              <a href="/read-online/" class="btn btn-primary">Read online</a>
+          </div>
+        </div>
+    </div>
   </section>
+    <section class="section container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-6">
+            <div>
+                <div class="col-12">
+                <h2 class="text-center">What is the Scrum Guide Expansion Pack?</h2>
+                <p class="lead text-center">This is a sample page for the Scrum Guide Expansion Pack. You can customize this content as needed.</p>
+              </div>
+              <div class="col-12">
+                <h2 class="text-center">Share your Ideas!</h2>
+                <p class="lead text-center">If you have ideas for improving the website or the Scrum Guide Expansion Pack itself, please share them! You may do so by sending a message to our support e-mail.</p>
+                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">Join the Discussion</a>
+              </div>
+            </div>
+           </div>
+            <div class="col-12 col-xl-6">
+            <h2 class="text-center">About the creators of Scrum Guide Expansion Pack</h2>
+
+              {{- range where .Site.Pages "Section" "creators" }}
+              {{- if ne .Title "Creators" }}
+              <div class="card">
+                  <div class="card-body text-center">
+                    <i class="fa-solid fa-user-tie mb-3"></i>
+                    <h5 class="card-title">{{ .Title }}</h5>
+                    <p class="card-text">{{ .Description }}</p>
+                  </div>
+                  <div class="card-footer text-center">
+                    <a href="{{ .Permalink }}" class="btn btn-outline-primary">Read {{.Params.short_title | default .Title}}'s bio</a>
+                  </div>
+                </div>
+              {{- end }}
+              {{- end }}   
+          </div>
+        </div>
+      </div>
+    </section>
 {{- end }}

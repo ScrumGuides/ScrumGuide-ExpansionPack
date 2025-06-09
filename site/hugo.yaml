@@ -17,6 +17,7 @@ params:
   keywords: "Scrum"
   og_image: "/images/og-image.jpg" # URL to the default Open Graph image
   siteProdUrl: "https://scrumguidesexpansionpack.org"
+  githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"
 
 # Enable sitemap and robots.txt
 sitemap:
