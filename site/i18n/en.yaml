@@ -86,10 +86,10 @@
   translation: "Community Translations"
 
 - id: download_current_version_released
-  translation: "The current official version of the Scrum Guide was released in"
+  translation: "The current official version of the {{ .Site.Title }} was released in"
 
 - id: download_older_translations_notice
-  translation: "Translations of the Scrum Guide with older dates may not contain the most recent information. Please navigate to the Scrum Guide Revision History page to see the major changes."
+  translation: "Translations of the {{ .Site.Title }} with older dates may not contain the most recent information."
 
 - id: download_table_language
   translation: "Language"

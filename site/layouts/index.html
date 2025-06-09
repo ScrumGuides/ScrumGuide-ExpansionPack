@@ -34,7 +34,7 @@
                 {{- if $pdfResource }}
                   <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary" download>{{ i18n "download_button" . }}</a>
                 {{- else }}
-                  <a href="#" class="btn btn-primary" download><i class="fa-solid fa-ban"></i> {{ i18n "download_button" . }}</a>
+                  <a href="#" class="btn btn-primary disabled" download><i class="fa-solid fa-ban"></i> {{ i18n "download_button" . }}</a>
                 {{- end }}
               {{ end }}
             </div>

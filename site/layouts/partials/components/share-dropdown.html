@@ -26,9 +26,9 @@
   {{ .Page.Scratch.Set $cacheKey true }}
   {{ $url := "" }}
   {{ if eq .Type "resources" }}
-    {{ $url = printf "https://nkdagility.com/resources/%s" .Params.ResourceId }}
+    {{ $url = printf "https://scrumexpansion.org/resources/%s" .Params.ResourceId }}
   {{ else }}
-    {{ $url = printf "https://nkdagility.com%s" .RelPermalink }}
+    {{ $url = printf "https://scrumexpansion.org%s" .RelPermalink }}
   {{ end }}
 
 
