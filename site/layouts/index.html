@@ -3,14 +3,44 @@
     <div class="container">
       <div class="row">
         <div class="col-4 p-5">
-          <div class="card card-dark">
-            <div class="card-body text-center">
-              <i class="fa-solid fa-newspaper"></i>
+          <div class="card card-dark h-100">
+            <div class="card-body text-center d-flex flex-column">
+              <i class="header-icon fa-solid fa-newspaper"></i>
               <h5 class="card-title">{{ i18n "read_online_title" . }}</h5>
-              <p class="card-text">{{ i18n "read_online_description" }}</p>
+              <p class="card-text flex-grow-1">{{ i18n "read_online_description" . }}</p>
             </div>
             <div class="card-footer">
               <a href="{{ (.Site.GetPage "/guide").Permalink }}" class="btn btn-primary">{{ i18n "read_online_button" }}</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 p-5">
+          <div class="card card-dark h-100">
+            <div class="card-body text-center d-flex flex-column">
+              <i class="header-icon fa-solid fa-download"></i>
+              <h5 class="card-title">{{ i18n "download_title" . }}</h5>
+              <p class="card-text flex-grow-1">{{ i18n "download_description" . }}</p>
+            </div>
+            <div class="card-footer">
+              {{- $guidePage := .Site.GetPage "/guide" }}
+              {{- $pdfResource := $guidePage.Resources.GetMatch "*.pdf" }}
+              {{- if $pdfResource }}
+                <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary" download>{{ i18n "download_button" . }}</a>
+              {{- else }}
+                <a href="/pdf/{{ $guidePage.Title | urlize }}.pdf" class="btn btn-primary" download>{{ i18n "download_button" . }}</a>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+        <div class="col-4 p-5">
+          <div class="card card-dark h-100">
+            <div class="card-body text-center d-flex flex-column">
+              <i class="header-icon fa-solid fa-comments"></i>
+              <h5 class="card-title">{{ i18n "join_discussion_title" . }}</h5>
+              <p class="card-text flex-grow-1">{{ i18n "join_discussion_description" . }}</p>
+            </div>
+            <div class="card-footer">
+              <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary">{{ i18n "join_discussion_button" }}</a>
             </div>
           </div>
         </div>

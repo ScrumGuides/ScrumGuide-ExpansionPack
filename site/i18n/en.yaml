@@ -20,6 +20,21 @@
 - id: join_discussion_button
   translation: "Join the Discussion"
 
+- id: join_discussion_title
+  translation: "Join the {{ .Site.Title }} Discussion"
+
+- id: join_discussion_description
+  translation: "Engage with the community, share your insights, and help shape the future of the {{ .Site.Title }}. Your contributions are invaluable in making this guide a comprehensive resource for Scrum practitioners."
+
+- id: download_title
+  translation: "Download the {{ .Site.Title }}"
+
+- id: download_description
+  translation: "Get the complete {{ .Site.Title }} in PDF format for offline reading. Perfect for those who prefer a physical copy or need to reference the guide without an internet connection."
+
+- id: download_button
+  translation: "Download PDF"
+
 - id: about_creators_title
   translation: "About the creators of {{ .Site.Title }}"
 
