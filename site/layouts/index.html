@@ -26,8 +26,9 @@
               <h2 class="text-center">{{ i18n "what_is_guide_title" . }}</h2>
               <div class="lead text-center">
                 {{- $guidePage := .Site.GetPage "/guide" }}
-                {{- if $guidePage }}
-                  {{ $guidePage.Params.guide_whatis | default $guidePage.Summary | markdownify }}
+                {{- $guideWhatis := partial "functions/get-page-param-with-default.html" (dict "page" $guidePage "param" "guide_whatis" "context" .) }}
+                {{- if $guideWhatis }}
+                  {{ $guideWhatis | markdownify }}
                 {{- else }}
                   {{ i18n "guide_content_not_found" | markdownify }}
                 {{- end }}

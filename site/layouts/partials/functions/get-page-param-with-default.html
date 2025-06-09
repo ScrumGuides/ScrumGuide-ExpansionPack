@@ -1,0 +1,56 @@
+{{/* Get a parameter from a page with fallback to English version if empty
+
+  Usage:
+  {{ partial "functions/get-page-param-with-default.html" (dict "page" $page "param" "guide_whatis" "context" .)
+}}
+
+Parameters: - page: The page to get the parameter from - param: The parameter name to retrieve - context: The current page context (.) Returns: The parameter value, falling back to English version if empty, then to page summary */}}
+{{- $page := .page }}
+{{- $param := .param }}
+{{- $context := .context }}
+{{- $result := "" }}
+
+{{- /* Try to get parameter from current page first */ -}}
+{{- if $page }}
+  {{- $result = index $page.Params $param }}
+{{- end }}
+
+{{- /* If no result, fall back to English site */ -}}
+{{- if not $result }}
+  {{- $enSite := $context.Site }}
+  {{- range $context.Site.Sites }}
+    {{- if eq .Language.Lang "en" }}
+      {{- $enSite = . }}
+      {{- break }}
+    {{- end }}
+  {{- end }}
+  {{- $enPage := $enSite.GetPage $page.RelPermalink }}
+  {{- if $enPage }}
+    {{- $result = index $enPage.Params $param }}
+  {{- end }}
+{{- end }}
+
+{{- /* Final fallback to page summary if still no result */ -}}
+{{- if not $result }}
+  {{- if $page }}
+    {{- $result = $page.Summary }}
+  {{- else }}
+    {{- /* If no page at all, try to get English page directly */ -}}
+    {{- $enSite := $context.Site }}
+    {{- range $context.Site.Sites }}
+      {{- if eq .Language.Lang "en" }}
+        {{- $enSite = . }}
+        {{- break }}
+      {{- end }}
+    {{- end }}
+    {{- $enPage := $enSite.GetPage "/guide" }}
+    {{- if $enPage }}
+      {{- $result = index $enPage.Params $param }}
+      {{- if not $result }}
+        {{- $result = $enPage.Summary }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- return $result }}
