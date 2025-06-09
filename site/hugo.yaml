@@ -10,23 +10,23 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: Scrum Guides 2025 Expansion Pack
+    title: Scrum Guide Expansion Pack
     params:
-      description: "Scrum Guides 2025 Expansion Pack"
+      description: "Scrum Guide Expansion Pack"
       keywords: "Scrum"
   es:
     languageName: Español
     weight: 2
-    title: Paquete de expansión de la Guía Scrum 2025
+    title: Paquete de expansión de la Guía Scrum
     params:
-      description: "Paquete de expansión de la Guía Scrum 2025"
+      description: "Paquete de expansión de la Guía Scrum"
       keywords: "Scrum"
   de:
     languageName: Deutsch
     weight: 3
-    title: Scrum‑Guide Erweiterungspaket 2025
+    title: Scrum‑Guide Erweiterungspaket
     params:
-      description: "Scrum‑Guide Erweiterungspaket 2025"
+      description: "Scrum‑Guide Erweiterungspaket"
       keywords: "Scrum"
 
 summaryLength: 30

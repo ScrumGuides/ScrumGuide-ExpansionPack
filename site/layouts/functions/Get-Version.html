@@ -1,2 +1,5 @@
-{{/* Call the get-version function */}}
-{{ partial "functions/get-version.html" . }}
+{{- if ne hugo.Environment "development" }}
+  {{- return "v#{GitVersion.SemVer}#" }}
+{{- else }}
+  {{- return "v0.0.0" }}
+{{- end }}
