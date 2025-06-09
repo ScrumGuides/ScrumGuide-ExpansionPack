@@ -2,8 +2,9 @@
   <section class="section container-fluid main-header">
     <div class="container">
       <div class="row">       
-         <div class="col-4 p-5">          
-          <div class="card card-dark">            <div class="card-body text-center">
+         <div class="col-4 p-5">
+          <div class="card card-dark">
+            <div class="card-body text-center">
               <i class="fa-solid fa-newspaper"></i>
               <h5 class="card-title">Read the official Scrum Guide Expansion Pack online</h5>
               <p class="card-text">This is a sample card with some text content. You can replace this with your own content.</p>
@@ -21,15 +22,15 @@
             <div>
                 <div class="col-12">
                 <h2 class="text-center">What is the Scrum Guide Expansion Pack?</h2>
-                <p class="lead text-center">This is a sample page for the Scrum Guide Expansion Pack. You can customize this content as needed.</p>
-              </div>
-              <div class="col-12">
-                <h2 class="text-center">Share your Ideas!</h2>
-                <p class="lead text-center">If you have ideas for improving the website or the Scrum Guide Expansion Pack itself, please share them! You may do so by sending a message to our support e-mail.</p>
+                <p class="lead text-center">Ken Schwaber and Jeff Sutherland created the Scrum framework, described in the <a href="https://scrumguides.org/" target="_blank">2020 Scrum Guide</a>. To support widespread adoption, the guide was kept simple. This Scrum Guide Expansion Pack explains each element of Scrum; what it is, why it matters, and how it contributes to outcomes. Ralph Jocham’s contribution helped bring the intent of the 2020 Guide into this Expansion Pack. </p><p>Unlike the minimal baseline of the Guide, this companion is designed to evolve regularly and support more successful adoption.</p>
+              </div>              <div class="col-12">
+                <h2 class="text-center">Open Source & Community Driven</h2>
+                <p class="lead text-center">This Scrum Guide Expansion Pack is an open source project that thrives on community collaboration. Whether you want to suggest improvements, report issues, or contribute content, we welcome your participation. Together, we can make this resource even more valuable for the Scrum community worldwide.</p>
                 <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">Join the Discussion</a>
               </div>
             </div>
-           </div>            <div class="col-12 col-xl-6">
+           </div>
+           <div class="col-12 col-xl-6">
             <h2 class="text-center">About the creators of Scrum Guide Expansion Pack</h2>
 
               {{- range where .Site.Pages "Section" "creators" }}

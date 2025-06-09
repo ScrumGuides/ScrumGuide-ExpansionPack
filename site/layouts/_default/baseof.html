@@ -33,19 +33,9 @@
     {{ end }}
 
     {{ block "header" . }}
-      <header class="bg-dark text-white mb-4">
+      <header class="bg-dark text-white p-4">
         <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-          <a href="/" class="d-flex align-items-center text-white text-decoration-none">
-            <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4">{{ .Site.Title }}</span>
-          </a>
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          </ul>
+          {{ partial "components/main-menu.html" . }}
         </div>
       </header>
     {{ end }}

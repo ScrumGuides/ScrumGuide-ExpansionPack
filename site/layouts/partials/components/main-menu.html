@@ -1,0 +1,21 @@
+<a href="/" class="d-flex align-items-center text-white text-decoration-none">
+  <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+  <span class="fs-4 text-light">{{ .Site.Title }}</span>
+</a>
+<ul class="nav nav-pills">
+  <li class="nav-item"><a href="/" class="nav-link text-white">Read Online</a></li>
+  <li class="nav-item"><a href="/pdf" class="nav-link text-white">PDF Version</a></li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Creators </a>
+    <ul class="dropdown-menu">
+      {{- range where .Site.Pages "Section" "creators" }}
+        {{- if ne .Title "Creators" }}
+          <li><a class="dropdown-item" href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      {{- end }}
+      <li><hr class="dropdown-divider" /></li>
+      <li><a class="dropdown-item" href="/creators">All Creators</a></li>
+    </ul>
+  </li>
+  <li class="nav-item"><a href="/faq" class="nav-link text-white">FAQ</a></li>
+</ul>
