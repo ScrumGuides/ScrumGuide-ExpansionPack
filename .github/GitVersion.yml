@@ -1,16 +1,16 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: ContinuousDelivery
-continuous-delivery-fallback-tag: 'Canary'
-next-version: 0.0.1
-branches: 
+continuous-delivery-fallback-tag: "Canary"
+next-version: 0.5.0
+branches:
   main:
-      mode: ContinuousDelivery
-      tag: 'Preview'
-      increment: Patch
-      is-mainline: true
-      prevent-increment-of-merged-branch-version: false
-      tracks-release-branches: true
-      regex: ^master$|^main$
+    mode: ContinuousDelivery
+    tag: "Preview"
+    increment: Patch
+    is-mainline: true
+    prevent-increment-of-merged-branch-version: false
+    tracks-release-branches: true
+    regex: ^master$|^main$
   release:
     mode: ContinuousDelivery
     tag: ""
@@ -18,8 +18,8 @@ branches:
     track-merge-target: false
     regex: ^release(s)?[\/-]
     source-branches:
-    - master
-    - main
+      - master
+      - main
     is-release-branch: true
     is-mainline: false
 ignore:

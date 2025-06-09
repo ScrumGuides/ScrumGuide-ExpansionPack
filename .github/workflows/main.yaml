@@ -170,6 +170,8 @@ jobs:
     needs: [Setup]
     env:
       GitVersion_SemVer: ${{ needs.Setup.outputs.GitVersion_SemVer }}
+      GitVersion_Major: ${{ needs.Setup.outputs.GitVersion_Major }}
+      GitVersion_Minor: ${{ needs.Setup.outputs.GitVersion_Minor }}
       GitVersion_AssemblySemVer: ${{ needs.Setup.outputs.GitVersion_AssemblySemVer }}
       GitVersion_InformationalVersion: ${{ needs.Setup.outputs.GitVersion_InformationalVersion }}
     steps:
