@@ -1,0 +1,46 @@
+# French translations
+- id: read_online_title
+  translation: "Lire {{ .Site.Title }} en ligne"
+
+- id: read_online_description
+  translation: "Accédez au guide complet numériquement avec des fonctionnalités interactives et une navigation facile."
+
+- id: read_online_button
+  translation: "Lire en ligne"
+
+- id: what_is_guide_title
+  translation: "Qu'est-ce que {{ .Site.Title }} ?"
+
+- id: open_source_title
+  translation: "Open Source et Communautaire"
+
+- id: open_source_description
+  translation: "{{ .Site.Title }} est un projet open source qui prospère grâce à la collaboration communautaire. Que vous souhaitiez suggérer des améliorations, signaler des problèmes ou contribuer au contenu, nous accueillons votre participation. Ensemble, nous pouvons rendre cette ressource encore plus précieuse pour la communauté Scrum dans le monde entier."
+
+- id: join_discussion_button
+  translation: "Rejoindre la Discussion"
+
+- id: about_creators_title
+  translation: "À propos des créateurs de {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "Lire la biographie de {{ .Name }}"
+
+- id: guide_content_not_found
+  translation: "Contenu du guide non trouvé"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "Lire en Ligne"
+
+- id: nav_pdf_version
+  translation: "Version PDF"
+
+- id: nav_creators
+  translation: "Créateurs"
+
+- id: nav_all_creators
+  translation: "Tous les Créateurs"
+
+- id: nav_faq
+  translation: "FAQ"

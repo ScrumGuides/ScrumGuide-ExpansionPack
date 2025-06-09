@@ -1,8 +1,33 @@
+defaultContentLanguage: en
 languageCode: en
 title: Scrum Guides 2025 Expansion Pack
 
 publishDir: ../public
 resourceDir: ../resources
+
+# Multi-language configuration
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Scrum Guides 2025 Expansion Pack
+    params:
+      description: "Scrum Guides 2025 Expansion Pack"
+      keywords: "Scrum"
+  es:
+    languageName: Español
+    weight: 2
+    title: Paquete de expansión de la Guía Scrum 2025
+    params:
+      description: "Paquete de expansión de la Guía Scrum 2025"
+      keywords: "Scrum"
+  de:
+    languageName: Deutsch
+    weight: 3
+    title: Scrum‑Guide Erweiterungspaket 2025
+    params:
+      description: "Scrum‑Guide Erweiterungspaket 2025"
+      keywords: "Scrum"
 
 summaryLength: 30
 

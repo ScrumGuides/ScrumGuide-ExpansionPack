@@ -1,0 +1,31 @@
+{{- if hugo.IsMultilingual }}
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa-solid fa-globe"></i> {{ .Site.Language.LanguageName }}
+    </a>
+    <ul class="dropdown-menu">
+      {{- $defaultLang := $.Site.LanguageCode }}
+      {{- range .Site.Languages }}
+        {{- if ne .Lang $.Site.Language.Lang }}
+          {{- $langUrl := "" }}
+          {{- if $.IsHome }}
+            {{- $langUrl = printf "/%s/" .Lang }}
+            {{- if eq .Lang $defaultLang }}
+              {{- $langUrl = "/" }}
+            {{- end }}
+          {{- else }}
+            {{- $langUrl = printf "/%s%s" .Lang $.RelPermalink }}
+            {{- if eq .Lang $defaultLang }}
+              {{- $langUrl = $.RelPermalink }}
+            {{- end }}
+          {{- end }}
+          <li>
+            <a class="dropdown-item" href="{{ $langUrl }}">
+              {{ .LanguageName }}
+            </a>
+          </li>
+        {{- end }}
+      {{- end }}
+    </ul>
+  </li>
+{{- end }}

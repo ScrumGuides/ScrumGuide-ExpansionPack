@@ -1,68 +1,82 @@
 {{- define "main" }}
   <section class="section container-fluid main-header">
     <div class="container">
-      <div class="row">       
-         <div class="col-4 p-5">
+      <div class="row">
+        <div class="col-4 p-5">
           <div class="card card-dark">
             <div class="card-body text-center">
               <i class="fa-solid fa-newspaper"></i>
-              <h5 class="card-title">Read the official Scrum Guide Expansion Pack online</h5>
-              <p class="card-text">This is a sample card with some text content. You can replace this with your own content.</p>
+              <h5 class="card-title">{{ i18n "read_online_title" . }}</h5>
+              <p class="card-text">{{ i18n "read_online_description" }}</p>
             </div>
             <div class="card-footer">
-              <a href="/read-online/" class="btn btn-primary">Read online</a>
+              <a href="{{ (.Site.GetPage "/guide").Permalink }}" class="btn btn-primary">{{ i18n "read_online_button" }}</a>
+            </div>
           </div>
         </div>
+      </div>
     </div>
   </section>
-    <section class="section container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-xl-6">
-            <div>
-                <div class="col-12">
-                <h2 class="text-center">What is the Scrum Guide Expansion Pack?</h2>
-                <p class="lead text-center">Ken Schwaber and Jeff Sutherland created the Scrum framework, described in the <a href="https://scrumguides.org/" target="_blank">2020 Scrum Guide</a>. To support widespread adoption, the guide was kept simple. This Scrum Guide Expansion Pack explains each element of Scrum; what it is, why it matters, and how it contributes to outcomes. Ralph Jocham’s contribution helped bring the intent of the 2020 Guide into this Expansion Pack. </p><p>Unlike the minimal baseline of the Guide, this companion is designed to evolve regularly and support more successful adoption.</p>
-              </div>              <div class="col-12">
-                <h2 class="text-center">Open Source & Community Driven</h2>
-                <p class="lead text-center">This Scrum Guide Expansion Pack is an open source project that thrives on community collaboration. Whether you want to suggest improvements, report issues, or contribute content, we welcome your participation. Together, we can make this resource even more valuable for the Scrum community worldwide.</p>
-                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">Join the Discussion</a>
+  <section class="section container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-6">
+          <div>
+            <div class="col-12">
+              <h2 class="text-center">{{ i18n "what_is_guide_title" . }}</h2>
+              <div class="lead text-center">
+                {{- $guidePage := .Site.GetPage "/guide" }}
+                {{- if $guidePage }}
+                  {{ $guidePage.Params.guide_whatis | default $guidePage.Summary | markdownify }}
+                {{- else }}
+                  {{ i18n "guide_content_not_found" | markdownify }}
+                {{- end }}
               </div>
             </div>
-           </div>
-           <div class="col-12 col-xl-6">
-            <h2 class="text-center">About the creators of Scrum Guide Expansion Pack</h2>
-
-              {{- range where .Site.Pages "Section" "creators" }}
-              {{- if ne .Title "Creators" }}
+            <div class="col-12">
+              <h2 class="text-center">{{ i18n "open_source_title" }}</h2>
+              <p class="lead text-center">
+                {{ i18n "open_source_description" . }}
+              </p>
+              <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">{{ i18n "join_discussion_button" }}</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-6">
+          <h2 class="text-center">{{ i18n "about_creators_title" . }}</h2>
+          {{- $pages := .Site.RegularPages }}
+          {{- range .Site.Home.Translations }}
+            {{- $pages = $pages | lang.Merge .Site.RegularPages }}
+          {{- end }}
+          {{- range where $pages "Section" "creators" }}
+            {{- if ne .Title "Creators" }}
               <div class="card mb-3">
-                <div class="row g-0">     
+                <div class="row g-0">
                   <div class="col-md-4">
                     {{- $imageResource := "" }}
-
-                      {{- $urlifiedTitle := .Title | urlize }}
-                      {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
+                    {{- $urlifiedTitle := .Title | urlize }}
+                    {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
                     {{- if $imageResource }}
-                    <img src="{{ $imageResource.RelPermalink }}" class="img-fluid rounded-start h-100" alt="{{ .Title }}" style="object-fit: cover;">
+                      <img src="{{ $imageResource.RelPermalink }}" class="img-fluid rounded-start h-100" alt="{{ .Title }}" style="object-fit: cover;" />
                     {{- else }}
-                    <div class="d-flex align-items-center justify-content-center h-100 bg-light rounded-start">
-                      <i class="fa-solid fa-user-tie fa-3x text-muted"></i>
-                    </div>
+                      <div class="d-flex align-items-center justify-content-center h-100 bg-light rounded-start">
+                        <i class="fa-solid fa-user-tie fa-3x text-muted"></i>
+                      </div>
                     {{- end }}
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">{{ .Title }}</h5>
                       <p class="card-text">{{ .Description }}</p>
-                      <a href="{{ .Permalink }}" class="btn btn-outline-primary">Read {{.Params.short_title | default .Title}}'s bio</a>
+                      <a href="{{ .Permalink }}" class="btn btn-outline-primary">{{ i18n "read_bio_button" (dict "Name" (.Params.short_title | default .Title)) }}</a>
                     </div>
                   </div>
                 </div>
               </div>
-              {{- end }}
-              {{- end }}   
-          </div>
+            {{- end }}
+          {{- end }}
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 {{- end }}
