@@ -14,27 +14,38 @@
         <div class="content-wrapper px-3">
           <article class="content-details">
             <header class="content-header">
-              <h2 class="content-title">{{ .Title }}</h2>
+              <h2 class="content-title">{{ .Title }}ss</h2>
               {{ if .Date }}
                 <div class="publish-date">
                   <time datetime="{{ .Date.Format "2006-01-02" }}">
-                    Published:
+                    Updated:
                     {{ .Date.Format "January 2, 2006" }}
                   </time>
                 </div>
               {{ end }}
+              <!-- Authors from creators list -->
+              {{ $creators := .Site.GetPage "/creators" }}
+              {{ if $creators }}
+                <div class="content-authors mt-3">
+                  <span class="text-muted me-2">Authors:</span>
+                  {{ range $creators.Pages }}
+                    <span class="author-item me-3">
+                      {{ if .Params.image }}
+                        <img src="{{ .Permalink }}{{ .Params.image }}" alt="{{ .Title }}" aria-label="Profile picture of {{ .Title }}" class="author-avatar rounded-circle me-1" style="width: 24px; height: 24px; object-fit: cover;" />
+                      {{ end }}
+                      <a href="{{ .Permalink }}" class="text-decoration-none">
+                        <strong>{{ .Title }}</strong>
+                      </a>
+                    </span>
+                  {{ end }}
+                </div>
+              {{ end }}
+              <div class="content-version mt-2">
+                <span class="text-muted">Version: </span>
+                {{ partial "functions/get-version.html" . }}
             </header>
 
-            <div class="content-body">
-              {{ .Content }}
-            </div>
-
-            {{ if .Params.type }}
-              <div class="content-type">
-                <strong>Type:</strong> {{ .Params.type }}
-              </div>
-            {{ end }}
-
+            <div class="content-body">{{ .Content }}</div>
 
             <footer class="content-footer mt-4">
               <nav class="content-navigation d-flex justify-content-between">
