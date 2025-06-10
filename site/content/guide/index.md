@@ -20,7 +20,7 @@ _This document is a collection of independent works. Each section retains its or
 **_Section 1: Scrum Guide Expansion Pack 1 (Adaptation)_**  
 _Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
 _Author: Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Source: \[Link to original [2020 Scrum Guide](https://scrumguides.org/)\], \[Link to this adaptation\]_  
+_Source: \[Link to original [2020 Scrum Guide](https://scrumguides.org/)\], \[Link to [Scrum Guide Expansion Pack](https://scrumexpansion.org)\]_  
 _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
 © _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
 _Modification Notice: This is an adaptation of the original [2020 Scrum Guide](https://scrumguides.org/). Changes have been made from the original._  
