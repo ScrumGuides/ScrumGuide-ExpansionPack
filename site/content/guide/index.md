@@ -18,7 +18,7 @@ based on the original [Scrum Guide by Ken Schwaber & Jeff Sutherland](https://sc
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
 **_Section 1: Scrum Guide Expansion Pack 1 (Adaptation)_**  
-_Title: Scrum Guide Expansion PackAdaptation of: The original Scrum Guide_  
+_Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
 _Author: Ralph Jocham, John Coleman, and Jeff Sutherland._  
 _Source: \[Link to original [2020 Scrum Guide](https://scrumguides.org/)\], \[Link to this adaptation\]_  
 _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
