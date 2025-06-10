@@ -62,10 +62,17 @@ The Expansion Pack benefits from diverse perspectives and practical experience f
 
 ### Content Contributors
 
-- **Enhance clarity** - Improve explanations and fix inconsistencies
-- **Provide translations** - Extend accessibility to new language communities
-- **Share feedback** - Identify areas that need refinement or expansion
-- **Advocate for adoption** - Help teams discover and apply these expanded practices
+The guide is
+
+- `site/content/_index.md` - the default english version of the Scrum Guide Expansion Pack
+- `site/content/_index.{lang}.md` - specific language versions of the Scrum Guide Expansion Pack
+
+we are open for contributions in several areas:
+
+- **Enhance content** - Add examples, case studies, and practical applications
+- **Clarify concepts** - Simplify explanations or provide additional context
+- **Suggest new sections** - Identify gaps or emerging topics in Scrum practice
+- **Review and edit** - Help ensure clarity, accuracy, and consistency across languages
 
 ### Technical Contributors
 
@@ -73,7 +80,7 @@ The Expansion Pack benefits from diverse perspectives and practical experience f
 - **Optimize performance** - Ensure fast, reliable access across devices
 - **Maintain infrastructure** - Support the technical foundation that serves the content
 
-**For detailed guidance:** Review our comprehensive documentation:
+**For detailed guidance:** Review our documentation:
 
 - [Documentation Overview](./docs/README.md) - Complete project structure and approach
 - [Getting Started Guide](./docs/getting-started.md) - Setup and development environment
