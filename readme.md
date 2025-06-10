@@ -1,5 +1,11 @@
 # Scrum Guide Expansion Pack
 
+## Visit the Guide
+
+**[scrumexpansion.org](https://scrumexpansion.org) - Start reading now!**
+
+## What is This?
+
 The Scrum Guide Expansion Pack was created because the world in which we build products has changed—and continues to change rapidly.
 
 Scrum, as defined in the 2020 Guide, is still solid and useful. But many practitioners, leaders, and teams found themselves asking deeper questions:
@@ -12,22 +18,6 @@ The Expansion Pack is a response to those questions.
 It’s not a replacement of the Scrum Guide. It’s an optional companion—a way to support people who already use Scrum but feel they need more guidance to navigate today’s realities.
 The motivation wasn’t to add more rules or make Scrum heavier. Quite the opposite: it was to clarify the spirit of Scrum, especially around product thinking, emergence, and strategic focus.
 Scrum has always been about enabling teams to learn fast, adapt, and deliver value. The Expansion Pack helps modern teams keep that spirit alive—especially in environments shaped by uncertainty, acceleration, and new technology.
-
-## Visit the Guide
-
-**[scrumexpansion.org](https://scrumexpansion.org) - Start reading now!**
-
-## What is This?
-
-The **Scrum Guide Expansion Pack** provides deeper guidance for practitioners navigating modern product development challenges. Rather than replacing the official Scrum Guide, it extends its principles with practical insights for today's complex environments.
-
-Created by Scrum experts **Ralph Jocham**, **John Coleman**, and **Jeff Sutherland**, this expansion addresses:
-
-- **Strategic focus** - Moving beyond feature delivery to outcome-driven development
-- **AI integration** - Adapting Scrum practices when artificial intelligence joins your team
-- **Emergence and adaptation** - Maintaining agility in rapidly changing markets
-- **Product thinking** - Strengthening the connection between Scrum practices and product success
-- **Global accessibility** - Available in English, German, Spanish, and French
 
 ## Join Our Community
 
