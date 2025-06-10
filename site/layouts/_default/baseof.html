@@ -31,7 +31,7 @@
     <script src="https://kit.fontawesome.com/3e6b2f4808.js" crossorigin="anonymous"></script>
   </head>
 
-  <body data-ndka-environment="{{ hugo.Environment }}" data-ndka-version="{{ .Site.Params.version | default "v0.0.0" }}">
+  <body id="top" data-ndka-environment="{{ hugo.Environment }}" data-ndka-version="{{ .Site.Params.version | default "v0.0.0" }}">
     <!-- End Google Tag Manager (noscript) -->
     {{ if ne hugo.Environment "production" }}
       <div class="container-fluid text-center p-2 bg-{{ hugo.Environment }}">
@@ -67,6 +67,29 @@
         <div class="container text-center">v#{GitVersion.SemVer}# | © {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</div>
       </footer>
     {{ end }}
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="btn btn-primary position-fixed d-none" style="bottom: 20px; right: 20px; z-index: 1000; border-radius: 50%; width: 50px; height: 50px;" title="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+      // Back to top functionality
+      window.addEventListener("scroll", function () {
+        const backToTopButton = document.getElementById("back-to-top");
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.remove("d-none");
+        } else {
+          backToTopButton.classList.add("d-none");
+        }
+      });
+
+      document.getElementById("back-to-top").addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
 
     {{ if ne hugo.Environment "production" }}
       <div id="debugArea" class="container-fluid p-2 bg-secondary-subtle">
