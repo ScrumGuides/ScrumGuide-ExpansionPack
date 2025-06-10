@@ -2,6 +2,8 @@ defaultContentLanguage: en
 languageCode: en
 title: Scrum Guides 2025 Expansion Pack
 
+buildFuture: true
+
 publishDir: ../public
 resourceDir: ../resources
 
