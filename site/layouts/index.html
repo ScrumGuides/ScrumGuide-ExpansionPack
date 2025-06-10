@@ -6,7 +6,7 @@
   <section class="section container-fluid main-header">
     <div class="container">
       <div class="row">
-        <div class="col-4 p-5">
+        <div class="col-12 col-xl-4 p-5">
           <div class="card card-dark h-100">
             <div class="card-body text-center d-flex flex-column">
               <i class="header-icon fa-solid fa-newspaper"></i>
@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4 p-5">
+        <div class="col-12 col-xl-4 p-5">
           <div class="card card-dark h-100">
             <div class="card-body text-center d-flex flex-column">
               <i class="header-icon fa-solid fa-download"></i>
@@ -30,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4 p-5">
+        <div class="col-12 col-xl-4 p-5">
           <div class="card card-dark h-100">
             <div class="card-body text-center d-flex flex-column">
               <i class="header-icon fa-solid fa-comments"></i>
@@ -94,7 +94,7 @@
                     {{- $urlifiedTitle := .Title | urlize }}
                     {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
                     {{- if $imageResource }}
-                      <img src="{{ $imageResource.RelPermalink }}" class="img-fluid rounded-start h-100" alt="{{ .Title }}" style="object-fit: cover;" />
+                      <img src="{{ $imageResource.RelPermalink }}" class="img-fluid rounded-start w-100" alt="{{ .Title }}" style="aspect-ratio: 1/1; object-fit: cover;" />
                     {{- else }}
                       <div class="d-flex align-items-center justify-content-center h-100 bg-light rounded-start">
                         <i class="fa-solid fa-user-tie fa-3x text-muted"></i>

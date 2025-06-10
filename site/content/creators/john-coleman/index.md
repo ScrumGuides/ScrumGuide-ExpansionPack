@@ -1,6 +1,6 @@
 ---
 title: "John Coleman"
-description: "Executive guide, product leader, co-creator of Kanplexity™, MORE Executive SUCCESS, and Kanban Guide"
+description: "Executive guide, product leader"
 date: 2025-06-01
 ---
 
