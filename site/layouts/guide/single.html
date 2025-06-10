@@ -60,9 +60,12 @@
                   <span class="text-muted me-2">Authors:</span>
                   {{ range $creators.Pages }}
                     <span class="author-item me-3">
-                      {{ if .Params.image }}
-                        <img src="{{ .Permalink }}{{ .Params.image }}" alt="{{ .Title }}" aria-label="Profile picture of {{ .Title }}" class="author-avatar rounded-circle me-1" style="width: 24px; height: 24px; object-fit: cover;" />
-                      {{ end }}
+                      {{- $imageResource := "" }}
+                      {{- $urlifiedTitle := .Title | urlize }}
+                      {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
+                      {{- if $imageResource }}
+                        <img src="{{ $imageResource.Permalink }}" alt="{{ .Title }}" aria-label="Profile picture of {{ .Title }}" class="author-avatar rounded-circle me-1" style="width: 24px; height: 24px; object-fit: cover;" />
+                      {{- end }}
                       <a href="{{ .Permalink }}" class="text-decoration-none">
                         <strong>{{ .Title }}</strong>
                       </a>
