@@ -18,24 +18,24 @@
           {{ i18n "download_page_originators" $guidePage }}
         </p>
 
-        <p class="mb-4">{{ i18n "download_translations_provided" }}</p>
+        <p class="mb-4">{{ i18n "download_translations_provided" . }}</p>
 
         <p class="mb-5">{{ i18n "download_translation_error" $guidePage }} {{ .Site.Params.supportEmail }}</p>
 
         <!-- Official Version -->
-        <h2 class="mb-3">{{ i18n "download_official_version" }}</h2>
+        <h2 class="mb-3">{{ i18n "download_official_version" . }}</h2>
         <div class="table-responsive mb-5">
           <table class="table table-striped">
             <thead>
               <tr>
-                <th scope="col">{{ i18n "download_table_language" }}</th>
-                <th scope="col">{{ i18n "download_table_translations_by" }}</th>
-                <th scope="col">{{ i18n "download_table_action" }}</th>
+                <th scope="col">{{ i18n "download_table_language" . }}</th>
+                <th scope="col">{{ i18n "download_table_translations_by" . }}</th>
+                <th scope="col">{{ i18n "download_table_action" . }}</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>{{ .Site.Language.LanguageName }} ({{ $guidePage.Date.Format "January 2006" }}) - {{ i18n "download_official_current_version" }}</td>
+                <td>{{ .Site.Language.LanguageName }} ({{ $guidePage.Date.Format "January 2006" }}) - {{ i18n "download_official_current_version" . }}</td>
                 <td>
                   {{- $creators := .Site.GetPage "/creators" }}
                   {{- $creatorPages := $creators.Pages }}
