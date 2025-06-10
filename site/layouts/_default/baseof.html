@@ -66,28 +66,70 @@
       <footer class="footer bg-dark text-white p-4 mt-auto">
         <div class="container text-center">v#{GitVersion.SemVer}# | © {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</div>
       </footer>
-    {{ end }}
-    <!-- Back to Top Button -->
-    <button id="back-to-top" class="btn btn-primary position-fixed d-none" style="bottom: 20px; right: 20px; z-index: 1000; border-radius: 50%; width: 50px; height: 50px;" title="Back to Top">
+    {{ end }}    <!-- Back to Top Button -->
+    <button id="back-to-top" class="btn btn-primary position-fixed d-none back-to-top-btn" style="bottom: 20px; right: 20px; z-index: 1000; border-radius: 50%; width: 50px; height: 50px;" title="Back to Top">
       <i class="fas fa-arrow-up"></i>
     </button>
 
-    <script>
-      // Back to top functionality
-      window.addEventListener("scroll", function () {
-        const backToTopButton = document.getElementById("back-to-top");
-        if (window.pageYOffset > 300) {
-          backToTopButton.classList.remove("d-none");
-        } else {
-          backToTopButton.classList.add("d-none");
-        }
-      });
+    <style>
+      /* Mobile-specific styles for back to top button */
+      .back-to-top-btn {
+        /* Ensure proper touch target size for mobile */
+        min-width: 44px;
+        min-height: 44px;
+        /* Add some shadow for better visibility */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        /* Smooth transitions */
+        transition: opacity 0.3s ease, transform 0.2s ease;
+      }
 
-      document.getElementById("back-to-top").addEventListener("click", function () {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
+      .back-to-top-btn:hover,
+      .back-to-top-btn:focus {
+        transform: scale(1.1);
+      }
+
+      /* Mobile-specific adjustments */
+      @media (max-width: 767.98px) {
+        .back-to-top-btn {
+          bottom: 15px !important;
+          right: 15px !important;
+          width: 48px !important;
+          height: 48px !important;
+          font-size: 1.1rem;
+        }
+      }
+
+      /* Ensure button is accessible on very small screens */
+      @media (max-width: 480px) {
+        .back-to-top-btn {
+          bottom: 20px !important;
+          right: 20px !important;
+        }
+      }
+    </style><script>
+      // Back to top functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const backToTopButton = document.getElementById("back-to-top");
+        
+        if (backToTopButton) {
+          // Use modern scroll event listener with passive option for better mobile performance
+          window.addEventListener("scroll", function () {
+            if (window.scrollY > 300) {
+              backToTopButton.classList.remove("d-none");
+            } else {
+              backToTopButton.classList.add("d-none");
+            }
+          }, { passive: true });
+
+          // Add click event listener for scroll to top
+          backToTopButton.addEventListener("click", function (e) {
+            e.preventDefault();
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+          });
+        }
       });
     </script>
 
