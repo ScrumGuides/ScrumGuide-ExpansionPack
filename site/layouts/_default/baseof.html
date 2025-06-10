@@ -74,14 +74,16 @@
 
     <style>
       /* Prevent horizontal overflow on mobile */
-      html, body {
+      html,
+      body {
         overflow-x: hidden;
         width: 100%;
         max-width: 100vw;
       }
 
       /* Ensure all containers respect viewport width */
-      .container, .container-fluid {
+      .container,
+      .container-fluid {
         max-width: 100%;
         overflow-x: hidden;
       }
@@ -97,20 +99,20 @@
       section {
         max-width: 100%;
         overflow-x: hidden;
-      }      /* Mobile-specific viewport fixes */
+      } /* Mobile-specific viewport fixes */
       @media (max-width: 767.98px) {
         body {
           min-width: auto !important;
           width: 100% !important;
           max-width: 100vw !important;
         }
-        
+
         /* Override any fixed widths that might cause overflow */
         * {
           max-width: 100% !important;
           box-sizing: border-box !important;
         }
-        
+
         /* Specific fix for guide layout */
         section[style*="max-width"] {
           max-width: 100% !important;
@@ -140,7 +142,11 @@
         }
 
         /* Ensure buttons and form elements don't overflow */
-        .btn, button, input, select, textarea {
+        .btn,
+        button,
+        input,
+        select,
+        textarea {
           max-width: 100% !important;
         }
 
@@ -166,7 +172,7 @@
       /* Back to top button styles with high specificity */
       #back-to-top.back-to-top-btn {
         position: fixed !important;
-        bottom: 20px !important;        /* Use transform to position from the right edge of viewport minus margin */
+        bottom: 20px !important; /* Use transform to position from the right edge of viewport minus margin */
         right: 0 !important;
         transform: translateX(-20px) !important;
         z-index: 9999 !important;
@@ -203,18 +209,26 @@
 
       #back-to-top.back-to-top-btn:active {
         transform: scale(0.95) !important;
-      }      /* Mobile-specific adjustments */
+      } /* Mobile-specific adjustments */
       @media (max-width: 767.98px) {
         #back-to-top.back-to-top-btn {
           bottom: 20px !important;
           /* Position from the right edge of the actual viewport */
           right: 0 !important;
           transform: translateX(-20px) !important;
-          width: 56px !important;
-          height: 56px !important;
-          font-size: 1.3rem !important;
+          width: 60px !important;
+          height: 60px !important;
+          font-size: 1.4rem !important;
           /* Ensure it doesn't interfere with mobile UI */
           z-index: 10000 !important;
+          /* Better touch target */
+          touch-action: manipulation !important;
+          /* Add padding for larger touch area */
+          padding: 10px !important;
+          /* Ensure no user-select interference */
+          user-select: none !important;
+          -webkit-user-select: none !important;
+          -webkit-touch-callout: none !important;
         }
       }
 
@@ -261,9 +275,7 @@
           window.addEventListener("scroll", toggleBackToTopButton, { passive: true });
 
           // Also listen for resize events to ensure button stays visible
-          window.addEventListener("resize", toggleBackToTopButton, { passive: true });
-
-          // Add click event listener for scroll to top
+          window.addEventListener("resize", toggleBackToTopButton, { passive: true }); // Add click event listener for scroll to top
           backToTopButton.addEventListener("click", function (e) {
             e.preventDefault();
             e.stopPropagation();
@@ -282,11 +294,24 @@
             console.log("Back to top button clicked"); // Debug log
           });
 
-          // Add touch event support for mobile
+          // Add better touch support for mobile devices
           backToTopButton.addEventListener(
-            "touchstart",
+            "touchend",
             function (e) {
               e.preventDefault();
+              e.stopPropagation();
+
+              // Trigger the scroll to top
+              if ("scrollBehavior" in document.documentElement.style) {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              } else {
+                window.scrollTo(0, 0);
+              }
+
+              console.log("Back to top button touched"); // Debug log
             },
             { passive: false },
           );
