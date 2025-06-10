@@ -760,7 +760,7 @@ Generally, the fewer Product Backlogs per Product, implicit (like a filter of a 
 - The more likely one is to observe improvement in the attainment of value; and,
 - The more strategic the Product Owner becomes by delegating cross-Product work to the Product Developers.
 
-Fewer Product Backlogs per Product are mathematically better for adaptiveness (80), but without empowered ownership, a coherent span of control, or direct contact with relevant Stakeholders, gaps will arise. Scrum fosters a climate for happenstance and multi-learning as various people and Scrum Teams collaborate, discoveries and insights can be shared and leveraged. This is unlikely to happen in an environment where each component has a Product Backlog in isolation.
+Fewer Product Backlogs per Product are better for adaptiveness (80), but without empowered ownership, a coherent span of control, or direct contact with relevant Stakeholders, gaps will arise. Scrum fosters a climate for happenstance and multi-learning as various people and Scrum Teams collaborate, discoveries and insights can be shared and leveraged. This is unlikely to happen in an environment where each component has a Product Backlog in isolation.
 
 Happenstance in the context of ‘The New New Product Development Game’ (29) means that sometimes useful ideas or solutions come about by chance, not by careful planning. When Scrum Teams work closely together and share information, they might discover new approaches or answers simply because they are open to unexpected events or accidental findings.
 
