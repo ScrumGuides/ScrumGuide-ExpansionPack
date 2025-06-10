@@ -198,9 +198,7 @@
 
       #back-to-top.back-to-top-btn.d-none {
         display: none !important;
-      }
-
-      #back-to-top.back-to-top-btn:hover,
+      }      #back-to-top.back-to-top-btn:hover,
       #back-to-top.back-to-top-btn:focus {
         background-color: #1669b3 !important;
         transform: scale(1.1) !important;
@@ -209,13 +207,22 @@
 
       #back-to-top.back-to-top-btn:active {
         transform: scale(0.95) !important;
-      } /* Mobile-specific adjustments */
+      }
+      
+      /* Disable hover effects on mobile to prevent touch interference */
+      @media (max-width: 767.98px) {
+        #back-to-top.back-to-top-btn:hover,
+        #back-to-top.back-to-top-btn:focus {
+          transform: translateX(-20px) !important; /* Keep original position */
+          background-color: #1d7fd5 !important; /* Keep original color */
+        }
+      }      /* Mobile-specific adjustments */
       @media (max-width: 767.98px) {
         #back-to-top.back-to-top-btn {
           bottom: 20px !important;
-          /* Position from the right edge of the actual viewport */
-          right: 0 !important;
-          transform: translateX(-20px) !important;
+          right: 20px !important;
+          /* Remove transform to avoid touch detection issues */
+          transform: none !important;
           width: 60px !important;
           height: 60px !important;
           font-size: 1.4rem !important;
@@ -223,23 +230,35 @@
           z-index: 10000 !important;
           /* Better touch target */
           touch-action: manipulation !important;
-          /* Add padding for larger touch area */
-          padding: 10px !important;
           /* Ensure no user-select interference */
           user-select: none !important;
           -webkit-user-select: none !important;
           -webkit-touch-callout: none !important;
+          /* Remove any transitions that might interfere with touch */
+          transition: none !important;
+          /* Ensure proper rendering */
+          will-change: auto !important;
+          /* Make sure it's a proper block element */
+          display: block !important;
         }
-      }
 
-      /* Ensure button is accessible on very small screens */
+        /* Completely disable hover/focus effects on mobile */
+        #back-to-top.back-to-top-btn:hover,
+        #back-to-top.back-to-top-btn:focus,
+        #back-to-top.back-to-top-btn:active {
+          transform: none !important;
+          background-color: #1d7fd5 !important;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+        }
+      }      /* Ensure button is accessible on very small screens - keep same size */
       @media (max-width: 480px) {
         #back-to-top.back-to-top-btn {
           bottom: 15px !important;
-          right: 0 !important;
-          transform: translateX(-15px) !important;
-          width: 52px !important;
-          height: 52px !important;
+          right: 15px !important;
+          /* Remove transform for better touch detection */
+          transform: none !important;
+          width: 60px !important; /* Keep same size for better touch */
+          height: 60px !important; /* Keep same size for better touch */
         }
       }
 
@@ -275,7 +294,7 @@
           window.addEventListener("scroll", toggleBackToTopButton, { passive: true });
 
           // Also listen for resize events to ensure button stays visible
-          window.addEventListener("resize", toggleBackToTopButton, { passive: true }); // Add click event listener for scroll to top
+          window.addEventListener("resize", toggleBackToTopButton, { passive: true });          // Add click event listener for scroll to top
           backToTopButton.addEventListener("click", function (e) {
             e.preventDefault();
             e.stopPropagation();
@@ -294,14 +313,16 @@
             console.log("Back to top button clicked"); // Debug log
           });
 
-          // Add better touch support for mobile devices
-          backToTopButton.addEventListener(
-            "touchend",
-            function (e) {
-              e.preventDefault();
-              e.stopPropagation();
-
-              // Trigger the scroll to top
+          // Simpler touch handling - just use touchstart to trigger immediately
+          backToTopButton.addEventListener("touchstart", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Add visual feedback
+            backToTopButton.style.backgroundColor = "#1669b3";
+            
+            // Trigger scroll after short delay to show feedback
+            setTimeout(function() {
               if ("scrollBehavior" in document.documentElement.style) {
                 window.scrollTo({
                   top: 0,
@@ -310,11 +331,15 @@
               } else {
                 window.scrollTo(0, 0);
               }
-
-              console.log("Back to top button touched"); // Debug log
-            },
-            { passive: false },
-          );
+              
+              // Reset color after scroll
+              setTimeout(function() {
+                backToTopButton.style.backgroundColor = "#1d7fd5";
+              }, 100);
+            }, 50);
+            
+            console.log("Back to top button touched (touchstart)"); // Debug log
+          }, { passive: false });
 
           // Initial check in case page is already scrolled
           toggleBackToTopButton();
