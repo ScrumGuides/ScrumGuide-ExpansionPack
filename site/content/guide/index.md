@@ -5,11 +5,11 @@ date: 2025-06-11T15:00:00Z
 url: /scrum-guide-expansion-pack/
 type: guide
 guide_whatis: |
-  The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing—fast.
+  The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing; fast.
 
   The [2020 Scrum Guide](https://scrumguides.org/scrum-guide.html) remains solid, but many practitioners began asking how to stay focused on outcomes, work with AI in the team, and keep Scrum simple in fast-moving environments.
 
-  This Expansion Pack doesn’t replace the Scrum Guide; it complements it for those needing more clarity in today’s context. The goal wasn’t to add rules, but to reinforce the spirit of Scrum—around product thinking, emergence, and strategic focus. It helps teams learn fast, adapt, and deliver value—even in uncertain, accelerated, tech-driven settings.
+  This Expansion Pack doesn’t replace the Scrum Guide; it complements it for those needing more clarity in today’s context. The goal wasn’t to add rules, but to reinforce the spirit of Scrum, around product thinking, emergence, and strategic focus. It helps teams learn fast, adapt, and deliver value, even in uncertain, accelerated, tech-driven settings.
 ---
 
 based on the original [Scrum Guide](https://scrumguides.org/) by Ken Schwaber & Jeff Sutherland (40)
@@ -20,8 +20,8 @@ _This document is a collection of independent works. Each section retains its or
 **_Section 1: Scrum Guide Expansion Pack 1 (Adaptation)_**  
 _Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
 _Author: Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Source: \[Link to original [2020 Scrum Guide](https://scrumguides.org/)\], \[Link to [Scrum Guide Expansion Pack](https://scrumexpansion.org)\]_  
-_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
+_Source: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)  
+\_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
 © _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
 _Modification Notice: This is an adaptation of the original [2020 Scrum Guide](https://scrumguides.org/). Changes have been made from the original._  
 _Disclaimer: No warranties are given. Use at your own risk._  
