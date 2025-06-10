@@ -25,18 +25,15 @@
                 <i class="fas fa-user fa-3x text-muted"></i>
               </div>
             {{ end }}
-
-
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">{{ .Title }}</h5>
               {{ with .Params.role }}
                 <p class="text-muted small mb-2">{{ . }}</p>
               {{ end }}
               {{ with .Summary }}
-                <p class="card-text flex-grow-1">{{ . }}</p>
+                <p class="card-text">{{ . }}</p>
               {{ end }}
-
-
+              <div class="flex-grow-1"></div>
               <div class="mt-auto">
                 {{ if .Params.social }}
                   <div class="d-flex gap-2 mb-3">
