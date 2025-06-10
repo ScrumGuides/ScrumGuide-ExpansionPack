@@ -72,15 +72,103 @@
       <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 
-    <style>      /* Back to top button styles with high specificity */
+    <style>
+      /* Prevent horizontal overflow on mobile */
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
+      }
+
+      /* Ensure all containers respect viewport width */
+      .container, .container-fluid {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      /* Fix for Bootstrap row overflow */
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+      }
+
+      /* Ensure sections don't exceed viewport */
+      section {
+        max-width: 100%;
+        overflow-x: hidden;
+      }      /* Mobile-specific viewport fixes */
+      @media (max-width: 767.98px) {
+        body {
+          min-width: auto !important;
+          width: 100% !important;
+          max-width: 100vw !important;
+        }
+        
+        /* Override any fixed widths that might cause overflow */
+        * {
+          max-width: 100% !important;
+          box-sizing: border-box !important;
+        }
+        
+        /* Specific fix for guide layout */
+        section[style*="max-width"] {
+          max-width: 100% !important;
+          padding-left: 0.5rem !important;
+          padding-right: 0.5rem !important;
+        }
+
+        /* Force all rows to not overflow */
+        .row {
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        /* Force all columns to be properly constrained */
+        [class*="col-"] {
+          padding-left: 0.5rem !important;
+          padding-right: 0.5rem !important;
+          max-width: 100% !important;
+        }
+
+        /* Force content within navigation to wrap properly */
+        .content-list {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        /* Ensure buttons and form elements don't overflow */
+        .btn, button, input, select, textarea {
+          max-width: 100% !important;
+        }
+
+        /* Force table elements to be responsive */
+        table {
+          width: 100% !important;
+          max-width: 100% !important;
+          table-layout: fixed !important;
+        }
+
+        /* Force images to be responsive */
+        img {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+
+        /* Force any element with specific width styles to be responsive */
+        [style*="width"] {
+          max-width: 100% !important;
+        }
+      }
+
+      /* Back to top button styles with high specificity */
       #back-to-top.back-to-top-btn {
         position: fixed !important;
-        bottom: 20px !important;
-        /* Use transform to position from the right edge of viewport minus margin */
+        bottom: 20px !important;        /* Use transform to position from the right edge of viewport minus margin */
         right: 0 !important;
         transform: translateX(-20px) !important;
-        /* Alternative approach: use calc to ensure it stays within viewport */
-        /* right: calc(100vw - 70px) !important; */
         z-index: 9999 !important;
         border-radius: 50% !important;
         width: 50px !important;
