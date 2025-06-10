@@ -48,7 +48,7 @@
               {{ if .Date }}
                 <div class="publish-date">
                   <time datetime="{{ .Date.Format "2006-01-02" }}">
-                    Updated:
+                    {{ if gt .Date now }}Coming:{{ else }}Updated:{{ end }}
                     {{ .Date.Format "January 2, 2006" }}
                   </time>
                 </div>
