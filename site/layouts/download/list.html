@@ -1,0 +1,230 @@
+{{- define "main" }}
+  {{- $guidePage := .Site.GetPage (printf "/%s/guide" .Site.Language.Lang) | default (.Site.GetPage "/guide") }}
+  {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="mb-4">{{ i18n "download_page_title" $guidePage }}</h1>
+
+        <p class="lead mb-4">
+          {{ i18n "download_page_description" $guidePage }}
+          {{- $creators := .Site.GetPage "/creators" }}
+          {{- $creatorPages := $creators.Pages }}
+          {{- range $index, $creator := $creatorPages }}
+            {{- if $index }},{{ end }}
+            {{- if gt (len $creatorPages) 1 }}{{ if eq $index (sub (len $creatorPages) 1) }}&nbsp;{{ i18n "and" }}{{ end }}{{ end }}
+            <a href="{{ $creator.Permalink }}" class="text-decoration-none">{{ $creator.Title }}</a>
+          {{- end }}
+          {{ i18n "download_page_originators" $guidePage }}
+        </p>
+
+        <p class="mb-4">{{ i18n "download_translations_provided" }}</p>
+
+        <p class="mb-5">{{ i18n "download_translation_error" $guidePage }} {{ .Site.Params.supportEmail }}</p>
+
+        <!-- Official Version -->
+        <h2 class="mb-3">{{ i18n "download_official_version" }}</h2>
+        <div class="table-responsive mb-5">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">{{ i18n "download_table_language" }}</th>
+                <th scope="col">{{ i18n "download_table_translations_by" }}</th>
+                <th scope="col">{{ i18n "download_table_action" }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{ .Site.Language.LanguageName }} ({{ $guidePage.Date.Format "January 2006" }}) - {{ i18n "download_official_current_version" }}</td>
+                <td>
+                  {{- $creators := .Site.GetPage "/creators" }}
+                  {{- $creatorPages := $creators.Pages }}
+                  {{- range $index, $creator := $creatorPages }}
+                    {{- if $index }},{{ end }}
+                    {{- if gt (len $creatorPages) 1 }}{{ if eq $index (sub (len $creatorPages) 1) }}&{{ end }}{{ end }}
+                    <a href="{{ $creator.Permalink }}" class="text-decoration-none">{{ $creator.Title }}</a>
+                  {{- end }}
+                </td>
+                <td>
+                  <div class="d-flex gap-2">
+                    <!-- Online Reading Link -->
+                    {{ if $isComingSoon }}
+                      <a href="#" class="btn btn-outline-secondary btn-sm disabled">{{ i18n "read_online_action" }}</a>
+                    {{ else }}
+                      <a href="{{ $guidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
+                        <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" }}
+                      </a>
+                    {{ end }}
+
+
+                    <!-- PDF Download Link -->
+                    {{ if $isComingSoon }}
+                      <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" }}</a>
+                    {{ else }}
+                      {{- $pdfPattern := printf "pdf/*.en.pdf" }}
+
+                      {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
+                      {{- if $pdfResource }}
+                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                          <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
+                        </a>
+                      {{- else }}
+                        <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available at {{ $pdfPattern }}"> <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" }} </a>
+                      {{- end }}
+                    {{ end }}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>English (US) ({{ $guidePage.Date.Format "January 2006" }}) - {{ i18n "download_official_current_version" }}</td>
+                <td>
+                  {{- $creators := .Site.GetPage "/creators" }}
+                  {{- $creatorPages := $creators.Pages }}
+                  {{- range $index, $creator := $creatorPages }}
+                    {{- if $index }},{{ end }}
+                    {{- if gt (len $creatorPages) 1 }}{{ if eq $index (sub (len $creatorPages) 1) }}&{{ end }}{{ end }}
+                    <a href="{{ $creator.Permalink }}" class="text-decoration-none">{{ $creator.Title }}</a>
+                  {{- end }}
+                </td>
+                <td>
+                  <div class="d-flex gap-2">
+                    <!-- Online Reading Link -->
+                    {{ if $isComingSoon }}
+                      <a href="#" class="btn btn-outline-secondary btn-sm disabled">{{ i18n "read_online_action" }}</a>
+                    {{ else }}
+                      <a href="{{ $guidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
+                        <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" }}
+                      </a>
+                    {{ end }}
+
+
+                    <!-- PDF Download Link -->
+                    {{ if $isComingSoon }}
+                      <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" }}</a>
+                    {{ else }}
+                      {{- $pdfPattern := printf "pdf/*.en-us.pdf" }}
+
+                      {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
+                      {{- if $pdfResource }}
+                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                          <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
+                        </a>
+                      {{- else }}
+                        <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available at {{ $pdfPattern }}"> <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" }} </a>
+                      {{- end }}
+                    {{ end }}
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Community Translations -->
+        <h2 class="mb-3">{{ i18n "download_community_translations" }}</h2>
+        <p class="text-muted mb-3">
+          <small>
+            * - {{ i18n "download_current_version_released" }} {{ $guidePage.Date.Format "January 2006" }}.
+            {{ i18n "download_older_translations_notice" }}
+          </small>
+        </p>
+
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">{{ i18n "download_table_language" }}</th>
+                <th scope="col">{{ i18n "download_table_translations_by" }}</th>
+                <th scope="col">{{ i18n "download_table_action" }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{- range .Site.Languages }}
+                {{- if ne .Lang $.Site.Language.Lang }}
+                  {{- $translationGuidePage := $.Site.GetPage (printf "/%s/guide" .Lang) }}
+                  <tr>
+                    <td>
+                      {{ .LanguageName }}
+                      {{- if $translationGuidePage }}
+                        {{- if $translationGuidePage.Date }}
+                          ({{ $translationGuidePage.Date.Format "January 2006" }})
+                        {{- else }}
+                          ({{ $guidePage.Date.Format "January 2006" }})
+                        {{- end }}
+                      {{- else }}
+                        ({{ $guidePage.Date.Format "January 2006" }})
+                      {{- end }}
+                    </td>
+                    <td>
+                      {{- if and $translationGuidePage $translationGuidePage.Params.contributors }}
+                        {{- range $index, $contributor := $translationGuidePage.Params.contributors }}
+                          {{- if $index }},{{ end }}
+                          {{- if $contributor.link }}
+                            <a href="{{ $contributor.link }}" target="_blank" rel="noopener" class="text-decoration-none">
+                              {{ $contributor.name }}
+                              <i class="fa-solid fa-external-link-alt ms-1"></i>
+                            </a>
+                          {{- else }}
+                            {{ $contributor.name }}
+                          {{- end }}
+                        {{- end }}
+                      {{- else }}
+                        {{ i18n "download_community_contributors" }}
+                      {{- end }}
+                    </td>
+                    <td>
+                      <div class="d-flex gap-2">
+                        <!-- Online Reading Link -->
+                        {{- if $translationGuidePage }}
+                          <a href="{{ $translationGuidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
+                            <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" }}
+                          </a>
+                        {{- else }}
+                          <a href="#" class="btn btn-outline-secondary btn-sm disabled" title="Translation not available">
+                            <i class="fa-solid fa-ban me-1"></i>{{ i18n "read_online_action" }}
+                          </a>
+                        {{- end }}
+
+
+                        <!-- PDF Download Link -->
+                        {{- if $translationGuidePage }}
+                          {{- $pdfPattern := printf "*.%s.pdf" .Lang }}
+                          {{- $pdfResource := $translationGuidePage.Resources.GetMatch $pdfPattern }}
+                          {{- if $pdfResource }}
+                            <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                              <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
+                            </a>
+                          {{- else }}
+                            <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available">
+                              <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" }}
+                            </a>
+                          {{- end }}
+                        {{- else }}
+                          <a href="#" class="btn btn-primary btn-sm disabled" title="Translation not available">
+                            <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" }}
+                          </a>
+                        {{- end }}
+                      </div>
+                    </td>
+                  </tr>
+                {{- end }}
+              {{- end }}
+              <!-- Add Translation Row -->
+              <tr class="table-light">
+                <td colspan="2"><strong>{{ i18n "download_missing_language" }}</strong> {{ i18n "download_contribute_translation" }}</td>
+                <td>
+                  <a href="{{ .Site.Params.githubUrl }}/issues/new?template=new-translation.yml" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-plus me-1"></i>{{ i18n "download_add_translation" }}
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+{{- end }}
+{{- define "template" }}
+  download/list.html
+{{- end }}
