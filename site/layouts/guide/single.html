@@ -3,14 +3,33 @@
   <section class="my-2" style="max-width: 1200px; margin: 0 auto;">
     <div class="row">
       <!-- Sidebar with table of contents -->
-      <aside class="col-md-3" style="top: 1rem; max-height: 100vh;">
+      <aside class="col-md-3" style="top: 1rem; max-height: 100vh;" aria-label="Table of contents navigation">
         <nav class="content-list bg-light p-3 rounded h-100 d-flex flex-column">
           <div class="content-collaboration d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom">
             <a href="{{ .Site.Params.githubUrl }}/discussions" class="text-decoration-none text-primary"> <i class="fa-solid fa-comments me-1"></i>Join Discussion </a>
             {{ partial "components/share-dropdown.html" . }}
           </div>
-          <h4 class="h6 text-muted mb-3 flex-shrink-0">Table of Contents</h4>
-          <div class="overflow-auto flex-grow-1">
+
+          <!-- Mobile collapse button for TOC -->
+          <div class="d-md-none mb-3">
+            <button
+              class="btn btn-outline-secondary w-100 d-flex justify-content-between align-items-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#tocCollapse"
+              aria-expanded="false"
+              aria-controls="tocCollapse"
+              aria-label="Toggle table of contents">
+              <span class="h6 text-muted mb-0">Table of Contents</span>
+              <i class="fa-solid fa-chevron-down" id="tocToggleIcon"></i>
+            </button>
+          </div>
+
+          <!-- Desktop TOC title (always visible on desktop) -->
+          <h4 class="h6 text-muted mb-3 flex-shrink-0 d-none d-md-block">Table of Contents</h4>
+
+          <!-- Collapsible TOC content -->
+          <div class="collapse d-md-block overflow-auto flex-grow-1" id="tocCollapse">
             {{- if $isComingSoon }}
               <div class="alert alert-warning" role="alert">This guide is coming soon! Stay tuned for updates.</div>
             {{ else }}
@@ -63,9 +82,8 @@
                 {{ .Content }}
               {{- end }}
             </div>
-
             <footer class="content-footer mt-4">
-              <nav class="content-navigation d-flex justify-content-between">
+              <nav class="content-navigation d-flex justify-content-between" aria-label="Previous and next page navigation">
                 {{ with .PrevInSection }}
                   <a href="{{ .Permalink }}" class="prev-content btn btn-outline-secondary">← {{ .Title }}</a>
                 {{ else }}
@@ -87,6 +105,59 @@
       </main>
     </div>
   </section>
+
+  <!-- JavaScript for mobile TOC collapse functionality -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tocCollapse = document.getElementById("tocCollapse");
+      const tocToggleIcon = document.getElementById("tocToggleIcon");
+
+      if (tocCollapse && tocToggleIcon) {
+        tocCollapse.addEventListener("show.bs.collapse", function () {
+          tocToggleIcon.classList.remove("fa-chevron-down");
+          tocToggleIcon.classList.add("fa-chevron-up");
+        });
+
+        tocCollapse.addEventListener("hide.bs.collapse", function () {
+          tocToggleIcon.classList.remove("fa-chevron-up");
+          tocToggleIcon.classList.add("fa-chevron-down");
+        });
+      }
+    });
+  </script>
+
+  <style>
+    /* Smooth transition for the collapse icon */
+    #tocToggleIcon {
+      transition: transform 0.3s ease;
+    }
+
+    /* Mobile-specific styles */
+    @media (max-width: 767.98px) {
+      .content-list {
+        margin-bottom: 1rem;
+      }
+
+      /* Ensure TOC content has proper spacing when collapsed */
+      #tocCollapse {
+        margin-top: 0.5rem;
+      }
+
+      /* Style the TOC content for mobile */
+      #tocCollapse ul {
+        padding-left: 1rem;
+      }
+
+      #tocCollapse li {
+        margin-bottom: 0.25rem;
+      }
+
+      #tocCollapse a {
+        font-size: 0.9rem;
+        line-height: 1.4;
+      }
+    }
+  </style>
 {{- end }}
 {{- define "template" }}
   guide/single.html
