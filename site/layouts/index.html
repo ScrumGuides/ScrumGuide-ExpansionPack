@@ -26,17 +26,7 @@
               <p class="card-text flex-grow-1">{{ i18n "download_description" . }}</p>
             </div>
             <div class="card-footer">
-              {{ if $isComingSoon }}
-                <a href="#" class="btn btn-primary disabled">coming soon</a>
-              {{ else }}
-                {{- $pdfPattern := printf "*.%s.pdf" .Language.Lang }}
-                {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
-                {{- if $pdfResource }}
-                  <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary" download>{{ i18n "download_button" . }}</a>
-                {{- else }}
-                  <a href="#" class="btn btn-primary disabled" download><i class="fa-solid fa-ban"></i> {{ i18n "download_button" . }}</a>
-                {{- end }}
-              {{ end }}
+              <a href="/download" class="btn btn-primary">{{ i18n "download_button" . }}</a>
             </div>
           </div>
         </div>
