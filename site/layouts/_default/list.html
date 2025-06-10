@@ -61,16 +61,56 @@
                     {{ if $isComingSoon }}
                       <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" }}</a>
                     {{ else }}
-                      {{- $pdfPattern := printf "*.%s.pdf" .Site.Language.Lang }}
+                      {{- $pdfPattern := printf "pdf/*.en.pdf" }}
+
                       {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
                       {{- if $pdfResource }}
                         <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
                           <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
                         </a>
                       {{- else }}
-                        <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available">
-                          <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" }}
+                        <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available at {{ $pdfPattern }}"> <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" }} </a>
+                      {{- end }}
+                    {{ end }}
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>English (US) ({{ $guidePage.Date.Format "January 2006" }}) - {{ i18n "download_official_current_version" }}</td>
+                <td>
+                  {{- $creators := .Site.GetPage "/creators" }}
+                  {{- $creatorPages := $creators.Pages }}
+                  {{- range $index, $creator := $creatorPages }}
+                    {{- if $index }},{{ end }}
+                    {{- if gt (len $creatorPages) 1 }}{{ if eq $index (sub (len $creatorPages) 1) }}&{{ end }}{{ end }}
+                    <a href="{{ $creator.Permalink }}" class="text-decoration-none">{{ $creator.Title }}</a>
+                  {{- end }}
+                </td>
+                <td>
+                  <div class="d-flex gap-2">
+                    <!-- Online Reading Link -->
+                    {{ if $isComingSoon }}
+                      <a href="#" class="btn btn-outline-secondary btn-sm disabled">{{ i18n "read_online_action" }}</a>
+                    {{ else }}
+                      <a href="{{ $guidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
+                        <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" }}
+                      </a>
+                    {{ end }}
+
+
+                    <!-- PDF Download Link -->
+                    {{ if $isComingSoon }}
+                      <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" }}</a>
+                    {{ else }}
+                      {{- $pdfPattern := printf "pdf/*.en-us.pdf" }}
+
+                      {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
+                      {{- if $pdfResource }}
+                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                          <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
                         </a>
+                      {{- else }}
+                        <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available at {{ $pdfPattern }}"> <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" }} </a>
                       {{- end }}
                     {{ end }}
                   </div>
