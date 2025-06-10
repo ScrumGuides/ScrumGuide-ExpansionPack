@@ -488,7 +488,7 @@ The Scrum Master works with the organization in several ways, including:
 
 Scrum Masters can team up with other Scrum Masters or Supporters to support the whole organization; they can also collaborate with other change agents or leaders when needed. The Scrum Master, as a change agent, is accountable for the quality of the Scrum adoption and should collaborate with other change agents to improve it.
 
-The Scrum Master is one person, not a committee or technology, and serves the Product Owner, Scrum Team, Stakeholders, and the larger organization. Being a change agent and leader, the Scrum Master should generally invite people to participate in the change. It is helpful if the Scrum Master has an understanding of the flow of value (68,69), lean (63), complexity theory (30-35), and other supporting and complementary theory in this document, as well as assisting people with the _how_. It is also helpful if the Scrum Master is unrelenting and has an insatiable appetite for learning and change.
+The Scrum Master is one person, not a committee or technology, and serves the Product Owner, Scrum Team, Stakeholders, and the larger organization. Being a change agent and leader, the Scrum Master should generally invite people to participate in the change. It is helpful if the Scrum Master has an understanding of the flow of value (69), lean (63), complexity theory (30-35), and other supporting and complementary theory in this document, as well as assisting people with the _how_. It is also helpful if the Scrum Master is unrelenting and has an insatiable appetite for learning and change.
 
 Being a Scrum Master is a calling where helping others succeed is reward enough. A Scrum Master doesn’t seek the spotlight. Like any good leader, they give credit to others and take responsibility when things go wrong. Staying in the role for a longer time helps guide the Scrum Team toward its full potential, but only if the Product Developers collectively develop self-management. Parent-style Scrum Master behavior does not foster a self-managing Scrum Team. Context matters. But as a rule of thumb, a Scrum Master who is neither willing, ready, nor able to be an agent of change should step down as a Scrum Master.
 
@@ -695,7 +695,7 @@ The Product Developers can select whatever structure and techniques they want. D
 
 The Daily Scrum is not the only time the Product Developers adjust their plan for the Sprint within the context of the Sprint Goal or Product Goal. Product Developers often meet throughout the day for more detailed discussions.
 
-To enable the flow of value (68,69) and enable potential outcomes sooner, the Product Developers should focus on one item or a few items at a time and meet the Definition of Output Done, before starting to work on other items. The Product Developers can achieve this by focusing, having fewer items in progress, and proactively finishing work over starting new work. The Product Developers monitor idle work, not idle people.
+To enable the flow of value (69) and enable potential outcomes sooner, the Product Developers should focus on one item or a few items at a time and meet the Definition of Output Done, before starting to work on other items. The Product Developers can achieve this by focusing, having fewer items in progress, and proactively finishing work over starting new work. The Product Developers monitor idle work, not idle people.
 
 The Daily Scrum is timeboxed to a maximum of fifteen minutes per day; it may be shorter.
 
@@ -726,7 +726,7 @@ The Sprint Retrospective focuses on the most helpful changes to improve, such as
 - The Increment
 - Outcomes
 - Professionalism, e.g., skills, technical practices, tooling, ability to innovate;
-- Flow of validated value (68,69), e.g., end-to-end flow metrics, time-to-market;
+- Flow of validated value (69), e.g., end-to-end flow metrics, time-to-market;
 - Effectiveness (the _how_), e.g., technology, processes, dependencies;
 - Interactions and Scrum Team dynamics, e.g., collaboration, working arrangements;
 - Information radiators, e.g., product wall, metrics;
@@ -938,7 +938,7 @@ MORE Executive SUCCESS identifies a number of opportunities for executives and b
 
 - Acquire knowledge on stakeholders (including the customer) and their needs and limits, the work, how the work works, the waste, the anti-patterns, the problem space, the opportunities, the evidence that value can be harvested, behaviors, and habits
 - Foster a humane performance climate and enable succession planning that protects and improves it
-- Develop responsiveness and flow (68,69) across value networks
+- Develop responsiveness and flow (69) across value networks
 - Nurture emergence (71) and adaptiveness (80) in a direction with clarity
 - Engage people, including customers and colleagues
 - Foster effective and timely succession planning
@@ -1225,91 +1225,90 @@ This collection was written and compiled by _Ralph Jocham, John Coleman, and Jef
 65. _Felderer, M. and Travassos, G.H. (2020) ‘The Evolution of Empirical Methods in Software Engineering’. Available at: [https://arxiv.org/pdf/1912.11512.pdf](https://arxiv.org/pdf/1912.11512.pdf) (Accessed: 17 May 2025)._
 66. _Creative Wisdom (n.d.) ‘Abduction, Deduction and Induction’. Available at: [https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf](https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf) (Accessed: 17 May 2025)._
 67. _Campbell, J. (2025) ‘Empiricism’, EBSCO Research Starters. Available at: [https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism](https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism) (Accessed: 17 May 2025\)_
-68. _Kanban Guides (2025) Available at: [https://kanbanguides.org](https://kanbanguides.org/) (Accessed: 17 May 2025\)_
-69. [_Scrum.org_](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (Accessed: 17 May 2025\)_
-70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. New York: Harper & Row_
-71. _Templeton Foundation (2023) ‘What Is Emergence?’ John Templeton Foundation. Available at: [https://www.templeton.org/news/what-is-emergence](https://www.templeton.org/news/what-is-emergence) (Accessed: 17 May 2025)._
-72. _van der Bles, A.M., van der Linden, S., Freeman, A.L.J. and Spiegelhalter, D.J. (2019) ‘Communicating uncertainty about facts, numbers and science’, Royal Society Open Science, 6(5), 181870\. Available at: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/) (Accessed: 17 May 2025)._
-73. _Morieux, Y. (2015) How too many rules at work keep you from getting things done: Yves Morieux: Ted Talks, YouTube. At: [https://youtu.be/t NoFstCmQ](https://youtu.be/t__NoFstCmQ) (April 3, 2023)._
-74. _Holland, J.H. (1992) Complex Adaptive Systems. Daedalus, 121(1), pp. 17–30. Available at: [https://www.jstor.org/stable/20025416](https://www.jstor.org/stable/20025416) (Accessed: 17 May 2025)._
-75. _Axelrod, R. and Cohen, M.D. (2000) Harnessing Complexity: Organizational Implications of a Scientific Frontier. New York: Free Press._
-76. _Juarrero, A. (1999) Dynamics in Action: Intentional Behavior as a Complex System. Cambridge, MA: MIT Press._
-77. _Snowden, D.J. and Boone, M.E. (2007) ‘A leader’s framework for decision making’, Harvard Business Review, 85(11), pp. 68–76. Available at: [https://hbr.org/2007/11/a-leaders-framework-for-decision-making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) (Accessed: 17 May 2025\)_
-78. _Dictionary Marketing (2024) ‘B2B2B’. Available at: [https://dictionarymarketing.com/definition/b2b2b/](https://dictionarymarketing.com/definition/b2b2b/) (Accessed: 17 May 2025)._
-79. _NetSuite (2023) ‘What Is Business to Business to Consumer (B2B2C)?’ Available at: [https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml](https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml) (Accessed: 17 May 2025)._
-80. _LeSS (n.d.) ‘Why LeSS? Achieving adaptiveness’. Available at: [https://less.works/less/framework/why-less](https://less.works/less/framework/why-less) (Accessed: 17 May 2025)._
-81. _Sociocracy For All (n.d.) ‘Gerard Endenburg: founder of Sociocratic Circle Method and pioneer of self-management’. Available at: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (Accessed: 18 May 2025)._
-82. _Patton, J. and Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O’Reilly Media._
-83. _Kotter, J.P., 1996\. Leading Change. Boston: Harvard Business School Press._
-84. _‘Genchi Genbutsu’ (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (Accessed: 18 May 2025)._
-85. _ScrumPlop, n.d. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[Accessed 18 May 2025\]._
-86. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love. 2nd ed. Hoboken, NJ: Wiley._
-87. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products. Hoboken, NJ: Wiley._
-88. _Cagan, M., 2024\. Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._
-89. _Schwaber, K. (2023) ‘Scrum Guide’, Ken Schwaber’s Blog, 25 September. Available at: [https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/](https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/) (Accessed: 20 May 2025)._
-90. _Future Ready: How to Master Business Forecasting_  
+68. [_Scrum.org_](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (Accessed: 17 May 2025\)_
+69. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. New York: Harper & Row_
+70. _Templeton Foundation (2023) ‘What Is Emergence?’ John Templeton Foundation. Available at: [https://www.templeton.org/news/what-is-emergence](https://www.templeton.org/news/what-is-emergence) (Accessed: 17 May 2025)._
+71. _van der Bles, A.M., van der Linden, S., Freeman, A.L.J. and Spiegelhalter, D.J. (2019) ‘Communicating uncertainty about facts, numbers and science’, Royal Society Open Science, 6(5), 181870\. Available at: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/) (Accessed: 17 May 2025)._
+72. _Morieux, Y. (2015) How too many rules at work keep you from getting things done: Yves Morieux: Ted Talks, YouTube. At: [https://youtu.be/t NoFstCmQ](https://youtu.be/t__NoFstCmQ) (April 3, 2023)._
+73. _Holland, J.H. (1992) Complex Adaptive Systems. Daedalus, 121(1), pp. 17–30. Available at: [https://www.jstor.org/stable/20025416](https://www.jstor.org/stable/20025416) (Accessed: 17 May 2025)._
+74. _Axelrod, R. and Cohen, M.D. (2000) Harnessing Complexity: Organizational Implications of a Scientific Frontier. New York: Free Press._
+75. _Juarrero, A. (1999) Dynamics in Action: Intentional Behavior as a Complex System. Cambridge, MA: MIT Press._
+76. _Snowden, D.J. and Boone, M.E. (2007) ‘A leader’s framework for decision making’, Harvard Business Review, 85(11), pp. 69–76. Available at: [https://hbr.org/2007/11/a-leaders-framework-for-decision-making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) (Accessed: 17 May 2025\)_
+77. _Dictionary Marketing (2024) ‘B2B2B’. Available at: [https://dictionarymarketing.com/definition/b2b2b/](https://dictionarymarketing.com/definition/b2b2b/) (Accessed: 17 May 2025)._
+78. _NetSuite (2023) ‘What Is Business to Business to Consumer (B2B2C)?’ Available at: [https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml](https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml) (Accessed: 17 May 2025)._
+79. _LeSS (n.d.) ‘Why LeSS? Achieving adaptiveness’. Available at: [https://less.works/less/framework/why-less](https://less.works/less/framework/why-less) (Accessed: 17 May 2025)._
+80. _Sociocracy For All (n.d.) ‘Gerard Endenburg: founder of Sociocratic Circle Method and pioneer of self-management’. Available at: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (Accessed: 18 May 2025)._
+81. _Patton, J. and Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O’Reilly Media._
+82. _Kotter, J.P., 1996\. Leading Change. Boston: Harvard Business School Press._
+83. _‘Genchi Genbutsu’ (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (Accessed: 18 May 2025)._
+84. _ScrumPlop, n.d. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[Accessed 18 May 2025\]._
+85. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love. 2nd ed. Hoboken, NJ: Wiley._
+86. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products. Hoboken, NJ: Wiley._
+87. _Cagan, M., 2024\. Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._
+88. _Schwaber, K. (2023) ‘Scrum Guide’, Ken Schwaber’s Blog, 25 September. Available at: [https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/](https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/) (Accessed: 20 May 2025)._
+89. _Future Ready: How to Master Business Forecasting_  
     _Morlidge, S. & Player, S., 2010\. Future Ready: How to Master Business Forecasting. Chichester: John Wiley & Sons._
-91. _The Little Book of Beyond Budgeting_  
+90. _The Little Book of Beyond Budgeting_  
     _Morlidge, S., 2024\. The Little Book of Beyond Budgeting: A New Management Model for Organisations (Second Edition) \[Beyond Books Press\]_
-92. _The Little (Illustrated) Book of Operational Forecasting_  
+91. _The Little (Illustrated) Book of Operational Forecasting_  
     _Morlidge, S., 2019\. The Little (Illustrated) Book of Operational Forecasting. \[Troubador\]._
-93. _Present Sense_  
+92. _Present Sense_  
     _Morlidge, S., 2019\. Present Sense. \[Troubador\]._
-94. _Zen and the Art of Organising Work_  
+93. _Zen and the Art of Organising Work_  
     _Morlidge, S., 2021\. Zen and the Art of Organising Work. \[Troubador\]._
-95. _Cost Matters_  
+94. _Cost Matters_  
     _Morlidge, S., 2023\. Cost Matters. \[Beyond Books Press\]._
-96. _Beyond Budgeting i praktiken Fahlén, K., 2016\. Beyond Budgeting i praktiken. Stockholm: Liber._
-97. _Fahlén, K., 2018\. Dynamic Management Strategy: A guide to management innovation and competitive advantage. Gothenburg: BAS_
-98. _Bogsnes, B., 2016\. Implementing Beyond Budgeting: Unlocking the Performance Potential. 2nd ed. Chichester: John Wiley & Sons._
-99. _Boyd, J.R. (1995–1996) The Essence of Winning and Losing. Unpublished briefing slides. Note: Boyd’s OODA was primarily disseminated through military briefings and unpublished manuscripts. His final conceptualization appears in The Essence of Winning and Losing, which emphasizes nonlinear decision-making and adaptation in complex environments._
-100. _Turner, J.R., Thurlow, N. and Rivera, B. (2019) The Flow System Guide. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (Accessed: 24 May 2025). Summary: This guide integrates Boyd’s OODA with complexity theory and agile practices, framing it as a dynamic, non-linear decision-making process for organizational flow._
-101. _Williamson, P.J. & Yin, E. (2018) 'Management Innovation Made in China: Haier's Rendanheyi', California Management Review, 61(1), pp. 71-93._
-102. _Richards, C. (2004) Certain to Win: The Strategy of John Boyd, Applied to Business. Bloomington, IN: Xlibris_
-103. _Becker, S et al (co-author) The Viable Map Workbook 2023 \[Beyond Books Press\]_
-104. _Frey, B.S. and Jegen, R. (2001) ‘Motivation crowding theory’, Journal of Economic Surveys, 15(5), pp. 589–611._
-105. _Cameron, J., Banko, K.M. and Pierce, W.D. (2001) ‘Pervasive negative effects of rewards on intrinsic motivation: The myth continues’, The Behavior Analyst, 24(1), pp. 1–44._
-106. _Deci, E.L., Koestner, R. and Ryan, R.M. (1999) ‘A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation’, Psychological Bulletin, 125(6), pp. 627–668._
-107. _Ryan, R.M. and Deci, E.L. (2000) ‘Intrinsic and extrinsic motivations: Classic definitions and new directions’, Contemporary Educational Psychology, 25(1), pp. 54–67._
-108. _Sandel, M.J. (2012) What money can’t buy: The moral limits of markets. London: Allen Lane._
-109. _Kohn, A. (1993) ‘Why incentive plans cannot work’, Harvard Business Review, 71(5), pp. 54–63._
-110. _Fuzzy Business: How to be roughly right rather than precisely wrong (unpublished)._
-111. _Lewis, R. (2023) An operating model for business agility: Agile for managers of the digital age. Independently published._
-112. _less.works (n.d.) Technical Excellence. Available at: [https://less.works/less/technical-excellence](https://less.works/less/technical-excellence) (Accessed: 7 June 2025\)_
-113. _Cagan, M. (2024) Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._
-114. _Cagan, M. (2025) ‘The Product Operating Model’, Silicon Valley Product Group, 17 March. Available at: [https://www.svpg.com/the-product-operating-model/](https://www.svpg.com/the-product-operating-model/) (Accessed: 8 June 2025)._
-115. _Cagan, M. (n.d.) ‘The Product Operating Model: An Introduction’, Silicon Valley Product Group. Available at: [https://www.svpg.com/the-product-operating-model-an-introduction/](https://www.svpg.com/the-product-operating-model-an-introduction/) (Accessed: 8 June 2025\)_
-116. _Scrum.org (2025) ‘The Agile Product Operating Model’, Scrum.org, 1 May. Available at: [https://www.scrum.org/resources/agile-product-operating-model](https://www.scrum.org/resources/agile-product-operating-model) (Accessed: 8 June 2025)._
-117. _Scrum.org (2025) ‘Agile Product Operating Model State of Play \- Part 1 \- Fundamentals’, Scrum.org, 12 May. Available at: https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals (Accessed: 8 June 2025)._
-118. _Scrum.org (2024) ‘Project to Product and the Agile Product Operating Model’, Scrum.org, 7 November. Available at: [https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model](https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model) (Accessed: 8 June 2025)._
-119. _Scrum.org (2024) Moving to an Agile Product Operating Model \[PDF\]. Available at: [https://s3.amazonaws.com/static.scrum.org/Webinar+Slides/Moving+to+an+agile+product+operating+model+2024+.pdf](https://s3.amazonaws.com/static.scrum.org/Webinar+Slides/Moving+to+an+agile+product+operating+model+2024+.pdf). (Accessed: 8 June 2025\)_
-120. _Scotland, K. (2023) Why strategy deployment? Here are three great reasons, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (April 3, 2023)._
-121. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (April 3, 2023)._
-122. _Scotland, K. (2017) Strategy deployment and playing to win, AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (April 3, 2023)._
-123. _Scotland, K. (2017) A strategy deployment cadence, AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (April 3, 2023)._
-124. _Scotland, K. (2022) The ultimate X-matrix for your agile transformation is here, AvailAgility. At: [https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/](https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/) (April 5, 2023)._
-125. _Krebs, J. (2023) Agile kata pro, Agile Kata Pro. At: [https://agilekata.pro/](https://agilekata.pro/) (April 4, 2023)._
-126. _Doerr, J. (2023) OKRs 101, What Matters. At: [https://www.whatmatters.com/get-started/](https://www.whatmatters.com/get-started/) (April 4, 2023)._
-127. _Wodtke, C. (2021) Radical focus achieving your most important goals with objectives and key results--. Palo Alto, CA: Cucina Media._
-128. _Gothelf, J. & Seiden, J. (2024) Who Does What By How Much?: A Practical Guide to Customer-Centric OKRs. New York: Sense & Respond Press._
-129. _Appelo, J. (2023) Sometimes, you \*don’t\* want focus, unFIX. At: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (14 January 2024)._
-130. _Appelo, J. (2023) Bets and objectives, unFIX. At: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (14 January 2024)._
-131. _McChesney, C. (2023) The 4 disciplines of execution (new), FranklinCovey. At: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (April 4, 2023)._
-132. _Scrum.org (2024) Evidence-Based Management (EBM) Framework, Scrum.org. Available at: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (Accessed: 8 June 2025)._
-133. _Burrows, M. (2023) Home: Agendashift™, Agendashift. At: [https://www.agendashift.com/](https://www.agendashift.com/) (April 4, 2023)._
-134. _Kniberg, H. and Ivarsson, A. (2012) Scaling at Spotify, Crisp. At: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (April 5, 2023)._
-135. _Ambler, S.W. and Lines, M. (2023) Disciplined Agile® Toolkit \- Project Management Institute, PMI. At: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (April 5, 2023)._
-136. _Leffingwell, D. and Knaster, R. (2023) Safe 6.0 framework, Scaled Agile Framework. At: [https://www.scaledagileframework.com/](https://www.scaledagileframework.com/) (April 5, 2023)._
-137. _Sutherland, J. (2021) Scrum@Scale \- the scaling framework created by dr. Jeff Sutherland, Scrum@Scale Framework. At: [https://www.scrumatscale.com/](https://www.scrumatscale.com/) (April 5, 2023)._
-138. _Skelton, M. and Pais, M. (2023) Team topologies, Team Topologies. At: https://teamtopologies.com/ (April 5, 2023)._
-139. _Appelo, J. (2023) Versatile Organization Design, unFIX. At: [https://unfix.com/](https://unfix.com/) (April 5, 2023)._
-140. _Merel, P. (2023) Xscale Alliance, XSCALE Alliance. At: [https://xscalealliance.org/\#manifesto](https://xscalealliance.org/#manifesto) (April 5, 2023)._
-141. _Schwaber, K. et al. (2021) Online nexus guide, Scrum.org. At: [https://www.scrum.org/resources/online-nexus-guide](https://www.scrum.org/resources/online-nexus-guide) (April 5, 2023)._
-142. _Quartel, R. et al. (2024) FaST guide, Fluid Scaling Technology. At: [https://www.fastagile.io/](https://www.fastagile.io/) (December 6, 2023)._
-143. _Ramos, C. and Pavlichenko, I. (2023) Creating agile organizations, Creating Agile Organizations. At: [https://creatingagileorganizations.com/](https://creatingagileorganizations.com/) (April 15, 2023)._
-144. _Larman, C. & Vodde, B. (2025) LeSS (Large-Scale Scrum) Framework. Available at: [https://less.works/less/framework](https://less.works/less/framework) (Accessed: 8 June 2025\)_
-145. _Flight Levels GmbH (2025) Flight Levels Framework. Available at: [https://www.flightlevels.io/what-is-flight-levels/](https://www.flightlevels.io/what-is-flight-levels/) (Accessed: 8 June 2025)._
-146. _Krivitsky, A. and Flemm, R. (2022) Org topologies, Org Topologies. At: [https://www.orgtopologies.com/](https://www.orgtopologies.com/) (April 4, 2023)._
-147. _Singh, P. (2023) Scaling Simplified: A Practitioner’s Guide to Scaling Flow. Florida: Self-published. Available at: [https://leanpub.com/scalingsimplified](https://leanpub.com/scalingsimplified) (Accessed: 8 June 2025\)_
-148. _Davies, Dan. (2025) The Unaccountability Machine: Why Big Systems Make Terrible Decisions—and How the World Lost Its Mind. London: Profile Books Ltd. (Paperback edition)._
-149. _Stripe (2025) ‘Sir Jony Ive and Patrick Collison Fireside Chat | Stripe Sessions 2025’, YouTube video, 8 May. Available at: [https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3\&t=1390](https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3&t=1390) (Accessed: 8 June 2025\)_
+95. _Beyond Budgeting i praktiken Fahlén, K., 2016\. Beyond Budgeting i praktiken. Stockholm: Liber._
+96. _Fahlén, K., 2018\. Dynamic Management Strategy: A guide to management innovation and competitive advantage. Gothenburg: BAS_
+97. _Bogsnes, B., 2016\. Implementing Beyond Budgeting: Unlocking the Performance Potential. 2nd ed. Chichester: John Wiley & Sons._
+98. _Boyd, J.R. (1995–1996) The Essence of Winning and Losing. Unpublished briefing slides. Note: Boyd’s OODA was primarily disseminated through military briefings and unpublished manuscripts. His final conceptualization appears in The Essence of Winning and Losing, which emphasizes nonlinear decision-making and adaptation in complex environments._
+99. _Turner, J.R., Thurlow, N. and Rivera, B. (2019) The Flow System Guide. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (Accessed: 24 May 2025). Summary: This guide integrates Boyd’s OODA with complexity theory and agile practices, framing it as a dynamic, non-linear decision-making process for organizational flow._
+100. _Williamson, P.J. & Yin, E. (2018) 'Management Innovation Made in China: Haier's Rendanheyi', California Management Review, 61(1), pp. 71-93._
+101. _Richards, C. (2004) Certain to Win: The Strategy of John Boyd, Applied to Business. Bloomington, IN: Xlibris_
+102. _Becker, S et al (co-author) The Viable Map Workbook 2023 \[Beyond Books Press\]_
+103. _Frey, B.S. and Jegen, R. (2001) ‘Motivation crowding theory’, Journal of Economic Surveys, 15(5), pp. 589–611._
+104. _Cameron, J., Banko, K.M. and Pierce, W.D. (2001) ‘Pervasive negative effects of rewards on intrinsic motivation: The myth continues’, The Behavior Analyst, 24(1), pp. 1–44._
+105. _Deci, E.L., Koestner, R. and Ryan, R.M. (1999) ‘A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation’, Psychological Bulletin, 125(6), pp. 627–668._
+106. _Ryan, R.M. and Deci, E.L. (2000) ‘Intrinsic and extrinsic motivations: Classic definitions and new directions’, Contemporary Educational Psychology, 25(1), pp. 54–67._
+107. _Sandel, M.J. (2012) What money can’t buy: The moral limits of markets. London: Allen Lane._
+108. _Kohn, A. (1993) ‘Why incentive plans cannot work’, Harvard Business Review, 71(5), pp. 54–63._
+109. _Fuzzy Business: How to be roughly right rather than precisely wrong (unpublished)._
+110. _Lewis, R. (2023) An operating model for business agility: Agile for managers of the digital age. Independently published._
+111. _less.works (n.d.) Technical Excellence. Available at: [https://less.works/less/technical-excellence](https://less.works/less/technical-excellence) (Accessed: 7 June 2025\)_
+112. _Cagan, M. (2024) Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._
+113. _Cagan, M. (2025) ‘The Product Operating Model’, Silicon Valley Product Group, 17 March. Available at: [https://www.svpg.com/the-product-operating-model/](https://www.svpg.com/the-product-operating-model/) (Accessed: 8 June 2025)._
+114. _Cagan, M. (n.d.) ‘The Product Operating Model: An Introduction’, Silicon Valley Product Group. Available at: [https://www.svpg.com/the-product-operating-model-an-introduction/](https://www.svpg.com/the-product-operating-model-an-introduction/) (Accessed: 8 June 2025\)_
+115. _Scrum.org (2025) ‘The Agile Product Operating Model’, Scrum.org, 1 May. Available at: [https://www.scrum.org/resources/agile-product-operating-model](https://www.scrum.org/resources/agile-product-operating-model) (Accessed: 8 June 2025)._
+116. _Scrum.org (2025) ‘Agile Product Operating Model State of Play \- Part 1 \- Fundamentals’, Scrum.org, 12 May. Available at: https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals (Accessed: 8 June 2025)._
+117. _Scrum.org (2024) ‘Project to Product and the Agile Product Operating Model’, Scrum.org, 7 November. Available at: [https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model](https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model) (Accessed: 8 June 2025)._
+118. _Scrum.org (2024) Moving to an Agile Product Operating Model \[PDF\]. Available at: [https://s3.amazonaws.com/static.scrum.org/Webinar+Slides/Moving+to+an+agile+product+operating+model+2024+.pdf](https://s3.amazonaws.com/static.scrum.org/Webinar+Slides/Moving+to+an+agile+product+operating+model+2024+.pdf). (Accessed: 8 June 2025\)_
+119. _Scotland, K. (2023) Why strategy deployment? Here are three great reasons, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (April 3, 2023)._
+120. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (April 3, 2023)._
+121. _Scotland, K. (2017) Strategy deployment and playing to win, AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (April 3, 2023)._
+122. _Scotland, K. (2017) A strategy deployment cadence, AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (April 3, 2023)._
+123. _Scotland, K. (2022) The ultimate X-matrix for your agile transformation is here, AvailAgility. At: [https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/](https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/) (April 5, 2023)._
+124. _Krebs, J. (2023) Agile kata pro, Agile Kata Pro. At: [https://agilekata.pro/](https://agilekata.pro/) (April 4, 2023)._
+125. _Doerr, J. (2023) OKRs 101, What Matters. At: [https://www.whatmatters.com/get-started/](https://www.whatmatters.com/get-started/) (April 4, 2023)._
+126. _Wodtke, C. (2021) Radical focus achieving your most important goals with objectives and key results--. Palo Alto, CA: Cucina Media._
+127. _Gothelf, J. & Seiden, J. (2024) Who Does What By How Much?: A Practical Guide to Customer-Centric OKRs. New York: Sense & Respond Press._
+128. _Appelo, J. (2023) Sometimes, you \*don’t\* want focus, unFIX. At: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (14 January 2024)._
+129. _Appelo, J. (2023) Bets and objectives, unFIX. At: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (14 January 2024)._
+130. _McChesney, C. (2023) The 4 disciplines of execution (new), FranklinCovey. At: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (April 4, 2023)._
+131. _Scrum.org (2024) Evidence-Based Management (EBM) Framework, Scrum.org. Available at: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (Accessed: 8 June 2025)._
+132. _Burrows, M. (2023) Home: Agendashift™, Agendashift. At: [https://www.agendashift.com/](https://www.agendashift.com/) (April 4, 2023)._
+133. _Kniberg, H. and Ivarsson, A. (2012) Scaling at Spotify, Crisp. At: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (April 5, 2023)._
+134. _Ambler, S.W. and Lines, M. (2023) Disciplined Agile® Toolkit \- Project Management Institute, PMI. At: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (April 5, 2023)._
+135. _Leffingwell, D. and Knaster, R. (2023) Safe 6.0 framework, Scaled Agile Framework. At: [https://www.scaledagileframework.com/](https://www.scaledagileframework.com/) (April 5, 2023)._
+136. _Sutherland, J. (2021) Scrum@Scale \- the scaling framework created by dr. Jeff Sutherland, Scrum@Scale Framework. At: [https://www.scrumatscale.com/](https://www.scrumatscale.com/) (April 5, 2023)._
+137. _Skelton, M. and Pais, M. (2023) Team topologies, Team Topologies. At: https://teamtopologies.com/ (April 5, 2023)._
+138. _Appelo, J. (2023) Versatile Organization Design, unFIX. At: [https://unfix.com/](https://unfix.com/) (April 5, 2023)._
+139. _Merel, P. (2023) Xscale Alliance, XSCALE Alliance. At: [https://xscalealliance.org/\#manifesto](https://xscalealliance.org/#manifesto) (April 5, 2023)._
+140. _Schwaber, K. et al. (2021) Online nexus guide, Scrum.org. At: [https://www.scrum.org/resources/online-nexus-guide](https://www.scrum.org/resources/online-nexus-guide) (April 5, 2023)._
+141. _Quartel, R. et al. (2024) FaST guide, Fluid Scaling Technology. At: [https://www.fastagile.io/](https://www.fastagile.io/) (December 6, 2023)._
+142. _Ramos, C. and Pavlichenko, I. (2023) Creating agile organizations, Creating Agile Organizations. At: [https://creatingagileorganizations.com/](https://creatingagileorganizations.com/) (April 15, 2023)._
+143. _Larman, C. & Vodde, B. (2025) LeSS (Large-Scale Scrum) Framework. Available at: [https://less.works/less/framework](https://less.works/less/framework) (Accessed: 8 June 2025\)_
+144. _Flight Levels GmbH (2025) Flight Levels Framework. Available at: [https://www.flightlevels.io/what-is-flight-levels/](https://www.flightlevels.io/what-is-flight-levels/) (Accessed: 8 June 2025)._
+145. _Krivitsky, A. and Flemm, R. (2022) Org topologies, Org Topologies. At: [https://www.orgtopologies.com/](https://www.orgtopologies.com/) (April 4, 2023)._
+146. _Singh, P. (2023) Scaling Simplified: A Practitioner’s Guide to Scaling Flow. Florida: Self-published. Available at: [https://leanpub.com/scalingsimplified](https://leanpub.com/scalingsimplified) (Accessed: 8 June 2025\)_
+147. _Davies, Dan. (2025) The Unaccountability Machine: Why Big Systems Make Terrible Decisions—and How the World Lost Its Mind. London: Profile Books Ltd. (Paperback edition)._
+148. _Stripe (2025) ‘Sir Jony Ive and Patrick Collison Fireside Chat | Stripe Sessions 2025’, YouTube video, 8 May. Available at: [https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3\&t=1390](https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3&t=1390) (Accessed: 8 June 2025\)_
