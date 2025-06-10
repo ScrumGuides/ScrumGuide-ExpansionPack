@@ -72,12 +72,15 @@
       <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 
-    <style>
-      /* Back to top button styles with high specificity */
+    <style>      /* Back to top button styles with high specificity */
       #back-to-top.back-to-top-btn {
         position: fixed !important;
         bottom: 20px !important;
-        right: 20px !important;
+        /* Use transform to position from the right edge of viewport minus margin */
+        right: 0 !important;
+        transform: translateX(-20px) !important;
+        /* Alternative approach: use calc to ensure it stays within viewport */
+        /* right: calc(100vw - 70px) !important; */
         z-index: 9999 !important;
         border-radius: 50% !important;
         width: 50px !important;
@@ -112,13 +115,13 @@
 
       #back-to-top.back-to-top-btn:active {
         transform: scale(0.95) !important;
-      }
-
-      /* Mobile-specific adjustments */
+      }      /* Mobile-specific adjustments */
       @media (max-width: 767.98px) {
         #back-to-top.back-to-top-btn {
           bottom: 20px !important;
-          right: 20px !important;
+          /* Position from the right edge of the actual viewport */
+          right: 0 !important;
+          transform: translateX(-20px) !important;
           width: 56px !important;
           height: 56px !important;
           font-size: 1.3rem !important;
@@ -131,7 +134,8 @@
       @media (max-width: 480px) {
         #back-to-top.back-to-top-btn {
           bottom: 15px !important;
-          right: 15px !important;
+          right: 0 !important;
+          transform: translateX(-15px) !important;
           width: 52px !important;
           height: 52px !important;
         }
