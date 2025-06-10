@@ -1,7 +1,7 @@
 ---
 title: The Scrum Guide Expansion Pack
 description: A generic guide for users to follow.
-date: 2025-06-11T09:00:00Z
+date: 2025-06-11T15:00:00Z
 url: /scrum-guide-expansion-pack/
 type: guide
 guide_whatis: |
