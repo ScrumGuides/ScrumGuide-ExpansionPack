@@ -8,7 +8,7 @@
 
 The Scrum Guide Expansion Pack was created because the world in which we build products has changed—and continues to change rapidly.
 
-Scrum, as defined in the 2020 Guide, is still solid and useful. But many practitioners, leaders, and teams found themselves asking deeper questions:
+Scrum, as defined in the [2020 Scrum Guide](https://scrumguides.org/), is still solid and useful. But many practitioners, leaders, and teams found themselves asking deeper questions:
 – How do we stay focused on real outcomes, not just shipping features?
 – How do we work when AI becomes part of the team?
 – How do we apply Scrum in fast-moving environments without losing its simplicity?
