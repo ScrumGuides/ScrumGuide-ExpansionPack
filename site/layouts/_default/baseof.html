@@ -66,69 +66,143 @@
       <footer class="footer bg-dark text-white p-4 mt-auto">
         <div class="container text-center">v#{GitVersion.SemVer}# | © {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</div>
       </footer>
-    {{ end }}    <!-- Back to Top Button -->
-    <button id="back-to-top" class="btn btn-primary position-fixed d-none back-to-top-btn" style="bottom: 20px; right: 20px; z-index: 1000; border-radius: 50%; width: 50px; height: 50px;" title="Back to Top">
-      <i class="fas fa-arrow-up"></i>
+    {{ end }}
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="btn btn-primary position-fixed d-none back-to-top-btn" title="Back to Top" aria-label="Back to Top">
+      <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 
     <style>
-      /* Mobile-specific styles for back to top button */
-      .back-to-top-btn {
+      /* Back to top button styles with high specificity */
+      #back-to-top.back-to-top-btn {
+        position: fixed !important;
+        bottom: 20px !important;
+        right: 20px !important;
+        z-index: 9999 !important;
+        border-radius: 50% !important;
+        width: 50px !important;
+        height: 50px !important;
+        padding: 0 !important;
+        border: none !important;
+        background-color: #1d7fd5 !important;
+        color: white !important;
+        font-size: 1.2rem !important;
+        cursor: pointer !important;
         /* Ensure proper touch target size for mobile */
-        min-width: 44px;
-        min-height: 44px;
+        min-width: 50px !important;
+        min-height: 50px !important;
         /* Add some shadow for better visibility */
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
         /* Smooth transitions */
-        transition: opacity 0.3s ease, transform 0.2s ease;
+        transition: all 0.3s ease !important;
+        /* Ensure it's always on top */
+        display: block !important;
       }
 
-      .back-to-top-btn:hover,
-      .back-to-top-btn:focus {
-        transform: scale(1.1);
+      #back-to-top.back-to-top-btn.d-none {
+        display: none !important;
+      }
+
+      #back-to-top.back-to-top-btn:hover,
+      #back-to-top.back-to-top-btn:focus {
+        background-color: #1669b3 !important;
+        transform: scale(1.1) !important;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4) !important;
+      }
+
+      #back-to-top.back-to-top-btn:active {
+        transform: scale(0.95) !important;
       }
 
       /* Mobile-specific adjustments */
       @media (max-width: 767.98px) {
-        .back-to-top-btn {
-          bottom: 15px !important;
-          right: 15px !important;
-          width: 48px !important;
-          height: 48px !important;
-          font-size: 1.1rem;
+        #back-to-top.back-to-top-btn {
+          bottom: 20px !important;
+          right: 20px !important;
+          width: 56px !important;
+          height: 56px !important;
+          font-size: 1.3rem !important;
+          /* Ensure it doesn't interfere with mobile UI */
+          z-index: 10000 !important;
         }
       }
 
       /* Ensure button is accessible on very small screens */
       @media (max-width: 480px) {
-        .back-to-top-btn {
-          bottom: 20px !important;
-          right: 20px !important;
+        #back-to-top.back-to-top-btn {
+          bottom: 15px !important;
+          right: 15px !important;
+          width: 52px !important;
+          height: 52px !important;
         }
       }
-    </style><script>
-      // Back to top functionality
+
+      /* Ensure the button is visible above any potential overlays */
+      @media (max-width: 991.98px) {
+        #back-to-top.back-to-top-btn {
+          z-index: 10001 !important;
+        }
+      }
+    </style>
+    <script>
+      // Back to top functionality with enhanced mobile support
       document.addEventListener("DOMContentLoaded", function () {
         const backToTopButton = document.getElementById("back-to-top");
-        
+
         if (backToTopButton) {
-          // Use modern scroll event listener with passive option for better mobile performance
-          window.addEventListener("scroll", function () {
-            if (window.scrollY > 300) {
+          console.log("Back to top button found and initialized"); // Debug log
+
+          // Function to show/hide button based on scroll position
+          function toggleBackToTopButton() {
+            const scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollPosition > 300) {
               backToTopButton.classList.remove("d-none");
+              backToTopButton.style.display = "block";
             } else {
               backToTopButton.classList.add("d-none");
+              backToTopButton.style.display = "none";
             }
-          }, { passive: true });
+          }
+
+          // Use modern scroll event listener with passive option for better mobile performance
+          window.addEventListener("scroll", toggleBackToTopButton, { passive: true });
+
+          // Also listen for resize events to ensure button stays visible
+          window.addEventListener("resize", toggleBackToTopButton, { passive: true });
 
           // Add click event listener for scroll to top
           backToTopButton.addEventListener("click", function (e) {
             e.preventDefault();
-            window.scrollTo({
-              top: 0,
-              behavior: "smooth",
-            });
+            e.stopPropagation();
+
+            // Try multiple scroll methods for better browser compatibility
+            if ("scrollBehavior" in document.documentElement.style) {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            } else {
+              // Fallback for older browsers
+              window.scrollTo(0, 0);
+            }
+
+            console.log("Back to top button clicked"); // Debug log
           });
+
+          // Add touch event support for mobile
+          backToTopButton.addEventListener(
+            "touchstart",
+            function (e) {
+              e.preventDefault();
+            },
+            { passive: false },
+          );
+
+          // Initial check in case page is already scrolled
+          toggleBackToTopButton();
+        } else {
+          console.error("Back to top button not found!"); // Debug log
         }
       });
     </script>
