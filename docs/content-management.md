@@ -10,7 +10,7 @@ The site's content is organized in a hierarchical structure that supports multip
 site/content/
 ├── _index.md                    # Homepage content
 ├── guide/
-│   └── index.md                 # Main Scrum Guide content
+│   └── index.md                 # Main Guide content
 ├── creators/
 │   ├── _index.md               # Creators index page
 │   ├── ralph-jocham/
@@ -107,9 +107,6 @@ type: "download"
 
 ## PDF Versions
 - **English**: [Download PDF](../pdf/scrum-guide-expansion-pack-en.pdf)
-- **German**: [Download PDF](../pdf/scrum-guide-expansion-pack-de.pdf)
-- **Spanish**: [Download PDF](../pdf/scrum-guide-expansion-pack-es.pdf)
-- **French**: [Download PDF](../pdf/scrum-guide-expansion-pack-fr.pdf)
 ```
 
 ## Multilingual Content Management
@@ -120,10 +117,9 @@ Each language has its own content directory structure:
 
 ```
 content/
-├── en/          # English (default)
-├── de/          # German (Deutsch)
-├── es/          # Spanish (Español)
-└── fr/          # French (Français)
+├── guide/          # English (default)
+├───├──   index.md       # English (default)
+├───├──   index.de.md       # German (Deutsch) example
 ```
 
 ### Translation Workflow
@@ -150,7 +146,7 @@ The Scrum Events are timeboxed meetings...
 
 Create corresponding files in other languages:
 
-**German (`content/de/guide/events.md`)**:
+**German (`content/guide/events.de.md`)**:
 
 ```markdown
 ---
