@@ -20,8 +20,8 @@ _This document is a collection of independent works. Each section retains its or
 **_Section 1: Scrum Guide Expansion Pack 1 (Adaptation)_**  
 _Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
 _Author: Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Source: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)  
-\_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
+_Source: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)_  
+_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
 © _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
 _Modification Notice: This is an adaptation of the original [2020 Scrum Guide](https://scrumguides.org/). Changes have been made from the original._  
 _Disclaimer: No warranties are given. Use at your own risk._  
@@ -34,7 +34,7 @@ Ken Schwaber and Jeff Sutherland led the development of the Scrum framework. The
 
 ## Purpose of the Scrum Guide Expansion Pack {#purpose-of-the-scrum-guide-expansion-pack}
 
-For a more successful adoption, this Expansion Pack offers additional guidance for current times, based on the 2020 Scrum Guide by Ken Schwaber and Jeff Sutherland (40). Ralph Jocham’s contribution to the 2020 Scrum Guide provided additional depth in bringing the original ideas of the 2020 Scrum Guide (40) into this expansion pack (89).
+For a more successful adoption, this Expansion Pack offers additional guidance for current times, based on the 2020 Scrum Guide by Ken Schwaber and Jeff Sutherland (40). Ralph Jocham’s contribution (89) to the 2020 Scrum Guide provided additional depth in bringing the original ideas of the 2020 Scrum Guide (40) into this expansion pack.
 
 This Scrum Guide Expansion Pack explains the _what_ and _why_ of each element of Scrum through a future-looking lens. Each element serves a specific purpose and contributes to the overall value and results realized with Scrum. This Expansion Pack will evolve regularly. The reader is expected to read the document sequentially, at least the first time.
 
@@ -42,7 +42,7 @@ This document assumes some fluency with Scrum and its related language. It could
 
 Practitioners and stakeholders should adopt Scrum when appropriate, with agency, urgency, courage, transparency, inspection, adaptation, rhythm, and resilience, and continually improve to support goals for the product and the organization. It is hoped that Scrum adoptions will surpass the guidance presented here—across theory, roles, artifacts, events, scaling, and every other facet addressed in this document—and, in doing so, inspire a lasting curiosity to explore, question, and continually improve.
 
-This Expansion Pack is designed to support all aspects of product delivery by a self-managing team (47) driven by stakeholder needs or wants in response to a problem or opportunity. This includes (but is not limited to) product discovery, development, delivery, and value realization. While originally rooted in software product development, Scrum has been widely adopted across various domains, enabling the delivery of value through complex (30-35) work. As its use expands, professionals such as engineers, programmers, researchers, analysts, lawyers, marketers, and scientists increasingly apply Scrum successfully to their fields.
+This Expansion Pack is designed to support all aspects of product delivery by a self-managing team (49) driven by stakeholder needs or wants in response to a problem or opportunity. This includes (but is not limited to) product discovery, development, delivery, and value realization. While originally rooted in software product development, Scrum has been widely adopted across various domains, enabling the delivery of value through complex (30-35) work. As its use expands, professionals such as engineers, programmers, researchers, analysts, lawyers, marketers, and scientists increasingly apply Scrum successfully to their fields.
 
 Stakeholder value refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes.
 
@@ -60,7 +60,7 @@ In a nutshell, Scrum is based on an environment where:
 
 1. Supporting Stakeholders, hereafter referred to as Supporters, doing what is requested to proactively support and enhance the adoption of Scrum, guided and supported by the Scrum Master.
 2. A Product Owner sets the Product Goal, instrumental in fulfilling Stakeholder value.
-3. The self-managing Scrum Team (47) defines, refines, and turns the selection of work into valuable outcomes.
+3. The self-managing Scrum Team (49) defines, refines, and turns the selection of work into valuable outcomes.
 4. The Scrum Team and Stakeholders inspect the results during the Sprint and adapt.
 5. Supporters help the Scrum Team to thrive.
 6. _Repeat._
@@ -75,7 +75,7 @@ In the context of knowledge work, the term Scrum, borrowed from the game of rugb
 
 ## Supporting and Complementary Theory {#supporting-and-complementary-theory}
 
-Scrum is founded on a self-managing Scrum Team (47), emergence, empiricism (67), and lean thinking (63). It is underpinned by the supporting and complementary theory below and ideas such as:
+Scrum is founded on a self-managing Scrum Team (49), emergence, empiricism (67), and lean thinking (63). It is underpinned by the supporting and complementary theory below and ideas such as:
 
 - Accountability,
 - The reduction of non-value-adding waste (including organizational inefficiencies),
@@ -99,21 +99,21 @@ Build trust through a self-managing team, Inspection, Adaptation, delivering val
 
 Emergence (71) is when meaningful patterns or behaviors arise from interactions within complex (30-35) systems-patterns you can’t predict just by looking at the parts alone. In Scrum, emergence isn’t tightly controlled but is guided by enabling constraints like timeboxes, roles, and feedback loops, which create the conditions for self-management and adaptability without dictating exact outcomes. These structures act like 'islands' in a sea of unpredictability, similar to how physical systems can spontaneously form organized patterns amid randomness, as described in Stephen Wolfram’s work (38). The key is that the structure in Scrum provides enough guidance for teams to self-manage and for new solutions to emerge rather than prescribing every detail.
 
-Scrum Teams, operating as complex adaptive systems, are influenced, not directed, through short, parallel, safe-to-fail experiments and continuous feedback. Patterns (53, 54\) like _Swarming_, _Stable Teams_, and _Kaizen_ help identify and shape emergent behavior. Rather than forcing results, Scrum enables the Scrum Team to discover desirable patterns, including but limited to innovative solutions or new ways of working, and amplify them while dampening unhelpful ones.
+Scrum Teams, operating as complex adaptive systems, are influenced, not directed, through short, parallel, safe-to-fail experiments and continuous feedback. Patterns (53) like _Swarming_, _Stable Teams_, and _Kaizen_ help identify and shape emergent behavior. Rather than forcing results, Scrum enables the Scrum Team to discover desirable patterns, including but limited to innovative solutions or new ways of working, and amplify them while dampening unhelpful ones.
 
-This approach recognizes that self-management (47) is not something to be designed top-down but something to be discovered in the right environment—an environment that feels purposeful, coherent, and alive, echoing Christopher Alexander’s ‘Quality Without a Name’ (39). Ultimately, Scrum treats emergence not as a risk to be eliminated but as a force to be cultivated for excellence in Product development.
+This approach recognizes that self-management (49) is not something to be designed top-down but something to be discovered in the right environment—an environment that feels purposeful, coherent, and alive, echoing Christopher Alexander’s ‘Quality Without a Name’ (39). Ultimately, Scrum treats emergence not as a risk to be eliminated but as a force to be cultivated for excellence in Product development.
 
 ### Self-Managing Scrum Team {#self-managing-scrum-team}
 
-A self-managing (47) Scrum Team checks whether they are on track, takes action when not on track, decides how to work, resolves Scrum Team conflict, and fixes problems in the Scrum Team. This means that, generally, managers (111), if they are part of the landscape, do not tell the Scrum Team what to do or decide which Scrum Team member needs to be taken aside to fix issues, directly or indirectly. If managers exist it's generally better if they demonstrate leadership.
+A self-managing (49) Scrum Team checks whether they are on track, takes action when not on track, decides how to work, resolves Scrum Team conflict, and fixes problems in the Scrum Team. This means that, generally, managers (111), if they are part of the landscape, do not tell the Scrum Team what to do or decide which Scrum Team member needs to be taken aside to fix issues, directly or indirectly. If managers exist it's generally better if they demonstrate leadership.
 
-Self-managing Scrum Teams organized around value are crucial for creative problem-solving and capturing emergence; reliance on non-self-managing Scrum Teams hinders the ability to deal with complexity (30-35). Self-managing Scrum Teams (47) are not to be confused with individual self-management. It is the seamless interplay that allows a great team to emerge. The facilitation of team autonomy and more efficient decision-making within a non-hierarchical structure could help Scrum Teams improve their self-management.
+Self-managing Scrum Teams organized around value are crucial for creative problem-solving and capturing emergence; reliance on non-self-managing Scrum Teams hinders the ability to deal with complexity (30-35). Self-managing Scrum Teams (49) are not to be confused with individual self-management. It is the seamless interplay that allows a great team to emerge. The facilitation of team autonomy and more efficient decision-making within a non-hierarchical structure could help Scrum Teams improve their self-management.
 
 ### Professionalism {#professionalism}
 
 Professionalism is about striving for excellence and working together to deliver value in a respectful, transparent, and accountable way. Being professional means that one will always do certain things and others never, regardless of the circumstances.
 
-Being Professional means taking full accountability for the Product, from the cradle to the grave, throughout its entire life cycle. Being professional includes maintenance, often in the form of operations, and provides excellent engineering result feedback learning opportunities for the Product Developers, often referred to as DevOps.
+Being Professional means taking full accountability for the Product, from the cradle to the grave, throughout its entire life cycle. Being professional includes maintenance, often in the form of operations, and provides excellent engineering result feedback learning opportunities for the Product Developers.
 
 In a software development context, professionalism includes but is not limited to technical excellence (112). Technical excellence encompasses but is not limited to, the following: Specification by Example, Clean Code, Unit Testing, Test-Driven Development, Test Automation, Continuous Integration, Continuous Delivery, Architecture and Design, Acceptance Testing, and purposeful and intentional consideration of testing.
 
@@ -281,13 +281,13 @@ The Scrum Team should be cross-functional, which means it is multidisciplinary, 
 - Deliver (including engineering when appropriate); and,
 - Validate value realization (and additionally usability, desirability, and viability within ethical (57) boundaries).
 
-The Scrum Team, supported by the Supporters, collectively takes care of the problem or opportunity domain, Product discovery, delivery, verification and built-in quality, go-to-market, and value validation toward the Product Goal. The Scrum Team strives for net improvements; being self-managing (47), they decide _who_ does _what_, _how_, _when,_ and _where_.
+The Scrum Team, supported by the Supporters, collectively takes care of the problem or opportunity domain, Product discovery, delivery, verification and built-in quality, go-to-market, and value validation toward the Product Goal. The Scrum Team strives for net improvements; being self-managing (49), they decide _who_ does _what_, _how_, _when,_ and _where_.
 
 Value validation is the confirmation (or disconfirmation) within given boundaries that the expected outcome(s) has been achieved.
 
-The Scrum Team delivers an Increment(s) every Sprint, continuously self-manages (47) to find and fix problems, synchronizes continuously, and releases frequently. The Scrum Team is small enough to remain nimble and large enough to complete significant work within a Sprint. Often, smaller Scrum Teams communicate better and are more productive.
+The Scrum Team delivers an Increment(s) every Sprint, continuously self-manages (49) to find and fix problems, synchronizes continuously, and releases frequently. The Scrum Team is small enough to remain nimble and large enough to complete significant work within a Sprint. Often, smaller Scrum Teams communicate better and are more productive.
 
-Scrum is built on self-managing Scrum Teams (47) within a defined organizational or Product structure. Autonomy exists, but it is bounded by Scrum events, accountabilities, artifacts, commitments, pillars, values, and organizational needs.
+Scrum is built on self-managing Scrum Teams (49) within a defined organizational or Product structure. Autonomy exists, but it is bounded by Scrum events, accountabilities, artifacts, commitments, pillars, values, and organizational needs.
 
 Scrum engages groups of people who collectively have or acquire all the skills and expertise to do the work and share such skills as needed. Intentional interactions, supported by leaders, are needed to help improve the chances of successful outcomes.
 
@@ -297,7 +297,7 @@ Scrum fosters collaborative teamwork by encouraging continuous interaction and s
 
 Overlapping work fosters shared accountability among the Scrum Team, enhancing engagement and commitment. The Scrum Team directs attention to addressing challenges and opportunities, encourages proactive behavior, cultivates a diverse skill set, and increases awareness of market dynamics among all participants.
 
-The Scrum Team addresses all Product-related activities, from Stakeholder collaboration to value validation, including verification, maintenance, operation, experimentation, research and development, and anything else that might be required. The Scrum Team instills quality. Supporters ensure the organization structures the climate and the work environment and empowers the Scrum Team to self-manage (47). Working in Sprints at a sustainable pace improves _Focus_ and consistency.
+The Scrum Team addresses all Product-related activities, from Stakeholder collaboration to value validation, including verification, maintenance, operation, experimentation, research and development, and anything else that might be required. The Scrum Team instills quality. Supporters ensure the organization structures the climate and the work environment and empowers the Scrum Team to self-manage (49). Working in Sprints at a sustainable pace improves _Focus_ and consistency.
 
 The Scrum Team and Stakeholders don’t know what they will learn. Some learning provides greater certainty, and some creates more uncertainty (72). Some things could emerge, fade away, drop out, or become less of a priority.
 
@@ -323,7 +323,7 @@ Legislators (plus, for the purpose of this document, external or internal policy
 
 Financial sponsors provide funding and resources for Product development, launch, and improvement. They assess the Product’s viability, value, and feasibility, investing informed by its potential to deliver continuous value to Stakeholders. Financial sponsors influence the Product vision, strategy, and goals to ensure alignment with return on investment and long-term sustainability. For a successful Scrum adoption, it’s crucial to have a flexible attitude and flexible funding as new information comes to light.
 
-Subject matter experts contribute deep knowledge or unique skills essential to Product creation, evolution, and maintenance. Whether focused on technology, design, compliance, or a specific domain, subject matter experts support the Product’s usability, feasibility, professionalism, and extendability but do not get in the way of self-managing Scrum Teams (47). They can help address satisfaction gaps and contribute to the Product’s ability to adapt and identify, represent, or measure emergence (71). For a successful Scrum adoption, it’s crucial to foster regular transfer of learning from subject matter experts to and across the Scrum Team.
+Subject matter experts contribute deep knowledge or unique skills essential to Product creation, evolution, and maintenance. Whether focused on technology, design, compliance, or a specific domain, subject matter experts support the Product’s usability, feasibility, professionalism, and extendability but do not get in the way of self-managing Scrum Teams (49). They can help address satisfaction gaps and contribute to the Product’s ability to adapt and identify, represent, or measure emergence (71). For a successful Scrum adoption, it’s crucial to foster regular transfer of learning from subject matter experts to and across the Scrum Team.
 
 The term satisfaction gap means the difference between what Stakeholders experience now and what they wish their experience was. In other words, it’s the gap between how satisfied Stakeholders are with a Product today and how satisfied they could be.
 
@@ -440,7 +440,7 @@ The Scrum Master supports the Scrum Team, Product Owner, and Supporters in sever
 - Ensures the Scrum Team has a suitable Definition of Output Done;
 - Ensuring that all Scrum events take place and are constructive, productive, and kept within the timebox;
 - Causing the removal of impediments to Product-related work and to effective Scrum adoption;
-- Coaching toward self-management (47) and cross-functionality;
+- Coaching toward self-management (49) and cross-functionality;
 - Helping the Scrum Team, Stakeholders, and Supporters understand their importance in supporting high-value Increments that meet the Definition of Output Done toward the Product Goal and Definition of Outcome Done;
 - Improving adaptiveness (80) and optimizing the flow of value;
 - Fostering evidence-informed confidence but being compassionate and timely to avoid overconfidence;
@@ -534,7 +534,7 @@ The Product is the manifestation of _why_ we do _what_ we do.
 
 The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It’s often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations.
 
-Outcomes and related interpretations inform future adaptations, ideally confirming the intended Stakeholder impact(including but not limited to business or user impact)—measuring whether the output fulfills the anticipated outcome(s) and delivers real value. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (120-123). Or a combination of both.
+Outcomes and related interpretations inform future adaptations, ideally confirming the intended Stakeholder impact(including but not limited to business or user impact)—measuring whether the output fulfills the anticipated outcome(s) and delivers real value. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (120-124). Or a combination of both.
 
 Favor direct evidence over circumstantial evidence. For example:
 
@@ -689,7 +689,7 @@ Sprint Planning is timeboxed to a maximum of eight hours for a four-week Sprint.
 
 The Daily Scrum is an event. At the Daily Scrum, the Product Developers collaborate on progress toward the Sprint Goal and update the actionable plan, the Sprint Backlog, until the next Daily Scrum. In the event the Sprint Goal has already been achieved, the Product Developers collaborate on meaningful progress toward the Product Goal.
 
-The Daily Scrum provides _Focus_, cohesion, and urgency and fosters self-management (47). Usually, only the Product Developers participate. To simplify, it often uses the same meeting cadence, place, and time.
+The Daily Scrum provides _Focus_, cohesion, and urgency and fosters self-management (49). Usually, only the Product Developers participate. To simplify, it often uses the same meeting cadence, place, and time.
 
 The Product Developers can select whatever structure and techniques they want. Daily Scrums improve communication towards attaining the Sprint Goal, identify and address risks and impediments, promote quick decision-making, and consequently eliminate the need for other meetings.
 
@@ -772,7 +772,7 @@ Organizational transfer of learning, as described in 'The New New Product Develo
 
 Organizations are often designed for ease of management over ease of outcomes. Ask yourself how many Scrum Teams a problem or opportunity touches to deliver value; generally, the lower that number, the better.
 
-Free teams from command and control. Err on the side of aligned autonomy. Foster purposeful, intentional interactions within and between self-managing Scrum Teams (47). Foster a work climate with minimal but sufficient management processes, scaffolding, and boundaries. Balance and nurture Stakeholder expectations and limits. Build change agency and continual improvement in a direction, not just delivery, into a cadence.
+Free teams from command and control. Err on the side of aligned autonomy. Foster purposeful, intentional interactions within and between self-managing Scrum Teams (49). Foster a work climate with minimal but sufficient management processes, scaffolding, and boundaries. Balance and nurture Stakeholder expectations and limits. Build change agency and continual improvement in a direction, not just delivery, into a cadence.
 
 When in doubt, study the New New Product Development Game (29), embrace the good of what’s new in the present, but abandon any notions of an industrial complex (30-35) where only the brave people have the agency to do anything.
 
@@ -853,8 +853,7 @@ Additions
 - Self-managing Scrum Team, Cadence, Professionalism sections
 - Emergence section, open to the idea that risk or variances from expectations don’t necessarily go down over time
 - Complexity (30-35)– The case for Scrum section
-- Leadership section
-- Systems thinking section
+- Leadership and Systems thinking sections
 - Product thinking and Discovery sections
 - First principles, People, and Change sections
 - Multi-Scrum-Team Products section
@@ -926,7 +925,7 @@ While models like Haier’s Rendanheyi (56, 101\) share values of decentralizati
 
 #### Sociocracy {#sociocracy}
 
-Sociocracy (1,11-14) is a governance system that organizes people into self-managing (47) circles and makes decisions by consent, not majority vote. Developed by Gerard Endenburg (81) in the Netherlands in the 1970s, it ensures everyone affected by a decision has a voice, with proposals advancing unless a reasoned objection is raised. Guided by the principle of 'good enough for now, safe enough to try,' sociocracy distributes authority, promotes transparency, accountability, and continuous improvement, and fosters collaboration and shared ownership. Its principles have influenced models like Holacracy and self-managing teams.
+Sociocracy (1,11-14) is a governance system that organizes people into self-managing (49) circles and makes decisions by consent, not majority vote. Developed by Gerard Endenburg (81) in the Netherlands in the 1970s, it ensures everyone affected by a decision has a voice, with proposals advancing unless a reasoned objection is raised. Guided by the principle of 'good enough for now, safe enough to try,' sociocracy distributes authority, promotes transparency, accountability, and continuous improvement, and fosters collaboration and shared ownership. Its principles have influenced models like Holacracy and self-managing teams.
 
 The most established variant is the Sociocratic Circle-Organization Method (SCM), the original, formalized method. SCM uses semi-autonomous circles, double-linking (where two people attend two directly related circles to connect those circles), consent-based decision-making, and open elections for roles. This structure maintains both organizational efficiency and member equivalence, and has a well-documented track record in businesses, cooperatives, and schools in the Netherlands.
 
@@ -1080,7 +1079,7 @@ One phase shift is particularly sudden and negative, that is, the ordered-chaoti
 
 **Section 4: Emergent Strategy**  
 Author: Roger L. Martin, Tom Gilb  
-Source: (41), (43-48)  
+Source: (41-48)  
 Copyright: All rights reserved. Adapted
 
 ### Emergent Strategy {#emergent-strategy}
@@ -1144,7 +1143,7 @@ Nevertheless:
 - Consider the context. Also, consider whether quantification supports autonomy and meaning or imposes controlling constraints.
 - For now, this document prefers to err on the side of clarification and shared understanding of an idea, quantifying Stakeholder expectations, Stakeholder limits, and the direction of travel, supported by high-quality and accurate storytelling narratives (more stories like this, fewer stories like that).
 
-An Emergent Strategy is supported by an emergent outcome-oriented roadmap, which can range from the Sprint Goal to the Product Vision and beyond. Emergent Strategy Deployment (120-123) should not be confused with Emergent Strategy. Vector change models (30-35, 54), Product Operating Models (113-119), scaling and descaling models (134-147), and emergent goal-oriented models (120-133) can be highly beneficial for Emergent Strategy Deployment. Err on the side of models coherent with vector-change, e.g., direction of travel over fixed goals.  
+An Emergent Strategy is supported by an emergent outcome-oriented roadmap, which can range from the Sprint Goal to the Product Vision and beyond. Emergent Strategy Deployment (120-123) should not be confused with Emergent Strategy. Vector change models (30-35, 54\), Product Operating Models (113-119), scaling and descaling models (134-147), and emergent goal-oriented models (120-133) can be highly beneficial for Emergent Strategy Deployment. Err on the side of models coherent with vector-change, e.g., direction of travel over fixed goals.  
 Emergent strategy deployment involves allowing plans and actions to develop naturally as the Scrum Team and Stakeholders respond to real-world changes. Instead of following a fixed path, they pay attention to what is happening around them and make adjustments as they go. Over time, the steps taken form a pattern that becomes the actual strategy, even if it differs from what was initially intended.
 
 #
@@ -1157,54 +1156,54 @@ This collection was written and compiled by _Ralph Jocham, John Coleman, and Jef
 
 ## References {#references}
 
-1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (April 5, 2023)._
-2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (April 5, 2023)._
-3. _Kegan, R. and Laskow Lahey, L. (2019) An everyone culture, The Developmental Edge. At: [https://developmentaledge.com/an-everyone-culture/](https://developmentaledge.com/an-everyone-culture/) (April 4, 2023)._
-4. _Laskow Lahey, L. and Kegan, R. (2023) News & thinking, The Developmental Edge. At: [https://developmentaledge.com/newsthinking/\#methodologies](https://developmentaledge.com/newsthinking/#methodologies) (April 3, 2023)._
+1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (Accessed: April 5, 2023)._
+2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (Accessed: April 5, 2023)._
+3. _Kegan, R. and Laskow Lahey, L. (2019) An everyone culture, The Developmental Edge. At: [https://developmentaledge.com/an-everyone-culture/](https://developmentaledge.com/an-everyone-culture/) (Accessed: April 4, 2023)._
+4. _Laskow Lahey, L. and Kegan, R. (2023) News & thinking, The Developmental Edge. At: [https://developmentaledge.com/newsthinking/\#methodologies](https://developmentaledge.com/newsthinking/#methodologies) (Accessed: April 3, 2023)._
 5. _Moore, G.A., 1991\. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers. New York: Harper Business._
 6. Coleman, J., (2025) MORE executive SUCCESS. Unpublished.
 7. _Marquet, L. D. (2013) Turn the Ship Around\! A True Story of Turning Followers into Leaders. Portfolio._
 8. _Marquet, L.D. (2021) Leadership is language: The hidden power of what you say and what you don't. Nakskov, Denmark: Nota._
-9. _Marquet, L. D. (2021) Based Leadership® International with L. David Marquet \- IBLI. At:[https://davidmarquet.com/](https://davidmarquet.com/) (April 5, 2023)._
+9. _Marquet, L. D. (2021) Based Leadership® International with L. David Marquet \- IBLI. At:[https://davidmarquet.com/](https://davidmarquet.com/) (Accessed: April 5, 2023)._
 10. _Rau, T.J. and Koch-Gonzalez, J. (2018) Many voices one song: Shared power with sociocracy. Amherst, MA: Sociocracy for All._
 11. _Buck, J. & Endenburg, G. (2012) The creative forces of self-organization. Sociocratic Center._
 12. _Buck, J. & Villines, S. (2017) We the people: Consenting to a deeper democracy. 2nd edn. Sociocracy.info Press._
 13. _Endenburg, G. (1998) Sociocracy: The organization of decision-making. Delft: Eburon Publishers._
 14. _Priest, J. & Bockelbrink, B. (2018) Sociocracy 3.0 – The practical guide. Available at: [https://sociocracy30.org/](https://sociocracy30.org/) (Accessed: 17 May 2025)._
 15. _Bogsnes, B. (2023) This is beyond budgeting: A guide to more adaptive and human organizations. Hoboken, NJ: John Wiley & Sons, Inc._
-16. _Bogsnes, B. (2023) Beyond budgeting at 25 \- [bbrt.org](https://bbrt.org/), Beyond Budgeting Round Table. At: [https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf](https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf) (April 7, 2023)._
-17. _Olesen, A. (2016) Beyond budgeting: Principle 1 \- purpose, YouTube. At: [https://youtu.be/\_9ZW2NjyFxE](https://youtu.be/_9ZW2NjyFxE) (April 7, 2023)._
-18. _Larsson, D. (2016) Beyond budgeting: Principle 2 \- values, YouTube. At: [https://youtu.be/pl1BPrITbm4](https://youtu.be/pl1BPrITbm4) (April 7, 2023)._
-19. _Player, S. (2016) Beyond budgeting: Principle 3 \- transparency, YouTube. At: [https://youtu.be/Mb7K8App2vw](https://youtu.be/Mb7K8App2vw) (April 7, 2023)._
-20. _Röösli, F. (2016) Beyond budgeting: Principle 4 \- Organization, YouTube. At: [https://youtu.be/i8HIgc8OZYM](https://youtu.be/i8HIgc8OZYM) (April 7, 2023)._
-21. _Larsson, D. (2016) Beyond budgeting: Principle 5 \- autonomy, YouTube. At: [https://youtu.be/ipnjHtXYi-g](https://youtu.be/ipnjHtXYi-g) (April 7, 2023)._
-22. _Player, S. (2016) Beyond budgeting: Principle 6 \- customers, YouTube. At: [https://youtu.be/\_6fut4R_wVw](https://youtu.be/_6fut4R_wVw) (April 7, 2023)._
-23. _Bogsnes, B. (2016) Beyond budgeting: Principle 7 \- rhythm, YouTube. At: [https://youtu.be/rb_NsnPNIQQ](https://youtu.be/rb_NsnPNIQQ) (April 7, 2023)._
-24. _Röösli, F. (2016) Beyond budgeting: Principle 8 \- targets, YouTube. At: [https://youtu.be/up3mp7jN6XU](https://youtu.be/up3mp7jN6XU) (April 7, 2023)._
-25. _Player, S. (2016) Beyond budgeting: Principle 9 \- plans and forecasts, YouTube. At: [https://youtu.be/OWM7FUuXejI](https://youtu.be/OWM7FUuXejI) (April 7, 2023)._
-26. _Olesen, A. (2016) Beyond budgeting: Principle 10 \- resource allocation, YouTube. At: [https://youtu.be/mPCYHmvi_b8](https://youtu.be/mPCYHmvi_b8) (April 7, 2023)._
-27. _Bogsnes, B. (2016) Beyond budgeting: Principle 11 \- performance evaluation, YouTube. At: [https://youtu.be/RfPVtG2B27E](https://youtu.be/RfPVtG2B27E) (April 7, 2023)._
-28. _Röösli, F. (2016) Beyond budgeting: Principle 12 \- rewards, YouTube. At: [https://youtu.be/ETU5TzNYiC0](https://youtu.be/ETU5TzNYiC0) (April 7, 2023)._
-29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game, Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (21 January 2024)._
-30. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (April 4, 2023)._
+16. _Bogsnes, B. (2023) Beyond budgeting at 25 \- [bbrt.org](https://bbrt.org/), Beyond Budgeting Round Table. At: [https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf](https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf) (Accessed: April 7, 2023)._
+17. _Olesen, A. (2016) Beyond budgeting: Principle 1 \- purpose, YouTube. At: [https://youtu.be/\_9ZW2NjyFxE](https://youtu.be/_9ZW2NjyFxE) (Accessed: April 7, 2023)._
+18. _Larsson, D. (2016) Beyond budgeting: Principle 2 \- values, YouTube. At: [https://youtu.be/pl1BPrITbm4](https://youtu.be/pl1BPrITbm4) (Accessed: April 7, 2023)._
+19. _Player, S. (2016) Beyond budgeting: Principle 3 \- transparency, YouTube. At: [https://youtu.be/Mb7K8App2vw](https://youtu.be/Mb7K8App2vw) (Accessed: April 7, 2023)._
+20. _Röösli, F. (2016) Beyond budgeting: Principle 4 \- Organization, YouTube. At: [https://youtu.be/i8HIgc8OZYM](https://youtu.be/i8HIgc8OZYM) (Accessed: April 7, 2023)._
+21. _Larsson, D. (2016) Beyond budgeting: Principle 5 \- autonomy, YouTube. At: [https://youtu.be/ipnjHtXYi-g](https://youtu.be/ipnjHtXYi-g) (Accessed: April 7, 2023)._
+22. _Player, S. (2016) Beyond budgeting: Principle 6 \- customers, YouTube. At: [https://youtu.be/\_6fut4R_wVw](https://youtu.be/_6fut4R_wVw) (Accessed: April 7, 2023)._
+23. _Bogsnes, B. (2016) Beyond budgeting: Principle 7 \- rhythm, YouTube. At: [https://youtu.be/rb_NsnPNIQQ](https://youtu.be/rb_NsnPNIQQ) (Accessed: April 7, 2023)._
+24. _Röösli, F. (2016) Beyond budgeting: Principle 8 \- targets, YouTube. At: [https://youtu.be/up3mp7jN6XU](https://youtu.be/up3mp7jN6XU) (Accessed: April 7, 2023)._
+25. _Player, S. (2016) Beyond budgeting: Principle 9 \- plans and forecasts, YouTube. At: [https://youtu.be/OWM7FUuXejI](https://youtu.be/OWM7FUuXejI) (Accessed: April 7, 2023)._
+26. _Olesen, A. (2016) Beyond budgeting: Principle 10 \- resource allocation, YouTube. At: [https://youtu.be/mPCYHmvi_b8](https://youtu.be/mPCYHmvi_b8) (Accessed: April 7, 2023)._
+27. _Bogsnes, B. (2016) Beyond budgeting: Principle 11 \- performance evaluation, YouTube. At: [https://youtu.be/RfPVtG2B27E](https://youtu.be/RfPVtG2B27E) (Accessed: April 7, 2023)._
+28. _Röösli, F. (2016) Beyond budgeting: Principle 12 \- rewards, YouTube. At: [https://youtu.be/ETU5TzNYiC0](https://youtu.be/ETU5TzNYiC0) (Accessed: April 7, 2023)._
+29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game, Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (Accessed: 21 January 2024)._
+30. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (Accessed: April 4, 2023)._
 31. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._
 32. _Snowden, D. et al. (2022) Cynefin® weaving sense-making into the fabric of our world. 2nd edn. Edited by R. Greenberg and B. Bertsch. Singapore, Singapore: Cognitive Edge \- The Cynefin Co._
-33. _Snowden, D. (2023) Cynefin St David's 2023 1 of 2, Cynefin Co. [https://thecynefin.co/cynefin-st-davids-2023-1-of-2/](https://thecynefin.co/cynefin-st-davids-2023-1-of-2/) (April 20, 2023)._
-34. _Snowden, D. (2023) Managing for emergence through abduction, The Cynefin Co. At: [https://thecynefin.co/managing-for-emergence/](https://thecynefin.co/managing-for-emergence/) (June 24, 2023)._
-35. _Snowden, D. and Smith, N. (2023) Leadership discussion: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (April 7, 2023)._
+33. _Snowden, D. (2023) Cynefin St David's 2023 1 of 2, Cynefin Co. [https://thecynefin.co/cynefin-st-davids-2023-1-of-2/](https://thecynefin.co/cynefin-st-davids-2023-1-of-2/) (Accessed: April 20, 2023)._
+34. _Snowden, D. (2023) Managing for emergence through abduction, The Cynefin Co. At: [https://thecynefin.co/managing-for-emergence/](https://thecynefin.co/managing-for-emergence/) (Accessed: June 24, 2023)._
+35. _Snowden, D. and Smith, N. (2023) Leadership discussion: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (Accessed: April 7, 2023)._
 36. _Langton, C.G. (ed.) (1989) Artificial Life: Proceedings of an Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems, Los Alamos, New Mexico, September 1987\. Santa Fe Institute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley._
-37. _Langton, C.G. (1989) ‘Life at the edge of chaos’, in Langton, C.G. (ed.) Artificial Life: Proceedings of an Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems. Santa Fe Institute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley, pp. 41–91._
+37. _Langton, C.G. (1989) ‘Life at the edge of chaos’, in Langton, C.G. (ed.) Artificial Life: Proceedings of an Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems. Santa Fe In stitute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley, pp. 41–91._
 38. _Wolfram, S. (2002) A new kind of science. Champaign, IL: Wolfram Media._
 39. _Alexander, C. (1979) The timeless way of building. New York: Oxford University Press._
 40. _Schwaber, K. & Sutherland, J. (2020) The Scrum Guide: The definitive guide to Scrum: The rules of the game. Available at: [https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) (Accessed: 17 May 2025\)_
 41. _Martin, R.L. (2022) A new way to think your guide to Superior Management Effectiveness. Boston, MA, MA, USA: Harvard Business Review Press._
 42. _Gilb, T. & Graham, D. (1993) Software Inspection. Harlow: Addison-Wesley._
-43. _Gilb, T. (1993) ‘Practical purposeful creativity constructs’, AI & Society, 7(1), pp. 90–100. Available at: [https://www.researchgate.net/publication/220619825_Practical_Purposeful_Creativity_Constructs](https://www.researchgate.net/publication/220619825_Practical_Purposeful_Creativity_Constructs) \[Accessed 17 May 2025\]._
-44. _Gilb, T. (2015) Planguage and innovation: How metrics drive ideas. Presentation, Gilb Seminar, London, 26 June. Available at: [https://www.researchgate.net/publication/279535067_Planguage_and_Innovation_How_Metrics_Drive_Ideas](https://www.researchgate.net/publication/279535067_Planguage_and_Innovation_How_Metrics_Drive_Ideas) \[Accessed 17 May 2025\]._
+43. _Gilb, T. (1988) 'Deeper perspectives on evolutionary delivery, in Principles of Software Engineering Management. Wokingham: Addison-Wesley, pp. \[chapter 15\]. Also available at: [https://bit.ly/TomGilbEvo](https://bit.ly/TomGilbEvo)._
+44. _Gilb, Tom & Maier, Mark. (2005). Managing Priorities: A Key to Systematic Decision Making. INCOSE International Symposium. 15\. 10.1002/j.2334-5837.2005.tb00782.x. Also available at: [https://bit.ly/TomGilbPriorities](https://bit.ly/TomGilbPriorities)._
 45. _Gilb, T. (1988) ‘Deeper perspectives on evolutionary delivery’, in Principles of Software Engineering Management. Wokingham: Addison-Wesley, pp. \[chapter 15\]._
-46. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann._
-47. _Gilb, T. (2009) ‘Agile specification quality control: Shifting emphasis from cleanup to sampling defects’, Testing Experience, March. Available at: [https://www.researchgate.net/publication/294196272_Agile_specification_quality_control](https://www.researchgate.net/publication/294196272_Agile_specification_quality_control) \[Accessed 17 May 2025\]._
-48. _Gilb, T. & Gilb, K. (1989) ‘The McDonnell-Douglas case study of SQC and engineering improvement: Case DAC Inspection 1988–89’. Available at: [https://bit.ly/TomGilbMcDonnell-Douglas](https://bit.ly/TomGilbMcDonnell-Douglas) \[Accessed 17 May 2025\]._
+46. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)._
+47. _Gilb, T. (2009) ‘Agile specification quality control: Shifting emphasis from cleanup to sampling defects’, Testing Experience, March. Available at: [https://www.researchgate.net/publication/294196272_Agile_specification_quality_control](https://www.researchgate.net/publication/294196272_Agile_specification_quality_control) \[Accessed: 17 May 2025\]._
+48. _Gilb, T. & Gilb, K. (1989) ‘The McDonnell-Douglas case study of SQC and engineering improvement: Case DAC Inspection 1988–89’. Available at: [https://bit.ly/TomGilbMcDonnell-Douglas](https://bit.ly/TomGilbMcDonnell-Douglas) \[Accessed: 17 May 2025\]._
 49. _LeSS.works (n.d.) Self-managing teams. Available at: [https://less.works/less/management/self-managing-teams](https://less.works/less/management/self-managing-teams) (Accessed: 17 May 2025)._
 50. _Gothelf, J. & Seiden, J. (2021) Lean UX: Designing great products with agile teams. 3rd edn. Sebastopol, CA: O’Reilly Media_
 51. _Torres, T. (2021) Continuous discovery habits: Discover products that create customer value and business value. North Charleston, SC: Product Talk_
@@ -1213,7 +1212,7 @@ This collection was written and compiled by _Ralph Jocham, John Coleman, and Jef
     _Members of The Scrum Patterns Group: Vervloed, E., Harrison, N., Harada, K., Yoder, J., Kim, J., O’Callaghan, A., Beedle, M., Bjørnvig, G., Friis, D., Reijonen, V., Benefield, G., Østergaard, J., Eloranta, V.-P., Leonard, E. & Aguiar, A._
 54. _Snowden, D. (2025) ‘Estuarine mapping first edition’, The Cynefin Co, 22 April. Available at: [https://thecynefin.co/estuarine-mapping/](https://thecynefin.co/estuarine-mapping/) (Accessed: 8 June 2025\)_
 55. _Ackoff, R.L. (1999) Ackoff’s Best: His Classic Writings on Management. New York: John Wiley & Sons._
-56. _Fischer, B., Minnaar, J., Moehrle, M., & Cornuel, E. (2020) RenDanHeYi: Pioneering the Quantum Organisation. EFMD Global Focus, Special Supplement. Available at: [https://www.globalfocusmagazine.com/wp-content/uploads/2020/10/GF_RenDanHeYi_Supplement_WEB-new-3.pdf](https://www.globalfocusmagazine.com/wp-content/uploads/2020/10/GF_RenDanHeYi_Supplement_WEB-new-3.pdf) \[Accessed 27 May 2025\]_
+56. _Fischer, B., Minnaar, J., Moehrle, M., & Cornuel, E. (2020) RenDanHeYi: Pioneering the Quantum Organisation. EFMD Global Focus, Special Supplement. Available at: [https://bit.ly/RenDanHeYi](https://bit.ly/RenDanHeYi) \[Accessed 27 May 2025\]_
 57. _Blackburn, S. (2003) Ethics: A Very Short Introduction. Oxford: Oxford University Press._
 58. _Mayer, T. (2025) A Simple Guide to Scrum. \[Online\]. Available at: [https://scrum.academy/guide/](https://scrum.academy/guide/) (Accessed: 17 May 2025\)_
 59. _Ohno, T. (1988) Toyota Production System: Beyond Large-Scale Production. Portland, OR: Productivity Press._
@@ -1242,7 +1241,7 @@ This collection was written and compiled by _Ralph Jocham, John Coleman, and Jef
 82. _Patton, J. and Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O’Reilly Media._
 83. _Kotter, J.P., 1996\. Leading Change. Boston: Harvard Business School Press._
 84. _‘Genchi Genbutsu’ (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (Accessed: 18 May 2025)._
-85. _ScrumPlop, n.d. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[Accessed 18 May 2025\]._
+85. _ScrumPlop, n.d. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[Accessed: 18 May 2025\]._
 86. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love. 2nd ed. Hoboken, NJ: Wiley._
 87. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products. Hoboken, NJ: Wiley._
 88. _Cagan, M., 2024\. Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._
@@ -1280,36 +1279,36 @@ This collection was written and compiled by _Ralph Jocham, John Coleman, and Jef
 114. _Cagan, M. (2025) ‘The Product Operating Model’, Silicon Valley Product Group, 17 March. Available at: [https://www.svpg.com/the-product-operating-model/](https://www.svpg.com/the-product-operating-model/) (Accessed: 8 June 2025)._
 115. _Cagan, M. (n.d.) ‘The Product Operating Model: An Introduction’, Silicon Valley Product Group. Available at: [https://www.svpg.com/the-product-operating-model-an-introduction/](https://www.svpg.com/the-product-operating-model-an-introduction/) (Accessed: 8 June 2025\)_
 116. _Scrum.org (2025) ‘The Agile Product Operating Model’, Scrum.org, 1 May. Available at: [https://www.scrum.org/resources/agile-product-operating-model](https://www.scrum.org/resources/agile-product-operating-model) (Accessed: 8 June 2025)._
-117. _Scrum.org (2025) ‘Agile Product Operating Model State of Play \- Part 1 \- Fundamentals’, Scrum.org, 12 May. Available at: https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals (Accessed: 8 June 2025)._
+117. _Scrum.org (2025) ‘Agile Product Operating Model State of Play \- Part 1 \- Fundamentals’, Scrum.org, 12 May. Available at: [https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals](https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals) (Accessed: 8 June 2025)._
 118. _Scrum.org (2024) ‘Project to Product and the Agile Product Operating Model’, Scrum.org, 7 November. Available at: [https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model](https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model) (Accessed: 8 June 2025)._
-119. _Scrum.org (2024) Moving to an Agile Product Operating Model \[PDF\]. Available at: [https://bit.ly/SDOAPOM](https://bit.ly/SDOAPOM). (Accessed: 8 June 2025\)_
-120. _Scotland, K. (2023) Why strategy deployment? Here are three great reasons, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (April 3, 2023)._
-121. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (April 3, 2023)._
-122. _Scotland, K. (2017) Strategy deployment and playing to win, AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (April 3, 2023)._
-123. _Scotland, K. (2017) A strategy deployment cadence, AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (April 3, 2023)._
-124. _Scotland, K. (2022) The ultimate X-matrix for your agile transformation is here, AvailAgility. At: [https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/](https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/) (April 5, 2023)._
-125. _Krebs, J. (2023) Agile kata pro, Agile Kata Pro. At: [https://agilekata.pro/](https://agilekata.pro/) (April 4, 2023)._
-126. _Doerr, J. (2023) OKRs 101, What Matters. At: [https://www.whatmatters.com/get-started/](https://www.whatmatters.com/get-started/) (April 4, 2023)._
+119. _Scrum.org (2024) Moving to an Agile Product Operating Model \[PDF\]. Available at: [https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age](https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age) or [https://bit.ly/SDOAPOM](https://bit.ly/SDOAPOM). (Accessed: 8 June 2025\)_
+120. _Scotland, K. (2023) Why strategy deployment? Here are three great reasons, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (Accessed: April 3, 2023)._
+121. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (Accessed: April 3, 2023)._
+122. _Scotland, K. (2017) Strategy deployment and playing to win, AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (Accessed: April 3, 2023)._
+123. _Scotland, K. (2017) A strategy deployment cadence, AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (Accessed: April 3, 2023)._
+124. _Scotland, K. (2022) The ultimate X-matrix for your agile transformation is here, AvailAgility. At: [https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/](https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/) (Accessed: April 5, 2023)._
+125. _Krebs, J. (2023) Agile kata pro, Agile Kata Pro. At: [https://agilekata.pro/](https://agilekata.pro/) (Accessed: April 4, 2023)._
+126. _Doerr, J. (2023) OKRs 101, What Matters. At: [https://www.whatmatters.com/get-started/](https://www.whatmatters.com/get-started/) (Accessed: April 4, 2023)._
 127. _Wodtke, C. (2021) Radical focus achieving your most important goals with objectives and key results--. Palo Alto, CA: Cucina Media._
 128. _Gothelf, J. & Seiden, J. (2024) Who Does What By How Much?: A Practical Guide to Customer-Centric OKRs. New York: Sense & Respond Press._
-129. _Appelo, J. (2023) Sometimes, you \*don’t\* want focus, unFIX. At: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (14 January 2024)._
-130. _Appelo, J. (2023) Bets and objectives, unFIX. At: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (14 January 2024)._
-131. _McChesney, C. (2023) The 4 disciplines of execution (new), FranklinCovey. At: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (April 4, 2023)._
+129. _Appelo, J. (2023) Sometimes, you \*don’t\* want focus, unFIX. At: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (Accessed: 14 January 2024)._
+130. _Appelo, J. (2023) Bets and objectives, unFIX. At: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (Accessed: 14 January 2024)._
+131. _McChesney, C. (2023) The 4 disciplines of execution (new), FranklinCovey. At: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (Accessed: April 4, 2023)._
 132. _Scrum.org (2024) Evidence-Based Management (EBM) Framework, Scrum.org. Available at: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (Accessed: 8 June 2025)._
-133. _Burrows, M. (2023) Home: Agendashift™, Agendashift. At: [https://www.agendashift.com/](https://www.agendashift.com/) (April 4, 2023)._
-134. _Kniberg, H. and Ivarsson, A. (2012) Scaling at Spotify, Crisp. At: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (April 5, 2023)._
-135. _Ambler, S.W. and Lines, M. (2023) Disciplined Agile® Toolkit \- Project Management Institute, PMI. At: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (April 5, 2023)._
-136. _Leffingwell, D. and Knaster, R. (2023) Safe 6.0 framework, Scaled Agile Framework. At: [https://www.scaledagileframework.com/](https://www.scaledagileframework.com/) (April 5, 2023)._
-137. _Sutherland, J. (2021) Scrum@Scale \- the scaling framework created by dr. Jeff Sutherland, Scrum@Scale Framework. At: [https://www.scrumatscale.com/](https://www.scrumatscale.com/) (April 5, 2023)._
-138. _Skelton, M. and Pais, M. (2023) Team topologies, Team Topologies. At: https://teamtopologies.com/ (April 5, 2023)._
-139. _Appelo, J. (2023) Versatile Organization Design, unFIX. At: [https://unfix.com/](https://unfix.com/) (April 5, 2023)._
-140. _Merel, P. (2023) Xscale Alliance, XSCALE Alliance. At: [https://xscalealliance.org/\#manifesto](https://xscalealliance.org/#manifesto) (April 5, 2023)._
-141. _Schwaber, K. et al. (2021) Online nexus guide, Scrum.org. At: [https://www.scrum.org/resources/online-nexus-guide](https://www.scrum.org/resources/online-nexus-guide) (April 5, 2023)._
-142. _Quartel, R. et al. (2024) FaST guide, Fluid Scaling Technology. At: [https://www.fastagile.io/](https://www.fastagile.io/) (December 6, 2023)._
-143. _Ramos, C. and Pavlichenko, I. (2023) Creating agile organizations, Creating Agile Organizations. At: [https://creatingagileorganizations.com/](https://creatingagileorganizations.com/) (April 15, 2023)._
+133. _Burrows, M. (2023) Home: Agendashift™, Agendashift. At: [https://www.agendashift.com/](https://www.agendashift.com/) (Accessed: April 4, 2023)._
+134. _Kniberg, H. and Ivarsson, A. (2012) Scaling at Spotify, Crisp. At: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (Accessed: April 5, 2023)._
+135. _Ambler, S.W. and Lines, M. (2023) Disciplined Agile® Toolkit \- Project Management Institute, PMI. At: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (Accessed: April 5, 2023)._
+136. _Leffingwell, D. and Knaster, R. (2023) Safe 6.0 framework, Scaled Agile Framework. At: [https://www.scaledagileframework.com/](https://www.scaledagileframework.com/) (Accessed: April 5, 2023)._
+137. _Sutherland, J. (2021) Scrum@Scale \- the scaling framework created by dr. Jeff Sutherland, Scrum@Scale Framework. At: [https://www.scrumatscale.com/](https://www.scrumatscale.com/) (Accessed: April 5, 2023)._
+138. _Skelton, M. and Pais, M. (2023) Team topologies, Team Topologies. At: [https://teamtopologies.com/](https://teamtopologies.com/) (Accessed: April 5, 2023)._
+139. _Appelo, J. (2023) Versatile Organization Design, unFIX. At: [https://unfix.com/](https://unfix.com/) (Accessed: April 5, 2023)._
+140. _Merel, P. (2023) Xscale Alliance, XSCALE Alliance. At: [https://xscalealliance.org/\#manifesto](https://xscalealliance.org/#manifesto) (Accessed: April 5, 2023)._
+141. _Schwaber, K. et al. (2021) Online nexus guide, Scrum.org. At: [https://www.scrum.org/resources/online-nexus-guide](https://www.scrum.org/resources/online-nexus-guide) (Accessed: April 5, 2023)._
+142. _Quartel, R. et al. (2024) FaST guide, Fluid Scaling Technology. At: [https://www.fastagile.io/](https://www.fastagile.io/) (Accessed: December 6, 2023)._
+143. _Ramos, C. and Pavlichenko, I. (2023) Creating agile organizations, Creating Agile Organizations. At: [https://creatingagileorganizations.com/](https://creatingagileorganizations.com/) (Accessed: April 15, 2023)._
 144. _Larman, C. & Vodde, B. (2025) LeSS (Large-Scale Scrum) Framework. Available at: [https://less.works/less/framework](https://less.works/less/framework) (Accessed: 8 June 2025\)_
 145. _Flight Levels GmbH (2025) Flight Levels Framework. Available at: [https://www.flightlevels.io/what-is-flight-levels/](https://www.flightlevels.io/what-is-flight-levels/) (Accessed: 8 June 2025)._
-146. _Krivitsky, A. and Flemm, R. (2022) Org topologies, Org Topologies. At: [https://www.orgtopologies.com/](https://www.orgtopologies.com/) (April 4, 2023)._
+146. _Krivitsky, A. and Flemm, R. (2022) Org topologies, Org Topologies. At: [https://www.orgtopologies.com/](https://www.orgtopologies.com/) (Accessed: April 4, 2023)._
 147. _Singh, P. (2023) Scaling Simplified: A Practitioner’s Guide to Scaling Flow. Florida: Self-published. Available at: [https://leanpub.com/scalingsimplified](https://leanpub.com/scalingsimplified) (Accessed: 8 June 2025\)_
 148. _Davies, Dan. (2025) The Unaccountability Machine: Why Big Systems Make Terrible Decisions—and How the World Lost Its Mind. London: Profile Books Ltd. (Paperback edition)._
 149. _Stripe (2025) ‘Sir Jony Ive and Patrick Collison Fireside Chat | Stripe Sessions 2025’, YouTube video, 8 May. Available at: [https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3\&t=1390](https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3&t=1390) (Accessed: 8 June 2025\)_
