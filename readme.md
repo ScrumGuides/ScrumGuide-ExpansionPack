@@ -2,7 +2,7 @@
 
 ## Visit the Guide
 
-**[scrumexpansion.org](https://scrumexpansion.org) - Start reading now!**
+**[scrumexpansion.org](https://scrumexpansion.org)**\*\* - Start reading now!\*\*
 
 ## What is This?
 
@@ -13,99 +13,99 @@ Scrum, as defined in the [2020 Scrum Guide](https://scrumguides.org/), is still 
 – How do we work when AI becomes part of the team?
 – How do we apply Scrum in fast-moving environments without losing its simplicity?
 
-The Expansion Pack is a response to those questions.
+The Expansion Pack is a response to those questions. It’s not a replacement of the Scrum Guide. It’s an optional companion—a way to support people who already use Scrum but feel they need more guidance to navigate today’s realities.
 
-It’s not a replacement of the Scrum Guide. It’s an optional companion—a way to support people who already use Scrum but feel they need more guidance to navigate today’s realities.
-The motivation wasn’t to add more rules or make Scrum heavier. Quite the opposite: it was to clarify the spirit of Scrum, especially around product thinking, emergence, and strategic focus.
-Scrum has always been about enabling teams to learn fast, adapt, and deliver value. The Expansion Pack helps modern teams keep that spirit alive—especially in environments shaped by uncertainty, acceleration, and new technology.
+The motivation wasn’t to add more rules or make Scrum heavier. Quite the opposite: it was to clarify the spirit of Scrum, especially around product thinking, emergence, and strategic focus. Scrum has always been about enabling teams to learn fast, adapt, and deliver value. The Expansion Pack helps modern teams keep that spirit alive—especially in environments shaped by uncertainty, acceleration, and new technology.
+
+## Encouraged Contribution Workflow
+
+Changes to content can often be contentious, culturally sensitive, and difficult to manage effectively. To navigate these complexities, we encourage the following collaborative workflow for contributors to the Scrum Guide Expansion Pack:
+
+1. **Create a Discussion** – Engage peers in a conversation about the proposed change, aiming for consensus. Include all perspectives that could provide valuable insights.
+2. **Create an Issue** – Once consensus is reached, \[create an issue] clearly documenting the change and attributing all participants.
+3. **Submit a Pull Request** – Follow standard GitHub procedures: fork the repository, implement the change, and submit a Pull Request.
+4. **Review the Pull Request** – The original creators (Jeff, John, Ralph) or their delegates will review your submission, and may approve, comment, or reject the proposed change.
 
 ## Join Our Community
 
-The Scrum community thrives on shared knowledge and collaborative improvement. Whether you're implementing Scrum in challenging environments or helping others navigate complex product development, your experience contributes to the collective understanding.
+The Scrum community thrives on shared knowledge and collaborative improvement.
 
 ### Contributing to Discussions
 
-- **Share practical insights** - [Start a new discussion](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions) about real-world applications
-- **Address implementation challenges** - Help others overcome obstacles you've encountered
-- **Propose refinements** - Suggest improvements based on your experience
-- **Document lessons learned** - Share what you've discovered in your Scrum journey
+- **Share practical insights** - [Start a new discussion](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions).
+- **Address implementation challenges** - Help others overcome obstacles.
+- **Propose refinements** - Suggest improvements.
+- **Document lessons learned** - Share your discoveries.
 
 ### Language and Accessibility
 
-Making Scrum knowledge accessible across cultures and languages strengthens the global community.
+Making Scrum knowledge accessible globally is essential.
 
-- **Expand language support** - Help bring the Expansion Pack to new communities
-- **Refine translations** - Ensure accuracy and cultural relevance in existing translations
-- **Review content** - Validate that concepts translate effectively across different contexts
+- **Expand language support**
+- **Refine translations**
+- **Review content**
 
-**Getting started:** [Open a discussion](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions) to connect with the community and share how you'd like to contribute.
+[Open a discussion](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions) to connect with the community.
 
 ## Access the Guide
 
 - **Read online**: [scrumexpansion.org](https://scrumexpansion.org)
-- **Download PDF**: [Available in all supported languages](https://scrumexpansion.org/download)
-- **Mobile access**: Optimized for reading on any device
+- **Download PDF**: [Available languages](https://scrumexpansion.org/download)
 
 ## How to Contribute
 
-The Expansion Pack benefits from diverse perspectives and practical experience from the Scrum community.
-
 ### Content Contributors
 
-The guide is
+- Default English: `site/content/guide/_index.md`
+- Language versions: `site/content/guide/_index.{lang}.md`
 
-- `site/content/guide/_index.md` - the default english version of the Scrum Guide Expansion Pack
-- `site/content/guide/_index.{lang}.md` - specific language versions of the Scrum Guide Expansion Pack
+Contributions include:
 
-we are open for contributions in several areas:
-
-- **Enhance content** - Add examples, case studies, and practical applications
-- **Clarify concepts** - Simplify explanations or provide additional context
-- **Suggest new sections** - Identify gaps or emerging topics in Scrum practice
-- **Review and edit** - Help ensure clarity, accuracy, and consistency across languages
+- **Enhance content**
+- **Clarify concepts**
+- **Suggest new sections**
+- **Review and edit**
 
 ### Technical Contributors
 
-- **Improve platform functionality** - Enhance the website and user experience
-- **Optimize performance** - Ensure fast, reliable access across devices
-- **Maintain infrastructure** - Support the technical foundation that serves the content
+- **Improve platform functionality**
+- **Optimize performance**
+- **Maintain infrastructure**
 
-**For detailed guidance:** Review our documentation:
+**Guidance:**
 
-- [Documentation Overview](./docs/README.md) - Complete project structure and approach
-- [Getting Started Guide](./docs/getting-started.md) - Setup and development environment
-- [Contributing Guidelines](./docs/contributing.md) - Detailed contribution process and standards
+- [Documentation Overview](./docs/README.md)
+- [Getting Started Guide](./docs/getting-started.md)
+- [Contributing Guidelines](./docs/contributing.md)
 
 ## About the Authors
 
-This expansion was developed by recognized experts in Scrum and agile product development:
+Developed by Scrum and agile product development experts:
 
-- **Ralph Jocham** - Professional Scrum Trainer and Agile Coach
-- **John Coleman** - Experienced Agile Practitioner and Coach
-- **Jeff Sutherland** - Co-creator of Scrum
+- **Ralph Jocham**
+- **John Coleman**
+- **Jeff Sutherland**
 
-The work builds upon the foundation established in the official [2020 Scrum Guide](https://scrumguides.org/) by **Ken Schwaber** and **Jeff Sutherland**.
+Built upon the official [2020 Scrum Guide](https://scrumguides.org/) by **Ken Schwaber** and **Jeff Sutherland**.
 
 ## License & Usage
 
-This expansion pack is freely available under an open license. You may:
+Freely available under an open license:
 
-- **Read and distribute** the content without restriction
-- **Use for training and education** in your organization
-- **Translate** into additional languages
-- **Adapt and build upon** the content for your specific needs
+- **Read and distribute**
+- **Use for training and education**
+- **Translate**
+- **Adapt and build upon**
 
-Attribution to the original authors is requested when redistributing or adapting the content.
+Attribution is requested.
 
-**See the [LICENSE](./LICENSE) file for complete terms.**
-
----
+See [LICENSE](./LICENSE) for complete terms.
 
 ## Getting Started
 
-1. **[Read the expansion](https://scrumexpansion.org)** - Explore the enhanced guidance and principles
-2. **[Engage with the community](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)** - Share experiences and learn from others
-3. **[Support translation efforts](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)** - Help make Scrum accessible globally
-4. **[Review contribution guidelines](./docs/contributing.md)** - Learn how to improve and extend the content
+1. **[Read the expansion](https://scrumexpansion.org)**
+2. **[Engage with the community](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)**
+3. **[Support translations](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)**
+4. **[Review contribution guidelines](./docs/contributing.md)**
 
 **Together, we're advancing Scrum practice for modern product development challenges.**

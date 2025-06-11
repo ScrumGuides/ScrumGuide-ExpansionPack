@@ -1,0 +1,45 @@
+# Default owner for everything not in /site/content/
+
+- @mrhinsh
+
+# Remove default ownership for /site/content/ (will be handled by specific rules below)
+
+/site/content/
+
+# Technical and configuration files
+
+.gitattributes @mrhinsh
+.gitignore @mrhinsh
+.prettierrc @mrhinsh
+staticwebapp.config*.json @mrhinsh
+site/hugo*.yaml @mrhinsh
+
+# Documentation
+
+/docs/ @mrhinsh
+readme.md @mrhinsh
+LICENSE @mrhinsh
+
+# General markdown files (outside of /site/content/)
+
+\*.md @ViralGoodAgile @rjocham
+
+# Site content - specific areas
+
+/site/content/guide/ @jeffsutherland @ViralGoodAgile @rjocham
+/site/content/creators/jeff-sutherland/ @jeffsutherland
+/site/content/creators/john-coleman/ @ViralGoodAgile
+/site/content/creators/ralph-jocham/ @rjocham
+
+# Site content - general areas
+
+/site/content/download/ @mrhinsh
+/site/content/\_index.md @ViralGoodAgile @rjocham
+/site/content/creators/\_index.md @ViralGoodAgile @rjocham
+
+# Hugo theme and layout files
+
+/site/layouts/ @mrhinsh
+/site/static/ @mrhinsh
+/site/data/ @mrhinsh
+/site/i18n/ @mrhinsh
