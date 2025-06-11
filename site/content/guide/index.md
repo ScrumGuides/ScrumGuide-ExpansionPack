@@ -1,6 +1,7 @@
 ---
 title: The Scrum Guide Expansion Pack
-description: A generic guide for users to follow.
+description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
+keywords: Scrum, Scrum Guide Expansion Pack, Scrum companion guide, modern Scrum, Scrum and complexity, empirical product development, self-managing teams, Scrum roles clarified, Product Owner strategy, Scrum Master effectiveness, stakeholder value delivery, product thinking in Scrum, Scrum for adaptive organisations, Scrum and AI, cadence and empiricism, Scrum in complex environments, emergence in Scrum
 date: 2025-06-11T15:00:00Z
 url: /scrum-guide-expansion-pack/
 type: guide
