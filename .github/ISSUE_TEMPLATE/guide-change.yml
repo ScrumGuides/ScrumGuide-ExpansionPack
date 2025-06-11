@@ -1,0 +1,172 @@
+name: Guide Change Request
+description: Propose a change, enhancement, or correction to the Scrum Guide Expansion Pack content
+title: "[GUIDE] [SECTION]: Brief description of proposed change"
+labels: ["guide-change", "content", "enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in improving the Scrum Guide Expansion Pack! 
+
+        Before proposing content changes, we encourage following our [collaborative workflow](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/readme.md#encouraged-contribution-workflow):
+        1. **Create a Discussion** first to build consensus
+        2. **Create this Issue** after reaching agreement
+        3. **Submit a Pull Request** with the implementation
+
+        Please fill out the form below to clearly document your proposed change.
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Type of Change
+      description: What type of change are you proposing?
+      options:
+        - Content correction/fix
+        - Content enhancement/expansion
+        - New section/concept addition
+        - Structural reorganization
+        - Reference/citation update
+        - Translation improvement
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section/Area Affected
+      description: Which section(s) of the guide does this change affect?
+      placeholder: e.g., "The Scrum Values", "Product Backlog", "Sprint Planning", etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content
+      description: Quote the current text or describe the current state that needs to be changed
+      placeholder: Copy the exact text from the guide that you want to change, or describe the current situation...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed Change
+      description: Describe your proposed change in detail
+      placeholder: Provide the exact new text you propose, or describe the changes you want to make...
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change necessary? What problem does it solve or improvement does it provide?
+      placeholder: Explain the reasoning behind your proposed change, including any benefits to readers or the Scrum community...
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact-assessment
+    attributes:
+      label: Impact Assessment
+      description: How might this change affect other parts of the guide or readers' understanding?
+      placeholder: Consider whether this change might require updates to other sections, translations, or could affect interpretation...
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Supporting References
+      description: Any supporting sources, research, or expert opinions that support this change?
+      placeholder: Include links to relevant sources, citations, or expert opinions that support your proposal...
+
+  - type: dropdown
+    id: community-discussion
+    attributes:
+      label: Community Discussion Status
+      description: Have you discussed this change with the community?
+      options:
+        - Yes, discussed in GitHub Discussions with consensus reached
+        - Yes, discussed in GitHub Discussions but no clear consensus
+        - No, but planning to create a discussion
+        - No, this is a minor/obvious correction
+    validations:
+      required: true
+
+  - type: input
+    id: discussion-link
+    attributes:
+      label: Discussion Link (if applicable)
+      description: Link to the GitHub Discussion thread about this change
+      placeholder: https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions/###
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Priority/Urgency
+      description: How urgent is this change?
+      options:
+        - High - Factual error or misleading content
+        - Medium - Important improvement or clarification
+        - Low - Nice-to-have enhancement
+        - Enhancement - Future consideration
+    validations:
+      required: true
+
+  - type: input
+    id: contributor-name
+    attributes:
+      label: Contributor Name
+      description: Your name (as it should appear in attributions if change is accepted)
+      placeholder: e.g., John Doe
+    validations:
+      required: true
+
+  - type: input
+    id: contributor-affiliation
+    attributes:
+      label: Affiliation (Optional)
+      description: Your organization, certification, or relevant credentials
+      placeholder: e.g., Certified Scrum Master, ABC Company, etc.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other relevant information about this proposed change?
+      placeholder: Include any other details, considerations, or context that might be helpful...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      description: By submitting this request, you agree to the following terms
+      options:
+        - label: I have searched existing issues to ensure this change hasn't been proposed already
+          required: true
+        - label: I understand this change will be reviewed by the original creators or their delegates
+          required: true
+        - label: I agree that accepted changes will be published under the same license as the original content
+          required: true
+        - label: I am willing to help implement this change if needed
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Next Steps:**
+        1. If not already done, consider creating a [GitHub Discussion](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions) to build community consensus
+        2. Project maintainers will review your proposal
+        3. If approved, you may be asked to submit a Pull Request with the implementation
+        4. The change will be reviewed by the original creators (Jeff Sutherland, John Coleman, Ralph Jocham) or their delegates
+
+        Thank you for helping improve the Scrum Guide Expansion Pack! 🎉
+
+        **Resources:**
+        - [Contributing Guidelines](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/contributing.md)
+        - [Content Management Guide](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/content-management.md)
+        - [GitHub Discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)
