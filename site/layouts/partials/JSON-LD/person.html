@@ -1,0 +1,109 @@
+{{- $baseURL := .Site.BaseURL -}}
+{{- $siteURL := .Site.Params.siteProdUrl | default $baseURL -}}
+{{- $pageURL := printf "%s%s" $siteURL .RelPermalink -}}
+{{- $image := "" -}}
+{{- if .Page.Params.image -}}
+  {{- $image = printf "%s%s%s" $siteURL .RelPermalink .Page.Params.image -}}
+{{- end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ .Title }}",
+  "description": "{{ .Page.Params.description | default .Site.Params.description }}",
+  "url": {{ $pageURL }},
+  {{- if $image }}
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ $image }}
+  },
+  {{- end }}
+  {{- if .Page.Params.jobTitle }}
+  "jobTitle": "{{ .Page.Params.jobTitle }}",
+  {{- end }}
+  {{- if .Page.Params.worksFor }}
+  "worksFor": [
+    {{- range $index, $org := .Page.Params.worksFor -}}
+    {{- if $index }},{{ end }}
+    {
+      "@type": "{{ $org.type | default "Organization" }}",
+      "name": "{{ $org.name }}"
+      {{- if $org.role }},
+      "jobTitle": "{{ $org.role }}"
+      {{- end }}
+    }
+    {{- end }}
+  ],
+  {{- end }}
+  {{- if .Page.Params.alumniOf }}
+  "alumniOf": [
+    {{- range $index, $org := .Page.Params.alumniOf -}}
+    {{- if $index }},{{ end }}
+    {
+      "@type": "{{ $org.type | default "Organization" }}",
+      "name": "{{ $org.name }}"
+    }
+    {{- end }}
+  ],
+  {{- end }}
+  {{- if .Page.Params.knowsAbout }}
+  "knowsAbout": [
+    {{- range $index, $topic := .Page.Params.knowsAbout -}}
+    {{- if $index }},{{ end }}
+    "{{ $topic }}"
+    {{- end }}
+  ],
+  {{- end }}
+  {{- if .Page.Params.sameAs }}
+  "sameAs": [
+    {{- range $index, $url := .Page.Params.sameAs -}}
+    {{- if $index }},{{ end }}
+    {{ $url }}
+    {{- end }}
+  ],
+  {{- end }}
+  {{- if .Page.Params.awards }}
+  "award": [
+    {{- range $index, $award := .Page.Params.awards -}}
+    {{- if $index }},{{ end }}
+    "{{ $award }}"
+    {{- end }}
+  ],
+  {{- end }}
+  {{- if .Page.Params.author }}
+  "publishedWorkExamples": [
+    {{- if reflect.IsSlice .Page.Params.author -}}
+    {{- range $index, $work := .Page.Params.author -}}
+    {{- if $index }},{{ end }}
+    {
+      "@type": "CreativeWork",
+      "name": "{{ $work }}"
+    }
+    {{- end }}
+    {{- else }}
+    {
+      "@type": "CreativeWork",
+      "name": "Published Works"
+    }
+    {{- end }}
+  ],
+  {{- end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ $pageURL }}
+  },  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": {{ $siteURL }}
+  },
+  {{- $guidePage := .Site.GetPage "/guide" -}}
+  {{- if $guidePage -}}
+  "contributor": {
+    "@type": "CreativeWork",
+    "name": "{{ $guidePage.Title }}",
+    "description": "{{ $guidePage.Params.description }}",
+    "url": {{ printf "%s%s" $siteURL $guidePage.RelPermalink }}
+  }
+  {{- end -}}
+}
+</script>

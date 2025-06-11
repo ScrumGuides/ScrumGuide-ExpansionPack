@@ -1,0 +1,70 @@
+{{- $baseURL := .Site.BaseURL -}}
+{{- $siteURL := .Site.Params.siteProdUrl | default $baseURL -}}
+{{- $pageURL := printf "%s%s" $siteURL .RelPermalink -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{ .Title }}",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Page.Params.description | default .Site.Params.description }}",
+  "url": {{ $pageURL }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- $creators := slice -}}
+  {{- $creatorsSection := .Site.GetPage "/creators" -}}
+  {{- if $creatorsSection -}}
+    {{- $creators = $creatorsSection.RegularPages -}}
+  {{- end -}}
+  {{- $allCreators := lang.Merge $creators (slice) }}
+  "author": [
+    {{- range $index, $creator := $allCreators -}}
+    {{- if $index }},{{ end }}
+    {
+      "@type": "Person",
+      "name": "{{ $creator.Title }}",
+      "url": {{ $creator.Permalink }}
+    }
+    {{- end }}
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "url": {{ $siteURL }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ printf "%s%s" $siteURL "/images/logo.png" }}
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ $pageURL }}
+  },
+  "genre": "Educational Content",
+  {{- $keywords := .Keywords | default .Site.Params.keywords -}}
+  {{- $keywordList := slice -}}
+  {{- if reflect.IsSlice $keywords -}}
+    {{- $keywordList = $keywords -}}
+  {{- else -}}
+    {{- $keywordList = split $keywords "," -}}
+  {{- end }}
+  "about": [
+    {{- range $index, $keyword := $keywordList -}}
+    {{- $trimmedKeyword := trim $keyword " " -}}
+    {{- if $index }},{{ end }}
+    {
+      "@type": "Thing",
+      "name": "{{ $trimmedKeyword }}"
+    }
+    {{- end }}
+  ],
+  "keywords": "{{ delimit .Keywords ", " ", and " }}",
+  "inLanguage": "{{ .Site.Language.LanguageCode | default "en" }}",
+  "license": "© {{ now.Format "2006" }} {{ .Site.Title }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": {{ $siteURL }}
+  }
+}
+</script>

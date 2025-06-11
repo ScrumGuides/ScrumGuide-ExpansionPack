@@ -4,6 +4,27 @@ short_title: "Ralph"
 description: "Enterprise Change Agent. Author. Scrum Trainer."
 date: 2025-06-01
 image: "ralph-jocham.jpg"
+jobTitle: "Enterprise Change Agent and Scrum Trainer"
+knowsAbout:
+  - "Product Development"
+  - "Enterprise Transformation"
+  - "Agile Intelligence"
+  - "Scrum Framework"
+  - "Agile Software Development"
+  - "Product Management"
+  - "Organizational Change"
+specialties:
+  - "Product Development Authority"
+  - "Enterprise Transformation Specialist"
+  - "Agile Intelligence Architect"
+author:
+  - "Scrum Guide Expansion Pack"
+creator:
+  - "Scrum Guide Expansion Pack"
+expertise:
+  - "Building successful products"
+  - "Enterprise transformation at scale"
+  - "Data-driven agile frameworks"
 ---
 
 Product Development Authority:

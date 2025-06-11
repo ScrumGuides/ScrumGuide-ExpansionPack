@@ -2,6 +2,26 @@
 title: "John Coleman"
 description: "Executive guide, product leader"
 date: 2025-06-01
+image: "john-coleman.png"
+jobTitle: "Executive Guide and Product Leader"
+worksFor:
+  - name: "Evolved.Institute"
+    type: "Organization"
+  - name: "Orderly Disruption"
+    type: "Organization"
+knowsAbout:
+  - "Product Management"
+  - "Design Leadership"
+  - "Executive Management"
+  - "Kanplexity"
+  - "Cynefin Framework"
+  - "Scrum Framework"
+  - "Agile Software Development"
+creator:
+  - "Kanplexity"
+  - "MORE executive success"
+sameAs:
+  - "https://evolved.institute"
 ---
 
 John Coleman hosts the Evolved podcast, focusing on product and design leadership, as well as executive management. He is a co-founder of Evolved.Institute and Orderly Disruption.
