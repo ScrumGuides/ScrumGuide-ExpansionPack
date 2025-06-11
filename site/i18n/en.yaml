@@ -97,6 +97,9 @@
 - id: download_table_translations_by
   translation: "Translations By"
 
+- id: download_table_written_by
+  translation: "Written By"
+
 - id: download_table_action
   translation: "Action"
 
