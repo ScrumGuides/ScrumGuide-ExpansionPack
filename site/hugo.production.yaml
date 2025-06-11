@@ -1,0 +1,3 @@
+baseURL: https://scrumexpansion.org
+Environment: "production"
+minifyOutput: true

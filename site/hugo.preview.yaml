@@ -1,3 +1,4 @@
+baseURL: https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net
 Environment: "preview"
 minifyOutput: true
 
