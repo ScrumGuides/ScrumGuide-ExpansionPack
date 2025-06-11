@@ -41,7 +41,7 @@
               {{ if $isComingSoon }}
                 <a href="#" class="btn btn-primary disabled">coming soon</a>
               {{ else }}
-                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary">{{ i18n "join_discussion_button" }}</a>
+                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary" target="_blank">{{ i18n "join_discussion_button" }}</a>
               {{ end }}
             </div>
           </div>
@@ -74,7 +74,7 @@
               {{ if $isComingSoon }}
                 <a href="#" class="btn btn-primary disabled">{{ i18n "join_discussion_button" }}</a>
               {{ else }}
-                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto">{{ i18n "join_discussion_button" }}</a>
+                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto" target="_blank">{{ i18n "join_discussion_button" }}</a>
               {{ end }}
             </div>
           </div>
