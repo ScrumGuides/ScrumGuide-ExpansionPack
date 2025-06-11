@@ -17,7 +17,8 @@ specialties:
   - "Product Development Authority"
   - "Enterprise Transformation Specialist"
   - "Agile Intelligence Architect"
-author: true
+author:
+  - "Scrum Guide Expansion Pack"
 creator:
   - "Scrum Guide Expansion Pack"
 expertise:
