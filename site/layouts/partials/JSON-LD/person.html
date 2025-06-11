@@ -91,16 +91,19 @@
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ $pageURL }}
-  },
-  "isPartOf": {
+  },  "isPartOf": {
     "@type": "WebSite",
     "name": "{{ .Site.Title }}",
     "url": {{ $siteURL }}
   },
+  {{- $guidePage := .Site.GetPage "/guide" -}}
+  {{- if $guidePage -}}
   "contributor": {
     "@type": "CreativeWork",
-    "name": "Scrum Guide Expansion Pack",
-    "url": {{ printf "%s%s" $siteURL "/scrum-guide-expansion-pack/" }}
+    "name": "{{ $guidePage.Title }}",
+    "description": "{{ $guidePage.Params.description }}",
+    "url": {{ printf "%s%s" $siteURL $guidePage.RelPermalink }}
   }
+  {{- end -}}
 }
 </script>
