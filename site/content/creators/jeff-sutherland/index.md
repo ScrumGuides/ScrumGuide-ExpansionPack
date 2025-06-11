@@ -3,6 +3,34 @@ title: "Jeff Sutherland"
 description: "Inventor and Co-Creator of Scrum and Scrum@Scale"
 date: 2025-06-01
 image: "jeff-sutherland.jpg"
+jobTitle: "Inventor and Co-Creator of Scrum and Scrum@Scale"
+worksFor:
+  - name: "Scrum, Inc."
+    type: "Organization"
+  - name: "Tesla Investment Holdings LLC"
+    type: "Organization"
+    role: "Founder and Managing Director"
+alumniOf:
+  - name: "University of Colorado Medical School"
+    type: "EducationalOrganization"
+  - name: "U.S. Air Force"
+    type: "Organization"
+knowsAbout:
+  - "Scrum Framework"
+  - "Scrum@Scale"
+  - "Agile Software Development"
+  - "Product Management"
+  - "Organizational Transformation"
+creator:
+  - "Scrum Framework"
+  - "Scrum@Scale"
+awards:
+  - "Top Gun status (1967)"
+  - "Signatory of the Agile Manifesto (2001)"
+author:
+  - "Scrum: The Art of Doing Twice the Work in Half the Time"
+sameAs:
+  - "https://www.scruminc.com"
 ---
 
 Jeff Sutherland, the inventor and Co-Creator of Scrum and Scrum@Scale has worked with thousands of companies deploying Scrum and recently launched two global trainer programs for Registered Scrum Trainers and Registered Scrum@Scale Trainers in addition to creating independent companies starting with Scrum Inc Japan. He is Founder and Managing Director of Tesla Investment Holdings LLC which is an investment fund that coinvests with OpenView Venture Partners and CompanyOn Ventures. As President of JVS Management Inc he supports the investment fund and portfolio of companies. All organizations maximize impact by implementing Scrum@Scale and investing in agile companies.
