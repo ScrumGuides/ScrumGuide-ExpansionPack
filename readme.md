@@ -54,8 +54,8 @@ The Expansion Pack benefits from diverse perspectives and practical experience f
 
 The guide is
 
-- `site/content/_index.md` - the default english version of the Scrum Guide Expansion Pack
-- `site/content/_index.{lang}.md` - specific language versions of the Scrum Guide Expansion Pack
+- `site/content/guide/_index.md` - the default english version of the Scrum Guide Expansion Pack
+- `site/content/guide/_index.{lang}.md` - specific language versions of the Scrum Guide Expansion Pack
 
 we are open for contributions in several areas:
 
