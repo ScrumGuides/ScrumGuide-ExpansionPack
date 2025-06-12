@@ -261,21 +261,6 @@ Use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two-lette
 - Share resources and terminology decisions
 - Coordinate on quality review
 
----
-
-## 📊 Translation Status
-
-| Language | Code | Status | Contributors |
-|----------|------|--------|--------------|
-| English | en | ✅ Complete | Original |
-| German | de | ✅ Complete | Community |
-| Spanish | es | ✅ Complete | Community |
-| French | fr | ✅ Complete | Community |
-| Portuguese | pt | 📝 Needed | - |
-| Japanese | ja | 📝 Needed | - |
-| Chinese | zh | 📝 Needed | - |
-
-*Want to add your language? Start with either workflow above!*
 
 ---
 
