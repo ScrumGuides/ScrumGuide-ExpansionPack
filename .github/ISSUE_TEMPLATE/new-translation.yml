@@ -11,6 +11,16 @@ body:
 
         Please fill out the form below to request a new translation. Once approved, we'll provide you with the necessary resources and guidance to get started.
 
+        **Before submitting:** Please check existing issues and discussions to ensure this language is not already being worked on.
+  - type: checkboxes
+    id: language-check
+    attributes:
+      label: Pre-submission Check
+      description: Please confirm the following before proceeding
+      options:
+        - label: I have checked that this language has not already been proposed or is currently being worked on
+          required: true
+
   - type: input
     id: language
     attributes:
