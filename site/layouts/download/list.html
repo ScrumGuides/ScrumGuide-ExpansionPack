@@ -65,7 +65,13 @@
 
                       {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
                       {{- if $pdfResource }}
-                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download 
+                           onclick="gtag('event', 'download', {
+                             'event_category': 'PDF',
+                             'event_label': '{{ .Site.Language.LanguageName }} - Official',
+                             'file_name': '{{ $pdfResource.Name }}',
+                             'file_extension': 'pdf'
+                           });">
                           <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" . }}
                         </a>
                       {{- else }}
@@ -106,9 +112,15 @@
 
                       {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
                       {{- if $pdfResource }}
-                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
-                          <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" . }}
-                        </a>
+                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download
+                               onclick="gtag('event', 'download', {
+                                 'event_category': 'PDF',
+                                 'event_label': '{{ .LanguageName }} - Translation',
+                                 'file_name': '{{ $pdfResource.Name }}',
+                                 'file_extension': 'pdf'
+                               });">
+                              <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" . }}
+                            </a>
                       {{- else }}
                         <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available at {{ $pdfPattern }}"> <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" . }} </a>
                       {{- end }}
@@ -191,7 +203,13 @@
                           {{- $pdfPattern := printf "*.%s.pdf" .Lang }}
                           {{- $pdfResource := $translationGuidePage.Resources.GetMatch $pdfPattern }}
                           {{- if $pdfResource }}
-                            <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                            <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download
+                               onclick="gtag('event', 'download', {
+                                 'event_category': 'PDF',
+                                 'event_label': '{{ .LanguageName }} - Translation',
+                                 'file_name': '{{ $pdfResource.Name }}',
+                                 'file_extension': 'pdf'
+                               });">
                               <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
                             </a>
                           {{- else }}
