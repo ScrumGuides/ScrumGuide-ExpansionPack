@@ -1,6 +1,6 @@
 ---
-title: "ralph jocham"
-short_title: "ralph"
+title: "Ralph Jocham"
+short_title: "Ralph"
 description: "qochmey choHmoHwI'. qonoSwI'. Scrum ghojwI' DevwI'."
 date: 2025-06-01
 image: "ralph-jocham.jpg"

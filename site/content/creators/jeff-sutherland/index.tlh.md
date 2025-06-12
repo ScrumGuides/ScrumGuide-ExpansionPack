@@ -1,5 +1,6 @@
 ---
 title: "Jeff Sutherland"
+short_title: "Jeff"
 description: "Scrum 'ej Scrum@Scale chenmoHwI'"
 date: 2025-06-01
 image: "jeff-sutherland.jpg"

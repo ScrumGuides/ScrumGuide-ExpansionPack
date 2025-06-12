@@ -1,5 +1,6 @@
 ---
-title: "john coleman"
+title: "John Coleman"
+short_title: "John"
 description: "DevwI' DevwI' je, product DevwI'"
 date: 2025-06-01
 image: "john-coleman.png"
