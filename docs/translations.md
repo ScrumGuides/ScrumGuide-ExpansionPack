@@ -4,22 +4,22 @@ Help us make the Scrum Guide Expansion Pack accessible to everyone worldwide by 
 
 ## 🎯 Quick Start - Choose Your Path
 
-### Option 1: GitHub Collaboration (Recommended for developers)
+### Option 1: GitHub Collaboration (for contributors familiar with GitHub)
 
-**Best for:** People familiar with Git, GitHub, and collaborative development workflows.
+**Best for:** Translators familiar with Git, GitHub, and automation tools.
 
 **Process:**
 
 1. Fork the repository
-2. Create translation files
+2. Create translation files with our [Automated Setup](#option-a-automated-setup-powershell---recommended)
 3. Collaborate with other translators
 4. Submit Pull Request for review
 
 [📖 Skip to GitHub Workflow](#github-workflow) →
 
-### Option 2: Community Submission (For non-technical contributors)
+### Option 2: Manual Submission (for contributors who don't understand GitHub)
 
-**Best for:** Translators who prefer to focus on content rather than technical workflows.
+**Best for:** Translators who are non-technical and dont want to learn how to [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 **Process:**
 
@@ -28,7 +28,7 @@ Help us make the Scrum Guide Expansion Pack accessible to everyone worldwide by 
 3. Submit completed translations via GitHub Issues
 4. We'll create the Pull Request for community review
 
-[📖 Skip to Community Workflow](#community-workflow) →
+[📖 Skip to Manual Workflow](#manual-workflow) →
 
 ---
 
@@ -40,13 +40,13 @@ To add a new language to the site, you'll need to translate:
 
 - **File:** `site/content/guide/index.{LANG}.md`
 - **Content:** The complete Scrum Guide Expansion Pack document
-- **Size:** ~1,300 lines of Markdown content
+- **Size:** ~900 lines of Markdown content
 
 ### 2. User Interface Elements
 
 - **File:** `site/i18n/{LANG}.yaml`
 - **Content:** Navigation, buttons, labels, and interface text
-- **Size:** ~130 translation keys
+- **Size:** ~40 translation keys
 
 ### 3. Supporting Content (Optional)
 
@@ -85,7 +85,50 @@ Replace `{LANG}` with your language code (e.g., `pt` for Portuguese, `ja` for Ja
 
 ### Step 3: Create Translation Files
 
-#### A. Main Guide Translation
+#### Option A: Automated Setup (PowerShell - Recommended)
+
+**Prerequisites:** [PowerShell 7+](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell) (Windows, macOS, or Linux)
+
+Use our automated translation template script to set up all necessary files:
+
+> ⚠️ **Note:** The script will automatically install the required `powershell-yaml` module if it's not already available.
+
+```powershell
+# Basic usage
+.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "de" -LanguageName "German"
+
+# Advanced usage with custom settings
+.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "es" -LanguageName "Spanish" -Title "Guía Scrum Paquete de Expansión" -Weight 3 -Force
+```
+
+**What the script does:**
+
+- ✅ Adds language configuration to `hugo.yaml`
+- ✅ Creates `site/i18n/{LANG}.yaml` from English template
+- ✅ Creates all translated content files (`*.{LANG}.md`)
+- ✅ Sets up proper frontmatter with placeholders
+- ✅ Validates the complete setup
+- ✅ Provides next steps guidance
+
+> 🕒 **Time savings:** The script reduces setup time from ~30 minutes manual work to ~2 minutes automated setup.
+
+**Script Parameters:**
+
+- `LanguageCode` - ISO language code (e.g., 'de', 'es', 'fr')
+- `LanguageName` - Display name (e.g., 'German', 'Spanish')
+- `Title` - Translated site title (optional)
+- `Description` - Translated site description (optional)
+- `Keywords` - Translated site keywords (optional)
+- `Weight` - Language menu order (optional, auto-calculated)
+- `Force` - Overwrite existing files
+
+> 💡 **Don't have PowerShell?** Install it from [Microsoft's official guide](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell) - it's free and available for Windows, macOS, and Linux.
+
+#### Option B: Manual Setup
+
+If you prefer manual setup or don't have PowerShell:
+
+**A. Main Guide Translation**
 
 1. Copy the English guide:
 
@@ -109,7 +152,7 @@ description: "Your translated description"
    - Reference numbers (40), (58), etc.
    - HTML comments and IDs
 
-#### B. UI Translation File
+**B. UI Translation File**
 
 1. Copy the English translations:
 
@@ -125,19 +168,36 @@ cp site/i18n/en.yaml site/i18n/{LANG}.yaml
   translation: "Your translated text here"
 ```
 
+**C. Add Language to Hugo Configuration**
+
+Add your language to `site/hugo.yaml` in the `languages:` section:
+
+```yaml
+languages:
+  # ... existing languages
+  { LANG }:
+    languageName: Your Language Name
+    weight: 2 # Adjust as needed
+    title: Your Translated Site Title
+    params:
+      description: "Your translated description"
+      keywords: "Your translated keywords"
+```
+
 ### Step 4: Test Your Translation
 
 1. **Install Hugo** (see [Development Guide](development.md))
-2. **Run locally:**
+2. **Start the development server:**
 
 ```bash
 cd site
-hugo server --source site --config hugo.yaml,hugo.local.yaml
+hugo server --config hugo.yaml,hugo.local.yaml
 ```
 
 3. **View your translation:**
    - Navigate to `http://localhost:1313/{LANG}/`
    - Check all pages and UI elements
+   - Verify language switching works correctly
 
 ### Step 5: Submit for Review
 
@@ -164,7 +224,9 @@ git push origin translation/add-{LANG}-language
 
 ---
 
-## 📝 Community Workflow
+## 📝 Manual Workflow
+
+> 💡 **Tip:** Even if you're using the manual workflow, you can still use our [PowerShell automation script](#option-a-automated-setup-powershell---recommended) to generate the template files - just fork the repo temporarily, run the script, then download the generated files to work with locally.
 
 ### Step 1: Get Translation Templates
 
@@ -269,6 +331,14 @@ Use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two-lette
 
 ## 🔗 Technical Resources
 
+### PowerShell Installation
+
+For using the automated translation setup script:
+
+- **Windows:** [Install PowerShell 7+](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
+- **macOS:** [Install PowerShell on macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos)
+- **Linux:** [Install PowerShell on Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
+
 ### Hugo Documentation
 
 - [Hugo i18n Documentation](https://gohugo.io/content-management/multilingual/)
@@ -292,7 +362,7 @@ Use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two-lette
 
 ### Before You Start
 
-- Review the existing Klingon translation (tlh) for examples
+- Review the existing Klingon translation (`tlh`) as an example implementation
 - Check if your language is already in progress
 - Join our community discussions
 
