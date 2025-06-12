@@ -238,6 +238,7 @@
         link.addEventListener('click', function(e) {
           // Get data attributes
           const language = this.dataset.language;
+          const languageCode = this.dataset.languageCode;
           const type = this.dataset.type;
           const filename = this.dataset.filename;
           
@@ -247,7 +248,8 @@
               'event_category': 'PDF',
               'event_label': language + ' - ' + type,
               'file_name': filename,
-              'file_extension': 'pdf'
+              'file_extension': 'pdf',
+              'language_code': languageCode
             });
           }
         });
