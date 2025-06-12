@@ -1,0 +1,128 @@
+# Klingon translations
+- id: and
+  translation: "je"
+
+- id: read_online_title
+  translation: "{{ .Site.Title }} 'e' laH DalaHbe'"
+
+- id: read_online_description
+  translation: "ghun naQ DalaHmeH, De' mIllogh je DalaHbe', De' DalaH 'ej yIlaH."
+
+- id: read_online_button
+  translation: "laHbe'"
+
+- id: what_is_guide_title
+  translation: "{{ .Site.Title }} chay'?"
+
+- id: open_source_title
+  translation: "poH patlh je ghom ta'"
+
+- id: open_source_description
+  translation: "{{ .Site.Title }} Dalo'chugh, ghom patlh 'oH. Qatlh neHchoH 'e' wIvlaHbe'. De' lI' DamaHchugh, tIjang, meq lI' DapevlaH. Qapchu' 'oH DamaHchugh ghom DevwI' je."
+
+- id: join_discussion_button
+  translation: "ghItlh yIqon"
+
+- id: join_discussion_title
+  translation: "{{ .Site.Title }} ghom yIchel"
+
+- id: join_discussion_description
+  translation: "ghom yIchel, De' yIDel, 'ej ghom Qorghmey wIv. QuvtaHvIS bIQub, vIt Qav ghomvaD Dapab."
+
+- id: download_title
+  translation: "{{ .Site.Title }} yItlhap"
+
+- id: download_description
+  translation: "{{ .Site.Title }} PDF De' yItlhap. laHlaHbe' 'oH poSmoHbogh. Qatlh vItlhutlhmeH SoH."
+
+- id: download_button
+  translation: "PDF yItlhap"
+
+- id: about_creators_title
+  translation: "{{ .Site.Title }} chenmoHwI' bopbogh"
+
+- id: read_bio_button
+  translation: "{{ .Name }} ngoD yIlaH"
+
+- id: guide_content_not_found
+  translation: "ghun De' tu'be'lu'"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "laHbe'"
+
+- id: nav_pdf_version
+  translation: "PDF mIllogh"
+
+- id: nav_creators
+  translation: "chenmoHwI'"
+
+- id: nav_all_creators
+  translation: "Hoch chenmoHwI'"
+
+- id: nav_faq
+  translation: "FAQ"
+
+# Download page translations
+- id: download_page_title
+  translation: "{{ .Title }}'e' yItlhap"
+
+- id: download_page_description
+  translation: "{{ .Title }} 'oH net chaw'"
+
+- id: download_page_originators
+  translation: ", {{ .Title }} chenmoHwI' 'oH."
+
+- id: download_translations_provided
+  translation: "mu'mey tlhegh 'oH nobbogh ghommeyvam. Hol DaneHbogh yIwIv."
+
+- id: download_translation_error
+  translation: "{{ .Title }} mu'ghom Daqelchugh, QIn yInob chenmoHwI'vaD. Qutlh vItlhutlhmeH, yIlo'"
+
+- id: download_official_version
+  translation: "Doch Qav"
+
+- id: download_community_translations
+  translation: "ghom mu'mey tlhegh"
+
+- id: download_current_version_released
+  translation: "{{ .Site.Title }} Qav Doch lo'"
+
+- id: download_older_translations_notice
+  translation: "{{ .Site.Title }} mu'mey tlhegh Qad. De' chu' tu'be'laH."
+
+- id: download_table_language
+  translation: "Hol"
+
+- id: download_table_translations_by
+  translation: "mu'mey tlhegh"
+
+- id: download_table_written_by
+  translation: "ghItlhwI'"
+
+- id: download_table_action
+  translation: "vang"
+
+- id: download_official_current_version
+  translation: "Doch Qav Qav"
+
+- id: download_button_text
+  translation: "yItlhap"
+
+- id: download_coming_soon
+  translation: "qaStaHvIS poH neH"
+
+- id: download_missing_language
+  translation: "HollIj tu'be'lu'?"
+
+- id: download_contribute_translation
+  translation: "ghomvaD mu'ghom chu' yInob."
+
+- id: download_add_translation
+  translation: "mu'mey tlhegh chel"
+
+- id: download_community_contributors
+  translation: "ghom chenmoHwI'"
+
+- id: read_online_action
+  translation: "laHbe'"
