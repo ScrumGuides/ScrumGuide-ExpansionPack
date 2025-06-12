@@ -136,7 +136,7 @@ function Add-LanguageToHugo {
     if (-not (Get-Module -ListAvailable -Name powershell-yaml)) {
         Write-Host "   Installing powershell-yaml module..." -ForegroundColor Yellow
         Install-Module -Name powershell-yaml -Force -Scope CurrentUser -AllowClobber -ErrorAction Stop
-        Write-Host "   ✅ powershell-yaml module installed" -ForegroundColor Green
+        Write-Host "    ✅ powershell-yaml module installed" -ForegroundColor Green
     }
     
     # Import the module
