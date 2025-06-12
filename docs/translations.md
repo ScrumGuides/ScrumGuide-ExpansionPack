@@ -6,7 +6,7 @@ Help us make the Scrum Guide Expansion Pack accessible to everyone worldwide by 
 
 ### Option 1: GitHub Collaboration (for contributors familiar with GitHub)
 
-**Best for:** Translators familiar with Git, GitHub, and automation tools.
+**Best for:** Translators familiar with Git, GitHub, and the [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests) Workflow.
 
 **Process:**
 
@@ -19,7 +19,7 @@ Help us make the Scrum Guide Expansion Pack accessible to everyone worldwide by 
 
 ### Option 2: Manual Submission (for contributors who don't understand GitHub)
 
-**Best for:** Translators who are non-technical and dont want to learn how to [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+**Best for:** Translators who are non-technical and dont want to [collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
 
 **Process:**
 
