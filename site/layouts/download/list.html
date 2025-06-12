@@ -54,10 +54,7 @@
                       <a href="{{ $guidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
                         <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
                       </a>
-                    {{ end }}  */}}
-
-
-                    <!-- PDF Download Link -->
+                    {{ end }}  */}}                    <!-- PDF Download Link -->
                     {{ if $isComingSoon }}
                       <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" . }}</a>
                     {{ else }}
@@ -65,7 +62,13 @@
 
                       {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
                       {{- if $pdfResource }}
-                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                        <a href="{{ $pdfResource.RelPermalink }}" 
+                           class="btn btn-primary btn-sm pdf-download" 
+                           download 
+                           data-language="English"
+                           data-language-code="en"
+                           data-type="Official"
+                           data-filename="{{ $pdfResource.Name }}">
                           <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" . }}
                         </a>
                       {{- else }}
@@ -95,18 +98,20 @@
                       <a href="{{ $guidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
                         <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
                       </a>
-                    {{ end }}  */}}
-
-
-                    <!-- PDF Download Link -->
+                    {{ end }}  */}}                    <!-- PDF Download Link -->
                     {{ if $isComingSoon }}
                       <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" . }}</a>
                     {{ else }}
                       {{- $pdfPattern := printf "pdf/*.en-us.pdf" }}
 
-                      {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}
-                      {{- if $pdfResource }}
-                        <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                      {{- $pdfResource := $guidePage.Resources.GetMatch $pdfPattern }}                      {{- if $pdfResource }}
+                        <a href="{{ $pdfResource.RelPermalink }}" 
+                           class="btn btn-primary btn-sm pdf-download" 
+                           download 
+                           data-language="English (US)"
+                           data-language-code="en-us"
+                           data-type="Official"
+                           data-filename="{{ $pdfResource.Name }}">
                           <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" . }}
                         </a>
                       {{- else }}
@@ -183,15 +188,17 @@
                           <a href="#" class="btn btn-outline-secondary btn-sm disabled" title="Translation not available">
                             <i class="fa-solid fa-ban me-1"></i>{{ i18n "read_online_action" . }}
                           </a>
-                        {{- end }}
-
-
-                        <!-- PDF Download Link -->
+                        {{- end }}                        <!-- PDF Download Link -->
                         {{- if $translationGuidePage }}
                           {{- $pdfPattern := printf "*.%s.pdf" .Lang }}
                           {{- $pdfResource := $translationGuidePage.Resources.GetMatch $pdfPattern }}
-                          {{- if $pdfResource }}
-                            <a href="{{ $pdfResource.RelPermalink }}" class="btn btn-primary btn-sm" download>
+                          {{- if $pdfResource }}                            <a href="{{ $pdfResource.RelPermalink }}" 
+                               class="btn btn-primary btn-sm pdf-download" 
+                               download
+                               data-language="{{ .LanguageName }}"
+                               data-language-code="{{ .Lang }}"
+                               data-type="Translation"
+                               data-filename="{{ $pdfResource.Name }}">
                               <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
                             </a>
                           {{- else }}
@@ -220,10 +227,35 @@
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
+        </div>      </div>
     </div>
   </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add event listeners to all PDF download links
+      document.querySelectorAll('.pdf-download').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          // Get data attributes
+          const language = this.dataset.language;
+          const languageCode = this.dataset.languageCode;
+          const type = this.dataset.type;
+          const filename = this.dataset.filename;
+          
+          // Track the download event
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'download', {
+              'event_category': 'PDF',
+              'event_label': language + ' - ' + type,
+              'file_name': filename,
+              'file_extension': 'pdf',
+              'language_code': languageCode
+            });
+          }
+        });
+      });
+    });
+  </script>
 {{- end }}
 {{- define "template" }}
   download/list.html

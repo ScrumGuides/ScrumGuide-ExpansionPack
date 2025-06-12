@@ -17,6 +17,9 @@ guide_whatis: |
   The [2020 Scrum Guide](https://scrumguides.org/scrum-guide.html) remains solid, but many practitioners began asking how to stay focused on outcomes, work with AI in the team, and keep Scrum simple in fast-moving environments.
 
   This Expansion Pack doesn’t replace the Scrum Guide; it complements it for those needing more clarity in today’s context. The goal wasn’t to add rules, but to reinforce the spirit of Scrum, around product thinking, emergence, and strategic focus. It helps teams learn fast, adapt, and deliver value, even in uncertain, accelerated, tech-driven settings.
+sitemap:
+   priority: 1.0  
+   
 ---
 
 based on the original [Scrum Guide](https://scrumguides.org/) by Ken Schwaber & Jeff Sutherland (40)
