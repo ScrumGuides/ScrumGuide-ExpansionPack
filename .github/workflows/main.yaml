@@ -167,6 +167,8 @@ jobs:
                 - PR_Branch: ${{ github.head_ref || github.ref_name }}
                 - PR_Commit: ${{ github.sha }}
                 - Is_Fork: ${{ github.event.repository.fork }}
+                - PR_Repository: ${{ github.event.pull_request.head.repo.full_name }}
+                - PR_Base_Repository: ${{ github.event.pull_request.base.repo.full_name }}
           "@
           echo $markdown >> $Env:GITHUB_STEP_SUMMARY
 
