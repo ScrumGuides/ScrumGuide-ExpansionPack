@@ -94,3 +94,73 @@
   border-color: #1d7fd5 !important;
   color: white !important;
 }
+
+/* RTL (Right-to-Left) Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .navbar-nav {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-item {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+[dir="rtl"] .dropdown-menu {
+  right: 0;
+  left: auto;
+  text-align: right;
+}
+
+[dir="rtl"] .dropdown-item {
+  text-align: right;
+}
+
+[dir="rtl"] .d-flex {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .me-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+[dir="rtl"] .card-body {
+  text-align: right;
+}
+
+[dir="rtl"] .card-title {
+  text-align: right;
+}
+
+[dir="rtl"] .card-text {
+  text-align: right;
+}
+
+[dir="rtl"] .text-center {
+  text-align: center !important;
+}
+
+[dir="rtl"] .btn {
+  text-align: center;
+}
+
+/* RTL specific gap adjustments for social buttons */
+[dir="rtl"] .d-flex.gap-2 {
+  gap: 0.5rem;
+  flex-direction: row-reverse;
+}
+
+/* RTL navbar brand alignment */
+[dir="rtl"] .navbar-brand {
+  flex-direction: row-reverse;
+}
+
+/* RTL dropdown toggle */
+[dir="rtl"] .dropdown-toggle::after {
+  margin-left: 0;
+  margin-right: 0.255em;
+}
