@@ -1,7 +1,7 @@
 name: New Translation Request
 description: Request to add a new language translation for the Scrum Guide Expansion Pack
 title: "[TRANSLATION] Add [LANGUAGE] translation"
-labels: ["translation", "community", "enhancement"]
+labels: ["translation", "community", "triage"]
 assignees: []
 body:
   - type: markdown
@@ -11,7 +11,8 @@ body:
 
         Please fill out the form below to request a new translation. Once approved, we'll provide you with the necessary resources and guidance to get started.
 
-        **Before submitting:** Please check existing issues and discussions to ensure this language is not already being worked on.
+        **Before submitting:** Please check existing issues and discussions to ensure this language is not already being worked on. We want to avoid duplicate efforts and ensure a smooth translation process for everyone.
+
   - type: checkboxes
     id: language-check
     attributes:
