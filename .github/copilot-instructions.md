@@ -7,6 +7,7 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 ## Technology Stack
 
 ### Core Technologies
+
 - **Hugo** - Static site generator
 - **Go Templates** - Hugo templating engine
 - **Markdown** - Content authoring
@@ -17,12 +18,20 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 - **PowerShell** - Automation scripts
 
 ### Hosting & Deployment
+
 - **Azure Static Web Apps** - Primary hosting platform
 - **GitHub Actions** - CI/CD pipeline
 - **GitVersion** - Semantic versioning
 - **Azure DevOps** - Additional pipeline support
 
+### Testing & Quality Assurance
+
+- **Playwright MCP Server** - Docker-based UX validation and testing
+- Automated browser testing for responsive design
+- Cross-browser compatibility validation
+
 ### Configuration Files
+
 - `hugo.yaml` - Main Hugo configuration
 - `staticwebapp.config.json` - Azure Static Web Apps configuration
 - Environment-specific configs: `hugo.local.yaml`, `hugo.preview.yaml`, `hugo.production.yaml`, `hugo.canary.yaml`
@@ -49,12 +58,14 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 ### Hugo-Specific Instructions
 
 #### Content Management
+
 - All content is written in **Markdown** with YAML front matter
 - Content files are located in `site/content/`
 - Use Hugo's built-in shortcodes when possible
 - Follow the established content structure for consistency
 
 #### Templating
+
 - Templates are located in `site/layouts/`
 - Use Hugo's Go template syntax
 - Follow the existing template hierarchy:
@@ -64,33 +75,50 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
   - Custom section templates in subdirectories
 
 #### Configuration
+
 - Main config: `site/hugo.yaml`
 - Environment-specific configs override main config
 - Support for multiple output formats: HTML, JSON, RSS
 - Internationalization enabled (English and Klingon)
 
 #### Static Assets
+
 - CSS files in `site/static/css/`
 - Images and other assets in `site/static/`
 - Use Hugo's asset pipeline when needed
 
 ### Styling & UI
-- **Bootstrap-based** responsive design
+
+- **Bootstrap 5** responsive design framework
 - Custom CSS in `site/static/css/style.css`
 - Dark theme with primary colors:
   - Primary blue: `#135289`
   - Dark cards: `#353535`
 - **Font Awesome** icons used throughout
 - Mobile-first responsive design
+- Use Bootstrap 5 classes and components for consistency
 
 ### Content Guidelines
+
 - Write for Scrum practitioners and leaders
 - Focus on practical, actionable guidance
 - Maintain consistency with Scrum Guide terminology
-- Support multiple languages (currently English and Klingon)
+- **Multilingual support**: Site supports multiple languages (currently English and Klingon)
 - Use `scripts\Create-TranslationTemplate.ps1` for adding new language support
+- Ensure all content changes are reflected across all language versions
+- Test content rendering in all supported languages
+
+### UX Validation & Testing
+
+- **Playwright MCP Server** - Use Docker-based Playwright for automated UX validation
+- Test responsive design across different viewport sizes
+- Validate accessibility standards compliance
+- Cross-browser compatibility testing (Chrome, Firefox, Safari, Edge)
+- Multilingual UX testing to ensure consistent experience across languages
+- Performance testing for page load times and user interactions
 
 ### Build & Deployment
+
 - Hugo builds to `public/` directory
 - GitHub Actions workflow in `.github/workflows/main.yaml`
 - Supports multiple deployment rings: local, preview, canary, production
@@ -99,12 +127,14 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 ## Coding Standards
 
 ### File Naming
+
 - Use kebab-case for files and directories
 - Markdown files: lowercase with hyphens
 - Template files: descriptive names with `.html` extension
 - Config files: environment-specific suffixes
 
 ### Hugo Best Practices
+
 - Use Hugo's built-in functions when available
 - Leverage partials for reusable components
 - Implement proper SEO with meta tags and structured data
@@ -112,12 +142,14 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 - Implement proper caching strategies
 
 ### Content Structure
+
 - Consistent front matter across all content
 - Proper heading hierarchy (H1 for titles, H2+ for sections)
 - Use Hugo's taxonomy system if categorization is needed
 - Implement proper internal linking
 
 ### Performance
+
 - Optimize images using Hugo's image processing
 - Minimize CSS and JavaScript
 - Use Hugo's minification features
@@ -126,18 +158,29 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 ## Development Workflow
 
 ### Local Development
-1. Navigate to `site/` directory
-2. Run `hugo server` for development
+
+1. **Development server** (from project root):
+   ```bash
+   hugo serve --source site --config hugo.yaml,hugo.local.yaml
+   ```
+2. **Build only** (from project root):
+   ```bash
+   hugo --source site --config hugo.yaml,hugo.local.yaml
+   ```
 3. Use `hugo.local.yaml` for local configuration overrides
-4. Test responsive design across devices
+4. Test responsive Bootstrap 5 design across devices
+5. Test content in all supported languages
+6. **UX Validation** - Use Playwright MCP server for automated testing and validation
 
 ### Content Creation
+
 1. Create new content using Hugo archetypes
 2. Follow established front matter structure
 3. Use markdown best practices
 4. Test content in all supported languages
 
 ### Deployment
+
 1. Changes to `main` branch trigger automatic deployment
 2. Pull requests create preview deployments
 3. Use environment-specific configurations
@@ -146,29 +189,21 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 ## Integration Points
 
 ### Azure Static Web Apps Features
+
 - Authentication with GitHub providers
 - Custom routing rules
 - Environment-specific configurations
 - Global CDN distribution
 
 ### GitHub Integration
+
 - Actions for CI/CD
 - Branch protection rules
 - Issue and PR templates
 - Community contribution guidelines
 
-## Common Tasks
-
-### Adding New Content
-```bash
-# Create new content file
-hugo new content/path/to/new-content.md
-
-# Add translations for existing content
-hugo new content/path/to/new-content.tlh.md
-```
-
 ### Adding New Language Translations
+
 Use the PowerShell script to create complete translation templates:
 
 ```powershell
@@ -180,17 +215,20 @@ Use the PowerShell script to create complete translation templates:
 ```
 
 This script automatically:
+
 - Adds language configuration to `hugo.yaml`
 - Creates i18n translation files in `site/i18n/`
 - Creates translated content files based on English defaults
 - Validates the translation setup
 
 ### Updating Styles
+
 - Modify `site/static/css/style.css`
 - Follow existing CSS patterns
 - Test across browsers and devices
 
 ### Configuration Changes
+
 - Update appropriate `hugo.*.yaml` file
 - Test with Hugo server before deployment
 - Consider impact on all environments
@@ -198,12 +236,14 @@ This script automatically:
 ## Troubleshooting
 
 ### Common Issues
+
 - **Build failures**: Check Hugo version compatibility
 - **Missing assets**: Verify file paths and Hugo's asset pipeline
 - **Internationalization**: Ensure all translation keys exist
 - **Deployment issues**: Check Azure Static Web Apps logs
 
 ### Debug Commands
+
 ```bash
 # Hugo version and environment info
 hugo version
