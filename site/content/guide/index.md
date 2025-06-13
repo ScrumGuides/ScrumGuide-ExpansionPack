@@ -9,7 +9,7 @@ keywords:
   - Scrum in complex environments
   - Scrum and AI
 date: 2025-06-11T09:00:00Z
-url: /scrum-guide-expansion-pack/
+slug: scrum-guide-expansion-pack
 type: guide
 guide_whatis: |
   The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing; fast.
@@ -18,8 +18,7 @@ guide_whatis: |
 
   This Expansion Pack doesn’t replace the Scrum Guide; it complements it for those needing more clarity in today’s context. The goal wasn’t to add rules, but to reinforce the spirit of Scrum, around product thinking, emergence, and strategic focus. It helps teams learn fast, adapt, and deliver value, even in uncertain, accelerated, tech-driven settings.
 sitemap:
-   priority: 1.0  
-   
+  priority: 1.0
 ---
 
 based on the original [Scrum Guide](https://scrumguides.org/) by Ken Schwaber & Jeff Sutherland (40)
@@ -109,7 +108,7 @@ Build trust through a self-managing team, Inspection, Adaptation, delivering val
 
 Emergence (71) is when meaningful patterns or behaviors arise from interactions within complex (30-35) systems-patterns you can’t predict just by looking at the parts alone. In Scrum, emergence isn’t tightly controlled but is guided by enabling constraints like timeboxes, roles, and feedback loops, which create the conditions for self-management and adaptability without dictating exact outcomes. These structures act like 'islands' in a sea of unpredictability, similar to how physical systems can spontaneously form organized patterns amid randomness, as described in Stephen Wolfram’s work (38). The key is that the structure in Scrum provides enough guidance for teams to self-manage and for new solutions to emerge rather than prescribing every detail.
 
-Scrum Teams, operating as complex adaptive systems, are influenced, not directed, through short, parallel, safe-to-fail experiments and continuous feedback. Patterns (53) like _Swarming_, _Stable Teams_, and _Kaizen_ help identify and shape emergent behavior. Rather than forcing results, Scrum enables the Scrum Team to discover desirable patterns, including but limited to innovative solutions or new ways of working, and amplify them while dampening unhelpful ones.
+Scrum Teams, operating as complex adaptive systems, are influenced, not directed, through short, parallel, safe-to-fail experiments and continuous feedback. Patterns (53) like _Swarming_, _Stable Teams_, and _Kaizen_ help identify and shape emergent behavior. Rather than forcing results, Scrum enables the Scrum Team to discover desirable patterns, including but not limited to innovative solutions or new ways of working, and amplify them while dampening unhelpful ones.
 
 This approach recognizes that self-management (49) is not something to be designed top-down but something to be discovered in the right environment—an environment that feels purposeful, coherent, and alive, echoing Christopher Alexander’s ‘Quality Without a Name’ (39). Ultimately, Scrum treats emergence not as a risk to be eliminated but as a force to be cultivated for excellence in Product development.
 
@@ -610,7 +609,7 @@ A Product Goal is the medium-term objective for the Scrum Team and the Stakehold
 
 A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders (including but not limited to customers or users) expectations and limits. Through Inspection and Adaptation, it’s essential to embrace uncertainty (72), result feedback, side effects, and other learnings.
 
-#### What about a Product Vision? {#what-about-a-product-vision?}
+#### What about a Product Vision? {#what-about-a-product-vision}
 
 Many organizations work with a Product Vision, which helps visualize a potential future. The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision.
 
