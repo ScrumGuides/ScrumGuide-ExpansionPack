@@ -1,5 +1,3 @@
-defaultContentLanguage: en
-languageCode: en
 title: Scrum Guides 2025 Expansion Pack
 
 buildFuture: true
@@ -7,7 +5,16 @@ buildFuture: true
 publishDir: ../public
 resourceDir: ../resources
 
-# Multi-language configuration
+summaryLength: 30
+
+enableRobotsTXT: true
+
+# Disable default taxonomies (tags and categories)
+taxonomies: {}
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+disableDefaultLanguageRedirect: false
 languages:
   en:
     languageName: English
@@ -16,13 +23,6 @@ languages:
     params:
       description: "ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy."
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site"
-
-summaryLength: 30
-
-enableRobotsTXT: true
-
-# Disable default taxonomies (tags and categories)
-taxonomies: {}
 
 # Site-wide parameters
 params:
