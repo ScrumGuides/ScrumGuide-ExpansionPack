@@ -47,6 +47,9 @@
 - id: guide_content_not_found
   translation: "ghun De' tu'be'lu'"
 
+- id: reportTranslationError
+  translation: "mugh Qob DIch"
+
 # Navigation translations
 - id: nav_read_online
   translation: "laHbe'"

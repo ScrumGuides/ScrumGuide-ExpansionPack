@@ -47,6 +47,9 @@
 - id: guide_content_not_found
   translation: "Guide content not found"
 
+- id: reportTranslationError
+  translation: "Report Translation Error"
+
 # Navigation translations
 - id: nav_read_online
   translation: "Read Online"

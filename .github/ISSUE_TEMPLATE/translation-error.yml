@@ -1,0 +1,69 @@
+name: Translation Error Report
+description: Report an error or issue with existing translation content
+title: "[TRANSLATION ERROR] [LANGUAGE]: Brief description of the error"
+labels: ["translation", "bug", "correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve the quality of our translations! 
+
+        Please provide details about the translation error you've found so we can correct it promptly.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language translation has the error?
+      options:
+        - Klingon (tlh)
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: What page did you find the error on?
+      placeholder: "https://scrumexpansion.org/tlh/scrum-guide-expansion-pack/"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: Type of Error
+      description: What kind of translation error is this?
+      options:
+        - Incorrect translation/meaning
+        - Grammar/syntax error
+        - Spelling error
+        - Missing translation
+        - Formatting issue
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-description
+    attributes:
+      label: Description of Error
+      description: Please describe the translation error in detail
+      placeholder: "Describe what's wrong with the current translation and what it should be instead."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-correction
+    attributes:
+      label: Suggested Correction
+      description: If you know the correct translation, please provide it here
+      placeholder: "What should the correct translation be?"
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other context that might help us understand and fix this error
+      placeholder: "Any additional information that might be helpful..."
