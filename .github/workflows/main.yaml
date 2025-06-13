@@ -336,7 +336,7 @@ jobs:
           skip_api_build: false
           output_location: ""
           deployment_environment: ${{ (needs.Setup.outputs.ScrumGuidesExpansionPack_AzureSitesEnvironment) }}
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN}}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_AGREEABLE_ISLAND_0C966E810}}
 
       - name: "Show Summery"
         if: always()
