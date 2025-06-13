@@ -1,46 +1,46 @@
 ---
-title: "Jeff Sutherland"
-description: "Inventor and Co-Creator of Scrum and Scrum@Scale"
+title: "جف ساترلند"
+description: "مخترع و هم‌خالق اسکرام و Scrum@Scale"
 date: 2025-06-01
 image: "jeff-sutherland.jpg"
-jobTitle: "Inventor and Co-Creator of Scrum and Scrum@Scale"
+jobTitle: "مخترع و هم‌خالق اسکرام و Scrum@Scale"
 worksFor:
   - name: "Scrum, Inc."
     type: "Organization"
   - name: "Tesla Investment Holdings LLC"
     type: "Organization"
-    role: "Founder and Managing Director"
+    role: "بنیان‌گذار و مدیر عامل"
 alumniOf:
-  - name: "University of Colorado Medical School"
+  - name: "دانشکده پزشکی دانشگاه کلرادو"
     type: "EducationalOrganization"
-  - name: "U.S. Air Force"
+  - name: "نیروی هوایی ایالات متحده"
     type: "Organization"
 knowsAbout:
-  - "Scrum Framework"
+  - "چارچوب اسکرام"
   - "Scrum@Scale"
-  - "Agile Software Development"
-  - "Product Management"
-  - "Organizational Transformation"
+  - "توسعه نرم‌افزار چابک"
+  - "مدیریت محصول"
+  - "تحول سازمانی"
 creator:
-  - "Scrum Framework"
+  - "چارچوب اسکرام"
   - "Scrum@Scale"
 awards:
-  - "Top Gun status (1967)"
-  - "Signatory of the Agile Manifesto (2001)"
+  - "مقام تاپ گان (۱۹۶۷)"
+  - "امضاکننده مانیفست چابک (۲۰۰۱)"
 author:
-  - "Scrum: The Art of Doing Twice the Work in Half the Time"
+  - "اسکرام: هنر انجام دو برابر کار در نصف زمان"
 sameAs:
   - "https://www.scruminc.com"
 ---
 
-Jeff Sutherland, the inventor and Co-Creator of Scrum and Scrum@Scale has worked with thousands of companies deploying Scrum and recently launched two global trainer programs for Registered Scrum Trainers and Registered Scrum@Scale Trainers in addition to creating independent companies starting with Scrum Inc Japan. He is Founder and Managing Director of Tesla Investment Holdings LLC which is an investment fund that coinvests with OpenView Venture Partners and CompanyOn Ventures. As President of JVS Management Inc he supports the investment fund and portfolio of companies. All organizations maximize impact by implementing Scrum@Scale and investing in agile companies.
+جف ساترلند، مخترع و هم‌خالق اسکرام و Scrum@Scale با هزاران شرکت در زمینه پیاده‌سازی اسکرام کار کرده و اخیراً دو برنامه آموزشی جهانی برای مربیان ثبت‌شده اسکرام و مربیان ثبت‌شده Scrum@Scale راه‌اندازی کرده، علاوه بر ایجاد شرکت‌های مستقل که با اسکرام اینک ژاپن آغاز شد. او بنیان‌گذار و مدیر عامل تسلا اینوستمنت هولدینگز ال‌ال‌سی است که صندوق سرمایه‌گذاری است و با اوپن‌ویو ونچر پارتنرز و کمپانی‌آن ونچرز سرمایه‌گذاری مشترک می‌کند. به عنوان رئیس جی‌وی‌اس منجمنت اینک، او از صندوق سرمایه‌گذاری و مجموعه شرکت‌ها پشتیبانی می‌کند. همه سازمان‌ها تأثیر خود را با پیاده‌سازی Scrum@Scale و سرمایه‌گذاری در شرکت‌های چابک به حداکثر می‌رسانند.
 
-Jeff started his career as a fighter pilot in the U.S. Air Force where he achieved Top Gun status in 1967 and flew 100 combat missions over North Vietnam.
+جف حرفه خود را به عنوان خلبان جنگنده در نیروی هوایی ایالات متحده آغاز کرد، جایی که در سال ۱۹۶۷ به مقام تاپ گان دست یافت و ۱۰۰ ماموریت رزمی بر فراز ویتنام شمالی انجام داد.
 
-After 11 years as a pilot, he joined the faculty of the University of Colorado Medical School where he received his Doctoral degree. As Asst. Prof.of Radiology, Biometrics, and Preventive Medicine he co-founded the Center for Vitamins and Cancer Research under the sponsorship of Nobel Laureate Linus Pauling and for eight years was the Principle Investigator of a National Cancer Center research grant that ran all IT programs and research for the Colorado Regional Cancer Center.
+پس از ۱۱ سال به عنوان خلبان، به هیئت علمی دانشکده پزشکی دانشگاه کلرادو پیوست و در آنجا مدرک دکترای خود را دریافت کرد. به عنوان استادیار رادیولوژی، بیومتریک و پزشکی پیشگیری، مرکز تحقیقات ویتامین‌ها و سرطان را تحت حمایت برنده جایزه نوبل لینوس پائولینگ تأسیس کرد و به مدت هشت سال محقق اصلی کمک هزینه تحقیقاتی مرکز ملی سرطان بود که تمام برنامه‌های فناوری اطلاعات و تحقیقات مرکز سرطان منطقه‌ای کلرادو را اداره می‌کرد.
 
-In 1983 he joined a banking company that operated 150 banks throughout North America where he was VP of Advanced Systems and General Manager of their ATM Business Unit. Noticing that waterfall processes at the bank were not working, he implemented the first prototype of Scrum@Scale for organizational transformation of a business unit.
+در سال ۱۹۸۳ به شرکت بانکداری پیوست که ۱۵۰ بانک در سراسر آمریکای شمالی اداره می‌کرد، جایی که معاون سیستم‌های پیشرفته و مدیر کل واحد تجاری خودپرداز آن‌ها بود. با توجه به اینکه فرآیندهای آبشاری در بانک کار نمی‌کرد، اولین نمونه اولیه Scrum@Scale را برای تحول سازمانی یک واحد تجاری پیاده‌سازی کرد.
 
-He has been VP of Engineering and CTO or CEO of eleven software companies. In the first four companies he prototyped Scrum and in 1993 in the fifth company created Scrum as we now see it used in 74% of Agile software companies in over 100 countries. He was a signatory of the Agile Manifesto in 2001.
+او معاون مهندسی و مدیر فناوری یا مدیر عامل یازده شرکت نرم‌افزاری بوده است. در چهار شرکت اول نمونه اولیه اسکرام را ساخت و در سال ۱۹۹۳ در شرکت پنجم، اسکرام را همان‌طور که اکنون می‌بینیم ایجاد کرد که در ۷۴٪ شرکت‌های نرم‌افزار چابک در بیش از ۱۰۰ کشور استفاده می‌شود. او در سال ۲۰۰۱ امضاکننده مانیفست چابک بود.
 
-In 2006, working as Senior Advisor to OpenView Venture Partners and their portfolio companies, Sutherland established his own company, Scrum, Inc. now recognized as the premiere source of Scrum Training in the world. His latest book, Scrum: The Art of Doing Twice the Work in Half the Time," describes how he used his background and experience to create the most widely used Agile practice in industry today.
+در سال ۲۰۰۶، در حین کار به عنوان مشاور ارشد اوپن‌ویو ونچر پارتنرز و شرکت‌های مجموعه آن‌ها، ساترلند شرکت خود، اسکرام اینک را تأسیس کرد که اکنون به عنوان منبع برتر آموزش اسکرام در جهان شناخته می‌شود. آخرین کتاب او، «اسکرام: هنر انجام دو برابر کار در نصف زمان» توضیح می‌دهد که چگونه از پیشینه و تجربه خود برای ایجاد پرکاربردترین روش چابک در صنعت امروز استفاده کرد.
