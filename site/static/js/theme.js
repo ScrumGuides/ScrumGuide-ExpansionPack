@@ -19,24 +19,32 @@ class ThemeManager {
    * Initialize theme system
    */
   init() {
-    this.applyTheme(this.getThemePreference());
+    const savedTheme = this.getSavedTheme();
+    
+    // If no saved preference, default to AUTO mode
+    if (!savedTheme) {
+      this.setTheme(this.THEMES.AUTO);
+    } else {
+      this.applyTheme(savedTheme);
+    }
+    
     this.setupSystemThemeListener();
     this.setupStorageListener();
   }
 
   /**
    * Get current theme preference with priority:
-   * 1. User's saved preference
+   * 1. User's saved preference (including AUTO)
    * 2. System/OS preference
    * 3. Default (light)
    */
   getThemePreference() {
     const saved = this.getSavedTheme();
-    if (saved && saved !== this.THEMES.AUTO) {
-      return saved;
+    if (saved) {
+      return saved; // Return saved preference including AUTO
     }
     
-    // Check system preference
+    // Check system preference if no saved preference
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       return this.THEMES.DARK;
     }
@@ -87,8 +95,8 @@ class ThemeManager {
       document.documentElement.setAttribute('data-theme', 'dark');
     }
     
-    // Update any theme toggle buttons
-    this.updateToggleButtons(theme);
+    // Update any theme dropdown
+    this.updateDropdownStates(theme);
   }
 
   /**
@@ -150,10 +158,15 @@ class ThemeManager {
       // Use the new addEventListener method if available
       if (mediaQuery.addEventListener) {
         mediaQuery.addEventListener('change', (e) => {
-          // Only apply if user hasn't set explicit preference
+          // Only apply if user has AUTO preference or no preference
           const saved = this.getSavedTheme();
           if (!saved || saved === this.THEMES.AUTO) {
             this.applyTheme(this.THEMES.AUTO);
+            
+            // Dispatch theme change event
+            window.dispatchEvent(new CustomEvent('themechange', {
+              detail: { theme: this.THEMES.AUTO, effectiveTheme: this.getEffectiveTheme() }
+            }));
           }
         });
       } else {
@@ -162,6 +175,11 @@ class ThemeManager {
           const saved = this.getSavedTheme();
           if (!saved || saved === this.THEMES.AUTO) {
             this.applyTheme(this.THEMES.AUTO);
+            
+            // Dispatch theme change event
+            window.dispatchEvent(new CustomEvent('themechange', {
+              detail: { theme: this.THEMES.AUTO, effectiveTheme: this.getEffectiveTheme() }
+            }));
           }
         });
       }
@@ -180,72 +198,75 @@ class ThemeManager {
   }
 
   /**
-   * Update theme toggle button states
+   * Update theme dropdown states
    */
-  updateToggleButtons(theme) {
-    const toggles = document.querySelectorAll('[data-theme-toggle]');
+  updateDropdownStates(theme) {
+    const dropdowns = document.querySelectorAll('.theme-toggle-dropdown');
+    const options = document.querySelectorAll('.theme-option');
     const effectiveTheme = this.getEffectiveTheme();
+    const savedTheme = this.getSavedTheme();
     
-    toggles.forEach(toggle => {
-      const icon = toggle.querySelector('.theme-toggle-icon');
-      const text = toggle.querySelector('.theme-toggle-text');
-      
-      if (icon) {
-        // Update icon based on current theme
-        icon.className = effectiveTheme === this.THEMES.DARK 
-          ? 'theme-toggle-icon fas fa-sun' 
-          : 'theme-toggle-icon fas fa-moon';
-      }
+    dropdowns.forEach(dropdown => {
+      const text = dropdown.querySelector('[data-theme-current]');
       
       if (text) {
-        text.textContent = effectiveTheme === this.THEMES.DARK ? 'Light' : 'Dark';
+        // Update dropdown text based on saved preference
+        if (savedTheme === this.THEMES.AUTO) {
+          text.textContent = 'Sync with System';
+        } else if (savedTheme === this.THEMES.DARK || effectiveTheme === this.THEMES.DARK) {
+          text.textContent = 'Dark Mode';
+        } else {
+          text.textContent = 'Light Mode';
+        }
       }
+    });
+
+    // Update option states
+    options.forEach(option => {
+      const optionTheme = option.dataset.theme;
+      const isActive = (savedTheme === optionTheme) || 
+                       (!savedTheme && optionTheme === this.THEMES.AUTO);
       
-      // Update ARIA label
-      const label = effectiveTheme === this.THEMES.DARK 
-        ? 'Switch to light mode' 
-        : 'Switch to dark mode';
-      toggle.setAttribute('aria-label', label);
-      toggle.setAttribute('title', label);
+      // Add/remove active class
+      if (isActive) {
+        option.classList.add('active');
+        option.setAttribute('aria-selected', 'true');
+      } else {
+        option.classList.remove('active');
+        option.setAttribute('aria-selected', 'false');
+      }
     });
   }
 
   /**
-   * Setup theme toggle buttons
+   * Setup theme dropdown
    */
-  setupToggleButtons() {
-    const toggles = document.querySelectorAll('[data-theme-toggle]');
+  setupDropdown() {
+    const options = document.querySelectorAll('.theme-option');
     
-    toggles.forEach(toggle => {
-      toggle.addEventListener('click', (e) => {
+    options.forEach(option => {
+      option.addEventListener('click', (e) => {
         e.preventDefault();
-        this.toggleTheme();
-      });
-      
-      // Setup keyboard navigation
-      toggle.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          this.toggleTheme();
-        }
+        const theme = option.dataset.theme;
+        this.setTheme(theme);
       });
     });
     
     // Initial update
-    this.updateToggleButtons();
+    this.updateDropdownStates();
   }
 }
 
 // Initialize theme manager immediately to prevent FOUC
 const themeManager = new ThemeManager();
 
-// Setup toggle buttons when DOM is ready
+// Setup dropdown when DOM is ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
-    themeManager.setupToggleButtons();
+    themeManager.setupDropdown();
   });
 } else {
-  themeManager.setupToggleButtons();
+  themeManager.setupDropdown();
 }
 
 // Export for global access

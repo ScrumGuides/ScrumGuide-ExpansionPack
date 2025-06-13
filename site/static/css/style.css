@@ -22,9 +22,17 @@
   --theme-card-border: #dee2e6;
   --theme-card-text: #212529;
   
+  /* Links and anchor colors - improved contrast */
+  --theme-link-color: #0d6efd;         /* Good contrast for light theme */
+  --theme-link-hover-color: #0b5ed7;
+
   /* Brand colors (stay consistent) */
   --theme-primary: #0d6efd;         /* Bootstrap primary with better contrast */
   --theme-primary-hover: #0b5ed7;
+  
+  /* Homepage brand colors - keep consistent */
+  --theme-homepage-bg: #135289;      /* Original brand color */
+  --theme-homepage-btn: #1669b3;     /* Original button color */
   
   /* Focus colors for accessibility */
   --theme-focus-color: #0d6efd;
@@ -55,6 +63,18 @@
   --theme-card-bg: #1e1e1e;
   --theme-card-border: #404040;
   --theme-card-text: #ffffff;
+
+  /* Links and anchor colors - lighter for better contrast */
+  --theme-link-color: #66b3ff;       /* Lighter blue for dark theme */
+  --theme-link-hover-color: #4da6ff;
+
+  /* Brand colors for dark theme */
+  --theme-primary: #66b3ff;          /* Lighter for better contrast */
+  --theme-primary-hover: #4da6ff;
+  
+  /* Homepage brand colors - keep original colors */
+  --theme-homepage-bg: #135289;      /* Keep original brand color */
+  --theme-homepage-btn: #1669b3;     /* Keep original button color */
   
   /* Focus colors for dark theme */
   --theme-focus-color: #4d9fff;     /* Lighter blue for dark theme */
@@ -317,81 +337,158 @@ pre {
   color: white !important;
 }
 
-/* ===== THEME TOGGLE COMPONENT ===== */
-.theme-toggle {
-  position: relative;
-  background: none;
-  border: 1px solid var(--theme-border-color);
-  border-radius: 0.375rem;
-  padding: 0.375rem 0.75rem;
-  color: var(--theme-text-primary);
-  cursor: pointer;
-  transition: var(--theme-transition);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  min-height: 44px; /* Minimum touch target size for accessibility */
-  min-width: 44px;
-}
-
-.theme-toggle:hover {
-  background-color: var(--theme-bg-secondary);
-  border-color: var(--theme-border-secondary);
-  transform: none; /* Prevent scale transform for motion-sensitive users */
-}
-
-.theme-toggle:focus {
-  outline: 2px solid var(--theme-focus-color);
-  outline-offset: 2px;
-  box-shadow: var(--theme-focus-shadow);
-}
-
-.theme-toggle:active {
-  transform: none; /* Prevent active transform */
-}
-
-.theme-toggle-icon {
-  font-size: 1rem;
-  transition: var(--theme-transition);
-  pointer-events: none; /* Ensure icon doesn't interfere with click events */
-}
-
-/* Theme toggle in navigation */
-.nav .theme-toggle {
-  border-color: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.75);
-}
-
-.nav .theme-toggle:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.5);
-  color: white;
-}
-
-.nav .theme-toggle:focus {
-  color: white;
-}
-
-/* Responsive theme toggle */
-@media (max-width: 768px) {
-  .theme-toggle {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
-    min-height: 44px; /* Maintain minimum touch target */
-  }
-  
-  .theme-toggle-text {
-    display: none !important; /* Hide text on mobile */
-  }
-}
+/* ===== THEME DROPDOWN COMPONENT ===== */
+/* Removed old theme toggle button styles - now using Bootstrap dropdown */
 
 /* High contrast mode support */
 @media (prefers-contrast: high) {
-  .theme-toggle {
+  .theme-toggle-dropdown {
     border-width: 2px;
   }
   
-  .theme-toggle:focus {
+  .theme-toggle-dropdown:focus {
     outline-width: 3px;
   }
+}
+
+/* ===== ADDITIONAL COMPONENT THEMING ===== */
+
+/* Links with improved contrast */
+a {
+  color: var(--theme-link-color);
+  transition: var(--theme-transition);
+}
+
+a:hover,
+a:focus {
+  color: var(--theme-link-hover-color);
+}
+
+/* Tables theming */
+.table {
+  --bs-table-bg: var(--theme-bg-primary);
+  --bs-table-color: var(--theme-text-primary);
+  --bs-table-border-color: var(--theme-border-color);
+  --bs-table-striped-bg: var(--theme-bg-secondary);
+  --bs-table-hover-bg: var(--theme-bg-tertiary);
+}
+
+.table-responsive {
+  background-color: var(--theme-bg-primary);
+}
+
+.table th,
+.table td {
+  border-color: var(--theme-border-color);
+  color: var(--theme-text-primary);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td,
+.table-striped > tbody > tr:nth-of-type(odd) > th {
+  background-color: var(--theme-bg-secondary);
+}
+
+/* Homepage main header with preserved brand colors */
+.main-header {
+  background-color: var(--theme-homepage-bg) !important;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  transition: var(--theme-transition);
+}
+
+.main-header .btn-primary {
+  background-color: var(--theme-homepage-btn) !important;
+  border-color: var(--theme-homepage-btn) !important;
+}
+
+.main-header .btn-primary:hover,
+.main-header .btn-primary:focus,
+.main-header .btn-primary:active {
+  background-color: var(--theme-homepage-btn) !important;
+  border-color: var(--theme-homepage-btn) !important;
+  opacity: 0.9;
+}
+
+/* Homepage icons - ensure visibility in light mode */
+.header-icon {
+  color: white !important;
+  opacity: 1;
+}
+
+/* Creator page subtitle styling */
+.card-text small,
+.text-muted {
+  color: var(--theme-text-muted) !important;
+}
+
+/* Guide metadata labels */
+.guide-meta,
+.guide-authors,
+.guide-version {
+  color: var(--theme-text-primary);
+}
+
+/* Table of contents theming */
+.toc,
+.table-of-contents {
+  background-color: var(--theme-bg-secondary);
+  border: 1px solid var(--theme-border-color);
+  color: var(--theme-text-primary);
+}
+
+.toc a,
+.table-of-contents a {
+  color: var(--theme-link-color);
+}
+
+.toc a:hover,
+.table-of-contents a:hover {
+  color: var(--theme-link-hover-color);
+}
+
+/* Anchor link icons - improve visibility in dark mode */
+.anchor-link,
+.headerlink,
+a.headerlink {
+  color: var(--theme-text-muted);
+  opacity: 0.7;
+  transition: var(--theme-transition);
+}
+
+.anchor-link:hover,
+.headerlink:hover,
+a.headerlink:hover {
+  color: var(--theme-link-color);
+  opacity: 1;
+}
+
+/* Theme dropdown styling */
+.theme-toggle-dropdown {
+  color: rgba(255, 255, 255, 0.75);
+  transition: var(--theme-transition);
+}
+
+.theme-toggle-dropdown:hover {
+  color: white;
+}
+
+.theme-option {
+  color: var(--theme-text-primary);
+  transition: var(--theme-transition);
+}
+
+.theme-option:hover {
+  background-color: var(--theme-bg-secondary);
+  color: var(--theme-text-primary);
+}
+
+.theme-option.active {
+  background-color: var(--theme-primary);
+  color: white;
+}
+
+.theme-option.active:hover {
+  background-color: var(--theme-primary-hover);
+  color: white;
 }

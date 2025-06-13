@@ -1,15 +1,24 @@
-<!-- Theme Toggle Component -->
-<li class="nav-item">
-  <button 
-    type="button" 
-    class="theme-toggle" 
-    data-theme-toggle
-    aria-label="Toggle theme"
-    title="Toggle between light and dark mode"
-    role="button"
-    tabindex="0"
-  >
-    <i class="theme-toggle-icon fas fa-moon" aria-hidden="true"></i>
-    <span class="theme-toggle-text d-none d-lg-inline">Dark</span>
-  </button>
+<!-- Theme Toggle Component - Dropdown -->
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle text-white theme-toggle-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Theme selection">
+    <i class="fa-solid fa-palette me-1" aria-hidden="true"></i>
+    <span class="theme-toggle-text d-none d-lg-inline" data-theme-current="Light Mode">Light Mode</span>
+  </a>
+  <ul class="dropdown-menu">
+    <li>
+      <button class="dropdown-item theme-option" data-theme="light" type="button">
+        <i class="fa-solid fa-sun me-2" aria-hidden="true"></i>Light Mode
+      </button>
+    </li>
+    <li>
+      <button class="dropdown-item theme-option" data-theme="dark" type="button">
+        <i class="fa-solid fa-moon me-2" aria-hidden="true"></i>Dark Mode
+      </button>
+    </li>
+    <li>
+      <button class="dropdown-item theme-option" data-theme="auto" type="button">
+        <i class="fa-solid fa-computer me-2" aria-hidden="true"></i>Sync with System
+      </button>
+    </li>
+  </ul>
 </li>
