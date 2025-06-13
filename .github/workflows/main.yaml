@@ -159,6 +159,14 @@ jobs:
                - GitVersion_AssemblySemVer: ${{needs.Setup.outputs.GitVersion_AssemblySemVer}}
                - GitVersion_InformationalVersion: ${{needs.Setup.outputs.GitVersion_InformationalVersion}}
                - GitVersion_NuGetVersion: ${{needs.Setup.outputs.GitVersion_NuGetVersion}}
+
+             ### Github
+                - PR_Number: ${{ github.event.number }}
+                - PR_URL: ${{ github.event.pull_request.html_url }}
+                - PR_Title: ${{ github.event.pull_request.title }}
+                - PR_Branch: ${{ github.head_ref || github.ref_name }}
+                - PR_Commit: ${{ github.sha }}
+                - Is_Fork: ${{ github.event.repository.fork }}
           "@
           echo $markdown >> $Env:GITHUB_STEP_SUMMARY
 
