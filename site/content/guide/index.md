@@ -609,7 +609,7 @@ A Product Goal is the medium-term objective for the Scrum Team and the Stakehold
 
 A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders (including but not limited to customers or users) expectations and limits. Through Inspection and Adaptation, it’s essential to embrace uncertainty (72), result feedback, side effects, and other learnings.
 
-#### What about a Product Vision? {#what-about-a-product-vision?}
+#### What about a Product Vision? {#what-about-a-product-vision}
 
 Many organizations work with a Product Vision, which helps visualize a potential future. The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision.
 
