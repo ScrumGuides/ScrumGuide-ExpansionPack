@@ -9,7 +9,7 @@ keywords:
   - Scrum in complex environments
   - Scrum and AI
 date: 2025-06-11T09:00:00Z
-url: /scrum-guide-expansion-pack/
+slug: scrum-guide-expansion-pack
 type: guide
 guide_whatis: |
   The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing; fast.
@@ -18,8 +18,7 @@ guide_whatis: |
 
   This Expansion Pack doesn’t replace the Scrum Guide; it complements it for those needing more clarity in today’s context. The goal wasn’t to add rules, but to reinforce the spirit of Scrum, around product thinking, emergence, and strategic focus. It helps teams learn fast, adapt, and deliver value, even in uncertain, accelerated, tech-driven settings.
 sitemap:
-   priority: 1.0  
-   
+  priority: 1.0
 ---
 
 based on the original [Scrum Guide](https://scrumguides.org/) by Ken Schwaber & Jeff Sutherland (40)
