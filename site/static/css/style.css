@@ -249,14 +249,7 @@ pre {
   border-top: 1px solid var(--theme-border-color);
 }
 
-/* Header styling with theme variables */
-.main-header {
-  background-color: var(--theme-primary);
-  color: white;
-  padding: 10px;
-  text-align: center;
-  transition: var(--theme-transition);
-}
+/* Header styling with theme variables - moved to bottom to use homepage brand colors */
 
 /* Header icon styling */
 .main-header .header-icon {
@@ -596,22 +589,42 @@ a.headerlink:hover {
   color: white;
 }
 
-.theme-option {
-  color: var(--theme-text-primary);
-  transition: var(--theme-transition);
+/* Ensure dropdown menu is properly themed and visible */
+.dropdown-menu {
+  background-color: var(--theme-bg-primary) !important;
+  border: 1px solid var(--theme-border-color) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.175);
 }
 
-.theme-option:hover {
-  background-color: var(--theme-bg-secondary);
-  color: var(--theme-text-primary);
+[data-theme="dark"] .dropdown-menu {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.theme-option {
+  color: var(--theme-text-primary) !important;
+  transition: var(--theme-transition);
+  display: flex !important;
+  align-items: center;
+}
+
+.theme-option:hover,
+.theme-option:focus {
+  background-color: var(--theme-bg-secondary) !important;
+  color: var(--theme-text-primary) !important;
 }
 
 .theme-option.active {
-  background-color: var(--theme-primary);
-  color: white;
+  background-color: var(--theme-primary) !important;
+  color: white !important;
 }
 
 .theme-option.active:hover {
-  background-color: var(--theme-primary-hover);
-  color: white;
+  background-color: var(--theme-primary-hover) !important;
+  color: white !important;
+}
+
+/* Ensure icons are visible in dropdown */
+.theme-option i {
+  color: inherit;
+  opacity: 1;
 }
