@@ -23,6 +23,13 @@ languages:
     params:
       description: "ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy."
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site"
+  de:
+    languageName: Deutsch
+    weight: 2
+    title: Scrum Guide Expansion Pack
+    params:
+      description: "ScrumExpansion.org bietet das Scrum Guide Expansion Pack—moderne Empfehlungen für die Anwendung von Scrum bei komplexer Arbeit, KI und adaptiver Strategie."
+      keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum Anleitung, fortgeschrittene Scrum Praktiken, Scrum für moderne Arbeit, adaptive Unternehmen, agile Produktlieferung, empirisches Scrum, Produktdenken, Komplexitätstheorie in Scrum, Scrum Führung, professionelles Scrum, Scrum und KI, Scrum Ressourcen, Scrum Lernplattform, Scrum Community Website"
 
 # Site-wide parameters
 params:
