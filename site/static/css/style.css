@@ -1,24 +1,203 @@
-/* Dark card styling */
+/* ===== THEME SYSTEM ===== */
+/* CSS Custom Properties for Light/Dark Themes */
+:root {
+  /* Light theme colors (default) */
+  --theme-bg-primary: #ffffff;
+  --theme-bg-secondary: #f8f9fa;
+  --theme-bg-tertiary: #e9ecef;
+  --theme-text-primary: #212529;
+  --theme-text-secondary: #6c757d;
+  --theme-text-muted: #868e96;
+  --theme-border-color: #dee2e6;
+  --theme-border-secondary: #e9ecef;
+  
+  /* Navigation colors */
+  --theme-nav-bg: #343a40;
+  --theme-nav-text: #ffffff;
+  --theme-nav-text-hover: #ffffff;
+  --theme-nav-border: #495057;
+  
+  /* Card colors */
+  --theme-card-bg: #ffffff;
+  --theme-card-border: #dee2e6;
+  --theme-card-text: #212529;
+  
+  /* Brand colors (stay consistent) */
+  --theme-primary: #1d7fd5;
+  --theme-primary-hover: #1669b3;
+  
+  /* Theme transition */
+  --theme-transition: all 0.2s ease-in-out;
+}
+
+/* Dark theme colors */
+[data-theme="dark"] {
+  --theme-bg-primary: #121212;
+  --theme-bg-secondary: #1e1e1e;
+  --theme-bg-tertiary: #2d2d2d;
+  --theme-text-primary: #ffffff;
+  --theme-text-secondary: #b3b3b3;
+  --theme-text-muted: #888888;
+  --theme-border-color: #404040;
+  --theme-border-secondary: #333333;
+  
+  /* Navigation colors for dark theme */
+  --theme-nav-bg: #1a1a1a;
+  --theme-nav-text: #ffffff;
+  --theme-nav-text-hover: #ffffff;
+  --theme-nav-border: #333333;
+  
+  /* Card colors for dark theme */
+  --theme-card-bg: #1e1e1e;
+  --theme-card-border: #404040;
+  --theme-card-text: #ffffff;
+}
+
+/* Apply theme colors to global elements */
+body {
+  background-color: var(--theme-bg-primary);
+  color: var(--theme-text-primary);
+  transition: var(--theme-transition);
+}
+
+/* Main content areas */
+main {
+  background-color: var(--theme-bg-primary);
+  color: var(--theme-text-primary);
+}
+
+/* Bootstrap component theming */
+.table {
+  color: var(--theme-text-primary);
+  background-color: var(--theme-bg-primary);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td,
+.table-striped > tbody > tr:nth-of-type(odd) > th {
+  background-color: var(--theme-bg-secondary);
+}
+
+.table-bordered {
+  border-color: var(--theme-border-color);
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border-color: var(--theme-border-color);
+}
+
+/* Dropdown theming */
+.dropdown-menu {
+  background-color: var(--theme-bg-primary);
+  border-color: var(--theme-border-color);
+}
+
+.dropdown-item {
+  color: var(--theme-text-primary);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--theme-bg-secondary);
+  color: var(--theme-text-primary);
+}
+
+.dropdown-divider {
+  border-top-color: var(--theme-border-color);
+}
+
+/* Modal theming */
+.modal-content {
+  background-color: var(--theme-bg-primary);
+  border-color: var(--theme-border-color);
+}
+
+.modal-header,
+.modal-footer {
+  border-color: var(--theme-border-color);
+}
+
+.modal-title {
+  color: var(--theme-text-primary);
+}
+
+/* Form theming */
+.form-control,
+.form-select {
+  background-color: var(--theme-bg-primary);
+  border-color: var(--theme-border-color);
+  color: var(--theme-text-primary);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--theme-primary);
+  box-shadow: 0 0 0 0.2rem rgba(29, 127, 213, 0.25);
+}
+
+/* Alert theming - preserve Bootstrap colors but add theme support */
+.alert {
+  border-color: var(--theme-border-color);
+}
+
+/* Code and pre theming */
+code {
+  background-color: var(--theme-bg-secondary);
+  color: var(--theme-text-primary);
+}
+
+pre {
+  background-color: var(--theme-bg-secondary);
+  color: var(--theme-text-primary);
+  border-color: var(--theme-border-color);
+}
+
+/* Card styling with theme variables */
+.card {
+  background-color: var(--theme-card-bg);
+  border-color: var(--theme-card-border);
+  color: var(--theme-card-text);
+  transition: var(--theme-transition);
+}
+
+.card-body {
+  background-color: var(--theme-card-bg);
+  color: var(--theme-card-text);
+}
+
+.card-footer {
+  background-color: var(--theme-card-bg);
+  border-top-color: var(--theme-border-color);
+  color: var(--theme-card-text);
+}
+
+/* Legacy dark card class - now uses theme variables */
 .card-dark {
-  background-color: #353535;
-  color: white;
+  background-color: var(--theme-card-bg);
+  color: var(--theme-card-text);
   border: none;
 }
 
 .card-dark .card-body {
-  background-color: #353535;
+  background-color: var(--theme-card-bg);
 }
 
 .card-dark .card-footer {
-  background-color: #353535;
-  border-top: 1px solid #555;
+  background-color: var(--theme-card-bg);
+  border-top: 1px solid var(--theme-border-color);
 }
 
+/* Header styling with theme variables */
 .main-header {
-  background-color: #135289;
+  background-color: var(--theme-primary);
   color: white;
   padding: 10px;
   text-align: center;
+  transition: var(--theme-transition);
 }
 
 /* Header icon styling */
@@ -28,31 +207,34 @@
   color: white;
 }
 
-/* Dark navbar styling */
-.navbar-dark {
-  background-color: #343a40 !important;
-  border-bottom: 1px solid #495057;
+/* Navigation styling with theme variables */
+.navbar-dark, .bg-dark {
+  background-color: var(--theme-nav-bg) !important;
+  border-bottom: 1px solid var(--theme-nav-border);
+  transition: var(--theme-transition);
 }
 
 .navbar-dark .navbar-brand {
-  color: white !important;
+  color: var(--theme-nav-text) !important;
 }
 
 .navbar-dark .nav-link {
   color: rgba(255, 255, 255, 0.75) !important;
+  transition: var(--theme-transition);
 }
 
 .navbar-dark .nav-link:hover,
 .navbar-dark .nav-link:focus {
-  color: white !important;
+  color: var(--theme-nav-text-hover) !important;
 }
 
 .navbar-dark .nav-link.active {
-  color: white !important;
-  background-color: #495057;
+  color: var(--theme-nav-text) !important;
+  background-color: var(--theme-nav-border);
   border-radius: 0.375rem;
 }
 
+/* Environment background colors - maintain branding */
 .bg-local {
   background-color: #f8f9fa !important;
 }
@@ -69,28 +251,80 @@
   background-color: #f8d7da !important;
 }
 
-/* Custom button styling */
+/* Custom button styling with theme support */
 .btn-primary {
-  background-color: #1d7fd5 !important;
-  border-color: #1d7fd5 !important;
+  background-color: var(--theme-primary) !important;
+  border-color: var(--theme-primary) !important;
+  transition: var(--theme-transition);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #1669b3 !important;
-  border-color: #1669b3 !important;
+  background-color: var(--theme-primary-hover) !important;
+  border-color: var(--theme-primary-hover) !important;
 }
 
 .btn-outline-primary {
-  color: #1d7fd5 !important;
-  border-color: #1d7fd5 !important;
+  color: var(--theme-primary) !important;
+  border-color: var(--theme-primary) !important;
+  transition: var(--theme-transition);
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
 .btn-outline-primary:active {
-  background-color: #1d7fd5 !important;
-  border-color: #1d7fd5 !important;
+  background-color: var(--theme-primary) !important;
+  border-color: var(--theme-primary) !important;
   color: white !important;
+}
+
+/* ===== THEME TOGGLE COMPONENT ===== */
+.theme-toggle {
+  position: relative;
+  background: none;
+  border: 1px solid var(--theme-border-color);
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  color: var(--theme-text-primary);
+  cursor: pointer;
+  transition: var(--theme-transition);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-toggle:hover {
+  background-color: var(--theme-bg-secondary);
+  border-color: var(--theme-border-secondary);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--theme-primary);
+  outline-offset: 2px;
+}
+
+.theme-toggle-icon {
+  font-size: 1rem;
+  transition: var(--theme-transition);
+}
+
+/* Theme toggle in navigation */
+.nav .theme-toggle {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.nav .theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+/* Responsive theme toggle */
+@media (max-width: 768px) {
+  .theme-toggle {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
 }
