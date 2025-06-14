@@ -54,6 +54,9 @@
 - id: nav_read_online
   translation: "laHbe'"
 
+- id: nav_translations
+  translation: "mughmeH mI'"
+
 - id: nav_pdf_version
   translation: "PDF mIllogh"
 

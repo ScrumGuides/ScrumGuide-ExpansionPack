@@ -51,6 +51,9 @@
 - id: nav_read_online
   translation: "مطالعه آنلاین"
 
+- id: nav_translations
+  translation: "ترجمه‌ها"
+
 - id: nav_pdf_version
   translation: "نسخه PDF"
 

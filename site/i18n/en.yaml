@@ -54,6 +54,9 @@
 - id: nav_read_online
   translation: "Read Online"
 
+- id: nav_translations
+  translation: "Translations"
+
 - id: nav_pdf_version
   translation: "PDF Version"
 
