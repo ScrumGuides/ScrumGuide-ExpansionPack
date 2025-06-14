@@ -42,22 +42,98 @@
       <!-- Main content area -->
       <main class="col-md-9">
         <div class="content-wrapper px-3">
-          <article class="content-details">
-            <header class="content-header">
+          <article class="content-details">            <header class="content-header">
               <div class="d-flex justify-content-between align-items-start mb-2">
                 <h2 class="content-title mb-0">{{ .Title }}</h2>
-                {{- if ne .Site.Language.Lang "en" }}
-                  <a
-                    href="https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues/new?template=translation-error.yml"
-                    class="btn btn-outline-warning btn-sm ms-3 flex-shrink-0"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="{{ i18n "reportTranslationError" "Report Translation Error" }}"
-                    aria-label="Report translation error">
-                    <i class="fa-solid fa-exclamation-triangle me-1"></i>
-                    {{ i18n "reportTranslationError" "Report Translation Error" }}
-                  </a>
-                {{- end }}
+                <div class="d-flex gap-2">                  {{- if ne .Site.Language.Lang "en" }}
+                    <a
+                      href="https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues/new?template=translation-error.yml"
+                      class="btn btn-outline-warning btn-sm flex-shrink-0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="{{ i18n "reportTranslationError" "Report Translation Error" }}"
+                      aria-label="Report translation error">
+                      <i class="fa-solid fa-exclamation-triangle me-1"></i>
+                      {{ i18n "reportTranslationError" "Report Translation Error" }}
+                    </a>
+                  {{- end }}
+                  
+                  {{- /* PDF Download Buttons with Google Analytics tracking */ -}}
+                  {{- if eq .Site.Language.Lang "en" }}
+                    {{- /* Show both EN and EN-US buttons for English */ -}}
+                    {{- $pdfPatternEN := "pdf/*.en.pdf" }}
+                    {{- $pdfResourceEN := .Resources.GetMatch $pdfPatternEN }}
+                    {{- if $pdfResourceEN }}
+                      <a href="{{ $pdfResourceEN.RelPermalink }}" 
+                         class="btn btn-primary btn-sm flex-shrink-0 pdf-download" 
+                         download
+                         title="Download PDF (EN)"
+                         aria-label="Download PDF version (EN)"
+                         data-language="English"
+                         data-language-code="en"
+                         data-type="Guide"
+                         data-filename="{{ $pdfResourceEN.Name }}">
+                        <i class="fa-solid fa-download me-1"></i>
+                        PDF (EN)
+                      </a>
+                    {{- else }}
+                      <button class="btn btn-primary btn-sm flex-shrink-0 disabled" 
+                              disabled
+                              title="PDF (EN) not available">
+                        <i class="fa-solid fa-ban me-1"></i>
+                        PDF (EN)
+                      </button>
+                    {{- end }}
+                    
+                    {{- $pdfPatternENUS := "pdf/*.en-us.pdf" }}
+                    {{- $pdfResourceENUS := .Resources.GetMatch $pdfPatternENUS }}
+                    {{- if $pdfResourceENUS }}
+                      <a href="{{ $pdfResourceENUS.RelPermalink }}" 
+                         class="btn btn-outline-primary btn-sm flex-shrink-0 pdf-download" 
+                         download
+                         title="Download PDF (EN-US)"
+                         aria-label="Download PDF version (EN-US)"
+                         data-language="English (US)"
+                         data-language-code="en-us"
+                         data-type="Guide"
+                         data-filename="{{ $pdfResourceENUS.Name }}">
+                        <i class="fa-solid fa-download me-1"></i>
+                        PDF (EN-US)
+                      </a>
+                    {{- else }}
+                      <button class="btn btn-outline-primary btn-sm flex-shrink-0 disabled" 
+                              disabled
+                              title="PDF (EN-US) not available">
+                        <i class="fa-solid fa-ban me-1"></i>
+                        PDF (EN-US)
+                      </button>
+                    {{- end }}
+                  {{- else }}
+                    {{- /* Single PDF button for other languages */ -}}
+                    {{- $pdfPattern := printf "*.%s.pdf" .Site.Language.Lang }}
+                    {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
+                    {{- if $pdfResource }}
+                      <a href="{{ $pdfResource.RelPermalink }}" 
+                         class="btn btn-primary btn-sm flex-shrink-0 pdf-download" 
+                         download
+                         title="{{ i18n "guide_pdf_download_button" }}"
+                         aria-label="Download PDF version"
+                         data-language="{{ .Site.Language.LanguageName }}"
+                         data-language-code="{{ .Site.Language.Lang }}"
+                         data-type="Guide"
+                         data-filename="{{ $pdfResource.Name }}">
+                        <i class="fa-solid fa-download me-1"></i>
+                        {{ i18n "guide_pdf_download_button" }}
+                      </a>
+                    {{- else }}
+                      <button class="btn btn-primary btn-sm flex-shrink-0 disabled" 
+                              disabled
+                              title="{{ i18n "guide_pdf_not_available" }}">
+                        <i class="fa-solid fa-ban me-1"></i>
+                        {{ i18n "guide_pdf_download_button" }}
+                      </button>
+                    {{- end }}                  {{- end }}
+                </div>
               </div>
               {{ if .Date }}
                 <div class="publish-date">
@@ -91,11 +167,62 @@
                 <span class="text-muted">Version: </span>
                 <span class="version-number">v#{GitVersion_Major}#.#{GitVersion_Minor}#</span>
               </div>
-            </header>
-            <div class="content-body pt-3">
+            </header>            <div class="content-body pt-3">
               {{- if $isComingSoon }}
-                <div class="alert alert-warning" role="alert">This guide is coming soon! Stay tuned for updates.</div>
-              {{ else }}
+                <div class="alert alert-warning" role="alert">This guide is coming soon! Stay tuned for updates.</div>              {{ else }}
+                {{- /* PDF intro text with Google Analytics tracking */ -}}
+                {{- if eq .Site.Language.Lang "en" }}
+                  {{- $pdfPatternEN := "pdf/*.en.pdf" }}
+                  {{- $pdfResourceEN := .Resources.GetMatch $pdfPatternEN }}
+                  {{- $pdfPatternENUS := "pdf/*.en-us.pdf" }}
+                  {{- $pdfResourceENUS := .Resources.GetMatch $pdfPatternENUS }}
+                  {{- if or $pdfResourceEN $pdfResourceENUS }}
+                    <div class="alert alert-info mb-4" role="alert">
+                      <i class="fa-solid fa-info-circle me-2"></i>
+                      {{ i18n "guide_pdf_intro_text" }}
+                      {{- if $pdfResourceEN }}
+                        <a href="{{ $pdfResourceEN.RelPermalink }}" 
+                           download 
+                           class="alert-link pdf-download"
+                           data-language="English"
+                           data-language-code="en"
+                           data-type="Guide"
+                           data-filename="{{ $pdfResourceEN.Name }}">
+                          Download EN version
+                        </a>
+                      {{- end }}
+                      {{- if and $pdfResourceEN $pdfResourceENUS }} or {{- end }}
+                      {{- if $pdfResourceENUS }}
+                        <a href="{{ $pdfResourceENUS.RelPermalink }}" 
+                           download 
+                           class="alert-link pdf-download"
+                           data-language="English (US)"
+                           data-language-code="en-us"
+                           data-type="Guide"
+                           data-filename="{{ $pdfResourceENUS.Name }}">
+                          Download EN-US version
+                        </a>
+                      {{- end }}
+                    </div>
+                  {{- end }}
+                {{- else }}
+                  {{- $pdfPattern := printf "*.%s.pdf" .Site.Language.Lang }}
+                  {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
+                  {{- if $pdfResource }}
+                    <div class="alert alert-info mb-4" role="alert">
+                      <i class="fa-solid fa-info-circle me-2"></i>
+                      {{ i18n "guide_pdf_intro_text" }}
+                      <a href="{{ $pdfResource.RelPermalink }}" 
+                         download 
+                         class="alert-link pdf-download"
+                         data-language="{{ .Site.Language.LanguageName }}"
+                         data-language-code="{{ .Site.Language.Lang }}"
+                         data-type="Guide"
+                         data-filename="{{ $pdfResource.Name }}">
+                        {{ i18n "guide_pdf_intro_link" }}
+                      </a>
+                    </div>                  {{- end }}
+                {{- end }}
                 {{ .Content }}
               {{- end }}
             </div>
@@ -172,9 +299,35 @@
       #tocCollapse a {
         font-size: 0.9rem;
         line-height: 1.4;
-      }
-    }
+      }    }
   </style>
+
+  <!-- PDF Download Google Analytics Tracking Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add event listeners to all PDF download links
+      document.querySelectorAll('.pdf-download').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          // Get data attributes
+          const language = this.dataset.language;
+          const languageCode = this.dataset.languageCode;
+          const type = this.dataset.type;
+          const filename = this.dataset.filename;
+          
+          // Track the download event
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'download', {
+              'event_category': 'PDF',
+              'event_label': language + ' - ' + type,
+              'file_name': filename,
+              'file_extension': 'pdf',
+              'language_code': languageCode
+            });
+          }
+        });
+      });
+    });
+  </script>
 {{- end }}
 {{- define "template" }}
   guide/single.html

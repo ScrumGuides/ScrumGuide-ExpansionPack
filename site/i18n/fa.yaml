@@ -51,6 +51,9 @@
 - id: nav_read_online
   translation: "مطالعه آنلاین"
 
+- id: nav_translations
+  translation: "ترجمه‌ها"
+
 - id: nav_pdf_version
   translation: "نسخه PDF"
 
@@ -62,6 +65,19 @@
 
 - id: nav_faq
   translation: "سوالات متداول"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "دانلود PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF در دسترس نیست"
+
+- id: guide_pdf_intro_text
+  translation: "این راهنما همچنین به صورت PDF قابل دانلود است."
+
+- id: guide_pdf_intro_link
+  translation: "دانلود PDF"
 
 # Download page translations
 - id: download_page_title

@@ -54,6 +54,9 @@
 - id: nav_read_online
   translation: "Read Online"
 
+- id: nav_translations
+  translation: "Translations"
+
 - id: nav_pdf_version
   translation: "PDF Version"
 
@@ -66,9 +69,22 @@
 - id: nav_faq
   translation: "FAQ"
 
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "Download PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF not available"
+
+- id: guide_pdf_intro_text
+  translation: "You can also download this guide as a PDF for offline reading."
+
+- id: guide_pdf_intro_link
+  translation: "download it here"
+
 # Download page translations
 - id: download_page_title
-  translation: "Download the official {{ .Title }}"
+  translation: "Read & Download the official {{ .Title }}"
 
 - id: download_page_description
   translation: "{{ .Title }} is defined here by"
@@ -129,3 +145,16 @@
 
 - id: read_online_action
   translation: "Read Online"
+
+# PDF Download functionality
+- id: guide_pdf_download_button
+  translation: "Download PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF not available"
+
+- id: guide_pdf_intro_text
+  translation: "This guide is also available as a PDF download."
+
+- id: guide_pdf_intro_link
+  translation: "Download PDF"

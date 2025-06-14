@@ -33,8 +33,7 @@
                 <th scope="col">{{ i18n "download_table_action" . }}</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
+            <tbody>              <tr>
                 <td>{{ .Site.Language.LanguageName }} ({{ $guidePage.Date.Format "January 2006" }}) - {{ i18n "download_official_current_version" . }}</td>
                 <td>
                   {{- $creators := .Site.GetPage "/creators" }}
@@ -48,13 +47,14 @@
                 <td>
                   <div class="d-flex gap-2">
                     <!-- Online Reading Link -->
-                    {{/*  {{ if $isComingSoon }}
+                    {{ if $isComingSoon }}
                       <a href="#" class="btn btn-outline-secondary btn-sm disabled">{{ i18n "read_online_action" . }}</a>
                     {{ else }}
                       <a href="{{ $guidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
                         <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
                       </a>
-                    {{ end }}  */}}                    <!-- PDF Download Link -->
+                    {{ end }}
+                    <!-- PDF Download Link -->
                     {{ if $isComingSoon }}
                       <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" . }}</a>
                     {{ else }}
@@ -77,8 +77,7 @@
                     {{ end }}
                   </div>
                 </td>
-              </tr>
-              <tr>
+              </tr>              <tr>
                 <td>English (US) ({{ $guidePage.Date.Format "January 2006" }}) - {{ i18n "download_official_current_version" . }}</td>
                 <td>
                   {{- $creators := .Site.GetPage "/creators" }}
@@ -92,13 +91,15 @@
                 <td>
                   <div class="d-flex gap-2">
                     <!-- Online Reading Link -->
-                    {{/*  {{ if $isComingSoon }}
+                    {{ if $isComingSoon }}
                       <a href="#" class="btn btn-outline-secondary btn-sm disabled">{{ i18n "read_online_action" . }}</a>
                     {{ else }}
-                      <a href="{{ $guidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
+                      {{- $englishGuidePage := .Site.GetPage "/guide" }}
+                      <a href="{{ $englishGuidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
                         <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
                       </a>
-                    {{ end }}  */}}                    <!-- PDF Download Link -->
+                    {{ end }}
+                    <!-- PDF Download Link -->
                     {{ if $isComingSoon }}
                       <a href="#" class="btn btn-primary btn-sm disabled">{{ i18n "download_coming_soon" . }}</a>
                     {{ else }}
@@ -143,10 +144,9 @@
                 <th scope="col">{{ i18n "download_table_action" . }}</th>
               </tr>
             </thead>
-            <tbody>
-              {{- range .Site.Languages }}
+            <tbody>              {{- range .Site.Languages }}
                 {{- if ne .Lang $.Site.Language.Lang }}
-                  {{- $translationGuidePage := $.Site.GetPage (printf "/%s/guide" .Lang) }}
+                  {{- $translationGuidePage := $.Site.GetPage (printf "/guide/index.%s.md" .Lang) }}
                   <tr>
                     <td>
                       {{ .LanguageName }}
@@ -181,14 +181,21 @@
                       <div class="d-flex gap-2">
                         <!-- Online Reading Link -->
                         {{- if $translationGuidePage }}
-                          <a href="{{ $translationGuidePage.Permalink }}" class="btn btn-outline-secondary btn-sm">
+                          <a href="/{{ .Lang }}/scrum-guide-expansion-pack/" class="btn btn-outline-secondary btn-sm">
                             <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
                           </a>
                         {{- else }}
-                          <a href="#" class="btn btn-outline-secondary btn-sm disabled" title="Translation not available">
-                            <i class="fa-solid fa-ban me-1"></i>{{ i18n "read_online_action" . }}
-                          </a>
-                        {{- end }}                        <!-- PDF Download Link -->
+                          {{- $englishGuidePage := $.Site.GetPage "/guide" }}
+                          {{- if $englishGuidePage }}
+                            <a href="{{ $englishGuidePage.Permalink }}" class="btn btn-outline-secondary btn-sm" title="Read in English (translation not available)">
+                              <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }} (EN)
+                            </a>
+                          {{- else }}
+                            <a href="#" class="btn btn-outline-secondary btn-sm disabled" title="Translation not available">
+                              <i class="fa-solid fa-ban me-1"></i>{{ i18n "read_online_action" . }}
+                            </a>
+                          {{- end }}
+                        {{- end }}<!-- PDF Download Link -->
                         {{- if $translationGuidePage }}
                           {{- $pdfPattern := printf "*.%s.pdf" .Lang }}
                           {{- $pdfResource := $translationGuidePage.Resources.GetMatch $pdfPattern }}
