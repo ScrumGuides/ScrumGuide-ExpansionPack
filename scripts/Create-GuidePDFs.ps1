@@ -6,7 +6,7 @@ Generates PDF files for all non-English translations of the Scrum Guide Expansio
 .DESCRIPTION
 This script automatically detects all non-English guide translation files and generates 
 corresponding PDF files using pandoc with proper font support for non-Latin scripts. 
-Each PDF uses the document's built-in title and author information for proper mixed-script rendering.
+Each PDF uses the document's built-in title and site-wide creator information for proper mixed-script rendering.
 The script automatically regenerates PDFs when the source markdown files are updated.
 
 Features:
@@ -14,23 +14,37 @@ Features:
 - CJK language support (Chinese, Japanese, Korean) with xeCJK package
 - Mixed-script rendering with proper font fallbacks
 - Document-based title pages that handle multilingual content correctly
+- Site-wide creator list integration for cover pages
 - Automatic regeneration when source files are updated
 - Unicode support with XeLaTeX engine
+- Single language generation support
 
 .PARAMETER Force
 Overwrite existing PDF files if they exist
+
+.PARAMETER Language
+Generate PDF for a specific language code only (e.g., 'fa' for Farsi, 'tlh' for Klingon)
 
 .EXAMPLE
 .\Create-GuidePDFs.ps1
 
 .EXAMPLE
 .\Create-GuidePDFs.ps1 -Force
+
+.EXAMPLE
+.\Create-GuidePDFs.ps1 -Language fa
+
+.EXAMPLE
+.\Create-GuidePDFs.ps1 -Language tlh -Force
 #>
 
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $false)]
-    [switch]$Force
+    [switch]$Force,
+    
+    [Parameter(Mandatory = $false)]
+    [string]$Language
 )
 
 # Set error action preference
@@ -167,13 +181,44 @@ function Get-Frontmatter {
     }
 }
 
+# Function to get site-wide creator list from Hugo content structure
+function Get-SiteCreators {
+    param([string]$SiteDir)
+    
+    $creatorsDir = Join-Path $SiteDir "content/creators"
+    $creators = @()
+    
+    if (-not (Test-Path $creatorsDir)) {
+        Write-Warning "Creators directory not found: $creatorsDir"
+        return $creators
+    }
+    
+    # Get all creator directories (exclude _index files)
+    $creatorDirs = Get-ChildItem -Path $creatorsDir -Directory
+    
+    foreach ($creatorDir in $creatorDirs) {
+        $indexFile = Join-Path $creatorDir.FullName "index.md"
+        
+        if (Test-Path $indexFile) {
+            $frontmatter = Get-Frontmatter -FilePath $indexFile
+            if ($frontmatter -and $frontmatter.title) {
+                $creators += $frontmatter.title.ToString().Trim('"')
+                Write-Host "   📋 Found creator: $($frontmatter.title)" -ForegroundColor Gray
+            }
+        }
+    }
+    
+    return $creators
+}
+
 # Function to generate PDF using pandoc
 function New-PDF {
     param(
         [string]$InputFile,
         [string]$OutputFile,
         [hashtable]$Metadata,
-        [string]$LanguageCode
+        [string]$LanguageCode,
+        [array]$SiteCreators = @()
     )
     
     Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
@@ -220,17 +265,12 @@ function New-PDF {
         $pandocArgs += "--metadata", "title=$($Metadata.title)"
     }
     
-    # Don't add author metadata to avoid garbled bylines - the document contains its own author info
-    # if ($Metadata.creator) {
-    #     $creatorList = $Metadata.creator
-    #     if ($creatorList -is [array]) {
-    #         $creatorString = $creatorList -join ", "
-    #     }
-    #     else {
-    #         $creatorString = $creatorList.ToString()
-    #     }
-    #     $pandocArgs += "--metadata", "author=$creatorString"
-    # }
+    # Add author metadata using site-wide creators for cover page
+    if ($SiteCreators -and $SiteCreators.Count -gt 0) {
+        $creatorString = $SiteCreators -join ", "
+        $pandocArgs += "--metadata", "author=$creatorString"
+        Write-Host "   👥 Adding site creators to cover page: $creatorString" -ForegroundColor Gray
+    }
     
     # Add description if available
     if ($Metadata.description) {
@@ -283,15 +323,48 @@ function New-PDF {
 }
 
 # Find all guide translation files (exclude English index.md)
-$guideFiles = Get-ChildItem -Path $guideDir -Name "index.*.md"
+if ($Language) {
+    # Process specific language only
+    $targetFile = "index.$Language.md"
+    if (Test-Path (Join-Path $guideDir $targetFile)) {
+        $guideFiles = @($targetFile)
+        Write-Host "🎯 Processing specific language: $Language" -ForegroundColor Cyan
+    }
+    else {
+        Write-Error "❌ Language file not found: $targetFile in $guideDir"
+        exit 1
+    }
+}
+else {
+    # Process all non-English guide files
+    $allGuideFiles = Get-ChildItem -Path $guideDir -Name "index.*.md"
+    # Explicitly exclude English (index.en.md)
+    $guideFiles = $allGuideFiles | Where-Object { $_ -ne "index.en.md" }
+}
 
 if ($guideFiles.Count -eq 0) {
-    Write-Warning "⚠️  No non-English guide files found in $guideDir"
-    Write-Host "   Looking for files matching pattern: index.*.md" -ForegroundColor Yellow
+    if ($Language) {
+        Write-Warning "⚠️  No guide file found for language: $Language"
+    }
+    else {
+        Write-Warning "⚠️  No non-English guide files found in $guideDir"
+        Write-Host "   Looking for files matching pattern: index.*.md (excluding index.en.md)" -ForegroundColor Yellow
+    }
     exit 0
 }
 
-Write-Host "🔍 Found $($guideFiles.Count) non-English guide file(s):" -ForegroundColor Yellow
+# Get site-wide creators list
+Write-Host "👥 Extracting site-wide creator list..." -ForegroundColor Yellow
+$siteCreators = Get-SiteCreators -SiteDir $siteDir
+
+if ($siteCreators.Count -eq 0) {
+    Write-Warning "⚠️  No site creators found. Cover page will not include creator information."
+}
+else {
+    Write-Host "✅ Found $($siteCreators.Count) site creator(s): $($siteCreators -join ', ')" -ForegroundColor Green
+}
+
+Write-Host "🔍 Found $($guideFiles.Count) guide file(s) to process:" -ForegroundColor Yellow
 foreach ($file in $guideFiles) {
     Write-Host "   • $file" -ForegroundColor Gray
 }
@@ -336,15 +409,8 @@ foreach ($fileName in $guideFiles) {
         continue
     }
     
-    if (-not $frontmatter.creator) {
-        Write-Error "   ❌ Missing 'creator' field in frontmatter of $fileName"
-        $errorCount++
-        continue
-    }
-    
     Write-Host "   📋 Title: $($frontmatter.title)" -ForegroundColor Gray
-    $creatorDisplay = if ($frontmatter.creator -is [array]) { $frontmatter.creator -join ', ' } else { $frontmatter.creator }
-    Write-Host "   👥 Creators: $creatorDisplay" -ForegroundColor Gray
+    Write-Host "   👥 Site Creators: $($siteCreators -join ', ')" -ForegroundColor Gray
     
     # Define output file path
     $outputFileName = "scrum-guide-expansion-pack.$langCode.pdf"
@@ -379,7 +445,7 @@ foreach ($fileName in $guideFiles) {
     }
     
     # Generate PDF
-    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter -LanguageCode $langCode
+    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter -LanguageCode $langCode -SiteCreators $siteCreators
     
     if ($success) {
         $successCount++
