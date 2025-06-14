@@ -15,11 +15,19 @@ jobs:
         with:
           hugo-version: "latest"
           extended: true
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
       - name: Verify Installations
         shell: pwsh
         run: |
           # Verify Hugo installation
           hugo version
 
+          # Verify Pandoc installation
+          pandoc --version
 
           Write-Output "All prerequisites installed successfully!"
