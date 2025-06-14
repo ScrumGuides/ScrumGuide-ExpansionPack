@@ -12,12 +12,12 @@
         {{- $creators = $creators | lang.Merge (where .Site.Pages "Section" "creators") }}
       {{- end }}
       {{- range $creators }}
-        {{- if ne .Title "Creators" }}
+        {{- if ne .Kind "section" }}
           <li><a class="dropdown-item" href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{- end }}
       {{- end }}
       <li><hr class="dropdown-divider" /></li>
-      <li><a class="dropdown-item" href="/creators">{{ i18n "nav_all_creators" }}</a></li>
+      <li><a class="dropdown-item" href="{{ (.Site.GetPage "/creators").Permalink }}">{{ i18n "nav_all_creators" }}</a></li>
     </ul>
   </li>
   {{/*  <li class="nav-item"><a href="/faq" class="nav-link text-white">{{ i18n "nav_faq" }}</a></li>  */}}
