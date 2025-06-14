@@ -8,6 +8,10 @@ keywords:
   - توسعه محصول تجربی
   - اسکرام در محیط‌های پیچیده
   - اسکرام و هوش مصنوعی
+creator:
+  - Ralph Jocham
+  - John Coleman
+  - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
 contributors:

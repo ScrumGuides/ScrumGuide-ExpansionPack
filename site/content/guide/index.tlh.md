@@ -8,6 +8,10 @@ keywords:
   - QIn malja' chenmoH
   - QIpyuS ghu'QeD
   - QIpyuS je valbogh De'wI'
+creator:
+  - Ralph Jocham
+  - John Coleman
+  - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
 type: guide
