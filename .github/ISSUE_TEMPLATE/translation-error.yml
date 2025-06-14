@@ -16,7 +16,8 @@ body:
       label: Language
       description: Which language translation has the error?
       options:
-        - Klingon (tlh)
+        - English (en)
+        - Farsi (fa)
         - Other (please specify in description)
     validations:
       required: true
