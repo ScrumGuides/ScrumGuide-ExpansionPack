@@ -8,6 +8,10 @@ keywords:
   - empirical product development
   - Scrum in complex environments
   - Scrum and AI
+creator:
+  - Ralph Jocham
+  - John Coleman
+  - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
 type: guide
