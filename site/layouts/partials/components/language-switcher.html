@@ -4,7 +4,7 @@
       <i class="fa-solid fa-globe"></i> {{ .Site.Language.LanguageName }}
     </a>
     <ul class="dropdown-menu">
-      {{- $defaultLang := $.Site.LanguageCode }}
+      {{- $defaultLang := "en" }}
       {{- range .Site.Languages }}
         {{- if ne .Lang $.Site.Language.Lang }}
           {{- $langUrl := "" }}
@@ -14,9 +14,26 @@
               {{- $langUrl = "/" }}
             {{- end }}
           {{- else }}
-            {{- $langUrl = printf "/%s%s" .Lang $.RelPermalink }}
-            {{- if eq .Lang $defaultLang }}
-              {{- $langUrl = $.RelPermalink }}
+            {{- $langUrl = "" }}
+            {{- $foundTranslation := false }}
+            {{- $targetLang := .Lang }}
+            {{- range $.Translations }}
+              {{- if eq .Language.Lang $targetLang }}
+                {{- $langUrl = .Permalink }}
+                {{- $foundTranslation = true }}
+              {{- end }}
+            {{- end }}
+            {{- if not $foundTranslation }}
+              {{- $pathWithoutLang := $.RelPermalink }}
+              {{- if ne $.Site.Language.Lang $defaultLang }}
+                {{- $langPrefix := printf "/%s" $.Site.Language.Lang }}
+                {{- $pathWithoutLang = strings.TrimPrefix $langPrefix $.RelPermalink }}
+              {{- end }}
+              {{- if eq $targetLang $defaultLang }}
+                {{- $langUrl = $pathWithoutLang }}
+              {{- else }}
+                {{- $langUrl = printf "/%s%s" $targetLang $pathWithoutLang }}
+              {{- end }}
             {{- end }}
           {{- end }}
           <li>
