@@ -91,8 +91,13 @@
                 <div class="row g-0">
                   <div class="col-md-4">
                     {{- $imageResource := "" }}
-                    {{- $urlifiedTitle := .Title | urlize }}
-                    {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
+                    {{- if .Params.image }}
+                      {{- $imageResource = .Resources.GetMatch .Params.image }}
+                    {{- end }}
+                    {{- if not $imageResource }}
+                      {{- $urlifiedTitle := .Title | urlize }}
+                      {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
+                    {{- end }}
                     {{- if $imageResource }}
                       <img src="{{ $imageResource.RelPermalink }}" class="img-fluid rounded-start w-100" alt="{{ .Title }}" style="aspect-ratio: 1/1; object-fit: cover;" />
                     {{- else }}
