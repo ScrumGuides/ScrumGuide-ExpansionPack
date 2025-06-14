@@ -15,21 +15,33 @@
 
 % Set main fonts for mixed-language documents
 $if(lang-fa)$
-% For Persian/Arabic with Latin mixed text - use Arabic font as primary
-\setmainfont{Noto Sans Arabic}[
-  BoldFont=Noto Sans Arabic Bold
+% For Persian/Arabic with Latin mixed text - comprehensive font setup
+% Use DejaVu Sans as primary with Arabic font variants
+\setmainfont{DejaVu Sans}[
+  BoldFont=DejaVu Sans Bold,
+  ItalicFont=Noto Sans Arabic,
+  BoldItalicFont=Noto Sans Arabic Bold
 ]
 
-% Set Latin font for English text
-\newfontfamily\latintext{Noto Sans}[
-  BoldFont=Noto Sans Bold,
-  ItalicFont=Noto Sans Italic,
-  BoldItalicFont=Noto Sans Bold Italic
+% Set up additional font families
+\newfontfamily\arabicfont{Noto Sans Arabic}[
+  BoldFont=Noto Sans Arabic Bold,
+  ItalicFont=Noto Sans Arabic,
+  BoldItalicFont=Noto Sans Arabic Bold,
+  Scale=1.1
+]
+
+\newfontfamily\latintext{DejaVu Sans}[
+  BoldFont=DejaVu Sans Bold,
+  ItalicFont=DejaVu Sans Oblique,
+  BoldItalicFont=DejaVu Sans Bold Oblique
 ]
 
 % Configure for RTL text support
 \XeTeXlinebreaklocale "fa"
 \XeTeXlinebreakskip = 0pt plus 1pt
+
+% This approach uses Arabic font for italic text, reducing missing character warnings
 $else$
 % Default Latin font setup for other languages
 $if(mainfont)$
@@ -78,40 +90,69 @@ $endif$
 \predate{\begin{center}\large}
 \postdate{\par\end{center}}
 
-% Custom title page
+% Custom title page with professional design
 \makeatletter
 \def\@maketitle{%
   \newpage
   \null
-  \vskip 3em%
+  % Add space from top
+  \vspace{2cm}
   \begin{center}%
+    % Main title with large, bold font
     {\Huge\bfseries $title$ \par}%
-    \vskip 2em%
+    \vspace{1.5cm}%
+    
+    % Add a horizontal line under the title
+    \rule{0.8\textwidth}{2pt}
+    \vspace{1cm}%
+    
     $if(subtitle)$
-    {\Large $subtitle$ \par}%
-    \vskip 1em%
+    % Subtitle if available
+    {\LARGE\textit{$subtitle$} \par}%
+    \vspace{1cm}%
     $endif$
+    
+    $if(description)$
+    % Description in a nice box
+    \begin{minipage}{0.8\textwidth}
+    \centering
+    \large
+    \textit{$description$}
+    \end{minipage}
+    \vspace{2cm}%
+    $endif$
+    
+    % Authors section with enhanced formatting
     $if(author)$
+    {\large \textbf{Authors} \par}%
+    \vspace{0.5cm}%
     {\large 
      \lineskip .75em%
      \begin{tabular}[t]{c}%
-       $for(author)$$author$$sep$ \\ $endfor$
+       $for(author)$\textit{$author$}$sep$ \\ $endfor$
      \end{tabular}\par}%
-    \vskip 1em%
+    \vspace{2cm}%
     $endif$
+    
+    % Date at bottom
     $if(date)$
     {\large $date$ \par}%
     $endif$
-    \vskip 2em%
-    $if(description)$
-    \begin{minipage}{0.8\textwidth}
+    
+    % Fill remaining space
+    \vfill
+    
+    % Add footer with licensing information if available
+    \begin{minipage}{0.9\textwidth}
     \centering
-    \textit{$description$}
+    \small
+    Based on the original Scrum Guide by Ken Schwaber and Jeff Sutherland \\
+    \textit{Creative Commons Attribution-ShareAlike 4.0 International License}
     \end{minipage}
-    $endif$
+    
   \end{center}%
   \par
-  \vskip 3em%
+  \vspace{1cm}%
   \newpage
 }
 \makeatother
