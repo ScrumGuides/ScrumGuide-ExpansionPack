@@ -66,6 +66,19 @@
 - id: nav_faq
   translation: "سوالات متداول"
 
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "دانلود PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF موجود نیست"
+
+- id: guide_pdf_intro_text
+  translation: "همچنین می‌توانید این راهنما را به صورت PDF برای مطالعه آفلاین دانلود کنید."
+
+- id: guide_pdf_intro_link
+  translation: "از اینجا دانلود کنید"
+
 # Download page translations
 - id: download_page_title
   translation: "دانلود نسخه رسمی {{ .Title }}"

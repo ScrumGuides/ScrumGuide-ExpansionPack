@@ -69,6 +69,19 @@
 - id: nav_faq
   translation: "FAQ"
 
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "PDF yap"
+
+- id: guide_pdf_not_available
+  translation: "PDF tu'be'lu'"
+
+- id: guide_pdf_intro_text
+  translation: "nugh teywI' lo'taHbe'ghach neH 'e' vIl PDF DIch chenmoH."
+
+- id: guide_pdf_intro_link
+  translation: "naDev yap"
+
 # Download page translations
 - id: download_page_title
   translation: "{{ .Title }}'e' yItlhap"
