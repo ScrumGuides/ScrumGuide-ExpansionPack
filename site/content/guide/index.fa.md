@@ -14,6 +14,9 @@ creator:
   - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
+contributors:
+  - name: Pooya Sabramooz
+    link: https://sabramooz.ir
 type: guide
 guide_whatis: |
   **بسته گسترش‌یافته راهنمای اسکرام** وجود دارد زیرا روش ساخت محصولات ما دائماً در حال تغییر است؛ سریع.
