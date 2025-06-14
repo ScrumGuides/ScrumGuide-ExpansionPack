@@ -84,6 +84,13 @@ hugo server --buildDrafts --buildFuture --bind 0.0.0.0
 
 Navigate to `http://localhost:1313` to view the site locally.
 
+### 6. Compare with Live Sites
+
+To see how your local changes compare with the live sites:
+
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org) - The live production site
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - Test environment with latest changes
+
 ## Development Server Options
 
 | Command                      | Description                               |

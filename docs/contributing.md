@@ -2,6 +2,11 @@
 
 We welcome and appreciate contributions from the community! This guide outlines how you can contribute to the Scrum Guide Expansion Pack project.
 
+## 🌐 Live Sites
+
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org) - **Live production site**
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **Test your contributions here before they go live**
+
 ## Table of Contents
 
 - [Ways to Contribute](#ways-to-contribute)
@@ -73,6 +78,11 @@ Follow the [Getting Started Guide](./getting-started.md) to set up your developm
 - Look for issues labeled `good first issue` for beginners
 - Check issues labeled `help wanted` for priority items
 - Create a new issue if you find a bug or have a feature request
+
+### 4. Test Your Ideas
+
+- **Review the live site**: [scrumexpansion.org](https://scrumexpansion.org)
+- **Test contributions on preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - See how your changes will look before they go to production
 
 ## Contribution Workflow
 
