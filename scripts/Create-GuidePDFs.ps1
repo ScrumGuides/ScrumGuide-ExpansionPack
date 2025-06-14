@@ -6,12 +6,14 @@ Generates PDF files for all non-English translations of the Scrum Guide Expansio
 .DESCRIPTION
 This script automatically detects all non-English guide translation files and generates 
 corresponding PDF files using pandoc with proper font support for non-Latin scripts. 
-Each PDF includes a cover page with title and creator information from the file's frontmatter metadata.
+Each PDF uses the document's built-in title and author information for proper mixed-script rendering.
 The script automatically regenerates PDFs when the source markdown files are updated.
 
 Features:
-- Proper font support for RTL languages (Farsi, Arabic, Hebrew, Urdu)
-- Cover page generation with title, author, and date
+- Comprehensive font support for RTL languages (Farsi, Arabic, Hebrew, Urdu)
+- CJK language support (Chinese, Japanese, Korean) with xeCJK package
+- Mixed-script rendering with proper font fallbacks
+- Document-based title pages that handle multilingual content correctly
 - Automatic regeneration when source files are updated
 - Unicode support with XeLaTeX engine
 
@@ -196,8 +198,8 @@ function New-PDF {
         Write-Host "   🔤 Using Noto Sans Arabic as main font with DejaVu Sans fallback for RTL language: $LanguageCode" -ForegroundColor Gray
     }
     elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
-        # For CJK languages, use CJK font as primary with Latin fallback
-        $pandocArgs += "--variable", "mainfont=Noto Sans CJK SC"
+        # For CJK languages, add xeCJK support and install packages if needed
+        $pandocArgs += "--variable", "CJKmainfont=Noto Sans CJK SC"
         $pandocArgs += "--variable", "romanfont=DejaVu Sans"
         $pandocArgs += "--variable", "sansfont=Noto Sans CJK SC"
         $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
@@ -213,35 +215,22 @@ function New-PDF {
         Write-Host "   🔤 Using DejaVu Sans as main font with Unicode fallbacks for language: $LanguageCode" -ForegroundColor Gray
     }
     
-    # Enable comprehensive title page generation
-    $pandocArgs += "--metadata", "titlepage=true"
-    $pandocArgs += "--metadata", "titlepage-color=135289"
-    $pandocArgs += "--metadata", "titlepage-text-color=FFFFFF"
-    $pandocArgs += "--metadata", "titlepage-rule-color=FFFFFF"
-    $pandocArgs += "--metadata", "titlepage-rule-height=2"
-    
-    # Add title metadata
+    # Add title metadata for PDF properties only
     if ($Metadata.title) {
         $pandocArgs += "--metadata", "title=$($Metadata.title)"
-        # Also add subtitle for better formatting
-        $pandocArgs += "--metadata", "subtitle=Expansion Pack"
     }
     
-    # Add creator/author metadata with proper formatting
-    if ($Metadata.creator) {
-        $creatorList = $Metadata.creator
-        if ($creatorList -is [array]) {
-            $creatorString = $creatorList -join ", "
-            # Add each author separately for better formatting
-            foreach ($author in $creatorList) {
-                $pandocArgs += "--metadata", "author=$author"
-            }
-        }
-        else {
-            $creatorString = $creatorList.ToString()
-            $pandocArgs += "--metadata", "author=$creatorString"
-        }
-    }
+    # Don't add author metadata to avoid garbled bylines - the document contains its own author info
+    # if ($Metadata.creator) {
+    #     $creatorList = $Metadata.creator
+    #     if ($creatorList -is [array]) {
+    #         $creatorString = $creatorList -join ", "
+    #     }
+    #     else {
+    #         $creatorString = $creatorList.ToString()
+    #     }
+    #     $pandocArgs += "--metadata", "author=$creatorString"
+    # }
     
     # Add description if available
     if ($Metadata.description) {
