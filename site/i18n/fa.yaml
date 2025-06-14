@@ -71,13 +71,13 @@
   translation: "دانلود PDF"
 
 - id: guide_pdf_not_available
-  translation: "PDF موجود نیست"
+  translation: "PDF در دسترس نیست"
 
 - id: guide_pdf_intro_text
-  translation: "همچنین می‌توانید این راهنما را به صورت PDF برای مطالعه آفلاین دانلود کنید."
+  translation: "این راهنما همچنین به صورت PDF قابل دانلود است."
 
 - id: guide_pdf_intro_link
-  translation: "از اینجا دانلود کنید"
+  translation: "دانلود PDF"
 
 # Download page translations
 - id: download_page_title
