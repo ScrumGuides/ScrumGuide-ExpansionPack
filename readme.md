@@ -2,7 +2,10 @@
 
 ## Visit the Guide
 
-**[scrumexpansion.org](https://scrumexpansion.org)**\*\* - Start reading now!\*\*
+### 🌐 Live Sites
+
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org) - **Start reading now!**
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **Test latest changes before production**
 
 ## What is This?
 
@@ -49,7 +52,13 @@ Making Scrum knowledge accessible globally is essential.
 
 ## Access the Guide
 
-- **Read online**: [scrumexpansion.org](https://scrumexpansion.org)
+### 📖 Read Online
+
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org)
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/)
+
+### 📄 Download Options
+
 - **Download PDF**: [Available languages](https://scrumexpansion.org/download)
 
 ## How to Contribute
@@ -103,9 +112,10 @@ See [LICENSE](./LICENSE) for complete terms.
 
 ## Getting Started
 
-1. **[Read the expansion](https://scrumexpansion.org)**
-2. **[Engage with the community](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)**
-3. **[Support translations](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)**
-4. **[Review contribution guidelines](./docs/contributing.md)**
+1. **[Read the expansion](https://scrumexpansion.org)** - Production site
+2. **[Test latest changes](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/)** - Preview site  
+3. **[Engage with the community](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)**
+4. **[Support translations](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)**
+5. **[Review contribution guidelines](./docs/contributing.md)**
 
 **Together, we're advancing Scrum practice for modern product development challenges.**
