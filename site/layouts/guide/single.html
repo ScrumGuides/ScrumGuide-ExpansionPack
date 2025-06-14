@@ -132,70 +132,7 @@
                         <i class="fa-solid fa-ban me-1"></i>
                         {{ i18n "guide_pdf_download_button" }}
                       </button>
-                    {{- end }}
-                  {{- end }}
-                  {{- if eq .Site.Language.Lang "en" }}
-                    {{- /* Show both EN and EN-US buttons for English */ -}}
-                    {{- $pdfPatternEN := "pdf/*.en.pdf" }}
-                    {{- $pdfResourceEN := .Resources.GetMatch $pdfPatternEN }}
-                    {{- if $pdfResourceEN }}
-                      <a href="{{ $pdfResourceEN.RelPermalink }}" 
-                         class="btn btn-primary btn-sm flex-shrink-0" 
-                         download
-                         title="Download PDF (EN)"
-                         aria-label="Download PDF version (EN)">
-                        <i class="fa-solid fa-download me-1"></i>
-                        PDF (EN)
-                      </a>
-                    {{- else }}
-                      <button class="btn btn-primary btn-sm flex-shrink-0 disabled" 
-                              disabled
-                              title="PDF (EN) not available">
-                        <i class="fa-solid fa-ban me-1"></i>
-                        PDF (EN)
-                      </button>
-                    {{- end }}
-                    
-                    {{- $pdfPatternENUS := "pdf/*.en-us.pdf" }}
-                    {{- $pdfResourceENUS := .Resources.GetMatch $pdfPatternENUS }}
-                    {{- if $pdfResourceENUS }}
-                      <a href="{{ $pdfResourceENUS.RelPermalink }}" 
-                         class="btn btn-outline-primary btn-sm flex-shrink-0" 
-                         download
-                         title="Download PDF (EN-US)"
-                         aria-label="Download PDF version (EN-US)">
-                        <i class="fa-solid fa-download me-1"></i>
-                        PDF (EN-US)
-                      </a>
-                    {{- else }}
-                      <button class="btn btn-outline-primary btn-sm flex-shrink-0 disabled" 
-                              disabled
-                              title="PDF (EN-US) not available">
-                        <i class="fa-solid fa-ban me-1"></i>
-                        PDF (EN-US)
-                      </button>
-                    {{- end }}
-                  {{- else }}
-                    {{- $pdfPattern := printf "*.%s.pdf" .Site.Language.Lang }}
-                    {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
-                    {{- if $pdfResource }}
-                      <a href="{{ $pdfResource.RelPermalink }}" 
-                         class="btn btn-primary btn-sm flex-shrink-0" 
-                         download
-                         title="{{ i18n "guide_pdf_download_button" }}"
-                         aria-label="Download PDF version">
-                        <i class="fa-solid fa-download me-1"></i>
-                        {{ i18n "guide_pdf_download_button" }}
-                      </a>
-                    {{- else }}
-                      <button class="btn btn-primary btn-sm flex-shrink-0 disabled" 
-                              disabled
-                              title="{{ i18n "guide_pdf_not_available" }}">
-                        <i class="fa-solid fa-ban me-1"></i>
-                        {{ i18n "guide_pdf_download_button" }}
-                      </button>
-                    {{- end }}
-                  {{- end }}
+                    {{- end }}                  {{- end }}
                 </div>
               </div>
               {{ if .Date }}
