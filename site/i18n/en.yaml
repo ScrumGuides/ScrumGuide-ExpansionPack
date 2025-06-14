@@ -71,7 +71,7 @@
 
 # Download page translations
 - id: download_page_title
-  translation: "Download the official {{ .Title }}"
+  translation: "Read & Download the official {{ .Title }}"
 
 - id: download_page_description
   translation: "{{ .Title }} is defined here by"
