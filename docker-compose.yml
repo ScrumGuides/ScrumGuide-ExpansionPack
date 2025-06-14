@@ -1,9 +1,0 @@
-services:
-  hugo:
-    image: hugomods/hugo
-    command: hugo server
-    working_dir: /site
-    ports:
-      - "1313:1313"
-    volumes:
-      - ./site:/site
