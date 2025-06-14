@@ -2,6 +2,11 @@
 
 This guide provides detailed information for developers working on the Scrum Guide Expansion Pack project.
 
+## 🌐 Live Sites for Reference
+
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org) - **Live production site**
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **Test environment with latest changes**
+
 ## Development Environment Setup
 
 ### Prerequisites

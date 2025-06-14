@@ -2,6 +2,11 @@
 
 Welcome to the documentation for the **Scrum Guide Expansion Pack** project. This documentation provides comprehensive information about the project structure, development workflow, and contribution guidelines.
 
+## 🌐 Live Sites
+
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org) - **Live production site**
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **Test your contributions here before they go live**
+
 ## Quick Navigation
 
 - [🚀 Getting Started](./getting-started.md)
