@@ -4,27 +4,12 @@
       <i class="fa-solid fa-globe"></i> {{ .Site.Language.LanguageName }}
     </a>
     <ul class="dropdown-menu">
-      {{- $defaultLang := $.Site.LanguageCode }}
-      {{- range .Site.Languages }}
-        {{- if ne .Lang $.Site.Language.Lang }}
-          {{- $langUrl := "" }}
-          {{- if $.IsHome }}
-            {{- $langUrl = printf "/%s/" .Lang }}
-            {{- if eq .Lang $defaultLang }}
-              {{- $langUrl = "/" }}
-            {{- end }}
-          {{- else }}
-            {{- $langUrl = printf "/%s%s" .Lang $.RelPermalink }}
-            {{- if eq .Lang $defaultLang }}
-              {{- $langUrl = $.RelPermalink }}
-            {{- end }}
-          {{- end }}
-          <li>
-            <a class="dropdown-item" href="{{ $langUrl }}">
-              {{ .LanguageName }}
-            </a>
-          </li>
-        {{- end }}
+      {{- range .Translations }}
+        <li>
+          <a class="dropdown-item" href="{{ .RelPermalink }}">
+            {{ .Language.LanguageName }}
+          </a>
+        </li>
       {{- end }}
     </ul>
   </li>
