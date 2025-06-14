@@ -186,46 +186,78 @@ function New-PDF {
         "--standalone"
     )
     
-    # Add font support for non-Latin scripts
-    # Use a more complete font configuration
+    # Configure fonts for proper multilingual support based on document language
     if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-        # For RTL languages, use Noto Sans Arabic as the main font with fallbacks
+        # For RTL languages, use Arabic font as primary with Latin fallback
         $pandocArgs += "--variable", "mainfont=Noto Sans Arabic"
+        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
         $pandocArgs += "--variable", "sansfont=Noto Sans Arabic"
-        $pandocArgs += "--variable", "monofont=Noto Sans Mono"
-        Write-Host "   🔤 Using Noto Sans Arabic as main font for RTL language: $LanguageCode" -ForegroundColor Gray
+        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
+        Write-Host "   🔤 Using Noto Sans Arabic as main font with DejaVu Sans fallback for RTL language: $LanguageCode" -ForegroundColor Gray
+    }
+    elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
+        # For CJK languages, use CJK font as primary with Latin fallback
+        $pandocArgs += "--variable", "mainfont=Noto Sans CJK SC"
+        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
+        $pandocArgs += "--variable", "sansfont=Noto Sans CJK SC"
+        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
+        Write-Host "   🔤 Using Noto Sans CJK SC as main font with DejaVu Sans fallback for CJK language: $LanguageCode" -ForegroundColor Gray
     }
     else {
-        # For Latin-based languages, use DejaVu Sans with Arabic as fallback
+        # For Latin-based languages, use DejaVu Sans as primary with Unicode fallbacks
         $pandocArgs += "--variable", "mainfont=DejaVu Sans"
         $pandocArgs += "--variable", "sansfont=DejaVu Sans"
         $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
+        # Add fallback fonts for other scripts that might appear in the document
         $pandocArgs += "--variable", "arabicfont=Noto Sans Arabic"
+        Write-Host "   🔤 Using DejaVu Sans as main font with Unicode fallbacks for language: $LanguageCode" -ForegroundColor Gray
     }
     
-    # Enable title page generation
+    # Enable comprehensive title page generation
     $pandocArgs += "--metadata", "titlepage=true"
+    $pandocArgs += "--metadata", "titlepage-color=135289"
+    $pandocArgs += "--metadata", "titlepage-text-color=FFFFFF"
+    $pandocArgs += "--metadata", "titlepage-rule-color=FFFFFF"
+    $pandocArgs += "--metadata", "titlepage-rule-height=2"
     
     # Add title metadata
     if ($Metadata.title) {
         $pandocArgs += "--metadata", "title=$($Metadata.title)"
+        # Also add subtitle for better formatting
+        $pandocArgs += "--metadata", "subtitle=Expansion Pack"
     }
     
-    # Add creator/author metadata
+    # Add creator/author metadata with proper formatting
     if ($Metadata.creator) {
         $creatorList = $Metadata.creator
         if ($creatorList -is [array]) {
             $creatorString = $creatorList -join ", "
+            # Add each author separately for better formatting
+            foreach ($author in $creatorList) {
+                $pandocArgs += "--metadata", "author=$author"
+            }
         }
         else {
             $creatorString = $creatorList.ToString()
+            $pandocArgs += "--metadata", "author=$creatorString"
         }
-        $pandocArgs += "--metadata", "author=$creatorString"
     }
     
     # Add description if available
     if ($Metadata.description) {
         $pandocArgs += "--metadata", "description=$($Metadata.description)"
+    }
+    
+    # Add additional metadata for better PDF properties
+    if ($Metadata.keywords) {
+        $keywordList = $Metadata.keywords
+        if ($keywordList -is [array]) {
+            $keywordString = $keywordList -join ", "
+        }
+        else {
+            $keywordString = $keywordList.ToString()
+        }
+        $pandocArgs += "--metadata", "keywords=$keywordString"
     }
     
     # Add language and direction metadata
