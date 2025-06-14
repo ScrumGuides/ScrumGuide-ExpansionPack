@@ -6,7 +6,7 @@ Generates PDF files for all non-English translations of the Scrum Guide Expansio
 .DESCRIPTION
 This script automatically detects all non-English guide translation files and generates 
 corresponding PDF files using pandoc with proper font support for non-Latin scripts. 
-Each PDF uses the document's built-in title and author information for proper mixed-script rendering.
+Each PDF uses the document's built-in title and site-wide creator information for proper mixed-script rendering.
 The script automatically regenerates PDFs when the source markdown files are updated.
 
 Features:
@@ -14,23 +14,37 @@ Features:
 - CJK language support (Chinese, Japanese, Korean) with xeCJK package
 - Mixed-script rendering with proper font fallbacks
 - Document-based title pages that handle multilingual content correctly
+- Site-wide creator list integration for cover pages
 - Automatic regeneration when source files are updated
 - Unicode support with XeLaTeX engine
+- Single language generation support
 
 .PARAMETER Force
 Overwrite existing PDF files if they exist
+
+.PARAMETER Language
+Generate PDF for a specific language code only (e.g., 'fa' for Farsi, 'tlh' for Klingon)
 
 .EXAMPLE
 .\Create-GuidePDFs.ps1
 
 .EXAMPLE
 .\Create-GuidePDFs.ps1 -Force
+
+.EXAMPLE
+.\Create-GuidePDFs.ps1 -Language fa
+
+.EXAMPLE
+.\Create-GuidePDFs.ps1 -Language tlh -Force
 #>
 
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $false)]
-    [switch]$Force
+    [switch]$Force,
+    
+    [Parameter(Mandatory = $false)]
+    [string]$Language
 )
 
 # Set error action preference
@@ -60,6 +74,24 @@ try {
 }
 catch {
     throw "Pandoc is required but not found. Please install pandoc: https://pandoc.org/installing.html"
+}
+
+# Check if XeLaTeX is available (required for Unicode and font support)
+try {
+    $xelatexCheck = Get-Command xelatex -ErrorAction Stop 2>$null
+    $xelatexVersion = & xelatex --version 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        throw "XeLaTeX command failed"
+    }
+    Write-Host "✅ Found XeLaTeX: $($xelatexVersion | Select-Object -First 1)" -ForegroundColor Green
+}
+catch {
+    Write-Host "⚠️  XeLaTeX not found. This is required for proper multilingual font support." -ForegroundColor Yellow
+    Write-Host "   Please install a LaTeX distribution like TeX Live or MiKTeX:" -ForegroundColor Yellow
+    Write-Host "   • Ubuntu/Debian: apt-get install texlive-xetex" -ForegroundColor Yellow
+    Write-Host "   • Windows: Install MiKTeX or TeX Live" -ForegroundColor Yellow
+    Write-Host "   • macOS: Install MacTeX" -ForegroundColor Yellow
+    throw "XeLaTeX is required for PDF generation but not found"
 }
 
 # Check if powershell-yaml module is available, if not, use manual parsing
@@ -167,13 +199,156 @@ function Get-Frontmatter {
     }
 }
 
+# Function to get site-wide creator list from Hugo content structure
+function Get-SiteCreators {
+    param([string]$SiteDir)
+    
+    $creatorsDir = Join-Path $SiteDir "content/creators"
+    $creators = @()
+    
+    if (-not (Test-Path $creatorsDir)) {
+        Write-Warning "Creators directory not found: $creatorsDir"
+        return $creators
+    }
+    
+    # Get all creator directories (exclude _index files)
+    $creatorDirs = Get-ChildItem -Path $creatorsDir -Directory
+    
+    foreach ($creatorDir in $creatorDirs) {
+        $indexFile = Join-Path $creatorDir.FullName "index.md"
+        
+        if (Test-Path $indexFile) {
+            $frontmatter = Get-Frontmatter -FilePath $indexFile
+            if ($frontmatter -and $frontmatter.title) {
+                $creators += $frontmatter.title.ToString().Trim('"')
+                Write-Host "   📋 Found creator: $($frontmatter.title)" -ForegroundColor Gray
+            }
+        }
+    }
+    
+    return $creators
+}
+
+# Function to test if a font is available on the system
+function Test-FontAvailable {
+    param([string]$FontName)
+    
+    try {
+        # Use fc-list on Linux/macOS or system font enumeration on Windows
+        if ($IsWindows -or $PSVersionTable.PSVersion.Major -lt 6) {
+            # On Windows, try to enumerate fonts using .NET Framework
+            try {
+                Add-Type -AssemblyName System.Drawing
+                $fonts = [System.Drawing.FontFamily]::Families
+                $fontExists = $fonts | Where-Object { $_.Name -eq $FontName }
+                return $null -ne $fontExists
+            }
+            catch {
+                # Fallback: assume common fonts are available
+                $commonFonts = @("Arial", "Times New Roman", "Calibri", "DejaVu Sans", "Liberation Sans")
+                return $FontName -in $commonFonts
+            }
+        }
+        else {
+            # On Linux/macOS, use fc-list to check for font availability
+            $fontCheck = & fc-list 2>$null | Select-String -Pattern "^[^:]*: $([regex]::Escape($FontName)):" -Quiet
+            if (-not $fontCheck) {
+                # Also try checking just the font name without style
+                $fontCheck = & fc-list 2>$null | Select-String -Pattern $([regex]::Escape($FontName)) -Quiet
+            }
+            return $fontCheck
+        }
+    }
+    catch {
+        Write-Host "   ⚠️  Could not verify font availability for: $FontName" -ForegroundColor Yellow
+        return $false
+    }
+}
+
+# Function to get the best available font for a language
+function Get-BestAvailableFont {
+    param(
+        [string]$LanguageCode,
+        [string]$FontType = "main"  # "main", "sans", "mono"
+    )
+    
+    # Define font preferences for different languages and types
+    $fontPreferences = @{
+        # RTL languages (Arabic, Farsi, Hebrew, Urdu)
+        "rtl" = @{
+            "main" = @("Noto Sans Arabic", "Arial Unicode MS", "Tahoma", "Arial", "DejaVu Sans", "Liberation Sans")
+            "sans" = @("Noto Sans Arabic", "Arial Unicode MS", "Tahoma", "Arial", "DejaVu Sans", "Liberation Sans") 
+            "mono" = @("Courier New", "DejaVu Sans Mono", "Liberation Mono", "Consolas")
+        }
+        # CJK languages
+        "cjk" = @{
+            "main" = @("Noto Sans CJK SC", "Microsoft YaHei", "SimSun", "Arial Unicode MS", "Arial", "DejaVu Sans", "Liberation Sans")
+            "sans" = @("Noto Sans CJK SC", "Microsoft YaHei", "SimSun", "Arial Unicode MS", "Arial", "DejaVu Sans", "Liberation Sans")
+            "mono" = @("Courier New", "DejaVu Sans Mono", "Liberation Mono", "Consolas")
+        }
+        # Latin-based languages
+        "latin" = @{
+            "main" = @("DejaVu Sans", "Arial", "Liberation Sans", "Calibri", "Tahoma")
+            "sans" = @("DejaVu Sans", "Arial", "Liberation Sans", "Calibri", "Tahoma")
+            "mono" = @("DejaVu Sans Mono", "Courier New", "Liberation Mono", "Consolas")
+        }
+    }
+    
+    # Determine language category
+    $category = "latin"  # default
+    if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
+        $category = "rtl"
+    }
+    elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
+        $category = "cjk"
+    }
+    
+    # Try fonts in order of preference
+    $candidates = $fontPreferences[$category][$FontType]
+    foreach ($font in $candidates) {
+        if (Test-FontAvailable -FontName $font) {
+            Write-Host "   ✅ Found available font: $font" -ForegroundColor Green
+            return $font
+        }
+        else {
+            Write-Host "   ❌ Font not available: $font" -ForegroundColor Red
+        }
+    }
+    
+    # Ultimate fallback to guaranteed available fonts
+    Write-Host "   ⚠️  No preferred fonts available, using ultimate fallback" -ForegroundColor Yellow
+    switch ($FontType) {
+        "mono" { 
+            # Try a few more mono fonts before giving up
+            $monoFallbacks = @("monospace", "Monaco", "Menlo")
+            foreach ($font in $monoFallbacks) {
+                if (Test-FontAvailable -FontName $font) {
+                    return $font
+                }
+            }
+            return "Courier" 
+        }
+        default { 
+            # For main and sans fonts, try system defaults
+            $sansFallbacks = @("sans-serif", "Arial", "Helvetica")
+            foreach ($font in $sansFallbacks) {
+                if (Test-FontAvailable -FontName $font) {
+                    return $font
+                }
+            }
+            return "serif"  # Last resort
+        }
+    }
+}
+
 # Function to generate PDF using pandoc
 function New-PDF {
     param(
         [string]$InputFile,
         [string]$OutputFile,
         [hashtable]$Metadata,
-        [string]$LanguageCode
+        [string]$LanguageCode,
+        [array]$SiteCreators = @()
     )
     
     Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
@@ -189,30 +364,49 @@ function New-PDF {
     )
     
     # Configure fonts for proper multilingual support based on document language
+    Write-Host "   🔍 Detecting available fonts for language: $LanguageCode" -ForegroundColor Gray
+    
+    # Get best available fonts for this language
+    $mainFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "main"
+    $sansFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "sans"
+    $monoFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "mono"
+    
+    # Configure fonts based on language category
     if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-        # For RTL languages, use Arabic font as primary with Latin fallback
-        $pandocArgs += "--variable", "mainfont=Noto Sans Arabic"
-        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=Noto Sans Arabic"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        Write-Host "   🔤 Using Noto Sans Arabic as main font with DejaVu Sans fallback for RTL language: $LanguageCode" -ForegroundColor Gray
+        # For RTL languages, configure proper font hierarchy
+        $pandocArgs += "--variable", "mainfont=$mainFont"
+        $pandocArgs += "--variable", "sansfont=$sansFont"
+        $pandocArgs += "--variable", "monofont=$monoFont"
+        
+        # Add Latin fallback font
+        $latinFont = Get-BestAvailableFont -LanguageCode "en" -FontType "main"
+        $pandocArgs += "--variable", "romanfont=$latinFont"
+        
+        Write-Host "   🔤 RTL language configuration - Main: $mainFont, Sans: $sansFont, Mono: $monoFont, Latin: $latinFont" -ForegroundColor Gray
     }
     elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
-        # For CJK languages, add xeCJK support and install packages if needed
-        $pandocArgs += "--variable", "CJKmainfont=Noto Sans CJK SC"
-        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=Noto Sans CJK SC"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        Write-Host "   🔤 Using Noto Sans CJK SC as main font with DejaVu Sans fallback for CJK language: $LanguageCode" -ForegroundColor Gray
+        # For CJK languages, use CJK-specific configuration
+        $pandocArgs += "--variable", "CJKmainfont=$mainFont"
+        $pandocArgs += "--variable", "sansfont=$sansFont"
+        $pandocArgs += "--variable", "monofont=$monoFont"
+        
+        # Add Latin fallback font
+        $latinFont = Get-BestAvailableFont -LanguageCode "en" -FontType "main"
+        $pandocArgs += "--variable", "romanfont=$latinFont"
+        
+        Write-Host "   🔤 CJK language configuration - CJKMain: $mainFont, Sans: $sansFont, Mono: $monoFont, Latin: $latinFont" -ForegroundColor Gray
     }
     else {
-        # For Latin-based languages, use DejaVu Sans as primary with Unicode fallbacks
-        $pandocArgs += "--variable", "mainfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=DejaVu Sans"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        # Add fallback fonts for other scripts that might appear in the document
-        $pandocArgs += "--variable", "arabicfont=Noto Sans Arabic"
-        Write-Host "   🔤 Using DejaVu Sans as main font with Unicode fallbacks for language: $LanguageCode" -ForegroundColor Gray
+        # For Latin-based languages, use standard configuration
+        $pandocArgs += "--variable", "mainfont=$mainFont"
+        $pandocArgs += "--variable", "sansfont=$sansFont"
+        $pandocArgs += "--variable", "monofont=$monoFont"
+        
+        # Add Arabic fallback for mixed-script documents
+        $arabicFont = Get-BestAvailableFont -LanguageCode "ar" -FontType "main"
+        $pandocArgs += "--variable", "arabicfont=$arabicFont"
+        
+        Write-Host "   🔤 Latin language configuration - Main: $mainFont, Sans: $sansFont, Mono: $monoFont, Arabic: $arabicFont" -ForegroundColor Gray
     }
     
     # Add title metadata for PDF properties only
@@ -220,17 +414,12 @@ function New-PDF {
         $pandocArgs += "--metadata", "title=$($Metadata.title)"
     }
     
-    # Don't add author metadata to avoid garbled bylines - the document contains its own author info
-    # if ($Metadata.creator) {
-    #     $creatorList = $Metadata.creator
-    #     if ($creatorList -is [array]) {
-    #         $creatorString = $creatorList -join ", "
-    #     }
-    #     else {
-    #         $creatorString = $creatorList.ToString()
-    #     }
-    #     $pandocArgs += "--metadata", "author=$creatorString"
-    # }
+    # Add author metadata using site-wide creators for cover page
+    if ($SiteCreators -and $SiteCreators.Count -gt 0) {
+        $creatorString = $SiteCreators -join ", "
+        $pandocArgs += "--metadata", "author=$creatorString"
+        Write-Host "   👥 Adding site creators to cover page: $creatorString" -ForegroundColor Gray
+    }
     
     # Add description if available
     if ($Metadata.description) {
@@ -283,15 +472,48 @@ function New-PDF {
 }
 
 # Find all guide translation files (exclude English index.md)
-$guideFiles = Get-ChildItem -Path $guideDir -Name "index.*.md"
+if ($Language) {
+    # Process specific language only
+    $targetFile = "index.$Language.md"
+    if (Test-Path (Join-Path $guideDir $targetFile)) {
+        $guideFiles = @($targetFile)
+        Write-Host "🎯 Processing specific language: $Language" -ForegroundColor Cyan
+    }
+    else {
+        Write-Error "❌ Language file not found: $targetFile in $guideDir"
+        exit 1
+    }
+}
+else {
+    # Process all non-English guide files
+    $allGuideFiles = Get-ChildItem -Path $guideDir -Name "index.*.md"
+    # Explicitly exclude English (index.en.md)
+    $guideFiles = $allGuideFiles | Where-Object { $_ -ne "index.en.md" }
+}
 
 if ($guideFiles.Count -eq 0) {
-    Write-Warning "⚠️  No non-English guide files found in $guideDir"
-    Write-Host "   Looking for files matching pattern: index.*.md" -ForegroundColor Yellow
+    if ($Language) {
+        Write-Warning "⚠️  No guide file found for language: $Language"
+    }
+    else {
+        Write-Warning "⚠️  No non-English guide files found in $guideDir"
+        Write-Host "   Looking for files matching pattern: index.*.md (excluding index.en.md)" -ForegroundColor Yellow
+    }
     exit 0
 }
 
-Write-Host "🔍 Found $($guideFiles.Count) non-English guide file(s):" -ForegroundColor Yellow
+# Get site-wide creators list
+Write-Host "👥 Extracting site-wide creator list..." -ForegroundColor Yellow
+$siteCreators = Get-SiteCreators -SiteDir $siteDir
+
+if ($siteCreators.Count -eq 0) {
+    Write-Warning "⚠️  No site creators found. Cover page will not include creator information."
+}
+else {
+    Write-Host "✅ Found $($siteCreators.Count) site creator(s): $($siteCreators -join ', ')" -ForegroundColor Green
+}
+
+Write-Host "🔍 Found $($guideFiles.Count) guide file(s) to process:" -ForegroundColor Yellow
 foreach ($file in $guideFiles) {
     Write-Host "   • $file" -ForegroundColor Gray
 }
@@ -336,15 +558,8 @@ foreach ($fileName in $guideFiles) {
         continue
     }
     
-    if (-not $frontmatter.creator) {
-        Write-Error "   ❌ Missing 'creator' field in frontmatter of $fileName"
-        $errorCount++
-        continue
-    }
-    
     Write-Host "   📋 Title: $($frontmatter.title)" -ForegroundColor Gray
-    $creatorDisplay = if ($frontmatter.creator -is [array]) { $frontmatter.creator -join ', ' } else { $frontmatter.creator }
-    Write-Host "   👥 Creators: $creatorDisplay" -ForegroundColor Gray
+    Write-Host "   👥 Site Creators: $($siteCreators -join ', ')" -ForegroundColor Gray
     
     # Define output file path
     $outputFileName = "scrum-guide-expansion-pack.$langCode.pdf"
@@ -379,7 +594,7 @@ foreach ($fileName in $guideFiles) {
     }
     
     # Generate PDF
-    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter -LanguageCode $langCode
+    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter -LanguageCode $langCode -SiteCreators $siteCreators
     
     if ($success) {
         $successCount++
