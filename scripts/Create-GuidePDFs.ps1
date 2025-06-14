@@ -76,6 +76,24 @@ catch {
     throw "Pandoc is required but not found. Please install pandoc: https://pandoc.org/installing.html"
 }
 
+# Check if XeLaTeX is available (required for Unicode and font support)
+try {
+    $xelatexCheck = Get-Command xelatex -ErrorAction Stop 2>$null
+    $xelatexVersion = & xelatex --version 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        throw "XeLaTeX command failed"
+    }
+    Write-Host "✅ Found XeLaTeX: $($xelatexVersion | Select-Object -First 1)" -ForegroundColor Green
+}
+catch {
+    Write-Host "⚠️  XeLaTeX not found. This is required for proper multilingual font support." -ForegroundColor Yellow
+    Write-Host "   Please install a LaTeX distribution like TeX Live or MiKTeX:" -ForegroundColor Yellow
+    Write-Host "   • Ubuntu/Debian: apt-get install texlive-xetex" -ForegroundColor Yellow
+    Write-Host "   • Windows: Install MiKTeX or TeX Live" -ForegroundColor Yellow
+    Write-Host "   • macOS: Install MacTeX" -ForegroundColor Yellow
+    throw "XeLaTeX is required for PDF generation but not found"
+}
+
 # Check if powershell-yaml module is available, if not, use manual parsing
 $useYamlModule = $false
 try {
@@ -211,6 +229,118 @@ function Get-SiteCreators {
     return $creators
 }
 
+# Function to test if a font is available on the system
+function Test-FontAvailable {
+    param([string]$FontName)
+    
+    try {
+        # Use fc-list on Linux/macOS or system font enumeration on Windows
+        if ($IsWindows -or $PSVersionTable.PSVersion.Major -lt 6) {
+            # On Windows, try to enumerate fonts using .NET Framework
+            try {
+                Add-Type -AssemblyName System.Drawing
+                $fonts = [System.Drawing.FontFamily]::Families
+                $fontExists = $fonts | Where-Object { $_.Name -eq $FontName }
+                return $null -ne $fontExists
+            }
+            catch {
+                # Fallback: assume common fonts are available
+                $commonFonts = @("Arial", "Times New Roman", "Calibri", "DejaVu Sans", "Liberation Sans")
+                return $FontName -in $commonFonts
+            }
+        }
+        else {
+            # On Linux/macOS, use fc-list to check for font availability
+            $fontCheck = & fc-list 2>$null | Select-String -Pattern "^[^:]*: $([regex]::Escape($FontName)):" -Quiet
+            if (-not $fontCheck) {
+                # Also try checking just the font name without style
+                $fontCheck = & fc-list 2>$null | Select-String -Pattern $([regex]::Escape($FontName)) -Quiet
+            }
+            return $fontCheck
+        }
+    }
+    catch {
+        Write-Host "   ⚠️  Could not verify font availability for: $FontName" -ForegroundColor Yellow
+        return $false
+    }
+}
+
+# Function to get the best available font for a language
+function Get-BestAvailableFont {
+    param(
+        [string]$LanguageCode,
+        [string]$FontType = "main"  # "main", "sans", "mono"
+    )
+    
+    # Define font preferences for different languages and types
+    $fontPreferences = @{
+        # RTL languages (Arabic, Farsi, Hebrew, Urdu)
+        "rtl" = @{
+            "main" = @("Noto Sans Arabic", "Arial Unicode MS", "Tahoma", "Arial", "DejaVu Sans", "Liberation Sans")
+            "sans" = @("Noto Sans Arabic", "Arial Unicode MS", "Tahoma", "Arial", "DejaVu Sans", "Liberation Sans") 
+            "mono" = @("Courier New", "DejaVu Sans Mono", "Liberation Mono", "Consolas")
+        }
+        # CJK languages
+        "cjk" = @{
+            "main" = @("Noto Sans CJK SC", "Microsoft YaHei", "SimSun", "Arial Unicode MS", "Arial", "DejaVu Sans", "Liberation Sans")
+            "sans" = @("Noto Sans CJK SC", "Microsoft YaHei", "SimSun", "Arial Unicode MS", "Arial", "DejaVu Sans", "Liberation Sans")
+            "mono" = @("Courier New", "DejaVu Sans Mono", "Liberation Mono", "Consolas")
+        }
+        # Latin-based languages
+        "latin" = @{
+            "main" = @("DejaVu Sans", "Arial", "Liberation Sans", "Calibri", "Tahoma")
+            "sans" = @("DejaVu Sans", "Arial", "Liberation Sans", "Calibri", "Tahoma")
+            "mono" = @("DejaVu Sans Mono", "Courier New", "Liberation Mono", "Consolas")
+        }
+    }
+    
+    # Determine language category
+    $category = "latin"  # default
+    if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
+        $category = "rtl"
+    }
+    elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
+        $category = "cjk"
+    }
+    
+    # Try fonts in order of preference
+    $candidates = $fontPreferences[$category][$FontType]
+    foreach ($font in $candidates) {
+        if (Test-FontAvailable -FontName $font) {
+            Write-Host "   ✅ Found available font: $font" -ForegroundColor Green
+            return $font
+        }
+        else {
+            Write-Host "   ❌ Font not available: $font" -ForegroundColor Red
+        }
+    }
+    
+    # Ultimate fallback to guaranteed available fonts
+    Write-Host "   ⚠️  No preferred fonts available, using ultimate fallback" -ForegroundColor Yellow
+    switch ($FontType) {
+        "mono" { 
+            # Try a few more mono fonts before giving up
+            $monoFallbacks = @("monospace", "Monaco", "Menlo")
+            foreach ($font in $monoFallbacks) {
+                if (Test-FontAvailable -FontName $font) {
+                    return $font
+                }
+            }
+            return "Courier" 
+        }
+        default { 
+            # For main and sans fonts, try system defaults
+            $sansFallbacks = @("sans-serif", "Arial", "Helvetica")
+            foreach ($font in $sansFallbacks) {
+                if (Test-FontAvailable -FontName $font) {
+                    return $font
+                }
+            }
+            return "serif"  # Last resort
+        }
+    }
+}
+
 # Function to generate PDF using pandoc
 function New-PDF {
     param(
@@ -234,30 +364,49 @@ function New-PDF {
     )
     
     # Configure fonts for proper multilingual support based on document language
+    Write-Host "   🔍 Detecting available fonts for language: $LanguageCode" -ForegroundColor Gray
+    
+    # Get best available fonts for this language
+    $mainFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "main"
+    $sansFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "sans"
+    $monoFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "mono"
+    
+    # Configure fonts based on language category
     if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-        # For RTL languages, use Arabic font as primary with Latin fallback
-        $pandocArgs += "--variable", "mainfont=Noto Sans Arabic"
-        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=Noto Sans Arabic"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        Write-Host "   🔤 Using Noto Sans Arabic as main font with DejaVu Sans fallback for RTL language: $LanguageCode" -ForegroundColor Gray
+        # For RTL languages, configure proper font hierarchy
+        $pandocArgs += "--variable", "mainfont=$mainFont"
+        $pandocArgs += "--variable", "sansfont=$sansFont"
+        $pandocArgs += "--variable", "monofont=$monoFont"
+        
+        # Add Latin fallback font
+        $latinFont = Get-BestAvailableFont -LanguageCode "en" -FontType "main"
+        $pandocArgs += "--variable", "romanfont=$latinFont"
+        
+        Write-Host "   🔤 RTL language configuration - Main: $mainFont, Sans: $sansFont, Mono: $monoFont, Latin: $latinFont" -ForegroundColor Gray
     }
     elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
-        # For CJK languages, add xeCJK support and install packages if needed
-        $pandocArgs += "--variable", "CJKmainfont=Noto Sans CJK SC"
-        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=Noto Sans CJK SC"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        Write-Host "   🔤 Using Noto Sans CJK SC as main font with DejaVu Sans fallback for CJK language: $LanguageCode" -ForegroundColor Gray
+        # For CJK languages, use CJK-specific configuration
+        $pandocArgs += "--variable", "CJKmainfont=$mainFont"
+        $pandocArgs += "--variable", "sansfont=$sansFont"
+        $pandocArgs += "--variable", "monofont=$monoFont"
+        
+        # Add Latin fallback font
+        $latinFont = Get-BestAvailableFont -LanguageCode "en" -FontType "main"
+        $pandocArgs += "--variable", "romanfont=$latinFont"
+        
+        Write-Host "   🔤 CJK language configuration - CJKMain: $mainFont, Sans: $sansFont, Mono: $monoFont, Latin: $latinFont" -ForegroundColor Gray
     }
     else {
-        # For Latin-based languages, use DejaVu Sans as primary with Unicode fallbacks
-        $pandocArgs += "--variable", "mainfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=DejaVu Sans"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        # Add fallback fonts for other scripts that might appear in the document
-        $pandocArgs += "--variable", "arabicfont=Noto Sans Arabic"
-        Write-Host "   🔤 Using DejaVu Sans as main font with Unicode fallbacks for language: $LanguageCode" -ForegroundColor Gray
+        # For Latin-based languages, use standard configuration
+        $pandocArgs += "--variable", "mainfont=$mainFont"
+        $pandocArgs += "--variable", "sansfont=$sansFont"
+        $pandocArgs += "--variable", "monofont=$monoFont"
+        
+        # Add Arabic fallback for mixed-script documents
+        $arabicFont = Get-BestAvailableFont -LanguageCode "ar" -FontType "main"
+        $pandocArgs += "--variable", "arabicfont=$arabicFont"
+        
+        Write-Host "   🔤 Latin language configuration - Main: $mainFont, Sans: $sansFont, Mono: $monoFont, Arabic: $arabicFont" -ForegroundColor Gray
     }
     
     # Add title metadata for PDF properties only
