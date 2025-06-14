@@ -5,8 +5,15 @@ Generates PDF files for all non-English translations of the Scrum Guide Expansio
 
 .DESCRIPTION
 This script automatically detects all non-English guide translation files and generates 
-corresponding PDF files using pandoc. Each PDF includes a cover page with title and 
-creator information from the file's frontmatter metadata.
+corresponding PDF files using pandoc with proper font support for non-Latin scripts. 
+Each PDF includes a cover page with title and creator information from the file's frontmatter metadata.
+The script automatically regenerates PDFs when the source markdown files are updated.
+
+Features:
+- Proper font support for RTL languages (Farsi, Arabic, Hebrew, Urdu)
+- Cover page generation with title, author, and date
+- Automatic regeneration when source files are updated
+- Unicode support with XeLaTeX engine
 
 .PARAMETER Force
 Overwrite existing PDF files if they exist
@@ -163,12 +170,13 @@ function New-PDF {
     param(
         [string]$InputFile,
         [string]$OutputFile,
-        [hashtable]$Metadata
+        [hashtable]$Metadata,
+        [string]$LanguageCode
     )
     
     Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
     
-    # Build pandoc command with metadata
+    # Build pandoc command with metadata and proper font support
     $pandocArgs = @(
         $InputFile
         "-o", $OutputFile
@@ -178,12 +186,32 @@ function New-PDF {
         "--standalone"
     )
     
+    # Add font support for non-Latin scripts
+    # Use a more complete font configuration
+    if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
+        # For RTL languages, use Noto Sans Arabic as the main font with fallbacks
+        $pandocArgs += "--variable", "mainfont=Noto Sans Arabic"
+        $pandocArgs += "--variable", "sansfont=Noto Sans Arabic"
+        $pandocArgs += "--variable", "monofont=Noto Sans Mono"
+        Write-Host "   🔤 Using Noto Sans Arabic as main font for RTL language: $LanguageCode" -ForegroundColor Gray
+    }
+    else {
+        # For Latin-based languages, use DejaVu Sans with Arabic as fallback
+        $pandocArgs += "--variable", "mainfont=DejaVu Sans"
+        $pandocArgs += "--variable", "sansfont=DejaVu Sans"
+        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
+        $pandocArgs += "--variable", "arabicfont=Noto Sans Arabic"
+    }
+    
+    # Enable title page generation
+    $pandocArgs += "--metadata", "titlepage=true"
+    
     # Add title metadata
     if ($Metadata.title) {
         $pandocArgs += "--metadata", "title=$($Metadata.title)"
     }
     
-    # Add creator metadata
+    # Add creator/author metadata
     if ($Metadata.creator) {
         $creatorList = $Metadata.creator
         if ($creatorList -is [array]) {
@@ -199,6 +227,21 @@ function New-PDF {
     if ($Metadata.description) {
         $pandocArgs += "--metadata", "description=$($Metadata.description)"
     }
+    
+    # Add language and direction metadata
+    if ($LanguageCode) {
+        $pandocArgs += "--metadata", "lang=$LanguageCode"
+        
+        # Set RTL direction for RTL languages
+        if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
+            $pandocArgs += "--metadata", "dir=rtl"
+            Write-Host "   ➡️ Setting RTL direction for language: $LanguageCode" -ForegroundColor Gray
+        }
+    }
+    
+    # Add current date
+    $currentDate = Get-Date -Format "yyyy-MM-dd"
+    $pandocArgs += "--metadata", "date=$currentDate"
     
     try {
         & pandoc @pandocArgs
@@ -286,14 +329,36 @@ foreach ($fileName in $guideFiles) {
     $outputFileName = "scrum-guide-expansion-pack.$langCode.pdf"
     $outputFile = Join-Path $pdfOutputDir $outputFileName
     
-    # Check if file exists and Force flag
-    if ((Test-Path $outputFile) -and -not $Force) {
-        Write-Warning "   ⚠️  PDF already exists: $outputFileName (use -Force to overwrite)"
+    # Check if we need to generate/regenerate the PDF
+    $shouldGenerate = $true
+    if (Test-Path $outputFile) {
+        if ($Force) {
+            Write-Host "   🔄 Force flag specified, regenerating PDF" -ForegroundColor Yellow
+        }
+        else {
+            # Compare modification times
+            $sourceModified = (Get-Item $inputFile).LastWriteTime
+            $pdfModified = (Get-Item $outputFile).LastWriteTime
+            
+            if ($sourceModified -le $pdfModified) {
+                Write-Host "   ⏭️  PDF is up to date (source: $($sourceModified.ToString('yyyy-MM-dd HH:mm')), PDF: $($pdfModified.ToString('yyyy-MM-dd HH:mm')))" -ForegroundColor Yellow
+                $shouldGenerate = $false
+            }
+            else {
+                Write-Host "   🔄 Source file newer than PDF, regenerating (source: $($sourceModified.ToString('yyyy-MM-dd HH:mm')), PDF: $($pdfModified.ToString('yyyy-MM-dd HH:mm')))" -ForegroundColor Yellow
+            }
+        }
+    }
+    else {
+        Write-Host "   📝 PDF does not exist, generating new PDF" -ForegroundColor Yellow
+    }
+    
+    if (-not $shouldGenerate) {
         continue
     }
     
     # Generate PDF
-    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter
+    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter -LanguageCode $langCode
     
     if ($success) {
         $successCount++
