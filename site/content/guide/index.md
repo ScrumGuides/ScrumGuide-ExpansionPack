@@ -9,6 +9,7 @@ keywords:
   - Scrum in complex environments
   - Scrum and AI
 date: 2025-06-11T09:00:00Z
+slug: scrum-guide-expansion-pack
 type: guide
 guide_whatis: |
   The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing; fast.

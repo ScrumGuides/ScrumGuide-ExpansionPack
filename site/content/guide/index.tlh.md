@@ -9,6 +9,7 @@ keywords:
   - QIpyuS ghu'QeD
   - QIpyuS je valbogh De'wI'
 date: 2025-06-11T09:00:00Z
+slug: scrum-guide-expansion-pack
 type: guide
 guide_whatis: |
   **QIpyuS pa'Daq jIbuS** chenmoHlu', vaj malja' wIchenmoHtaHmeH mIw wIchoHtaH; nom.
