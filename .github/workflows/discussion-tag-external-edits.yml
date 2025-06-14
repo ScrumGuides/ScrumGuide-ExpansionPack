@@ -1,0 +1,99 @@
+name: Tag External Edits
+
+on:
+  discussion:
+    types: [created, edited]
+
+permissions:
+  discussions: write
+  contents: read
+
+jobs:
+  tag_external_edit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if actor is organization member
+        id: check_member
+        shell: pwsh
+        run: |
+          $org = '${{ github.repository_owner }}'
+          $actor = '${{ github.actor }}'
+          $token = '${{ secrets.GITHUB_TOKEN }}'
+          
+          # Check organization membership
+          $memberUri = "https://api.github.com/orgs/$org/members/$actor"
+          try {
+            $memberResp = Invoke-RestMethod -Uri $memberUri `
+                            -Headers @{Authorization = "Bearer $token"; 'User-Agent' = 'github-actions'} `
+                            -Method Get -ErrorAction Stop
+            $isMember = $true
+          } catch {
+            $isMember = $false
+          }
+          
+          # Check if user is a collaborator on the repository
+          $collabUri = "https://api.github.com/repos/${{ github.repository }}/collaborators/$actor"
+          try {
+            $collabResp = Invoke-RestMethod -Uri $collabUri `
+                            -Headers @{Authorization = "Bearer $token"; 'User-Agent' = 'github-actions'} `
+                            -Method Get -ErrorAction Stop
+            $isCollaborator = $true
+          } catch {
+            $isCollaborator = $false
+          }
+          
+          # Set output based on membership or collaborator status
+          $isContributor = $isMember -or $isCollaborator
+          Write-Output "is_contributor=$isContributor" >> $env:GITHUB_OUTPUT
+          Write-Output "Actor: $actor"
+          Write-Output "Is organization member: $isMember"
+          Write-Output "Is repository collaborator: $isCollaborator"
+          Write-Output "Is contributor: $isContributor"
+
+      - name: Add 'creator_review_required' label if external contributor
+        if: steps.check_member.outputs.is_contributor == 'False'
+        shell: pwsh
+        run: |
+          $repo = '${{ github.repository }}'
+          $num = ${{ github.event.discussion.number }}
+          $token = '${{ secrets.GITHUB_TOKEN }}'
+          
+          # Get current labels
+          $labelsUri = "https://api.github.com/repos/$repo/discussions/$num/labels"
+          try {
+            $existing = Invoke-RestMethod -Uri $labelsUri `
+                         -Headers @{Authorization="Bearer $token"; 'User-Agent'='github-actions'} `
+                         -Method Get
+          } catch {
+            Write-Output "Could not retrieve existing labels: $_"
+            $existing = @()
+          }
+          
+          # Check if label already exists
+          $hasLabel = $existing | Where-Object { $_.name -eq 'creator_review_required' }
+          
+          if (-not $hasLabel) {
+            Write-Output "Adding 'creator_review_required' label to discussion #$num"
+            try {
+              # Add the label - note: GitHub's API expects an array of label names
+              $body = @{
+                labels = @('creator_review_required')
+              } | ConvertTo-Json -Depth 2
+              
+              $response = Invoke-RestMethod -Uri $labelsUri `
+                -Headers @{
+                  Authorization="Bearer $token"
+                  'User-Agent'='github-actions'
+                  'Content-Type'='application/json'
+                } `
+                -Method Post `
+                -Body $body
+              Write-Output "Successfully added label"
+            } catch {
+              Write-Output "Failed to add label: $_"
+              Write-Output "Response: $($_.Exception.Response.StatusCode)"
+            }
+          } else {
+            Write-Output "Label 'creator_review_required' already exists on discussion #$num"
+          }
