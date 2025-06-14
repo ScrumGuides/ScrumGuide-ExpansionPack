@@ -178,6 +178,9 @@ function New-PDF {
     
     Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
     
+    # Get the template path
+    $templatePath = Join-Path $scriptDir "mixed-language-template.latex"
+    
     # Build pandoc command with metadata and proper font support
     $pandocArgs = @(
         $InputFile
@@ -185,52 +188,32 @@ function New-PDF {
         "--from", "markdown"
         "--to", "pdf"
         "--pdf-engine", "xelatex"
+        "--template", $templatePath
         "--standalone"
     )
     
-    # Configure fonts for proper multilingual support based on document language
-    if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-        # For RTL languages, use Arabic font as primary with Latin fallback
-        $pandocArgs += "--variable", "mainfont=Noto Sans Arabic"
-        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=Noto Sans Arabic"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        Write-Host "   🔤 Using Noto Sans Arabic as main font with DejaVu Sans fallback for RTL language: $LanguageCode" -ForegroundColor Gray
-    }
-    elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
-        # For CJK languages, add xeCJK support and install packages if needed
-        $pandocArgs += "--variable", "CJKmainfont=Noto Sans CJK SC"
-        $pandocArgs += "--variable", "romanfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=Noto Sans CJK SC"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        Write-Host "   🔤 Using Noto Sans CJK SC as main font with DejaVu Sans fallback for CJK language: $LanguageCode" -ForegroundColor Gray
-    }
-    else {
-        # For Latin-based languages, use DejaVu Sans as primary with Unicode fallbacks
-        $pandocArgs += "--variable", "mainfont=DejaVu Sans"
-        $pandocArgs += "--variable", "sansfont=DejaVu Sans"
-        $pandocArgs += "--variable", "monofont=DejaVu Sans Mono"
-        # Add fallback fonts for other scripts that might appear in the document
-        $pandocArgs += "--variable", "arabicfont=Noto Sans Arabic"
-        Write-Host "   🔤 Using DejaVu Sans as main font with Unicode fallbacks for language: $LanguageCode" -ForegroundColor Gray
-    }
-    
-    # Add title metadata for PDF properties only
+    # Add title metadata for PDF properties and template
     if ($Metadata.title) {
         $pandocArgs += "--metadata", "title=$($Metadata.title)"
+        $pandocArgs += "--metadata", "title-meta=$($Metadata.title)"
     }
     
-    # Don't add author metadata to avoid garbled bylines - the document contains its own author info
-    # if ($Metadata.creator) {
-    #     $creatorList = $Metadata.creator
-    #     if ($creatorList -is [array]) {
-    #         $creatorString = $creatorList -join ", "
-    #     }
-    #     else {
-    #         $creatorString = $creatorList.ToString()
-    #     }
-    #     $pandocArgs += "--metadata", "author=$creatorString"
-    # }
+    # Add author metadata for the title page
+    if ($Metadata.creator) {
+        $creatorList = $Metadata.creator
+        if ($creatorList -is [array]) {
+            foreach ($creator in $creatorList) {
+                $pandocArgs += "--metadata", "author=$creator"
+            }
+            $creatorString = $creatorList -join ", "
+        }
+        else {
+            $creatorString = $creatorList.ToString()
+            $pandocArgs += "--metadata", "author=$creatorString"
+        }
+        $pandocArgs += "--metadata", "author-meta=$creatorString"
+        Write-Host "   👥 Adding authors: $creatorString" -ForegroundColor Gray
+    }
     
     # Add description if available
     if ($Metadata.description) {
@@ -249,14 +232,33 @@ function New-PDF {
         $pandocArgs += "--metadata", "keywords=$keywordString"
     }
     
-    # Add language and direction metadata
+    # Configure language-specific settings
     if ($LanguageCode) {
         $pandocArgs += "--metadata", "lang=$LanguageCode"
         
-        # Set RTL direction for RTL languages
+        # Configure fonts and direction for specific language families
         if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
+            # RTL languages with mixed Arabic and Latin scripts
             $pandocArgs += "--metadata", "dir=rtl"
+            $pandocArgs += "--metadata", "lang-fa=true"
+            $pandocArgs += "--metadata", "polyglossia-lang.name=arabic"
+            $pandocArgs += "--metadata", "polyglossia-lang.options=numerals=mashriq"
+            Write-Host "   🔤 Configuring mixed Arabic/Latin font support for RTL language: $LanguageCode" -ForegroundColor Gray
             Write-Host "   ➡️ Setting RTL direction for language: $LanguageCode" -ForegroundColor Gray
+        }
+        elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
+            # CJK languages
+            $pandocArgs += "--metadata", "mainfont=Noto Sans CJK SC"
+            $pandocArgs += "--metadata", "sansfont=Noto Sans CJK SC" 
+            $pandocArgs += "--metadata", "monofont=DejaVu Sans Mono"
+            Write-Host "   🔤 Using Noto Sans CJK SC for CJK language: $LanguageCode" -ForegroundColor Gray
+        }
+        else {
+            # Latin-based languages
+            $pandocArgs += "--metadata", "mainfont=DejaVu Sans"
+            $pandocArgs += "--metadata", "sansfont=DejaVu Sans"
+            $pandocArgs += "--metadata", "monofont=DejaVu Sans Mono"
+            Write-Host "   🔤 Using DejaVu Sans for Latin-based language: $LanguageCode" -ForegroundColor Gray
         }
     }
     

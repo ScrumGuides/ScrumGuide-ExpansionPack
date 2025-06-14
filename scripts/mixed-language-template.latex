@@ -1,0 +1,214 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+% Essential packages
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+% Font support for XeLaTeX
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+
+% Set main fonts for mixed-language documents
+$if(lang-fa)$
+% For Persian/Arabic with Latin mixed text - use Arabic font as primary
+\setmainfont{Noto Sans Arabic}[
+  BoldFont=Noto Sans Arabic Bold
+]
+
+% Set Latin font for English text
+\newfontfamily\latintext{Noto Sans}[
+  BoldFont=Noto Sans Bold,
+  ItalicFont=Noto Sans Italic,
+  BoldItalicFont=Noto Sans Bold Italic
+]
+
+% Configure for RTL text support
+\XeTeXlinebreaklocale "fa"
+\XeTeXlinebreakskip = 0pt plus 1pt
+$else$
+% Default Latin font setup for other languages
+$if(mainfont)$
+\setmainfont{$mainfont$}[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]
+$else$
+\setmainfont{DejaVu Sans}[
+  BoldFont=DejaVu Sans Bold,
+  ItalicFont=DejaVu Sans Oblique,
+  BoldItalicFont=DejaVu Sans Bold Oblique
+]
+$endif$
+$endif$
+
+$if(sansfont)$
+\setsansfont{$sansfont$}[$for(sansfontoptions)$$sansfontoptions$$sep$,$endfor$]
+$endif$
+
+$if(monofont)$
+\setmonofont{$monofont$}[$for(monofontoptions)$$monofontoptions$$sep$,$endfor$]
+$else$
+\setmonofont{DejaVu Sans Mono}
+$endif$
+
+% Additional packages
+
+% Define tightlist for pandoc compatibility
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Define other pandoc-specific commands
+\providecommand{\passthrough}[1]{#1}
+
+% Set up page headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{$title-meta$}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Title page styling
+\pretitle{\begin{center}\Huge\bfseries}
+\posttitle{\par\end{center}\vskip 2em}
+\preauthor{\begin{center}\Large}
+\postauthor{\end{center}}
+\predate{\begin{center}\large}
+\postdate{\par\end{center}}
+
+% Custom title page
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 3em%
+  \begin{center}%
+    {\Huge\bfseries $title$ \par}%
+    \vskip 2em%
+    $if(subtitle)$
+    {\Large $subtitle$ \par}%
+    \vskip 1em%
+    $endif$
+    $if(author)$
+    {\large 
+     \lineskip .75em%
+     \begin{tabular}[t]{c}%
+       $for(author)$$author$$sep$ \\ $endfor$
+     \end{tabular}\par}%
+    \vskip 1em%
+    $endif$
+    $if(date)$
+    {\large $date$ \par}%
+    $endif$
+    \vskip 2em%
+    $if(description)$
+    \begin{minipage}{0.8\textwidth}
+    \centering
+    \textit{$description$}
+    \end{minipage}
+    $endif$
+  \end{center}%
+  \par
+  \vskip 3em%
+  \newpage
+}
+\makeatother
+
+% Document metadata
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+% Hyperref setup (should be near the end)
+\usepackage{hyperref}
+\hypersetup{
+$if(title-meta)$
+  pdftitle={$title-meta$},
+$endif$
+$if(author-meta)$
+  pdfauthor={$author-meta$},
+$endif$
+$if(lang)$
+  pdflang={$lang$},
+$endif$
+$if(subject)$
+  pdfsubject={$subject$},
+$endif$
+$if(keywords)$
+  pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
+$endif$
+$if(colorlinks)$
+  colorlinks=true,
+  linkcolor=$if(linkcolor)$$linkcolor$$else$Maroon$endif$,
+  filecolor=$if(filecolor)$$filecolor$$else$Maroon$endif$,
+  citecolor=$if(citecolor)$$citecolor$$else$Blue$endif$,
+  urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
+$else$
+  hidelinks,
+$endif$
+  pdfcreator={LaTeX via pandoc}}
+
+\begin{document}
+
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+
+$if(title)$
+\maketitle
+$endif$
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+$if(toc)$
+{
+$if(toc-title)$
+\renewcommand*\contentsname{$toc-title$}
+$endif$
+\tableofcontents
+}
+$endif$
+
+$if(lot)$
+\listoftables
+$endif$
+
+$if(lof)$
+\listoffigures
+$endif$
+
+$if(linestretch)$
+\setstretch{$linestretch$}
+$endif$
+
+$if(has-frontmatter)$
+\mainmatter
+$endif$
+
+$body$
+
+$if(has-frontmatter)$
+\backmatter
+$endif$
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+\end{document}
