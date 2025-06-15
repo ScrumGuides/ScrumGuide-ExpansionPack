@@ -220,13 +220,83 @@ function Get-SiteCreators {
         if (Test-Path $indexFile) {
             $frontmatter = Get-Frontmatter -FilePath $indexFile
             if ($frontmatter -and $frontmatter.title) {
-                $creators += $frontmatter.title.ToString().Trim('"')
-                Write-Host "   📋 Found creator: $($frontmatter.title)" -ForegroundColor Gray
+                $creatorName = $frontmatter.title.ToString().Trim('"')
+                $imagePath = ""
+                
+                # Look for image file - check frontmatter first, then search directory
+                if ($frontmatter.image) {
+                    $imageFileName = $frontmatter.image.ToString().Trim('"')
+                    $imageFile = Join-Path $creatorDir.FullName $imageFileName
+                    if (Test-Path $imageFile) {
+                        $imagePath = $imageFile
+                        Write-Host "   🖼️  Found image from frontmatter: $imageFileName" -ForegroundColor Gray
+                    }
+                }
+                
+                # If no image in frontmatter or file not found, search for common image extensions
+                if (-not $imagePath) {
+                    $imageExtensions = @("*.jpg", "*.jpeg", "*.png", "*.gif", "*.webp")
+                    foreach ($ext in $imageExtensions) {
+                        $foundImages = Get-ChildItem -Path $creatorDir.FullName -Name $ext
+                        if ($foundImages.Count -gt 0) {
+                            $imagePath = Join-Path $creatorDir.FullName $foundImages[0]
+                            Write-Host "   🖼️  Found image by search: $($foundImages[0])" -ForegroundColor Gray
+                            break
+                        }
+                    }
+                }
+                
+                if (-not $imagePath) {
+                    Write-Host "   ⚠️  No image found for creator: $creatorName" -ForegroundColor Yellow
+                }
+                
+                $creatorObj = @{
+                    Name = $creatorName
+                    ImagePath = $imagePath
+                    Directory = $creatorDir.FullName
+                }
+                
+                $creators += $creatorObj
+                Write-Host "   📋 Found creator: $creatorName" -ForegroundColor Gray
             }
         }
     }
     
     return $creators
+}
+
+# Function to generate LaTeX creator variables for template
+function New-CreatorVariables {
+    param(
+        [array]$Creators,
+        [string]$GuideDir
+    )
+    
+    if (-not $Creators -or $Creators.Count -eq 0) {
+        return @{}
+    }
+    
+    Write-Host "   📋 Generating creator variables for $($Creators.Count) creator(s)" -ForegroundColor Gray
+    
+    $creatorNames = @()
+    
+    foreach ($creator in $Creators) {
+        $creatorNames += $creator.Name
+        Write-Host "   👤 Adding creator: $($creator.Name)" -ForegroundColor Gray
+    }
+    
+    $variables = @{}
+    
+    if ($creatorNames.Count -gt 0) {
+        # Create a single string with all creators separated by spacing
+        $creatorString = $creatorNames -join " \hspace{2em} "
+        $variables["creators-list"] = $creatorString
+        $variables["creator-count"] = $creatorNames.Count
+        
+        Write-Host "   📋 Created LaTeX variable with all creators: $creatorString" -ForegroundColor Gray
+    }
+    
+    return $variables
 }
 
 # Function to test if a font is available on the system
@@ -348,20 +418,47 @@ function New-PDF {
         [string]$OutputFile,
         [hashtable]$Metadata,
         [string]$LanguageCode,
-        [array]$SiteCreators = @()
+        [array]$SiteCreators = @(),
+        [string]$ScriptDir
     )
     
     Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
     
+    # Check if template exists
+    $templatePath = Join-Path $ScriptDir "scrum-guide-expansion-pack-template.tex"
+    if (-not (Test-Path $templatePath)) {
+        Write-Warning "   ⚠️  LaTeX template not found: $templatePath"
+        Write-Host "   📝 Proceeding without custom template" -ForegroundColor Yellow
+        $useTemplate = $false
+    } else {
+        Write-Host "   📋 Using LaTeX template: $(Split-Path $templatePath -Leaf)" -ForegroundColor Gray
+        $useTemplate = $true
+    }
+    
+    # Generate creator variables for LaTeX template if we have creators with images
+    $creatorVariables = @{}
+    if ($SiteCreators -and $SiteCreators.Count -gt 0) {
+        $guideDir = Split-Path $InputFile -Parent
+        $creatorVariables = New-CreatorVariables -Creators $SiteCreators -GuideDir $guideDir
+    }
+    
+    # Use original input file directly - no cover content in markdown
+    $tempInputFile = $InputFile
+    
     # Build pandoc command with metadata and proper font support
     $pandocArgs = @(
-        $InputFile
+        $tempInputFile
         "-o", $OutputFile
         "--from", "markdown"
         "--to", "pdf"
         "--pdf-engine", "xelatex"
         "--standalone"
     )
+    
+    # Add template if available
+    if ($useTemplate) {
+        $pandocArgs += "--template", $templatePath
+    }
     
     # Configure fonts for proper multilingual support based on document language
     Write-Host "   🔍 Detecting available fonts for language: $LanguageCode" -ForegroundColor Gray
@@ -416,9 +513,27 @@ function New-PDF {
     
     # Add author metadata using site-wide creators for cover page
     if ($SiteCreators -and $SiteCreators.Count -gt 0) {
-        $creatorString = $SiteCreators -join ", "
-        $pandocArgs += "--metadata", "author=$creatorString"
-        Write-Host "   👥 Adding site creators to cover page: $creatorString" -ForegroundColor Gray
+        # Extract creator names from creator objects
+        $creatorNames = @()
+        foreach ($creator in $SiteCreators) {
+            if ($creator -is [hashtable] -and $creator.Name) {
+                $creatorNames += $creator.Name
+            } elseif ($creator -is [string]) {
+                $creatorNames += $creator
+            }
+        }
+        
+        if ($creatorNames.Count -gt 0) {
+            $creatorString = $creatorNames -join ", "
+            $pandocArgs += "--metadata", "author=$creatorString"
+            Write-Host "   👥 Adding site creators to cover page: $creatorString" -ForegroundColor Gray
+        }
+        
+        # Add creator variables for LaTeX template
+        foreach ($key in $creatorVariables.Keys) {
+            $pandocArgs += "--variable", "$key=$($creatorVariables[$key])"
+            Write-Host "   📋 Added LaTeX variable: $key" -ForegroundColor Gray
+        }
     }
     
     # Add description if available
@@ -438,15 +553,15 @@ function New-PDF {
         $pandocArgs += "--metadata", "keywords=$keywordString"
     }
     
-    # Add language and direction metadata
+    # Add language metadata (without direction for now to avoid package conflicts)
     if ($LanguageCode) {
         $pandocArgs += "--metadata", "lang=$LanguageCode"
         
-        # Set RTL direction for RTL languages
-        if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-            $pandocArgs += "--metadata", "dir=rtl"
-            Write-Host "   ➡️ Setting RTL direction for language: $LanguageCode" -ForegroundColor Gray
-        }
+        # Note: RTL direction disabled temporarily due to package conflicts
+        # if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
+        #     $pandocArgs += "--metadata", "dir=rtl"
+        #     Write-Host "   ➡️ Setting RTL direction for language: $LanguageCode" -ForegroundColor Gray
+        # }
     }
     
     # Add current date
@@ -457,18 +572,23 @@ function New-PDF {
         & pandoc @pandocArgs
         if ($LASTEXITCODE -eq 0) {
             Write-Host "   ✅ Successfully generated: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Green
-            return $true
+            $success = $true
         }
         else {
             Write-Error "   ❌ Pandoc failed with exit code: $LASTEXITCODE"
-            return $false
+            $success = $false
         }
     }
     catch {
         $errorMsg = $PSItem.Exception.Message
         Write-Error "   ❌ Failed to run pandoc`: $errorMsg"
-        return $false
+        $success = $false
     }
+    finally {
+        # No temporary file cleanup needed since we use original file directly
+    }
+    
+    return $success
 }
 
 # Find all guide translation files (exclude English index.md)
@@ -510,7 +630,16 @@ if ($siteCreators.Count -eq 0) {
     Write-Warning "⚠️  No site creators found. Cover page will not include creator information."
 }
 else {
-    Write-Host "✅ Found $($siteCreators.Count) site creator(s): $($siteCreators -join ', ')" -ForegroundColor Green
+    # Display creator names
+    $creatorNames = @()
+    foreach ($creator in $siteCreators) {
+        if ($creator -is [hashtable] -and $creator.Name) {
+            $creatorNames += $creator.Name
+        } elseif ($creator -is [string]) {
+            $creatorNames += $creator
+        }
+    }
+    Write-Host "✅ Found $($siteCreators.Count) site creator(s): $($creatorNames -join ', ')" -ForegroundColor Green
 }
 
 Write-Host "🔍 Found $($guideFiles.Count) guide file(s) to process:" -ForegroundColor Yellow
@@ -559,7 +688,17 @@ foreach ($fileName in $guideFiles) {
     }
     
     Write-Host "   📋 Title: $($frontmatter.title)" -ForegroundColor Gray
-    Write-Host "   👥 Site Creators: $($siteCreators -join ', ')" -ForegroundColor Gray
+    
+    # Display creator names
+    $creatorNames = @()
+    foreach ($creator in $siteCreators) {
+        if ($creator -is [hashtable] -and $creator.Name) {
+            $creatorNames += $creator.Name
+        } elseif ($creator -is [string]) {
+            $creatorNames += $creator
+        }
+    }
+    Write-Host "   👥 Site Creators: $($creatorNames -join ', ')" -ForegroundColor Gray
     
     # Define output file path
     $outputFileName = "scrum-guide-expansion-pack.$langCode.pdf"
@@ -594,7 +733,7 @@ foreach ($fileName in $guideFiles) {
     }
     
     # Generate PDF
-    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter -LanguageCode $langCode -SiteCreators $siteCreators
+    $success = New-PDF -InputFile $inputFile -OutputFile $outputFile -Metadata $frontmatter -LanguageCode $langCode -SiteCreators $siteCreators -ScriptDir $scriptDir
     
     if ($success) {
         $successCount++
