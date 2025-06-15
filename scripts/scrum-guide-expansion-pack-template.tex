@@ -106,8 +106,24 @@ $endif$
     \vspace{1.5cm}
     $endif$
     
-    % Creators section - will be handled in markdown content
-    \vspace{2cm}
+    % Creators section
+    $if(author)$
+    \vspace{1cm}
+    {\Large\textbf{Creators} \par}
+    \vspace{0.5cm}
+    
+    $if(creator-count)$
+    % Display creators horizontally
+    \begin{center}
+    {\large\textbf{$creator-name-1$}$if(creator-name-2)$ \quad \textbf{$creator-name-2$}$endif$$if(creator-name-3)$ \quad \textbf{$creator-name-3$}$endif$}
+    \end{center}
+    $else$
+    % Fallback to text-only creators
+    \begin{center}
+    {\large $author$ \par}
+    \end{center}
+    $endif$
+    $endif$
     
     \vfill
     

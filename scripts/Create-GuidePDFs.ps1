@@ -265,80 +265,55 @@ function Get-SiteCreators {
     return $creators
 }
 
-# Function to generate cover content with creator images
-function New-CoverContent {
+# Function to generate LaTeX creator variables for template
+function New-CreatorVariables {
     param(
         [array]$Creators,
-        [string]$ScriptDir,
         [string]$GuideDir
     )
     
     if (-not $Creators -or $Creators.Count -eq 0) {
-        return ""
+        return @{}
     }
     
-    Write-Host "   📋 Generating cover content for $($Creators.Count) creator(s)" -ForegroundColor Gray
+    Write-Host "   📋 Generating creator variables for $($Creators.Count) creator(s)" -ForegroundColor Gray
     
-    $coverContent = ""
     $creatorImages = @()
     $creatorNames = @()
+    $creatorsWithImages = @()
     
     foreach ($creator in $Creators) {
         if ($creator.ImagePath -and (Test-Path $creator.ImagePath)) {
-            # Use absolute path for pandoc with proper attribute syntax
-            $imagePath = $creator.ImagePath
-            $creatorImages += "![]($imagePath)"
+            # Convert absolute path to relative path from the guide directory
+            $relativePath = [System.IO.Path]::GetRelativePath($GuideDir, $creator.ImagePath)
+            $relativePath = $relativePath -replace '\\', '/'
+            $creatorImages += $relativePath
             $creatorNames += $creator.Name
-            Write-Host "   🖼️  Adding image for $($creator.Name): $imagePath" -ForegroundColor Gray
+            $creatorsWithImages += $creator
+            Write-Host "   🖼️  Adding image for $($creator.Name): $relativePath" -ForegroundColor Gray
         } else {
             Write-Host "   ⚠️  No image found for creator: $($creator.Name)" -ForegroundColor Yellow
-            # Still add the name
+            # Still add the name but without image
             $creatorNames += $creator.Name
         }
     }
     
-    # Generate cover content with horizontally aligned images
-    if ($creatorNames.Count -gt 0) {
-        $coverContent += "`n`n<!-- Cover Page Creator Information -->`n"
-        $coverContent += "## Creators`n`n"
-        
-        if ($creatorImages.Count -gt 0) {
-            # Use HTML table for better control over layout
-            $coverContent += '<div style="text-align: center;">' + "`n"
-            $coverContent += '<table style="margin: 0 auto; border: none;">' + "`n"
-            $coverContent += '<tr style="border: none;">' + "`n"
-            
-            # Add images
-            for ($i = 0; $i -lt $creatorImages.Count; $i++) {
-                $coverContent += '<td style="border: none; text-align: center; padding: 10px;">' + "`n"
-                $coverContent += '<img src="' + $Creators[$i].ImagePath + '" width="100px" style="border-radius: 50%; max-width: 100px;" alt="' + $creatorNames[$i] + '">' + "`n"
-                $coverContent += '</td>' + "`n"
-            }
-            $coverContent += '</tr>' + "`n"
-            $coverContent += '<tr style="border: none;">' + "`n"
-            
-            # Add names below images
-            for ($i = 0; $i -lt $creatorNames.Count; $i++) {
-                $coverContent += '<td style="border: none; text-align: center; padding: 5px;">' + "`n"
-                $coverContent += '<strong>' + $creatorNames[$i] + '</strong>' + "`n"
-                $coverContent += '</td>' + "`n"
-            }
-            
-            $coverContent += '</tr>' + "`n"
-            $coverContent += '</table>' + "`n"
-            $coverContent += '</div>' + "`n"
-        } else {
-            # Fallback to simple list if no images
-            foreach ($name in $creatorNames) {
-                $coverContent += "- **$name**`n"
+    $variables = @{}
+    
+    if ($creatorImages.Count -gt 0) {
+        # Store individual creator information for the template to process
+        for ($i = 0; $i -lt $creatorNames.Count; $i++) {
+            $variables["creator-name-$($i+1)"] = $creatorNames[$i]
+            if ($i -lt $creatorImages.Count) {
+                $variables["creator-image-$($i+1)"] = $creatorImages[$i]
             }
         }
+        $variables["creator-count"] = $creatorNames.Count
         
-        $coverContent += "`n<!-- End Cover Page Creator Information -->`n`n"
-        $coverContent += "\\newpage`n`n"  # Page break before main content
+        Write-Host "   📋 Created LaTeX variables for $($creatorNames.Count) creators" -ForegroundColor Gray
     }
     
-    return $coverContent
+    return $variables
 }
 
 # Function to test if a font is available on the system
@@ -477,22 +452,15 @@ function New-PDF {
         $useTemplate = $true
     }
     
-    # Generate cover content if we have creators with images
-    $coverContent = ""
+    # Generate creator variables for LaTeX template if we have creators with images
+    $creatorVariables = @{}
     if ($SiteCreators -and $SiteCreators.Count -gt 0) {
         $guideDir = Split-Path $InputFile -Parent
-        $coverContent = New-CoverContent -Creators $SiteCreators -ScriptDir $ScriptDir -GuideDir $guideDir
+        $creatorVariables = New-CreatorVariables -Creators $SiteCreators -GuideDir $guideDir
     }
     
-    # Create temporary input file that includes cover content
+    # Use original input file directly - no cover content in markdown
     $tempInputFile = $InputFile
-    if ($coverContent) {
-        $tempInputFile = [System.IO.Path]::GetTempFileName() + ".md"
-        $originalContent = Get-Content -Path $InputFile -Raw
-        $combinedContent = $coverContent + $originalContent
-        Set-Content -Path $tempInputFile -Value $combinedContent -Encoding UTF8
-        Write-Host "   📄 Created temporary input file with cover content" -ForegroundColor Gray
-    }
     
     # Build pandoc command with metadata and proper font support
     $pandocArgs = @(
@@ -577,6 +545,12 @@ function New-PDF {
             $pandocArgs += "--metadata", "author=$creatorString"
             Write-Host "   👥 Adding site creators to cover page: $creatorString" -ForegroundColor Gray
         }
+        
+        # Add creator variables for LaTeX template
+        foreach ($key in $creatorVariables.Keys) {
+            $pandocArgs += "--variable", "$key=$($creatorVariables[$key])"
+            Write-Host "   📋 Added LaTeX variable: $key" -ForegroundColor Gray
+        }
     }
     
     # Add description if available
@@ -628,11 +602,7 @@ function New-PDF {
         $success = $false
     }
     finally {
-        # Clean up temporary file if we created one
-        if ($tempInputFile -ne $InputFile -and (Test-Path $tempInputFile)) {
-            Remove-Item $tempInputFile -Force -ErrorAction SilentlyContinue
-            Write-Host "   🧹 Cleaned up temporary file" -ForegroundColor Gray
-        }
+        # No temporary file cleanup needed since we use original file directly
     }
     
     return $success
