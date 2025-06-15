@@ -112,10 +112,10 @@ $endif$
     {\Large\textbf{Creators} \par}
     \vspace{0.5cm}
     
-    $if(creator-count)$
-    % Display creators horizontally
+    $if(creators-list)$
+    % Display creators horizontally using the combined list
     \begin{center}
-    {\large\textbf{$creator-name-1$}$if(creator-name-2)$ \quad \textbf{$creator-name-2$}$endif$$if(creator-name-3)$ \quad \textbf{$creator-name-3$}$endif$}
+    {\large\textbf{$creators-list$}}
     \end{center}
     $else$
     % Fallback to text-only creators

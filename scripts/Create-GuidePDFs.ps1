@@ -278,39 +278,22 @@ function New-CreatorVariables {
     
     Write-Host "   📋 Generating creator variables for $($Creators.Count) creator(s)" -ForegroundColor Gray
     
-    $creatorImages = @()
     $creatorNames = @()
-    $creatorsWithImages = @()
     
     foreach ($creator in $Creators) {
-        if ($creator.ImagePath -and (Test-Path $creator.ImagePath)) {
-            # Convert absolute path to relative path from the guide directory
-            $relativePath = [System.IO.Path]::GetRelativePath($GuideDir, $creator.ImagePath)
-            $relativePath = $relativePath -replace '\\', '/'
-            $creatorImages += $relativePath
-            $creatorNames += $creator.Name
-            $creatorsWithImages += $creator
-            Write-Host "   🖼️  Adding image for $($creator.Name): $relativePath" -ForegroundColor Gray
-        } else {
-            Write-Host "   ⚠️  No image found for creator: $($creator.Name)" -ForegroundColor Yellow
-            # Still add the name but without image
-            $creatorNames += $creator.Name
-        }
+        $creatorNames += $creator.Name
+        Write-Host "   👤 Adding creator: $($creator.Name)" -ForegroundColor Gray
     }
     
     $variables = @{}
     
-    if ($creatorImages.Count -gt 0) {
-        # Store individual creator information for the template to process
-        for ($i = 0; $i -lt $creatorNames.Count; $i++) {
-            $variables["creator-name-$($i+1)"] = $creatorNames[$i]
-            if ($i -lt $creatorImages.Count) {
-                $variables["creator-image-$($i+1)"] = $creatorImages[$i]
-            }
-        }
+    if ($creatorNames.Count -gt 0) {
+        # Create a single string with all creators separated by spacing
+        $creatorString = $creatorNames -join " \hspace{2em} "
+        $variables["creators-list"] = $creatorString
         $variables["creator-count"] = $creatorNames.Count
         
-        Write-Host "   📋 Created LaTeX variables for $($creatorNames.Count) creators" -ForegroundColor Gray
+        Write-Host "   📋 Created LaTeX variable with all creators: $creatorString" -ForegroundColor Gray
     }
     
     return $variables
