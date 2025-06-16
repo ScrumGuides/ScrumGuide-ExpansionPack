@@ -495,134 +495,17 @@ function New-PDF {
         [string]$LanguageCode,
         [array]$SiteCreators = @(),
         [string]$ScriptDir
-    )
-    Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
+    )    Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
     
-    # Generate creator variables for LaTeX template if we have creators with images
-    $creatorVariables = @{}
-    if ($SiteCreators -and $SiteCreators.Count -gt 0) {
-        $guideDir = Split-Path $InputFile -Parent
-        $creatorVariables = New-CreatorVariables -Creators $SiteCreators -GuideDir $guideDir
-    }
-    # Use original input file directly - no cover content in markdown
-    $tempInputFile = $InputFile
-    
-    # Build pandoc command with metadata and proper font support
+    # Build simple pandoc command - frontmatter handles everything
     $pandocArgs = @(
-        $tempInputFile
+        $InputFile,
+        "--pdf-engine=xelatex",
         "-o", $OutputFile
-        "--from", "markdown"
-        "--to", "pdf"
-        "--pdf-engine", "xelatex"
-        "--pdf-engine-opt", "-halt-on-error"
-        "--pdf-engine-opt", "-interaction=errorstopmode"
-        "--standalone"
     )
     
-    # Add simple template
-    $simpleTemplatePath = Join-Path $PSScriptRoot "simple-template.tex"
-    if (Test-Path $simpleTemplatePath) {
-        $pandocArgs += "--template", $simpleTemplatePath
-        Write-Host "   📋 Using simple LaTeX template: simple-template.tex" -ForegroundColor Gray
-    }
-    # Add cover page via before-body injection
-    $coverPagePath = Join-Path $PSScriptRoot "cover-page.tex"
-    if (Test-Path $coverPagePath) {
-        $pandocArgs += "--include-before-body", $coverPagePath
-        Write-Host "   📄 Adding cover page via before-body injection: cover-page.tex" -ForegroundColor Gray
-    }# Configure fonts for proper multilingual support based on document language
-    Write-Host "   🔍 Pandoc will read frontmatter automatically from markdown file" -ForegroundColor Gray
-    
-    # Only provide fallback font configuration for languages that might not have frontmatter
-    # Pandoc will use frontmatter values if they exist, otherwise these fallbacks apply
-    if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-        Write-Host "   🌐 Setting RTL language fallbacks for: $LanguageCode" -ForegroundColor Gray
-        
-        # Fallback Arabic font families for polyglossia (only used if not in frontmatter)
-        $arabicFont = Get-BestAvailableFont -LanguageCode "ar" -FontType "main"
-        $pandocArgs += "--variable", "arabicfont=$arabicFont"
-        $pandocArgs += "--variable", "arabicfontsf=$arabicFont"
-        
-        Write-Host "   🔤 RTL fallback fonts - Arabic: $arabicFont" -ForegroundColor Gray    
-    }
-    elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
-        # For CJK languages, provide fallback fonts
-        Write-Host "   🌐 Setting CJK language fallbacks for: $LanguageCode" -ForegroundColor Gray
-        
-        # Fallback CJK fonts (only used if not specified in frontmatter)
-        $cjkFont = Get-BestAvailableFont -LanguageCode "zh" -FontType "main"
-        $pandocArgs += "--variable", "CJKmainfont=$cjkFont"
-        
-        # Add Latin fallback font
-        $latinFont = Get-BestAvailableFont -LanguageCode "en" -FontType "main"
-        $pandocArgs += "--variable", "romanfont=$latinFont"
-        
-        Write-Host "   🔤 CJK fallback fonts - CJK: $cjkFont, Latin: $latinFont" -ForegroundColor Gray
-    }
-    else {
-        # For Latin-based languages, provide fallback fonts
-        Write-Host "   🌐 Setting Latin language fallbacks for: $LanguageCode" -ForegroundColor Gray
-        
-        # Add Arabic fallback for mixed-script documents
-        $arabicFont = Get-BestAvailableFont -LanguageCode "ar" -FontType "main"
-        $pandocArgs += "--variable", "arabicfont=$arabicFont"
-        
-        Write-Host "   🔤 Latin fallback fonts - Arabic: $arabicFont" -ForegroundColor Gray
-    }
-    
-    # Add title metadata for PDF properties only
-    if ($Metadata.title) {
-        $pandocArgs += "--metadata", "title=$($Metadata.title)"
-    }
-    
-    # Add author metadata using site-wide creators for cover page
-    if ($SiteCreators -and $SiteCreators.Count -gt 0) {
-        # Extract creator names from creator objects
-        $creatorNames = @()
-        foreach ($creator in $SiteCreators) {
-            if ($creator -is [hashtable] -and $creator.Name) {
-                $creatorNames += $creator.Name
-            }
-            elseif ($creator -is [string]) {
-                $creatorNames += $creator
-            }
-        }
-        
-        if ($creatorNames.Count -gt 0) {
-            $creatorString = $creatorNames -join ", "
-            $pandocArgs += "--metadata", "author=$creatorString"
-            Write-Host "   👥 Adding site creators to cover page: $creatorString" -ForegroundColor Gray
-        }
-        
-        # Add creator variables for LaTeX template
-        foreach ($key in $creatorVariables.Keys) {
-            $pandocArgs += "--variable", "$key=$($creatorVariables[$key])"
-            Write-Host "   📋 Added LaTeX variable: $key" -ForegroundColor Gray
-        }
-    }
-    
-    # Add description if available
-    if ($Metadata.description) {
-        $pandocArgs += "--metadata", "description=$($Metadata.description)"
-    }
-    
-    # Add additional metadata for better PDF properties
-    if ($Metadata.keywords) {
-        $keywordList = $Metadata.keywords
-        if ($keywordList -is [array]) {
-            $keywordString = $keywordList -join ", "
-        }
-        else {
-            $keywordString = $keywordList.ToString()
-        }
-        $pandocArgs += "--metadata", "keywords=$keywordString"    
-    }
-    
-    # Language and fonts are now handled by frontmatter automatically
-    # Add current date
-    $currentDate = Get-Date -Format "yyyy-MM-dd"
-    $pandocArgs += "--metadata", "date=$currentDate"
-    
+    Write-Host "   � Using frontmatter from markdown file for all PDF formatting" -ForegroundColor Gray    
+    # Execute simple pandoc command - frontmatter handles everything
     try {
         & pandoc @pandocArgs
         if ($LASTEXITCODE -eq 0) {

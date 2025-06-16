@@ -20,8 +20,8 @@ contributors:
 type: guide
 lang: fa
 dir: rtl
-mainfont: "Times New Roman"
-sansfont: "Arial"
+mainfont: "Tahoma"
+sansfont: "Tahoma"
 monofont: "Courier New"
 pdf-engine: xelatex
 guide_whatis: |
