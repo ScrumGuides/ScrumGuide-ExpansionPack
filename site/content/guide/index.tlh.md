@@ -8,7 +8,7 @@ keywords:
   - QIn malja' chenmoH
   - QIpyuS ghu'QeD
   - QIpyuS je valbogh De'wI'
-creator:
+author:
   - Ralph Jocham
   - John Coleman
   - Jeff Sutherland
@@ -20,7 +20,6 @@ dir: ltr
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-pdf-engine: xelatex
 guide_whatis: |
   **QIpyuS pa'Daq jIbuS** chenmoHlu', vaj malja' wIchenmoHtaHmeH mIw wIchoHtaH; nom.
 

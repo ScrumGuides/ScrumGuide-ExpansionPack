@@ -8,7 +8,7 @@ keywords:
   - empirical product development
   - Scrum in complex environments
   - Scrum and AI
-creator:
+author:
   - Ralph Jocham
   - John Coleman
   - Jeff Sutherland
@@ -16,11 +16,9 @@ date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
 type: guide
 lang: en
-dir: ltr
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-pdf-engine: xelatex
 guide_whatis: |
   The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing; fast.
 
