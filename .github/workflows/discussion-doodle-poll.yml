@@ -1,0 +1,320 @@
+---
+name: Auto-Create Doodle Poll from Tagged Discussion
+
+on:
+  discussion:
+    types: ["edited"]
+
+permissions:
+  discussions: write
+  contents: read
+
+env:
+  TRIGGER_TAG: ${{ vars.DOODLE_TRIGGER_TAG || 'schedule-meeting' }}
+
+jobs:
+  create_doodle_poll:
+    runs-on: ubuntu-latest
+    if: github.event.action == 'edited'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check if schedule-meeting tag was added
+        id: check_tag
+        shell: pwsh
+        run: |
+          $repo = '${{ github.repository }}'
+          $discussionNumber = ${{ github.event.discussion.number }}
+          $token = '${{ secrets.GITHUB_TOKEN }}'
+          $triggerTag = '${{ env.TRIGGER_TAG }}'
+          
+          Write-Output "Checking for newly added tag: $triggerTag"
+          Write-Output "Discussion number: $discussionNumber"
+          
+          # Get current discussion labels
+          $labelsUri = "https://api.github.com/repos/$repo/discussions/$discussionNumber/labels"
+          try {
+            $currentLabels = Invoke-RestMethod -Uri $labelsUri `
+                           -Headers @{Authorization = "Bearer $token"; 'User-Agent' = 'github-actions'} `
+                           -Method Get
+            
+            $hasTargetTag = $currentLabels | Where-Object { $_.name -eq $triggerTag }
+            
+            if ($hasTargetTag) {
+              Write-Output "Target tag '$triggerTag' is present in current labels"
+              
+              # Check if tag was present before the edit by looking at the previous version
+              # For now, we'll use a simple approach: check if a comment already exists with our signature
+              $commentsUri = "https://api.github.com/repos/$repo/discussions/$discussionNumber/comments"
+              try {
+                $comments = Invoke-RestMethod -Uri $commentsUri `
+                           -Headers @{Authorization = "Bearer $token"; 'User-Agent' = 'github-actions'} `
+                           -Method Get
+                
+                $existingPollComment = $comments | Where-Object { $_.body -match "📅 A Doodle poll has been created" }
+                
+                if ($existingPollComment) {
+                  Write-Output "Doodle poll comment already exists - skipping to maintain idempotency"
+                  echo "should_create_poll=false" >> $env:GITHUB_OUTPUT
+                  echo "skip_reason=Poll already exists" >> $env:GITHUB_OUTPUT
+                } else {
+                  Write-Output "Target tag present and no existing poll found - proceeding with poll creation"
+                  echo "should_create_poll=true" >> $env:GITHUB_OUTPUT
+                }
+              } catch {
+                Write-Output "Error checking existing comments: $_"
+                echo "should_create_poll=true" >> $env:GITHUB_OUTPUT
+              }
+            } else {
+              Write-Output "Target tag '$triggerTag' not found in current labels - skipping"
+              echo "should_create_poll=false" >> $env:GITHUB_OUTPUT
+              echo "skip_reason=Target tag not present" >> $env:GITHUB_OUTPUT
+            }
+          } catch {
+            Write-Output "Error retrieving discussion labels: $_"
+            echo "should_create_poll=false" >> $env:GITHUB_OUTPUT
+            echo "skip_reason=Error retrieving labels" >> $env:GITHUB_OUTPUT
+          }
+
+      - name: Extract discussion metadata
+        id: extract_metadata
+        if: steps.check_tag.outputs.should_create_poll == 'true'
+        shell: pwsh
+        run: |
+          $title = '${{ github.event.discussion.title }}'
+          $body = '${{ github.event.discussion.body }}'
+          $authorUrl = '${{ github.event.discussion.user.html_url }}'
+          $discussionUrl = '${{ github.event.discussion.html_url }}'
+          
+          # Extract @mentions from the body
+          $mentions = @()
+          if ($body) {
+            $mentionPattern = '@(\w+)'
+            $matches = [regex]::Matches($body, $mentionPattern)
+            $mentions = $matches | ForEach-Object { $_.Groups[1].Value }
+          }
+          
+          # Clean and prepare metadata
+          $cleanTitle = $title -replace '"', '\"'
+          $cleanBody = $body -replace '"', '\"' -replace '\r?\n', ' '
+          $mentionsList = $mentions -join ', '
+          
+          Write-Output "Poll title: $cleanTitle"
+          Write-Output "Poll description preview: $($cleanBody.Substring(0, [Math]::Min(100, $cleanBody.Length)))..."
+          Write-Output "Mentioned users: $mentionsList"
+          
+          # Set outputs for use in next step
+          echo "title=$cleanTitle" >> $env:GITHUB_OUTPUT
+          echo "body=$cleanBody" >> $env:GITHUB_OUTPUT
+          echo "mentions=$mentionsList" >> $env:GITHUB_OUTPUT
+          echo "discussion_url=$discussionUrl" >> $env:GITHUB_OUTPUT
+          echo "author_url=$authorUrl" >> $env:GITHUB_OUTPUT
+
+      - name: Load time options configuration
+        id: load_config
+        if: steps.check_tag.outputs.should_create_poll == 'true'
+        shell: pwsh
+        run: |
+          $configPath = ".github/doodle-times.json"
+          
+          if (Test-Path $configPath) {
+            Write-Output "Loading time options from $configPath"
+            $config = Get-Content $configPath | ConvertFrom-Json
+            
+            # Process time options and replace date placeholders
+            $timeOptions = @()
+            $today = Get-Date
+            
+            foreach ($option in $config.timeOptions) {
+              $targetDate = switch ($option.date) {
+                "{{TODAY_PLUS_1}}" { $today.AddDays(1).ToString("yyyy-MM-dd") }
+                "{{TODAY_PLUS_2}}" { $today.AddDays(2).ToString("yyyy-MM-dd") }
+                "{{TODAY_PLUS_3}}" { $today.AddDays(3).ToString("yyyy-MM-dd") }
+                default { $option.date }
+              }
+              
+              foreach ($time in $option.times) {
+                $timeComponents = $time.Split(':')
+                $hour = [int]$timeComponents[0]
+                $minute = [int]$timeComponents[1]
+                $endHour = $hour + 1
+                $endHourStr = $endHour.ToString("00")
+                $minuteStr = $minute.ToString("00")
+                $timeOptions += @{
+                  start = "${targetDate}T${time}:00.000Z"
+                  end = "${targetDate}T${endHourStr}:${minuteStr}:00.000Z"
+                }
+              }
+            }
+            
+            $timeOptionsJson = $timeOptions | ConvertTo-Json -Compress
+            Write-Output "Generated time options: $timeOptionsJson"
+            echo "time_options=$timeOptionsJson" >> $env:GITHUB_OUTPUT
+            echo "timezone=$($config.timezone)" >> $env:GITHUB_OUTPUT
+          } else {
+            Write-Output "Configuration file not found, using default time options"
+            # Default: next 3 days at 10:00, 14:00, 16:00 UTC
+            $today = Get-Date
+            $defaultOptions = @()
+            for ($i = 1; $i -le 3; $i++) {
+              $date = $today.AddDays($i).ToString("yyyy-MM-dd")
+              $defaultOptions += @{
+                start = "${date}T10:00:00.000Z"
+                end = "${date}T11:00:00.000Z"
+              }
+              $defaultOptions += @{
+                start = "${date}T14:00:00.000Z"
+                end = "${date}T15:00:00.000Z"
+              }
+              $defaultOptions += @{
+                start = "${date}T16:00:00.000Z"
+                end = "${date}T17:00:00.000Z"
+              }
+            }
+            $defaultOptionsJson = $defaultOptions | ConvertTo-Json -Compress
+            Write-Output "Using default time options: $defaultOptionsJson"
+            echo "time_options=$defaultOptionsJson" >> $env:GITHUB_OUTPUT
+            echo "timezone=UTC" >> $env:GITHUB_OUTPUT
+          }
+
+      - name: Create Doodle poll
+        id: create_poll
+        if: steps.check_tag.outputs.should_create_poll == 'true'
+        shell: pwsh
+        run: |
+          $doodleToken = '${{ secrets.DOODLE_API_TOKEN }}'
+          $title = '${{ steps.extract_metadata.outputs.title }}'
+          $body = '${{ steps.extract_metadata.outputs.body }}'
+          $timeOptions = '${{ steps.load_config.outputs.time_options }}' | ConvertFrom-Json
+          $discussionUrl = '${{ steps.extract_metadata.outputs.discussion_url }}'
+          
+          if (-not $doodleToken) {
+            Write-Output "ERROR: DOODLE_API_TOKEN secret is not configured"
+            Write-Output "Please configure the DOODLE_API_TOKEN secret in your repository settings"
+            exit 1
+          }
+          
+          # Prepare Doodle API request
+          $pollData = @{
+            title = $title
+            description = "Discussion: $discussionUrl`n`n$body"
+            type = "DATE"
+            timeZone = '${{ steps.load_config.outputs.timezone }}'
+            options = $timeOptions
+            settings = @{
+              askForEmail = $false
+              askForPhone = $false
+              askForAddress = $false
+              hidden = $false
+              limitPerOption = 0
+            }
+          }
+          
+          $pollJson = $pollData | ConvertTo-Json -Depth 10
+          Write-Output "Creating Doodle poll with data:"
+          Write-Output $pollJson
+          
+          try {
+            $headers = @{
+              'Authorization' = "Bearer $doodleToken"
+              'Content-Type' = 'application/json'
+              'User-Agent' = 'ScrumGuide-ExpansionPack-GitHub-Action'
+            }
+            
+            $response = Invoke-RestMethod -Uri "https://api.doodle.com/v1/polls" `
+                       -Method POST `
+                       -Headers $headers `
+                       -Body $pollJson
+            
+            $pollId = $response.id
+            $pollUrl = "https://doodle.com/poll/$pollId"
+            
+            Write-Output "Successfully created Doodle poll!"
+            Write-Output "Poll ID: $pollId"
+            Write-Output "Poll URL: $pollUrl"
+            
+            echo "poll_id=$pollId" >> $env:GITHUB_OUTPUT
+            echo "poll_url=$pollUrl" >> $env:GITHUB_OUTPUT
+            echo "success=true" >> $env:GITHUB_OUTPUT
+            
+          } catch {
+            Write-Output "ERROR: Failed to create Doodle poll"
+            Write-Output "Error details: $_"
+            Write-Output "Response: $($_.Exception.Response)"
+            
+            # For testing purposes, create a mock URL if API fails
+            $mockUrl = "https://doodle.com/poll/mock-poll-for-testing"
+            Write-Output "Using mock poll URL for testing: $mockUrl"
+            echo "poll_url=$mockUrl" >> $env:GITHUB_OUTPUT
+            echo "success=false" >> $env:GITHUB_OUTPUT
+            echo "error_message=$_" >> $env:GITHUB_OUTPUT
+          }
+
+      - name: Post comment on discussion
+        if: steps.check_tag.outputs.should_create_poll == 'true'
+        shell: pwsh
+        run: |
+          $repo = '${{ github.repository }}'
+          $discussionNumber = ${{ github.event.discussion.number }}
+          $token = '${{ secrets.GITHUB_TOKEN }}'
+          $pollUrl = '${{ steps.create_poll.outputs.poll_url }}'
+          $success = '${{ steps.create_poll.outputs.success }}'
+          $errorMessage = '${{ steps.create_poll.outputs.error_message }}'
+          
+          # Prepare comment content
+          if ($success -eq 'true') {
+            $commentBody = "📅 A Doodle poll has been created to coordinate this discussion: [Vote on a time]($pollUrl)`n`n*This poll was automatically created when the ``${{ env.TRIGGER_TAG }}`` tag was added to this discussion.*"
+          } else {
+            $commentBody = "⚠️ Failed to create Doodle poll automatically.`n`nError: $errorMessage`n`n*You may need to create a poll manually or check the DOODLE_API_TOKEN configuration.*"
+          }
+          
+          # Post comment
+          $commentsUri = "https://api.github.com/repos/$repo/discussions/$discussionNumber/comments"
+          $commentData = @{
+            body = $commentBody
+          } | ConvertTo-Json
+          
+          try {
+            $response = Invoke-RestMethod -Uri $commentsUri `
+                       -Headers @{
+                         Authorization = "Bearer $token"
+                         'User-Agent' = 'github-actions'
+                         'Content-Type' = 'application/json'
+                       } `
+                       -Method POST `
+                       -Body $commentData
+            
+            Write-Output "Successfully posted comment on discussion #$discussionNumber"
+            Write-Output "Comment URL: $($response.html_url)"
+            
+          } catch {
+            Write-Output "ERROR: Failed to post comment on discussion"
+            Write-Output "Error details: $_"
+            exit 1
+          }
+
+      - name: Summary
+        if: always()
+        shell: pwsh
+        run: |
+          $shouldCreate = '${{ steps.check_tag.outputs.should_create_poll }}'
+          $skipReason = '${{ steps.check_tag.outputs.skip_reason }}'
+          $success = '${{ steps.create_poll.outputs.success }}'
+          $pollUrl = '${{ steps.create_poll.outputs.poll_url }}'
+          
+          Write-Output "=== Doodle Poll Automation Summary ==="
+          Write-Output "Discussion: #${{ github.event.discussion.number }}"
+          Write-Output "Trigger tag: ${{ env.TRIGGER_TAG }}"
+          Write-Output "Should create poll: $shouldCreate"
+          
+          if ($shouldCreate -eq 'false') {
+            Write-Output "Reason for skipping: $skipReason"
+          } else {
+            Write-Output "Poll creation success: $success"
+            if ($pollUrl) {
+              Write-Output "Poll URL: $pollUrl"
+            }
+          }
+          Write-Output "=================================="
