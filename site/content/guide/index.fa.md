@@ -18,6 +18,12 @@ contributors:
   - name: Pooya Sabramooz
     link: https://sabramooz.ir
 type: guide
+lang: fa
+dir: rtl
+mainfont: "Times New Roman"
+sansfont: "Arial"
+monofont: "Courier New"
+pdf-engine: xelatex
 guide_whatis: |
   **بسته گسترش‌یافته راهنمای اسکرام** وجود دارد زیرا روش ساخت محصولات ما دائماً در حال تغییر است؛ سریع.
 

@@ -15,6 +15,12 @@ creator:
 date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
 type: guide
+lang: tlh
+dir: ltr
+mainfont: "Times New Roman"
+sansfont: "Arial"
+monofont: "Courier New"
+pdf-engine: xelatex
 guide_whatis: |
   **QIpyuS pa'Daq jIbuS** chenmoHlu', vaj malja' wIchenmoHtaHmeH mIw wIchoHtaH; nom.
 

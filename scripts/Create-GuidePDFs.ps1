@@ -94,6 +94,25 @@ catch {
     throw "XeLaTeX is required for PDF generation but not found"
 }
 
+# Check if Perl is available (required by many LaTeX packages)
+try {
+    $perlCheck = Get-Command perl -ErrorAction Stop 2>$null
+    $perlVersion = & perl --version 2>$null | Select-String "This is perl" | Select-Object -First 1
+    if ($LASTEXITCODE -ne 0) {
+        throw "Perl command failed"
+    }
+    Write-Host "✅ Found Perl: $($perlVersion -replace '.*This is perl (.+?) built.*', '$1')" -ForegroundColor Green
+}
+catch {
+    Write-Host "⚠️  Perl not found. This is required by many LaTeX packages for proper processing." -ForegroundColor Yellow
+    Write-Host "   Please install Perl:" -ForegroundColor Yellow
+    Write-Host "   • Windows: winget install StrawberryPerl.StrawberryPerl" -ForegroundColor Yellow
+    Write-Host "   • Ubuntu/Debian: apt-get install perl" -ForegroundColor Yellow
+    Write-Host "   • macOS: brew install perl (or use system perl)" -ForegroundColor Yellow
+    Write-Host "   • Alternative Windows: Install ActivePerl or Strawberry Perl manually" -ForegroundColor Yellow
+    throw "Perl is required for LaTeX package processing but not found"
+}
+
 # Check if powershell-yaml module is available, if not, use manual parsing
 $useYamlModule = $false
 try {
@@ -251,7 +270,7 @@ function Get-SiteCreators {
                 }
                 
                 $creatorObj = @{
-                    Name = $creatorName
+                    Name      = $creatorName
                     ImagePath = $imagePath
                     Directory = $creatorDir.FullName
                 }
@@ -266,6 +285,36 @@ function Get-SiteCreators {
 }
 
 # Function to generate LaTeX creator variables for template
+# Function to escape file paths for LaTeX
+function ConvertTo-LaTeXPath {
+    param([string]$FilePath)
+    
+    if (-not $FilePath) {
+        return ""
+    }
+    
+    # Convert Windows backslashes to forward slashes
+    $path = $FilePath -replace '\\', '/'
+    
+    # Escape special LaTeX characters
+    $path = $path -replace '_', '\_'
+    $path = $path -replace '#', '\#'
+    $path = $path -replace '\$', '\$'
+    $path = $path -replace '%', '\%'
+    $path = $path -replace '&', '\&'
+    $path = $path -replace '\{', '\{'
+    $path = $path -replace '\}', '\}'
+    $path = $path -replace '\^', '\textasciicircum{}'
+    $path = $path -replace '~', '\textasciitilde{}'
+    
+    # Handle spaces by wrapping the entire path in quotes if needed
+    if ($path -match '\s') {
+        $path = "{$path}"
+    }
+    
+    return $path
+}
+
 function New-CreatorVariables {
     param(
         [array]$Creators,
@@ -293,9 +342,12 @@ function New-CreatorVariables {
         
         # Add image path if available
         if ($creator.ImagePath -and (Test-Path $creator.ImagePath)) {
-            $variables["creator${creatorNum}-image"] = $creator.ImagePath
-            Write-Host "   🖼️  Adding image for $($creator.Name): $($creator.ImagePath)" -ForegroundColor Gray
-        } else {
+            # Convert Windows path to LaTeX-safe format
+            $latexSafePath = ConvertTo-LaTeXPath -FilePath $creator.ImagePath
+            $variables["creator${creatorNum}-image"] = $latexSafePath
+            Write-Host "   🖼️  Adding image for $($creator.Name): $($creator.ImagePath) -> $latexSafePath" -ForegroundColor Gray
+        }
+        else {
             Write-Host "   ⚠️  No image found for $($creator.Name)" -ForegroundColor Yellow
         }
     }
@@ -356,18 +408,18 @@ function Get-BestAvailableFont {
     )
     
     # Define font preferences for different languages and types
-    $fontPreferences = @{
-        # RTL languages (Arabic, Farsi, Hebrew, Urdu)
-        "rtl" = @{
-            "main" = @("Noto Sans Arabic", "Arial Unicode MS", "Tahoma", "Arial", "DejaVu Sans", "Liberation Sans")
-            "sans" = @("Noto Sans Arabic", "Arial Unicode MS", "Tahoma", "Arial", "DejaVu Sans", "Liberation Sans") 
-            "mono" = @("Courier New", "DejaVu Sans Mono", "Liberation Mono", "Consolas")
+    $fontPreferences = @{        # RTL languages (Arabic, Farsi, Hebrew, Urdu)
+        # For mixed-script content, prioritize fonts that support Arabic script properly
+        "rtl"   = @{
+            "main" = @("Noto Sans Arabic", "Noto Naskh Arabic", "Amiri", "Arial Unicode MS", "Tahoma", "Noto Sans", "DejaVu Sans", "Liberation Sans")
+            "sans" = @("Noto Sans Arabic", "Noto Naskh Arabic", "Amiri", "Arial Unicode MS", "Tahoma", "Noto Sans", "DejaVu Sans", "Liberation Sans") 
+            "mono" = @("Noto Sans Mono", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Monaco")
         }
         # CJK languages
-        "cjk" = @{
+        "cjk"   = @{
             "main" = @("Noto Sans CJK SC", "Microsoft YaHei", "SimSun", "Arial Unicode MS", "Arial", "DejaVu Sans", "Liberation Sans")
             "sans" = @("Noto Sans CJK SC", "Microsoft YaHei", "SimSun", "Arial Unicode MS", "Arial", "DejaVu Sans", "Liberation Sans")
-            "mono" = @("Courier New", "DejaVu Sans Mono", "Liberation Mono", "Consolas")
+            "mono" = @("Noto Sans Mono CJK SC", "Courier New", "DejaVu Sans Mono", "Liberation Mono", "Consolas")
         }
         # Latin-based languages
         "latin" = @{
@@ -402,14 +454,24 @@ function Get-BestAvailableFont {
     Write-Host "   ⚠️  No preferred fonts available, using ultimate fallback" -ForegroundColor Yellow
     switch ($FontType) {
         "mono" { 
-            # Try a few more mono fonts before giving up
-            $monoFallbacks = @("monospace", "Monaco", "Menlo")
-            foreach ($font in $monoFallbacks) {
-                if (Test-FontAvailable -FontName $font) {
+            # For RTL languages, use a simpler monospace font that's more likely to work
+            if ($category -eq "rtl") {
+                $rtlMonoFallbacks = @("monospace", "serif", "sans-serif")
+                foreach ($font in $rtlMonoFallbacks) {
                     return $font
                 }
+                return "serif"  # Last resort for RTL
             }
-            return "Courier" 
+            else {
+                # Try a few more mono fonts before giving up
+                $monoFallbacks = @("monospace", "Monaco", "Menlo")
+                foreach ($font in $monoFallbacks) {
+                    if (Test-FontAvailable -FontName $font) {
+                        return $font
+                    }
+                }
+                return "Courier" 
+            }
         }
         default { 
             # For main and sans fonts, try system defaults
@@ -434,19 +496,7 @@ function New-PDF {
         [array]$SiteCreators = @(),
         [string]$ScriptDir
     )
-    
     Write-Host "📄 Generating PDF: $(Split-Path $OutputFile -Leaf)" -ForegroundColor Cyan
-    
-    # Check if template exists
-    $templatePath = Join-Path $ScriptDir "scrum-guide-expansion-pack-template.tex"
-    if (-not (Test-Path $templatePath)) {
-        Write-Warning "   ⚠️  LaTeX template not found: $templatePath"
-        Write-Host "   📝 Proceeding without custom template" -ForegroundColor Yellow
-        $useTemplate = $false
-    } else {
-        Write-Host "   📋 Using LaTeX template: $(Split-Path $templatePath -Leaf)" -ForegroundColor Gray
-        $useTemplate = $true
-    }
     
     # Generate creator variables for LaTeX template if we have creators with images
     $creatorVariables = @{}
@@ -454,7 +504,6 @@ function New-PDF {
         $guideDir = Split-Path $InputFile -Parent
         $creatorVariables = New-CreatorVariables -Creators $SiteCreators -GuideDir $guideDir
     }
-    
     # Use original input file directly - no cover content in markdown
     $tempInputFile = $InputFile
     
@@ -465,58 +514,60 @@ function New-PDF {
         "--from", "markdown"
         "--to", "pdf"
         "--pdf-engine", "xelatex"
+        "--pdf-engine-opt", "-halt-on-error"
+        "--pdf-engine-opt", "-interaction=errorstopmode"
         "--standalone"
     )
     
-    # Add template if available
-    if ($useTemplate) {
-        $pandocArgs += "--template", $templatePath
+    # Add simple template
+    $simpleTemplatePath = Join-Path $PSScriptRoot "simple-template.tex"
+    if (Test-Path $simpleTemplatePath) {
+        $pandocArgs += "--template", $simpleTemplatePath
+        Write-Host "   📋 Using simple LaTeX template: simple-template.tex" -ForegroundColor Gray
     }
+    # Add cover page via before-body injection
+    $coverPagePath = Join-Path $PSScriptRoot "cover-page.tex"
+    if (Test-Path $coverPagePath) {
+        $pandocArgs += "--include-before-body", $coverPagePath
+        Write-Host "   📄 Adding cover page via before-body injection: cover-page.tex" -ForegroundColor Gray
+    }# Configure fonts for proper multilingual support based on document language
+    Write-Host "   🔍 Pandoc will read frontmatter automatically from markdown file" -ForegroundColor Gray
     
-    # Configure fonts for proper multilingual support based on document language
-    Write-Host "   🔍 Detecting available fonts for language: $LanguageCode" -ForegroundColor Gray
-    
-    # Get best available fonts for this language
-    $mainFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "main"
-    $sansFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "sans"
-    $monoFont = Get-BestAvailableFont -LanguageCode $LanguageCode -FontType "mono"
-    
-    # Configure fonts based on language category
+    # Only provide fallback font configuration for languages that might not have frontmatter
+    # Pandoc will use frontmatter values if they exist, otherwise these fallbacks apply
     if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-        # For RTL languages, configure proper font hierarchy
-        $pandocArgs += "--variable", "mainfont=$mainFont"
-        $pandocArgs += "--variable", "sansfont=$sansFont"
-        $pandocArgs += "--variable", "monofont=$monoFont"
+        Write-Host "   🌐 Setting RTL language fallbacks for: $LanguageCode" -ForegroundColor Gray
         
-        # Add Latin fallback font
-        $latinFont = Get-BestAvailableFont -LanguageCode "en" -FontType "main"
-        $pandocArgs += "--variable", "romanfont=$latinFont"
+        # Fallback Arabic font families for polyglossia (only used if not in frontmatter)
+        $arabicFont = Get-BestAvailableFont -LanguageCode "ar" -FontType "main"
+        $pandocArgs += "--variable", "arabicfont=$arabicFont"
+        $pandocArgs += "--variable", "arabicfontsf=$arabicFont"
         
-        Write-Host "   🔤 RTL language configuration - Main: $mainFont, Sans: $sansFont, Mono: $monoFont, Latin: $latinFont" -ForegroundColor Gray
+        Write-Host "   🔤 RTL fallback fonts - Arabic: $arabicFont" -ForegroundColor Gray    
     }
     elseif ($LanguageCode -in @("zh", "ja", "ko", "zh-cn", "zh-tw", "zh-hk")) {
-        # For CJK languages, use CJK-specific configuration
-        $pandocArgs += "--variable", "CJKmainfont=$mainFont"
-        $pandocArgs += "--variable", "sansfont=$sansFont"
-        $pandocArgs += "--variable", "monofont=$monoFont"
+        # For CJK languages, provide fallback fonts
+        Write-Host "   🌐 Setting CJK language fallbacks for: $LanguageCode" -ForegroundColor Gray
+        
+        # Fallback CJK fonts (only used if not specified in frontmatter)
+        $cjkFont = Get-BestAvailableFont -LanguageCode "zh" -FontType "main"
+        $pandocArgs += "--variable", "CJKmainfont=$cjkFont"
         
         # Add Latin fallback font
         $latinFont = Get-BestAvailableFont -LanguageCode "en" -FontType "main"
         $pandocArgs += "--variable", "romanfont=$latinFont"
         
-        Write-Host "   🔤 CJK language configuration - CJKMain: $mainFont, Sans: $sansFont, Mono: $monoFont, Latin: $latinFont" -ForegroundColor Gray
+        Write-Host "   🔤 CJK fallback fonts - CJK: $cjkFont, Latin: $latinFont" -ForegroundColor Gray
     }
     else {
-        # For Latin-based languages, use standard configuration
-        $pandocArgs += "--variable", "mainfont=$mainFont"
-        $pandocArgs += "--variable", "sansfont=$sansFont"
-        $pandocArgs += "--variable", "monofont=$monoFont"
+        # For Latin-based languages, provide fallback fonts
+        Write-Host "   🌐 Setting Latin language fallbacks for: $LanguageCode" -ForegroundColor Gray
         
         # Add Arabic fallback for mixed-script documents
         $arabicFont = Get-BestAvailableFont -LanguageCode "ar" -FontType "main"
         $pandocArgs += "--variable", "arabicfont=$arabicFont"
         
-        Write-Host "   🔤 Latin language configuration - Main: $mainFont, Sans: $sansFont, Mono: $monoFont, Arabic: $arabicFont" -ForegroundColor Gray
+        Write-Host "   🔤 Latin fallback fonts - Arabic: $arabicFont" -ForegroundColor Gray
     }
     
     # Add title metadata for PDF properties only
@@ -531,7 +582,8 @@ function New-PDF {
         foreach ($creator in $SiteCreators) {
             if ($creator -is [hashtable] -and $creator.Name) {
                 $creatorNames += $creator.Name
-            } elseif ($creator -is [string]) {
+            }
+            elseif ($creator -is [string]) {
                 $creatorNames += $creator
             }
         }
@@ -563,20 +615,10 @@ function New-PDF {
         else {
             $keywordString = $keywordList.ToString()
         }
-        $pandocArgs += "--metadata", "keywords=$keywordString"
+        $pandocArgs += "--metadata", "keywords=$keywordString"    
     }
     
-    # Add language metadata (without direction for now to avoid package conflicts)
-    if ($LanguageCode) {
-        $pandocArgs += "--metadata", "lang=$LanguageCode"
-        
-        # Note: RTL direction disabled temporarily due to package conflicts
-        # if ($LanguageCode -in @("fa", "ar", "he", "ur")) {
-        #     $pandocArgs += "--metadata", "dir=rtl"
-        #     Write-Host "   ➡️ Setting RTL direction for language: $LanguageCode" -ForegroundColor Gray
-        # }
-    }
-    
+    # Language and fonts are now handled by frontmatter automatically
     # Add current date
     $currentDate = Get-Date -Format "yyyy-MM-dd"
     $pandocArgs += "--metadata", "date=$currentDate"
@@ -648,7 +690,8 @@ else {
     foreach ($creator in $siteCreators) {
         if ($creator -is [hashtable] -and $creator.Name) {
             $creatorNames += $creator.Name
-        } elseif ($creator -is [string]) {
+        }
+        elseif ($creator -is [string]) {
             $creatorNames += $creator
         }
     }
@@ -707,7 +750,8 @@ foreach ($fileName in $guideFiles) {
     foreach ($creator in $siteCreators) {
         if ($creator -is [hashtable] -and $creator.Name) {
             $creatorNames += $creator.Name
-        } elseif ($creator -is [string]) {
+        }
+        elseif ($creator -is [string]) {
             $creatorNames += $creator
         }
     }
