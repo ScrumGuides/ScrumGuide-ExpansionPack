@@ -279,21 +279,34 @@ function New-CreatorVariables {
     Write-Host "   📋 Generating creator variables for $($Creators.Count) creator(s)" -ForegroundColor Gray
     
     $creatorNames = @()
-    
-    foreach ($creator in $Creators) {
-        $creatorNames += $creator.Name
-        Write-Host "   👤 Adding creator: $($creator.Name)" -ForegroundColor Gray
-    }
-    
     $variables = @{}
     
+    # Process each creator individually for image support
+    for ($i = 0; $i -lt $Creators.Count; $i++) {
+        $creator = $Creators[$i]
+        $creatorNames += $creator.Name
+        Write-Host "   👤 Adding creator: $($creator.Name)" -ForegroundColor Gray
+        
+        # Add individual creator variables for LaTeX template
+        $creatorNum = $i + 1
+        $variables["creator${creatorNum}-name"] = $creator.Name
+        
+        # Add image path if available
+        if ($creator.ImagePath -and (Test-Path $creator.ImagePath)) {
+            $variables["creator${creatorNum}-image"] = $creator.ImagePath
+            Write-Host "   🖼️  Adding image for $($creator.Name): $($creator.ImagePath)" -ForegroundColor Gray
+        } else {
+            Write-Host "   ⚠️  No image found for $($creator.Name)" -ForegroundColor Yellow
+        }
+    }
+    
     if ($creatorNames.Count -gt 0) {
-        # Create a single string with all creators separated by spacing
+        # Create a single string with all creators separated by spacing (fallback)
         $creatorString = $creatorNames -join " \hspace{2em} "
         $variables["creators-list"] = $creatorString
         $variables["creator-count"] = $creatorNames.Count
         
-        Write-Host "   📋 Created LaTeX variable with all creators: $creatorString" -ForegroundColor Gray
+        Write-Host "   📋 Created LaTeX variables for $($creatorNames.Count) creator(s) with images" -ForegroundColor Gray
     }
     
     return $variables

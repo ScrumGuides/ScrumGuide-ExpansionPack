@@ -112,10 +112,25 @@ $endif$
     {\Large\textbf{Creators} \par}
     \vspace{0.5cm}
     
-    $if(creators-list)$
-    % Display creators horizontally using the combined list
+    $if(creator-count)$
+    % Display creators with images in a horizontal layout
     \begin{center}
-    {\large\textbf{$creators-list$}}
+    \begin{tabular}{$if(creator1-name)$c$endif$$if(creator2-name)$c$endif$$if(creator3-name)$c$endif$$if(creator4-name)$c$endif$$if(creator5-name)$c$endif$}
+    $if(creator1-image)$
+    \includegraphics[width=2.5cm,height=2.5cm,keepaspectratio]{$creator1-image$}$if(creator2-image)$ &
+    \includegraphics[width=2.5cm,height=2.5cm,keepaspectratio]{$creator2-image$}$endif$$if(creator3-image)$ &
+    \includegraphics[width=2.5cm,height=2.5cm,keepaspectratio]{$creator3-image$}$endif$$if(creator4-image)$ &
+    \includegraphics[width=2.5cm,height=2.5cm,keepaspectratio]{$creator4-image$}$endif$$if(creator5-image)$ &
+    \includegraphics[width=2.5cm,height=2.5cm,keepaspectratio]{$creator5-image$}$endif$ \\[0.5cm]
+    $endif$
+    $if(creator1-name)$
+    \textbf{$creator1-name$}$if(creator2-name)$ &
+    \textbf{$creator2-name$}$endif$$if(creator3-name)$ &
+    \textbf{$creator3-name$}$endif$$if(creator4-name)$ &
+    \textbf{$creator4-name$}$endif$$if(creator5-name)$ &
+    \textbf{$creator5-name$}$endif$
+    $endif$
+    \end{tabular}
     \end{center}
     $else$
     % Fallback to text-only creators
