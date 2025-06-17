@@ -1,6 +1,6 @@
 name: New Translation Community Request
 description: Request to establish a translation community for a new language of the Scrum Guide Expansion Pack
-title: "🌐 Establish [LANGUAGE] translation community"
+title: "🌐 [LANGUAGE_CODE] LANGUAGE_NAME Translation Community"
 labels: ["translation", "community", "triage"]
 assignees: []
 body:
@@ -12,6 +12,9 @@ body:
         Translations are community-owned efforts that bring together multiple contributors including translators, reviewers, and community members. This form helps us establish a collaborative translation community for your target language.
 
         **Community Approach:** The community owns the translations, not individuals or groups. Multiple people can contribute, take over, or maintain translations over time, creating a sustainable and collaborative effort.
+
+        **Title Format:** When creating this issue, please update the title to format: `🌐 [LANGUAGE_CODE] Language Name Translation Community`
+        - Examples: `🌐 [pl] Polish Translation Community`, `🌐 [es-419] Español Latino Translation Community`
 
         **Before submitting:** Please check existing issues and discussions to ensure this language community is not already being established. We encourage joining existing efforts rather than creating competing translations.
   - type: checkboxes
@@ -30,15 +33,36 @@ body:
       placeholder: e.g., Portuguese, Italian, Japanese
     validations:
       required: true
-
   - type: input
     id: language-code
     attributes:
       label: Language Code
-      description: What is the ISO 639-1 language code for this language?
-      placeholder: e.g., pt, it, ja
+      description: |
+        ISO 639-1 language code for this language. This will be used in the issue title format.
+
+        **Examples:**
+        - `pl` for Polish → `🌐 [pl] Polish Translation Community`
+        - `es` for Spanish → `🌐 [es] Spanish Translation Community`
+        - Combined with region: `es-419` → `🌐 [es-419] Español Latino Translation Community`
+      placeholder: e.g., pt, it, ja, en, es, pl
     validations:
       required: true
+
+  - type: input
+    id: country-code
+    attributes:
+      label: Region/Country Code (Optional)
+      description: |
+        ISO 3166-1 alpha-2 country code OR UN M.49 region code for regional/cultural variations:
+
+        **Country Examples:**
+        - pt-BR (Brazilian Portuguese), en-GB (British English), es-MX (Mexican Spanish)
+
+        **Region Examples:**
+        - es-419 (Latin American Spanish - covers Latin America & Caribbean region)
+
+        **Format:** Use country codes (BR, GB, MX) or region codes (419) as appropriate for your target community.
+      placeholder: e.g., BR, GB, MX, 419
   - type: input
     id: community-organizer
     attributes:
