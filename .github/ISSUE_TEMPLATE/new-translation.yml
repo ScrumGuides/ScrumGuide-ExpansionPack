@@ -1,135 +1,160 @@
-name: New Translation Request
-description: Request to add a new language translation for the Scrum Guide Expansion Pack
-title: "🌐 Add [LANGUAGE] translation"
+name: New Translation Community Request
+description: Request to establish a translation community for a new language of the Scrum Guide Expansion Pack
+title: "🌐 [LANGUAGE_CODE] LANGUAGE_NAME Translation Community"
 labels: ["translation", "community", "triage"]
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for your interest in contributing a translation to the Scrum Guide Expansion Pack! 
+        Thanks for your interest in establishing a translation community for the Scrum Guide Expansion Pack! 
 
-        Please fill out the form below to request a new translation. Once approved, we'll provide you with the necessary resources and guidance to get started.
+        Translations are community-owned efforts that bring together multiple contributors including translators, reviewers, and community members. This form helps us establish a collaborative translation community for your target language.
 
-        **Before submitting:** Please check existing issues and discussions to ensure this language is not already being worked on. We want to avoid duplicate efforts and ensure a smooth translation process for everyone.
+        **Community Approach:** The community owns the translations, not individuals or groups. Multiple people can contribute, take over, or maintain translations over time, creating a sustainable and collaborative effort.
 
+        **Title Format:** When creating this issue, please update the title to format: `🌐 [LANGUAGE_CODE] Language Name Translation Community`
+        - Examples: `🌐 [pl] Polish Translation Community`, `🌐 [es-419] Español Latino Translation Community`
+
+        **Before submitting:** Please check existing issues and discussions to ensure this language community is not already being established. We encourage joining existing efforts rather than creating competing translations.
   - type: checkboxes
     id: language-check
     attributes:
       label: Pre-submission Check
       description: Please confirm the following before proceeding
       options:
-        - label: I have checked that this language has not already been proposed or is currently being worked on
+        - label: I have checked that this language community has not already been established or is currently being organized
           required: true
-
   - type: input
     id: language
     attributes:
       label: Target Language
-      description: What language would you like to translate the guide into?
+      description: What language would you like to establish a translation community for?
       placeholder: e.g., Portuguese, Italian, Japanese
     validations:
       required: true
-
   - type: input
     id: language-code
     attributes:
       label: Language Code
-      description: What is the ISO 639-1 language code for this language?
-      placeholder: e.g., pt, it, ja
+      description: |
+        ISO 639-1 language code for this language. This will be used in the issue title format.
+
+        **Examples:**
+        - `pl` for Polish → `🌐 [pl] Polish Translation Community`
+        - `es` for Spanish → `🌐 [es] Spanish Translation Community`
+        - Combined with region: `es-419` → `🌐 [es-419] Español Latino Translation Community`
+      placeholder: e.g., pt, it, ja, en, es, pl
     validations:
       required: true
 
   - type: input
-    id: translator-name
+    id: country-code
     attributes:
-      label: Translator Name
-      description: Your name or organization name (as it will appear in the credits)
-      placeholder: e.g., John Doe or Acme Translation Services
+      label: Region/Country Code (Optional)
+      description: |
+        ISO 3166-1 alpha-2 country code OR UN M.49 region code for regional/cultural variations:
+
+        **Country Examples:**
+        - pt-BR (Brazilian Portuguese), en-GB (British English), es-MX (Mexican Spanish)
+
+        **Region Examples:**
+        - es-419 (Latin American Spanish - covers Latin America & Caribbean region)
+
+        **Format:** Use country codes (BR, GB, MX) or region codes (419) as appropriate for your target community.
+      placeholder: e.g., BR, GB, MX, 419
+  - type: input
+    id: community-organizer
+    attributes:
+      label: Community Organizer/Coordinator
+      description: Who is coordinating this translation community? (This information helps us communicate with the community)
+      placeholder: e.g., John Doe, Scrum Community Portugal, or Regional Scrum Group
     validations:
       required: true
-
   - type: input
-    id: translator-link
+    id: community-contact
     attributes:
-      label: Translator Website/Profile (Optional)
-      description: Link to your website, LinkedIn profile, or organization page
-      placeholder: e.g., https://www.linkedin.com/in/johndoe
-
+      label: Community Contact Information (Optional)
+      description: Link to community website, LinkedIn profile, or organization page that can serve as a contact point
+      placeholder: e.g., https://scrumcommunityportugal.org or https://www.linkedin.com/in/johndoe
   - type: dropdown
-    id: experience
+    id: community-readiness
     attributes:
-      label: Translation Experience
-      description: What is your experience with translation work?
+      label: Community Translation Readiness
+      description: What translation resources does your community have available?
       options:
-        - Professional translator
-        - Native speaker with translation experience
-        - Native speaker without formal translation experience
+        - We have professional translators ready to contribute
+        - We have native speakers with translation experience
+        - We have native speakers willing to learn translation processes
+        - We are organizing and building our translation team
         - Other (please specify in additional info)
     validations:
       required: true
-
   - type: dropdown
-    id: scrum-experience
+    id: community-scrum-experience
     attributes:
-      label: Scrum Experience
-      description: What is your experience with Scrum?
+      label: Community Scrum Experience
+      description: What is the Scrum experience level in your translation community?
       options:
-        - Certified Scrum Master/Product Owner/Developer
-        - Professional Scrum certification holder
-        - Working with Scrum for 2+ years
-        - Working with Scrum for less than 2 years
-        - New to Scrum but eager to learn
+        - We have certified Scrum practitioners (CSM/PO/Dev, PSM/PO/Dev)
+        - We have experienced Scrum practitioners (2+ years)
+        - We have some Scrum experience in the community
+        - We are new to Scrum but eager to learn and contribute
+        - Mixed experience levels across the community
+    validations:
+      required: true
+  - type: textarea
+    id: community-motivation
+    attributes:
+      label: Community Impact and Motivation
+      description: Why does your community need this translation? How will it help your local Scrum practitioners and organizations?
+      placeholder: Tell us about the community need, expected impact, and how this translation will serve your local Scrum ecosystem...
     validations:
       required: true
 
   - type: textarea
-    id: motivation
+    id: community-capacity
     attributes:
-      label: Motivation
-      description: Why would you like to contribute this translation? How will it help your community?
-      placeholder: Tell us about your motivation and the impact this translation will have...
+      label: Community Capacity and Timeline
+      description: |
+        How many reviewers can your community provide? (Minimum 5 required by our Code of Conduct)
+        What is your estimated timeline for completing the translation?
+        Who are the potential contributors in your community?
+      placeholder: |
+        Reviewers: We can provide X reviewers (Y with Scrum knowledge, Z without)
+        Timeline: X weeks/months
+        Contributors: Brief description of your translation community team...
     validations:
       required: true
-
-  - type: textarea
-    id: timeline
-    attributes:
-      label: Expected Timeline
-      description: How long do you estimate it will take to complete the translation?
-      placeholder: e.g., 2-3 weeks, 1 month, etc.
-    validations:
-      required: true
-
   - type: textarea
     id: additional-info
     attributes:
       label: Additional Information
-      description: Any other information you'd like to share about this translation request?
-      placeholder: Include any relevant details, questions, or special considerations...
-
+      description: Any other information you'd like to share about this translation community establishment?
+      placeholder: Include any relevant details about your community, existing translation initiatives, or special considerations...
   - type: checkboxes
     id: terms
     attributes:
-      label: Agreement
-      description: By submitting this request, you agree to the following terms
+      label: Community Agreement
+      description: By submitting this request, the translation community agrees to the following terms
       options:
-        - label: I have read and agree to the [Translation Guide](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/translations.md)
+        - label: Our community has read and agrees to the [Translation Guide](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/translations.md)
           required: true
-        - label: I have read and agree to the [Code of Conduct for Translators](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/translations.md)
+        - label: Our community has read and agrees to the [Code of Conduct for Translators](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/translations-code-of-conduct.md)
           required: true
-        - label: I have read and agree to the [Community Code of Conduct](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/CODE_OF_CONDUCT.md)
+        - label: Our community has read and agrees to the [Community Code of Conduct](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+        - label: We understand that the community owns the translation, not individuals or groups, and that others may contribute or take over maintenance over time
           required: true
 
   - type: markdown
     attributes:
       value: |
-        ---
+        ---        **Next Steps:**
+        1. A project maintainer will review your community translation request
+        2. If approved, your translation community will receive access to resources and guidelines
+        3. We'll help establish the community coordination process and connect you with other contributors
+        4. Your community will work together to complete the translation with the required minimum of 5 reviewers
+        5. Upon completion, the translation will be published and the community will be credited
 
-        **Next Steps:**
-        1. A project maintainer will review your request
-        2. If approved, you'll receive access to translation resources and guidelines
-        3. You'll be added to the translation coordination process
-        4. Upon completion, your translation will be published and you'll be credited
-
-        Thank you for your contribution to the Scrum community! 🎉
+        Thank you for building the global Scrum community! 🌐🎉

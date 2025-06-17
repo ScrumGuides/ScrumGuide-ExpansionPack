@@ -1,14 +1,16 @@
-name: Translation Error Report
-description: Report an error or issue with existing translation content
-title: "🌐❌ [LANGUAGE]: Brief description of the error"
-labels: ["translation", "bug", "correction"]
+name: Translation Community Error Report
+description: Report an error or suggest improvement for existing translation content
+title: "🌐🔧 [LANGUAGE]: Brief description of the issue"
+labels: ["translation", "bug", "correction", "community"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for helping us improve the quality of our translations! 
 
-        Please provide details about the translation error you've found so we can correct it promptly.
+        Translation quality is a community effort. Your feedback helps the translation community maintain and improve content for all users. Reports and suggestions are welcomed from anyone - whether you're a member of the translation community or a user of the translated content.
+
+        **Community Approach:** Remember that translations are community-owned. This report will be shared with the translation community for that language, and multiple community members may collaborate on the resolution.
 
   - type: dropdown
     id: language
@@ -30,41 +32,52 @@ body:
       placeholder: "https://scrumexpansion.org/tlh/scrum-guide-expansion-pack/"
     validations:
       required: true
-
   - type: dropdown
     id: error-type
     attributes:
-      label: Type of Error
-      description: What kind of translation error is this?
+      label: Type of Issue
+      description: What kind of translation issue have you identified?
       options:
         - Incorrect translation/meaning
         - Grammar/syntax error
         - Spelling error
         - Missing translation
         - Formatting issue
+        - Terminology inconsistency
+        - Cultural adaptation needed
         - Other
     validations:
       required: true
-
   - type: textarea
     id: error-description
     attributes:
-      label: Description of Error
-      description: Please describe the translation error in detail
-      placeholder: "Describe what's wrong with the current translation and what it should be instead."
+      label: Description of Issue
+      description: Please describe the translation issue in detail. Include both what's currently there and what you think it should be.
+      placeholder: "Current text: [paste current translation]\n\nIssue: [describe what's wrong]\n\nSuggested improvement: [your suggestion]"
     validations:
       required: true
-
   - type: textarea
     id: suggested-correction
     attributes:
-      label: Suggested Correction
-      description: If you know the correct translation, please provide it here
-      placeholder: "What should the correct translation be?"
+      label: Suggested Improvement
+      description: If you have suggestions for improvement, please provide them here. The translation community will review and collaborate on the best solution.
+      placeholder: "Your suggested improvement or alternative translation..."
 
   - type: textarea
     id: additional-context
     attributes:
       label: Additional Context
-      description: Any other context that might help us understand and fix this error
-      placeholder: "Any additional information that might be helpful..."
+      description: Any other context that might help the translation community understand and address this issue
+      placeholder: "Cultural context, regional considerations, or other helpful information..."
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        **Community Process:**
+        - This report will be shared with the translation community for the specified language
+        - The community will review and collaborate on the best resolution
+        - Multiple community members may contribute to improving the translation
+        - Resolution timeline depends on community availability and consensus
+
+        Thank you for helping improve the quality of our community translations! 🌐✨
