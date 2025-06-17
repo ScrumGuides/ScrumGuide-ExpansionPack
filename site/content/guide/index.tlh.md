@@ -8,13 +8,18 @@ keywords:
   - QIn malja' chenmoH
   - QIpyuS ghu'QeD
   - QIpyuS je valbogh De'wI'
-creator:
+author:
   - Ralph Jocham
   - John Coleman
   - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
 type: guide
+lang: tlh
+dir: ltr
+mainfont: "Times New Roman"
+sansfont: "Arial"
+monofont: "Courier New"
 guide_whatis: |
   **QIpyuS pa'Daq jIbuS** chenmoHlu', vaj malja' wIchenmoHtaHmeH mIw wIchoHtaH; nom.
 

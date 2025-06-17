@@ -1,0 +1,39 @@
+% Simple cover page LaTeX snippet for injection via --include-before-body
+\begin{titlepage}
+  \centering
+  
+  % Title section
+  \vspace*{2cm}
+  {\Huge\bfseries $title$ \par}
+  \vspace{1cm}
+  
+  $if(description)$
+  {\large $description$ \par}
+  \vspace{1.5cm}
+  $endif$
+  
+  % Creators section
+  $if(author)$
+  \vspace{1cm}
+  {\Large\textbf{Creators} \par}
+  \vspace{0.5cm}
+  
+  \begin{center}
+  {\large $author$ \par}
+  \end{center}
+  $endif$
+  
+  \vfill
+  
+  % Footer information
+  {\small\textit{Scrum Guide Expansion Pack} \par}
+  {\small\textit{Based on the Scrum Guide 2020} \par}
+  
+  % Date
+  $if(date)$
+  \vspace{0.5cm}
+  {\large $date$ \par}
+  $endif$
+  
+\end{titlepage}
+\clearpage
