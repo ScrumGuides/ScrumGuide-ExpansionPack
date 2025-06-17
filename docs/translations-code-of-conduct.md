@@ -75,7 +75,7 @@ If the translation of a reserved word/expression is awkward in the translated la
 
 The references section should not be translated
 
-| Scrrum Guide Terms   |     | Scrum Guide Expansion Pack Terms                   |     | Website Terms                      |
+| Scrum Guide Terms    |     | Scrum Guide Expansion Pack Terms                   |     | Website Terms                      |
 | :------------------- | :-- | :------------------------------------------------- | :-- | :--------------------------------- |
 | Scrum                |     | Scrum Guide Expansion Pack                         |     | Cynefin                            |
 | Scrum Values         |     | Leader                                             |     | strategy                           |
