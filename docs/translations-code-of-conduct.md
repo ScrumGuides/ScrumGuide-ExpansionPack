@@ -4,15 +4,15 @@ Translators of the Scrum Guide Expansion Pack and its associated materials do ou
 
 Official translators must agree to this code of conduct before translating, re-translating, or continuing to translate any written materials associated with the Scrum Guide Expansion Pack.
 
-Suggestions to improve this code of conduct can be submitted using discussions at [https://scrumexpansion.org](https://kanbanguides.org).
+Suggestions to improve this code of conduct can be submitted using discussions at [https://scrumexpansion.org](https://scrumexpansion.org).
 
 # 1\. Glossary
 
-_Translation_ refers to any translated document from the official website(s) publishing the Scrum Guide Expansion Pack, currently the Scrum Guide Expansion Pack website [https://scrumexpansion.org](https://kanbanguides.org).
+_Translation_ refers to any translated document from the official website(s) publishing the Scrum Guide Expansion Pack, currently the Scrum Guide Expansion Pack website [https://scrumexpansion.org](https://scrumexpansion.org).
 
-A _translator_ is an individual person who facilitates/creates/amends/reviews the translation(s) of documents at the official website(s) for accessing Scrum Guide Expansion Pack, currently the Scrum Guide Expansion Pack’s website [https://scrumexpansion.org](https://kanbanguides.org).
+A _translator_ is an individual person who facilitates/creates/amends/reviews the translation(s) of documents at the official website(s) for accessing Scrum Guide Expansion Pack, currently the Scrum Guide Expansion Pack’s website [https://scrumexpansion.org](https://scrumexpansion.org).
 
-The administrators of the official website(s) for accessing Scrum Guide Expansion Pack, currently the Scrum Guide Expansion Pack website [https://scrumexpansion.org](https://kanbanguides.org), act as the guardian for the translations, hereafter referred to as the _translation guardian_.
+The administrators of the official website(s) for accessing Scrum Guide Expansion Pack, currently the Scrum Guide Expansion Pack website [https://scrumexpansion.org](https://scrumexpansion.org), act as the guardian for the translations, hereafter referred to as the _translation guardian_.
 
 # 2\. General Rules
 
