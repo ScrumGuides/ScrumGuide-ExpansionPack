@@ -1,17 +1,10 @@
 title: Scrum Guides 2025 Expansion Pack
-
 buildFuture: true
-
 publishDir: ../public
 resourceDir: ../resources
-
 summaryLength: 30
-
 enableRobotsTXT: true
-
-# Disable default taxonomies (tags and categories)
 taxonomies: {}
-
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
@@ -21,55 +14,64 @@ languages:
     weight: 1
     title: Scrum Guide Expansion Pack
     params:
-      description: "ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy."
-      keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site"
+      description: ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
+      keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site
   fa:
     languageName: فارسی
     weight: 2
-    languageCode: "fa"
-    languageDirection: "rtl"
+    languageCode: fa
+    languageDirection: rtl
     title: بسته گسترش‌یافته راهنمای اسکرام
     params:
-      description: "ScrumExpansion.org میزبان بسته گسترش‌یافته راهنمای اسکرام است — راهنمایی مدرن برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی و راهبردهای تطبیقی."
-      keywords: "اسکرام، ScrumExpansion.org، بسته گسترش‌یافته راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته اسکرام، اسکرام برای کار مدرن، سازمان تطبیق‌پذیر، تحویل چابک محصول، اسکرام تجربی، تفکر محصول، نظریه پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه اسکرام"
-
-# Site-wide parameters
+      description: ScrumExpansion.org میزبان بسته گسترش‌یافته راهنمای اسکرام است — راهنمایی مدرن برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی و راهبردهای تطبیقی.
+      keywords: اسکرام، ScrumExpansion.org، بسته گسترش‌یافته راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته اسکرام، اسکرام برای کار مدرن، سازمان تطبیق‌پذیر، تحویل چابک محصول، اسکرام تجربی، تفکر محصول، نظریه پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه اسکرام
+  it:
+    languageName: Italian
+    weight: 3
+    title: Guida Scrum Pacchetto di Espansione
+    params:
+      description: ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
+      keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack
 params:
-  description: "Scrum Guides 2025 Expansion Pack"
-  keywords: "Scrum"
-  og_image: "/images/og-image.jpg" # URL to the default Open Graph image
-  siteProdUrl: "https://scrumexpansion.org"
-  supportEmail: "support@scrumexpansion.org"
-  githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"
-
-# Enable sitemap and robots.txt
+  description: Scrum Guides 2025 Expansion Pack
+  keywords: Scrum
+  og_image: /images/og-image.jpg
+  siteProdUrl: https://scrumexpansion.org
+  supportEmail: support@scrumexpansion.org
+  githubUrl: https://github.com/ScrumGuides/ScrumGuide-ExpansionPack
 sitemap:
-  filename: "sitemap.xml"
-  changefreq: "daily"
+  filename: sitemap.xml
+  changefreq: daily
   priority: 0.5
-
-# RSS feed settings
 rss:
-  filename: "rss.xml"
-  name: "RSS Feed"
-  description: "Subscribe to our RSS feed"
-
+  filename: rss.xml
+  name: RSS Feed
+  description: Subscribe to our RSS feed
 outputs:
-  home: [html, json, rss]
-  section: [html, rss]
-  taxonomy: [html, rss]
-  term: [html, rss]
-  page: [html, rss]
-
+  home:
+  - html
+  - json
+  - rss
+  section:
+  - html
+  - rss
+  taxonomy:
+  - html
+  - rss
+  term:
+  - html
+  - rss
+  page:
+  - html
+  - rss
 outputFormats:
   json:
-    mediaType: "application/json"
-    baseName: "pages"
-
+    mediaType: application/json
+    baseName: pages
 markup:
   goldmark:
     renderer:
-      unsafe: true # Allows raw HTML in Markdown
+      unsafe: true
     extensions:
       table: true
       linkify: true
@@ -78,3 +80,4 @@ markup:
       attribute:
         block: true
         title: true
+

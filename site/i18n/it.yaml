@@ -1,0 +1,161 @@
+# Italian translations
+- id: and
+  translation: "e"
+
+- id: read_online_title
+  translation: "Leggi la {{ .Site.Title }} online"
+
+- id: read_online_description
+  translation: "Accedi alla guida completa in modo digitale con funzionalità interattive e una facile navigazione."
+
+- id: read_online_button
+  translation: "Leggi online"
+
+- id: what_is_guide_title
+  translation: "Cosa è la {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open Source & Community Driven"
+
+- id: open_source_description
+  translation: "Questa {{ .Site.Title }} è un progetto open source che prospera sulla collaborazione della community. Sia che tu voglia suggerire miglioramenti, riportare segnalazioni o contribuire ai contenuti, ci fa piacere la tua partecipazione. Insieme, possiamo rendere questa risorsa ancora più di valore per la comunity Scrum in tutto il mondo."
+
+- id: join_discussion_button
+  translation: "Join the Discussion"
+
+- id: join_discussion_title
+  translation: "Join the {{ .Site.Title }} Discussion"
+
+- id: join_discussion_description
+  translation: "Engage with the community, share your insights, and help shape the future of the {{ .Site.Title }}. Your contributions are invaluable in making this guide a comprehensive resource for Scrum practitioners."
+
+- id: download_title
+  translation: "Download the {{ .Site.Title }}"
+
+- id: download_description
+  translation: "Ottieni la {{ .Site.Title }} completa in formato PDF per leggere offline. Perfetta per quelli che preferiscono una copia fisica o hanno bisogno di fare riferimento alla guida senza una connessione internet."
+
+- id: download_button
+  translation: "Download PDF"
+
+- id: about_creators_title
+  translation: "About the creators of {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "Read {{ .Name }}'s bio"
+
+- id: guide_content_not_found
+  translation: "Guide content not found"
+
+- id: reportTranslationError
+  translation: "Report Translation Error"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "Read Online"
+
+- id: nav_translations
+  translation: "Translations"
+
+- id: nav_pdf_version
+  translation: "PDF Version"
+
+- id: nav_creators
+  translation: "Creators"
+
+- id: nav_all_creators
+  translation: "All Creators"
+
+- id: nav_faq
+  translation: "FAQ"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "Download PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF not available"
+
+- id: guide_pdf_intro_text
+  translation: "You can also download this guide as a PDF for offline reading."
+
+- id: guide_pdf_intro_link
+  translation: "download it here"
+
+# Download page translations
+- id: download_page_title
+  translation: "Read & Download the official {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} is defined here by"
+
+- id: download_page_originators
+  translation: ", the originators of the {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Translations provided by the generous individuals and groups listed below. Please select the guide in the language you would like to download."
+
+- id: download_translation_error
+  translation: "If you have found a possible translation error with the {{ .Title }} please contact the translator directly. If you need additional support please contact"
+
+- id: download_official_version
+  translation: "Official Version"
+
+- id: download_community_translations
+  translation: "Community Translations"
+
+- id: download_current_version_released
+  translation: "The current official version of the {{ .Site.Title }} was released in"
+
+- id: download_older_translations_notice
+  translation: "Translations of the {{ .Site.Title }} with older dates may not contain the most recent information."
+
+- id: download_table_language
+  translation: "Language"
+
+- id: download_table_translations_by
+  translation: "Translations By"
+
+- id: download_table_written_by
+  translation: "Written By"
+
+- id: download_table_action
+  translation: "Action"
+
+- id: download_official_current_version
+  translation: "Official Current Version"
+
+- id: download_button_text
+  translation: "Download"
+
+- id: download_coming_soon
+  translation: "Coming Soon"
+
+- id: download_missing_language
+  translation: "Missing your language?"
+
+- id: download_contribute_translation
+  translation: "Help the community by contributing a new translation."
+
+- id: download_add_translation
+  translation: "Add Translation"
+
+- id: download_community_contributors
+  translation: "Community Contributors"
+
+- id: read_online_action
+  translation: "Read Online"
+
+# PDF Download functionality
+- id: guide_pdf_download_button
+  translation: "Download PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF not available"
+
+- id: guide_pdf_intro_text
+  translation: "This guide is also available as a PDF download."
+
+- id: guide_pdf_intro_link
+  translation: "Download PDF"
+
