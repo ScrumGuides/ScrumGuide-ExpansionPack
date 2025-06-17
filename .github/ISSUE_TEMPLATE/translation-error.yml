@@ -1,6 +1,6 @@
 name: Translation Error Report
 description: Report an error or issue with existing translation content
-title: "[TRANSLATION ERROR] [LANGUAGE]: Brief description of the error"
+title: "🌐❌ [LANGUAGE]: Brief description of the error"
 labels: ["translation", "bug", "correction"]
 body:
   - type: markdown

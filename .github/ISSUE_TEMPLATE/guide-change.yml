@@ -1,6 +1,6 @@
 name: Guide Change Request
 description: Propose a change, enhancement, or correction to the Scrum Guide Expansion Pack content
-title: "[GUIDE] [SECTION]: Brief description of proposed change"
+title: "🛠️ [GUIDE] [SECTION]: Brief description of proposed change"
 labels: ["guide-change", "content", "enhancement"]
 assignees: []
 body:

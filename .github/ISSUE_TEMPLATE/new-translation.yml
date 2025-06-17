@@ -1,6 +1,6 @@
 name: New Translation Request
 description: Request to add a new language translation for the Scrum Guide Expansion Pack
-title: "[TRANSLATION] Add [LANGUAGE] translation"
+title: "🌐 Add [LANGUAGE] translation"
 labels: ["translation", "community", "triage"]
 assignees: []
 body:
@@ -114,13 +114,11 @@ body:
       label: Agreement
       description: By submitting this request, you agree to the following terms
       options:
-        - label: I understand that this is a volunteer contribution to the community
+        - label: I have read and agree to the [Translation Guide](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/translations.md)
           required: true
-        - label: I agree to maintain the accuracy and quality of the translation
+        - label: I have read and agree to the [Code of Conduct for Translators](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/docs/translations.md)
           required: true
-        - label: I understand that the translation will be published under the same license as the original content
-          required: true
-        - label: I am committed to completing the translation in a reasonable timeframe
+        - label: I have read and agree to the [Community Code of Conduct](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/CODE_OF_CONDUCT.md)
           required: true
 
   - type: markdown
