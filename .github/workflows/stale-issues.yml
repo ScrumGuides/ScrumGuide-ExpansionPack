@@ -1,0 +1,48 @@
+name: Close Stale Issues
+
+on:
+  schedule:
+    # Run daily at 2:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    # Allow manual triggering for testing
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale-duplicate-issues:
+    name: Close Stale Duplicate Issues
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-issue-stale: 2
+          days-before-issue-close: 2
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+          stale-issue-message: "This issue has been automatically marked as stale because it has been tagged as duplicate and has not had recent activity. It will be closed if no further activity occurs."
+          close-issue-message: "This duplicate issue has been automatically closed due to lack of activity."
+          only-labels: "duplicate"
+          stale-issue-label: "stale"
+          exempt-issue-labels: "pinned,security"
+          operations-per-run: 100
+
+  stale-regular-issues:
+    name: Close Stale Regular Issues
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-issue-stale: 10
+          days-before-issue-close: 5
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+          stale-issue-message: "This issue has been automatically marked as stale because it has not had recent activity within the last 14 days. It will be closed if no further activity occurs."
+          close-issue-message: "This issue has been automatically closed due to lack of activity. If this issue is still relevant, please feel free to reopen it."
+          stale-issue-label: "stale"
+          exempt-issue-labels: "pinned,security"
+          operations-per-run: 100
