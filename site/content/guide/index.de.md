@@ -47,44 +47,44 @@ Ken Schwaber und Jeff Sutherland leiteten die Entwicklung des Scrum-Frameworks. 
 
 ## Zweck des Scrum Guide Expansion Pack {#purpose-of-the-scrum-guide-expansion-pack}
 
-Für eine erfolgreichere Einführung bietet dieses Erweiterungspaket zusätzliche Leitlinien für die aktuelle Zeit, basierend auf dem Scrum Guide 2020 von Ken Schwaber und Jeff Sutherland (40). Der Beitrag von Ralph Jocham (89) zum Scrum Guide 2020 hat dazu beigetragen, die ursprünglichen Ideen des Scrum Guide 2020 (40) in diesem Erweiterungspaket zu vertiefen.
+Um Scrum noch erfolgreicher einzuführen, bietet dieses Expansion Pack zusätzliche Leitlinien für die aktuelle Zeit, basierend auf dem Scrum Guide 2020 von Ken Schwaber und Jeff Sutherland (40). Der Beitrag von Ralph Jocham (89) zum Scrum Guide 2020 hat dazu geführt, die ursprünglichen Ideen des Scrum Guide 2020 (40) in diesem Expansion Pack zu vertiefen.
 
-Dieses Scrum Guide Expansion Pack erklärt das „Was” und „Warum” jedes Elements von Scrum aus einer zukunftsorientierten Perspektive. Jedes Element dient einem bestimmten Zweck und trägt zum Gesamtwert und zu den Ergebnissen bei, die mit Scrum erzielt werden. Dieses Erweiterungspaket wird regelmäßig weiterentwickelt. Es wird erwartet, dass der Leser das Dokument zumindest beim ersten Mal der Reihe nach durchliest.
+Dieses Scrum Guide Expansion Pack erklärt das „Was” und „Warum” jedes Elements von Scrum aus einer zukunftsorientierten Perspektive. Jedes Element dient einem bestimmten Zweck und trägt zum Gesamtwert und zu den Ergebnissen bei, die mit Scrum erzielt werden. Dieses Erweiterungspaket wird regelmäßig weiterentwickelt. Es wird dem Leser nahegelegt, das Dokument zumindest beim ersten Mal der Reihe nach durchzulesen.
 
-Dieses Dokument setzt gewisse Kenntnisse von Scrum und der damit verbundenen Sprache voraus. Es kann hilfreich sein, vor der Lektüre dieses Dokuments zunächst den Scrum Guide 2020 zu lesen. Verweise sind zu Quellenangaben enthalten. Der Anhang und die Verweise bieten dem Leser die Möglichkeit, zu recherchieren und zu lernen, um ein breiteres und tieferes Verständnis zu erlangen.
+Dieses Dokument setzt gewisse Kenntnisse von Scrum und der damit verbundenen Sprache voraus. Es kann hilfreich sein, vor der Lektüre dieses Dokuments zunächst den Scrum Guide 2020 zu lesen. Verweise zu Quellenangaben sind enthalten. Der Anhang und die Verweise bieten dem Leser die Möglichkeit zu recherchieren und zu lernen, um ein breiteres und tieferes Verständnis zu erlangen.
 
 Praktiker und Stakeholder sollten Scrum bei Bedarf mit Eigeninitiative, Dringlichkeit, Mut, Transparenz, Überprüfung, Anpassung, Rhythmus und Belastbarkeit einführen und kontinuierlich verbessern, um die Ziele für das Produkt und die Organisation zu unterstützen. Es ist zu hoffen, dass die Einführung von Scrum über die hier vorgestellten Leitlinien hinausgeht – in Bezug auf Theorie, Rollen, Artefakte, Ereignisse, Skalierung und alle anderen in diesem Dokument behandelten Aspekte – und dadurch eine dauerhafte Neugierde zum Erkunden, Hinterfragen und kontinuierlichen Verbessern weckt.
 
-Dieses Erweiterungspaket wurde entwickelt, um alle Aspekte der Produktlieferung durch ein selbstverwaltetes Team (49) zu unterstützen, das von den Bedürfnissen oder Wünschen der Stakeholder als Reaktion auf ein Problem oder eine Chance angetrieben wird. Dazu gehören (unter anderem) die Produktentdeckung, die Entwicklung, die Lieferung und die Wertrealisierung. Obwohl Scrum ursprünglich in der Softwareproduktentwicklung verwurzelt ist, wurde es in verschiedenen Bereichen weit verbreitet und ermöglicht die Wertschöpfung durch komplexe (30-35) Arbeit. Mit zunehmender Verbreitung wenden Fachleute wie Ingenieure, Programmierer, Forscher, Analysten, Juristen, Marketingfachleute und Wissenschaftler Scrum zunehmend erfolgreich in ihren Bereichen an.
+Dieses Erweiterungspaket wurde entwickelt, um alle Aspekte der Produktlieferung durch ein selbstverwaltetes Team (49) zu unterstützen, das von den Bedürfnissen oder Wünschen der Stakeholder als Reaktion auf ein Problem oder eine Chance angetrieben wird. Dazu gehören (unter anderem) die Product Discovery, die Entwicklung, die Lieferung und die Wertrealisierung. Obwohl Scrum ursprünglich in der Softwareproduktentwicklung verwurzelt ist, wurde es in verschiedenen Bereichen eingesetzt. Es ermöglicht die Wertschöpfung durch komplexe (30-35) Arbeit. Mit zunehmender Verbreitung wenden Fachleute wie Ingenieure, Programmierer, Forscher, Analysten, Juristen, Marketingfachleute und Wissenschaftler Scrum zunehmend erfolgreich in ihren Domänen an.
 
 Der Stakeholder-Wert bezieht sich auf jeden wahrgenommenen Bedarf, den ein Stakeholder (einschließlich, aber nicht beschränkt auf Kunden, Entscheidungsträger und Nutzer) als wichtig erachtet und den ein Team erfüllt. Allerdings sind sich Stakeholder möglicherweise nicht immer bewusst, was für sie wertvoll sein könnte. Beobachtungen oder Beweise können absichtlich oder unabsichtlich Werte aufdecken und Prioritäten beeinflussen. Wenn neue Informationen auftauchen, sollten potenziell wertvolle Einträge identifiziert, überprüft, verfeinert und angepasst werden. Wert bleibt eine Annahme, bis er durch Beweise wie Beobachtungen oder gemessene Ergebnisse bestätigt wird.
 
 ## Scrum in Kürze {#scrum-in-a-nutshell}
 
-Scrum ist ein Rahmenwerk für die komplexe (30-35) Produktlieferung, bei der Fachwissen zwar wertvoll ist, aber mehr als nur Fachwissen erforderlich ist und Ursache und Wirkung erst im Nachhinein zusammenhängend werden. Scrum befasst sich mit dem gesamten Produktlebenszyklus, der unter anderem die Erstellung, den Ersatz, die Aufrechterhaltung, die Anpassung, die kontinuierliche Änderung, die Wartung und die Ausmusterung von Produkten oder Funktionen umfasst. Scrum hilft Einzelpersonen, Teams und Organisationen, flexibel zu werden und zu bleiben und durch Anpassung an Veränderungen Wert zu schaffen.
+Scrum ist ein Rahmenwerk für die komplexe (30-35) Produktlieferung, bei der Fachwissen zwar wertvoll ist, aber mehr als nur Fachwissen erforderlich ist; und Ursache und Wirkung erst im Nachhinein nachvollziehbar werden. Scrum befasst sich mit dem gesamten Produktlebenszyklus, der unter anderem die Erstellung, den Ersatz, die Aufrechterhaltung, die Anpassung, die kontinuierliche Änderung, die Wartung und die Ausmusterung von Produkten oder Funktionen umfasst. Scrum hilft Einzelpersonen, Teams und Organisationen, flexibel zu werden und zu bleiben und durch Anpassung an Veränderungen Wert zu schaffen.
 
 Scrum fördert ein Umfeld, in dem die Bedürfnisse der Stakeholder verstanden und kohärent erfüllt werden können. Der iterative und inkrementelle Ansatz von Scrum reduziert Risiken und fördert kontinuierliche Verbesserungen. Scrum hilft einem Team, ein Gleichgewicht zwischen der Erforschung von Problemen, der Ermittlung der Bedürfnisse der Stakeholder (einschließlich, aber nicht beschränkt auf Kunden), der Bereitstellung von Lösungen, dem proaktiven Risikomanagement und der Validierung des Werts zu finden.
 
 Ein Risiko ist jeder Faktor, der zu einer zukünftigen nachteiligen Folge führen könnte. Da das Risiko auch im Laufe der Zeit unvorhersehbar bleibt, ist Vorausschau entscheidend. Zu den Risiken zählen unter anderem Marktrisiken, die Passung von Problemlösungen, die Passung von Produkten zum Markt, Technologie, Signalerkennung, Reaktionsfähigkeit, Compliance, Abhilfemaßnahmen, schlechte Kompromissentscheidungen usw. Scrum unterstützt proaktives Risikomanagement und die Erkennung von Chancen.
 
-Scrum fördert den Abbau der bestehenden Trennung zwischen Stakeholdern, die Probleme oder Chancen aufzeigen, und den Personen, die diese lösen.
+Scrum fördert den Abbau der bestehenden Trennung zwischen Stakeholdern, welche Probleme oder Chancen aufzeigen, und den Personen, die diese lösen.
 
 Kurz gesagt basiert Scrum auf einer Umgebung, in der:
 
 1. Unterstützende Stakeholder, im Folgenden als „Supporter” bezeichnet, unter Anleitung und mit Unterstützung des Scrum Masters alles Notwendige tun, um die Einführung von Scrum proaktiv zu unterstützen und zu verbessern.
-2. Ein Produkt Owner legt das Produktziel fest, das für die Erfüllung des Stakeholder-Werts entscheidend ist.
-3. Das selbstverwaltete Scrum-Team (49) definiert, verfeinert und verwandelt die Auswahl der Arbeit in wertvolle Ergebnisse.
-4. Das Scrum-Team und die Stakeholder überprüfen die Ergebnisse während des Sprints und passen sie an.
-5. Die Unterstützer helfen dem Scrum-Team, erfolgreich zu sein.
-6. _Wiederholen._
+2. Ein Produkt Owner das Produktziel festlegt, das für die Erfüllung des Stakeholder-Werts entscheidend ist.
+3. Das selbstverwaltete Scrum-Team (49) die Auswahl der Arbeit definiert, verfeinert, und sie in wertvolle Ergebnisse verwandelt.
+4. Das Scrum-Team und die Stakeholder die Ergebnisse während des Sprints überprüfen und sie anpassen.
+5. Die Unterstützer dem Scrum-Team helfen, erfolgreich zu sein.
+6. _Zurück zum Anfang._
 
 Eine Release ist der Prozess, bei dem eine neue oder aktualisierte Version eines Produkts für Stakeholder (einschließlich, aber nicht beschränkt auf Kunden, Entscheidungsträger und Endnutzer) verfügbar gemacht wird. Sie markiert einen Wendepunkt im Entwicklungszyklus und stellt den Übergang des Produkts von der Entwicklung zur Verfügbarkeit für die Nutzung und die potenzielle Realisierung des Stakeholder-Werts dar.
 
 Scrum ist bewusst unvollständig. Anstatt detaillierte Prozesse vorzuschreiben, bietet es einen Rahmen, der Beziehungen und zielgerichtete Interaktionen leitet. Verschiedene Prozesse, Techniken und Methoden können Scrum ergänzen, ihre Anwendung hängt jedoch vom Kontext ab und variiert je nach Einsatzbereich von Scrum.
 
-Scrum lässt sich in bestehende Praktiken integrieren oder macht diese in einigen Fällen überflüssig oder veraltet. Durch die transparente Bewertung der Effektivität des Scrum-Teams, der Unterstützer, des aktuellen Managements, der Arbeitsumgebung und der Techniken ermöglicht Scrum eine kontinuierliche Verbesserung.
+Scrum lässt sich in bestehende Praktiken integrieren oder macht diese in einigen Fällen überflüssig oder nicht mehr zeitgemäß. Durch die transparente Bewertung der Effektivität des Scrum-Teams, der Unterstützer, des aktuellen Managements, der Arbeitsumgebung und der Techniken ermöglicht Scrum eine kontinuierliche Verbesserung.
 
-Im Kontext der Wissensarbeit wurde der Begriff Scrum, der aus dem Rugby-Spiel stammt, von Takeuchi und Nonaka (29) geprägt, um Teams zu beschreiben, die auf diese Weise arbeiteten und in denen Wissen schnell im gesamten Unternehmen verbreitet wurde, um herausragende Produkte zu liefern.
+Im Kontext der Wissensarbeit wurde der Begriff Scrum, der aus dem Rugby-Spiel stammt, von Takeuchi und Nonaka (29) geprägt, um Teams zu beschreiben, die auf diese Weise arbeiteten und durch welche Wissen schnell im gesamten Unternehmen verbreitet wurde, um herausragende Produkte zu liefern.
 
 ## Unterstützende und ergänzende Theorie {#supporting-and-complementary-theory}
 
@@ -104,7 +104,7 @@ Alles, was als „bekannt” gilt, einschließlich des Marktes und der Stakehold
 
 Im Allgemeinen bleibt nichts für immer gleich. Das Scrum-Team befindet sich möglicherweise am Rande des Chaos und erforscht und arbeitet an etwas Unbekanntem, das noch nie zuvor gemacht wurde. Nach einer Weile, wenn es Muster und Heuristiken entdeckt, wird es weniger chaotisch und komplexer. Nach einer weiteren Weile nähert sich das Scrum-Team möglicherweise dem geordneten Raum, was nicht einfach, aber planbar ist. Oder es kann auch umgekehrt laufen. Es ist eine gute Praxis für das Scrum-Team, inne zu halten und zu reflektieren, ob es sich wirklich in dem Raum befindet, in dem es sich für die aktuelle Situation vermutet hat. Der entscheidende Punkt ist, dass die Produktentwicklung oft mit Unvorhersehbarkeiten zu tun hat und Scrum ein nützlicherer Ansatz sein kann als solche, die sich in der Illusion der Vorhersagbarkeit wiegen.
 
-Die Chancen, die sich durch Inspektion und Anpassung des „Wer”, „Warum”, „Was”, „Wie”, „Wo” und „Wann” ergeben, sind vielfältig. Es ist wichtig, das, was nicht funktioniert, zu dämpfen und das, was funktioniert, zu verstärken. Transparenz, Inspektion und Anpassung an festgelegte Ziele, gestützt auf Ergebnisfeedback (und unbeabsichtigte Folgen), sorgen für Wertschöpfung, Erkenntnisse, Risiken und hinterfragte Annahmen; dies kann zu kontinuierlicher Verbesserung führen.
+Die Chancen, die sich durch Inspektion und Anpassung des „Wer”, „Warum”, „Was”, „Wie”, „Wo” und „Wann” ergeben, sind vielfältig. Es ist wichtig, das, was nicht funktioniert, abzuschwächen und das, was funktioniert, zu verstärken. Transparenz, Inspektion und Anpassung an festgelegte Ziele, gestützt auf Ergebnisfeedback (und unbeabsichtigte Folgen), sorgen für Wertschöpfung, Erkenntnisse, Risiken und hinterfragte Annahmen; dies kann zu kontinuierlicher Verbesserung führen.
 
 Schaffen Sie Vertrauen durch ein selbstverwaltetes Team, Überprüfung, Anpassung, die Lieferung wertvoller Arbeit und die Gewinnung neuer Erkenntnisse.
 
