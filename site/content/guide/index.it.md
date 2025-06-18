@@ -63,32 +63,32 @@ Questo Pacchetto di Espansione è progettato per supportare tutti gli aspetti de
 
 Il valore per gli stakeholder si riferisce a qualsiasi bisogno percepito che uno stakeholder (inclusi, ma non limitati a clienti, decisori e utenti) ritenga importante e che un team consegna. Tuttavia, gli stakeholder potrebbero non essere sempre consapevoli di ciò che potrebbe essere  di valore per loro. L'osservazione o le evidenze potrebbero, intenzionalmente o meno, far emergere valore e influenzare le priorità. Come emergono nuove informazioni, gli elementi potenzialmente di valore dovrebbero essere identificati, ispezionati, raffinati e adattati. Il valore resta un'assunzione finché non viene confermato da evidenze, come osservazioni o risultati misurati.
 
-## Scrum in poche parole {#scrum-in-a-nutshell}
+## Scrum in sintesi {#scrum-in-a-nutshell}
 
-Scrum is a framework for complex (30-35) Product delivery, where expertise is valuable but more than expertise is needed, and cause and effect are only coherent in retrospect. Scrum addresses the full Product lifecycle, which includes (but is not limited to) creating, replacing, sustaining, adapting, continuously changing, maintaining, and retiring Products or features. Scrum helps individuals, teams, and organizations become and stay flexible and create value by adapting to change.
+Scrum è un framework per la consegna di Prodotti complessi (30-35), dove l'esperienza è di valore ma non sufficiente da sola, e il nesso causa-effetto è chiaro solo a posteriori. Scrum affronta l’intero ciclo di vita del Prodotto, che include (ma non si limita a): creazione, sostituzione, mantenimento, adattamento, cambiamento continuo, manutenzione e ritiro di Prodotti o funzionalità. Scrum aiuta individui, team e organizzazioni a diventare e rimanere flessibili e a creare valore adattandosi al cambiamento.
 
-Scrum fosters a setting for understanding and coherently responding to Stakeholder needs. Scrum’s iterative and incremental approach reduces risk and fosters continuous improvement. Scrum helps a team to strike a balance between exploring problems, discovering Stakeholder (including but not limited to customer) needs, delivering solutions, proactively managing risk, and validating value.
+Scrum promuove un ambiente favorevole alla comprensione e alla risposta coerente ai bisogni degli Stakeholder. L’approccio iterativo e incrementale di Scrum riduce il rischio e favorisce il miglioramento continuo. Scrum aiuta un team a trovare un bilanciamento tra l’esplorazione dei problemi, la scoperta dei bisogni degli Stakeholder (inclusi ma non limitati ai clienti), la consegna di soluzioni, la gestione proattiva del rischio e la validazione del valore.
 
-A risk is any factor that could result in a future adverse consequence. Since risk exposure remains unpredictable even as time elapses, anticipation is key. Risk exposure can include (but is not limited to) market risk, problem-solution fit, Product \-market fit, technology, signal detection, responsiveness, compliance, remediation, poor trade-off decisions, etc. Scrum supports proactive risk management and opportunity discovery.
+Un rischio è un qualsiasi fattore che potrebbe causare una conseguenza avversa futura. Poiché l’esposizione al rischio rimane imprevedibile anche col passare del tempo, l’anticipazione è fondamentale. L’esposizione al rischio può includere (ma non è limitata a) rischio di mercato, adattamento problema-soluzione, adattamento prodotto-mercato, tecnologia, rilevamento di segnali, reattività, conformità, azioni correttive, scarse decisioni di compromesso, ecc. Scrum supporta la gestione proattiva del rischio e la scoperta di opportunità.
 
-Scrum encourages a reduction in the existing separation between Stakeholders who present problems or opportunities and the people solving them.
+Scrum incoraggia a ridurre la separazione esistente tra gli Stakeholder che presentano problemi o opportunità e le persone che li risolvono.
 
-In a nutshell, Scrum is based on an environment where:
+In sintesi, Scrum è basato su un ambiente in cui:
 
-1. Supporting Stakeholders, hereafter referred to as Supporters, doing what is requested to proactively support and enhance the adoption of Scrum, guided and supported by the Scrum Master.
-2. A Product Owner sets the Product Goal, instrumental in fulfilling Stakeholder value.
-3. The self-managing Scrum Team (49) defines, refines, and turns the selection of work into valuable outcomes.
-4. The Scrum Team and Stakeholders inspect the results during the Sprint and adapt.
-5. Supporters help the Scrum Team to thrive.
-6. _Repeat._
+1. Gli Stakeholder di supporto, in seguito indicati come Supporter, fanno ciò che è richiesto a supportare e migliorare proattivamente l’adozione di Scrum, guidati e supportati dallo Scrum Master.
+2. Un Product Owner definisce il Product Goal, utile a soddisfare il valore per gli Stakeholder.
+3. Il Team Scrum auto-organizzato (49) definisce, perfeziona e trasforma il lavoro selezionato in risultati di valore.
+4. Il Team Scrum e gli Stakeholder ispezionano i risultati durante lo Sprint e si adattano.
+5. I Supporter aiutano il Team Scrum a prosperare.
+6. _Ripeti._
 
-A release is the process of making a new or updated version of a Product available to Stakeholders (including but not limited to customers, decision-makers, and end users). It marks an inflection point in the development cycle and represents the transition of the Product from development to availability for use and the potential realization of Stakeholder value.
+Una release è il processo di creazione di una versione nuova o aggiornata di un Prodotto disponibile agli Stakeholder (inclusi, ma non limitati a clienti, decisori e utenti finali). Rappresenta un punto di svolta nel ciclo di sviluppo e rappresenta la transizione del Prodotto dalla fase di sviluppo a quella di disponibilità per l’uso e potenziale realizzazione del valore per gli Stakeholder.
 
-Scrum is intentionally incomplete. Instead of prescribing detailed processes, it provides a framework that guides relationships and purposeful interactions. Various processes, techniques, and methods can complement Scrum, but their application depends on the context and varies across different uses of Scrum.
+Scrum è intenzionalmente incompleto. Invece di prescrivere processi dettagliati, fornisce un framework che guida le relazioni e le interazioni con uno scopo. Vari processi, tecniche e metodi possono completare Scrum, ma la loro applicazione dipende dal contesto e varia nei diversi usi di Scrum.
 
-Scrum integrates with existing practices or, in some cases, makes them unnecessary or obsolete. By transparently assessing the effectiveness of the Scrum Team, Supporters, current management, work environment, and techniques, Scrum enables continuous improvement.
+Scrum si integra con le pratiche esistenti o, in alcuni casi, le rende non necessarie o obsolete. Valutando in modo trasparente l’efficacia del Team Scrum, dei Supporter, del management attuale, dell’ambiente di lavoro e delle tecniche, Scrum abilita il miglioramento continuo.
 
-In the context of knowledge work, the term Scrum, borrowed from the game of rugby, was coined by Takeuchi and Nonaka (29) to describe teams that worked this way and where knowledge was spread rapidly throughout an enterprise to deliver outstanding Products.
+Nel contesto del lavoro intellettuale, il termine Scrum, preso in prestito dal rugby, è stato coniato da Takeuchi e Nonaka (29) per descrivere i team che lavoravano in questo modo e dove la conoscenza si diffondeva rapidamente all’interno dell’organizzazione per consegnare Prodotti eccellenti.
 
 ## Supporting and Complementary Theory {#supporting-and-complementary-theory}
 
