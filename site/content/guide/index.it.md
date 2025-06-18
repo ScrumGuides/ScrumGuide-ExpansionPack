@@ -1,6 +1,6 @@
 ---
-title: Scrum Guide Expansion Pack
-description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
+title: Pacchetto di Espansione della Guida Scrum
+description: Il Pacchetto di Espansione della Guida Scrum è un complemento completo alla Scrum Guide del 2020, creato per aiutare i professionisti a orientarsi nei complessi contesti di prodotto odierni. Approfondisce la comprensione dei principi fondamentali di Scrum offrendo indicazioni aggiuntive su complessità, pensiero orientato al prodotto, sistemi di lavoro e leadership; il tutto restando fedele all’etica di Scrum, fondata sull’empirismo e sull’autogestione. Non si tratta di una riscrittura, ma di un’amplificazione strategica per sostenere una delivery di valore a lungo termine nei team moderni.
 keywords:
   - Scrum
   - modern Scrum
@@ -15,55 +15,55 @@ author:
 date: 2025-06-11T09:00:00Z
 slug: scrum-guide-expansion-pack
 type: guide
-lang: en
+lang: it
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 guide_whatis: |
-  The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing; fast.
+  Il **Pacchetto di Espansione della Guida Scrum** esiste perché il modo in cui costruiamo i prodotti continua a cambiare; e lo fa rapidamente.
 
-  The [2020 Scrum Guide](https://scrumguides.org/scrum-guide.html) remains solid, but many practitioners began asking how to stay focused on outcomes, work with AI in the team, and keep Scrum simple in fast-moving environments.
+  La [Guida Scrum 2020](https://scrumguides.org/scrum-guide.html) rimane solida, ma molti professionisti hanno iniziato a chiedersi come mantenere il focus sui risultati, lavorare con l’IA nel team e mantenere Scrum semplice in ambienti che evolvono rapidamente.
 
-  This Expansion Pack doesn’t replace the Scrum Guide; it complements it for those needing more clarity in today’s context. The goal wasn’t to add rules, but to reinforce the spirit of Scrum, around product thinking, emergence, and strategic focus. It helps teams learn fast, adapt, and deliver value, even in uncertain, accelerated, tech-driven settings.
+  Questo Pacchetto di Espansione non sostituisce la Guida Scrum; La completa per coloro che necessitano di più chiarezza nel contesto di oggi. L’obiettivo non era aggiungere regole, ma rafforzare lo spirito di Scrum, incentrato sul pensiero orientato al prodotto, sull’emergenza e sul focus strategico. Aiuta i team ad apprendere rapidamente, adattarsi e fornire valore, anche in contesti incerti, rapidi e guidati dalla tecnologia.
 sitemap:
   priority: 1.0
 ---
 
-basato sull'originale [Scrum Guide](https://scrumguides.org/) di Ken Schwaber & Jeff Sutherland (40)
+basato sulla [Guida Scrum](https://scrumguides.org/) originale di Ken Schwaber & Jeff Sutherland (40)
 
-**_Collected Resources for Scrum Guide Expansion Pack_**  
+**_Risorse raccolte per il Pacchetto di Espansione della Guida Scrum_**  
 _Questo documento è una raccolta di opere indipendenti. Ogni sezione mantiene la sua licenza originale o lo stato del copyright, come indicato. Si prega di fare riferimento a ciascuna sezione per specifici diritti e requisiti di utilizzo._
 
-**_Section 1: Scrum Guide Expansion Pack 1 (Adaptation)_**  
-_Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
-_Author: Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Source: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)_  
-_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
+**_Sezione 1: Pacchetto di Espansione della Guida Scrum 1 (Adattamento)_**  
+_Titolo: Pacchetto di Espansione della Guida Scrum Adattamento de: L'originale Guida Scrum_  
+_Autore: Ralph Jocham, John Coleman, and Jeff Sutherland._  
+_Fonte: [Guida Scrum 2020](https://scrumguides.org/), [Pacchetto di Espansione della Guida Scrum](https://scrumexpansion.org)_  
+_Licenza: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
 © _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Modification Notice: This is an adaptation of the original [2020 Scrum Guide](https://scrumguides.org/). Changes have been made from the original._  
-_Disclaimer: No warranties are given. Use at your own risk._  
-_This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
-_By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
+_Avviso di modifica: Questo è un adattamento dell'originale [Guida Scrum 2020](https://scrumguides.org/). Sono state apportate modifiche all'originale._  
+_Disclaimer: Non vengono fornite garanzie. Usa a tuo proprio rischio._  
+_Questa sezione è offerta ai sensi della licenza Attribution-ShareAlike 4.0 International di Creative Commons._  
+_Usando questo Pacchetto di Espansione della Guida Scrum, accetti i termini della licenza [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
 ## Background {#background}
 
 Ken Schwaber e Jeff Sutherland hanno guidato lo sviluppo del framework Scrum. La [Guida Scrum 2020](https://scrumguides.org/) (40) descrive gli elementi essenziali di Scrum. [A Simple Guide to Scrum](https://scrum.academy/guide/) di Tobias Mayer (58) è una versione abbreviata e modificata della Guida Scrum ufficiale di Ken Schwaber e Jeff Sutherland. The [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) elaborate on the 2020 Scrum Guide (40) from a 2025 perspective. Per una adozione di massa, la Guida Scrum (40) aveva bisogno di essere semplice.
 
-## Purpose of the Scrum Guide Expansion Pack {#purpose-of-the-scrum-guide-expansion-pack}
+## Scopo del Pacchetto di Espansione della Guida Scrum  {#purpose-of-the-scrum-guide-expansion-pack}
 
-For a more successful adoption, this Expansion Pack offers additional guidance for current times, based on the 2020 Scrum Guide by Ken Schwaber and Jeff Sutherland (40). Ralph Jocham’s contribution (89) to the 2020 Scrum Guide provided additional depth in bringing the original ideas of the 2020 Scrum Guide (40) into this expansion pack.
+Per un'adozione di maggior successo, questo Pacchetto di Espansione offre indicazioni aggiuntive adatte ai tempi attuali, basate sulla Scrum Guide 2020 di Ken Schwaber e Jeff Sutherland (40). Il contributo di Ralph Jocham (89) alla Scrum Guide 2020 ha apportato ulteriore profondità nel trasferire le idee originali della Guida Scrum 2020 (40) all'interno di questo pacchetto di espansione.
 
-This Scrum Guide Expansion Pack explains the _what_ and _why_ of each element of Scrum through a future-looking lens. Each element serves a specific purpose and contributes to the overall value and results realized with Scrum. This Expansion Pack will evolve regularly. The reader is expected to read the document sequentially, at least the first time.
+Questo Pacchetto di Espansione della Guida Scrum spiega il _cosa_ e _il perché_ di ogni elemento di Scrum attraverso una prospettiva orientata al futuro. Ogni elemento ha uno scopo specifico e contribuisce al valore complessivo e ai risultati ottenuti con Scrum. Questo Pacchetto di Espansione verrà aggiornato regolarmente. Si prevede che il lettore legga il documento in modo sequenziale, almeno la prima volta.
 
-This document assumes some fluency with Scrum and its related language. It could be helpful to read the 2020 Scrum Guide first before reading this document. References are included for attribution purposes. The appendix and references provide an opportunity for the reader to explore, research and learn to gain a broader and deeper understanding.
+Questo documento presuppone una buona padronanza di Scrum e il suo linguaggio correlato. Potrebbe essere utile leggere la Guida Scrum 2020 prima di leggere questo documento. I riferimenti sono inclusi per scopi di attribuzione. L'appendice e i riferimenti offrono al lettore l'opportunità di esplorare, ricercare e apprendere per ottenere una comprensione più ampia e profonda.
+                                                                                                                                                                                                                               
+I professionisti e gli stakeholders dovrebbero adottare Scrum quando appropriato, con autonomia, senso di urgenza, coraggio, trasparenza, inspezione, adattamento, ritmo, e resilienza, e migliorano continuamente per supportare gli obiettivi del prodotto e dell'organizzazione. Si auspica che l’adozione di Scrum vada oltre le linee guida presentate in questo documento—nella teoria, nei ruoli, negli artifact, negli eventi, nello scaling e in ogni altro aspetto trattato in questo documento—e che, così facendo, ispiri una duratura curiosità a esplorare, mettere in discussione e migliorare continuamente.
 
-Practitioners and stakeholders should adopt Scrum when appropriate, with agency, urgency, courage, transparency, inspection, adaptation, rhythm, and resilience, and continually improve to support goals for the product and the organization. It is hoped that Scrum adoptions will surpass the guidance presented here—across theory, roles, artifacts, events, scaling, and every other facet addressed in this document—and, in doing so, inspire a lasting curiosity to explore, question, and continually improve.
+Questo Pacchetto di Espansione è progettato per supportare tutti gli aspetti della delivery del prodotto da parte di un team autogestito (49), guidato dai bisogni o desideri degli stakeholder in risposta a un problema o un'opportunità. Ciò include (ma non si limita a) la scoperta del prodotto, lo sviluppo, la consegna e la realizzazione del valore. Pur avendo origine nello sviluppo di prodotti software, Scrum è stato ampiamente adottato in diversi ambiti, permettendo la creazione di valore attraverso lavori complessi (30-35). Con l'espansione del suo utilizzo, professionisti come ingegneri, programmatori, ricercatori, analisti, avvocati, marketer e scienziati applicano con successo Scrum nei rispettivi settori.
 
-This Expansion Pack is designed to support all aspects of product delivery by a self-managing team (49) driven by stakeholder needs or wants in response to a problem or opportunity. This includes (but is not limited to) product discovery, development, delivery, and value realization. While originally rooted in software product development, Scrum has been widely adopted across various domains, enabling the delivery of value through complex (30-35) work. As its use expands, professionals such as engineers, programmers, researchers, analysts, lawyers, marketers, and scientists increasingly apply Scrum successfully to their fields.
+Il valore per gli stakeholder si riferisce a qualsiasi bisogno percepito che uno stakeholder (inclusi, ma non limitati a clienti, decisori e utenti) ritenga importante e che un team consegna. Tuttavia, gli stakeholder potrebbero non essere sempre consapevoli di ciò che potrebbe essere  di valore per loro. L'osservazione o le evidenze potrebbero, intenzionalmente o meno, far emergere valore e influenzare le priorità. Come emergono nuove informazioni, gli elementi potenzialmente di valore dovrebbero essere identificati, ispezionati, raffinati e adattati. Il valore resta un'assunzione finché non viene confermato da evidenze, come osservazioni o risultati misurati.
 
-Stakeholder value refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes.
-
-## Scrum in a Nutshell {#scrum-in-a-nutshell}
+## Scrum in poche parole {#scrum-in-a-nutshell}
 
 Scrum is a framework for complex (30-35) Product delivery, where expertise is valuable but more than expertise is needed, and cause and effect are only coherent in retrospect. Scrum addresses the full Product lifecycle, which includes (but is not limited to) creating, replacing, sustaining, adapting, continuously changing, maintaining, and retiring Products or features. Scrum helps individuals, teams, and organizations become and stay flexible and create value by adapting to change.
 
