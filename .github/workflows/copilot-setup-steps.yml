@@ -1,0 +1,33 @@
+name: Copilot Setup Steps
+
+on: workflow_dispatch
+
+jobs:
+  copilot-setup-steps:
+    name: Setup Development Environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Verify Installations
+        shell: pwsh
+        run: |
+          # Verify Hugo installation
+          hugo version
+
+          # Verify Pandoc installation
+          pandoc --version
+
+          Write-Output "All prerequisites installed successfully!"

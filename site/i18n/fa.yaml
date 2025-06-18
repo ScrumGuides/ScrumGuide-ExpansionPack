@@ -1,0 +1,144 @@
+# Persian translations
+- id: and
+  translation: "و"
+
+- id: read_online_title
+  translation: "راهنمای {{ .Site.Title }} را به صورت آنلاین بخوانید"
+
+- id: read_online_description
+  translation: "به راهنمای کامل به صورت دیجیتالی با ویژگی‌های تعاملی و ناوبری آسان دسترسی داشته باشید."
+
+- id: read_online_button
+  translation: "مطالعه آنلاین"
+
+- id: what_is_guide_title
+  translation: "{{ .Site.Title }} چیست؟"
+
+- id: open_source_title
+  translation: "متن‌باز و جامعه‌محور"
+
+- id: open_source_description
+  translation: "این {{ .Site.Title }} یک پروژه متن‌باز است که با همکاری جامعه پیشرفت می‌کند. چه بخواهید پیشنهاد بهبود دهید، مشکلات را گزارش کنید یا در محتوا مشارکت کنید، ما از مشارکت شما استقبال می‌کنیم. با هم، می‌توانیم این منبع را برای جامعه اسکرام در سراسر جهان حتی ارزشمندتر کنیم."
+
+- id: join_discussion_button
+  translation: "ورود به بحث"
+
+- id: join_discussion_title
+  translation: "در گفت‌وگوی {{ .Site.Title }} شرکت کنید"
+
+- id: join_discussion_description
+  translation: "با جامعه تعامل داشته باشید، بینش‌های خود را به اشتراک بگذارید و به شکل‌دهی آینده {{ .Site.Title }} کمک کنید. مشارکت‌های شما در تبدیل این راهنما به منبعی جامع برای متخصصان اسکرام بسیار ارزشمند است."
+
+- id: download_title
+  translation: "دانلود {{ .Site.Title }}"
+
+- id: download_description
+  translation: "{{ .Site.Title }} کامل را در قالب PDF برای مطالعه آفلاین دریافت کنید. مناسب برای کسانی که نسخه فیزیکی را ترجیح می‌دهند یا نیاز دارند بدون اتصال به اینترنت به راهنما مراجعه کنند."
+
+- id: download_button
+  translation: "دانلود PDF"
+
+- id: about_creators_title
+  translation: "درباره سازندگان {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "بیوگرافی {{ .Name }} را بخوانید"
+
+- id: guide_content_not_found
+  translation: "محتوای راهنما یافت نشد"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "مطالعه آنلاین"
+
+- id: nav_translations
+  translation: "ترجمه‌ها"
+
+- id: nav_pdf_version
+  translation: "نسخه PDF"
+
+- id: nav_creators
+  translation: "سازندگان"
+
+- id: nav_all_creators
+  translation: "همه سازندگان"
+
+- id: nav_faq
+  translation: "سوالات متداول"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "دانلود PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF در دسترس نیست"
+
+- id: guide_pdf_intro_text
+  translation: "این راهنما همچنین به صورت PDF قابل دانلود است."
+
+- id: guide_pdf_intro_link
+  translation: "دانلود PDF"
+
+# Download page translations
+- id: download_page_title
+  translation: "دانلود نسخه رسمی {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} در اینجا توسط"
+
+- id: download_page_originators
+  translation: "، بنیان‌گذاران {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "ترجمه‌ها توسط افراد و گروه‌های سخاوتمند فهرست شده در زیر ارائه شده‌اند. لطفاً راهنما را به زبانی که می‌خواهید دانلود کنید انتخاب نمایید."
+
+- id: download_translation_error
+  translation: "اگر خطای احتمالی در ترجمه {{ .Title }} پیدا کرده‌اید، لطفاً مستقیماً با مترجم تماس بگیرید. اگر به پشتیبانی بیشتری نیاز دارید، لطفاً با"
+
+- id: download_official_version
+  translation: "نسخه رسمی"
+
+- id: download_community_translations
+  translation: "ترجمه‌های جامعه‌محور"
+
+- id: download_current_version_released
+  translation: "نسخه رسمی کنونی {{ .Site.Title }} منتشر شده در"
+
+- id: download_older_translations_notice
+  translation: "ترجمه‌های {{ .Site.Title }} با تاریخ‌های قدیمی‌تر ممکن است حاوی جدیدترین اطلاعات نباشند."
+
+- id: download_table_language
+  translation: "زبان"
+
+- id: download_table_translations_by
+  translation: "ترجمه‌شده توسط"
+
+- id: download_table_written_by
+  translation: "نویسنده"
+
+- id: download_table_action
+  translation: "عملیات"
+
+- id: download_official_current_version
+  translation: "نسخه رسمی کنونی"
+
+- id: download_button_text
+  translation: "دانلود"
+
+- id: download_coming_soon
+  translation: "به زودی"
+
+- id: download_missing_language
+  translation: "زبان شما موجود نیست؟"
+
+- id: download_contribute_translation
+  translation: "با ارائه ترجمه‌ای جدید، به جامعه کمک کنید."
+
+- id: download_add_translation
+  translation: "افزودن ترجمه"
+
+- id: download_community_contributors
+  translation: "مشارکت‌کنندگان جامعه"
+
+- id: read_online_action
+  translation: "مطالعه آنلاین"

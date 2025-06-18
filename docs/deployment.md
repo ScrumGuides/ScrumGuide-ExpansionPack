@@ -2,6 +2,11 @@
 
 This guide covers the deployment process for the Scrum Guide Expansion Pack using Azure Static Web Apps and GitHub Actions.
 
+## 🌐 Live Sites
+
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org) - **Live production site**
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **Test environment for pre-production changes**
+
 ## Deployment Overview
 
 The project uses **Azure Static Web Apps** for hosting with automated deployments triggered by GitHub Actions. The deployment pipeline supports multiple environments for different stages of development.
@@ -10,14 +15,14 @@ The project uses **Azure Static Web Apps** for hosting with automated deployment
 
 ### 🚀 Production Environment
 
-- **URL**: [https://scrumexpansion.org](https://scrumexpansion.org)
+- **URL**: [scrumexpansion.org](https://scrumexpansion.org) - **Live production site**
 - **Branch**: `main`
 - **Configuration**: `staticwebapp.config.production.json`
 - **Hugo Config**: `hugo.yaml`
 
 ### 🔄 Preview Environment
 
-- **URL**: [https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net)
+- **URL**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **Test environment for pre-production changes**
 - **Branch**: `preview`
 - **Configuration**: `staticwebapp.config.preview.json`
 - **Hugo Config**: `hugo.preview.yaml`

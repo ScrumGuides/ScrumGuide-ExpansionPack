@@ -1,4 +1,3 @@
 ---
 title: "Creators"
-url: "/creators/"
 ---

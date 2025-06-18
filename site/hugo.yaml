@@ -30,6 +30,15 @@ languages:
     params:
       description: "ScrumExpansion.org bietet das Scrum Guide Expansion Pack—moderne Empfehlungen für die Anwendung von Scrum bei komplexer Arbeit, KI und adaptiver Strategie."
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum Anleitung, fortgeschrittene Scrum Praktiken, Scrum für moderne Arbeit, adaptive Unternehmen, agile Produktlieferung, empirisches Scrum, Produktdenken, Komplexitätstheorie in Scrum, Scrum Führung, professionelles Scrum, Scrum und KI, Scrum Ressourcen, Scrum Lernplattform, Scrum Community Website"
+  fa:
+    languageName: فارسی
+    weight: 2
+    languageCode: "fa"
+    languageDirection: "rtl"
+    title: بسته گسترش‌یافته راهنمای اسکرام
+    params:
+      description: "ScrumExpansion.org میزبان بسته گسترش‌یافته راهنمای اسکرام است — راهنمایی مدرن برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی و راهبردهای تطبیقی."
+      keywords: "اسکرام، ScrumExpansion.org، بسته گسترش‌یافته راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته اسکرام، اسکرام برای کار مدرن، سازمان تطبیق‌پذیر، تحویل چابک محصول، اسکرام تجربی، تفکر محصول، نظریه پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه اسکرام"
 
 # Site-wide parameters
 params:
