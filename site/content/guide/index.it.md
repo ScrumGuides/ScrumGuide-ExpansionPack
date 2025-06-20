@@ -90,9 +90,9 @@ Scrum si integra con le pratiche esistenti o, in alcuni casi, le rende non neces
 
 Nel contesto del lavoro intellettuale, il termine Scrum, preso in prestito dal rugby, è stato coniato da Takeuchi e Nonaka (29) per descrivere i team che lavoravano in questo modo e dove la conoscenza si diffondeva rapidamente all’interno dell’organizzazione per consegnare Prodotti eccellenti.
 
-## Teoria di riferimento e complementare {#supporting-and-complementary-theory}
+## Teoria a supporto e complementare {#supporting-and-complementary-theory}
 
-Scrum si basa su un Team Scrum auto-organizzato (49), sull'emergenza, sull'empirismo (67) e sul lean thinking (63). È supportato dalla teoria di riferimento e complementare qui sotto, e da idee come:
+Scrum si basa su un Team Scrum auto-organizzato (49), sull'emergenza, sull'empirismo (67) e sul lean thinking (63). È supportato dalla teoria a supporto e complementare sotto, e da idee come:
 
 - Responsabilità (Accountability),
 - La riduzione degli sprechi che non aggiungono valore (inclusa l’inefficienza organizzativa),
@@ -126,7 +126,7 @@ A self-managing (49) Scrum Team checks whether they are on track, takes action w
 
 Self-managing Scrum Teams organized around value are crucial for creative problem-solving and capturing emergence; reliance on non-self-managing Scrum Teams hinders the ability to deal with complexity (30-35). Self-managing Scrum Teams (49) are not to be confused with individual self-management. It is the seamless interplay that allows a great team to emerge. The facilitation of team autonomy and more efficient decision-making within a non-hierarchical structure could help Scrum Teams improve their self-management.
 
-### Professionalism {#professionalism}
+### Professionalità {#professionalism}
 
 Professionalism is about striving for excellence and working together to deliver value in a respectful, transparent, and accountable way. Being professional means that one will always do certain things and others never, regardless of the circumstances.
 
@@ -148,15 +148,15 @@ Pausing and reflecting combine elements of empiricism and lean thinking, create 
 
 An effective Scrum adoption reduces the distance between Stakeholders who present problems or opportunities and the people dealing with them by keeping objectives tangible and meaningful and delivering value quickly and frequently. Stakeholders often have a mistaken sense of certainty about the _what_ and the _how_. The Scrum Team often has a mistaken sense of certainty about _who_ is impacted. Inspecting and adapting should be more valued than keeping promises or serving the wrong Stakeholders. All assumptions can be wrong.
 
-### Cadence {#cadence}
+### Cadenza {#cadence}
 
 Working in Sprints provides a consistent rhythm that helps the Scrum Team focus on clear, short-term goals. This cadence supports regular inspection and adaptation, enabling the Scrum Team to learn and adjust informed by feedback. Over time, it builds a sustainable pace of delivery, improving predictability and fostering continuous improvement.
 
-## The Three Pillars of Scrum’s Empirical Process Control {#the-three-pillars-of-scrum’s-empirical-process-control}
+## I Tre Pilastri del Controllo di Processo Empirico in Scrum {#the-three-pillars-of-scrum’s-empirical-process-control}
 
 Empiricism, at its core, is the philosophy that knowledge comes from experience and observation. Valuable insights emerge from curiosity, experience, experimentation, data, visualization, and observation. Empirical process control (64-66) is a method of managing complex (30-35) processes, like those in Scrum, by adapting informed by observed results, relying on the three pillars of transparency, inspection, and adaptation.
 
-### Transparency {#transparency}
+### Trasparenza {#transparency}
 
 Transparency is a pillar of Scrum. It reveals reality and work clarity, and enables empiricism. Transparency reveals a more accurate perception of reality and is the entry point for Inspection and Adaptation. The emergent process, work, and results must be visible to those performing the work or receiving the inputs in the form of goals, Product Backlog Items, and associated outputs in the form of Increments.
 
@@ -215,7 +215,7 @@ Individual Scrum Team members can look at the Scrum Values through the lens of J
 - Decide—Deciding what to do requires timely analysis, such as backlog refinement, bringing potential next steps into Focus through parallel safe-to-fail experiments to test hypotheses, like small-scale probes (probes should be small, parallel, and designed so that failure is survivable and informative).
 - Act—With clarity on what needs to be done, why, and by whom, Commitment can drive the team to execute effectively within enabling constraints like time-boxed sprints, fostering emergent solutions.
 
-## More Supporting and Complementary Theory {#more-supporting-and-complementary-theory}
+## Ulteriore teoria a supporto e complementare {#more-supporting-and-complementary-theory}
 
 ### Product Thinking {#product-thinking}
 
