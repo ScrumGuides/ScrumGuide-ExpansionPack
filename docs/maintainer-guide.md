@@ -1,6 +1,16 @@
 # 🔧 Maintainer Guide
 
-This guide is specifically for project maintainers who have administrative access to the Scrum Guide Expansion Pack repository. It covers repository governance, release management, and administrative procedures.
+This guide is for project maintainers who have administrative access to the Scrum Guide Expansion Pack repository.
+
+**📋 Each section starts with simple, step-by-step instructions for non-technical users, followed by detailed technical information.**
+
+**Key responsibilities covered:**
+
+- Creating and managing releases
+- Handling version numbers
+- Crediting authors properly
+- Fixing problems when they occur
+- Understanding repository rules
 
 ## Table of Contents
 
@@ -91,9 +101,33 @@ The repository has several branch protection rules configured to ensure code qua
 
 ## Version Numbering System
 
-The project uses **GitVersion** for automatic version numbering and follows **Semantic Versioning** (SemVer) principles. This section explains how versions are determined and what they mean.
+### Quick Guide for Non-Technical Users
 
-### Understanding Semantic Versioning
+**When making changes, you need to decide what type of version number to use:**
+
+🔧 **Small fixes** (typos, grammar, broken links, translations) → **Patch version** (like `v1.0.0` → `v1.0.1`)
+
+📝 **New content** (new sections, major improvements) → **Minor version** (like `v1.0.0` → `v1.1.0`)
+
+🔄 **Major changes** (complete rewrites, big structural changes) → **Major version** (like `v1.0.0` → `v2.0.0`)
+
+**To find out what version to use next:**
+
+1. Go to the [preview site](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/)
+2. Look at the version number at the top (like "v1.1.0-preview.166")
+3. Use that number but remove the "-preview" part
+4. OR if your changes are bigger, increase the number appropriately
+
+**Examples:**
+
+- Preview shows `v1.1.0-preview.166` + you fixed typos → Release `v1.1.0`
+- Preview shows `v1.1.0-preview.166` + you added a new chapter → Release `v1.2.0`
+
+---
+
+### Technical Details: Understanding Semantic Versioning
+
+The project uses **GitVersion** for automatic version numbering and follows **Semantic Versioning** (SemVer) principles.
 
 Version numbers follow the format: `MAJOR.MINOR.PATCH` (e.g., `v1.2.3`)
 
@@ -229,16 +263,45 @@ The project uses GitVersion with these settings:
 A: The number after "preview" is the build count. It helps track how many changes have been made.
 
 **Q: What if I create the wrong version tag?**
-A: Follow the [tag management process](#local-tag-management-advanced) to recreate the tag with the correct version.
+A: Follow the [advanced tag management process](#advanced-local-tag-management) to recreate the tag with the correct version.
 
 **Q: Should documentation follow the same rules as software?**
 A: Yes, but interpret "breaking changes" as content that would confuse existing users or require them to relearn concepts.
 
 ## Release Management
 
-### Creating a New Release
+### Quick Steps: How to Release a New Version
 
-Follow these steps to create a new version release:
+**Simple process for non-technical users:**
+
+1. **Find the version number:**
+
+   - Go to [preview site](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/)
+   - Look at the version at the top (like "v1.1.0-preview.166")
+   - Your release will be `v1.1.0` (remove the "-preview" part)
+   - OR increase the number if you made big changes (see Version Numbering above)
+
+2. **Create the release:**
+
+   - Go to the GitHub repository
+   - Click **"Releases"** tab
+   - Click **"Create a new release"**
+   - Type your version number (like `v1.1.0`) in the "Tag version" box
+   - Type the same version in the "Release title" box
+   - Write a short description of what changed
+   - Click **"Publish release"**
+
+3. **Wait and check:**
+   - The site will automatically update (takes a few minutes)
+   - Check [production site](https://scrumexpansion.org) to make sure it worked
+
+**That's it!** The system handles everything else automatically.
+
+---
+
+### Technical Details: Creating a New Release
+
+Follow these detailed steps to create a new version release:
 
 #### 1. Determine the Next Version
 
@@ -276,9 +339,43 @@ Follow these steps to create a new version release:
 
 ## Reverting Releases
 
-If you need to roll back to a previous version, follow this process:
+### Quick Steps: How to Undo a Release
 
-### Standard Revert Process
+**If you published a release that has problems:**
+
+1. **Delete the bad release:**
+
+   - Go to the GitHub repository
+   - Click **"Releases"** tab
+   - Find the problematic release
+   - Click **"Delete"** and confirm
+
+2. **Restore the previous good release:**
+
+   - Find the last release that was working well
+   - Click **"Edit"** on that release
+   - Check the box **"Set as the latest release"**
+   - Click **"Update release"**
+
+3. **Trigger the fix:**
+
+   - Click **"Actions"** tab in the repository
+   - Find **"Build & Release"** workflow
+   - Click **"Run workflow"**
+   - Select the version you want from the tags dropdown
+   - Click **"Run workflow"**
+
+4. **Wait and check:**
+   - The site will update back to the previous version
+   - Check [production site](https://scrumexpansion.org) to confirm
+
+**If this doesn't work**, you may need technical help (see Technical Details below).
+
+---
+
+### Technical Details: Standard Revert Process
+
+If you need to roll back to a previous version, follow this detailed process:
 
 #### 1. Delete the Problematic Release
 
@@ -302,7 +399,7 @@ If you need to roll back to a previous version, follow this process:
 4. **Select the tag** from the dropdown for the version you want to deploy
 5. **Run the workflow**
 
-### Local Tag Management (Advanced)
+### Advanced: Local Tag Management
 
 For cases where you need to recreate a tag:
 
@@ -426,6 +523,55 @@ If you encounter issues with release management or need clarification on any pro
 **Remember**: When in doubt, it's better to ask for help than to risk breaking the production site. The community depends on the stability of this resource.
 
 ## Author Attribution
+
+### Quick Guide: When to Credit the Core Authors
+
+**The three main authors of the guide are:**
+
+- Jeff Sutherland
+- Ralph Jocham
+- John Coleman
+
+**When should you add their names to your work?**
+
+✅ **YES - Add their names when:**
+
+- You're implementing their suggestions or feedback
+- You had discussions with them about the changes
+- You're making major updates they were involved in
+- You're releasing a new version with their contributions
+
+❌ **NO - Don't add their names for:**
+
+- Fixing typos or simple grammar
+- Technical website fixes
+- Your own independent work
+
+**How to add their names (simple way):**
+
+When you're writing your commit message (the description of what you changed), add these lines at the bottom:
+
+```
+Co-Authored-By: Jeff Sutherland <jeffsutherland@users.noreply.github.com>
+Co-Authored-By: Ralph Jocham <ralph.jocham@effectiveagile.com>
+Co-Authored-By: John Coleman <johncolemanagile@gmail.com>
+```
+
+**Example commit message:**
+
+```
+Update section on Product Owner responsibilities
+
+Added new guidance based on discussion with Jeff and Ralph
+about stakeholder management best practices.
+
+Co-Authored-By: Jeff Sutherland <jeffsutherland@users.noreply.github.com>
+Co-Authored-By: Ralph Jocham <ralph.jocham@effectiveagile.com>
+```
+
+---
+
+### Technical Details: Author Attribution
 
 When contributors make significant changes to the guide, proper attribution ensures credit is given to all collaborators. This section covers how to attribute authors who may not be physically present during commits.
 
@@ -641,6 +787,48 @@ Fix broken external links and improve formatting
 ```
 
 ## Using Semantic Versioning Directives
+
+### Quick Guide: Auto-Version Your Changes
+
+**Instead of figuring out version numbers yourself, you can tell the system what type of change you made:**
+
+Add one of these special lines to your commit message (the description when you save changes):
+
+🔧 **For small fixes** (typos, broken links, grammar):
+
+```
++semver: patch
+```
+
+📝 **For new content** (new sections, translations, major improvements):
+
+```
++semver: minor
+```
+
+🔄 **For big changes** (complete rewrites, major restructuring):
+
+```
++semver: major
+```
+
+**How to use it:**
+
+When you write your commit message, just add the line at the end:
+
+```text
+Fix typos in Product Owner section
+
+Corrected several spelling errors and improved grammar.
+
++semver: patch
+```
+
+**That's it!** The system will automatically figure out the right version number.
+
+---
+
+### Technical Details: Semantic Versioning Directives
 
 GitVersion can automatically increment version numbers based on special keywords in commit messages. This allows you to control versioning without manually editing configuration files.
 
