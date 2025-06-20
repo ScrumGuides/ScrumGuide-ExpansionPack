@@ -26,13 +26,15 @@ jobs:
 
       - name: List changed documentation files
         if: steps.changed-files.outputs.any_changed == 'true'
+        shell: pwsh
         run: |
-          echo "The following documentation files have changed:"
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "- $file"
-          done      - name: Sync docs to wiki
+          Write-Output "The following documentation files have changed:"
+          $changedFiles = '${{ steps.changed-files.outputs.all_changed_files }}' -split ' '
+          foreach ($file in $changedFiles) {
+            Write-Output "- $file"
+          }
 
-      - uses: cmbrose/github-docs-to-wiki
+      - uses: cmbrose/github-docs-to-wiki@v0.20
         if: steps.changed-files.outputs.any_changed == 'true'
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
