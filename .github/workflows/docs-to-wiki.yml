@@ -1,0 +1,67 @@
+name: Sync Docs to Wiki
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+  workflow_dispatch:
+    inputs:
+      force_sync:
+        description: "Force sync all docs to wiki (ignore changed files check)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  sync-docs-to-wiki:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: docs/**
+
+      - name: List changed documentation files
+        if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
+        shell: pwsh
+        run: |
+          if ('${{ inputs.force_sync }}' -eq 'true') {
+            Write-Output "🔄 Force sync enabled - syncing all documentation files"
+          } else {
+            Write-Output "The following documentation files have changed:"
+            $changedFiles = '${{ steps.changed-files.outputs.all_changed_files }}' -split ' '
+            foreach ($file in $changedFiles) {
+              Write-Output "- $file"
+            }
+          }
+
+      - name: Sync docs to wiki
+        uses: cmbrose/github-docs-to-wiki@v0.20
+        if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
+        with:
+          githubToken: ${{ secrets.WriteToWikiPAT }}
+          rootDocsFolder: docs
+          convertRootReadmeToHomePage: true
+
+      - name: Summary
+        if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
+        shell: pwsh
+        run: |
+          if ('${{ inputs.force_sync }}' -eq 'true') {
+            Write-Output "✅ All documentation has been force synced to the wiki"
+          } else {
+            Write-Output "✅ Documentation has been successfully synced to the wiki"
+            Write-Output "📚 Updated files: ${{ steps.changed-files.outputs.all_changed_files_count }}"
+          }

@@ -20,7 +20,7 @@ jobs:
           $org = '${{ github.repository_owner }}'
           $actor = '${{ github.actor }}'
           $token = '${{ secrets.GITHUB_TOKEN }}'
-          
+
           # Check organization membership
           $memberUri = "https://api.github.com/orgs/$org/members/$actor"
           try {
@@ -31,7 +31,7 @@ jobs:
           } catch {
             $isMember = $false
           }
-          
+
           # Check if user is a collaborator on the repository
           $collabUri = "https://api.github.com/repos/${{ github.repository }}/collaborators/$actor"
           try {
@@ -42,7 +42,7 @@ jobs:
           } catch {
             $isCollaborator = $false
           }
-          
+
           # Set output based on membership or collaborator status
           $isContributor = $isMember -or $isCollaborator
           Write-Output "is_contributor=$isContributor" >> $env:GITHUB_OUTPUT
@@ -53,47 +53,109 @@ jobs:
 
       - name: Add 'creator_review_required' label if external contributor
         if: steps.check_member.outputs.is_contributor == 'False'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISCUSSION_ID: ${{ github.event.discussion.node_id }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
         shell: pwsh
         run: |
-          $repo = '${{ github.repository }}'
-          $num = ${{ github.event.discussion.number }}
-          $token = '${{ secrets.GITHUB_TOKEN }}'
-          
-          # Get current labels
-          $labelsUri = "https://api.github.com/repos/$repo/discussions/$num/labels"
-          try {
-            $existing = Invoke-RestMethod -Uri $labelsUri `
-                         -Headers @{Authorization="Bearer $token"; 'User-Agent'='github-actions'} `
-                         -Method Get
-          } catch {
-            Write-Output "Could not retrieve existing labels: $_"
-            $existing = @()
-          }
-          
-          # Check if label already exists
-          $hasLabel = $existing | Where-Object { $_.name -eq 'creator_review_required' }
-          
-          if (-not $hasLabel) {
-            Write-Output "Adding 'creator_review_required' label to discussion #$num"
-            try {
-              # Add the label - note: GitHub's API expects an array of label names
-              $body = @{
-                labels = @('creator_review_required')
-              } | ConvertTo-Json -Depth 2
-              
-              $response = Invoke-RestMethod -Uri $labelsUri `
-                -Headers @{
-                  Authorization="Bearer $token"
-                  'User-Agent'='github-actions'
-                  'Content-Type'='application/json'
-                } `
-                -Method Post `
-                -Body $body
-              Write-Output "Successfully added label"
-            } catch {
-              Write-Output "Failed to add label: $_"
-              Write-Output "Response: $($_.Exception.Response.StatusCode)"
+          # First, get the repository's label IDs using GraphQL
+          $repoQuery = @'
+          {
+            "query": "query($owner: String!, $name: String!) { repository(owner: $owner, name: $name) { labels(first: 100) { nodes { id name } } } }",
+            "variables": {
+              "owner": "#{REPO_OWNER}#",
+              "name": "#{REPO_NAME}#"
             }
-          } else {
-            Write-Output "Label 'creator_review_required' already exists on discussion #$num"
+          }
+          '@
+
+          $repoQuery = $repoQuery.Replace('#{REPO_OWNER}#', $env:REPO_OWNER).Replace('#{REPO_NAME}#', $env:REPO_NAME)
+
+          try {
+            $labelsResponse = Invoke-RestMethod -Uri "https://api.github.com/graphql" `
+              -Headers @{
+                Authorization = "Bearer $env:GITHUB_TOKEN"
+                'User-Agent' = 'github-actions'
+                'Content-Type' = 'application/json'
+              } `
+              -Method Post `
+              -Body $repoQuery
+            
+            $labelId = $labelsResponse.data.repository.labels.nodes | Where-Object { $_.name -eq 'creator_review_required' } | Select-Object -ExpandProperty id
+            
+            if (-not $labelId) {
+              Write-Output "Label 'creator_review_required' not found in repository. Please create it first."
+              exit 1
+            }
+            
+            Write-Output "Found label ID: $labelId"
+          } catch {
+            Write-Output "Failed to query repository labels: $_"
+            exit 1
+          }
+
+          # Check if discussion already has the label
+          $discussionQuery = @'
+          {
+            "query": "query($id: ID!) { node(id: $id) { ... on Discussion { labels(first: 100) { nodes { id name } } } } }",
+            "variables": {
+              "id": "#{DISCUSSION_ID}#"
+            }
+          }
+          '@
+
+          $discussionQuery = $discussionQuery.Replace('#{DISCUSSION_ID}#', $env:DISCUSSION_ID)
+
+          try {
+            $discussionResponse = Invoke-RestMethod -Uri "https://api.github.com/graphql" `
+              -Headers @{
+                Authorization = "Bearer $env:GITHUB_TOKEN"
+                'User-Agent' = 'github-actions'
+                'Content-Type' = 'application/json'
+              } `
+              -Method Post `
+              -Body $discussionQuery
+            
+            $hasLabel = $discussionResponse.data.node.labels.nodes | Where-Object { $_.name -eq 'creator_review_required' }
+            
+            if ($hasLabel) {
+              Write-Output "Label 'creator_review_required' already exists on discussion"
+              exit 0
+            }
+          } catch {
+            Write-Output "Failed to query discussion labels: $_"
+            exit 1
+          }
+
+          # Add the label using GraphQL mutation
+          $mutation = @'
+          {
+            "query": "mutation($discussionId: ID!, $labelIds: [ID!]!) { addLabelsToLabelable(input: {labelableId: $discussionId, labelIds: $labelIds}) { labelable { ... on Discussion { labels(first: 100) { nodes { name } } } } } }",
+            "variables": {
+              "discussionId": "#{DISCUSSION_ID}#",
+              "labelIds": ["#{LABEL_ID}#"]
+            }
+          }
+          '@
+
+          $mutation = $mutation.Replace('#{DISCUSSION_ID}#', $env:DISCUSSION_ID).Replace('#{LABEL_ID}#', $labelId)
+
+          try {
+            Write-Output "Adding 'creator_review_required' label to discussion"
+            $addResponse = Invoke-RestMethod -Uri "https://api.github.com/graphql" `
+              -Headers @{
+                Authorization = "Bearer $env:GITHUB_TOKEN"
+                'User-Agent' = 'github-actions'
+                'Content-Type' = 'application/json'
+              } `
+              -Method Post `
+              -Body $mutation
+            
+            Write-Output "Successfully added label to discussion"
+          } catch {
+            Write-Output "Failed to add label: $_"
+            Write-Output "Status: $($_.Exception.Response.StatusCode)"
+            exit 1
           }

@@ -2,6 +2,59 @@
 
 This guide explains the minimal approach to generating PDFs from Markdown files using only Pandoc and frontmatter configuration.
 
+## Prerequisites
+
+Before you can generate PDFs, ensure you have the following installed:
+
+### Required Software
+
+1. **PowerShell 7+** - Required for running the automation script
+
+   - **Windows**: [Install PowerShell 7+](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
+   - **macOS**: [Install PowerShell on macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos)
+   - **Linux**: [Install PowerShell on Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
+   - Verify installation: `pwsh --version`
+
+2. **Pandoc** - Document converter
+
+   - [Download Pandoc](https://pandoc.org/installing.html)
+   - Required for converting Markdown to PDF
+   - Verify installation: `pandoc --version`
+
+3. **LaTeX Distribution** - PDF rendering engine
+   - **Windows**: [MiKTeX](https://miktex.org/) or [TeX Live](https://tug.org/texlive/)
+   - **macOS**: [MacTeX](https://tug.org/mactex/)
+   - **Linux**: TeX Live (usually available via package manager)
+   - Verify installation: `xelatex --version`
+
+### Quick Installation Commands
+
+#### PowerShell 7+
+
+**Windows:**
+
+```powershell
+# Using Windows Package Manager (winget)
+winget install Microsoft.PowerShell
+
+# Using Chocolatey
+choco install powershell-core
+```
+
+**macOS:**
+
+```bash
+# Using Homebrew
+brew install powershell
+```
+
+**Linux (Ubuntu/Debian):**
+
+```bash
+# Download and install latest version
+curl -sSL https://aka.ms/install-powershell.sh | sudo bash
+```
+
 ## Overview
 
 The PDF generation process has been simplified to use:
@@ -14,14 +67,14 @@ The PDF generation process has been simplified to use:
 
 ```
 scripts/
-├── Generate-PDFs.ps1     # Simple PowerShell script
-├── cover-page.tex        # LaTeX cover page template
-└── simple-template.tex   # Minimal LaTeX template (optional)
+├── Create-GuidePDFs.ps1   # PowerShell script for PDF generation
+├── cover-page.tex         # LaTeX cover page template
+└── simple-template.tex    # Minimal LaTeX template (optional)
 
 site/content/guide/
-├── index.md              # English version
-├── index.fa.md           # Farsi version
-└── index.tlh.md          # Klingon version
+├── index.md               # English version
+├── index.fa.md            # Farsi version
+└── index.tlh.md           # Klingon version
 ```
 
 ## Markdown Frontmatter
@@ -96,17 +149,19 @@ pandoc index.tlh.md -o scrum-guide-expansion-pack.tlh.pdf --include-before-body=
 
 ## Using the PowerShell Script
 
-The `Generate-PDFs.ps1` script automates the process:
+> **📋 Prerequisites**: Ensure [PowerShell 7+](#prerequisites) is installed before running the script.
+
+The `Create-GuidePDFs.ps1` script automates the process:
 
 ```powershell
 # Generate all PDFs
-.\Generate-PDFs.ps1
+.\scripts\Create-GuidePDFs.ps1
 
 # Force regeneration
-.\Generate-PDFs.ps1 -Force
+.\scripts\Create-GuidePDFs.ps1 -Force
 
 # Generate specific language
-.\Generate-PDFs.ps1 -Language fa
+.\scripts\Create-GuidePDFs.ps1 -Language fa
 ```
 
 ## How It Works
