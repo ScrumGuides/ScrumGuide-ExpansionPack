@@ -1,0 +1,46 @@
+name: Sync Docs to Wiki
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+  workflow_dispatch:
+
+jobs:
+  sync-docs-to-wiki:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: docs/**
+
+      - name: List changed documentation files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "The following documentation files have changed:"
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "- $file"
+          done      - name: Sync docs to wiki
+
+      - uses: cmbrose/github-docs-to-wiki
+        if: steps.changed-files.outputs.any_changed == 'true'
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          rootDocsFolder: docs
+          convertRootReadmeToHomePage: true
+
+      - name: Summary
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "✅ Documentation has been successfully synced to the wiki"
+          echo "📚 Updated files: ${{ steps.changed-files.outputs.all_changed_files_count }}"
