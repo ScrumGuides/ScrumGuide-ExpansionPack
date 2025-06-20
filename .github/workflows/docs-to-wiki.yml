@@ -28,6 +28,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.ScrumGuides_BOT_APP_ID }}
+          private-key: ${{ secrets.ScrumGuides_BOT_CLIENTSECRET }}
+
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v44
@@ -48,41 +55,11 @@ jobs:
             }
           }
 
-      - name: Check if wiki exists
-        if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
-        shell: pwsh
-        run: |
-          $repo = '${{ github.repository }}'
-          $token = '${{ secrets.GITHUB_TOKEN }}'
-
-          # try {
-          #   $wikiUrl = "https://api.github.com/repos/$repo/wiki"
-          #   $response = Invoke-RestMethod -Uri $wikiUrl `
-          #     -Headers @{
-          #       Authorization = "Bearer $token"
-          #       'User-Agent' = 'github-actions'
-          #     } `
-          #     -Method Get
-          #   Write-Output "✅ Wiki repository exists and is accessible"
-          # } catch {
-          #   if ($_.Exception.Response.StatusCode -eq 404) {
-          #     Write-Output "❌ Wiki does not exist. Please enable the wiki feature in repository settings:"
-          #     Write-Output "   1. Go to https://github.com/$repo/settings"
-          #     Write-Output "   2. Scroll down to 'Features' section"
-          #     Write-Output "   3. Check the 'Wikis' checkbox"
-          #     Write-Output "   4. Create at least one wiki page manually"
-          #     exit 1
-          #   } else {
-          #     Write-Output "❌ Error checking wiki: $($_.Exception.Message)"
-          #     exit 1
-          #   }
-          # }
-
       - name: Sync docs to wiki
         uses: cmbrose/github-docs-to-wiki@v0.20
         if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ steps.app-token.outputs.token }}
           rootDocsFolder: docs
           convertRootReadmeToHomePage: true
 
