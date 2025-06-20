@@ -1,6 +1,6 @@
 ---
 title: Pacchetto di Espansione della Guida Scrum
-description: Il Pacchetto di Espansione della Guida Scrum è un complemento completo alla Scrum Guide del 2020, creato per aiutare i professionisti a orientarsi nei complessi contesti di prodotto odierni. Approfondisce la comprensione dei principi fondamentali di Scrum offrendo indicazioni aggiuntive su complessità, pensiero orientato al prodotto, sistemi di lavoro e leadership; il tutto restando fedele all’etica di Scrum, fondata sull’empirismo e sull’autogestione. Non si tratta di una riscrittura, ma di un’amplificazione strategica per sostenere una delivery di valore a lungo termine nei team moderni.
+description: Il Pacchetto di Espansione della Guida Scrum è un complemento completo alla Guida Scrum del 2020, creato per aiutare i professionisti a orientarsi nei complessi contesti di prodotto odierni. Approfondisce la comprensione dei principi fondamentali di Scrum offrendo indicazioni aggiuntive su complessità, pensiero orientato al prodotto, sistemi di lavoro e leadership; il tutto restando fedele all’etica di Scrum, fondata sull’empirismo e sull’autogestione. Non si tratta di una riscrittura, ma di un’amplificazione strategica per sostenere una delivery di valore a lungo termine nei team moderni.
 keywords:
   - Scrum
   - modern Scrum
@@ -24,7 +24,7 @@ guide_whatis: |
 
   La [Guida Scrum 2020](https://scrumguides.org/scrum-guide.html) rimane solida, ma molti professionisti hanno iniziato a chiedersi come mantenere il focus sui risultati, lavorare con l’IA nel team e mantenere Scrum semplice in ambienti che evolvono rapidamente.
 
-  Questo Pacchetto di Espansione non sostituisce la Guida Scrum; La completa per coloro che necessitano di più chiarezza nel contesto di oggi. L’obiettivo non era aggiungere regole, ma rafforzare lo spirito di Scrum, incentrato sul pensiero orientato al prodotto, sull’emergenza e sul focus strategico. Aiuta i team ad apprendere rapidamente, adattarsi e fornire valore, anche in contesti incerti, rapidi e guidati dalla tecnologia.
+  Questo Pacchetto di Espansione non sostituisce la Guida Scrum; la completa per coloro che necessitano di più chiarezza nel contesto di oggi. L’obiettivo non era aggiungere regole, ma rafforzare lo spirito di Scrum, incentrato sul pensiero orientato al prodotto, sull’emergenza e sul focus strategico. Aiuta i team ad apprendere rapidamente, adattarsi e fornire valore, anche in contesti incerti, rapidi e guidati dalla tecnologia.
 sitemap:
   priority: 1.0
 ---
@@ -90,29 +90,29 @@ Scrum si integra con le pratiche esistenti o, in alcuni casi, le rende non neces
 
 Nel contesto del lavoro intellettuale, il termine Scrum, preso in prestito dal rugby, è stato coniato da Takeuchi e Nonaka (29) per descrivere i team che lavoravano in questo modo e dove la conoscenza si diffondeva rapidamente all’interno dell’organizzazione per consegnare Prodotti eccellenti.
 
-## Supporting and Complementary Theory {#supporting-and-complementary-theory}
+## Teoria di riferimento e complementare {#supporting-and-complementary-theory}
 
-Scrum is founded on a self-managing Scrum Team (49), emergence, empiricism (67), and lean thinking (63). It is underpinned by the supporting and complementary theory below and ideas such as:
+Scrum si basa su un Team Scrum auto-organizzato (49), sull'emergenza, sull'empirismo (67) e sul lean thinking (63). È supportato dalla teoria di riferimento e complementare qui sotto, e da idee come:
 
-- Accountability,
-- The reduction of non-value-adding waste (including organizational inefficiencies),
-- Framing work as problems or opportunities,
-- Discovery, delivery, and value realization, and
-- Continuous improvement.
+- Responsabilità (Accountability),
+- La riduzione degli sprechi che non aggiungono valore (inclusa l’inefficienza organizzativa),
+- Inquadarare il lavoro come problemi o opportunità,
+- La scoperta, la consegna e la realizzazione di valore, e
+- Miglioramento continuo.
 
-### Complexity–The Case for Scrum {#complexity–the-case-for-scrum}
+### Complessità–Il caso di Scrum {#complexity–the-case-for-scrum}
 
-For complex work, like building Products, there are more unknowns than knowns, expertise alone is valuable but insufficient, and cause and effect are only coherent in retrospect. Complexity thinking (30-35) provides valuable tools and ideas and facilitates insights. The Scrum Team members require time to think, help each other, do rework, or pivot. Cognitive diversity and empiricism can help deal with complex work.
+Per il lavoro complesso, come la realizzazione di Prodotti, ci sono più incognite che certezze, la competenza è di valore ma non sufficiente da sola, e il nesso causa-effetto è coerente solo a posteriori. Il pensiero della complessità (30-35) fornisce strumenti e idee di valore e favorisce nuove intuizioni. I membri del Team Scrum hanno bisogno di tempo per pensare, aiutarsi a vicenda, rifare il lavoro o cambiare direzione. La diversità cognitiva e l'empirismo possono aiutare a trattare il lavoro complesso.
 
-Everything believed to be 'known,' including the market and Stakeholders (including but not limited to customers) can be wrong. Some expectations, needs, or wants emerge or fade away in relative importance or urgency over time. An empirical approach provides mechanisms for testing assumptions and inspecting and adapting.
+Tutto ciò che si ritiene 'conosciuto', incluso il mercato e gli Stakeholder (inclusi ma non limitati ai clienti), può essere sbagliato. Alcune aspettative, esigenze o desideri emergono o svaniscono in importanza o urgenza relativa nel tempo. Un approccio empirico fornisce meccanismi per testare le assunzioni e ispezionare e adattarsi.
 
-Generally, nothing stays in the same space forever. The Scrum Team might be on the edge of chaos, researching and working on something unprecedented, never done before. After a while, as they discover patterns and heuristics, it becomes less chaotic and more complex. After another while, for the situation at hand, the Scrum Team might move closer to the ordered space, something which is not easy but plannable. Or things can go in reverse. It is a good practice for the Scrum Team to pause and reflect if it’s really in the space it thought it was in for the situation at hand. The key point is that Product development often deals with unpredictability, and Scrum can be a more useful approach than those with delusions of predictability.
+In generale, nulla resta per sempre nello stesso spazio. Il Team Scrum potrebbe trovarsi sul confine del caos, ricercando e lavorando su qualcosa che non ha precedenti, mai fatto prima. Dopo un pò, come essi scoprono pattern ed euristiche, diventa meno caotico e più complesso. Dopo un altro pò, in base alla situazione attuale, il Team Scrum potrebbe avvicinarsi a uno spazio più ordinato, qualcosa che non è facile ma pianificabile. Oppure le cose possono andare al contrario. È una buona pratica per il Team Scrum fermarsi e riflettere se si è davvero nello spazio che pensa di essere in base alla situazione attuale. Il punto chiave è che lo sviluppo di Prodotto si confronta spesso con l'imprevedibilità, e Scrum può essere un approccio più utile rispetto a quelli con illusioni di prevedibilità.
 
-The opportunities from emergence through Inspection and adaptation of the _who_, _why_, _what_, _how_, _where_, and _when_ are plentiful. It’s important to dampen what does not work and amplify what works. Transparency, Inspection, and Adaptation towards set goals, informed by result feedback (and unintended consequences), provide value creation, insights, risks, and challenged assumptions; this can foster continuous improvement.
+Le opportunità che emergono attraverso l'ispezione e l'adattamento di _chi_, _perché_, _cosa_, _come_, _dove_ e _quando_ sono molteplici. È importante attenuare ciò che non funziona e amplificare ciò che funziona. Trasparenza, Ispezione e Adattamento orientati agli obiettivi stabiliti, guidati dal feedback sui risultati (e dalle conseguenze non intenzionali), forniscono creazione di valore, intuizioni, rischi e messa in discussione delle assunzioni; questo può favorire il miglioramento continuo.
 
-Build trust through a self-managing team, Inspection, Adaptation, delivering valuable work, and uncovering new insights.
+Costruisci fiducia attraverso un team auto-organizzato, l'Ispezione, l'Adattamento, la consegna di lavoro di valore e la scoperta di nuove intuizioni.
 
-### Emergence {#emergence}
+### Emergenza {#emergence}
 
 Emergence (71) is when meaningful patterns or behaviors arise from interactions within complex (30-35) systems-patterns you can’t predict just by looking at the parts alone. In Scrum, emergence isn’t tightly controlled but is guided by enabling constraints like timeboxes, roles, and feedback loops, which create the conditions for self-management and adaptability without dictating exact outcomes. These structures act like 'islands' in a sea of unpredictability, similar to how physical systems can spontaneously form organized patterns amid randomness, as described in Stephen Wolfram’s work (38). The key is that the structure in Scrum provides enough guidance for teams to self-manage and for new solutions to emerge rather than prescribing every detail.
 
@@ -120,7 +120,7 @@ Scrum Teams, operating as complex adaptive systems, are influenced, not directed
 
 This approach recognizes that self-management (49) is not something to be designed top-down but something to be discovered in the right environment—an environment that feels purposeful, coherent, and alive, echoing Christopher Alexander’s ‘Quality Without a Name’ (39). Ultimately, Scrum treats emergence not as a risk to be eliminated but as a force to be cultivated for excellence in Product development.
 
-### Self-Managing Scrum Team {#self-managing-scrum-team}
+### Team Scrum Auto-Organizzati {#self-managing-scrum-team}
 
 A self-managing (49) Scrum Team checks whether they are on track, takes action when not on track, decides how to work, resolves Scrum Team conflict, and fixes problems in the Scrum Team. This means that, generally, managers (111), if they are part of the landscape, do not tell the Scrum Team what to do or decide which Scrum Team member needs to be taken aside to fix issues, directly or indirectly. If managers exist it's generally better if they demonstrate leadership.
 
@@ -138,7 +138,7 @@ In a software development context, professionalism includes but is not limited t
 
 'Lean thinking (63) reduces waste in the work and how it is carried out, and focuses on the flow of value and continuous improvement.' The Lean principles are built on continuous improvement and respect for people. By focusing on the Lean principles, organizations can improve effectiveness at the lowest long-term costs and deliver better value to customers while fostering a climate of ongoing learning and development.
 
-### Empiricism {#empiricism}
+### Empirismo {#empiricism}
 
 Empiricism (67) is the principle of making decisions informed by objective or observable evidence in learning cycles, often exploratory. It can be useful in situations where more than expertise is needed. Scrum is founded on empiricism. Decisions are informed by evidence or what is observed. An empirical approach involves ongoing observations, theory development/refinement, operationalization, and testing/modification to establish effective feedback loops.
 
@@ -166,7 +166,7 @@ Result feedback is data, ideally both quantitative and qualitative, that might r
 
 Achieving Transparency is unrealistic and potentially inapplicable if there are institutional inefficiencies or there is a lack of trust. As a corollary, Scrum can make institutional inefficiencies transparent, and with collective will, trust can be built.
 
-### Inspection {#inspection}
+### Ispezione {#inspection}
 
 Inspection is a pillar of Scrum. Inspection is looking at reality, given the direction of the Product (the Product Goal) and the effectiveness of the Scrum Team and Stakeholders. Inspection enables Adaptation. Inspection is about looking at reality intentionally and is informed by the things that were made transparent, including evidence or observation. To foster Inspection and Adaptation, Scrum provides cadence in the form of its events.
 
@@ -174,7 +174,7 @@ The Scrum Artifacts, associated commitments, and progress toward agreed goals mu
 
 Inspection without Transparency is ill-informed, misleading, and wasteful.
 
-### Adaptation {#adaptation}
+### Adattamento {#adaptation}
 
 Adaptation is a pillar of Scrum. Given the direction of the Product, the Scrum Team and Stakeholders are expected to adapt to reality the moment improvement opportunities emerge, such as experiment outcomes, insights, risks, or opportunities. Adaptation becomes more difficult when institutional inefficiencies exist or when the people involved are not ready, willing, or able to do what needs to be done.
 
@@ -182,7 +182,7 @@ Adaptation starts with accepting ‘reality,’ informed by evidence. Adaptation
 
 Without Adaptation, Transparency and Inspection are meaningless.
 
-## The Scrum Values {#the-scrum-values}
+## I Valori di Scrum {#the-scrum-values}
 
 The Scrum Values _—focus_, _openness_, _commitment_, _courage_, and *respect—*help create a Scrum Team environment that supports psychological safety and positive collaboration, which align with principles identified in neuroscience as beneficial for learning and effective teamwork. Consider the context.
 
@@ -274,7 +274,7 @@ First principles thinking is a method of problem-solving that involves breaking 
 - Questioning every assumption and reconstructing solutions based on facts and essential principles, which can enable breakthroughs.
 - Advocating original thinking, continuous improvement, and the _Courage_ to challenge the status quo-unlocking creativity and enabling transformative results.
 
-### People and Change {#people-and-change}
+### Persone e Cambiamento {#people-and-change}
 
 The level of difficulty in adopting Scrum should not be underestimated. Scrum offers some guiding principles through its elements. It offers an approach to go back to first principles.
 
@@ -284,7 +284,7 @@ An effective Scrum adoption uses an emergent approach, has effective change agen
 
 Start with disciplined emergent change in a direction. Strive to make emergent change so normal that it eventually becomes part of the scheduled work. A Scrum adoption has direction but not a predefined destination. The change is emergent and therefore not predictable. Curiosity enables a pattern of sense, listen, learn, and adapt in a direction. It’s important to foster relationships and understand perspectives, and to listen to what is not being said and what is not happening. Change is hard work, yet fulfilling.
 
-## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
+## I Ruoli Scrum nel Pacchetto di Espansione {#the-scrum-roles-in-the-expansion-pack}
 
 The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team.
 
