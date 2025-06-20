@@ -7,6 +7,12 @@ on:
     paths:
       - "docs/**"
   workflow_dispatch:
+    inputs:
+      force_sync:
+        description: "Force sync all docs to wiki (ignore changed files check)"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   sync-docs-to-wiki:
@@ -25,26 +31,34 @@ jobs:
           files: docs/**
 
       - name: List changed documentation files
-        if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
         shell: pwsh
         run: |
-          Write-Output "The following documentation files have changed:"
-          $changedFiles = '${{ steps.changed-files.outputs.all_changed_files }}' -split ' '
-          foreach ($file in $changedFiles) {
-            Write-Output "- $file"
+          if ('${{ inputs.force_sync }}' -eq 'true') {
+            Write-Output "🔄 Force sync enabled - syncing all documentation files"
+          } else {
+            Write-Output "The following documentation files have changed:"
+            $changedFiles = '${{ steps.changed-files.outputs.all_changed_files }}' -split ' '
+            foreach ($file in $changedFiles) {
+              Write-Output "- $file"
+            }
           }
 
       - name: Sync docs to wiki
         uses: cmbrose/github-docs-to-wiki@v0.20
-        if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           rootDocsFolder: docs
           convertRootReadmeToHomePage: true
 
       - name: Summary
-        if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true' || inputs.force_sync == true
         shell: pwsh
         run: |
-          Write-Output "✅ Documentation has been successfully synced to the wiki"
-          Write-Output "📚 Updated files: ${{ steps.changed-files.outputs.all_changed_files_count }}"
+          if ('${{ inputs.force_sync }}' -eq 'true') {
+            Write-Output "✅ All documentation has been force synced to the wiki"
+          } else {
+            Write-Output "✅ Documentation has been successfully synced to the wiki"
+            Write-Output "📚 Updated files: ${{ steps.changed-files.outputs.all_changed_files_count }}"
+          }
