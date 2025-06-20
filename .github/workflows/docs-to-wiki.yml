@@ -33,7 +33,7 @@ jobs:
         uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ secrets.ScrumGuides_BOT_APP_ID }}
-          private-key: ${{ secrets.ScrumGuides_BOT_CLIENTSECRET }}
+          private-key: ${{ secrets.ScrumGuides_BOT_PRIVATE_KEY }}
 
       - name: Get changed files
         id: changed-files
