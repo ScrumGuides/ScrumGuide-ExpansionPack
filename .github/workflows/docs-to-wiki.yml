@@ -34,7 +34,8 @@ jobs:
             Write-Output "- $file"
           }
 
-      - uses: cmbrose/github-docs-to-wiki@v0.20
+      - name: Sync docs to wiki
+        uses: cmbrose/github-docs-to-wiki@v0.20
         if: steps.changed-files.outputs.any_changed == 'true'
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
@@ -43,6 +44,7 @@ jobs:
 
       - name: Summary
         if: steps.changed-files.outputs.any_changed == 'true'
+        shell: pwsh
         run: |
-          echo "✅ Documentation has been successfully synced to the wiki"
-          echo "📚 Updated files: ${{ steps.changed-files.outputs.all_changed_files_count }}"
+          Write-Output "✅ Documentation has been successfully synced to the wiki"
+          Write-Output "📚 Updated files: ${{ steps.changed-files.outputs.all_changed_files_count }}"
