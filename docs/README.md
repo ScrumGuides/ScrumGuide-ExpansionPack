@@ -10,12 +10,17 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 ## Quick Navigation
 
 - [🚀 Getting Started](./getting-started.md)
+- [🤝 Contributing Guidelines](./contributing.md)
+- [📝 Content Management](./content-management.md)
+
+### Technical Documentation
+
 - [🏗️ Architecture Overview](./architecture.md)
 - [🛠️ Development Guide](./development.md)
 - [🌐 Deployment Guide](./deployment.md)
-- [🤝 Contributing Guidelines](./contributing.md)
-- [📝 Content Management](./content-management.md)
+-
 - [🔧 Configuration Reference](./configuration.md)
+- [⚙️ Maintainer Guide](./maintainer-guide.md)
 - [❓ Troubleshooting](./troubleshooting.md)
 
 ## Project Overview
@@ -58,7 +63,7 @@ The Scrum Guide Expansion Pack is a multilingual static website built with Hugo 
 
 ## Project Structure
 
-```
+```text
 ScrumGuide-ExpansionPack/
 ├── docs/                           # 📚 Documentation
 ├── site/                           # 🏗️ Hugo site source
