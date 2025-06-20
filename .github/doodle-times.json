@@ -1,0 +1,18 @@
+{
+  "timeOptions": [
+    {
+      "date": "{{TODAY_PLUS_1}}",
+      "times": ["10:00", "14:00", "16:00"]
+    },
+    {
+      "date": "{{TODAY_PLUS_2}}",
+      "times": ["10:00", "14:00", "16:00"]
+    },
+    {
+      "date": "{{TODAY_PLUS_3}}",
+      "times": ["10:00", "14:00", "16:00"]
+    }
+  ],
+  "timezone": "UTC",
+  "description": "Default time options for Scrum Guide Expansion Pack discussion meetings"
+}
