@@ -18,7 +18,6 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 - [🏗️ Architecture Overview](./architecture.md)
 - [🛠️ Development Guide](./development.md)
 - [🌐 Deployment Guide](./deployment.md)
--
 - [🔧 Configuration Reference](./configuration.md)
 - [⚙️ Maintainer Guide](./maintainer-guide.md)
 - [❓ Troubleshooting](./troubleshooting.md)
