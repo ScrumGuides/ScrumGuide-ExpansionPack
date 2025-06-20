@@ -51,7 +51,7 @@ Ken Schwaber e Jeff Sutherland hanno guidato lo sviluppo del framework Scrum. La
 
 ## Scopo del Pacchetto di Espansione della Guida Scrum  {#purpose-of-the-scrum-guide-expansion-pack}
 
-Per un'adozione di maggior successo, questo Pacchetto di Espansione offre indicazioni aggiuntive adatte ai tempi attuali, basate sulla Scrum Guide 2020 di Ken Schwaber e Jeff Sutherland (40). Il contributo di Ralph Jocham (89) alla Scrum Guide 2020 ha apportato ulteriore profondità nel trasferire le idee originali della Guida Scrum 2020 (40) all'interno di questo pacchetto di espansione.
+Per un'adozione di maggior successo, questo Pacchetto di Espansione offre indicazioni aggiuntive adatte ai tempi attuali, basate sulla Guida Scrum 2020 di Ken Schwaber e Jeff Sutherland (40). Il contributo di Ralph Jocham (89) alla Scrum Guide 2020 ha apportato ulteriore profondità nel trasferire le idee originali della Guida Scrum 2020 (40) all'interno di questo pacchetto di espansione.
 
 Questo Pacchetto di Espansione della Guida Scrum spiega il _cosa_ e _il perché_ di ogni elemento di Scrum attraverso una prospettiva orientata al futuro. Ogni elemento ha uno scopo specifico e contribuisce al valore complessivo e ai risultati ottenuti con Scrum. Questo Pacchetto di Espansione verrà aggiornato regolarmente. Si prevede che il lettore legga il documento in modo sequenziale, almeno la prima volta.
 
