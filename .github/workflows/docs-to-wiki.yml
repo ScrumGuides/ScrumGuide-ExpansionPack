@@ -14,13 +14,11 @@ on:
         default: false
         type: boolean
 
-permissions:
-  contents: write
-  pages: write
-
 jobs:
   sync-docs-to-wiki:
     runs-on: ubuntu-latest
+    # Only run on the main repository, not forks
+    if: github.repository == 'ScrumGuides/ScrumGuide-ExpansionPack'
 
     steps:
       - name: Checkout repository
