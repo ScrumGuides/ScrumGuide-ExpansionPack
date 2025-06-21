@@ -8,7 +8,7 @@ keywords:
   - توسعه محصول تجربی
   - اسکرام در محیط‌های پیچیده
   - اسکرام و هوش مصنوعی
-creator:
+author:
   - Ralph Jocham
   - John Coleman
   - Jeff Sutherland
@@ -18,6 +18,12 @@ contributors:
   - name: Pooya Sabramooz
     link: https://sabramooz.ir
 type: guide
+lang: fa
+dir: rtl
+mainfont: "Tahoma"
+sansfont: "Tahoma"
+monofont: "Courier New"
+
 guide_whatis: |
   **بسته گسترش‌یافته راهنمای اسکرام** وجود دارد زیرا روش ساخت محصولات ما دائماً در حال تغییر است؛ سریع.
 

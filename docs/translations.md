@@ -2,6 +2,8 @@
 
 Help us make the Scrum Guide Expansion Pack accessible to everyone worldwide by contributing translations!
 
+Please read the [Code of Conduct for Translation Contributors](translations-code-of-conduct.md) before starting.
+
 ## 🎯 Quick Start - Choose Your Path
 
 ### Option 1: GitHub Collaboration (for contributors familiar with GitHub)

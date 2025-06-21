@@ -5,3 +5,8 @@
 **/_gen/
 /resources/
 /.processing/
+tex2pdf.*/*
+
+scripts/scrum-guide-expansion-pack-template.*
+!scripts/scrum-guide-expansion-pack-template.tex
+

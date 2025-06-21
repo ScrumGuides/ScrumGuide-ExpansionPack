@@ -21,7 +21,15 @@ Before you begin, ensure you have the following installed on your system:
    - Verify installation: `hugo version`
    - **Required version**: Hugo v0.118.0 or higher (Extended version)
 
-3. **Text Editor** (recommended)
+3. **PowerShell 7+** - Required for automation scripts
+
+   - **Windows**: [Install PowerShell 7+](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
+   - **macOS**: [Install PowerShell on macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos)
+   - **Linux**: [Install PowerShell on Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
+   - **Purpose**: Required for running `Create-GuidePDFs.ps1` and `Create-TranslationTemplate.ps1`
+   - Verify installation: `pwsh --version`
+
+4. **Text Editor** (recommended)
    - [Visual Studio Code](https://code.visualstudio.com/) with Hugo extensions
    - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
    - Any text editor of your choice
@@ -32,9 +40,6 @@ Before you begin, ensure you have the following installed on your system:
 
    - [Download Node.js](https://nodejs.org/)
    - Used for Prettier formatting and additional build tools
-
-2. **PowerShell 7** - Enhanced shell experience (Windows)
-   - [Download PowerShell](https://github.com/PowerShell/PowerShell)
 
 ## Installation Steps
 
@@ -100,6 +105,71 @@ To see how your local changes compare with the live sites:
 | `hugo server --buildFuture`  | Include future-dated content              |
 | `hugo server --bind 0.0.0.0` | Make server accessible from other devices |
 | `hugo server --port 8080`    | Use custom port                           |
+
+## PowerShell Automation Scripts
+
+This project includes PowerShell automation scripts to help with common tasks:
+
+### Available Scripts
+
+1. **`scripts/Create-GuidePDFs.ps1`** - Generates PDF versions of the guide
+
+   - Creates PDFs for all available languages
+   - Requires Pandoc and LaTeX installation
+   - See [PDF Generation Guide](./simple-pdf-generation.md) for details
+
+2. **`scripts/Create-TranslationTemplate.ps1`** - Sets up new language translations
+   - Automatically configures Hugo for new languages
+   - Creates translation template files
+   - See [Translation Guide](./translations.md) for details
+
+### Quick PowerShell Installation
+
+If you don't have PowerShell 7+ installed:
+
+#### Windows
+
+```powershell
+# Using Windows Package Manager (winget)
+winget install Microsoft.PowerShell
+
+# Using Chocolatey
+choco install powershell-core
+
+# Or download MSI from: https://github.com/PowerShell/PowerShell/releases
+```
+
+#### macOS
+
+```bash
+# Using Homebrew
+brew install powershell
+
+# Using MacPorts
+sudo port install powershell
+```
+
+#### Linux (Ubuntu/Debian)
+
+```bash
+# Download and install
+wget https://github.com/PowerShell/PowerShell/releases/download/v7.4.0/powershell_7.4.0-1.deb_amd64.deb
+sudo dpkg -i powershell_7.4.0-1.deb_amd64.deb
+```
+
+### Running the Scripts
+
+From the project root directory:
+
+```powershell
+# Generate PDFs for all languages
+.\scripts\Create-GuidePDFs.ps1
+
+# Create a new translation template
+.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "de" -LanguageName "German"
+```
+
+> 💡 **Note**: On macOS and Linux, you may need to use `pwsh` instead of `powershell` to run PowerShell 7+.
 
 ## Environment Configurations
 
