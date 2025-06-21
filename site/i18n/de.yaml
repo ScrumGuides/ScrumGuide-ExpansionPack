@@ -1,56 +1,61 @@
-# German translations für das Scrum Expansion Pack (Neutrum)
-
+# Deutsche Übersetzungen (ohne Gendern)
 - id: and
   translation: "und"
 
 - id: read_online_title
-  translation: "Lies das {{ .Site.Title }} online"
+  translation: "Lies den {{ .Site.Title }} online"
 
 - id: read_online_description
-  translation: "Greife digital auf das vollständige Expansion Pack mit interaktiven Funktionen und einfacher Navigation zu."
+  translation: "Greife digital auf den vollständigen Leitfaden zu – mit interaktiven Funktionen und einfacher Navigation."
 
 - id: read_online_button
   translation: "Online lesen"
 
 - id: what_is_guide_title
-  translation: "Was ist das {{ .Site.Title }}?"
+  translation: "Was ist der {{ .Site.Title }}?"
 
 - id: open_source_title
-  translation: "Open Source & Community-basiert"
+  translation: "Open Source & Community-getrieben"
 
 - id: open_source_description
-  translation: "Das {{ .Site.Title }} ist ein Open-Source-Projekt, das von der Zusammenarbeit der Community lebt. Egal, ob du Verbesserungen vorschlagen, Probleme melden oder Inhalte beitragen möchtest – deine Teilnahme ist willkommen. Gemeinsam können wir diese Ressource für die Scrum-Community weltweit noch wertvoller machen."
+  translation: "Dieses {{ .Site.Title }} ist ein Open-Source-Projekt, das von der Zusammenarbeit der Community lebt. Ob du Verbesserungen vorschlagen, Fehler melden oder Inhalte beisteuern möchtest – deine Beteiligung ist willkommen. Gemeinsam können wir diese Ressource für die Scrum-Community weltweit noch wertvoller machen."
 
 - id: join_discussion_button
   translation: "Diskussion beitreten"
 
 - id: join_discussion_title
-  translation: "Nimm an der Diskussion zum {{ .Site.Title }} teil"
+  translation: "Beteilige dich an der {{ .Site.Title }}-Diskussion"
 
 - id: join_discussion_description
-  translation: "Beteilige dich an der Community, teile deine Erkenntnisse und hilf mit, die Zukunft des {{ .Site.Title }} zu gestalten. Deine Beiträge sind von unschätzbarem Wert, um das Expansion Pack zu einer umfassenden Ressource für Scrum-Praktiker zu machen."
+  translation: "Tausche dich mit der Community aus, teile deine Erfahrungen und gestalte die Zukunft des {{ .Site.Title }} mit. Deine Beiträge sind entscheidend, um diesen Leitfaden zu einer umfassenden Ressource für Scrum-Anwender zu machen."
 
 - id: download_title
-  translation: "Lade das {{ .Site.Title }} herunter"
+  translation: "{{ .Site.Title }} herunterladen"
 
 - id: download_description
-  translation: "Erhalte das vollständige {{ .Site.Title }} als PDF für das Offline-Lesen. Perfekt für alle, die eine gedruckte Version bevorzugen oder das Expansion Pack ohne Internetverbindung benötigen."
+  translation: "Lade den vollständigen {{ .Site.Title }} als PDF zum Offline-Lesen herunter. Perfekt für alle, die eine gedruckte Version bevorzugen oder den Leitfaden ohne Internetzugang nutzen möchten."
 
 - id: download_button
   translation: "PDF herunterladen"
 
 - id: about_creators_title
-  translation: "Über die Ersteller des {{ .Site.Title }}"
+  translation: "Über die Ersteller von {{ .Site.Title }}"
 
 - id: read_bio_button
-  translation: "{{ .Name }}s Biografie lesen"
+  translation: "Biografie von {{ .Name }} lesen"
 
 - id: guide_content_not_found
-  translation: "Inhalt des Expansion Packs nicht gefunden"
+  translation: "Leitfaden-Inhalt nicht gefunden"
+
+- id: reportTranslationError
+  translation: "Übersetzungsfehler melden"
 
 # Navigation translations
 - id: nav_read_online
   translation: "Online lesen"
+
+- id: nav_translations
+  translation: "Übersetzungen"
 
 - id: nav_pdf_version
   translation: "PDF-Version"
@@ -64,9 +69,22 @@
 - id: nav_faq
   translation: "FAQ"
 
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "PDF herunterladen"
+
+- id: guide_pdf_not_available
+  translation: "PDF nicht verfügbar"
+
+- id: guide_pdf_intro_text
+  translation: "Du kannst diesen Leitfaden auch als PDF zum Offline-Lesen herunterladen."
+
+- id: guide_pdf_intro_link
+  translation: "hier herunterladen"
+
 # Download page translations
 - id: download_page_title
-  translation: "Lade das offizielle {{ .Title }} herunter"
+  translation: "Lies & lade die offizielle {{ .Title }} herunter"
 
 - id: download_page_description
   translation: "{{ .Title }} wird hier definiert von"
@@ -75,10 +93,10 @@
   translation: ", den Urhebern des {{ .Title }}."
 
 - id: download_translations_provided
-  translation: "Übersetzungen wurden von den großzügigen Personen und Gruppen unten bereitgestellt. Bitte wähle das Expansion Pack in der Sprache aus, in der du es herunterladen möchtest."
+  translation: "Die Übersetzungen werden von den unten aufgeführten Einzelpersonen und Gruppen bereitgestellt. Bitte wähle die gewünschte Sprache für den Download des Leitfadens aus."
 
 - id: download_translation_error
-  translation: "Wenn dir ein möglicher Übersetzungsfehler im {{ .Title }} auffällt, kontaktiere bitte direkt den Übersetzer. Wenn du zusätzliche Unterstützung benötigst, kontaktiere bitte"
+  translation: "Solltest du einen möglichen Übersetzungsfehler im {{ .Title }} finden, kontaktiere bitte direkt den Übersetzer. Falls du weitere Unterstützung benötigst, kontaktiere bitte"
 
 - id: download_official_version
   translation: "Offizielle Version"
@@ -87,10 +105,10 @@
   translation: "Community-Übersetzungen"
 
 - id: download_current_version_released
-  translation: "Die aktuelle offizielle Version des {{ .Site.Title }} wurde veröffentlicht im"
+  translation: "Die aktuelle offizielle Version des {{ .Site.Title }} wurde veröffentlicht in"
 
 - id: download_older_translations_notice
-  translation: "Übersetzungen des {{ .Site.Title }} mit älterem Datum enthalten möglicherweise nicht die aktuellsten Informationen."
+  translation: "Übersetzungen des {{ .Site.Title }} mit älteren Datumsangaben enthalten möglicherweise nicht die neuesten Informationen."
 
 - id: download_table_language
   translation: "Sprache"
@@ -117,13 +135,26 @@
   translation: "Deine Sprache fehlt?"
 
 - id: download_contribute_translation
-  translation: "Hilf der Community, indem du eine neue Übersetzung beiträgst."
+  translation: "Hilf der Community, indem du eine neue Übersetzung beisteuerst."
 
 - id: download_add_translation
   translation: "Übersetzung hinzufügen"
 
 - id: download_community_contributors
-  translation: "Community-Mitwirkende"
+  translation: "Community-Beitragende"
 
 - id: read_online_action
   translation: "Online lesen"
+
+# PDF Download functionality
+- id: guide_pdf_download_button
+  translation: "PDF herunterladen"
+
+- id: guide_pdf_not_available
+  translation: "PDF nicht verfügbar"
+
+- id: guide_pdf_intro_text
+  translation: "Dieser Leitfaden ist auch als PDF-Download verfügbar."
+
+- id: guide_pdf_intro_link
+  translation: "PDF herunterladen"
