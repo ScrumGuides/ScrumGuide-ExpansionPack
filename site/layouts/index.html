@@ -26,7 +26,7 @@
               <p class="card-text flex-grow-1">{{ i18n "download_description" . }}</p>
             </div>
             <div class="card-footer">
-              <a href="/download" class="btn btn-primary">{{ i18n "download_button" . }}</a>
+              <a href="{{ (.Site.GetPage "/translations").Permalink }}" class="btn btn-primary">{{ i18n "nav_translations" . }}</a>
             </div>
           </div>
         </div>
