@@ -155,68 +155,68 @@ Een effectieve Scrum-implementatie verkleint de afstand tussen stakeholders die 
 
 Werken in sprints zorgt voor een consistent ritme dat het Scrumteam helpt zich te concentreren op duidelijke kortetermijndoelen. Deze cadans ondersteunt regelmatige inspectie en aanpassing, waardoor het Scrumteam kan leren en bijsturen op basis van feedback. Na verloop van tijd ontstaat er een duurzaam tempo van oplevering, wat de voorspelbaarheid verbetert en continue verbetering stimuleert.
 
-## The Three Pillars of Scrum’s Empirical Process Control {#the-three-pillars-of-scrum’s-empirical-process-control}
+## De drie pijlers van Scrum's empirische procesbeheersing {#the-three-pillars-of-scrum’s-empirical-process-control}
 
-Empiricism, at its core, is the philosophy that knowledge comes from experience and observation. Valuable insights emerge from curiosity, experience, experimentation, data, visualization, and observation. Empirical process control (64-66) is a method of managing complex (30-35) processes, like those in Scrum, by adapting informed by observed results, relying on the three pillars of transparency, inspection, and adaptation.
+Empirisme is in de kern de filosofie dat kennis voortkomt uit ervaring en observatie. Waardevolle inzichten komen voort uit nieuwsgierigheid, ervaring, experimenten, data, visualisatie en observatie. Empirische procesbeheersing (64-66) is een methode voor het managen van complexe (30-35) processen, zoals die in Scrum, door aanpassingen te doen op basis van waargenomen resultaten, waarbij wordt vertrouwd op de drie pijlers transparantie, inspectie en aanpassing.
 
-### Transparency {#transparency}
+### Transparantie {#transparency}
 
-Transparency is a pillar of Scrum. It reveals reality and work clarity, and enables empiricism. Transparency reveals a more accurate perception of reality and is the entry point for Inspection and Adaptation. The emergent process, work, and results must be visible to those performing the work or receiving the inputs in the form of goals, Product Backlog Items, and associated outputs in the form of Increments.
+Transparantie is een pijler van Scrum. Het onthult de realiteit en helderheid van het werk, en maakt empirisme mogelijk. Transparantie geeft een accuratere perceptie van de realiteit en vormt het startpunt voor inspectie en aanpassing. Het opkomende proces, het werk en de resultaten moeten zichtbaar zijn voor degenen die het werk uitvoeren of de input ontvangen in de vorm van doelen, Product Backlog Items en bijbehorende output in de vorm van Increments.
 
-Important decisions are based on the artifacts, experiments, releases, or result feedback. Low Transparency can impair Inspection, leading to decisions that diminish value and increase risk. Transparency enables Inspection.
+Belangrijke beslissingen worden genomen op basis van artefacten, experimenten, releases of feedback over resultaten. Lage transparantie kan de inspectie belemmeren, wat leidt tot beslissingen die de waarde verminderen en de risico's verhogen. Transparantie maakt inspectie mogelijk.
 
-Result feedback is data, ideally both quantitative and qualitative, that might result from changes to the Product or environment. It contributes to Stakeholder value, effort, resources, or costs. People are not resources.
+Resultaatfeedback bestaat uit data, idealiter zowel kwantitatief als kwalitatief, die voort kunnen komen uit wijzigingen in het product of de omgeving. Het draagt ​​bij aan de waarde, inspanning, middelen of kosten voor stakeholders. Mensen zijn geen middelen.
 
-Achieving Transparency is unrealistic and potentially inapplicable if there are institutional inefficiencies or there is a lack of trust. As a corollary, Scrum can make institutional inefficiencies transparent, and with collective will, trust can be built.
+Het bereiken van transparantie is onrealistisch en mogelijk niet toepasbaar als er institutionele inefficiënties of een gebrek aan vertrouwen zijn. Bovendien kan Scrum institutionele inefficiënties inzichtelijk maken en met collectieve wil kan er vertrouwen worden opgebouwd.
 
-### Inspection {#inspection}
+### Inspectie {#inspection}
 
-Inspection is a pillar of Scrum. Inspection is looking at reality, given the direction of the Product (the Product Goal) and the effectiveness of the Scrum Team and Stakeholders. Inspection enables Adaptation. Inspection is about looking at reality intentionally and is informed by the things that were made transparent, including evidence or observation. To foster Inspection and Adaptation, Scrum provides cadence in the form of its events.
+Inspectie is een pijler van Scrum. Inspectie is kijken naar de realiteit, gegeven de richting van het product (het productdoel) en de effectiviteit van het Scrum-team en de stakeholders. Inspectie maakt aanpassing mogelijk. Inspectie gaat over het bewust kijken naar de realiteit en wordt geïnformeerd door de zaken die transparant zijn gemaakt, inclusief bewijs of observatie. Om inspectie en aanpassing te bevorderen, biedt Scrum cadans in de vorm van de gebeurtenissen.
 
-The Scrum Artifacts, associated commitments, and progress toward agreed goals must be inspected frequently and diligently to detect emergence (71). Inspection of the artifacts, experiments, releases, marketplace, or result feedback may yield learnings or side effects. Side effects are unexpected or unintended results or consequences.
+De Scrum-artefacten, bijbehorende verplichtingen en voortgang richting overeengekomen doelen moeten frequent en zorgvuldig worden geïnspecteerd om emergentie te detecteren (71). Inspectie van de artefacten, experimenten, releases, marktplaats of feedback op resultaten kan leerpunten of neveneffecten opleveren. Neveneffecten zijn onverwachte of onbedoelde resultaten of gevolgen.
 
-Inspection without Transparency is ill-informed, misleading, and wasteful.
+Inspectie zonder transparantie is slecht geïnformeerd, misleidend en verspillend.
 
-### Adaptation {#adaptation}
+### Adaptie {#adaptation}
 
-Adaptation is a pillar of Scrum. Given the direction of the Product, the Scrum Team and Stakeholders are expected to adapt to reality the moment improvement opportunities emerge, such as experiment outcomes, insights, risks, or opportunities. Adaptation becomes more difficult when institutional inefficiencies exist or when the people involved are not ready, willing, or able to do what needs to be done.
+Aanpassing is een pijler van Scrum. Gezien de richting van het product wordt van het Scrum-team en de stakeholders verwacht dat ze zich aanpassen aan de realiteit zodra er verbetermogelijkheden ontstaan, zoals experimentresultaten, inzichten, risico's of kansen. Aanpassing wordt moeilijker wanneer er institutionele inefficiënties bestaan ​​of wanneer de betrokkenen niet klaar, bereid of in staat zijn om te doen wat er gedaan moet worden.
 
-Adaptation starts with accepting ‘reality,’ informed by evidence. Adaptation typically occurs in the Scrum Artifacts, associated commitments, Scrum Team, Stakeholders, leaders, and organization. If any aspects deviate outside acceptable limits or boundaries, or the resulting Product is unacceptable, adjustments must be made as soon as possible to course-correct.
+Aanpassing begint met het accepteren van de 'realiteit', onderbouwd door bewijs. Aanpassing vindt doorgaans plaats in de Scrum-artefacten, bijbehorende commitments, het Scrum-team, stakeholders, leiders en de organisatie. Als aspecten buiten de acceptabele grenzen of grenzen vallen, of als het resulterende product onacceptabel is, moeten er zo snel mogelijk aanpassingen worden gedaan om de koers te corrigeren.
 
-Without Adaptation, Transparency and Inspection are meaningless.
+Zonder aanpassing zijn transparantie en inspectie zinloos.
 
-## The Scrum Values {#the-scrum-values}
+## De Scrum Waarden {#the-scrum-values}
 
-The Scrum Values _—focus_, _openness_, _commitment_, _courage_, and *respect—*help create a Scrum Team environment that supports psychological safety and positive collaboration, which align with principles identified in neuroscience as beneficial for learning and effective teamwork. Consider the context.
+De Scrum-waarden – focus, openheid, commitment, moed en respect – helpen een Scrum Team-omgeving te creëren die psychologische veiligheid en positieve samenwerking ondersteunt. Deze waarden sluiten aan bij principes die in de neurowetenschap worden gezien als gunstig voor leren en effectief teamwork. Houd rekening met de context.
 
-The Scrum Values foster transparency and trust, ensuring that words and actions align. Together, they create a strong foundation for collaboration, performance, and coherence within a Scrum Team.
+De Scrum-waarden bevorderen transparantie en vertrouwen en zorgen ervoor dat woorden en daden op elkaar aansluiten. Samen vormen ze een sterke basis voor samenwerking, prestaties en samenhang binnen een Scrum Team.
 
-Successful Scrum adoption depends on the Scrum Team and Supporters (and other Stakeholders) leading by example as professionals. The Scrum Values can help improve trust among the Scrum Team and Stakeholders. The Scrum Values also encourage ethics (57), vocabulary, tone, work, behavior, and action that foster trust. They also help reduce or avoid a gap between words and actions.
+Een succesvolle implementatie van Scrum is afhankelijk van het Scrum Team en de Supporters (en andere Stakeholders) die als professionals het goede voorbeeld geven. De Scrum-waarden kunnen helpen het vertrouwen tussen het Scrum Team en de Stakeholders te vergroten. De Scrum-waarden stimuleren ook ethiek (57), woordenschat, toon, werk, gedrag en actie die vertrouwen bevorderen. Ze helpen ook om een ​​kloof tussen woorden en daden te verkleinen of te voorkomen.
 
-The Scrum Team and Supporters agree to be _open_ about all the work and the challenges. Humility supports _Openness_. _Openness_ requires trust, and trust requires _Openness_. The Scrum Team and Supporters should request and share constructive feedback. They routinely collaborate and learn through high-bandwidth conversations and qualitative or quantitative feedback.
+Het Scrum Team en de Supporters komen overeen om open te zijn over al het werk en de uitdagingen. Bescheidenheid ondersteunt openheid. _Openheid_ vereist vertrouwen, en vertrouwen vereist _Openheid_. Het Scrumteam en de Supporters moeten constructieve feedback vragen en delen. Ze werken regelmatig samen en leren door middel van gesprekken met hoge bandbreedte en kwalitatieve of kwantitatieve feedback.
 
-High-bandwidth conversations are conversations that foster communication in ways that allow for the richest, fastest, and clearest exchange of information. This typically involves face-to-face discussions-either in person, via video calls, visual management, or whiteboards (physical or digital), where participants can use not just words, but also tone of voice, facial expressions, drawing, or body language to fully understand each other.
+Gesprekken met hoge bandbreedte zijn gesprekken die de communicatie bevorderen op manieren die de rijkste, snelste en duidelijkste uitwisseling van informatie mogelijk maken. Dit omvat meestal persoonlijke gesprekken - persoonlijk, via videogesprekken, visueel management of whiteboards (fysiek of digitaal), waarbij deelnemers niet alleen woorden, maar ook toon, gezichtsuitdrukkingen, tekeningen of lichaamstaal kunnen gebruiken om elkaar volledig te begrijpen.
 
-As Sprints are short, any failures should be small and quick, and risk is identified and managed through fast and _open_ feedback. Perhaps, the only real failure is the lack of learning.
+Omdat Sprints kort zijn, moeten eventuele fouten klein en snel worden gemaakt, en risico's worden geïdentificeerd en beheerd door middel van snelle en _open_ feedback. Misschien is de enige echte fout wel het gebrek aan leren.
 
-The Scrum Team and Supporters should have the _Courage_ to do the right thing and face tough challenges. They should be courageous in exploring the unknown, changing direction, requesting and sharing information, and engaging in courteous disagreements, e.g., healthy conflict and constructive dissent. The Scrum Team should ask Supporters and leaders for help if needed.
+Het Scrumteam en de Supporters moeten de _Moed_ hebben om het juiste te doen en lastige uitdagingen aan te gaan. Ze moeten moedig zijn in het verkennen van het onbekende, het veranderen van richting, het vragen en delen van informatie, en het aangaan van beleefde meningsverschillen, bijvoorbeeld gezonde conflicten en constructieve meningsverschillen. Het Scrumteam moet Supporters en leiders om hulp vragen indien nodig.
 
-The Scrum Team _Commits_ to achieving the Sprint Goal and supporting each other. Commitment means getting relevant work toward the Sprint Goal to comply with the Definition of Output Done at the latest by the end of the Sprint, preferably much earlier. Commitment also means getting to desired outcomes through value realization.
+Het Scrumteam _Committeert_ zich aan het behalen van het Sprintdoel en het ondersteunen van elkaar. Commitment betekent dat relevant werk voor het Sprintdoel wordt geleverd om te voldoen aan de Definition of Done, uiterlijk aan het einde van de Sprint, bij voorkeur veel eerder. Commitment betekent ook het bereiken van de gewenste resultaten door middel van waarderealisatie.
 
-Their primary _Focus_ is making the best possible progress toward the Sprint Goal. Their secondary Focus is making the best possible progress toward the Product Goal. The Supporters _Commit_ to providing a psychologically safe space and environment for the Scrum Team to deliver Increments; within their _Focus_, the Scrum Team and Supporters _Commit_ to creating time for continuous learning and Adaptation, and the transfer of learning between Scrum Teams to ensure long-term effectiveness. The Scrum Team and Stakeholders should be intentional about addressing trade-offs, including consideration of short-term wins with long-term consequences.
+Hun primaire _Focus_ is het boeken van de best mogelijke voortgang in de richting van het Sprintdoel. Hun secundaire focus is het boeken van de best mogelijke voortgang in de richting van het Productdoel. De Supporters _Committeren_ zich aan het creëren van een psychologisch veilige ruimte en omgeving voor het Scrumteam om Incrementen te leveren; binnen hun _Focus_ _Committeren_ het Scrumteam en de Supporters zich aan het creëren van tijd voor continu leren en aanpassen, en de overdracht van kennis tussen Scrumteams om effectiviteit op de lange termijn te garanderen. Het Scrumteam en de stakeholders moeten bewust afwegingen maken, inclusief het overwegen van kortetermijnwinst met langetermijngevolgen.
 
-The Scrum Team and Supporters (and other Stakeholders) _Respect_ each other as skilled professionals; they _Respect_ each other's differing expertise and perspectives and are constructive when disagreeing. Respectful behavior supports trust. The Scrum Team and Supporters should critique the idea or the approach to find more effective options, not the person(s).
+Het Scrumteam en de supporters (en andere stakeholders) _respecteren_ elkaar als bekwame professionals; ze _respecteren_ elkaars verschillende expertises en perspectieven en zijn constructief bij meningsverschillen. Respectvol gedrag bevordert vertrouwen. Het Scrumteam en de supporters moeten het idee of de aanpak bekritiseren om effectievere opties te vinden, niet de persoon/personen.
 
-_Respect_ helps protect against the weaponization of the other Scrum Values. Demonstrations of _Respect_ can include (but are not limited to) genuine praise, support for each other, humility, psychological safety, constructive disagreement, and cognitive diversity.
+_Respect_ helpt beschermen tegen het gebruik van de andere Scrumwaarden. Uitingen van _respect_ kunnen bestaan ​​uit (maar zijn niet beperkt tot) oprechte lof, steun voor elkaar, nederigheid, psychologische veiligheid, constructieve meningsverschillen en cognitieve diversiteit.
 
-Scrum Team members and Stakeholders can look at the Scrum Values through the lens of John Boyd’s OODA (99, 100, 102\). OODA was created by U.S. Air Force Colonel John Boyd to help pilots make quick, smart decisions in fast-changing situations by moving through four steps: Observe, Orient, Decide, and Act. It’s a simple, continuous, iterative, powerful, if often subconscious way to handle uncertainty—like noticing market changes (Observe), analyzing trends and risks (Orient), choosing Product features to test (Decide), and delivering them (Act). OODA helps individuals stay flexible and respond well to whatever comes their way. Scrum can improve OODA.
+Scrumteamleden en stakeholders kunnen de Scrumwaarden bekijken vanuit het perspectief van John Boyds OODA (99, 100, 102\). OODA is ontwikkeld door kolonel John Boyd van de Amerikaanse luchtmacht om piloten te helpen snelle, slimme beslissingen te nemen in snel veranderende situaties door vier stappen te doorlopen: Observeren (Observe), Oriënteren (Orient), Beslissen (Decide) en Handelen (Act). Het is een eenvoudige, continue, iteratieve, krachtige, zij het vaak onbewuste manier om met onzekerheid om te gaan – zoals het opmerken van marktveranderingen (Observeren), het analyseren van trends en risico's (Oriënteren), het kiezen van te testen productfuncties (Beslissen) en het implementeren ervan (Handelen). OODA helpt individuen flexibel te blijven en goed te reageren op alles wat op hun pad komt. Scrum kan OODA verbeteren.
 
-Individual Scrum Team members can look at the Scrum Values through the lens of John Boyd’s OODA, using Scrum to foster emergent solutions. In a Scrum context, the Scrum Values apply across all of OODA, and in particular, help as follows:
+Individuele Scrum Teamleden kunnen de Scrum-waarden bekijken vanuit het perspectief van John Boyds OODA, waarbij Scrum wordt gebruikt om oplossingen te stimuleren. In een Scrum-context zijn de Scrum-waarden van toepassing op alle OODA-waarden en helpen ze met name als volgt:
 
-- Observe—Openness and Respect can foster the gathering of all relevant evidence, and diverse perspectives.
-- Orient—Courage is needed to interpret reality, navigate uncertainty, and agree to adapt or pivot, potentially using a reflective pause to challenge assumptions and provoke new insights.
-- Decide—Deciding what to do requires timely analysis, such as backlog refinement, bringing potential next steps into Focus through parallel safe-to-fail experiments to test hypotheses, like small-scale probes (probes should be small, parallel, and designed so that failure is survivable and informative).
-- Act—With clarity on what needs to be done, why, and by whom, Commitment can drive the team to execute effectively within enabling constraints like time-boxed sprints, fostering emergent solutions.
+- Observeren – Openheid en respect kunnen het verzamelen van alle relevante bewijzen en diverse perspectieven bevorderen.
+- Oriënteren – Moed is nodig om de realiteit te interpreteren, onzekerheid te navigeren en in te stemmen met aanpassingen of koerswijzigingen, mogelijk door een reflectiepauze te gebruiken om aannames ter discussie te stellen en nieuwe inzichten te genereren.
+- Beslissen – Beslissen wat te doen vereist tijdige analyse, zoals het verfijnen van de achterstand, het in beeld brengen van mogelijke volgende stappen door middel van parallelle experimenten die veilig zijn om te falen om hypothesen te testen, zoals kleinschalige tests (tests moeten klein, parallel zijn en zo ontworpen dat falen overleefbaar en informatief is).
+- Handelen – Met duidelijkheid over wat er moet gebeuren, waarom en door wie, kan commitment het team ertoe aanzetten om effectief te presteren binnen faciliterende beperkingen zoals time-boxed sprints, wat opkomende oplossingen stimuleert.
 
 ## More Supporting and Complementary Theory {#more-supporting-and-complementary-theory}
 
