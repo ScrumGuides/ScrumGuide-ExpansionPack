@@ -513,137 +513,137 @@ De Scrum Master is één persoon, geen commissie of technologie, en dient de Pro
 Scrum Master zijn is een roeping waarbij het helpen van anderen om te slagen al genoeg beloning is. Een Scrum Master zoekt niet de schijnwerpers op. Zoals elke goede leider geeft hij of zij anderen de eer en neemt hij of zij verantwoordelijkheid wanneer er iets misgaat. Door langer in de rol te blijven, helpt hij of zij het Scrum Team zijn volledige potentieel te bereiken, maar alleen als de productontwikkelaars gezamenlijk zelforganiserend gedrag ontwikkelen. Scrum Master-gedrag als een ouder bevordert geen zelforganiserend Scrum Team. Context is belangrijk. Maar als vuistregel geldt dat een Scrum Master die niet bereid, klaar of in staat is om verandering teweeg te brengen, moet aftreden als Scrum Master.
 
 
-## The Scrum Artifacts in the Expansion Pack {#the-scrum-artifacts-in-the-expansion-pack}
+## De Scrum-artifacten in het Expansion Pack {#the-scrum-artifacts-in-the-expansion-pack}
 
-Scrum’s artifacts provide Transparency about what the Scrum Team and Stakeholders believe will deliver value. Thus, everyone can have the same basis for Inspection and Adaptation.
+De artefacten van Scrum bieden transparantie over wat het Scrum-team en de stakeholders denken dat waarde oplevert. Zo kan iedereen dezelfde basis hebben voor inspectie en aanpassing.
 
-Each artifact contains a commitment:
+Elk artefact bevat een commitment:
 
-- For the Product serving the Stakeholders, it is the Definition of Outcome Done.
-- For the Increment that is a candidate update for the Product, it is the Definition of Output Done.
-- For the Product Backlog, it is the Product Goal.
-- For the Sprint Backlog, it is the Sprint Goal.
+- Voor het product dat de stakeholders bedient, is dit de 'Definition of outcome done'.
+- Voor het increment dat een kandidaat-update voor het product is, is dit de 'Definition of Output done'.
+- Voor de productbacklog is dit het productdoel.
+- Voor de sprintbacklog is dit het sprintdoel.
 
-Upon release of the Increment (output), the Product is what creates value (outcomes). Value is the measurable or observable fulfillment or creation of expectations, needs, or wants from the Stakeholders’ perspective.
+Na de release van het increment (output) is het product wat waarde creëert (outcomes). Waarde is de meetbare of waarneembare vervulling of creatie van verwachtingen, behoeften of wensen vanuit het perspectief van de stakeholders.
 
-These commitments reinforce the pillars of Transparency, Inspection, and Adaptation, enabling empirical process control (64-66). The Product Goal is fixed for as long as no contrary evidence or observations emerge in the observed Product’s Definition of Outcome Done. The Definition of Output Done is not weakened during the Sprint. So what could be diminished or changed instead? It could be the Acceptance Criteria for a specific Product Backlog Item, the implementation or fidelity of a specific feature, or even alternative Product Backlog Items for achieving the Sprint Goal, etc.
+Deze commitments versterken de pijlers van transparantie, inspectie en aanpassing, waardoor empirische procesbeheersing mogelijk wordt (64-66). Het productdoel blijft vast zolang er geen tegenbewijs of observaties naar voren komen in de 'Definition of Outcome Done' van het geobserveerde product. De 'Definition of Output Done' wordt niet afgezwakt tijdens de sprint. Dus wat zou er in plaats daarvan kunnen worden verminderd of gewijzigd? Het kunnen de acceptatiecriteria voor een specifiek product backlog item zijn, de implementatie of betrouwbaarheid van een specifieke feature, of zelfs alternatieve product backlog items om het sprintdoel te behalen, enz.
 
-If the Product Goal shifts often, it could indicate that something is off, perhaps due to a lack of _Focus_ on what matters. _Focus_ is about being professional and deciding what to work on but also what not to work on.
+Als het productdoel vaak verandert, kan dit erop wijzen dat er iets niet klopt, mogelijk door een gebrek aan focus op wat belangrijk is. Focus draait om professionaliteit en het bepalen waaraan wel en niet gewerkt moet worden.
 
 ### Product {#product}
 
-The Product is an artifact. A Product can be a holistic experience or a platform. It can also be a service, physical, digital, or hybrid, delivering continuous value to Stakeholders (including but not limited to users).
+Het product is een artefact. Een product kan een holistische ervaring of een platform zijn. Het kan ook een dienst zijn, fysiek, digitaal of hybride, die continu waarde levert aan stakeholders (inclusief maar niet beperkt tot gebruikers).
 
-An experience is a specific solution designed to meet the needs of Stakeholders, including the user, ideally external to the organization. It provides a direct interaction that delivers value. It is typically focused on solving a particular problem or opportunity, or a set of them for Stakeholders, including but not limited to customers, decision-makers, and users.
+Een ervaring is een specifieke oplossing die is ontworpen om te voldoen aan de behoeften van stakeholders, waaronder de gebruiker, idealiter buiten de organisatie. Het biedt een directe interactie die waarde oplevert. Het is doorgaans gericht op het oplossen van een specifiek probleem of kans, of een set daarvan, voor stakeholders, waaronder maar niet beperkt tot klanten, besluitvormers en gebruikers.
 
-A platform is an architectural device, foundational infrastructure, or set of tools that enables developers to build Products in order to provide an experience. Platforms provide a base for multiple Products to be developed upon, focusing on scalability, reliability, and flexibility for engineers rather than direct user interaction.
+Een platform is een architectonisch apparaat, fundamentele infrastructuur of set tools waarmee ontwikkelaars producten kunnen bouwen om een ​​ervaring te bieden. Platforms bieden een basis waarop meerdere producten kunnen worden ontwikkeld, waarbij de nadruk ligt op schaalbaarheid, betrouwbaarheid en flexibiliteit voor engineers in plaats van directe gebruikersinteractie.
 
-The Scrum Team and Stakeholders need to have a clear understanding at all times of what the Product is, who the customers, users, or decision-makers are, and the type of Product it is —like one for end-users, employees, or Scrum Teams—has different Stakeholders and ways it creates value. A Product is evolutionary and often long-lived. The Product needs a single Product Backlog to increase Transparency and maximize value.
+Het Scrumteam en de stakeholders moeten te allen tijde een helder begrip hebben van wat het product is, wie de klanten, gebruikers of besluitvormers zijn, en het type product – zoals een product voor eindgebruikers, medewerkers of Scrumteams – dat verschillende stakeholders heeft en op welke manier het waarde creëert. Een product is evolutionair en heeft vaak een lange levensduur. Het product heeft één productbacklog nodig om de transparantie te vergroten en de waarde te maximaliseren.
 
-Context matters. But as a rule of thumb, for a Product to create and maintain traction, it helps if the Product:
+Context is belangrijk. Maar als vuistregel geldt dat het voor een product dat tractie wil creëren en behouden, helpt als het:
 
-- Sufficiently addresses satisfaction gaps;
-- Is valuable, desirable, viable, usable, feasible, safe, and secure;
-- Has professionalism built-in;
-- Has a compelling, clear, and outcome-metric-oriented Product Vision, Product strategy, and Product Goal, often including intent, rationale, and anti-goals;
-- Adapts and improves to identify, represent, or measure emergence (71); and,
-- Is extendable and maintainable.
+- Voldoende tegemoetkomt aan tevredenheidstekorten;
+- Waardevol, wenselijk, levensvatbaar, bruikbaar, haalbaar, veilig en zeker is;
+- Professionaliteit ingebouwd heeft;
+- Een overtuigende, duidelijke en op resultaatgerichte productvisie, productstrategie en productdoelstelling heeft, vaak inclusief intentie, onderbouwing en anti-doelen;
+- Aanpasbaar en verbeterd is om emergentie te identificeren, weer te geven of te meten (71); en
+- Uitbreidbaar en onderhoudbaar is.
 
-The Product is the manifestation of _why_ we do _what_ we do.
+Het product is de manifestatie van _waarom_ we _doen_ wat we doen.
 
 #### Commitment: Definition of Outcome Done {#commitment:-definition-of-outcome-done}
 
-The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It’s often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations.
+De 'Definition of Outcome Done' is een commitment. Het beschrijft de meetbare (kwantitatieve of kwalitatieve) gegevens die nodig zijn om gerealiseerde voordelen aan te tonen, vaak aangeduid als waardevalidatie. Dit kan betrekking hebben op het gehele product of een specifiek doel. Het is vaak het beste om de meetbare gegevens voor waardevalidatie te definiëren vóórdat de realisatie start, om vertekeningen en verkeerde interpretaties te voorkomen.
 
-Outcomes and related interpretations inform future adaptations, ideally confirming the intended Stakeholder impact(including but not limited to business or user impact)—measuring whether the output fulfills the anticipated outcome(s) and delivers real value. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (120-124). Or a combination of both.
+Uitkomsten en gerelateerde interpretaties vormen de basis voor toekomstige aanpassingen en bevestigen idealiter de beoogde impact op stakeholders (inclusief, maar niet beperkt tot, impact op de business of gebruiker) – door te meten of de output de verwachte uitkomst(en) vervult en daadwerkelijk waarde oplevert. Het kan betrekking hebben op een specifiek doel, zoals een grotere feature of meerdere features, en worden gevalideerd via producttelemetrie (het product kan zijn eigen gebruik meten). Het kan ook betrekking hebben op het gehele product, waar het vaak gaat om de strategische impact en de validatie van de effectiviteit van de geïmplementeerde strategische implementatie (120-124). Of een combinatie van beide.
 
-Favor direct evidence over circumstantial evidence. For example:
+Geef de voorkeur aan direct bewijs boven indirect bewijs. Bijvoorbeeld:
 
-- Customer outcomes could Focus on delivering measurable value to customers, such as increased customer satisfaction, customer long-term cost reduction, or the number of customer jobs addressed.
-- User outcomes could address specific changes in user behavior that solve problems and improve experiences, like completing tasks more efficiently or engaging with new features.
-- Product Stakeholder outcomes could connect these behavioral changes to Product performance metrics, e.g., trends in Product customer, decision-maker/user metrics, Product time to release, time to learn, time to pivot, etc.
-- Business Stakeholder outcomes, e.g., compliance, business long-term cost reduction, business results, trends in market share, customer satisfaction across all Products, organizational time to release, time to learn, time to pivot, etc.
-- Scrum Team outcomes such as improved technical capability (psychological flow (70), frequency of release, tooling, skills, technical debt, UX or CX debt, capacity), climate/culture for net improvement and innovation.
+- Klantresultaten kunnen zich richten op het leveren van meetbare waarde aan klanten, zoals een hogere klanttevredenheid, kostenverlaging op de lange termijn of het aantal afgehandelde klanttaken.
+- Gebruikersresultaten kunnen betrekking hebben op specifieke veranderingen in gebruikersgedrag die problemen oplossen en de ervaring verbeteren, zoals het efficiënter uitvoeren van taken of het gebruik van nieuwe functies.
+- Resultaten voor product stakeholders kunnen deze gedragsveranderingen koppelen aan productprestatiegegevens, bijvoorbeeld trends in product klant, beslisser/gebruiker statistieken, product tijd tot release, leertijd, tijd tot pivot, enz.
+- Resultaten voor business stakeholders, bijvoorbeeld compliance, kostenverlaging op de lange termijn, bedrijfsresultaten, trends in marktaandeel, klanttevredenheid voor alle producten, organisatorische tijd tot release, leertijd, tijd tot pivot, enz.
+- Resultaten voor Scrum Teams, zoals verbeterde technische capaciteit (psychologische flow (70), frequentie van release, tooling, vaardigheden, technical debt, UX of CX debt, capaciteit), klimaat/cultuur voor netto verbetering en innovatie.
 
-User eXperience (UX) or Customer eXperience (CX) debt is the sum of design and implementation choices—intentional or not—that make a Product or service less usable, enjoyable, or effective for users or customers. Recognizing, tracking, and addressing this debt is essential for delivering Products that truly meet user needs and expectations.
+User eXperience (UX) of Customer eXperience (CX) debt is de som van ontwerp- en implementatiekeuzes – al dan niet opzettelijk – die een product of dienst minder bruikbaar, plezierig of effectief maken voor gebruikers of klanten. Het herkennen, volgen en aanpakken van deze debt is essentieel voor het leveren van producten die daadwerkelijk voldoen aan de behoeften en verwachtingen van gebruikers.
 
-Measures over time make Product, market, and Stakeholder trends (including but not limited to customer or user) transparent; these can be reviewed at any time during the Sprint, including the Sprint Review.
+Metingen in de loop van de tijd maken trends in het product, de markt en stakeholders (inclusief maar niet beperkt tot klant of gebruiker) inzichtelijk; deze kunnen op elk moment tijdens de sprint worden beoordeeld, inclusief de sprintreview.
 
 ### Increment {#increment}
 
-The Increment is an artifact. It is the integration of the work completed to the standard of the Definition of Output Done. The Increment is an output and a Product candidate.
+Het Increment is een artefact. Het is de integratie van het voltooide werk volgens de norm van de 'Definition of Output Done'. Het Increment is een output en een productkandidaat.
 
-Multiple Increments may be created within a Sprint through the completion of Product Backlog Items. Each Increment is thoroughly verified, usable, and integrated with all previous Increments. The resulting aggregated Increment is inspected as soon as possible, at the latest at the Sprint Review. The Increment must be usable and useful to enable result feedback. An Increment is central to Scrum as it enables ongoing value validation.
+Meerdere Incrementen kunnen binnen een Sprint worden gecreëerd door het voltooien van Product Backlog Items. Elk Increment wordt grondig geverifieerd, bruikbaar en geïntegreerd met alle voorgaande Incrementen. Het resulterende geaggregeerde Increment wordt zo snel mogelijk geïnspecteerd, uiterlijk tijdens de Sprint Review. Het Increment moet bruikbaar en nuttig zijn om feedback op de resultaten mogelijk te maken. Een Increment staat centraal in Scrum omdat het continue waardevalidatie mogelijk maakt.
 
-An Increment-candidate does not qualify as an Increment until it meets the quality standard of the Definition of Output Done. Only an Increment can be released. An Increment should be a concrete stepping stone toward the Product Goal. Increments may be delivered to Stakeholders or released prior to the Sprint Review. _The best value validation is attained through result feedback._
+Een Increment-kandidaat kwalificeert pas als Increment als het voldoet aan de kwaliteitsnorm van de 'Definition of Output Done'. Alleen een Increment kan worden vrijgegeven. Een Increment moet een concrete stap zijn naar het productdoel. Incrementen kunnen worden overgedragen aan stakeholders of vrijgegeven vóór de Sprint Review. De beste waardevalidatie wordt bereikt door feedback op de resultaten.
 
 #### Commitment: Definition of Output Done {#commitment:-definition-of-output-done}
 
-The Definition of Output Done is a commitment. It formally describes the quality measures that express due diligence for the Increment so that it could be delivered to Stakeholders.
+De 'Definition of Output Done' is een commitment. Het beschrijft formeel de kwaliteitsmaatregelen die de zorgvuldigheid voor het Increment uitdrukken, zodat het aan Stakeholders kan worden geleverd.
 
-The Definition of Output Done typically includes (but is not limited to) both technical standards and Product qualities. The Scrum Team creates it if not provided by the organization as a minimum. If there are multiple Scrum Teams on the same Product, they share the same Definition of Output Done as the common foundation but may improve upon it.
+De 'Definition of Output Done' omvat doorgaans (maar is niet beperkt tot) zowel technische standaarden als productkwaliteiten. Het Scrum Team stelt deze vast, tenzij de organisatie deze minimaal zelf aanlevert. Indien meerdere Scrum Teams aan hetzelfde product werken, delen ze dezelfde 'Definition of Output Done' als gemeenschappelijke basis, maar kunnen ze deze verbeteren.
 
-The Scrum Team is duty-bound to conform to the Definition of Output Done and continuously improve it. The Increment is cumulative. The Definition of Output Done is for the good of the Product and its Stakeholders. The Definition of Output Done is the overall quality standard for the whole Increment, not the specific standard for each item (e.g., Acceptance Criteria).
+Het Scrum Team is verplicht zich te houden aan de 'Definition of Output Done' en deze continu te verbeteren. Het Increment is cumulatief. De 'Definition of Output Done' is in het belang van het product en de Stakeholders. De 'Definition of Output Done' is de algemene kwaliteitsstandaard voor het gehele Increment, niet de specifieke standaard voor elk item (bijv. Acceptatiecriteria).
 
-A released Increment enables result feedback for Definition of Outcome Done value validation.
+Een vrijgegeven Increment maakt resultaatfeedback mogelijk voor de validatie van de waarde van de 'Definition of Outcome Done'.
 
 ### Product Backlog {#product-backlog}
 
-The Product Backlog is an artifact. It is the emergent, ordered (sequenced) list of Product Backlog Items needed to attain the Product Goal. The Product Backlog provides Transparency (work clarity) and is the single source of work for the Scrum Team in order to achieve the Product Goal. The Product Owner, always keeping value in mind, guides the ordering of the Product Backlog Items in the Product Backlog. A smaller Product Backlog often provides more Transparency.
+De Product Backlog is een artefact. Het is de opkomende, geordende (gesequentieerde) lijst van Product Backlog Items die nodig zijn om het productdoel te bereiken. De Product Backlog biedt transparantie (duidelijkheid van het werk) en is de enige bron van werk voor het Scrum Team om het productdoel te bereiken. De Product Owner, die altijd waarde in gedachten houdt, bepaalt de volgorde van de Product Backlog Items in de Product Backlog. Een kleinere Product Backlog biedt vaak meer transparantie.
 
 #### Product Backlog Item {#product-backlog-item}
 
-A Product Backlog Item is a potentially valuable item in the Product Backlog. It is not necessarily in any specific format. It is intended to deal with a problem or opportunity. It can include Acceptance Criteria that can tell when work is completed, in addition to the Definition of Output Done. One might deliver exactly what was requested but still not deliver sufficient outcomes. So, a Product Backlog Item can also include clearly defined Outcome Criteria that can tell when sufficient value is delivered, in addition to what is already in the Definition of Outcome Done.
+Een Product Backlog Item is een potentieel waardevol item in de Product Backlog. Het hoeft niet per se een specifieke vorm te hebben. Het is bedoeld om een ​​probleem of kans aan te pakken. Het kan Acceptatiecriteria bevatten die aangeven wanneer het werk is voltooid, naast de 'Definition of Outcome Done'. Het kan zijn dat men precies levert wat gevraagd is, maar nog steeds niet voldoende resultaten oplevert. Een Product Backlog Item kan dus ook duidelijk gedefinieerde Uitkomstcriteria bevatten die aangeven wanneer voldoende waarde is geleverd, naast wat al in de 'Definition of Outcome Done' staat.
 
-A Product Backlog Item is a single piece of work that discovers or delivers value. A Product Backlog Item can evolve anytime, even while Product Developers work on it. During refinement, it is broken down into smaller, more understandable (mostly to the Scrum Team) Product Backlog Items that could deliver value. Occasionally, an item in the Product Backlog might not be related to the Product Goal; if this happens often, it’s worth examining if the _Focus_ level might not be where it needs to be. The Scrum Team and Stakeholders should _Focus_ on outcomes over outputs, keep the trade-off balance right, and not let the Scrum Team become a ‘feature-factory’ or ‘discovery-factory.’
+Een Product Backlog Item is een enkel stuk werk dat waarde ontdekt of levert. Een Product Backlog Item kan op elk moment evolueren, zelfs terwijl productontwikkelaars eraan werken. Tijdens de verfijning wordt het opgesplitst in kleinere, beter begrijpbare (meestal voor het Scrum Team) Product Backlog Items die waarde kunnen leveren. Soms is een item in de Product Backlog mogelijk niet gerelateerd aan het Productdoel; als dit vaak gebeurt, is het de moeite waard om te onderzoeken of het _Focus_-niveau mogelijk niet is waar het moet zijn. Het Scrum-team en de stakeholders moeten zich _richten_ op resultaten boven output, de juiste balans bewaren en voorkomen dat het Scrum-team een ​​‘functiefabriek’ of ‘ontdekkingsfabriek’ wordt.
 
-#### Acceptance Criteria {#acceptance-criteria}
+#### Acceptatiecriteria {#acceptance-criteria}
 
-Acceptance Criteria, if they exist, describe when an output for a specific Product Backlog Item is complete, in addition to the Definition of Output Done. Acceptance Criteria in refined items should provide unambiguous clarity on _what_ is requested. Acceptance Criteria include criteria specific to a Product Backlog Item not already addressed in the Definition of Output Done; they can be functional or non-functional. Acceptance Criteria can evolve anytime, even while Product Developers work on them.
+Acceptatiecriteria, indien aanwezig, beschrijven wanneer een output voor een specifiek productbacklogitem voltooid is, naast de 'Definition of Output Done'. Acceptatiecriteria in verfijnde items moeten ondubbelzinnige duidelijkheid verschaffen over _wat_ er wordt gevraagd. Acceptatiecriteria omvatten criteria die specifiek zijn voor een productbacklogitem en die nog niet in de 'Definition of Output Done' zijn opgenomen; ze kunnen functioneel of niet-functioneel zijn. Acceptatiecriteria kunnen op elk moment worden aangepast, zelfs terwijl productontwikkelaars eraan werken.
 
-#### Outcome Criteria {#outcome-criteria}
+#### Uitkomstcriteria {#outcome-criteria}
 
-Outcome criteria, if they exist, describe the intention of the Product Backlog Item; it is the _why_ behind the _what_. The fulfillment of Outcome Criteria often complements the Definition of Outcome Done for the Product. They can include criteria specific to a Product Backlog Item not already addressed in the Definition of Outcome Done. If questions arise, the Outcome Criteria provide direction; they can be in the form of a narrative or measures, ideally, the latter. Outcome Criteria can evolve anytime, even while Product Developers work on them.
+Uitkomstcriteria, indien aanwezig, beschrijven de intentie van het Product Backlog Item; het is het _waarom_ achter het _wat_. De vervulling van uitkomstcriteria vormt vaak een aanvulling op de 'Definition of Outcome Done' voor het product. Ze kunnen criteria bevatten die specifiek zijn voor een Product Backlog Item en die nog niet in de 'Definition of Outcome Done' zijn opgenomen. Mochten er vragen rijzen, dan geven de uitkomstcriteria richting; ze kunnen de vorm hebben van een verhaal of meetgegevens, idealiter de laatste. Uitkomstcriteria kunnen op elk moment evolueren, zelfs terwijl productontwikkelaars eraan werken.
 
 #### Refinement {#refinement}
 
-Refinement is an activity. It may be formal (an additional event) or informal. Refinement is an ongoing emergent process that fosters clarity and reduces risk; it builds enough understanding and confidence that the selected or upcoming Product Backlog Items are ready (can be completed in accordance with the Definition of Output Done within a small number of days, or shorter). Various types of dependencies are considered.
+Refinement is een activiteit. Het kan formeel (een extra gebeurtenis) of informeel zijn. Refinement is een continu proces dat helderheid bevordert en risico's vermindert; het bouwt voldoende begrip en vertrouwen op dat de geselecteerde of toekomstige Product Backlog Items klaar zijn (kunnen worden voltooid volgens de 'Definition of Output Done' binnen een klein aantal dagen, of korter). Verschillende soorten afhankelijkheden worden overwogen.
 
-Refinement involves breaking down Product Backlog Items into smaller, more understandable (mostly to the Scrum Team) Product Backlog Items. It can add more details such as description, Acceptance Criteria, Outcome Criteria, order, and size. Attributes vary but should be meaningful to the Scrum Team. Refinement can involve research, including but not limited to, problem or opportunity validation, user or customer experience, solution validation. The Product Developers, and nobody else, are responsible for sizing the Product Backlog Items. The Product Owner may influence the Product Developers by helping them understand and select potential trade-offs.
+Refinement omvat het opsplitsen van Product Backlog Items in kleinere, beter begrijpelijke (meestal voor het Scrum Team) Product Backlog Items. Het kan meer details toevoegen, zoals een beschrijving, acceptatiecriteria, uitkomstcriteria, volgorde en omvang. Attributen variëren, maar moeten betekenisvol zijn voor het Scrum Team. Refinement kan onderzoek omvatten, inclusief maar niet beperkt tot probleem- of kansvalidatie, gebruikers- of klantervaring, oplossingsvalidatie. De productontwikkelaars, en niemand anders, zijn verantwoordelijk voor het bepalen van de omvang van de Product Backlog Items. De Product Owner kan de productontwikkelaars beïnvloeden door hen te helpen potentiële afwegingen te begrijpen en te selecteren.
 
-Participants often include Stakeholders and members of the Scrum Team; it is not uncommon for Product Developers to work directly with Stakeholders. Refinement is often supported or facilitated by the Product Owner. The Product Owner can _Focus_ more on Product ownership if the Product Developers have a broad understanding of the Product. Generally speaking, it is a forward-looking activity that offers clarity, direction, and potential _Focus_ for upcoming Sprints.
+Deelnemers zijn vaak stakeholders en leden van het Scrum Team; het is niet ongebruikelijk dat productontwikkelaars rechtstreeks met stakeholders samenwerken. Refinement wordt vaak ondersteund of gefaciliteerd door de Product Owner. De Product Owner kan zich meer richten op producteigenaarschap als de productontwikkelaars een brede kennis van het product hebben. Over het algemeen is het een toekomstgerichte activiteit die duidelijkheid, richting en potentiële focus biedt voor aankomende sprints.
 
 #### Commitment: Product Goal {#commitment:-product-goal}
 
-The Product Goal is a commitment. It is represented through the Product Backlog, which is owned by the Product Owner. It is the current single, more strategic, ambitious objective (the _why_). It gives direction for the Product and enables _Focus_ for the Product Developers working on the Product. It improves Transparency by providing a clear, valuable direction for the Product Developers to work toward, using a more tactical Sprint Goal (the _why_ for the Sprint).
+Het productdoel is een commitment. Het wordt weergegeven in de productbacklog, die eigendom is van de Product Owner. Het is de huidige, meer strategische en ambitieuze doelstelling (het _waarom_). Het geeft richting aan het product en zorgt voor _focus_ voor de productontwikkelaars die aan het product werken. Het verbetert de transparantie door een duidelijke, waardevolle richting te bieden waar de productontwikkelaars naartoe kunnen werken, met behulp van een meer tactisch sprintdoel (het _waarom_ van de sprint).
 
-A Product Goal is the medium-term objective for the Scrum Team and the Stakeholders (and Supporters). The Scrum Team should fulfill (or abandon) one Product Goal before taking on the next.
+Een productdoel is de doelstelling op de middellange termijn voor het Scrumteam en de stakeholders (en supporters). Het Scrumteam moet één productdoel behalen (of laten varen) voordat het aan het volgende begint.
 
-A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders (including but not limited to customers or users) expectations and limits. Through Inspection and Adaptation, it’s essential to embrace uncertainty (72), result feedback, side effects, and other learnings.
+Een productdoel is meestal een nog niet bewezen bewering over waarde. Het kan worden uitgedrukt als één van de vele dingen, waaronder een reeks hypothesen over het dichten of verkleinen van tevredenheidskloven. Het zorgt voor de juiste balans door te focussen op een subset van de vele verwachtingen en beperkingen van stakeholders (inclusief, maar niet beperkt tot, klanten of gebruikers). Bij inspectie en aanpassing is het essentieel om onzekerheid (72), feedback op resultaten, bijwerkingen en andere leermomenten te omarmen.
 
-#### What about a Product Vision? {#what-about-a-product-vision}
+#### Hoe zit het met een productvisie? {#what-about-a-product-vision}
 
-Many organizations work with a Product Vision, which helps visualize a potential future. The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision.
+Veel organisaties werken met een productvisie, die helpt bij het visualiseren van een potentiële toekomst. Het Scrumteam kan een visie gebruiken als input voor het overwegen van een productdoel. Een productvisie is een zinvolle, langetermijnset van waardevolle gewenste resultaten. Het productdoel op de middellange termijn is vaak een opstap naar een productvisie op de lange termijn.
 
-As the Scrum Team and Stakeholders inspect and adapt toward the Product Goal, they need to be _open_ to the idea that the Product Vision or Product Goal might also need to adapt. Often, several Product Goals are sequentially achieved while working toward a vision.
+Terwijl het Scrumteam en de stakeholders het productdoel onderzoeken en aanpassen, moeten ze _open_ staan ​​voor het idee dat de productvisie of het productdoel mogelijk ook moet worden aangepast. Vaak worden meerdere productdoelen achtereenvolgens bereikt tijdens het werken aan een visie.
 
-The key thing to note is that a Product Vision is often a work of fiction; none of it may be true. Forming hypotheses and running experiments in a direction is essential, and is where Scrum can add the most value.
+Het belangrijkste om te onthouden is dat een productvisie vaak fictie is; er is mogelijk niets van waar. Het formuleren van hypothesen en het uitvoeren van experimenten in een bepaalde richting is essentieel, en dat is waar Scrum de meeste waarde kan toevoegen.
 
-A Product Vision is often inspiring but can be overwhelming. The Product Goal reduces overwhelm by acting as a more tangible vertical slice of a Product Vision or as an enabler for a Product Vision.
+Een productvisie is vaak inspirerend, maar kan overweldigend zijn. Het productdoel vermindert de overweldiging door te fungeren als een meer tastbaar verticaal deel van een productvisie of als een katalysator voor een productvisie.
 
 ### Sprint Backlog {#sprint-backlog}
 
-The Sprint Backlog is an artifact. It is composed of the Sprint Goal (the _why_ for the Sprint), the set of Product Backlog Items selected (the _what_, also known as the forecast) for the Sprint, and often has an actionable plan for delivering the Increment (the _how_). It provides Transparency (work clarity) throughout the Sprint.
+De Sprint Backlog is een artefact. De Sprint Backlog bestaat uit het Sprintdoel (het _waarom_ van de Sprint), de geselecteerde Product Backlog-items (het _wat_, ook wel de forecast genoemd) voor de Sprint, en bevat vaak een actieplan voor de oplevering van het Increment (het _hoe_). Het zorgt voor transparantie (duidelijkheid van het werk) gedurende de Sprint.
 
-The Sprint Backlog is a plan by and for the Product Developers. It is the Product Developers’ viewpoint of the understood work to achieve the Sprint Goal (the why for the Sprint). Suppose a suboptimal scenario where most items in the Sprint Backlog are continually unrelated to the Product Goal. In that case, the _Focus_ and _Commitment_ Scrum Values are not being upheld.
+De Sprint Backlog is een plan van en voor de productontwikkelaars. Het is het perspectief van de productontwikkelaars op het beoogde werk om het Sprintdoel (het waarom van de Sprint) te bereiken. Stel je een suboptimaal scenario voor waarin de meeste items in de Sprint Backlog voortdurend geen verband houden met het Productdoel. In dat geval worden de Scrum-waarden _Focus_ en _Commitment_ niet gehandhaafd.
 
-Within the context of the Sprint Goal, the Product Developers update their plan, even the forecast, throughout the Sprint as more is learned. The Sprint Backlog should have enough work to get started, e.g., start with one or two Product Backlog Items toward the Sprint Goal. The Product Developers inspect their progress toward the Sprint Goal in the Daily Scrum or more often. Product Developers learn to adapt and respond to uncertainty (72).
+Binnen de context van het Sprintdoel werken de productontwikkelaars hun plan, zelfs de forecast, gedurende de Sprint bij naarmate er meer wordt geleerd. De Sprint Backlog moet voldoende werk bevatten om te starten, bijvoorbeeld beginnen met één of twee Product Backlog Items richting het Sprintdoel. De productontwikkelaars controleren hun voortgang richting het Sprintdoel tijdens de Daily Scrum of vaker. Productontwikkelaars leren zich aan te passen en te reageren op onzekerheid (72).
 
-#### Commitment: Sprint Goal {#commitment:-sprint-goal}
+#### Commitment: Sprintdoel {#commitment:-sprint-goal}
 
-The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint Goal is the single unifying objective of the Sprint (the _why_) for the Product Developers, created in Sprint Planning. Delivery of the Sprint Goal is a commitment by the Product Developers. The Sprint Backlog (including the _why_, the _what,_ and, often, the _how_) provides _Focus_ and flexibility regarding the evolving work, thus improving Transparency.
+Het Sprintdoel is een commitment dat is opgesteld en gedragen wordt door het Scrum Team. Het Sprintdoel is de overkoepelende doelstelling van de Sprint (het _waarom_) voor de productontwikkelaars, vastgelegd in de Sprint Planning. De realisatie van het Sprintdoel is een commitment van de productontwikkelaars. De Sprint Backlog (inclusief het _waarom_, het _wat_ en vaak ook het _hoe_) biedt _Focus_ en flexibiliteit met betrekking tot het ontwikkelende werk, wat de transparantie verbetert.
 
-The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work.
+Het Sprintdoel moedigt het Scrum Team aan om samen te werken in plaats van aan afzonderlijke initiatieven. Als het werk anders blijkt te zijn dan de productontwikkelaars hadden verwacht, werken de productontwikkelaars samen met de Product Owner om mogelijkheden binnen de Sprint te bespreken zonder het Sprintdoel te beïnvloeden. Niemand vertelt de productontwikkelaars hoe ze hun werk moeten indelen of uitvoeren.
 
 ## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack}
 
