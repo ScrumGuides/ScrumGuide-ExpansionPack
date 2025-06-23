@@ -645,120 +645,120 @@ Het Sprintdoel is een commitment dat is opgesteld en gedragen wordt door het Scr
 
 Het Sprintdoel moedigt het Scrum Team aan om samen te werken in plaats van aan afzonderlijke initiatieven. Als het werk anders blijkt te zijn dan de productontwikkelaars hadden verwacht, werken de productontwikkelaars samen met de Product Owner om mogelijkheden binnen de Sprint te bespreken zonder het Sprintdoel te beïnvloeden. Niemand vertelt de productontwikkelaars hoe ze hun werk moeten indelen of uitvoeren.
 
-## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack}
+## De Scrum-evenementen in het Expansion Pack {#the-scrum-events-in-the-expansion-pack}
 
-Scrum combines four timeboxed events for Inspection and Adaptation within a containing fifth event of determinate length, the Sprint. These events support the Scrum pillars of Transparency, Inspection, and Adaptation. Releases enable value, ideally, continuously. Infrequent releases lead to delayed result feedback.
+Scrum combineert vier timebox-evenementen voor inspectie en aanpassing binnen een vijfde evenement van bepaalde lengte: de sprint. Deze evenementen ondersteunen de Scrum-pijlers transparantie, inspectie en aanpassing. Releases creëren idealiter continu waarde. Infrequente releases leiden tot vertraagde feedback op resultaten.
 
-A timebox is a stipulated maximum amount of elapsed time from beginning to end for a defined event, not to be confused with an expectation to use that full amount of time. The purpose of a timebox in Scrum is to foster the selection of essential work, creating _Focus_ to achieve desired results quickly. In Scrum, for a given Scrum Team, the sprint length is consistent, so it is not a timebox.
+Een timebox is een vastgestelde maximale tijd van begin tot eind voor een gedefinieerd evenement, niet te verwarren met de verwachting om die volledige tijd te gebruiken. Het doel van een timebox in Scrum is om de selectie van essentieel werk te bevorderen en zo focus te creëren om de gewenste resultaten snel te bereiken. In Scrum is de sprintlengte voor een bepaald Scrum-team consistent, dus het is geen timebox.
 
-Events create cadence and minimize the need for other meetings not part of Scrum. Ideally, each event is held at the same time and place to reduce complexity (30-35) and foster the formation of habits. Skilled facilitation improves effectiveness. Ineffective events risk losing emphasis on the Sprint Goal, Product Goal, Transparency, Inspection, Adaptation, and Scrum Values.
+Evenementen creëren ritme en minimaliseren de behoefte aan andere vergaderingen die geen deel uitmaken van Scrum. Idealiter vindt elk evenement op hetzelfde tijdstip en dezelfde locatie plaats om de complexiteit (30-35) te verminderen en de vorming van gewoontes te bevorderen. Bekwame begeleiding verbetert de effectiviteit. Ineffectieve evenementen lopen het risico de nadruk te verliezen op het sprintdoel, productdoel, transparantie, inspectie, aanpassing en Scrum-waarden.
 
-Each event has its own purpose and should include deep, meaningful work. Together, the Scrum events provide a scaffold of Transparency to inspect and adapt, pause, and reflect. The Scrum events support structured thinking and working, effectiveness, and a balanced workload.
+Elk evenement heeft zijn eigen doel en moet diepgaand, zinvol werk omvatten. Samen vormen de Scrum-evenementen een raamwerk van transparantie om te inspecteren en aan te passen, te pauzeren en te reflecteren. De Scrum-evenementen ondersteunen gestructureerd denken en werken, effectiviteit en een evenwichtige werklast.
 
-Communication is key to ensuring the Scrum Team and Supporters _Focus_ on the right thing. Apart from the Sprint, events may consume less time as long as coherence is not lost.
+Communicatie is essentieel om ervoor te zorgen dat het Scrum-team en de Supporters zich _focussen_ op de juiste dingen. Afgezien van de sprint kunnen evenementen minder tijd in beslag nemen, zolang de samenhang niet verloren gaat.
 
-### The Sprint {#the-sprint}
+### De Sprint {#the-sprint}
 
-The Sprint is an event where ideas are turned into value. The Sprint is the container event. It is an iteration of a determinate time in which work is carried out. It provides _Focus_ and stability. A Sprint is no longer than four weeks. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal happens within Sprints.
+De Sprint is een gebeurtenis waarin ideeën worden omgezet in waarde. De Sprint is de containergebeurtenis. Het is een iteratie van een bepaalde tijd waarin werk wordt uitgevoerd. Het biedt _Focus_ en stabiliteit. Een Sprint duurt maximaal vier weken. Een nieuwe Sprint start direct na afloop van de vorige Sprint. Al het werk dat nodig is om het Productdoel te bereiken, vindt plaats binnen Sprints.
 
-Sprints are the heartbeat of Scrum, where the Scrum Team turns ideas into usable, useful, and potentially valuable Increments. The Increment is released as soon as practically possible, considering the need for early result feedback. A lack of release to some subset of Stakeholders (including but not limited to real customers, decision-makers, and users) can lead to a lack of timely result feedback. Multiple Increments may be created in a Sprint; the Scrum Team should strive to validate value through early and frequent releases, where applicable.
+Sprints vormen het hart van Scrum, waar het Scrum Team ideeën omzet in bruikbare, nuttige en potentieel waardevolle Increments. De Increment wordt zo snel mogelijk uitgebracht, rekening houdend met de noodzaak van vroege feedback over de resultaten. Een gebrek aan release aan een subgroep van Stakeholders (inclusief maar niet beperkt tot echte klanten, besluitvormers en gebruikers) kan leiden tot een gebrek aan tijdige feedback over de resultaten. Meerdere Increments kunnen tijdens een Sprint worden gecreëerd; het Scrum Team dient ernaar te streven de waarde te valideren door middel van vroege en frequente releases, waar van toepassing.
 
-During the Sprint:
+Tijdens de Sprint:
 
-- No changes are made that would endanger the Sprint Goal;
-- The Increment(s) should not decrease in quality;
-- The Product Backlog is refined as needed; and,
-- As more is learned, current work may be clarified and renegotiated with the Product Owner without affecting the Sprint Goal.
+- Worden er geen wijzigingen aangebracht die het Sprintdoel in gevaar zouden brengen;
+- De kwaliteit van de increment(en) mag niet afnemen;
+- De productbacklog wordt indien nodig verfijnd; en
+- Naarmate er meer geleerd wordt, kan het huidige werk worden verduidelijkt en opnieuw worden onderhandeld met de Product Owner zonder dat dit gevolgen heeft voor het sprintdoel.
 
-Sprints enable outcomes by ensuring Inspection and Adaptation of progress toward a Sprint Goal at least every four weeks. When a Sprint is too long, the Sprint Goal may become invalid, increasing complexity (30-35) and risk. Shorter Sprints often generate more learning cycles; they could also limit risk.
+Sprints bevorderen resultaten door ervoor te zorgen dat de voortgang ten opzichte van een sprintdoel minstens elke vier weken wordt geïnspecteerd en aangepast. Wanneer een sprint te lang is, kan het sprintdoel ongeldig worden, wat de complexiteit (30-35) en de risico's vergroot. Kortere sprints genereren vaak meer leercycli; ze kunnen ook risico's beperken.
 
-Shorter Sprints usually require improved capabilities (e.g., refining, vertical slicing, technical domain, business domain). Context matters and the Scrum Team strives to strike the right balance.
+Kortere sprints vereisen doorgaans verbeterde vaardigheden (bijv. verfijnen, vertical slicing, technische domeinkennis, bedrijfsdomein). Context is belangrijk en het Scrumteam streeft naar de juiste balans.
 
-Various complementary practices exist to assess or forecast progress, like burn-downs, burn-ups, flow analytics, Monte Carlo probabilistic forecasts, large effort estimation, fuzzy sets (110), etc. While useful, these do not replace the importance of empiricism (67). In complex (30-35) environments, what has already happened may be used for forward-looking decision-making, but what will happen is unknown.
+Er bestaan ​​diverse complementaire methoden om de voortgang te beoordelen of te voorspellen, zoals burn-downs, burn-ups, flowanalyses, Monte Carlo-probabilistische voorspellingen, grootschalige inspanningsschattingen, fuzzy sets (110), enz. Hoewel nuttig, vervangen deze methoden het belang van empirisme niet (67). In complexe (30-35) omgevingen kan wat er al is gebeurd worden gebruikt voor toekomstgerichte besluitvorming, maar wat er gaat gebeuren is onbekend.
 
-You could think about a Sprint as a mini project with a clear outcome, determinate length and understood costs. However, the various work activities happen in parallel and not in a sequential defined linear way.
+Je zou een sprint kunnen zien als een miniproject met een duidelijke uitkomst, een bepaalde lengte en inzichtelijke kosten. De verschillende werkactiviteiten vinden echter parallel plaats en niet op een sequentiële, gedefinieerde lineaire manier.
 
-A Sprint could be canceled if the Sprint Goal becomes obsolete. Only the Product Owner has the authority to cancel the Sprint. Shorter Sprints lower the likelihood of a cancellation.
+Een sprint kan worden geannuleerd als het sprintdoel verouderd raakt. Alleen de Product Owner is bevoegd om de sprint te annuleren. Kortere sprints verkleinen de kans op annulering.
 
 ### Sprint Planning {#sprint-planning}
 
-Sprint Planning is an event. This first event of the Sprint is where the Scrum Team gives _Focus_ and creates commitment.
+Sprint Planning is een evenement. Tijdens dit eerste evenement van de Sprint geeft het Scrum Team focus en creëert het commitment.
 
-During Sprint Planning, the more strategic Product Goal (the _why_ for the Product Backlog) is considered and provides direction. In doing so, the Product Developers create the Sprint Backlog, which consists of the short-term, more tactical Sprint Goal (the _why_ for the Sprint), the initially identified work, and the plan to deliver.
+Tijdens de Sprint Planning wordt het meer strategische productdoel (de _waarom_ van de Product Backlog) overwogen en richting gegeven. Daarbij creëren de productontwikkelaars de Sprint Backlog, die bestaat uit het kortetermijn, meer tactische Sprintdoel (de _waarom_ van de Sprint), het aanvankelijk geïdentificeerde werk en het opleveringsplan.
 
-Sprint Planning addresses the following topics:
+Sprint Planning behandelt de volgende onderwerpen:
 
-#### The _Why_ for the Sprint {#the-why-for-the-sprint}
+#### Het _Waarom_ van de Sprint {#the-why-for-the-sprint}
 
-The Product Owner proposes ideas for how the Product could increase its value and utility in the current Sprint. The Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to Stakeholders toward the Product Goal. The Sprint Goal must be finalized by the end of Sprint Planning.
+De Product Owner draagt ​​ideeën aan voor hoe het product zijn waarde en bruikbaarheid in de huidige sprint zou kunnen vergroten. Het Scrum Team werkt vervolgens samen om een ​​sprintdoel te definiëren dat aangeeft waarom de sprint waardevol is voor stakeholders met betrekking tot het productdoel. Het sprintdoel moet aan het einde van de sprintplanning definitief zijn.
 
-#### The _What_ toward the _Why_ {#the-what-toward-the-why}
+#### Het _Wat_ naar het _Waarom_ {#the-what-toward-the-why}
 
-Through collaboration with the Product Owner, the Product Developers select items from the Product Backlog to include in the current Sprint. The Scrum Team may refine these items, which increases understanding and confidence. Selected items should be achievable according to the standard of the Definition of Output Done, alongside other items.
+In samenwerking met de Product Owner selecteren de productontwikkelaars items uit de productbacklog die ze in de huidige sprint opnemen. Het Scrumteam kan deze items verfijnen, wat het begrip en vertrouwen vergroot. Geselecteerde items moeten haalbaar zijn volgens de standaard van de 'Definition of Output Done', naast andere items.
 
-Selecting how much can be completed within a Sprint may be challenging. However, the more the Product Developers know about their past performance, vertical slicing, upcoming capacity, and the Definition of Output Done, the more confident they will be in their ability to forecast Sprint outcomes.
+Het bepalen hoeveel er binnen een sprint kan worden voltooid, kan een uitdaging zijn. Hoe meer productontwikkelaars echter weten over hun prestaties in het verleden, vertical slicing, toekomstige capaciteit en de 'Definition of Output Done', hoe meer vertrouwen ze zullen hebben in hun vermogen om de uitkomsten van de sprint te voorspellen.
 
-Successful Scrum Teams do not overload themselves. In fact, they plan to finish work early, sometimes using a buffer for unexpected events (85). This helps the Scrum Team to stay focused, improve quality, and satisfy Stakeholders by delivering value sooner. Chronic overload or sudden shifts can cause excessive negative stress, which Jeff Sutherland calls 'Bayesian surprise.' They can disrupt the Scrum Team’s psychological flow (70) and performance. Clear communication, professional handling of emergence (71), and small, regular changes help prevent this, so Scrum Teams should aim for early delivery.
+Succesvolle Scrumteams overbelasten zichzelf niet. Sterker nog, ze plannen om hun werk eerder af te ronden, soms met een buffer voor onverwachte gebeurtenissen (85). Dit helpt het Scrumteam om gefocust te blijven, de kwaliteit te verbeteren en stakeholders tevreden te stellen door sneller waarde te leveren. Chronische overbelasting of plotselinge veranderingen kunnen overmatige negatieve stress veroorzaken, wat Jeff Sutherland 'Bayesiaanse verrassing' noemt. Ze kunnen de psychologische flow (70) en prestaties van het Scrumteam verstoren. Duidelijke communicatie, professionele afhandeling van noodsituaties (71) en kleine, regelmatige veranderingen helpen dit te voorkomen. Scrumteams moeten daarom streven naar een snelle oplevering.
 
-#### The _How_ for the _What_ {#the-how-for-the-what}
+#### Het _hoe_ voor het _wat_ {#the-how-for-the-what}
 
-How the work is done is at the sole discretion of the Product Developers. No one else tells the Product Developers how to do their work. The Product Developers select their own work; no one else assigns or pushes Product Backlog Items to the Product Developers, not even the Product Owner.
+De manier waarop het werk wordt gedaan, is geheel ter beoordeling van de productontwikkelaars. Niemand anders vertelt de productontwikkelaars hoe ze hun werk moeten doen. De productontwikkelaars selecteren hun eigen werk; niemand anders wijst product backlog items toe aan de productontwikkelaars of pusht deze, zelfs de Product Owner niet.
 
-Sprint Planning is timeboxed to a maximum of eight hours for a four-week Sprint. The event is usually shorter for shorter Sprints. Context matters. But as a rule of thumb, do enough planning to get started with the work, e.g., plan a few Product Backlog Items toward the Sprint Goal.
+De sprintplanning is getimeboxed tot maximaal acht uur voor een sprint van vier weken. De tijdsduur is meestal korter voor kortere sprints. Context is belangrijk. Maar als vuistregel geldt: plan voldoende om met het werk te beginnen, bijvoorbeeld door een paar product backlog items te plannen voor het sprintdoel.
 
 ### Daily Scrum {#daily-scrum}
 
-The Daily Scrum is an event. At the Daily Scrum, the Product Developers collaborate on progress toward the Sprint Goal and update the actionable plan, the Sprint Backlog, until the next Daily Scrum. In the event the Sprint Goal has already been achieved, the Product Developers collaborate on meaningful progress toward the Product Goal.
+De Daily Scrum is een evenement. Tijdens de Daily Scrum werken de productontwikkelaars samen aan de voortgang richting het sprintdoel en werken ze het actieplan, de sprintbacklog, bij tot de volgende Daily Scrum. Indien het sprintdoel al is behaald, werken de productontwikkelaars samen aan zinvolle voortgang richting het productdoel.
 
-The Daily Scrum provides _Focus_, cohesion, and urgency and fosters self-management (49). Usually, only the Product Developers participate. To simplify, it often uses the same meeting cadence, place, and time.
+De Daily Scrum biedt focus, samenhang en urgentie en stimuleert zelfmanagement (49). Meestal nemen alleen de productontwikkelaars deel. Ter vereenvoudiging: de vergaderfrequentie, locatie en tijd zijn vaak hetzelfde.
 
-The Product Developers can select whatever structure and techniques they want. Daily Scrums improve communication towards attaining the Sprint Goal, identify and address risks and impediments, promote quick decision-making, and consequently eliminate the need for other meetings.
+De productontwikkelaars kunnen zelf de structuur en technieken kiezen die ze willen. Daily Scrums verbeteren de communicatie richting het behalen van het sprintdoel, identificeren en pakken risico's en belemmeringen aan, bevorderen snelle besluitvorming en elimineren zo de noodzaak voor andere vergaderingen.
 
-The Daily Scrum is not the only time the Product Developers adjust their plan for the Sprint within the context of the Sprint Goal or Product Goal. Product Developers often meet throughout the day for more detailed discussions.
+De Daily Scrum is niet het enige moment waarop de productontwikkelaars hun plan voor de sprint aanpassen binnen de context van het sprintdoel of productdoel. Productontwikkelaars komen vaak gedurende de dag bijeen voor meer gedetailleerde besprekingen.
 
-To enable the flow of value (68,69) and enable potential outcomes sooner, the Product Developers should focus on one item or a few items at a time and meet the Definition of Output Done, before starting to work on other items. The Product Developers can achieve this by focusing, having fewer items in progress, and proactively finishing work over starting new work. The Product Developers monitor idle work, not idle people.
+Om de waardestroom (68, 69) mogelijk te maken en potentiële resultaten sneller te realiseren, moeten de productontwikkelaars zich richten op één of enkele items tegelijk en voldoen aan de 'Definition of Output Done' voordat ze aan andere items beginnen. De productontwikkelaars kunnen dit bereiken door te focussen, minder items in uitvoering te hebben en proactief werk af te ronden in plaats van nieuw werk te starten. De productontwikkelaars houden toezicht op werk dat niet in gebruik is, niet op mensen die niet in gebruik zijn.
 
-The Daily Scrum is timeboxed to a maximum of fifteen minutes per day; it may be shorter.
+De Daily Scrum is ingepland voor maximaal vijftien minuten per dag; dit kan korter zijn.
 
 ### Sprint Review {#sprint-review}
 
-The Sprint Review is an event. It is an interactive, collaborative working session. Often, the Scrum Team shares the current Product Goal and presents the Definition of Output Done and the Definition of Outcome Done to the Stakeholders. The Scrum Team shares the results of their work, what trade-offs were made, and how much progress was made toward the Product Goal (the why behind the work). If available, current and up-to-date measures of progress toward the Definition of Outcome Done are shared and considered.
+De Sprint Review is een evenement. Het is een interactieve, collaboratieve werksessie. Vaak deelt het Scrum Team het huidige productdoel en presenteert de 'Definition of Output Done' en de 'Definition of Outcome Done' aan de stakeholders. Het Scrum Team deelt de resultaten van hun werk, welke afwegingen er zijn gemaakt en hoeveel vooruitgang er is geboekt in de richting van het productdoel (het waarom achter het werk). Indien beschikbaar, worden actuele en actuele metingen van de voortgang in de richting van de 'Definition of Outcome Done' gedeeld en besproken.
 
-The Sprint Review inspects many things related to the Product, such as the Product Goal, Product Backlog, the Sprint Goal, the learnings, the Increment, Stakeholder expectations and limits, result feedback, side effects, progress with the Product, the market, as well as forward-looking, e.g., what new ideas and opportunities have emerged, potential next steps.
+De Sprint Review inspecteert veel zaken met betrekking tot het product, zoals het productdoel, de productbacklog, het sprintdoel, de leerervaringen, het increment, de verwachtingen en beperkingen van stakeholders, feedback op resultaten, bijwerkingen, de voortgang van het product, de markt, en ook toekomstgericht, bijvoorbeeld welke nieuwe ideeën en kansen er zijn ontstaan ​​en mogelijke vervolgstappen.
 
-Informed by what is learned:
+Geïnspireerd door wat er is geleerd:
 
-- Participants sense, listen, learn, and collaborate on what to potentially do next;
-- The Product Backlog (the what)is adapted and possibly the Product Goal, ideally supported by evidence or observations and guided by the Product Goal or optional Product Vision; and,
-- Participants adapt the Product’s Definition of Outcome Done for future Sprints.
+- Deelnemers voelen aan, luisteren, leren en werken samen aan wat er mogelijk als volgende stap moet worden gedaan;
+- De Product Backlog (het wat) wordt aangepast en mogelijk ook het productdoel, idealiter ondersteund door bewijs of observaties en geleid door het productdoel of de optionele productvisie; en
+- Deelnemers passen de 'Definition of Outcome Done' van het product aan voor toekomstige sprints.
 
-It’s always important to consider Stakeholders and what they value, including inanimate, non-human Stakeholders such as the law.
+Het is altijd belangrijk om rekening te houden met stakeholders en wat zij belangrijk vinden, inclusief levenloze, niet-menselijke stakeholders zoals de wet.
 
-Incomplete Product Backlog Items return to the Product Backlog for future consideration and are not presented; sometimes, they are moved into the next Sprint.
+Onvolledige items in de Product Backlog keren terug naar de Product Backlog voor toekomstige overweging en worden niet gepresenteerd; soms worden ze verplaatst naar de volgende sprint.
 
-The Sprint Review is the second-to-last event of the Sprint and is timeboxed to a maximum of four hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
+De Sprint Review is het voorlaatste evenement van de sprint en is ingepland voor maximaal vier uur voor een sprint van vier weken. Voor kortere sprints is het evenement meestal korter.
 
 ### Sprint Retrospective {#sprint-retrospective}
 
-The Sprint Retrospective is an event. At this event, the Scrum Team agrees on how to improve. Bad assumptions are also explored, i.e., assumptions that led the Scrum Team in the wrong direction. Good things like particular technologies, processes, patterns, etc., might also be pointed out or reinforced. Inspected elements often vary with the domain of work. Reflection is more effective in a psychologically safe environment.
+De Sprint Retrospective is een evenement. Tijdens dit evenement bespreekt het Scrum Team hoe verbeteringen gerealiseerd kunnen worden. Slechte aannames worden ook onderzocht, d.w.z. aannames die het Scrum Team de verkeerde kant op hebben gestuurd. Goede zaken zoals bepaalde technologieën, processen, patronen, enz. kunnen ook worden benadrukt of versterkt. De onderzochte elementen variëren vaak per werkdomein. Reflectie is effectiever in een psychologisch veilige omgeving.
 
-The Sprint Retrospective focuses on the most helpful changes to improve, such as:
+De Sprint Retrospective richt zich op de meest nuttige veranderingen ter verbetering, zoals:
 
-- The Increment
-- Outcomes
-- Professionalism, e.g., skills, technical practices, tooling, ability to innovate;
-- Flow of validated value (68,69), e.g., end-to-end flow metrics, time-to-market;
-- Effectiveness (the _how_), e.g., technology, processes, dependencies;
-- Interactions and Scrum Team dynamics, e.g., collaboration, working arrangements;
-- Information radiators, e.g., product wall, metrics;
-- The Definition of Output Done for future Sprints;
-- Further adaptations to the Definition of Outcome Done for future Sprints;
-- How to automatically attain the measures regarding the Definition of Outcome Done;
-- And more.
+- De Increment
+- Resultaten
+- Professionaliteit, bijvoorbeeld vaardigheden, technische werkwijzen, tooling, innovatievermogen;
+- Stroom van gevalideerde waarde (68,69), bijvoorbeeld end-to-end flow-metrics, time-to-market;
+- Effectiviteit (het _hoe_), bijvoorbeeld technologie, processen, afhankelijkheden;
+- Interacties en Scrum Team-dynamiek, bijvoorbeeld samenwerking, werkafspraken;
+- Informatieschema's, bijvoorbeeld productmuur, metrics;
+- De 'Definition of Output Done' voor toekomstige sprints;
+- Verdere aanpassingen aan de 'Definition of Outcome Done' voor toekomstige sprints;
+- Hoe de meetwaarden met betrekking tot de 'Definition of Outcome Done' automatisch kunnen worden bereikt;
+- En meer.
 
-The most impactful improvements should be addressed as soon as possible. The Scrum Team should not just talk about improvement; Scrum depends on meaningful, continuous improvement follow-through. Some improvement actions rely on the assistance of Supporters, but that does not mean the Scrum Team should not strive for net improvement regardless (such as continual marginal gains).
+De meest impactvolle verbeteringen moeten zo snel mogelijk worden aangepakt. Het Scrumteam moet niet alleen over verbetering praten; Scrum is afhankelijk van zinvolle, continue verbetering. Sommige verbeteracties zijn afhankelijk van de hulp van Supporters, maar dat betekent niet dat het Scrumteam niet moet streven naar netto verbetering (zoals continue marginale winst).
 
-The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
+De Sprint Retrospective sluit de Sprint af. De Sprint is ingekort tot maximaal drie uur voor een Sprint van vier weken. Voor kortere Sprints is de tijdsduur meestal korter.
 
 ## Multi-Scrum-Team Products {#multi-scrum-team-products}
 
