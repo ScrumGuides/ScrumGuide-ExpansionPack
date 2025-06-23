@@ -32,7 +32,7 @@ sitemap:
   priority: 1.0
 ---
 
-gebaseerd op de originele [Scrum Guide](https://scrumguides.org/) door Ken Schwaber & Jeff Sutherland (40)
+Gebaseerd op de originele [Scrum Guide](https://scrumguides.org/) door Ken Schwaber & Jeff Sutherland (40)
 
 **_Verzamelde bronnen voor Scrum Guide Expansion Pack_**  
 _Dit document is een verzameling onafhankelijke werken. Elke sectie behoudt de oorspronkelijke licentie of auteursrechtstatus, zoals aangegeven. Raadpleeg elke sectie voor specifieke gebruiksrechten en vereisten._
