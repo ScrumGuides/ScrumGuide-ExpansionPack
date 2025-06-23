@@ -760,238 +760,237 @@ De meest impactvolle verbeteringen moeten zo snel mogelijk worden aangepakt. Het
 
 De Sprint Retrospective sluit de Sprint af. De Sprint is ingekort tot maximaal drie uur voor een Sprint van vier weken. Voor kortere Sprints is de tijdsduur meestal korter.
 
-## Multi-Scrum-Team Products {#multi-scrum-team-products}
+## Multi-Scrum-Team Producten {#multi-scrum-team-products}
 
-If a Scrum Team becomes too large, it should consider reorganizing into multiple cohesive Scrum Teams, each focused on the same Product. Multiple Scrum Teams on the same Product should share the same Product Goal, Product Backlog, Product Owner, baseline Definition of Outcome Done, and baseline Definition of Output Done.
+Als een Scrumteam te groot wordt, moet het overwegen om te reorganiseren in meerdere samenhangende Scrumteams, elk gericht op hetzelfde product. Meerdere Scrumteams die aan hetzelfde product werken, moeten hetzelfde productdoel, dezelfde productbacklog, dezelfde Product Owner, dezelfde baseline 'Definition of Outcome Done' en dezelfde baseline 'Definition of Output Done' delen.
 
-Be careful with blind assumptions that more value is produced from more Scrum Teams. Scale only when the benefits clearly outweigh the additional overhead. Before you scale, the single Scrum Team setup has to be able to reliably produce an Increment every Sprint. But if you must scale, use an approach that is coherent with this document. Often fewer teams result in more outcomes.
+Wees voorzichtig met blinde aannames dat er meer waarde wordt gecreëerd met meer Scrumteams. Schaal alleen op wanneer de voordelen duidelijk opwegen tegen de extra overhead. Voordat je opschaalt, moet de opzet van het ene Scrumteam elke sprint betrouwbaar een 'Increment' kunnen produceren. Maar als je moet opschalen, gebruik dan een aanpak die aansluit bij dit document. Vaak resulteren minder teams in meer resultaten.
 
-In a multi-Scrum-Team context, Scrum Teams may reduce inter-Scrum-Team dependencies by becoming more cross-functional through collaboration, cross-pollination, transfer of learning, and intentional interactions. The specific skills needed are often broad and will vary with the domain of work. In a multi-Scrum-Team setting, purposeful and intentional interactions and professionalism (including continuous integration) become even more important.
+In een context met meerdere Scrumteams kunnen Scrumteams de onderlinge afhankelijkheden verminderen door crossfunctioneler te worden door middel van samenwerking, kruisbestuiving, kennisoverdracht en bewuste interacties. De specifieke vaardigheden die nodig zijn, zijn vaak breed en variëren afhankelijk van het werkdomein. In een multi-Scrumteamomgeving worden doelgerichte en doelbewuste interacties en professionaliteit (inclusief continue integratie) nog belangrijker.
 
-In a one Product Owner and one Scrum Team setup, the Product Owner could be a Product manager, marketing director, technology director, etc. In a multi-Scrum-Team setup for a Product, the ideal is still only one Product Owner, who should be a leader for the Product. To allow the Product Owner to handle multiple Scrum Teams on the same Product, the Product Owner often becomes more strategic and delegates problems to solve and opportunities to the Product Developers, including, for example, aspects of Product design or Product management.
+In een omgeving met één Product Owner en één Scrumteam kan de Product Owner een Productmanager, Marketing Director, Technology Director, enz. zijn. In een multi-Scrumteamomgeving voor een product is het ideaal nog steeds slechts één Product Owner, die de leider van het product zou moeten zijn. Om de Product Owner in staat te stellen meerdere Scrumteams aan hetzelfde product te leiden, wordt de Product Owner vaak strategischer en delegeert hij problemen en kansen aan de Productontwikkelaars, waaronder bijvoorbeeld aspecten van productontwerp of productmanagement.
 
-The Product Backlog is a tool for increasing transparency.
+De Product Backlog is een hulpmiddel om de transparantie te vergroten.
 
-Generally, the fewer Product Backlogs per Product, implicit (like a filter of a Product Backlog) or explicit:
+Over het algemeen geldt: hoe minder Product Backlogs per product, impliciet (zoals een filter van een Product Backlog) of expliciet:
 
-- The fewer the silos in the Product and the greater the transparency across the entire Product;
-- The more transparent the overall progress tracking across the entire Product;
-- The better the big-picture value clarity across the entire Product;
-- The more likely a Scrum Team would know it’s working on low-value items from a Product perspective;
-- The more likely one is to observe improvement in the attainment of value; and,
-- The more strategic the Product Owner becomes by delegating cross-Product work to the Product Developers.
+- Hoe minder silo's er in het product zijn en hoe groter de transparantie over het hele product;
+- Hoe transparanter de algehele voortgangsbewaking over het hele product;
+- Hoe duidelijker de waarde van het hele product in het algemeen is;
+- Hoe waarschijnlijker het is dat een Scrum-team weet dat het vanuit een productperspectief aan items met een lage waarde werkt;
+- hoe waarschijnlijker het is dat men verbetering ziet in het behalen van waarde; en,
+- hoe strategischer de Product Owner wordt door productoverstijgend werk te delegeren aan de Productontwikkelaars.
 
-Fewer Product Backlogs per Product are better for adaptiveness (80), but without empowered ownership, a coherent span of control, or direct contact with relevant Stakeholders, gaps will arise. Scrum fosters a climate for happenstance and multi-learning as various people and Scrum Teams collaborate, discoveries and insights can be shared and leveraged. This is unlikely to happen in an environment where each component has a Product Backlog in isolation.
+Minder Product Backlogs per product zijn beter voor het aanpassingsvermogen (80), maar zonder empowerment van eigenaarschap, een coherente span of control of direct contact met relevante stakeholders zullen er hiaten ontstaan. Scrum bevordert een klimaat voor toeval en multi-learning, doordat verschillende mensen en Scrum-teams samenwerken en ontdekkingen en inzichten kunnen worden gedeeld en benut. Dit is onwaarschijnlijk in een omgeving waar elk onderdeel een afzonderlijk Product Backlog heeft.
 
-Happenstance in the context of ‘The New New Product Development Game’ (29) means that sometimes useful ideas or solutions come about by chance, not by careful planning. When Scrum Teams work closely together and share information, they might discover new approaches or answers simply because they are open to unexpected events or accidental findings.
+Toeval in de context van 'The New New Product Development Game' (29) betekent dat nuttige ideeën of oplossingen soms toevallig ontstaan, niet door zorgvuldige planning. Wanneer Scrum-teams nauw samenwerken en informatie delen, kunnen ze nieuwe benaderingen of antwoorden ontdekken, simpelweg omdat ze openstaan ​​voor onverwachte gebeurtenissen of toevallige bevindingen.
 
-Multi-learning means that team members learn in many different ways at the same time. They pick up new skills and knowledge not only in their own area but also in other areas, and they learn as individuals, as a group, and as part of the whole company. This helps the team become more flexible and able to solve a wide range of problems quickly, because everyone is learning from each other and from their experiences as they work together.
+Multi-learning betekent dat teamleden tegelijkertijd op veel verschillende manieren leren. Ze doen nieuwe vaardigheden en kennis op, niet alleen op hun eigen gebied, maar ook op andere gebieden, en ze leren als individu, als groep en als onderdeel van het hele bedrijf. Dit helpt het team flexibeler te worden en een breed scala aan problemen snel op te lossen, omdat iedereen van elkaar en van de eigen ervaringen leert terwijl ze samenwerken.
 
-Finding the right balance is a dilemma. There are always trade-offs to consider. However, a good heuristic is: The fewer Product Backlogs, implicit or explicit, the better, enabled through multi-learning and the organizational transfer of learning across Scrum Teams, departments, and Products.
+Het vinden van de juiste balans is een dilemma. Er zijn altijd afwegingen te maken. Een goede heuristiek is echter: hoe minder Product Backlogs, impliciet of expliciet, hoe beter, mogelijk gemaakt door multi-learning en de organisatorische overdracht van kennis tussen Scrumteams, afdelingen en producten.
 
-Organizational transfer of learning, as described in 'The New New Product Development Game' (29), is the process by which knowledge and insights gained in one new Product development area are regularly shared and applied to subsequent areas or other divisions within the organization.
+Organisatieoverdracht van kennis, zoals beschreven in 'The New New Product Development Game' (29), is het proces waarbij kennis en inzichten die zijn opgedaan in één nieuw productontwikkelingsgebied regelmatig worden gedeeld en toegepast op volgende gebieden of andere afdelingen binnen de organisatie.
 
-Organizations are often designed for ease of management over ease of outcomes. Ask yourself how many Scrum Teams a problem or opportunity touches to deliver value; generally, the lower that number, the better.
+Organisaties zijn vaak ontworpen voor gemak van management in plaats van gemak van resultaten. Vraag jezelf af hoeveel Scrumteams een probleem of kans raakt om waarde te leveren; Over het algemeen geldt: hoe lager dat getal, hoe beter.
 
-Free teams from command and control. Err on the side of aligned autonomy. Foster purposeful, intentional interactions within and between self-managing Scrum Teams (49). Foster a work climate with minimal but sufficient management processes, scaffolding, and boundaries. Balance and nurture Stakeholder expectations and limits. Build change agency and continual improvement in a direction, not just delivery, into a cadence.
+Bevrijd teams van command and control. Kies voor een vorm van gecoördineerde autonomie. Bevorder doelgerichte, doelbewuste interacties binnen en tussen zelforganiserende Scrum Teams (49). Creëer een werkklimaat met minimale maar voldoende managementprocessen, ondersteuning en grenzen. Breng de verwachtingen en grenzen van stakeholders in evenwicht en koester ze. Bouw veranderingskracht en continue verbetering in een bepaalde richting, niet alleen in de uitvoering, maar in een cadans.
 
-When in doubt, study the New New Product Development Game (29), embrace the good of what’s new in the present, but abandon any notions of an industrial complex (30-35) where only the brave people have the agency to do anything.
+Wanneer je twijfelt, bestudeer dan het New New Product Development Game (29), omarm het goede van wat er nieuw is in het heden, maar laat alle ideeën los van een industrieel complex (30-35) waar alleen de dappere mensen de macht hebben om iets te doen.
 
-## End Note {#end-note}
+## Eindnoot {#end-note}
 
-Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (36,37) on Complex Adaptive Systems (CAS) (74-77) theory from Los Alamos Labs, which shows that systems evolve quicker at the edge of chaos.
+De adoptie van Scrum door Jeff Sutherland bij Easel in 1993 werd geïnspireerd door de artikelen van Christopher Langton (36,37) over de theorie van Complex Adaptive Systems (CAS) (74-77) van Los Alamos Labs, die aantonen dat systemen sneller evolueren aan de rand van chaos.
 
-Scrum is described in the [2020 Scrum Guide](https://scrumguides.org/) (40). Tobias Mayer's A [Simple Guide to Scrum](https://scrum.academy/guide/) (58) is a shortened, edited version of the official Scrum Guide by Ken Schwaber and Jeff Sutherland. The [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (52) elaborates on the 2020 Scrum Guide from a 2025 perspective, but the 2020 Scrum Guide is still the essential reference for Scrum.
+Scrum wordt beschreven in de [2020 Scrum Guide](https://scrumguides.org/) (40). Tobias Mayer's Een [Simple Guide to Scrum](https://scrum.academy/guide/) (58) is een verkorte, aangepaste versie van de officieële Scrum Guide door Ken Schwaber en Jeff Sutherland. De [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (52) bouwt voort op de Scrum Guide 2020 vanuit een perspectief van 2025, maar de Scrum Guide 2020 is nog steeds de onmisbare referentie voor Scrum.
 
-Scrum is like a mirror. If the image in the mirror is not as expected, should the mirror be hidden?
+Scrum is als een spiegel. Als het beeld in de spiegel niet aan de verwachtingen voldoet, moet de spiegel dan verborgen worden?
 
-Attain at least one Increment each Sprint as a habit before you adapt Scrum. Every part of Scrum has a purpose; understanding the why for each part is essential. Consider the context. The short-term is about delivery. The long-term is about successful emergent change in a direction and the sustainable delivery of value. Successful Scrum adoption depends on getting the balance right between the short and long terms.
+Zorg ervoor dat je elke sprint minstens één increment behaalt voordat je Scrum implementeert. Elk onderdeel van Scrum heeft een doel; het begrijpen van de reden voor elk onderdeel is essentieel. Houd rekening met de context. Op de korte termijn draait het om de uitvoering. Op de lange termijn draait het om succesvolle, opkomende verandering in een bepaalde richting en het duurzaam leveren van waarde. Succesvolle Scrum-implementatie hangt af van de juiste balans tussen de korte en de lange termijn.
 
-Be careful about copying approaches from other organizations without also fostering their culture. Emergent change in the direction of travel is the change. The change includes (but is not limited to) leadership, workflows, processes, and systems, including HR, Finance, Procurement, and more. Scrum is part of a never-ending expedition of continual improvement and evolution in a direction of travel rather than a destination.
+Wees voorzichtig met het kopiëren van benaderingen van andere organisaties zonder hun cultuur te bevorderen. Opkomende verandering in de richting waarin we ons bewegen, is de verandering. De verandering omvat (maar is niet beperkt tot) leiderschap, workflows, processen en systemen, waaronder HR, Finance, Procurement en meer. Scrum maakt deel uit van een nooit eindigende expeditie van continue verbetering en evolutie in een bepaalde richting in plaats van een bestemming.
 
-### Acknowledgments {#acknowledgments}
+### Dankbetuigingen {#acknowledgments}
 
-Scrum was inspired by Lean (63), the Toyota Production System (59-60), the Harvard Business Review article 'The New New Product Development Game' by Hirotaka Takeuchi and Ikujiro Nonaka (29), and Empiricism at Dupont (61).
+Scrum is geïnspireerd door Lean (63), het Toyota Production System (59-60), het artikel 'The New New Product Development Game' van Hirotaka Takeuchi en Ikujiro Nonaka (29) in de Harvard Business Review en het empirisme van Dupont (61).
 
-Scrum was developed in the early 1990s. Ken Schwaber and Jeff Sutherland first co-presented Scrum at the OOPSLA Conference in 1995 (62). The first version of the [Scrum Guide](https://scrumguides.org/) (40) appeared in 2009\. Scrum is evolving.
+Scrum werd begin jaren negentig ontwikkeld. Ken Schwaber en Jeff Sutherland presenteerden Scrum voor het eerst samen op de OOPSLA-conferentie in 1995 (62). De eerste versie van de [Scrum Guide](https://scrumguides.org/) (40) verscheen in 2009. Scrum is in ontwikkeling.
 
-We also thank reviewers who provided feedback to earlier drafts, including but not limited to, Daryn Basson, Alex Benes, Kurt Bittner, Deb Bhattacharya, Magdalena Firlit, Nichervan Fazel, Peter Fischbach, Michael Forni, Tom Gilb, Martin Hinshelwood, Jesse Houwing, Michael Huynh, Matthew Ijogi, Marc Kaufmann, Tom Mellor, Christian Neverdal, Stas Pavlov, Ian Sharp, Alisa Stolze, Mark Summers, and Nader Talai.
-
-#
-
-## Scrum _Expanded_ on One Page {#scrum-expanded-on-one-page}
-
-Scrum is described in the [2020 Scrum Guide](https://scrumguides.org/) (40). Scrum is a lightweight framework for addressing complex (30-35) work, particularly in Product discovery, development, delivery, and value realization. Scrum is based on empirical process control (decisions informed by evidence) and lean thinking (reducing waste and focusing on the flow of value) (63). Scrum is purposefully incomplete, guiding interactions rather than prescribing detailed recipes.
-
-**Why Use Scrum?**  
-Scrum enables Scrum Teams to identify, represent, or measure emergence (71), embrace uncertainty, respond to change, deliver and validate value frequently, and continuously improve. Scrum fosters collaboration, accountability, and evidence-informed decision-making, fostering the best possible outcomes in a rapidly changing environment. Self-managing Scrum Teams, organized around value, are crucial for creative problem-solving and opportunity capture; non-self-managing Scrum Teams hinder the ability to deal with complexity (30-35). Self-managing Scrum Teams are not to be confused with individual self-management.
-
-**Elements of Scrum**
-
-1\. Scrum Theory: Built on three pillars:
-
-- Transparency – Making work and value visible for Inspection.
-- Inspection – Regularly assessing progress and outcomes for Adaptation.
-- Adaptation – Adjusting plans informed by insights and feedback.
-
-2\. Scrum Values:
-
-- _Focus_, _Openness_, _Courage_, _Commitment_, and _Respect_ enable effective teamwork; they support trust.
-
-3\. _Roles_ / Accountabilities:
-
-- Scrum Team – A small, self-managing, cross-functional, cognitively diverse team consisting of:
-  - Product Owner – Maximizes long-term value, engages Stakeholders, and manages the Product Backlog.
-  - Scrum Master – Guides the Scrum adoption, removes impediments, and fosters continuous improvement.
-  - Product Developers – Deliver Increments every Sprint through their cross-functional capabilities.
-- _Stakeholder \- an entity, individual, or group interested in, affected by, or impacting inputs, activities, and outcomes with a direct or indirect interest inside or outside the organization, its Products, or services._
-  - _Supporter, a Stakeholder type – Fosters the climate and environment and participates as requested._
-  - _AI – As a tool or also a possible Product Developer, but not to be entirely trusted yet._
-
-4\. Scrum Events & Activities
-
-- Scrum operates in Sprints (iterations of determinate length _up to four weeks_) with four time-boxed events:
-- Sprint Planning – Define the Sprint Goal and plan the work.
-- Daily Scrum – Product Developers align daily on progress toward the Sprint Goal or Product Goal.
-- Sprint Review – Inspect the Increment, value, and marketplace, and adapt the Product Backlog.
-- Sprint Retrospective – Reflect and improve the Scrum Team.
-- Refinement – Clarify upcoming or selected work, formally (_as an optional event_) or informally
-
-5\. Scrum Artifacts & Commitments
-
-- _Product & Definition of Outcome Done – Product and valuable outcomes that provide evidence of realized benefits._
-- Increment & Definition of Output Done – A potentially valuable, releasable candidate update for the Product.
-- Product Backlog & Product Goal – the ordered (sequenced) list of work to achieve a medium-term, more strategic objective.
-- Sprint Backlog & Sprint Goal – Selected Product Backlog Items and a plan for the Sprint, short-term objective.
+Wij danken ook de reviewers die feedback hebben gegeven op eerdere versies, waaronder maar niet beperkt tot Daryn Basson, Alex Benes, Kurt Bittner, Deb Bhattacharya, Magdalena Firlit, Nichervan Fazel, Peter Fischbach, Michael Forni, Tom Gilb, Martin Hinshelwood, Jesse Houwing, Michael Huynh, Matthew Ijogi, Marc Kaufmann, Tom Mellor, Christian Neverdal, Stas Pavlov, Ian Sharp, Alisa Stolze, Mark Summers en Nader Talai.
 
 #
 
-## Expansion Log {#expansion-log}
+## Scrum _Expanded_ op één pagina {#scrum-expanded-on-one-page}
 
-Additions
+Scrum wordt beschreven in de [Scrum Guide 2020](https://scrumguides.org/) (40). Scrum is een lichtgewicht raamwerk voor complexe (30-35) taken, met name op het gebied van productontdekking, -ontwikkeling, -levering en waardecreatie. Scrum is gebaseerd op empirische procesbeheersing (beslissingen gebaseerd op bewijs) en lean thinking (verspilling verminderen en focussen op de waardestroom) (63). Scrum is doelbewust onvolledig en stuurt interacties in plaats van gedetailleerde recepten voor te schrijven.
 
-- AI section
-- Self-managing Scrum Team, Cadence, Professionalism sections
-- Emergence section, open to the idea that risk or variances from expectations don’t necessarily go down over time
-- Complexity (30-35)– The case for Scrum section
-- Leadership and Systems thinking sections
-- Product thinking and Discovery sections
-- First principles, People, and Change sections
-- Multi-Scrum-Team Products section
-- Stakeholder role (including customers, decision-makers, and users), Supporter as a Stakeholder type
-- Refinement, Product Backlog Item sections
-- Optional: Product Vision, Acceptance Criteria, Outcome Criteria
-- Definition of Outcome Done, extra emphasis on adaptation informed by outcome evidence
-- Stakeholder, value, result feedback, release, outcomes, risk, impediment, and leader are defined
-- Flow analytics, Monte Carlo probabilistic forecasts, large-level estimation, fuzzy sets (all optional)
-- Scrum Expanded on one page
-- A need to make workflows, designs, processes, systems, and the work environment coherent with emergence
-- 'Product Ownership requires strong Product management skills and domain skills...A Product Owner who is not willing, ready, or able to gain Product management skills should step down as Product Owner.'
-- A Product Developer who is neither willing nor ready nor able to be a professional should step down.
-- A Scrum Master who is neither willing, ready, nor able to be an agent of change should step down.
-- Appendices: Cynefin® Kind of Explanation \- unofficial and unauthorized, Emergent Strategy, Adaptive (80) Enterprise, Adaptive Executive or Board Member
+**Waarom Scrum gebruiken?**  
+Scrum stelt Scrum Teams in staat om emergentie te identificeren, weer te geven of te meten (71), onzekerheid te omarmen, te reageren op verandering, regelmatig waarde te leveren en te valideren, en continu te verbeteren. Scrum bevordert samenwerking, verantwoording en op bewijs gebaseerde besluitvorming, en bevordert zo de best mogelijke resultaten in een snel veranderende omgeving. Zelforganiserende Scrum Teams, georganiseerd rond waarde, zijn cruciaal voor creatieve probleemoplossing en het benutten van kansen; niet-zelforganiserende Scrum Teams belemmeren het vermogen om met complexiteit om te gaan (30-35). Zelforganiserende Scrum Teams moeten niet worden verward met individueel zelfmanagement.
 
-Suggestions
+**Elementen van Scrum**
 
-- Clarification and modification of responsibilities while ‘embracing fuzziness’ (73)
-- From Scrum is immutable or simple to Scrum is evolving, in some cases, softened wording from 'must' to 'should'
-- Product Owner accountability to Product Owner role with accountability; maximizing long-term value
-- Developers accountability to Product Developer role with accountability
-- Scrum Master accountability to Scrum Master role with accountability; Scrum Master is one person, not AI
-- Product Developers may be human or AI, or helped by AI, at least one human; more human Product Developers are better for cognitive diversity and addressing complexity
-- Scrum Team commits to the Sprint Goal, not the former Developers; important that Product Owner is focused
-- Sprint Backlog toward Sprint Goal or Product Goal, not just Sprint Goal
-- Product definition, mention of Product strategy, roadmaps, Product models, scaling, goal-oriented approaches
-- Emphasis on learning, result-feedback, side effects, outcomes over outputs
-- To preserve the flow of value, incomplete Product Backlog items don’t have to return to the Product Backlog
-- Definition of Done renamed to Definition of Output Done
-- Emphasis on full Product life-cycle, full feature life-cycle, and value realization
-- Sprint Planning Topics 1-3 renamed to the Why, What, and How; Sprint up to 4 weeks rather than up to 1 month
-- Possible additional review of the Increment and outcomes in a psychologically safer environment at the Sprint Retrospective
-- More emphasis that the Increment is always Done, hence 'Done Increment' is superfluous
-- Explicit about the malleability of the Product Goal (within reason)
-- From the optimistic assumption of value delivery to an intentional _Focus_ on value realization
-- Ethos of built-in quality, clarity, data-informed decisions, intentional interactions, emergence (71), outcomes over outputs, pause & reflection, realizing value, understanding the problem or opportunity, fostering the climate/environment for a coherent Scrum adoption, and continuous improvement in a direction
-- De-emphasis of the nebulous organization in order to attach the change to roles
-- More intentional observance of the Scrum Values, considering the context
+1\. Scrum-theorie: gebouwd op drie pijlers:
 
-## Appendix {#appendix}
+- Transparantie – Werk en waarde zichtbaar maken voor inspectie.
+- Inspectie – Regelmatig de voortgang en resultaten beoordelen voor aanpassing.
+- Aanpassing – Plannen aanpassen op basis van inzichten en feedback.
 
-**Section 2: MORE executive SUCCESS extract**  
-Title: MORE executive SUCCESS extract  
+2\. Scrum Waarden:
+
+- _Focus_, _Openheid_, _Moed_, _Commitment_ en _Respect_ maken effectief teamwerk mogelijk; ze ondersteunen vertrouwen.
+
+3\. _Rollen_ / Verantwoordelijkheden:
+
+- Scrumteam – Een klein, zelforganiserend, cross-functioneel en cognitief divers team bestaande uit:
+  - _Product Owner – Maximaliseert de waarde op de lange termijn, betrekt stakeholders en beheert de productbacklog._
+  - _Scrum Master – Begeleidt de implementatie van Scrum, verwijdert belemmeringen en stimuleert continue verbetering._
+  - _Productontwikkelaars – Leveren elke sprint incrementen op via hun cross-functionele capaciteiten._
+- Stakeholder - een entiteit, individu of groep die geïnteresseerd is in, beïnvloed wordt door, of invloed heeft op input, activiteiten en resultaten, met een direct of indirect belang binnen of buiten de organisatie, haar producten of diensten.
+  - _Supporter, een stakeholdertype – Bevordert het klimaat en milieu en participeert zoals gevraagd._
+  - _AI – Als hulpmiddel of ook als mogelijke productontwikkelaar, maar nog niet volledig te vertrouwen._
+
+4\. Scrum-evenementen en -activiteiten
+
+- Scrum werkt in sprints (iteraties van bepaalde lengte, tot vier weken) met vier timeboxed events:
+  - Sprintplanning – Definieer het sprintdoel en plan het werk.
+  - Daily Scrum – Productontwikkelaars stemmen dagelijks af op de voortgang richting het sprintdoel of productdoel.
+  - Sprintreview – Inspecteer het increment, de waarde en de markt, en pas de productbacklog aan.
+  - Sprint Retrospective – Reflecteer op en verbeter het Scrumteam.
+  - Refinement – Verduidelijk aankomend of geselecteerd werk, formeel (als optionele gebeurtenis) of informeel.
+
+5\. Scrum-artefacten en -verbintenissen
+
+- _Product & 'Definition of Outcome Done' – Product en waardevolle resultaten die bewijs leveren van gerealiseerde voordelen._
+- Increment & 'Definition of Output Done' – Een potentieel waardevolle, publiceerbare kandidaat-update voor het Product.
+- Product Backlog & Productdoel – De geordende (gesequentieerde) lijst met werkzaamheden om een ​​middellangetermijndoelstelling, een meer strategische doelstelling, te bereiken.
+- Sprint Backlog & Sprintdoel – Geselecteerde Product Backlog-items en een plan voor de Sprint, doelstelling op korte termijn.
+
+## Uitbreidingslogboek {#expansion-log}
+
+Uitbreidingen
+
+- AI-sectie
+- Secties Zelforganiserend Scrum Team, Cadans en Professionaliteit
+- Sectie Emergence, open voor het idee dat risico's of afwijkingen van verwachtingen niet noodzakelijkerwijs afnemen in de loop van de tijd
+- Complexiteit (30-35) 
+- Sectie Het waarom voor Scrum
+- Secties Leiderschap en Systeemdenken
+- Secties Productdenken en Ontdekking
+- Secties Eerste principes, Mensen en Verandering
+- Sectie Producten voor meerdere Scrum-teams
+- Rol van stakeholders (inclusief klanten, besluitvormers en gebruikers), Ondersteuner als stakeholdertype
+- Secties Refinement en Product Backlog-items
+- Optioneel: Productvisie, Acceptatiecriteria, Uitkomstcriteria
+- 'Definition of Outcome Done', extra nadruk op aanpassing op basis van uitkomstbewijs
+- Stakeholder, waarde, feedback over resultaten, release, uitkomsten, risico, belemmering en leider worden gedefinieerd
+- Flowanalyse, Monte Carlo-probabilistische voorspellingen, grootschalige schattingen, fuzzy sets (allemaal optioneel)
+- Scrum Uitgebreid op één pagina
+- Een noodzaak om workflows, ontwerpen, processen, systemen en de werkomgeving die samenhangen met emergentie
+- 'Product Ownership vereist sterke productmanagementvaardigheden en domeinkennis... Een Product Owner die niet bereid, klaar of in staat is om productmanagementvaardigheden te verwerven, moet aftreden als Product Owner.'
+- Een productontwikkelaar die noch bereid, noch klaar, noch in staat is om een ​​professional te zijn, moet aftreden.
+- Een Scrum Master die noch bereid, noch klaar, noch in staat is om een ​​agent van verandering te zijn, moet aftreden.
+- Bijlagen: Cynefin® Soort uitleg \- onofficieel en ongeautoriseerd, Emergent Strategy, Adaptive (80) Enterprise, Adaptive Executive of Board Member
+
+Suggesties
+
+- Verduidelijking en aanpassing van verantwoordelijkheden terwijl 'het vage omarmen' (73)
+- Van Scrum is onveranderlijk of eenvoudig naar Scrum evolueert, in sommige gevallen verzacht de formulering van 'moet' naar 'zou moeten'
+- Product Owner verantwoordelijkheid naar Product Owner-rol met verantwoordelijkheid; maximaliseren van waarde op lange termijn
+- Ontwikkelaars verantwoordelijkheid naar Productontwikkelaar-rol met verantwoordelijkheid
+- Scrum Master verantwoordelijkheid naar Scrum Master-rol met verantwoordelijkheid; Scrum Master is één persoon, geen AI
+- Productontwikkelaars kunnen mens of AI zijn, of geholpen door AI, ten minste één mens; meer menselijke productontwikkelaars zijn beter voor cognitieve diversiteit en het aanpakken van complexiteit
+- Scrum Team committeert zich aan het Sprintdoel, niet de voormalige ontwikkelaars; Belangrijk dat de Product Owner gefocust is
+- Sprint Backlog gericht op Sprintdoel of Productdoel, niet alleen op Sprintdoel
+- Productdefinitie, vermelding van productstrategie, roadmaps, productmodellen, schaalbaarheid, doelgerichte benaderingen
+- Nadruk op leren, resultaatfeedback, neveneffecten, uitkomsten boven output
+- Om de waardestroom te behouden, hoeven onvolledige Product Backlog-items niet terug te keren naar de Product Backlog
+- 'Definition of Done' hernoemd naar 'Definition of Output Done'
+- Nadruk op de volledige productlevenscyclus, volledige featurelevenscyclus en waarderealisatie
+- Sprint Planning Onderwerpen 1-3 hernoemd naar Waarom, Wat en Hoe; Sprint tot 4 weken in plaats van tot 1 maand
+- Mogelijke extra evaluatie van de Increment en de resultaten in een psychologisch veiligere omgeving tijdens de Sprint Retrospective
+- Meer nadruk dat de Increment altijd 'Done Increment' is, waardoor 'Done Increment' overbodig is
+- Expliciet over de veranderlijkheid van het productdoel (binnen redelijke grenzen)
+- Van de optimistische aanname van waardelevering naar een doelbewuste focus op waarderealisatie
+- Ethos van ingebouwde kwaliteit, duidelijkheid, data-geïnformeerde beslissingen, doelbewuste interacties, emergentie (71), resultaten boven output, pauze en reflectie, het realiseren van waarde, het begrijpen van het probleem of de kans, het bevorderen van het klimaat/de omgeving voor een coherente Scrum-adoptie en continue verbetering in een bepaalde richting
+- Minder nadruk op de vage organisatie om de verandering aan rollen te koppelen
+- Meer doelbewuste naleving van de Scrum-waarden, rekening houdend met de context
+
+## Bijlage {#appendix}
+
+**Sectie 2: MEER executive SUCCES-extract**  
+Title: MEER executive SUCCES-extract  
 Author: John Coleman  
 Source: (6)  
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), © 2017-2025 Orderly Disruption Limited  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
-### The Adaptive Enterprise {#the-adaptive-enterprise}
+### De adaptieve onderneming {#the-adaptive-enterprise}
 
-It’s difficult for an enterprise to be adaptive (80) without a climate where words and actions match. Over eighty engagement models were studied. Amongst those were scaling or descaling frameworks, and Product operating models, which can be useful for multi-Scrum-Team Products. Models range from going too far to not doing enough in helping the Product organization become more adaptive. There is no grand, universal truth or context-free ‘Goldilocks zone.’
+Het is moeilijk voor een onderneming om adaptief te zijn (80) zonder een klimaat waarin woorden en daden overeenkomen. Meer dan tachtig engagementmodellen werden bestudeerd. Daaronder vielen frameworks voor schaalbaarheid of afschaling, en operationele modellen voor producten, die nuttig kunnen zijn voor producten met meerdere Scrum-teams. Modellen variëren van te ver gaan tot onvoldoende bijdragen aan het adaptiever maken van de productorganisatie. Er is geen grote, universele waarheid of contextvrije 'Goudlokjezone'.
 
-Of the engagement models studied, there are a number of notable contenders, including but not limited to Beyond Budgeting, Humanocracy, and Sociocracy, that, depending on the context, should be explored. Consider the combination with each other and with other approaches.
+Van de bestudeerde engagementmodellen zijn er een aantal opvallende kanshebbers, waaronder, maar niet beperkt tot, Beyond Budgeting, Humanocracy en Sociocracy, die, afhankelijk van de context, onderzocht zouden moeten worden. Overweeg de combinatie met elkaar en met andere benaderingen.
 
 #### Beyond Budgeting {#beyond-budgeting}
 
-Beyond Budgeting (15-28, 90-98, 103\) is a management philosophy that rejects traditional, rigid annual budgeting in favor of a decentralized and adaptive approach to organizational control and performance management. It is built on 12 guiding principles-six focused on leadership and six on management processes-that promote decentralized decision-making, transparency, team autonomy, and a strong alignment with customer value.
+Beyond Budgeting (15-28, 90-98, 103\) is een managementfilosofie die traditionele, rigide jaarlijkse budgettering afwijst ten gunste van een gedecentraliseerde en adaptieve benadering van organisatorische controle en prestatiemanagement. Het is gebaseerd op 12 leidende principes – zes gericht op leiderschap en zes op managementprocessen – die gedecentraliseerde besluitvorming, transparantie, teamautonomie en een sterke afstemming op klantwaarde bevorderen.
 
-Instead of fixed targets and detailed annual plans, Beyond Budgeting encourages dynamic goal-setting, continuous planning, and allocation informed by real-time needs, fostering adaptiveness and responsiveness in a rapidly changing business environment. This approach aims to empower teams, enhance innovation, and ensure organizations are better equipped to navigate uncertainty (72) and complexity (30-35). Beyond Budgeting is badly named (false assumption it’s only about Finance) and well named at the same time (indeed going beyond budgeting).
+In plaats van vaste doelen en gedetailleerde jaarplannen stimuleert Beyond Budgeting dynamische doelstelling, continue planning en toewijzing op basis van realtime behoeften, waardoor adaptiviteit en responsiviteit in een snel veranderende zakelijke omgeving worden bevorderd. Deze aanpak is erop gericht teams te versterken, innovatie te bevorderen en ervoor te zorgen dat organisaties beter zijn toegerust om met onzekerheid (72) en complexiteit (30-35) om te gaan. Beyond Budgeting heeft een slechte naam (onjuiste aanname dat het alleen over financiën gaat) en tegelijkertijd een goede naam (inderdaad, het gaat verder dan budgettering).
 
 #### Humanocracy {#humanocracy}
 
-Humanocracy (2), as defined by Gary Hamel, is a management model that replaces rigid hierarchies and centralized control with systems that maximize each person’s contribution and creativity. In a humanocracy, organizations exist to serve and empower people, not just treat employees as resources for company goals.
+Humanocratie (2), zoals gedefinieerd door Gary Hamel, is een managementmodel dat rigide hiërarchieën en gecentraliseerde controle vervangt door systemen die de bijdrage en creativiteit van ieder individu maximaliseren. In een humanocratie bestaan ​​organisaties om mensen te dienen en te versterken, en niet alleen om werknemers te behandelen als middelen voor bedrijfsdoelen.
 
-It is built on principles like distributed ownership, meritocracy, openness, experimentation, and community, fostering autonomy and innovation. Authority is based on competence, and decision-making is decentralized to those closest to the work. Humanocracy prioritizes trust, engagement, and unleashing human potential over compliance and control, aiming to build resilient, innovative workplaces where employees drive meaningful change.
+Het is gebaseerd op principes zoals gedistribueerd eigenaarschap, meritocratie, openheid, experimenten en gemeenschapszin, en bevordert autonomie en innovatie. Autoriteit is gebaseerd op competentie en besluitvorming is gedecentraliseerd naar degenen die het dichtst bij het werk staan. Humanocratie geeft prioriteit aan vertrouwen, betrokkenheid en het ontplooien van menselijk potentieel boven naleving en controle, met als doel veerkrachtige, innovatieve werkplekken te creëren waar werknemers zinvolle verandering teweegbrengen.
 
-While models like Haier’s Rendanheyi (56, 101\) share values of decentralization and empowerment, humanocracy is a broader philosophy focused on replacing bureaucracy with people-centric principles that unlock collective capability and value.
+Terwijl modellen zoals Haiers Rendanheyi (56, 101\) waarden van decentralisatie en empowerment delen, is humanocratie een bredere filosofie die zich richt op het vervangen van bureaucratie door mensgerichte principes die collectieve capaciteit en waarde ontsluiten.
 
 #### Sociocracy {#sociocracy}
 
-Sociocracy (1,11-14) is a governance system that organizes people into self-managing (49) circles and makes decisions by consent, not majority vote. Developed by Gerard Endenburg (81) in the Netherlands in the 1970s, it ensures everyone affected by a decision has a voice, with proposals advancing unless a reasoned objection is raised. Guided by the principle of 'good enough for now, safe enough to try,' sociocracy distributes authority, promotes transparency, accountability, and continuous improvement, and fosters collaboration and shared ownership. Its principles have influenced models like Holacracy and self-managing teams.
+Sociocratie (1,11-14) is een bestuurssysteem dat mensen organiseert in zelforganiserende (49) kringen en beslissingen neemt op basis van instemming, niet op basis van meerderheidsbesluitvorming. Ontwikkeld door Gerard Endenburg (81) in Nederland in de jaren 70, zorgt het ervoor dat iedereen die door een besluit wordt getroffen een stem heeft, waarbij voorstellen worden doorgezet, tenzij er een gemotiveerd bezwaar wordt ingediend. Geleid door het principe 'goed genoeg voor nu, veilig genoeg om te proberen', verdeelt sociocratie autoriteit, bevordert transparantie, verantwoording en continue verbetering, en stimuleert samenwerking en gedeeld eigenaarschap. De principes ervan hebben modellen zoals Holacracy en zelfsturende teams beïnvloed.
 
-The most established variant is the Sociocratic Circle-Organization Method (SCM), the original, formalized method. SCM uses semi-autonomous circles, double-linking (where two people attend two directly related circles to connect those circles), consent-based decision-making, and open elections for roles. This structure maintains both organizational efficiency and member equivalence, and has a well-documented track record in businesses, cooperatives, and schools in the Netherlands.
+De meest gevestigde variant is de Sociocratische Kring Methode (SKM), de oorspronkelijke, geformaliseerde methode. SKM maakt gebruik van semi-autonome kringen, double-linking (waarbij twee mensen twee direct gerelateerde kringen bezoeken om die kringen met elkaar te verbinden), op instemming gebaseerde besluitvorming en open verkiezingen voor rollen. Deze structuur handhaaft zowel organisatorische efficiëntie als gelijkwaardigheid van de leden en heeft een goed gedocumenteerde staat van dienst in bedrijven, coöperaties en scholen in Nederland.
 
-While newer variants like Sociocracy 3.0 (S3) offer more flexibility, SCM remains the most historically validated and widely documented form of sociocracy.
+Hoewel nieuwere varianten zoals Sociocratie 3.0 (S3) meer flexibiliteit bieden, blijft SKM de meest historisch gevalideerde en breed gedocumenteerde vorm van sociocratie.
 
-### The Adaptive Executive or Board Member {#the-adaptive-executive-or-board-member}
+### De adaptieve bestuurder of het bestuurslid {#the-adaptive-executive-or-board-member}
 
-MORE Executive SUCCESS identifies a number of opportunities for executives and board members:
+MEER Executive SUCCES identificeert een aantal kansen voor leidinggevenden en bestuursleden:
 
-- Acquire knowledge on stakeholders (including the customer) and their needs and limits, the work, how the work works, the waste, the anti-patterns, the problem space, the opportunities, the evidence that value can be harvested, behaviors, and habits
-- Foster a humane performance climate and enable succession planning that protects and improves it
-- Develop responsiveness and flow (68,69) across value networks
-- Nurture emergence (71) and adaptiveness (80) in a direction with clarity
-- Engage people, including customers and colleagues
-- Foster effective and timely succession planning
+- Verwerf kennis over stakeholders (inclusief de klant) en hun behoeften en beperkingen, het werk, hoe het werk werkt, de verspilling, de antipatronen, de probleemruimte, de kansen, het bewijs dat waarde kan worden geoogst, gedrag en gewoonten.
+- Bevorder een humaan prestatieklimaat en maak opvolgingsplanning mogelijk die dit beschermt en verbetert.
+- Ontwikkel responsiviteit en flow (68,69) binnen waardenetwerken.
+- Koester emergentie (71) en adaptiviteit (80) in een duidelijke richting.
+- Betrek mensen, inclusief klanten en collega's.
+- Bevorder effectieve en tijdige opvolgingsplanning.
 
-There is abundant guidance for those from the organization's structural bottom, middle, and sides on how to improve adaptiveness (80). The executive level, however, is poorly served with guidance on timely humane effectiveness, customer interactions, and 'how the work works.' There is a misconception that hired change agents fill the gap alone, which is unrealistic because the organization owns the change.
+Er is veel begeleiding beschikbaar voor mensen van de structurele basis, het midden en de zijkanten van de organisatie over hoe ze hun adaptiviteit kunnen verbeteren (80). Het managementniveau wordt echter slecht bediend met begeleiding over tijdige humane effectiviteit, klantinteracties en 'hoe het werk werkt'. Er heerst een misvatting dat ingehuurde veranderaars de leemte alleen opvullen, wat onrealistisch is omdat de organisatie eigenaar is van de verandering.
 
-Timely, humane effectiveness should permeate the entire corporate structure to gain its numerous benefits. Even organizations that have 'succeeded in change adoption' face hazards. People leave, other perspectives take hold, and corporate fads can unravel adaptiveness gains. Negative chaos could arise.
+Tijdige, menselijke effectiviteit zou de gehele bedrijfsstructuur moeten doordringen om de talrijke voordelen ervan te benutten. Zelfs organisaties die 'geslaagd zijn in de implementatie van veranderingen' lopen risico's. Mensen vertrekken, andere perspectieven krijgen de overhand en bedrijfstrends kunnen de adaptiviteit tenietdoen. Er kan negatieve chaos ontstaan.
 
-Many players and engagement models purportedly support executive adaptiveness, which is great because different organizational contexts require different approaches. But for all the resources available, the overall landscape of executive adaptiveness hasn't changed much in 25+ years.
+Veel spelers en engagementmodellen ondersteunen naar verluidt de adaptiviteit van leidinggevenden, wat geweldig is omdat verschillende organisatorische contexten verschillende benaderingen vereisen. Maar ondanks alle beschikbare middelen is het algehele landschap van de adaptiviteit van leidinggevenden in meer dan 25 jaar niet veel veranderd.
 
-Whether using tactics, strategies, methods, and frameworks or none, organizations should first embrace the ethos that underpins ambidexterity, humane effectiveness, adaptiveness, and timeliness at the top. Otherwise, executives and board members will continue to oversee 'change theater' and an incomplete patchwork of timely, humane, effective pockets within organizations.
+Of er nu tactieken, strategieën, methoden en kaders worden gebruikt of niet, organisaties zouden eerst de ethos moeten omarmen die ten grondslag ligt aan tweehandigheid, menselijke effectiviteit, adaptiviteit en tijdigheid aan de top. Anders zullen leidinggevenden en bestuursleden toezicht blijven houden op 'verandertheater' en een onvolledige lappendeken van tijdige, menselijke en effectieve afdelingen binnen organisaties.
 
-#### Shining a Light on Executive Behavior {#shining-a-light-on-executive-behavior}
+#### Een blik op het gedrag van leidinggevenden {#shining-a-light-on-executive-behavior}
 
-Executive and board member posture or actions will influence the new behavior of others more than any of their words or directives. Nevertheless, it would be best to revise the questions asked to improve ambidexterity, humane effectiveness, adaptiveness, and timeliness.
+De houding of handelingen van leidinggevenden en bestuursleden zullen het nieuwe gedrag van anderen meer beïnvloeden dan hun woorden of richtlijnen. Desalniettemin is het het beste om de gestelde vragen te herzien om tweehandigheid, humane effectiviteit, aanpassingsvermogen en tijdigheid te verbeteren.
 
-Ambidexterity, humane effectiveness, adaptiveness, and timeliness require the eventual extinction of incoherent executive behavior. Examples of more helpful behaviors are accepting failure, seeking information before judging, giving opportunities to try something new to learn things, making it okay not to know, and helping people focus. There are some notable options for dealing with executive behavior.
+Tweehandigheid, humane effectiviteit, aanpassingsvermogen en tijdigheid vereisen uiteindelijk het uitbannen van incoherent executief gedrag. Voorbeelden van nuttiger gedrag zijn het accepteren van fouten, het zoeken naar informatie voordat je oordeelt, het bieden van mogelijkheden om iets nieuws te proberen om dingen te leren, het oké vinden om het niet te weten en mensen helpen zich te concentreren. Er zijn een aantal noemenswaardige opties om executief gedrag aan te pakken.
 
-#### Immunity To Change® {#immunity-to-change®}
+#### Immuniteit voor verandering® {#immunity-to-change®}
 
-Lisa Laskow Lahey and Robert Kegan (principals at The Developmental Edge) created a change approach known as Immunity to Change® (3,4). People often know what to do, but they won’t do it because of conflicting internal commitments. Metaphorically, people have 'one foot on the gas and one foot on the brake'.
+Lisa Laskow Lahey en Robert Kegan (directeuren van The Developmental Edge) ontwikkelden een veranderaanpak genaamd Immunity to Change® (3,4). Mensen weten vaak wat ze moeten doen, maar doen het niet vanwege conflicterende interne commitments. Metaforisch gezien staan ​​mensen 'met één voet op het gas en met de andere op de rem'.
 
-Immunity to Change® is a framework for defining those 'hidden commitments' and 'limiting assumptions' that prevent people from changing and realizing their goals. The Immunity to Change® theory and map have helped countless professionals and organizations to unearth and move beyond the commitments preventing their professional and organizational growth.
+Immunity to Change® is een raamwerk voor het definiëren van die 'verborgen commitments' en 'beperkende aannames' die mensen ervan weerhouden te veranderen en hun doelen te realiseren. De theorie en kaart van Immunity to Change® hebben talloze professionals en organisaties geholpen de commitments die hun professionele en organisatorische groei belemmeren, te ontdekken en te overstijgen.
 
 #### Intent-Based Leadership® {#intent-based-leadership®}
 
-_Intent-Based Leadership® (IBL)_ (7, 8, 9\) _is a language teams use for high performance that replaces the programmed industrial-age language. IBL stresses the concept of intent from leaders and the team. It is based on the books Turn The Ship Around and Leadership is Language by L. David Marquet._
+Intent-Based Leadership® (IBL) (7, 8, 9) is een taal die teams gebruiken voor topprestaties en die de geprogrammeerde taal uit het industriële tijdperk vervangt. IBL benadrukt het concept van intentie van leiders en het team. Het is gebaseerd op de boeken Turn The Ship Around en Leadership is Language van L. David Marquet.
 
-_One of the core beliefs is that leadership is not for the select few at the top. In highly effective organizations, there are leaders at every level. L. David Marquet molded the leadership he developed on the nuclear-powered submarine USS Santa Fe into a system called Intent-Based Leadership for your organization to implement to invite thinking and leadership at every level._
+Een van de kernopvattingen is dat leiderschap niet is weggelegd voor een select groepje aan de top. In zeer effectieve organisaties zijn er leiders op elk niveau. L. David Marquet vormde het leiderschap dat hij ontwikkelde op de kernonderzeeër USS Santa Fe om tot een systeem genaamd Intent-Based Leadership dat je organisatie kan implementeren om denken en leiderschap op elk niveau te stimuleren.
 
-_Intent-Based Leadership helps leaders build organizations where people are at their best because they have a sense of autonomy, tap their intrinsic motivation, feel listened to, and have a drive for excellence. They feel high levels of ownership and control, so they engage their hearts and heads. They gain psychological rewards as they see the fruits of their decisions and work. There is a bias for action, and teams are more agile and resilient because error creation and propagation are reduced._
+Intent-Based Leadership helpt leiders organisaties op te bouwen waar mensen op hun best zijn omdat ze een gevoel van autonomie hebben, hun intrinsieke motivatie aanspreken, zich gehoord voelen en streven naar uitmuntendheid. Ze voelen een hoge mate van eigenaarschap en controle, waardoor ze hun hart en verstand erbij betrekken. Ze ontvangen psychologische beloningen wanneer ze de vruchten van hun beslissingen en werk zien. Er is een voorkeur voor actie en teams zijn wendbaarder en veerkrachtiger omdat de kans op fouten en de verspreiding ervan wordt verminderd.
 
-_The practice of stating intent allows teams to have distributed decision-making while maintaining unity of effort. The Intent-Based Leadership International (IBLI website) offers consulting, coaching, online courses, and books for leaders._
+Door intentie te benoemen, kunnen teams hun besluitvorming gespreid uitvoeren en tegelijkertijd de eenheid van inspanning behouden. De website van Intent-Based Leadership International (IBLI) biedt advies, coaching, online cursussen en boeken voor leiders.
 
 **_Section 3: Cynefin Framework Kind of Explanation unofficial & unauthorized_**  
 _Title: Cynefin Framework Kind of Explanation unofficial & unauthorized_  
