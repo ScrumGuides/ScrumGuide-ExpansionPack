@@ -1002,100 +1002,100 @@ _By using this Cynefin Framework Kind of Explanation unofficial & unauthorized, 
 
 ### Cynefin® {#cynefin®}
 
-Cynefin® (30-35) offers a compass for leadership decision-making. It was popularized by the HBR article ‘A Leader's Framework for Decision Making’ by Dave Snowden and Mary Boone in 2007 and again in ‘Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework’, also known as the ‘EU Field Guide.’ Its premise is that one should act differently depending on the dynamics of the space. It is often oversimplified. A given problem could exist in all domains simultaneously, each having different aspects.
+Cynefin® (30-35) biedt een kompas voor leiderschapsbesluitvorming. Het werd gepopulariseerd door het HBR-artikel 'A Leader's Framework for Decision Making' van Dave Snowden en Mary Boone in 2007 en opnieuw in 'Managing complexity (and chaos) in a crisis - a field guide for decision makers inspired by the Cynefin framework', ook bekend als de 'EU Field Guide'. Het uitgangspunt is dat men anders moet handelen, afhankelijk van de dynamiek in de ruimte. Het wordt vaak te simplistisch voorgesteld. Een bepaald probleem kan zich in alle domeinen tegelijk voordoen, elk met verschillende aspecten.
 
-A phase shift refers to an often abrupt transition between domains, particularly from the ordered to chaos, triggered when a system’s constraints (rules, habits, boundaries, and feedback) are misaligned or collapse. It marks a fundamental change in system behavior where previous methods of control or understanding no longer work.
+Een faseverschuiving verwijst naar een vaak abrupte overgang tussen domeinen, met name van geordend naar chaotisch, die wordt geactiveerd wanneer de beperkingen van een systeem (regels, gewoonten, grenzen en feedback) niet meer op elkaar aansluiten of instorten. Het markeert een fundamentele verandering in systeemgedrag, waarbij eerdere methoden van controle of begrip niet meer werken.
 
-Not all aspects of Product development are complex. The Scrum Team, for a given situation, might need to consider a variety of phase shifts between:
+Niet alle aspecten van productontwikkeling zijn complex. Het Scrum-team moet in een bepaalde situatie mogelijk rekening houden met verschillende faseverschuivingen tussen:
 
-- Ordered: Key idea: Stability, routine, best/good practice, expertise
+- Geordend: Kernidee: Stabiliteit, routine, beste/goede praktijk, expertise
 
-  - Expertise is sufficient, and cause and effect are predictable or knowable
-  - Response options not limited to: Apply best/good practices, follow rules, use expert analysis, do individual research
-  - Metaphors: Hard to barely frozen ice cube, pleasant weather, or chess/sudoku
-  - Nature example: A modern, climate-controlled glasshouse––predictable, controlled, planned growth
-  - Product example: Resolving a tricky technical issue by consulting experts and analyzing logs
+  - Expertise is voldoende en oorzaak en gevolg zijn voorspelbaar of kenbaar.
+  - Antwoordmogelijkheden niet beperkt tot: best practices toepassen, regels volgen, expertanalyse gebruiken, individueel onderzoek doen.
+  - Metaforen: Hard tot nauwelijks bevroren ijsblokjes, aangenaam weer of schaken/sudoku.
+  - Voorbeeld uit de natuur: Een moderne, klimaatgestuurde kas – voorspelbare, gecontroleerde, geplande groei.
+  - Productvoorbeeld: Een lastig technisch probleem oplossen door experts te raadplegen en logs te analyseren.
 
-- Complex (30-35), where expertise is valuable but not enough, and one can only understand why things happened after the fact. Key idea: emergence, safe-to-fail experiments
+- Complex (30-35), waarbij expertise waardevol is, maar niet voldoende, en men pas achteraf kan begrijpen waarom dingen gebeurden. Kernidee: emergentie, experimenten die veilig zijn om te falen.
 
-  - Responses not limited to:
-    - Encourage learning and adaptation
-    - Trying several small, parallel, safe-to-fail experiments
-    - Fostering fresh thinking through cognitive diversity and collaboration
-    - Borrowing solutions from other places if they might help
-    - Testing out smart guesses or informed hunches to see what works
-  - This is all while following helpful guidelines that encourage good results to develop naturally
-  - Metaphors: Flowing water, rainy weather, or poker
-  - Nature example: Bramble thicket––everything is entangled, connections are unpredictable
-  - Product example: Experimenting with different features or solutions informed by user feedback, e.g., A/B testing new Product ideas
+  - Reacties niet beperkt tot:
+    - Stimuleer leren en aanpassing
+    - Probeer meerdere kleine, parallelle experimenten die veilig zijn om te mislukken
+    - Stimuleer fris denken door middel van cognitieve diversiteit en samenwerking
+    - Leen oplossingen van anderen als die kunnen helpen
+    - Test slimme gissingen of gefundeerde vermoedens om te zien wat werkt
+  - Dit alles gebeurt volgens nuttige richtlijnen die de natuurlijke ontwikkeling van goede resultaten bevorderen.
+  - Metaforen: stromend water, regenachtig weer of poker.
+  - Voorbeeld uit de natuur: braamstruiken – alles is verstrengeld, verbindingen zijn onvoorspelbaar.
+  - Productvoorbeeld: experimenteren met verschillende functies of oplossingen op basis van gebruikersfeedback, bijvoorbeeld A/B-testen van nieuwe productideeën.
 
-- Chaotic:
-  - Negative: Key idea: Destructive crisis, breakdown, urgent action
-    - Responses not limited to: Take immediate action to restore order, prioritize safety, do something quickly without making matters worse
-    - Metaphors: Shattering ice or uncontrolled explosion, toxic gas, tornado, earthquake, wildfire, or a riot in a stadium
-    - Nature example: Natural disaster (e.g., tsunami)–sudden, destructive, unpredictable
-    - Product example: Responding to a critical security breach by isolating systems and deploying emergency fixes
-  - Positive: Key idea: Generative disruption, rapid innovation
-    - Response options not limited to: Disrupt intentionally, encourage creativity, harness energy, e.g., hackathon, incubator, ‘Innovation Friday’
-    - Metaphors: Controlled explosion (steam engine), fireworks, or festival bonfire
-    - Nature example: Forest fire clearing old growth for new plants–ecosystem renewal
-    - Product example: Rapidly pivoting a Product during a market disruption to seize new opportunities (e.g., launching a feature in response to a competitor’s move)
+- Chaotisch:
+  - Negatief: Kernidee: Destructieve crisis, ineenstorting, dringende actie
+    - Reacties niet beperkt tot: onmiddellijk actie ondernemen om de orde te herstellen, veiligheid prioriteit geven, snel iets doen zonder de situatie te verergeren
+    - Metaforen: brekend ijs of een ongecontroleerde explosie, giftig gas, tornado, aardbeving, bosbrand of een rel in een stadion
+    - Voorbeeld uit de natuur: natuurramp (bijv. tsunami) – plotseling, destructief, onvoorspelbaar
+    - Productvoorbeeld: reageren op een kritieke beveiligingsinbreuk door systemen te isoleren en noodoplossingen te implementeren
+  - Positief: Kernidee: generatieve ontwrichting, snelle innovatie
+    - Mogelijke reacties zijn: opzettelijk verstoren, creativiteit stimuleren, energie benutten, bijvoorbeeld een hackathon, incubator of 'Innovatievrijdag'.
+    - Metaforen: gecontroleerde explosie (stoommachine), vuurwerk of een vreugdevuur op een festival.
+    - Voorbeeld uit de natuur: bosbrand die oerbos ontgint voor nieuwe planten – ecosysteemvernieuwing.
+    - Voorbeeld uit een product: een product snel aanpassen tijdens een marktverstoring om nieuwe kansen te grijpen (bijvoorbeeld een nieuwe functie lanceren als reactie op een zet van een concurrent).
 
-Liminality is an ‘in-between’ stage, like a threshold. The often less-sudden phase shifts happen in the liminals:
+Het grensgebied is een tussenfase, zoals een drempel. De vaak minder plotselinge faseverschuivingen vinden plaats in de grens fasen:
 
-- In the liminal between complex and ordered, this is Scrum’s default sweetspot:
+- In het grensgebied tussen complex en geordend is dit de standaard sweetspot van Scrum:
 
-  - Ordered-Complex:
-    - From expert analysis to adaptive exploration
-    - Responses not limited to: Relax some rules, introduce experimentation, prepare for emergence
-    - Metaphors: A melting ice cube, cloudy weather, switching from chess to poker
-    - Nature example: Seasonal thaw–rigid ice giving way to flowing streams and new growth
-    - Product example: When a routine process stops working, encourage the team to try different approaches
-  - Complex-Ordered:
-    - Responses not limited to: Turn creative discoveries into expert routines; stabilize innovation, observe and codify successful patterns; transition to standardization
-    - Metaphors: Slush (between ice and water), fog lifting after rain, switching from poker to chess
-    - Nature example: River delta forming channels–from unpredictable to stable flows
-    - Product example: Taking a successful experimental feature and turning it into a documented, repeatable process
+  - Geordend complex:
+    - Van deskundige analyse tot adaptieve verkenning
+    - Reacties niet beperkt tot: Regels versoepelen, experimenten introduceren, voorbereiden op opkomst
+    - Metaforen: Een smeltend ijsblokje, bewolkt weer, overschakelen van schaken naar pokeren
+    - Voorbeeld uit de natuur: Seizoensdooi – hard ijs maakt plaats voor stromende beken en nieuwe groei
+    - Productvoorbeeld: Wanneer een routineproces niet meer werkt, moedig het team dan aan om andere benaderingen te proberen
+  - Complex-geordend:
+    - Reacties niet beperkt tot: Creatieve ontdekkingen omzetten in deskundige routines; innovatie stabiliseren, succesvolle patronen observeren en vastleggen; overgang naar standaardisatie
+    - Metaforen: Slush (tussen ijs en water), mist die optrekt na regen, overschakelen van poker naar schaken
+    - Voorbeeld uit de natuur: Rivierdelta die kanalen vormt – van onvoorspelbare naar stabiele stromingen
+    - Productvoorbeeld: Een succesvolle experimentele eigenschap omzetten in een gedocumenteerd, herhaalbaar proces
 
-- In the liminal between complex and chaotic:
+- In het grensgebied tussen complex en chaotisch:
 
-  - Complex–Chaotic (positive):
-    - A situation where constraints need to be relaxed to create time and space for innovation or invention. Key idea: The edge of creativity, risk, and innovation
-    - Responses not limited to: Loosen constraints, encourage experimentation, seek breakthrough ideas
-    - Metaphors: Boiling water (on the edge of steam), thunderstorm breaking out, Improvizational theater, or jazz jam session
-    - Nature example: Volcano creating new land–creative transformation at the edge of chaos
-    - Product example: Running a high-risk innovation hackathon to generate disruptive ideas
-  - Complex–Chaotic (negative):
-    - Key idea: A destructive move into crisis
-    - Responses not limited to: Rapidly re-impose constraints, stabilize the situation, prevent further breakdown
-    - Metaphors: Exploding pressure cooker, sudden tornado or flash flood, game pieces thrown in anger, game board upended
-    - Nature example: Sudden landslide–loss of structure, destructive transition
-    - Product example: Failed Product launch confusion, and urgent need to regain control
-  - Chaotic–Complex: Getting out of chaotic––regrouping
-    - Response options not limited to: Sense emerging order, start probing, encourage collaboration, and pattern recognition
-    - Metaphors: Steam condensing to water, calm after a hurricane, restarting a sports game after a storm
-    - Nature example: Pioneer species colonizing after fire–new growth after disturbance
-    - Product example: After a crisis, regrouping the team to experiment with new ways of working or new Product directions
+  - Complex–Chaotisch (positief):
+    - Een situatie waarin beperkingen moeten worden versoepeld om tijd en ruimte te creëren voor innovatie of uitvindingen. Kernidee: De grens tussen creativiteit, risico en innovatie
+    - Reacties niet beperkt tot: Beperkingen versoepelen, experimenten aanmoedigen, baanbrekende ideeën zoeken
+    - Metaforen: Kokend water (op de rand van stoom), onweersbui die uitbreekt, improvisatietheater of jazzjamsessie
+    - Voorbeeld uit de natuur: Vulkaan die nieuw land creëert – creatieve transformatie aan de rand van chaos
+    - Productvoorbeeld: Een risicovolle innovatiehackathon organiseren om disruptieve ideeën te genereren
+  - Complex–Chaotisch (negatief):
+    - Kernidee: Een destructieve stap in een crisis
+    - Reacties niet beperkt tot: Snel opnieuw beperkingen opleggen, de situatie stabiliseren, verdere ineenstorting voorkomen
+    - Metaforen: Exploderende snelkookpan, plotselinge tornado of plotselinge overstroming, uit woede weggegooide spelstukken, omgevallen spelbord
+    - Voorbeeld uit de natuur: Plotselinge aardverschuiving – verlies van structuur, destructieve transitie
+    - Voorbeeld uit een product: Mislukte productlancering: verwarring en dringende noodzaak om de controle terug te krijgen
+  - Chaotisch–Complex: Uit de chaos komen – hergroeperen
+    - Reactiemogelijkheden zijn niet beperkt tot: opkomende orde aanvoelen, beginnen met onderzoeken, samenwerking aanmoedigen en patroonherkenning.
+    - Metaforen: stoom die condenseert tot water, kalmte na een orkaan, herstarten van een sportwedstrijd na een storm.
+    - Voorbeeld uit de natuur: pioniersoorten die zich koloniseren na een brand – nieuwe groei na een verstoring.
+    - Voorbeeld uit het product: na een crisis het team hergroeperen om te experimenteren met nieuwe werkwijzen of nieuwe productrichtingen.
 
-- Aporia (paradoxical liminal): sitting with paradox for new insight, perhaps after realizing the situation at hand was not as it seemed
-  - Response options: Hold ambiguity, encourage reflection, allow new understanding to emerge
-  - Metaphors: Triple point (solid, liquid, gas coexist), standing in the eye of a storm, solving a riddle
-  - Nature example: Estuary where river, sea, and land meet–all states and possibilities coexist
-  - Product example: The team is stuck between conflicting strategies or visions and should briefly pause to reflect and realign.
-- A rarely considered phase shift due to difficulty level: Chaotic-Orderly liminal
-  - Response options: Impose strong constraints, re-establish rules and structure
-  - Metaphors: Ice rapidly refreezing, cold snap after a storm, referee is successfully strict after chaos
-  - Nature example: A Dam is successfully built after a flood––a wild river suddenly contained and controlled
-  - Product example:
-    - After a major production outage or Product crisis, a cross-functional crisis team rapidly stabilizes the situation with clear, minimal rules and temporary protocols
-    - Once the immediate danger is past, these are iteratively refined and formalized into sustainable, balanced processes, avoiding overcorrection or excessive bureaucracy
+- Twijfel (paradoxale grensgebieden): met paradoxen zitten voor nieuwe inzichten, misschien nadat je je realiseert dat de situatie niet was zoals het leek
+  - Antwoordopties: Voorkom onduidelijkheid, stimuleer reflectie, laat nieuwe inzichten ontstaan.
+  - Metaforen: Drievoudig punt (vast, vloeibaar en gas bestaan ​​naast elkaar), in het oog van een storm staan, een raadsel oplossen.
+  - Voorbeeld uit de natuur: Riviermonding waar rivier, zee en land samenkomen – alle toestanden en mogelijkheden bestaan ​​naast elkaar.
+  - Voorbeeld uit een product: Het team zit vast tussen conflicterende strategieën of visies en moet even pauzeren om te reflecteren en de zaken op orde te brengen.
+- Een zelden overwogen faseverschuiving vanwege het moeilijkheidsniveau: Chaotisch-Ordelijk grensgebied
+  - Antwoordmogelijkheden: Stel strenge beperkingen op, herstel regels en structuur
+  - Metaforen: Snel weer bevriezend ijs, koudegolf na een storm, scheidsrechter is succesvol streng na chaos
+  - Voorbeeld uit de natuur: Een dam wordt succesvol gebouwd na een overstroming – een wilde rivier wordt plotseling ingedamd en gecontroleerd
+  - Product voorbeeld:
+    - Na een grote productieonderbreking of productcrisis stabiliseert een cross-functioneel crisisteam de situatie snel met duidelijke, minimale regels en tijdelijke protocollen.
+    - Zodra het acute gevaar geweken is, worden deze iteratief verfijnd en geformaliseerd tot duurzame, evenwichtige processen, waardoor overcorrectie of overmatige bureaucratie wordt vermeden.
 
-One phase shift is particularly sudden and negative, that is, the ordered-chaotic liminal:
+Eén faseverschuiving is bijzonder plotseling en negatief: het geordende-chaotische grensgebied:
 
-- Response options: Recognize fragility and over-confidence, act quickly to restore boundaries and safety
-- Metaphors: Ice cracking into shards, sudden and violent hailstorm, game rules suddenly thrown out
-- Nature example: Frozen lake breaking up in spring––stable surface suddenly shattering
-- Product example: A stable Product process suddenly breaks down due to an unexpected event (e.g., major outage)
+- Reactiemogelijkheden: Herken kwetsbaarheid en overmoed, handel snel om grenzen en veiligheid te herstellen.
+- Metaforen: IJs dat in stukken breekt, plotselinge en hevige hagelbui, spelregels die plotseling worden overtreden.
+- Voorbeeld uit de natuur: Bevroren meer dat in de lente uiteenvalt – stabiel oppervlak dat plotseling uiteenvalt.
+- Voorbeeld uit een product: Een stabiel productproces valt plotseling uit elkaar door een onverwachte gebeurtenis (bijv. een grote storing).
 
 **Section 4: Emergent Strategy**  
 Author: Roger L. Martin, Tom Gilb  
