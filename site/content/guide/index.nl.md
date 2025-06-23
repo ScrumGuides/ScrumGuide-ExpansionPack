@@ -287,230 +287,231 @@ Een effectieve implementatie van Scrum maakt gebruik van een opkomende aanpak, h
 
 Begin met gedisciplineerde, opkomende verandering in een bepaalde richting. Streef ernaar om opkomende verandering zo normaal te maken dat het uiteindelijk onderdeel wordt van het geplande werk. Een Scrum-implementatie heeft een richting, maar geen vooraf bepaalde bestemming. De verandering is opkomend en daarom niet voorspelbaar. Nieuwsgierigheid zorgt voor een patroon van aanvoelen, luisteren, leren en aanpassen in een bepaalde richting. Het is belangrijk om relaties te onderhouden en perspectieven te begrijpen, en te luisteren naar wat er niet gezegd wordt en wat er niet gebeurt. Verandering is hard werken, maar geeft ook voldoening.
 
-## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
+## De Scrum-rollen in het Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
 
-The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team.
+De vier Scrum-rollen zijn Product Owner, Product Developer, Scrum Master en Stakeholder. Ze geven, belonen en verdienen vertrouwen en maken coherent leiderschap mogelijk. Alleen de drie verantwoordelijkheden, Product Owner, Product Developer en Scrum Master, maken deel uit van het Scrum Team.
 
-A person can hold more than one Scrum role. By taking on more than one role, one must be careful not to overstep. The Scrum roles are designed to keep check and balances in place.
+Iemand kan meer dan één Scrum-rol bekleden. Bij het vervullen van meer dan één rol moet men oppassen dat men niet te ver gaat. De Scrum-rollen zijn ontworpen om controle en evenwicht te waarborgen.
 
-A Scrum Team is a team that practices Scrum, addresses three Scrum _accountabilities,_ namely, Scrum Master, Product Owner, and Product Developers, deals with Stakeholder (including but not limited to customer or user) problems or opportunities, and delivers useful, usable, and potentially valuable Increments from the perspectives of the Scrum Team and Stakeholders toward the Product Goal. For complex (30-35) work, a Scrum Team should be small, cognitively diverse, and self-managing, where human Scrum Team members, often assisted by technology, care about each other’s work and learn how to do each other’s work.
+Een Scrum Team is een team dat Scrum toepast, drie Scrum-verantwoordelijkheden aanpakt, namelijk Scrum Master, Product Owner en Product Developers, problemen of kansen van Stakeholders (inclusief, maar niet beperkt tot, klanten of gebruikers) aanpakt, en nuttige, bruikbare en potentieel waardevolle Increments levert vanuit het perspectief van het Scrum Team en de Stakeholders ten behoeve van het Productdoel. Voor complexe (30-35) taken moet een Scrum-team klein, cognitief divers en zelforganiserend zijn, waarbij menselijke Scrum-teamleden, vaak bijgestaan ​​door technologie, om elkaars werk geven en leren hoe ze elkaars werk moeten doen.
 
-The Scrum Team should be cross-functional, which means it is multidisciplinary, including technical and business domain skills. There is no explicit hierarchy within the Scrum Team. The Scrum Team should have all the skills and support needed to:
+Het Scrumteam moet cross-functioneel zijn, wat betekent dat het multidisciplinair is, inclusief technische en zakelijke vaardigheden. Er is geen expliciete hiërarchie binnen het Scrumteam. Het Scrumteam moet over alle vaardigheden en ondersteuning beschikken die nodig zijn om:
 
-- Discover (including research and design) as needed,
-- Deliver (including engineering when appropriate); and,
-- Validate value realization (and additionally usability, desirability, and viability within ethical (57) boundaries).
+- Waar nodig te ontdekken (inclusief onderzoek en ontwerp),
+- Op te leveren (inclusief engineering indien van toepassing); en,
+- Waarderealisatie te valideren (en daarnaast bruikbaarheid, wenselijkheid en haalbaarheid binnen ethische (57) grenzen).
 
-The Scrum Team, supported by the Supporters, collectively takes care of the problem or opportunity domain, Product discovery, delivery, verification and built-in quality, go-to-market, and value validation toward the Product Goal. The Scrum Team strives for net improvements; being self-managing (49), they decide _who_ does _what_, _how_, _when,_ and _where_.
+Het Scrumteam, ondersteund door de Supporters, zorgt gezamenlijk voor het probleem- of kansendomein, productontdekking, levering, verificatie en ingebouwde kwaliteit, go-to-market en waardevalidatie ten behoeve van het productdoel. Het Scrumteam streeft naar netto verbeteringen; omdat het zelforganizerend is (49), bepalen zij _wie_ wat, _hoe_, _wanneer_ en _waar_ doet.
 
-Value validation is the confirmation (or disconfirmation) within given boundaries that the expected outcome(s) has been achieved.
+Waardevalidatie is de bevestiging (of ontkenning) binnen gegeven grenzen dat de verwachte uitkomst(en) is/zijn bereikt.
 
-The Scrum Team delivers an Increment(s) every Sprint, continuously self-manages (49) to find and fix problems, synchronizes continuously, and releases frequently. The Scrum Team is small enough to remain nimble and large enough to complete significant work within a Sprint. Often, smaller Scrum Teams communicate better and are more productive.
+Het Scrumteam levert elke sprint een of meerdere incrementen op, beheert continu zelf (49) om problemen te vinden en op te lossen, synchroniseert continu en brengt regelmatig releases uit. Het Scrumteam is klein genoeg om wendbaar te blijven en groot genoeg om significant werk binnen een sprint te voltooien. Kleinere Scrumteams communiceren vaak beter en zijn productiever.
 
-Scrum is built on self-managing Scrum Teams (49) within a defined organizational or Product structure. Autonomy exists, but it is bounded by Scrum events, accountabilities, artifacts, commitments, pillars, values, and organizational needs.
+Scrum is gebaseerd op zelforganizerende Scrumteams (49) binnen een gedefinieerde organisatie- of productstructuur. Autonomie bestaat, maar deze wordt begrensd door Scrum-gebeurtenissen, verantwoordelijkheden, artefacten, verplichtingen, pijlers, waarden en organisatorische behoeften.
 
-Scrum engages groups of people who collectively have or acquire all the skills and expertise to do the work and share such skills as needed. Intentional interactions, supported by leaders, are needed to help improve the chances of successful outcomes.
+Scrum betrekt groepen mensen die gezamenlijk alle vaardigheden en expertise bezitten of verwerven om het werk te doen en deze vaardigheden naar behoefte delen. Opzettelijke interacties, ondersteund door leiders, zijn nodig om de kans op succesvolle resultaten te vergroten.
 
-The _Focus_ should remain on achieving the Product Goal in the most effective way, with the right amount of investment, while delivering valuable outcomes.
+De focus moet gericht blijven op het zo effectief mogelijk bereiken van het productdoel, met de juiste hoeveelheid investering, en tegelijkertijd waardevolle resultaten opleveren.
 
-Scrum fosters collaborative teamwork by encouraging continuous interaction and shared accountability rather than sequential, siloed work. This approach enables the Scrum Team and Stakeholders to embrace uncertainty (72), allowing for quicker adjustments informed by ongoing learning and feedback. The overlapping nature of discovery, development, and value validation ensures a more adaptive (80), value-driven approach to Product development.
+Scrum bevordert samenwerking in teamverband door continue interactie en gedeelde verantwoordelijkheid aan te moedigen in plaats van sequentieel, geïsoleerd werk. Deze aanpak stelt het Scrumteam en stakeholders in staat om onzekerheid te omarmen (72), waardoor snellere aanpassingen mogelijk zijn op basis van continu leren en feedback. De overlappende aard van ontdekking, ontwikkeling en waardevalidatie zorgt voor een meer adaptieve (80), waardegedreven aanpak van productontwikkeling.
 
-Overlapping work fosters shared accountability among the Scrum Team, enhancing engagement and commitment. The Scrum Team directs attention to addressing challenges and opportunities, encourages proactive behavior, cultivates a diverse skill set, and increases awareness of market dynamics among all participants.
+Overlappende werkzaamheden bevorderen gedeelde verantwoordelijkheid binnen het Scrumteam, wat de betrokkenheid en inzet vergroot. Het Scrumteam richt zich op het aanpakken van uitdagingen en kansen, stimuleert proactief gedrag, ontwikkelt een diverse vaardighedenset en vergroot het bewustzijn van de marktdynamiek onder alle deelnemers.
 
-The Scrum Team addresses all Product-related activities, from Stakeholder collaboration to value validation, including verification, maintenance, operation, experimentation, research and development, and anything else that might be required. The Scrum Team instills quality. Supporters ensure the organization structures the climate and the work environment and empowers the Scrum Team to self-manage (49). Working in Sprints at a sustainable pace improves _Focus_ and consistency.
+Het Scrumteam pakt alle productgerelateerde activiteiten aan, van samenwerking met stakeholders tot waardevalidatie, inclusief verificatie, onderhoud, exploitatie, experimenten, onderzoek en ontwikkeling, en alles wat verder nodig is. Het Scrumteam zorgt voor kwaliteit. Supporters zorgen ervoor dat de organisatie het klimaat en de werkomgeving structureert en stellen het Scrumteam in staat om zichzelf te managen (49). Werken in sprints in een duurzaam tempo verbetert de focus en consistentie.
 
-The Scrum Team and Stakeholders don’t know what they will learn. Some learning provides greater certainty, and some creates more uncertainty (72). Some things could emerge, fade away, drop out, or become less of a priority.
+Het Scrumteam en de stakeholders weten niet wat ze zullen leren. Sommige leermomenten bieden meer zekerheid, terwijl andere juist meer onzekerheid creëren (72). Sommige dingen kunnen opduiken, vervagen, wegvallen of minder prioriteit krijgen.
 
-A Scrum Team has aligned autonomy. Aligned autonomy means the Scrum Team has the freedom to decide how to solve problems while staying focused on shared goals and outcomes, enabling both innovation and organizational coherence. Fostering a cognitively diverse Scrum Team is essential. Cross-pollination is more likely when the Scrum Team members collaborate, trust each other, and can self-reflect.
+Een Scrumteam heeft een afgestemde autonomie. Afgestemde autonomie betekent dat het Scrumteam de vrijheid heeft om te beslissen hoe problemen worden opgelost, terwijl het gefocust blijft op gedeelde doelen en resultaten, wat zowel innovatie als organisatorische samenhang bevordert. Het bevorderen van een cognitief divers Scrumteam is essentieel. Kruisbestuiving is waarschijnlijker wanneer de leden van het Scrumteam samenwerken, elkaar vertrouwen en zelfreflectie kunnen toepassen.
 
-For successful outcomes, the Scrum Team and Supporters should cultivate a willingness to unlearn outdated principles. Inspection and Adaptation require a climate that anticipates and tolerates mistakes. It is essential to _Focus_ criticism on ideas rather than individuals. All Scrum Team members ‘play on the same field’ with coherently overlapping work, and are all accountable for success.
+Voor succesvolle resultaten moeten het Scrumteam en de Supporters de bereidheid ontwikkelen om verouderde principes af te leren. Inspectie en aanpassing vereisen een klimaat dat fouten anticipeert en tolereert. Het is essentieel om kritiek te richten op ideeën in plaats van op individuen. Alle Teamleden van het Scrumteam ‘spelen op hetzelfde veld’ met samenhangend overlappend werk, en zijn allemaal verantwoordelijk voor succes.
 
 ### Stakeholder {#stakeholder}
 
-Stakeholder is a role. A Stakeholder is an entity, individual, or group interested in, affected by, or impacting inputs, activities, and outcomes. Stakeholders have a direct or indirect interest inside or outside the organization, its Products, or services.
+Stakeholder is een rol. Een stakeholder is een entiteit, individu of groep die geïnteresseerd is in, beïnvloed wordt door of invloed heeft op input, activiteiten en resultaten. Stakeholders hebben een direct of indirect belang binnen of buiten de organisatie, haar producten of diensten.
 
-Examples of Stakeholders include (but are not limited to) customers, decision-makers, users, vendors, influencers, managers, colleagues, leaders, legislators, financial sponsors, subject matter experts, and governance oversight. Inanimate, non-human Stakeholders such as the law or AI should not be ignored. Some Stakeholders have more impact or are more impacted than others, and each can favor different factors. Each Stakeholder has a different degree of power or influence.
+Voorbeelden van stakeholders zijn (maar niet beperkt tot) klanten, besluitvormers, gebruikers, leveranciers, beïnvloeders, managers, collega's, leiders, wetgevers, financiële sponsors, experts op het gebied van de materie en toezicht op de governance. Niet levende, niet-menselijke stakeholders zoals de wet of AI mogen niet worden genegeerd. Sommige stakeholders hebben meer impact of worden meer beïnvloed dan anderen, en elk kan andere factoren bevoordelen. Elke stakeholder heeft een verschillende mate van macht of invloed.
 
-A customer is any Stakeholder who receives value from the Product by purchasing and/or selecting it. Customers may include buyers (those who pay for or acquire the Product), decision-makers (those who approve or authorize its adoption), and end users (those who interact directly with the Product). Sometimes, the customer is not the same as the end-customer, e.g., in B2B2C (79) or B2B2B (78).
+Een klant is een stakeholder die waarde uit het product haalt door het te kopen en/of te selecteren. Klanten kunnen kopers zijn (degenen die het product betalen of aanschaffen), besluitvormers (degenen die de implementatie ervan goedkeuren of autoriseren) en eindgebruikers (degenen die rechtstreeks met het product omgaan). Soms is de klant niet dezelfde als de eindklant, bijvoorbeeld bij B2B2C (79) of B2B2B (78).
 
-For a successful Scrum adoption, it’s crucial to have regular intentional interactions between Stakeholders (including but not limited to customers and users) and the Scrum Team.
+Voor een succesvolle Scrum-implementatie is het cruciaal om regelmatig en doelbewust contact te hebben tussen stakeholders (inclusief, maar niet beperkt tot, klanten en gebruikers) en het Scrum-team.
 
-A user is a Stakeholder who directly interacts with the Product to achieve specific goals or solve problems. Users experience the Product firsthand, whether it is a service, platform, or experience, and their feedback and satisfaction are crucial for ongoing Product improvement. Users may or may not have a say in purchasing decisions, but their adoption and engagement are essential for the Product’s continued success. Sometimes, the user is not the same as the end-user, e.g., in B2B2C or B2B2B. For a successful Scrum adoption, it’s crucial to have regular intentional interactions between users (and possibly end-users) and the Scrum Team.
+Een gebruiker is een stakeholder die direct met het product communiceert om specifieke doelen te bereiken of problemen op te lossen. Gebruikers ervaren het product zelf, of het nu gaat om een ​​dienst, platform of ervaring, en hun feedback en tevredenheid zijn cruciaal voor voortdurende productverbetering. Gebruikers kunnen wel of geen inspraak hebben in aankoopbeslissingen, maar hun acceptatie en betrokkenheid zijn essentieel voor het voortdurende succes van het product. Soms is de gebruiker niet dezelfde als de eindgebruiker, bijvoorbeeld in B2B2C of B2B2B. Voor een succesvolle Scrum-implementatie is het cruciaal om regelmatig en doelbewust contact te hebben tussen gebruikers (en mogelijk eindgebruikers) en het Scrum-team.
 
-A decision-maker (called a ‘chooser’ by Jeff Patton) (82) is a Stakeholder with the authority to approve, select, or authorize the adoption or purchase of the Product. The decision-maker is responsible for evaluating options and making the final call, often considering the needs of both users and the broader organization. Decision-makers may or may not use the Product themselves, but their choices directly impact which Products are adopted and how value is delivered to other Stakeholders. For a successful Scrum adoption, it’s often better to proceed with imperfect information, and capture emerging result feedback.
+Een decisionmaker (door Jeff Patton een 'chooser' genoemd) (82) is een stakeholder met de bevoegdheid om de acceptatie of aankoop van het product goed te keuren, te selecteren of te autoriseren. De besluitvormer is verantwoordelijk voor het evalueren van opties en het nemen van de uiteindelijke beslissing, vaak rekening houdend met de behoeften van zowel gebruikers als de bredere organisatie. Besluitvormers kunnen het product zelf wel of niet gebruiken, maar hun keuzes hebben direct invloed op welke producten worden geïmplementeerd en hoe waarde wordt geleverd aan andere stakeholders. Voor een succesvolle Scrum-implementatie is het vaak beter om te werken met onvolledige informatie en feedback te verzamelen over de resultaten.
 
-Legislators (plus, for the purpose of this document, external or internal policy makers) establish rules, policies, and boundaries for a Product’s operation. They define legal, regulatory, or organizational frameworks that shape the Product’s value delivery to Stakeholders and professionalism standards. They ensure the Product aligns with external or internal mandates, guiding its evolution and sustainability. For a successful Scrum adoption, it’s crucial not to exaggerate or underestimate legal requirements.
+Wetgevers (en, in het kader van dit document, externe of interne beleidsmakers) stellen regels, beleid en grenzen vast voor de werking van een product. Zij definiëren wettelijke, regelgevende of organisatorische kaders die de waardecreatie van het product aan stakeholders en professionaliteitsnormen bepalen. Zij zorgen ervoor dat het product aansluit bij externe of interne mandaten en sturen de ontwikkeling en duurzaamheid ervan. Voor een succesvolle Scrum-implementatie is het cruciaal om de wettelijke vereisten niet te overdrijven of te onderschatten.
 
-Financial sponsors provide funding and resources for Product development, launch, and improvement. They assess the Product’s viability, value, and feasibility, investing informed by its potential to deliver continuous value to Stakeholders. Financial sponsors influence the Product vision, strategy, and goals to ensure alignment with return on investment and long-term sustainability. For a successful Scrum adoption, it’s crucial to have a flexible attitude and flexible funding as new information comes to light.
+Financiële sponsors verstrekken financiering en middelen voor de ontwikkeling, lancering en verbetering van het product. Zij beoordelen de levensvatbaarheid, waarde en haalbaarheid van het product en investeren op basis van de potentie ervan om continu waarde te leveren aan stakeholders. Financiële sponsors beïnvloeden de visie, strategie en doelen van het product om te zorgen voor afstemming op rendement op investering en duurzaamheid op de lange termijn. Voor een succesvolle Scrum-implementatie is een flexibele houding en flexibele financiering cruciaal, afhankelijk van de nieuwe informatie die beschikbaar komt.
 
-Subject matter experts contribute deep knowledge or unique skills essential to Product creation, evolution, and maintenance. Whether focused on technology, design, compliance, or a specific domain, subject matter experts support the Product’s usability, feasibility, professionalism, and extendability but do not get in the way of self-managing Scrum Teams (49). They can help address satisfaction gaps and contribute to the Product’s ability to adapt and identify, represent, or measure emergence (71). For a successful Scrum adoption, it’s crucial to foster regular transfer of learning from subject matter experts to and across the Scrum Team.
+Deskundigen leveren diepgaande kennis of unieke vaardigheden die essentieel zijn voor de ontwikkeling, doorontwikkeling en het onderhoud van het product. Of ze nu gericht zijn op technologie, ontwerp, compliance of een specifiek domein, deskundigen ondersteunen de bruikbaarheid, haalbaarheid, professionaliteit en uitbreidbaarheid van het product, maar staan ​​zelfsturende Scrum-teams niet in de weg (49). Ze kunnen helpen bij het aanpakken van tevredenheidsverschillen en bijdragen aan het aanpassingsvermogen van het product en het identificeren, weergeven of meten van emergentie (71). Voor een succesvolle Scrum-implementatie is het cruciaal om regelmatige overdracht van kennis van deskundigen naar en binnen het Scrum-team te bevorderen.
 
-The term satisfaction gap means the difference between what Stakeholders experience now and what they wish their experience was. In other words, it’s the gap between how satisfied Stakeholders are with a Product today and how satisfied they could be.
+De term tevredenheidskloof duidt op het verschil tussen wat stakeholders nu ervaren en wat ze zouden willen dat hun ervaring was. Met andere woorden, het is de kloof tussen hoe tevreden stakeholders vandaag de dag zijn met een product en hoe tevreden ze zouden kunnen zijn.
 
-Governance refers to structures, standards, regulations, norms, processes, and practices that consciously constrain and guide a Product’s direction, decision-making, and accountability. Governance fosters transparency and guides adherence to standards of value, viability, and professionalism. It provides mechanisms for managing risks and adapting the Product to changing needs or environments, supporting its long-lived and evolutionary nature. For a successful Scrum adoption, it’s crucial that governance is coherent with Scrum, e.g., a single point of contact per governance area, who has intentional interactions around quality and compliance with the Scrum Team, regular Inspection and Adaptation of the governance, and no surprises.
+Governance verwijst naar structuren, standaarden, voorschriften, normen, processen en praktijken die de richting, besluitvorming en verantwoording van een product bewust beperken en sturen. Governance bevordert transparantie en stuurt de naleving van normen van waarde, levensvatbaarheid en professionaliteit. Het biedt mechanismen voor risicomanagement en de aanpassing van het product aan veranderende behoeften of omgevingen, ter ondersteuning van de lange levensduur en het evolutionaire karakter ervan. Voor een succesvolle implementatie van Scrum is het cruciaal dat governance consistent is met Scrum, bijvoorbeeld één aanspreekpunt per governancegebied, dat doelbewust interactie heeft met het Scrum-team op het gebied van kwaliteit en naleving, regelmatige inspectie en aanpassing van de governance, en geen verrassingen.
 
 ### Supporter {#supporter}
 
-Supporter is a specific Stakeholder type. Supporters are supporting Stakeholders and change agents. Supporters are often part of a powerful guiding coalition (83), who inspire and remove demotivating factors. Supporters support the Scrum Team to thrive and influence the organization's workflows, processes, systems, Products, services, and work environment to become coherent with a Scrum adoption and emergence (71). Supporters should participate when and where needed or as requested. Value creation often requires effective and constructive collaboration with other Stakeholders.
+Supporter is een specifiek type stakeholder. Supporters ondersteunen stakeholders en change agents. Supporters maken vaak deel uit van een krachtige, sturende coalitie (83), die demotiverende factoren inspireert en wegneemt. Supporters ondersteunen het Scrum Team om te floreren en beïnvloeden de workflows, processen, systemen, producten, diensten en werkomgeving van de organisatie om coherent te worden met de adoptie en opkomst van Scrum (71). Supporters moeten deelnemen wanneer en waar nodig of zoals gevraagd. Waardecreatie vereist vaak effectieve en constructieve samenwerking met andere stakeholders.
 
-Depending on the size of the organization, examples of Supporters include (but are not limited to) colleagues, decision-makers, financial sponsors, governance oversight, managers, subject matter experts, marketing, HR, finance, procurement, and early adopters. Supporters who do not empower Scrum Teams to do what is recommended in this document are not really Supporters. Executives and board members have a crucial role in fostering a climate where Supporters support. Supporters should demonstrate leadership that the Scrum Team appreciates.
+Afhankelijk van de grootte van de organisatie zijn voorbeelden van Supporters (maar niet beperkt tot) collega's, besluitvormers, financiële sponsors, governance-toezichthouders, managers, experts, marketing, HR, financiën, inkoop en early adopters. Supporters die Scrum Teams niet de bevoegdheid geven om te doen wat in dit document wordt aanbevolen, zijn geen echte Supporters. Leidinggevenden en bestuursleden spelen een cruciale rol bij het creëren van een klimaat waarin Supporters ondersteunen. Supporters moeten leiderschap tonen dat door het Scrum Team wordt gewaardeerd.
 
 ### Artificial Intelligence {#artificial-intelligence}
 
-Artificial Intelligence (AI) is increasingly part of the work environment and may significantly expand a Scrum Team’s capabilities in discovery, decision-making, Product development, and value realization.
+Kunstmatige intelligentie (AI) maakt steeds meer deel uit van de werkomgeving en kan de mogelijkheden van een Scrumteam op het gebied van ontdekking, besluitvorming, productontwikkeling en waardecreatie aanzienlijk uitbreiden.
 
-AI may enhance Scrum through:
+AI kan Scrum verbeteren door:
 
-- Empirical Process Control (64-66): AI-driven analytics improve transparency, inspection, and adaptation.
-- Cognitive Augmentation: AI allows human Scrum Team members to focus on strategic, creative, and ethical considerations.
-- Continuous Value Adaptation: AI could update and reprioritize Product Backlog Items informed by live user feedback and trends.
-- Systems Insight: AI identifies hidden interdependencies, improving data-informed decision-making.
+- Empirische procesbeheersing (64-66): AI-gestuurde analyses verbeteren transparantie, inspectie en aanpassing.
+- Cognitieve augmentatie: AI stelt menselijke Scrumteamleden in staat zich te concentreren op strategische, creatieve en ethische overwegingen.
+- Continue waardeaanpassing: AI kan items in de productbacklog bijwerken en opnieuw prioriteren op basis van live gebruikersfeedback en trends.
+- Systeeminzicht: AI identificeert verborgen onderlinge afhankelijkheden en verbetert zo de datagedreven besluitvorming.
 
-The possibilities are endless. Scrum Teams could leverage AI to:
+De mogelijkheden zijn eindeloos. Scrumteams kunnen AI inzetten om:
 
-- Discover ambiguities in text and continuously inspect its own recommendations and results for bias, errors, and unintended consequences.
-- Regularly validate and adapt models and applications.
-- Foster transparency in Product Backlog ordering (sequencing).
-- Create agents as AI team members.
-- AI can be helpful to deliberately test and challenge the existing thinking.
+- Meerduidigheden in tekst te ontdekken en hun eigen aanbevelingen en resultaten continu te inspecteren op vooringenomenheid, fouten en onbedoelde gevolgen.
+- Modellen en applicaties regelmatig te valideren en aan te passen.
+- Transparantie te bevorderen in de volgorde van de productbacklog (sequencing).
+- Agents aan te maken als AI-teamleden. 
+- AI kan nuttig zijn om bestaande denkwijzen bewust te testen en uit te dagen.
 
-The dangers are also endless. Maintain clear human accountability for all outcomes (guided by the accountabilities from Scrum), using AI as a powerful but supervised decision-making partner. This is known as keeping the ‘human in the loop.’ While AI can enhance innovation and effectiveness at the lowest costs, it does not replace human accountability. AI should support—not override—Scrum’s empirical process control (64-66) and ethical (57) decision-making. The Scrum Team remains accountable for delivering valuable outcomes, assessing evidence, and upholding professionalism.
+De gevaren zijn ook eindeloos. Zorg voor een duidelijke menselijke verantwoordelijkheid voor alle resultaten (geleid door de verantwoordelijkheden van Scrum) en gebruik AI als een krachtige, maar gecontroleerde partner in de besluitvorming. Dit staat bekend als 'human in the loop'. Hoewel AI innovatie en effectiviteit tegen de laagste kosten kan verbeteren, vervangt het de menselijke verantwoordelijkheid niet. AI moet de empirische procesbeheersing (64-66) en ethische (57) besluitvorming van Scrum ondersteunen, niet overschrijven. Het Scrum-team blijft verantwoordelijk voor het leveren van waardevolle resultaten, het beoordelen van bewijs en het handhaven van professionaliteit.
 
-AI can be a supporting tool if used with good intent. AI tools should be evaluated like any other contributor to psychological flow (70) and learning: Do they improve feedback loops? Do they help validate assumptions faster? Do they act, and when they do, is it ethical (57) action?
+AI kan een ondersteunend instrument zijn als het met goede bedoelingen wordt gebruikt. AI-instrumenten moeten worden geëvalueerd zoals elke andere bijdrage aan de psychologische flow (70) en het leerproces: verbeteren ze feedbackloops? Helpen ze om aannames sneller te valideren? Handelen ze, en als ze dat doen, is het dan ethisch (57) handelen?
 
-Psychological flow (70) is a state of complete absorption and enjoyment in an activity, where action and awareness merge, and time seems to pass differently.
+Psychologische flow (70) is een staat van volledige absorptie en plezier in een activiteit, waarbij actie en bewustzijn samensmelten en de tijd anders lijkt te verlopen.
 
-Scrum encourages the Scrum Team to experiment with AI responsibly using small, sometimes reversible trials. Adaptation and inspection apply not only to the Product but also to how AI is integrated into delivery.
+Scrum moedigt het Scrumteam aan om verantwoord met AI te experimenteren met behulp van kleine, soms omkeerbare tests. Aanpassing en inspectie zijn niet alleen van toepassing op het product, maar ook op de manier waarop AI in de levering wordt geïntegreerd.
 
-The focus should remain on the human dynamics of teamwork and collaboration, with AI positioned as a potential aid.
+De focus moet blijven liggen op de menselijke dynamiek van teamwork en samenwerking, waarbij AI wordt gepositioneerd als een potentieel hulpmiddel.
 
-### Product Developer {#product-developer}
+### Productontwikkelaar (Product Developer) {#product-developer}
 
-‘Product Developer’ is a role and an accountability. All Product Developers together should possess all the skills needed to create Increments. The combined skill set is often referred to as cross-functional.
+'Productontwikkelaar' is een rol en een verantwoordelijkheid. Alle productontwikkelaars samen moeten over alle vaardigheden beschikken die nodig zijn om incrementen te creëren. De gecombineerde vaardighedenset wordt vaak cross-functioneel genoemd.
 
-A Product Developer may be human or automated. Human Product Developers are _Committed_ to creating, researching, inspecting, and adapting any aspect of a releasable Increment each Sprint. Their primary _Focus_ is on the current Sprint. Some capacity is often invested into future-looking refinement and examining result feedback, side effects, or other learning.
+Een productontwikkelaar kan een mens of een geautomatiseerde ontwikkelaar zijn. Menselijke productontwikkelaars zijn _toegewijd_ aan het creëren, onderzoeken, inspecteren en aanpassen van elk aspect van een releasebaar increment in elke sprint. Hun primaire _focus_ ligt op de huidige sprint. Een deel van hun capaciteit wordt vaak geïnvesteerd in toekomstgerichte verfijning en het onderzoeken van feedback op resultaten, neveneffecten of andere leerervaringen.
 
-Product Developers adhere to the Definition of Output Done and strive for net improvement. The Product Developers achieve the best results if they _Focus_ solely on one Product. If, at a given point in time, the Product Owner or Scrum Master actively works on items in the Sprint Backlog, they perform that work as Product Developers.
+Productontwikkelaars houden zich aan de definitie van 'Output Done' en streven naar netto verbetering. De productontwikkelaars behalen de beste resultaten als ze zich uitsluitend op één product _focussen_. Als de Product Owner of Scrum Master op een bepaald moment actief werkt aan items in de sprintbacklog, voeren ze dat werk uit als productontwikkelaars.
 
-The Product Developers should adopt appropriate behaviors depending on the situation; these include (but are not limited to) collaborator, creator, and a champion of technical quality, discovery, delivery, and value validation.
+De productontwikkelaars moeten zich, afhankelijk van de situatie, gepast gedragen; Deze omvatten (maar zijn niet beperkt tot) een samenwerker, maker en een voorvechter van technische kwaliteit, ontdekking, levering en waardevalidatie.
 
-_At least one Product Developer should be human._ Multiple human Product Developers often improve cognitive diversity, helpful for addressing complexity.
+_Minstens één productontwikkelaar moet een mens zijn._ Meerdere menselijke productontwikkelaars verbeteren vaak de cognitieve diversiteit, wat helpt bij het aanpakken van complexiteit.
 
-Product Developers are always collectively accountable for:
+Productontwikkelaars zijn altijd gezamenlijk verantwoordelijk voor:
 
-- Creating an emergent plan in the Sprint Backlog for achieving the Sprint Goal;
-- Instilling quality by adhering to and improving the Definition of Output Done;
-- Creating at least one usable Increment every Sprint;
-- Learning, often through data that is guided by the Definition of Outcome Done;
-- Adapting their plan each day toward the Sprint Goal;
-- Holding each other accountable as professionals; and,
-- Net improvement.
+- Het opstellen van een plan voor de ontwikkeling in de Sprint Backlog om het Sprintdoel te bereiken;
+- Het verbeteren van kwaliteit door de 'Definition of Output Done' te volgen en te verbeteren;
+- Het creëren van minstens één bruikbaar increment per Sprint;
+- Leren, vaak door middel van data die wordt gestuurd door de 'Definition of Output Done';
+- Het dagelijks aanpassen van hun plan aan het Sprintdoel;
+- Elkaar als professionals verantwoordelijk houden; en,
+- Netto verbetering.
 
-Context matters, it is crucial to consider the specific circumstances. But as a rule of thumb, a Product Developer who is neither willing nor ready nor able to be a professional should step down as a Product Developer.
+Context is van belang, het is cruciaal om rekening te houden met de specifieke omstandigheden. Maar als vuistregel geldt dat een productontwikkelaar die niet bereid, klaar of in staat is om een ​​professional te zijn, zich terugtrekt als productontwikkelaar.
 
 ### Product Owner {#product-owner}
 
-Product Owner is a role and an accountability. The Product Owner must be human. To be effective, the Product Owner should be a leader for the Product. The Product Owner maximizes long-term value and needs to know where the value is and when it is needed. The Product Owner is expected to work at all levels and across all relevant business areas. The Product Owner collaborates with Stakeholders, the Scrum Master, and the Product Developers to create value.
+Product Owner is een rol en een verantwoordelijkheid. De Product Owner moet menselijk zijn. Om effectief te zijn, moet de Product Owner een leider voor het product zijn. De Product Owner maximaliseert de waarde op lange termijn en moet weten waar die waarde zit en wanneer die nodig is. Van de Product Owner wordt verwacht dat hij op alle niveaus en in alle relevante bedrijfsgebieden werkt. De Product Owner werkt samen met Stakeholders, de Scrum Master en de Product Developers om waarde te creëren.
 
-The Product Owner uses the Product Backlog to define what gets built and in what approximate order. The Product Owner always keeps the Product Goal in mind; their primary _Focus_ is to maximize long-term value at every step.
+De Product Owner gebruikt de Product Backlog om te definiëren wat er gebouwd wordt en in welke volgorde. De Product Owner houdt altijd het productdoel voor ogen; hun primaire focus ligt op het maximaliseren van de waarde op lange termijn bij elke stap.
 
-The Product Owner is not defined by analyzing and writing detailed Product Backlog Items. Every minute spent not trusting the Product Developers is a missed chance to think more strategically, work more with Stakeholders, or create more value. The Product Owner should adopt appropriate behaviors depending on the situation; these include (but are not limited to) being a visionary, customer representative, collaborator, influencer, experimenter, decision maker, and champion of Stakeholder engagement, clarity, Product quality, and value realization.
+De Product Owner wordt niet gedefinieerd door het analyseren en schrijven van gedetailleerde Product Backlog Items. Elke minuut die wordt besteed aan het niet vertrouwen van de Product Developers is een gemiste kans om strategischer te denken, meer met Stakeholders samen te werken of meer waarde te creëren. De Product Owner moet zich, afhankelijk van de situatie, op de juiste manier gedragen; Deze omvatten (maar zijn niet beperkt tot) het zijn van een visionair, klantvertegenwoordiger, samenwerker, beïnvloeder, experimentator, besluitvormer en voorvechter van stakeholderbetrokkenheid, duidelijkheid, productkwaliteit en waarderealisatie.
 
-The Product Owner is always accountable for:
+De Product Owner is altijd verantwoordelijk voor:
 
-- Stakeholder engagement, understanding Stakeholders, their power, expectations, needs, and wants;
-- Continuously sensing, listening, learning, and adapting as needed;
-- Continuously balancing trade-offs, including but not limited to:
-  - Quality, speed, capability, risk reduction, value, simplicity (149);
-  - Stakeholders and their multiplicity of often competing expectations and limits;
-  - Value, work climate, potential customers;
-- Developing and explicitly communicating the Product Goal;
-- Developing and effectively communicating a coherent Product narrative;
-- Creating and clearly communicating Product Backlog Items;
-- Ordering Product Backlog Items;
-- Ensuring that the Product Backlog is transparent and understood;
-- Effectively communicating outcomes supported by measures in the Definition of Outcome Done;
-- Having the final say on the Definition of Outcome Done;
-- Fostering the high-quality creation, discovery, delivery, and validation of value; and,
-- Other Product management activities as required.
+- Stakeholderbetrokkenheid, het begrijpen van stakeholders, hun macht, verwachtingen, behoeften en wensen;
+- Het continu aanvoelen, luisteren, leren en aanpassen waar nodig;
+- Het continu afwegen van keuzes, waaronder, maar niet beperkt tot:
+  - Kwaliteit, snelheid, capaciteit, risicoreductie, waarde, eenvoud (149);
+  - Stakeholders en hun veelheid aan vaak concurrerende verwachtingen en beperkingen;
+  - Waarde, werkklimaat, potentiële klanten;
+- Het ontwikkelen en expliciet communiceren van het productdoel;
+- Het ontwikkelen en effectief communiceren van een coherent productverhaal;
+- Het creëren en duidelijk communiceren van productbacklogitems;
+- Het ordenen van productbacklogitems;
+- Ervoor zorgen dat de productbacklog transparant en begrijpelijk is;
+- Effectief communiceren van resultaten, ondersteund door metingen in de 'Definition of Outcome Done';
+- Het laatste woord hebben over de 'Definition of Outcome Done';
+- Het bevorderen van hoogwaardige creatie, ontdekking, levering en validatie van waarde; en
+- Andere productmanagementactiviteiten, indien nodig.
 
-The Product Owner may do the above work or collaborate with the Scrum Team to mutually agree on responsibilities for doing the above work. Regardless, the Product Owner remains accountable.
+De Product Owner kan bovenstaande werkzaamheden uitvoeren of samenwerken met het Scrum Team om gezamenlijk afspraken te maken over de verantwoordelijkheden voor de uitvoering van bovenstaande werkzaamheden. Hoe dan ook, de Product Owner blijft verantwoordelijk.
 
-For Product Owners to succeed, all Stakeholders and Supporters should _Respect_ their decisions. These decisions are visible in the content and ordering of the Product Backlog and through the inspectable Increment at the Sprint Review. The Product Owner has delegated authority from the organization.
+Om Product Owners te laten slagen, moeten alle Stakeholders en Supporters hun beslissingen _Respecteren_. Deze beslissingen zijn zichtbaar in de inhoud en volgorde van de Product Backlog en via het inspecteerbare Increment tijdens de Sprint Review. De Product Owner heeft gedelegeerde bevoegdheden van de organisatie.
 
-Product Ownership requires strong Product management skills and domain skills. A Product Owner lacking these skills may need support and guidance until they develop the necessary expertise. Context matters. But as a rule of thumb, a Product Owner who is neither willing, ready, nor able to gain Product management skills should step down as Product Owner. A domain subject matter expert is not necessarily the best choice for a Product Owner as Product management skills and leadership are needed; for example, the Product Developer accountability is often more appropriate.
+Product Ownerschap vereist sterke productmanagementvaardigheden en domeinkennis. Een Product Owner die deze vaardigheden mist, heeft mogelijk ondersteuning en begeleiding nodig totdat hij of zij de nodige expertise heeft ontwikkeld. Context is van belang. Maar als vuistregel geldt dat een Product Owner die niet bereid, klaar of in staat is om productmanagementvaardigheden te verwerven, moet aftreden als Product Owner. Een expert op een bepaald gebied is niet per se de beste keuze voor de rol Product Owner, aangezien productmanagementvaardigheden en leiderschap vereist zijn; de verantwoordelijkheid van de productontwikkelaar is bijvoorbeeld vaak geschikter.
 
-If the Scrum Team inadvisably works on multiple Products, platforms, or projects, each Product, platform, or project manager should be a Stakeholder (and Supporter) of the Product Owner and collaborate to maximize long-term value. Scrum encourages the Scrum Team to stay _Focused_ and _Committed_, helping it deliver valuable outcomes and avoid the pitfalls associated with operating as a 'feature-factory.'
+Als het Scrumteam onverstandig aan meerdere producten, platformen of projecten werkt, dient elke product-, platform- of projectmanager een stakeholder (en supporter) van de Product Owner te zijn en samen te werken om de waarde op de lange termijn te maximaliseren. Scrum moedigt het Scrumteam aan om _gefocust_ en _gecommitteerd_ te blijven, waardoor het waardevolle resultaten kan leveren en de valkuilen kan vermijden die gepaard gaan met het opereren als een 'feature-factory'.
 
-The Product Owner is one person, not a committee or technology. Those wanting to change the Product Backlog need to convince the Product Owner. The Product Owner maximizes long-term value and often makes trade-offs in doing so.
+De Product Owner is één persoon, geen commissie of technologie. Degenen die de productbacklog willen wijzigen, moeten de Product Owner overtuigen. De Product Owner maximaliseert de waarde op de lange termijn en maakt daarbij vaak afwegingen.
 
 ### Scrum Master {#scrum-master}
 
-The Scrum Master is a role and an accountability. The Scrum Master must be human. The Scrum Master is a change agent who works at all organizational levels and across business areas. The Scrum Master leads by example and guides the effectiveness of the Product Owner, Scrum Team, Stakeholders, and Supporters in their adoption of Scrum. The Scrum Master understands complexity (30-35) and is skillful in enabling the next right thing.
+De Scrum Master heeft een rol en een verantwoordelijkheid. De Scrum Master moet menselijk zijn. De Scrum Master is een change agent die op alle organisatieniveaus en in alle bedrijfsonderdelen actief is. De Scrum Master geeft het goede voorbeeld en begeleidt de effectiviteit van de Product Owner, het Scrum Team, Stakeholders en Supporters bij hun implementatie van Scrum. De Scrum Master begrijpt complexiteit (30-35) en is bedreven in het mogelijk maken van de volgende stap.
 
-The Scrum Master should adopt appropriate behaviors depending on the situation; these include (but are not limited to) being a guide, coach, mentor, teacher, observer, impediment remover, agent of change, effectiveness facilitator, and continuous improvement champion. The Scrum Master is neither a team administrator, status manager, taskmaster, rule-dictator, meeting-room booker, report dashboard administrator, chairperson, hero, coordinator, nor an in absentia Scrum Master, leaving everything to 'self-management.’
+De Scrum Master dient zich, afhankelijk van de situatie, passend te gedragen; dit omvat (maar is niet beperkt tot) het zijn van een gids, coach, mentor, leraar, observator, obstakelverwijderaar, veranderaar, effectiviteitsfacilitator en voorvechter van continue verbetering. De Scrum Master is geen teambeheerder, statusmanager, taakmeester, regeldictator, vergaderruimteboeker, beheerder van het rapportagedashboard, voorzitter, held, coördinator, noch een afwezige Scrum Master die alles aan 'zelforganizerend vermogen' overlaat.
 
-The Scrum Master is accountable for the effectiveness of the Scrum Team, Stakeholders, Supporters, and the affected people in embracing empiricism (67), self-management, and Scrum adoption as described in this document. The Scrum Master addresses whatever impedes or slows a Scrum Team’s progress and cannot be resolved by the Scrum Team.
+De Scrum Master is verantwoordelijk voor de effectiviteit van het Scrum Team, Stakeholders, Supporters en de betrokkenen bij het omarmen van empirisme (67), zelforganizatie en Scrum-adoptie zoals beschreven in dit document. De Scrum Master pakt alles aan wat de voortgang van een Scrum Team belemmert of vertraagt ​​en niet door het Scrum Team kan worden opgelost.
 
-The Scrum Master supports the Scrum Team, Product Owner, and Supporters in several ways, including:
+De Scrum Master ondersteunt het Scrum Team, de Product Owner en de Supporters op verschillende manieren, waaronder:
 
-- Helping everyone understand Scrum theory and practice, educating or coaching when needed;
-- Enabling the Scrum Team and Supporters to improve in a variety of ways continuously;
-- Fostering timely, purposeful, and intentional interactions;
-- Ensures the Scrum Team has a suitable Definition of Output Done;
-- Ensuring that all Scrum events take place and are constructive, productive, and kept within the timebox;
-- Causing the removal of impediments to Product-related work and to effective Scrum adoption;
-- Coaching toward self-management (49) and cross-functionality;
-- Helping the Scrum Team, Stakeholders, and Supporters understand their importance in supporting high-value Increments that meet the Definition of Output Done toward the Product Goal and Definition of Outcome Done;
-- Improving adaptiveness (80) and optimizing the flow of value;
-- Fostering evidence-informed confidence but being compassionate and timely to avoid overconfidence;
-- Fostering change agency and general agency by the Scrum Team and Supporters;
-- Encouraging helpful behaviors within the Scrum Team that are aligned with the Scrum Values to foster trust, collaboration, and high performance; and,
-- Fostering the Scrum Team to deliver valuable work, get feedback, and do rework as needed, quickly and often.
+- Iedereen helpen de Scrum-theorie en -praktijk te begrijpen, en indien nodig opleiden of coachen;
+- Het Scrum Team en de Supporters in staat stellen om continu op verschillende manieren te verbeteren;
+- Tijdige, doelgerichte en doelbewuste interacties bevorderen;
+- Zorgt ervoor dat het Scrum Team een ​​passende 'Definition of Output Done' heeft;
+- Zorgen dat alle Scrum-evenementen plaatsvinden en constructief, productief en binnen de timebox plaatsvinden;
+- Zorgen voor het wegnemen van belemmeringen voor productgerelateerd werk en voor een effectieve implementatie van Scrum;
+- Coachen richting zelforganizatie (49) en cross-functionaliteit;
+- Het Scrum-team, stakeholders en supporters helpen hun belang te begrijpen bij het ondersteunen van waardevolle incrementen die voldoen aan de 'Definition of Output Done' ten opzichte van het productdoel en de ;'Definition of Outcome Done';
+- Het verbeteren van het aanpassingsvermogen (80) en het optimaliseren van de waardestroom;
+- Het bevorderen van op bewijs gebaseerd vertrouwen, maar ook medelevend en tijdig zijn om overmoed te voorkomen;
+- Het stimuleren van veranderingskracht en algemene daadkracht door het Scrum-team en de supporters;
+- Het stimuleren van behulpzaam gedrag binnen het Scrum-team dat aansluit bij de Scrum-waarden om vertrouwen, samenwerking en hoge prestaties te bevorderen; en,
+- Het Scrum Team stimuleren om waardevol werk af te leveren, feedback te ontvangen en indien nodig snel en vaak aanpassingen door te voeren.
 
-The Scrum Master supports the Scrum Team in several ways, including:
+De Scrum Master ondersteunt het Scrum Team op verschillende manieren, waaronder:
 
-- Supporting the Scrum Team in its formation, upskilling, and continuous improvement;
-- Helping the Scrum Team understand the need for clear and concise Product Backlog Items that deliver value; and,
-- Being vigilant that the entire Scrum Team is collaborating purposefully and intentionally with each other and Stakeholders, honoring the Definition of Output Done, and focused on creating high-value Increments according to the Definition of Outcome Done.
+- Het Scrum Team ondersteunen bij de vorming, bijscholing en continue verbetering;
+- Het Scrum Team helpen de noodzaak te begrijpen van duidelijke en beknopte Product Backlog Items die waarde opleveren; en,
+- Ervoor zorgen dat het gehele Scrum Team bewust en doelbewust samenwerkt met elkaar en Stakeholders, de 'Definition of Output Done' naleeft en zich richt op het creëren van waardevolle Increments volgens de 'Definition of Outcome Done'.
 
-The Scrum Master supports the Product Owner in several ways, including:
+De Scrum Master ondersteunt de Product Owner op verschillende manieren, waaronder:
 
-- Helping find techniques for effective Product Goal definition and Product Backlog management;
-- Helping establish emergent Product planning for a complex (30-35) environment;
-- Helping the Product Owner to express outcomes as measures through the Definition of Outcome Done;
-- Helping the Product Owner understand the need for clear and concise Product Backlog Items that deliver value; and,
-- Helping the Product Owner to _Focus_ on value realization.
+- Het helpen vinden van technieken voor effectieve productdoeldefinitie en product backlogbeheer;
+- Het helpen opzetten van opkomende productplanning voor een complexe (30-35) omgeving;
+- De Product Owner helpen om resultaten uit te drukken als meetwaarden via de 'Definition of Outcome Done';
+- De Product Owner helpen de noodzaak te begrijpen van duidelijke en beknopte Product Backlog Items die waarde opleveren; en,
+- De Product Owner helpen zich te _focussen_ op waarderealisatie.
 
-The Scrum Master supports the Stakeholders in several ways, including:
+De Scrum Master ondersteunt de Stakeholders op verschillende manieren, waaronder:
 
-- When more than expertise is needed, helping affected people and Stakeholders understand and adopt:
-  - An empirical approach for complex (30-35) work where cause and effect are only coherent in retrospect,
-  - Going beyond empirical process control, e.g., running multiple parallel safe-to-fail experiments, seeking fresh thinking, exaptation, or testing educated hunches. Exaptation means taking something that was made or used for one purpose and using it for a different purpose, especially when facing new or unclear situations.
-- Fostering actions that support the mantra ‘Stop putting items in progress; start finishing items;’
-- Facilitating Stakeholder collaboration as requested or needed;
-- Helping Stakeholders understand the need for clear and concise Product Backlog Items that deliver value; and,
-- Helping the Stakeholders to _Focus_ primarily on value realization.
+- Wanneer meer dan alleen expertise nodig is, helpt hij betrokkenen en Stakeholders het volgende te begrijpen en te implementeren:
+  - Een empirische benadering voor complex (30-35) werk waarbij oorzaak en gevolg alleen achteraf coherent zijn,
+  - Verder gaan dan empirische procesbeheersing, bijvoorbeeld door meerdere parallelle experimenten uit te voeren die veilig zijn om te falen, te zoeken naar nieuwe ideeën, exaptatie of het testen van gefundeerde vermoedens. Exaptatie betekent iets dat voor een bepaald doel is gemaakt of gebruikt, gebruiken voor een ander doel, vooral in nieuwe of onduidelijke situaties.
+- Acties stimuleren die het mantra 'Stop met het in uitvoering brengen van items; begin met het afmaken van items' ondersteunen;
+- Samenwerking met Stakeholders faciliteren indien gevraagd of nodig;
+- Stakeholders helpen de noodzaak te begrijpen van duidelijke en beknopte Product Backlog Items die waarde opleveren; en,
+- Stakeholders helpen zich primair te _focussen_ op waardecreatie.
 
-The Scrum Master works with the Supporters in several ways, including:
+De Scrum Master werkt op verschillende manieren samen met de Supporters, waaronder:
 
-- Leading, training, and coaching the Supporters in the Scrum adoption;
-- Clarifying what is getting in the way of an effective Scrum adoption;
-- Facilitating disciplined emergent change in a direction to support the Scrum adoption; and,
-- Fostering organizational changes toward ease of delivery vs ease of management.
+- De Supporters leiden, trainen en coachen tijdens de Scrum-implementatie;
+- Verduidelijken wat een effectieve Scrum-implementatie in de weg staat;
+- Het faciliteren van gedisciplineerde, opkomende veranderingen in een richting die de Scrum-implementatie ondersteunt; en
+- Het stimuleren van organisatorische veranderingen ten gunste van een gemakkelijke implementatie versus een gemakkelijk beheer.
 
-The Scrum Master works with the organization in several ways, including:
+De Scrum Master werkt op verschillende manieren samen met de organisatie, waaronder:
 
-- Leading, training, and coaching the organization in its Scrum adoption(s);
-- Planning and advising Scrum adoptions within the organization;
-- Working with related departments in how they could support the Scrum adoption; and,
-- Removing barriers to the Scrum adoptions.
+- Het leiden, trainen en coachen van de organisatie bij de Scrum-implementatie(s);
+- Het plannen en adviseren van Scrum-implementaties binnen de organisatie;
+- Het samenwerken met relevante afdelingen over hoe zij de Scrum-implementatie kunnen ondersteunen; en
+- Het wegnemen van belemmeringen voor de Scrum-implementatie.
 
-Scrum Masters can team up with other Scrum Masters or Supporters to support the whole organization; they can also collaborate with other change agents or leaders when needed. The Scrum Master, as a change agent, is accountable for the quality of the Scrum adoption and should collaborate with other change agents to improve it.
+Scrum Masters kunnen samenwerken met andere Scrum Masters of Supporters om de hele organisatie te ondersteunen; ze kunnen indien nodig ook samenwerken met andere change agents of leiders. De Scrum Master is, als change agent, verantwoordelijk voor de kwaliteit van de Scrum-implementatie en dient samen te werken met andere change agents om deze te verbeteren.
 
-The Scrum Master is one person, not a committee or technology, and serves the Product Owner, Scrum Team, Stakeholders, and the larger organization. Being a change agent and leader, the Scrum Master should generally invite people to participate in the change. It is helpful if the Scrum Master has an understanding of the flow of value (68,69), lean (63), complexity theory (30-35), and other supporting and complementary theory in this document, as well as assisting people with the _how_. It is also helpful if the Scrum Master is unrelenting and has an insatiable appetite for learning and change.
+De Scrum Master is één persoon, geen commissie of technologie, en dient de Product Owner, het Scrum Team, de Stakeholders en de gehele organisatie. Als change agent en leider zou de Scrum Master mensen in het algemeen moeten uitnodigen om deel te nemen aan de verandering. Het is nuttig als de Scrum Master inzicht heeft in de waardestroom (68, 69), lean (63), complexiteitstheorie (30-35) en andere ondersteunende en complementaire theorieën in dit document, en mensen helpt met het _hoe_. Het is ook nuttig als de Scrum Master onvermoeibaar is en een onverzadigbare honger naar leren en veranderen heeft.
 
-Being a Scrum Master is a calling where helping others succeed is reward enough. A Scrum Master doesn’t seek the spotlight. Like any good leader, they give credit to others and take responsibility when things go wrong. Staying in the role for a longer time helps guide the Scrum Team toward its full potential, but only if the Product Developers collectively develop self-management. Parent-style Scrum Master behavior does not foster a self-managing Scrum Team. Context matters. But as a rule of thumb, a Scrum Master who is neither willing, ready, nor able to be an agent of change should step down as a Scrum Master.
+Scrum Master zijn is een roeping waarbij het helpen van anderen om te slagen al genoeg beloning is. Een Scrum Master zoekt niet de schijnwerpers op. Zoals elke goede leider geeft hij of zij anderen de eer en neemt hij of zij verantwoordelijkheid wanneer er iets misgaat. Door langer in de rol te blijven, helpt hij of zij het Scrum Team zijn volledige potentieel te bereiken, maar alleen als de productontwikkelaars gezamenlijk zelforganiserend gedrag ontwikkelen. Scrum Master-gedrag als een ouder bevordert geen zelforganiserend Scrum Team. Context is belangrijk. Maar als vuistregel geldt dat een Scrum Master die niet bereid, klaar of in staat is om verandering teweeg te brengen, moet aftreden als Scrum Master.
+
 
 ## The Scrum Artifacts in the Expansion Pack {#the-scrum-artifacts-in-the-expansion-pack}
 
