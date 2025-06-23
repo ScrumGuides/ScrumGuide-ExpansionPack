@@ -1104,73 +1104,73 @@ Copyright: All rights reserved. Adapted
 
 ### Emergent Strategy {#emergent-strategy}
 
-Strategy is not limited by scale; if it exists, it should be clearly articulated at the corporate, business unit, or Product level and remain coherent and integrated across these levels. Crucially, strategy should distinguish between ends (quantified, Stakeholder-valued outcomes) and means (initiatives or activities).
+Strategie wordt niet beperkt door schaal; als er een strategie bestaat, moet deze duidelijk worden gearticuleerd op bedrijfs-, business unit- of productniveau en coherent en geïntegreerd blijven op al deze niveaus. Cruciaal is dat strategie onderscheid maakt tussen doelen (gekwantificeerde, door stakeholders gewaardeerde resultaten) en middelen (initiatieven of activiteiten).
 
-Drawing from and adapting Roger L. Martin’s work (41) and Tom Gilb’s work (43-48), strategy is about making integrated, explicit choices- deciding what and what not to pursue from a well-defined, measurable winning aspiration, not just a broad mission or vision. Effective strategy answers:
+Voortbouwend op en aangepast aan het werk van Roger L. Martin (41) en Tom Gilb (43-48), draait strategie om het maken van geïntegreerde, expliciete keuzes – het bepalen wat wel en wat niet nagestreefd moet worden vanuit een goed gedefinieerde, meetbare winstambitie, niet slechts een brede missie of visie. Effectieve strategie beantwoordt de volgende vragen:
 
-- Where will we play?
-- How will we win ethically (57) and sustainably, balancing a multiplicity of expectations and limits?
-- What capabilities and systems must be in place?
-- What else must be true for this strategy to succeed?
+- Waar spelen we?
+- Hoe winnen we ethisch (57) en duurzaam, rekening houdend met een veelheid aan verwachtingen en beperkingen?
+- Welke capaciteiten en systemen moeten aanwezig zijn?
+- Wat moet er nog meer gelden om deze strategie te laten slagen?
 
-For situations where expertise alone is sufficient (or perhaps bordering on being sufficient), to ensure strategy is iterative, actionable, and value-focused:
+Voor situaties waarin expertise alleen voldoende is (of misschien bijna voldoende), moet ervoor worden gezorgd dat de strategie iteratief, uitvoerbaar en waardegericht is:
 
-- Iteratively quantify and manage Stakeholder value, multiple impacts or side effects, risks, and trade-offs:
-  - Identify all critical Stakeholders (including but not limited to customers) and define their value objectives in measurable terms (e.g., 'reduce new-user onboarding time from 5-10 to 2-4 days').
-  - Explicitly quantify trade-offs and constraints, and revisit as new information emerges.
-  - Use integrative thinking to resolve tensions creatively.
-- Co-create and prioritize collaboratively:
-  - Develop the strategy by blending top-down and bottom-up insights and lateral collaboration.
-  - Use structured workshops and feedback loops to foster alignment and adaptability, and continuously reprioritize unstarted work.
-- Deliver value incrementally and measure results:
-  - Iteratively break down strategic aspirations into small, prioritized, measurable increments.
-  - Deliver value in short cycles (e.g., Sprints or weeks), measuring actual outcomes and side effects against original quantified objectives.
-  - Use regular reviews to adjust informed by real-world feedback.
-- Enable emergence:
-  - Allow strategy to evolve in response to new data and Stakeholder (including but not limited to user) feedback, within a framework of clear, quantified objectives, measurable trends, and regular risk/benefit reassessment.
-  - Make course corrections rapidly and transparently as reality unfolds.
-- Ensure strategy and strategy deployment are outcome-oriented and focused (deciding what to and what not to work on). Distinguish between:
-  - Strategy including the intent, rationale, goals, and anti-goals (the _what_ and _why_),
-  - Strategy deployment: the operationalization of the strategy, iterative sequencing or decomposition of integrated choices for the strategy, usually in small outcome-oriented slices of the _what_ and _why_,
-  - Outcome-oriented, focused Product Backlog Items (smaller slices for _whom_), and
-  - Lists of activities or initiatives (the 'what we’ll do' or _how_).
-- Avoid mistaking a collection of projects for a coherent, value-driven strategy.
+- Kwantificeer en beheer iteratief de waarde voor stakeholders, meerdere effecten of bijwerkingen, risico's en afwegingen:
+  - Identificeer alle kritische stakeholders (inclusief, maar niet beperkt tot, klanten) en definieer hun waardedoelstellingen in meetbare termen (bijv. 'verminder de onboardingtijd voor nieuwe gebruikers van 5-10 naar 2-4 dagen').
+  - Kwantificeer afwegingen en beperkingen expliciet en bekijk ze opnieuw wanneer er nieuwe informatie beschikbaar komt.
+  - Gebruik integratief denken om spanningen creatief op te lossen.
+- Co-creëer en prioriteer samen:
+  - Ontwikkel de strategie door top-down en bottom-up inzichten en laterale samenwerking te combineren.
+  - Gebruik gestructureerde workshops en feedbackloops om afstemming en aanpassingsvermogen te bevorderen, en prioriteer onopgestart werk continu opnieuw.
+- Lever stapsgewijs waarde en meet de resultaten:
+  - Verdeel strategische ambities iteratief in kleine, geprioriteerde en meetbare stappen.
+  - Lever waarde in korte cycli (bijv. sprints of weken) en meet de werkelijke resultaten en bijwerkingen ten opzichte van de oorspronkelijke gekwantificeerde doelstellingen.
+  - Gebruik regelmatige evaluaties om bij te sturen op basis van feedback uit de praktijk.
+- Maak emergentie mogelijk:
+  - Laat de strategie evolueren naar aanleiding van nieuwe gegevens en feedback van stakeholders (inclusief, maar niet beperkt tot, gebruikers), binnen een kader van duidelijke, gekwantificeerde doelstellingen, meetbare trends en regelmatige herbeoordeling van risico's en voordelen.
+  - Voer snel en transparant koerswijzigingen door naarmate de realiteit zich ontvouwt.
+- Zorg ervoor dat strategie en strategie-implementatie resultaatgericht en gefocust zijn (bepalen waaraan wel en niet gewerkt moet worden). Maak onderscheid tussen:
+  - Strategie inclusief de intentie, onderbouwing, doelen en antidoelen (het 'wat' en 'waarom'),
+  - Strategie-implementatie: de operationalisering van de strategie, iteratieve sequentie of decompositie van geïntegreerde keuzes voor de strategie, meestal in kleine, resultaatgerichte segmenten van het 'wat' en 'waarom',
+  - Resultaatgerichte, gefocuste Product Backlog Items (kleinere segmenten voor 'wie'), en
+  - Lijsten met activiteiten of initiatieven (het 'wat we gaan doen' of 'hoe').
+- Verwar een verzameling projecten niet met een samenhangende, waardegedreven strategie.
 
-For situations where expertise is valuable yet insufficient, cause and effect are only coherent in retrospect, and uncertainty needs to be embraced, Scrum Teams and Stakeholders need to:
+In situaties waarin expertise waardevol maar onvoldoende is, oorzaak en gevolg alleen achteraf samenhangen en onzekerheid moet worden omarmd, moeten Scrum Teams en Stakeholders het volgende doen:
 
-- Embrace the messiness of less structured and emergent outcome-oriented work in a direction of travel.
-- Consider that detailed, long-term plans are ineffective. Instead, organizations should focus on creating conditions where useful patterns and innovations can emerge from interactions within the system.
-- Instead of trying one idea at a time and sticking to what worked before, Scrum Teams should consider several small, parallel safe-to-fail experiments at once to see what happens and learn from what emerges.
-- Foster a climate for creative exploration, innovation, and evolution from the present. Create processes and environments where people can connect novel ideas, learnings, informed hunches, and learn from each other, rather than imposing uniformity or rigid KPIs.
-- Response options are not restricted to:
-  - Map what is already known and understand the system’s evolutionary potential before attempting change
-  - Foster self-organization
-  - Run safe-to-fail experiments (probes)–probes should be small, parallel, and designed so that failure is survivable and informative
-  - Seek fresh thinking
-  - Try solutions for different problems for the current situation at hand
-  - Test educated hunches
-  - Observe what emerges, and amplify successful patterns while dampening or stopping those that don’t work
-  - Innovation is important, but proven solutions should be reused for recurring problems
-  - Continuously sense-make
-  - Perform narrative capture
-- Metaphor: The role of leaders is to actively prepare and manage the soil, boundaries, and conditions (the ‘substrate’) to encourage the growth of healthy plants (emergent solutions). This includes metaphorically weeding, pruning, and shaping the environment, not just passively waiting for results.
+- Omarm de rommeligheid van minder gestructureerd en opkomend resultaatgericht werk in een bepaalde richting.
+- Bedenk dat gedetailleerde langetermijnplannen ineffectief zijn. Organisaties zouden zich in plaats daarvan moeten richten op het creëren van omstandigheden waarin nuttige patronen en innovaties kunnen ontstaan ​​uit interacties binnen het systeem.
+- In plaats van één idee tegelijk uit te proberen en vast te houden aan wat eerder werkte, zouden Scrum Teams meerdere kleine, parallelle experimenten moeten overwegen die veilig zijn om te mislukken, om te zien wat er gebeurt en te leren van wat er naar voren komt.
+- Bevorder een klimaat voor creatieve exploratie, innovatie en evolutie vanuit het heden. Creëer processen en omgevingen waar mensen nieuwe ideeën, inzichten en gefundeerde ingevingen kunnen verbinden en van elkaar kunnen leren, in plaats van uniformiteit of rigide KPI's op te leggen.
+- De antwoordopties zijn niet beperkt tot:
+  - Breng in kaart wat al bekend is en begrijp het evolutionaire potentieel van het systeem voordat je verandering probeert.
+  - Bevorder zelforganisatie.
+  - Voer experimenten uit die veilig zijn om te falen (probes). Probes moeten klein, parallel en zo ontworpen zijn dat falen overleefbaar en leerzaam is.
+  - Zoek naar nieuwe ideeën.
+  - Probeer oplossingen voor verschillende problemen in de huidige situatie.
+  - Test onderbouwde vermoedens.
+  - Observeer wat er naar voren komt en versterk succesvolle patronen, terwijl je de patronen die niet werken dempt of stopt.
+  - Innovatie is belangrijk, maar bewezen oplossingen moeten hergebruikt worden voor terugkerende problemen.
+  - Zorg voor continue interpretatie.
+  - Leg verhalen vast.
+- Metafoor: De rol van leiders is om de bodem, grenzen en omstandigheden (het 'substraat') actief voor te bereiden en te beheren om de groei van gezonde planten (emergente oplossingen) te stimuleren. Dit omvat het figuurlijk wieden, snoeien en vormgeven van de omgeving, niet alleen passief wachten op resultaten.
 
-Generally, extrinsic motivation rewards should be avoided due to the ‘cobra effect’ (104) unless they are coherent with Beyond Budgeting. Equally, individual or team performance should be uncoupled from results as results might have been delivered, but in what way were they delivered, with what side effects, and what impact did delivery have on team morale, etc?
+Over het algemeen moeten beloningen op basis van extrinsieke motivatie worden vermeden vanwege het 'cobra-effect' (104), tenzij ze coherent zijn met Beyond Budgeting. Evenzo moeten individuele of teamprestaties worden losgekoppeld van resultaten, aangezien resultaten mogelijk wel zijn behaald. Maar op welke manier zijn ze behaald, met welke bijwerkingen, en welke impact had de prestatie op het teammoreel, enz.?
 
-Nevertheless:
+Hoe dan ook:
 
-- There is disagreement in peer-reviewed papers (105-108) and a foundational non-peer-reviewed paper (109) on whether quantifying Stakeholder expectations, Stakeholder limits, or goals is helpful or unhelpful and whether it reduces intrinsic motivation.
-- Consider the context. Also, consider whether quantification supports autonomy and meaning or imposes controlling constraints.
-- For now, this document prefers to err on the side of clarification and shared understanding of an idea, quantifying Stakeholder expectations, Stakeholder limits, and the direction of travel, supported by high-quality and accurate storytelling narratives (more stories like this, fewer stories like that).
+- Er is onenigheid in peer-reviewed artikelen (105-108) en een fundamenteel niet-peer-reviewed artikel (109) over de vraag of het kwantificeren van verwachtingen, beperkingen of doelen van stakeholders nuttig of onnuttig is en of het de intrinsieke motivatie vermindert.
+- Kijk naar de context. Overweeg ook of kwantificering de autonomie en betekenis ondersteunt of juist controlebeperkingen oplegt.
+- Voorlopig kiest dit document liever voor verduidelijking en een gedeeld begrip van een idee, waarbij de verwachtingen, beperkingen en de richting van het verhaal worden gekwantificeerd, ondersteund door hoogwaardige en accurate verhalen (meer verhalen zoals dit, minder verhalen zoals dat).
 
-An Emergent Strategy is supported by an emergent outcome-oriented roadmap, which can range from the Sprint Goal to the Product Vision and beyond. Emergent Strategy Deployment (120-123) should not be confused with Emergent Strategy. Vector change models (30-35, 54\), Product Operating Models (113-119), scaling and descaling models (134-147), and emergent goal-oriented models (120-133) can be highly beneficial for Emergent Strategy Deployment. Err on the side of models coherent with vector-change, e.g., direction of travel over fixed goals.  
-Emergent strategy deployment involves allowing plans and actions to develop naturally as the Scrum Team and Stakeholders respond to real-world changes. Instead of following a fixed path, they pay attention to what is happening around them and make adjustments as they go. Over time, the steps taken form a pattern that becomes the actual strategy, even if it differs from what was initially intended.
+Een Emergent Strategy wordt ondersteund door een emergent outcome-gerichte roadmap, die kan variëren van het Sprintdoel tot de Productvisie en verder. Emergent Strategy Deployment (120-123) moet niet worden verward met Emergent Strategy. Vector change-modellen (30-35, 54), Product Operating Models (113-119), schaal- en deschalingsmodellen (134-147) en emergent goal-georiënteerde modellen (120-133) kunnen zeer nuttig zijn voor Emergent Strategy Deployment. Kies voor modellen die coherent zijn met vector-verandering, bijvoorbeeld richting van de reis ten opzichte van vaste doelen.
+Emergent Strategy Deployment houdt in dat plannen en acties zich op natuurlijke wijze ontwikkelen naarmate het Scrum Team en de Stakeholders reageren op veranderingen in de echte wereld. In plaats van een vast pad te volgen, letten ze op wat er om hen heen gebeurt en passen ze gaandeweg aan. Na verloop van tijd vormen de genomen stappen een patroon dat de daadwerkelijke strategie wordt, zelfs als het afwijkt van wat oorspronkelijk bedoeld was.
 
 #
 
-## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
+## Toeschrijving voor de Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
-This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
+Deze collectie is geschreven en samengesteld door Ralph Jocham, John Coleman en Jeff Sutherland. Elk deel is hierboven afzonderlijk vermeld en behoudt de oorspronkelijke licentie. De collectie als geheel is bedoeld ter informatie; respecteer de licentievoorwaarden van elk deel.
 
 #
 
