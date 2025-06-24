@@ -136,62 +136,60 @@
             <tbody>
               {{- $basePage := site.GetPage "guide" }}
               {{- range $basePage.AllTranslations }}
-                {{- if ne .Language.Lang $.Site.Language.Lang }}
-                  <tr>
-                    <td>
-                      {{ .Language.LanguageName }}
-                      {{- if .Date }}
-                        ({{ .Date.Format "January 2006" }})
-                      {{- else }}
-                        ({{ $guidePage.Date.Format "January 2006" }})
-                      {{- end }}
-                    </td>
-                    <td>
-                      {{- if .Params.contributors }}
-                        {{- range $index, $contributor := .Params.contributors }}
-                          {{- if $index }},{{ end }}
-                          {{- if $contributor.link }}
-                            <a href="{{ $contributor.link }}" target="_blank" rel="noopener" class="text-decoration-none">
-                              {{ $contributor.name }}
-                              <i class="fa-solid fa-external-link-alt ms-1"></i>
-                            </a>
-                          {{- else }}
+                <tr>
+                  <td>
+                    {{ .Language.LanguageName }}
+                    {{- if .Date }}
+                      ({{ .Date.Format "January 2006" }})
+                    {{- else }}
+                      ({{ $guidePage.Date.Format "January 2006" }})
+                    {{- end }}
+                  </td>
+                  <td>
+                    {{- if .Params.contributors }}
+                      {{- range $index, $contributor := .Params.contributors }}
+                        {{- if $index }},{{ end }}
+                        {{- if $contributor.link }}
+                          <a href="{{ $contributor.link }}" target="_blank" rel="noopener" class="text-decoration-none">
                             {{ $contributor.name }}
-                          {{- end }}
-                        {{- end }}
-                      {{- else }}
-                        {{ i18n "download_community_contributors" . }}
-                      {{- end }}
-                    </td>
-                    <td>
-                      <div class="d-flex gap-2">
-                        <!-- Online Reading Link -->
-                        <a href="{{ .Permalink }}" class="btn btn-outline-secondary btn-sm">
-                          <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
-                        </a>
-                        <!-- PDF Download Link -->
-                        {{- $pdfPattern := printf "pdf/*.%s.pdf" .Language.Lang }}
-                        {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
-                        {{- if $pdfResource }}
-                          <a
-                            href="{{ $pdfResource.RelPermalink }}"
-                            class="btn btn-primary btn-sm pdf-download"
-                            download
-                            data-language="{{ .Language.LanguageName }}"
-                            data-language-code="{{ .Language.Lang }}"
-                            data-type="Translation"
-                            data-filename="{{ $pdfResource.Name }}">
-                            <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
+                            <i class="fa-solid fa-external-link-alt ms-1"></i>
                           </a>
                         {{- else }}
-                          <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available">
-                            <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" . }}
-                          </a>
+                          {{ $contributor.name }}
                         {{- end }}
-                      </div>
-                    </td>
-                  </tr>
-                {{- end }}
+                      {{- end }}
+                    {{- else }}
+                      {{ i18n "download_community_contributors" . }}
+                    {{- end }}
+                  </td>
+                  <td>
+                    <div class="d-flex gap-2">
+                      <!-- Online Reading Link -->
+                      <a href="{{ .Permalink }}" class="btn btn-outline-secondary btn-sm">
+                        <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
+                      </a>
+                      <!-- PDF Download Link -->
+                      {{- $pdfPattern := printf "pdf/*.%s.pdf" .Language.Lang }}
+                      {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
+                      {{- if $pdfResource }}
+                        <a
+                          href="{{ $pdfResource.RelPermalink }}"
+                          class="btn btn-primary btn-sm pdf-download"
+                          download
+                          data-language="{{ .Language.LanguageName }}"
+                          data-language-code="{{ .Language.Lang }}"
+                          data-type="Translation"
+                          data-filename="{{ $pdfResource.Name }}">
+                          <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" }}
+                        </a>
+                      {{- else }}
+                        <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available">
+                          <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" . }}
+                        </a>
+                      {{- end }}
+                    </div>
+                  </td>
+                </tr>
               {{- end }}
               <!-- Add Translation Row -->
               <tr class="table-light">
