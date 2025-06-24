@@ -1,6 +1,5 @@
-<a href="{{ (.Site.GetPage "/").Permalink }}" class="d-flex align-items-center text-white text-decoration-none">
-  <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
-  <span class="fs-4 text-light">{{ .Site.Title }}</span>
+<a href="{{ (.Site.GetPage "/").Permalink }}" class="d-flex align-items-center text-white text-decoration-none" title="{{ .Site.Title }}">
+  <img src="/images/scrum-guide-expansion-pack-logo-solo.png" alt="{{ .Site.Title }}" class="d-inline-block align-text-top me-2" style="max-height: 40px;">
 </a>
 <ul class="nav nav-pills">
   <li class="nav-item"><a href="{{ (.Site.GetPage "/guide").Permalink }}" class="nav-link text-white">{{ i18n "nav_read_online" }}</a></li>
