@@ -1,0 +1,160 @@
+# Brazilian Portuguese translations
+- id: and
+  translation: "e"
+
+- id: read_online_title
+  translation: "Leia o {{ .Site.Title }} online"
+
+- id: read_online_description
+  translation: "Acesse o guia completo digitalmente com recursos interativos e navegação fácil."
+
+- id: read_online_button
+  translation: "Leia online"
+
+- id: what_is_guide_title
+  translation: "Qual é o {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Código Aberto & Orientado pela Comunidade"
+
+- id: open_source_description
+  translation: "Esse {{ .Site.Title }} é um projeto de código aberto que prospera com a colaboração da comunidade. Seja para sugerir melhorias, relatar problemas ou contribuir com conteúdo, sua participação é bem-vinda. Juntos, podemos tornar este recurso ainda mais valioso para a comunidade Scrum em todo o mundo."
+
+- id: join_discussion_button
+  translation: "Participe da Discussão"
+
+- id: join_discussion_title
+  translation: "Participe da {{ .Site.Title }} Discussão"
+
+- id: join_discussion_description
+  translation: "Interaja com a comunidade, compartilhe suas ideias e ajude a moldar o futuro da {{ .Site.Title }}. Suas contribuições são inestimáveis para tornar este guia um recurso abrangente para profissionais do Scrum."
+
+- id: download_title
+  translation: "Baixe o {{ .Site.Title }}"
+
+- id: download_description
+  translation: "Obtenha o completo {{ .Site.Title }} em formato PDF para leitura offline. Perfeito para quem prefere uma cópia física ou precisa consultar o guia sem conexão com a internet."
+
+- id: download_button
+  translation: "Baixe o PDF"
+
+- id: about_creators_title
+  translation: "Sobre os criadores de {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "Leia a biografia de {{ .Name }}"
+
+- id: guide_content_not_found
+  translation: "Conteúdo do guia não encontrado"
+
+- id: reportTranslationError
+  translation: "Relatar erro de Tradução"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "Leia Online"
+
+- id: nav_translations
+  translation: "Traduções"
+
+- id: nav_pdf_version
+  translation: "Versão PDF"
+
+- id: nav_creators
+  translation: "Criadores"
+
+- id: nav_all_creators
+  translation: "Todos os Criadores"
+
+- id: nav_faq
+  translation: "FAQ"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "Baixe o PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF indisponível"
+
+- id: guide_pdf_intro_text
+  translation: "Você também pode baixar este guia em PDF para leitura offline."
+
+- id: guide_pdf_intro_link
+  translation: "baixe aqui"
+
+# Download page translations
+- id: download_page_title
+  translation: "Leia & Baixe o oficial {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} é definido aqui por"
+
+- id: download_page_originators
+  translation: ", os criadores do {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Traduções fornecidas pelas generosas pessoas e grupos listados abaixo. Selecione o guia no idioma que deseja baixar."
+
+- id: download_translation_error
+  translation: "Se você encontrou um possível erro de tradução com o {{ .Title }}, por favor, entre em contato diretamente com o tradutor. Se precisar de suporte adicional, entre em contato"
+
+- id: download_official_version
+  translation: "Versão Oficial"
+
+- id: download_community_translations
+  translation: "Traduções da Comunidade"
+
+- id: download_current_version_released
+  translation: "A versão oficial atual do {{ .Site.Title }} foi lançado em"
+
+- id: download_older_translations_notice
+  translation: "Traduções do {{ .Site.Title }} com datas mais antigas podem não conter as informações mais recentes."
+
+- id: download_table_language
+  translation: "Idioma"
+
+- id: download_table_translations_by
+  translation: "Traduções de"
+
+- id: download_table_written_by
+  translation: "Escrito por"
+
+- id: download_table_action
+  translation: "Ação"
+
+- id: download_official_current_version
+  translation: "Versão Oficial Atual"
+
+- id: download_button_text
+  translation: "Baixar"
+
+- id: download_coming_soon
+  translation: "Em Breve"
+
+- id: download_missing_language
+  translation: "Sentindo falta do seu idioma?"
+
+- id: download_contribute_translation
+  translation: "Ajude a comunidade contribuindo com uma nova tradução."
+
+- id: download_add_translation
+  translation: "Adicionar tradução"
+
+- id: download_community_contributors
+  translation: "Colaboradores da Comunidade"
+
+- id: read_online_action
+  translation: "Leia Online"
+
+# PDF Download functionality
+- id: guide_pdf_download_button
+  translation: "Baixe o PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF indisponível"
+
+- id: guide_pdf_intro_text
+  translation: "Este guia também está disponível para baixar em formato PDF."
+
+- id: guide_pdf_intro_link
+  translation: "Baixe o PDF"
