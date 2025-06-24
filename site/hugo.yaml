@@ -46,7 +46,7 @@ languages:
 params:
   description: "Scrum Guides 2025 Expansion Pack"
   keywords: "Scrum"
-  og_image: "/images/og-image.jpg" # URL to the default Open Graph image
+  og_image: "/images/scrum-guide-expansion-pack-logo-512.png" # URL to the default Open Graph image
   siteProdUrl: "https://scrumexpansion.org"
   supportEmail: "support@scrumexpansion.org"
   githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"

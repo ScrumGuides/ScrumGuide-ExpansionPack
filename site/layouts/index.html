@@ -1,8 +1,6 @@
 {{- define "main" }}
   {{- $guidePage := .Site.GetPage "/guide" }}
   {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
-
-
   <section class="section container-fluid main-header">
     <div class="container my-5">
       <div class="row">
@@ -52,7 +50,24 @@
   <section class="section container-fluid">
     <div class="container my-5">
       <div class="row">
-        <div class="col-12 col-xl-6">
+        <div class="col-12 col-lg-4 col-xl-6">
+          <div class="row d-none d-xl-flex">
+            <div class="col-2"></div>
+            {{- $pages := .Site.RegularPages }}
+            {{- range .Site.Home.Translations }}
+              {{- $pages = $pages | lang.Merge .Site.RegularPages }}
+            {{- end }}
+            {{- range where $pages "Section" "creators" }}
+              {{- if ne .Title "Creators" }}
+                <div class="col-3">
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </div>
+              {{- end }}
+            {{- end }}
+          </div>
+          <a href="{{ (.Site.GetPage "/creators").Permalink }}"><img src="/images/scrum-guide-expansion-pack-logo.png" class="img-fluid mb-3" alt="{{ .Site.Title }} Creators" /></a>
+        </div>
+        <div class="col-12 col-lg-8 col-xl-6">
           <div>
             <div class="col-12">
               <h2 class="text-center">{{ i18n "what_is_guide_title" . }}</h2>
@@ -78,45 +93,6 @@
               {{ end }}
             </div>
           </div>
-        </div>
-        <div class="col-12 col-xl-6">
-          <h2 class="text-center">{{ i18n "about_creators_title" . }}</h2>
-          {{- $pages := .Site.RegularPages }}
-          {{- range .Site.Home.Translations }}
-            {{- $pages = $pages | lang.Merge .Site.RegularPages }}
-          {{- end }}
-          {{- range where $pages "Section" "creators" }}
-            {{- if ne .Title "Creators" }}
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    {{- $imageResource := "" }}
-                    {{- if .Params.image }}
-                      {{- $imageResource = .Resources.GetMatch .Params.image }}
-                    {{- end }}
-                    {{- if not $imageResource }}
-                      {{- $urlifiedTitle := .Title | urlize }}
-                      {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
-                    {{- end }}
-                    {{- if $imageResource }}
-                      <img src="{{ $imageResource.RelPermalink }}" class="img-fluid rounded-start w-100" alt="{{ .Title }}" style="aspect-ratio: 1/1; object-fit: cover;" />
-                    {{- else }}
-                      <div class="d-flex align-items-center justify-content-center h-100 bg-light rounded-start">
-                        <i class="fa-solid fa-user-tie fa-3x text-muted"></i>
-                      </div>
-                    {{- end }}
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">{{ .Title }}</h5>
-                      <p class="card-text">{{ .Description }}</p>
-                      <a href="{{ .Permalink }}" class="btn btn-outline-primary">{{ i18n "read_bio_button" (dict "Name" (.Params.short_title | default .Title)) }}</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            {{- end }}
-          {{- end }}
         </div>
       </div>
     </div>
