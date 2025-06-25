@@ -3,7 +3,7 @@
   translation: "en"
 
 - id: read_online_title
-  translation: "Lees de {{ .Site.Title }} online"
+  translation: "Lees het {{ .Site.Title }} online"
 
 - id: read_online_description
   translation: "Krijg digitaal toegang tot de volledige gids met interactieve functies en eenvoudige navigatie."
@@ -12,7 +12,7 @@
   translation: "Lees online"
 
 - id: what_is_guide_title
-  translation: "Wat is de {{ .Site.Title }}?"
+  translation: "Wat is het {{ .Site.Title }}?"
 
 - id: open_source_title
   translation: "Open Source & Community Gedreven"
@@ -30,7 +30,7 @@
   translation: "Betrek de community erbij, deel je inzichten en help de toekomst van {{ .Site.Title }} vorm te geven. Jouw bijdragen zijn van onschatbare waarde om deze gids tot een complete bron voor Scrum-beoefenaars te maken."
 
 - id: download_title
-  translation: "Download de {{ .Site.Title }}"
+  translation: "Download het {{ .Site.Title }}"
 
 - id: download_description
   translation: "Download de complete {{ .Site.Title }} in pdf-formaat voor offline lezen. Perfect voor wie de voorkeur geeft aan een fysieke versie of de gids wil raadplegen zonder internetverbinding."
