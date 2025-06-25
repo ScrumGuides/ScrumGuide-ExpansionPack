@@ -120,11 +120,11 @@ I Team Scrum, operando come sistemi adattivi complessi, sono influenzati, non di
 
 Questo approccio riconosce che l’autogestione (49) non è qualcosa che si possa progettare dall’alto (top-down), ma qualcosa da scoprire nell'ambiente giusto — un ambiente in cui si avverte uno scopo, coerente e vitale, in cui riecheggia la ‘Quality Without a Name’ di Christopher Alexander (39). In definitiva, Scrum non tratta l’emergenza come un rischio da eliminare, ma come una forza da coltivare per l’eccellenza nello sviluppo di prodotto.
 
-### Team Scrum Auto-Organizzati {#self-managing-scrum-team}
+### Team Scrum Auto-Gestiti {#self-managing-scrum-team}
 
-A self-managing (49) Scrum Team checks whether they are on track, takes action when not on track, decides how to work, resolves Scrum Team conflict, and fixes problems in the Scrum Team. This means that, generally, managers (111), if they are part of the landscape, do not tell the Scrum Team what to do or decide which Scrum Team member needs to be taken aside to fix issues, directly or indirectly. If managers exist it's generally better if they demonstrate leadership.
+Un Team Scrum auto-gestiti (49) verifica se è sulla giusta strada, interviene quando non lo è, decide come lavorare, risolve i conflitti interni al Team Scrum, e risolve i problemi all'interno del Team Scrum. Questo significa che, in generale, i manager (111), se fanno parte del contesto, non dicono al Team Scrum cosa fare né decidono quale membro del Team Scrum dovrebbe essere "messo da parte" per risolvere dei problemi, direttamente o indirettamente. Se i manager esistono, è in genere preferibile che esercitino leadership.
 
-Self-managing Scrum Teams organized around value are crucial for creative problem-solving and capturing emergence; reliance on non-self-managing Scrum Teams hinders the ability to deal with complexity (30-35). Self-managing Scrum Teams (49) are not to be confused with individual self-management. It is the seamless interplay that allows a great team to emerge. The facilitation of team autonomy and more efficient decision-making within a non-hierarchical structure could help Scrum Teams improve their self-management.
+I Team Scrum auto-gestiti organizzati intorno al valore sono fondamentali per la risoluzione creativa dei problemi e per cogliere l'emergenza; affidarsi a Team Scrum non autogestiti ostacola la capacità di affrontare la complessità (30–35). I Team Scrum autogestiti (49) non vanno confusi con l'autogestione individuale. E' l'interazione fluida tra i membri che consente al team di emergere. La facilitazione dell'autonomia del team e prendere decisioni più rapide all'interno di una struttura non gerarchica può aiutare i Team Scrum a migliorare la propria autogestione.
 
 ### Professionalità {#professionalism}
 
