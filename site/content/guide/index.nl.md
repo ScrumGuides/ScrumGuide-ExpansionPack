@@ -1168,7 +1168,7 @@ Emergent Strategy Deployment houdt in dat plannen en acties zich op natuurlijke 
 
 #
 
-## Toeschrijving voor de Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
+## Toeschrijving voor het Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
 Deze collectie is geschreven en samengesteld door Ralph Jocham, John Coleman en Jeff Sutherland. Elk deel is hierboven afzonderlijk vermeld en behoudt de oorspronkelijke licentie. De collectie als geheel is bedoeld ter informatie; respecteer de licentievoorwaarden van elk deel.
 
