@@ -15,9 +15,11 @@ Before starting development, ensure you have:
 
 ✅ **Hugo Extended** (v0.80+)  
 ✅ **Git** (latest version)  
-✅ **PowerShell** (for Windows users)  
+✅ **PowerShell 7+** (required for automation scripts)  
 ✅ **Text Editor/IDE** (VS Code recommended)  
 ✅ **Node.js** (for advanced tooling, optional)
+
+> **📋 Installation Help**: For detailed PowerShell 7+ installation instructions, see the [Getting Started Guide](./getting-started.md#powershell-automation-scripts).
 
 ### Installation Verification
 

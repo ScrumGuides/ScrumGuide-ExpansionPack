@@ -30,6 +30,15 @@ languages:
     params:
       description: "ScrumExpansion.org bietet das Scrum Guide Expansion Pack—moderne Empfehlungen für die Anwendung von Scrum bei komplexer Arbeit, KI und adaptiver Strategie."
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum Anleitung, fortgeschrittene Scrum Praktiken, Scrum für moderne Arbeit, adaptive Unternehmen, agile Produktlieferung, empirisches Scrum, Produktdenken, Komplexitätstheorie in Scrum, Scrum Führung, professionelles Scrum, Scrum und KI, Scrum Ressourcen, Scrum Lernplattform, Scrum Community Website"
+  tlh:
+    languageName: Klingon
+    weight: 2
+    languageCode: "tlh"
+    languageDirection: "ltr"
+    title: pOlonyuS puqloD
+    params:
+      description: pOlonyuS puqloD
+      keywords: Yach
   fa:
     languageName: فارسی
     weight: 2
@@ -44,7 +53,7 @@ languages:
 params:
   description: "Scrum Guides 2025 Expansion Pack"
   keywords: "Scrum"
-  og_image: "/images/og-image.jpg" # URL to the default Open Graph image
+  og_image: "/images/scrum-guide-expansion-pack-logo-512.png" # URL to the default Open Graph image
   siteProdUrl: "https://scrumexpansion.org"
   supportEmail: "support@scrumexpansion.org"
   githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"

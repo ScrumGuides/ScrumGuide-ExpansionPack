@@ -1,3 +1,9 @@
 baseURL: https://scrumexpansion.org
 Environment: "production"
 minifyOutput: true
+
+languages:
+  tlh:
+    disabled: true
+  fa:
+    disabled: true
