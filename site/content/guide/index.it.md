@@ -51,7 +51,7 @@ Ken Schwaber e Jeff Sutherland hanno guidato lo sviluppo del framework Scrum. La
 
 ## Scopo del Pacchetto di Espansione della Guida Scrum  {#purpose-of-the-scrum-guide-expansion-pack}
 
-Per un'adozione di maggior successo, questo Pacchetto di Espansione offre indicazioni aggiuntive adatte ai tempi attuali, basate sulla Guida Scrum 2020 di Ken Schwaber e Jeff Sutherland (40). Il contributo di Ralph Jocham (89) alla Scrum Guide 2020 ha apportato ulteriore profondità nel trasferire le idee originali della Guida Scrum 2020 (40) all'interno di questo pacchetto di espansione.
+Per un'adozione di maggior successo, questo Pacchetto di Espansione offre indicazioni aggiuntive adatte ai tempi attuali, basate sulla Guida Scrum 2020 di Ken Schwaber e Jeff Sutherland (40). Il contributo di Ralph Jocham (89) alla Guida Scrum 2020 ha apportato ulteriore profondità nel trasferire le idee originali della Guida Scrum 2020 (40) all'interno di questo pacchetto di espansione.
 
 Questo Pacchetto di Espansione della Guida Scrum spiega il _cosa_ e _il perché_ di ogni elemento di Scrum attraverso una prospettiva orientata al futuro. Ogni elemento ha uno scopo specifico e contribuisce al valore complessivo e ai risultati ottenuti con Scrum. Questo Pacchetto di Espansione verrà aggiornato regolarmente. Si prevede che il lettore legga il documento in modo sequenziale, almeno la prima volta.
 
@@ -641,120 +641,121 @@ The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint 
 
 The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work.
 
-## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack}
+## Gli Eventi Scrum considerati nell’Expansion Pack {#evnti-scrum-considerati-nell-expansion-pack}
 
-Scrum combines four timeboxed events for Inspection and Adaptation within a containing fifth event of determinate length, the Sprint. These events support the Scrum pillars of Transparency, Inspection, and Adaptation. Releases enable value, ideally, continuously. Infrequent releases lead to delayed result feedback.
+Scrum combina quattro eventi di durata limitata (detti “timebox”) necessari per Ispezione e Adattamento, che si svolgono all'interno di un quinto evento di durata fissa, lo Sprint che li raggruppa. Questi eventi supportano i pilastri Scrum di Trasparenza, Ispezione e Adattamento. I rilasci del prodotto servono a generare valore, idealmente, in modo continuo. Rilasci poco frequenti comportano ritardi nei feedback sui risultati.
 
-A timebox is a stipulated maximum amount of elapsed time from beginning to end for a defined event, not to be confused with an expectation to use that full amount of time. The purpose of a timebox in Scrum is to foster the selection of essential work, creating _Focus_ to achieve desired results quickly. In Scrum, for a given Scrum Team, the sprint length is consistent, so it is not a timebox.
+Un timebox è un intervallo di tempo di durata massima fissa, stabilito dall'inizio alla fine di un determinato evento: non è necessario utilizzare l'intero intervallo di tempo. Lo scopo dei timebox in Scrum è quello di favorire la selezione del lavoro effettivamente essenziale, creando _Focalizzazione_ (Focus) per raggiungere rapidamente i risultati desiderati. In Scrum, ogni Team Scrum si accorda su una durata dello sprint costante, quindi non si tratta di un timebox, a differenza dagli altri quattro.
 
-Events create cadence and minimize the need for other meetings not part of Scrum. Ideally, each event is held at the same time and place to reduce complexity (30-35) and foster the formation of habits. Skilled facilitation improves effectiveness. Ineffective events risk losing emphasis on the Sprint Goal, Product Goal, Transparency, Inspection, Adaptation, and Scrum Values.
+Gli eventi favoriscono una cadenza regolare e riducono al minimo la necessità di altre riunioni, che infatti non sono previste in Scrum. Idealmente, ogni evento si tiene nello stesso orario e nello stesso luogo per ridurre la complessità (30-35) e favorisce la formazione di buone abitudini. Per aumentare l’efficacia della facilitazione, è consigliabile avere un facilitatore qualificato ed esperto. Infatti, eventi inefficaci rischiano di far perdere al Team l’enfasi sullo Sprint Goal, sul Product Goal, nonché sui 3 pilastri - Trasparenza, Ispezione e Adattamento - nonché sui 5 Valori di Scrum - Impegno, Focus, Apertura, Rispetto e Coraggio.
 
-Each event has its own purpose and should include deep, meaningful work. Together, the Scrum events provide a scaffold of Transparency to inspect and adapt, pause, and reflect. The Scrum events support structured thinking and working, effectiveness, and a balanced workload.
+Ogni evento ha un proprio scopo preciso e dovrebbe includere attivitá approfondite e significative. Come aggregato, gli eventi Scrum forniscono la necessaria “impalcatura” per generare la Trasparenza necessaria per fermarsi a riflettere, analizzare, per poi apportare adattamenti. Gli eventi Scrum agevolano pensiero e lavoro strutturati, incrementano l'efficacia e aiutano a determinare un carico di lavoro equilibrato.
 
-Communication is key to ensuring the Scrum Team and Supporters _Focus_ on the right thing. Apart from the Sprint, events may consume less time as long as coherence is not lost.
+Una comunicazione continua ed efficace è fondamentale per garantire che il Team Scrum e coloro che lo supportano si concentrino sulla fare la cosa giusta. Con la sola eccezione dello Sprint (una volta definita la sua durata, ndt), gli altri quattro eventi possono avere una durata inferiore, a patto che non se ne perda la coerenza ed efficacia.
 
-### The Sprint {#the-sprint}
+### Lo Sprint {#lo-sprint}
 
-The Sprint is an event where ideas are turned into value. The Sprint is the container event. It is an iteration of a determinate time in which work is carried out. It provides _Focus_ and stability. A Sprint is no longer than four weeks. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal happens within Sprints.
+Lo Sprint è un evento in cui le idee si trasformano in valore. Lo Sprint è l'evento che racchiude tutti gli altri eventi di Scrum. È un'iterazione di durata determinata, durante la quale viene svolto il lavoro effettivo. Fornisce _Focalizzazione_ (Focus) e stabilità. Uno Sprint non puó durare più di quattro settimane. Il nuovo Sprint inizia immediatamente dopo il termine di quello precedente. Tutto il lavoro necessario per raggiungere il Product Goal si svolge esclusivamente all'interno degli Sprint.
 
-Sprints are the heartbeat of Scrum, where the Scrum Team turns ideas into usable, useful, and potentially valuable Increments. The Increment is released as soon as practically possible, considering the need for early result feedback. A lack of release to some subset of Stakeholders (including but not limited to real customers, decision-makers, and users) can lead to a lack of timely result feedback. Multiple Increments may be created in a Sprint; the Scrum Team should strive to validate value through early and frequent releases, where applicable.
+Gli Sprint sono il “battito” del cuore di Scrum, durante i quali il Team Scrum trasforma le idee in Incrementi utilizzabili, utili e potenzialmente di valore tangibile. L'Incremento viene rilasciato il prima possibile, in considerazione della necessità di un tempestivo feedback sui risultati generati. Il mancato rilascio ad alcuni sottogruppi di Stakeholder (inclusi clienti, decisori e utenti - a titolo esemplificativo ma non esaustivo) può determinare la una mancanza di feedback tempestivi sui risultati. In uno Sprint è certamente possibile creare più Incrementi; il Team Scrum infatti - quando possibile - dovrebbe impegnarsi a convalidare il valore generato attraverso rilasci anticipati, frequenti e tempestivi.
 
-During the Sprint:
+Durante lo Sprint:
 
-- No changes are made that would endanger the Sprint Goal;
-- The Increment(s) should not decrease in quality;
-- The Product Backlog is refined as needed; and,
-- As more is learned, current work may be clarified and renegotiated with the Product Owner without affecting the Sprint Goal.
+- Non vengono apportate modifiche che potrebbero mettere a repentaglio lo Sprint Goal;
+- La qualità dell'incremento non deve essere diminuita o compromessa;
+- Si perfeziona il Product Backlog a seconda delle necessità; e,
+- Man mano che piú informazioni vengono raccolte, il lavoro in corso può essere meglio chiarito ed eventualmente rinegoziato con il Product Owner, senza però compromettere lo Sprint Goal.
 
-Sprints enable outcomes by ensuring Inspection and Adaptation of progress toward a Sprint Goal at least every four weeks. When a Sprint is too long, the Sprint Goal may become invalid, increasing complexity (30-35) and risk. Shorter Sprints often generate more learning cycles; they could also limit risk.
+Gli Sprint permettono il raggiungimento dei risultati desiderati garantendo Ispezione e Adattamento dei progressi verso lo Sprint Goal almeno ogni quattro settimane. Se si sceglie una durata dello Sprint troppo lunga, lo Sprint Goal potrebbe diventare obsoleto, aumentando complessità (30-35) ed rischio. Sprint di durata più breve spesso generano un numero maggiore di cicli di apprendimento e potrebbero anche contribuire a limitare il rischio.
 
-Shorter Sprints usually require improved capabilities (e.g., refining, vertical slicing, technical domain, business domain). Context matters and the Scrum Team strives to strike the right balance.
+Gli Sprint più brevi richiedono solitamente capacità superiori e consolidate (ad esempio, affinamento, slicing verticale, migliore dominio degli aspetti tecnici, dominio aziendale). Dato che adattarsi al contesto è importante, il Team Team Scrum si impegna a trovare pragmaticamente il giusto equilibrio.
 
-Various complementary practices exist to assess or forecast progress, like burn-downs, burn-ups, flow analytics, Monte Carlo probabilistic forecasts, large effort estimation, fuzzy sets (110), etc. While useful, these do not replace the importance of empiricism (67). In complex (30-35) environments, what has already happened may be used for forward-looking decision-making, but what will happen is unknown.
+Esistono diverse pratiche complementari per valutare o prevedere (forecast) i progressi, come grafici burn-down o burn-up, analisi del Flow, previsioni probabilistiche basate su simulazioni Monte Carlo, stime di ampio impatto (large effort estimation), fuzzy sets (110), ecc.
+Sebbene utili, queste pratiche o tecniche non possono mai sostituire l'importanza dell'Empirismo (67). Infatti negli ambiti  definiti “complessi” (30-35), ciò che è già accaduto può essere utilizzato per processi decisionali lungimiranti, ma deve esserci piena consapevolezza che quanto accadrà in futuro è comunque sempre sconosciuto.
 
-You could think about a Sprint as a mini project with a clear outcome, determinate length and understood costs. However, the various work activities happen in parallel and not in a sequential defined linear way.
+Sebbene si potrebbe pensare a uno Sprint come a un “mini progetto” con un risultato atteso, durata e costi definiti, in Scrum le varie attività di lavoro si svolgono in parallelo e non in modo sequenziale e lineare.
 
-A Sprint could be canceled if the Sprint Goal becomes obsolete. Only the Product Owner has the authority to cancel the Sprint. Shorter Sprints lower the likelihood of a cancellation.
+Qualora lo Sprint Goal diventasse obsoleto, lo Sprint può essere annullato e solamente il Product Owner ha l'autorità per farlo. Sprint più brevi aiutano a ridurre la probabilità di annullamento.
 
-### Sprint Planning {#sprint-planning}
+### Sprint Planning {#Sprint_Planning}
 
-Sprint Planning is an event. This first event of the Sprint is where the Scrum Team gives _Focus_ and creates commitment.
+Lo Sprint Planning è un evento. Essendo il primo evento dello Sprint è il momento in cui il Team Scrum si concentra su _Focalizzazione_ (Focus) e _Impegno_ (Commitment).
 
-During Sprint Planning, the more strategic Product Goal (the _why_ for the Product Backlog) is considered and provides direction. In doing so, the Product Developers create the Sprint Backlog, which consists of the short-term, more tactical Sprint Goal (the _why_ for the Sprint), the initially identified work, and the plan to deliver.
+Durante lo Sprint Planning, il Product Goal strategico (il _perché_ del Product Backlog) viene considerato e fornisce la direzione da seguire. In questo modo, i Developers del Prodotto creano lo Sprint Backlog, che consiste nell'obiettivo di breve termine, più tattico (il _perché_ dello Sprint), nel lavoro inizialmente identificato e nello Sprint Plan, o piano di consegna.
 
-Sprint Planning addresses the following topics:
+Lo Sprint Planning affronta i seguenti argomenti:
 
-#### The _Why_ for the Sprint {#the-why-for-the-sprint}
+#### Il _perché_ dello Sprint {#il-perché-dello-sprint}
 
-The Product Owner proposes ideas for how the Product could increase its value and utility in the current Sprint. The Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to Stakeholders toward the Product Goal. The Sprint Goal must be finalized by the end of Sprint Planning.
+Il Product Owner propone idee su come il Prodotto potrebbe aumentare il valore erogato e la sua utilità nello Sprint appena iniziato. Il Team Scrum collabora quindi per definire uno Sprint Goal che comunichi perché lo Sprint è prezioso per gli Stakeholder in relazione al Product Goal. Lo Sprint Goal deve essere finalizzato entro la fine dello Sprint Planning.
 
-#### The _What_ toward the _Why_ {#the-what-toward-the-why}
+#### Il _Cosa_ verso il _Perché_ {#il-cosa-verso-il-perché}
 
-Through collaboration with the Product Owner, the Product Developers select items from the Product Backlog to include in the current Sprint. The Scrum Team may refine these items, which increases understanding and confidence. Selected items should be achievable according to the standard of the Definition of Output Done, alongside other items.
+In stretta collaborazione con il Product Owner, i Developers selezionano gli elementi dal Product Backlog da includere nello Sprint in corso. Il Team Scrum può perfezionare questi elementi, aumentandone la comprensione e la sicurezza. Gli elementi selezionati devono essere realizzabili secondo gli standard concordati nella Definizione di Output Done, insieme ad altri elementi.
 
-Selecting how much can be completed within a Sprint may be challenging. However, the more the Product Developers know about their past performance, vertical slicing, upcoming capacity, and the Definition of Output Done, the more confident they will be in their ability to forecast Sprint outcomes.
+Stabilire quanto può essere completato in uno Sprint può essere decisamente difficile. Tuttavia, più i Developers conoscono le performance passate, adottano il vertical slicing, la capacità futura e affinano la Definizione di Output Done, maggiore sarà la loro confidenza nella previsione dei risultati dello Sprint.
 
-Successful Scrum Teams do not overload themselves. In fact, they plan to finish work early, sometimes using a buffer for unexpected events (85). This helps the Scrum Team to stay focused, improve quality, and satisfy Stakeholders by delivering value sooner. Chronic overload or sudden shifts can cause excessive negative stress, which Jeff Sutherland calls 'Bayesian surprise.' They can disrupt the Scrum Team’s psychological flow (70) and performance. Clear communication, professional handling of emergence (71), and small, regular changes help prevent this, so Scrum Teams should aim for early delivery.
+I Team Scrum di successo evitano di sovraccaricarsi. Anzi, pianificano di terminare il lavoro in anticipo, considerando a volte un margine di manovra (buffer) per eventi imprevisti (85). Questo aiuta il Team Scrum a rimanere concentrato, migliorare la qualità e soddisfare gli Stakeholder offrendo valore in tempi più rapidi. Sovraccarichi cronici o cambiamenti improvvisi possono causare un eccessivo stress negativo, che Jeff Sutherland definisce "sorpresa Bayesiana". Possono compromettere il flusso psicologico (70) e le prestazioni del Team Scrum. Una comunicazione chiara, una gestione professionale del lavoro emergente (71) e piccoli cambiamenti regolari aiutano a prevenire questo problema, quindi i Team Scrum dovrebbero puntare a una consegna anticipata.
 
-#### The _How_ for the _What_ {#the-how-for-the-what}
+#### Il _Come_ per il _Cosa_ {#il-come-per-il-cosa}
 
-How the work is done is at the sole discretion of the Product Developers. No one else tells the Product Developers how to do their work. The Product Developers select their own work; no one else assigns or pushes Product Backlog Items to the Product Developers, not even the Product Owner.
+Le modalità di esecuzione del lavoro sono a esclusiva discrezione dei Developers. Nessun altro spiega ai Developers come svolgere il proprio lavoro. I Developers selezionano autonomamente il proprio lavoro; nessun altro assegna o inoltra elementi del Product Backlog ai  Developers, nemmeno il Product Owner.
 
-Sprint Planning is timeboxed to a maximum of eight hours for a four-week Sprint. The event is usually shorter for shorter Sprints. Context matters. But as a rule of thumb, do enough planning to get started with the work, e.g., plan a few Product Backlog Items toward the Sprint Goal.
+Lo Sprint Planning è limitato a un massimo di otto ore per uno Sprint della durata di quattro settimane. L'evento è solitamente più breve Per Sprint più brevi. Il contesto è fondamentale, ma come regola generale è consigliabile pianificare attività sufficienti per iniziare il lavoro, ad esempio iniziando a pianificare solo alcuni elementi del Product Backlog, inizialmente utili per raggiungere lo Sprint Goal.
 
-### Daily Scrum {#daily-scrum}
+### Daily Scrum {#daily_scrums}
 
-The Daily Scrum is an event. At the Daily Scrum, the Product Developers collaborate on progress toward the Sprint Goal and update the actionable plan, the Sprint Backlog, until the next Daily Scrum. In the event the Sprint Goal has already been achieved, the Product Developers collaborate on meaningful progress toward the Product Goal.
+Il Daily Scrum è un evento. Durante il Daily Scrum, I Developers collaborano per raggiungere lo Sprint Goal e aggiornano il loro piano d'azione - rappresentato dallo Sprint Backlog - fino al Daily Scrum successivo. Nel caso in cui lo Sprint Goal sia già stato raggiunto, i Developers collaborano per raggiungere altri progressi significativi aggiuntivi verso Product Goal.
 
-The Daily Scrum provides _Focus_, cohesion, and urgency and fosters self-management (49). Usually, only the Product Developers participate. To simplify, it often uses the same meeting cadence, place, and time.
+Il Daily Scrum fornisce _Focalizzazione_ (Focus), coesione e urgenza e promuove l'autogestione (49). Di solito, è necessaria la partecipazione dei soli Developers. Per mantenere le cose semplici, per il Daily Scrum si preferisce mantenere cadenza, luogo e orario delle riunioni.
 
-The Product Developers can select whatever structure and techniques they want. Daily Scrums improve communication towards attaining the Sprint Goal, identify and address risks and impediments, promote quick decision-making, and consequently eliminate the need for other meetings.
+I Developers possono scegliere la struttura e le tecniche che preferiscono. I Daily Scrum migliorano la comunicazione per raggiungere lo Sprint Goal, identificano e affrontano rischi e ostacoli tempestivamente, promuovono un processo decisionale rapido, eliminando di conseguenza la necessità di altre riunioni.
 
-The Daily Scrum is not the only time the Product Developers adjust their plan for the Sprint within the context of the Sprint Goal or Product Goal. Product Developers often meet throughout the day for more detailed discussions.
+Il Daily Scrum non è l'unico momento in cui I Developers modificano il loro piano per lo Sprint nel contesto dello Sprint Goal o del Product Goal. I Developers si incontrano spesso durante il giorno per discussioni più approfondite.
 
-To enable the flow of value (68,69) and enable potential outcomes sooner, the Product Developers should focus on one item or a few items at a time and meet the Definition of Output Done, before starting to work on other items. The Product Developers can achieve this by focusing, having fewer items in progress, and proactively finishing work over starting new work. The Product Developers monitor idle work, not idle people.
+Per favorire il Flusso del Valore (68,69) e ottenere risultati potenziali in tempi più rapidi, i Developers dovrebbero concentrarsi su uno o più elementi alla volta e soddisfare la Definizione di Output Done, prima di iniziare a lavorare su altri elementi. I Developers possono raggiungere questo obiettivo aumentando la Focalizzazione, riducendo il numero di processi in corso e preferendo terminare il lavoro in svolgimento anziché aggiungerne di nuovi. I Developers tengono sotto controllo il lavoro inattivo e non le persone inattive.
 
-The Daily Scrum is timeboxed to a maximum of fifteen minutes per day; it may be shorter.
+La durata massima del Daily Scrum è di quindici minuti al giorno ma può essere anche più breve, se ugualmente efficace.
 
 ### Sprint Review {#sprint-review}
 
-The Sprint Review is an event. It is an interactive, collaborative working session. Often, the Scrum Team shares the current Product Goal and presents the Definition of Output Done and the Definition of Outcome Done to the Stakeholders. The Scrum Team shares the results of their work, what trade-offs were made, and how much progress was made toward the Product Goal (the why behind the work). If available, current and up-to-date measures of progress toward the Definition of Outcome Done are shared and considered.
+La Sprint Review (Revisione dello Sprint) è un evento. È una sessione di lavoro interattiva e collaborativa. Spesso, il Team Scrum condivide il Product Goal corrente e presenta la Definizione di Output Done e la Definizione di Outcome Done agli Stakeholder. il Team Scrum condivide i risultati del proprio lavoro, i compromessi raggiunti e i progressi ottenuti verso Product Goal (il _perché_ del lavoro). Qualora siano disponibili, vengono anche condivise e considerate le correnti metriche e/o misurazioni dei progressi verso la Definizione di Outcome ed eventualmente aggiornate.
 
-The Sprint Review inspects many things related to the Product, such as the Product Goal, Product Backlog, the Sprint Goal, the learnings, the Increment, Stakeholder expectations and limits, result feedback, side effects, progress with the Product, the market, as well as forward-looking, e.g., what new ideas and opportunities have emerged, potential next steps.
+La Sprint Review esamina molti aspetti correlati al Prodotto, come Product Goal, il Product Backlog, lo Sprint Goal, quanto appreso durante il lavoro, l'incremento, le aspettative e i limiti degli Stakeholder come parti interessate, il feedback sui risultati, gli effetti collaterali, i progressi del Prodotto, la situazione del Mercato di riferimento, nonché aspetti lungimiranti, ad esempio quali nuove idee e opportunità sono emerse durante lo Sprint e i potenziali passi successivi.
 
-Informed by what is learned:
+Informati da quanto appreso, i partecipanti:
 
-- Participants sense, listen, learn, and collaborate on what to potentially do next;
-- The Product Backlog (the what)is adapted and possibly the Product Goal, ideally supported by evidence or observations and guided by the Product Goal or optional Product Vision; and,
-- Participants adapt the Product’s Definition of Outcome Done for future Sprints.
+- percepiscono, ascoltano, imparano e collaborano su cosa potenzialmente fare in seguito;
+- adattano Il Product Backlog (il _cosa_) e possibilmente anche il Product Goal idealmente supportato da prove o osservazioni e guidato dal Product Goal o dalla eventuale Product Vision; e,
+- adattano la Definition di Outcome Done  del prodotto per gli Sprint futuri.
 
-It’s always important to consider Stakeholders and what they value, including inanimate, non-human Stakeholders such as the law.
+Durante la Sprint Review è opportuno considerare attentamente ciò che viene ritenuto importante da tutti soggetti coinvolti o le parti interessate, comprese quelle inanimate o non umane come, ad esempio, la Legislazione vigente.
 
-Incomplete Product Backlog Items return to the Product Backlog for future consideration and are not presented; sometimes, they are moved into the next Sprint.
+Eventuali elementi incompleti del Product Backlog ritornano a far parte del Product Backlog per una eventuale valutazione futura e non vengono presentati durante la Sprint Review; talvolta, vengono spostati direttamente nello Sprint successivo (come parte dello Sprint Goal, ndt).
 
-The Sprint Review is the second-to-last event of the Sprint and is timeboxed to a maximum of four hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
+La Sprint Review è il penultimo evento dello Sprint e ha una durata massima di quattro ore per uno Sprint di quattro settimane; per Sprint più brevi, l'evento è solitamente più breve.
 
-### Sprint Retrospective {#sprint-retrospective}
+### Sprint Retrospective {#Sprint-Retrospective}
 
-The Sprint Retrospective is an event. At this event, the Scrum Team agrees on how to improve. Bad assumptions are also explored, i.e., assumptions that led the Scrum Team in the wrong direction. Good things like particular technologies, processes, patterns, etc., might also be pointed out or reinforced. Inspected elements often vary with the domain of work. Reflection is more effective in a psychologically safe environment.
+La Sprint Retrospective (o Retrospettiva) è un evento. In questo evento, il Team Scrum concorda su come migliorarsi. Vengono inoltre esplorate i presupposti errati, ovvero quelli che possono aver portato il Team Scrum nella direzione sbagliata. Aspetti positivi come tecnologie, processi, elementi ricorrenti, ecc. possono essere evidenziati o rafforzati. Gli aspetti sottoposti ad ispezione e analisi variano spesso a seconda del settore di lavoro. Il processo retrospettivo diventa più efficace in presenza di un ambiente psicologicamente sicuro.
 
-The Sprint Retrospective focuses on the most helpful changes to improve, such as:
+La Sprint Retrospective si concentra sui possibili cambiamenti, che possono generare miglioramenti riguardo:
 
-- The Increment
-- Outcomes
-- Professionalism, e.g., skills, technical practices, tooling, ability to innovate;
-- Flow of validated value (68,69), e.g., end-to-end flow metrics, time-to-market;
-- Effectiveness (the _how_), e.g., technology, processes, dependencies;
-- Interactions and Scrum Team dynamics, e.g., collaboration, working arrangements;
-- Information radiators, e.g., product wall, metrics;
-- The Definition of Output Done for future Sprints;
-- Further adaptations to the Definition of Outcome Done for future Sprints;
-- How to automatically attain the measures regarding the Definition of Outcome Done;
-- And more.
+- Incremento (come risultato dello Sprint)
+- Outcomes (Risultati tangibili)
+- Professionalità del team, ad esempio competenze, pratiche tecniche, strumenti, capacità di innovare;
+- Flusso di valore convalidato (68,69), ad esempio, end-to-end Flow Metrics (misurazione efficienza del flusso completo), time-to-market;
+- Efficacia (il _come_), ad esempio tecnologia, processi, vincoli e dipendenze;
+- Interazioni e dinamiche del team Scrum, ad esempio collaborazione, accordi di lavoro;
+- Radiatori di informazione come ad esempio Board, Product Wall o metriche;
+- La definizione dell'output realizzato per gli Sprint futuri;
+- Ulteriori adattamenti alla Definition of Output Done per gli Sprint futuri;
+- Come conseguire automaticamente le metriche relative alla Definition of Output Done;
+- e altro ancora.
 
-The most impactful improvements should be addressed as soon as possible. The Scrum Team should not just talk about improvement; Scrum depends on meaningful, continuous improvement follow-through. Some improvement actions rely on the assistance of Supporters, but that does not mean the Scrum Team should not strive for net improvement regardless (such as continual marginal gains).
+I miglioramenti più significativi dovrebbero essere affrontati il prima possibile. il Team Scrum non dovrebbe limitarsi a discutere solamente degli eventuali miglioramenti; Scrum si basa su un miglioramento continuo e significativo. Anche se alcune azioni di miglioramento potrebbero basarsi sul supporto degli Stakeholder di tipo Supporter, ciò non significa che il Team Scrum non debba comunque impegnarsi autonomamente per ottenere miglioramenti netto (come ad esempio continui progressi marginali).
 
-The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
+La Sprint Retrospective conclude lo Sprint. Ha una durata massima di tre ore per uno Sprint di quattro settimane; per Sprint più brevi, l'evento è solitamente più breve.
 
 ## Multi-Scrum-Team Products {#multi-scrum-team-products}
 
