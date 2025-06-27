@@ -128,11 +128,11 @@ I Team Scrum auto-gestiti organizzati intorno al valore sono fondamentali per la
 
 ### Professionalità {#professionalism}
 
-Professionalism is about striving for excellence and working together to deliver value in a respectful, transparent, and accountable way. Being professional means that one will always do certain things and others never, regardless of the circumstances.
+Professionalità significa puntare all’eccellenza e lavorare assieme per rilasciare valore in modo rispettoso, trasparente e responsabile. Essere professionali significa fare sempre certe cose e non farne mai altre, a prescindere dalle circostanze.
 
-Being Professional means taking full accountability for the Product, from the cradle to the grave, throughout its entire life cycle. Being professional includes maintenance, often in the form of operations, and provides excellent engineering result feedback learning opportunities for the Product Developers.
+Essere professionali significa assumersi la piena responsabilità del Prodotto, dalla culla alla tomba, lungo tutto il suo ciclo di vita. Essere professionale include la manutenzione, spesso sotto forma di operazioni, e offre eccellenti opportunità di apprendimento dei feedback dei risultati ingegneristici per i Product Developer.
 
-In a software development context, professionalism includes but is not limited to technical excellence (112). Technical excellence encompasses but is not limited to, the following: Specification by Example, Clean Code, Unit Testing, Test-Driven Development, Test Automation, Continuous Integration, Continuous Delivery, Architecture and Design, Acceptance Testing, and purposeful and intentional consideration of testing.
+Nel contesto dello sviluppo software, la professionalità include ma non è limitata all’eccellenza tecnica (112). L’eccellenza tecnica comprende, ma non è limitata a, le seguenti: Specification by Example, Clean Code, Test Unitari, Test-Driven Development, Test Automatici, Continuous Integration, Continuous Delivery, Architettura e Design, Test di Accettazione, e una considerazione intenzionale e mirata del testing
 
 ### Lean Thinking {#lean-thinking}
 
