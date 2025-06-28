@@ -26,6 +26,7 @@ languages:
   tlh:
     languageName: Klingon
     weight: 2
+    disabled: true
     languageCode: "tlh"
     languageDirection: "ltr"
     title: pOlonyuS puqloD
@@ -50,6 +51,7 @@ params:
   siteProdUrl: "https://scrumexpansion.org"
   supportEmail: "support@scrumexpansion.org"
   githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"
+  previewSiteUrl: "https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/"
 
 # Enable sitemap and robots.txt
 sitemap:
@@ -64,7 +66,7 @@ rss:
   description: "Subscribe to our RSS feed"
 
 outputs:
-  home: [html, json, rss]
+  home: [html, json, rss, languages]
   section: [html, rss]
   taxonomy: [html, rss]
   term: [html, rss]
@@ -74,6 +76,10 @@ outputFormats:
   json:
     mediaType: "application/json"
     baseName: "pages"
+  languages:
+    mediaType: "application/json"
+    baseName: "languages"
+    isPlainText: true
 
 markup:
   goldmark:
