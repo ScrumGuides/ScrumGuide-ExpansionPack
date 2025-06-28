@@ -9,18 +9,21 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 
 ## Quick Navigation
 
-- [🚀 Getting Started](./getting-started.md)
-- [🤝 Contributing Guidelines](./contributing.md)
-- [📝 Content Management](./content-management.md)
+- [Getting Started](./getting-started.md)
+- [Contributing Guidelines](./contributing.md)
+- [Content Management](./content-management.md)
 
 ### Technical Documentation
 
-- [🏗️ Architecture Overview](./architecture.md)
-- [🛠️ Development Guide](./development.md)
-- [🌐 Deployment Guide](./deployment.md)
-- [🔧 Configuration Reference](./configuration.md)
-- [⚙️ Maintainer Guide](./maintainer-guide.md)
-- [❓ Troubleshooting](./troubleshooting.md)
+- [Architecture Overview](./architecture.md)
+- [Development Guide](./development.md)
+- [Deployment Guide](./deployment.md)
+- [Configuration Reference](./configuration.md)
+- [Maintainer Guide](./maintainer-guide.md)
+- [Translation Guide](./translations.md)
+- [Troubleshooting](./troubleshooting.md)
+
+> **🚨 Important**: This project uses Hugo's new template system (v0.146.0+). See the [Development Guide](./development.md) for details about template structure and migration.
 
 ## Project Overview
 
