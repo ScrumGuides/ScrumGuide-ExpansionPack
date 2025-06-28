@@ -234,21 +234,23 @@
         <div class="mb-4">
           {{- $communityTranslations := partial "functions/get-translations.html" (dict "type" "community" "Site" .Site) }}
           {{- range $communityTranslations }}
+            {{- $basePage := .Site.GetPage "guide" }}
+            {{- $translationPage := $basePage.GetPage (printf "/%s/guide" .Language.Lang) | default $basePage }}
             <!-- Mobile Card -->
             <div class="card mb-3 d-md-none">
               <div class="card-body">
                 <h6 class="card-title mb-2">
                   {{ .Language.LanguageName }}
-                  {{- if .Date }}
-                    ({{ .Date.Format "January 2006" }})
+                  {{- if $translationPage.Date }}
+                    ({{ $translationPage.Date.Format "January 2006" }})
                   {{- else }}
                     ({{ $guidePage.Date.Format "January 2006" }})
                   {{- end }}
                 </h6>
                 <p class="card-text text-muted mb-3">
                   <small>{{ i18n "download_table_translations_by" . }}:</small><br />
-                  {{- if .Params.contributors }}
-                    {{- range $index, $contributor := .Params.contributors }}
+                  {{- if $translationPage.Params.contributors }}
+                    {{- range $index, $contributor := $translationPage.Params.contributors }}
                       {{- if $index }},{{ end }}
                       {{- if $contributor.link }}
                         <a href="{{ $contributor.link }}" target="_blank" rel="noopener" class="text-decoration-none">
@@ -265,12 +267,12 @@
                 </p>
                 <div class="d-flex gap-2 flex-wrap">
                   <!-- Online Reading Link -->
-                  <a href="{{ .Permalink }}" class="btn btn-outline-secondary btn-sm">
+                  <a href="{{ $translationPage.Permalink }}" class="btn btn-outline-secondary btn-sm">
                     <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
                   </a>
                   <!-- PDF Download Link -->
                   {{- $pdfPattern := printf "pdf/*.%s.pdf" .Language.Lang }}
-                  {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
+                  {{- $pdfResource := $translationPage.Resources.GetMatch $pdfPattern }}
                   {{- if $pdfResource }}
                     <a
                       href="{{ $pdfResource.RelPermalink }}"
@@ -295,15 +297,15 @@
             <div class="row d-none d-md-flex align-items-center py-3 border-bottom">
               <div class="col-md-4">
                 {{ .Language.LanguageName }}
-                {{- if .Date }}
-                  ({{ .Date.Format "January 2006" }})
+                {{- if $translationPage.Date }}
+                  ({{ $translationPage.Date.Format "January 2006" }})
                 {{- else }}
                   ({{ $guidePage.Date.Format "January 2006" }})
                 {{- end }}
               </div>
               <div class="col-md-4">
-                {{- if .Params.contributors }}
-                  {{- range $index, $contributor := .Params.contributors }}
+                {{- if $translationPage.Params.contributors }}
+                  {{- range $index, $contributor := $translationPage.Params.contributors }}
                     {{- if $index }},{{ end }}
                     {{- if $contributor.link }}
                       <a href="{{ $contributor.link }}" target="_blank" rel="noopener" class="text-decoration-none">
@@ -321,12 +323,12 @@
               <div class="col-md-4">
                 <div class="d-flex gap-2">
                   <!-- Online Reading Link -->
-                  <a href="{{ .Permalink }}" class="btn btn-outline-secondary btn-sm">
+                  <a href="{{ $translationPage.Permalink }}" class="btn btn-outline-secondary btn-sm">
                     <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" . }}
                   </a>
                   <!-- PDF Download Link -->
                   {{- $pdfPattern := printf "pdf/*.%s.pdf" .Language.Lang }}
-                  {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
+                  {{- $pdfResource := $translationPage.Resources.GetMatch $pdfPattern }}
                   {{- if $pdfResource }}
                     <a
                       href="{{ $pdfResource.RelPermalink }}"
@@ -406,7 +408,11 @@
                   <h6 class="card-title mb-2">{{ .name }}</h6>
                   <p class="card-text mb-3">
                     <span class="badge bg-warning text-dark">
-                      <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" . | default "In Preview" }}
+                      {{ if eq .status "reference" }}
+                        <i class="fa-solid fa-book-reader me-1"></i>{{ i18n "download_reference_status" . | default "Reference" }}
+                      {{ else }}
+                        <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" . | default "In Preview" }}
+                      {{- end }}
                     </span>
                   </p>
                   <div class="d-flex gap-2 flex-wrap">
@@ -429,7 +435,11 @@
                 <div class="col-md-4">{{ .name }}</div>
                 <div class="col-md-4">
                   <span class="badge bg-warning text-dark">
-                    <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" . | default "In Preview" }}
+                    {{ if eq .status "reference" }}
+                      <i class="fa-solid fa-book-reader me-1"></i>{{ i18n "download_reference_status" . | default "Reference" }}
+                    {{ else }}
+                      <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" . | default "In Preview" }}
+                    {{- end }}
                   </span>
                 </div>
                 <div class="col-md-4">
