@@ -221,7 +221,7 @@
 
             {{- $previewOnlyLanguages := slice }}
             {{- range $previewLanguagesData.languages }}
-              {{- if not (in $currentLanguageCodes .code) }}
+              {{- if and (not (in $currentLanguageCodes .code)) (ne .status "reference") }}
                 {{- $previewOnlyLanguages = $previewOnlyLanguages | append . }}
               {{- end }}
             {{- end }}
