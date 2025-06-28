@@ -37,7 +37,7 @@ hugo env
 # Check current Hugo version
 hugo version
 
-# Required: Hugo Extended v0.120.0 or higher
+# Required: Hugo Extended v0.146.0 or higher (for new template system)
 # Upgrade if necessary
 choco upgrade hugo-extended
 ```

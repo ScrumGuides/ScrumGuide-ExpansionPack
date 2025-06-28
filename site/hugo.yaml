@@ -24,13 +24,14 @@ languages:
       description: "ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy."
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site"
   tlh:
-    languageName: Klingon
+    languageName: Klingon (reference)
     weight: 1000
     languageCode: "tlh"
     languageDirection: "ltr"
     title: pOlonyuS puqloD
     params:
       description: pOlonyuS puqloD
+      status: "reference"
       keywords: Yach
   fa:
     languageName: فارسی
@@ -69,6 +70,7 @@ params:
   supportEmail: "support@scrumexpansion.org"
   githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"
   previewSiteUrl: "https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/"
+  productionSiteUrl: "https://scrumexpansion.org/"
 
 # Enable sitemap and robots.txt
 sitemap:
