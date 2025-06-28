@@ -8,6 +8,4 @@ disableAliases: true
 
 languages:
   tlh:
-    disabled: false
-  fa:
-    disabled: false
+    disabled: true
