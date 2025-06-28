@@ -45,9 +45,12 @@ languages:
     languageName: Polish
     weight: 3
     title: Pakiet Rozszerzeń Przewodnika po Scrumie
+    title: Scrum Guide Expansion Pack
     params:
       description: ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
       keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Pakiet rozszerzeń Przewodnika po Scrumie
+      description: ScrumExpansion.org udostępnia - aktualne wytyczne do wykorzystania Scruma w złożonej pracy, sztucznej inteligencji i adaptacyjnych strategiach.
+      keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, wytyczne Scrum, zaawansowane praktyki Scrum, Scrum dla nowoczesnej pracy, adaptacyjne przedsiębiorstwo, zwinne dostarczanie produktów, empiryczny Scrum, myślenie produktowe, teoria złożoności w Scrum, przywództwo Scrum, profesjonalny Scrum, Scrum i AI, zasoby Scrum, centrum nauki Scrum, strona społeczności Scrum"
 
 # Site-wide parameters
 params:
