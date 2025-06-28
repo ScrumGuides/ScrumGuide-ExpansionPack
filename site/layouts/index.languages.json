@@ -8,7 +8,8 @@
         "name": "{{ $langConfig.LanguageName }}",
         "weight": {{ $langConfig.Weight | default 1 }},
         "title": "{{ $langConfig.Title }}",
-        "nativeName": "{{ $langConfig.LanguageName }}"
+        "nativeName": "{{ $langConfig.LanguageName }}",
+        "discussionId": {{ $langConfig.Params.discussionId | default 124 }}
       }
       {{- $first = false -}}
     {{- end -}}
