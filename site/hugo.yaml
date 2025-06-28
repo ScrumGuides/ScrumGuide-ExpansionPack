@@ -25,8 +25,7 @@ languages:
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site"
   tlh:
     languageName: Klingon
-    weight: 2
-    disabled: true
+    weight: 1000
     languageCode: "tlh"
     languageDirection: "ltr"
     title: pOlonyuS puqloD
@@ -43,6 +42,15 @@ languages:
       description: "ScrumExpansion.org میزبان بسته گسترش‌یافته راهنمای اسکرام است — راهنمایی مدرن برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی و راهبردهای تطبیقی."
       keywords: "اسکرام، ScrumExpansion.org، بسته گسترش‌یافته راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته اسکرام، اسکرام برای کار مدرن، سازمان تطبیق‌پذیر، تحویل چابک محصول، اسکرام تجربی، تفکر محصول، نظریه پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه اسکرام"
       discussionId: 61
+  nl:
+    languageName: Nederlands
+    weight: 3
+    languageCode: "nl"
+    title: Scrum Guide Expansion Pack
+    params:
+      description: "ScrumExpansion.org is de thuisbasis van het Scrum Gids Uitbreidingspakket — moderne richtlijnen voor het toepassen van Scrum op complexe werkzaamheden, AI en adaptieve strategie."
+      keywords: "Scrum, ScrumExpansion.org, Scrum Gids Uitbreidingspakket, Scrum richtlijnen, geavanceerde Scrum praktijken, Scrum voor modern werk, adaptieve onderneming, agile productlevering, empirische Scrum, productdenken, complexiteitstheorie in Scrum, Scrum leiderschap, professioneel Scrum, Scrum en AI, Scrum bronnen, Scrum leerhub, Scrum gemeenschapssite"
+      discussionId: 125
 
 # Site-wide parameters
 params:
