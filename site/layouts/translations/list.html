@@ -136,6 +136,7 @@
             <tbody>
               {{- $basePage := site.GetPage "guide" }}
               {{- range $basePage.AllTranslations }}
+                {{- if ne .Language.Lang "en" }}
                 <tr>
                   <td>
                     {{ .Language.LanguageName }}
@@ -190,6 +191,7 @@
                     </div>
                   </td>
                 </tr>
+                {{- end }}
               {{- end }}
               <!-- Add Translation Row -->
               <tr class="table-light">
@@ -203,6 +205,79 @@
             </tbody>
           </table>
         </div>
+
+        <!-- Preview Translations -->
+        {{- $previewLanguagesUrl := printf "%slanguages.json" .Site.Params.previewSiteUrl }}
+        {{- $previewLanguagesResponse := resources.GetRemote $previewLanguagesUrl }}
+        {{- if $previewLanguagesResponse }}
+          {{- $previewLanguagesData := $previewLanguagesResponse | transform.Unmarshal }}
+          {{- if $previewLanguagesData.languages }}
+            {{- $currentLanguageCodes := slice }}
+            {{- $basePage := site.GetPage "guide" }}
+            {{- range $basePage.AllTranslations }}
+              {{- $currentLanguageCodes = $currentLanguageCodes | append .Language.Lang }}
+            {{- end }}
+            {{- $currentLanguageCodes = $currentLanguageCodes | append .Site.Language.Lang }}
+
+            {{- $previewOnlyLanguages := slice }}
+            {{- range $previewLanguagesData.languages }}
+              {{- if not (in $currentLanguageCodes .code) }}
+                {{- $previewOnlyLanguages = $previewOnlyLanguages | append . }}
+              {{- end }}
+            {{- end }}
+
+            {{- if gt (len $previewOnlyLanguages) 0 }}
+              <h2 class="mb-3">{{ i18n "download_preview_translations" . | default "Preview Translations" }}</h2>
+              <p class="text-muted mb-3">
+                <small>
+                  {{ i18n "download_preview_description" . | default "These translations are available in preview and will be moved to the main site once ready." }}
+                  <a href="{{ .Site.Params.previewSiteUrl }}" target="_blank" rel="noopener" class="text-decoration-none">
+                    {{ i18n "download_visit_preview" . | default "Visit preview site" }}
+                    <i class="fa-solid fa-external-link-alt ms-1"></i>
+                  </a>
+                </small>
+              </p>
+              <div class="table-responsive mb-5">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">{{ i18n "download_table_language" . }}</th>
+                      <th scope="col">{{ i18n "download_table_status" . | default "Status" }}</th>
+                      <th scope="col">{{ i18n "download_table_action" . }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{- range $previewOnlyLanguages }}
+                      <tr>
+                        <td>{{ .name }}</td>
+                        <td>
+                          <span class="badge bg-warning text-dark">
+                            <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" . | default "In Preview" }}
+                          </span>
+                        </td>
+                        <td>
+                          <div class="d-flex gap-2">
+                            <!-- Preview Reading Link -->
+                            <a href="{{ $.Site.Params.previewSiteUrl }}{{ .code }}/" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener">
+                              <i class="fa-solid fa-eye me-1"></i>{{ i18n "download_preview_action" . | default "Preview" }}
+                            </a>
+                            <!-- Discussion Link -->
+                            {{- if .discussionId }}
+                              <a href="{{ $.Site.Params.githubUrl }}/discussions/{{ .discussionId }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+                                <i class="fa-solid fa-comments me-1"></i>{{ i18n "download_discussion_action" . | default "Discussion" }}
+                              </a>
+                            {{- end }}
+                          </div>
+                        </td>
+                      </tr>
+                    {{- end }}
+                  </tbody>
+                </table>
+              </div>
+            {{- end }}
+          {{- end }}
+        {{- end }}
+
       </div>
     </div>
   </section>

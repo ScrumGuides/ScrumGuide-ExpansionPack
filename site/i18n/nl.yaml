@@ -158,3 +158,25 @@
 
 - id: guide_pdf_intro_link
   translation: "Download PDF"
+
+# Preview Translations functionality
+- id: download_preview_translations
+  translation: "Preview Vertalingen"
+
+- id: download_preview_description
+  translation: "Deze vertalingen zijn beschikbaar in preview en worden naar de hoofdsite verplaatst zodra ze klaar zijn."
+
+- id: download_visit_preview
+  translation: "Bezoek preview site"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_preview_status
+  translation: "In Preview"
+
+- id: download_preview_action
+  translation: "Preview"
+
+- id: download_discussion_action
+  translation: "Discussie"
