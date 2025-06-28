@@ -11,3 +11,5 @@ languages:
     disabled: false
   fa:
     disabled: false
+  pl:
+    disabled: false
