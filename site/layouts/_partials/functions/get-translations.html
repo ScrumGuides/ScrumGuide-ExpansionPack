@@ -58,16 +58,16 @@
     {{- $previewLanguagesData := $previewLanguagesResponse | transform.Unmarshal }}
     {{- if $previewLanguagesData.languages }}
       {{- if eq (len $productionLanguageCodes) 0 }}
-        {{/* No production languages, return all preview languages except reference */}}
+        {{/* No production languages, return all preview languages except reference and English */}}
         {{- range $previewLanguagesData.languages }}
-          {{- if ne .status "reference" }}
+          {{- if and (ne .status "reference") (ne .code "en") }}
             {{- $translations = $translations | append . }}
           {{- end }}
         {{- end }}
       {{- else }}
-        {{/* Return preview languages that are NOT in production */}}
+        {{/* Return preview languages that are NOT in production and NOT English */}}
         {{- range $previewLanguagesData.languages }}
-          {{- if and (not (in $productionLanguageCodes .code)) (ne .status "reference") }}
+          {{- if and (not (in $productionLanguageCodes .code)) (ne .status "reference") (ne .code "en") }}
             {{- $translations = $translations | append . }}
           {{- end }}
         {{- end }}
