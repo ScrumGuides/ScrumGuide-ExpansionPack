@@ -31,6 +31,7 @@ languages:
     title: pOlonyuS puqloD
     params:
       description: pOlonyuS puqloD
+      status: "reference"
       keywords: Yach
   fa:
     languageName: فارسی
