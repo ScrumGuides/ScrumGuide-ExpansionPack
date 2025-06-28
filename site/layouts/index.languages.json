@@ -9,7 +9,8 @@
         "weight": {{ $langConfig.Weight | default 1 }},
         "title": "{{ $langConfig.Title }}",
         "nativeName": "{{ $langConfig.LanguageName }}",
-        "discussionId": {{ $langConfig.Params.discussionId | default 124 }}
+        "discussionId": {{ $langConfig.Params.discussionId | default 124 }},
+        "status": "{{ $langConfig.Params.status | default "active" }}"
       }
       {{- $first = false -}}
     {{- end -}}
