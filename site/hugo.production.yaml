@@ -7,5 +7,7 @@ languages:
     disabled: true
   fa:
     disabled: true
+  pl:
+    disabled: true
   nl:
     disabled: true
