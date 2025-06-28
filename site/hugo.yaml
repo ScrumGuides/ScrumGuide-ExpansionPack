@@ -61,6 +61,7 @@ params:
   supportEmail: "support@scrumexpansion.org"
   githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"
   previewSiteUrl: "https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/"
+  productionSiteUrl: "https://scrumexpansion.org/"
 
 # Enable sitemap and robots.txt
 sitemap:
