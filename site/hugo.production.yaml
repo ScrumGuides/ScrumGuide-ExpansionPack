@@ -9,3 +9,5 @@ languages:
     disabled: true
   pl:
     disabled: true
+  nl:
+    disabled: true

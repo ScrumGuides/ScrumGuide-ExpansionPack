@@ -4,11 +4,3 @@ minifyOutput: true
 
 buildDrafts: true
 buildFuture: true
-
-languages:
-  tlh:
-    disabled: false
-  fa:
-    disabled: false
-  pl:
-    disabled: false
