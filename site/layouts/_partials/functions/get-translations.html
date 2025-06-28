@@ -10,7 +10,7 @@
 
 {{- if eq $type "community" }}
   {{/* Get production languages */}}
-  {{- $productionLanguagesUrl := printf "%slanguages.json" .Site.Params.productionSiteUrl }}
+  {{- $productionLanguagesUrl := printf "%slanguages.json?v=%d" .Site.Params.productionSiteUrl now.Unix }}
   {{- $productionLanguagesResponse := resources.GetRemote $productionLanguagesUrl }}
   {{- $productionLanguageCodes := slice }}
 
@@ -20,25 +20,28 @@
       {{- range $productionLanguagesData.languages }}
         {{- $productionLanguageCodes = $productionLanguageCodes | append .code }}
       {{- end }}
-    {{- end }}
-  {{- end }}
 
-  {{/* If no production languages found, return empty slice (all will be preview) */}}
-  {{- if eq (len $productionLanguageCodes) 0 }}
-    {{- $translations = slice }}
-  {{- else }}
-    {{/* Return current site translations that are also in production */}}
-    {{- $basePage := site.GetPage "guide" }}
-    {{- range $basePage.AllTranslations }}
-      {{- if and (ne .Language.Lang "en") (in $productionLanguageCodes .Language.Lang) }}
-        {{- $translations = $translations | append . }}
+      {{/* Return production languages except English (and reference only in production environment) */}}
+      {{- range $productionLanguagesData.languages }}
+        {{- $shouldInclude := true }}
+        {{- if eq hugo.Environment "production" }}
+          {{- if eq .status "reference" }}
+            {{- $shouldInclude = false }}
+          {{- end }}
+        {{- end }}
+        {{- if eq .code "en" }}
+          {{- $shouldInclude = false }}
+        {{- end }}
+        {{- if $shouldInclude }}
+          {{- $translations = $translations | append . }}
+        {{- end }}
       {{- end }}
     {{- end }}
   {{- end }}
 
 {{- else if eq $type "preview" }}
   {{/* Get both production and preview languages */}}
-  {{- $productionLanguagesUrl := printf "%slanguages.json" .Site.Params.productionSiteUrl }}
+  {{- $productionLanguagesUrl := printf "%slanguages.json?v=%d" .Site.Params.productionSiteUrl now.Unix }}
   {{- $productionLanguagesResponse := resources.GetRemote $productionLanguagesUrl }}
   {{- $productionLanguageCodes := slice }}
 
@@ -51,23 +54,23 @@
     {{- end }}
   {{- end }}
 
-  {{- $previewLanguagesUrl := printf "%slanguages.json" .Site.Params.previewSiteUrl }}
+  {{- $previewLanguagesUrl := printf "%slanguages.json?v=%d" .Site.Params.previewSiteUrl now.Unix }}
   {{- $previewLanguagesResponse := resources.GetRemote $previewLanguagesUrl }}
 
   {{- if $previewLanguagesResponse }}
     {{- $previewLanguagesData := $previewLanguagesResponse | transform.Unmarshal }}
     {{- if $previewLanguagesData.languages }}
       {{- if eq (len $productionLanguageCodes) 0 }}
-        {{/* No production languages, return all preview languages except reference and English */}}
+        {{/* No production languages, return all preview languages except English and Klingon */}}
         {{- range $previewLanguagesData.languages }}
-          {{- if and (ne .status "reference") (ne .code "en") }}
+          {{- if ne .code "en" }}
             {{- $translations = $translations | append . }}
           {{- end }}
         {{- end }}
       {{- else }}
         {{/* Return preview languages that are NOT in production and NOT English */}}
         {{- range $previewLanguagesData.languages }}
-          {{- if and (not (in $productionLanguageCodes .code)) (ne .status "reference") (ne .code "en") }}
+          {{- if and (not (in $productionLanguageCodes .code)) (ne .code "en") }}
             {{- $translations = $translations | append . }}
           {{- end }}
         {{- end }}
