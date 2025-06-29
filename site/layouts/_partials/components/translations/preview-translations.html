@@ -26,15 +26,9 @@
 
   {{/* Load production languages */}}
   {{- if eq hugo.Environment "production" }}
-    {{/* Load local file in production */}}
-    {{- $productionLanguagesFile := resources.Get "languages.json" }}
-    {{- if $productionLanguagesFile }}
-      {{- $productionLanguagesData = $productionLanguagesFile.Content | transform.Unmarshal }}
-      {{- if $productionLanguagesData.languages }}
-        {{- range $productionLanguagesData.languages }}
-          {{- $productionLanguageCodes = $productionLanguageCodes | append .code }}
-        {{- end }}
-      {{- end }}
+    {{/* Use site's own language configuration in production */}}
+    {{- range .Site.Languages }}
+      {{- $productionLanguageCodes = $productionLanguageCodes | append .LanguageCode }}
     {{- end }}
   {{- else }}
     {{/* Load remote file in other environments */}}
