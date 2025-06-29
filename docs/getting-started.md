@@ -19,7 +19,9 @@ Before you begin, ensure you have the following installed on your system:
    - **macOS**: `brew install hugo` (using Homebrew)
    - **Linux**: `snap install hugo` (using Snap)
    - Verify installation: `hugo version`
-   - **Required version**: Hugo v0.118.0 or higher (Extended version)
+   - **Required version**: Hugo v0.146.0 or higher (Extended version)
+
+   > **⚠️ Important**: This project uses Hugo's new template system introduced in v0.146.0. Earlier versions are not compatible.
 
 3. **PowerShell 7+** - Required for automation scripts
 

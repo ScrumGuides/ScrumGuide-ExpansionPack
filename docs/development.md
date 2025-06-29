@@ -13,11 +13,13 @@ This guide provides detailed information for developers working on the Scrum Gui
 
 Before starting development, ensure you have:
 
-✅ **Hugo Extended** (v0.80+)  
+✅ **Hugo Extended** (v0.146.0+)  
 ✅ **Git** (latest version)  
 ✅ **PowerShell 7+** (required for automation scripts)  
 ✅ **Text Editor/IDE** (VS Code recommended)  
 ✅ **Node.js** (for advanced tooling, optional)
+
+> **⚠️ Important**: This project uses Hugo's new template system introduced in v0.146.0. Earlier Hugo versions are not compatible.
 
 > **📋 Installation Help**: For detailed PowerShell 7+ installation instructions, see the [Getting Started Guide](./getting-started.md#powershell-automation-scripts).
 
@@ -73,10 +75,18 @@ hugo server -D --verbose --debug
 
 ### File Organization
 
-```
+```text
 site/
 ├── content/              # Content files (.md)
-├── layouts/              # Templates (.html)
+├── layouts/              # Templates (.html) - Updated for Hugo v0.146.0+
+│   ├── _partials/       # Reusable template components (renamed from partials/)
+│   ├── _shortcodes/     # Custom shortcodes (renamed from shortcodes/)
+│   ├── _markup/         # Render hooks for markdown elements
+│   ├── baseof.html      # Base template (moved from _default/)
+│   ├── single.html      # Single page template (moved from _default/)
+│   ├── list.html        # List page template (moved from _default/)
+│   ├── home.html        # Homepage template (renamed from index.html)
+│   └── [content-type]/  # Content-specific templates
 ├── static/               # Static assets
 ├── data/                 # Data files (.yaml/.json)
 ├── i18n/                 # Translations (.yaml)
@@ -150,7 +160,18 @@ hugo new content/creators/new-creator/index.md
 
 ## Working with Layouts
 
-### Template Development
+### Template Development (Hugo v0.146.0+ New Template System)
+
+Hugo's new template system uses a simplified structure with enhanced template lookup. The key changes include:
+
+#### Template Structure Changes
+
+- **No more `_default/` folder**: All default templates are now in the root `layouts/` directory
+- **Renamed folders**: `partials/` → `_partials/`, `shortcodes/` → `_shortcodes/`
+- **New `_markup/` folder**: For render hooks (links, images, code blocks, etc.)
+- **Simplified naming**: `index.html` → `home.html`, page-kind-specific templates
+
+#### Template Development
 
 Hugo uses Go templates with the following structure:
 
@@ -163,6 +184,17 @@ Hugo uses Go templates with the following structure:
 {{ end }}
 ```
 
+#### New Template Lookup Order
+
+The new template lookup considers these identifiers in order of importance:
+
+1. **Custom Layout** - Set in front matter (`layout: myCustomLayout`)
+2. **Page Kinds** - `home`, `section`, `taxonomy`, `term`, `page`
+3. **Standard Layouts** - `list`, `single`
+4. **Output Format** - `html`, `rss`, `json`
+5. **Language** - `en`, `de`, `es`, etc.
+6. **Page Path** - Specific content paths
+
 ### Key Template Variables
 
 - `{{ .Title }}` - Page title
@@ -173,10 +205,10 @@ Hugo uses Go templates with the following structure:
 
 ### Partial Templates
 
-Create reusable components in `/layouts/partials/`:
+Create reusable components in `/layouts/_partials/` (note the underscore prefix):
 
 ```html
-<!-- layouts/partials/components/my-component.html -->
+<!-- layouts/_partials/components/my-component.html -->
 <div class="my-component">
   <h2>{{ .title }}</h2>
   <p>{{ .content }}</p>
@@ -187,6 +219,27 @@ Use in templates:
 
 ```html
 {{ partial "components/my-component.html" (dict "title" "My Title" "content" "My content") }}
+```
+
+### Content-Specific Templates
+
+With the new template system, you can organize templates by content path:
+
+```text
+layouts/
+├── baseof.html              # Base template for all pages
+├── home.html                # Homepage template
+├── single.html              # Default single page template
+├── list.html                # Default list page template
+├── guide/                   # Guide-specific templates
+│   ├── single.html         # Guide single page template
+│   └── list.html           # Guide list template
+└── _partials/
+    ├── components/
+    │   ├── navigation.html
+    │   └── language-switcher.html
+    └── functions/
+        └── get-page-param.html
 ```
 
 ## Internationalization (i18n)
@@ -448,6 +501,99 @@ Access in templates:
 </div>
 {{ end }}
 ```
+
+## Hugo Template System Migration (v0.146.0+)
+
+This project has been updated to use Hugo's new template system introduced in v0.146.0. Here's what you need to know:
+
+### Key Changes Summary
+
+| **Old System**        | **New System**         | **Action Required**                   |
+| --------------------- | ---------------------- | ------------------------------------- |
+| `layouts/_default/`   | `layouts/` (root)      | Move all `_default` templates to root |
+| `layouts/partials/`   | `layouts/_partials/`   | Rename folder with underscore prefix  |
+| `layouts/shortcodes/` | `layouts/_shortcodes/` | Rename folder with underscore prefix  |
+| `layouts/index.html`  | `layouts/home.html`    | Rename homepage template              |
+| `list-baseof.html`    | `baseof.list.html`     | Move identifier after first dot       |
+
+### Migration Examples
+
+#### Before (Old Template System)
+
+```text
+layouts/
+├── _default/
+│   ├── baseof.html
+│   ├── single.html
+│   ├── list.html
+│   └── index.html
+├── partials/
+│   └── header.html
+└── shortcodes/
+    └── button.html
+```
+
+#### After (New Template System)
+
+```text
+layouts/
+├── baseof.html          # Moved from _default/
+├── single.html          # Moved from _default/
+├── list.html           # Moved from _default/
+├── home.html           # Renamed from index.html
+├── _partials/          # Renamed from partials/
+│   └── header.html
+└── _shortcodes/        # Renamed from shortcodes/
+    └── button.html
+```
+
+### Template Lookup Changes
+
+The new system uses a more intuitive lookup order:
+
+1. **Custom Layout** - Set in front matter (`layout: custom`)
+2. **Page Kind** - `home`, `section`, `taxonomy`, `term`, `page`
+3. **Standard Layout** - `list`, `single`, `all`
+4. **Output Format** - `html`, `rss`, `json`
+5. **Language** - `en`, `de`, `es`
+6. **Page Path** - Content-specific paths
+
+### Path-Based Templates
+
+You can now organize templates by content structure:
+
+```text
+layouts/
+├── baseof.html              # Global base template
+├── home.html               # Homepage
+├── single.html             # Default single page
+├── guide/                  # Guide-specific templates
+│   ├── single.html        # Override for guide pages
+│   └── list.html          # Override for guide lists
+└── creators/               # Creator-specific templates
+    └── single.html        # Override for creator pages
+```
+
+### Internal Template Changes
+
+Replace internal template calls with partials:
+
+```html
+<!-- Old Way -->
+{{ template "_internal/opengraph.html" . }}
+
+<!-- New Way -->
+{{ partial "opengraph.html" . }}
+```
+
+### Upgrading Notes
+
+1. **Minimum Version**: Hugo Extended v0.146.0 or higher
+2. **Breaking Changes**: Some old template calls may not work
+3. **Testing Required**: Verify all templates render correctly
+4. **Documentation**: Update any custom documentation
+
+For more details, see the [official Hugo template system overview](https://gohugo.io/templates/new-templatesystem-overview/).
 
 ## CI/CD Integration
 

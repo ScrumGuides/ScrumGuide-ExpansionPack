@@ -8,7 +8,7 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 
 ### Core Technologies
 
-- **Hugo** - Static site generator
+- **Hugo** - Static site generator (Extended v0.146.0+ required for new template system)
 - **Go Templates** - Hugo templating engine
 - **Markdown** - Content authoring
 - **YAML** - Configuration and front matter
@@ -47,7 +47,14 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 │   ├── content/               # Markdown content files
 │   ├── data/                  # Data files
 │   ├── i18n/                  # Internationalization files
-│   ├── layouts/               # Hugo templates
+│   ├── layouts/               # Hugo templates (v0.146.0+ structure)
+│   │   ├── baseof.html       # Base template (moved from _default/)
+│   │   ├── home.html         # Homepage (renamed from index.html)
+│   │   ├── single.html       # Single pages (moved from _default/)
+│   │   ├── list.html         # List pages (moved from _default/)
+│   │   ├── _partials/        # Reusable components (renamed from partials/)
+│   │   ├── _shortcodes/      # Custom shortcodes (renamed from shortcodes/)
+│   │   └── _markup/          # Render hooks for markdown elements
 │   ├── static/                # Static assets (CSS, images, etc.)
 │   └── hugo.yaml             # Hugo configuration
 └── staticwebapp.config.*.json # Azure Static Web Apps configs
@@ -68,11 +75,16 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 
 - Templates are located in `site/layouts/`
 - Use Hugo's Go template syntax
-- Follow the existing template hierarchy:
-  - `baseof.html` - Base template
-  - `list.html` - List pages
-  - `single.html` - Single pages
-  - Custom section templates in subdirectories
+- **New Template System (v0.146.0+)**: Updated structure and lookup order
+- Follow the current template hierarchy:
+  - `baseof.html` - Base template (moved from `_default/`)
+  - `home.html` - Homepage template (renamed from `index.html`)
+  - `single.html` - Single pages (moved from `_default/`)
+  - `list.html` - List pages (moved from `_default/`)
+  - `_partials/` - Reusable components (renamed from `partials/`)
+  - `_shortcodes/` - Custom shortcodes (renamed from `shortcodes/`)
+  - `_markup/` - Render hooks for markdown elements (new)
+  - Content-specific templates in subdirectories (enhanced path-based lookup)
 
 #### Configuration
 
@@ -136,7 +148,9 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 ### Hugo Best Practices
 
 - Use Hugo's built-in functions when available
-- Leverage partials for reusable components
+- Leverage partials for reusable components (now in `_partials/`)
+- **Template System**: Follow Hugo v0.146.0+ new template structure and lookup order
+- **Internal Templates**: Replace `{{ template "_internal/..." }}` with `{{ partial "..." }}`
 - Implement proper SEO with meta tags and structured data
 - Use Hugo's image processing for optimization
 - Implement proper caching strategies
@@ -237,7 +251,8 @@ This script automatically:
 
 ### Common Issues
 
-- **Build failures**: Check Hugo version compatibility
+- **Build failures**: Check Hugo version compatibility (v0.146.0+ required)
+- **Template errors**: Verify new template system structure (\_partials/, \_shortcodes/, \_markup/)
 - **Missing assets**: Verify file paths and Hugo's asset pipeline
 - **Internationalization**: Ensure all translation keys exist
 - **Deployment issues**: Check Azure Static Web Apps logs
@@ -254,6 +269,57 @@ hugo --verbose
 
 # Check configuration
 hugo config
+```
+
+## Hugo Template System (v0.146.0+)
+
+This project uses Hugo's new template system introduced in v0.146.0. Key changes to be aware of:
+
+### Template Structure Changes
+
+- **No `_default/` folder**: All default templates are now in the root `layouts/` directory
+- **Renamed folders**: `partials/` → `_partials/`, `shortcodes/` → `_shortcodes/`
+- **New `_markup/` folder**: For render hooks (links, images, code blocks, etc.)
+- **Homepage template**: `index.html` → `home.html`
+
+### Template Lookup Order
+
+The new system considers these identifiers in order of importance:
+
+1. **Custom Layout** - Set in front matter (`layout: myCustomLayout`)
+2. **Page Kinds** - `home`, `section`, `taxonomy`, `term`, `page`
+3. **Standard Layouts** - `list`, `single`, `all`
+4. **Output Format** - `html`, `rss`, `json`
+5. **Language** - `en`, `de`, `es`, etc.
+6. **Page Path** - Content-specific paths for targeted templates
+
+### Path-Based Templates
+
+You can organize templates by content structure:
+
+```text
+layouts/
+├── baseof.html              # Global base template
+├── home.html               # Homepage
+├── single.html             # Default single page
+├── guide/                  # Guide-specific templates
+│   ├── single.html        # Override for guide pages
+│   └── list.html          # Override for guide lists
+└── _partials/              # Reusable components
+    ├── components/
+    └── functions/
+```
+
+### Internal Template Migration
+
+Replace old internal template calls:
+
+```html
+<!-- Old Way -->
+{{ template "_internal/opengraph.html" . }}
+
+<!-- New Way -->
+{{ partial "opengraph.html" . }}
 ```
 
 ## Additional Resources

@@ -1,0 +1,22 @@
+{
+  "languages": [
+    {{- $first := true -}}
+    {{- range $langCode, $langConfig := .Site.Languages -}}
+      {{- if not $first -}},{{- end -}}
+      {
+        "code": "{{ $langConfig.Lang }}",
+        "name": "{{ $langConfig.LanguageName }}",
+        "weight": {{ $langConfig.Weight | default 1 }},
+        "title": "{{ $langConfig.Title }}",
+        "nativeName": "{{ $langConfig.LanguageName }}",
+        "discussionId": {{ $langConfig.Params.discussionId | default 124 }},
+        "status": "{{ $langConfig.Params.status | default "active" }}"
+      }
+      {{- $first = false -}}
+    {{- end -}}
+  ],
+  "defaultLanguage": "{{ .Site.Language.Lang }}",
+  "totalEnabledLanguages": {{ len .Site.Languages }},
+  "generatedAt": "{{ now.Format "2006-01-02T15:04:05Z07:00" }}",
+  "environment": "{{ hugo.Environment }}"
+}
