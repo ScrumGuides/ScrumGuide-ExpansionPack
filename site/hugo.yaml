@@ -51,6 +51,7 @@ languages:
     params:
       description: ScrumExpansion.org udostępnia - aktualne wytyczne do wykorzystania Scruma w złożonej pracy, sztucznej inteligencji i adaptacyjnych strategiach.
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, wytyczne Scrum, zaawansowane praktyki Scrum, Scrum dla nowoczesnej pracy, adaptacyjne przedsiębiorstwo, zwinne dostarczanie produktów, empiryczny Scrum, myślenie produktowe, teoria złożoności w Scrum, przywództwo Scrum, profesjonalny Scrum, Scrum i AI, zasoby Scrum, centrum nauki Scrum, strona społeczności Scrum"
+      discussionId: 131
   nl:
     languageName: Nederlands
     weight: 3

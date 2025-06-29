@@ -1,0 +1,224 @@
+{{- $guidePage := .Site.GetPage (printf "/%s/guide" .Site.Language.Lang) | default (.Site.GetPage "/guide") }}
+<!-- Community Translations -->
+<h2 class="mb-3">{{ i18n "download_community_translations" . }}</h2>
+<p class="text-muted mb-3">
+  <small>
+    * - {{ i18n "download_current_version_released" . }} {{ $guidePage.Date.Format "January 2006" }}.
+    {{ i18n "download_older_translations_notice" . }}
+  </small>
+</p>
+
+{{/* Load production languages to check which ones are in production */}}
+{{- $productionLanguagesData := dict }}
+{{- $productionLanguageCodes := slice }}
+
+{{/* Load production languages.json to determine which languages are in production */}}
+{{- if eq hugo.Environment "production" }}
+  {{- $productionLanguagesFile := resources.Get "languages.json" }}
+  {{- if $productionLanguagesFile }}
+    {{- $productionLanguagesData = $productionLanguagesFile.Content | transform.Unmarshal }}
+  {{- end }}
+{{- else }}
+  {{- $productionLanguagesUrl := printf "%slanguages.json?v=%d" .Site.Params.productionSiteUrl now.Unix }}
+  {{- $productionLanguagesResponse := resources.GetRemote $productionLanguagesUrl }}
+  {{- if $productionLanguagesResponse }}
+    {{- $productionLanguagesData = $productionLanguagesResponse | transform.Unmarshal }}
+  {{- end }}
+{{- end }}
+
+{{/* Build array of production language codes */}}
+{{- if $productionLanguagesData.languages }}
+  {{- range $productionLanguagesData.languages }}
+    {{- $productionLanguageCodes = $productionLanguageCodes | append .code }}
+  {{- end }}
+{{- end }}
+
+
+<!-- Table Headers (visible on larger screens) -->
+<div class="d-none d-md-block mb-3">
+  <div class="row fw-bold text-muted border-bottom pb-2">
+    <div class="col-md-4">{{ i18n "download_table_language" . }}</div>
+    <div class="col-md-4">{{ i18n "download_table_translations_by" . }}</div>
+    <div class="col-md-4">{{ i18n "download_table_action" . }}</div>
+  </div>
+</div>
+
+<!-- Community Translation Cards/Rows -->
+<div class="mb-4">
+  {{- $basePage := site.GetPage "guide" }}
+  {{- range $basePage.AllTranslations }}
+    {{- if ne .Language.Lang $.Site.Language.Lang }}
+      {{- $isInProduction := in $productionLanguageCodes .Language.Lang }}
+      {{- $isReference := and .Language.Params.status (eq .Language.Params.status "reference") }}
+
+
+      <!-- Mobile Card -->
+      <div class="card mb-3 d-md-none">
+        <div class="card-body">
+          <h6 class="card-title mb-2">
+            {{ .Language.LanguageName }}
+            {{- if .Date }}
+              ({{ .Date.Format "January 2006" }})
+            {{- else }}
+              ({{ $guidePage.Date.Format "January 2006" }})
+            {{- end }}
+            {{- if not $isInProduction }}
+              <span class="badge bg-warning text-dark ms-2">
+                {{- if $isReference }}
+                  <i class="fa-solid fa-book-reader me-1"></i>{{ i18n "download_reference_status" $ | default "Reference" }}
+                {{- else }}
+                  <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" $ | default "Preview" }}
+                {{- end }}
+              </span>
+            {{- end }}
+          </h6>
+          <p class="card-text text-muted mb-3">
+            <small>{{ i18n "download_table_translations_by" $ }}:</small><br />
+            {{- if .Params.contributors }}
+              {{- range $index, $contributor := .Params.contributors }}
+                {{- if $index }},{{ end }}
+                {{- if $contributor.link }}
+                  <a href="{{ $contributor.link }}" target="_blank" rel="noopener" class="text-decoration-none">
+                    {{ $contributor.name }}
+                    <i class="fa-solid fa-external-link-alt ms-1"></i>
+                  </a>
+                {{- else }}
+                  {{ $contributor.name }}
+                {{- end }}
+              {{- end }}
+            {{- else }}
+              {{ i18n "download_community_contributors" $ }}
+            {{- end }}
+          </p>
+          <div class="d-flex gap-2 flex-wrap">
+            <!-- Online Reading Link -->
+            <a href="{{ .Permalink }}" class="btn btn-outline-secondary btn-sm">
+              <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" $ }}
+            </a>
+            <!-- PDF Download Link -->
+            {{- $pdfPattern := printf "pdf/*.%s.pdf" .Language.Lang }}
+            {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
+            {{- if $pdfResource }}
+              <a
+                href="{{ $pdfResource.RelPermalink }}"
+                class="btn btn-primary btn-sm pdf-download"
+                download
+                data-language="{{ .Language.LanguageName }}"
+                data-language-code="{{ .Language.Lang }}"
+                data-type="Translation"
+                data-filename="{{ $pdfResource.Name }}">
+                <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" $ }}
+              </a>
+            {{- else }}
+              <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available at {{ $pdfPattern }}">
+                <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" $ }}
+              </a>
+            {{- end }}
+            <!-- Discussion Link -->
+            {{- if .Language.Params.discussionId }}
+              <a href="{{ $.Site.Params.githubUrl }}/discussions/{{ .Language.Params.discussionId }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-solid fa-comments me-1"></i>{{ i18n "download_discussion_action" $ | default "Discussion" }}
+              </a>
+            {{- end }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop Row -->
+      <div class="row d-none d-md-flex align-items-center py-3 border-bottom">
+        <div class="col-md-4">
+          {{ .Language.LanguageName }}
+          {{- if .Date }}
+            ({{ .Date.Format "January 2006" }})
+          {{- else }}
+            ({{ $guidePage.Date.Format "January 2006" }})
+          {{- end }}
+          {{- if not $isInProduction }}
+            <span class="badge bg-warning text-dark ms-2">
+              {{- if $isReference }}
+                <i class="fa-solid fa-book-reader me-1"></i>{{ i18n "download_reference_status" $ | default "Reference" }}
+              {{- else }}
+                <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" $ | default "Preview" }}
+              {{- end }}
+            </span>
+          {{- end }}
+        </div>
+        <div class="col-md-4">
+          {{- if .Params.contributors }}
+            {{- range $index, $contributor := .Params.contributors }}
+              {{- if $index }},{{ end }}
+              {{- if $contributor.link }}
+                <a href="{{ $contributor.link }}" target="_blank" rel="noopener" class="text-decoration-none">
+                  {{ $contributor.name }}
+                  <i class="fa-solid fa-external-link-alt ms-1"></i>
+                </a>
+              {{- else }}
+                {{ $contributor.name }}
+              {{- end }}
+            {{- end }}
+          {{- else }}
+            {{ i18n "download_community_contributors" $ }}
+          {{- end }}
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex gap-2">
+            <!-- Online Reading Link -->
+            <a href="{{ .Permalink }}" class="btn btn-outline-secondary btn-sm">
+              <i class="fa-solid fa-book-open me-1"></i>{{ i18n "read_online_action" $ }}
+            </a>
+            <!-- PDF Download Link -->
+            {{- $pdfPattern := printf "pdf/*.%s.pdf" .Language.Lang }}
+            {{- $pdfResource := .Resources.GetMatch $pdfPattern }}
+            {{- if $pdfResource }}
+              <a
+                href="{{ $pdfResource.RelPermalink }}"
+                class="btn btn-primary btn-sm pdf-download"
+                download
+                data-language="{{ .Language.LanguageName }}"
+                data-language-code="{{ .Language.Lang }}"
+                data-type="Translation"
+                data-filename="{{ $pdfResource.Name }}">
+                <i class="fa-solid fa-download me-1"></i>{{ i18n "download_button_text" $ }}
+              </a>
+            {{- else }}
+              <a href="#" class="btn btn-primary btn-sm disabled" title="PDF not available at {{ $pdfPattern }}">
+                <i class="fa-solid fa-ban me-1"></i>{{ i18n "download_button_text" $ }}
+              </a>
+            {{- end }}
+            <!-- Discussion Link -->
+            {{- if .Language.Params.discussionId }}
+              <a href="{{ $.Site.Params.githubUrl }}/discussions/{{ .Language.Params.discussionId }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-solid fa-comments me-1"></i>{{ i18n "download_discussion_action" $ | default "Discussion" }}
+              </a>
+            {{- end }}
+          </div>
+        </div>
+      </div>
+    {{- end }}
+  {{- end }}
+
+
+  <!-- Add Translation Row/Card -->
+  <!-- Mobile Card -->
+  <div class="card mb-3 d-md-none bg-light">
+    <div class="card-body text-center">
+      <h6 class="card-title mb-2">{{ i18n "download_missing_language" . }}</h6>
+      <p class="card-text text-muted mb-3">{{ i18n "download_contribute_translation" . }}</p>
+      <a href="{{ .Site.Params.githubUrl }}/issues/new?template=new-translation.yml" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+        <i class="fa-solid fa-plus me-1"></i>{{ i18n "download_add_translation" . }}
+      </a>
+    </div>
+  </div>
+
+  <!-- Desktop Row -->
+  <div class="row d-none d-md-flex align-items-center py-3 bg-light rounded">
+    <div class="col-md-8">
+      <strong>{{ i18n "download_missing_language" . }}</strong> {{ i18n "download_contribute_translation" . }}
+    </div>
+    <div class="col-md-4">
+      <a href="{{ .Site.Params.githubUrl }}/issues/new?template=new-translation.yml" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+        <i class="fa-solid fa-plus me-1"></i>{{ i18n "download_add_translation" . }}
+      </a>
+    </div>
+  </div>
+</div>
