@@ -87,7 +87,7 @@
   translation: "Preview Translations"
 
 - id: download_preview_description
-  translation: "These translations are available in preview and will be moved to the main site once ready."
+  translation: "These translations are available in preview and need at least 5 community reviewers before they can be moved to the main site. Help us review and improve these translations!"
 
 - id: download_visit_preview
   translation: "Visit preview site"
