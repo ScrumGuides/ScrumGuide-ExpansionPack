@@ -184,7 +184,7 @@ Without Adaptation, Transparency and Inspection are meaningless.
 
 ## The Scrum Values {#the-scrum-values}
 
-The Scrum Values _—focus_, _openness_, _commitment_, _courage_, and *respect—*help create a Scrum Team environment that supports psychological safety and positive collaboration, which align with principles identified in neuroscience as beneficial for learning and effective teamwork. Consider the context.
+The Scrum Values—_focus_, _openness_, _commitment_, _courage_, and _respect_—help create a Scrum Team environment that supports psychological safety and positive collaboration, which align with principles identified in neuroscience as beneficial for learning and effective teamwork. Consider the context.
 
 The Scrum Values foster transparency and trust, ensuring that words and actions align. Together, they create a strong foundation for collaboration, performance, and coherence within a Scrum Team.
 
