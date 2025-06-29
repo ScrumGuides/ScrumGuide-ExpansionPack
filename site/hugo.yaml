@@ -33,7 +33,6 @@ languages:
       description: pOlonyuS puqloD
       status: "reference"
       keywords: Yach
-      status: reference
   fa:
     languageName: فارسی
     weight: 2

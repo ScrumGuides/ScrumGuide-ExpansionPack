@@ -29,20 +29,43 @@
 {{- end }}
 
 {{/* Load production languages */}}
-{{- $productionLanguagesResponse := resources.GetRemote $productionLanguagesUrl }}
-{{- if $productionLanguagesResponse }}
-  {{- $productionLanguagesData = $productionLanguagesResponse | transform.Unmarshal }}
-  {{- if $productionLanguagesData.languages }}
-    {{- range $productionLanguagesData.languages }}
-      {{- $productionLanguageCodes = $productionLanguageCodes | append .code }}
+{{- if eq hugo.Environment "production" }}
+  {{/* Load local file in production */}}
+  {{- $productionLanguagesFile := resources.Get "languages.json" }}
+  {{- if $productionLanguagesFile }}
+    {{- $productionLanguagesData = $productionLanguagesFile.Content | transform.Unmarshal }}
+    {{- if $productionLanguagesData.languages }}
+      {{- range $productionLanguagesData.languages }}
+        {{- $productionLanguageCodes = $productionLanguageCodes | append .code }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{/* Load remote file in other environments */}}
+  {{- $productionLanguagesResponse := resources.GetRemote $productionLanguagesUrl }}
+  {{- if $productionLanguagesResponse }}
+    {{- $productionLanguagesData = $productionLanguagesResponse | transform.Unmarshal }}
+    {{- if $productionLanguagesData.languages }}
+      {{- range $productionLanguagesData.languages }}
+        {{- $productionLanguageCodes = $productionLanguageCodes | append .code }}
+      {{- end }}
     {{- end }}
   {{- end }}
 {{- end }}
 
 {{/* Load preview languages */}}
-{{- $previewLanguagesResponse := resources.GetRemote $previewLanguagesUrl }}
-{{- if $previewLanguagesResponse }}
-  {{- $previewLanguagesData = $previewLanguagesResponse | transform.Unmarshal }}
+{{- if eq hugo.Environment "preview" }}
+  {{/* Load local file in preview */}}
+  {{- $previewLanguagesFile := resources.Get "languages.json" }}
+  {{- if $previewLanguagesFile }}
+    {{- $previewLanguagesData = $previewLanguagesFile.Content | transform.Unmarshal }}
+  {{- end }}
+{{- else }}
+  {{/* Load remote file in other environments */}}
+  {{- $previewLanguagesResponse := resources.GetRemote $previewLanguagesUrl }}
+  {{- if $previewLanguagesResponse }}
+    {{- $previewLanguagesData = $previewLanguagesResponse | transform.Unmarshal }}
+  {{- end }}
 {{- end }}
 
 {{/* Process based on type */}}
