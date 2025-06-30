@@ -190,7 +190,7 @@ Das Scrum-Team und die Unterstützer verpflichten sich zu Offenheit in Bezug auf
 
 Gespräche mit hoher Bandbreite sind Gespräche, die die Kommunikation in einer Weise fördern, die einen möglichst reichhaltigen, schnellen und klaren Informationsaustausch ermöglicht. Dazu gehören in der Regel persönliche Gespräche – entweder von Angesicht zu Angesicht, per Videoanruf, visuelles Management oder Whiteboards (physisch oder digital) –, bei denen die Teilnehmer nicht nur Worte, sondern auch den Tonfall, Mimik, Zeichnungen oder Körpersprache einsetzen können, um sich gegenseitig vollständig zu verstehen.
 
-Da Sprints kurz sind, sollten etwaige Fehler klein und schnell zu beheben sein. Risiken werden durch schnelles und offenes Feedback identifiziert und gemanagt. Der einzige wirkliche Fehler ist vielleicht die Abwesenheit von von Lernprozessen.
+Da Sprints kurz sind, sollten etwaige Fehler klein und schnell zu beheben sein. Risiken werden durch schnelles und offenes Feedback identifiziert und gemanagt. Der einzige wirkliche Fehler ist vielleicht die Abwesenheit von Lernprozessen.
 
 Das Scrum-Team und die Unterstützer sollten den Mut haben, das Richtige zu tun und sich schwierigen Herausforderungen zu stellen. Sie sollten mutig sein, Unbekanntes zu erforschen, die Richtung zu ändern, Informationen anzufordern und weiterzugeben und höfliche Meinungsverschiedenheiten, z. B. gesunde Konflikte und konstruktive Meinungsverschiedenheiten, zu führen. Das Scrum-Team sollte die Unterstützer und Führungskräfte bei Bedarf um Hilfe bitten.
 
