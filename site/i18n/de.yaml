@@ -3,7 +3,7 @@
   translation: "und"
 
 - id: read_online_title
-  translation: "Lies den {{ .Site.Title }} online"
+  translation: "Lies das {{ .Site.Title }} online"
 
 - id: read_online_description
   translation: "Greife digital auf den vollständigen Leitfaden zu – mit interaktiven Funktionen und einfacher Navigation."
@@ -12,7 +12,7 @@
   translation: "Online lesen"
 
 - id: what_is_guide_title
-  translation: "Was ist der {{ .Site.Title }}?"
+  translation: "Was ist das {{ .Site.Title }}?"
 
 - id: open_source_title
   translation: "Open Source & Community-getrieben"
@@ -33,7 +33,7 @@
   translation: "{{ .Site.Title }} herunterladen"
 
 - id: download_description
-  translation: "Lade den vollständigen {{ .Site.Title }} als PDF zum Offline-Lesen herunter. Perfekt für alle, die eine gedruckte Version bevorzugen oder den Leitfaden ohne Internetzugang nutzen möchten."
+  translation: "Lade das vollständige {{ .Site.Title }} als PDF zum Offline-Lesen herunter. Perfekt für alle, die eine gedruckte Version bevorzugen oder den Leitfaden ohne Internetzugang nutzen möchten."
 
 - id: download_button
   translation: "PDF herunterladen"
