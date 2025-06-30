@@ -136,17 +136,17 @@ Nel contesto dello sviluppo software, la professionalità include ma non è limi
 
 ### Lean Thinking {#lean-thinking}
 
-'Lean thinking (63) reduces waste in the work and how it is carried out, and focuses on the flow of value and continuous improvement.' The Lean principles are built on continuous improvement and respect for people. By focusing on the Lean principles, organizations can improve effectiveness at the lowest long-term costs and deliver better value to customers while fostering a climate of ongoing learning and development.
+'Il Lean thinking (63) riduce gli sprechi nel lavoro e nel modo in cui viene svolto, e si concentra sul flusso di valore e sul miglioramento continuo'. I principi Lean si basano sul miglioramento continuo e sul rispetto per le persone. Concentrandosi sui principi Lean, le organizzazioni possono migliorare l'efficacia al costo più basso nel lungo termine e rilasciare il valore migliore ai clienti favorendo al contempo un clima di apprendimento e sviluppo continuo.
 
 ### Empirismo {#empiricism}
 
-Empiricism (67) is the principle of making decisions informed by objective or observable evidence in learning cycles, often exploratory. It can be useful in situations where more than expertise is needed. Scrum is founded on empiricism. Decisions are informed by evidence or what is observed. An empirical approach involves ongoing observations, theory development/refinement, operationalization, and testing/modification to establish effective feedback loops.
+L'empirismo (67) è il principio di prendere decisioni basate su prove oggettive o su evidenze osservabili in cicli di apprendimento, spesso esplorativi. Può essere utile in situazioni in cui non basta l'esperienza. Scrum si fonda sull'empirismo. Le decisioni sono basate su prove o su ciò che è osservato. Un approccio empirico implica osservazioni continue, sviluppo/raffinamento della teoria, operazionalizzazione e test/modifiche per stabilire cicli di feedback efficaci.
 
-Empiricism can help Scrum Teams deliver something that Stakeholders find valuable when the _what_ or the _how_ is uncertain. Scrum is about making the improbable probable by discovering, delivering, and realizing value; this often includes but is not limited to trade-offs or experimentation. Experiments are generally based on testable hypotheses but sometimes on educated hunches. A key response to experimentation is evidence-informed decision-making.
+L'empirismo può aiutare i Team Scrum a rilasciare qualcosa che gli Stakeholder trovano di valore quando il _cosa_ o il _come_ è incerto. Scrum consiste nel rendere probabile l'improbabile scoprendo, rilasciando e realizzando valore; questo spesso include, ma non si limita a, compromessi o sperimentazione. Gli esperimenti sono generalmente basati su ipotesi verificabili ma a volte su intuizioni fondate. Una risposta chiave alla sperimentazione è il decision making basato sull'evidenza.
 
-Pausing and reflecting combine elements of empiricism and lean thinking, create the basis for transparency, inspection, and adaptation toward the Product Goal, and help the Scrum Team and Supporters improve themselves and their environment.
+Fermarsi e riflettere combinano elementi di empirismo e lean thinking, creano le basi per trasparenza, ispezione e adattamento verso il Product Goal, e aiutano il Team Scrum e i Supporter a migliorare se stessi e il loro ambiente.
 
-An effective Scrum adoption reduces the distance between Stakeholders who present problems or opportunities and the people dealing with them by keeping objectives tangible and meaningful and delivering value quickly and frequently. Stakeholders often have a mistaken sense of certainty about the _what_ and the _how_. The Scrum Team often has a mistaken sense of certainty about _who_ is impacted. Inspecting and adapting should be more valued than keeping promises or serving the wrong Stakeholders. All assumptions can be wrong.
+Un'adozione efficace di Scrum riduce la distanza tra gli Stakeholder che presentano i problemi o le opportunità e le persone che li affrontano mantenendo gli obiettivi tangibili e significativi e rilasciando valore in modo veloce e frequente. Spesso gli Stakeholder hanno un senso erroneo di certezza sul _cosa_ e sul _come_. Il Team Scrum  spesso ha un senso erroneo di certezza su _chi_ è impattato. Ispezionare e adattare dovrebbe essere più importante che mantenere promesse o servire gli Stakeholder sbagliati. Tutte le assunzioni possono essere sbagliate.
 
 ### Cadenza {#cadence}
 
