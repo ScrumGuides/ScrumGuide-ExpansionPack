@@ -5,13 +5,3 @@ buildDrafts: true
 buildFuture: true
 buildExpired: true
 
-languages:
-  tlh:
-    languageName: Klingon
-    weight: 2
-    languageCode: "tlh"
-    languageDirection: "ltr"
-    title: pOlonyuS puqloD
-    params:
-      description: pOlonyuS puqloD
-      keywords: Yach
