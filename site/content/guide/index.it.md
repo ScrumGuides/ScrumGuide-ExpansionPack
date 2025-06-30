@@ -219,26 +219,26 @@ Individual Scrum Team members can look at the Scrum Values through the lens of J
 
 ### Product Thinking {#product-thinking}
 
-People consume Products (including services), not projects. A Product is the conduit to deliver value, balancing the short- and long-term. This is why Scrum has a Product Owner and not a Project Owner. Products are long-term and need to be taken care of for their entire existence, whereas a project is time-boxed and often leaves an orphaned Product behind once the project is completed.
+Le persone consumano Prodotti (inclusi i servizi), non progetti. Un Prodotto è il canale attraverso cui si rilascia valore, bilanciando il breve e il lungo termine. Questo è perchè Scrum prevede un Product Owner e non un Project Owner. I Prodotti sono a lungo termine e necessitano di cura per tutta la loro esistenza, mentre un progetto è time-box e spesso lascia dietro di sé un Prodotto orfano una volta che è completato.
 
-Product thinking (86-88) deals with the tension (111) that Products often need to _Focus_ on growth in the short-term but also need to address long-term concerns, e.g., gaining traction with early adopters, ‘crossing the chasm’ (5), expanding, updating Product versions, continuous change, customer lifetime value and total cost of ownership.
+Il Product thinking (86-88) affronta la tensione (111) che i Prodotti spesso hanno bisogno di _Focus_ sulla crescita nel breve termine ma anche hanno bisogno di indirizzare preoccupazioni a lungo termine, ad esempio, guadagnare popolatità con gli early adopters, ‘attraversare il baratro’ (5), espandersi, aggiornare le versioni del Prodotto, cambiamento continuo, valore del ciclo di vita del cliente e costo totale di possesso.
 
-To ‘cross the chasm,’ a strategy shift is needed from targeting savvy, risk-taking customers to winning over more pragmatic, risk-averse buyers, decision-makers, users, or other Stakeholders by focusing on a specific niche market or target and delivering a complete, reliable solution that solves real problems. This step is crucial for a Product’s transition from niche success to widespread adoption, as it moves from appealing to early adopters to attracting the early majority. The early majority often requires clear evidence of the Product’s reliability and problem-solving capabilities within a specific context. By focusing on a niche and providing a complete solution, a company can build credibility, create reference customers, and establish a strong market position, effectively bridging the ‘chasm’ between early adopters and the mainstream market.
+Per ‘attraversare il baratro’, è necessario un cambio di strategia dal puntare su clienti esperti e propensi al rischio al conquistare acquirenti più pragmatici e avversi al rischio, decision-maker, utilizzatori o altri Stakeholder, concentrandosi su una specifica nicchia di mercato o target e rilasciando una soluzione completa e affidabile che risolva problemi reali. Questo passaggio è cruciale per la transizione del Prodotto dal successo di nicchia a un'adozione più ampia, mentre passa dall'attrarre gli early adopter all'attrarre la early majority. La early majority richiede spesso evidenze chiare dell'affidabilità e della capacità di risolvere problemi del Prodotto in un contesto specifico. Concentrandosi su una nicchia e fornendo una soluzione completa, un'azienda può costruire credibilità, creare clienti di riferimento e stabilire una posizione forte nel mercato, colmando efficacemente il ‘baratro’ tra gli early adopters e il mercato di massa.
 
-Product Owners need to master the handling of trade-offs between the _here_ and _now_ and the anticipated future (the _there_ and _then_) (148) through courage, humility, consultation, collaboration, healthy conflict, etc.
+I Product Owner devono padroneggiare la gestione dei compromessi tra il _qui_ e _ora_ e il futuro anticipato (_là_ e _poi_’) (148) attraverso coraggio, umiltà, consultazione, collaborazione, conflitto sano, ecc.
 
-Suppose the people involved are purely short-term thinkers. In that case, they will likely experience long-term side effects such as technical debt, low Scrum Team morale, busyness, output focus, etc. For that reason, mitigating factors would need to be put in place to support the long-term.
+Supponiamo che le persone coinvolte siano pensatori solo nel breve termine.  In questo caso, sperimenteranno effetti collaterali a lungo termine come debito tecnico, bassa morale del Team Scrum, frenesia, focus sulla sola produttività, ecc. Per questo motivo, sarebbe necessario mettere in atto fattori attenuanti per supportare il lungo termine.
 
-Technical debt is the extra work that builds up – consciously or unconsciously – when you take shortcuts in implementation or design to deliver something faster. Over time, it slows you down, just like real debt—with interest—because it makes future changes harder and riskier. Professionals strive to minimize technical debt and sloppiness as much as possible. If they decide to incur debt, it should be transparent, and if possible, an emergent mitigation plan should be in place.
+Il debito tecnico è il lavoro extra che si accumula – consapevolmente o inconsapevolmente – quando prendi scorciatoie nell'implementazione o nel design per rilasciare più velocemente. Nel tempo, ti rallenta, proprio come un vero debito – con interessi – perché rende i cambiamenti futuri più difficili e rischiosi. I professionisti si sforzano di minimizzare il debito tecnico e la trascuratezza il più possibile. Se decidono di incorrere nel debito, dovrebbe essere trasparente e, se possibile, un piano emergente di mitigazione dovrebbe essere messo in atto.
 
-For Products, Scrum supports feasibility, usability, desirability, value, and viability within ethical (57) boundaries through:
+Per i Prodotti, Scrum supporta fattibilità, usabilità, desiderabilità, valore e vitalità all'interno di confini etici (57) tramite:
 
-- Product design
-- Product management
-- Intentional consideration of the cohesive interplay of Stakeholders, research, goals, discovery, design, delivery, and continuous value realization
-- In the specific case of technology Products, through Product engineering.
+- Design del Prodotto
+- Gestione del Prodotto
+- Considerazione intenzionale dell'interazione coesa degli Stakeholder, della ricerca, degli obiettivi, della scoperta, del design, del rilascio e della realizzazione continua di valore
+- Nel caso specifico di Prodotti tecnologici, attraverso l'Ingegneria del Prodotto.
 
-Scrum favors a healthy balance of the short-term and the long-term. Goal orientation enables potential outcomes through an emphasis on value and risk reduction. The Sprint Goal _(here_ and _now)_ should be a step toward the Product Goal _(there_ and _then)_, which enables pathways to the long-term. The Product Goal often supports the Product strategy and Product Vision.
+Scrum favorisce un sano equilibrio tra breve termine e lungo termine. L'orientamento all' obiettivo consente risultati potenziali attraverso un'enfasi sul valore e sulla riduzione del rischio. Lo Sprint Goal (_qui_ e _ora_) dovrebbe essere un passo verso il Product Goal (_là_ e _poi_), che apre percorsi verso il lungo termine. Il Product Goal spesso supporta la strategia di Prodotto e la Visione di Prodotto.
 
 ### Systems Thinking {#systems-thinking}
 
