@@ -150,21 +150,21 @@ Un'adozione efficace di Scrum riduce la distanza tra gli Stakeholder che present
 
 ### Cadenza {#cadence}
 
-Working in Sprints provides a consistent rhythm that helps the Scrum Team focus on clear, short-term goals. This cadence supports regular inspection and adaptation, enabling the Scrum Team to learn and adjust informed by feedback. Over time, it builds a sustainable pace of delivery, improving predictability and fostering continuous improvement.
+Lavorare in Sprint fornisce un ritmo consistente che aiuta Il Team Scrum a concentrarsi su obiettivi chiari e di breve termine. Questa cadenza supporta ispezione e adattamento regolari, abilitando il Team Scrum ad apprendere e adattarsi basandosi sui feedback. Nel tempo, costruisce un ritmo di rilascio sostenibile, migliorando la predicibilità e favorendo il miglioramento continuo.
 
 ## I Tre Pilastri del Controllo di Processo Empirico in Scrum {#the-three-pillars-of-scrum’s-empirical-process-control}
 
-Empiricism, at its core, is the philosophy that knowledge comes from experience and observation. Valuable insights emerge from curiosity, experience, experimentation, data, visualization, and observation. Empirical process control (64-66) is a method of managing complex (30-35) processes, like those in Scrum, by adapting informed by observed results, relying on the three pillars of transparency, inspection, and adaptation.
+L'empirismo, nella sua essenza, è la filosofia secondo cui la conoscenza deriva dall'esperienza e dall'osservazione. Intuizioni di valore emergono da curiosità, esperienza, sperimentazione, dati, visualizzazione e osservazione. Il controllo empirico di processo (64-66) è un metodo per gestire processi complessi(30-35), come quelli in Scrum, adattandosi sulla base dei risultati osservati e affidandosi sui tre pilastri di trasparenza, ispezione e adattamento.
 
 ### Trasparenza {#transparency}
 
-Transparency is a pillar of Scrum. It reveals reality and work clarity, and enables empiricism. Transparency reveals a more accurate perception of reality and is the entry point for Inspection and Adaptation. The emergent process, work, and results must be visible to those performing the work or receiving the inputs in the form of goals, Product Backlog Items, and associated outputs in the form of Increments.
+La trasparenza è un pilastro di Scrum. Rivela la realtà e la chiarezza del lavoro, e rende possibile l'empirismo. La trasparenza rivela una percezione più accurata della realtà ed è il punto di ingresso per Ispezione e Adattamento. Il processo emergente, il lavoro e i risultati devono essere visibili a chi esegue il lavoro o riceve gli input sotto forma di obiettivi, Product Backlog Items e output associati sotto forma di Incrementi.
 
-Important decisions are based on the artifacts, experiments, releases, or result feedback. Low Transparency can impair Inspection, leading to decisions that diminish value and increase risk. Transparency enables Inspection.
+Le decisioni importanti sono basate sugli artefatti, sugli esperimenti, sui rilasci o sui feedback sui risultati. Una bassa trasparenza può compromettere l'Ispezione, portando a decisioni che diminuiscono il valore e aumentano il rischio. La trasparenza abilita l'Ispezione.
 
-Result feedback is data, ideally both quantitative and qualitative, that might result from changes to the Product or environment. It contributes to Stakeholder value, effort, resources, or costs. People are not resources.
+Il feedback sui risultati è un dato, idealmente sia quantitativo sia qualitativo, che potrebbe derivare da cambiamenti al Prodotto o dall'ambiente. Contribuisce al valore per gli Stakeholder, allo sforzo, alle risorse o ai costi. Le persone non sono risorse.
 
-Achieving Transparency is unrealistic and potentially inapplicable if there are institutional inefficiencies or there is a lack of trust. As a corollary, Scrum can make institutional inefficiencies transparent, and with collective will, trust can be built.
+Raggiungere la trasparenza è irrealistico e potenzialmente inapplicabile se esistono inefficienze istituzionali o c'è mancanza di fiducia. Come corellario, Scrum può rendere trasparenti le inefficienze istituzionali e, con volontà collettiva, la fiducia può essere costruita.
 
 ### Ispezione {#inspection}
 
