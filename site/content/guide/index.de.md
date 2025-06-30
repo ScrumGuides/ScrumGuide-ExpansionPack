@@ -31,7 +31,7 @@ _Dieses Dokument ist eine Sammlung unabhängiger Werke. Jeder Abschnitt behält 
 _Titel: Scrum Guide Expansion Pack Anpassung von: Der ursprüngliche Scrum Guide_
 _Autor: Ralph Jocham, John Coleman und Jeff Sutherland._
  
-_Quelle: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion PAck](https://scrumexpansion.org)_
+_Quelle: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)_
 _Lizenz: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._
  
 © _2025 Ralph Jocham, John Coleman und Jeff Sutherland._
