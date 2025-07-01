@@ -1,0 +1,171 @@
+{{- if ne hugo.Environment "preview" }}
+  <!-- Preview Translations -->
+  {{/* Inline preview translations logic */}}
+  {{- $previewTranslations := slice }}
+
+  {{/* Load production and preview data */}}
+  {{- $productionLanguagesData := dict }}
+  {{- $productionLanguageCodes := slice }}
+  {{- $previewLanguagesData := dict }}
+
+  {{/* Determine URLs based on environment */}}
+  {{- $productionLanguagesUrl := "" }}
+  {{- $previewLanguagesUrl := "" }}
+
+  {{- if eq hugo.Environment "production" }}
+    {{- $productionLanguagesUrl = "/languages.json" }}
+  {{- else }}
+    {{- $productionLanguagesUrl = printf "%slanguages.json?v=%d" .Site.Params.productionSiteUrl now.Unix }}
+  {{- end }}
+
+  {{- if eq hugo.Environment "preview" }}
+    {{- $previewLanguagesUrl = "/languages.json" }}
+  {{- else }}
+    {{- $previewLanguagesUrl = printf "%slanguages.json?v=%d" .Site.Params.previewSiteUrl now.Unix }}
+  {{- end }}
+
+  {{/* Load production languages */}}
+  {{- if eq hugo.Environment "production" }}
+    {{/* Use site's own language configuration in production */}}
+    {{- range .Site.Languages }}
+      {{- $productionLanguageCodes = $productionLanguageCodes | append .LanguageCode }}
+    {{- end }}
+  {{- else }}
+    {{/* Load remote file in other environments */}}
+    {{- $productionLanguagesResponse := resources.GetRemote $productionLanguagesUrl }}
+    {{- if $productionLanguagesResponse }}
+      {{- $productionLanguagesData = $productionLanguagesResponse | transform.Unmarshal }}
+      {{- if $productionLanguagesData.languages }}
+        {{- range $productionLanguagesData.languages }}
+          {{- $productionLanguageCodes = $productionLanguageCodes | append .code }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{/* Load preview languages */}}
+  {{- if eq hugo.Environment "preview" }}
+    {{/* Load local file in preview */}}
+    {{- $previewLanguagesFile := resources.Get "languages.json" }}
+    {{- if $previewLanguagesFile }}
+      {{- $previewLanguagesData = $previewLanguagesFile.Content | transform.Unmarshal }}
+    {{- end }}
+  {{- else }}
+    {{/* Load remote file in other environments */}}
+    {{- $previewLanguagesResponse := resources.GetRemote $previewLanguagesUrl }}
+    {{- if $previewLanguagesResponse }}
+      {{- $previewLanguagesData = $previewLanguagesResponse | transform.Unmarshal }}
+    {{- end }}
+  {{- end }}
+
+  {{/* Return preview languages that are NOT in production and NOT English */}}
+  {{- if $previewLanguagesData.languages }}
+    {{- if eq (len $productionLanguageCodes) 0 }}
+      {{/* No production languages, return all preview languages except English */}}
+      {{- range $previewLanguagesData.languages }}
+        {{- if ne .code "en" }}
+          {{- $previewTranslations = $previewTranslations | append . }}
+        {{- end }}
+      {{- end }}
+    {{- else }}
+      {{/* Return preview languages that are NOT in production and NOT English */}}
+      {{- range $previewLanguagesData.languages }}
+        {{- if and (not (in $productionLanguageCodes .code)) (ne .code "en") }}
+          {{- $previewTranslations = $previewTranslations | append . }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- if gt (len $previewTranslations) 0 }}
+    <h2 class="mb-3">{{ i18n "download_preview_translations" . | default "Preview Translations" }}</h2>
+    <p class="text-muted mb-3">
+      <small>
+        {{ i18n "download_preview_description" . | default "These translations are available in preview and need at least 5 community reviewers before they can be moved to the main site. Help us review and improve these translations!" }}
+        <a href="{{ .Site.Params.previewSiteUrl }}" target="_blank" rel="noopener" class="text-decoration-none">
+          {{ i18n "download_visit_preview" . | default "Visit preview site" }}
+          <i class="fa-solid fa-external-link-alt ms-1"></i>
+        </a>
+      </small>
+    </p>
+
+    {{- if ne hugo.Environment "production" }}
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <i class="fa-solid fa-info-circle me-2"></i>
+        <strong>Note:</strong> This section is shown on production, canary, and local environments, but not preview.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    {{- end -}}
+
+
+    <!-- Table Headers (visible on larger screens) -->
+    <div class="d-none d-md-block mb-3">
+      <div class="row fw-bold text-muted border-bottom pb-2">
+        <div class="col-md-4">{{ i18n "download_table_language" . }}</div>
+        <div class="col-md-4">{{ i18n "download_table_status" . | default "Status" }}</div>
+        <div class="col-md-4">{{ i18n "download_table_action" . }}</div>
+      </div>
+    </div>
+
+    <!-- Preview Translation Cards/Rows -->
+    <div class="mb-5">
+      {{- range $previewTranslations }}
+        <!-- Mobile Card -->
+        <div class="card mb-3 d-md-none">
+          <div class="card-body">
+            <h6 class="card-title mb-2">{{ .name }}</h6>
+            <p class="card-text mb-3">
+              <span class="badge bg-warning text-dark">
+                {{ if eq .status "reference" }}
+                  <i class="fa-solid fa-book-reader me-1"></i>{{ i18n "download_reference_status" . | default "Reference" }}
+                {{ else }}
+                  <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" . | default "In Preview" }}
+                {{- end }}
+              </span>
+            </p>
+            <div class="d-flex gap-2 flex-wrap">
+              <!-- Preview Reading Link -->
+              <a href="{{ $.Site.Params.previewSiteUrl }}{{ .code }}/" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-solid fa-eye me-1"></i>{{ i18n "download_preview_action" . | default "Preview" }}
+              </a>
+              <!-- Discussion Link -->
+              {{- if .discussionId }}
+                <a href="{{ $.Site.Params.githubUrl }}/discussions/{{ .discussionId }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-comments me-1"></i>{{ i18n "download_discussion_action" . | default "Discussion" }}
+                </a>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Desktop Row -->
+        <div class="row d-none d-md-flex align-items-center py-3 border-bottom">
+          <div class="col-md-4">{{ .name }}</div>
+          <div class="col-md-4">
+            <span class="badge bg-warning text-dark">
+              {{ if eq .status "reference" }}
+                <i class="fa-solid fa-book-reader me-1"></i>{{ i18n "download_reference_status" . | default "Reference" }}
+              {{ else }}
+                <i class="fa-solid fa-flask me-1"></i>{{ i18n "download_preview_status" . | default "In Preview" }}
+              {{- end }}
+            </span>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex gap-2">
+              <!-- Preview Reading Link -->
+              <a href="{{ $.Site.Params.previewSiteUrl }}{{ .code }}/" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener">
+                <i class="fa-solid fa-eye me-1"></i>{{ i18n "download_preview_action" . | default "Preview" }}
+              </a>
+              <!-- Discussion Link -->
+              {{- if .discussionId }}
+                <a href="{{ $.Site.Params.githubUrl }}/discussions/{{ .discussionId }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-comments me-1"></i>{{ i18n "download_discussion_action" . | default "Discussion" }}
+                </a>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+      {{- end }}
+    </div>
+  {{- end }}
+{{- end -}}

@@ -164,7 +164,7 @@
   translation: "Preview Vertalingen"
 
 - id: download_preview_description
-  translation: "Deze vertalingen zijn beschikbaar in preview en worden naar de hoofdsite verplaatst zodra ze klaar zijn."
+  translation: "Deze vertalingen zijn beschikbaar in preview en hebben minimaal 5 community reviewers nodig voordat ze naar de hoofdsite kunnen worden verplaatst. Help ons deze vertalingen te beoordelen en verbeteren!"
 
 - id: download_visit_preview
   translation: "Bezoek preview site"
