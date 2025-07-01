@@ -27,11 +27,11 @@ basierend auf dem Original [Scrum Guide](https://scrumguides.org/) von Ken Schwa
 **_Gesammelte Ressourcen für das Scrum Guide Erweiterungspaket_**
 _Dieses Dokument ist eine Sammlung unabhängiger Werke. Jeder Abschnitt behält seine ursprüngliche Lizenz oder seinen Urheberrechtsstatus, wie angegeben. Die spezifischen Nutzungsrechte und Anforderungen entnehmen Sie bitte den einzelnen Abschnitten._
 
-**_Abschnitt 1: Scrum Guide Erweiterungspaket 1 (Anpassung)_**
-_Titel: Scrum Guide Erweiterungspaket Anpassung von: Der ursprüngliche Scrum Guide_
+**_Abschnitt 1: Scrum Guide Expansion Pack 1 (Anpassung)_**
+_Titel: Scrum Guide Expansion Pack Anpassung von: Der ursprüngliche Scrum Guide_
 _Autor: Ralph Jocham, John Coleman und Jeff Sutherland._
  
-_Quelle: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Erweiterungspaket](https://scrumexpansion.org)_
+_Quelle: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)_
 _Lizenz: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._
  
 © _2025 Ralph Jocham, John Coleman und Jeff Sutherland._
@@ -55,7 +55,7 @@ Dieses Dokument setzt gewisse Kenntnisse von Scrum und der damit verbundenen Spr
 
 Praktiker und Stakeholder sollten Scrum bei Bedarf mit Eigeninitiative, Dringlichkeit, Mut, Transparenz, Überprüfung, Anpassung, Rhythmus und Belastbarkeit einführen und kontinuierlich verbessern, um die Ziele für das Produkt und die Organisation zu unterstützen. Es ist zu hoffen, dass die Einführung von Scrum über die hier vorgestellten Leitlinien hinausgeht – in Bezug auf Theorie, Rollen, Artefakte, Ereignisse, Skalierung und alle anderen in diesem Dokument behandelten Aspekte – und dadurch eine dauerhafte Neugierde zum Erkunden, Hinterfragen und kontinuierlichen Verbessern weckt.
 
-Dieses Erweiterungspaket wurde entwickelt, um alle Aspekte der Produktlieferung durch ein selbstverwaltetes Team (49) zu unterstützen, das von den Bedürfnissen oder Wünschen der Stakeholder als Reaktion auf ein Problem oder eine Chance angetrieben wird. Dazu gehören (unter anderem) die Product Discovery, die Entwicklung, die Lieferung und die Wertrealisierung. Obwohl Scrum ursprünglich in der Softwareproduktentwicklung verwurzelt ist, wurde es in verschiedenen Bereichen eingesetzt. Es ermöglicht die Wertschöpfung durch komplexe (30-35) Arbeit. Mit zunehmender Verbreitung wenden Fachleute wie Ingenieure, Programmierer, Forscher, Analysten, Juristen, Marketingfachleute und Wissenschaftler Scrum zunehmend erfolgreich in ihren Domänen an.
+Dieses Erweiterungspaket wurde entwickelt, um alle Aspekte der Produktlieferung durch ein selbst-gemanagtes Team (49) zu unterstützen, das von den Bedürfnissen oder Wünschen der Stakeholder als Reaktion auf ein Problem oder eine Chance angetrieben wird. Dazu gehören (unter anderem) die Product Discovery, die Entwicklung, die Lieferung und die Wertrealisierung. Obwohl Scrum ursprünglich in der Softwareproduktentwicklung verwurzelt ist, wurde es in verschiedenen Bereichen eingesetzt. Es ermöglicht die Wertschöpfung durch komplexe (30-35) Arbeit. Mit zunehmender Verbreitung wenden Fachleute wie Ingenieure, Programmierer, Forscher, Analysten, Juristen, Marketingfachleute und Wissenschaftler Scrum zunehmend erfolgreich in ihren Domänen an.
 
 Der Stakeholder-Wert bezieht sich auf jeden wahrgenommenen Bedarf, den ein Stakeholder (einschließlich, aber nicht beschränkt auf Kunden, Entscheidungsträger und Nutzer) als wichtig erachtet und den ein Team erfüllt. Allerdings sind sich Stakeholder möglicherweise nicht immer bewusst, was für sie wertvoll sein könnte. Beobachtungen oder Beweise können absichtlich oder unabsichtlich Werte aufdecken und Prioritäten beeinflussen. Wenn neue Informationen auftauchen, sollten potenziell wertvolle Einträge identifiziert, überprüft, verfeinert und angepasst werden. Wert bleibt eine Annahme, bis er durch Beweise wie Beobachtungen oder gemessene Ergebnisse bestätigt wird.
 
@@ -73,7 +73,7 @@ Kurz gesagt basiert Scrum auf einer Umgebung, in der:
 
 1. Unterstützende Stakeholder, im Folgenden als „Supporter” bezeichnet, unter Anleitung und mit Unterstützung des Scrum Masters alles Notwendige tun, um die Einführung von Scrum proaktiv zu unterstützen und zu verbessern.
 2. Ein Produkt Owner das Produktziel festlegt, das für die Erfüllung des Stakeholder-Werts entscheidend ist.
-3. Das selbstverwaltete Scrum-Team (49) die Auswahl der Arbeit definiert, verfeinert, und sie in wertvolle Ergebnisse verwandelt.
+3. Das selbst-gemanagte Scrum-Team (49) die Auswahl der Arbeit definiert, verfeinert, und sie in wertvolle Ergebnisse verwandelt.
 4. Das Scrum-Team und die Stakeholder die Ergebnisse während des Sprints überprüfen und sie anpassen.
 5. Die Unterstützer dem Scrum-Team helfen, erfolgreich zu sein.
 6. _Zurück zum Anfang._
@@ -88,7 +88,7 @@ Im Kontext der Wissensarbeit wurde der Begriff Scrum, der aus dem Rugby-Spiel st
 
 ## Unterstützende und ergänzende Theorie {#supporting-and-complementary-theory}
 
-Scrum basiert auf einem selbstverwalteten Scrum-Team (49), Emergenz, Empirismus (67) und Lean Thinking (63). Es stützt sich auf die folgenden unterstützenden und ergänzenden Theorien und Ideen:
+Scrum basiert auf einem selbst-gemanagten Scrum-Team (49), Emergenz, Empirie (67) und Lean Thinking (63). Es stützt sich auf die folgenden unterstützenden und ergänzenden Theorien und Ideen:
 
 - Verantwortlichkeit,
 - Reduzierung von nicht wertschöpfenden Verschwendungen (einschließlich organisatorischer Ineffizienzen),
@@ -98,7 +98,7 @@ Scrum basiert auf einem selbstverwalteten Scrum-Team (49), Emergenz, Empirismus 
 
 ### Komplexität – Argumente für Scrum {#complexity–the-case-for-scrum}
 
-Bei komplexen Aufgaben wie der Entwicklung von Produkten gibt es mehr Unbekanntes als Bekanntes, Fachwissen allein ist wertvoll, aber nicht ausreichend, und Ursache und Wirkung werden erst im Nachhinein klar. Komplexitätsdenken (30-35) liefert wertvolle Werkzeuge und Ideen und erleichtert Einsichten. Die Mitglieder des Scrum-Teams benötigen Zeit, um nachzudenken, sich gegenseitig zu helfen, Nacharbeiten zu leisten oder umzudenken. Kognitive Vielfalt und Empirismus können dabei helfen, komplexe Aufgaben zu bewältigen.
+Bei komplexen Aufgaben wie der Entwicklung von Produkten gibt es mehr Unbekanntes als Bekanntes, Fachwissen allein ist wertvoll, aber nicht ausreichend, und Ursache und Wirkung werden erst im Nachhinein klar. Komplexitätsdenken (30-35) liefert wertvolle Werkzeuge und Ideen und erleichtert Einsichten. Die Mitglieder des Scrum-Teams benötigen Zeit, um nachzudenken, sich gegenseitig zu helfen, Nacharbeiten zu leisten oder umzudenken. Kognitive Vielfalt und Empirie können dabei helfen, komplexe Aufgaben zu bewältigen.
 
 Alles, was als „bekannt” gilt, einschließlich des Marktes und der Stakeholder (einschließlich, aber nicht beschränkt auf Kunden), kann falsch sein. Einige Erwartungen, Bedürfnisse oder Wünsche entstehen oder verschwinden im Laufe der Zeit in ihrer relativen Bedeutung oder Dringlichkeit. Ein empirischer Ansatz bietet Mechanismen zum Testen von Annahmen sowie zur Überprüfung und Anpassung.
 
@@ -106,21 +106,21 @@ Im Allgemeinen bleibt nichts für immer gleich. Das Scrum-Team befindet sich mö
 
 Die Chancen, die sich durch Inspektion und Anpassung des „Wer”, „Warum”, „Was”, „Wie”, „Wo” und „Wann” ergeben, sind vielfältig. Es ist wichtig, das, was nicht funktioniert, abzuschwächen und das, was funktioniert, zu verstärken. Transparenz, Inspektion und Anpassung an festgelegte Ziele, gestützt auf Ergebnisfeedback (und unbeabsichtigte Folgen), sorgen für Wertschöpfung, Erkenntnisse, Risiken und hinterfragte Annahmen; dies kann zu kontinuierlicher Verbesserung führen.
 
-Schaffen Sie Vertrauen durch ein selbstverwaltetes Team, Überprüfung, Anpassung, die Lieferung wertvoller Arbeit und die Gewinnung neuer Erkenntnisse.
+Schaffen Sie Vertrauen durch ein selbst-gemanagtes Team, Überprüfung, Anpassung, die Lieferung wertvoller Arbeit und die Gewinnung neuer Erkenntnisse.
 
 ### Emergenz {#emergence}
 
 Emergenz (71) ist, wenn aus Interaktionen innerhalb komplexer (30-35) Systeme sinnvolle Muster oder Verhaltensweisen entstehen – Muster, die man nicht allein durch Betrachten der einzelnen Teile vorhersagen kann. In Scrum wird Emergenz nicht streng kontrolliert, sondern durch fördernde Rahmenbedingungen wie Zeitboxen, Rollen und Feedback-Schleifen gesteuert, die die Voraussetzungen für Selbstmanagement und Anpassungsfähigkeit schaffen, ohne genaue Ergebnisse vorzugeben. Diese Strukturen wirken wie „Inseln” in einem Meer der Unvorhersehbarkeit, ähnlich wie physikalische Systeme spontan organisierte Muster inmitten von Zufälligkeiten bilden können, wie in Stephen Wolframs Arbeit (38) beschrieben. Der Schlüssel liegt darin, dass die Struktur in Scrum den Teams genügend Orientierung bietet, um sich selbst zu managen und neue Lösungen zu entwickeln, anstatt jedes Detail vorzuschreiben.
 
-Scrum-Teams, die als komplexe adaptive Systeme arbeiten, werden durch kurze, parallele, fehlertolerante Experimente und kontinuierliches Feedback beeinflusst, nicht gelenkt. Muster (53) wie „Swarming”, „Stable Teams” und „Kaizen” helfen dabei, emergentes Verhalten zu identifizieren und zu formen. Anstatt Ergebnisse zu erzwingen, ermöglicht Scrum dem Scrum-Team, wünschenswerte Muster zu entdecken, darunter innovative Lösungen oder neue Arbeitsweisen, und diese zu verstärken, während unhilfreiche Muster abgeschwächt werden.
+Scrum-Teams, die als komplexe adaptive Systeme arbeiten, werden durch kurze, parallele, fehlertolerante (safe-to-fail) Experimente und kontinuierliches Feedback beeinflusst, nicht gelenkt. Muster (53) wie „Swarming”, „Stable Teams” und „Kaizen” helfen dabei, emergentes Verhalten zu identifizieren und zu formen. Anstatt Ergebnisse zu erzwingen, ermöglicht Scrum dem Scrum-Team, wünschenswerte Muster zu entdecken, darunter innovative Lösungen oder neue Arbeitsweisen, und diese zu verstärken, während unhilfreiche Muster abgeschwächt werden.
 
 Dieser Ansatz erkennt an, dass Selbstmanagement (49) nicht von oben nach unten gestaltet werden kann, sondern in der richtigen Umgebung entdeckt werden muss – einer Umgebung, die sich sinnvoll, kohärent und lebendig anfühlt, ganz im Sinne von Christopher Alexanders „Quality Without a Name” (39). Letztendlich betrachtet Scrum Emergenz nicht als ein Risiko, das es zu beseitigen gilt, sondern als eine Kraft, die für Spitzenleistungen in der Produktentwicklung gefördert werden muss.
 
-### Selbstverwaltendes Scrum-Team {#self-managing-scrum-team}
+### Selbst-gemanagtes Scrum-Team {#self-managing-scrum-team}
 
-Ein selbstverwaltendes (49) Scrum-Team überprüft, ob es auf dem richtigen Weg ist, ergreift Maßnahmen, wenn dies nicht der Fall ist, entscheidet, wie gearbeitet wird, löst Konflikte innerhalb des Scrum-Teams und behebt Probleme im Scrum-Team. Das bedeutet, dass Manager (111), sofern sie Teil der Landschaft sind, dem Scrum-Team in der Regel nicht sagen, was es zu tun hat, oder entscheiden, welches Scrum-Team-Mitglied zur Behebung von Problemen direkt oder indirekt zur Seite genommen werden muss. Wenn es Manager gibt, ist es in der Regel besser, wenn sie Führungsqualitäten zeigen.
+Ein selbst-gemanagtes (49) Scrum-Team überprüft, ob es auf dem richtigen Weg ist, ergreift Maßnahmen, wenn dies nicht der Fall ist, entscheidet, wie gearbeitet wird, löst Konflikte innerhalb des Scrum-Teams und behebt Probleme im Scrum-Team. Das bedeutet, dass Manager (111), sofern sie Teil der Landschaft sind, dem Scrum-Team in der Regel nicht sagen, was es zu tun hat, oder entscheiden, welches Scrum-Team-Mitglied zur Behebung von Problemen direkt oder indirekt zur Seite genommen werden muss. Wenn es Manager gibt, ist es in der Regel besser, wenn sie Führungsqualitäten zeigen.
 
-Selbstverwaltete, wertorientiert organisierte Scrum-Teams sind entscheidend für kreative Problemlösungen und das Erfassen von Emergenzen; die Abhängigkeit von nicht selbstverwalteten Scrum-Teams behindert die Fähigkeit, mit Komplexität umzugehen (30-35). Selbstverwaltete Scrum-Teams (49) sind nicht mit individueller Selbstverwaltung zu verwechseln. Es ist das nahtlose Zusammenspiel, das ein großartiges Team entstehen lässt. Die Moderation der Teamautonomie und effizientere Entscheidungsfindung innerhalb einer nicht-hierarchischen Struktur könnte Scrum-Teams dabei helfen, ihre Selbstorganisation zu verbessern.
+Selbst-gemanagte, wertorientiert organisierte Scrum-Teams sind entscheidend für kreative Problemlösungen und das Erfassen von Emergenzen; die Abhängigkeit von nicht selbst-gemanagten Scrum-Teams behindert die Fähigkeit, mit Komplexität umzugehen (30-35). Selbst-gemanagte Scrum-Teams (49) sind nicht mit individueller Selbstorganisation zu verwechseln. Es ist das nahtlose Zusammenspiel, das ein großartiges Team entstehen lässt. Die Moderation der Teamautonomie und effizientere Entscheidungsfindung innerhalb einer nicht-hierarchischen Struktur könnte Scrum-Teams dabei helfen, ihre Selbstorganisation zu verbessern.
 
 ### Professionalität {#professionalism}
 
@@ -128,33 +128,33 @@ Professionalität bedeutet, nach Spitzenleistungen zu streben und gemeinsam dara
 
 Professionell zu sein bedeutet, die volle Verantwortung für das Produkt zu übernehmen, von der Konzeption bis zum Ende seines Lebenszyklus. Professionalität umfasst auch die Wartung, oft in Form von Betriebsabläufen, und bietet den Produktentwicklern hervorragende Möglichkeiten, aus den Ergebnissen der technischen Arbeit zu lernen.
 
-Im Kontext der Softwareentwicklung umfasst Professionalität unter anderem technische Exzellenz (112). Technische Exzellenz umfasst unter anderem Folgendes: Spezifikation anhand von Beispielen, sauberer Code, Unit-Tests, testgetriebene Entwicklung, Testautomatisierung, kontinuierliche Integration, kontinuierliche Bereitstellung, Architektur und Design, Abnahmetests sowie die gezielte und bewusste Berücksichtigung von Tests.
+Im Kontext der Softwareentwicklung umfasst Professionalität unter anderem technische Exzellenz (112). Technische Exzellenz umfasst unter anderem Folgendes: Spezifikation anhand von Beispielen (specification by examples), Clean Code, Unit-Tests, testgetriebene Entwicklung, Testautomatisierung, kontinuierliche Integration (continuous integration), kontinuierliche Lieferung (continuous delivery), Architektur und Design, Abnahmetests sowie die gezielte und bewusste Berücksichtigung von Tests.
 
 ### Lean Thinking {#lean-thinking}
 
 „Lean Thinking (63) reduziert Verschwendung in der Arbeit und deren Ausführung und konzentriert sich auf den Wertfluss und die kontinuierliche Verbesserung.“ Die Lean-Prinzipien basieren auf kontinuierlicher Verbesserung und Respekt gegenüber den Menschen. Durch die Konzentration auf die Lean-Prinzipien können Unternehmen ihre Effektivität bei langfristig niedrigsten Kosten verbessern, ihren Kunden einen höheren Mehrwert bieten und gleichzeitig ein Klima des kontinuierlichen Lernens und der Weiterentwicklung fördern.
 
-### Empirismus {#empiricism}
+### Empirie (Empiricism) {#empiricism}
 
-Empirismus (67) ist das Prinzip, Entscheidungen auf der Grundlage objektiver oder beobachtbarer Beweise in Lernzyklen zu treffen, die oft explorativ sind. Er kann in Situationen nützlich sein, in denen mehr als nur Fachwissen erforderlich ist. Scrum basiert auf Empirismus. Entscheidungen werden auf der Grundlage von Beweisen oder Beobachtungen getroffen. Ein empirischer Ansatz umfasst kontinuierliche Beobachtungen, Theorieentwicklung/Verfeinerung, Operationalisierung und Tests/Modifikationen, um effektive Feedback-Schleifen zu etablieren.
+Empirie (67) ist das Prinzip, Entscheidungen auf der Grundlage objektiver oder beobachtbarer Beweise in Lernzyklen zu treffen, die oft explorativ sind. Er kann in Situationen nützlich sein, in denen mehr als nur Fachwissen erforderlich ist. Scrum basiert auf Empirie. Entscheidungen werden auf der Grundlage von Beweisen oder Beobachtungen getroffen. Ein empirischer Ansatz umfasst kontinuierliche Beobachtungen, Theorieentwicklung/Verfeinerung, Operationalisierung und Tests/Modifikationen, um effektive Feedback-Schleifen zu etablieren.
 
-Empirismus kann Scrum-Teams dabei helfen, etwas zu liefern, das Stakeholder als wertvoll erachten, wenn das „Was” oder „Wie” ungewiss ist. Bei Scrum geht es darum, das Unwahrscheinliche wahrscheinlich zu machen, indem Wert entdeckt, geliefert und realisiert wird; dies umfasst oft, ist aber nicht beschränkt auf Kompromisse oder Experimente. Experimente basieren in der Regel auf überprüfbaren Hypothesen, manchmal aber auch auf fundierten Vermutungen. Eine wichtige Reaktion auf Experimente ist eine evidenzbasierte Entscheidungsfindung.
+Empirie kann Scrum-Teams dabei helfen, etwas zu liefern, das Stakeholder als wertvoll erachten, wenn das „Was” oder „Wie” ungewiss ist. Bei Scrum geht es darum, das Unwahrscheinliche wahrscheinlich zu machen, indem Wert entdeckt, geliefert und realisiert wird; dies umfasst oft, ist aber nicht beschränkt auf Kompromisse oder Experimente. Experimente basieren in der Regel auf überprüfbaren Hypothesen, manchmal aber auch auf fundierten Vermutungen. Eine wichtige Reaktion auf Experimente ist eine evidenzbasierte Entscheidungsfindung.
 
-Pausen und Reflexion verbinden Elemente des Empirismus und des Lean-Denkens, schaffen die Grundlage für Transparenz, Überprüfung und Anpassung an das Produktziel und helfen dem Scrum-Team und den Unterstützern, sich selbst und ihr Umfeld zu verbessern.
+Pausen und Reflexion verbinden Elemente des Empirie und des Lean-Denkens, schaffen die Grundlage für Transparenz, Überprüfung und Anpassung an das Produktziel und helfen dem Scrum-Team und den Unterstützern, sich selbst und ihr Umfeld zu verbessern.
 
 Eine effektive Einführung von Scrum verringert die Distanz zwischen Stakeholdern, die Probleme oder Chancen aufzeigen, und den Personen, die sich damit befassen, indem Ziele greifbar und sinnvoll bleiben und schnell und häufig Wert geliefert wird. Stakeholder haben oft ein falsches Gefühl der Gewissheit darüber, was und wie etwas zu tun ist. Das Scrum-Team hat oft ein falsches Gefühl der Gewissheit darüber, wer davon betroffen ist. Überprüfen und Anpassen sollte mehr geschätzt werden als das Einhalten von Versprechen oder das Bedienen der falschen Stakeholder. Alle Annahmen können falsch sein.
 
 ### Kadenz {#cadence}
 
-Die Arbeit in Sprints sorgt für einen gleichmäßigen Rhythmus, der dem Scrum-Team hilft, sich auf klare, kurzfristige Ziele zu konzentrieren. Diese Kadenz unterstützt regelmäßige Überprüfungen und Anpassungen, sodass das Scrum-Team aus Feedback lernen und sich entsprechend anpassen kann. Mit der Zeit entsteht so ein nachhaltiges Tempo für die Bereitstellung, wodurch die Vorhersagbarkeit verbessert und kontinuierliche Verbesserungen gefördert werden.
+Die Arbeit in Sprints sorgt für einen gleichmäßigen Rhythmus, der dem Scrum-Team hilft, sich auf klare, kurzfristige Ziele zu konzentrieren. Diese Kadenz unterstützt regelmäßige Überprüfungen und Anpassungen, sodass das Scrum-Team aus Feedback lernen und sich entsprechend anpassen kann. Mit der Zeit entsteht so ein nachhaltiges Tempo für die (Produkt-)Lieferung, wodurch die Vorhersagbarkeit verbessert und kontinuierliche Verbesserungen gefördert werden.
 
 ## Die drei Säulen der empirischen Prozesssteuerung von Scrum {#the-three-pillars-of-scrum’s-empirical-process-control}
 
-Empirismus ist im Kern die Philosophie, dass Wissen aus Erfahrung und Beobachtung entsteht. Wertvolle Erkenntnisse entstehen aus Neugier, Erfahrung, Experimenten, Daten, Visualisierung und Beobachtung. Empirische Prozesssteuerung (64-66) ist eine Methode zur Steuerung komplexer (30-35) Prozesse, wie sie beispielsweise in Scrum vorkommen, indem man sich anhand der beobachteten Ergebnisse anpasst und sich dabei auf die drei Säulen Transparenz, Überprüfung und Anpassung stützt.
+Empirie ist im Kern die Philosophie, dass Wissen aus Erfahrung und Beobachtung entsteht. Wertvolle Erkenntnisse entstehen aus Neugier, Erfahrung, Experimenten, Daten, Visualisierung und Beobachtung. Empirische Prozesssteuerung (64-66) ist eine Methode zur Steuerung komplexer (30-35) Prozesse, wie sie beispielsweise in Scrum vorkommen, indem man sich anhand der beobachteten Ergebnisse anpasst und sich dabei auf die drei Säulen Transparenz, Überprüfung und Anpassung stützt.
 
 ### Transparenz {#transparency}
 
-Transparenz ist eine Säule von Scrum. Sie offenbart die Realität und sorgt für Klarheit in der Arbeit und ermöglicht Empirismus. Transparenz ermöglicht eine genauere Wahrnehmung der Realität und ist der Ausgangspunkt für Inspektion und Anpassung. Der entstehende Prozess, die Arbeit und die Ergebnisse müssen für diejenigen sichtbar sein, die die Arbeit ausführen oder die Inputs in Form von Zielen, Product Backlog-Einträgen und den damit verbundenen Outputs in Form von Inkrementen erhalten.
+Transparenz ist eine Säule von Scrum. Sie offenbart die Realität und sorgt für Klarheit in der Arbeit und ermöglicht Empirie. Transparenz ermöglicht eine genauere Wahrnehmung der Realität und ist der Ausgangspunkt für Inspektion und Anpassung. Der entstehende Prozess, die Arbeit und die Ergebnisse müssen für diejenigen sichtbar sein, die die Arbeit ausführen oder die Inputs in Form von Zielen, Product Backlog-Einträgen und den damit verbundenen Outputs in Form von Inkrementen erhalten.
 
 Wichtige Entscheidungen basieren auf den Artefakten, Experimenten, Releases oder Ergebnisfeedbacks. Geringe Transparenz kann die Überprüfung beeinträchtigen und zu Entscheidungen führen, die den Wert mindern und das Risiko erhöhen. Transparenz ermöglicht die Überprüfung.
 
@@ -190,7 +190,7 @@ Das Scrum-Team und die Unterstützer verpflichten sich zu Offenheit in Bezug auf
 
 Gespräche mit hoher Bandbreite sind Gespräche, die die Kommunikation in einer Weise fördern, die einen möglichst reichhaltigen, schnellen und klaren Informationsaustausch ermöglicht. Dazu gehören in der Regel persönliche Gespräche – entweder von Angesicht zu Angesicht, per Videoanruf, visuelles Management oder Whiteboards (physisch oder digital) –, bei denen die Teilnehmer nicht nur Worte, sondern auch den Tonfall, Mimik, Zeichnungen oder Körpersprache einsetzen können, um sich gegenseitig vollständig zu verstehen.
 
-Da Sprints kurz sind, sollten etwaige Fehler gering und schnell zu beheben sein, und Risiken werden durch schnelles und offenes Feedback identifiziert und gemanagt. Der einzige wirkliche Fehler ist vielleicht das Fehlen von Lernprozessen.
+Da Sprints kurz sind, sollten etwaige Fehler klein und schnell zu beheben sein. Risiken werden durch schnelles und offenes Feedback identifiziert und gemanagt. Der einzige wirkliche Fehler ist vielleicht die Abwesenheit von Lernprozessen.
 
 Das Scrum-Team und die Unterstützer sollten den Mut haben, das Richtige zu tun und sich schwierigen Herausforderungen zu stellen. Sie sollten mutig sein, Unbekanntes zu erforschen, die Richtung zu ändern, Informationen anzufordern und weiterzugeben und höfliche Meinungsverschiedenheiten, z. B. gesunde Konflikte und konstruktive Meinungsverschiedenheiten, zu führen. Das Scrum-Team sollte die Unterstützer und Führungskräfte bei Bedarf um Hilfe bitten.
 
@@ -202,7 +202,7 @@ Das Scrum-Team und die Unterstützer (sowie andere Stakeholder) respektieren ein
 
 Respekt schützt davor, dass andere Scrum-Werte als Waffen eingesetzt werden. Respekt kann sich unter anderem durch aufrichtiges Lob, gegenseitige Unterstützung, Bescheidenheit, psychologische Sicherheit, konstruktive Meinungsverschiedenheiten und kognitive Vielfalt äußern.
 
-Die Mitglieder des Scrum-Teams und die Stakeholder können die Scrum-Werte durch die Linse von John Boyds OODA (99, 100, 102) betrachten. OODA wurde von John Boyd, einem Oberst der US-Luftwaffe, entwickelt, um Piloten dabei zu helfen, in schnell wechselnden Situationen schnelle und kluge Entscheidungen zu treffen, indem sie vier Schritte durchlaufen: Beobachten, Orientieren, Entscheiden und Handeln. Es handelt sich um eine einfache, kontinuierliche, iterative und leistungsstarke, wenn auch oft unbewusste Methode, um mit Unsicherheiten umzugehen – wie beispielsweise Marktveränderungen zu erkennen (Beobachten), Trends und Risiken zu analysieren (Orientieren), zu testende Produktmerkmale auszuwählen (Entscheiden) und diese zu liefern (Handeln). OODA hilft Einzelpersonen, flexibel zu bleiben und gut auf alles zu reagieren, was auf sie zukommt. Scrum kann OODA verbessern.
+Die Mitglieder des Scrum-Teams und die Stakeholder können die Scrum-Werte durch die Linse von John Boyds OODA (99, 100, 102) betrachten. OODA (Observe, Orient, Decide, Act) wurde von John Boyd, einem Oberst der US-Luftwaffe, entwickelt, um Piloten dabei zu helfen, in schnell wechselnden Situationen schnelle und kluge Entscheidungen zu treffen, indem sie vier Schritte durchlaufen: Beobachten, Orientieren, Entscheiden und Handeln. Es handelt sich um eine einfache, kontinuierliche, iterative und leistungsstarke, wenn auch oft unbewusste Methode, um mit Unsicherheiten umzugehen – wie beispielsweise Marktveränderungen zu erkennen (Beobachten), Trends und Risiken zu analysieren (Orientieren), zu testende Produktmerkmale auszuwählen (Entscheiden) und diese zu liefern (Handeln). OODA hilft Einzelpersonen, flexibel zu bleiben und gut auf alles zu reagieren, was auf sie zukommt. Scrum kann OODA verbessern.
 
 Einzelne Mitglieder des Scrum-Teams können die Scrum-Werte durch die Linse von John Boyds OODA betrachten und Scrum nutzen, um neue Lösungen zu entwickeln. Im Scrum-Kontext gelten die Scrum-Werte für alle OODA-Phasen und helfen insbesondere wie folgt:
 
@@ -217,9 +217,9 @@ Einzelne Mitglieder des Scrum-Teams können die Scrum-Werte durch die Linse von 
 
 Menschen konsumieren Produkte (einschließlich Dienstleistungen), nicht Projekte. Ein Produkt ist das Mittel, um Wert zu liefern und dabei kurz- und langfristige Ziele in Einklang zu bringen. Aus diesem Grund gibt es in Scrum einen Produkt Owner und keinen Projekt Owner. Produkte sind langfristig angelegt und müssen während ihrer gesamten Lebensdauer gepflegt werden, während ein Projekt zeitlich begrenzt ist und nach seinem Abschluss oft ein verwaistes Produkt hinterlässt.
 
-Produktdenken (86-88) befasst sich mit der Spannung (111), dass Produkte oft auf kurzfristiges Wachstum fokussiert sein müssen, aber auch langfristige Aspekte berücksichtigen müssen, z. B. die Gewinnung von Early Adopters, das „Überwinden der Kluft” (5), die Expansion, die Aktualisierung von Produktversionen, kontinuierliche Veränderungen, den Customer Lifetime Value und die Gesamtbetriebskosten.
+Produktdenken (Product Thinking)(86-88) befasst sich mit der Herausforderung (111), dass Produkte oft auf kurzfristiges Wachstum fokussiert sein müssen, aber auch langfristige Aspekte berücksichtigen müssen, zum Beispiel die Gewinnung von Early Adopters, das „Überwinden der Kluft” (5), die Expansion, die Aktualisierung von Produktversionen, kontinuierliche Veränderungen, den Customer Lifetime Value und die Gesamtbetriebskosten.
 
-Um „die Kluft zu überwinden”, ist eine Strategieänderung erforderlich: Anstelle von versierten, risikofreudigen Kunden müssen pragmatischere, risikoscheue Käufer, Entscheidungsträger, Nutzer oder andere Stakeholder gewonnen werden, indem man sich auf einen bestimmten Nischenmarkt oder eine bestimmte Zielgruppe konzentriert und eine vollständige, zuverlässige Lösung anbietet, die echte Probleme löst. Dieser Schritt ist entscheidend für den Übergang eines Produkts vom Nischenerfolg zur breiten Akzeptanz, da es sich von der Ansprache von Early Adopters zur Gewinnung der Early Majority entwickelt. Die frühe Mehrheit benötigt oft klare Beweise für die Zuverlässigkeit und Problemlösungsfähigkeit des Produkts in einem bestimmten Kontext. Durch die Konzentration auf eine Nische und die Bereitstellung einer Komplettlösung kann ein Unternehmen Glaubwürdigkeit aufbauen, Referenzkunden gewinnen und eine starke Marktposition etablieren, wodurch die „Kluft“ zwischen Early Adopters und dem Mainstream-Markt effektiv überbrückt wird.
+Um „die Kluft zu überwinden”, ist eine Strategieänderung erforderlich: Anstelle von versierten, risikofreudigen Kunden müssen pragmatischere, risikoscheue Käufer, Entscheidungsträger, Nutzer oder andere Stakeholder gewonnen werden, indem man sich auf einen bestimmtes Marktsegment oder eine bestimmte Zielgruppe konzentriert und eine vollständige, zuverlässige Lösung anbietet, die echte Probleme löst. Dieser Schritt ist entscheidend für den Übergang eines Produkts vom Nischenerfolg zur breiten Akzeptanz, da es sich von der Ansprache von Early Adopters zur Gewinnung der Early Majority entwickelt. Die frühe Mehrheit benötigt oft klare Beweise für die Zuverlässigkeit und Problemlösungsfähigkeit des Produkts in einem bestimmten Kontext. Durch die Konzentration auf eine Nische und die Bereitstellung einer Komplettlösung kann ein Unternehmen Glaubwürdigkeit aufbauen, Referenzkunden gewinnen und eine starke Marktposition etablieren, wodurch die „Kluft“ zwischen Early Adopters und dem Mainstream-Markt effektiv überbrückt wird.
 
 Produkt Owner müssen den Umgang mit Kompromissen zwischen dem „Hier und Jetzt” und der erwarteten Zukunft (dem „Dort und Dann”) (148) durch Mut, Bescheidenheit, Beratung, Zusammenarbeit, gesunde Konflikte usw. meistern.
 
@@ -236,13 +236,13 @@ Für Produkte unterstützt Scrum die Machbarkeit, Benutzerfreundlichkeit, Attrak
 
 Scrum bevorzugt ein gesundes Gleichgewicht zwischen kurzfristigen und langfristigen Zielen. Die Zielorientierung ermöglicht potenzielle Ergebnisse durch die Betonung von Wert und Risikominderung. Das Sprint-Ziel _(hier_ und _jetzt)_ sollte ein Schritt in Richtung des Produktziels _(dort_ und _dann)_ sein, das Wege zur langfristigen Zielerreichung ermöglicht. Das Produktziel unterstützt häufig die Produktstrategie und die Produktvision.
 
-### Systemisches Denken {#systems-thinking}
+### Systemisches Denken (System Thinking) {#systems-thinking}
 
 Systemisches Denken (55) erkennt die Vernetzung von Elementen innerhalb organisatorischer und sozialer Kontexte an und berücksichtigt, dass Maßnahmen in einem Bereich Auswirkungen haben, die nicht immer vorhersehbar oder linear sind. Theoriegestützte Experimente, Feedback-Schleifen und nachfolgende Datenanalysen helfen dabei, wertvolle und umsetzbare Erkenntnisse zu gewinnen. Systemisches Denken liefert wertvolle Werkzeuge und Ideen und erleichtert die Gewinnung von Erkenntnissen.
 
 Damit eine Organisation anpassungsfähig wird (80), müssen lokale Suboptimierungen vermieden werden, wie z. B. die Senkung der Stückkosten bei gleichzeitiger Erhöhung der langfristigen Kosten, die Aushöhlung von Qualitätszielen, die zum Verlust des Kundenvertrauens führen, oder die Verbesserung eines Scrum-Teams, eines Workflows oder eines Prozesses, der nicht existieren sollte. Bei komplexen Aufgaben (30-35) ist es nicht immer möglich, Ursache und Wirkung miteinander zu verknüpfen, außer im Nachhinein. Dennoch ist es hilfreich, mögliche und tatsächliche vorgelagerte, quer verlaufende und nachgelagerte Auswirkungen von Interventionen zu berücksichtigen.
 
-### Entdeckung {#discovery}
+### Entdeckung (Discovery) {#discovery}
 
 Die Entdeckung (50-51) beginnt oft damit, die Erwartungen, Bedürfnisse und Wünsche der Menschen durch Beobachtung, Analyse, Gespräche und Synthese zu verstehen, um zu einem gewünschten Ergebnis zu gelangen. Sobald ein Scrum-Team Erkenntnisse gesammelt hat, formuliert es das Problem oder die Chance und ordnet sie nach ihrem potenziellen Wert. Das Scrum-Team sammelt mögliche Lösungen, ohne sie vorschnell zu beurteilen. Wenn der potenzielle Wert hoch ist, aber keine Belege dafür vorliegen, dass dieser Wert auch realisiert werden kann, sollte das Scrum-Team Recherchen durchführen, Annahmen überprüfen oder einfache Prototypen erstellen, die mit echten Kunden, Entscheidungsträgern oder Anwendern getestet werden können. Die Entdeckung ist nie abgeschlossen; regelmäßige Interviews oder Beobachtungen von Kunden, Entscheidungsträgern oder Anwendern sind daher empfehlenswert.
 
@@ -256,11 +256,11 @@ Führung ist die Fähigkeit, eine Gruppe von Menschen zu beeinflussen, zu leiten
 
 Führung ist ein dynamischer sozialer Prozess, der Verantwortung, den Aufbau von Beziehungen und Empowerment umfasst. Erfolgreiche Führung führt zur gemeinsamen Festlegung einer Richtung, zur effektiven Abstimmung der erforderlichen Ressourcen und Personen und zu gegenseitigem Engagement der Gruppenmitglieder.
 
-Scrum strebt eine bestimmte Art von Führung an, nämlich Führung für Resilienz, eine Reihe von Eigenschaften und keine Managementposition. Daher muss Führung unter anderem die Schaffung eines Umfelds für selbstverwaltete Scrum-Teams, Klarheit, Vertrauen, Transparenz, Emergenz (71) in einer Richtung, Erfüllung bei der Arbeit, die Akzeptanz von Unsicherheit (72) und Fehlern, das Sammeln von Beweisen für bessere Entscheidungen, proaktives Risikomanagement und die Beseitigung von organisatorischen Ineffizienzen umfassen.
+Scrum strebt eine bestimmte Art von Führung an, nämlich Führung für Resilienz, eine Reihe von Eigenschaften und keine Managementposition. Daher muss Führung unter anderem die Schaffung eines Umfelds für selbst-gemanagte Scrum-Teams, Klarheit, Vertrauen, Transparenz, Emergenz (71) in einer Richtung, Erfüllung bei der Arbeit, die Akzeptanz von Unsicherheit (72) und Fehlern, das Sammeln von Beweisen für bessere Entscheidungen, proaktives Risikomanagement und die Beseitigung von organisatorischen Ineffizienzen umfassen.
 
 Führung findet aus allen Blickwinkeln statt, sollte auf allen Ebenen vorhanden sein und zur richtigen Zeit Reflexion fördern. Führung sollte konsequent auf Werte ausgerichtet sein, aber dennoch mitfühlend und ethisch handeln. Führung erfordert beharrliches Handeln, um Arbeitsabläufe, Prozesse, Systeme und das Arbeitsumfeld zu verändern; dazu gehören (unter anderem) Personalwesen, Finanzen und Lieferantenmanagement. Ein Führungskraft ist jemand, der Führungsqualitäten zeigt.
 
-Produkt Owner und Scrum Master schaffen ein Gleichgewicht zwischen Führung, Autorität und subtiler Kontrolle, indem sie klare Absichten vermitteln, Initiative fördern und Verantwortlichkeiten stärken. Sie leiten eher, als dass sie mikromanagen, und stellen sicher, dass das Scrum-Team die Vision und die Ziele versteht, über die nötige Autonomie zur Umsetzung verfügt und für die Ergebnisse verantwortlich bleibt. Wenn ein Eingreifen erforderlich ist, greifen sie entschlossen ein, ohne dass das Scrum-Team die Verantwortung für seine Aufgaben verliert. Produktentwickler zeigen Führungsqualitäten durch ihre selbstverwaltete Teamorientierung, ihre Professionalität und ihre Zielorientierung; Selbstverwaltung geht mit Verantwortung einher. Unterstützer zeigen Führungsqualitäten, indem sie kurz- und langfristige Hindernisse beseitigen, die Kohärenz der Managementprozesse mit Scrum verbessern und bei Bedarf dringende Veränderungen in eine positive Richtung unterstützen.
+Produkt Owner und Scrum Master schaffen ein Gleichgewicht zwischen Führung, Autorität und subtiler Kontrolle, indem sie klare Absichten vermitteln, Initiative fördern und Verantwortlichkeiten stärken. Sie leiten eher, als dass sie mikromanagen, und stellen sicher, dass das Scrum-Team die Vision und die Ziele versteht, über die nötige Autonomie zur Umsetzung verfügt und für die Ergebnisse verantwortlich bleibt. Wenn ein Eingreifen erforderlich ist, greifen sie entschlossen ein, ohne dass das Scrum-Team die Verantwortung für seine Aufgaben verliert. Produktentwickler zeigen Führungsqualitäten durch ihre selbst-gemanagte Teamorientierung, ihre Professionalität und ihre Zielorientierung; Selbst-Management geht mit Verantwortung einher. Unterstützer zeigen Führungsqualitäten, indem sie kurz- und langfristige Hindernisse beseitigen, die Kohärenz der Managementprozesse mit Scrum verbessern und bei Bedarf dringende Veränderungen in eine positive Richtung unterstützen.
 
 ### First Principles Thinking {#first-principles-thinking}
 
@@ -286,7 +286,7 @@ Die vier Scrum-Rollen sind Produkt Owner, Produktentwickler, Scrum Master und St
 
 Eine Person kann mehr als eine Scrum-Rolle innehaben. Wenn man mehr als eine Rolle übernimmt, muss man darauf achten, dass man sich nicht überschreitet. Die Scrum-Rollen sind so konzipiert, dass sie gegenseitige Kontrollen und Ausgewogenheit gewährleisten.
 
-Ein Scrum-Team ist ein Team, das Scrum praktiziert, drei Scrum-Verantwortlichkeiten wahrnimmt, nämlich Scrum Master, Produkt Owner und Produktentwickler, sich mit Problemen oder Chancen von Stakeholdern (einschließlich, aber nicht beschränkt auf Kunden oder Nutzer) befasst und aus der Perspektive des Scrum-Teams und der Stakeholder nützliche, nutzbare und potenziell wertvolle Inkremente für das Produktziel liefert. Für komplexe (30-35) Arbeiten sollte ein Scrum-Team klein, kognitiv vielfältig und selbstverwaltend sein, wobei die menschlichen Mitglieder des Scrum-Teams, oft unterstützt durch Technologie, sich um die Arbeit der anderen kümmern und lernen, die Arbeit der anderen zu erledigen.
+Ein Scrum-Team ist ein Team, das Scrum praktiziert, drei Scrum-Verantwortlichkeiten wahrnimmt, nämlich Scrum Master, Produkt Owner und Produktentwickler, sich mit Problemen oder Chancen von Stakeholdern (einschließlich, aber nicht beschränkt auf Kunden oder Nutzer) befasst und aus der Perspektive des Scrum-Teams und der Stakeholder nützliche, nutzbare und potenziell wertvolle Inkremente für das Produktziel liefert. Für komplexe (30-35) Arbeiten sollte ein Scrum-Team klein, kognitiv vielfältig und selbst-gemanagt sein, wobei die menschlichen Mitglieder des Scrum-Teams, oft unterstützt durch Technologie, sich um die Arbeit der anderen kümmern und lernen, die Arbeit der anderen zu erledigen.
 
 Das Scrum-Team sollte funktionsübergreifend sein, d. h. es ist multidisziplinär und umfasst technische und betriebswirtschaftliche Kompetenzen. Innerhalb des Scrum-Teams gibt es keine explizite Hierarchie. Das Scrum-Team sollte über alle erforderlichen Kompetenzen und Unterstützung verfügen, um
 
@@ -294,13 +294,13 @@ Das Scrum-Team sollte funktionsübergreifend sein, d. h. es ist multidisziplinä
 - zu liefern (einschließlich Engineering, wenn erforderlich) und
 - die Wertrealisierung (sowie zusätzlich die Verwendbarkeit, Attraktivität und Realisierbarkeit innerhalb ethischer (57) Grenzen) zu validieren.
 
-Das Scrum-Team kümmert sich mit Unterstützung der Supporter gemeinsam um den Problem- oder Chancenbereich, die Produktentdeckung, die Lieferung, die Verifizierung und die integrierte Qualität, die Markteinführung und die Wertvalidierung im Hinblick auf das Produktziel. Das Scrum-Team strebt nach Nettoverbesserungen; da es selbstverwaltet ist (49), entscheidet es selbst, wer was, wie, wann und wo tut.
+Das Scrum-Team kümmert sich mit Unterstützung der Supporter gemeinsam um den Problem- oder Chancenbereich, die Produktentdeckung, die Lieferung, die Verifizierung und die integrierte Qualität, die Markteinführung und die Wertvalidierung im Hinblick auf das Produktziel. Das Scrum-Team strebt nach Nettoverbesserungen; da es selbst-gemanagt ist (49), entscheidet es selbst, wer was, wie, wann und wo tut.
 
 Die Wertvalidierung ist die Bestätigung (oder Widerlegung) innerhalb der gegebenen Grenzen, dass die erwarteten Ergebnisse erzielt wurden.
 
 Das Scrum-Team liefert in jedem Sprint ein oder mehrere Inkremente, verwaltet sich kontinuierlich selbst (49), um Probleme zu finden und zu beheben, synchronisiert sich kontinuierlich und veröffentlicht häufig. Das Scrum-Team ist klein genug, um flexibel zu bleiben, und groß genug, um innerhalb eines Sprints bedeutende Arbeit zu leisten. Oft kommunizieren kleinere Scrum-Teams besser und sind produktiver.
 
-Scrum basiert auf selbstverwalteten Scrum-Teams (49) innerhalb einer definierten Organisations- oder Produktstruktur. Es besteht Autonomie, die jedoch durch Scrum-Ereignisse, Verantwortlichkeiten, Artefakte, Verpflichtungen, Säulen, Werte und organisatorische Anforderungen begrenzt ist.
+Scrum basiert auf selbst-gemanagten Scrum-Teams (49) innerhalb einer definierten Organisations- oder Produktstruktur. Es besteht Autonomie, die jedoch durch Scrum-Ereignisse, Verantwortlichkeiten, Artefakte, Verpflichtungen, Säulen, Werte und organisatorische Anforderungen begrenzt ist.
 
 Scrum bindet Gruppen von Menschen ein, die gemeinsam über alle Fähigkeiten und Fachkenntnisse verfügen oder diese erwerben, um die Arbeit zu erledigen und diese Fähigkeiten bei Bedarf zu teilen. Bewusste Interaktionen, die von Führungskräften unterstützt werden, sind erforderlich, um die Chancen auf erfolgreiche Ergebnisse zu verbessern.
 
@@ -310,7 +310,7 @@ Scrum fördert die Zusammenarbeit im Team, indem es kontinuierliche Interaktion 
 
 Überschneidende Arbeiten fördern die gemeinsame Verantwortung innerhalb des Scrum-Teams und stärken so das Engagement und die Einsatzbereitschaft. Das Scrum-Team konzentriert sich auf die Bewältigung von Herausforderungen und Chancen, fördert proaktives Verhalten, fördert die Entwicklung vielfältiger Fähigkeiten und schärft das Bewusstsein aller Beteiligten für die Marktdynamik.
 
-Das Scrum-Team kümmert sich um alle produktbezogenen Aktivitäten, von der Zusammenarbeit mit den Stakeholdern bis zur Wertvalidierung, einschließlich Verifizierung, Wartung, Betrieb, Experimenten, Forschung und Entwicklung sowie allem, was sonst noch erforderlich sein könnte. Das Scrum-Team sorgt für Qualität. Unterstützer sorgen dafür, dass die Organisation das Klima und das Arbeitsumfeld gestaltet und das Scrum-Team zur Selbstverwaltung befähigt (49). Die Arbeit in Sprints in einem nachhaltigen Tempo verbessert die Fokussierung und Konsistenz.
+Das Scrum-Team kümmert sich um alle produktbezogenen Aktivitäten, von der Zusammenarbeit mit den Stakeholdern bis zur Wertvalidierung, einschließlich Verifizierung, Wartung, Betrieb, Experimenten, Forschung und Entwicklung sowie allem, was sonst noch erforderlich sein könnte. Das Scrum-Team sorgt für Qualität. Unterstützer sorgen dafür, dass die Organisation das Klima und das Arbeitsumfeld gestaltet und das Scrum-Team zum Selbst-Management befähigt (49). Die Arbeit in Sprints in einem nachhaltigen Tempo verbessert die Fokussierung und Konsistenz.
 
 Das Scrum-Team und die Stakeholder wissen nicht, was sie lernen werden. Einige Erkenntnisse sorgen für mehr Sicherheit, andere schaffen mehr Unsicherheit (72). Einige Dinge könnten auftauchen, wieder verschwinden, wegfallen oder an Priorität verlieren.
 
@@ -336,7 +336,7 @@ Gesetzgeber (sowie, für die Zwecke dieses Dokuments, externe oder interne polit
 
 Finanzielle Sponsoren stellen Finanzmittel und Ressourcen für die Produktentwicklung, -einführung und -verbesserung bereit. Sie bewerten die Rentabilität, den Wert und die Machbarkeit des Produkts und investieren auf der Grundlage seines Potenzials, kontinuierlich Wert für die Stakeholder zu schaffen. Finanzielle Sponsoren beeinflussen die Produktvision, -strategie und -ziele, um die Ausrichtung auf die Kapitalrendite und die langfristige Nachhaltigkeit sicherzustellen. Für eine erfolgreiche Einführung von Scrum ist es entscheidend, flexibel zu sein und die Finanzierung anzupassen, wenn neue Informationen bekannt werden.
 
-Fachexperten bringen fundiertes Wissen oder einzigartige Fähigkeiten ein, die für die Erstellung, Weiterentwicklung und Wartung des Produkts unerlässlich sind. Unabhängig davon, ob sie sich auf Technologie, Design, Compliance oder einen bestimmten Bereich konzentrieren, unterstützen Fachexperten die Benutzerfreundlichkeit, Machbarkeit, Professionalität und Erweiterbarkeit des Produkts, ohne die selbstverwalteten Scrum-Teams zu behindern (49). Sie können dazu beitragen, Zufriedenheitslücken zu schließen und die Fähigkeit des Produkts zu verbessern, sich anzupassen und neue Entwicklungen zu erkennen, darzustellen oder zu messen (71). Für eine erfolgreiche Einführung von Scrum ist es entscheidend, einen regelmäßigen Wissenstransfer von Fachexperten zum Scrum-Team und innerhalb des Teams zu fördern.
+Fachexperten bringen fundiertes Wissen oder einzigartige Fähigkeiten ein, die für die Erstellung, Weiterentwicklung und Wartung des Produkts unerlässlich sind. Unabhängig davon, ob sie sich auf Technologie, Design, Compliance oder einen bestimmten Bereich konzentrieren, unterstützen Fachexperten die Benutzerfreundlichkeit, Machbarkeit, Professionalität und Erweiterbarkeit des Produkts, ohne die selbst-gemanagten Scrum-Teams zu behindern (49). Sie können dazu beitragen, Zufriedenheitslücken zu schließen und die Fähigkeit des Produkts zu verbessern, sich anzupassen und neue Entwicklungen zu erkennen, darzustellen oder zu messen (71). Für eine erfolgreiche Einführung von Scrum ist es entscheidend, einen regelmäßigen Wissenstransfer von Fachexperten zum Scrum-Team und innerhalb des Teams zu fördern.
 
 Der Begriff „Zufriedenheitslücke” bezeichnet die Differenz zwischen dem, was Stakeholder derzeit erleben, und dem, was sie sich wünschen würden. Mit anderen Worten: Es handelt sich um die Lücke zwischen der aktuellen Zufriedenheit der Stakeholder mit einem Produkt und der Zufriedenheit, die sie erreichen könnten.
 
@@ -443,7 +443,7 @@ Der Scrum Master ist eine Rolle und eine Verantwortung. Der Scrum Master muss ei
 
 Der Scrum Master sollte je nach Situation angemessenes Verhalten an den Tag legen; dazu gehören (unter anderem) die Rolle als Wegweiser, Coach, Mentor, Lehrer, Beobachter, Hindernisbeseitiger, Change Agent, Moderator für Effektivität und Verfechter kontinuierlicher Verbesserung. Der Scrum Master ist weder Teamadministrator, Statusmanager, Aufgabeverteiler, Regelprediger, Meeting-Raumbuchungsbeauftragter, Berichtsdashboard-Administrator, Vorsitzender, Held, Koordinator noch ein abwesender Scrum Master, der alles dem „Selbstmanagement” überlässt.
 
-Der Scrum Master ist verantwortlich für die Effektivität des Scrum Teams, der Stakeholder, der Unterstützer und der betroffenen Personen bei der Umsetzung von Empirismus (67), Selbstmanagement und Scrum, wie in diesem Dokument beschrieben. Der Scrum Master befasst sich mit allem, was den Fortschritt eines Scrum Teams behindert oder verlangsamt und nicht vom Scrum Team gelöst werden kann.
+Der Scrum Master ist verantwortlich für die Effektivität des Scrum Teams, der Stakeholder, der Unterstützer und der betroffenen Personen bei der Umsetzung von Empirie (67), Selbstmanagement und Scrum, wie in diesem Dokument beschrieben. Der Scrum Master befasst sich mit allem, was den Fortschritt eines Scrum Teams behindert oder verlangsamt und nicht vom Scrum Team gelöst werden kann.
 
 Der Scrum Master unterstützt das Scrum Team, den Product Owner und die Unterstützer auf verschiedene Weise, darunter:
 
@@ -503,7 +503,7 @@ Scrum Master können sich mit anderen Scrum Mastern oder Supportern zusammenschl
 
 Der Scrum Master ist eine Person, kein Ausschuss oder eine Technologie, und dient dem Produkt Owner, dem Scrum Team, den Stakeholdern und der gesamten Organisation. Als Change Agent und Führungskraft sollte der Scrum Master generell alle Personen zur Teilnahme an der Veränderung einladen. Es ist hilfreich, wenn der Scrum Master über Kenntnisse des Wertflusses (68,69), Lean (63), der Komplexitätstheorie (30-35) und anderer unterstützender und ergänzender Theorien in diesem Dokument verfügt und Menschen beim „Wie” unterstützt. Es ist auch hilfreich, wenn der Scrum Master unermüdlich ist und einen unstillbaren Hunger nach Lernen und Veränderung hat.
 
-Scrum Master zu sein ist eine Berufung, bei der es Belohnung genug ist, anderen zum Erfolg zu verhelfen. Ein Scrum Master steht nicht im Rampenlicht. Wie jeder gute Leiter gibt er anderen Anerkennung und übernimmt Verantwortung, wenn etwas schief läuft. Eine längere Verbleibdauer in dieser Rolle hilft dabei, das Scrum-Team zu seinem vollen Potenzial zu führen, jedoch nur, wenn die Produktentwickler gemeinsam Selbstmanagement entwickeln. Ein elterliches Verhalten des Scrum Masters fördert kein selbstverwaltetes Scrum-Team. Der Kontext ist wichtig. Als Faustregel gilt jedoch, dass ein Scrum Master, der weder willens, bereit noch in der Lage ist, als Motor des Wandels zu fungieren, sein Amt als Scrum Master niederlegen sollte.
+Scrum Master zu sein ist eine Berufung, bei der es Belohnung genug ist, anderen zum Erfolg zu verhelfen. Ein Scrum Master steht nicht im Rampenlicht. Wie jeder gute Leiter gibt er anderen Anerkennung und übernimmt Verantwortung, wenn etwas schief läuft. Eine längere Verbleibdauer in dieser Rolle hilft dabei, das Scrum-Team zu seinem vollen Potenzial zu führen, jedoch nur, wenn die Produktentwickler gemeinsam Selbstmanagement entwickeln. Ein elterliches Verhalten des Scrum Masters fördert kein selbst-gemanagtes Scrum-Team. Der Kontext ist wichtig. Als Faustregel gilt jedoch, dass ein Scrum Master, der weder willens, bereit noch in der Lage ist, als Motor des Wandels zu fungieren, sein Amt als Scrum Master niederlegen sollte.
 
 ## Die Scrum-Artefakte im Erweiterungspaket {#the-scrum-artifacts-in-the-expansion-pack}
 
@@ -785,7 +785,7 @@ Der organisatorische Lerntransfer, wie er in „The New New Product Development 
 
 Organisationen sind oft auf einfache Verwaltung statt auf einfache Ergebnisse ausgelegt. Fragen Sie sich, wie viele Scrum-Teams ein Problem oder eine Chance betrifft, um einen Mehrwert zu erzielen. Im Allgemeinen gilt: Je geringer diese Zahl ist, desto besser.
 
-Befreien Sie Teams von Befehls- und Kontrollstrukturen. Entscheiden Sie sich lieber für abgestimmte Autonomie. Fördern Sie zielgerichtete, bewusste Interaktionen innerhalb und zwischen selbstverwalteten Scrum-Teams (49). Schaffen Sie ein Arbeitsklima mit minimalen, aber ausreichenden Managementprozessen, Rahmenbedingungen und Grenzen. Gleichen Sie die Erwartungen und Grenzen der Stakeholder aus und fördern Sie sie. Bauen Sie Veränderungskompetenz und kontinuierliche Verbesserung in einer Richtung auf, nicht nur die Lieferung, und machen Sie dies zu einer Gewohnheit.
+Befreien Sie Teams von Befehls- und Kontrollstrukturen. Entscheiden Sie sich lieber für abgestimmte Autonomie. Fördern Sie zielgerichtete, bewusste Interaktionen innerhalb und zwischen selbst-gemanagten Scrum-Teams (49). Schaffen Sie ein Arbeitsklima mit minimalen, aber ausreichenden Managementprozessen, Rahmenbedingungen und Grenzen. Gleichen Sie die Erwartungen und Grenzen der Stakeholder aus und fördern Sie sie. Bauen Sie Veränderungskompetenz und kontinuierliche Verbesserung in einer Richtung auf, nicht nur die Lieferung, und machen Sie dies zu einer Gewohnheit.
 
 Im Zweifelsfall sollten Sie sich mit dem New New Product Development Game (29) befassen, das Gute an den aktuellen Neuerungen annehmen, aber alle Vorstellungen von einem Industriekomplex (30-35) ablehnen, in dem nur mutige Menschen die Möglichkeit haben, etwas zu bewegen.
 
@@ -803,7 +803,7 @@ Seien Sie vorsichtig, wenn Sie Ansätze anderer Unternehmen kopieren, ohne deren
 
 ### Danksagungen {#acknowledgments}
 
-Scrum wurde inspiriert von Lean (63), dem Toyota-Produktionssystem (59-60), dem Artikel „The New New Product Development Game” von Hirotaka Takeuchi und Ikujiro Nonaka (29) in der Harvard Business Review und dem Empirismus bei Dupont (61).
+Scrum wurde inspiriert von Lean (63), dem Toyota-Produktionssystem (59-60), dem Artikel „The New New Product Development Game” von Hirotaka Takeuchi und Ikujiro Nonaka (29) in der Harvard Business Review und dem Empirie bei Dupont (61).
 
 Scrum wurde in den frühen 1990er Jahren entwickelt. Ken Schwaber und Jeff Sutherland stellten Scrum erstmals 1995 auf der OOPSLA-Konferenz vor (62). Die erste Version des [Scrum Guide](https://scrumguides.org/) (40) erschien 2009. Scrum entwickelt sich weiter.
 
@@ -817,7 +817,7 @@ Scrum wird im [2020 Scrum Guide](https://scrumguides.org/) (40) beschrieben. Scr
 
 **Warum Scrum verwenden?**
  
-Scrum ermöglicht es Scrum-Teams, Emergenz (71) zu identifizieren, darzustellen oder zu messen, Unsicherheiten zu akzeptieren, auf Veränderungen zu reagieren, häufig Werte zu liefern und zu validieren sowie sich kontinuierlich zu verbessern. Scrum fördert die Zusammenarbeit, Verantwortlichkeit und evidenzbasierte Entscheidungsfindung und sorgt so für bestmögliche Ergebnisse in einem sich schnell verändernden Umfeld. Selbstverwaltete Scrum-Teams, die sich an Werten orientieren, sind entscheidend für kreative Problemlösungen und die Nutzung von Chancen; nicht selbstverwaltete Scrum-Teams behindern die Fähigkeit, mit Komplexität umzugehen (30-35). Selbstverwaltete Scrum-Teams sind nicht zu verwechseln mit individueller Selbstverwaltung.
+Scrum ermöglicht es Scrum-Teams, Emergenz (71) zu identifizieren, darzustellen oder zu messen, Unsicherheiten zu akzeptieren, auf Veränderungen zu reagieren, häufig Werte zu liefern und zu validieren sowie sich kontinuierlich zu verbessern. Scrum fördert die Zusammenarbeit, Verantwortlichkeit und evidenzbasierte Entscheidungsfindung und sorgt so für bestmögliche Ergebnisse in einem sich schnell verändernden Umfeld. selbst-gemanagte Scrum-Teams, die sich an Werten orientieren, sind entscheidend für kreative Problemlösungen und die Nutzung von Chancen; nicht selbst-gemanagte Scrum-Teams behindern die Fähigkeit, mit Komplexität umzugehen (30-35). selbst-gemanagte Scrum-Teams sind nicht zu verwechseln mit individueller Selbst-Management.
 
 **Elemente von Scrum**
 
@@ -833,7 +833,7 @@ Scrum ermöglicht es Scrum-Teams, Emergenz (71) zu identifizieren, darzustellen 
 
 3\. _Rollen_ / Verantwortlichkeiten:
 
-- Scrum-Team – Ein kleines, selbstverwaltetes, funktionsübergreifendes, kognitiv vielfältiges Team, bestehend aus:
+- Scrum-Team – Ein kleines, selbst-gemanagtes, funktionsübergreifendes, kognitiv vielfältiges Team, bestehend aus:
 - Produkt Owner – Maximiert den langfristigen Wert, bindet Stakeholder ein und verwaltet das Product Backlog.
 - Scrum Master – Leitet die Einführung von Scrum, beseitigt Hindernisse und fördert kontinuierliche Verbesserungen.
 - Produktentwickler – Liefern durch ihre funktionsübergreifenden Fähigkeiten in jedem Sprint Inkremente.
@@ -864,7 +864,7 @@ Scrum ermöglicht es Scrum-Teams, Emergenz (71) zu identifizieren, darzustellen 
 Ergänzungen
 
 - Abschnitt „KI”
-- Abschnitte „Selbstverwaltendes Scrum-Team”, „Kadenz” und „Professionalität”
+- Abschnitte „selbst-gemanagtes Scrum-Team”, „Kadenz” und „Professionalität”
 - Abschnitt „Entstehung”, offen für die Idee, dass Risiken oder Abweichungen von den Erwartungen nicht unbedingt mit der Zeit abnehmen
 - Abschnitt „Komplexität (30–35) – Argumente für Scrum”
 - Abschnitte „Führung” und „Systemisches Denken”
@@ -941,7 +941,7 @@ Während Modelle wie Haier's Rendanheyi (56, 101) die Werte Dezentralisierung un
 
 #### Soziokratie {#sociocracy}
 
-Soziookratie (1,11-14) ist ein Governance-System, das Menschen in selbstverwalteten (49) Kreisen organisiert und Entscheidungen nicht durch Mehrheitsbeschluss, sondern durch Konsens trifft. Es wurde in den 1970er Jahren von Gerard Endenburg (81) in den Niederlanden entwickelt und stellt sicher, dass alle von einer Entscheidung Betroffenen eine Stimme haben und Vorschläge nur dann weiterverfolgt werden, wenn keine begründeten Einwände erhoben werden. Geleitet vom Grundsatz „gut genug für jetzt, sicher genug, um es zu versuchen” verteilt Soziokratie Autorität, fördert Transparenz, Verantwortlichkeit und kontinuierliche Verbesserung und stärkt Zusammenarbeit und gemeinsames Verantwortungsbewusstsein. Ihre Prinzipien haben Modelle wie Holacracy und selbstverwaltete Teams beeinflusst.
+Soziookratie (1,11-14) ist ein Governance-System, das Menschen in selbst-gemanagten (49) Kreisen organisiert und Entscheidungen nicht durch Mehrheitsbeschluss, sondern durch Konsens trifft. Es wurde in den 1970er Jahren von Gerard Endenburg (81) in den Niederlanden entwickelt und stellt sicher, dass alle von einer Entscheidung Betroffenen eine Stimme haben und Vorschläge nur dann weiterverfolgt werden, wenn keine begründeten Einwände erhoben werden. Geleitet vom Grundsatz „gut genug für jetzt, sicher genug, um es zu versuchen” verteilt Soziokratie Autorität, fördert Transparenz, Verantwortlichkeit und kontinuierliche Verbesserung und stärkt Zusammenarbeit und gemeinsames Verantwortungsbewusstsein. Ihre Prinzipien haben Modelle wie Holacracy und selbst-gemanagte Teams beeinflusst.
 
 Die etablierteste Variante ist die Sociocratic Circle-Organization Method (SCM), die ursprüngliche, formalisierte Methode. SCM verwendet halbautonome Kreise, doppelte Verknüpfungen (bei denen zwei Personen an zwei direkt miteinander verbundenen Kreisen teilnehmen, um diese Kreise zu verbinden), konsensbasierte Entscheidungsfindung und offene Wahlen für Rollen. Diese Struktur gewährleistet sowohl die Effizienz der Organisation als auch die Gleichberechtigung der Mitglieder und hat sich in Unternehmen, Genossenschaften und Schulen in den Niederlanden bewährt.
 
@@ -1224,7 +1224,7 @@ Diese Sammlung wurde von _Ralph Jocham, John Coleman und Jeff Sutherland_ verfas
 46. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Auch verfügbar unter: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)._
 47. _Gilb, T. (2009) „Agile specification quality control: Shifting emphasis from cleanup to sampling defects”, Testing Experience, März. Verfügbar unter: [https://www.researchgate.net/publication/294196272_Agile_specification_quality_control](https://www.researchgate.net/publication/294196272_Agile_specification_quality_control) \[Zugriff: 17. Mai 2025\]._
 48. _Gilb, T. & Gilb, K. (1989) „Die McDonnell-Douglas-Fallstudie zu SQC und technischen Verbesserungen: Fall DAC-Inspektion 1988–89”. Verfügbar unter: [https://bit.ly/TomGilbMcDonnell-Douglas](https://bit.ly/TomGilbMcDonnell-Douglas) \[Zugriff: 17. Mai 2025\]._
-49. _LeSS.works (o. J.) Selbstverwaltete Teams. Verfügbar unter: [https://less.works/less/management/self-managing-teams](https://less.works/less/management/self-managing-teams) (Zugriff: 17. Mai 2025)._
+49. _LeSS.works (o. J.) selbst-gemanagte Teams. Verfügbar unter: [https://less.works/less/management/self-managing-teams](https://less.works/less/management/self-managing-teams) (Zugriff: 17. Mai 2025)._
 50. _Gothelf, J. & Seiden, J. (2021) Lean UX: Designing great products with agile teams. 3. Auflage. Sebastopol, CA: O’Reilly Media_
 51. _Torres, T. (2021) Continuous discovery habits: Discover products that create customer value and business value. North Charleston, SC: Product Talk_
 52. _Scrum.org (2025) Scrum Hexis. Verfügbar unter: [https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (Zugriff: 17. Mai 2025)._
@@ -1257,7 +1257,7 @@ _Mitglieder der Scrum Patterns Group: Vervloed, E., Harrison, N., Harada, K., Yo
 78. Dictionary Marketing (2024) „B2B2B“. Verfügbar unter: [https://dictionarymarketing.com/definition/b2b2b/](https://dictionarymarketing.com/definition/b2b2b/) (Zugriff: 17. Mai 2025)._
 79. _NetSuite (2023) „What Is Business to Business to Consumer (B2B2C)?“ Verfügbar unter: [https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml](https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml) (Zugriff: 17. Mai 2025)._
 80. _LeSS (o. J.) „Warum LeSS? Anpassungsfähigkeit erreichen”. Verfügbar unter: [https://less.works/less/framework/why-less](https://less.works/less/framework/why-less) (Zugriff: 17. Mai 2025)._
-81. _Sociocracy For All (o. J.) „Gerard Endenburg: Begründer der Soziokratischen Kreismethode und Pionier der Selbstverwaltung“. Verfügbar unter: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (Zugriff: 18. Mai 2025)._
+81. _Sociocracy For All (o. J.) „Gerard Endenburg: Begründer der Soziokratischen Kreismethode und Pionier der Selbst-Management“. Verfügbar unter: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (Zugriff: 18. Mai 2025)._
 82. _Patton, J. und Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O’Reilly Media._
 83. _Kotter, J.P., 1996\. Leading Change. Boston: Harvard Business School Press._
 84. _„Genchi Genbutsu” (2024) Wikipedia. Verfügbar unter: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (Zugriff: 18. Mai 2025)._
