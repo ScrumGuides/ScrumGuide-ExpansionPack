@@ -23,14 +23,22 @@ languages:
     params:
       description: "ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy."
       keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site"
-  tlh:
-    languageName: Klingon
+  de:
+    languageName: Deutsch
     weight: 2
+    title: Scrum Guide Expansion Pack
+    params:
+      description: "ScrumExpansion.org bietet das Scrum Guide Expansion Pack—moderne Empfehlungen für die Anwendung von Scrum bei komplexer Arbeit, KI und adaptiver Strategie."
+      keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum Anleitung, fortgeschrittene Scrum Praktiken, Scrum für moderne Arbeit, adaptive Unternehmen, agile Produktlieferung, empirisches Scrum, Produktdenken, Komplexitätstheorie in Scrum, Scrum Führung, professionelles Scrum, Scrum und KI, Scrum Ressourcen, Scrum Lernplattform, Scrum Community Website"
+  tlh:
+    languageName: Klingon (reference)
+    weight: 1000
     languageCode: "tlh"
     languageDirection: "ltr"
     title: pOlonyuS puqloD
     params:
       description: pOlonyuS puqloD
+      status: "reference"
       keywords: Yach
   fa:
     languageName: فارسی
@@ -41,6 +49,25 @@ languages:
     params:
       description: "ScrumExpansion.org میزبان بسته گسترش‌یافته راهنمای اسکرام است — راهنمایی مدرن برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی و راهبردهای تطبیقی."
       keywords: "اسکرام، ScrumExpansion.org، بسته گسترش‌یافته راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته اسکرام، اسکرام برای کار مدرن، سازمان تطبیق‌پذیر، تحویل چابک محصول، اسکرام تجربی، تفکر محصول، نظریه پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه اسکرام"
+      discussionId: 61
+  pl:
+    languageName: Polski
+    weight: 3
+    languageCode: "pl"
+    title: Scrum Guide Expansion Pack
+    params:
+      description: ScrumExpansion.org udostępnia - aktualne wytyczne do wykorzystania Scruma w złożonej pracy, sztucznej inteligencji i adaptacyjnych strategiach.
+      keywords: "Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, wytyczne Scrum, zaawansowane praktyki Scrum, Scrum dla nowoczesnej pracy, adaptacyjne przedsiębiorstwo, zwinne dostarczanie produktów, empiryczny Scrum, myślenie produktowe, teoria złożoności w Scrum, przywództwo Scrum, profesjonalny Scrum, Scrum i AI, zasoby Scrum, centrum nauki Scrum, strona społeczności Scrum"
+      discussionId: 131
+  nl:
+    languageName: Nederlands
+    weight: 3
+    languageCode: "nl"
+    title: Scrum Guide Expansion Pack
+    params:
+      description: "ScrumExpansion.org is de thuisbasis van het Scrum Gids Uitbreidingspakket — moderne richtlijnen voor het toepassen van Scrum op complexe werkzaamheden, AI en adaptieve strategie."
+      keywords: "Scrum, ScrumExpansion.org, Scrum Gids Uitbreidingspakket, Scrum richtlijnen, geavanceerde Scrum praktijken, Scrum voor modern werk, adaptieve onderneming, agile productlevering, empirische Scrum, productdenken, complexiteitstheorie in Scrum, Scrum leiderschap, professioneel Scrum, Scrum en AI, Scrum bronnen, Scrum leerhub, Scrum gemeenschapssite"
+      discussionId: 125
 
 # Site-wide parameters
 params:
@@ -50,6 +77,8 @@ params:
   siteProdUrl: "https://scrumexpansion.org"
   supportEmail: "support@scrumexpansion.org"
   githubUrl: "https://github.com/ScrumGuides/ScrumGuide-ExpansionPack"
+  previewSiteUrl: "https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/"
+  productionSiteUrl: "https://scrumexpansion.org/"
 
 # Enable sitemap and robots.txt
 sitemap:
@@ -64,7 +93,7 @@ rss:
   description: "Subscribe to our RSS feed"
 
 outputs:
-  home: [html, json, rss]
+  home: [html, json, rss, languages]
   section: [html, rss]
   taxonomy: [html, rss]
   term: [html, rss]
@@ -74,6 +103,10 @@ outputFormats:
   json:
     mediaType: "application/json"
     baseName: "pages"
+  languages:
+    mediaType: "application/json"
+    baseName: "languages"
+    isPlainText: true
 
 markup:
   goldmark:

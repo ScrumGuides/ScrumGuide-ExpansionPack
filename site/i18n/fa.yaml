@@ -142,3 +142,25 @@
 
 - id: read_online_action
   translation: "مطالعه آنلاین"
+
+# Preview Translations functionality
+- id: download_preview_translations
+  translation: "ترجمه‌های پیش‌نمایش"
+
+- id: download_preview_description
+  translation: "این ترجمه‌ها در پیش‌نمایش موجود هستند و قبل از انتقال به سایت اصلی به حداقل ۵ بازبین جامعه نیاز دارند. در بازبینی و بهبود این ترجمه‌ها به ما کمک کنید!"
+
+- id: download_visit_preview
+  translation: "مشاهده سایت پیش‌نمایش"
+
+- id: download_table_status
+  translation: "وضعیت"
+
+- id: download_preview_status
+  translation: "در پیش‌نمایش"
+
+- id: download_preview_action
+  translation: "پیش‌نمایش"
+
+- id: download_discussion_action
+  translation: "بحث"

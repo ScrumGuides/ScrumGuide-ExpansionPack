@@ -6,7 +6,7 @@ This document provides a detailed overview of the Scrum Guide Expansion Pack's t
 
 ### Core Technologies
 
-- **[Hugo](https://gohugo.io/)** - Static site generator (Extended version required)
+- **[Hugo](https://gohugo.io/)** - Static site generator (Extended v0.146.0+ required for new template system)
 - **[Bootstrap 5](https://getbootstrap.com/)** - CSS framework for responsive design
 - **[Font Awesome](https://fontawesome.com/)** - Icon library
 - **[Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/)** - Hosting platform
@@ -44,17 +44,23 @@ graph TB
 
 The main Hugo site directory containing all source files:
 
-```
+```text
 site/
 ├── content/           # Markdown content files
 │   ├── _index.md     # Homepage content
 │   ├── creators/     # Creator profiles
 │   ├── download/     # Download pages
 │   └── guide/        # Main guide content
-├── layouts/          # HTML templates
-│   ├── _default/     # Default templates
+├── layouts/          # HTML templates (Hugo v0.146.0+ structure)
+│   ├── baseof.html   # Base template (moved from _default/)
+│   ├── home.html     # Homepage template (renamed from index.html)
+│   ├── single.html   # Single page template (moved from _default/)
+│   ├── list.html     # List template (moved from _default/)
 │   ├── guide/        # Guide-specific layouts
-│   └── partials/     # Reusable components
+│   ├── creators/     # Creator-specific layouts
+│   ├── _partials/    # Reusable components (renamed from partials/)
+│   ├── _shortcodes/  # Custom shortcodes (renamed from shortcodes/)
+│   └── _markup/      # Render hooks for markdown elements
 ├── static/           # Static assets
 │   ├── css/         # Custom stylesheets
 │   ├── images/      # Images and graphics
@@ -98,18 +104,41 @@ The site supports multiple languages using Hugo's built-in i18n features:
 
 ## Template Hierarchy
 
-Hugo follows a specific template lookup order:
+Hugo's new template system (v0.146.0+) follows a streamlined lookup order that considers multiple identifiers:
 
-1. `layouts/guide/single.html` - Guide-specific template
-2. `layouts/_default/single.html` - Default single page template
-3. `layouts/_default/baseof.html` - Base template
+### Template Lookup Order
+
+1. **Custom Layout** - Defined in front matter (`layout: myCustomLayout`)
+2. **Page Kinds** - `home`, `section`, `taxonomy`, `term`, `page`
+3. **Standard Layouts** - `list`, `single`, `all`
+4. **Output Format** - `html`, `rss`, `json`
+5. **Language** - `en`, `de`, `es`, etc.
+6. **Page Path** - Content-specific paths for targeted templates
+
+### Key Template Changes
+
+- **No `_default/` folder**: All default templates moved to `layouts/` root
+- **Renamed folders**: `partials/` → `_partials/`, `shortcodes/` → `_shortcodes/`
+- **New `_markup/` folder**: For render hooks (links, images, code blocks)
+- **Homepage template**: `index.html` → `home.html`
+- **Base templates**: `list-baseof.html` → `baseof.list.html`
+
+### Template Examples
+
+For a guide page (`/guide/my-guide/`), Hugo looks for templates in this order:
+
+1. `layouts/guide/my-guide/single.html` - Most specific
+2. `layouts/guide/single.html` - Content type specific
+3. `layouts/single.html` - Default single template
+4. `layouts/baseof.html` - Base template
 
 ### Key Templates
 
 - **`baseof.html`** - Base template with common HTML structure
+- **`home.html`** - Homepage template (renamed from `index.html`)
 - **`single.html`** - Individual page template
 - **`list.html`** - List/index page template
-- **`index.html`** - Homepage template
+- **`all.html`** - New catch-all template for any page type
 
 ## Build Process
 

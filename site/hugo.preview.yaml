@@ -6,7 +6,5 @@ buildDrafts: true
 buildFuture: true
 
 languages:
-  tlh:
-    disabled: false
-  fa:
-    disabled: false
+  pl:
+    disabled: true
