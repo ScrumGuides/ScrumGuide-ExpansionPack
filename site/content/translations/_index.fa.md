@@ -1,7 +1,7 @@
 ---
 title: ترجمه‌ها
 layout: translations
-description: ترجمه‌های بسته توسعه راهنمای اسکرام
+description: ترجمه‌های مقاله‌ی مکمل راهنمای اسکرام
 aliases:
   - /downloads/
 ---
