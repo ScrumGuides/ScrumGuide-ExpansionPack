@@ -641,7 +641,7 @@ The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint 
 
 The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work.
 
-## Gli Eventi Scrum considerati nell’Expansion Pack {#evnti-scrum-considerati-nell-expansion-pack}
+## Gli Eventi Scrum considerati nell’Expansion Pack {#the-scrum-events-in-the-expansion-pack}
 
 Scrum combina quattro eventi di durata limitata (detti “timebox”) necessari per Ispezione e Adattamento, che si svolgono all'interno di un quinto evento di durata fissa, lo Sprint che li raggruppa. Questi eventi supportano i pilastri Scrum di Trasparenza, Ispezione e Adattamento. I rilasci del prodotto servono a generare valore, idealmente, in modo continuo. Rilasci poco frequenti comportano ritardi nei feedback sui risultati.
 
@@ -653,7 +653,7 @@ Ogni evento ha un proprio scopo preciso e dovrebbe includere attivitá approfond
 
 Una comunicazione continua ed efficace è fondamentale per garantire che il Team Scrum e coloro che lo supportano si concentrino sulla fare la cosa giusta. Con la sola eccezione dello Sprint (una volta definita la sua durata, ndt), gli altri quattro eventi possono avere una durata inferiore, a patto che non se ne perda la coerenza ed efficacia.
 
-### Lo Sprint {#lo-sprint}
+### Lo Sprint {#the-sprint}
 
 Lo Sprint è un evento in cui le idee si trasformano in valore. Lo Sprint è l'evento che racchiude tutti gli altri eventi di Scrum. È un'iterazione di durata determinata, durante la quale viene svolto il lavoro effettivo. Fornisce _Focalizzazione_ (Focus) e stabilità. Uno Sprint non puó durare più di quattro settimane. Il nuovo Sprint inizia immediatamente dopo il termine di quello precedente. Tutto il lavoro necessario per raggiungere il Product Goal si svolge esclusivamente all'interno degli Sprint.
 
@@ -677,7 +677,7 @@ Sebbene si potrebbe pensare a uno Sprint come a un “mini progetto” con un ri
 
 Qualora lo Sprint Goal diventasse obsoleto, lo Sprint può essere annullato e solamente il Product Owner ha l'autorità per farlo. Sprint più brevi aiutano a ridurre la probabilità di annullamento.
 
-### Sprint Planning {#Sprint_Planning}
+### Sprint Planning {#sprint-planning}
 
 Lo Sprint Planning è un evento. Essendo il primo evento dello Sprint è il momento in cui il Team Scrum si concentra su _Focalizzazione_ (Focus) e _Impegno_ (Commitment).
 
@@ -685,11 +685,11 @@ Durante lo Sprint Planning, il Product Goal strategico (il _perché_ del Product
 
 Lo Sprint Planning affronta i seguenti argomenti:
 
-#### Il _perché_ dello Sprint {#il-perché-dello-sprint}
+#### Il _perché_ dello Sprint {#the-why-for-the-sprint}
 
 Il Product Owner propone idee su come il Prodotto potrebbe aumentare il valore erogato e la sua utilità nello Sprint appena iniziato. Il Team Scrum collabora quindi per definire uno Sprint Goal che comunichi perché lo Sprint è prezioso per gli Stakeholder in relazione al Product Goal. Lo Sprint Goal deve essere finalizzato entro la fine dello Sprint Planning.
 
-#### Il _Cosa_ verso il _Perché_ {#il-cosa-verso-il-perché}
+#### Il _Cosa_ verso il _Perché_ {#the-what-toward-the-why}
 
 In stretta collaborazione con il Product Owner, i Developers selezionano gli elementi dal Product Backlog da includere nello Sprint in corso. Il Team Scrum può perfezionare questi elementi, aumentandone la comprensione e la sicurezza. Gli elementi selezionati devono essere realizzabili secondo gli standard concordati nella Definizione di Output Done, insieme ad altri elementi.
 
@@ -697,13 +697,13 @@ Stabilire quanto può essere completato in uno Sprint può essere decisamente di
 
 I Team Scrum di successo evitano di sovraccaricarsi. Anzi, pianificano di terminare il lavoro in anticipo, considerando a volte un margine di manovra (buffer) per eventi imprevisti (85). Questo aiuta il Team Scrum a rimanere concentrato, migliorare la qualità e soddisfare gli Stakeholder offrendo valore in tempi più rapidi. Sovraccarichi cronici o cambiamenti improvvisi possono causare un eccessivo stress negativo, che Jeff Sutherland definisce "sorpresa Bayesiana". Possono compromettere il flusso psicologico (70) e le prestazioni del Team Scrum. Una comunicazione chiara, una gestione professionale del lavoro emergente (71) e piccoli cambiamenti regolari aiutano a prevenire questo problema, quindi i Team Scrum dovrebbero puntare a una consegna anticipata.
 
-#### Il _Come_ per il _Cosa_ {#il-come-per-il-cosa}
+#### Il _Come_ per il _Cosa_ {#the-how-for-the-what}
 
 Le modalità di esecuzione del lavoro sono a esclusiva discrezione dei Developers. Nessun altro spiega ai Developers come svolgere il proprio lavoro. I Developers selezionano autonomamente il proprio lavoro; nessun altro assegna o inoltra elementi del Product Backlog ai  Developers, nemmeno il Product Owner.
 
 Lo Sprint Planning è limitato a un massimo di otto ore per uno Sprint della durata di quattro settimane. L'evento è solitamente più breve Per Sprint più brevi. Il contesto è fondamentale, ma come regola generale è consigliabile pianificare attività sufficienti per iniziare il lavoro, ad esempio iniziando a pianificare solo alcuni elementi del Product Backlog, inizialmente utili per raggiungere lo Sprint Goal.
 
-### Daily Scrum {#daily_scrums}
+### Daily Scrum {#daily-scrum}
 
 Il Daily Scrum è un evento. Durante il Daily Scrum, I Developers collaborano per raggiungere lo Sprint Goal e aggiornano il loro piano d'azione - rappresentato dallo Sprint Backlog - fino al Daily Scrum successivo. Nel caso in cui lo Sprint Goal sia già stato raggiunto, i Developers collaborano per raggiungere altri progressi significativi aggiuntivi verso Product Goal.
 
@@ -735,7 +735,7 @@ Eventuali elementi incompleti del Product Backlog ritornano a far parte del Prod
 
 La Sprint Review è il penultimo evento dello Sprint e ha una durata massima di quattro ore per uno Sprint di quattro settimane; per Sprint più brevi, l'evento è solitamente più breve.
 
-### Sprint Retrospective {#Sprint-Retrospective}
+### Sprint Retrospective {#sprint-retrospective}
 
 La Sprint Retrospective (o Retrospettiva) è un evento. In questo evento, il Team Scrum concorda su come migliorarsi. Vengono inoltre esplorate i presupposti errati, ovvero quelli che possono aver portato il Team Scrum nella direzione sbagliata. Aspetti positivi come tecnologie, processi, elementi ricorrenti, ecc. possono essere evidenziati o rafforzati. Gli aspetti sottoposti ad ispezione e analisi variano spesso a seconda del settore di lavoro. Il processo retrospettivo diventa più efficace in presenza di un ambiente psicologicamente sicuro.
 
