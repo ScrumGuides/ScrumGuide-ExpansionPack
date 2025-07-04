@@ -22,9 +22,9 @@ monofont: "Courier New"
 guide_whatis: |
   Il **Pacchetto di Espansione della Guida Scrum** esiste perché il modo in cui costruiamo i prodotti continua a cambiare; e lo fa rapidamente.
 
-  La [Guida Scrum 2020](https://scrumguides.org/scrum-guide.html) rimane solida, ma molti professionisti hanno iniziato a chiedersi come mantenere il focus sui risultati, lavorare con l’IA nel team e mantenere Scrum semplice in ambienti che evolvono rapidamente.
+  La [Guida Scrum 2020](https://scrumguides.org/scrum-guide.html) rimane solida, ma molti professionisti hanno iniziato a chiedersi come mantenere il focus sui risultati, lavorare con l'IA nel team e mantenere Scrum semplice in ambienti che evolvono rapidamente.
 
-  Questo Pacchetto di Espansione non sostituisce la Guida Scrum; la completa per coloro che necessitano di più chiarezza nel contesto di oggi. L’obiettivo non era aggiungere regole, ma rafforzare lo spirito di Scrum, incentrato sul pensiero orientato al prodotto, sull’emergenza e sul focus strategico. Aiuta i team ad apprendere rapidamente, adattarsi e fornire valore, anche in contesti incerti, rapidi e guidati dalla tecnologia.
+  Questo Pacchetto di Espansione non sostituisce la Guida Scrum; la completa per coloro che necessitano di più chiarezza nel contesto di oggi. L'obiettivo non era aggiungere regole, ma rafforzare lo spirito di Scrum, incentrato sul pensiero orientato al prodotto, sull’emergenza e sul focus strategico. Aiuta i team ad apprendere rapidamente, adattarsi e fornire valore, anche in contesti incerti, rapidi e guidati dalla tecnologia.
 sitemap:
   priority: 1.0
 ---
@@ -47,7 +47,7 @@ _Usando questo Pacchetto di Espansione della Guida Scrum, accetti i termini dell
 
 ## Background {#background}
 
-Ken Schwaber e Jeff Sutherland hanno guidato lo sviluppo del framework Scrum. La [Guida Scrum 2020](https://scrumguides.org/) (40) descrive gli elementi essenziali di Scrum. [A Simple Guide to Scrum](https://scrum.academy/guide/) di Tobias Mayer (58) è una versione abbreviata e modificata della Guida Scrum ufficiale di Ken Schwaber e Jeff Sutherland. The [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) elaborate on the 2020 Scrum Guide (40) from a 2025 perspective. Per una adozione di massa, la Guida Scrum (40) aveva bisogno di essere semplice.
+Ken Schwaber e Jeff Sutherland hanno guidato lo sviluppo del framework Scrum. La [Guida Scrum 2020](https://scrumguides.org/) (40) descrive gli elementi essenziali di Scrum. [A Simple Guide to Scrum](https://scrum.academy/guide/) di Tobias Mayer (58) è una versione abbreviata e modificata della Guida Scrum ufficiale di Ken Schwaber e Jeff Sutherland. La [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) elabora la Guida Scrum 2020(40) da una prospettiva del 2025. Per una adozione di massa, la Guida Scrum (40) aveva bisogno di essere semplice.
 
 ## Scopo del Pacchetto di Espansione della Guida Scrum  {#purpose-of-the-scrum-guide-expansion-pack}
 
@@ -184,11 +184,11 @@ Senza Adattamento, Trasparenza e Ispezione perdono significato.
 
 ## I Valori di Scrum {#the-scrum-values}
 
-The Scrum Values _—focus_, _openness_, _commitment_, _courage_, and *respect—*help create a Scrum Team environment that supports psychological safety and positive collaboration, which align with principles identified in neuroscience as beneficial for learning and effective teamwork. Consider the context.
+I Valori di Scrum _—focus_, _apertura_(openness), _impegno_(commitment), _coraggio_ e *rispetto—* aiutano a creare un ambiente all'interno del Team Scrum che favorisce la sicurezza psicologica e la collaborazione positiva, che sono in linea con i principi individuati dalle neuroscienze come utili per l'apprendimento e il lavoro di squadra efficace. Considera il contesto.
 
-The Scrum Values foster transparency and trust, ensuring that words and actions align. Together, they create a strong foundation for collaboration, performance, and coherence within a Scrum Team.
+I Valori di Scrum promuovono la trasparenza e la fiducia, assicurando che parole e azioni siano allineate. Insieme, essi creano una solida base per la collaborazione, le prestazioni e la coerenza all'interno di un Team Scrum.
 
-Successful Scrum adoption depends on the Scrum Team and Supporters (and other Stakeholders) leading by example as professionals. The Scrum Values can help improve trust among the Scrum Team and Stakeholders. The Scrum Values also encourage ethics (57), vocabulary, tone, work, behavior, and action that foster trust. They also help reduce or avoid a gap between words and actions.
+Un'adozione di successo di Scrum dipende dal Team Scrum e dai Sostenitori (e altri Stakeholder) che guidano con l'esempio come professionisti. I Valori di Scrum possono aiutare a migliorare la fiducia tra il Team Scrum e gli Stakeholder. I Valori di Scrum incoraggiano inoltre l'etica (57), il vocabolario, il tono, il lavoro, il comportamento e l'azione che favorisce la fiducia. Aiutano anche a ridurre o evitare il divario tra parole e azioni.
 
 The Scrum Team and Supporters agree to be _open_ about all the work and the challenges. Humility supports _Openness_. _Openness_ requires trust, and trust requires _Openness_. The Scrum Team and Supporters should request and share constructive feedback. They routinely collaborate and learn through high-bandwidth conversations and qualitative or quantitative feedback.
 
