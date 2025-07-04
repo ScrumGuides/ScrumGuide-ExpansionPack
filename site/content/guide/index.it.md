@@ -190,17 +190,17 @@ I Valori di Scrum promuovono la trasparenza e la fiducia, assicurando che parole
 
 Un'adozione di successo di Scrum dipende dal Team Scrum e dai Sostenitori (e altri Stakeholder) che guidano con l'esempio come professionisti. I Valori di Scrum possono aiutare a migliorare la fiducia tra il Team Scrum e gli Stakeholder. I Valori di Scrum incoraggiano inoltre l'etica (57), il vocabolario, il tono, il lavoro, il comportamento e l'azione che favorisce la fiducia. Aiutano anche a ridurre o evitare il divario tra parole e azioni.
 
-The Scrum Team and Supporters agree to be _open_ about all the work and the challenges. Humility supports _Openness_. _Openness_ requires trust, and trust requires _Openness_. The Scrum Team and Supporters should request and share constructive feedback. They routinely collaborate and learn through high-bandwidth conversations and qualitative or quantitative feedback.
+Il Team Scrum e i Sostenitori si impegnano a essere _aperti_ riguardo a tutto il lavoro e alle sfide. L'umiltà favorisce l'_Apertura_. L'_Apertura_ richiede fiducia, e la fiducia richiede _Apertura_. Il Team Scrum e i Sostenitori dovrebbero richiedere e condividere feedback costruttivi. Collaborano regolarmente e apprendono attraverso conversazioni ad alta larghezza di banda e feedback qualitativi o quantitativi.
 
-High-bandwidth conversations are conversations that foster communication in ways that allow for the richest, fastest, and clearest exchange of information. This typically involves face-to-face discussions-either in person, via video calls, visual management, or whiteboards (physical or digital), where participants can use not just words, but also tone of voice, facial expressions, drawing, or body language to fully understand each other.
+Le conversazioni ad alta larghezza di banda sono conversazioni che favoriscono la comunicazione in modi che consentono uno scambio di informazioni più ricco, più rapido e più chiaro. Questo coinvolge tipicamente discussioni faccia a faccia sia di persona, tramite videochiamate, gestione visiva o lavagne (fisiche o digitali), dove i partecipanti possono utilizzare non solo le parole, ma anche il tono della voce, le espressioni facciali, i disegni o il linguaggio del corpo per comprendersi pienamente l'un l'altro.
 
-As Sprints are short, any failures should be small and quick, and risk is identified and managed through fast and _open_ feedback. Perhaps, the only real failure is the lack of learning.
+Poiché gli Sprint sono brevi, eventuali fallimenti dovrebbero essere piccoli e rapidi, e il rischio è identificato e gestito attraverso un feedback rapido e _aperto_. Forse, l'unico vero fallimento è la mancanza di apprendimento.
 
-The Scrum Team and Supporters should have the _Courage_ to do the right thing and face tough challenges. They should be courageous in exploring the unknown, changing direction, requesting and sharing information, and engaging in courteous disagreements, e.g., healthy conflict and constructive dissent. The Scrum Team should ask Supporters and leaders for help if needed.
+Lo Scrum Team e i Sostenitori dovrebbero avere il _Coraggio_ di fare la cosa giusta e affrontare sfide difficili. Dovrebbero essere coraggiosi nell'esplorare l'ignoto, nel cambiare direzione, nel richiedere e condividere informazioni e nel partecipare a disaccordi cortesi, ad esempio, conflitti sani e dissensi costruttivi. Il Team Scrum dovrebbe chiedere aiuto ai Sostenitori e ai leader, se necessario.
 
-The Scrum Team _Commits_ to achieving the Sprint Goal and supporting each other. Commitment means getting relevant work toward the Sprint Goal to comply with the Definition of Output Done at the latest by the end of the Sprint, preferably much earlier. Commitment also means getting to desired outcomes through value realization.
+Il Team Scrum si _Impegna_ a raggiungere lo Sprint Goal e a supportarsi a vicenda. Impegno significa completare il lavoro rilevante per raggiungere lo Sprint Goal, rispettando la Definition of Output Done al più tardi entro la fine dello Sprint, preferibilmente molto prima. Impegno significa anche raggiungere i risultati desiderati attraverso la realizzazione del valore.
 
-Their primary _Focus_ is making the best possible progress toward the Sprint Goal. Their secondary Focus is making the best possible progress toward the Product Goal. The Supporters _Commit_ to providing a psychologically safe space and environment for the Scrum Team to deliver Increments; within their _Focus_, the Scrum Team and Supporters _Commit_ to creating time for continuous learning and Adaptation, and the transfer of learning between Scrum Teams to ensure long-term effectiveness. The Scrum Team and Stakeholders should be intentional about addressing trade-offs, including consideration of short-term wins with long-term consequences.
+Il loro principale _Focus_ è fare i migliori progressi possibili verso lo Sprint Goal. Il loro focus secondario è fare i migliori progressi possibili verso il Product Goal. I Sostenitori si _Impegnano_ a fornire uno spazio e un ambiente psicologicamente sicuri affinché il Team Scrum rilasci gli Incrementi; all'interno del loro _Focus_, il Team Scrum e i Sostenitori si _Impegnano_ a creare tempo per l'apprendimento continuo e l'Adattamento, e per il trasferimento dell'apprendimento tra i Team Scrum per garantire l'efficacia a lungo termine. Il Team Scrum e gli Stakeholder dovrebbero essere intenzionali nell'affrontare i compromessi, compresa la considerazione delle vittorie a breve termine che le conseguenze a lungo termine.
 
 The Scrum Team and Supporters (and other Stakeholders) _Respect_ each other as skilled professionals; they _Respect_ each other's differing expertise and perspectives and are constructive when disagreeing. Respectful behavior supports trust. The Scrum Team and Supporters should critique the idea or the approach to find more effective options, not the person(s).
 
@@ -976,27 +976,27 @@ Ambidexterity, humane effectiveness, adaptiveness, and timeliness require the ev
 
 #### Immunity To Change® {#immunity-to-change®}
 
-Lisa Laskow Lahey and Robert Kegan (principals at The Developmental Edge) created a change approach known as Immunity to Change® (3,4). People often know what to do, but they won’t do it because of conflicting internal commitments. Metaphorically, people have 'one foot on the gas and one foot on the brake'.
+Lisa Laskow Lahey e Robert Kegan (fondatori di The Developmental Edge) hanno creato un approccio al cambiamento noto come Immunity to Change® (3, 4). Le persone spesso sanno cosa dovrebbero fare, ma non lo fanno a causa di impegni interni in conflitto. Metaforicamente, è come se avessero 'un piede sull'acceleratore e uno sul freno'.
 
-Immunity to Change® is a framework for defining those 'hidden commitments' and 'limiting assumptions' that prevent people from changing and realizing their goals. The Immunity to Change® theory and map have helped countless professionals and organizations to unearth and move beyond the commitments preventing their professional and organizational growth.
+Immunity to Change® è un framework che aiuta a definire quei 'impegni nascosti' e 'assunzioni limitanti' che impediscono alle persone di cambiare e di realizzare i propri obiettivi. La teoria e la mappa di Immunity to Change® hanno aiutato innumerevoli professionisti e organizzazioni a portare alla luce e superare quegli impegni che ostacolavano la loro crescita professionale e organizzativa.
 
 #### Intent-Based Leadership® {#intent-based-leadership®}
 
-_Intent-Based Leadership® (IBL)_ (7, 8, 9\) _is a language teams use for high performance that replaces the programmed industrial-age language. IBL stresses the concept of intent from leaders and the team. It is based on the books Turn The Ship Around and Leadership is Language by L. David Marquet._
+_Intent-Based Leadership® (IBL)_ (7, 8, 9\) _è un linguaggio che i team usano per raggiungere alte prestazioni, che sostituiscono il linguaggio programmato tipico dell'era industriale. L'IBL pone l'accento sul concetto di intento da parte dei leader e del team. Si basa sui libri Turn The Ship Around e Leadership is Language di L. David Marquet._
 
-_One of the core beliefs is that leadership is not for the select few at the top. In highly effective organizations, there are leaders at every level. L. David Marquet molded the leadership he developed on the nuclear-powered submarine USS Santa Fe into a system called Intent-Based Leadership for your organization to implement to invite thinking and leadership at every level._
+_Una delle convinzioni fondamentali è che la leadership non è per pochi eletti al vertice. Nelle organizzazioni altamente efficaci, ci sono leader a ogni livello. L. David Marquet ha modellato la leadership che ha sviluppato a bordo del sottomarino a propulsione nucleare USS Santa Fe in un sistema chiamato Intent-Based Leadership, pensato per essere adottato dalle organizzazioni al fine di stimolare il pensiero critico e la leadership a tutti i livelli._
 
-_Intent-Based Leadership helps leaders build organizations where people are at their best because they have a sense of autonomy, tap their intrinsic motivation, feel listened to, and have a drive for excellence. They feel high levels of ownership and control, so they engage their hearts and heads. They gain psychological rewards as they see the fruits of their decisions and work. There is a bias for action, and teams are more agile and resilient because error creation and propagation are reduced._
+_Intent-Based Leadership aiuta i leader a costruire organizzazioni in cui le persone danno il meglio di sé, perché sperimentano un senso di autonomia, attingono alla propria motivazione intrinseca, si sentono ascoltate e spinte verso l'eccellenza. Provano un forte senso di responsabilità e controllo, così che coinvolgano la loro mente e il loro cuore. Ricevono gratificazioni psicologiche così che vedano i risultati delle proprie decisioni e del proprio lavoro. C'è una propensione all'azione, e i team sono più agili e resilienti, poiché la creazione e la propagazione degli errori sono ridotti._
 
-_The practice of stating intent allows teams to have distributed decision-making while maintaining unity of effort. The Intent-Based Leadership International (IBLI website) offers consulting, coaching, online courses, and books for leaders._
+_La pratica di affermare l'intento consente ai team di prendere decisioni in modo distribuito pur mantenendo l'unità dello sforzo. Il Intent-Based Leadership International (sito IBLI) offre consulenza, coaching, corsi online e libri per i leader._
 
 **_Section 3: Cynefin Framework Kind of Explanation unofficial & unauthorized_**  
-_Title: Cynefin Framework Kind of Explanation unofficial & unauthorized_  
-_Source: \[Link to original [Cynefin wiki](https://cynefin.io/wiki/Main_Page)\], \[Link to this adaptation\]_  
-_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._  
-_Disclaimer: No warranties are given. Use at your own risk._  
-_This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
-_By using this Cynefin Framework Kind of Explanation unofficial & unauthorized, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
+_Titolo: Cynefin Framework Kind of Explanation unofficial & unauthorized_  
+Fonte: \[Link to original [Cynefin wiki](https://cynefin.io/wiki/Main_Page)\], \[Link to this adaptation\]_  
+_Licenza: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._  
+_Disclaimer: Non si forniscono garanzie. L'uso è a proprio rischio e pericolo._  
+_Questa sezione è offerta sotto Attribution-ShareAlike 4.0 International license of Creative Commons._  
+_Usando questo Cynefin Framework Kind of Explanation non ufficiale & non autorizzato, accetti i termini della licenza [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
 ### Cynefin® {#cynefin®}
 
@@ -1096,8 +1096,8 @@ One phase shift is particularly sudden and negative, that is, the ordered-chaoti
 - Product example: A stable Product process suddenly breaks down due to an unexpected event (e.g., major outage)
 
 **Section 4: Emergent Strategy**  
-Author: Roger L. Martin, Tom Gilb  
-Source: (41-48)  
+Autore: Roger L. Martin, Tom Gilb  
+Fonte: (41-48)  
 Copyright: All rights reserved. Adapted
 
 ### Emergent Strategy {#emergent-strategy}
@@ -1166,13 +1166,13 @@ Emergent strategy deployment involves allowing plans and actions to develop natu
 
 #
 
-## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
+## Attribuzione per la collezione del Pacchetto di Espansione della Gruida Scrum {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
-This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
+Questa collezione è stata scritta e compilata da _Ralph Jocham, John Coleman, e Jeff Sutherland_. Ogni sezione è attribuita individualmente sopra e mantiene la sua licenza originale. La raccolta nel suo complesso ha scopo informativo; si prega di rispettare i termini di licenza di ciascuna sezione.
 
 #
 
-## References {#references}
+## Riferimenti {#references}
 
 1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (Accessed: April 5, 2023)._
 2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (Accessed: April 5, 2023)._
