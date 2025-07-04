@@ -154,13 +154,13 @@ Lavorare in Sprint fornisce un ritmo consistente che aiuta Il Team Scrum a conce
 
 ## I Tre Pilastri del Controllo di Processo Empirico in Scrum {#the-three-pillars-of-scrum’s-empirical-process-control}
 
-L'empirismo, nella sua essenza, è la filosofia secondo cui la conoscenza deriva dall'esperienza e dall'osservazione. Intuizioni di valore emergono da curiosità, esperienza, sperimentazione, dati, visualizzazione e osservazione. Il controllo empirico di processo (64-66) è un metodo per gestire processi complessi(30-35), come quelli in Scrum, adattandosi sulla base dei risultati osservati e affidandosi sui tre pilastri di trasparenza, ispezione e adattamento.
+L'empirismo, nella sua essenza, è la filosofia secondo cui la conoscenza deriva dall'esperienza e dall'osservazione. Intuizioni di valore emergono da curiosità, esperienza, sperimentazione, dati, visualizzazione e osservazione. Il controllo empirico di processo (64-66) è un metodo per gestire processi complessi(30-35), come quelli in Scrum, adattandosi sulla base dei risultati osservati e che si fonda sui tre pilastri di trasparenza, ispezione e adattamento.
 
 ### Trasparenza {#transparency}
 
-La trasparenza è un pilastro di Scrum. Rivela la realtà e la chiarezza del lavoro, e rende possibile l'empirismo. La trasparenza rivela una percezione più accurata della realtà ed è il punto di ingresso per Ispezione e Adattamento. Il processo emergente, il lavoro e i risultati devono essere visibili a chi esegue il lavoro o riceve gli input sotto forma di obiettivi, Product Backlog Items e output associati sotto forma di Incrementi.
+La trasparenza è un pilastro di Scrum. Mostra la realtà e la chiarezza del lavoro, e rende possibile l'empirismo. La trasparenza permette una percezione più accurata della realtà ed è il punto di partenza per l'Ispezione e l'Adattamento. Il processo emergente, il lavoro e i risultati devono essere visibili a chi esegue il lavoro o riceve gli input sotto forma di obiettivi, elementi del Product Backlog e gli output associati nella forma di Incrementi.
 
-Le decisioni importanti sono basate sugli artefatti, sugli esperimenti, sui rilasci o sui feedback sui risultati. Una bassa trasparenza può compromettere l'Ispezione, portando a decisioni che diminuiscono il valore e aumentano il rischio. La trasparenza abilita l'Ispezione.
+Le decisioni importanti si basano sugli artefatti, sugli esperimenti, sui rilasci o sul feedback sui risultati. Una bassa trasparenza può compromettere l'Ispezione, portando a decisioni che diminuiscono il valore e aumentano il rischio. La trasparenza abilita l'Ispezione.
 
 Il feedback sui risultati è un dato, idealmente sia quantitativo sia qualitativo, che potrebbe derivare da cambiamenti al Prodotto o dall'ambiente. Contribuisce al valore per gli Stakeholder, allo sforzo, alle risorse o ai costi. Le persone non sono risorse.
 
@@ -168,19 +168,19 @@ Raggiungere la trasparenza è irrealistico e potenzialmente inapplicabile se esi
 
 ### Ispezione {#inspection}
 
-Inspection is a pillar of Scrum. Inspection is looking at reality, given the direction of the Product (the Product Goal) and the effectiveness of the Scrum Team and Stakeholders. Inspection enables Adaptation. Inspection is about looking at reality intentionally and is informed by the things that were made transparent, including evidence or observation. To foster Inspection and Adaptation, Scrum provides cadence in the form of its events.
+L'Ispezione è un pilastro di Scrum. Ispezionare significa osservare la realtà, considerando la direzione del Prodotto (il Product Goal) e l’efficacia del Team Scrum e degli Stakeholder. L'ispezione abilita l'Adattamento. L'Ispezione consiste nel guardare intenzionalmente la realtà ed si basa su elementi resi trasparenti, includendo l'evidenza o l'osservazione. Per favorire l'Ispezione e l'Adattamento, Scrum fornisce una cadenza attraverso i suoi eventi. 
 
-The Scrum Artifacts, associated commitments, and progress toward agreed goals must be inspected frequently and diligently to detect emergence (71). Inspection of the artifacts, experiments, releases, marketplace, or result feedback may yield learnings or side effects. Side effects are unexpected or unintended results or consequences.
+Gli artefatti di Scrum, gli impegni associati e i progressi verso gli obiettivi concordati devono essere ispezionati frequentemente e con diligenza per rilevare l'emergenza (71). L'ispezione degli artefatti, degli esperimenti, dei rilasci, del mercato o dei feedback dei risultati può produrre apprendimenti o effetti collaterali. Gli effetti collaterali sono risultati o conseguenze inaspettate o non intenzionali. 
 
-Inspection without Transparency is ill-informed, misleading, and wasteful.
+L'ispezione senza Trasparenza è mal informata, fuorviante e inefficace. 
 
 ### Adattamento {#adaptation}
 
-Adaptation is a pillar of Scrum. Given the direction of the Product, the Scrum Team and Stakeholders are expected to adapt to reality the moment improvement opportunities emerge, such as experiment outcomes, insights, risks, or opportunities. Adaptation becomes more difficult when institutional inefficiencies exist or when the people involved are not ready, willing, or able to do what needs to be done.
+L'Adattamento è un pilastro di Scrum. Data la direzione del Prodotto, ci si aspetta che il Team Scrum e gli Stakeholder si adattino alla realtà nel momento in cui emergono opportunità di miglioramento, come risultati di esperimenti, intuizioni, rischi o opportunità. L'Adattamento diventa più difficile quando esistono inefficienze istituzionali o quando le persone coinvolte non sono pronte, disposte o capaci di fare ciò che è necessario.
 
-Adaptation starts with accepting ‘reality,’ informed by evidence. Adaptation typically occurs in the Scrum Artifacts, associated commitments, Scrum Team, Stakeholders, leaders, and organization. If any aspects deviate outside acceptable limits or boundaries, or the resulting Product is unacceptable, adjustments must be made as soon as possible to course-correct.
+L'Adattamento inizia con l'accettazione della 'realtà', basata sull'evidenza. L'Adattamento avviene tipicamente negli Artefatti Scrum, negli impegni associati, nel Team Scrum, negli Stakeholder, nei leader e nell'organizzazione. Se qualsiasi aspetto si discosta da limiti o da confini accettabili, o se il Prodotto risultante è inaccettabile, devono essere apportate modifiche il prima possibile per correggere la rotta. 
 
-Without Adaptation, Transparency and Inspection are meaningless.
+Senza Adattamento, Trasparenza e Ispezione perdono significato.
 
 ## I Valori di Scrum {#the-scrum-values}
 
