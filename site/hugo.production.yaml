@@ -13,3 +13,5 @@ languages:
     disabled: true
   de:
     disabled: true
+  es:
+    disabled: true
