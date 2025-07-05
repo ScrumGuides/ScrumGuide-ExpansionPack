@@ -25,7 +25,11 @@ guide_whatis: |
   La [Guía Scrum 2020](https://scrumguides.org/scrum-guide.html) sigue siendo una base sólida, pero muchas personas que practican Scrum empezaron a preguntarse cómo mantenerse enfocadas en los resultados, cómo integrar la inteligencia artificial en los equipos y cómo conservar la simplicidad de Scrum en entornos de ritmo acelerado.
 
   Este Expansion Pack no reemplaza la Guía Scrum; la complementa para quienes necesitan más claridad en el contexto actual. El objetivo no era añadir reglas, sino reforzar el espíritu de Scrum: pensamiento de producto, emergencia y enfoque estratégico. Ayuda a los equipos a aprender rápido, adaptarse y entregar valor, incluso en contextos inciertos, acelerados y marcados por la tecnología.
-
+contributors:
+  - name: Alex Ballarin
+    githubUsername: itnove
+    role: translator
+    link: https://www.linkedin.com/in/alexballarin/
 sitemap:
   priority: 1.0
 ---
@@ -33,7 +37,7 @@ sitemap:
 basada en la [Guía Scrum](https://scrumguides.org/) original, de Ken Schwaber yJeff Sutherland (40)
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
-_Este documento es una colección de trabajos independientes. Cada sección mantiene su licencia o copyright, tal como se indica. Por favor, refiérase a cada sección para conocer sus  requisitos y derechos de uso._
+_Este documento es una colección de trabajos independientes. Cada sección mantiene su licencia o copyright, tal como se indica. Por favor, refiérase a cada sección para conocer sus requisitos y derechos de uso._
 
 **_Section 1: Scrum Guide Expansion Pack 1 (Adaptation)_**  
 _Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
@@ -51,16 +55,16 @@ _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-
 Ken Schwaber y Jeff Sutherland lideraron el desarrollo del marco de trabajo Scrum. La [Guía Scrum 2020](https://scrumguides.org/) (40) describe la esencia de Scrum. La [Guía simple a Scrum](https://scrum.academy/guide/) (58) es una versión compacta de la Guía Scrum oficial de Ken Schwaber and Jeff Sutherland. [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) interpreta la Guía Scrum 2020 (40) desde la perspectiva de 2025. Para conseguir una adopción masiva, la Guía Scrum (40) debía ser simple.
 
 ## Propósito del Scrum Guide Expansion Pack {#proposito-del-scrum-guide-expansion-pack}
- 
+
 Para favorecer una adopción más exitosa de Scrum, este Expansion Pack ofrece orientación adicional adaptada a los tiempos actuales, basada en la Guía Scrum 2020 de Ken Schwaber y Jeff Sutherland (40). La contribución de Ralph Jocham (89) a la Guía Scrum aporta una mayor profundidad al incorporar sus ideas originales en este Expansion Pack.
 
 Este Expansion Pack explica el qué y el por qué de cada elemento de Scrum con una mirada orientada al futuro. Cada elemento cumple una función específica y contribuye al valor y los resultados que se pueden obtener con Scrum. Este Expansion Pack evolucionará de forma regular. Se espera que la primera vez el lector lea el documento de manera secuencial.
 
-Este documento supone que quien lo lee ya tiene cierta familiaridad con Scrum y su vocabulario. En caso contrario, se recomienda leer antes la  Scrum Guide 2020. Se incluyen referencias a otras fuentes para facilitar el aprendizaje. El apéndice y las referencias ofrecen una oportunidad para explorar, investigar y aprender con mayor profundidad y perspectiva.
+Este documento supone que quien lo lee ya tiene cierta familiaridad con Scrum y su vocabulario. En caso contrario, se recomienda leer antes la Scrum Guide 2020. Se incluyen referencias a otras fuentes para facilitar el aprendizaje. El apéndice y las referencias ofrecen una oportunidad para explorar, investigar y aprender con mayor profundidad y perspectiva.
 
 Quienes practican Scrum o se relacionan con él deberían adoptarlo cuando sea adecuado, con autonomía, emergencia, valentía, transparencia, inspección, adaptación, ritmo y resiliencia, mejorando continuamente para alcanzar los objetivos del producto y de la organización. Se espera que muchas implementaciones de Scrum vayan más allá de lo que aquí se presenta —en teoría, roles, artefactos, eventos, escalado y demás aspectos— y que eso despierte una curiosidad duradera por explorar, cuestionar y seguir aprendiendo.
 
-Este Expansion Pack está diseñado para apoyar a los equipos autogestionado (49) en todos los aspectos de la entrega de productos, según las necesidades o intereses de las personas implicadas para abordar  un problema u oportunidad. Esto incluye, entre otros, al descubrimiento, desarrollo, entrega y validación de valor. Aunque Scrum se originó en el desarrollo de software, hoy se ha adoptado ampliamente en muchos otros ámbitos, permitiendo generar valor en trabajos complejos (30–35). A medida que se amplía su uso, otros profesionales como ingenieros, programadores, investigadores, analistas, abogados, especialistas en marketing o científicos aplican Scrum con éxito en sus respectivas disciplinas.
+Este Expansion Pack está diseñado para apoyar a los equipos autogestionado (49) en todos los aspectos de la entrega de productos, según las necesidades o intereses de las personas implicadas para abordar un problema u oportunidad. Esto incluye, entre otros, al descubrimiento, desarrollo, entrega y validación de valor. Aunque Scrum se originó en el desarrollo de software, hoy se ha adoptado ampliamente en muchos otros ámbitos, permitiendo generar valor en trabajos complejos (30–35). A medida que se amplía su uso, otros profesionales como ingenieros, programadores, investigadores, analistas, abogados, especialistas en marketing o científicos aplican Scrum con éxito en sus respectivas disciplinas.
 
 El valor para las personas implicadas hace referencia a cualquier necesidad que una persona (incluyendo, entre otras, a clientes, decisores o usuarios) considere importante y que un equipo les entrega. Sin embargo, esas personas no siempre son conscientes de lo que podría aportarles valor. La observación o la evidencia pueden poner de manifiesto ese valor, de forma intencionada o no, y modificar las prioridades. A medida que aparece nueva información, es necesario identificar, inspeccionar, refinar y adaptar aquello que podría ser valioso. El valor sigue siendo una hipótesis hasta que se confirma mediante evidencia, como observación o resultados medidos.
 
@@ -70,7 +74,7 @@ Scrum es un marco de trabajo para la entrega de productos complejos (30–35), d
 
 Scrum favorece un entorno donde las necesidades de las personas implicadas se comprenden y atienden de forma coherente. Su enfoque iterativo e incremental reduce riesgos y promueve la mejora continua. Scrum ayuda a los equipos a equilibrar la exploración de problemas, la identificación de necesidades (incluyendo las de los clientes), la entrega de soluciones, la gestión proactiva del riesgo y la validación del valor.
 
-Un riesgo es cualquier factor que podría provocar una consecuencia negativa futura. Como la exposición al riesgo sigue siendo impredecible con el paso del tiempo, anticiparse es clave. La exposición al riesgo puede incluir, entre otros, el riesgo de mercado, ajuste problema-solución, ajuste producto-mercado, tecnología, detección de señales, capacidad de respuesta, cumplimiento normativo, corrección, malas decisiones de compromiso, etc. Scrum apoya la gestión proactiva del riesgo y el descubrimiento de oportunidades. 
+Un riesgo es cualquier factor que podría provocar una consecuencia negativa futura. Como la exposición al riesgo sigue siendo impredecible con el paso del tiempo, anticiparse es clave. La exposición al riesgo puede incluir, entre otros, el riesgo de mercado, ajuste problema-solución, ajuste producto-mercado, tecnología, detección de señales, capacidad de respuesta, cumplimiento normativo, corrección, malas decisiones de compromiso, etc. Scrum apoya la gestión proactiva del riesgo y el descubrimiento de oportunidades.
 
 Scrum promueve reducir la separación entre las personas implicadas que plantean problemas u oportunidades y quienes los abordan.
 
@@ -80,14 +84,14 @@ En resumen, Scrum se basa en un entorno donde:
 2. El Propietario del producto define el objetivo del producto (Product Goal), clave para generar valor para las personas implicadas.
 3. El equipo Scrum autogestionado (49) define, refina y convierte el trabajo seleccionado en resultados valiosos.
 4. El equipo Scrum y las personas implicadas inspeccionan los resultados durante el Sprint y adaptan lo necesario.
-5. Los aliados  ayudan al equipo Scrum a prosperar.
+5. Los aliados ayudan al equipo Scrum a prosperar.
 6. _Repetir_
 
 Una entrega (release) es el proceso de poner a disposición una versión nueva o actualizada del producto para las personas implicadas (incluyendo, entre otras, a clientes, responsables de decisión y personas usuarias). Marca un punto de inflexión en el ciclo de desarrollo y representa la transición del producto desde su creación hasta su disponibilidad para su uso y la posible generación de valor.
 
 Scrum es intencionadamente incompleto. En lugar de prescribir procesos detallados, proporciona un marco que guía las relaciones y las interacciones con propósito. Diversos procesos, técnicas y métodos pueden complementar Scrum, pero su aplicación depende del contexto y varía según el uso.
 
-Scrum se puede integrar con prácticas existentes o, en algunos casos, hacerlas innecesarias u obsoletas. Scrum fomenta la  mejora continua al evaluar de forma transparente la efectividad del equipo Scrum, de los aliados, del entorno de trabajo y de las técnicas utilizadas.
+Scrum se puede integrar con prácticas existentes o, en algunos casos, hacerlas innecesarias u obsoletas. Scrum fomenta la mejora continua al evaluar de forma transparente la efectividad del equipo Scrum, de los aliados, del entorno de trabajo y de las técnicas utilizadas.
 
 En el contexto del trabajo del conocimiento, el término Scrum —tomado del rugby— fue acuñado por Takeuchi y Nonaka (29) para describir equipos que trabajaban de esta forma y donde el conocimiento se difundía rápidamente por toda la organización para entregar productos excepcionales.
 
@@ -107,7 +111,7 @@ En trabajos complejos, como la construcción de productos, hay más incógnitas 
 
 Todo lo que se considera “conocido” —incluyendo el mercado y las personas implicadas (como clientes u otros actores)— puede ser incorrecto. Algunas expectativas, necesidades o deseos emergen o pierden relevancia con el tiempo. Un enfoque empírico proporciona mecanismos para poner a prueba suposiciones, inspeccionar y adaptarse.
 
-En general, nada permanece en el mismo espacio para siempre. El equipo Scrum puede encontrarse al borde del caos, investigando o trabajando en algo sin precedentes, nunca hecho antes. Con el tiempo, a medida que descubre patrones y heurísticas, el entorno se vuelve menos caótico y más complejo. Más adelante, puede que el equipo se acerque a un espacio más ordenado —algo difícil pero planificable—, o que ocurra lo contrario. Es una buena práctica que el equipo Scrum se detenga a reflexionar si realmente está en el tipo de espacio que cree para la situación en cuestión. Lo fundamental es que el desarrollo de productos suele estar marcado por la imprevisibilidad, y Scrum puede ser más útil que otros enfoques que se basan en la ilusión de la  predictibilidad.
+En general, nada permanece en el mismo espacio para siempre. El equipo Scrum puede encontrarse al borde del caos, investigando o trabajando en algo sin precedentes, nunca hecho antes. Con el tiempo, a medida que descubre patrones y heurísticas, el entorno se vuelve menos caótico y más complejo. Más adelante, puede que el equipo se acerque a un espacio más ordenado —algo difícil pero planificable—, o que ocurra lo contrario. Es una buena práctica que el equipo Scrum se detenga a reflexionar si realmente está en el tipo de espacio que cree para la situación en cuestión. Lo fundamental es que el desarrollo de productos suele estar marcado por la imprevisibilidad, y Scrum puede ser más útil que otros enfoques que se basan en la ilusión de la predictibilidad.
 
 La emergencia ofrece muchas oportunidades a través de la inspección y adaptación del _quién_, _porqué_, _qué_, _cómo_, _dónde_ y _cuándo_. Es importante reducir lo que no funciona y amplificar lo que sí. La transparencia, la inspección y la adaptación orientadas a objetivos concretos, informadas por resultados (y consecuencias no previstas), generan valor, aprendizajes, alertas y suposiciones desafiadas; todo ello puede favorecer la mejora continua.
 
@@ -233,6 +237,7 @@ Cuando las personas implicadas piensan únicamente en el corto plazo, es probabl
 La deuda técnica es el trabajo adicional que se acumula —consciente o inconscientemente— cuando se toman atajos en el diseño o la implementación para entregar algo más rápido. Con el tiempo, esta deuda ralentiza el progreso, igual que una deuda financiera: genera “intereses” al dificultar o arriesgar cambios futuros. Las personas profesionales intentan minimizar al máximo la deuda técnica y la negligencia. Si deciden asumir deuda, esta debe ser transparente y, si es posible, contar con un plan emergente de mitigación.
 
 En el caso de los productos, Scrum apoya la factibilidad, usabilidad, deseabilidad, valor y viabilidad dentro de límites éticos (57), mediante:
+
 - Diseño de producto
 - Gestión de producto
 - Consideración intencionada de la interacción entre personas implicadas, investigación, objetivos, descubrimiento, diseño, entrega y validación continua de valor
@@ -248,7 +253,7 @@ Para que una organización sea adaptativa (80), es necesario evitar suboptimizac
 
 ### Descubrimiento {#descubrimiento}
 
-El descubrimiento (50–51) suele comenzar con la comprensión de expectativas, necesidades y deseos de las personas, mediante la observación, análisis, conversaciones y síntesis orientadas a un resultado deseado. Una vez que el equipo Scrum obtiene aprendizajes, enmarca el problema u oportunidad y los ordena por valor potencial. Luego, genera soluciones posibles sin evaluarlas  de inmediato. Si el valor potencial es alto pero no hay suficiente evidencia de que se pueda realizar, el equipo debería investigar, validar suposiciones o crear prototipos simples que puedan probar con clientes reales, responsables de decisión o personas usuarias. El descubrimiento nunca termina: conviene realizar entrevistas u observaciones periódicas.
+El descubrimiento (50–51) suele comenzar con la comprensión de expectativas, necesidades y deseos de las personas, mediante la observación, análisis, conversaciones y síntesis orientadas a un resultado deseado. Una vez que el equipo Scrum obtiene aprendizajes, enmarca el problema u oportunidad y los ordena por valor potencial. Luego, genera soluciones posibles sin evaluarlas de inmediato. Si el valor potencial es alto pero no hay suficiente evidencia de que se pueda realizar, el equipo debería investigar, validar suposiciones o crear prototipos simples que puedan probar con clientes reales, responsables de decisión o personas usuarias. El descubrimiento nunca termina: conviene realizar entrevistas u observaciones periódicas.
 
 El descubrimiento consiste en aprender con dirección clara hacia un resultado deseado, priorizando, ejecutando, evitando o mejorando constantemente las ideas basadas en observación, retroalimentación u otros aprendizajes. Hace hincapié en la colaboración, la creatividad y la disposición a fallar y volver a intentarlo. Enmarca el trabajo como problemas u oportunidades, y ayuda al equipo Scrum a generar, priorizar y poner a prueba opciones de solución que equilibren lo que las personas desean, lo que es técnicamente posible y lo que tiene sentido de negocio —todo ello sin perder la motivación y el disfrute.
 
@@ -256,15 +261,15 @@ Si se requiere descubrimiento, este debería —en la medida de lo posible— in
 
 ### Liderazgo {#liderazgo}
 
-El liderazgo es la capacidad de influir, guiar e inspirar a un grupo de personas para lograr un objetivo compartido sin desmotivarlas. Inspira el pensamiento, acción y pasión, y favorece una dirección estratégica clara. Abarca la observación activa, la escucha y la comprensión con propósito, obteniendo hechos y observaciones que informan las decisiones; esto se conoce como *Genchi Genbutsu* (84).
+El liderazgo es la capacidad de influir, guiar e inspirar a un grupo de personas para lograr un objetivo compartido sin desmotivarlas. Inspira el pensamiento, acción y pasión, y favorece una dirección estratégica clara. Abarca la observación activa, la escucha y la comprensión con propósito, obteniendo hechos y observaciones que informan las decisiones; esto se conoce como _Genchi Genbutsu_ (84).
 
-El liderazgo es un proceso social dinámico que implica responsabilidad, construcción de relaciones y empoderamiento. Un liderazgo exitoso co-crea una dirección compartida, alinea eficazmente los recursos y las personas necesarias, y genera *compromiso* mutuo dentro del grupo.
+El liderazgo es un proceso social dinámico que implica responsabilidad, construcción de relaciones y empoderamiento. Un liderazgo exitoso co-crea una dirección compartida, alinea eficazmente los recursos y las personas necesarias, y genera _compromiso_ mutuo dentro del grupo.
 
 Scrum promueve un tipo particular de liderazgo: un liderazgo orientado a la resiliencia. Se trata de un conjunto de cualidades, no de una posición jerárquica. Por eso, el liderazgo incluye, entre otras cosas: crear entornos para equipos Scrum autogestionados, promover la claridad, la confianza, la transparencia, la emergencia (71) de una dirección, la satisfacción en el trabajo, la aceptación de la incertidumbre (72) y el error, tomar decisiones basadas en evidencia, gestionar riesgos de forma proactiva y eliminar ineficiencias organizativas.
 
 El liderazgo ocurre desde todos los ángulos, a todos los niveles, y fomenta la reflexión en el momento adecuado. Debe estar orientado implacablemente al valor, pero con compasión y ética. Requiere una acción persistente para transformar flujos de trabajo, procesos, sistemas y entornos de trabajo; esto incluye, entre otras, áreas como RR. HH., finanzas o gestión de proveedores. Una persona líder es quien demuestra liderazgo.
 
-Los Propietario del producto y Scrum Master equilibran el liderazgo, autoridad y control sutil proporcionando dirección clara, fomentando la iniciativa y reforzando la responsabilidad. Guían sin microgestionar, asegurando que el equipo Scrum comprenda la visión y los objetivos, tenga autonomía para ejecutar y se responsabilice de los resultados. Cuando se necesita intervenir, lo hacen con determinación, respetando la autonomía del equipo. Los desarrolladores de producto demuestran liderazgo mediante su orientación a la autogestión, su profesionalismo y su enfoque en objetivos; la autogestión conlleva responsabilidades. los aliados  demuestran liderazgo apoyando la eliminación de impedimentos a corto y largo plazo, mejorando la coherencia entre la gestión y Scrum, y apoyando el cambio emergente cuando se les solicita.
+Los Propietario del producto y Scrum Master equilibran el liderazgo, autoridad y control sutil proporcionando dirección clara, fomentando la iniciativa y reforzando la responsabilidad. Guían sin microgestionar, asegurando que el equipo Scrum comprenda la visión y los objetivos, tenga autonomía para ejecutar y se responsabilice de los resultados. Cuando se necesita intervenir, lo hacen con determinación, respetando la autonomía del equipo. Los desarrolladores de producto demuestran liderazgo mediante su orientación a la autogestión, su profesionalismo y su enfoque en objetivos; la autogestión conlleva responsabilidades. los aliados demuestran liderazgo apoyando la eliminación de impedimentos a corto y largo plazo, mejorando la coherencia entre la gestión y Scrum, y apoyando el cambio emergente cuando se les solicita.
 
 ### Pensamiento desde primeros principios {#pensamiento-desde-primeros-principios}
 
@@ -387,7 +392,7 @@ El foco debe seguir en la dinámica humana del trabajo en equipo, con la IA como
 
 'Desarrollador' es un rol y una responsabilidad. Todos los desarrolladores juntos deben poseer las competencias necesarias para crear incrementos. Este conjunto de habilidades se considera multifuncional.
 
-Un desarrollador puede ser humano o automatizado. Los desarrolladores humanos están _comprometidos_ con crear, investigar, inspeccionar y adaptar cualquier aspecto de un incremento liberable, como tarde, cada Sprint. Su _foco_ principal está en el Sprint actual, aunque pueden dedicar parte de su capacidad a la  preparación futura, retroalimentación y aprendizaje.
+Un desarrollador puede ser humano o automatizado. Los desarrolladores humanos están _comprometidos_ con crear, investigar, inspeccionar y adaptar cualquier aspecto de un incremento liberable, como tarde, cada Sprint. Su _foco_ principal está en el Sprint actual, aunque pueden dedicar parte de su capacidad a la preparación futura, retroalimentación y aprendizaje.
 
 Los desarrolladores se adhieren a la Definición de Hecho de Producto y buscan una mejora neta. Logran mejores resultados cuando se enfocan en un solo producto. Si en algún momento el Propietario del producto o el Scrum Master trabajan activamente en elementos del Sprint Backlog, lo hacen como desarrolladores.
 
@@ -407,14 +412,13 @@ Los desarrolladores son siempre colectivamente responsables de:
 
 El contexto importa, pero como regla general, un desarrollador que no esté dispuesto, preparado ni capacitado para actuar como profesional debería dejar de ser desarrollador.
 
-
 ### Propietario del producto {#propietario-del-producto}
 
 "Propietario del producto" es un rol y una responsabilidad. Debe ser una única persona. Para ser efectivo, debe liderar el producto. Maximiza el valor a largo plazo y necesita saber dónde está el valor y cuándo se necesita entregar. Se espera que trabaje en todos los niveles y áreas relevantes del negocio. Colabora con las personas implicadas, el Scrum Master y los desarrolladores para crear valor.
 
 El Propietario del producto utiliza el Backlog de Producto para definir qué se construye y en qué orden aproximado. Siempre mantiene en mente el objetivo del producto; su _foco_ principal es maximizar el valor a largo plazo en cada paso.
 
-No suele analizar y escribir elementos detallados del Backlog de Producto. Cada minuto que no confía en los desarrolladores es una oportunidad perdida para pensar estratégicamente, colaborar con personas implicadas o generar más valor. El Propietario del producto debe adoptar comportamientos apropiados según el contexto, incluyendo, entre otros: ser visionario, representante del cliente, colaborador, influenciador, experimentador, decisor y promotor de la participación de personas implicadas, crear claridad, fomentar la calidad del producto y la  realización de valor.
+No suele analizar y escribir elementos detallados del Backlog de Producto. Cada minuto que no confía en los desarrolladores es una oportunidad perdida para pensar estratégicamente, colaborar con personas implicadas o generar más valor. El Propietario del producto debe adoptar comportamientos apropiados según el contexto, incluyendo, entre otros: ser visionario, representante del cliente, colaborador, influenciador, experimentador, decisor y promotor de la participación de personas implicadas, crear claridad, fomentar la calidad del producto y la realización de valor.
 
 Siempre es responsable de:
 
@@ -475,6 +479,7 @@ Apoya al equipo Scrum también en:
 - Asegurar que todo el equipo colabora de forma intencionada, cumple la Definición de Hecho y se enfoca en crear incrementos valiosos.
 
 El Scrum Master apoya a las personas implicadas de diversas formas, incluyendo:
+
 - Cuando se necesita más que solo experiencia, ayudando a las personas afectadas y a las personas implicadas a comprender y adoptar:
   - Un enfoque empírico para el trabajo complejo (30–35), donde causa y efecto solo se comprenden con perspectiva retrospectiva;
   - Prácticas que van más allá del control empírico del proceso, como ejecutar múltiples experimentos paralelos seguros al fallo, fomentar pensamiento innovador, aplicar la exaptación o probar intuiciones fundamentadas. Exaptación significa tomar algo creado o usado para un propósito y reutilizarlo para otro distinto, especialmente en contextos nuevos o inciertos.
@@ -594,7 +599,7 @@ El Backlog de Producto es un artefacto. Es la lista emergente y ordenada de elem
 
 Un elemento del Backlog de Producto es una pieza de trabajo potencialmente valiosa. No tiene un formato fijo. Sirve para abordar un problema u oportunidad. Puede incluir criterios de aceptación que indiquen cuándo está completado, además cumplir de la Definición de Hecho de Producto. También puede tener criterios de resultado para saber si genera suficiente valor, además de lo incluido en la Definición de Hecho de Resultado.
 
-Es una unidad de trabajo que descubre o entrega valor. Puede evolucionar en cualquier momento, incluso mientras se trabaja en él. En el refinamiento, se descompone en partes más pequeñas, comprensibles principalmente para el equipo Scrum. Si hay muchos elementos no alineados con el objetivo del producto, podría ser síntoma de falta de _foco_. El equipo Scrum y las personas implicadas deben priorizar resultados sobre entregables, equilibrar las decisiones, y evitar convertirse en una "fábrica de funcionalidades" o de "descubrimientos". 
+Es una unidad de trabajo que descubre o entrega valor. Puede evolucionar en cualquier momento, incluso mientras se trabaja en él. En el refinamiento, se descompone en partes más pequeñas, comprensibles principalmente para el equipo Scrum. Si hay muchos elementos no alineados con el objetivo del producto, podría ser síntoma de falta de _foco_. El equipo Scrum y las personas implicadas deben priorizar resultados sobre entregables, equilibrar las decisiones, y evitar convertirse en una "fábrica de funcionalidades" o de "descubrimientos".
 
 #### Criterios de aceptación {#criterios-de-aceptación}
 
@@ -602,7 +607,7 @@ Los criterios de aceptación, si existen, describen cuándo una salida está com
 
 #### Criterios de resultado {#criterio-de-resultado}
 
-Los criterios de resultado, si existen, describen la intención del elemento del Backlog de Producto; es el _por _qué_ detrás del _qué_. Su cumplimiento complementa la Definición de Hecho de Resultado. Pueden incluir criterios específicos no cubiertos por la definición general. Si surgen dudas, los criterios de resultado orientan la decisión. Pueden tomar forma de narrativas o métricas, preferentemente lo segundo. También pueden evolucionar en cualquier momento.
+Los criterios de resultado, si existen, describen la intención del elemento del Backlog de Producto; es el _por \_qué_ detrás del _qué_. Su cumplimiento complementa la Definición de Hecho de Resultado. Pueden incluir criterios específicos no cubiertos por la definición general. Si surgen dudas, los criterios de resultado orientan la decisión. Pueden tomar forma de narrativas o métricas, preferentemente lo segundo. También pueden evolucionar en cualquier momento.
 
 ##############
 
@@ -612,7 +617,7 @@ El refinamiento es una actividad. Puede ser formal (un evento adicional) o infor
 
 El refinamiento implica descomponer elementos del Backlog de Producto en partes más pequeñas y comprensibles (principalmente para el equipo Scrum). Puede añadir detalles como descripción, criterios de aceptación, criterios de resultado, orden y tamaño. Los atributos pueden variar, pero deben ser significativos para el equipo Scrum. Puede incluir investigación, como validación de problemas u oportunidades, experiencia de usuario o cliente y validación de soluciones. Los desarrolladores, y nadie más, son responsables de estimar el tamaño de los elementos del Backlog de Producto. El Propietario del producto puede influirles ayudándoles a entender y elegir posibles alternativas.
 
-Los participantes suelen incluir personas implicadas y miembros del equipo Scrum; no es raro que los desarrolladores trabajen directamente con personas implicadas. El refinamiento suele estar facilitado o respaldado por el Propietario del producto. El Propietario del producto puede _enfocarse_ más en la responsabilidad de producto si los desarrolladores comprenden bien el producto. En general, es una actividad orientada al futuro que aporta claridad, dirección y posible __oco_ para los próximos Sprints.
+Los participantes suelen incluir personas implicadas y miembros del equipo Scrum; no es raro que los desarrolladores trabajen directamente con personas implicadas. El refinamiento suele estar facilitado o respaldado por el Propietario del producto. El Propietario del producto puede _enfocarse_ más en la responsabilidad de producto si los desarrolladores comprenden bien el producto. En general, es una actividad orientada al futuro que aporta claridad, dirección y posible \__oco_ para los próximos Sprints.
 
 #### Compromiso: Objetivo del Producto {#compromiso:-objetivo-del-producto}
 
@@ -689,11 +694,11 @@ Durante este evento, se considera el objetivo del producto (el _por_qué_ del Ba
 
 La planificación del Sprint aborda los siguientes temas:
 
-#### El *por qué* del Sprint {#el-por-que-del-sprint}
+#### El _por qué_ del Sprint {#el-por-que-del-sprint}
 
 El Propietario del producto propone ideas para incrementar el valor y utilidad del producto durante el Sprint. Luego, el equipo colabora para definir un objetivo del Sprint que comunique por qué ese Sprint es valioso para las personas implicadas en relación con el objetivo del producto. Este objetivo debe quedar definido al final de la planificación.
 
-#### El *qué* hacia el *por qué* {#el-que-hacia-el-por-que}
+#### El _qué_ hacia el _por qué_ {#el-que-hacia-el-por-que}
 
 En colaboración con el Propietario del producto, los desarrolladores seleccionan elementos del Backlog de Producto para incluir en el Sprint actual. El equipo puede refinar estos elementos, aumentando así la comprensión y la confianza. Los elementos seleccionados deben ser alcanzables según la Definición de Hecho de Producto, junto con los demás.
 
@@ -701,7 +706,7 @@ Determinar cuánto trabajo se puede completar puede ser difícil. Pero cuanto m�
 
 Los equipos Scrum exitosos no se sobrecargan. De hecho, planifican para terminar temprano, a veces dejando margen para imprevistos (85). Esto les ayuda a mantener el foco, mejorar la calidad y satisfacer a las personas implicadas al entregar valor antes. La sobrecarga crónica o los cambios repentinos pueden causar estrés excesivo, lo que Jeff Sutherland llama "sorpresa bayesiana". Esto puede alterar el flujo psicológico (70) y el rendimiento del equipo. Una comunicación clara, el manejo profesional de la emergencia (71) y pequeños cambios regulares ayudan a prevenirlo. Los equipos deberían apuntar a entregas tempranas.
 
-#### El *cómo* para el *qué* {#el-como-para-el-por-que}
+#### El _cómo_ para el _qué_ {#el-como-para-el-por-que}
 
 El _cómo_ se hace el trabajo depende exclusivamente de los desarrolladores. Nadie más les dice cómo hacerlo. Ellos seleccionan su propio trabajo; nadie, ni siquiera el Propietario del producto, les asigna ni les impone elementos del Backlog de Producto.
 
@@ -715,7 +720,7 @@ Claro, aquí tienes la traducción solicitada:
 
 El Daily Scrum es un evento. En él, los desarrolladores colaboran para revisar el progreso hacia el objetivo del Sprint y actualizan el plan de acción, el Sprint Backlog, hasta el siguiente Daily Scrum. Si ya se ha alcanzado el objetivo del Sprint, los desarrolladores colaboran para avanzar significativamente hacia el objetivo del producto.
 
-El Daily Scrum proporciona *foco*, cohesión y sentido de urgencia, y fomenta la autogestión (49). Normalmente, solo participan los desarrolladores. Para simplificar, suele celebrarse con la misma cadencia, en el mismo lugar y a la misma hora.
+El Daily Scrum proporciona _foco_, cohesión y sentido de urgencia, y fomenta la autogestión (49). Normalmente, solo participan los desarrolladores. Para simplificar, suele celebrarse con la misma cadencia, en el mismo lugar y a la misma hora.
 
 Los desarrolladores pueden elegir la estructura y las técnicas que deseen. El Daily Scrum mejora la comunicación orientada a alcanzar el objetivo del Sprint, ayuda a identificar y abordar riesgos e impedimentos, favorece la toma rápida de decisiones y, como consecuencia, elimina la necesidad de otras reuniones.
 
@@ -810,11 +815,11 @@ Cuando tengas dudas, estudia "The New New Product Development Game" (29), abraza
 
 La adopción de Scrum por parte de Jeff Sutherland en Easel en 1993 se inspiró en los trabajos de Christopher Langton (36, 37) sobre la teoría de los Sistemas Complejos Adaptativos (CAS) (74–77) del Laboratorio de Los Álamos, que muestran que los sistemas evolucionan más rápidamente en el borde del caos.
 
-Scrum está descrito en la [Guía de Scrum 2020](https://scrumguides.org/) (40). *[A Simple Guide to Scrum](https://scrum.academy/guide/)* de Tobias Mayer es una versión abreviada y editada de la Guía oficial de Scrum de Ken Schwaber y Jeff Sutherland. El [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (52) amplía la Guía de Scrum 2020 desde una perspectiva de 2025, aunque esta sigue siendo la referencia esencial sobre Scrum.
+Scrum está descrito en la [Guía de Scrum 2020](https://scrumguides.org/) (40). _[A Simple Guide to Scrum](https://scrum.academy/guide/)_ de Tobias Mayer es una versión abreviada y editada de la Guía oficial de Scrum de Ken Schwaber y Jeff Sutherland. El [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (52) amplía la Guía de Scrum 2020 desde una perspectiva de 2025, aunque esta sigue siendo la referencia esencial sobre Scrum.
 
 Scrum es como un espejo. Si la imagen reflejada no es la esperada, ¿deberíamos ocultar el espejo?
 
-Conviene alcanzar al menos un incremento en cada Sprint como hábito antes de adaptar Scrum. Cada parte de Scrum tiene un propósito; entender el *por qué* de cada una es esencial. Considera el contexto. El corto plazo trata de la entrega. El largo plazo, del cambio emergente exitoso en una dirección y de la entrega sostenible de valor. El éxito en la adopción de Scrum depende de encontrar el equilibrio adecuado entre el corto y el largo plazo.
+Conviene alcanzar al menos un incremento en cada Sprint como hábito antes de adaptar Scrum. Cada parte de Scrum tiene un propósito; entender el _por qué_ de cada una es esencial. Considera el contexto. El corto plazo trata de la entrega. El largo plazo, del cambio emergente exitoso en una dirección y de la entrega sostenible de valor. El éxito en la adopción de Scrum depende de encontrar el equilibrio adecuado entre el corto y el largo plazo.
 
 Hay que tener cuidado con copiar enfoques de otras organizaciones sin fomentar también su cultura. El cambio emergente en una dirección es el propio cambio. Este incluye (pero no se limita a) liderazgo, flujos de trabajo, procesos y sistemas, incluyendo RR. HH., Finanzas, Compras, y más. Scrum forma parte de una expedición sin fin hacia la mejora continua y la evolución en una dirección de viaje, más que hacia un destino.
 
@@ -828,7 +833,7 @@ También agradecemos a quienes ofrecieron comentarios en versiones anteriores de
 
 ---
 
-## Scrum *Expandido* en una sola página {#scrum-expandido-en-una-pagina}
+## Scrum _Expandido_ en una sola página {#scrum-expandido-en-una-pagina}
 
 Scrum está descrito en la [Guía de Scrum 2020](https://scrumguides.org/) (40). Es un marco ligero para abordar trabajo complejo (30–35), especialmente en descubrimiento, desarrollo, entrega y validación de valor de productos. Scrum se basa en el control empírico de procesos (decisiones basadas en evidencia) y el pensamiento Lean (reducción de desperdicios y enfoque en el flujo de valor) (63). Scrum es intencionadamente incompleto: guía interacciones más que prescribir recetas detalladas.
 
@@ -844,7 +849,7 @@ Scrum permite que los equipos identifiquen, representen o midan la emergencia (7
 - Adaptación – Ajustar los planes basándose en ideas y retroalimentación.
 
 2\. Valores de Scrum:
-   _Foco_, _apertura_, _coraje_, _compromiso_ y _respeto_ permiten un trabajo en equipo eficaz y sustentan la confianza.
+_Foco_, _apertura_, _coraje_, _compromiso_ y _respeto_ permiten un trabajo en equipo eficaz y sustentan la confianza.
 
 3\. Roles / Responsabilidades:
 
@@ -857,20 +862,20 @@ Scrum permite que los equipos identifiquen, representen o midan la emergencia (7
   - IA – Puede ser una herramienta o incluso un desarrollador de producto potencial, pero aún no debe ser completamente confiada.
 
 4\. Eventos y actividades de Scrum
-   Scrum opera en Sprints (iteraciones de duración determinada _de_hasta_cuatro_semanas_) con cuatro eventos acotados en el tiempo:
+Scrum opera en Sprints (iteraciones de duración determinada _de_hasta_cuatro_semanas_) con cuatro eventos acotados en el tiempo:
 
-   - Planificación del Sprint – Definir el objetivo del Sprint y planificar el trabajo.
-   - Daily Scrum – Los desarrolladores se alinean a diario sobre el progreso hacia el objetivo del Sprint o del producto.
-   - Revisión del Sprint – Inspeccionar el incremento, el valor y el mercado, y adaptar el Product Backlog.
-   - Retrospectiva del Sprint – Reflexionar y mejorar como equipo.
-   - Refinamiento – Aclarar trabajo seleccionado o próximo, de manera formal (*evento opcional*) o informal.
+- Planificación del Sprint – Definir el objetivo del Sprint y planificar el trabajo.
+- Daily Scrum – Los desarrolladores se alinean a diario sobre el progreso hacia el objetivo del Sprint o del producto.
+- Revisión del Sprint – Inspeccionar el incremento, el valor y el mercado, y adaptar el Product Backlog.
+- Retrospectiva del Sprint – Reflexionar y mejorar como equipo.
+- Refinamiento – Aclarar trabajo seleccionado o próximo, de manera formal (_evento opcional_) o informal.
 
 5\. Artefactos de Scrum y compromisos
 
-   - Producto & Definición de Hecho de Resultado – Producto y resultados valiosos que evidencian beneficios alcanzados.
-   - Incremento & Definición de Hecho de Producto – Actualización candidata potencialmente valiosa y liberable del producto.
-   - Product Backlog & Objetivo del Producto – Lista ordenada de trabajo para alcanzar un objetivo más estratégico a medio plazo.
-   - Sprint Backlog & Objetivo del Sprint – Elementos seleccionados del Product Backlog y un plan para el Sprint, objetivo a corto plazo.
+- Producto & Definición de Hecho de Resultado – Producto y resultados valiosos que evidencian beneficios alcanzados.
+- Incremento & Definición de Hecho de Producto – Actualización candidata potencialmente valiosa y liberable del producto.
+- Product Backlog & Objetivo del Producto – Lista ordenada de trabajo para alcanzar un objetivo más estratégico a medio plazo.
+- Sprint Backlog & Objetivo del Sprint – Elementos seleccionados del Product Backlog y un plan para el Sprint, objetivo a corto plazo.
 
 #
 
@@ -950,7 +955,7 @@ _Humanocracia_ (2), tal como la define Gary Hamel, es un modelo de gestión que 
 
 Se basa en principios como propiedad distribuida, meritocracia, apertura, experimentación y comunidad, fomentando la autonomía y la innovación. La autoridad se basa en la competencia, y la toma de decisiones se descentraliza hacia quienes están más cerca del trabajo. Humanocracia prioriza la confianza, el compromiso y el desarrollo del potencial humano por encima del cumplimiento y el control, con el objetivo de construir entornos laborales resilientes e innovadores donde las personas impulsen cambios significativos.
 
-Aunque modelos como *Rendanheyi* de Haier (56, 101) comparten los valores de descentralización y empoderamiento, *humanocracia* es una filosofía más amplia centrada en sustituir la burocracia por principios centrados en las personas que liberen la capacidad y el valor colectivos.
+Aunque modelos como _Rendanheyi_ de Haier (56, 101) comparten los valores de descentralización y empoderamiento, _humanocracia_ es una filosofía más amplia centrada en sustituir la burocracia por principios centrados en las personas que liberen la capacidad y el valor colectivos.
 
 #### Sociocracia {#sociocracia}
 
@@ -1001,10 +1006,10 @@ _Intent-Based_Leadership_ ayuda a los líderes a construir organizaciones donde 
 
 La práctica de expresar la intención permite la toma de decisiones distribuida sin perder la unidad de esfuerzo. _Intent-Based_Leadership_International_ (sitio web de IBLI) ofrece consultoría, formación, cursos online y libros para líderes.
 
-***Sección 3: Una especie de explicación del marco Cynefin – no oficial y no autorizada***
+**_Sección 3: Una especie de explicación del marco Cynefin – no oficial y no autorizada_**
 _Título: Una especie de explicación del marco Cynefin – no oficial y no autorizada_
 _Fuente: [Enlace al wiki original de Cynefin](https://cynefin.io/wiki/Main_Page), \[Enlace a esta adaptación]_
-_Licencia: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).* © 2017–2025 Cynefin.io._
+_Licencia: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).\* © 2017–2025 Cynefin.io._
 _Exención de responsabilidad: No se otorgan garantías. Úsese bajo su propia responsabilidad._
 _Esta sección se ofrece bajo la licencia Creative Commons Attribution-ShareAlike 4.0 International._
 _Al utilizar esta especie de explicación del marco Cynefin no oficial y no autorizada, acepta los términos de la licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
@@ -1041,6 +1046,7 @@ No todos los aspectos del desarrollo de producto son complejos. El equipo Scrum,
 - Caótico:
 
   - Negativo – Idea clave: Crisis destructiva, colapso, acción urgente
+
     - Posibles respuestas: actuar de inmediato para restaurar el orden, priorizar la seguridad, hacer algo rápido sin empeorar la situación
     - Metáforas: Hielo que se rompe, explosión fuera de control, gas tóxico, tornado, terremoto, incendio forestal o disturbio en un estadio
     - Ejemplo natural: Desastre natural (p. ej., tsunami) – repentino, destructivo, impredecible
@@ -1057,20 +1063,20 @@ Liminalidad es una etapa "intermedia", como un umbral. Los cambios de fase menos
 
 - En el liminal entre lo complejo y lo ordenado, este es el punto óptimo por defecto de Scrum:
 
-- Ordenado-Complejo**:
+- Ordenado-Complejo\*\*:
 
-    - De análisis experto a exploración adaptativa
-    - Posibles respuestas: relajar algunas reglas, introducir experimentación, prepararse para la emergencia
-    - Metáforas: Un cubo de hielo derritiéndose, clima nublado, pasar del ajedrez al póker
-    - Ejemplo en la naturaleza: El deshielo estacional: el hielo rígido da paso a arroyos y nuevo crecimiento
-    - Ejemplo de producto: Cuando un proceso rutinario deja de funcionar, animar al equipo a probar diferentes enfoques
+  - De análisis experto a exploración adaptativa
+  - Posibles respuestas: relajar algunas reglas, introducir experimentación, prepararse para la emergencia
+  - Metáforas: Un cubo de hielo derritiéndose, clima nublado, pasar del ajedrez al póker
+  - Ejemplo en la naturaleza: El deshielo estacional: el hielo rígido da paso a arroyos y nuevo crecimiento
+  - Ejemplo de producto: Cuando un proceso rutinario deja de funcionar, animar al equipo a probar diferentes enfoques
 
 - Complejo-Ordenado:
 
-    - Posibles respuestas: convertir descubrimientos creativos en rutinas expertas; estabilizar la innovación, observar y codificar patrones exitosos; transición hacia la estandarización
-    - Metáforas: Nieve semiderretida (entre hielo y agua), niebla que se disipa tras la lluvia, pasar del póker al ajedrez
-    - Ejemplo en la naturaleza: Delta de un río formando canales: de flujo impredecible a estable
-    - Ejemplo de producto: Convertir una funcionalidad experimental exitosa en un proceso documentado y repetible
+  - Posibles respuestas: convertir descubrimientos creativos en rutinas expertas; estabilizar la innovación, observar y codificar patrones exitosos; transición hacia la estandarización
+  - Metáforas: Nieve semiderretida (entre hielo y agua), niebla que se disipa tras la lluvia, pasar del póker al ajedrez
+  - Ejemplo en la naturaleza: Delta de un río formando canales: de flujo impredecible a estable
+  - Ejemplo de producto: Convertir una funcionalidad experimental exitosa en un proceso documentado y repetible
 
 - En el liminal entre lo complejo y lo caótico:
 
@@ -1104,7 +1110,7 @@ Liminalidad es una etapa "intermedia", como un umbral. Los cambios de fase menos
   - Ejemplo en la naturaleza: Estuario donde se encuentran río, mar y tierra: todos los estados y posibilidades coexisten
   - Ejemplo de producto: El equipo está atrapado entre estrategias o visiones contradictorias y debe hacer una pausa para reflexionar y realinearse
 
-- Cambio de fase raramente considerado debido a su dificultad**: liminal **Caótico–Ordenado**
+- Cambio de fase raramente considerado debido a su dificultad**: liminal **Caótico–Ordenado\*\*
 
   - Posibles respuestas: imponer fuertes restricciones, restablecer reglas y estructura
   - Metáforas: Hielo que se vuelve a congelar rápidamente, ola de frío tras una tormenta, un árbitro estrictamente eficaz tras el caos
@@ -1144,25 +1150,30 @@ Para situaciones en las que la experiencia por sí sola es suficiente (o casi su
   - Identificar a todas las personas implicadas clave (incluyendo pero no limitándose a clientes) y definir sus objetivos de valor en términos medibles (por ejemplo, "reducir el tiempo de incorporación de nuevos usuarios de 5–10 a 2–4 días").
   - Cuantificar explícitamente compensaciones y restricciones, y revisarlas a medida que surja nueva información.
   - Utilizar pensamiento integrador para resolver tensiones de forma creativa.
+
 - Cocrear y priorizar de forma colaborativa:
 
   - Desarrollar la estrategia combinando percepciones de arriba abajo, de abajo arriba y colaboración lateral.
   - Usar talleres estructurados y bucles de retroalimentación para fomentar la alineación y adaptabilidad, y reordenar continuamente el trabajo aún no iniciado.
+
 - Entregar valor de forma incremental y medir resultados:
 
   - Descomponer aspiraciones estratégicas en incrementos pequeños, priorizados y medibles.
   - Entregar valor en ciclos cortos (por ejemplo, Sprints o semanas), midiendo los resultados reales y efectos secundarios frente a los objetivos cuantificados originales.
   - Usar revisiones periódicas para ajustar la estrategia con base en retroalimentación real.
+
 - Permitir la emergencia:
 
   - Dejar que la estrategia evolucione según nuevos datos y retroalimentación de las personas implicadas (incluyendo, entre otros, usuarios), dentro de un marco de objetivos claros, cuantificados, tendencias medibles y evaluación regular de riesgos/beneficios.
   - Hacer correcciones de rumbo rápidamente y con transparencia conforme se desarrolla la realidad.
+
 - Asegurar que tanto la estrategia como su despliegue estén orientados a resultados y tengan foco (decidir en qué trabajar y en qué no). Distinguir entre:
 
   - Estrategia: incluyendo la intención, la razón, los objetivos y los antiobjetivos (el _qué_ y el _por_qué_),
   - Despliegue estratégico: operacionalización de la estrategia, secuenciación iterativa o descomposición de elecciones integradas para la estrategia, usualmente en porciones pequeñas orientadas a resultados (el _qué_ y el _por_qué_),
   - Elementos del Product Backlog orientados a resultados y con foco (porciones más pequeñas para _quién_), y
   - Listas de actividades o iniciativas (el “qué haremos” o _cómo_).
+
 - Evitar confundir una colección de proyectos con una estrategia coherente y orientada al valor.
 
 Para situaciones donde la experiencia es valiosa pero insuficiente, la relación causa–efecto solo se entiende a posteriori, y es necesario abrazar la incertidumbre, los equipos Scrum y las personas implicadas deben:
@@ -1202,9 +1213,10 @@ Una estrategia emergente se apoya en una hoja de ruta orientada a resultados y t
 
 El despliegue de estrategia emergente implica permitir que los planes y acciones se desarrollen de forma natural conforme el equipo Scrum y las personas implicadas responden a los cambios reales. En lugar de seguir un camino fijo, prestan atención a lo que ocurre a su alrededor y se adaptan sobre la marcha. Con el tiempo, los pasos dados forman un patrón que se convierte en la estrategia real, incluso si difiere de lo inicialmente previsto.
 
-# 
+#
 
 ## Atribución de la colección del Scrum Guide Expansion Pack {#atribucion-de-la-coleccion-scrum-guide-expansion-pack}
+
 Esta colección fue escrita y compilada por Ralph Jocham, John Coleman y Jeff Sutherland. Cada sección está atribuida individualmente más arriba y conserva su licencia original. La colección en su conjunto tiene fines informativos; por favor, respeta los términos de licencia de cada sección.
 
 ## Referencias {#referencias}
