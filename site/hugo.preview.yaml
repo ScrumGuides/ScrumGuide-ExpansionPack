@@ -4,7 +4,3 @@ minifyOutput: true
 
 buildDrafts: true
 buildFuture: true
-
-languages:
-  pl:
-    disabled: true
