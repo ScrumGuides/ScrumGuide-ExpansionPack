@@ -6,7 +6,7 @@ languages:
   tlh:
     disabled: true
   fa:
-    disabled: true
+    disabled: false
   pl:
     disabled: true
   nl:
@@ -14,4 +14,4 @@ languages:
   de:
     disabled: true
   es:
-    disabled: true
+    disabled: false
