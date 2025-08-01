@@ -8,6 +8,9 @@ taxonomies: {}
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
+enableMissingTranslationPlaceholders: true
+printI18nWarnings: true
+
 languages:
   en:
     languageName: English
@@ -72,11 +75,19 @@ params:
   description: Scrum Guides 2025 Expansion Pack
   keywords: Scrum
   og_image: /images/scrum-guide-expansion-pack-logo-512.png
-  siteProdUrl: https://scrumexpansion.org
+  siteProdUrl: https://scrumexpansion.org/
   supportEmail: support@scrumexpansion.org
   githubUrl: https://github.com/ScrumGuides/ScrumGuide-ExpansionPack
   previewSiteUrl: https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/
   productionSiteUrl: https://scrumexpansion.org/
+  logo_image: "/images/scrum-guide-expansion-pack-logo-512.png" # URL to the site logo image
+  menu_logo: "/images/scrum-guide-expansion-pack-logo-solo.png" # URL to the main menu logo image
+  AzureSitesConfig: "#{Guides_AzureSitesConfig}#"
+  GitVersion_SemVer: "v#{GitVersion.SemVer}#"
+  GoogleTagManagerID: "G-TS77V93FQJ" # Replace with your actual GTM ID
+  features:
+    guideDetails: false
+
 sitemap:
   filename: sitemap.xml
   changefreq: daily
@@ -111,6 +122,11 @@ outputFormats:
     mediaType: application/json
     baseName: languages
     isPlainText: true
+
+module:
+  imports:
+    - path: github.com/nkdAgility/HugoGuides/module
+
 markup:
   goldmark:
     renderer:

@@ -3,47 +3,58 @@
   {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
   <section class="section container-fluid main-header">
     <div class="container my-5">
+      <!-- Guide Cards with lighter design -->
       <div class="row">
-        <div class="col-12 col-xl-4 p-3">
-          <div class="card card-dark h-100">
-            <div class="card-body text-center d-flex flex-column">
-              <i class="header-icon fa-solid fa-newspaper"></i>
-              <h5 class="card-title">{{ i18n "read_online_title" . }}</h5>
-              <p class="card-text flex-grow-1">{{ i18n "read_online_description" . }}</p>
-            </div>
-            <div class="card-footer">
-              <a href="{{ $guidePage.RelPermalink }}" class="btn btn-primary">{{ i18n "read_online_button" }}</a>
+        {{ $sections := .Site.Sections }}
+        {{ range .Site.Home.Translations }}
+          {{ $sections = $sections | lang.Merge .Site.Sections }}
+        {{ end }}
+        {{ $sections = where $sections "Type" "guide" }}
+        {{/* {{ $sections = lang.Merge $defaultSite.sections $sections }} */}}
+        {{- range $sections.ByWeight }}
+          <div class="col-12 col-lg-12 col-xl-12 p-3">
+            <div class="card h-100 shadow-sm border-0" style="background: #ffffff;">
+              <div class="card-header bg-white border-0 text-center py-3">
+                <h5 class="card-title mb-2 text-dark">{{ .Params.short_title | default .Title }}</h5>
+                <div class="mx-auto rounded" style="height: 4px; width: 60px; background-color: {{ .Params.brand.bg_colour | default "#135289" }};"></div>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <p class="flex-grow-1 text-muted">{{ .Params.which_to_use_summary | markdownify }}</p>
+
+                <!-- Action buttons with more inviting design -->
+                <div class="d-flex flex-wrap gap-2 justify-content-center py-3">
+                  {{- $latestVersion := partial "functions/get-latest-version" . }}
+                  <a href="{{ partial "functions/safe-page-link.html" .Path }}" class="btn btn-primary btn-sm px-3">
+                    <i class="fa-solid fa-book-open me-2"></i>{{ i18n "read_online_button" }}
+                  </a>
+                  <a href="{{ partial "functions/safe-page-link.html"  (path.Join .Path "translations") }}" class="btn btn-outline-secondary btn-sm px-3">
+                    <i class="fa-solid fa-globe me-2"></i>{{ i18n "translations_button" }}
+                  </a>
+                  <a href="{{ partial "functions/safe-page-link.html" (path.Join .Path "history") }}" class="btn btn-outline-secondary btn-sm px-3">
+                    <i class="fa-solid fa-clock-rotate-left me-2"></i>{{ i18n "history_button" }}
+                  </a>
+                </div>
+               <!-- Comparison details with better visual hierarchy -->
+                {{- if .Params.guide_comparison }}
+                  {{- $guideComparison := .Params.guide_comparison }}
+                  {{- if and $guideComparison (reflect.IsSlice $guideComparison) (gt (len $guideComparison) 0) }}
+                    <div class="mt-3 p-3 rounded" style="background-color: #f8f9fa;">
+                      <h6 class="text-primary mb-3 fw-bold text-center"><i class="fa-solid fa-list-check me-2"></i>{{ i18n "at_a_glance_title" . }}</h6>
+                      <div class="small">
+                        {{- range $index, $item := $guideComparison }}
+                          <div class="row {{ if eq $index (sub (len $guideComparison) 1) }}mb-0{{ else }}mb-2{{ end }}">
+                            <div class="col-5 text-end fw-semibold text-secondary">{{ $item.title | title }}:</div>
+                            <div class="col-7 text-dark">{{ $item.content | markdownify }}</div>
+                          </div>
+                        {{- end }}
+                      </div>
+                    </div>
+                  {{- end }}
+                {{- end }}
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-xl-4 p-3">
-          <div class="card card-dark h-100">
-            <div class="card-body text-center d-flex flex-column">
-              <i class="header-icon fa-solid fa-download"></i>
-              <h5 class="card-title">{{ i18n "download_title" . }}</h5>
-              <p class="card-text flex-grow-1">{{ i18n "download_description" . }}</p>
-            </div>
-            <div class="card-footer">
-              <a href="{{ (.Site.GetPage "/translations").Permalink }}" class="btn btn-primary">{{ i18n "nav_translations" . }}</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-xl-4 p-3">
-          <div class="card card-dark h-100">
-            <div class="card-body text-center d-flex flex-column">
-              <i class="header-icon fa-solid fa-comments"></i>
-              <h5 class="card-title">{{ i18n "join_discussion_title" . }}</h5>
-              <p class="card-text flex-grow-1">{{ i18n "join_discussion_description" . }}</p>
-            </div>
-            <div class="card-footer">
-              {{ if $isComingSoon }}
-                <a href="#" class="btn btn-primary disabled">coming soon</a>
-              {{ else }}
-                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary" target="_blank">{{ i18n "join_discussion_button" }}</a>
-              {{ end }}
-            </div>
-          </div>
-        </div>
+        {{- end }}
       </div>
     </div>
   </section>
