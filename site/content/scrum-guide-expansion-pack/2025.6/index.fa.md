@@ -14,10 +14,40 @@ author:
   - جف ساترلند
 date: 2025-06-11T09:00:00Z
 translators:
-  - name: Pedram Keshavarzi
-    link: https://www.linkedin.com/in/pkeshavarzi/
-  - name: Ali Naderivarandi
-    link: https://www.linkedin.com/in/ali-naderivarandi-9a269a261
+- name: Pedram Keshavarzi
+  githubUsername: pedicurus
+  url: https://www.linkedin.com/in/pkeshavarzi/
+  role: translator
+  weight: 1
+- name: Ali Naderivarandi
+  githubUsername: Alinaderivarandi
+  url: https://www.linkedin.com/in/ali-naderivarandi-9a269a261
+  role: translator
+  weight: 1
+- name: Pooya Sabramooz
+  githubUsername: sabramooz
+  role: translator
+  weight: 1
+- name: Jamasb Samia Kalantari
+  githubUsername: JaamySkm
+  role: translation review
+  weight: 1
+- name: Farzad Tarapourvala
+  githubUsername: farzadtara
+  role: translation review
+  weight: 1
+- name: pantehash
+  githubUsername: pantehash
+  role: translation review
+  weight: 1
+- name: Ali
+  githubUsername: AliSaxaei
+  role: translation review
+  weight: 1
+- name: Mohammad Javad Bathaei
+  githubUsername: javadbat
+  role: translation review
+  weight: 1
 type: guide
 lang: fa
 dir: rtl

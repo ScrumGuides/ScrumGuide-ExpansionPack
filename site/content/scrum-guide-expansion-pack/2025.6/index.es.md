@@ -12,6 +12,12 @@ author:
   - Ralph Jocham
   - John Coleman
   - Jeff Sutherland
+translators:
+- name: Alex Ballarin
+  githubUsername: itnove
+  url: https://www.itnove.com
+  role: translator
+  weight: 1
 date: 2025-07-24T09:00:00Z
 type: guide
 lang: es
