@@ -81,18 +81,6 @@
         <div class="col-12 col-lg-8 col-xl-6">
           <div>
             <div class="col-12">
-              <h2 class="text-center">{{ i18n "what_is_guide_title" . }}</h2>
-              <div class="lead text-center">
-                {{- $guidePage := .Site.GetPage "/guide" }}
-                {{- $guideWhatis := partial "functions/get-page-param-with-default.html" (dict "page" $guidePage "param" "guide_whatis" "context" .) }}
-                {{- if $guideWhatis }}
-                  {{ $guideWhatis | markdownify }}
-                {{- else }}
-                  {{ i18n "guide_content_not_found" | markdownify }}
-                {{- end }}
-              </div>
-            </div>
-            <div class="col-12">
               <h2 class="text-center">{{ i18n "open_source_title" }}</h2>
               <p class="lead text-center">
                 {{ i18n "open_source_description" . }}
