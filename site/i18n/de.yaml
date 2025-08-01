@@ -153,6 +153,9 @@
 - id: guide_pdf_not_available
   translation: "PDF nicht verfügbar"
 
+- id: contributors_label
+  translation: "Beitragende"
+
 - id: guide_pdf_intro_text
   translation: "Dieser Leitfaden ist auch als PDF-Download verfügbar."
 

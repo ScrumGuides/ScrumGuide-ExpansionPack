@@ -20,6 +20,9 @@
 - id: open_source_description
   translation: "This {{ .Site.Title }} is an open source project that thrives on community collaboration. Whether you want to suggest improvements, report issues, or contribute content, we welcome your participation. Together, we can make this resource even more valuable for the Scrum community worldwide."
 
+- id: history_page_title
+  translation: "History"
+
 - id: join_discussion_button
   translation: "Join the Discussion"
 
@@ -168,21 +171,12 @@
 - id: download_community_contributors
   translation: "Community Contributors"
 
+- id: contributors_label
+  translation: "Contributors"
+
 - id: read_online_action
   translation: "Read Online"
 
-# PDF Download functionality
-- id: guide_pdf_download_button
-  translation: "Download PDF"
-
-- id: guide_pdf_not_available
-  translation: "PDF not available"
-
-- id: guide_pdf_intro_text
-  translation: "This guide is also available as a PDF download."
-
-- id: guide_pdf_intro_link
-  translation: "Download PDF"
 
 # Guide template translations
 - id: guide_join_discussion

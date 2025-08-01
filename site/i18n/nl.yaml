@@ -5,7 +5,10 @@
 - id: read_online_title
   translation: "Lees het {{ .Site.Title }} online"
 
-- id: read_online_description
+- id: read_online_action
+  translation: "Online lezen"
+
+# Missing translations for Dutchtion
   translation: "Krijg digitaal toegang tot de volledige gids met interactieve functies en eenvoudige navigatie."
 
 - id: read_online_button
@@ -247,3 +250,9 @@
 
 - id: translations_button_small
   translation: "Vertalingen"
+
+- id: contributors_label
+  translation: "Bijdragers"
+
+- id: contributors_label
+  translation: "Bijdragers"

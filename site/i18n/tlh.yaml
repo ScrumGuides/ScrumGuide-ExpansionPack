@@ -146,19 +146,6 @@
 - id: read_online_action
   translation: "laHbe'"
 
-# PDF Download functionality
-- id: guide_pdf_download_button
-  translation: "PDF tlhap"
-
-- id: guide_pdf_not_available
-  translation: "PDF DIlo'"
-
-- id: guide_pdf_intro_text
-  translation: "nugh teywI' je PDF DIch DIlo'."
-
-- id: guide_pdf_intro_link
-  translation: "PDF tlhap"
-
 # Missing translations for Klingon
 - id: breadcrumb_home
   translation: "juH"
@@ -246,3 +233,6 @@
 
 - id: download_reference_status
   translation: "nugh"
+
+- id: contributors_label
+  translation: "chenmoHwI'"

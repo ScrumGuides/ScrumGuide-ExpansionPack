@@ -237,3 +237,6 @@
 
 - id: download_reference_status
   translation: "مرجع"
+
+- id: contributors_label
+  translation: "مشارکت‌کنندگان"
