@@ -167,3 +167,73 @@
 
 - id: read_online_action
   translation: "مطالعه آنلاین"
+
+# Missing translations for Persian/Farsi
+- id: breadcrumb_home
+  translation: "خانه"
+
+- id: nav_read_guide
+  translation: "مطالعه راهنما"
+
+- id: translations_button
+  translation: "ترجمه‌ها"
+
+- id: nav_history
+  translation: "تاریخچه"
+
+- id: history_button
+  translation: "تاریخچه"
+
+- id: download_table_contributed_by
+  translation: "ارائه شده توسط"
+
+- id: history_page_title
+  translation: "تاریخچه"
+
+- id: guide_join_discussion
+  translation: "پیوستن به بحث"
+
+- id: at_a_glance_title
+  translation: "در یک نگاه"
+
+- id: guide_table_of_contents
+  translation: "فهرست مطالب"
+
+- id: current_open_guide_label
+  translation: "راهنمای باز فعلی"
+
+- id: active_status_label
+  translation: "وضعیت"
+
+- id: guide_updated_label
+  translation: "به‌روزرسانی شده"
+
+- id: available_languages_label
+  translation: "زبان‌های موجود"
+
+- id: translators_label
+  translation: "مترجمان"
+
+- id: pdf_downloads_label
+  translation: "دانلودهای PDF"
+
+- id: guide_version_label
+  translation: "نسخه"
+
+- id: living_document_updated_label
+  translation: "این سند زنده آخرین بار به‌روزرسانی شده در"
+
+- id: read_guide_button
+  translation: "مطالعه راهنما"
+
+- id: guide_version_latest
+  translation: "آخرین"
+
+- id: translations_button_small
+  translation: "ترجمه‌ها"
+
+- id: guide_back_to_home
+  translation: "بازگشت به خانه"
+
+- id: download_reference_status
+  translation: "مرجع"

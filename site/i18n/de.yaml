@@ -158,3 +158,91 @@
 
 - id: guide_pdf_intro_link
   translation: "PDF herunterladen"
+
+# Missing translations for German
+- id: breadcrumb_home
+  translation: "Startseite"
+
+- id: translations_button
+  translation: "Übersetzungen"
+
+- id: nav_read_guide
+  translation: "Leitfaden lesen"
+
+- id: nav_history
+  translation: "Geschichte"
+
+- id: history_button
+  translation: "Geschichte"
+
+- id: history_page_title
+  translation: "Geschichte"
+
+- id: guide_join_discussion
+  translation: "Diskussion beitreten"
+
+- id: at_a_glance_title
+  translation: "Auf einen Blick"
+
+- id: current_open_guide_label
+  translation: "Aktuell geöffneter Leitfaden"
+
+- id: download_table_contributed_by
+  translation: "Beigetragen von"
+
+- id: guide_table_of_contents
+  translation: "Inhaltsverzeichnis"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_updated_label
+  translation: "Aktualisiert"
+
+- id: guide_version_label
+  translation: "Version"
+
+- id: available_languages_label
+  translation: "Verfügbare Sprachen"
+
+- id: guide_version_latest
+  translation: "Neueste"
+
+- id: pdf_downloads_label
+  translation: "PDF-Downloads"
+
+- id: guide_back_to_home
+  translation: "Zurück zur Startseite"
+
+- id: living_document_updated_label
+  translation: "Dieses lebende Dokument wurde zuletzt aktualisiert am"
+
+- id: read_guide_button
+  translation: "Leitfaden lesen"
+
+- id: translations_button_small
+  translation: "Übersetzungen"
+
+- id: download_preview_status
+  translation: "In Vorschau"
+
+- id: download_preview_translations
+  translation: "Vorschau-Übersetzungen"
+
+- id: download_preview_description
+  translation: "Diese Übersetzungen sind als Vorschau verfügbar und benötigen mindestens 5 Community-Prüfer, bevor sie zur Hauptseite verschoben werden können. Hilf uns, diese Übersetzungen zu überprüfen und zu verbessern!"
+
+- id: download_visit_preview
+  translation: "Vorschau-Seite besuchen"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_preview_action
+  translation: "Vorschau"
+
+- id: download_discussion_action
+  translation: "Diskussion"
+
+- id: download_reference_status
+  translation: "Referenz"

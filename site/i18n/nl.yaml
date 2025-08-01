@@ -180,3 +180,70 @@
 
 - id: download_discussion_action
   translation: "Discussie"
+
+# Missing translations for Dutch
+- id: breadcrumb_home
+  translation: "Home"
+
+- id: translations_button
+  translation: "Vertalingen"
+
+- id: nav_read_guide
+  translation: "Gids lezen"
+
+- id: nav_history
+  translation: "Geschiedenis"
+
+- id: history_button
+  translation: "Geschiedenis"
+
+- id: download_table_contributed_by
+  translation: "Bijgedragen door"
+
+- id: history_page_title
+  translation: "Geschiedenis"
+
+- id: guide_join_discussion
+  translation: "Deelnemen aan discussie"
+
+- id: at_a_glance_title
+  translation: "In één oogopslag"
+
+- id: current_open_guide_label
+  translation: "Huidige geopende gids"
+
+- id: guide_table_of_contents
+  translation: "Inhoudsopgave"
+
+- id: guide_updated_label
+  translation: "Bijgewerkt"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_version_label
+  translation: "Versie"
+
+- id: guide_version_latest
+  translation: "Nieuwste"
+
+- id: available_languages_label
+  translation: "Beschikbare talen"
+
+- id: pdf_downloads_label
+  translation: "PDF-downloads"
+
+- id: guide_back_to_home
+  translation: "Terug naar home"
+
+- id: living_document_updated_label
+  translation: "Dit levende document werd laatst bijgewerkt op"
+
+- id: read_guide_button
+  translation: "Gids lezen"
+
+- id: download_reference_status
+  translation: "Referentie"
+
+- id: translations_button_small
+  translation: "Vertalingen"

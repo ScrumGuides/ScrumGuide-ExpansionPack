@@ -130,3 +130,97 @@
 - id: read_online_action
   translation: "Czytaj Online"
 
+# Missing translations for Polish
+- id: breadcrumb_home
+  translation: "Strona główna"
+
+- id: translations_button
+  translation: "Tłumaczenia"
+
+- id: history_page_title
+  translation: "Historia"
+
+- id: nav_read_guide
+  translation: "Czytaj przewodnik"
+
+- id: nav_history
+  translation: "Historia"
+
+- id: history_button
+  translation: "Historia"
+
+- id: current_open_guide_label
+  translation: "Aktualnie otwarty przewodnik"
+
+- id: at_a_glance_title
+  translation: "Na pierwszy rzut oka"
+
+- id: guide_join_discussion
+  translation: "Dołącz do dyskusji"
+
+- id: download_table_contributed_by
+  translation: "Autor tłumaczenia"
+
+- id: reportTranslationError
+  translation: "Zgłoś błąd tłumaczenia"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_table_of_contents
+  translation: "Spis treści"
+
+- id: guide_pdf_download_button
+  translation: "Pobierz PDF"
+
+- id: available_languages_label
+  translation: "Dostępne języki"
+
+- id: guide_updated_label
+  translation: "Zaktualizowano"
+
+- id: guide_version_label
+  translation: "Wersja"
+
+- id: pdf_downloads_label
+  translation: "Pobieranie PDF"
+
+- id: guide_version_latest
+  translation: "Najnowsza"
+
+- id: living_document_updated_label
+  translation: "Ten żywy dokument został ostatnio zaktualizowany"
+
+- id: download_preview_status
+  translation: "W podglądzie"
+
+- id: guide_back_to_home
+  translation: "Powrót do strony głównej"
+
+- id: read_guide_button
+  translation: "Czytaj przewodnik"
+
+- id: translations_button_small
+  translation: "Tłumaczenia"
+
+- id: download_preview_translations
+  translation: "Podgląd tłumaczeń"
+
+- id: download_preview_description
+  translation: "Te tłumaczenia są dostępne w podglądzie i potrzebują co najmniej 5 recenzentów ze społeczności, zanim będą mogły zostać przeniesione na stronę główną. Pomóż nam przejrzeć i ulepszyć te tłumaczenia!"
+
+- id: download_visit_preview
+  translation: "Odwiedź stronę podglądu"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_preview_action
+  translation: "Podgląd"
+
+- id: download_discussion_action
+  translation: "Dyskusja"
+
+- id: download_reference_status
+  translation: "Odniesienie"
+

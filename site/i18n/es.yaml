@@ -180,3 +180,70 @@
 
 - id: guide_pdf_intro_link
   translation: "Descargar PDF"
+
+# Missing translations for Spanish
+- id: breadcrumb_home
+  translation: "Inicio"
+
+- id: nav_read_guide
+  translation: "Leer guía"
+
+- id: nav_history
+  translation: "Historia"
+
+- id: translations_button
+  translation: "Traducciones"
+
+- id: history_page_title
+  translation: "Historia"
+
+- id: download_table_contributed_by
+  translation: "Contribuido por"
+
+- id: guide_join_discussion
+  translation: "Unirse a la discusión"
+
+- id: history_button
+  translation: "Historia"
+
+- id: guide_table_of_contents
+  translation: "Tabla de contenidos"
+
+- id: current_open_guide_label
+  translation: "Guía abierta actual"
+
+- id: at_a_glance_title
+  translation: "De un vistazo"
+
+- id: active_status_label
+  translation: "Estado"
+
+- id: guide_updated_label
+  translation: "Actualizado"
+
+- id: available_languages_label
+  translation: "Idiomas disponibles"
+
+- id: guide_version_label
+  translation: "Versión"
+
+- id: pdf_downloads_label
+  translation: "Descargas PDF"
+
+- id: living_document_updated_label
+  translation: "Este documento vivo fue actualizado por última vez el"
+
+- id: guide_version_latest
+  translation: "Última"
+
+- id: read_guide_button
+  translation: "Leer guía"
+
+- id: translations_button_small
+  translation: "Traducciones"
+
+- id: guide_back_to_home
+  translation: "Volver al inicio"
+
+- id: download_reference_status
+  translation: "Referencia"
