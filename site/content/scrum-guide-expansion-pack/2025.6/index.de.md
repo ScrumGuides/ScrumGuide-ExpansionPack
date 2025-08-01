@@ -9,7 +9,6 @@ keywords:
   - Scrum in komplexen Umgebungen
   - Scrum und KI
 date: 2025-06-11T09:00:00Z
-slug: scrum-guide-expansion-pack
 type: guide
 sitemap:
   priority: 1.0

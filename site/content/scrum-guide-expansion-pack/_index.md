@@ -1,7 +1,7 @@
 ---
 title: Scrum Guide Expansion Pack
 description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments.
-slug: "scrum-guide-expansion-pack"
+slug: scrum-guide-expansion-pack
 Type: "guide"
 Layout: "root"
 brand:

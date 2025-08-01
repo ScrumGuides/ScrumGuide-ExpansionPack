@@ -1,7 +1,7 @@
 ---
 title: Paquete de expansión de la Guía Scrum
 description: El Paquete de expansión de la Guía Scrum es un complemento integral a la Guía Scrum 2020, creado para ayudar a los profesionales a desenvolverse en entornos de desarrollo de productos cada vez más complejos.
-slug: "scrum-guide-expansion-pack"
+slug: scrum-guide-expansion-pack
 Type: "guide"
 Layout: "root"
 brand:

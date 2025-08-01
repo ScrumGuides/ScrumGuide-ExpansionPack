@@ -135,6 +135,9 @@
 - id: download_table_language
   translation: "Language"
 
+- id: download_table_contributed_by
+  translation: "Contributed By"
+
 - id: download_table_translations_by
   translation: "Translations By"
 
@@ -180,3 +183,19 @@
 
 - id: guide_pdf_intro_link
   translation: "Download PDF"
+
+# Guide template translations
+- id: guide_join_discussion
+  translation: "Join Discussion"
+
+- id: guide_version_dropdown_label
+  translation: "Select version"
+
+- id: guide_version_current
+  translation: "Current"
+
+- id: guide_version_latest
+  translation: "Latest"
+
+- id: download_reference_status
+  translation: "Reference"

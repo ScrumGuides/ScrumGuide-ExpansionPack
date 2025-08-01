@@ -13,7 +13,6 @@ author:
   - John Coleman
   - Jeff Sutherland
 date: 2025-07-24T09:00:00Z
-slug: scrum-guide-expansion-pack
 type: guide
 lang: es
 mainfont: "Times New Roman"

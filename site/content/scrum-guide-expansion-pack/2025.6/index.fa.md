@@ -13,7 +13,6 @@ author:
   - جان کولمن
   - جف ساترلند
 date: 2025-06-11T09:00:00Z
-slug: scrum-guide-expansion-pack
 translators:
   - name: Pedram Keshavarzi
     link: https://www.linkedin.com/in/pkeshavarzi/

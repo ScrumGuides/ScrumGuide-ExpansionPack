@@ -1,7 +1,7 @@
 ---
 title: QIpyuS pa'Daq jIbuS
 description: QumwI'pu' Human sutlu', 'ach vongwI'pu' 'uy' ghe'naQmey qengbogh toy'wI', ghe''naQmey le' ghaH . pay' jonpIn wa'DIch je, pay' ghu' je. naDevvo' yInchoH 'ej naDqu' muSHa'ghachchaj, jIQublaHbe' 'e' vI'Iprup.
-slug: "scrum-guide-expansion-pack"
+slug: scrum-guide-expansion-pack
 Type: "guide"
 Layout: "root"
 brand:
