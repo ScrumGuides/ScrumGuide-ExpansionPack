@@ -12,5 +12,37 @@
       }
     }
   },
-  "routes": []
+  "routes": [
+    {
+      "route": "/history/",
+      "redirect": "/scrum-guide-expansion-pack/history/",
+      "statusCode": 301
+    },
+    {
+      "route": "/translations/",
+      "redirect": "/scrum-guide-expansion-pack/translations/",
+      "statusCode": 301
+    },
+    {
+      "route": "/scrum-guide-expansion-pack/pdf/scrum-guide-expansion-pack.en.pdf",
+      "redirect": "/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.en.pdf",
+      "statusCode": 301
+    },
+    {
+      "route": "/scrum-guide-expansion-pack/pdf/scrum-guide-expansion-pack.en-us.pdf",
+      "redirect": "/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.en-us.pdf",
+      "statusCode": 301
+    },
+    {
+      "route": "/fa/scrum-guide-expansion-pack/pdf/scrum-guide-expansion-pack.fa.pdf",
+      "redirect": "/fa/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.fa.pdf",
+      "statusCode": 301
+    }
+    ,
+    {
+      "route": "/es/scrum-guide-expansion-pack/pdf/scrum-guide-expansion-pack.es.pdf",
+      "redirect": "/es/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.es.pdf",
+      "statusCode": 301
+    }
+  ]
 }

@@ -1,6 +1,8 @@
 baseURL: https://scrumexpansion.org
 Environment: "production"
 minifyOutput: true
+enableMissingTranslationPlaceholders: false
+printI18nWarnings: false
 
 languages:
   tlh:
