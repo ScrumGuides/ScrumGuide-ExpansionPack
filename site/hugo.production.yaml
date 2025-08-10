@@ -15,5 +15,7 @@ languages:
     disabled: true
   de:
     disabled: true
+  ro:
+    disabled: false
   es:
     disabled: false

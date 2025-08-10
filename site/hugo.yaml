@@ -64,6 +64,14 @@ languages:
       description: ScrumExpansion.org is de thuisbasis van het Scrum Gids Uitbreidingspakket — moderne richtlijnen voor het toepassen van Scrum op complexe werkzaamheden, AI en adaptieve strategie.
       keywords: Scrum, ScrumExpansion.org, Scrum Gids Uitbreidingspakket, Scrum richtlijnen, geavanceerde Scrum praktijken, Scrum voor modern werk, adaptieve onderneming, agile productlevering, empirische Scrum, productdenken, complexiteitstheorie in Scrum, Scrum leiderschap, professioneel Scrum, Scrum en AI, Scrum bronnen, Scrum leerhub, Scrum gemeenschapssite
       discussionId: 125
+  ro:
+    languageName: Română
+    weight: 4
+    title: Ghidul Scrum Pachetul Extins
+    languageCode: ro
+    params:
+      description: ScrumExpansion.org găzduiește Pachetul Extins al Ghidului Scrum — ghid modern pentru aplicarea Scrum în activitatea complexă, inteligența artificială și strategia adaptivă. 
+      keywords: Scrum, ScrumExpansion.org, Ghidul Scrum Pachetul Extins, ghid Scrum, practici Scrum avansate, Scrum pentru munca modernă, întreprindere adaptivă, livrare agilă de produs, Scrum empiric, gândire bazată pe dezvoltarea produselor, teoria complexității în Scrum, leadership în Scrum, Scrum profesional, Scrum Educativ Scrum și inteligența artificială, resurse Scrum, hub de învățare Scrum, site al comunității Scrum.
   es:
     languageName: Spanish
     weight: 4
