@@ -1,0 +1,271 @@
+# Romanian translations
+- id: and
+  translation: "și"
+
+- id: read_online_title
+  translation: "Citește {{ .Site.Title }} online"
+
+- id: read_online_description
+  translation: "Accesează ghidul complet digital cu funcții interactive și navigare ușoară."
+
+- id: read_online_button
+  translation: "Citește online"
+
+- id: what_is_guide_title
+  translation: "Ce este {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open Source & Condus de către Comunitate"
+
+- id: open_source_description
+  translation: "{{ .Site.Title }} este un proiect open source care prosperă prin colaborarea comunității. Fie că doriți să sugerați îmbunătățiri, raportați probleme sau să contribuiți la conținut, vă mulțumim pentru participare. Împreună, putem face această resursă mai valoroasă pentru comunitatea Scrum din întreaga lume."
+
+- id: history_page_title
+  translation: "Istoric"
+
+- id: join_discussion_button
+  translation: "Alăturați-vă discuției"
+
+- id: join_discussion_title
+  translation: "Alăturați-vă discuției {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Implică-te în comunitate, împărtășește-ți opiniile și ajută-te să formăm viitorul {{ .Site.Title }}. Contribuțiile tale sunt inestimabile în faptul că acest ghid devine o resursă completă pentru practicanții Scrum."
+
+- id: download_title
+  translation: "Descarcă {{ .Site.Title }}"
+
+- id: download_description
+  translation: "Obține {{ .Site.Title }} în format PDF pentru citit fără conexiune la internet. Perfect pentru cei care preferă o copie fizică sau au nevoie de referințe fără conexiune la internet."
+
+- id: download_button
+  translation: "Descarcă PDF"
+
+- id: about_creators_title
+  translation: "Despre creatorii {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "Citește biografia {{ .Name }}"
+
+- id: guide_content_not_found
+  translation: "Conținutul ghidului nu a fost găsit"
+
+- id: reportTranslationError
+  translation: "Raportează o eroare de traducere"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "Citește online"
+
+- id: nav_translations
+  translation: "Traduceri"
+
+- id: nav_pdf_version
+  translation: "Versiune PDF"
+
+- id: nav_creators
+  translation: "Creatori"
+
+- id: nav_all_creators
+  translation: "Toți creatorii"
+
+- id: nav_faq
+  translation: "Întrebări frecvente"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "Descarcă PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF nu este disponibil"
+
+- id: guide_pdf_intro_text
+  translation: "De asemenea, puteți descărca acest ghid în format PDF pentru citit fără conexiune la internet."
+
+- id: guide_pdf_intro_link
+  translation: "Descarcă PDF"
+
+# Preview Translations functionality
+- id: download_preview_translations
+  translation: "Previzualizare Traduceri"
+
+- id: download_preview_description
+  translation: "Aceste traduceri sunt disponibile în previzualizare și necesită cel puțin 5 recenzori comunitari înainte de a fi mutate pe site-ul principal. Ajutați-ne să revizuim și să îmbunătățim aceste traduceri!"
+
+- id: download_visit_preview
+  translation: "Vizitează site-ul de previzualizare"
+
+- id: download_table_status
+  translation: "Stare"
+
+- id: download_preview_status
+  translation: "În previzualizare"
+
+- id: download_preview_action
+  translation: "Previzualizare"
+
+- id: download_discussion_action
+  translation: "Discuție"
+
+# Download page translations
+- id: download_page_title
+  translation: "Citește și descarcă versiunea oficială a {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} este definit de"
+
+- id: download_page_originators
+  translation: ", creatorii {{ .Title }}"
+
+- id: download_translations_provided
+  translation: "Traduceri oferite de persoanele și grupurile enumerate mai jos. Vă rugăm să selectați ghidul în limba în care doriți să îl descărcați."
+
+- id: download_translation_error
+  translation: "Dacă ați găsit o posibilă eroare  de traducere în {{ .Title }}, vă rugăm să contactați direct traducătorul. Dacă aveți nevoie de suport suplimentar, vă rugăm să ne contactați"
+
+- id: download_official_version
+  translation: "Versiune oficială"
+
+- id: download_community_translations
+  translation: "Traduceri comunitare"
+
+- id: download_current_version_released
+  translation: "Versiunea oficială curentă a {{ .Site.Title }} a fost lansată în"
+
+- id: download_older_translations_notice
+  translation: "Traducerile {{ .Site.Title }} cu date mai vechi pot să nu conțină cele mai recente informații."
+
+- id: download_table_language
+  translation: "Limba"
+
+- id: download_table_contributed_by
+  translation: "Contribuitori"
+
+- id: download_table_translations_by
+  translation: "Traducători"
+
+- id: download_table_written_by
+  translation: "Scris de"     
+
+- id: download_table_action
+  translation: "Acțiune"
+
+- id: download_official_current_version
+  translation: "Versiunea oficială curentă"
+
+- id: download_button_text
+  translation: "Descarcă"
+
+- id: download_coming_soon
+  translation: "În curând"
+
+- id: download_missing_language
+  translation: "Nu aveți limba dumneavoastră?"
+
+- id: download_contribute_translation
+  translation: "Ajutați comunitatea prin contribuirea la o nouă traducere."
+
+- id: download_add_translation
+  translation: "Adaugă o traducere"
+
+- id: download_community_contributors
+  translation: "Contribuitori comunitari"
+
+- id: contributors_label
+  translation: "Contribuitori"
+
+- id: read_online_action
+  translation: "Citește online"
+
+
+# Guide template translations
+- id: guide_join_discussion
+  translation: "Alăturați-vă discuției"
+
+- id: guide_version_dropdown_label
+  translation: "Selectează versiunea"
+
+- id: guide_version_current
+  translation: "Curentă"
+
+- id: guide_version_latest
+  translation: "Ultima"
+
+- id: download_reference_status
+  translation: "Referință"
+
+  # Missing translations for Romanian
+- id: breadcrumb_home
+  translation: "Acasă"
+
+- id: translations_button
+  translation: "Traduceri"
+
+- id: nav_read_guide
+  translation: "Citește ghidul"
+
+- id: nav_history
+  translation: "Istoric"
+
+- id: history_button
+  translation: "Istoric"
+
+- id: at_a_glance_title
+  translation: "Scurtă descriere"
+
+- id: guide_table_of_contents
+  translation: "Cuprins"
+
+- id: current_open_guide_label
+  translation: "Ghidul deschis"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_updated_label
+  translation: "Actualizat"
+
+- id: guide_version_label
+  translation: "Versiune"
+
+- id: available_languages_label
+  translation: "Traduceri disponibile"
+
+- id: pdf_downloads_label
+  translation: "Descărcări în format PDF"
+
+- id: guide_back_to_home
+  translation: "Înapoi la pagina principală"
+
+- id: living_document_updated_label 
+  translation: "Acest document live a fost actualizat ultima dată în"
+
+- id: read_guide_button
+  translation: "Citește ghidul"
+
+- id: translations_button_small
+  translation: "Traduceri"
+
+- id: download_preview_status
+  translation: "În previzualizare"
+
+- id: guide_no_content_available
+  translation: "Nu există conținut disponibil"
+
+- id: guide_content_unavailable_message
+  translation: "Conținutul nu este încă disponibil pentru această versiune."
+
+- id: guide_content_unavailable_note
+  translation: "Notă: Conținut indisponibil"
+
+- id: translators_label
+  translation: "Traducători"
+
+- id: translators_description
+  translation: "Aceste traduceri sunt furnizate de persoanele și grupurile generoase enumerate mai jos. Vă rugăm să selectați ghidul în limba pe care doriți să o descărcați."
+
+- id: translators_button
+  translation: "Traducători"
+
+- id: translators_button_small
+  translation: "Traducători"
