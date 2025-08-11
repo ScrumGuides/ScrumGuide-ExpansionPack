@@ -576,7 +576,7 @@ Un candidat la Increment nu se califică drept Increment până nu îndeplineșt
 
 #### Angajament: Definiția Livrabilului Finalizat {#commitment:-definition-of-output-done}
 
-Definition of Output Done este un angajament care definește ce înseamnă că munca este completă din punct de vedere tehnic sau operațional . Ea descrie în mod formal măsurile de calitate care reflectă diligența necesară pentru ca Incrementul să poată fi livrat Stakeholderilor.
+Definition of Output Done (Definiția Livrabilului Finalizat) este un angajament care definește ce înseamnă că munca este completă din punct de vedere tehnic sau operațional . Ea descrie în mod formal măsurile de calitate care reflectă diligența necesară pentru ca Incrementul să poată fi livrat Stakeholderilor.
 
 Definition of Output Done include, de regulă (dar nu se limitează la), atât standarde tehnice, cât și calități ale Produsului. Echipa Scrum o creează dacă organizația nu o furnizează ca minim necesar. Dacă există mai multe Echipe Scrum care lucrează la același Produs, ele împart aceeași Definiție de Output Done ca fundație comună, dar o pot îmbunătăți.
 
