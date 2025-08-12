@@ -1338,7 +1338,7 @@ _تبادل سازمانی آموخته‌ها_—بر اساس مقاله‌ی 
 81. _Sociocracy For All (n.d.) ‘Gerard Endenburg: founder of Sociocratic Circle Method and pioneer of self-management’. Available at: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (Accessed: 18 May 2025)._
 82. _Patton, J. and Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O’Reilly Media._
 83. _Kotter, J.P., 1996\. Leading Change. Boston: Harvard Business School Press._
-84. _‘Genchi Genbutsu’ (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (Accessed: 18 May 2025)._
+84. _‘Genchi Genbutsu’ (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_Genbutsu](https://en.wikipedia.org/wiki/Genchi_Genbutsu) (Accessed: 18 May 2025)._
 85. _ScrumPlop, n.d. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[Accessed: 18 May 2025\]._
 86. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love. 2nd ed. Hoboken, NJ: Wiley._
 87. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products. Hoboken, NJ: Wiley._
