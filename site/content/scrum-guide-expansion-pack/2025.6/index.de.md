@@ -1253,7 +1253,7 @@ _Mitglieder der Scrum Patterns Group: Vervloed, E., Harrison, N., Harada, K., Yo
 81. _Sociocracy For All (o. J.) „Gerard Endenburg: Begründer der Soziokratischen Kreismethode und Pionier der Selbst-Management“. Verfügbar unter: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (Zugriff: 18. Mai 2025)._
 82. _Patton, J. und Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O’Reilly Media._
 83. _Kotter, J.P., 1996\. Leading Change. Boston: Harvard Business School Press._
-84. _„Genchi Genbutsu” (2024) Wikipedia. Verfügbar unter: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (Zugriff: 18. Mai 2025)._
+84. _„Genchi Genbutsu” (2024) Wikipedia. Verfügbar unter: [https://en.wikipedia.org/wiki/Genchi_Genbutsu](https://en.wikipedia.org/wiki/Genchi_Genbutsu) (Zugriff: 18. Mai 2025)._
 85. _ScrumPlop, o. J. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Verfügbar unter: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[Zugriff: 18. Mai 2025\]._
 86. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love. 2. Auflage. Hoboken, NJ: Wiley._
 87. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products. Hoboken, NJ: Wiley._
