@@ -1,5 +1,5 @@
 ---
 # title: "Creators"
-title: "クリエイター"
+title: "著者たち"
 ---
 

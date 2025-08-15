@@ -57,7 +57,7 @@
 
 - id: about_creators_title
   # translation: "About the creators of {{ .Site.Title }}"
-  translation: "{{ .Site.Title }}の作成者について"
+  translation: "{{ .Site.Title }}の著者について"
 
 - id: read_bio_button
   # translation: "Read {{ .Name }}'s bio"
@@ -86,11 +86,11 @@
 
 - id: nav_creators
   # translation: "Creators"
-  translation: "クリエイター"
+  translation: "著者"
 
 - id: nav_all_creators
   # translation: "All Creators"
-  translation: "すべてのクリエイター"
+  translation: "すべての著者"
 
 - id: nav_faq
   # translation: "FAQ"
