@@ -79,7 +79,7 @@ languages:
       description: El Scrum Guide Expansion Pack es un complemento integral a la Guía Scrum 2020, creado para ayudar a los profesionales a desenvolverse en entornos de producto cada vez más complejos.
       keywords: Scrum, Scrum moderno, Gestión de producto, Desarrollo de producto empírico, Scrum en entornos complejos, Scrum e IA
   ja:
-    languageName: Japanese
+    languageName: 日本語
     weight: 1001
     # title: Scrum Guide Expansion Pack
     title: スクラムガイド拡張パック
