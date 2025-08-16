@@ -1,5 +1,5 @@
 ---
-title: Scrum Guide Expansion Pack
+title: Multi Team Scrum section of the Scrum Guide Expansion Pack 2025
 description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
 keywords:
   - Scrum
@@ -23,8 +23,6 @@ sitemap:
 aliases:
   - /scrum-guide-expansion-pack/latest/
 ---
-
-based on the original [Scrum Guide](https://scrumguides.org/) by Ken Schwaber & Jeff Sutherland (40)
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
