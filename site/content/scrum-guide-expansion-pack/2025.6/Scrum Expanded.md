@@ -42,6 +42,8 @@ _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-
 
 ## Background {#background}
 
+Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (36,37) on Complex Adaptive Systems (CAS) (74-77) theory from Los Alamos Labs, which shows that systems evolve quicker at the edge of chaos.
+
 Ken Schwaber and Jeff Sutherland led the development of the Scrum framework. The [2020 Scrum Guide](https://scrumguides.org/) (40) describes the Scrum Essentials. Tobias Mayer's [A Simple Guide to Scrum](https://scrum.academy/guide/) (58) is a shortened, edited version of the official Scrum Guide by Ken Schwaber and Jeff Sutherland. The [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) elaborate on the 2020 Scrum Guide (40) from a 2025 perspective. For mass adoption, the Scrum Guide (40) needed to be simple.
 
 ## Purpose of the Scrum Guide Expansion Pack {#purpose-of-the-scrum-guide-expansion-pack}
@@ -766,10 +768,6 @@ The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of t
 
 ## End Note {#end-note}
 
-Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (36,37) on Complex Adaptive Systems (CAS) (74-77) theory from Los Alamos Labs, which shows that systems evolve quicker at the edge of chaos.
-
-Scrum is described in the [2020 Scrum Guide](https://scrumguides.org/) (40). Tobias Mayer's A [Simple Guide to Scrum](https://scrum.academy/guide/) (58) is a shortened, edited version of the official Scrum Guide by Ken Schwaber and Jeff Sutherland. The [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (52) elaborates on the 2020 Scrum Guide from a 2025 perspective, but the 2020 Scrum Guide is still the essential reference for Scrum.
-
 Scrum is like a mirror. If the image in the mirror is not as expected, should the mirror be hidden?
 
 Attain at least one Increment each Sprint as a habit before you adapt Scrum. Every part of Scrum has a purpose; understanding the why for each part is essential. Consider the context. The short-term is about delivery. The long-term is about successful emergent change in a direction and the sustainable delivery of value. Successful Scrum adoption depends on getting the balance right between the short and long terms.
@@ -783,104 +781,6 @@ Scrum was inspired by Lean (63), the Toyota Production System (59-60), the Harva
 Scrum was developed in the early 1990s. Ken Schwaber and Jeff Sutherland first co-presented Scrum at the OOPSLA Conference in 1995 (62). The first version of the [Scrum Guide](https://scrumguides.org/) (40) appeared in 2009\. Scrum is evolving.
 
 We also thank reviewers who provided feedback to earlier drafts, including but not limited to, Daryn Basson, Alex Benes, Kurt Bittner, Deb Bhattacharya, Magdalena Firlit, Nichervan Fazel, Peter Fischbach, Michael Forni, Tom Gilb, Martin Hinshelwood, Jesse Houwing, Michael Huynh, Matthew Ijogi, Marc Kaufmann, Tom Mellor, Christian Neverdal, Stas Pavlov, Ian Sharp, Alisa Stolze, Mark Summers, and Nader Talai.
-
-#
-
-## Scrum _Expanded_ on One Page {#scrum-expanded-on-one-page}
-
-Scrum is described in the [2020 Scrum Guide](https://scrumguides.org/) (40). Scrum is a lightweight framework for addressing complex (30-35) work, particularly in Product discovery, development, delivery, and value realization. Scrum is based on empirical process control (decisions informed by evidence) and lean thinking (reducing waste and focusing on the flow of value) (63). Scrum is purposefully incomplete, guiding interactions rather than prescribing detailed recipes.
-
-**Why Use Scrum?**  
-Scrum enables Scrum Teams to identify, represent, or measure emergence (71), embrace uncertainty, respond to change, deliver and validate value frequently, and continuously improve. Scrum fosters collaboration, accountability, and evidence-informed decision-making, fostering the best possible outcomes in a rapidly changing environment. Self-managing Scrum Teams, organized around value, are crucial for creative problem-solving and opportunity capture; non-self-managing Scrum Teams hinder the ability to deal with complexity (30-35). Self-managing Scrum Teams are not to be confused with individual self-management.
-
-**Elements of Scrum**
-
-1\. Scrum Theory: Built on three pillars:
-
-- Transparency – Making work and value visible for Inspection.
-- Inspection – Regularly assessing progress and outcomes for Adaptation.
-- Adaptation – Adjusting plans informed by insights and feedback.
-
-2\. Scrum Values:
-
-- _Focus_, _Openness_, _Courage_, _Commitment_, and _Respect_ enable effective teamwork; they support trust.
-
-3\. _Roles_ / Accountabilities:
-
-- Scrum Team – A small, self-managing, cross-functional, cognitively diverse team consisting of:
-  - Product Owner – Maximizes long-term value, engages Stakeholders, and manages the Product Backlog.
-  - Scrum Master – Guides the Scrum adoption, removes impediments, and fosters continuous improvement.
-  - Product Developers – Deliver Increments every Sprint through their cross-functional capabilities.
-- _Stakeholder \- an entity, individual, or group interested in, affected by, or impacting inputs, activities, and outcomes with a direct or indirect interest inside or outside the organization, its Products, or services._
-  - _Supporter, a Stakeholder type – Fosters the climate and environment and participates as requested._
-  - _AI – As a tool or also a possible Product Developer, but not to be entirely trusted yet._
-
-4\. Scrum Events & Activities
-
-- Scrum operates in Sprints (iterations of determinate length _up to four weeks_) with four timeboxed events:
-- Sprint Planning – Define the Sprint Goal and plan the work.
-- Daily Scrum – Product Developers align daily on progress toward the Sprint Goal or Product Goal.
-- Sprint Review – Inspect the Increment, value, and marketplace, and adapt the Product Backlog.
-- Sprint Retrospective – Reflect and improve the Scrum Team.
-- Refinement – Clarify upcoming or selected work, formally (_as an optional event_) or informally
-
-5\. Scrum Artifacts & Commitments
-
-- _Product & Definition of Outcome Done – Product and valuable outcomes that provide evidence of realized benefits._
-- Increment & Definition of Output Done – A potentially valuable, releasable candidate update for the Product.
-- Product Backlog & Product Goal – the ordered (sequenced) list of work to achieve a medium-term, more strategic objective.
-- Sprint Backlog & Sprint Goal – Selected Product Backlog Items and a plan for the Sprint, short-term objective.
-
-#
-
-## Expansion Log {#expansion-log}
-
-Additions
-
-- AI section
-- Self-managing Scrum Team, Cadence, Professionalism sections
-- Emergence section, open to the idea that risk or variances from expectations don’t necessarily go down over time
-- Complexity (30-35)– The case for Scrum section
-- Leadership and Systems thinking sections
-- Product thinking and Discovery sections
-- First principles, People, and Change sections
-- Multi-Scrum-Team Products section
-- Stakeholder role (including customers, decision-makers, and users), Supporter as a Stakeholder type
-- Refinement, Product Backlog Item sections
-- Optional: Product Vision, Acceptance Criteria, Outcome Criteria
-- Definition of Outcome Done, extra emphasis on adaptation informed by outcome evidence
-- Stakeholder, value, result feedback, release, outcomes, risk, impediment, and leader are defined
-- Flow analytics, Monte Carlo probabilistic forecasts, large-level estimation, fuzzy sets (all optional)
-- Scrum Expanded on one page
-- A need to make workflows, designs, processes, systems, and the work environment coherent with emergence
-- 'Product Ownership requires strong Product management skills and domain skills...A Product Owner who is not willing, ready, or able to gain Product management skills should step down as Product Owner.'
-- A Product Developer who is neither willing nor ready nor able to be a professional should step down.
-- A Scrum Master who is neither willing, ready, nor able to be an agent of change should step down.
-- Appendices: Cynefin® Kind of Explanation \- unofficial and unauthorized, Emergent Strategy, Adaptive (80) Enterprise, Adaptive Executive or Board Member
-
-Suggestions
-
-- Clarification and modification of responsibilities while ‘embracing fuzziness’ (73)
-- From Scrum is immutable or simple to Scrum is evolving, in some cases, softened wording from 'must' to 'should'
-- Product Owner accountability to Product Owner role with accountability; maximizing long-term value
-- Developers accountability to Product Developer role with accountability
-- Scrum Master accountability to Scrum Master role with accountability; Scrum Master is one person, not AI
-- Product Developers may be human or AI, or helped by AI, at least one human; more human Product Developers are better for cognitive diversity and addressing complexity
-- Scrum Team commits to the Sprint Goal, not the former Developers; important that Product Owner is focused
-- Sprint Backlog toward Sprint Goal or Product Goal, not just Sprint Goal
-- Product definition, mention of Product strategy, roadmaps, Product models, scaling, goal-oriented approaches
-- Emphasis on learning, result-feedback, side effects, outcomes over outputs
-- To preserve the flow of value, incomplete Product Backlog items don’t have to return to the Product Backlog
-- Definition of Done renamed to Definition of Output Done
-- Emphasis on full Product life-cycle, full feature life-cycle, and value realization
-- Sprint Planning Topics 1-3 renamed to the Why, What, and How; Sprint up to 4 weeks rather than up to 1 month
-- Possible additional review of the Increment and outcomes in a psychologically safer environment at the Sprint Retrospective
-- More emphasis that the Increment is always Done, hence 'Done Increment' is superfluous
-- Explicit about the malleability of the Product Goal (within reason)
-- From the optimistic assumption of value delivery to an intentional _Focus_ on value realization
-- Ethos of built-in quality, clarity, data-informed decisions, intentional interactions, emergence (71), outcomes over outputs, pause & reflection, realizing value, understanding the problem or opportunity, fostering the climate/environment for a coherent Scrum adoption, and continuous improvement in a direction
-- De-emphasis of the nebulous organization in order to attach the change to roles
-- More intentional observance of the Scrum Values, considering the context
 
 #
 
