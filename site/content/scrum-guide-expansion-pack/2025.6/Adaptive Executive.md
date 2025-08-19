@@ -108,5 +108,3 @@ _The practice of stating intent allows teams to have distributed decision-making
 ## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
 This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
-
-#

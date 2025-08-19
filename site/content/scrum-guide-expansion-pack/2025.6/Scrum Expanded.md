@@ -1,6 +1,6 @@
 ---
 title: Scrum Expanded section of the Scrum Guide Expansion Pack 2025
-description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
+description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. 
 keywords:
   - Scrum
   - modern Scrum
@@ -24,8 +24,6 @@ aliases:
   - /scrum-guide-expansion-pack/latest/
 ---
 
-based on the original [Scrum Guide](https://scrumguides.org/) by Ken Schwaber & Jeff Sutherland (40)
-
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
@@ -40,25 +38,28 @@ _Disclaimer: No warranties are given. Use at your own risk._
 _This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
 
+# Scrum Expanded section of the Scrum Guide Expansion Pack 2025
+
 ## Background {#background}
 
-Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (36,37) on Complex Adaptive Systems (CAS) (74-77) theory from Los Alamos Labs, which shows that systems evolve quicker at the edge of chaos.
+Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (36,37) on Complex Adaptive Systems (CAS) (74-77) theory from Los Alamos Labs, which show**ed** that systems evolve quicker at the edge of chaos.
 
-Ken Schwaber and Jeff Sutherland led the development of the Scrum framework. The [2020 Scrum Guide](https://scrumguides.org/) (40) describes the Scrum Essentials. Tobias Mayer's [A Simple Guide to Scrum](https://scrum.academy/guide/) (58) is a shortened, edited version of the official Scrum Guide by Ken Schwaber and Jeff Sutherland. The [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) elaborate on the 2020 Scrum Guide (40) from a 2025 perspective. For mass adoption, the Scrum Guide (40) needed to be simple.
+Ken Schwaber and Jeff Sutherland led the development of the Scrum framework. The [2020 Scrum Guide](https://scrumguides.org/) (40), including Ralph Jocham’s contribution (89), describes the Scrum Essentials; Tobias Mayer's [A Simple Guide to Scrum](https://scrum.academy/guide/) (58) is a short version, and the [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) elaborate from a 2025 perspective. This document explains a lot about Scrum and offers guidance for the current times, but in the end, it departs in some places. Notable departures from the 2020 Scrum Guide are `written like this`.
 
 ## Purpose of the Scrum Guide Expansion Pack {#purpose-of-the-scrum-guide-expansion-pack}
 
-For a more successful adoption, this Expansion Pack offers additional guidance for current times, based on the 2020 Scrum Guide by Ken Schwaber and Jeff Sutherland (40). Ralph Jocham’s contribution (89) to the 2020 Scrum Guide provided additional depth in bringing the original ideas of the 2020 Scrum Guide (40) into this expansion pack.
+This Scrum Guide Expansion Pack(SGEP) explains the _what_ and _why_ of each element of Scrum for the current times. Each element serves a specific purpose and contributes to the overall value and results realized with Scrum. This Expansion Pack will evolve regularly. The reader is expected to read the document sequentially, at least the first time.
 
-This Scrum Guide Expansion Pack explains the _what_ and _why_ of each element of Scrum through a future-looking lens. Each element serves a specific purpose and contributes to the overall value and results realized with Scrum. This Expansion Pack will evolve regularly. The reader is expected to read the document sequentially, at least the first time.
+This document assumes some fluency with Scrum and its related language. It could be helpful to read the 2020 Scrum Guide first before reading this document. References are included for attribution purposes. Further, the related SGEP documents including references provide an opportunity for the reader to explore, research and learn to gain a broader and deeper understanding.
 
-This document assumes some fluency with Scrum and its related language. It could be helpful to read the 2020 Scrum Guide first before reading this document. References are included for attribution purposes. The appendix and references provide an opportunity for the reader to explore, research and learn to gain a broader and deeper understanding.
+Practitioners and stakeholders should adopt Scrum when appropriate, with agency, urgency, courage, transparency, inspection, adaptation, rhythm, and resilience, and continually improve to support goals for the product and the organization. Scrum adoptions should surpass the guidance presented here and, in doing so, inspire a lasting curiosity to explore, question, and continually improve.
 
-Practitioners and stakeholders should adopt Scrum when appropriate, with agency, urgency, courage, transparency, inspection, adaptation, rhythm, and resilience, and continually improve to support goals for the product and the organization. It is hoped that Scrum adoptions will surpass the guidance presented here—across theory, roles, artifacts, events, scaling, and every other facet addressed in this document—and, in doing so, inspire a lasting curiosity to explore, question, and continually improve.
+This Expansion Pack is designed to support various aspects of product delivery by a self-managing team (49) driven by stakeholder needs or wants in response to a problem or opportunity. This includes (but is not limited to) product discovery, development, delivery, and value realization. While originally rooted in software product development, Scrum has been widely adopted across various domains, enabling the delivery of value through complex (30-35) work. As its use expands, professionals such as engineers, programmers, researchers, analysts, lawyers, marketers, and scientists increasingly apply Scrum successfully to their fields.
 
-This Expansion Pack is designed to support all aspects of product delivery by a self-managing team (49) driven by stakeholder needs or wants in response to a problem or opportunity. This includes (but is not limited to) product discovery, development, delivery, and value realization. While originally rooted in software product development, Scrum has been widely adopted across various domains, enabling the delivery of value through complex (30-35) work. As its use expands, professionals such as engineers, programmers, researchers, analysts, lawyers, marketers, and scientists increasingly apply Scrum successfully to their fields.
-
-Stakeholder value refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes.
+`
+Stakeholder value (SG2020 only talks about value generically)
+`
+ refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes.
 
 ## Scrum in a Nutshell {#scrum-in-a-nutshell}
 
@@ -72,11 +73,11 @@ Scrum encourages a reduction in the existing separation between Stakeholders who
 
 In a nutshell, Scrum is based on an environment where:
 
-1. Supporting Stakeholders, hereafter referred to as Supporters, doing what is requested to proactively support and enhance the adoption of Scrum, guided and supported by the Scrum Master.
+1. `Supporting Stakeholders, hereafter referred to as Supporters, doing what is requested to proactively support and enhance the adoption of Scrum, guided and supported by the Scrum Master. (SG2020 mentions stakeholder 14 times, never defines it)`
 2. A Product Owner sets the Product Goal, instrumental in fulfilling Stakeholder value.
 3. The self-managing Scrum Team (49) defines, refines, and turns the selection of work into valuable outcomes.
 4. The Scrum Team and Stakeholders inspect the results during the Sprint and adapt.
-5. Supporters help the Scrum Team to thrive.
+5. `Supporters help the Scrum Team to thrive (SG2020 Supporter is not a concept)`.
 6. _Repeat._
 
 A release is the process of making a new or updated version of a Product available to Stakeholders (including but not limited to customers, decision-makers, and end users). It marks an inflection point in the development cycle and represents the transition of the Product from development to availability for use and the potential realization of Stakeholder value.
@@ -85,7 +86,7 @@ Scrum is intentionally incomplete. Instead of prescribing detailed processes, it
 
 Scrum integrates with existing practices or, in some cases, makes them unnecessary or obsolete. By transparently assessing the effectiveness of the Scrum Team, Supporters, current management, work environment, and techniques, Scrum enables continuous improvement.
 
-In the context of knowledge work, the term Scrum, borrowed from the game of rugby, was coined by Takeuchi and Nonaka (29) to describe teams that worked this way and where knowledge was spread rapidly throughout an enterprise to deliver outstanding Products.
+In the context of knowledge work, the term Scrum, borrowed from the game of rugby, was coined by Hirotaka Takeuchi and Ikujiro Nonaka (1935-2025) (29) to describe teams that worked this way and where knowledge was spread rapidly throughout an enterprise to deliver outstanding Products.
 
 ## Supporting and Complementary Theory {#supporting-and-complementary-theory}
 
@@ -105,17 +106,19 @@ Everything believed to be 'known,' including the market and Stakeholders (includ
 
 Generally, nothing stays in the same space forever. The Scrum Team might be on the edge of chaos, researching and working on something unprecedented, never done before. After a while, as they discover patterns and heuristics, it becomes less chaotic and more complex. After another while, for the situation at hand, the Scrum Team might move closer to the ordered space, something which is not easy but plannable. Or things can go in reverse. It is a good practice for the Scrum Team to pause and reflect if it’s really in the space it thought it was in for the situation at hand. The key point is that Product development often deals with unpredictability, and Scrum can be a more useful approach than those with delusions of predictability.
 
-The opportunities from emergence through Inspection and adaptation of the _who_, _why_, _what_, _how_, _where_, and _when_ are plentiful. It’s important to dampen what does not work and amplify what works. Transparency, Inspection, and Adaptation towards set goals, informed by result feedback (and unintended consequences), provide value creation, insights, risks, and challenged assumptions; this can foster continuous improvement.
+The opportunities from emergence through Inspection and Adaptation of the _who_, _why_, _what_, _how_, _where_, and _when_ are plentiful. It’s important to dampen what does not work and amplify what works. Transparency, Inspection, and Adaptation towards set goals, informed by result feedback (and unintended consequences), provide value creation, insights, risks, and challenged assumptions; this can foster continuous improvement.
 
 Build trust through a self-managing team, Inspection, Adaptation, delivering valuable work, and uncovering new insights.
 
 ### Emergence {#emergence}
 
-Emergence (71) is when meaningful patterns or behaviors arise from interactions within complex (30-35) systems-patterns you can’t predict just by looking at the parts alone. In Scrum, emergence isn’t tightly controlled but is guided by enabling constraints like timeboxes, roles, and feedback loops, which create the conditions for self-management and adaptability without dictating exact outcomes. These structures act like 'islands' in a sea of unpredictability, similar to how physical systems can spontaneously form organized patterns amid randomness, as described in Stephen Wolfram’s work (38). The key is that the structure in Scrum provides enough guidance for teams to self-manage and for new solutions to emerge rather than prescribing every detail.
+Emergence (71) is when meaningful patterns or behaviors arise from interactions within complex (30-35) systems-patterns you can’t predict just by looking at the parts alone. In Scrum, emergence isn’t tightly controlled but is guided by enabling constraints like timeboxes, `roles (re-introduced in SGEP)`, and feedback loops, which create the conditions for self-management and adaptability without dictating exact outcomes. These structures act like 'islands' in a sea of unpredictability, similar to how physical systems can spontaneously form organized patterns amid randomness, as described in Stephen Wolfram’s work (38). The key is that the structure in Scrum provides enough guidance for teams to self-manage and for new solutions to emerge rather than prescribing every detail.
 
-Scrum Teams, operating as complex adaptive systems, are influenced, not directed, through short, parallel, safe-to-fail experiments and continuous feedback. Patterns (53) like _Swarming_, _Stable Teams_, and _Kaizen_ help identify and shape emergent behavior. Rather than forcing results, Scrum enables the Scrum Team to discover desirable patterns, including but not limited to innovative solutions or new ways of working, and amplify them while dampening unhelpful ones.
+`
+Scrum Teams, operating as complex adaptive systems, are influenced, not directed, through short, parallel, safe-to-fail experiments and continuous feedback. Patterns (53) like Swarming, Stable Teams, and Kaizen help identify and shape emergent behavior. Rather than forcing results, Scrum enables the Scrum Team to discover desirable patterns, including but not limited to innovative solutions or new ways of working, and amplify them while dampening unhelpful ones.
+`
 
-This approach recognizes that self-management (49) is not something to be designed top-down but something to be discovered in the right environment—an environment that feels purposeful, coherent, and alive, echoing Christopher Alexander’s ‘Quality Without a Name’ (39). Ultimately, Scrum treats emergence not as a risk to be eliminated but as a force to be cultivated for excellence in Product development.
+This approach recognizes that self-management (49) is not something to be designed top-down but something to be discovered in the right environment—an environment that feels purposeful, coherent, and alive, echoing Christopher Alexander’s ‘Quality Without a Name’ (39). `Ultimately, Scrum treats emergence not as a risk to be eliminated but as a force to be cultivated for excellence in Product development.`
 
 ### Self-Managing Scrum Team {#self-managing-scrum-team}
 
@@ -143,7 +146,9 @@ Empiricism can help Scrum Teams deliver something that Stakeholders find valuabl
 
 Pausing and reflecting combine elements of empiricism and lean thinking, create the basis for transparency, inspection, and adaptation toward the Product Goal, and help the Scrum Team and Supporters improve themselves and their environment.
 
-An effective Scrum adoption reduces the distance between Stakeholders who present problems or opportunities and the people dealing with them by keeping objectives tangible and meaningful and delivering value quickly and frequently. Stakeholders often have a mistaken sense of certainty about the _what_ and the _how_. The Scrum Team often has a mistaken sense of certainty about _who_ is impacted. Inspecting and adapting should be more valued than keeping promises or serving the wrong Stakeholders. All assumptions can be wrong.
+`
+An effective Scrum adoption reduces the distance between Stakeholders who present problems or opportunities and the people dealing with them by keeping objectives tangible and meaningful and delivering value quickly and frequently. Stakeholders often have a mistaken sense of certainty about the what and the how. The Scrum Team often has a mistaken sense of certainty about who is impacted. Inspecting and adapting should be more valued than keeping promises or serving the wrong Stakeholders. All assumptions can be wrong. (SG2020 PO could be read as a proxy and value assumed)
+`
 
 ### Cadence {#cadence}
 
@@ -195,7 +200,7 @@ As Sprints are short, any failures should be small and quick, and risk is identi
 
 The Scrum Team and Supporters should have the _Courage_ to do the right thing and face tough challenges. They should be courageous in exploring the unknown, changing direction, requesting and sharing information, and engaging in courteous disagreements, e.g., healthy conflict and constructive dissent. The Scrum Team should ask Supporters and leaders for help if needed.
 
-The Scrum Team _Commits_ to achieving the Sprint Goal and supporting each other. Commitment means getting relevant work toward the Sprint Goal to comply with the Definition of Output Done at the latest by the end of the Sprint, preferably much earlier. Commitment also means getting to desired outcomes through value realization.
+The Scrum Team _Commits_ to achieving the Sprint Goal, `inspecting and adapting toward the Product Goal, (under-emphasized in SG2020)` and supporting each other. Commitment means getting relevant work toward the Sprint Goal to comply with the Definition of Output Done at the latest by the end of the Sprint, preferably much earlier. Commitment also means getting to desired outcomes through value realization.
 
 Their primary _Focus_ is making the best possible progress toward the Sprint Goal. Their secondary Focus is making the best possible progress toward the Product Goal. The Supporters _Commit_ to providing a psychologically safe space and environment for the Scrum Team to deliver Increments; within their _Focus_, the Scrum Team and Supporters _Commit_ to creating time for continuous learning and Adaptation, and the transfer of learning between Scrum Teams to ensure long-term effectiveness. The Scrum Team and Stakeholders should be intentional about addressing trade-offs, including consideration of short-term wins with long-term consequences.
 
@@ -205,7 +210,7 @@ _Respect_ helps protect against the weaponization of the other Scrum Values. Dem
 
 Scrum Team members and Stakeholders can look at the Scrum Values through the lens of John Boyd’s OODA (99, 100, 102\). OODA was created by U.S. Air Force Colonel John Boyd to help pilots make quick, smart decisions in fast-changing situations by moving through four steps: Observe, Orient, Decide, and Act. It’s a simple, continuous, iterative, powerful, if often subconscious way to handle uncertainty—like noticing market changes (Observe), analyzing trends and risks (Orient), choosing Product features to test (Decide), and delivering them (Act). OODA helps individuals stay flexible and respond well to whatever comes their way. Scrum can improve OODA.
 
-Individual Scrum Team members can look at the Scrum Values through the lens of John Boyd’s OODA, using Scrum to foster emergent solutions. In a Scrum context, the Scrum Values apply across all of OODA, and in particular, help as follows:
+Individual Scrum Team members can look at the Scrum Values through the lens of John Boyd’s OODA, using Scrum to foster emergent solutions. `In a Scrum context, the Scrum Values apply across all of OODA, (SGEP has a different emphasis)` and in particular, help as follows:
 
 - Observe—Openness and Respect can foster the gathering of all relevant evidence, and diverse perspectives.
 - Orient—Courage is needed to interpret reality, navigate uncertainty, and agree to adapt or pivot, potentially using a reflective pause to challenge assumptions and provoke new insights.
@@ -290,9 +295,9 @@ Ideally they are change catalysts and they radiate realistic positivity and poss
 
 ## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
 
-[2020 Scrum Guide: 'The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint. Scrum defines three specific accountabilities within the Scrum Team: the Developers, the Product Owner, and the Scrum Master.' An accountability is a list of expectations that one is accountable for, e.g., the Product Owner accountable for value, the Scrum Master for the Scrum Team’s effectiveness, and Developers for creating the usable Increment. A role does not necessarily have accountabilities.]
+An accountability is a list of expectations that one is accountable for, e.g., the Product Owner accountable for value, the Scrum Master for the Scrum Team’s effectiveness, and Product Developers for creating the usable Increment. `Not all roles have accountabilities, i.e. Stakeholder.`
 
-Not all roles have accountabilities, i.e. Stakeholder. The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team.
+`The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder.` They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team.
 
 A person can hold more than one Scrum role. By taking on more than one role, one must be careful not to overstep. The Scrum roles are designed to keep check and balances in place.
 
@@ -330,7 +335,10 @@ For successful outcomes, the Scrum Team and Supporters should cultivate a willin
 
 ### Stakeholder {#stakeholder}
 
-Stakeholder is a role. A Stakeholder is an entity, individual, or group interested in, affected by, or impacting inputs, activities, and outcomes. Stakeholders have a direct or indirect interest inside or outside the organization, its Products, or services.
+`
+Stakeholder is a role.
+`
+ A Stakeholder is an entity, individual, or group interested in, affected by, or impacting inputs, activities, and outcomes. Stakeholders have a direct or indirect interest inside or outside the organization, its Products, or services.
 
 Examples of Stakeholders include (but are not limited to) customers, decision-makers, users, vendors, influencers, managers, colleagues, leaders, legislators, financial sponsors, subject matter experts, and governance oversight. Inanimate, non-human Stakeholders such as the law or AI should not be ignored. Some Stakeholders have more impact or are more impacted than others, and each can favor different factors. Each Stakeholder has a different degree of power or influence.
 
@@ -354,7 +362,10 @@ Governance refers to structures, standards, regulations, norms, processes, and p
 
 ### Supporter {#supporter}
 
-Supporter is a specific Stakeholder type. Supporters are supporting Stakeholders and change agents. Supporters are often part of a powerful guiding coalition (83), who inspire and remove demotivating factors. Supporters support the Scrum Team to thrive and influence the organization's workflows, processes, systems, Products, services, and work environment to become coherent with a Scrum adoption and emergence (71). Supporters should participate when and where needed or as requested. Value creation often requires effective and constructive collaboration with other Stakeholders.
+`
+Supporter is a specific Stakeholder type.
+`
+ Supporters are supporting Stakeholders and change agents. Supporters are often part of a powerful guiding coalition (83), who inspire and remove demotivating factors. Supporters support the Scrum Team to thrive and influence the organization's workflows, processes, systems, Products, services, and work environment to become coherent with a Scrum adoption and emergence (71). Supporters should participate when and where needed or as requested. Value creation often requires effective and constructive collaboration with other Stakeholders.
 
 Depending on the size of the organization, examples of Supporters include (but are not limited to) colleagues, decision-makers, financial sponsors, governance oversight, managers, subject matter experts, marketing, HR, finance, procurement, and early adopters. Supporters who do not empower Scrum Teams to do what is recommended in this document are not really Supporters. Executives and board members have a crucial role in fostering a climate where Supporters support. Supporters should demonstrate leadership that the Scrum Team appreciates.
 
@@ -362,22 +373,26 @@ Depending on the size of the organization, examples of Supporters include (but a
 
 Artificial Intelligence (AI) is increasingly part of the work environment and may significantly expand a Scrum Team’s capabilities in discovery, decision-making, Product development, and value realization.
 
-AI may enhance Scrum through:
+`
+AI may enhance Scrum
+`
+ through:
 
 - Empirical Process Control (64-66): AI-driven analytics improve transparency, inspection, and adaptation.
 - Cognitive Augmentation: AI allows human Scrum Team members to focus on strategic, creative, and ethical considerations.
 - Continuous Value Adaptation: AI could update and reprioritize Product Backlog Items informed by live user feedback and trends.
 - Systems Insight: AI identifies hidden interdependencies, improving data-informed decision-making.
 
-The possibilities are endless. Scrum Teams could leverage AI to:
+The dangers are endless. Maintain clear human accountability for all outcomes (guided by the accountabilities from Scrum), using AI as a powerful but supervised decision-making partner. This is known as keeping the ‘human in the loop.’ While AI can enhance innovation and effectiveness at the lowest costs, it does not replace human accountability. AI should support—not override—Scrum’s empirical process control (64-66) and ethical (57) decision-making. The Scrum Team remains accountable for delivering valuable outcomes, assessing evidence, and upholding professionalism.
 
+The possibilities are also endless. Scrum Teams could leverage AI to:
+
+- Improve Product Backlog Refinement.
 - Discover ambiguities in text and continuously inspect its own recommendations and results for bias, errors, and unintended consequences.
 - Regularly validate and adapt models and applications.
 - Foster transparency in Product Backlog ordering (sequencing).
 - Create agents as AI team members.
 - AI can be helpful to deliberately test and challenge the existing thinking.
-
-The dangers are also endless. Maintain clear human accountability for all outcomes (guided by the accountabilities from Scrum), using AI as a powerful but supervised decision-making partner. This is known as keeping the ‘human in the loop.’ While AI can enhance innovation and effectiveness at the lowest costs, it does not replace human accountability. AI should support—not override—Scrum’s empirical process control (64-66) and ethical (57) decision-making. The Scrum Team remains accountable for delivering valuable outcomes, assessing evidence, and upholding professionalism.
 
 AI can be a supporting tool if used with good intent. AI tools should be evaluated like any other contributor to psychological flow (70) and learning: Do they improve feedback loops? Do they help validate assumptions faster? Do they act, and when they do, is it ethical (57) action?
 
@@ -385,13 +400,14 @@ Psychological flow (70) is a state of complete absorption and enjoyment in an ac
 
 Scrum encourages the Scrum Team to experiment with AI responsibly using small, sometimes reversible trials. Adaptation and inspection apply not only to the Product but also to how AI is integrated into delivery.
 
-The focus should remain on the human dynamics of teamwork and collaboration, with AI positioned as a potential aid.
+The focus should remain on the human dynamics of teamwork and collaboration, with AI positioned as a potential aid to attain adaptiveness at speed.
 
 ### Product Developer {#product-developer}
 
-‘Product Developer’ is a role and an accountability. All Product Developers together should possess all the skills needed to create Increments. The combined skill set is often referred to as cross-functional.
+‘Product Developer’ is `a role` and an accountability. All Product Developers together should possess all the skills needed to create Increments. The combined skill set is often referred to as cross-functional.
 
-A Product Developer may be human or automated. Human Product Developers are _Committed_ to creating, researching, inspecting, and adapting any aspect of a releasable Increment each Sprint. Their primary _Focus_ is on the current Sprint. Some capacity is often invested into future-looking refinement and examining result feedback, side effects, or other learning.
+`A Product Developer may be human or automated.`
+ Human Product Developers are _Committed_ to creating, researching, inspecting, and adapting any aspect of a releasable Increment each Sprint. Their primary _Focus_ is on the current Sprint. Some capacity is often invested into future-looking refinement and examining result feedback, side effects, or other learning.
 
 Product Developers adhere to the Definition of Output Done and strive for net improvement. The Product Developers achieve the best results if they _Focus_ solely on one Product. If, at a given point in time, the Product Owner or Scrum Master actively works on items in the Sprint Backlog, they perform that work as Product Developers.
 
@@ -413,9 +429,9 @@ Context matters, it is crucial to consider the specific circumstances. But as a 
 
 ### Product Owner {#product-owner}
 
-Product Owner is a role and an accountability. The Product Owner must be human. To be effective, the Product Owner should be a leader for the Product. The Product Owner maximizes long-term value and needs to know where the value is and when it is needed. The Product Owner is expected to work at all levels and across all relevant business areas. The Product Owner collaborates with Stakeholders, the Scrum Master, and the Product Developers to create value.
+Product Owner is `a role and` an accountability. The Product Owner must be human. To be effective, the Product Owner should be a leader for the Product. The Product Owner maximizes long-term value and needs to know where the value is and when it is needed. The Product Owner is expected to work at all levels and across all relevant business areas. The Product Owner collaborates with Stakeholders, the Scrum Master, and the Product Developers to create value.
 
-The Product Owner uses the Product Backlog to define what gets built and in what approximate order. The Product Owner always keeps the Product Goal in mind; their primary _Focus_ is to maximize long-term value at every step.
+The Product Owner uses the Product Backlog to define what gets built and in what approximate order. The Product Owner always keeps the Product Goal in mind; their primary _Focus_ is to maximize `long-term` value at every step.
 
 The Product Owner is not defined by analyzing and writing detailed Product Backlog Items. Every minute spent not trusting the Product Developers is a missed chance to think more strategically, work more with Stakeholders, or create more value. The Product Owner should adopt appropriate behaviors depending on the situation; these include (but are not limited to) being a visionary, customer representative, collaborator, influencer, experimenter, decision maker, and champion of Stakeholder engagement, clarity, Product quality, and value realization.
 
@@ -426,7 +442,7 @@ The Product Owner is always accountable for:
 - Continuously balancing trade-offs, including but not limited to:
   - Quality, speed, capability, risk reduction, value, simplicity (149);
   - Stakeholders and their multiplicity of often competing expectations and limits;
-  - Value, work climate, potential customers;
+  - Value, `work climate (sustainability of the Scrum Team is important)`, potential customers;
 - Developing and explicitly communicating the Product Goal;
 - Developing and effectively communicating a coherent Product narrative;
 - Creating and clearly communicating Product Backlog Items;
@@ -441,7 +457,9 @@ The Product Owner may do the above work or collaborate with the Scrum Team to mu
 
 For Product Owners to succeed, all Stakeholders and Supporters should _Respect_ their decisions. These decisions are visible in the content and ordering of the Product Backlog and through the inspectable Increment at the Sprint Review. The Product Owner has delegated authority from the organization.
 
-Product Ownership requires strong Product management skills and domain skills. A Product Owner lacking these skills may need support and guidance until they develop the necessary expertise. Context matters. But as a rule of thumb, a Product Owner who is neither willing, ready, nor able to gain Product management skills should step down as Product Owner. A domain subject matter expert is not necessarily the best choice for a Product Owner as Product management skills and leadership are needed; for example, the Product Developer accountability is often more appropriate.
+Product Ownership requires `strong Product management skills and`
+ domain skills.
+ A Product Owner lacking these skills may need support and guidance until they develop the necessary expertise. Context matters. But as a rule of thumb, a Product Owner who is neither willing, ready, nor able to gain Product management skills should step down as Product Owner. A domain subject matter expert is not necessarily the best choice for a Product Owner as Product management skills and leadership are needed; for example, the Product Developer accountability is often more appropriate.
 
 If the Scrum Team inadvisably works on multiple Products, platforms, or projects, each Product, platform, or project manager should be a Stakeholder (and Supporter) of the Product Owner and collaborate to maximize long-term value. Scrum encourages the Scrum Team to stay _Focused_ and _Committed_, helping it deliver valuable outcomes and avoid the pitfalls associated with operating as a 'feature-factory.'
 
@@ -449,7 +467,7 @@ The Product Owner is one person, not a committee or technology. Those wanting to
 
 ### Scrum Master {#scrum-master}
 
-The Scrum Master is a role and an accountability. The Scrum Master must be human. The Scrum Master is a change agent who works at all organizational levels and across business areas. The Scrum Master leads by example and guides the effectiveness of the Product Owner, Scrum Team, Stakeholders, and Supporters in their adoption of Scrum. The Scrum Master understands complexity (30-35) and is skillful in enabling the next right thing.
+The Scrum Master is `a role and` an accountability. The Scrum Master must be human. The Scrum Master is a change agent who works at all organizational levels and across business areas. The Scrum Master leads by example and guides the effectiveness of the Product Owner, Scrum Team, Stakeholders, and Supporters in their adoption of Scrum. `The Scrum Master understands complexity (30-35) and is skillful in enabling the next right thing.`
 
 The Scrum Master should adopt appropriate behaviors depending on the situation; these include (but are not limited to) being a guide, coach, mentor, teacher, observer, impediment remover, agent of change, effectiveness facilitator, and continuous improvement champion. The Scrum Master is neither a team administrator, status manager, taskmaster, rule-dictator, meeting-room booker, report dashboard administrator, chairperson, hero, coordinator, nor an in absentia Scrum Master, leaving everything to 'self-management.’
 
@@ -461,21 +479,21 @@ The Scrum Master supports the Scrum Team, Product Owner, and Supporters in sever
 - Enabling the Scrum Team and Supporters to improve in a variety of ways continuously;
 - Fostering timely, purposeful, and intentional interactions;
 - Ensures the Scrum Team has a suitable Definition of Output Done;
-- Ensuring that all Scrum events take place and are constructive, productive, and kept within the timebox;
+- Ensuring that all Scrum events take place and are constructive, productive, and kept within the relevant time limit;
 - Causing the removal of impediments to Product-related work and to effective Scrum adoption;
 - Coaching toward self-management (49) and cross-functionality;
 - Helping the Scrum Team, Stakeholders, and Supporters understand their importance in supporting high-value Increments that meet the Definition of Output Done toward the Product Goal and Definition of Outcome Done;
-- Improving adaptiveness (80) and optimizing the flow of value;
-- Fostering evidence-informed confidence but being compassionate and timely to avoid overconfidence;
-- Fostering change agency and general agency by the Scrum Team and Supporters;
+- `Improving adaptiveness (80) and optimizing the flow of value;`
+- `Fostering evidence-informed confidence but being compassionate and timely to avoid overconfidence;`
+- `Fostering change agency and general agency by the Scrum Team and Supporters;`
 - Encouraging helpful behaviors within the Scrum Team that are aligned with the Scrum Values to foster trust, collaboration, and high performance; and,
-- Fostering the Scrum Team to deliver valuable work, get feedback, and do rework as needed, quickly and often.
+- `Fostering the Scrum Team to deliver valuable work, get feedback, and do rework as needed, quickly and often.`
 
 The Scrum Master supports the Scrum Team in several ways, including:
 
 - Supporting the Scrum Team in its formation, upskilling, and continuous improvement;
 - Helping the Scrum Team understand the need for clear and concise Product Backlog Items that deliver value; and,
-- Being vigilant that the entire Scrum Team is collaborating purposefully and intentionally with each other and Stakeholders, honoring the Definition of Output Done, and focused on creating high-value Increments according to the Definition of Outcome Done.
+- `Being vigilant that the entire Scrum Team is collaborating purposefully and intentionally with each other and Stakeholders, honoring the Definition of Output Done, and focused on creating high-value Increments according to the Definition of Outcome Done.`
 
 The Scrum Master supports the Product Owner in several ways, including:
 
@@ -483,9 +501,9 @@ The Scrum Master supports the Product Owner in several ways, including:
 - Helping establish emergent Product planning for a complex (30-35) environment;
 - Helping the Product Owner to express outcomes as measures through the Definition of Outcome Done;
 - Helping the Product Owner understand the need for clear and concise Product Backlog Items that deliver value; and,
-- Helping the Product Owner to _Focus_ on value realization.
+- `Helping the Product Owner to Focus on value realization.`
 
-The Scrum Master supports the Stakeholders in several ways, including:
+The Scrum Master `supports the Stakeholders in several ways,` including:
 
 - When more than expertise is needed, helping affected people and Stakeholders understand and adopt:
   - An empirical approach for complex (30-35) work where cause and effect are only coherent in retrospect,
@@ -495,12 +513,12 @@ The Scrum Master supports the Stakeholders in several ways, including:
 - Helping Stakeholders understand the need for clear and concise Product Backlog Items that deliver value; and,
 - Helping the Stakeholders to _Focus_ primarily on value realization.
 
-The Scrum Master works with the Supporters in several ways, including:
+The Scrum Master `works with the Supporters in several ways,` including:
 
 - Leading, training, and coaching the Supporters in the Scrum adoption;
 - Clarifying what is getting in the way of an effective Scrum adoption;
-- Facilitating disciplined emergent change in a direction to support the Scrum adoption; and,
-- Fostering organizational changes toward ease of delivery vs ease of management.
+- `Facilitating disciplined emergent change in a direction to support the Scrum adoption; and,`
+- `Fostering organizational changes toward ease of delivery vs ease of management.`
 
 The Scrum Master works with the organization in several ways, including:
 
@@ -509,11 +527,13 @@ The Scrum Master works with the organization in several ways, including:
 - Working with related departments in how they could support the Scrum adoption; and,
 - Removing barriers to the Scrum adoptions.
 
-Scrum Masters can team up with other Scrum Masters or Supporters to support the whole organization; they can also collaborate with other change agents or leaders when needed. The Scrum Master, as a change agent, is accountable for the quality of the Scrum adoption and should collaborate with other change agents to improve it.
+`
+Scrum Masters can team up with other Scrum Masters or Supporters to support the whole organization; they can also collaborate with other change agents or leaders when needed.
+` The Scrum Master, as a change agent, is accountable for the quality of the Scrum adoption and should collaborate with other change agents to improve it.
 
-The Scrum Master is one person, not a committee or technology, and serves the Product Owner, Scrum Team, Stakeholders, and the larger organization. Being a change agent and leader, the Scrum Master should generally invite people to participate in the change. It is helpful if the Scrum Master has an understanding of the flow of value (68,69), lean (63), complexity theory (30-35), and other supporting and complementary theory in this document, as well as assisting people with the _how_. It is also helpful if the Scrum Master is unrelenting and has an insatiable appetite for learning and change.
+The Scrum Master `is one person, not a committee or technology, and` serves the Product Owner, Scrum Team, Stakeholders, and the larger organization. `Being a change agent and leader,` the Scrum Master should generally invite people to participate in the change. It is helpful if the Scrum Master has an understanding of the flow of value (68,69), lean (63), complexity theory (30-35), and other supporting and complementary theory in this document, as well as assisting people with the _how_. It is also helpful if the Scrum Master is unrelenting and has an insatiable appetite for learning and change.
 
-Being a Scrum Master is a calling where helping others succeed is reward enough. A Scrum Master doesn’t seek the spotlight. Like any good leader, they give credit to others and take responsibility when things go wrong. Staying in the role for a longer time helps guide the Scrum Team toward its full potential, but only if the Product Developers collectively develop self-management. Parent-style Scrum Master behavior does not foster a self-managing Scrum Team. Context matters. But as a rule of thumb, a Scrum Master who is neither willing, ready, nor able to be an agent of change should step down as a Scrum Master.
+Being a Scrum Master is a calling where helping others succeed is reward enough. A Scrum Master doesn’t seek the spotlight. Like any good leader, they give credit to others and take responsibility when things go wrong. Staying in the role for a longer time helps guide the Scrum Team toward its full potential, but only if the Product Developers collectively develop self-management. Parent-style Scrum Master behavior does not foster a self-managing Scrum Team. Context matters. `But as a rule of thumb, a Scrum Master who is neither willing, ready, nor able to be an agent of change should step down as a Scrum Master.`
 
 ## The Scrum Artifacts in the Expansion Pack {#the-scrum-artifacts-in-the-expansion-pack}
 
@@ -521,20 +541,24 @@ Scrum’s artifacts provide Transparency about what the Scrum Team and Stakehold
 
 Each artifact contains a commitment:
 
-- For the Product serving the Stakeholders, it is the Definition of Outcome Done.
-- For the Increment that is a candidate update for the Product, it is the Definition of Output Done.
+- `For the Product serving the Stakeholders, it is the Definition of Outcome Done. (SGEP added)`
+- For the Increment that is a candidate update for the Product, it is the `Definition of Output Done (SGEP renamed)`. 
 - For the Product Backlog, it is the Product Goal.
 - For the Sprint Backlog, it is the Sprint Goal.
 
-Upon release of the Increment (output), the Product is what creates value (outcomes). Value is the measurable or observable fulfillment or creation of expectations, needs, or wants from the Stakeholders’ perspective.
+`Upon release of the Increment (output), the Product is what creates value (outcomes). Value is the measurable or observable fulfillment or creation of expectations, needs, or wants from the Stakeholders’ perspective.`
 
-These commitments reinforce the pillars of Transparency, Inspection, and Adaptation, enabling empirical process control (64-66). The Product Goal is fixed for as long as no contrary evidence or observations emerge in the observed Product’s Definition of Outcome Done. The Definition of Output Done is not weakened during the Sprint. So what could be diminished or changed instead? It could be the Acceptance Criteria for a specific Product Backlog Item, the implementation or fidelity of a specific feature, or even alternative Product Backlog Items for achieving the Sprint Goal, etc.
+These commitments reinforce the pillars of Transparency, Inspection, and Adaptation, enabling empirical process control (64-66). `The Product Goal is fixed for as long as no contrary evidence or observations emerge in the observed Product’s Definition of Outcome Done.` The Definition of Output Done is not weakened during the Sprint. So what could be changed instead? It could be the Acceptance Criteria for a specific Product Backlog Item, the implementation or fidelity of a specific feature, or even alternative Product Backlog Items for achieving the Sprint Goal, etc. 
 
-If the Product Goal shifts often, it could indicate that something is off, perhaps due to a lack of _Focus_ on what matters. _Focus_ is about being professional and deciding what to work on but also what not to work on.
+`
+If the Product Goal shifts often, it could indicate that something is off, perhaps due to a lack of Focus on what matters. Focus is about being professional and deciding what to work on but also what not to work on.
+`
 
 ### Product {#product}
 
-The Product is an artifact. A Product can be a holistic experience or a platform. It can also be a service, physical, digital, or hybrid, delivering continuous value to Stakeholders (including but not limited to users).
+`
+The Product is an artifact. 
+`A Product can be a holistic experience or a platform. It can also be a service, physical, digital, or hybrid, delivering continuous value to Stakeholders (including but not limited to users).
 
 An experience is a specific solution designed to meet the needs of Stakeholders, including the user, ideally external to the organization. It provides a direct interaction that delivers value. It is typically focused on solving a particular problem or opportunity, or a set of them for Stakeholders, including but not limited to customers, decision-makers, and users.
 
@@ -555,7 +579,7 @@ The Product is the manifestation of _why_ we do _what_ we do.
 
 #### Commitment: Definition of Outcome Done {#commitment:-definition-of-outcome-done}
 
-The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It’s often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations.
+`The Definition of Outcome Done is a commitment.` It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It’s often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations.
 
 Outcomes and related interpretations inform future adaptations, ideally confirming the intended Stakeholder impact(including but not limited to business or user impact)—measuring whether the output fulfills the anticipated outcome(s) and delivers real value. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (120-124). Or a combination of both.
 
@@ -581,11 +605,11 @@ An Increment-candidate does not qualify as an Increment until it meets the quali
 
 #### Commitment: Definition of Output Done {#commitment:-definition-of-output-done}
 
-The Definition of Output Done is a commitment. It formally describes the quality measures that express due diligence for the Increment so that it could be delivered to Stakeholders.
+`The Definition of Output Done is a commitment`. It formally describes the quality measures that express due diligence for the Increment so that it could be delivered to Stakeholders.
 
 The Definition of Output Done typically includes (but is not limited to) both technical standards and Product qualities. The Scrum Team creates it if not provided by the organization as a minimum. If there are multiple Scrum Teams on the same Product, they share the same Definition of Output Done as the common foundation but may improve upon it.
 
-The Scrum Team is duty-bound to conform to the Definition of Output Done and continuously improve it. The Increment is cumulative. The Definition of Output Done is for the good of the Product and its Stakeholders. The Definition of Output Done is the overall quality standard for the whole Increment, not the specific standard for each item (e.g., Acceptance Criteria).
+The Scrum Team is duty-bound to conform to the Definition of Output Done and continuously improve it. The Increment is cumulative. The Definition of Output Done is for the good of the Product and its Stakeholders. `The Definition of Output Done is the overall quality standard for the whole Increment, not the specific standard for each item (e.g., Acceptance Criteria). (SGEP more explicit)`
 
 A released Increment enables result feedback for Definition of Outcome Done value validation.
 
@@ -595,7 +619,9 @@ The Product Backlog is an artifact. It is the emergent, ordered (sequenced) list
 
 #### Product Backlog Item {#product-backlog-item}
 
-A Product Backlog Item is a potentially valuable item in the Product Backlog. It is not necessarily in any specific format. It is intended to deal with a problem or opportunity. It can include Acceptance Criteria that can tell when work is completed, in addition to the Definition of Output Done. One might deliver exactly what was requested but still not deliver sufficient outcomes. So, a Product Backlog Item can also include clearly defined Outcome Criteria that can tell when sufficient value is delivered, in addition to what is already in the Definition of Outcome Done.
+`
+A Product Backlog Item is a potentially valuable item in the Product Backlog.
+` It is not necessarily in any specific format. It is intended to deal with a problem or opportunity. It can include Acceptance Criteria that can tell when work is completed, in addition to the Definition of Output Done. One might deliver exactly what was requested but still not deliver sufficient outcomes. So, a Product Backlog Item can also include clearly defined Outcome Criteria that can tell when sufficient value is delivered, in addition to what is already in the Definition of Outcome Done.
 
 A Product Backlog Item is a single piece of work that discovers or delivers value. A Product Backlog Item can evolve anytime, even while Product Developers work on it. During refinement, it is broken down into smaller, more understandable (mostly to the Scrum Team) Product Backlog Items that could deliver value. Occasionally, an item in the Product Backlog might not be related to the Product Goal; if this happens often, it’s worth examining if the _Focus_ level might not be where it needs to be. The Scrum Team and Stakeholders should _Focus_ on outcomes over outputs, keep the trade-off balance right, and not let the Scrum Team become a ‘feature-factory’ or ‘discovery-factory.’
 
@@ -603,29 +629,29 @@ A Product Backlog Item is a single piece of work that discovers or delivers valu
 
 Acceptance Criteria, if they exist, describe when an output for a specific Product Backlog Item is complete, in addition to the Definition of Output Done. Acceptance Criteria in refined items should provide unambiguous clarity on _what_ is requested. Acceptance Criteria include criteria specific to a Product Backlog Item not already addressed in the Definition of Output Done; they can be functional or non-functional. Acceptance Criteria can evolve anytime, even while Product Developers work on them.
 
-#### Outcome Criteria {#outcome-criteria}
-
-Outcome criteria, if they exist, describe the intention of the Product Backlog Item; it is the _why_ behind the _what_. The fulfillment of Outcome Criteria often complements the Definition of Outcome Done for the Product. They can include criteria specific to a Product Backlog Item not already addressed in the Definition of Outcome Done. If questions arise, the Outcome Criteria provide direction; they can be in the form of a narrative or measures, ideally, the latter. Outcome Criteria can evolve anytime, even while Product Developers work on them.
+As a subset, outcome criteria, if they exist, describe the intention of the Product Backlog Item; it is the _why_ behind the _what_. The fulfillment of outcome criteria often complements the Definition of Outcome Done for the Product. They can include criteria specific to a Product Backlog Item not already addressed in the Definition of Outcome Done. If questions arise, the outcome criteria provide direction; they can be in the form of a narrative or measures, ideally, the latter. Outcome criteria can evolve anytime, even while Product Developers work on them.
 
 #### Refinement {#refinement}
 
-Refinement is an activity. It may be formal (an additional event) or informal. Refinement is an ongoing emergent process that fosters clarity and reduces risk; it builds enough understanding and confidence that the selected or upcoming Product Backlog Items are ready (can be completed in accordance with the Definition of Output Done within a small number of days, or shorter). Various types of dependencies are considered.
+Refinement is an activity. `It may be formal (an additional event) (in the SGEP it is a key element)` or informal. Refinement is an ongoing emergent process that fosters clarity and reduces risk; it builds enough understanding and confidence that the selected or upcoming Product Backlog Items are ready (can be completed in accordance with the Definition of Output Done within a small number of days, or shorter). Various types of dependencies are considered.
 
-Refinement involves breaking down Product Backlog Items into smaller, more understandable (mostly to the Scrum Team) Product Backlog Items. It can add more details such as description, Acceptance Criteria, Outcome Criteria, order, and size. Attributes vary but should be meaningful to the Scrum Team. Refinement can involve research, including but not limited to, problem or opportunity validation, user or customer experience, solution validation. The Product Developers, and nobody else, are responsible for sizing the Product Backlog Items. The Product Owner may influence the Product Developers by helping them understand and select potential trade-offs.
+Refinement involves breaking down Product Backlog Items into smaller, more understandable (mostly to the Scrum Team) Product Backlog Items. It can add more details such as description, Acceptance Criteria, order, and size. Attributes vary but should be meaningful to the Scrum Team. Refinement can involve research, including but not limited to, problem or opportunity validation, user or customer experience, solution validation. The Product Developers, and nobody else, are responsible for sizing the Product Backlog Items. The Product Owner may influence the Product Developers by helping them understand and select potential trade-offs.
 
-Participants often include Stakeholders and members of the Scrum Team; it is not uncommon for Product Developers to work directly with Stakeholders. Refinement is often supported or facilitated by the Product Owner. The Product Owner can _Focus_ more on Product ownership if the Product Developers have a broad understanding of the Product. Generally speaking, it is a forward-looking activity that offers clarity, direction, and potential _Focus_ for upcoming Sprints.
+`
+Participants often include Stakeholders and members of the Scrum Team; it is not uncommon for Product Developers to work directly with Stakeholders.
+` Refinement is often supported or facilitated by the Product Owner. The Product Owner can _Focus_ more on Product ownership if the Product Developers have a broad understanding of the Product. Generally speaking, it is a forward-looking activity that offers clarity, direction, and potential _Focus_ for upcoming Sprints.
 
 #### Commitment: Product Goal {#commitment:-product-goal}
 
 The Product Goal is a commitment. It is represented through the Product Backlog, which is owned by the Product Owner. It is the current single, more strategic, ambitious objective (the _why_). It gives direction for the Product and enables _Focus_ for the Product Developers working on the Product. It improves Transparency by providing a clear, valuable direction for the Product Developers to work toward, using a more tactical Sprint Goal (the _why_ for the Sprint).
 
-A Product Goal is the medium-term objective for the Scrum Team and the Stakeholders (and Supporters). The Scrum Team should fulfill (or abandon) one Product Goal before taking on the next.
+A Product Goal is the `medium-term` objective for the Scrum Team and the Stakeholders (and Supporters). The Scrum Team should fulfill (or abandon) one Product Goal before taking on the next.
 
-A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders (including but not limited to customers or users) expectations and limits. Through Inspection and Adaptation, it’s essential to embrace uncertainty (72), result feedback, side effects, and other learnings.
+A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders' (including but not limited to customers or users) expectations and limits. `Through Inspection and Adaptation, it’s essential to embrace uncertainty (72), result feedback, side effects, and other learnings.`
 
 #### What about a Product Vision? {#what-about-a-product-vision}
 
-Many organizations work with a Product Vision, which helps visualize a potential future. The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision.
+Many organizations work with a Product Vision, which helps visualize a potential future. `The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision. (a thing in SGEP)`
 
 As the Scrum Team and Stakeholders inspect and adapt toward the Product Goal, they need to be _open_ to the idea that the Product Vision or Product Goal might also need to adapt. Often, several Product Goals are sequentially achieved while working toward a vision.
 
@@ -639,35 +665,33 @@ The Sprint Backlog is an artifact. It is composed of the Sprint Goal (the _why_ 
 
 The Sprint Backlog is a plan by and for the Product Developers. It is the Product Developers’ viewpoint of the understood work to achieve the Sprint Goal (the why for the Sprint). Suppose a suboptimal scenario where most items in the Sprint Backlog are continually unrelated to the Product Goal. In that case, the _Focus_ and _Commitment_ Scrum Values are not being upheld.
 
-Within the context of the Sprint Goal, the Product Developers update their plan, even the forecast, throughout the Sprint as more is learned. The Sprint Backlog should have enough work to get started, e.g., start with one or two Product Backlog Items toward the Sprint Goal. The Product Developers inspect their progress toward the Sprint Goal in the Daily Scrum or more often. Product Developers learn to adapt and respond to uncertainty (72).
+Within the context of the Sprint Goal, the Product Developers update their plan, even the forecast, throughout the Sprint as more is learned. `The Sprint Backlog should have enough work to get started, e.g., start with one or two Product Backlog Items toward the Sprint Goal. (SG2017 idea brought back)` The Product Developers inspect their progress toward the Sprint Goal in the Daily Scrum or more often. `Product Developers learn to adapt and respond to uncertainty (72).`
 
 #### Commitment: Sprint Goal {#commitment:-sprint-goal}
 
-[2020 Scrum Guide: '... the Sprint Goal is a commitment by the Developers ...'] 
-
-The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint Goal is the single unifying objective (coherent with the Product Goal) of the Sprint (the _why_) for the Product Developers, created in Sprint Planning. Delivery of the Sprint Goal is a commitment by the Product Developers. The Sprint Backlog (including the _why_, the _what,_ and, often, the _how_) provides _Focus_ and flexibility regarding the evolving work, thus improving Transparency.
+To attain coherence, the Sprint Goal is a commitment created and `owned by the Scrum Team (SG2020 Developers owned the commitment)`. The Sprint Goal is the single unifying objective (coherent with the Product Goal) of the Sprint (the _why_) for the Product Developers, created in Sprint Planning. Delivery of the Sprint Goal is a commitment by the Product Developers. The Sprint Backlog (including the _why_, the _what,_ and, often, the _how_) provides _Focus_ and flexibility regarding the evolving work, thus improving Transparency.
 
 The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work.
 
-If there are multiple objectives, as long as they are coherent with the Product Goal it might be ok. Be careful. Consider the trade off of context switching and focus. The Scrum Team should strive to attain balance over time –– balancing current team capabilities and climate, current stakeholder value, potential stakeholder value and time to value. 
+`If there are multiple objectives, as long as they are coherent with the Product Goal it might be ok. Be careful. Consider the trade off of context switching and focus. The Scrum Team should strive to attain balance over time –– balancing current team capabilities and climate, current stakeholder value, potential stakeholder value and time to value. (SGEP considers DevSecOps)` 
 
 ## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack}
 
-Scrum combines four timeboxed events for Inspection and Adaptation within a containing fifth event of determinate length, the Sprint. These events support the Scrum pillars of Transparency, Inspection, and Adaptation. Releases enable value, ideally, continuously. Infrequent releases lead to delayed result feedback.
+Scrum combines four timeboxed events for Inspection and Adaptation within a containing fifth event of determinate consistent length, the Sprint. These events support the Scrum pillars of Transparency, Inspection, and Adaptation. Releases enable value, ideally, continuously. Infrequent releases lead to delayed result feedback.
 
-A timebox is a stipulated maximum amount of elapsed time from beginning to end for a defined event, not to be confused with an expectation to use that full amount of time. The purpose of a timebox in Scrum is to foster the selection of essential work, creating _Focus_ to achieve desired results quickly. In Scrum, for a given Scrum Team, the sprint length is consistent, so it is not a timebox.
+A timebox is a stipulated maximum amount of elapsed time from beginning to end for a defined event, not to be confused with an expectation to use that full amount of time. The purpose of a timebox in Scrum is to foster the selection of essential work, creating _Focus_ to achieve desired results quickly.
 
 Events create cadence and minimize the need for other meetings not part of Scrum. Ideally, each event is held at the same time and place to reduce complexity (30-35) and foster the formation of habits. Skilled facilitation improves effectiveness. Ineffective events risk losing emphasis on the Sprint Goal, Product Goal, Transparency, Inspection, Adaptation, and Scrum Values.
 
-Each event has its own purpose and should include deep, meaningful work. Together, the Scrum events provide a scaffold of Transparency to inspect and adapt, pause, and reflect. The Scrum events support structured thinking and working, effectiveness, and a balanced workload.
+Each event has its own purpose and `should include deep, meaningful work. Together, the Scrum events provide a scaffold of Transparency to inspect and adapt, pause, and reflect. The Scrum events support structured thinking and working, effectiveness, and a balanced workload. (SGEP is influenced by Cynefin and Evidence-Based Management)` 
 
-Communication is key to ensuring the Scrum Team and Supporters _Focus_ on the right thing. Apart from the Sprint, events may consume less time as long as coherence is not lost.
+Communication is key to ensuring the Scrum Team and Supporters _Focus_ on the right thing. Apart from the Sprint, events may consume less time `as long as coherence is not lost.`
 
 ### The Sprint {#the-sprint}
 
-The Sprint is an event where ideas are turned into value. The Sprint is the container event. It is an iteration of a determinate time in which work is carried out. It provides _Focus_ and stability. A Sprint is no longer than four weeks. A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal happens within Sprints.
+The Sprint is an event where ideas are turned into value. The Sprint is the container event. It is an iteration of a determinate time in which work is carried out. It provides _Focus_ and stability. A Sprint is no longer than `four weeks.` A new Sprint starts immediately after the conclusion of the previous Sprint. All the work necessary to achieve the Product Goal happens within Sprints.
 
-Sprints are the heartbeat of Scrum, where the Scrum Team turns ideas into usable, useful, and potentially valuable Increments. The Increment is released as soon as practically possible, considering the need for early result feedback. A lack of release to some subset of Stakeholders (including but not limited to real customers, decision-makers, and users) can lead to a lack of timely result feedback. Multiple Increments may be created in a Sprint; the Scrum Team should strive to validate value through early and frequent releases, where applicable.
+Sprints are the heartbeat of Scrum, where the Scrum Team turns ideas into usable, useful, and potentially valuable Increments. The Increment is released as soon as practically possible, considering the need for early result feedback. `A lack of release to some subset of Stakeholders (including but not limited to real customers, decision-makers, and users) can lead to a lack of timely result feedback.` Multiple Increments may be created in a Sprint; `the Scrum Team should strive to validate value through early and frequent releases, where applicable.`
 
 During the Sprint:
 
@@ -676,11 +700,11 @@ During the Sprint:
 - The Product Backlog is refined as needed; and,
 - As more is learned, current work may be clarified and renegotiated with the Product Owner without affecting the Sprint Goal.
 
-Sprints enable outcomes by ensuring Inspection and Adaptation of progress toward a Sprint Goal at least every four weeks. When a Sprint is too long, the Sprint Goal may become invalid, increasing complexity (30-35) and risk. Shorter Sprints often generate more learning cycles; they could also limit risk.
+Sprints enable outcomes by ensuring Inspection and Adaptation of progress toward a Sprint Goal at least every four weeks. When a Sprint is too long, the Sprint Goal may become incoherent, increasing complexity (30-35) and risk. Shorter Sprints often generate more learning cycles; they could also limit risk.
 
-Shorter Sprints usually require improved capabilities (e.g., refining, vertical slicing, technical domain, business domain). Context matters and the Scrum Team strives to strike the right balance.
+`Shorter Sprints usually require improved capabilities (e.g., refining, vertical slicing, technical domain, business domain). Context matters and the Scrum Team strives to strike the right balance.`
 
-Various complementary practices exist to assess or forecast progress, like burn-downs, burn-ups, flow analytics, Monte Carlo probabilistic forecasts, large effort estimation, fuzzy sets (110), etc. While useful, these do not replace the importance of empiricism (67). In complex (30-35) environments, what has already happened may be used for forward-looking decision-making, but what will happen is unknown.
+Various complementary practices exist to assess or forecast progress, like burn-downs, burn-ups, `flow analytics, Monte Carlo probabilistic forecasts, large effort estimation, fuzzy sets (110), etc.` While useful, these do not replace the importance of empiricism (67). In complex (30-35) environments, what has already happened may be used for forward-looking decision-making, but what will happen is unknown.
 
 You could think about a Sprint as a mini project with a clear outcome, determinate length and understood costs. However, the various work activities happen in parallel and not in a sequential defined linear way.
 
@@ -696,7 +720,7 @@ Sprint Planning addresses the following topics:
 
 #### The _Why_ for the Sprint {#the-why-for-the-sprint}
 
-The Product Owner proposes ideas for how the Product could increase its value and utility in the current Sprint. The Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to Stakeholders toward the Product Goal. The Sprint Goal must be finalized by the end of Sprint Planning.
+The Product Owner proposes `data-informed ideas (e.g., Refinement, result feedback, other learnings)` for how the Product could increase its value and utility in the current Sprint. The Product Owner and the Product Developer collaborate to define a Sprint Goal that communicates why the Sprint is valuable to Stakeholders `toward the Product Goal (SGEP emphasizes directional, just-in-time planning).` The Sprint Goal must be finalized by the end of Sprint Planning.
 
 #### The _What_ toward the _Why_ {#the-what-toward-the-why}
 
@@ -704,17 +728,19 @@ Through collaboration with the Product Owner, the Product Developers select item
 
 Selecting how much can be completed within a Sprint may be challenging. However, the more the Product Developers know about their past performance, vertical slicing, upcoming capacity, and the Definition of Output Done, the more confident they will be in their ability to forecast Sprint outcomes.
 
-Successful Scrum Teams do not overload themselves. In fact, they plan to finish work early, sometimes using a buffer for unexpected events (85). This helps the Scrum Team to stay focused, improve quality, and satisfy Stakeholders by delivering value sooner. Chronic overload or sudden shifts can cause excessive negative stress, which Jeff Sutherland calls 'Bayesian surprise.' They can disrupt the Scrum Team’s psychological flow (70) and performance. Clear communication, professional handling of emergence (71), and small, regular changes help prevent this, so Scrum Teams should aim for early delivery.
+`
+Successful Scrum Teams do not overload themselves. In fact, they plan to finish work early, sometimes using a buffer for unexpected events (85). This helps the Scrum Team to stay focused, improve quality, and satisfy Stakeholders by delivering value sooner. Chronic overload or sudden shifts can cause excessive negative stress, which Jeff Sutherland calls 'Bayesian surprise.' They can disrupt the Scrum Team’s psychological flow (70) and performance. Clear communication, professional handling of emergence (71), and small, regular changes help prevent this, so Scrum Teams should aim for early delivery. (SGEP supports slack)
+`
 
 #### The _How_ for the _What_ {#the-how-for-the-what}
 
 How the work is done is at the sole discretion of the Product Developers. No one else tells the Product Developers how to do their work. The Product Developers select their own work; no one else assigns or pushes Product Backlog Items to the Product Developers, not even the Product Owner.
 
-Sprint Planning is timeboxed to a maximum of eight hours for a four-week Sprint. The event is usually shorter for shorter Sprints. Context matters. But as a rule of thumb, do enough planning to get started with the work, e.g., plan a few Product Backlog Items toward the Sprint Goal.
+Sprint Planning is timeboxed to a maximum of eight hours for a four-week Sprint. The event is usually shorter for shorter Sprints. Context matters. `But as a rule of thumb, do enough planning to get started with the work, e.g., plan a few Product Backlog Items toward the Sprint Goal.`
 
 ### Daily Scrum {#daily-scrum}
 
-The Daily Scrum is an event. At the Daily Scrum, the Product Developers collaborate on progress toward the Sprint Goal and update the actionable plan, the Sprint Backlog, until the next Daily Scrum. In the event the Sprint Goal has already been achieved, the Product Developers collaborate on meaningful progress toward the Product Goal.
+The Daily Scrum is an event. At the Daily Scrum, the Product Developers collaborate on progress toward the Sprint Goal and update the actionable plan, the Sprint Backlog, until the next Daily Scrum. `In the event the Sprint Goal has already been achieved, the Product Developers collaborate on meaningful progress toward the Product Goal. (SGEP emphasizes direction)`
 
 The Daily Scrum provides _Focus_, cohesion, and urgency and fosters self-management (49). Usually, only the Product Developers participate. To simplify, it often uses the same meeting cadence, place, and time.
 
@@ -722,27 +748,31 @@ The Product Developers can select whatever structure and techniques they want. D
 
 The Daily Scrum is not the only time the Product Developers adjust their plan for the Sprint within the context of the Sprint Goal or Product Goal. Product Developers often meet throughout the day for more detailed discussions.
 
-To enable the flow of value (68,69) and enable potential outcomes sooner, the Product Developers should focus on one item or a few items at a time and meet the Definition of Output Done, before starting to work on other items. The Product Developers can achieve this by focusing, having fewer items in progress, and proactively finishing work over starting new work. The Product Developers monitor idle work, not idle people.
+`To enable the flow of value (68,69) and enable potential outcomes sooner, the Product Developers should focus on one item or a few items at a time and meet the Definition of Output Done, before starting to work on other items. The Product Developers can achieve this by focusing, having fewer items in progress, and proactively finishing work over starting new work. The Product Developers monitor idle work, not idle people. (SGEP emphasizes flow)`
 
-The Daily Scrum is timeboxed to a maximum of fifteen minutes per day; it may be shorter.
+The Daily Scrum is timeboxed to fifteen minutes per day.
 
 ### Sprint Review {#sprint-review}
 
 The Sprint Review is an event. It is an interactive, collaborative working session. Often, the Scrum Team shares the current Product Goal and presents the Definition of Output Done and the Definition of Outcome Done to the Stakeholders. The Scrum Team shares the results of their work, what trade-offs were made, and how much progress was made toward the Product Goal (the why behind the work). If available, current and up-to-date measures of progress toward the Definition of Outcome Done are shared and considered.
 
+`
 The Sprint Review inspects many things related to the Product, such as the Product Goal, Product Backlog, the Sprint Goal, the learnings, the Increment, Stakeholder expectations and limits, result feedback, side effects, progress with the Product, the market, as well as forward-looking, e.g., what new ideas and opportunities have emerged, potential next steps.
+`
 
 Informed by what is learned:
 
-- Participants sense, listen, learn, and collaborate on what to potentially do next;
-- The Product Backlog (the what)is adapted and possibly the Product Goal, ideally supported by evidence or observations and guided by the Product Goal or optional Product Vision; and,
+- Participants `sense, listen, learn, and`  collaborate on what to potentially do next;
+- The Product Backlog (the what) is adapted and possibly the Product Goal, ideally supported by evidence or observations and guided by the Product Goal or optional Product Vision; and,
 - Participants adapt the Product’s Definition of Outcome Done for future Sprints.
 
+`
 It’s always important to consider Stakeholders and what they value, including inanimate, non-human Stakeholders such as the law.
+`
 
-Incomplete Product Backlog Items return to the Product Backlog for future consideration and are not presented; sometimes, they are moved into the next Sprint.
+Incomplete Product Backlog Items return to the Product Backlog for future consideration and are not presented; `sometimes, they are moved into the next Sprint.`
 
-The Sprint Review is the second-to-last event of the Sprint and is timeboxed to a maximum of four hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
+The Sprint Review is the second-to-last event of the Sprint and is timeboxed to four hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
 
 ### Sprint Retrospective {#sprint-retrospective}
 
@@ -750,21 +780,22 @@ The Sprint Retrospective is an event. At this event, the Scrum Team agrees on ho
 
 The Sprint Retrospective focuses on the most helpful changes to improve, such as:
 
-- The Increment
-- Outcomes
+- `The Increment`
+- `Outcomes`
 - Professionalism, e.g., skills, technical practices, tooling, ability to innovate;
-- Flow of validated value (68,69), e.g., end-to-end flow metrics, time-to-market;
+- `Flow of validated value (68,69), e.g., end-to-end flow metrics, time-to-market;`
 - Effectiveness (the _how_), e.g., technology, processes, dependencies;
 - Interactions and Scrum Team dynamics, e.g., collaboration, working arrangements;
 - Information radiators, e.g., product wall, metrics;
 - The Definition of Output Done for future Sprints;
-- Further adaptations to the Definition of Outcome Done for future Sprints;
-- How to automatically attain the measures regarding the Definition of Outcome Done;
+- `Further adaptations to the Definition of Outcome Done for future Sprints;`
+- `How to automatically attain the measures regarding the Definition of Outcome Done;`
 - And more.
 
-The most impactful improvements should be addressed as soon as possible. The Scrum Team should not just talk about improvement; Scrum depends on meaningful, continuous improvement follow-through. Some improvement actions rely on the assistance of Supporters, but that does not mean the Scrum Team should not strive for net improvement regardless (such as continual marginal gains).
+The most impactful improvements should be addressed as soon as possible.`The Scrum Team should not just talk about improvement; Scrum depends on meaningful, continuous improvement follow-through. Some improvement actions rely on the assistance of Supporters, but that does not mean the Scrum Team should not strive for net improvement regardless (such as continual marginal gains) (SGEP says **).
+` 
 
-The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
+The Sprint Retrospective concludes the Sprint. It is timeboxed to three hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
 
 ## End Note {#end-note}
 
@@ -782,10 +813,6 @@ Scrum was developed in the early 1990s. Ken Schwaber and Jeff Sutherland first c
 
 We also thank reviewers who provided feedback to earlier drafts, including but not limited to, Daryn Basson, Alex Benes, Kurt Bittner, Deb Bhattacharya, Magdalena Firlit, Nichervan Fazel, Peter Fischbach, Michael Forni, Tom Gilb, Martin Hinshelwood, Jesse Houwing, Michael Huynh, Matthew Ijogi, Marc Kaufmann, Tom Mellor, Christian Neverdal, Stas Pavlov, Ian Sharp, Alisa Stolze, Mark Summers, and Nader Talai.
 
-#
-
 ## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
 This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
-
-#
