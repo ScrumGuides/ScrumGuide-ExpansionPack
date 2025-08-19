@@ -10,9 +10,9 @@
           {{ $sections = $sections | lang.Merge .Site.Sections }}
         {{ end }}
         {{ $sections = where $sections "Type" "guide" }}
-        {{/* {{ $sections = lang.Merge $defaultSite.sections $sections }} */}}
+         {{ $sections = where $sections "Params.categories" "intersect" (slice "headline") }}
         {{- range $sections.ByWeight }}
-          <div class="col-12 col-lg-6 col-xl-6 p-3">
+          <div class="col-12 col-lg-12 col-xl-12 p-3">
             <div class="card h-100 shadow-sm border-0" style="background: #ffffff;">
               <div class="card-header bg-white border-0 text-center py-3">
                 <h5 class="card-title mb-2 text-dark">{{ .Params.short_title | default .Title }}</h5>

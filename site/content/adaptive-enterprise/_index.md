@@ -28,4 +28,10 @@ guide_comparison:
     content: "Expert-curated, community-informed"
 which_to_use_summary: |
   Adaptive Enterprise
+cascade:
+- build:
+    list: never
+    render: never
+  target:
+    environment: production
 ---

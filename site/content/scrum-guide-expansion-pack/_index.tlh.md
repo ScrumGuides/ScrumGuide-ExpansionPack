@@ -4,6 +4,7 @@ description: QumwI'pu' Human sutlu', 'ach vongwI'pu' 'uy' ghe'naQmey qengbogh to
 slug: scrum-guide-expansion-pack
 Type: "guide"
 Layout: "root"
+categories: [headline]
 brand:
   bg_colour: "#0072B2"
   image: "images/scrum-guide-expansion-pack-logo-solo.png"
