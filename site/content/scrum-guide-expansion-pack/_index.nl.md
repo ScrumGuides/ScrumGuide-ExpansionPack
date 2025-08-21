@@ -4,6 +4,7 @@ description: Het Scrum Guide Expansion Pack is een uitgebreide aanvulling op de 
 slug: scrum-guide-expansion-pack
 Type: "guide"
 Layout: "root"
+categories: [headline]
 brand:
   bg_colour: "#0072B2"
   image: "images/scrum-guide-expansion-pack-logo-solo.png"

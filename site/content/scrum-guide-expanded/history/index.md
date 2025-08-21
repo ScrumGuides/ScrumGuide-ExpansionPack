@@ -1,5 +1,5 @@
 ---
-title: "تاریخچه"
+title: "History"
 layout: history
 type: guide
 ---
