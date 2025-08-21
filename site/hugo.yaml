@@ -10,7 +10,6 @@ defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
 enableMissingTranslationPlaceholders: true
 printI18nWarnings: true
-
 languages:
   en:
     languageName: English
@@ -70,7 +69,7 @@ languages:
     title: Ghidul Scrum Pachetul Extins
     languageCode: ro
     params:
-      description: ScrumExpansion.org găzduiește Pachetul Extins al Ghidului Scrum — ghid modern pentru aplicarea Scrum în activitatea complexă, inteligența artificială și strategia adaptivă. 
+      description: ScrumExpansion.org găzduiește Pachetul Extins al Ghidului Scrum — ghid modern pentru aplicarea Scrum în activitatea complexă, inteligența artificială și strategia adaptivă.
       keywords: Scrum, ScrumExpansion.org, Ghidul Scrum Pachetul Extins, ghid Scrum, practici Scrum avansate, Scrum pentru munca modernă, întreprindere adaptivă, livrare agilă de produs, Scrum empiric, gândire bazată pe dezvoltarea produselor, teoria complexității în Scrum, leadership în Scrum, Scrum profesional, Scrum Educativ Scrum și inteligența artificială, resurse Scrum, hub de învățare Scrum, site al comunității Scrum.
   es:
     languageName: Spanish
@@ -79,6 +78,14 @@ languages:
     params:
       description: El Scrum Guide Expansion Pack es un complemento integral a la Guía Scrum 2020, creado para ayudar a los profesionales a desenvolverse en entornos de producto cada vez más complejos.
       keywords: Scrum, Scrum moderno, Gestión de producto, Desarrollo de producto empírico, Scrum en entornos complejos, Scrum e IA
+  ja:
+    languageName: 日本語
+    weight: 1001
+    title: スクラムガイド拡張パック
+    languageCode: ja
+    params:
+      description: ScrumExpansion.orgは、複雑な作業やAI、適応的な戦略にスクラムを適用するための最新ガイダンス「スクラムガイド拡張パック」を提供しています。
+      keywords: スクラム, ScrumExpansion.org, スクラムガイド拡張パック
 params:
   description: Scrum Guides 2025 Expansion Pack
   keywords: Scrum
@@ -88,14 +95,13 @@ params:
   githubUrl: https://github.com/ScrumGuides/ScrumGuide-ExpansionPack
   previewSiteUrl: https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/
   productionSiteUrl: https://scrumexpansion.org/
-  logo_image: "/images/scrum-guide-expansion-pack-logo-512.png" # URL to the site logo image
-  menu_logo: "/images/scrum-guide-expansion-pack-logo-solo.png" # URL to the main menu logo image
-  AzureSitesConfig: "#{Guides_AzureSitesConfig}#"
-  GitVersion_SemVer: "v#{GitVersion.SemVer}#"
-  GoogleTagManagerID: "G-TS77V93FQJ" # Replace with your actual GTM ID
+  logo_image: /images/scrum-guide-expansion-pack-logo-512.png
+  menu_logo: /images/scrum-guide-expansion-pack-logo-solo.png
+  AzureSitesConfig: '#{Guides_AzureSitesConfig}#'
+  GitVersion_SemVer: v#{GitVersion.SemVer}#
+  GoogleTagManagerID: G-TS77V93FQJ
   features:
     guideDetails: false
-
 sitemap:
   filename: sitemap.xml
   changefreq: daily
@@ -106,22 +112,22 @@ rss:
   description: Subscribe to our RSS feed
 outputs:
   home:
-    - html
-    - json
-    - rss
-    - languages
+  - html
+  - json
+  - rss
+  - languages
   section:
-    - html
-    - rss
+  - html
+  - rss
   taxonomy:
-    - html
-    - rss
+  - html
+  - rss
   term:
-    - html
-    - rss
+  - html
+  - rss
   page:
-    - html
-    - rss
+  - html
+  - rss
 outputFormats:
   json:
     mediaType: application/json
@@ -130,11 +136,9 @@ outputFormats:
     mediaType: application/json
     baseName: languages
     isPlainText: true
-
 module:
   imports:
-    - path: github.com/nkdAgility/HugoGuides/module
-
+  - path: github.com/nkdAgility/HugoGuides/module
 markup:
   goldmark:
     renderer:
@@ -147,3 +151,4 @@ markup:
       attribute:
         block: true
         title: true
+
