@@ -83,6 +83,7 @@ languages:
     weight: 1001
     # title: Scrum Guide Expansion Pack
     title: スクラムガイド拡張パック
+    languageCode: ja
     params:
       # description: ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
       description: ScrumExpansion.orgは、複雑な作業やAI、適応的な戦略にスクラムを適用するための最新ガイダンス「スクラムガイド拡張パック」を提供しています。
