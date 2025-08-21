@@ -32,10 +32,12 @@ sameAs:
   - "https://evolved.institute"
 ---
 
-<!-- John Coleman hosts the Evolved podcast, focusing on product and design leadership, as well as executive management. He is a co-founder of Evolved.Institute and Orderly Disruption. -->
 John Colemanは、プロダクトとデザインにおけるリーダーシップ、および経営管理に焦点を当てたポッドキャスト「Evolved」のホストを務めている。Evolved.Instituteおよび Orderly Disruptionの共同創設者でもある。
+<!-- John Coleman hosts the Evolved podcast, focusing on product and design leadership, as well as executive management. He is a co-founder of Evolved.Institute and Orderly Disruption. -->
+<!-- 英語と日本語を反転させないと一覧に表示できる行が減るのでこうしている -->
 
 <!-- He is a consultant and trainer on several approaches that address ambidexterity, adaptiveness, humane effectiveness, and timeliness. He specializes in executive content, product management, scaling, descaling, measurement, and coherence between team approach and management processes. -->
+
 彼は、コンサルタントおよびトレーナーとして、両利きの経営、適応性、人間的な効果性、適時性に関するさまざまなアプローチを指導している。経営幹部向けコンテンツ、プロダクトマネジメント、スケーリング、デスケーリング、計測、チームアプローチとマネジメントプロセスの整合性などを専門としている。
 
 <!-- His typical consulting footprint spans from the West Coast of the USA to Eastern Europe, with a primary focus on the USA. His training footprint is global. His globally recognized training badges do not restrict John’s work. He is well-researched and pragmatic. -->

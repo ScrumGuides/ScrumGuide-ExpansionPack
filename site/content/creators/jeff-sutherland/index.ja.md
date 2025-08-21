@@ -42,7 +42,7 @@ sameAs:
 ---
 
 <!-- Jeff Sutherland, the inventor and Co-Creator of Scrum and Scrum@Scale has worked with thousands of companies deploying Scrum and recently launched two global trainer programs for Registered Scrum Trainers and Registered Scrum@Scale Trainers in addition to creating independent companies starting with Scrum Inc Japan. He is Founder and Managing Director of Tesla Investment Holdings LLC which is an investment fund that coinvests with OpenView Venture Partners and CompanyOn Ventures. As President of JVS Management Inc he supports the investment fund and portfolio of companies. All organizations maximize impact by implementing Scrum@Scale and investing in agile companies. -->
-スクラムおよび Scrum@Scale の発明者であり共同開発者であるジェフ・サザーランド氏は、スクラムを導入する何千もの企業と協力し、最近では、スクラム株式会社を皮切りに独立系企業を設立するほか、登録スクラムトレーナーおよび登録スクラム@Scale トレーナー向けの 2 つのグローバルトレーナープログラムを開始しました。また、OpenView Venture Partners および CompanyOn Ventures と共同投資を行う投資ファンド、Tesla Investment Holdings LLC の創設者であり、マネージングディレクターも務めています。JVS Management Inc の代表として、投資ファンドおよび投資先企業のポートフォリオをサポートしている。 あらゆる組織は、Scrum@Scale を導入し、アジャイル企業への投資を行うことで、インパクトを最大化することができる。
+スクラムおよび Scrum@Scale の発明者であり共同開発者である"Jeff Sutherlandは、スクラムを導入する何千もの企業と協力し、最近では、スクラム株式会社を皮切りに独立系企業を設立するほか、登録スクラムトレーナーおよび登録スクラム@Scale トレーナー向けの 2 つのグローバルトレーナープログラムを開始しました。また、OpenView Venture Partners および CompanyOn Ventures と共同投資を行う投資ファンド、Tesla Investment Holdings LLC の創設者であり、マネージングディレクターも務めています。JVS Management Inc の代表として、投資ファンドおよび投資先企業のポートフォリオをサポートしている。 あらゆる組織は、Scrum@Scale を導入し、アジャイル企業への投資を行うことで、インパクトを最大化することができる。
 
 <!-- Jeff started his career as a fighter pilot in the U.S. Air Force where he achieved Top Gun status in 1967 and flew 100 combat missions over North Vietnam. -->
 Jeffは、アメリカ空軍で戦闘パイロットとしてのキャリアをスタートし、1967年にトップガンの称号を獲得、北ベトナム上空で100回の戦闘任務を遂行した。
