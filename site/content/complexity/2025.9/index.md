@@ -36,9 +36,9 @@ _Disclaimer: No warranties are given. Use at your own risk._
 _This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _By using this Cynefin Framework Kind of Explanation unofficial & unauthorized, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
 
-### Cynefin® {#cynefin®}
+# Cynefin® {#cynefin®}
 
-Cynefin® (30-35) offers a compass for leadership decision-making. It was popularized by the HBR article ‘A Leader's Framework for Decision Making’ by Dave Snowden and Mary Boone in 2007 and again in ‘Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework’, also known as the ‘EU Field Guide.’ Its premise is that one should act differently depending on the dynamics of the space. It is often oversimplified. A given problem could exist in all domains simultaneously, each having different aspects.
+Cynefin® (1-6) offers a compass for leadership decision-making. It was popularized by the HBR article ‘A Leader's Framework for Decision Making’ by Dave Snowden and Mary Boone in 2007 and again in ‘Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework’, also known as the ‘EU Field Guide.’ Its premise is that one should act differently depending on the dynamics of the space. It is often oversimplified. A given problem could exist in all domains simultaneously, each having different aspects.
 
 A phase shift refers to an often abrupt transition between domains, particularly from the ordered to chaos, triggered when a system’s constraints (rules, habits, boundaries, and feedback) are misaligned or collapse. It marks a fundamental change in system behavior where previous methods of control or understanding no longer work.
 
@@ -52,7 +52,7 @@ Not all aspects of Product development are complex. The Scrum Team, for a given 
   - Nature example: A modern, climate-controlled glasshouse––predictable, controlled, planned growth
   - Product example: Resolving a tricky technical issue by consulting experts and analyzing logs
 
-- Complex (30-35), where expertise is valuable but not enough, and one can only understand why things happened after the fact. Key idea: emergence, safe-to-fail experiments
+- Complex (1-6), where expertise is valuable but not enough, and one can only understand why things happened after the fact. Key idea: emergence, safe-to-fail experiments
 
   - Responses not limited to:
     - Encourage learning and adaptation
@@ -133,10 +133,16 @@ One phase shift is particularly sudden and negative, that is, the ordered-chaoti
 - Nature example: Frozen lake breaking up in spring––stable surface suddenly shattering
 - Product example: A stable Product process suddenly breaks down due to an unexpected event (e.g., major outage)
 
-#
 
 ## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
 This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
 
-#
+## References
+
+1. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (Accessed: April 4, 2023)._
+2. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._
+3. _Snowden, D. et al. (2022) Cynefin® weaving sense-making into the fabric of our world. 2nd edn. Edited by R. Greenberg and B. Bertsch. Singapore, Singapore: Cognitive Edge \- The Cynefin Co._
+4. _Snowden, D. (2023) Cynefin St David's 2023 1 of 2, Cynefin Co. [https://thecynefin.co/cynefin-st-davids-2023-1-of-2/](https://thecynefin.co/cynefin-st-davids-2023-1-of-2/) (Accessed: April 20, 2023)._
+5. _Snowden, D. (2023) Managing for emergence through abduction, The Cynefin Co. At: [https://thecynefin.co/managing-for-emergence/](https://thecynefin.co/managing-for-emergence/) (Accessed: June 24, 2023)._
+6. _Snowden, D. and Smith, N. (2023) Leadership discussion: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (Accessed: April 7, 2023)._
