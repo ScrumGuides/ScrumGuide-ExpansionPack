@@ -152,7 +152,7 @@ Scrum supports proactive risk management and opportunity discovery.
 スクラムは意図的に不完全である。詳細なプロセスを規定する代わりに、関係性および意図的な相互作用を導くフレームワークを提供する。様々なプロセス・技術・手法によってスクラムを補完することができる。しかし、そうしたものの適用は文脈に依存し、スクラムの用途ごとに異なるものになる。
 
 <!-- Scrum integrates with existing practices or, in some cases, makes them unnecessary or obsolete. By transparently assessing the effectiveness of the Scrum Team, Supporters, current management, work environment, and techniques, Scrum enables continuous improvement. -->
-スクラムは既存の他のプラクティスと融合するが、場合によってはそれらを不要にしたり、置き換えることもある。スクラムチーム・サポーター・現在のマネジメント・作業環境・技術の有効性を、透明性高く評価することによって、スクラムは継続的な改善を可能にする。
+スクラムは既存の他のプラクティスと融合するが、場合によってはそれらを不要にしたり、置き換えることもある。スクラムチーム・サポーター・現在のマネジメント・作業環境・技術の効果性を、透明性高く評価することによって、スクラムは継続的な改善を可能にする。
 
 <!-- In the context of knowledge work, the term Scrum, borrowed from the game of rugby, was coined by Takeuchi and Nonaka (29) to describe teams that worked this way and where knowledge was spread rapidly throughout an enterprise to deliver outstanding Products. -->
 知識労働の文脈において、スクラムという用語は、竹内弘高と野中郁次郎(29)がラグビーというゲームから借用して考案したものである。これまでに述べたような働き方をし、優れたプロダクトを提供するため、企業全体に知識を急速に広めるチームを説明するために用いられている。
@@ -489,7 +489,7 @@ By focusing on the Lean principles,
 リーン原則は、
     継続的改善と人々への敬意の上に築かれている。
 リーン原則に焦点を当てることで、
-    組織は長期的なコストを最小限に抑えながら効率を高めることができる。
+    組織は長期的なコストを最小限に抑えながら効果性を高めることができる。
     そして、顧客によりよい価値を届けながら、
     同時に持続的な学習・開発の
         風土を育むことができる。
@@ -608,7 +608,7 @@ To foster Inspection and Adaptation,
 検査はスクラムの三本柱の一つである。
 検査とは、現実を見ることである。
     プロダクトの方向性（プロダクトゴール）と
-    スクラムチーム・ステークホルダーの有効性を確認する。
+    スクラムチーム・ステークホルダーの効果性を確認する。
 検査によって適応が可能となる。
 検査とは、現実を直視することであり、
     エビデンスや観察など、
@@ -765,7 +765,7 @@ The Scrum Team and Stakeholders
     継続的学習・適応および
     スクラムチーム間での学習の移転
     の時間を作ることを _確約_ する。
-    これらは長期的効果を確実にするためである。
+    これらは長期的な効果性を確実にするためである。
 スクラムチームとステークホルダーは、
     短期的成果と長期的影響を考慮するなどの
     トレードオフに意図的に取り組むべきである。
@@ -1535,7 +1535,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 プロダクトは、我々が何のために仕事をしているのかを表現したものである。
 
 <!-- #### Commitment: Definition of Outcome Done {#commitment:-definition-of-outcome-done} -->
-#### 確約：アウトカム完成の定義 {#commitment:-definition-of-outcome-done}
+#### コミットメント：アウトカム完成の定義 {#commitment:-definition-of-outcome-done}
 
 <!-- The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It's often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations. -->
 アウトカム完成の定義はコミットメントの一つである。これは、実現された価値を示すために必要な観察可能なエビデンスの測定基準（定量的または定性的）を記述し、しばしば価値検証と呼ばれる。これはプロダクト全体、または特定のゴールに対して設定される。バイアスや誤った解釈を避けるため、実装を開始する前に価値検証のための測定基準を定義しておくことが最善であることが多い。
@@ -1717,7 +1717,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 - より多くの知見を得るにつれて、現在の作業は明確化され、スプリントゴールに影響を与えない範囲でプロダクトオーナーと再交渉される可能性がある。
 
 <!-- Sprints enable outcomes by ensuring Inspection and Adaptation of progress toward a Sprint Goal at least every four weeks. When a Sprint is too long, the Sprint Goal may become invalid, increasing complexity (30-35) and risk. Shorter Sprints often generate more learning cycles; they could also limit risk. -->
-スプリントによって、プロダクトゴールに対する進捗の検査と適応を少なくとも4週間ごとに確実行うことで、アウトカムが実現される。スプリントが長すぎると、スプリントゴールが役に⽴たなくなり、複雑性(30-35)とリスクが増加する。スプリントの期間を短くすれば、より多くの学習サイクルを作り出す可能性があり、同時にリスクを軽減できる。
+スプリントによって、プロダクトゴールに対する進捗の検査と適応を少なくとも4週間ごとに確実に行うことで、アウトカムが実現される。スプリントが長すぎると、スプリントゴールが役に⽴たなくなり、複雑性(30-35)とリスクが増加する。スプリントの期間を短くすれば、より多くの学習サイクルを作り出す可能性があり、同時にリスクを軽減できる。
 
 <!-- Shorter Sprints usually require improved capabilities (e.g., refining, vertical slicing, technical domain, business domain). Context matters and the Scrum Team strives to strike the right balance. -->
 スプリントを短くするには、リファインメント、垂直スライス、技術ドメインおよびビジネスドメインの知識といった能力の向上が求められる。文脈は重要であり、スクラムチームは適切なバランスを取るよう努める。
@@ -2365,7 +2365,7 @@ The Immunity to Change® theory and map
        表出化して、それを乗り越えていくために。
 
 <!-- #### Intent-Based Leadership® {#intent-based-leadership®} -->
-#### 意図ベースリーダーシップ（_Intent-Based Leadership®） {#intent-based-leadership®}
+#### 意図ベースリーダーシップ（Intent-Based Leadership®） {#intent-based-leadership®}
 
 <!-- 
 _Intent-Based Leadership® (IBL)_ (7, 8, 9) 
@@ -2377,7 +2377,7 @@ It is based on the books
    Turn The Ship Around and Leadership is Language 
        by L. David Marquet._ 
 -->
-_意図ベースリーダーシップ（_Intent-Based Leadership®）（IBL）_(7,8,9)は、
+_意図ベースリーダーシップ（Intent-Based Leadership®）（IBL）_(7,8,9)_は、
    高いパフォーマンスを目指すチームが使用する言語であり、
        プログラム化された産業時代の言語を置き換えるものである。
 IBLは、
@@ -2385,7 +2385,7 @@ IBLは、
 これは、
    L. David Marquetによる
        「Turn The Ship Around」と「Leadership is Language」
-   という書籍に基づいている。
+   という書籍に基づいている。_
 
 <!-- 
 _One of the core beliefs is that 
@@ -2467,7 +2467,7 @@ _タイトル：クネビンフレームワーク 勝手に非公式解説_
 _出典：\[元の[クネビンwiki](https://cynefin.io/wiki/Main_Page)へのリンク\]、\[この適応版へのリンク\]_
 
 <!-- _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._   -->
-_ライセンス：クリエイティブ・コモンズ 表示-継承 4.0 国際（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）。_ © 2017-_2025 Cynefin.io._
+_ライセンス：クリエイティブ・コモンズ 表示-継承 4.0 国際（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）。 © 2017-2025 Cynefin.io._
 
 <!-- _Disclaimer: No warranties are given. Use at your own risk._   -->
 _免責事項：いかなる保証も提供されない。ご自身の責任で使用されたい。_
@@ -3083,6 +3083,9 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 この収録資料集は _Ralph Jocham、John Coleman、Jeff Sutherland_ によって執筆および編集されたものである。各セクションの帰属は上部に個別に明記され、元のライセンスが保持される。収録資料集は情報提供を目的とするものであり、各セクションのライセンス条項を尊重されたい。
 
 # 
+
+## 翻訳について
+本ガイドは、[Scrum Guide Expansion Pack](https://scrumexpansion.org/)を⽇本語に翻訳したものである。⽇本語訳は内山遼子、川⼝恭伸、長沢智治、山本尊人、和⽥圭介が担当した。
 
 <!-- ## References {#references} -->
 ## 参考文献 {#references}
