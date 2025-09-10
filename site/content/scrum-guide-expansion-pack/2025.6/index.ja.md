@@ -3084,6 +3084,9 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 # 
 
+## 翻訳について
+本ガイドは、[Scrum Guide Expansion Pack](https://scrumexpansion.org/)を⽇本語に翻訳したものである。⽇本語訳は内山遼子、川⼝恭伸、長沢智治、山本尊人、和⽥圭介が担当した。
+
 <!-- ## References {#references} -->
 ## 参考文献 {#references}
 
