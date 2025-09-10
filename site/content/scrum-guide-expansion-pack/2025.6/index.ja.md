@@ -152,7 +152,7 @@ Scrum supports proactive risk management and opportunity discovery.
 スクラムは意図的に不完全である。詳細なプロセスを規定する代わりに、関係性および意図的な相互作用を導くフレームワークを提供する。様々なプロセス・技術・手法によってスクラムを補完することができる。しかし、そうしたものの適用は文脈に依存し、スクラムの用途ごとに異なるものになる。
 
 <!-- Scrum integrates with existing practices or, in some cases, makes them unnecessary or obsolete. By transparently assessing the effectiveness of the Scrum Team, Supporters, current management, work environment, and techniques, Scrum enables continuous improvement. -->
-スクラムは既存の他のプラクティスと融合するが、場合によってはそれらを不要にしたり、置き換えることもある。スクラムチーム・サポーター・現在のマネジメント・作業環境・技術の有効性を、透明性高く評価することによって、スクラムは継続的な改善を可能にする。
+スクラムは既存の他のプラクティスと融合するが、場合によってはそれらを不要にしたり、置き換えることもある。スクラムチーム・サポーター・現在のマネジメント・作業環境・技術の効果性を、透明性高く評価することによって、スクラムは継続的な改善を可能にする。
 
 <!-- In the context of knowledge work, the term Scrum, borrowed from the game of rugby, was coined by Takeuchi and Nonaka (29) to describe teams that worked this way and where knowledge was spread rapidly throughout an enterprise to deliver outstanding Products. -->
 知識労働の文脈において、スクラムという用語は、竹内弘高と野中郁次郎(29)がラグビーというゲームから借用して考案したものである。これまでに述べたような働き方をし、優れたプロダクトを提供するため、企業全体に知識を急速に広めるチームを説明するために用いられている。
@@ -489,7 +489,7 @@ By focusing on the Lean principles,
 リーン原則は、
     継続的改善と人々への敬意の上に築かれている。
 リーン原則に焦点を当てることで、
-    組織は長期的なコストを最小限に抑えながら効率を高めることができる。
+    組織は長期的なコストを最小限に抑えながら効果性を高めることができる。
     そして、顧客によりよい価値を届けながら、
     同時に持続的な学習・開発の
         風土を育むことができる。
@@ -608,7 +608,7 @@ To foster Inspection and Adaptation,
 検査はスクラムの三本柱の一つである。
 検査とは、現実を見ることである。
     プロダクトの方向性（プロダクトゴール）と
-    スクラムチーム・ステークホルダーの有効性を確認する。
+    スクラムチーム・ステークホルダーの効果性を確認する。
 検査によって適応が可能となる。
 検査とは、現実を直視することであり、
     エビデンスや観察など、
@@ -765,7 +765,7 @@ The Scrum Team and Stakeholders
     継続的学習・適応および
     スクラムチーム間での学習の移転
     の時間を作ることを _確約_ する。
-    これらは長期的効果を確実にするためである。
+    これらは長期的な効果性を確実にするためである。
 スクラムチームとステークホルダーは、
     短期的成果と長期的影響を考慮するなどの
     トレードオフに意図的に取り組むべきである。
