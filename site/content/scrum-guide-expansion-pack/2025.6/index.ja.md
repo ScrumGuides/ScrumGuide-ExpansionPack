@@ -1535,7 +1535,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 プロダクトは、我々が何のために仕事をしているのかを表現したものである。
 
 <!-- #### Commitment: Definition of Outcome Done {#commitment:-definition-of-outcome-done} -->
-#### 確約：アウトカム完成の定義 {#commitment:-definition-of-outcome-done}
+#### コミットメント：アウトカム完成の定義 {#commitment:-definition-of-outcome-done}
 
 <!-- The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It's often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations. -->
 アウトカム完成の定義はコミットメントの一つである。これは、実現された価値を示すために必要な観察可能なエビデンスの測定基準（定量的または定性的）を記述し、しばしば価値検証と呼ばれる。これはプロダクト全体、または特定のゴールに対して設定される。バイアスや誤った解釈を避けるため、実装を開始する前に価値検証のための測定基準を定義しておくことが最善であることが多い。
