@@ -2365,7 +2365,7 @@ The Immunity to Change® theory and map
        表出化して、それを乗り越えていくために。
 
 <!-- #### Intent-Based Leadership® {#intent-based-leadership®} -->
-#### 意図ベースリーダーシップ（_Intent-Based Leadership®） {#intent-based-leadership®}
+#### 意図ベースリーダーシップ（Intent-Based Leadership®） {#intent-based-leadership®}
 
 <!-- 
 _Intent-Based Leadership® (IBL)_ (7, 8, 9) 
@@ -2377,7 +2377,7 @@ It is based on the books
    Turn The Ship Around and Leadership is Language 
        by L. David Marquet._ 
 -->
-_意図ベースリーダーシップ（_Intent-Based Leadership®）（IBL）_(7,8,9)は、
+_意図ベースリーダーシップ（Intent-Based Leadership®）（IBL）_(7,8,9)_は、
    高いパフォーマンスを目指すチームが使用する言語であり、
        プログラム化された産業時代の言語を置き換えるものである。
 IBLは、
@@ -2385,7 +2385,7 @@ IBLは、
 これは、
    L. David Marquetによる
        「Turn The Ship Around」と「Leadership is Language」
-   という書籍に基づいている。
+   という書籍に基づいている。_
 
 <!-- 
 _One of the core beliefs is that 
@@ -2467,7 +2467,7 @@ _タイトル：クネビンフレームワーク 勝手に非公式解説_
 _出典：\[元の[クネビンwiki](https://cynefin.io/wiki/Main_Page)へのリンク\]、\[この適応版へのリンク\]_
 
 <!-- _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._   -->
-_ライセンス：クリエイティブ・コモンズ 表示-継承 4.0 国際（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）。_ © 2017-_2025 Cynefin.io._
+_ライセンス：クリエイティブ・コモンズ 表示-継承 4.0 国際（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）。 © 2017-2025 Cynefin.io._
 
 <!-- _Disclaimer: No warranties are given. Use at your own risk._   -->
 _免責事項：いかなる保証も提供されない。ご自身の責任で使用されたい。_
