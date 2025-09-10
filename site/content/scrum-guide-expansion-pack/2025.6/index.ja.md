@@ -941,12 +941,16 @@ It offers an approach
 第一原理に立ち返るための
     アプローチを提供している。
 
-<!-- 
-Scrum is not about adopting tools. 
-And Scrum doesn't end with impediment removal. 
-An impediment in Scrum is 
-    anything that blocks or slows down progress. 
-It is crucial to be 
+
+Scrum is not about adopting tools, short term delivery that sacrifices long term value. Often, incorrectly, Scrum practitioners only focus on short term impediment removal. Scrum requires change agency that balances the short term with the long term.
+<!-- スクラムとは、
+    単なるツールの導入ではない。
+障害物の除去だけに終始するものでもない。
+スクラムにおける障害物とは、
+    進捗を阻害または遅延させるあらゆる要因を指す。 -->
+A work related problem in Scrum could be anything that blocks or slows down progress, often addressed by self-managment of the Product Onwer and Product Developers. An impediment is a type of problem in Scrum and is anything that blocks or slows down progress and cannot be solved by the Developers & Product Owner. 
+
+<!-- It is crucial to be
     intentional, unrelenting, and tenacious 
     about people, change, and communications. 
 The change often includes 
@@ -955,11 +959,6 @@ The change often includes
     language, habits, and the work climate. 
 Culture is an emerging result. 
 -->
-スクラムとは、
-    単なるツールの導入ではない。
-障害物の除去だけに終始するものでもない。
-スクラムにおける障害物とは、
-    進捗を阻害または遅延させるあらゆる要因を指す。
 人・変化・コミュニケーションについて、
     意図的に、手を緩めず、粘り強く
     取り組むことが必要不可欠である。
@@ -1039,8 +1038,11 @@ Change is hard work,
 <!-- ## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack} -->
 ## 拡張パックにおけるスクラムの役割 {#the-scrum-roles-in-the-expansion-pack}
 
+[2020 Scrum Guide: 'The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint. Scrum defines three specific accountabilities within the Scrum Team: the Developers, the Product Owner, and the Scrum Master.' An accountability is a list of expectations that one is accountable for, e.g., the Product Owner accountable for value, the Scrum Master for the Scrum Team’s effectiveness, and Developers for creating the usable Increment. A role does not necessarily have accountabilities.]
+
+Not all roles have accountabilities, i.e. Stakeholder. The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team.
 <!-- The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team. -->
-スクラムの4つの役割とは、プロダクトオーナー・プロダクト開発者・スクラムマスター・ステークホルダーである。これらは信頼を与え、報い、獲得し、一貫したリーダーシップを可能にする。スクラムチームには、プロダクトオーナー、開発者、スクラムマスターの3つの説明責任のみが含まれる。
+<!-- スクラムの4つの役割とは、プロダクトオーナー・プロダクト開発者・スクラムマスター・ステークホルダーである。これらは信頼を与え、報い、獲得し、一貫したリーダーシップを可能にする。スクラムチームには、プロダクトオーナー、開発者、スクラムマスターの3つの説明責任のみが含まれる。 -->
 
 <!-- A person can hold more than one Scrum role. By taking on more than one role, one must be careful not to overstep. The Scrum roles are designed to keep check and balances in place. -->
 1人が複数のスクラムの役割を担うことができる。複数の役割を担う場合、越権行為をしないよう注意しなければならない。スクラムの役割は、チェック・アンド・バランスを保つよう設計されている。
@@ -1641,8 +1643,8 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 <!-- A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders (including but not limited to customers or users) expectations and limits. Through Inspection and Adaptation, it's essential to embrace uncertainty (72), result feedback, side effects, and other learnings. -->
 プロダクトゴールは通常、価値に関する未証明の仮説である。満足度ギャップを埋めるもしくは大きくするための仮説のセットを含む、様々なものひとつとして表現される。それは、多様なステークホルダー（顧客やユーザーを含むがそれに限定されない）の期待や制約の中から、焦点を絞り適切なバランスを取るものである。検査と適応を通じて、不確実性(72）、結果からのフィードバック（結果フィードバック）、副作用、その他の学習を受け入れることが不可欠である。
 
-<!-- #### What about a Product Vision? {#what-about-a-product-vision?} -->
-#### プロダクトビジョンについては？ {#what-about-a-product-vision?}
+<!-- #### What about a Product Vision? {#what-about-a-product-vision} -->
+#### プロダクトビジョンについては？ {#what-about-a-product-vision}
 
 <!-- Many organizations work with a Product Vision, which helps visualize a potential future. The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision. -->
 多くの組織では、未来の可能性を見える化するためにプロダクトビジョンを活用する。スクラムチームは、プロダクトゴールを検討するためのインプットとしてビジョンを用いることができる。プロダクトビジョンは、意味のある長期的な価値のある望ましいアウトカムのまとまりである。中期的なプロダクトゴールは、多くの場合、長期的なプロダクトビジョンに向けた踏み石となる。
@@ -1670,6 +1672,8 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 
 <!-- #### Commitment: Sprint Goal {#commitment:-sprint-goal} -->
 #### コミットメント：スプリントゴール {#commitment:-sprint-goal}
+
+[2020 Scrum Guide: '... the Sprint Goal is a commitment by the Developers ...'] 
 
 <!-- The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint Goal is the single unifying objective of the Sprint (the _why_) for the Product Developers, created in Sprint Planning. Delivery of the Sprint Goal is a commitment by the Product Developers. The Sprint Backlog (including the _why_, the _what,_ and, often, the _how_) provides _Focus_ and flexibility regarding the evolving work, thus improving Transparency. -->
 スプリントゴールはスクラムチームによって作成され、所有されるコミットメントの一つである。スプリントゴールはプロダクト開発者にとってのスプリントの唯一のかつ統一された目的（なぜ（_Why_））であり、スプリントプランニングで作成される。スプリントゴールの達成はプロダクト開発者による確約である。スプリントバックログ（なぜ（_why_）、なに（_what_）、そして多くの場合どのように（_how_）を含む）は進化する作業に対して _集中_ と柔軟性をもたらし、透明性を向上させる。
@@ -2007,7 +2011,7 @@ Jeff Sutherlandによる1993年のEasel社でのスクラムの適用は、ロ�
 4\. スクラムイベント & 活動
 
 <!-- 
-- Scrum operates in Sprints (iterations of determinate length _up to four weeks_) with four time-boxed events: 
+- Scrum operates in Sprints (iterations of determinate length _up to four weeks_) with four timeboxed events: 
 - Sprint Planning – Define the Sprint Goal and plan the work. 
 - Daily Scrum – Product Developers align daily on progress toward the Sprint Goal or Product Goal. 
 - Sprint Review – Inspect the Increment, value, and marketplace, and adapt the Product Backlog. 
@@ -3345,6 +3349,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 119. _Scrum.org (2024) アジャイルプロダクトオペレーティングモデルへの移行 \[PDF\]. Available at: [https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age](https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age) or [https://bit.ly/SDOAPOM](https://bit.ly/SDOAPOM). (2025年6月8日アクセス)_
 <!-- 120. _Scotland, K. (2023) Why strategy deployment? Here are three great reasons, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (Accessed: April 3, 2023)._ -->
 120. _Scotland, K. (2023) なぜ戦略展開なのか？3つの素晴らしい理由, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (2023年4月3日アクセス)._2001) 'Motivation crowding theory', Journal of Economic Surveys, 15(5), pp. 589–611._ -->
+<!-- 121. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (Accessed: April 3, 2023)._ -->
+121. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (Accessed: April 3, 2023)._
 <!-- 122. _Scotland, K. (2017) Strategy deployment and playing to win, AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (Accessed: April 3, 2023)._ -->
 122. _Scotland, K. (2017) Strategy deployment and playing to win (戦略展開と勝利への挑戦), AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (2023年4月3日アクセス)._
 <!-- 123. _Scotland, K. (2017) A strategy deployment cadence, AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (Accessed: April 3, 2023)._ -->
