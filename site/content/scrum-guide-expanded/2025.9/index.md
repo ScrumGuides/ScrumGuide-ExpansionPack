@@ -53,19 +53,19 @@ This Scrum Guide Expansion Pack(SGEP) explains the _what_ and _why_ of each elem
 
 This document assumes some fluency with Scrum and its related language. It could be helpful to read the 2020 Scrum Guide first before reading this document. References are included for attribution purposes. Further, the related SGEP documents including references provide an opportunity for the reader to explore, research and learn to gain a broader and deeper understanding.
 
-Practitioners and stakeholders should adopt Scrum when appropriate, with agency, urgency, courage, transparency, inspection, adaptation, rhythm, and resilience, and continually improve to support goals for the product and the organization. Scrum adoptions should surpass the guidance presented here and, in doing so, inspire a lasting curiosity to explore, question, and continually improve.
+Practitioners and stakeholders should adopt Scrum when appropriate, with agency, urgency, courage, transparency, inspection, adaptation, rhythm, and resilience, and continually improve to support goals for the product (outcomes for users) and the organization (impact for the business). Scrum adoptions should surpass the guidance presented here and, in doing so, inspire a lasting curiosity to explore, question, and continually improve.
 
 This Expansion Pack is designed to support various aspects of product delivery by a self-managing team (11) driven by stakeholder needs or wants in response to a problem or opportunity. This includes (but is not limited to) product discovery, development, delivery, and value realization. While originally rooted in software product development, Scrum has been widely adopted across various domains, enabling the delivery of value through complex (12-17) work. As its use expands, professionals such as engineers, programmers, researchers, analysts, lawyers, marketers, and scientists increasingly apply Scrum successfully to their fields.
 
-<ins>Stakeholder value (SG2020 only talks about value generically)</ins> refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes.
+<ins>Stakeholder value (SG2020 only talks about value generically)</ins> refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes (and when aggregated, their impact on the organization).
 
 ## Scrum in a Nutshell {#scrum-in-a-nutshell}
 
 Scrum is a framework for complex (12-17) Product delivery, where expertise is valuable but more than expertise is needed, and cause and effect are only coherent in retrospect. Scrum addresses the full Product lifecycle, which includes (but is not limited to) creating, replacing, sustaining, adapting, continuously changing, maintaining, and retiring Products or features. Scrum helps individuals, teams, and organizations become and stay flexible and create value by adapting to change.
 
-Scrum fosters a setting for understanding and coherently responding to Stakeholder needs. Scrum’s iterative and incremental approach reduces risk and fosters continuous improvement. Scrum helps a team to strike a balance between exploring problems, discovering Stakeholder (including but not limited to customer) needs, delivering solutions, proactively managing risk, and validating value.
+Scrum fosters a setting for understanding and coherently responding to Stakeholder needs. Scrum’s iterative and incremental approach reduces risk and fosters continuous improvement. Scrum helps a team to strike a balance between exploring problems, discovering Stakeholder (including but not limited to customer) needs, delivering solutions, proactively managing risk, and validating value (user outcomes) and observing impact (business results).
 
-A risk is any factor that could result in a future adverse consequence. Since risk exposure remains unpredictable even as time elapses, anticipation is key. Risk exposure can include (but is not limited to) market risk, problem-solution fit, Product \-market fit, technology, signal detection, responsiveness, compliance, remediation, poor trade-off decisions, etc. Scrum supports proactive risk management and opportunity discovery.
+A risk is any factor that could result in a future adverse consequence. Since risk exposure remains unpredictable even as time elapses, anticipation is key. Risk exposure can include (but is not limited to) market risk, problem-solution fit, Product-market fit, technology, signal detection, responsiveness, compliance, remediation, poor trade-off decisions, etc. Scrum supports proactive risk management and opportunity discovery.
 
 Scrum encourages a reduction in the existing separation between Stakeholders who present problems or opportunities and the people solving them.
 
@@ -561,14 +561,14 @@ The Product is the manifestation of _why_ we do _what_ we do.
 
 <ins>The Definition of Outcome Done is a commitment.</ins> It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It’s often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations.
 
-Outcomes and related interpretations inform future adaptations, ideally confirming the intended Stakeholder impact(including but not limited to business or user impact)—measuring whether the output fulfills the anticipated outcome(s) and delivers real value. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (50-54). Or a combination of both.
+Outcomes confirm user changes; impact confirms organizational results. Together with related interpretations they inform future adaptations, ideally confirming the intended business impact. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (50-54). Or a combination of both.
 
 Favor direct evidence over circumstantial evidence. For example:
 
 - Customer outcomes could Focus on delivering measurable value to customers, such as increased customer satisfaction, customer long-term cost reduction, or the number of customer jobs addressed.
 - User outcomes could address specific changes in user behavior that solve problems and improve experiences, like completing tasks more efficiently or engaging with new features.
 - Product Stakeholder outcomes could connect these behavioral changes to Product performance metrics, e.g., trends in Product customer, decision-maker/user metrics, Product time to release, time to learn, time to pivot, etc.
-- Business Stakeholder outcomes, e.g., compliance, business long-term cost reduction, business results, trends in market share, customer satisfaction across all Products, organizational time to release, time to learn, time to pivot, etc.
+- Business impact, e.g., compliance, business long-term cost reduction, business results, trends in market share, customer satisfaction across all Products, organizational time to release, time to learn, time to pivot, etc.
 - Scrum Team outcomes such as improved technical capability (psychological flow (70), frequency of release, tooling, skills, technical debt, UX or CX debt, capacity), climate/culture for net improvement and innovation.
 
 User eXperience (UX) or Customer eXperience (CX) debt is the sum of design and implementation choices—intentional or not—that make a Product or service less usable, enjoyable, or effective for users or customers. Recognizing, tracking, and addressing this debt is essential for delivering Products that truly meet user needs and expectations.
@@ -623,7 +623,7 @@ The Product Goal is a commitment. It is represented through the Product Backlog,
 
 A Product Goal is the <ins>medium-term</ins> objective for the Scrum Team and the Stakeholders (and Supporters). The Scrum Team should fulfill (or abandon) one Product Goal before taking on the next.
 
-A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders' (including but not limited to customers or users) expectations and limits. <ins>Through Inspection and Adaptation, it’s essential to embrace uncertainty (41), result feedback, side effects, and other learnings.</ins>
+A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps (outcomes) and their expected business impact. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders' (including but not limited to customers or users) expectations and limits. <ins>Through Inspection and Adaptation, it’s essential to embrace uncertainty (41), result feedback, side effects, and other learnings.</ins>
 
 ## What about a Product Vision? {#what-about-a-product-vision}
 
@@ -751,7 +751,7 @@ The Sprint Retrospective is an event. At this event, the Scrum Team agrees on ho
 The Sprint Retrospective focuses on the most helpful changes to improve, such as:
 
 - <ins>The Increment</ins>
-- <ins>Outcomes</ins>
+- <ins>Outcomes and business impact</ins>
 - Professionalism, e.g., skills, technical practices, tooling, ability to innovate;
 - <ins>Flow of validated value (48-49), e.g., end-to-end flow metrics, time-to-market;</ins>
 - Effectiveness (the _how_), e.g., technology, processes, dependencies;
@@ -771,7 +771,7 @@ The Sprint Retrospective concludes the Sprint. It is timeboxed to three hours fo
 
 Scrum is like a mirror. If the image in the mirror is not as expected, should the mirror be hidden?
 
-Attain at least one Increment each Sprint as a habit before you adapt Scrum. Every part of Scrum has a purpose; understanding the why for each part is essential. Consider the context. The short-term is about delivery. The long-term is about successful emergent change in a direction and the sustainable delivery of value. Successful Scrum adoption depends on getting the balance right between the short and long terms.
+Attain at least one Increment each Sprint as a habit before you adapt Scrum. Every part of Scrum has a purpose; understanding the why for each part is essential. Consider the context. The short-term is about delivery. The long-term is about successful emergent change in a direction and the sustainable delivery of value: outcomes for Stakeholders and impact for organizations. Successful Scrum adoption depends on getting the balance right between the short and long terms.
 
 Be careful about copying approaches from other organizations without also fostering their culture. Emergent change in the direction of travel is the change. The change includes (but is not limited to) leadership, workflows, processes, and systems, including HR, Finance, Procurement, and more. Scrum is part of a never-ending expedition of continual improvement and evolution in a direction of travel rather than a destination.
 
