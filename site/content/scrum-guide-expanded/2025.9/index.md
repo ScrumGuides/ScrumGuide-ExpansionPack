@@ -43,9 +43,9 @@ _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-
 
 ## Background {#background}
 
-Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (1-2) on Complex Adaptive Systems (CAS) (3-6) theory from Los Alamos Labs, which show**ed** that systems evolve quicker at the edge of chaos.
+Jeff Sutherland’s 1993 Scrum adoption at Easel was inspired by Christopher Langton's papers (1-2) on Complex Adaptive Systems (CAS) (3-6) theory from Los Alamos Labs, which showed that systems evolve quicker at the edge of chaos.
 
-Ken Schwaber and Jeff Sutherland led the development of the Scrum framework. The [2020 Scrum Guide](https://scrumguides.org/) (7), including Ralph Jocham’s contribution (8), describes the Scrum Essentials; Tobias Mayer's [A Simple Guide to Scrum](https://scrum.academy/guide/) (9) is a short version, and the [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (10) elaborate from a 2025 perspective. This document explains a lot about Scrum and offers guidance for the current times, but in the end, it departs in some places. Notable departures from the 2020 Scrum Guide are <ins>written like this</ins>.
+Ken Schwaber and Jeff Sutherland led the development of the Scrum framework. The [2020 Scrum Guide](https://scrumguides.org/) (7), including Ralph Jocham’s contribution (8), describes the Scrum Essentials; Tobias Mayer's [A Simple Guide to Scrum](https://scrum.academy/guide/) (9) is a short version, and the [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (10) elaborate from a 2025 perspective. This document explains a lot about Scrum and offers guidance for the current times, but in the end, it departs in some places. Notable departures from the 2020 Scrum Guide are <ins>written like this (sometimes with an explanation)</ins>.
 
 ## Purpose of the Scrum Guide Expansion Pack {#purpose-of-the-scrum-guide-expansion-pack}
 
