@@ -762,8 +762,7 @@ The Sprint Retrospective focuses on the most helpful changes to improve, such as
 - <ins>How to automatically attain the measures regarding the Definition of Outcome Done;</ins>
 - And more.
 
-The most impactful improvements should be addressed as soon as possible. <ins>The Scrum Team should not just talk about improvement; Scrum depends on meaningful, continuous improvement follow-through. Some improvement actions rely on the assistance of Supporters, but that does not mean the Scrum Team should not strive for net improvement regardless (such as continual marginal gains) (SGEP says **).
-</ins> 
+The most impactful improvements should be addressed as soon as possible. <ins>The Scrum Team should not just talk about improvement; Scrum depends on meaningful, continuous improvement follow-through. Some improvement actions rely on the assistance of Supporters, but that does not mean the Scrum Team should not strive for net improvement regardless (such as continual marginal gains).</ins> 
 
 The Sprint Retrospective concludes the Sprint. It is timeboxed to three hours for a four-week Sprint. For shorter Sprints, the event is usually shorter.
 
