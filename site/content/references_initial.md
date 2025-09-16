@@ -1,3 +1,7 @@
+These are the references from the first SGEP release on June 11, 2025. They had been used when the document was split.
+It is here for reference if needed. Could be delete in future if not needed any more.
+
+
 ## References {#references}
 
 1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (Accessed: April 5, 2023)._
