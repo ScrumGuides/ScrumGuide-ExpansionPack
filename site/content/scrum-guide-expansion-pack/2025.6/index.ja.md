@@ -270,13 +270,13 @@ The key point is that Product development often deals with unpredictability,
     前例のない、これまでに行われたことのないことを
     研究し、取り組んでいるかもしれない。
 しばらくして、スクラムチームがパターンや経験則を発見すると、
-    カオスな領域を脱し、複雑な領域に近づく。
+    カオス（混沌）な領域を脱し、複雑な領域に近づく。
 さらにしばらくして、目前の状況において、
-    スクラムチームは秩序ある空間に近づき、
+    スクラムチームは秩序ある領域に近づき、
     簡単ではないが計画可能なものとなっていく。
 あるいは、物事は逆方向に進む可能性もある。
 目前の状況において、
-    本当に自分たちが考えていた空間にいるかどうか
+    本当に自分たちが考えていた領域にいるかどうか
     立ち止まって振り返ることは、
 スクラムチームにとって良いプラクティスである。
 重要な点は、
@@ -1824,7 +1824,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 スプリントレビューはイベントの一つである。これは相互作用があり協働的なワーキングセッションである。通常、スクラムチームは現在のプロダクトゴールを共有し、アウトプット完成の定義とアウトカム完成の定義をステークホルダーに提示する。スクラムチームは作業の結果、どのようなトレードオフが行われたか、プロダクトゴールに向けてどれだけの進捗が行われたか（作業の背後にあるなぜ）を共有する。可能であれば、アウトカム完成の定義に向けた進捗の現時点かつ最新の指標が共有され検討される。
 
 <!-- The Sprint Review inspects many things related to the Product, such as the Product Goal, Product Backlog, the Sprint Goal, the learnings, the Increment, Stakeholder expectations and limits, result feedback, side effects, progress with the Product, the market, as well as forward-looking, e.g., what new ideas and opportunities have emerged, potential next steps. -->
-スプリントレビューは、プロダクトゴール、プロダクトバックログ、スプリントゴール、学び、インクリメント、ステークホルダーの期待と制約、結果からのフィードバック（結果フィードバック）、副次的な影響、プロダクトの進捗状況、市場動向、さらに、将来を見据えた事項――新たに生まれたアイデアや機会、次に取り得る可能性のあるステップなど――について検査する。
+スプリントレビューは、プロダクトゴール、プロダクトバックログ、スプリントゴール、学び、インクリメント、ステークホルダーの期待と制約、結果からのフィードバック（結果フィードバック）、副次的な影響、プロダクトの進捗状況、市場動向、さらに、将来を見据えた事項 —— 新たに生まれたアイデアや機会、次に取り得る可能性のあるステップなど —— について検査する。
 
 <!-- Informed by what is learned: -->
 学習したことに基づいて：
@@ -1849,7 +1849,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 ### スプリントレトロスペクティブ {#sprint-retrospective}
 
 <!-- The Sprint Retrospective is an event. At this event, the Scrum Team agrees on how to improve. Bad assumptions are also explored, i.e., assumptions that led the Scrum Team in the wrong direction. Good things like particular technologies, processes, patterns, etc., might also be pointed out or reinforced. Inspected elements often vary with the domain of work. Reflection is more effective in a psychologically safe environment. -->
-スプリントレトロスペクティブはイベントの一つである。このイベントにおいて、スクラムチームは改善方法について合意する。誤った仮説、すなわちスクラムチームを誤った方向に導く仮説についても検討される。また、有益な事項――特定の技術、プロセス、パターンなど――が指摘されたり、強調されたりすることもある。検査される要素は、作業領域によってしばしば異なる。振り返りは、心理的安全性のある環境においてこそ、より効果的に行われる。
+スプリントレトロスペクティブはイベントの一つである。このイベントにおいて、スクラムチームは改善方法について合意する。誤った仮説、すなわちスクラムチームを誤った方向に導く仮説についても検討される。また、有益な事項 —— 特定の技術、プロセス、パターンなど —— が指摘されたり、強調されたりすることもある。検査される要素は、作業領域によってしばしば異なる。振り返りは、心理的安全性のある環境においてこそ、より効果的に行われる。
 
 <!-- The Sprint Retrospective focuses on the most helpful changes to improve, such as: -->
 スプリントレトロスペクティブは以下のような改善に最も役立つ変更に焦点を当てる：
@@ -2556,7 +2556,7 @@ It marks a fundamental change in system behavior
 -->
 位相シフトとは、
    しばしば発生する、ドメイン間の急激な移行のことである。
-       特に秩序系から混沌系への移行において、
+       特に秩序から混沌への移行において、
        システムの制約
            （ルール、習慣、境界、フィードバック）
        が不整合を起こしたり崩壊したりした時に
@@ -2588,7 +2588,7 @@ It marks a fundamental change in system behavior
      Resolving a tricky technical issue 
          by consulting experts and analyzing logs 
 -->
-- 秩序系：主要概念：安定性、ルーチン、ベスト/グッドプラクティス、専門知識
+- 秩序：主要概念：安定性、ルーチン、ベスト/グッドプラクティス、専門知識
   - 専門知識で十分であり、
     原因と結果は予測可能または認識可能
   - 対応選択肢（これらに限定されない）：
@@ -2626,7 +2626,7 @@ It marks a fundamental change in system behavior
      Experimenting with different features or solutions informed by user feedback, 
          e.g., A/B testing new Product ideas 
 -->
-- 複雑系(30-35)：専門知識は価値があるが不十分で、
+- 複雑(30-35)：専門知識は価値があるが不十分で、
     なぜ物事が起こったかは事後にのみ理解できる。
     主要概念：創発、失敗しても安全な実験
   - 対応（これらに限定されない）：
@@ -2639,7 +2639,7 @@ It marks a fundamental change in system behavior
     有益なガイドラインに従いながら行う
   - 比喩：流れる水、雨天、ポーカー
   - 自然の例：
-    茨の茂み――すべてが絡み合い、つながりは予測不可能
+    茨の茂み —— すべてが絡み合い、つながりは予測不可能
   - プロダクトの例：
     ユーザーフィードバックに基づく異なるフィーチャーやソリューションの実験、
     例：新しいプロダクトアイデアのA/Bテスト
@@ -2677,7 +2677,7 @@ It marks a fundamental change in system behavior
            to seize new opportunities 
            (e.g., launching a feature in response to a competitor's move) 
 -->
-- 混沌系：
+- 混沌：
   - 負の場合：主要概念：破壊的危機、破綻、緊急行動
     - 対応（これらに限定されない）：
       秩序回復のための即座の行動、
@@ -2688,7 +2688,7 @@ It marks a fundamental change in system behavior
       毒ガス、竜巻、地震、山火事、
       スタジアムでの暴動
     - 自然の例：
-      自然災害（例：津波）——突然で、破壊的で、予測不可能
+      自然災害（例：津波） —— 突然で、破壊的で、予測不可能
     - プロダクトの例：
       システムを隔離し緊急修正を展開することで
       重大なセキュリティ侵害に対応する
@@ -2703,7 +2703,7 @@ It marks a fundamental change in system behavior
       花火、
       祭りのかがり火
     - 自然の例：
-      新しい植物のために古い成長を取り除く森林火災——生態系の更新
+      新しい植物のために古い成長を取り除く森林火災 —— 生態系の更新
     - プロダクトの例：
       新しい機会を捉えるために市場の混乱中にプロダクトを急速にピボットする
       （例：競合他社の動きに対応してフィーチャーを立ち上げる）
@@ -2746,8 +2746,8 @@ The often less-sudden phase shifts happen in the liminals: -->
        Taking a successful experimental feature 
            and turning it into a documented, repeatable process 
 -->
-- 複雑系と秩序系の間のリミナル。これはスクラムが最も得意とする領域である：
-  - 秩序系-複雑系：
+- 複雑と秩序の間のリミナル。これはスクラムが最も得意とする領域である：
+  - 秩序——複雑：
     - 専門家分析から適応的探索へ
       - 対応（これらに限定されない）：
         いくつかのルールを緩和し、
@@ -2758,11 +2758,11 @@ The often less-sudden phase shifts happen in the liminals: -->
         曇り天気、
         チェスからポーカーへの切り替え
       - 自然の例：
-        季節の解凍——硬い氷が流れる小川と新しい成長に道を譲る
+        季節の解凍 —— 硬い氷が流れる小川と新しい成長に道を譲る
       - プロダクトの例：
         ルーチンプロセスが機能しなくなったとき、
         チームに異なるアプローチを試すよう促す
-  - 複雑系-秩序系：
+  - 複雑——秩序：
     - 対応（これらに限定されない）：
       創造的発見を専門家ルーチンに変換し、
       イノベーションを安定化し、
@@ -2773,7 +2773,7 @@ The often less-sudden phase shifts happen in the liminals: -->
       雨後の霧の晴れ間、
       ポーカーからチェスへの切り替え
     - 自然の例：
-      水路を形成する川のデルタ——予測不可能から安定した流れへ
+      水路を形成する川のデルタ —— 予測不可能から安定した流れへ
     - プロダクトの例：
       成功した実験的フィーチャーを
       文書化された再現可能なプロセスに変換する
@@ -2828,8 +2828,8 @@ The often less-sudden phase shifts happen in the liminals: -->
        After a crisis, regrouping the team 
            to experiment with new ways of working or new Product directions 
 -->
-- 複雑系と混沌系の間のリミナル：
-  - 複雑系-混沌系（正）：
+- 複雑と混沌の間のリミナル：
+  - 複雑——混沌（正）：
     - イノベーションや発明のための時間と空間を作るために
       制約を緩和する必要がある状況。
       主要概念：創造性、リスク、イノベーションの端
@@ -2843,10 +2843,10 @@ The often less-sudden phase shifts happen in the liminals: -->
       即興劇場、
       ジャズジャムセッション
     - 自然の例：
-      新しい土地を創造する火山——混沌の端での創造的変革
+      新しい土地を創造する火山 —— 混沌の端での創造的変革
     - プロダクトの例：
       破壊的アイデアを生成するための高リスクイノベーションハッカソンの実行
-  - 複雑系-混沌系（負）：
+  - 複雑——混沌（負）：
     - 主要概念：危機への破壊的移行
     - 対応（これらに限定されない）：
       制約を急速に再課し、
@@ -2858,10 +2858,10 @@ The often less-sudden phase shifts happen in the liminals: -->
       怒りで投げられたゲームの駒、
       ひっくり返されたゲーム盤
     - 自然の例：
-      突然の地すべり——構造の喪失、破壊的移行
+      突然の地すべり —— 構造の喪失、破壊的移行
     - プロダクトの例：
       失敗したプロダクト立ち上げの混乱と、統制を取り戻す緊急の必要性
-  - 混沌系-複雑系：混沌からの脱出——再編成
+  - 混沌——複雑：混沌からの脱出 —— 再編成
     - 対応選択肢（これらに限定されない）：
       創発する秩序を感知し、
       探索を開始し、
@@ -2872,7 +2872,7 @@ The often less-sudden phase shifts happen in the liminals: -->
       ハリケーンの後の静寂、
       嵐の後のスポーツゲームの再開
     - 自然の例：
-      火災後に移住する先駆種——攪乱後の新しい成長
+      火災後に移住する先駆種 —— 攪乱後の新しい成長
     - プロダクトの例：
       危機の後、新しい働き方や新しいプロダクト方向を実験するための
       チームの再編成
@@ -2906,10 +2906,10 @@ The often less-sudden phase shifts happen in the liminals: -->
    - After a major production outage or Product crisis, a cross-functional crisis team rapidly stabilizes the situation with clear, minimal rules and temporary protocols 
    - Once the immediate danger is past, these are iteratively refined and formalized into sustainable, balanced processes, avoiding overcorrection or excessive bureaucracy 
 -->
-- 困難度のため稀に考慮される位相シフト：混沌-秩序リミナル
+- 困難度のため稀に考慮される位相シフト：混沌——秩序リミナル
   - 対応選択肢：強い制約を課し、ルールと構造を再確立する
   - 比喩：急速に再凍結する氷、嵐の後の寒波、混沌の後に審判が効果的に厳格さを取り戻す
-  - 自然の例：洪水の後にダムが成功裏に建設される——荒々しい川が突然封じ込められ統制される
+  - 自然の例：洪水の後にダムが成功裏に建設される —— 荒々しい川が突然封じ込められ統制される
   - プロダクトの例：
     - 大規模な本番障害またはプロダクト危機の後、機能横断的危機チームが
       明確で最小限のルールと一時的プロトコルで状況を急速に安定化させる
@@ -2925,7 +2925,7 @@ The often less-sudden phase shifts happen in the liminals: -->
 - 特に突然で負の位相シフトが一つある、それは秩序-混沌リミナルである：
   - 対応選択肢：脆弱性と過信を認識し、境界と安全を回復するために迅速に行動する
   - 比喩：破片に割れる氷、突然で激しい雹嵐、ゲームのルールが突然破棄される
-  - 自然の例：春に崩壊する凍った湖——安定した表面が突然砕け散る
+  - 自然の例：春に崩壊する凍った湖 —— 安定した表面が突然砕け散る
   - プロダクトの例：予期しない事象（例：大規模な障害）のために
     安定したプロダクトプロセスが突然破綻する
 
@@ -3095,7 +3095,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
    （このようなストーリーを増やし、あのようなストーリーを減らす）で補完することを推奨する。
 
 <!-- An Emergent Strategy is supported by an emergent outcome-oriented roadmap, which can range from the Sprint Goal to the Product Vision and beyond. Emergent Strategy Deployment (120-123) should not be confused with Emergent Strategy. Vector change models (30-35, 54\), Product Operating Models (113-119), scaling and descaling models (134-147), and emergent goal-oriented models (120-133) can be highly beneficial for Emergent Strategy Deployment. Err on the side of models coherent with vector-change, e.g., direction of travel over fixed goals.   -->
-創発的戦略は、スプリントゴールからプロダクトビジョン、さらにはその先に至るまでの、創発的かつアウトカム指向のロードマップによって支えられる。創発的戦略の展開(120-123)は創発的戦略そのものと混同するべきではない。ベクトル変化モデル(30-35,54)、プロダクトオペレーティングモデル(113-119）、スケーリングおよびデスケーリングモデル(134-147）、創発的ゴール指向モデル(120-133)は、創発的戦略の展開において非常に有益となりうる。あらかじめ固定した目標よりも進むべき方向性を重視するような、ベクトル変化と一貫性のあるモデルを採用することが望ましい。
+創発的戦略は、スプリントゴールからプロダクトビジョン、さらにはその先に至るまでの、創発的かつアウトカム指向のロードマップによって支えられる。創発的戦略の展開(120-123)は創発的戦略そのものと混同するべきではない。ベクトル変化モデル(30-35,54)、プロダクトオペレーティングモデル(113-119)、スケーリングおよびデスケーリングモデル(134-147）、創発的ゴール指向モデル(120-133)は、創発的戦略の展開において非常に有益となりうる。あらかじめ固定した目標よりも進むべき方向性を重視するような、ベクトル変化と一貫性のあるモデルを採用することが望ましい。
 
 <!-- Emergent strategy deployment involves allowing plans and actions to develop naturally as the Scrum Team and Stakeholders respond to real-world changes. Instead of following a fixed path, they pay attention to what is happening around them and make adjustments as they go. Over time, the steps taken form a pattern that becomes the actual strategy, even if it differs from what was initially intended. -->
 創発的戦略の展開は、スクラムチームおよびステークホルダーが現実世界の変化に対応する中で、計画と行動が自然に展開していくのを可能にすることを意味する。あらかじめ固定された道筋に従うのではなく、周囲で起きていることに注意を払いながら、状況に応じて調整を行う。そうして時間をかけて、取られたステップがたとえ当初意図したものと異なっていたとしても、実際の戦略となるパターンを形成するのである。
@@ -3589,11 +3589,11 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Cynefin® | クネビン | 意思決定のためのフレームワーク Basic Cynefin® |
-| Ordered | 秩序系 | クネビン：因果関係が明確で、ベストプラクティスが適用可能な問題領域 |
-| Complicated | 煩雑系 | クネビン：因果関係は分析可能だが、専門知識が必要な問題領域 |
-| Complex | 複雑系 | クネビン：因果関係が事後的にのみ理解でき、創発的実践が必要な問題領域 |
-| Chaotic | 混沌系 | クネビン：因果関係が不明で、迅速な行動と安定化が必要な問題領域 |
-| Disorder | 無秩序 | クネビン：どの領域に属するか不明な状態 |
+| Ordered | 秩序 | クネビン：因果関係が明確で、ベストプラクティスが適用可能な問題領域 |
+| Complicated | 煩雑 | クネビン：因果関係は分析可能だが、専門知識が必要な問題領域 |
+| Complex | 複雑 | クネビン：因果関係が事後的にのみ理解でき、創発的実践が必要な問題領域 |
+| Chaotic | 混沌 | クネビン：因果関係が不明で、迅速な行動と安定化が必要な問題領域 |
+| Aporetic | 無秩序 | クネビン：どの領域に属するか不明な状態 |
 | OODA | OODA | 観察・方向付け・決定・行動のサイクル。迅速な意思決定と適応のためのループ |
 | Systems Thinking | システム思考 | 部分最適化を避け、システム全体の相互作用を考慮した思考法 |
 
