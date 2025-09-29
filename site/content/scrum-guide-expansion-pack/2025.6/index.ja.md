@@ -34,7 +34,7 @@ translators:
     weight: 2
   - name: 長沢智治
     githubUsername: tomoharunagasawa
-    url: https://www.linkedin.com/in/tnagasawa/
+    url: https://nagasawa.social/
     role: translator
     weight: 3
   - name: 山本尊人
