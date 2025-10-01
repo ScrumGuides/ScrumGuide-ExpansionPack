@@ -3185,7 +3185,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 <!-- 29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game, Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (Accessed: 21 January 2024)._ -->
 29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game (日本語訳版: 新たなる新製品開発の方法), Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (2024年1月21日にアクセス)._
 <!-- 30. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (Accessed: April 4, 2023)._ -->
-30. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (2023年4月4日にアクセス)._
+30. _[Cynefin.io](https://Cynefin.io/)_, _V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (2023年4月4日にアクセス)._
 <!-- 31. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._ -->
 31. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._
 <!-- 32. _Snowden, D. et al. (2022) Cynefin® weaving sense-making into the fabric of our world. 2nd edn. Edited by R. Greenberg and B. Bertsch. Singapore, Singapore: Cognitive Edge \- The Cynefin Co._ -->
@@ -3263,7 +3263,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 <!-- 68. _Kanban Guides (2025) Available at: [https://kanbanguides.org](https://kanbanguides.org/) (Accessed: 17 May 2025\)_ -->
 68. _Kanban Guides (2025) （日本語訳版: 2025年版カンバンガイド） Available at: [https://kanbanguides.org](https://kanbanguides.org/) (2025年5月17日にアクセス)_
 <!-- 69. [_Scrum.org_](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (Accessed: 17 May 2025\)_ -->
-69. [[_Scrum.org_](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams（日本語訳版: スクラムチームのためのカンバンガイド）. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (2025年5月17日にアクセス)_
+69. [_Scrum.org_](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams（日本語訳版: スクラムチームのためのカンバンガイド）. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (2025年5月17日にアクセス)_
 <!-- 70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. New York: Harper & Row_ -->
 70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience (日本語訳版: フロー体験 喜びの現象学). New York: Harper & Row_
 <!-- 71. _Templeton Foundation (2023) 'What Is Emergence?' John Templeton Foundation. Available at: [https://www.templeton.org/news/what-is-emergence](https://www.templeton.org/news/what-is-emergence) (Accessed: 17 May 2025)._ -->
@@ -3440,6 +3440,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 &nbsp;
 
 **役割・チーム**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Scrum Team | スクラムチーム | スクラムマスター、プロダクトオーナー、開発者で構成される |
@@ -3460,6 +3461,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 &nbsp;
 
 **作成物（Artifacts）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Product | プロダクト | 価値を提供する成果物 |
@@ -3471,6 +3473,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 &nbsp;
 
 **コミットメント（Commitments）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Product Goal | プロダクトゴール | プロダクトの将来の状態 |
@@ -3483,7 +3486,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**イベント（Events）**
+**イベント（Events）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Sprint | スプリント | 作業の反復期間 |
@@ -3495,7 +3499,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**価値基準（Values）**
+**価値基準（Values）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Commitment | 確約 | ゴール達成への献身 |
@@ -3506,7 +3511,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**三本柱**
+**三本柱**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Transparency | 透明性 | 作業と成果の可視化 |
@@ -3515,7 +3521,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**理論・概念**
+**理論・概念**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Empiricism | 経験主義 | 経験と観察に基づく知識獲得 |
@@ -3531,7 +3538,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**プロダクト関連**
+**プロダクト関連**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Product Vision | プロダクトビジョン | 長期的な望ましい成果 |
@@ -3551,7 +3559,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**プロセス・活動**
+**プロセス・活動**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Discovery | 発見 | 問題や機会の探索 |
@@ -3565,7 +3574,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**品質・技術**
+**品質・技術**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Technical Excellence | 技術的卓越性 | 高品質な技術実践 |
@@ -3575,7 +3585,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**組織・フレームワーク**
+**組織・フレームワーク**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Beyond Budgeting | 脱予算経営 | 従来予算を超越した管理手法 |
@@ -3586,7 +3597,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**AI・技術**
+**AI・技術**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Artificial Intelligence (AI) | 人工知能（AI） | 人間の知能を模倣する技術 |
@@ -3595,7 +3607,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**フレームワーク・理論**
+**フレームワーク・理論**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Cynefin® | クネビン | 意思決定のためのフレームワーク Basic Cynefin® |
@@ -3609,7 +3622,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**その他**
+**その他**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Timebox | タイムボックス | 作業時間の上限設定 |
