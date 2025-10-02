@@ -3185,7 +3185,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 <!-- 29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game, Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (Accessed: 21 January 2024)._ -->
 29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game (日本語訳版: 新たなる新製品開発の方法), Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (2024年1月21日にアクセス)._
 <!-- 30. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (Accessed: April 4, 2023)._ -->
-30. [*Cynefin.io*](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/)._  *[Cynefin.io](https://Cynefin.io/).* _At: [https://cynefin.io/](https://cynefin.io/) (2023年4月4日にアクセス)._
+30. *[Cynefin.io](https://Cynefin.io/),* _V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/)._  *[Cynefin.io](https://Cynefin.io/).*  _At: [https://cynefin.io/](https://cynefin.io/) (2023年4月4日にアクセス)._
 <!-- 31. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._ -->
 31. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._
 <!-- 32. _Snowden, D. et al. (2022) Cynefin® weaving sense-making into the fabric of our world. 2nd edn. Edited by R. Greenberg and B. Bertsch. Singapore, Singapore: Cognitive Edge \- The Cynefin Co._ -->
@@ -3263,7 +3263,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 <!-- 68. _Kanban Guides (2025) Available at: [https://kanbanguides.org](https://kanbanguides.org/) (Accessed: 17 May 2025\)_ -->
 68. _Kanban Guides (2025) （日本語訳版: 2025年版カンバンガイド） Available at: [https://kanbanguides.org](https://kanbanguides.org/) (2025年5月17日にアクセス)_
 <!-- 69. [_Scrum.org_](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (Accessed: 17 May 2025\)_ -->
-69. [*Scrum.org*](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams（日本語訳版: スクラムチームのためのカンバンガイド）. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (2025年5月17日にアクセス)_
+69. *[Scrum.org](http://Scrum.org)* _et al. (2021) The Kanban Guide for Scrum Teams（日本語訳版: スクラムチームのためのカンバンガイド）. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (2025年5月17日にアクセス)_
 <!-- 70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. New York: Harper & Row_ -->
 70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience (日本語訳版: フロー体験 喜びの現象学). New York: Harper & Row_
 <!-- 71. _Templeton Foundation (2023) 'What Is Emergence?' John Templeton Foundation. Available at: [https://www.templeton.org/news/what-is-emergence](https://www.templeton.org/news/what-is-emergence) (Accessed: 17 May 2025)._ -->
