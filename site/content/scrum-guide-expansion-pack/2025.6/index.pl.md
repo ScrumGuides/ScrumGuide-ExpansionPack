@@ -1,6 +1,11 @@
 ---
+<<<<<<< Updated upstream:site/content/scrum-guide-expansion-pack/2025.6/index.pl.md
 title: Scrum Guide Expansion Pack
 description: Scrum Guide Expansion Pack to kompleksowy towarzysz do Przewodnika po Scrumie z 2020 roku (2020 Scrum Guide), stworzony, aby pomóc profesjonalistom poruszać się w dzisiejszych złożonych środowiskach produktowych.
+=======
+title: "Scrum Guide: Rozszerzenia"
+description: "Scrum Guide: Rozszerzenia to kompleksowy towarzysz do Przewodnika po Scrumie z 2020 roku (2020 Scrum Guide), stworzony, aby pomóc profesjonalistom poruszać się w dzisiejszych złożonych środowiskach produktowych. Pogłębia zrozumienie podstawowych zasad Scrum, oferując dodatkowe wskazówki dotyczące złożoności, myślenia produktowego, systemów pracy i przywództwa, pozostając jednocześnie wiernym etosowi Scrum opartemu na empiryzmie i samozarządzaniu. To nie jest przepisanie, ale strategiczne wzmocnienie wspierające długoterminowe, zorientowane na wartość dostarczanie w nowoczesnych zespołach."
+>>>>>>> Stashed changes:site/content/guide/index.pl.md
 keywords:
   - Scrum
   - modern Scrum
@@ -18,32 +23,42 @@ lang: pl
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
+<<<<<<< Updated upstream:site/content/scrum-guide-expansion-pack/2025.6/index.pl.md
+=======
+guide_whatis: |
+  **Scrum Guide: Rozszerzenia** powstał, ponieważ sposób, w jaki budujemy produkty, ciągle się zmienia; szybko.
+
+  [Przewodnik po Scrumie z 2020 roku](https://scrumguides.org/scrum-guide.html) pozostaje aktualny, ale wielu praktyków zaczęło pytać, jak pozostać skupionym na wynikach, pracować z AI w zespole i utrzymać prostotę Scruma w szybko zmieniających się środowiskach.
+
+  Scrum Guide: Rozszerzenia nie zastępuje Scrum Guide 2020; uzupełnia go dla tych, którzy potrzebują większej jasności w dzisiejszym kontekście. Celem nie było dodanie reguł, ale wzmocnienie ducha Scruma, wokół myślenia produktowego, emergencji i skupienia strategicznego. Pomaga zespołom szybko się uczyć, adaptować i dostarczać wartość, nawet w niepewnych, przyspieszonych, napędzanych technologią środowiskach.
+>>>>>>> Stashed changes:site/content/guide/index.pl.md
 sitemap:
    priority: 1.0
 ---
 
-oparty na oryginalnym [Przewodniku po Scrumie](https://scrumguides.org/) autorstwa Ken Schwabera i Jeffa Sutherlanda (40)
+Na podstawie oryginalnego [Scrum Guide](https://scrumguides.org/) autorstwa Ken Schwabera i Jeffa Sutherlanda (40)
 
-**_Zebrane Opracowania tworzą Scrum Guide Expansion Pack_**  
+**_Zebrane Opracowania tworzą Scrum Guide: Rozszerzenia_**  
 _Ten dokument jest zbiorem niezależnych prac. Każda sekcja zachowuje swój oryginalny status licencji lub praw autorskich, jak wskazano. Prosimy o zapoznanie się z każdą sekcją w celu uzyskania szczegółowych praw użytkowania i wymagań._
 
-**_Sekcja 1: Scrum Guide Expansion Pack 1 (Adaptacja)_**  
-_Tytuł: Scrum Guide Expansion Pack Adaptacja: Oryginalnego Przewodnika po Scrumie_  
+**_Sekcja 1: Scrum Guide: Rozszerzenie 1 (Adaptacja)_**  
+_Tytuł: Scrum Guide: Rozszerzenie Adaptacja: Oryginalnego Scrum Guide_  
 _Autorzy: Ralph Jocham, John Coleman i Jeff Sutherland._  
-_Źródło: [Przewodnik po Scrumie 2020](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)_  
+_Źródło: [2020 Scrum Guide](https://scrumguides.org/), [Scrum Guide Expansion Pack](https://scrumexpansion.org)_  
 _Licencja: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
 © _2025 Ralph Jocham, John Coleman i Jeff Sutherland._  
-_Informacja o modyfikacji: To jest adaptacja oryginalnego [Przewodnika po Scrumie 2020](https://scrumguides.org/). Wprowadzono zmiany w stosunku do oryginału._  
+_Informacja o modyfikacji: To jest adaptacja oryginalnego [2020 Scrum Guide](https://scrumguides.org/). Wprowadzono zmiany w stosunku do oryginału._  
 _Zastrzeżenie: Nie udziela się żadnych gwarancji. Używasz na własne ryzyko._  
 _Ta sekcja jest oferowana na licencji Attribution-ShareAlike 4.0 International Creative Commons._  
-_Używając tego Scrum Guide Expansion Pack, zgadzasz się na warunki licencji [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
+_Używając tego Scrum Guide: Rozszerzenia, zgadzasz się na warunki licencji [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
 ## Kontekst {#background}
 
-Ken Schwaber i Jeff Sutherland kierowali rozwojem ram postępowania (Framework) Scrum. [Przewodnik po Scrumie 2020](https://scrumguides.org/) (40) opisuje podstawy Scruma. [Prosty Przewodnik po Scrumie](https://scrum.academy/guide/) (58) autorstwa Tobiasa Mayera to skrócona, zredagowana wersja oficjalnego Przewodnika po Scrumie Ken Schwabera i Jeffa Sutherlanda. [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) rozwijają Przewodnik po Scrumie 2020 (40) z perspektywy 2025 roku. Dla szerokiego przyjęcia, Przewodnik po Scrumie (40) musiał być prosty.
+Ken Schwaber i Jeff Sutherland kierowali rozwojem frameworka (ram postępowania) Scrum.[Scrum Guide 2020](https://scrumguides.org/) (40) opisuje podstawy Scruma. [A Simple Guide to Scrum](https://scrum.academy/guide/) (58) autorstwa Tobiasa Mayera to skrócona, zredagowana wersja oficjalnego Scrum Guide Kena Schwabera i Jeffa Sutherlanda. [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv%20) (52) rozwijają Scrum Guide 2020 (40) uwzględniając perspektywę 2025 roku. Dla możliwie jak najszerszego przyjęcia, Scrum Guide (40) musiał być prosty.
 
-## Cel Scrum Guide Expansion Pack {#purpose-of-the-scrum-guide-expansion-pack}
+## Powód powstania Rozszerzeń do Scrum Guide {#purpose-of-the-scrum-guide-expansion-pack}
 
+<<<<<<< Updated upstream:site/content/scrum-guide-expansion-pack/2025.6/index.pl.md
 Dla skuteczniejszego wdrażania Scrum niniejsze Rozszerzenie oferuje dodatkowe wskazówki dostosowane do współczesnych realiów, bazując na Scrum Guidzie 2020 autorstwa Kena Schwabera i Jeffa Sutherlanda (40). Wkład Ralpha Jochama (89) w Scrum Guide 2020 nadał temu Rozszerzeniu dodatkową głębię, przenosząc do niego pierwotne idee Scrum Guide'a 2020 (40).
 
 Rozszerzenie do Scrum Guide'a wyjaśnia _co_ i _dlaczego_ każdego elementu Scruma próbując spojrzeć w przyszłość. Każda część pełni konkretną funkcję i przyczynia się do ogólnej wartości oraz rezultatów osiąganych dzięki Scrumowi. Niniejsze Rozszerzenie będzie regularnie ewoluowało. Czytelnik powinien zapoznać się z dokumentem sekwencyjnie, przynajmniej za pierwszym razem.
@@ -56,873 +71,886 @@ To Rozszerzenie zostało zaprojektowane, aby wspierać wszystkie aspekty dostarc
 
 Wartość dla interesariuszy odnosi się do wszelkich odczuwalnych potrzeb, które interesariusze (w tym m.in. klienci, decydenci, użytkownicy) uważają za istotne i które zespół dostarcza. Jednak interesariusze nie zawsze są świadomi tego, co mogłoby być dla nich wartościowe. Obserwacje lub dowody mogą celowo lub przypadkowo ujawniać wartość oraz wpływać na priorytety. Wraz z pojawianiem się nowych informacji potencjalnie wartościowe elementy powinny być identyfikowane, poddawane inspekcji, analizowane i adaptowane. Wartość pozostaje hipotetyczna do momentu jej potwierdzenia przez dowody, takie jak obserwacje czy mierzalne rezultaty (outcomes).
 
+=======
+Dla skuteczniejszego wdrażania Scruma niniejsze Rozszerzenia oferuje dodatkowe wskazówki dostosowane do współczesnych realiów, bazując na Scrum Guide 2020 autorstwa Kena Schwabera i Jeffa Sutherlanda (40). Wkład Ralpha Jochama (89) w Scrum Guide z 2020 roku dodatkowo pogłębia włączenie oryginalnych idei Scrum Guide z 2020 roku (40) do niniejszego rozszerzonego opracowania.
+
+Scrum Guide: Rozszerzenia wyjaśnia _co_ oraz _dlaczego_ dla każdego elementu Scruma, próbując spojrzeć w przyszłość. Każdy element pełni konkretną funkcję i przyczynia się do ogólnej wartości oraz rezultatów osiąganych dzięki Scrumowi. Niniejsze Rozszerzenia będą regularnie ewoluowały. Czytelnik powinien zapoznać się z dokumentem od początku do końca, przynajmniej za pierwszym razem.
+
+Dokument zakłada pewną biegłość w Scrumie oraz znajomość powiązanego z nim słownictwa. Przydatne może być wcześniejsze przeczytanie Scrum Guide 2020 przed zapoznaniem się z niniejszym tekstem. Przypisy mają ułatwić dotarcie do tekstów źródłowych. Dodatek i przypisy stanowią okazję do pogłębienia wiedzy oraz dalszych poszukiwań dla szerszego i głębszego zrozumienia tematu.
+
+Praktycy oraz interesariusze powinni wdrażać Scrum tam, gdzie jest to właściwe, kierując się sprawczością, poczuciem pilności, odwagą, przejrzystością, inspekcją, adaptacją, rytmem i wytrzymałością (rezyliencją), oraz stale się doskonalić, aby wspierać cele produktu i organizacji. Pozostaje nadzieja, że wdrożenia Scruma będą wykraczać poza wytyczne przedstawione tutaj - zarówno w zakresie teorii, ról, artefaktów, wydarzeń, skalowania, jak i wszystkich innych aspektów omawianych w niniejszym dokumencie - i w ten sposób zainspirują nieustającą ciekawość do odkrywania, kwestionowania i ciągłego doskonalenia.
+
+Te Rozszerzenia zostały zaprojektowane, aby wspierać wszystkie aspekty dostarczania produktów przez samozarządzający się zespół (49), motywowany potrzebami lub oczekiwaniami interesariuszy w odpowiedzi na problemy lub szanse. Dotyczy to (choć nie jest do tego ograniczone) Product Discovery, rozwoju, dostarczania oraz realizacji wartości. Choć Scrum pierwotnie wywodzi się z obszaru tworzenia oprogramowania, został szeroko przyjęty w różnych dziedzinach, umożliwiając dostarczanie wartości dzięki pracy o złożonym charakterze (30-35). Wraz z rozszerzaniem się jego zastosowania, specjaliści tacy jak inżynierowie, programiści, badacze, analitycy, prawnicy, marketingowcy oraz naukowcy coraz częściej z powodzeniem stosują Scrum w swoich obszarach.
+
+Wartość dla interesariuszy odnosi się do wszelkich postrzeganych potrzeb, które interesariusze (w tym m.in. klienci, decydenci, użytkownicy) uważają za istotne i które dostarcza zespół. Jednak interesariusze nie zawsze są świadomi tego, co mogłoby być dla nich wartościowe. Obserwacje lub dowody mogą celowo lub przypadkowo ujawniać wartość oraz wpływać na priorytety. Wraz z pojawianiem się nowych informacji potencjalnie wartościowe elementy powinny być identyfikowane, poddawane inspekcji, udoskonalane i adaptowane. Wartość pozostaje hipotetyczna do momentu jej potwierdzenia przez dowody, takie jak obserwacje czy mierzalne outcomes[^1].
+>>>>>>> Stashed changes:site/content/guide/index.pl.md
 
 ## Scrum w pigułce {#scrum-in-a-nutshell}
 
-Scrum to ramy postępowania (Framework) dla złożonego (30-35) dostarczania Produktu, gdzie wiedza specjalistyczna jest wartościowa, ale potrzeba więcej niż tylko wiedzy specjalistycznej, a przyczyna i skutek są spójne tylko w retrospektywie. Scrum obejmuje pełny cykl życia Produktu, który zawiera (ale nie ogranicza się do) tworzenie, zastępowanie, utrzymywanie, wprowadzanie, ciągłe zmienianie, konserwację i wycofywanie Produktów lub funkcjonalności. Scrum pomaga jednostkom, zespołom i organizacjom stać się i pozostać elastycznymi oraz tworzyć wartość poprzez adaptację do zmian.
+Scrum to framework do dostarczania złożonego (30-35) Produktu, w którym wiedza ekspercka jest cenna, lecz niewystarczająca, a zależności przyczynowo-skutkowe są zrozumiałe dopiero z perspektywy czasu. Scrum obejmuje pełny cykl życia Produktu, w tym (choć nie jest do tego ograniczony) tworzenie, zastępowanie, utrzymywanie, adaptowanie, ciągłą zmianę, oraz wycofywanie Produktów lub ich funkcjonalności. Scrum pomaga osobom, zespołom i organizacjom zachować elastyczność oraz tworzyć wartość poprzez dostosowywanie się do zmian.
 
-Scrum wspiera środowisko do zrozumienia i spójnego reagowania na potrzeby interesariuszy. Iteracyjne i przyrostowe podejście Scruma zmniejsza ryzyko i wspiera ciągłe doskonalenie. Scrum pomaga zespołowi osiągnąć równowagę między eksplorowaniem problemów, odkrywaniem potrzeb interesariuszy (w tym między innymi klientów), dostarczaniem rozwiązań, proaktywnym zarządzaniem ryzykiem i walidacją wartości.
+Scrum pomaga rozwijać środowisko sprzyjające zrozumieniu i spójnemu reagowaniu na potrzeby Interesariuszy. Iteracyjne i przyrostowe podejście Scruma ogranicza ryzyko oraz wspiera ciągłe usprawnianie. Scrum pomaga zespołowi osiągnąć równowagę pomiędzy eksplorowaniem problemów, odkrywaniem potrzeb Interesariuszy (w tym, lecz nie wyłącznie, klientów), dostarczaniem rozwiązań, proaktywnym zarządzaniem ryzykiem oraz walidowaniem wartości.
 
-Ryzyko to każdy czynnik, który może skutkować przyszłymi negatywnymi konsekwencjami. Jako że ekspozycja na ryzyko nie staje się bardziej przewidywalna z upływem czasu, przewidywanie jest kluczowe. Ekspozycja na ryzyko może obejmować (ale nie ogranicza się do) ryzyko rynkowe, dopasowanie problem-rozwiązanie, dopasowanie Produkt-rynek, technologię, wykrywanie sygnałów, responsywność, zgodność, naprawę, słabe decyzje kompromisowe itp. Scrum wspiera proaktywne zarządzanie ryzykiem i odkrywanie możliwości.
+Ryzyko to każdy czynnik, który może skutkować negatywnymi konsekwencjami w przyszłości. Ponieważ ekspozycja na ryzyko pozostaje nieprzewidywalna nawet wraz z upływem czasu, kluczowe jest bycie przygotowanym. Ekspozycja ta może obejmować (choć nie jest do tego ograniczona) ryzyko rynkowe, dopasowanie problem-rozwiązanie (problem-solution fit), dopasowanie produkt-rynek (product -market fit), technologię, wykrywanie sygnałów, responsywność, zgodność regulacyjną, działania naprawcze czy niewłaściwe kompromisy. Scrum wspiera proaktywne zarządzanie ryzykiem oraz odkrywanie możliwości.
 
-Scrum zachęca do zmniejszenia istniejącego rozdziału między interesariuszami przedstawiającymi problemy lub możliwości, a ludźmi je rozwiązującymi.
+Scrum zachęca do zmniejszania dystansu między Interesariuszami i ich problemami oraz możliwościami a osobami, które się nimi zajmują.
 
-W pigułce, Scrum opiera się na środowisku, gdzie:
+W pigułce Scrum opiera się na środowisku, w którym:
 
-1. Interesariusze wspierający, zwani dalej Supporterami, robią to, o co są proszeni, aby proaktywnie wspierać i wzmacniać wdrażanie Scruma, pod przewodnictwem i przy wsparciu Scrum Mastera.
-2. Product Owner ustala Cel Produktu, który jest kluczowy dla realizacji wartości dla interesariuszy.
-3. Samozarządzający Scrum Team (49) określa, doskonali i zamienia wybrane zadania w wartościowe rezultaty.
-4. Scrum Team i interesariusze sprawdzają wyniki podczas Sprintu i dostosowują działania.
+1. Interesariusze Wspierający (dalej nazywani Supporterami) proaktywnie wspomagają wdrożenie Scruma, przy wsparciu i przewodnictwie  przez Scrum Mastera.
+2. Product Owner ustala Cel Produktu, kluczowy dla dostarczania wartości Interesariuszom.
+3. Samozarządzający się Scrum Team (49) definiuje, doprecyzowuje i przekształca wybrane prace w wartościowe outcomes.
+4. Scrum Team i Interesariusze dokonują inspekcji rezultatów w trakcie Sprintu i dostosowują działania.
 5. Supporterzy pomagają Scrum Teamowi prosperować.
-6. _Powtarzaj._
+6. _Powtórz._
 
-Wydanie to proces udostępniania nowej lub zaktualizowanej wersji Produktu interesariuszom (w tym między innymi klientom, decydentom i użytkownikom końcowym). Określa kluczowy moment w cyklu rozwoju i reprezentuje przejście Produktu z rozwoju do dostępności do użycia i potencjalnej realizacji wartości dla interesariuszy.
+Wydanie to proces udostępniania nowej lub zaktualizowanej wersji Produktu Interesariuszom (w tym, ale nie tylko klientom, decydentom i użytkownikom końcowym). Oznacza punkt zwrotny w cyklu rozwoju i reprezentuje przejście Produktu od wytwarzania do momentu, gdy staje się dostępny do użycia,  oraz potencjalnej realizacji wartości dla Interesariuszy.
 
-Scrum jest celowo niekompletny. Zamiast narzucania szczegółowych procesów, dostarcza ramy postępowania, które kierują relacjami i celowymi interakcjami. Różne procesy, techniki i metody mogą uzupełniać Scrum, ale ich zastosowanie zależy od kontekstu i różni się w różnych zastosowaniach Scruma.
+Scrum jest celowo niekompletny. Zamiast narzucać szczegółowe procesy, dostarcza framework, który kieruje relacjami i celowymi interakcjami. Różne procesy, techniki i metody mogą uzupełniać Scrum, ale ich zastosowanie zależy od kontekstu i różni się w zależności od różnych zastosowań Scruma.
 
-Scrum integruje się z istniejącymi praktykami lub, w niektórych przypadkach, czyni je niepotrzebnymi lub przestarzałymi. Poprzez przejrzyste ocenianie skuteczności Scrum Teamu, Supporterów, obecnego managementu, środowiska pracy i technik, Scrum umożliwia ciągłe doskonalenie.
+Scrum integruje się z istniejącymi praktykami lub, w niektórych przypadkach, czyni je niepotrzebnymi lub przestarzałymi. Poprzez przejrzystą ocenę efektywności Scrum Teamu, Supporterów, obecnej kadry zarządzającej, środowiska pracy i technik, Scrum umożliwia ciągłe usprawnianie.
 
-W kontekście pracy wiedzy, termin Scrum, zapożyczony z gry rugby, został ukuty przez Takeuchi i Nonaka (29) do opisania zespołów, które pracowały w ten sposób i gdzie wiedza była szybko rozprzestrzeniania w całym przedsiębiorstwie, aby dostarczać wyjątkowe Produkty.
+W kontekście pracy opartej na wiedzy, termin Scrum, zapożyczony z rugby, został ukuty przez (Hirotakę) Takeuchiego i (Ikujiro) Nonakę (29) do opisania zespołów, które pracowały w ten sposób i gdzie wiedza była szybko rozprzestrzeniona w całej organizacji w celu dostarczania znakomitych Produktów.
 
 ## Teoria wspierająca i uzupełniająca {#supporting-and-complementary-theory}
 
-Scrum opiera się na samozarządzającym Scrum Teamie (49), emergencji, empiryzmie (67) i myśleniu lean (63). Jest wspierany przez poniższą teorię wspierającą i uzupełniającą oraz idee takie jak:
+Scrum opiera się na samozarządzającym się Scrum Teamie (49), emergencji, empiryzmie (67) oraz myśleniu lean (63). Wspierają go poniższe uzupełniające teorie oraz idee takie jak:
 
-- odpowiedzialność,
-- redukcja marnotrawstwa nietworzącego wartości (w tym nieefektywności organizacyjnych),
-- ujmowanie pracy jako problemów lub możliwości,
-- odkrywanie, dostarczanie i realizacja wartości, oraz
-- ciągłe doskonalenie.
+- Odpowiedzialność (Accountability),
+- Ograniczanie marnotrawstwa niedodającego wartości (w tym nieefektywności organizacyjnych),
+- Formułowanie pracy jako problemów lub szans,
+- Discovery, dostarczanie i realizacja wartości, oraz
+- Ciągłe usprawnianie.
 
-### Złożoność - Uzasadnienie dla Scruma {#complexity-the-case-for-scrum}
+### Złożoność - Dlaczego Scrum? {#complexity-the-case-for-scrum}
 
-W przypadku pracy złożonej, takiej jak budowa Produktów, niewiadomych jest więcej niż rzeczy znanych, sama ekspertyza jest cenna, ale niewystarczająca, a związek przyczynowo-skutkowy jest zrozumiały dopiero po czasie. Myślenie o złożoności (30-35) dostarcza cennych narzędzi i idei oraz ułatwia zdobywanie wglądu. Członkowie Scrum Teamu potrzebują czasu na myślenie, wzajemną pomoc, poprawki lub zmianę kierunku. Różnorodność poznawcza i empiryzm mogą pomóc w radzeniu sobie ze złożoną pracą.
+W przypadku złożonej pracy, takiej jak budowanie Produktów, niewiadomych jest więcej niż wiadomych, sama wiedza ekspercka jest cenna, lecz niewystarczająca, a zależności przyczynowo-skutkowe są czytelne dopiero z perspektywy czasu. Myślenie o złożoności (30-35) dostarcza cennych narzędzi i idei oraz ułatwia wgląd w problemy. Członkowie Scrum Teamu potrzebują czasu na przemyślenia, wzajemne wsparcie, wprowadzenie poprawek lub zmianę kierunku. Różnorodność poznawcza i empiryzm mogą pomóc w radzeniu sobie ze złożoną pracą.
 
-Wszystko, co uważamy za „znane", w tym rynek i Interesariusze (Stakeholders) (w tym między innymi klienci), może być błędne. Niektóre oczekiwania, potrzeby lub pragnienia pojawiają się lub zanikają w względnym znaczeniu lub pilności z czasem. Podejście empiryczne zapewnia mechanizmy do testowania założeń oraz Inspekcji i Adaptacji.
+Wszystko, co uważa się za „znane”, w tym rynek i Interesariusze (nie ograniczając się do klientów), może okazać się błędne. Niektóre oczekiwania, potrzeby lub pragnienia mogą z czasem wyłaniać się lub tracić znaczenie i pilność. Podejście empiryczne dostarcza mechanizmy do testowania założeń oraz inspekcji i adaptacji.
 
-Ogólnie rzecz biorąc, nic nie pozostaje w tej samej przestrzeni na zawsze. Scrum Team może znajdować się na granicy chaosu, badając i pracując nad czymś bezprecedensowym, czego nigdy wcześniej nie robiono. Po pewnym czasie, gdy odkrywa wzorce i heurystyki, staje się to mniej chaotyczne, a bardziej złożone. Po kolejnym czasie, w danej sytuacji, Scrum Team może przesunąć się bliżej przestrzeni uporządkowanej, coś co nie jest łatwe, ale planowalne. Albo rzeczy mogą pójść w odwrotnym kierunku. Dobrą praktyką dla Scrum Teamu jest zatrzymanie się i zastanowienie, czy rzeczywiście znajduje się w przestrzeni, w której myślał, że się znajduje w danej sytuacji. Kluczową kwestią jest to, że rozwój Produktu często ma do czynienia z nieprzewidywalnością, a Scrum może być bardziej użytecznym podejściem niż te z iluzjami przewidywalności.
+Zasadniczo, nic nie pozostaje w tej samej przestrzeni na zawsze. Scrum Team może znajdować się na granicy chaosu, badając i realizując coś bezprecedensowego, czego nigdy wcześniej nie robiono. Z czasem, gdy odkrywane są wzorce i heurystyki, sytuacja staje się mniej chaotyczna, a bardziej złożona. Po pewnym czasie, w danej sytuacji, Scrum Team może przesunąć się bliżej przestrzeni uporządkowanej, co jest trudne, lecz możliwe do zaplanowania. Może się także zdarzyć odwrotnie. Dobrą praktyką dla Scrum Teamu jest zatrzymanie się i zastanowienie, czy naprawdę znajduje się w tej przestrzeni, którą zakładał dla konkretnej sytuacji. Kluczowe jest to, że rozwój produktu często wiąże się z nieprzewidywalnością, a Scrum może być bardziej użytecznym podejściem niż metody oparte na złudzeniu przewidywalności.
 
-Możliwości wynikające z emergencji poprzez inspekcję i adaptację _kto_, _dlaczego_, _co_, _jak_, _gdzie_ i _kiedy_ są liczne. Ważne jest, aby tłumić to, co nie działa, i wzmacniać to, co działa. Przejrzystość (Transparency), Inspekcja i Adaptacja w kierunku ustalonych celów, wspierane informacją zwrotną z wyników (oraz niezamierzonymi konsekwencjami), dostarczają tworzenia wartości, wglądu, ryzyk oraz podważają założenia; to może sprzyjać ciągłemu doskonaleniu.
+Możliwości płynące z emergencji poprzez Inspekcję i Adaptację odnoszące się do tego _kto_, _dlaczego_, _co_, _jak_, _gdzie_ i _kiedy_ są liczne. Ważne jest, aby wyciszać to, co nie działa, a wzmacniać to, co działa. Transparencja, Inspekcja i Adaptacja ukierunkowane na ustalone cele, oparte na informacji zwrotnej z wyników (result feedback) (a także skutkach niezamierzonych), umożliwiają tworzenie wartości, generowanie spostrzeżeń, identyfikację ryzyk i podważanie przyjętych założeń; może to wspierać ciągłe usprawnianie.
 
-Buduj zaufanie poprzez zespół samozarządzający, Inspekcję, Adaptację, dostarczanie wartościowej pracy oraz odkrywanie nowych spostrzeżeń.
+Buduj zaufanie poprzez samozarządzający zespół, Inspekcję, Adaptację, dostarczanie wartościowych wyników pracy oraz odkrywanie nowych spostrzeżeń.
 
-### Emergencja - wyłanianie się {#emergence}
+### Emergencja {#emergence}
 
-Emergencja (71) to sytuacja, gdy znaczące wzorce lub zachowania wyłaniają się z interakcji w złożonych (30-35) systemach - wzorce, których nie można przewidzieć, patrząc jedynie na poszczególne części. W Scrumie emergencja nie jest ściśle kontrolowana, ale jest kierowana przez ograniczenia umożliwiające, takie jak ramy czasowe, role i pętle informacji zwrotnej, które tworzą warunki dla samozarządzania i zdolności adaptacyjnych bez dyktowania dokładnych rezultatów. Te struktury działają jak „wyspy" w morzu nieprzewidywalności, podobnie do tego, jak systemy fizyczne mogą spontanicznie tworzyć zorganizowane wzorce wśród przypadkowości, jak opisano w pracy Stephena Wolframa (38). Kluczowe jest to, że struktura w Scrumie zapewnia wystarczające wskazówki, aby zespoły mogły się samozarządzać i aby nowe rozwiązania mogły się wyłaniać, zamiast przepisywać każdy szczegół.
+Emergencja (71) to zjawisko, które zachodzi, gdy znaczące wzorce lub zachowania wyłaniają się z interakcji w ramach złożonych (30-35) systemów-wzorców, których nie można przewidzieć, patrząc jedynie na poszczególne części. W Scrumie emergencja nie jest ściśle kontrolowana, lecz kierowana ograniczeniami umożliwiającymi (enabling constraints), takimi jak timeboxy, role oraz pętle informacji zwrotnej, które tworzą warunki dla samozarządzania i adaptacyjności bez narzucania dokładnych outcomes. Te struktury działają jak „wyspy” na morzu nieprzewidywalności, podobnie jak w systemach fizycznych mogą spontanicznie formować uporządkowane wzorce pośród losowości, co opisał Stephen Wolfram (38). Kluczowe jest to, że struktura Scruma zapewnia zespołom wystarczające wskazówki, aby mogły się samozarządzać i pozwalały na wyłanianie się nowych rozwiązań, zamiast dyktować każdy szczegół.
 
-Scrum Teamy, działające jako złożone systemy adaptacyjne, są wpływane, a nie kierowane, poprzez krótkie, równoległe, bezpieczne w razie niepowodzenia (safe-to-fail) eksperymenty i ciągłą informację zwrotną. Wzorce (53) takie jak _Swarming_, _Zespoły Stabilne_ i _Kaizen_ pomagają identyfikować i kształtować zachowania emergentne. Zamiast wymuszać rezultaty, Scrum umożliwia Scrum Teamowi odkrywanie pożądanych wzorców, w tym między innymi innowacyjnych rozwiązań lub nowych sposobów pracy, oraz ich wzmacnianie przy jednoczesnym tłumieniu tych nieprzydatnych.
+Na Scrum Teamy, działające jako złożone systemy adaptacyjne, wpływa się (a nie kieruje nimi) poprzez krótkie, równoległe eksperymenty o kontrolowanym ryzyku (safe-to-fail) oraz ciągłą informację zwrotną. Wzorce (53) takie jak _Swarming_, _Stabilne Zespoły_ czy _Kaizen_ pomagają identyfikować i kształtować zachowania emergentne[^2]. Scrum zamiast wymuszać rezultaty, umożliwia Scrum Teamowi odkrywanie pożądanych wzorców, w tym innowacyjnych rozwiązań czy nowych metod pracy, wzmacniając je, a jednocześnie ograniczając te niekorzystne.
 
-To podejście uznaje, że samozarządzanie (49) nie jest czymś, co można zaprojektować odgórnie, ale czymś, co należy odkryć w odpowiednim środowisku - środowisku, które jest celowe, spójne i żywe, nawiązując do „Jakości Bez Nazwy" Christophera Alexandra (39). Ostatecznie Scrum traktuje emergencję nie jako ryzyko do wyeliminowania, ale jako siłę do kultywowania w celu osiągnięcia doskonałości w rozwoju Produktu.
+Zgodnie z tym podejściem samozarządzanie (49) nie jest czymś, co można zaprojektować odgórnie, lecz czymś, co powinno być odkrywane w odpowiednim środowisku - środowisku, które doświadcza się jako celowe, spójne i żywe, nawiązując do koncepcji Christophera Alexandra o „jakości bez nazwy” (Quality Without a Name) (39). Ostatecznie Scrum traktuje emergencję nie jako ryzyko do wyeliminowania, lecz jako siłę, którą należy pielęgnować, aby osiągnąć znakomitość w rozwoju Produktu.
 
 ### Samozarządzający Scrum Team {#self-managing-scrum-team}
 
-Samozarządzający Scrum Team (49) sprawdza, czy jest na właściwej ścieżce, podejmuje działania, gdy nie jest na właściwej ścieżce, decyduje o sposobie pracy, rozwiązuje konflikty w Scrum Teamu i naprawia problemy w Scrum Teamie. Oznacza to, że generalnie menedżerowie (111), jeśli są częścią krajobrazu, nie mówią Scrum Teamowi, co ma robić, ani nie decydują, którego członka Scrum Teamu należy wziąć na stronę, aby rozwiązać problemy, bezpośrednio lub pośrednio. Jeśli menedżerowie istnieją, generalnie lepiej jest, gdy demonstrują przywództwo.
+Samozarządzający (49) Scrum Team sprawdza, czy znajduje się na właściwej ścieżce, podejmuje działania, gdy tak nie jest, decyduje jak pracować, rozwiązuje konflikty w Scrum Teamie oraz naprawia problemy w jego obrębie. Zasadniczo oznacza to, że menedżerowie (111), jeśli są częścią otoczenia, nie mówią Scrum Teamowi co robić ani nie decydują, którego członka Scrum Teamu wziąć na stronę, aby rozwiązać problemy, bezpośrednio lub pośrednio. Jeśli menedżerowie istnieją, to generalnie lepiej, jeśli wykazują przywództwo (leadership).
 
-Samozarządzające Scrum Teamy zorientowane na wartość są kluczowe dla kreatywnego rozwiązywania problemów i wykorzystywania emergencji; poleganie na Scrum Teamach, które nie są samozarządzające, utrudnia radzenie sobie ze złożonością (30-35). Samozarządzania Scrum Teamów (49) nie należy mylić z indywidualnym samozarządzaniem. To bezproblemowa współpraca pozwala na wyłonienie się wspaniałego zespołu. Ułatwienie autonomii zespołu i bardziej efektywnego podejmowania decyzji w ramach niehierarchicznej struktury mogłoby pomóc Scrum Teamom w poprawie ich samozarządzaniu.
+Samozarządzające Scrum Teamy zorganizowane wokół wartości są kluczowe dla kreatywnego rozwiązywania problemów i uchwycenia emergencji; poleganie na niesamozarządzających Scrum Teamach utrudnia radzenie sobie ze złożonością (30-35). Samozarządzających Scrum Teamów (49) nie należy mylić z indywidualnym samozarządzaniem. To płynna współpraca pozwala na wyłonienie się świetnego zespołu. Ułatwienie autonomii zespołu i bardziej efektywnego podejmowania decyzji w strukturze niehierarchicznej może pomóc Scrum Teamom w usprawnieniu ich samozarządzania.
 
 ### Profesjonalizm {#professionalism}
 
-Profesjonalizm polega na dążeniu do doskonałości i współpracy w celu dostarczania wartości w sposób pełen szacunku, przejrzysty i odpowiedzialny. Bycie profesjonalistą oznacza, że zawsze będzie się robić pewne rzeczy, a innych nigdy, niezależnie od okoliczności.
+Profesjonalizm polega na dążeniu do doskonałości i współpracy w dostarczaniu wartości w sposób pełen szacunku, transparentny i z poczuciem odpowiedzialności (accountability). Bycie profesjonalistą oznacza, że zawsze będzie się robić pewne rzeczy, a innych nigdy, niezależnie od okoliczności.
 
-Bycie profesjonalistą oznacza wzięcie pełnej odpowiedzialności za Produkt, od kołyski aż po grób, przez cały jego cykl życia. Bycie profesjonalnym obejmuje utrzymanie, często w formie operacji, i zapewnia doskonałe możliwości uczenia się na podstawie informacji zwrotnych z wyników inżynierskich dla Product Developerów.
+Bycie Profesjonalistą oznacza przejęcie pełnej odpowiedzialności (accountability) za Produkt, od kołyski po grób, przez cały jego cykl życia. Bycie profesjonalistą obejmuje prace utrzymaniowe, często w formie administracji systemów, i zapewnia doskonałe możliwości uczenia się dla Product Developerów dzięki informacji zwrotnej z rezultatów prac inżynierskich.
 
-W kontekście rozwoju oprogramowania profesjonalizm obejmuje między innymi doskonałość techniczną (112). Doskonałość techniczna obejmuje między innymi następujące elementy: Specyfikacja przez Przykład, Czysty Kod, Testowanie Jednostkowe, Programowanie Sterowane Testami, Automatyzacja Testów, Ciągła Integracja, Ciągłe Dostarczanie, Architektura i Projektowanie, Testowanie Akceptacyjne oraz celowe i intencjonalne uwzględnienie testowania.
+W kontekście rozwoju oprogramowania profesjonalizm obejmuje - choć nie jest do tego ograniczony - doskonałość techniczną (technical excellence) (112). Doskonałość techniczna obejmuje - choć nie jest do tego ograniczona - następujące elementy: Specification by Example, Clean Code, Unit Testing, Test-Driven Development, Test Automation, Continuous Integration, Continuous Delivery, Architecture and Design, Acceptance Testing oraz celowe i intencjonalne uwzględnienie testowania.
 
 ### Myślenie Lean {#lean-thinking}
 
-Myślenie Lean (63) redukuje marnotrawstwo w pracy i sposobie jej wykonywania oraz koncentruje się na przepływie wartości i ciągłym doskonaleniu. Zasady Lean opierają się na ciągłym doskonaleniu i szacunku dla ludzi. Skupiając się na zasadach Lean, organizacje mogą poprawić efektywność przy najniższych długoterminowych kosztach i dostarczać lepszą wartość klientom, jednocześnie wspierając klimat ciągłego uczenia się i rozwoju.
+“Myślenie Lean (63) redukuje marnotrawstwo w pracy i sposobie jej wykonywania oraz koncentruje się na przepływie wartości i ciągłym doskonaleniu.” Zasady Lean są zbudowane na ciągłym usprawnianiu i szacunku dla ludzi. Skupiając się na zasadach Lean, organizacje mogą poprawić skuteczność przy najniższych długoterminowych kosztach i dostarczać lepszą wartość klientom, jednocześnie wspierając atmosferę ciągłego uczenia się i rozwoju.
 
-### Empiricism {#empiricism}
+### Empiryzm {#empiricism}
 
-Empiryzm (67) to zasada podejmowania decyzji w oparciu o obiektywne lub obserwowalne dowody w cyklach uczenia się, często eksploracyjnych. Może być przydatny w sytuacjach, gdy sama ekspertyza nie wystarcza. Scrum opiera się na empiryzmie. Decyzje są podejmowane na podstawie dowodów lub tego, co zostało zaobserwowane. Podejście empiryczne obejmuje ciągłą obserwację, rozwijanie i udoskonalanie teorii, operacjonalizację oraz testowanie/modyfikowanie w celu ustanowienia skutecznych pętli zwrotnych.
+Empiryzm (67) to zasada podejmowania decyzji w oparciu o obiektywne lub obserwowalne dowody w cyklach uczenia się, często o charakterze eksploracyjnym. Może być on przydatny w sytuacjach, kiedy sama wiedza ekspercka nie wystarcza. Scrum jest oparty na empiryzmie. Decyzje są podejmowane w oparciu o dowody lub to, co zostało zaobserwowane. Podejście empiryczne obejmuje ciągłą obserwację, rozwój lub udoskonalanie teorii, operacjonalizację oraz testowanie i modyfikowanie, w celu ustanowienia skutecznych pętli zwrotnych.
 
-Empiryzm może pomóc Scrum Teamowi dostarczać coś, co Interesariusze uznają za wartościowe, gdy nie ma pewności co do tego, _co_ lub _jak_ należy zrobić. Scrum polega na uczynieniu nieprawdopodobnego prawdopodobnym poprzez odkrywanie, dostarczanie i urzeczywistnianie wartości; często wiąże się to, choć nie wyłącznie, z kompromisami lub eksperymentowaniem. Eksperymenty zwykle opierają się na testowalnych hipotezach, ale czasem także na wyedukowanych przeczuciach. Kluczową odpowiedzią na eksperymentowanie jest podejmowanie decyzji opartych na dowodach.
+Empiryzm może pomóc Scrum Teamom dostarczyć coś, co Interesariusze uznają za wartościowe, gdy _co_ lub _jak_ jest niepewne. Scrum polega na uczynieniu tego, co nieprawdopodobne prawdopodobnym przez odkrywanie, dostarczanie i realizację wartości; często wiąże się to z kompromisami lub eksperymentowaniem. Eksperymenty są generalnie oparte na testowalnych hipotezach, ale czasami na uzasadnionych przypuszczeniach. Kluczową odpowiedzią na eksperymentowanie jest podejmowanie decyzji w oparciu o dowody [dane dostępne po przeprowadzeniu eksperymentu].
 
-Wstrzymanie się i refleksja łączą elementy empiryzmu i myślenia lean, tworząc podstawę dla Przejrzystości, Inspekcji i Adaptacji w kierunku Celu Produktu oraz pomagają Scrum Teamowi i Wspierającym doskonalić siebie i swoje otoczenie. 
+Zatrzymanie się i refleksja łączą elementy empiryzmu i myślenia Lean, tworzą podstawę dla Transparencji, Inspekcji i Adaptacji w kierunku Celu Produktu oraz pomagają Scrum Teamowi i Supporterom doskonalić siebie i swoje otoczenie.
 
-Efektywne wdrożenie Scruma skraca dystans między Interesariuszami zgłaszającymi problemy lub szanse a osobami, które się nimi zajmują, poprzez utrzymywanie celów konkretnych i znaczących oraz szybkie i częste dostarczanie wartości. Interesariusze często mają błędne poczucie pewności co do tego, _co_ i _jak_ należy zrobić. Scrum Team często mylnie zakłada, że wie, _kto_ jest rzeczywiście dotknięty zmianami. Inspekcja i adaptacja powinny być cenione wyżej niż dotrzymywanie obietnic czy obsługiwanie niewłaściwych Interesariuszy. Każde założenie może być błędne.
+Efektywne wdrożenie Scruma zmniejsza dystans pomiędzy Interesariuszami przedstawiającymi problemy lub możliwości a osobami, które się nimi zajmują. Zmniejszenie tego dystansu następuje dzięki utrzymywaniu konkretnych i znaczących celów oraz szybkiemu i częstemu dostarczaniu wartości. Interesariusze często mylnie zakładają pewność odnośnie tego, _co_ i _jak_ powinno być zrobione. Scrum Team często mylnie zakłada pewność odnośnie tego, _kto_ zostanie dotknięty zmianami. Inspekcja i Adaptacja powinny być cenione wyżej niż dotrzymywanie obietnic czy służenie niewłaściwym Interesariuszom. Każde założenie może być błędne.
 
 ### Kadencja {#cadence}
 
-Praca w Sprintach zapewnia stały rytm, który pomaga Scrum Teamowi skupić się na jasnych, krótkoterminowych celach. Taka kadencja wspiera regularną inspekcję i adaptację, umożliwiając Scrum Teamowi uczenie się i dostosowywanie na podstawie informacji zwrotnej. Z czasem buduje to zrównoważone tempo dostarczania, poprawia przewidywalność i sprzyja ciągłemu doskonaleniu.
+Praca w Sprintach zapewnia stały rytm, który pomaga Scrum Teamowi skupić się na jasnych, krótkoterminowych celach. Ta kadencja wspiera regularną Inspekcję i Adaptację, umożliwiając Scrum Teamowi uczenie się i dostosowywanie w oparciu o informację zwrotną. Z czasem buduje zrównoważone tempo dostarczania, poprawiając przewidywalność i wspierając ciągłe usprawnianie.
 
-## Trzy filary empirycznej kontroli procesu w Scrumie {#the-three-pillars-of-scrum’s-empirical-process-control}
+## Trzy Filary Empirycznej Kontroli Procesu w Scrumie {#the-three-pillars-of-scrums-empirical-process-control}
 
-Empiryzm, w swojej istocie, to filozofia zakładająca, że wiedza pochodzi z doświadczenia i obserwacji. Cenne wnioski rodzą się z ciekawości, doświadczenia, eksperymentowania, danych, wizualizacji i obserwacji. Empiryczna kontrola procesu (64-66) to metoda zarządzania złożonymi (30-35) procesami, takimi jak te w Scrumie, poprzez adaptację opartą na zaobserwowanych wynikach, opierając się na trzech filarach: Przejrzystości, Inspekcji i Adaptacji
+Empiryzm w swojej istocie jest filozofią, według której wiedza pochodzi z doświadczenia i obserwacji. Wartościowe spostrzeżenia powstają z ciekawości, doświadczenia, eksperymentowania, danych, wizualizacji i obserwacji. Empiryczna kontrola procesu (64-66) to metoda zarządzania złożonymi (30-35) procesami, takimi jak te w Scrumie, poprzez adaptację opartą na obserwowanych rezultatach, opierającą się na trzech filarach: Transparencji, Inspekcji i Adaptacji.
 
-### Przejrzystość (Transparency) {#transparency}
+### Transparencja (Transparency) {#transparency}
 
-Przejrzystość jest filarem Scruma. Ujawnia rzeczywistość i klarowność pracy, umożliwiając empiryzm. Przejrzystość pozwala na dokładniejsze postrzeganie rzeczywistości i stanowi punkt wejścia do Inspekcji i Adaptacji. Proces, praca i rezultaty powstające w toku działań muszą być widoczne dla osób wykonujących pracę lub otrzymujących jej efekty w postaci celów, elementów Product Backlogu oraz powiązanych wyników w postaci Incrementów.
+Transparencja jest filarem Scruma. Ujawnia rzeczywistość i zapewnia klarowność pracy, umożliwiając empiryzm. Dzięki Transparencji uzyskujemy dokładniejsze postrzeganie rzeczywistości, stanowiące punkt wyjścia do Inspekcji i Adaptacji. Emergentny proces, praca oraz jej rezultaty muszą być widoczne dla osób wykonujących pracę lub otrzymujących jej wynik (dalej output[^3]) w postaci (realizowanych) celów, elementów Backlogu Produktu oraz powiązanych wyników w postaci Incrementów.
 
-Ważne decyzje opierają się na artefaktach, eksperymentach, wydaniach lub informacji zwrotnej z wyników. Niska Przejrzystość może utrudnić inspekcję, prowadząc do decyzji, które obniżają wartość i zwiększają ryzyko. Przejrzystość umożliwia inspekcję.
+Ważne decyzje podejmowane są w oparciu o artefakty, eksperymenty, wydania lub informacje zwrotne dotyczące rezultatów. Niska Transparencja może utrudniać Inspekcję, prowadząc do decyzji, które zmniejszają wartość i zwiększają ryzyko. Transparencja umożliwia Inspekcję.
 
-Informacja zwrotna z wyników to dane, najlepiej zarówno ilościowe, jak i jakościowe, które mogą wynikać ze zmian w Produkcie lub otoczeniu. Wpływa ona na wartość dla Interesariuszy, nakład pracy, zasoby lub koszty. Ludzie nie są zasobami.
+Informacja zwrotna o rezultatach to dane - najlepiej zarówno ilościowe, jak i jakościowe - które mogą wynikać ze zmian w Produkcie lub jego otoczeniu. Wpływają one na wartość dostarczaną Interesariuszom, nakład pracy, zaangażowane środki lub poniesione koszty. Ludzie nie są zasobami.
 
-Osiągnięcie pełnej Przejrzystości jest nierealistyczne i potencjalnie niemożliwe, jeśli występują instytucjonalne nieefektywności lub brak zaufania. W związku z tym Scrum może ujawniać instytucjonalne nieefektywności, a przy wspólnej woli można budować zaufanie.
+Osiągnięcie Transparencji jest nierealistyczne i potencjalnie niemające zastosowania, jeśli istnieją nieefektywności instytucjonalne lub brakuje zaufania. W efekcie Scrum może uwidocznić instytucjonalne nieefektywności, a przy wspólnej woli możliwe jest budowanie zaufania.
 
 ### Inspekcja {#inspection}
 
-Inspekcja jest filarem Scruma. Inspekcja polega na spojrzeniu na rzeczywistość w kontekście kierunku rozwoju Produktu (Cel Produktu) oraz efektywności Scrum Teamu i Interesariuszy. Inspekcja umożliwia Adaptację. Inspekcja to celowe przyglądanie się rzeczywistości, oparte na tym, co zostało uczynione Przejrzystym, w tym na dowodach lub obserwacji. Aby wspierać Inspekcję i Adaptację, Scrum zapewnia rytm w postaci swoich wydarzeń.
+Inspekcja jestem filarem Scruma. Inspekcja to patrzenie na rzeczywistość, z uwzględnieniem kierunku rozwoju Produktu (Celu Produktu) oraz skuteczności działania Scrum Teamu i Interesariuszy. Inspekcja umożliwia Adaptację. Inspekcja to celowe spojrzenie na rzeczywistość w oparciu o to, co wcześniej stało się transparentne, w tym o dowody lub obserwacje. Aby wspierać Inspekcję i Adaptację, Scrum zapewnia rytm w postaci swoich wydarzeń.
 
-Artefakty Scruma, powiązane zobowiązania oraz postęp w kierunku uzgodnionych celów muszą być często i skrupulatnie inspekcjonowane, aby wykryć emergencję (71). Inspekcja artefaktów, eksperymentów, wydań, rynku lub informacji zwrotnej z wyników może przynieść nowe wnioski lub skutki uboczne. Skutki uboczne to nieoczekiwane lub niezamierzone rezultaty bądź konsekwencje.
+Artefakty Scruma, powiązane z nimi zobowiązania oraz postęp w kierunku uzgodnionych celów muszą być często i dokładnie poddawane Inspekcji w celu wykrycia emergencji (71). Inspekcja artefaktów, eksperymentów, wydań, rynku lub informacji zwrotnej dotyczącej rezultatów może prowadzić do nowych wniosków lub efektów ubocznych. Efekty uboczne to nieoczekiwane lub niezamierzone rezultaty lub konsekwencje.
 
-Inspekcja bez Przejrzystości jest nierzetelna, mylca i marnotrawna.
+Inspekcja bez Transparencji jest niepełna, wprowadza w błąd i prowadzi do marnotrawstwa.
 
 ### Adaptacja {#adaptation}
 
-Adaptacja jest filarem Scruma. W kontekście wyznaczonego kierunku rozwoju Produktu, od Scrum Teamu i Interesariuszy oczekuje się, że będą dostosowywać się do rzeczywistości natychmiast, gdy pojawią się możliwości usprawnienia, takie jak wyniki eksperymentów, nowe spostrzeżenia, ryzyka czy okazje. Adaptacja staje się trudniejsza, gdy występują nieefektywności instytucjonalne lub gdy osoby zaangażowane nie są gotowe, chętne albo zdolne do podjęcia niezbędnych działań.
+Adaptacja jest filarem Scruma. Uwzględniając kierunek rozwoju Produktu, oczekuje się, że Scrum Team oraz Interesariusze dostosują się do rzeczywistości w momencie pojawienia się możliwości usprawnień, takich jak rezultaty eksperymentów, nowe spostrzeżenia, ryzyka lub szanse. Adaptacja staje się trudniejsza, gdy istnieją instytucjonalne nieefektywności lub gdy osoby zaangażowane nie są gotowe, chętne lub zdolne do wykonania tego, co jest konieczne.
 
-Adaptacja zaczyna się od zaakceptowania „rzeczywistości”, popartej dowodami. Adaptacja zazwyczaj zachodzi w artefaktach Scruma, powiązanych zobowiązaniach, Scrum Teamie, Interesariuszach, liderach i organizacji. Jeśli jakiekolwiek aspekty wykraczają poza dopuszczalne granice lub granice tolerancji, albo jeśli powstały Produkt jest nieakceptowalny, należy jak najszybciej wprowadzić korekty, aby skorygować kurs.
+Adaptacja rozpoczyna się od zaakceptowania „rzeczywistości” w oparciu o dowody. Adaptacja typowo zachodzi w Artefaktach Scruma, powiązanych z nimi zobowiązaniach, Scrum Teamie, Interesariuszach, liderach oraz organizacji. Jeżeli jakiekolwiek aspekty odbiegają od akceptowalnych granic, lub gdy powstały Produkt jest nieakceptowalny, niezbędne jest jak najszybsze wprowadzenie zmian korygujących kurs.
 
-Bez adaptacji Przejrzystość i inspekcja są bez znaczenia.
+Bez Adaptacji Transparencja i Inspekcja tracą sens.
 
 ## Wartości Scruma {#the-scrum-values}
 
-Wartości Scruma (Scrum Values) - _skupienie_ (focus), _otwartość_ (openness), _zaangażowanie_ (commitment), _odwaga_ (courage) i _szacunek_ (respect) - pomagają tworzyć środowisko Scrum Teamu, które wspiera bezpieczeństwo psychologiczne i pozytywną współpracę. Takie warunki są zgodne z zasadami, które neurobiologia identyfikuje jako korzystne dla uczenia się i skutecznej pracy zespołowej. Weź pod uwagę kontekst.
+Wartości Scrumowe _- Skupienie_, _Otwartość_, _Zaangażowanie_, _Odwaga_ oraz *Szacunek -* pomagają stworzyć środowisko Scrum Teamu wspierające bezpieczeństwo psychologiczne i pozytywną współpracę, zgodne z zasadami zidentyfikowanymi przez neuronaukę jako korzystne dla uczenia się i efektywnej pracy zespołowej. Należy zawsze uwzględniać kontekst.
 
-Wartości Scruma wspierają Przejrzystość i zaufanie, zapewniając spójność między słowami a działaniami. Razem tworzą solidny fundament dla współpracy, efektywności i spójności w Scrum Teamie.
+Wartości Scrumowe wzmacniają Transparencję oraz zaufanie, zapewniając spójność słów i czynów. Razem tworzą solidny fundament współpracy, wydajności oraz spójności działania w Scrum Teamie.
 
-Przyjęcie Scruma z sukcesem zależy od tego, czy Scrum Team oraz Supporterzy (i inni Interesariusze) dają przykład profesjonalizmu. Wartości Scruma mogą pomóc w budowaniu zaufania między Scrum Teamem a Interesariuszami. Wartości te sprzyjają także etyce (57), odpowiedniemu słownictwu, tonowi, pracy, zachowaniom i działaniom wspierającym zaufanie. Pomagają również ograniczać lub eliminować rozbieżności między słowami a czynami.
+Skuteczne wdrożenie  Scruma zależy od tego, czy Scrum Team oraz Supporterzy (i inni Interesariusze) dają przykład profesjonalizmu. Wartości Scrumowe mogą pomóc poprawić zaufanie pomiędzy Scrum Teamem a Interesariuszami. Zachęcają również do etycznej postawy, odpowiedniego słownictwa, tonu, sposobu pracy, zachowań oraz działań budujących zaufanie. Pomagają także zmniejszyć lub uniknąć rozbieżności między słowami a działaniami.
 
-Scrum Team i Supporterzy zgadzają się na _Otwartość_ w sprawach dotyczących całej pracy i napotykanych wyzwań. Pokora wspiera _Otwartość_. _Otwartość_ wymaga zaufania, a zaufanie wymaga _Otwartości_. Scrum Team i Wspierający powinni prosić o konstruktywną informację zwrotną i dzielić się nią. Rutynowo współpracują i uczą się poprzez rozmowy o wysokiej przepustowości oraz jakościową lub ilościową informację zwrotną.
+Scrum Team oraz Supporterzy zgadzają się na _Otwartość_ co do wszelkich prac oraz wyzwań. Pokora wspiera _Otwartość_. _Otwartość_ wymaga zaufania, a zaufanie wymaga _otwartości_. Scrum Team oraz Supporterzy powinni prosić o konstruktywny feedback oraz dzielić się nim. Rutynowo współpracują i uczą się poprzez rozmowy umożliwiające szeroki przepływ informacji (high-bandwidth conversations) oraz jakościowy lub ilościowy feedback.
 
-Rozmowy o wysokiej przepustowości (high-bandwidth conversations) to rozmowy, które wspierają komunikację w sposób umożliwiający najbogatszą, najszybszą i najjaśniejszą wymianę informacji. Zazwyczaj obejmują one dyskusje twarzą w twarz - osobiście, przez wideorozmowy, z użyciem narzędzi do wizualnego zarządzania lub tablic (fizycznych lub cyfrowych) - gdzie uczestnicy mogą korzystać nie tylko ze słów, ale także z tonu głosu, mimiki, rysunków czy mowy ciała, by w pełni się zrozumieć.
+Rozmowy umożliwiające szeroki przepływ informacji to rozmowy wspierające komunikację, pozwalające na najbogatszą, najszybszą i najbardziej klarowną wymianę informacji. Typowo obejmują one rozmowy twarzą w twarz - osobiście, poprzez wideokonferencje, zarządzanie wizualne lub tablice (fizyczne lub cyfrowe), gdzie uczestnicy mogą wykorzystać nie tylko słowa, lecz także ton głosu, mimikę, rysunki czy mowę ciała do pełnego wzajemnego zrozumienia.
 
-Ponieważ Sprinty są krótkie, ewentualne niepowodzenia powinny być niewielkie i szybkie, a ryzyko jest identyfikowane i zarządzane dzięki szybkiemu i _otwartemu_ feedbackowi. Być może jedyną prawdziwą porażką jest brak nauki.
+Ponieważ Sprinty są krótkie, wszelkie niepowodzenia powinny być niewielkie i szybko identyfikowane, a ryzyko zarządzane jest poprzez szybki i _otwarty_ feedback. Być może jedyną prawdziwą porażką jest brak uczenia się.
 
-Scrum Team i Supporterzy powinni mieć _Odwagę_, by robić to, co słuszne, i stawiać czoła trudnym wyzwaniom. Powinni wykazywać się odwagą w eksplorowaniu nieznanego, zmianie kierunku, proszeniu o informacje i ich udostępnianiu oraz w prowadzeniu uprzejmych sporów, np. zdrowego konfliktu i konstruktywnego sprzeciwu. Scrum Team powinien prosić Supporterów i liderów o pomoc, jeśli to konieczne.
+Scrum Team oraz Supporterzy powinni mieć _Odwagę_, aby postępować właściwie oraz stawiać czoła trudnym wyzwaniom. Powinni odważnie eksplorować nieznane, zmieniać kierunki działań, prosić o informacje i dzielić się nimi oraz angażować się w pełne szacunku spory, np. zdrowe konflikty i konstruktywny sprzeciw. Scrum Team powinien prosić o pomoc Supporterów i liderów, jeśli jest potrzebna.
 
-Scrum Team _angażuje_ się do realizacji Celu Sprintu oraz wzajemnego wspierania się. Zaangażowanie oznacza wykonanie odpowiedniej pracy prowadzącej do osiągnięcia Celu Sprintu, zgodnie z Definicja Ukończonej Pracy (Definition of Output Done), najpóźniej do końca Sprintu, a najlepiej znacznie wcześniej. Zaangażowanie oznacza także dążenie do osiągnięcia pożądanych rezultatów poprzez realizację wartości.
+Scrum Team _Zobowiązuje się_ (commits) do realizacji Celu Sprintu oraz wzajemnego wspierania się. _Zaangażowanie_ (Commitment) oznacza wykonanie odpowiednich prac w kierunku realizacji Celu Sprintu zgodnie z Definition of Output Done najpóźniej przed zakończeniem Sprintu, a najlepiej znacznie wcześniej. _Zaangażowanie_ oznacza także osiąganie pożądanych outcomes poprzez realizację wartości.
 
-Przede wszystkim _skupiają_ się oni na osiąganiu jak najlepszego postępu w kierunku Celu Sprintu. W drugiej kolejności _Skupiają_ się na jak najlepszym postępie w stronę Celu Produktu. Supporterzy _angażują_ się w zapewnieniu Scrum Teamowi psychologicznie bezpiecznej przestrzeni i środowiska do dostarczania Incrementów; w ramach swoich priorytetów Scrum Team i Supporterzy _angażują_ się w znalezieniu czasu na ciągłe uczenie się, adaptację oraz transfer wiedzy między Scrum Teamami, by zapewnić długoterminową efektywność. Scrum Team i Interesariusze powinni świadomie podejmować decyzje dotyczące kompromisów, w tym rozważać krótkoterminowe korzyści w kontekście długofalowych konsekwencji.
+Podstawowym obiektem _Skupienia_ jest osiągnięcie możliwie najlepszego postępu w kierunku Celu Sprintu. W drugiej kolejności celem jest osiągnięcie możliwie najlepszego postępu w kierunku Celu Produktu. Supporterzy _Zobowiązują się_ do zapewnienia bezpieczeństwa psychologicznego i środowiska dla Scrum Teamu do dostarczania Incrementów; _Skupiając się_ Scrum Team oraz Supporterzy _Zobowiązują się_ do znalezienia czasu na ciągłe uczenie się i adaptację oraz transfer wiedzy między Scrum Teamami dla zapewnienia długoterminowej skuteczności. Scrum Team oraz Interesariusze powinni celowo podejmować kwestie kompromisów, w tym rozważać krótkoterminowe korzyści wobec długoterminowych konsekwencji.
 
-Scrum Team i Supporterzy (oraz inni Interesariusze) okazują sobie _Szacunek_ jako wykwalifikowani profesjonaliści; _Szanują_ swoją odmienną wiedzę i perspektywy oraz zachowują konstruktywność w sytuacji różnicy zdań. _Szacunek_ w zachowaniu wspiera zaufanie. Scrum Team i Supporterzy powinni krytykować pomysł lub podejście, aby znaleźć skuteczniejsze rozwiązania, a nie osoby.
+Scrum Team oraz Supporterzy (i inni Interesariusze) okazują sobie Szacunek jako profesjonalistom; _Szanują_ różnorodność doświadczeń i perspektyw oraz konstruktywnie podchodzą do sporów. Zachowania oparte na Szacunku wspierają zaufanie. Scrum Team oraz Supporterzy powinni kwestionować idee lub podejścia, a nie osoby, w celu znalezienia skuteczniejszych rozwiązań.
 
-_Szacunek_ chroni przed wykorzystywaniem pozostałych Wartości Scruma w niewłaściwy sposób. Przejawy _Szacunku_ mogą obejmować (ale nie ograniczają się do): szczere uznanie, wzajemne wsparcie, pokorę, zapewnianie bezpieczeństwa psychologicznego, konstruktywną niezgodę oraz różnorodność poznawczą.
+_Szacunek_ pomaga uniknąć traktowania pozostałych Wartości Scrumowych jako broni (weaponization). Okazywanie _Szacunku_ może obejmować (ale nie ograniczać się do): szczere pochwały, wzajemne wsparcie, pokorę, bezpieczeństwo psychologiczne, konstruktywną niezgodę oraz różnorodność poznawczą.
 
-Członkowie Scrum Teamu oraz Interesariusze mogą patrzeć na Wartości Scruma przez pryzmat cyklu OODA Johna Boyda (99, 100, 102). OODA, stworzony przez pułkownika Sił Powietrznych USA Johna Boyda, pomaga podejmować szybkie i trafne decyzje w zmiennych warunkach, przechodząc przez cztery etapy: Observe (Obserwuj), Orient (Orientuj się), Decide (Decyduj) i Act (Działaj). To prosty, ciągły, iteracyjny i niezwykle skuteczny - choć często podświadomy - sposób radzenia sobie z niepewnością, np. poprzez obserwację zmian rynkowych (Observe), analizę trendów i ryzyk (Orient), wybór funkcji produktu do przetestowania (Decide) oraz ich dostarczenie (Act). OODA pozwala zachować elastyczność i skutecznie reagować na zmiany. Scrum może usprawnić stosowanie cyklu OODA.
+Członkowie Scrum Teamu oraz Interesariusze mogą spojrzeć na Wartości Scrumowe przez pryzmat modelu OODA Johna Boyda (99, 100, 102). OODA został stworzony przez pułkownika Johna Boyda, aby pomóc pilotom podejmować szybkie, inteligentne decyzje w szybko zmieniających się sytuacjach, przechodząc przez cztery etapy: obserwowanie (Observe), orientowanie (Orient), decydowanie (Decide) oraz działanie (Act). To prosty, ciągły, iteracyjny i potężny sposób radzenia sobie z niepewnością - na przykład zauważanie zmian rynkowych (Observe), analizowanie trendów i ryzyk (Orient), wybieranie funkcjonalności Produktu do przetestowania (Decide) oraz dostarczanie ich (Act). OODA pomaga zachować elastyczność i efektywnie reagować na zmieniające się okoliczności. Scrum może usprawnić OODA.
 
-Indywidualni członkowie Scrum Teamu mogą patrzeć na Wartości Scruma przez pryzmat cyklu OODA Johna Boyda, wykorzystując Scrum do wspierania rozwiązań emergentnych. W kontekście Scrumowym, Wartości Scruma mają zastosowanie na każdym etapie cyklu OODA, a w szczególności pomagają w następujący sposób:
+Poszczególni członkowie Scrum Teamu mogą patrzeć na Wartości Scrumowe przez pryzmat OODA, wykorzystując Scrum do wyłaniania się rozwiązań. W kontekście Scruma, Wartości Scrumowe obejmują wszystkie etapy OODA, szczególnie pomagając w następujący sposób:
 
-- Observe (Obserwuj) - _Otwartość_ i _Szacunek_ wspierają zbieranie wszystkich istotnych dowodów oraz różnorodnych perspektyw, co pozwala lepiej zrozumieć sytuację i zebrać pełniejszy obraz rzeczywistości.
-- Orient (Orientuj się) - _Odwaga_ jest niezbędna, by interpretować rzeczywistość, radzić sobie z niepewnością oraz zdecydować się na adaptację lub zmianę kierunku, często poprzez refleksję i kwestionowanie założeń, co może prowadzić do nowych wglądów.
-- Decide (Decyduj) - Podjęcie decyzji wymaga terminowej analizy, np. poprzez Refinement backlogu, a także _Skupienia_ na potencjalnych kolejnych krokach dzięki równoległym, bezpiecznym eksperymentom testującym hipotezy w małej skali (tzw. "próbki" (probes) powinny być małe, równoległe i zaprojektowane tak, by ewentualna porażka była przetrwalna i pouczająca).
-- Act (Działaj) - Gdy jest jasne, co należy zrobić, dlaczego i przez kogo, _Zaangażowanie_ napędza zespół do skutecznego działania w ramach umożliwiających ograniczeń, takich jak ramy czasowe Sprintów, wspierając powstawanie rozwiązań emergentnych.
+- Obserwowanie - Otwartość i Szacunek mogą wspierać zbieranie wszystkich istotnych dowodów oraz różnorodnych perspektyw.
+- Orientowanie - Odwaga jest potrzebna do interpretacji rzeczywistości, nawigowania w niepewności oraz podejmowania decyzji o adaptacji lub zmianie kierunku.
+- Decydowanie - Wymaga terminowej analizy, jak np. refinement Backlogu, oraz wprowadzenia potencjalnych kolejnych kroków do Skupienia poprzez równoległe eksperymenty.
+- Działanie - Przy klarowności tego, "co", "dlaczego" i "przez kogo" ma być zrobione, Zaangażowanie może napędzać skuteczne wykonanie w ramach ograniczeń, takich jak timeboxowane Sprinty, sprzyjając wyłanianiu się rozwiązań.
 
-## Więcej teorii wspierającej i uzupełniającej {#more-supporting-and-complementary-theory}
+## Więcej wspierających i uzupełniających teorii {#more-supporting-and-complementary-theory}
 
 ### Myślenie produktowe (Product thinking) {#product-thinking}
 
-Ludzie konsumują Produkty (w tym usługi), a nie projekty. Produkt jest nośnikiem dostarczania wartości, równoważącym potrzeby krótkoterminowe i długoterminowe. Dlatego w Scrumie mamy Product Ownera, a nie Project Ownera. Produkty są długowieczne i wymagają troski przez cały swój cykl życia, podczas gdy projekt jest ograniczony czasowo i często po jego zakończeniu pozostawia „osierocony” Produkt.
+Ludzie konsumują Produkty (w tym usługi), nie projekty. Produkt jest nośnikiem wartości, równoważącym perspektywę krótkoterminową i długoterminową. Dlatego w Scrumie mamy Product Ownera, a nie Project Ownera. Produkty mają długie cykle życia i wymagają wspierania przez cały okres istnienia, podczas gdy projekt jest ograniczony czasowo i często pozostawia „osierocony” Produkt po zakończeniu realizacji.
 
-Product thinking (86-88) dotyczy napięcia (111), z którym muszą mierzyć się Produkty: często muszą _skupić się_ na wzroście w krótkim okresie, ale jednocześnie uwzględniać kwestie długoterminowe, takie jak zdobywanie pierwszych użytkowników, „przeskakiwanie przepaści” (cross the chasm) (5), ekspansja, aktualizacje wersji Produktu, ciągła zmiana, wartość klienta w całym cyklu życia oraz całkowity koszt posiadania.
+Myślenie produktowe (Product Thinking) (86-88) odnosi się do napięcia (111), które wynika z faktu, że Produkty muszą _skupiać się_ na wzroście „tu i teraz”, a jednocześnie uwzględniać perspektywę długoterminową - np. zyskanie aprobaty pierwszych użytkowników (early adopters), „przeskakiwanie przepaści” (crossing the chasm) (5), ekspansję, aktualizacje wersji Produktu, ciągłe zmiany, wartość klienta w całym cyklu życia oraz całkowity koszt posiadania (total cost of ownership).
 
-Aby „przeskoczyć przepaść”, konieczna jest zmiana strategii: z koncentrowania się na zaawansowanych, skłonnych do ryzyka klientach na pozyskiwanie bardziej pragmatycznych, ostrożnych nabywców, decydentów, użytkowników lub innych interesariuszy. Osiąga się to poprzez skupienie na konkretnym rynku niszowym lub wybranej grupie docelowej oraz dostarczenie kompletnego, niezawodnego rozwiązania, które realnie rozwiązuje ich problemy. Ten krok jest kluczowy dla przejścia Produktu z sukcesu niszowego do szerokiej adopcji, czyli od zainteresowania wczesnych użytkowników do przyciągnięcia wczesnej większości. Wczesna większość często wymaga jasnych dowodów na niezawodność Produktu i skuteczność rozwiązywania problemów w określonym kontekście. Skupiając się na niszy i dostarczając pełne rozwiązanie, firma buduje wiarygodność, tworzy bazę referencyjnych klientów i umacnia swoją pozycję rynkową, skutecznie łącząc „przepaść” między wczesnymi użytkownikami a rynkiem masowym.
+Aby „przeskoczyć przepaść”, konieczna jest zmiana strategii: z koncentrowania się na entuzjastach, którzy są skłonni do ryzyka, na pozyskiwanie bardziej pragmatycznych, ostrożnych decydentów, użytkowników lub innych Interesariuszy, skupiając się na konkretnej niszy rynkowej oraz dostarczając kompletne, niezawodne rozwiązania, które odpowiadają na ich realne problemy. Ten krok ma kluczowe znaczenie w przejściu Produktu od sukcesu niszowego do szerokiego przyjęcia na rynku - od wczesnych użytkowników do tzw. „wczesnej większości”. Wczesna większość często oczekuje jasnych dowodów na niezawodność Produktu oraz jego skuteczność w rozwiązywaniu problemów w określonym kontekście. Dzięki koncentracji na niszy oraz dostarczeniu kompletnego rozwiązania, organizacja może budować wiarygodność, zdobyć klientów referencyjnych i ugruntować swoją pozycję na rynku - skutecznie „przeskakując przepaść” pomiędzy wczesnymi użytkownikami a rynkiem masowym.
 
-Product Owner musi opanować zarządzanie kompromisami pomiędzy _tu_ i _teraz_ a przewidywaną przyszłością (_tam_ i _wtedy_) (148), wykorzystując odwagę, pokorę, konsultacje, współpracę, zdrowy konflikt itp.
+Product Ownerzy muszą opanować sztukę równoważenia kompromisów między teraźniejszością a przewidywaną przyszłością (_tu_ i _teraz_ kontra _tam_ i _potem_) (148) z odwagą, pokorą, poprzez konsultacje, współpracę, zdrowy konflikt itd.
 
-Jeśli osoby zaangażowane myślą wyłącznie krótkoterminowo, prawdopodobnie doświadczą długofalowych skutków ubocznych, takich jak dług technologiczny, niska motywacja Scrum Teamu, ciągłe „bycie zajętym”, skupienie na produkcji zamiast na wartości itp. Z tego powodu należy wdrożyć czynniki łagodzące, które będą wspierać perspektywę długoterminową.
+Jeśli osoby zaangażowane w rozwój Produktu kierują się wyłącznie myśleniem krótkoterminowym, mogą doświadczyć długoterminowych skutków ubocznych - takich jak dług techniczny, niska motywacja Scrum Teamu, nadmierne obciążenie pracą czy koncentracja na outputs. Z tego względu należy wdrożyć działania zapobiegawcze, które wspierają podejście długoterminowe.
 
-Dług technologiczny to dodatkowa praca, która narasta - świadomie lub nieświadomie - gdy stosuje się skróty w implementacji lub projektowaniu, by szybciej coś dostarczyć. Z czasem spowalnia to pracę, podobnie jak prawdziwy dług - wraz z odsetkami - ponieważ utrudnia i zwiększa ryzyko przyszłych zmian. Profesjonaliści dążą do minimalizacji długu technicznego i bylejakości w możliwie największym stopniu. Jeśli zdecydują się zaciągnąć taki dług, powinno to być Przejrzyste, a jeśli to możliwe, należy przygotować plan jego ograniczenia, najlepiej powstający w sposób emergentny.
+Dług techniczny to dodatkowa praca, która narasta - świadomie lub nie - w wyniku skrótów w implementacji lub projektowaniu, by coś szybciej dostarczyć. Z czasem dług techniczny spowalnia pracę, podobnie jak prawdziwy dług - z „odsetkami” - ponieważ utrudnia przyszłe zmiany i zwiększa ryzyko. Profesjonaliści starają się minimalizować dług techniczny i niedbałość. Jeśli zdecydują się na jego zaciągnięcie, powinien on być transparentny, a jeśli to możliwe - należy wdrożyć emergentny plan ograniczania ryzyka.
 
-Scrum wspiera wykonalność, użyteczność, pożądanie, wartość i opłacalność Produktów - w granicach etycznych (57) - poprzez:
+W przypadku Produktów, Scrum wspiera wykonalność, użyteczność, pożądanie, wartość i opłacalność w granicach etycznych (57) poprzez:
 
-- projektowanie Produktu,
-- zarządzanie Produktem,
-- celowe uwzględnianie spójnej współpracy Interesariuszy, badań, celów, odkrywania, projektowania, dostarczania i ciągłej realizacji wartości,
-- a w przypadku Produktów technologicznych - poprzez inżynierię Produktu
+- Projektowanie (design) Produktu
+- Zarządzanie Produktem
+- Celowe uwzględnienie spójnej współpracy Interesariuszy, badań, celów, odkrywania, projektowania, dostarczania i ciągłej realizacji wartości
+- W przypadku technologicznych Produktów - poprzez inżynierię Produktu.
 
-Scrum sprzyja zdrowej równowadze między krótkoterminowym a długoterminowym podejściem. Orientacja na cele umożliwia osiąganie potencjalnych rezultatów poprzez nacisk na wartość i redukcję ryzyka. Cel Sprintu (_tu_ i _teraz_) powinien być krokiem w stronę Celu Produktu (_tam_ i _wtedy_), co otwiera ścieżki do realizacji celów długoterminowych. Cel Produktu często wspiera strategię Produktu oraz Wizję Produktu.
+Scrum wspiera zdrową równowagę między podejściem krótkoterminowym i długoterminowym. Orientacja na cel umożliwia osiąganie potencjalnych outcomes, kładąc nacisk na wartość i ograniczanie ryzyka. Cel Sprintu _(tu_ i _teraz)_ powinien stanowić krok w stronę Celu Produktu _(tam_ i _potem)_, który z kolei umożliwia długofalowy rozwój. Cel Produktu często wspiera strategię Produktu oraz Wizję Produktu.
 
-### Myślenie systemowe (Systems Thinking) {#systems-thinking}
+### Myślenie systemowe {#systems-thinking}
 
-Myślenie systemowe (55) uznaje współzależność elementów w organizacyjnych i społecznych kontekstach, dostrzegając, że działania w jednym obszarze wywołują efekty, które nie zawsze są przewidywalne ani liniowe. Eksperymenty oparte na teorii, pętle informacji zwrotnej oraz analiza danych po wdrożeniu pomagają ujawniać wartościowe i praktyczne wnioski. Myślenie systemowe dostarcza cennych narzędzi i koncepcji oraz ułatwia zdobywanie nowych spostrzeżeń.
+Myślenie systemowe (55) uznaje współzależność elementów w kontekstach organizacyjnych i społecznych, zauważając, że działania w jednym obszarze mogą wywoływać skutki w innych - nie zawsze przewidywalne ani liniowe. Eksperymenty oparte na teorii, pętle informacji zwrotnej i analiza danych po ich zebraniu pomagają ujawniać wartościowe i możliwe do zastosowania spostrzeżenia. Myślenie systemowe dostarcza użytecznych narzędzi i koncepcji oraz ułatwia generowanie wglądów.
 
-Aby organizacja stała się adaptacyjna (80), należy unikać lokalnych suboptymalizacji, takich jak obniżanie kosztów jednostkowych przy jednoczesnym wzroście kosztów długoterminowych, obniżanie celów jakościowych prowadzące do utraty zaufania klientów czy usprawnianie Scrum Teamu, procesu lub przepływu pracy, który nie powinien już istnieć. W przypadku pracy złożonej (30-35) nie zawsze da się powiązać przyczynę ze skutkiem - często jest to możliwe dopiero z perspektywy czasu. Mimo to warto rozważać możliwe i rzeczywiste skutki działań zarówno „w górę”, „w poprzek”, jak i „w dół” strumienia wartości, czyli wpływ interwencji na wcześniejsze, równoległe i późniejsze elementy systemu.
+Aby organizacja mogła stać się organizacją adaptacyjną (80), należy unikać lokalnych suboptymalizacji, takich jak obniżanie jednostkowych kosztów przy jednoczesnym wzroście kosztów długoterminowych, podważanie celów jakościowych prowadzące do utraty zaufania klientów lub doskonalenie Scrum Teamu, przepływu pracy albo procesu, który w ogóle nie powinien istnieć. W pracy złożonej (30-35) powiązania przyczynowo-skutkowe są zwykle możliwe do uchwycenia dopiero z perspektywy czasu. Pomocne jest jednak rozważenie potencjalnych i rzeczywistych skutków interwencji w ujęciu wstecznym, równoległym i dalszym.
 
-### Odkrywanie (Discovery) {#discovery}
+### Discovery {#discovery}
 
-Odkrywanie (Discovery) (50-51) często zaczyna się od zrozumienia oczekiwań, potrzeb i pragnień ludzi poprzez obserwację, analizę, rozmowy i syntezę w kierunku pożądanego rezultatu. Po zebraniu wniosków Scrum Team definiuje problem lub szansę i porządkuje je według potencjalnej wartości. Scrum Team generuje możliwe rozwiązania, nie oceniając ich zbyt wcześnie. Jeśli potencjalna wartość jest wysoka, ale brakuje dowodów na możliwość jej realizacji, Scrum Team powinien przeprowadzić badania, testowanie założeń lub zbudować proste prototypy do przetestowania z prawdziwymi klientami, decydentami lub użytkownikami. Odkrywanie nigdy się nie kończy - warto regularnie prowadzić wywiady lub obserwacje klientów, decydentów czy użytkowników.
+Discovery (tj. odkrywanie Produktu) (50-51) często zaczyna się od zrozumienia oczekiwań, potrzeb i pragnień ludzi - poprzez obserwację, analizę, rozmowy i syntezę - w kierunku pożądanego outcome. Po uzyskaniu spostrzeżeń, Scrum Team określa problem lub szansę oraz porządkuje je według potencjalnej wartości. Zespół zbiera pomysły na rozwiązania, unikając ich zbyt wczesnej oceny. Jeśli potencjalna wartość jest wysoka, ale brakuje dowodów na możliwość jej realizacji, Scrum Team powinien przeprowadzić badania, testowanie założeń lub stworzyć proste prototypy, które można przetestować z rzeczywistymi klientami, decydentami lub użytkownikami. Discovery nigdy się nie kończy - warto cyklicznie prowadzić wywiady lub obserwacje klientów, decydentów lub użytkowników.
 
-Odkrywanie polega na uczeniu się w kierunku pożądanego rezultatu poprzez priorytetyzowanie, działanie, unikanie lub ciągłe udoskonalanie pomysłów, bazując na obserwacji użytkowników, feedbacku lub innych wnioskach. Odkrywanie kładzie nacisk na współpracę, kreatywność oraz brak obaw przed porażką i ponownym próbowaniem. Odkrywanie pozwala traktować pracę jako problem do rozwiązania lub szansę do wykorzystania i pomaga Scrum Teamowi tworzyć, priorytetyzować oraz testować opcje rozwiązań, które równoważą to, czego ludzie pragną, co jest technicznie możliwe oraz co ma sens biznesowy - wszystko to w atmosferze dobrej zabawy.
+Discovery to proces uczenia się w kierunku pożądanego outcome, poprzez priorytetyzację, realizowanie, (świadome) niepodejmowanie lub ciągłe udoskonalanie pomysłów na podstawie obserwacji użytkowników, informacji zwrotnych i innych źródeł wiedzy. Akcentuje ono współpracę, kreatywność i gotowość do podejmowania ryzyka - z możliwością niepowodzenia i ponownej próby. Discovery postrzega pracę jako problemy lub szanse i pomaga Scrum Teamowi tworzyć, priorytetyzować i testować możliwe rozwiązania, które równoważą potrzeby ludzi, możliwości techniczne i sens biznesowy - wszystko to dobrze się bawiąc.
 
-Jeśli potrzebne jest odkrywanie, powinno być ono - w miarę możliwości - realizowane w sposób spójny ze Scrumem. Przykładowo, prace związane z odkrywaniem są ujawniane w Product Backlogu i Sprint Backlogu, członkowie Scrum Teamu praktykują odkrywanie i inne umiejętności, a zdobyte wnioski są omawiane podczas Sprintu i wydarzeń Scrumowych. Niezależnie od tego, ile czasu poświęcono na odkrywanie, w każdym Sprincie powinien powstać (i najlepiej zostać wydany) co najmniej jeden Increment. Należy zachować równowagę: odkrywanie pomaga uniknąć budowania niewłaściwego rozwiązania, ale można je także „przeciążyć”, a ostatecznie najważniejsza jest informacja zwrotna z rezultatów
+Jeśli Discovery jest potrzebne, powinno - w miarę możliwości - być realizowane w sposób spójny ze Scrumem. Na przykład, prace związane z Discovery są ujawniane w Product Backlogu i Sprint Backlogu, członkowie Scrum Teamu praktykują Discovery i inne umiejętności, a zdobyta wiedza omawiana jest w trakcie Sprintu i podczas wydarzeń Scrumowych. W każdym Sprincie powinien powstać co najmniej jeden Increment (a najlepiej również zostać wydany), niezależnie od tego, jak wiele działań odkrywczych zostało wykonanych. Potrzebna jest równowaga: Discovery pomaga uniknąć tworzenia niewłaściwych rozwiązań, ale jego nadmiar może być kosztowny. Ostatecznie najważniejsze jest to, co wynika z informacji zwrotnej.
 
-### Przywództwo (Leadership) {#leadership}
+### Przywództwo {#leadership}
 
-Przywództwo to umiejętność wpływania na grupę ludzi, prowadzenia jej i inspirowania do osiągnięcia wspólnego celu przy jednoczesnym unikaniu demotywacji. Przywództwo inspiruje myśli, działania i pasję oraz sprzyja jasnym, strategicznym kierunkom. Obejmuje celowe i intencjonalne „Idź, zobacz, słuchaj i zrozum” - zbieranie faktów i obserwacji, by podejmować lepsze decyzje, znane również jako Genchi Genbutsu (84).
+Przywództwo to zdolność do wywierania wpływu, prowadzenia i inspirowania grupy ludzi do osiągnięcia wspólnego celu bez wywoływania demotywacji. Inspiruje działania, myślenie i zaangażowanie oraz wyznacza jasny kierunek strategiczny. Obejmuje intencjonalne „Idź, Posłuchaj i Zrozum” (Genchi Genbutsu) (84), czyli zbieranie faktów i obserwacji w celu podejmowania lepszych decyzji.
 
-Przywództwo to dynamiczny proces społeczny obejmujący odpowiedzialność, budowanie relacji i wzmacnianie innych. Skuteczne przywództwo prowadzi do współtworzenia kierunku działania, efektywnego dopasowania zasobów i ludzi oraz wzajemnego _Zaangażowania_ członków grupy.
+Przywództwo to dynamiczny proces społeczny, obejmujący odpowiedzialność (responsibility), budowanie relacji i dawanie innym sprawczości. Skuteczne przywództwo prowadzi do współtworzenia kierunku działania, efektywnego dopasowania zasobów i ludzi oraz wzajemnego _Zaangażowania_ członków grupy.
 
-Scrum dąży do określonego typu przywództwa - przywództwa na rzecz odporności, rozumianego jako zbiór cech, a nie stanowisko menedżerskie. Przywództwo powinno obejmować, ale nie ograniczać się do: tworzenia środowiska dla samozarządzających Scrum Teamów, promowania jasności, zaufania, Przejrzystości, pojawiania się (71) właściwych kierunków, poczucia spełnienia w pracy, akceptowania niepewności (72) i porażek, zbierania dowodów dla lepszego podejmowania decyzji, proaktywnego zarządzania ryzykiem oraz eliminowania nieefektywności organizacyjnych.
+Scrum promuje szczególny rodzaj przywództwa - przywództwo na rzecz odporności organizacyjnej - jako zbiór cech, a nie funkcję kierowniczą. Oznacza to m.in. tworzenie warunków dla samozarządzających Scrum Teamów, klarowności, zaufania, Transparencji, ukierunkowanej emergencji (71), poczucia spełnienia w pracy, gotowości na niepewność (72), porażki, gromadzenia dowodów dla lepszego podejmowania decyzji, proaktywnego zarządzania ryzykiem i eliminowania nieefektywności organizacyjnych.
 
-Przywództwo odbywa się ze wszystkich stron, powinno występować na każdym poziomie i sprzyjać refleksji w odpowiednich momentach. Przywództwo powinno bezwzględnie dążyć do wartości, a jednocześnie być współczujące i etyczne. Wymaga wytrwałej sprawczości w zakresie zmiany przepływów pracy, procesów, systemów oraz środowiska pracy, obejmując (ale nie ograniczając się do) HR, finansów i zarządzania dostawcami. Lider to osoba, która wykazuje się przywództwem.
+Przywództwo powinno być obecne na wszystkich poziomach i we wszystkich kierunkach, sprzyjając refleksji we właściwym czasie. Powinno być stanowczo zorientowane na wartość, a jednocześnie empatyczne i etyczne. Wymaga ciągłego wpływu na zmiany w przepływach pracy, procesach, systemach i środowisku pracy - w tym (choć nie jest do tego ograniczone) w obszarach takich jak HR, finanse czy zarządzanie dostawcami. Liderem jest ten, kto przejawia przywództwo.
 
-Product Owner oraz Scrum Master równoważą przywództwo, autorytet i subtelną kontrolę poprzez jasne określanie intencji, wspieranie inicjatywy oraz wzmacnianie odpowiedzialności. Prowadzą zespół, nie stosując mikrozarządzania, zapewniając, że Scrum Team rozumie wizję i cele, ma autonomię w realizacji zadań i pozostaje odpowiedzialny za rezultaty. Gdy interwencja jest konieczna, reagują stanowczo, jednocześnie zachowując własność odpowiedzialności po stronie Scrum Teamu. Product Developerzy wykazują przywództwo poprzez skierowanie na samozarządzanie w zespole, profesjonalizm i orientację na cele; samozarządzanie wiąże się z odpowiedzialnością. Wspierający wykazują przywództwo poprzez usuwanie przeszkód krótkoterminowych i długoterminowych, poprawę spójności procesów zarządczych ze Scrumem oraz wspieranie powstawania zmian w pożądanym kierunku, gdy jest to potrzebne.
+Product Ownerzy i Scrum Masterzy balansują między przywództwem, autorytetem a subtelną kontrolą, poprzez jasne określenie intencji, wzmacniając inicjatywę i odpowiedzialność (accountability). Wskazują kierunek zamiast mikrozarządzać - tak, aby Scrum Team rozumiał wizję i cele, miał autonomię działania i ponosił odpowiedzialność (accountable) za outcomes. W razie potrzeby interweniują zdecydowanie, zachowując przy tym autonomię odpowiedzialności (accountabilities) w ramach Scrum Teamu. Developerzy Produktu przejawiają przywództwo poprzez samozarządzanie, profesjonalizm i ukierunkowanie na cel; samozarządzanie wiąże się z odpowiedzialnością (responsibilities). Supporterzy okazują przywództwo, wspierając usuwanie przeszkód krótko- i długoterminowych. Poprawiają spójność procesów zarządczych ze Scrumem. Jeżeli zostaną o to poproszeni, wspierają emergentną zmianę [stopniowo wyłaniającą się zmianę] w konkretnym kierunku.
 
 ### Myślenie od podstaw (First Principles Thinking) {#first-principles-thinking}
 
-Myślenie od podstaw to metoda rozwiązywania problemów polegająca na rozkładaniu wyzwań na ich najbardziej fundamentalne prawdy i budowaniu rozwiązań od zera. Zamiast polegać na analogiach czy utartych schematach, podejście to pyta: _„Co wiemy na pewno?”_ i rekonstruuje zrozumienie oraz rozwiązania na bazie tych podstawowych elementów. Przykłady obejmują, ale nie ograniczają się do:
+Myślenie od podstaw to metoda rozwiązywania problemów polegająca na rozłożeniu wyzwań na ich najbardziej fundamentalne prawdy i poszukiwaniu rozwiązań od nowa. Zamiast opierać się na analogii czy konwencjach, podejście to pyta: _„Co wiemy na pewno?”_ i buduje rozumienie oraz rozwiązania w oparciu o te fundamenty. Przykłady obejmują, ale nie ograniczają się do:
 
-- Zachęcania Scrumowego do _Skupienia_ na kluczowych czynnikach skuteczności (effectiveness), adaptacyjności (adaptiveness) (80) i terminowości - takich jak autonomia, Przejrzystość i adaptacja - zamiast ślepego podążania za procesami czy kopiowania rozwiązań innych.
-- Kwestionowania każdego założenia i odbudowywania rozwiązań na podstawie faktów oraz zasad fundamentalnych, co może prowadzić do przełomów.
-- Promowania oryginalnego myślenia, ciągłego doskonalenia oraz _Odwagi_ do kwestionowania status quo - co odblokowuje kreatywność i umożliwia transformacyjne rezultaty.
+- zachęcania Scrum Teamu do skupienia się na podstawowych czynnikach skuteczności, adaptacyjności (80) i terminowości - takich jak autonomia, Transparencja i Adaptacja - zamiast ślepego podążania za procesami lub kopiowania cudzych praktyk;
+- kwestionowania każdego założenia i budowania rozwiązań na faktach oraz kluczowych zasadach, co może prowadzić do przełomów;
+- promowania nieszablonowego myślenia, ciągłego usprawniania i Odwagi do podważania status quo - co odblokowuje kreatywność i umożliwia transformacyjne rezultaty.
 
 ### Ludzie i Zmiana {#people-and-change}
 
-Poziomu trudności wdrożenia Scruma nie należy lekceważyć. Scrum oferuje pewne zasady przewodnie poprzez swoje elementy. Umożliwia także powrót do myślenia od podstaw.
+Nie należy lekceważyć trudności związanych z wdrażaniem Scruma. Scrum oferuje zestaw zasad przewodnich poprzez swoje elementy. Stanowi też podejście umożliwiające powrót do fundamentalnych zasad.
 
-Scrum nie polega na wdrażaniu narzędzi. Scrum nie kończy się też na usuwaniu przeszkód. Przeszkoda w Scrumie to wszystko, co blokuje lub spowalnia postęp. Kluczowe jest, by działać intencjonalnie, nieustępliwie i wytrwale w obszarze ludzi, zmian i komunikacji. Zmiana często obejmuje rozwój ludzi, projektowanie, przepływy pracy, procesy, systemy, postawy, zachowania, język, nawyki oraz klimat pracy. Kultura jest wynikiem wyłaniającym się w czasie.
+Scrum nie polega na wdrożeniu narzędzi, a jednocześnie nie kończy się na usunięciu przeszkód (impediments). Przeszkoda w Scrumie to wszystko, co blokuje lub spowalnia postęp. Kluczowe jest intencjonalne, nieustępliwe i wytrwałe podejście do ludzi, zmian i komunikacji. Zmiana często obejmuje rozwój ludzi, projektowanie, przepływy pracy, procesy, systemy, postawy, zachowania, język, nawyki i klimat pracy. Kultura jest wynikiem emergencji.
 
-Skuteczna adopcja Scruma opiera się na podejściu emergentnym, zaangażowaniu skutecznych agentów zmiany oraz aktywnym wsparciu osób, których zmiana dotyczy lub które na nią wpływają. Kluczowe są intencjonalność i codzienny postęp w procesie wdrażania - praca nad adopcją Scruma nie powinna być odkładana na koniec, po zrealizowaniu innych zadań.
+Skuteczna adopcja Scruma wykorzystuje podejście emergentne, posiada skutecznych agentów zmiany i angażuje entuzjastyczne wsparcie tych, których dotyczy lub którzy mają wpływ. Intencjonalność i codzienny postęp we wdrażaniu są kluczowe - praca nad wdrożeniem nie powinna być ostatnim zadaniem realizowanym dopiero wtedy, gdy wszystko inne zostało już zrobione.
 
-Rozpocznij od zdyscyplinowanej, emergentnej zmiany w określonym kierunku. Dąż do tego, by zmiana emergentna stała się na tyle naturalna, że w końcu stanie się częścią zaplanowanej pracy. Adopcja Scruma ma kierunek, ale nie ma z góry określonego celu końcowego. Zmiana jest emergentna, a więc nieprzewidywalna. Ciekawość umożliwia cykl: obserwuj, słuchaj, ucz się i adaptuj w wybranym kierunku. Ważne jest budowanie relacji, rozumienie perspektyw oraz wsłuchiwanie się w to, co nie jest wypowiadane i co się nie dzieje. Zmiana to trudna, ale satysfakcjonująca praca.
+Należy zacząć od metodycznej emergentnej zmiany w określonym kierunku. Dążyć do tego, by zmiana emergentna stała się tak naturalna, że stanie się częścią zaplanowanej pracy. Adopcja Scruma ma kierunek, ale nie ma z góry określonego celu końcowego. Zmiana jest emergentna, a zatem nieprzewidywalna. Ciekawość wspiera schemat: dostrzegaj - słuchaj - ucz się - dostosuj w określonym kierunku. Kluczowe jest budowanie relacji i rozumienie perspektyw, słuchanie tego, co niewypowiedziane, i zauważanie tego, co się nie dzieje. Zmiana to ciężka, ale satysfakcjonująca praca.
 
-## Role Scrum w Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
+## Role Scrumowe w Rozszerzeniach {#the-scrum-roles-in-the-expansion-pack}
 
-Cztery role w Scrumie to Product Owner, Product Developer, Scrum Master i Interesariusz (Stakeholder). Role te budują, nagradzają i zdobywają zaufanie oraz umożliwiają spójne przywództwo. Tylko trzy odpowiedzialności - Product Owner, Product Developer i Scrum Master - wchodzą w skład Scrum Teamu.
+Cztery role w Scrumie to: Product Owner, Product Developerzy, Scrum Master oraz Interesariusz (Stakeholder). Role te darzą, nagradzają i zdobywają zaufanie, oraz umożliwiają spójne przywództwo. Tylko trzy z tych odpowiedzialności (accountabilities) - Product Owner, Product Developerzy i Scrum Master - należą do Scrum Team.
 
-Jedna osoba może pełnić więcej niż jedną rolę Scrum. Podejmując się kilku ról, należy zachować ostrożność, by nie przekroczyć swoich kompetencji. Role Scrum zostały zaprojektowane tak, aby zapewnić mechanizmy kontroli i równowagi.
+Jedna osoba może pełnić więcej niż jedną rolę Scrumową. W takim przypadku należy zachować ostrożność, aby nie przekraczać granic odpowiedzialności. Role w Scrumie zostały zaprojektowane tak, aby utrzymać wzajemny balans. 
 
-Scrum Team to zespół praktykujący Scrum, odpowiadający za trzy kluczowe _role_ (accountabilities): Scrum Mastera, Product Ownera oraz Product Developerów. Zespół ten zajmuje się problemami lub szansami zgłaszanymi przez interesariuszy (Stakeholderów), w tym klientów i użytkowników, oraz dostarcza użyteczne, używalne i potencjalnie wartościowe Incrementy z perspektywy zarówno Scrum Teamu, jak i interesariuszy, w kierunku realizacji Celu Produktu (Product Goal). W przypadku pracy złożonej (30-35) Scrum Team powinien być niewielki, poznawczo zróżnicowany i samozarządzający, gdzie członkowie zespołu - często wspierani przez technologię - dbają o swoją pracę nawzajem i uczą się wykonywać zadania innych.
+Scrum Team to zespół, który stosuje Scrum, obejmuje trzy _odpowiedzialności_ (accountabilities) Scrumowe: Scrum Mastera, Product Ownera oraz Product Developerów, rozwiązuje problemy lub wykorzystuje szanse Interesariuszy (w tym, lecz nie tylko, klientów i użytkowników) i dostarcza użyteczne, używalne i potencjalnie wartościowe Incrementy z perspektywy Scrum Teamu i Interesariuszy, prowadząc do osiągnięcia Celu Produktu. W przypadku złożonej pracy (30-35), Scrum Team powinien być niewielki, zróżnicowany poznawczo i samozarządzający się, a jego członkowie[human members]- często wspierani przez technologię - troszczą się o wzajemną pracę i uczą się nawzajem swoich zadań.
 
-Scrum Team powinien być zespołem przekrojowym, czyli posiadać kompetencje zarówno techniczne, jak i biznesowe. W Scrum Team nie występuje formalna hierarchia. Scrum Team powinien dysponować wszystkimi umiejętnościami i wsparciem niezbędnym do:
+Scrum Team powinien być cross-funkcjonalny, czyli multidyscyplinarny, łączący kompetencje z obszaru technologii i domeny biznesowej. W Scrum Teamie nie występuje wyraźna hierarchia. Zespół powinien posiadać wszelkie niezbędne umiejętności i wsparcie, aby:
 
-- odkrywania (w tym badań i projektowania) w razie potrzeby,
-- dostarczania (w tym inżynierii, jeśli jest to właściwe),
-- weryfikowania realizacji wartości (a także użyteczności, pożądania i wykonalności w granicach etycznych (57)).
+- prowadzić Discovery (w tym badania i projektowanie),
+- dostarczać (w tym inżynierię, gdy to zasadne), oraz
+- Walidować realizację wartości (a także użyteczność, pożądalność i wykonalność w granicach etycznych (57)).
 
-Scrum Team, wspierany przez Supporterów, wspólnie dba o obszar problemowy lub szansę, odkrywanie produktu (Product discovery), dostarczanie, weryfikację i wbudowaną jakość, wejście na rynek (go-to-market) oraz walidację wartości (Value validation) w kierunku realizacji Celu Produktu. Scrum Team dąży do netto usprawnień; będąc zespołem samozarządzającym (49), decyduje _kto_ robi _co_, _jak_, _kiedy_ i _gdzie_.
+Scrum Team, wspierany przez Supporterów, wspólnie zajmuje się obszarem problemowym lub szansą, Discovery Produktu, dostarczaniem, weryfikacją i wbudowywaniem jakości, wejściem na rynek oraz walidacją wartości w kierunku Celu Produktu. Dąży do usprawnień, których wartość przewyższa koszt; jako samozarządzający się Scrum Team (49), samodzielnie decyduje _kto_, _co_, _jak_, _kiedy_ i _gdzie_ wykonuje.
 
-Walidacja wartości to potwierdzenie (lub zaprzeczenie) w określonych granicach, że oczekiwany rezultat został osiągnięty.
+Walidacja wartości to potwierdzenie (lub zaprzeczenie), w ustalonych granicach, że oczekiwany outcome(s) został osiągnięty.
 
-Scrum Team dostarcza Incrementy w każdym Sprincie, nieustannie samozarządza (49), aby znajdować i naprawiać problemy, synchronizuje się w sposób ciągły oraz często wypuszcza nowe wersje produktu. Scrum Team jest wystarczająco mały, by pozostać zwinny, a jednocześnie na tyle duży, by wykonać znaczącą pracę w ramach Sprintu. Często mniejsze Scrum Teamy lepiej się komunikują i są bardziej produktywne.
+Scrum Team dostarcza Increment(y) w każdym Sprincie, nieustannie sobą samozarządza (49), by znajdować i rozwiązywać problemy, synchronizuje się ciągle i często udostępnia rezultaty. Scrum Team jest wystarczająco mały, by być zwinny, i wystarczająco duży, by wykonać istotną pracę w czasie Sprintu. Czasami mniejsze Scrum Teamy lepiej się komunikują i są bardziej produktywne.
 
-Scrum opiera się na samozarządzaniu Scrum Teamach (49), działających w ramach określonej struktury organizacyjnej lub produktowej. Autonomia istnieje, ale jest ograniczona przez wydarzenia Scrum, odpowiedzialności, artefakty, zobowiązania, filary, wartości oraz potrzeby organizacyjne.
+Scrum opiera się na samozarządzających Scrum Teamach (49) działających w ramach określonej struktury organizacyjnej lub Produktowej. Autonomia istnieje, lecz jest ograniczona przez wydarzenia Scrumowe, odpowiedzialności (accountabilities), artefakty, zobowiązania, filary, wartości i potrzeby organizacyjne.
 
-Scrum angażuje grupy osób, które wspólnie posiadają lub nabywają wszystkie umiejętności i wiedzę niezbędną do wykonania pracy oraz dzielą się tymi umiejętnościami w razie potrzeby. Celowe interakcje, wspierane przez liderów, są konieczne, aby zwiększyć szanse na osiągnięcie pomyślnych rezultatów.
+Scrum angażuje grupy ludzi, którzy wspólnie posiadają lub zdobywają wszystkie umiejętności i kompetencje niezbędne do wykonania pracy oraz dzielą się nimi w razie potrzeby. Potrzebne są intencjonalne interakcje, wspierane przez liderów, by zwiększyć szanse na powodzenie.
 
-_Skupienie_ powinno pozostać na osiąganiu Celu Produktu w najbardziej efektywny sposób, przy właściwym poziomie inwestycji, dostarczając jednocześnie wartościowe rezultaty.
+Należy _Skupić się_ na osiągnięciu Celu Produktu w najbardziej efektywny sposób, przy odpowiednim poziomie inwestycji, dostarczając wartościowe outcomes.
 
-Scrum wspiera współpracę zespołową, promując ciągłą interakcję i współdzieloną odpowiedzialność zamiast sekwencyjnej, silosowej pracy (72). Takie podejście pozwala Scrum Team oraz Interesariuszom na akceptację niepewności (72), umożliwiając szybsze dostosowania oparte na bieżącej nauce i informacjach zwrotnych. Nakładanie się faz odkrywania, rozwoju i walidacji wartości zapewnia bardziej adaptacyjne (80), zorientowane na wartość podejście do rozwoju Produktu.
+Scrum wspiera zespołową współpracę poprzez zachęcanie do ciągłej interakcji i wspólnej odpowiedzialności (accountability) zamiast pracy sekwencyjnej i działania w silosach. Takie podejście pozwala Scrum Teamowi i Interesariuszom oswajać się z niepewnością (72), umożliwiając szybsze dostosowanie oparte na bieżącym uczeniu się i informacji zwrotnej. Nachodzące się na siebie z natury  Discovery, wytwarzanie i walidacja wartości, umożliwiają bardziej adaptacyjne (80), nakierowane na wartość podejście do rozwoju Produktu.
 
-Nakładająca się praca sprzyja współdzielonej odpowiedzialności w Scrum Team, zwiększając zaangażowanie i poczucie zobowiązania wszystkich członków. Scrum Team koncentruje się na rozwiązywaniu wyzwań oraz wykorzystywaniu pojawiających się szans, zachęca do proaktywnego działania, rozwija zróżnicowane kompetencje oraz podnosi świadomość dynamiki rynkowej wśród wszystkich uczestników.
+Zachodzące na siebie obszary pracy wspierają wspólną odpowiedzialność (accountability) w Scrum Teamie, co wzmacnia zaangażowanie i zobowiązanie. Scrum Team koncentruje się na odpowiadaniu na wyzwania i wykorzystywaniu szans, zachęca do proaktywnego działania, rozwija zróżnicowany zestaw umiejętności i zwiększa świadomość dynamiki rynkowej wśród wszystkich uczestników.
 
-Scrum Team zajmuje się wszystkimi aktywnościami związanymi z Produktem - od współpracy z Interesariuszami po walidację wartości, włączając w to weryfikację, utrzymanie, operacje, eksperymentowanie, badania i rozwój oraz wszelkie inne niezbędne działania. Scrum Team kształtuje jakość. Supporterzy dbają o to, by organizacja odpowiednio kształtowała klimat i środowisko pracy oraz umożliwiała Scrum Team samozarządzanie (49). Praca w Sprintach w zrównoważonym tempie poprawia _Skupienie_ i spójność.
+Scrum Team zajmuje się wszystkimi działaniami związanymi z Produktem - od współpracy z Interesariuszami po walidację wartości, w tym weryfikację, utrzymanie, wsparcie, eksperymentowanie, badania i rozwój oraz wszystko inne, co może być potrzebne. Scrum Team buduje jakość. Supporterzy zapewniają, że organizacja kształtuje odpowiedni klimat i środowisko pracy oraz daje Scrum Teamowi możliwość samozarządzania (49). Praca w Sprintach w zrównoważonym tempie poprawia _Skupienie_ i spójność.
 
-Scrum Team oraz Interesariusze nie wiedzą, czego się nauczą. Niektóre doświadczenia zwiększają pewność, a inne powodują większą niepewność (72). Pewne rzeczy mogą się pojawić, zaniknąć, wypaść z procesu lub stać się mniej istotne.
+Scrum Team i Interesariusze nie wiedzą, czego się nauczą. Niektóre odkrycia zwiększają pewność, inne powodują wzrost niepewności (72). Pewne kwestie mogą się pojawić, zniknąć, lub stracić na pilności bądź znaczeniu.
 
-Scrum Team posiada zestrojoną autonomię. Zestrojona autonomia oznacza, że Scrum Team ma swobodę decydowania o sposobie rozwiązywania problemów, jednocześnie pozostając skoncentrowanym na wspólnych celach i rezultatach, co umożliwia zarówno innowacyjność, jak i spójność organizacyjną. Kluczowe jest budowanie Scrum Team o zróżnicowaniu poznawczym. Do krzyżowego zapylania (cross-pollination) dochodzi częściej, gdy członkowie Scrum Team współpracują, ufają sobie nawzajem i potrafią się samooceniać.
+Scrum Team posiada autonomię ukierunkowaną. Oznacza to, że ma wolność decydowania o sposobie rozwiązywania problemów przy jednoczesnym skupieniu na wspólnych celach i outcomes, co umożliwia innowacyjność i spójność organizacyjną. Kluczowe jest pielęgnowanie poznawczej różnorodności Scrum Teamu. Wymiana wiedzy, inspiracji i doświadczeń jest bardziej prawdopodobna, gdy członkowie Scrum Teamu współpracują, ufają sobie i praktykują autorefleksję.
 
-Aby osiągnąć sukces, Scrum Team oraz Supporterzy powinni rozwijać gotowość do oduczania się przestarzałych zasad. Inspekcja i Adaptacja wymagają klimatu, który przewiduje i toleruje popełnianie błędów. Kluczowe jest, aby _Skupienie_ krytyki dotyczyło pomysłów, a nie osób. Wszyscy członkowie Scrum Team „grają na tym samym boisku”, realizując spójnie nakładającą się pracę i ponosząc wspólną odpowiedzialność za sukces.
+Aby osiągnąć sukces, Scrum Team i Supporterzy powinni rozwijać gotowość do oduczania się przestarzałych zasad. Inspekcja i Adaptacja wymagają atmosfery, która antycypuje i toleruje błędy. Kluczowe jest, by krytyka Skupiała się na ideach, a nie na osobach. Wszyscy członkowie Scrum Teamu „grają do tej samej bramki”, wykonując spójną, zachodzącą na siebie pracę, i wszyscy są odpowiedzialni (accountable) za sukces.
 
 ### Interesariusz {#stakeholder}
 
-Interesariusz to rola. Interesariuszem jest podmiot, osoba lub grupa zainteresowana, dotknięta lub mająca wpływ na wejścia, działania i rezultaty. Interesariusze mogą mieć bezpośredni lub pośredni interes wewnątrz lub na zewnątrz organizacji, jej Produktów lub usług.
+Interesariusz to rola. Interesariuszem jest podmiot, osoba lub grupa zainteresowana wkładem, działaniami i outcomes, mająca na nie wpływ lub będąca nimi dotknięta. Interesariusze mogą mieć bezpośredni lub pośredni interes wewnątrz organizacji lub na zewnątrz, w jej Produktach bądź usługach.
 
-Przykłady Interesariuszy obejmują (ale nie ograniczają się do): klientów, decydentów, użytkowników, dostawców, influencerów, menedżerów, współpracowników, liderów, ustawodawców, sponsorów finansowych, ekspertów merytorycznych oraz organy nadzoru. Nie należy pomijać nieożywionych, nie-ludzkich Interesariuszy, takich jak prawo czy sztuczna inteligencja. Niektórzy Interesariusze mają większy wpływ lub są bardziej dotknięci niż inni, a każdy z nich może preferować inne czynniki. Każdy Interesariusz posiada inny stopień władzy lub wpływu.
+Przykłady interesariuszy obejmują (ale nie ograniczają się do): klientów, decydentów, użytkowników, dostawców, osoby wpływowe, menedżerów, współpracowników, liderów, prawodawców, sponsorów finansowych, ekspertów dziedzinowych oraz osoby odpowiedzialne za governance. Nieożywieni, inni-niż-ludzie Interesariusze, tacy jak prawo czy AI (Sztuczna Inteligencja), również nie powinni być pomijani. Niektórzy Interesariusze mają większy wpływ lub są bardziej dotknięci niż inni, a każdy może mieć inne priorytety. Każdy Interesariusz ma inną siłę oddziaływania lub wpływu.
 
-Klient to każdy Interesariusz, który otrzymuje wartość z Produktu poprzez jego zakup i/lub wybór. Do klientów mogą należeć nabywcy (czyli osoby, które płacą za Produkt lub go nabywają), decydenci (osoby zatwierdzające lub autoryzujące wdrożenie Produktu) oraz użytkownicy końcowi (osoby bezpośrednio korzystające z Produktu). Czasami klient nie jest tym samym co klient końcowy, np. w modelach B2B2C (79) lub B2B2B (78).
+Klient to każdy Interesariusz, który otrzymuje wartość z Produktu poprzez jego zakup i/lub wybór. Klienci mogą obejmować nabywców (tych, którzy płacą za Produkt lub go pozyskują), decydentów (tych, którzy zatwierdzają lub autoryzują jego wdrożenie) oraz użytkowników końcowych (tych, którzy bezpośrednio korzystają z Produktu). Czasami klient nie jest tożsamy z użytkownikiem końcowym, np. w modelach B2B2C (79) lub B2B2B (78).
 
-Dla skutecznej adopcji Scruma kluczowe jest regularne i celowe prowadzenie interakcji pomiędzy Interesariuszami (w tym, ale nie tylko, klientami i użytkownikami) a Scrum Team.
+Aby adopcja Scruma była skuteczna, kluczowe są regularne, intencjonalne interakcje pomiędzy Interesariuszami (w tym, ale nie tylko, klientami i użytkownikami) a Scrum Teamem.
 
-Użytkownik to Interesariusz, który bezpośrednio korzysta z Produktu w celu osiągnięcia określonych celów lub rozwiązania problemów. Użytkownicy doświadczają Produktu bezpośrednio - niezależnie od tego, czy jest to usługa, platforma czy doświadczenie - a ich opinie i satysfakcja są kluczowe dla ciągłego doskonalenia Produktu. Użytkownicy mogą, ale nie muszą mieć wpływu na decyzje zakupowe, jednak ich adopcja i zaangażowanie są niezbędne dla dalszego sukcesu Produktu. Czasami użytkownik nie jest tym samym co użytkownik końcowy, na przykład w modelach B2B2C lub B2B2B. Dla skutecznej adopcji Scruma kluczowe jest regularne i celowe prowadzenie interakcji pomiędzy użytkownikami (a czasem także użytkownikami końcowymi) a Scrum Team.
+Użytkownik to Interesariusz, który bezpośrednio korzysta z Produktu, aby osiągnąć określone cele lub rozwiązania problemów. Użytkownicy mają bezpośrednie doświadczenia z Produktem - niezależnie czy jest to usługa, platforma, czy inne doświadczenie - a ich opinie i satysfakcja są kluczowe dla dalszego rozwoju Produktu. Użytkownicy mogą, lecz nie muszą mieć wpływu na decyzje zakupowe, jednak przyswojenie przez nich produktu i ich zaangażowanie są kluczowe dla dalszego sukcesu Produktu. Czasami użytkownik nie jest tożsamy z użytkownikiem końcowym, np. w modelach B2B2C lub B2B2B. Dla skutecznej adopcji Scruma niezbędne są regularne, intencjonalne interakcje między użytkownikami (oraz, gdy to możliwe, z użytkownikami końcowymi) a Scrum Teamem.
 
-Decydent (nazywany przez Jeffa Pattona „wybierającym”) (82) to Interesariusz mający uprawnienia do zatwierdzania, wybierania lub autoryzowania wdrożenia lub zakupu Produktu. Decydent odpowiada za ocenę opcji i podjęcie ostatecznej decyzji, często uwzględniając potrzeby zarówno użytkowników, jak i całej organizacji. Decydenci mogą, ale nie muszą sami korzystać z Produktu, jednak ich wybory bezpośrednio wpływają na to, które Produkty są wdrażane oraz jak wartość jest dostarczana innym Interesariuszom. Dla skutecznej adopcji Scruma często lepiej działać na podstawie niepełnych informacji i zbierać informacje zwrotne z pojawiających się rezultatów.
+Decydent (nazywany przez Jeffa Pattona „wybierającym”) (82) to interesariusz posiadający uprawnienia do zatwierdzania, wyboru lub autoryzowania wdrożenia lub zakupu Produktu. Decydent jest odpowiedzialny (responsible) za zbadanie opcji i podjęcie ostatecznej decyzji, często uwzględniając potrzeby użytkowników i całej organizacji. Decydenci mogą, lecz nie muszą, korzystać z Produktu bezpośrednio, jednak ich wybory bezpośrednio wpływają na to, jakie Produkty zostaną wdrożone i w jaki sposób dostarczana jest wartość innym Interesariuszom. Dla skutecznej adopcji Scruma często lepiej działać mimo niepełnych informacji i wychwytywać pojawiające się informacje zwrotne.
 
-Legislatorzy (a na potrzeby tego dokumentu również wewnętrzni i zewnętrzni twórcy polityk) ustanawiają zasady, polityki i granice działania Produktu. Określają ramy prawne, regulacyjne lub organizacyjne, które kształtują sposób dostarczania wartości Interesariuszom oraz standardy profesjonalizmu. Dbają o to, aby Produkt był zgodny z zewnętrznymi lub wewnętrznymi wymogami, kierując jego rozwojem i zapewniając trwałość. Dla skutecznej adopcji Scruma kluczowe jest, aby nie wyolbrzymiać ani nie bagatelizować wymagań prawnych.
+Prawodawcy (oraz, na potrzeby tego dokumentu, wewnętrzni lub zewnętrzni twórcy wytycznych) ustanawiają zasady, polityki i granice działania Produktu. Definiują ramy prawne, regulacyjne lub organizacyjne, które kształtują sposób dostarczania wartości interesariuszom i standardy profesjonalizmu. Dbają o to, by Produkt był zgodny z wymaganiami wewnętrznymi i zewnętrznymi, kierując jego ewolucją i trwałością. Dla skutecznej adopcji Scruma kluczowe jest, by nie przeceniać ani nie bagatelizować wymagań prawnych.
 
-Sponsorzy finansowi zapewniają finansowanie i zasoby na rozwój, wdrożenie oraz doskonalenie Produktu. Ocieniają wykonalność, wartość i opłacalność Produktu, inwestując na podstawie jego potencjału do ciągłego dostarczania wartości Interesariuszom. Sponsorzy finansowi mają wpływ na wizję, strategię i cele Produktu, dbając o ich zgodność ze zwrotem z inwestycji oraz długoterminową trwałością. Dla skutecznej adopcji Scruma kluczowe jest elastyczne podejście i elastyczne finansowanie w miarę pojawiania się nowych informacji.
+Sponsorzy finansowi zapewniają finansowanie i zasoby dla rozwoju, wdrożenia i doskonalenia Produktu. Oceniają jego wykonalność, wartość i opłacalność, inwestując w oparciu o jego potencjał do ciągłego dostarczania wartości Interesariuszom. Sponsorzy finansowi wpływają na wizję, strategię i cele Produktu, aby zapewnić zgodność z oczekiwanym zwrotem z inwestycji i długoterminową trwałością. Kluczowe dla skutecznej adopcji Scruma są elastyczne podejście i elastyczne finansowanie w odpowiedzi na pojawiające się informacje.
 
-Eksperci dziedzinowi wnoszą dogłębną wiedzę lub unikalne umiejętności niezbędne do tworzenia, rozwoju i utrzymania Produktu. Niezależnie od tego, czy specjalizują się w technologii, projektowaniu, zgodności czy danej dziedzinie, eksperci dziedzinowi wspierają użyteczność, wykonalność, profesjonalizm oraz rozszerzalność Produktu, nie przeszkadzając jednocześnie samozarządzającym Scrum Teamom (49). Eksperci dziedzinowi mogą pomagać w eliminowaniu luk w satysfakcji oraz przyczyniać się do zdolności Produktu do adaptacji, jak również do identyfikowania, reprezentowania lub mierzenia zjawisk emergentnych (71). Dla skutecznej adopcji Scruma kluczowe jest regularne przekazywanie wiedzy od ekspertów dziedzinowych do Scrum Team oraz pomiędzy członkami zespołu.
+Eksperci dziedzinowi wnoszą głęboką wiedzę lub unikalne umiejętności niezbędne do tworzenia, rozwoju i utrzymania Produktu. Niezależnie od tego, czy koncentrują się na technologii, projektowaniu, zgodności czy konkretnej domenie, eksperci wspierają użyteczność, wykonalność, profesjonalizm i możliwość rozbudowy Produktu, ale nie przeszkadzają samozarządzającemu się Scrum Teamowi (49). Pomagają zidentyfikować i zmniejszyć luki satysfakcji oraz wspierają zdolność Produktu do adaptacji i reprezentowania lub mierzenia emergencji (71). Dla skutecznej adopcji Scruma kluczowe jest wspieranie regularnego transferu wiedzy od ekspertów do Scrum Teamu i w jego obrębie.
 
-Termin "luka satysfakcji" oznacza różnicę między tym, czego Interesariusze doświadczają obecnie, a tym, jak chcieliby, aby wyglądało ich doświadczenie. Innymi słowy, jest to różnica między poziomem zadowolenia Interesariuszy z Produktu dziś a poziomem zadowolenia, jaki mogliby osiągnąć.
+Luka satysfakcji (satisfaction gap) oznacza różnicę pomiędzy tym, czego Interesariusze obecnie doświadczają, a tym, jak chcieliby, aby ich doświadczenie wyglądało. Innymi słowy - to różnica między aktualnym poziomem satysfakcji z Produktu a możliwym poziomem.
 
-Governance oznacza struktury, standardy, regulacje, normy, procesy i praktyki, które świadomie ograniczają i ukierunkowują kierunek rozwoju Produktu, podejmowanie decyzji oraz odpowiedzialność. Governance wspiera Przejrzystość i zapewnia przestrzeganie standardów wartości, wykonalności i profesjonalizmu. Zapewnia mechanizmy zarządzania ryzykiem oraz dostosowywania Produktu do zmieniających się potrzeb lub warunków, wspierając jego długowieczność i ewolucyjny charakter. Dla skutecznej adopcji Scruma kluczowe jest, aby governance było spójne ze Scrumem - na przykład poprzez wyznaczenie pojedynczego punktu kontaktowego dla każdego obszaru governance, który prowadzi celowe interakcje dotyczące jakości i zgodności ze Scrum Team, regularną Inspekcję i Adaptację governance oraz brak niespodzianek.
+Governance (ład organizacyjny) to struktury, standardy, regulacje, normy, procesy i praktyki, które świadomie ograniczają i nadają kierunek rozwojowi Produktu, podejmowanie decyzji i odpowiedzialność (accountability). Governance wspiera transparencję i prowadzi do przestrzegania standardów dotyczących wartości, wykonalności i profesjonalizmu. Stanowi mechanizm zarządzania ryzykiem i adaptacji Produktu do zmieniających się potrzeb lub środowisk, wspierając jego trwały i ewolucyjny charakter. Dla skutecznej adopcji Scruma kluczowe jest, aby governance był spójny ze Scrumem, np. poprzez jednoznaczne przypisanie punktu kontaktu do każdego obszaru governance, która ma intencjonalne interakcje z Scrum Teamem w zakresie jakości i zgodności, regularną inspekcję i adaptację governance oraz brak niespodzianek.
 
 ### Supporterzy {#supporter}
 
-Supporter to szczególny typ Interesariusza. Supporterzy są wspierającymi Interesariuszami oraz agentami zmiany. Często stanowią część silnej koalicji przewodzącej (83), która inspiruje i usuwa czynniki demotywujące. Supporterzy wspierają Scrum Team w rozwoju oraz wpływają na przepływy pracy, procesy, systemy, Produkty, usługi i środowisko pracy organizacji, aby były spójne z wdrożeniem Scruma i zjawiskami emergentnymi (71). Supporterzy powinni uczestniczyć wtedy i tam, gdzie jest to potrzebne lub gdy zostaną o to poproszeni. Tworzenie wartości często wymaga efektywnej i konstruktywnej współpracy z innymi Interesariuszami 
+Supporter to szczególny typ Interesariusza. Supporterzy są wspierającymi Interesariuszami i agentami zmiany. Często wchodzą w skład silnej koalicji przewodniej (83), która inspiruje i usuwa czynniki demotywujące. Supporterzy wspierają Scrum Team w rozwoju oraz wpływają na przepływy pracy, procesy, systemy, Produkty, usługi i środowisko pracy w organizacji, aby były spójne z adopcją Scruma i emergencją (71). Supporterzy powinni uczestniczyć tam, gdzie jest to potrzebne lub na życzenie. Tworzenie wartości często wymaga skutecznej i konstruktywnej współpracy z innymi Interesariuszami.
 
-W zależności od wielkości organizacji, do grona Supporterów zalicza się (ale nie ogranicza się do): współpracowników, decydentów, sponsorów finansowych, organy nadzoru (governance oversight), menedżerów, ekspertów dziedzinowych, marketing, HR, finanse, dział zakupów oraz wczesnych użytkowników (early adopters). Supporterzy, którzy nie umożliwiają Scrum Team realizacji zaleceń zawartych w tym dokumencie, w rzeczywistości nie są Supporterami. Kluczową rolę w budowaniu klimatu sprzyjającego wsparciu ze strony Supporterów odgrywają członkowie zarządu i kadra kierownicza najwyższego szczebla. Supporterzy powinni wykazywać przywództwo, które jest doceniane przez Scrum Team.
+W zależności od wielkości organizacji, do grona Supporterów mogą należeć (choć nie tylko): współpracownicy, decydenci, sponsorzy finansowi, osoby odpowiedzialne za governance, menedżerowie, eksperci dziedzinowi, przedstawiciele marketingu, działu HR, finansów, zakupów oraz wczesnych użytkowników. Supporterzy, którzy nie umożliwiają Scrum Teamom działania zgodnie z zaleceniami zawartymi w niniejszym dokumencie, nie są tak naprawdę Supporterami. W szczególności członkowie zarządów i osoby na najwyższych szczeblach kierowniczych odgrywają kluczową rolę w tworzeniu klimatu, w którym Supporterzy mogą wspierać. Supporterzy powinni wykazywać przywództwo, które Scrum Team doceni.
 
-### Sztuczna Inteligencja {#artificial-intelligence}
+### AI (Sztuczna Inteligencja) {#artificial-intelligence}
 
-Sztuczna inteligencja (AI) staje się coraz bardziej integralną częścią środowiska pracy i może znacząco rozszerzyć możliwości Scrum Team w zakresie odkrywania, podejmowania decyzji, rozwoju Produktu oraz realizacji wartości.
+Sztuczna Inteligencja (AI) staje się coraz bardziej integralną częścią środowiska pracy i może znacząco rozszerzyć możliwości Scrum Teamu w obszarach Discovery, podejmowania decyzji, rozwoju Produktu i realizacji wartości.
 
-AI może usprawnić Scrum poprzez:
+AI może wspierać Scruma poprzez:
 
-- Empiryczne sterowanie procesem (64-66): Analityka oparta na AI zwiększa Przejrzystość, umożliwia skuteczniejszą inspekcję oraz adaptację.
-- Wspomaganie poznawcze: AI pozwala członkom Scrum Team skoncentrować się na kwestiach strategicznych, kreatywnych i etycznych.
-- Ciągła adaptacja wartości: AI może na bieżąco aktualizować i zmieniać priorytety elementów Product Backlogu na podstawie informacji zwrotnych od użytkowników i trendów.
-- Wgląd systemowy: AI identyfikuje ukryte współzależności, co usprawnia podejmowanie decyzji opartych na danych.
+- Empiryczną kontrolę procesu (64-66): analiza wspierana przez AI poprawia Transparencję, Inspekcję i Adaptację,
+- Rozszerzenie możliwości poznawczych: AI pozwala członkom Scrum Teamu (ludziom) skupić się na aspektach strategicznych, kreatywnych i etycznych,
+- Ciągłą Adaptację Wartości: AI może na bieżąco aktualizować i nadawać priorytety Elementom Product Backlogu, bazując na informacjach zwrotnych od użytkowników w czasie rzeczywistym i obserwowanych trendach,
+- Zrozumienie zależności systemowych: AI identyfikuje ukryte współzależności, wspierając podejmowanie decyzji oparte na danych.
 
-Możliwości są nieograniczone. Scrum Team może wykorzystywać AI do:
+Możliwości są nieograniczone. Scrum Teamy mogą wykorzystywać AI do:
 
-- Odkrywania niejasności w tekście oraz ciągłej inspekcji własnych rekomendacji i wyników pod kątem uprzedzeń, błędów i niezamierzonych konsekwencji.
-- Regularnej walidacji i adaptacji modeli oraz aplikacji.
-- Wspierania przejrzystości w porządkowaniu (sekwencjonowaniu) Product Backlogu.
-- Tworzenia agentów jako członków zespołu AI.
-- AI może być pomocna w celowym testowaniu i podważaniu obecnego sposobu myślenia.
+- Odkrywania niejasności w tekście i ciągłej inspekcji własnych rekomendacji i wyników pod kątem uprzedzeń, błędów i niezamierzonych konsekwencji,
+- Regularnej walidacji i adaptacji modeli oraz aplikacji,
+- Wspierania transparencji w porządkowaniu kolejności w Product Backlogu,
+- Tworzenia agentów AI jako członków zespołu.
+- AI może być pomocne w celowym testowaniu i podważaniu aktualnego sposobu myślenia.
 
-Zagrożenia są równie nieograniczone. Należy utrzymywać wyraźną ludzką odpowiedzialność za wszystkie rezultaty (zgodnie z odpowiedzialnościami wynikającymi ze Scruma), traktując AI jako potężnego, lecz nadzorowanego partnera wspierającego podejmowanie decyzji. To podejście określa się jako pozostawienie „człowieka w pętli” (human in the loop). Chociaż AI może zwiększać innowacyjność i efektywność przy najniższych kosztach, nie zastępuje ludzkiej odpowiedzialności. AI powinna wspierać - a nie zastępować - empiryczne sterowanie procesem Scrum (64-66) oraz podejmowanie decyzji zgodne z zasadami etycznymi (57). Scrum Team pozostaje odpowiedzialny za dostarczanie wartościowych rezultatów, ocenę dowodów oraz utrzymywanie profesjonalizmu.
+Zagrożenia są równie rozległe. Należy utrzymywać wyraźną odpowiedzialność (accountability) człowieka za wszystkie outcomes (zgodnie z odpowiedzialnościami w Scrumie), traktując AI jako potężnego, lecz nadzorowanego partnera decyzyjnego. Podejście to określa się jako „człowiek w pętli” (human in the loop). Choć AI może wspierać innowacyjność i efektywność przy niskich kosztach, nie zastępuje odpowiedzialności (accountability) człowieka. AI powinno wspierać - a nie zastępować - empiryczną kontrolę procesu w Scrumie (64-66) oraz podejmowanie decyzji zgodne z zasadami etycznymi (57). Scrum Team pozostaje odpowiedzialny (accountable) za dostarczanie wartościowych outcomes, ocenę dowodów i zachowywanie profesjonalizmu.
 
-AI może być narzędziem wspierającym, jeśli jest używana z dobrą intencją. Narzędzia AI powinny być oceniane tak jak każdy inny czynnik wpływający na przepływ psychologiczny (70) i proces uczenia się: Czy usprawniają pętle informacji zwrotnej? Czy pomagają szybciej weryfikować założenia? Czy podejmują działania, a jeśli tak - czy są to działania etyczne (57)?
+AI może być narzędziem wspierającym, jeśli jest używane z dobrą intencją. Narzędzia AI powinny być oceniane podobnie jak inne elementy wpływające na stan flow (70) i uczenie się: Czy poprawiają pętle informacji zwrotnej? Czy pomagają szybciej weryfikować założenia? Czy działają, a jeśli tak, to czy działanie to jest etyczne (57)?
 
-Psychologiczny flow (70) to stan pełnego zanurzenia i radości z wykonywanej czynności, w którym działanie i świadomość stapiają się, a poczucie upływu czasu ulega zmianie
+Stan flow (70) to stan pełnego zaangażowania i satysfakcji z wykonywanego zadania, w którym działanie i świadomość się zlewają, a czas płynie inaczej.
 
-Scrum zachęca Scrum Team do odpowiedzialnego eksperymentowania z AI, wykorzystując do tego małe, często odwracalne próby. Adaptacja i inspekcja dotyczą nie tylko samego Produktu, ale również sposobu, w jaki AI jest integrowana z procesem dostarczania.
+Scrum zachęca Scrum Team do odpowiedzialnego eksperymentowania z AI, używając małych, czasami odwracalnych prób. Adaptacja i Inspekcja dotyczą nie tylko samego Produktu, ale także sposobu, w jaki AI jest integrowane z jego dostarczaniem.
 
-Skupienie powinno pozostać na ludzkich aspektach pracy zespołowej i współpracy, a sztuczna inteligencja powinna być postrzegana jedynie jako potencjalne wsparcie.
+Należy nadal skupiać się na ludzkiej dynamice pracy zespołowej i współpracy, traktując AI jako potencjalne wsparcie.
 
 ### Product Developer {#product-developer}
 
-‘Product Developer’ to rola oraz odpowiedzialność. Wszyscy Product Developerzy razem powinni posiadać wszystkie umiejętności niezbędne do tworzenia Incrementów. Zbiorczy zestaw kompetencji określa się często jako przekrojowy (cross-functional).
+Product Developer to rola i odpowiedzialność (accountability). Wszyscy Product Developerzy razem wzięci powinni posiadać wszystkie umiejętności potrzebne do tworzenia Incrementów. Zbiór tych umiejętności nazywany jest często cross-funkcjonalnością.
 
-Product Developer może być człowiekiem lub automatem. Ludzcy Product Developerzy są _Zaangażowani_ w tworzenie, badanie, inspekcję i adaptację każdego aspektu releasowalnego Incrementu w każdym Sprincie. Ich główne _Skupienie_ dotyczy bieżącego Sprintu. Część ich dostępności jest często przeznaczana na przyszłościowe doskonalenie, analizę informacji zwrotnych z wyników, skutków ubocznych lub inne działania związane z uczeniem się.
+Product Developer może być człowiekiem lub rozwiązaniem zautomatyzowanym  (agentem AI). Product Developerzy (ludzie) są _Zaangażowani_ w tworzenie, eksplorację, inspekcję i adaptację każdego aspektu możliwego do wydania Incrementu w każdym Sprincie. Ich główne _Skupienie_ koncentruje się na trwającym Sprincie. Część ich zdolności operacyjnych jest często przeznaczona na przyszłościowe uszczegółowienie i analizę informacji zwrotnej z rezultatów, efektów ubocznych lub innego uczenia się.
 
-Product Developerzy przestrzegają Definicja Ukończonej Pracy (Definition of Output Done) i dążą do netto usprawnień. Product Developerzy osiągają najlepsze rezultaty, jeśli _Skupienie_ koncentrują wyłącznie na jednym Produkcie. Jeśli w danym momencie Product Owner lub Scrum Master aktywnie realizuje zadania znajdujące się w Sprint Backlogu, wykonuje tę pracę jako Product Developer.
+Product Developerzy stosują się do Definition of Output Done i dążą do usprawnień, których wartość przewyższa koszt. Osiągają najlepsze rezultaty, jeśli _koncentrują się_ wyłącznie na jednym Produkcie. Jeśli w danym momencie Product Owner lub Scrum Master wykonuje pracę związaną z elementami Sprint Backlogu, wykonuje ją jako Product Developer.
 
-Product Developerzy powinni dostosowywać swoje zachowania do sytuacji; obejmuje to (ale nie ogranicza się do) rolę współpracownika, twórcy oraz orędownika jakości technicznej, odkrywania, dostarczania i walidacji wartości.
+Product Developerzy powinni przyjmować odpowiednie postawy w zależności od sytuacji - w tym (lecz nie tylko) współtwórców, kreatorów oraz orędowników jakości technicznej, Discovery, dostarczania i walidacji wartości.
 
-_Przy najmniej jeden Product Developer powinien być człowiekiem._ Obecność wielu ludzkich Product Developerów często zwiększa różnorodność poznawczą, co jest pomocne w rozwiązywaniu złożonych problemów.
+Co najmniej jeden Product Developer powinien być człowiekiem. Wielu Product Developerów, który są ludźmi często zwiększa poznawczą różnorodność, co jest pomocne w radzeniu sobie ze złożonością.
 
-Product Developerzy zawsze ponoszą zbiorową odpowiedzialność za:
+Product Developerzy zawsze wspólnie ponoszą odpowiedzialność (accountable) za:
 
-- Tworzenie emergentnego planu w Sprint Backlogu w celu osiągnięcia Celu Sprintu.
-- Kształtowanie jakości poprzez przestrzeganie i doskonalenie Definicji Ukończonej Pracy.
-- Tworzenie co najmniej jednego używalnego Incrementu w każdym Sprincie.
-- Uczenie się, często na podstawie danych, zgodnie z Definicja Dostarczonej Wartości (Definition of Outcome Done).
-- Codzienne dostosowywanie planu w kierunku Celu Sprintu.
-- Wzajemne rozliczanie się jako profesjonaliści.
-- Netto usprawnienia.
+- Tworzenie planu opartego na emergencji w Sprint Backlogu, aby osiągnąć Cel Sprintu,
+- Zapewnianie jakości poprzez stosowanie i ulepszanie Definition of Output Done,
+- Tworzenie co najmniej jednego użytecznego Incrementu w każdym Sprincie,
+- Uczenie się, często w oparciu o dane powiązane z Definition of Outcome Done,
+- Codzienną adaptację planu w kierunku Celu Sprintu,
+- Jako profesjonaliści, wzajemnie wymagają od siebie odpowiedzialności (accountable), oraz,
+- Netto usprawnienia (tj. usprawnienia, których wartość przewyższa koszt).
 
-Kontekst ma znaczenie - kluczowe jest uwzględnienie konkretnych okoliczności. Jednak jako ogólną zasadę można przyjąć, że Product Developer, który nie jest gotowy, nie chce lub nie potrafi być profesjonalistą, powinien zrezygnować z roli Product Developera.
+Kontekst ma znaczenie - kluczowe jest uwzględnienie konkretnych okoliczności. Jednak jako zasada ogólna: Product Developer, który nie chce, nie jest gotów lub nie jest w stanie być profesjonalistą, powinien zrezygnować z roli Product Developera.
 
 ### Product Owner {#product-owner}
 
-Product Owner to rola i odpowiedzialność. Product Owner musi być człowiekiem. Aby być skutecznym, Product Owner powinien być liderem produktu. Product Owner maksymalizuje długoterminową wartość i musi wiedzieć, gdzie jest wartość i kiedy jest potrzebna. Oczekuje się, że Product Owner będzie działał na wszystkich poziomach i we wszystkich istotnych obszarach biznesowych. Product Owner współpracuje z interesariuszami, Scrum Masterem oraz Product Developerzy w celu tworzenia wartości.
+Product Owner to rola i odpowiedzialność (accountability). Product Owner musi być człowiekiem. Aby być efektywnym, Product Owner powinien być liderem Produktu. Maksymalizuje on długoterminową wartość i musi wiedzieć, gdzie znajduje się wartość i kiedy jest potrzebna. Oczekuje się, że Product Owner działa na wszystkich poziomach i we wszystkich istotnych obszarach biznesowych. Współpracuje z Interesariuszami, Scrum Masterem i Product Developerami w celu tworzenia wartości.
 
-Product Owner wykorzystuje Product Backlog do określania, co zostanie zbudowane i w jakiej przybliżonej kolejności. Product Owner zawsze ma na uwadze Cel Produktu; jego głównym skupieniem jest maksymalizacja długoterminowej wartości na każdym etapie.
+Product Owner wykorzystuje Product Backlog do określenia, co ma zostać zbudowane i w jakim przybliżonym porządku. Zawsze ma na uwadze Cel Produktu, a jego głównym _Skupieniem_ jest maksymalizacja długoterminowej wartości na każdym etapie.
 
-Rola Product Ownera nie polega na analizowaniu i szczegółowym opisywaniu elementów Product Backlogu. Każda minuta spędzona na braku zaufania do Product Developerów to stracona szansa na bardziej strategiczne myślenie, intensywniejszą współpracę z Interesariuszami lub tworzenie większej wartości. Product Owner powinien przyjmować odpowiednie postawy w zależności od sytuacji; należą do nich (ale nie ograniczają się do) bycie wizjonerem, reprezentantem klienta, współpracownikiem, osobą wpływową, eksperymentatorem, decydentem oraz orędownikiem zaangażowania Interesariuszy, przejrzystości, jakości Produktu i realizacji wartości.
+Analizowanie i szczegółowe opisywanie elementów Product Backlogu to nie to, co definuje Product Ownera. Każda minuta zmarnowana  przez brak zaufania do Product Developerów to utracona szansa na myślenie bardziej strategiczne, głębszą współpracę z Interesariuszami lub tworzenie większej wartości. W zależności od sytuacji Product Owner powinien przyjmować odpowiednie postawy, w tym (ale nie wyłącznie) być wizjonerem, reprezentantem klienta, współpracownikiem, osobą wywierającą wpływ, eksperymentatorem, decydentem oraz orędownikiem zaangażowania Interesariuszy, przejrzystości, jakości Produktu i realizacji wartości.
 
-Product Owner zawsze ponosi odpowiedzialność za:
+Product Owner ponosi zawsze odpowiedzialność (accountable) za:
 
-- Zaangażowanie interesariuszy, zrozumienie interesariuszy, ich wpływu, oczekiwań, potrzeb i pragnień;
-- Ciągłe obserwowanie, słuchanie, uczenie się i dostosowywanie w razie potrzeby;
-- Stałe równoważenie kompromisów, w tym między innymi:
-  - Jakością, szybkością, możliwościami, redukcją ryzyka, wartością, prostotą (149);
-  - Interesariuszami oraz ich wielością często konkurujących oczekiwań i ograniczeń;
-  - Wartością, klimatem pracy, potencjalnymi klientami;
-- Opracowywanie i jednoznaczne komunikowanie Celu Produktu;
-- Tworzenie i skuteczne przekazywanie spójnej narracji Produktu;
-- Tworzenie i jasne komunikowanie elementów Product Backlogu;
-- Porządkowanie elementów Product Backlogu;
-- Zapewnienie przejrzystości i zrozumienia Product Backlogu;
-- Skuteczne komunikowanie rezultatów popartych miarami z Definicja Dostarczonej Wartości;
-- Podejmowanie ostatecznej decyzji w sprawie Definicja Dostarczonej Wartości;
-- Wspieranie wysokiej jakości tworzenia, odkrywania, dostarczania i weryfikacji wartości;
-- Inne działania związane z zarządzaniem Produktem, zgodnie z potrzebą
+- zaangażowanie Interesariuszy, ich samych i zrozumienie ich wpływu, oczekiwań, potrzeb i pragnień;
+- ciągłe obserwowanie, słuchanie, uczenie się i dostosowywanie się w razie potrzeby;
+- nieustanne równoważenie kompromisów, w tym (ale nie wyłącznie) obejmujących:
+  - jakość, szybkość, możliwości, ograniczanie ryzyka, wartość, prostotę (149),
+  - Interesariuszy i ich wielość, często konkurujących ze sobą oczekiwań oraz ograniczeń,
+  - wartość, atmosferę pracy, potencjalnych klientów;
+- rozwijanie i jednoznaczne komunikowanie Celu Produktu;
+- rozwijanie i skuteczne przekazywanie spójnej narracji dla Produktu;
+- tworzenie i przejrzyste komunikowanie elementów Product Backlogu;
+- porządkowanie elementów Product Backlogu;
+- zapewnienie transparentności i zrozumienia Product Backlogu;
+- skuteczne komunikowanie outcomes popartych miarami określonymi w Definition of Outcome Done;
+- podejmowanie ostatecznej decyzji dotyczącej Definition of Outcome Done;
+- wspieranie wysokiej jakości tworzenia, discovery, dostarczania i walidacji wartości;
+- oraz inne działania związane z zarządzaniem Produktem, jeśli są wymagane.
 
-Product Owner może wykonywać powyższe zadania samodzielnie lub współpracować ze Scrum Teamem, aby wspólnie ustalić odpowiedzialności za ich realizację. Niezależnie od tego, Product Owner pozostaje za nie odpowiedzialny.
+Product Owner może wykonywać powyższe działania samodzielnie lub współpracować ze Scrum Teamem w celu uzgodnienia, kto będzie odpowiadać (responsible) za wykonanie powyższej pracy. Niezależnie od tego, Product Owner ponosi za nie odpowiedzialność (accountable)[^4].
 
-Aby praca Product Ownera mogła przynosić pożądane efekty, jego decyzje muszą być respektowane przez całą organizację. Decyzje te uwidoczniają się w treści oraz kolejności elementów Product Backlogu oraz w Incremencie, który może zostać poddany ocenie podczas Sprint Review.
+Aby Product Owner mógł odnieść sukces, wszyscy Interesariusze i Supporterzy powinni _Szanować_ jego decyzje. Decyzje te są widoczne w treści i kolejności elementów Product Backlogu oraz w poddanym inspekcji Incremencie podczas Sprint Review. Product Owner ma umocowanie płynące z organizacji.
 
-Własność Produktu wymaga silnych umiejętności zarządzania produktem oraz wiedzy domenowej. Product Owner, który nie posiada tych kompetencji, może potrzebować wsparcia i wskazówek, aż rozwinie niezbędną ekspertyzę. Kontekst ma znaczenie, jednak zasadą jest, że Product Owner, który nie chce, nie jest gotowy ani nie potrafi zdobyć umiejętności zarządzania produktem, powinien ustąpić z tej roli. Ekspert merytoryczny z danej dziedziny nie zawsze jest najlepszym wyborem na Product Ownera, ponieważ kluczowe są umiejętności zarządzania produktem i przywództwo; przykładowo, odpowiedzialność Product Developera jest często bardziej odpowiednia.
+Product Ownership wymaga silnych umiejętności zarządzania Produktem oraz znajomości domeny. Product Owner, który nie posiada tych umiejętności, może potrzebować wsparcia i wskazówek, dopóki ich nie rozwinie. Kontekst ma znaczenie, ale jako ogólna zasada - Product Owner, który nie chce, nie jest gotowy lub nie potrafi nabyć umiejętności zarządzania Produktem, powinien ustąpić. Ekspert merytoryczny z danej dziedziny niekoniecznie jest najlepszym wyborem na Product Ownera, ponieważ potrzebne są również kompetencje z zakresu zarządzania Produktem i przywództwa; np. odpowiedzialność (accountability) Product Developera może być w takim przypadku bardziej odpowiednia.
 
-Jeśli Scrum Team nierozsądnie pracuje nad wieloma produktami, platformami lub projektami, każdy menedżer produktu, platformy lub projektu powinien być interesariuszem (i Supporte) Product Ownera oraz współpracować, aby maksymalizować długoterminową wartość. Scrum zachęca Scrum Team do pozostania _skupionym_ i _zaangażowanym_, co pomaga dostarczać wartościowe rezultaty i unikać pułapek związanych z funkcjonowaniem jako „fabryka funkcjonalności”.
+Jeśli Scrum Team pracuje nad wieloma Produktami, platformami lub projektami, (co jest niezalecane), każdy z managerów tych elementów powinien być Interesariuszem (i Supporterem) Product Ownera i współpracować z nim w celu maksymalizacji długoterminowej wartości. Scrum zachęca Scrum Team do utrzymania _Skupienia_ i _Zaangażowania_, co pomaga dostarczać wartościowe outcomes i unikać pułapek pracy jako „fabryka funkcjonalności” (feature factory).
 
-Product Owner to jedna osoba, nie komitet ani technologia. Osoby chcące wprowadzić zmiany w Product Backlogu muszą przekonać do tego Product Ownera. Product Owner maksymalizuje długoterminową wartość i często dokonuje kompromisów w tym celu.
+Product Owner to jedna osoba - nie komitet ani technologia. Osoby chcące zmienić Product Backlog muszą przekonać do tego Product Ownera. Product Owner maksymalizuje długoterminową wartość i często dokonuje kompromisów.
 
 ### Scrum Master {#scrum-master}
 
-Scrum Master to rola i odpowiedzialność. Scrum Master musi być człowiekiem. Scrum Master jest agentem zmiany, który działa na wszystkich poziomach organizacji i we wszystkich obszarach biznesowych. Scrum Master prowadzi przez przykład i wspiera efektywność Product Ownera, Scrum Teamu, interesariuszy oraz wspierających w przyjmowaniu Scruma. Scrum Master rozumie złożoność (30-35) i potrafi umożliwić wykonanie właściwego kolejnego kroku.
+Scrum Master to rola i odpowiedzialność (accountability). Scrum Master musi być człowiekiem. Jest agentem zmiany, który działa na wszystkich poziomach organizacji i w różnych obszarach biznesowych. Scrum Master przewodzi przez dawanie przykładu (leads by example) i wspiera skuteczność Product Ownera, Scrum Teamu, Interesariuszy i Supporterów w adopcji Scruma. Scrum Master rozumie złożoność (30-35) i potrafi wspierać podejmowanie kolejnych właściwych kroków.
 
-Scrum Master powinien przyjmować odpowiednie postawy w zależności od sytuacji; należą do nich (ale nie ograniczają się do) bycie przewodnikiem, coachem, mentorem, nauczycielem, obserwatorem, osobą usuwającą przeszkody, agentem zmiany, facylitatorem efektywności oraz orędownikiem ciągłego doskonalenia. Scrum Master nie jest administratorem zespołu, menedżerem statusów, nadzorcą zadań, dyktatorem reguł, osobą rezerwującą sale spotkań, administratorem raportów i dashboardów, przewodniczącym, bohaterem, koordynatorem ani Scrum Masterem nieobecnym, pozostawiającym wszystko „samozarządzaniu”.
+Scrum Master powinien przyjmować odpowiednie zachowania w zależności od sytuacji, w tym (ale nie tylko) być przewodnikiem, coachem, mentorem, nauczycielem, obserwatorem, usuwać przeszkody, agentem zmiany, facylitatorem efektywności oraz orędownikiem ciągłego doskonalenia. Scrum Master nie jest administratorem zespołu, menedżerem statusów, zarządzającym zadaniami, dyktatorem zasad, rezerwatorem salek, administratorem raportów i dashboardów, przewodzącym spotkaniom, bohaterem, koordynatorem ani Scrum Masterem nieobecnym, pozostawiającym wszystko „samozarządzaniu”.
 
-Scrum Master ponosi odpowiedzialność za skuteczność Scrum Teamu, interesariuszy, Supporterów oraz wszystkich osób zaangażowanych w przyjmowanie empiryzmu (67), samozarządzania i wdrażania Scruma zgodnie z niniejszym dokumentem. Scrum Master usuwa wszelkie przeszkody, które utrudniają lub spowalniają postępy Scrum Teamu i których zespół nie jest w stanie rozwiązać samodzielnie.
+Scrum Master ponosi odpowiedzialność (accountable) za skuteczność Scrum Teamu, Interesariuszy, Supporterów oraz osób zaangażowanych w przyjęcie empiryzmu (67), samozarządzania i adopcji Scruma, jak opisano w niniejszym dokumencie. Scrum Master zajmuje się tym, co przeszkadza lub spowalnia postępy Scrum Teamu i nie może zostać rozwiązane przez sam zespół.
 
-Scrum Master wspiera Scrum Team, Product Ownera oraz wspierających na wiele sposobów, w tym:
+Scrum Master wspiera Scrum Team, Product Ownera i Supporterów na wiele sposobów, w tym:
 
-- Pomaga wszystkim zrozumieć teorię i praktykę Scruma, edukując lub coachując w razie potrzeby;
-- Umożliwia Scrum Teamowi i wspierającym ciągłe doskonalenie w różnych obszarach;
-- Sprzyja terminowym, celowym i zamierzonym interakcjom;
-- Zapewnia, że Scrum Team posiada odpowiednią Definicję Ukończonej Pracy;
-- Dba o to, by wszystkie wydarzenia Scrumowe się odbywały, były konstruktywne, produktywne i mieściły się w wyznaczonych ramach czasowych;
-- Powoduje usuwanie przeszkód w pracy związanej z Produktem oraz w skutecznym wdrażaniu Scruma;
-- Coachuje w kierunku samozarządzania (49) i wielofunkcyjności;
-- Pomaga Scrum Teamowi, interesariuszom i Supporterom zrozumieć ich rolę w dostarczaniu wartościowych Incrementów spełniających Definicja Ukończonej Pracy, realizujących Cel Produktu i Definicja Dostarczonej Wartości;
-- Wspiera zwiększanie zdolności adaptacyjnych (80) i optymalizację przepływu wartości;
-- Buduje zaufanie oparte na dowodach, jednocześnie okazując współczucie i działając na czas, by uniknąć nadmiernej pewności siebie;
-- Wzmacnia postawy zmiany i ogólną sprawczość Scrum Teamu i wspierających;
-- Zachęca do pomocnych zachowań w Scrum Teamie, zgodnych z Wartościami Scruma, by budować zaufanie, współpracę i wysoką efektywność;
-- Wspiera Scrum Team w szybkim i częstym dostarczaniu wartościowej pracy, uzyskiwaniu informacji zwrotnej i wykonywaniu poprawek, gdy to konieczne.
+- Pomaga w zrozumieniu teorii i praktyki Scruma oraz edukację lub coaching w razie potrzeby;
+- Umożliwia Scrum Teamowi i Supporterom ciągłe usprawnianie się na różne sposoby;
+- Wspiera terminowe, celowe i intencjonalne interakcje;
+- Upewnia się, że Scrum Team posiada odpowiednią Definition of Output Done;
+- Upewnia się, że wszystkie wydarzenia Scrum się odbywają i są konstruktywne, produktywne oraz mieszczą się w timeboxach;
+- Sprawia, że przeszkody  w pracy nad Produktem i efektywnej adopcji Scruma  są usuwane;
+- Oferuje coaching w zakresie samozarządzania (49) i crossfunkcjonalności;
+- Pomaga w zrozumieniu roli Interesariuszy i Supporterów we wspieraniu wartościowych Incrementów, spełniających Definition of Output Done, zgodnie z Celem Produktu i Definition of Outcome Done;
+- Zwiększa adaptacyjność (80) i optymalizację przepływu wartości;
+- Wzmacnia pewność opartą na dowodach, ale z empatią i rozwagą, by uniknąć nadmiernej pewności siebie;
+- Wspiera gotowość Scrum Teamu i Supporterów do działania i wprowadzania zmian;
+- Zachęca do zachowań zgodnych z Wartościami Scruma, wspierających zaufanie, współpracę i wysoką efektywność;
+- Wspiera Scrum Team w szybkim i częstym dostarczaniu wartościowej pracy, pozyskiwaniu informacji zwrotnej i jej uwzględnianiu.
 
 Scrum Master wspiera Scrum Team na wiele sposobów, w tym:
 
-- Wspierając Scrum Team w jego formowaniu, podnoszeniu kompetencji oraz ciągłym doskonaleniu;
-- Pomagając Scrum Teamowi zrozumieć potrzebę tworzenia jasnych i zwięzłych elementów Product Backlogu, które dostarczają wartość;
-- Czuwając nad tym, by cały Scrum Team współpracował ze sobą oraz z interesariuszami w sposób celowy i zamierzony, przestrzegał Definicji Ukończonej Pracy oraz koncentrował się na tworzeniu wartościowych Incrementów zgodnie z Definicja Dostarczonej Wartości.
+Wspiera jego formowanie, rozwijanie kompetencji i ciągłe doskonalenie;
+Pomaga w  zrozumieniu potrzeby klarownych i zwięzłych Elementów Product Backlogu dostarczających wartość;
+Czuwa nad tym, by cały Scrum Team współpracował celowo i intencjonalnie, respektował Definition of Output Done i koncentrował się na tworzeniu wartościowych Incrementów zgodnych z Definition of Outcome Done.
 
 Scrum Master wspiera Product Ownera na wiele sposobów, w tym:
 
-- Pomaga znaleźć techniki skutecznego definiowania Celu Produktu oraz zarządzania Product Backlogiem;
-- Wspiera ustanawianie wyłaniającego się planowania Produktu w złożonym środowisku (30-35);
-- Pomaga Product Ownerowi wyrażać rezultaty jako miary poprzez Definicja Dostarczonej Wartości;
-- Pomaga Product Ownerowi zrozumieć potrzebę tworzenia jasnych i zwięzłych elementów Product Backlogu, które dostarczają wartość;
-- Wspiera Product Ownera w _skupieniu_ się na realizacji wartości.
+- Pomaga w wyborze technik skutecznego definiowania Celu Produktu i zarządzania Product Backlogiem;
+- Pomaga w tworzeniu emergentnego planowania Produktu w złożonym (30-35) środowisku; 
+- Pomaga w wyrażaniu outcomes jako miar w Definition of Outcome Done;
+- Pomaga w tworzeniu klarownych i zwięzłych Elementów Product Backlogu dostarczających wartość;
+- Pomaga w Skupieniu się na realizacji wartości.
 
-Scrum Master wspiera interesariuszy na wiele sposobów, w tym:
+Scrum Master wspiera Interesariuszy na wiele sposobów, w tym:
 
-- Gdy potrzebne jest coś więcej niż tylko wiedza ekspercka, pomaga osobom zaangażowanym i interesariuszom zrozumieć i wdrożyć:
-  - Empiryczne podejście do pracy w złożonym środowisku (30-35), gdzie związki przyczynowo-skutkowe są spójne dopiero retrospektywnie,
-  - Wyjście poza empiryczną kontrolę procesu, np. prowadzenie wielu równoległych, bezpiecznych do niepowodzenia eksperymentów, poszukiwanie nowych sposobów myślenia, egzaptację lub testowanie uzasadnionych hipotez. Egzaptacja oznacza wykorzystanie czegoś stworzonego lub używanego w jednym celu do innego celu, zwłaszcza w nowych lub niejasnych sytuacjach;
-- Wspieranie działań zgodnych z mantrą „Przestań rozpoczynać zadania; zacznij je kończyć”;
-- Facylitowanie współpracy interesariuszy na ich prośbę lub w razie potrzeby;
-- Pomoc interesariuszom w zrozumieniu potrzeby jasnych i zwięzłych elementów Product Backlogu, które dostarczają wartość;
-- Pomoc interesariuszom w _skupieniu_ się przede wszystkim na realizacji wartości.
+- Gdy sama wiedza ekspercka nie wystarcza, wspiera osoby zaangażowane i Interesariuszy w zrozumieniu i przyjęciu:
+  - empirycznego podejścia do pracy w warunkach złożoności (30-35), gdzie przyczyna i skutek są spójne dopiero z perspektywy czasu,
+  - wyjścia poza empiryczną kontrolę procesu, np. poprzez uruchamianie wielu równoległych eksperymentów o kontrolowanym ryzyku, poszukiwanie świeżego spojrzenia, egzaptację lub testowanie uzasadnionych przypuszczeń.Egzaptacja oznacza wykorzystanie czegoś, co zostało stworzone lub używane w jednym celu, do innego celu - zwłaszcza w nowych lub niejasnych sytuacjach.
+- Wspiera działania zgodne z mottem „Przestań zaczynać, zacznij kończyć”;
+- Facylituje współpracę Interesariuszy, gdy zachodzi taka potrzeba;
+- Pomaga w zrozumieniu potrzeby tworzenia klarownych i zwięzłych Elementów Product Backlogu dostarczających wartość;
+- Pomaga Interesariuszom w Skupieniu się przede wszystkim na realizacji wartości.
 
 Scrum Master współpracuje z Supporterami na wiele sposobów, w tym:
 
-- Prowadząc, szkoląc i coachując Supporterów we wdrażaniu Scruma;
-- Wyjaśniając, co stoi na przeszkodzie skutecznemu wdrożeniu Scruma;
-- Facylitując zdyscyplinowaną, wyłaniającą się zmianę w kierunku wspierania wdrożenia Scruma;
-- Wspierając zmiany organizacyjne prowadzące do łatwiejszego dostarczania wartości zamiast łatwiejszego zarządzania.
+- Prowadzi, szkoli i coaching Supporterów w zakresie adopcji Scruma;
+- Wyjaśnia, co utrudnia skuteczną adopcję Scruma;
+- Facylituje kontrolowane i stopniowe wdrażanie zmian w kierunku wspierającym adopcję Scruma;
+- Wspiera zmiany organizacyjne sprzyjające łatwości dostarczania zamiast łatwości zarządzania.
 
 Scrum Master współpracuje z organizacją na wiele sposobów, w tym:
 
-- Prowadząc, szkoląc i coachując organizację we wdrażaniu Scruma;
-- Planując i doradzając w zakresie wdrożeń Scruma w organizacji;
-- Współpracując z powiązanymi działami w celu wsparcia wdrożenia Scruma;
-- Usuwając bariery stojące na drodze wdrożenia Scruma
+- Przewodzi, szkoli i oferuje coaching organizacji w zakresie adopcji Scruma;
+- Planuje i doradza w zakresie adopcji Scruma w organizacji;
+- Współpracuje z działami wspierającymi wdrożenie Scruma;
+- Usuwa bariery w adopcji Scruma.
 
-Scrum Masterzy mogą współpracować z innymi Scrum Masterami lub Supporterami, aby wspierać całą organizację; mogą także współdziałać z innymi agentami zmiany lub liderami, gdy jest to potrzebne. Scrum Master, jako agent zmiany, ponosi odpowiedzialność za jakość wdrożenia Scruma i powinien współpracować z innymi agentami zmiany w celu jej doskonalenia.
+Scrum Masterzy mogą współpracować z innymi Scrum Masterami lub Supporterami, aby wspierać całą organizację, a także z innymi agentami zmiany i liderami, gdy zajdzie potrzeba. Scrum Master jako agent zmiany ponosi odpowiedzialność (accountable) za jakość adopcji Scruma i powinien współpracować z innymi agentami zmiany w celu jej usprawnienia.
 
-Scrum Master to jedna osoba, a nie komitet ani technologia, i służy Product Ownerowi, Scrum Teamowi, interesariuszom oraz całej organizacji. Jako agent zmiany i lider, Scrum Master powinien zazwyczaj zapraszać ludzi do uczestnictwa w zmianie. Pomocne jest, jeśli Scrum Master rozumie przepływ wartości (68,69), lean (63), teorię złożoności (30-35) oraz inne wspierające i uzupełniające teorie zawarte w tym dokumencie, a także wspiera ludzi w zakresie jak działać. Wskazane jest również, by Scrum Master był nieustępliwy i miał nieugaszone pragnienie nauki oraz zmian.
+Scrum Master to jedna osoba, nie komitet ani technologia, i służy Product Ownerowi, Scrum Teamowi, Interesariuszom oraz całej organizacji. Jako agent zmiany i lider Scrum Master powinien zapraszać ludzi do udziału w zmianie. Pomocne jest, jeśli Scrum Master rozumie przepływ wartości (flow of value) (68, 69), lean (63), teorię złożoności (30-35) oraz inne wspierające koncepcje opisane w tym dokumencie, jak również potrafi wspierać ludzi w ich stosowaniu. Korzystne jest też, jeśli Scrum Master wykazuje nieustępliwość i ogromny głód uczenia się i zmiany.
 
-Bycie Scrum Masterem to powołanie, w którym pomaganie innym w osiąganiu sukcesów jest wystarczającą nagrodą. Scrum Master nie szuka rozgłosu. Jak każdy dobry lider, oddaje zasługi innym, a odpowiedzialność bierze na siebie, gdy coś idzie nie tak. Dłuższe pełnienie tej roli pomaga prowadzić Scrum Team w kierunku pełnego potencjału, ale tylko wtedy, gdy Developerzy wspólnie rozwijają samozarządzanie. Zachowania Scrum Mastera przypominające rodzica nie sprzyjają budowaniu samozarządzającego zespołu. Kontekst ma znaczenie, jednak jako zasada: Scrum Master, który nie chce, nie jest gotowy lub nie potrafi być agentem zmiany, powinien zrezygnować z tej roli.
+Bycie Scrum Masterem to powołanie, w którym pomaganie innym w osiąganiu sukcesu stanowi wystarczającą nagrodę. Scrum Master nie szuka uznania - jak każdy dobry lider przypisuje zasługi innym, a bierze odpowiedzialność (responsibility) za niepowodzenia. Pozostanie w tej roli przez dłuższy czas pomaga prowadzić Scrum Team ku pełnemu potencjałowi, ale tylko wtedy, gdy Product Developerzy wspólnie rozwijają samozarządzanie. Zachowania Scrum Mastera przypominające rodzica nie wspierają samozarządzającego się Scrum Teamu. Kontekst ma znaczenie, ale jako ogólną zasadę przyjmuje się, że Scrum Master, który nie chce, nie jest gotowy lub nie potrafi być agentem zmiany, powinien zrezygnować z tej roli.
 
-## Artefakty Scruma w Expansion Pack {#the-scrum-artifacts-in-the-expansion-pack}
+## Artefakty Scruma w Rozszerzeniach {#the-scrum-artifacts-in-the-expansion-pack}
 
-Artefakty Scruma zapewniają Przejrzystść w zakresie tego, co Scrum Team i interesariusze uważają za wartościowe do dostarczenia. Dzięki temu wszyscy mają wspólną podstawę do Inspekcji i Adaptacji.
+Artefakty Scruma zapewniają Transparencję w zakresie tego, co zdaniem Scrum Teamu i Interesariuszy dostarczy wartość. Dzięki temu wszyscy mają wspólną podstawę do Inspekcji i Adaptacji.
 
 Każdy artefakt zawiera zobowiązanie:
 
-- Dla Produktu służącego interesariuszom jest to Definicja Dostarczonej Wartości.
-- Dla Incrementu będącego kandydatem na aktualizację Produktu jest to Definicja Ukończonej Pracy.
-- Dla Product Backlogu jest to Cel Produktu.
-- Dla Sprint Backlogu jest to Cel Sprintu.
+- Dla Produktu służącego Interesariuszom jest to Definition of Outcome Done.
+- Dla Incrementu będącego kandydatem na aktualizację Produktu jest to Definition of Output Done.
+- Dla Product Backlogu jest to Cel Produktu
+- Dla Sprint Backlogu jest to Cel Sprintu
 
-Po wydaniu Incrementu (Output), to Produkt jest tym, co tworzy Wartość (Outcome). Wartość to mierzalne lub obserwowalne spełnienie lub stworzenie oczekiwań, potrzeb lub pragnień z perspektywy interesariuszy.
+Po wydaniu Incrementu (output), to Produkt jest tym, co tworzy wartość (outcome). Wartość to mierzalne lub obserwowalne spełnienie lub tworzenie oczekiwań, potrzeb lub pragnień z perspektywy Interesariuszy.
 
-Te zobowiązania wzmacniają filary Przejrzystości, Inspekcji i Adaptacji, umożliwiając empiryczną kontrolę procesu (64-66). Cel Produktu pozostaje niezmienny, dopóki nie pojawią się dowody lub obserwacje przeciwne w kontekście Definicja Dostarczonej Wartości dla obserwowanego Produktu. Definicja Ukończonej Pracy nie jest osłabiana w trakcie Sprintu. Co zatem może zostać zmienione lub ograniczone? Mogą to być Kryteria Akceptacji dla konkretnego elementu Product Backlogu, sposób implementacji lub wierność konkretnej funkcji, a nawet alternatywne elementy Product Backlogu służące osiągnięciu Celu Sprintu itd.
+Zobowiązania te wzmacniają filary Transparencji, Inspekcji i Adaptacji, umożliwiając empiryczną kontrolę procesu (64-66). Cel Produktu pozostaje niezmienny, dopóki dla obserwowanego Produktu nie pojawią się dowody lub obserwacje, które podważają aktualny Cel Produktu w kontekście Definition of Outcome Done. Definition of Output Done nie ulega osłabieniu  w trakcie Sprintu. Co zatem może zostać zmienione lub ograniczone? Mogą to być Acceptance Criteria dla konkretnego elementu Product Backlogu, sposób implementacji lub szczegółowość (fidelity) konkretnej funkcji, a nawet alternatywne elementy Product Backlogu służące osiągnięciu Celu Sprintu itd.
 
-Jeśli Cel Produktu zmienia się często, może to oznaczać, że coś jest nie tak - być może wynika to z braku _Skupienia_ na tym, co naprawdę istotne. _Skupienie_ oznacza profesjonalizm i podejmowanie decyzji nie tylko o tym, nad czym pracować, ale również czego nie podejmować.
+Jeśli Cel Produktu zmienia się często, może to oznaczać, że coś jest nie tak - być może wynika to z braku Skupienia na tym, co naprawdę istotne. _Skupienie_ oznacza profesjonalizm i podejmowanie decyzji nie tylko o tym, nad czym pracować, ale również czego nie podejmować.
 
 ### Produkt {#product}
 
-Produkt jest artefaktem. Produkt może być całościowym doświadczeniem lub platformą. Może również być usługą, produktem fizycznym, cyfrowym lub hybrydowym, dostarczającym ciągłą wartość interesariuszom (w tym, ale nie tylko, użytkownikom)
+Produkt jest artefaktem. Produkt może być doświadczeniem lub platformą. Może również być usługą, produktem fizycznym, cyfrowym lub hybrydowym, dostarczającym ciągłą wartość Interesariuszom (w tym, ale nie tylko, użytkownikom).
 
-Doświadczenie to konkretne rozwiązanie zaprojektowane w celu zaspokojenia potrzeb interesariuszy, w tym użytkownika, najlepiej zewnętrznego wobec organizacji. Zapewnia bezpośrednią interakcję, która dostarcza wartość. Zazwyczaj skupia się na rozwiązaniu określonego problemu lub wykorzystaniu szansy - albo ich zestawu - dla interesariuszy, w tym, ale nie tylko, klientów, decydentów i użytkowników.
+Doświadczenie to konkretne rozwiązanie zaprojektowane w celu zaspokojenia potrzeb Interesariuszy, w tym użytkownika, najlepiej zewnętrznego wobec organizacji. Zapewnia bezpośrednią interakcję, która dostarcza wartość. Zazwyczaj skupia się na rozwiązaniu określonego problemu lub wykorzystaniu szansy - albo ich kombinacja - dla Interesariuszy, w tym, ale nie tylko, klientów, decydentów i użytkowników.
 
 Platforma to architektoniczne rozwiązanie, infrastruktura bazowa lub zestaw narzędzi umożliwiających Product Developerom budowanie w celu dostarczania doświadczenia. Platformy stanowią bazę, na której można rozwijać wiele Produktów, koncentrując się na skalowalności, niezawodności i elastyczności dla inżynierów, a nie na bezpośredniej interakcji z użytkownikiem.
 
-Scrum Team i interesariusze muszą zawsze jasno rozumieć, czym jest Produkt, kim są klienci, użytkownicy lub decydenci oraz jakiego typu jest to Produkt - na przykład przeznaczony dla użytkowników końcowych, pracowników lub Scrum Teamów - ponieważ każdy z nich ma innych interesariuszy i inne sposoby tworzenia wartości. Produkt jest ewolucyjny i często długowieczny. Produkt potrzebuje pojedynczego Product Backlogu, aby zwiększyć Przejrzystość i zmaksymalizować wartość.
+Scrum Team i Interesariusze muszą zawsze jasno rozumieć, czym jest Produkt, kim są klienci, użytkownicy lub decydenci oraz jakiego typu jest to Produkt - na przykład przeznaczony dla użytkowników końcowych, pracowników lub Scrum Teamów - ponieważ każdy z nich ma innych Interesariuszy i inne sposoby tworzenia wartości. Produkt ewoluuje i często istnieje przez długi czas. Produkt potrzebuje pojedynczego Product Backlogu, aby zwiększyć Transparencję i zmaksymalizować wartość.
 
-Kontekst ma znaczenie. Jednak jako zasada, aby Produkt zyskał i utrzymał przyczepność, pomocne jest, jeśli Produkt:
+Kontekst ma znaczenie. Jednak jako zasada, aby Produkt zyskał i utrzymał atrakcyjność, pomocne jest, jeśli Produkt:
 
-- Wystarczająco adresuje luki w satysfakcji;
-- Jest wartościowy, pożądany, opłacalny, użyteczny, wykonalny, bezpieczny i zabezpieczony;
-- Ma wbudowany profesjonalizm;
-- Posiada atrakcyjną, klarowną i zorientowaną na metryki rezultatów Wizję Produktu, strategię Produktu oraz Cel Produktu, często zawierające intencję, uzasadnienie i anty-cele;
-- Adaptuje się i doskonali, aby identyfikować, reprezentować lub mierzyć emergencję (71);
-- Jest rozbudowywalny i łatwy w utrzymaniu.
+- wystarczająco adresuje luki w satysfakcji;
+- jest wartościowy, pożądany, opłacalny, użyteczny, wykonalny, bezpieczny i zabezpieczony;
+- ma wbudowany profesjonalizm;
+- posiada atrakcyjną, klarowną i zorientowaną na metryki outcomes Wizję Produktu, strategię Produktu oraz Cel Produktu, często zawierające intencję, uzasadnienie i anty-cele;
+- adaptuje się i doskonali, aby identyfikować, reprezentować lub mierzyć emergencję (71);
+- jest rozbudowywalny i łatwy w utrzymaniu.
 
 Produkt jest ucieleśnieniem _dlaczego_ robimy to, _co_ robimy.
 
-#### Zobowiązanie: Definicja Dostarczonej Wartości {#commitment:-definition-of-outcome-done}
+#### Zobowiązanie: Definition of Outcome Done {#commitment:-definition-of-outcome-done}
 
-Definicja Dostarczonej Wartości to zobowiązanie. Opisuje ona mierzalne dowody (ilościowe lub jakościowe) wymagane do potwierdzenia osiągniętych korzyści, często określane jako walidacja wartości. Może dotyczyć zarówno całego Produktu, jak i konkretnego celu. Najlepiej jest zdefiniować miary walidacji wartości przed rozpoczęciem realizacji, aby uniknąć uprzedzeń i błędnych interpretacji.
+Definition of Outcome Done to zobowiązanie. Opisuje ona mierzalne dowody (ilościowe lub jakościowe) wymagane do potwierdzenia osiągniętych korzyści, często określane jako walidacja wartości. Może dotyczyć zarówno całego Produktu, jak i konkretnego celu. Najlepiej jest zdefiniować miary walidacji wartości przed rozpoczęciem realizacji, aby uniknąć uprzedzeń i błędnych interpretacji.
 
-Wyniki oraz ich interpretacje informują o przyszłych adaptacjach, najlepiej potwierdzając zamierzony wpływ na Interesariuszy (w tym, ale nie tylko, wpływ biznesowy lub użytkowy) - mierząc, czy Output spełnia oczekiwany Wynik i dostarcza realną Wartość. Może to dotyczyć konkretnego celu, takiego jak większa funkcjonalność lub kilka funkcjonalności, i być walidowane poprzez telemetrię Produktu (Produkt może mierzyć własne użycie). Alternatywnie, może odnosić się do całego Produktu, gdzie chodzi najczęściej o wpływ strategiczny i walidację skuteczności wdrożonej strategii (120-124). Możliwa jest także kombinacja obu podejść.
+Outcomes oraz ich interpretacje stanowią podstawę do przyszłych adaptacji, najlepiej potwierdzając zamierzony wpływ (impact) na Interesariuszy (w tym, ale nie tylko, wpływ biznesowy lub wpływ na użytkownika) - mierząc, czy output spełnia oczekiwany outcome(s) i dostarcza realną wartość. Może to dotyczyć konkretnego celu, takiego jak większa funkcjonalność lub kilka funkcjonalności, i być walidowane poprzez telemetrię Produktu (Produkt może mierzyć własne użycie). Alternatywnie, może odnosić się do całego Produktu, gdzie chodzi najczęściej o wpływ strategiczny i walidację skuteczności wdrożonej strategii (120-124). Możliwe  jest także łączenie obu podejść.
 
-Preferuj bezpośrednie dowody zamiast pośrednich, na przykład:
+Preferuj bezpośrednie dowody nad poszlakowymi. Na przykład:
 
-- Wartości dla klientów mogą skupiać się na dostarczaniu mierzalnej wartości klientom, takiej jak wzrost satysfakcji klienta, długoterminowa redukcja kosztów po stronie klienta lub liczba zrealizowanych zadań klienta.
-- Wartości dla użytkowników mogą dotyczyć konkretnych zmian w zachowaniach użytkowników, które rozwiązują problemy i poprawiają doświadczenia, np. szybsze wykonywanie zadań lub korzystanie z nowych funkcji.
-- Wartości dla interesariuszy Produktu mogą łączyć te zmiany zachowań z metrykami wydajności Produktu, np. trendami w metrykach klientów Produktu, decydentów/użytkowników, czasem wydania Produktu, czasem uczenia się, czasem do zmiany kierunku itp.
-- Wartości dla interesariuszy biznesowych, np. zgodność z regulacjami, długoterminowa redukcja kosztów biznesowych, wartości biznesowe, trendy udziału w rynku, satysfakcja klientów w całym portfolio Produktów, czas wydania organizacyjnego, czas uczenia się, czas do zmiany kierunku itp.
-- Wartości Scrum Teamu, takie jak poprawa kompetencji technicznych (psychologiczny flow (70), częstotliwość wydań, narzędzia, umiejętności, dług techniczny, dług UX lub CX, przepustowość), klimat/kultura sprzyjająca ciągłej poprawie i innowacji.
+- Outcomes klientów mogą Skupiać się na dostarczaniu mierzalnej wartości dla klientów, takiej jak wzrost satysfakcji klienta, długoterminowa redukcja kosztów po stronie klienta lub liczba zaadresowanych zadań klienta.
+- Outcomes użytkowników mogą odnosić się do konkretnych zmian w zachowaniu użytkowników, które rozwiązują problemy i poprawiają doświadczenia, np. szybsze wykonywanie zadań lub korzystanie z nowych funkcji.
+- Outcomes interesariuszy Produktu mogą łączyć te zmiany w zachowaniu z metrykami wydajności Produktu, np. trendami w liczbie klientów Produktu, metrykami decydentów/użytkowników, czasem dostarczenia Produktu, czasem uczenia się, czasem do zmiany kierunku (pivot), itp.
+- Outcomes Interesariuszy biznesowych, np. zgodność z przepisami (compliance), długoterminowa redukcja kosztów po stronie biznesu, wyniki biznesowe, trendy udziału w rynku, satysfakcja klientów we wszystkich Produktach, organizacyjny czas dostarczenia, czas uczenia się, czas do piwotowania, itp.
+- Outcomes Scrum Teamu, takie jak poprawa zdolności technicznych (stan flow (70), częstotliwość wydań, narzędzia, umiejętności, dług techniczny, dług UX lub CX, pojemność zespołu), klimat/kultura sprzyjające usprawnieniom i innowacjom.
 
-Dług User eXperience (UX) lub Customer eXperience (CX) to suma decyzji projektowych i wdrożeniowych - zarówno zamierzonych, jak i niezamierzonych - które sprawiają, że Produkt lub usługa staje się mniej użyteczna, przyjemna lub skuteczna dla użytkowników lub klientów. Rozpoznawanie, monitorowanie i adresowanie tego długu jest kluczowe dla dostarczania Produktów, które rzeczywiście spełniają potrzeby i oczekiwania użytkowników.
+Dług w zakresie User eXperience (UX) lub Customer eXperience (CX) to suma decyzji odnośnie designu i implementacyjnych-świadomych lub nie-które sprawiają, że Produkt lub usługa staje się mniej użyteczna, przyjemna lub skuteczna dla użytkowników lub klientów. Rozpoznanie, śledzenie i adresowanie tego długu jest kluczowe dla dostarczania Produktów, które rzeczywiście spełniają potrzeby i oczekiwania użytkowników.
 
-Miary w czasie czynią trendy Produktu, rynku i Interesariuszy (w tym, ale nie tylko, klientów lub użytkowników) przejrzystymi; mogą być one przeglądane w dowolnym momencie podczas Sprintu, w tym podczas Przeglądu Sprintu.
+Miary zbierane w czasie ujawniają trendy dotyczące Produktu, rynku oraz Interesariuszy (w tym, lecz nie wyłącznie, klientów i użytkowników); mogą być analizowane w dowolnym momencie Sprintu, także podczas Sprint Review.
 
 ### Increment {#increment}
 
-Increment jest artefaktem. Stanowi integrację pracy ukończonej zgodnie ze standardem Definicji Ukończonej Pracy. Increment jest Outputem oraz kandydatem na Produkt.
+Increment to artefakt. Jest zintegrowanym wynikiem pracy ukończonej zgodnie ze standardem określonym w Definition of Output Done. Increment jest outputem oraz kandydatem na Produkt.
 
-W trakcie jednego Sprintu może zostać utworzonych wiele Incrementów poprzez ukończenie elementów Product Backlogu. Każdy Increment jest w pełni zweryfikowany, gotowy do użycia i zintegrowany z poprzednimi Incrementami. Powstały zagregowany Increment jest poddawany Inspekcji tak szybko, jak to możliwe, najpóźniej podczas Przeglądu Sprintu. Increment musi być użyteczny i przydatny, aby umożliwić uzyskanie informacji zwrotnej na temat Wartości. Increment jest kluczowy w Scrum, ponieważ umożliwia bieżącą walidację Wartości.
+W trakcie Sprintu może powstać wiele Incrementów poprzez ukończenie Elementów Product Backlogu. Każdy Increment jest dokładnie zweryfikowany, użyteczny i zintegrowany ze wszystkimi wcześniejszymi Incrementami. Powstały w ten sposób zintegrowany Increment jest poddawany inspekcji tak szybko, jak to możliwe - najpóźniej podczas Sprint Review. Increment musi być użyteczny i przydatny, by umożliwić uzyskanie feedbacku z rezultatu. Increment odgrywa kluczową rolę w Scrumie, ponieważ umożliwia ciągłą walidację wartości.
 
-Kandydat na Increment nie kwalifikuje się jako Increment, dopóki nie spełni standardu jakości określonego w Definicji Ukończonej Pracy. Tylko Increment może zostać wydany. Increment powinien być konkretnym krokiem w kierunku realizacji Celu Produktu. Incrementy mogą być dostarczane Interesariuszom lub wydawane przed Przeglądem Sprintu. _Najlepsza walidacja wartości jest osiągana dzięki informacji zwrotnej na temat Wartości._
+Kandydat na Increment nie kwalifikuje się jako Increment, dopóki nie spełni standardu jakości określonego w Definition of Output Done. Tylko Increment może zostać wydany. Increment powinien być konkretnym krokiem w kierunku realizacji Celu Produktu. Incrementy mogą być dostarczane Interesariuszom lub wydane przed Sprint Review. _Najlepsza walidacja wartości osiągana jest poprzez feedback z rezultatu._
 
-#### Zobowiązanie: Definicja Ukończonej Pracy {#commitment:-definition-of-output-done}
+#### Zobowiązanie: Definition of Output Done {#commitment:-definition-of-output-done}
 
-Definicja Ukończonej Pracy to zobowiązanie. Formalnie opisuje ona miary jakości, które wyrażają należytą staranność wobec Incrementu, tak aby mógł on zostać dostarczony Interesariuszom.
+Definition of Output Done to zobowiązanie (commitment). Formalnie opisuje miary jakości, które wyrażają należytą staranność wobec Incrementu, tak aby mógł on zostać dostarczony Interesariuszom.
 
-Definicja Ukończonej Pracy zazwyczaj obejmuje (ale nie ogranicza się do) zarówno standardy techniczne, jak i cechy Produktu. Scrum Team tworzy ją, jeśli nie została określona przez organizację jako minimum. Jeżeli nad tym samym Produktem pracuje kilka Scrum Teamów, korzystają one ze wspólnej Definicji Ukończonej Pracy jako wspólnej podstawy, ale mogą ją ulepszać.
+Definition of Output Done zazwyczaj obejmuje (choć nie jest do tego ograniczona) zarówno standardy techniczne, jak i cechy Produktu. Jeśli nie zostało określone przez organizację jako minimum, tworzy ją Scrum Team. Jeżeli nad tym samym Produktem pracuje wiele Scrum Teamów, korzystają one ze wspólnego Definition of Output Done jako wspólnej podstawy, ale mogą je rozwijać.
 
-Scrum Team jest zobowiązany do przestrzegania Definicji Ukończonej Pracy i jej ciągłego doskonalenia. Increment jest kumulatywny. Definicja Ukończonej Pracy służy dobru Produktu i jego Interesariuszy. Definicja Ukończonej Pracy stanowi ogólny standard jakości dla całego Incrementu, a nie specyficzny standard dla każdego elementu (np. Kryteriów Akceptacji)
+Scrum Team ma obowiązek stosować się do Definition of Output Done oraz nieustannie je doskonalić. Increment ma charakter kumulatywny. Definition of Output Done służy dobru Produktu i jego Interesariuszy. Definition of Output Done stanowi ogólny standard jakości dla całego Incrementu, a nie indywidualny standard dla każdego elementu (np. Acceptance Criteria).
 
-Wydany Increment umożliwia uzyskanie informacji zwrotnej na temat Wartości dla walidacji wartości zgodnie z Definicją Dostarczonej Wartości.
+Wydany Increment umożliwia uzyskanie informacji zwrotnej z rezultatów  służącej walidacji wartości zgodnie z Definition of Outcome Done.
 
 ### Product Backlog {#product-backlog}
 
-Product Backlog jest artefaktem. To wyłaniająca się, uporządkowana (sekwencyjna) lista elementów Product Backlogu potrzebnych do osiągnięcia Celu Produktu. Product Backlog zapewnia Przejrzystość (jasność pracy) i stanowi jedyne źródło pracy dla Scrum Teamu w celu realizacji Celu Produktu. Product Owner, zawsze mając na uwadze wartość, kieruje porządkowaniem elementów Product Backlogu. Mniejszy Product Backlog często zapewnia większą Przejrzystość.
+Product Backlog to artefakt. Stanowi emergentną, uporządkowaną (uszeregowaną) listę Elementów Product Backlogu potrzebnych do osiągnięcia Celu Produktu. Product Backlog zapewnia Transparencję (klarowność pracy) i jest jedynym źródłem pracy dla Scrum Teamu w celu realizacji Celu Produktu. Product Owner, stale mając na uwadze wartość, nadaje kolejność elementom Product Backlogu. Mniejszy Product Backlog często zwiększa Transparencję.
 
 #### Element Product Backlogu {#product-backlog-item}
 
-Element Product Backlogu to potencjalnie wartościowy element znajdujący się w Product Backlogu. Nie musi mieć określonego formatu. Jego celem jest rozwiązanie problemu lub wykorzystanie szansy. Może zawierać Kryteria Akceptacji, które określają, kiedy praca jest ukończona, oprócz Definicji Ukończonej Pracy. Można dostarczyć dokładnie to, co zostało zamówione, a mimo to nie osiągnąć wystarczających wyników. Dlatego element Product Backlogu może również zawierać jasno zdefiniowane Kryteria Wartości, które określają, kiedy dostarczono wystarczającą wartość, oprócz tego, co już znajduje się w Definicji Dostarczonej Wartości.
+Element Product Backlogu (Product Backlog Item) to potencjalnie wartościowy element znajdujący się w Product Backlogu. Nie musi mieć z góry określonego formatu. Jego celem jest rozwiązanie problemu lub wykorzystanie szansy. Może zawierać Acceptance Criteria, które wskazują, kiedy praca została ukończona - obok Definition of Output Done. Można dostarczyć dokładnie to, co było zamówione, ale nadal nie osiągnąć wystarczających outcomes. Dlatego Element Product Backlogu może także zawierać jasno określone Outcome Criteria, które wskazują, kiedy dostarczona została wystarczająca wartość - uzupełniając zapisy Definition of Outcome Done.
 
-Element Product Backlogu to pojedyncza jednostka pracy, która odkrywa lub dostarcza wartość. Element Product Backlogu może ewoluować w dowolnym momencie, nawet gdy Product Developerzy nad nim pracują. Podczas Refinementu jest dzielony na mniejsze, bardziej zrozumiałe (głównie dla Scrum Teamu) elementy Product Backlogu, które mogą dostarczyć wartość. Czasami zdarza się, że element Product Backlogu nie jest powiązany z Celem Produktu; jeśli dzieje się to często, warto sprawdzić, czy poziom _Skupienia_ jest odpowiedni. Scrum Team i Interesariusze powinni _skupiać_ się na Wartościach, a nie Outputach, zachowywać właściwą równowagę kompromisów i nie dopuścić, by Scrum Team stał się „fabryką funkcjonalności” lub „fabryką odkryć”.
+Element Product Backlogu to pojedyncza jednostka pracy, która odkrywa lub dostarcza wartość. Może ewoluować w dowolnym momencie - nawet gdy Product Developerzy nad nim pracują. Podczas refinementu może zostać podzielony na mniejsze, bardziej zrozumiałe (głównie dla Scrum Teamu) elementy Product Backlogu, które mogą dostarczyć wartość. Czasami może się zdarzyć, że dany element Product Backlogu nie jest powiązany z Celem Produktu. Jeśli takie sytuacje występują często, warto sprawdzić, czy poziom Skupienia jest tam, gdzie powinien być. Scrum Team oraz Interesariusze powinni Skupić się na outcomes, a nie wyłącznie na outputs, równoważyć kompromisy i nie dopuścić, by Scrum Team stał się „fabryką funkcjonalności” (feature-factory) lub „fabryką odkryć” (discovery-factory).
 
-#### Kryteria Akceptacji {#acceptance-criteria}
+#### Acceptance Criteria {#acceptance-criteria}
 
-Kryteria Akceptacji, jeśli istnieją, opisują, kiedy output dla konkretnego elementu Product Backlogu jest ukończony, oprócz Definicji Ukończonej Pracy. Kryteria Akceptacji w doprecyzowanych elementach powinny zapewniać jednoznaczną jasność co do tego, co jest wymagane. Kryteria Akceptacji obejmują wymagania specyficzne dla danego elementu Product Backlogu, które nie zostały już ujęte w Definicji Ukończonej Pracy; mogą być funkcjonalne lub niefunkcjonalne. Kryteria Akceptacji mogą ewoluować w dowolnym momencie, nawet podczas pracy Product Developerów nad nimi.
+Acceptance Criteria, jeśli istnieją, opisują, kiedy output dla danego Elementu Product Backlogu jest ukończony - oprócz zapisów Definition of Output Done. Acceptance Criteria w doprecyzowanych elementach powinny zapewniać jednoznaczną jasność co do tego, _co_ jest wymagane. Acceptance Criteria obejmują kryteria specyficzne dla danego Elementu Product Backlogu, których nie uwzględniono w Definition of Output Done; mogą być funkcjonalne lub niefunkcjonalne. Acceptance Criteria mogą ewoluować w dowolnym momencie - nawet podczas pracy Product Developerów nad danym elementem.
 
 #### Outcome Criteria {#outcome-criteria}
 
-Kryteria Wartości, jeśli istnieją, opisują intencję elementu Product Backlogu; stanowią _dlaczego_ stojące za tym, _co_ ma być wykonane. Spełnienie Kryteriów Wartości często uzupełnia Definicję Dostarczonej Wartości dla Produktu. Mogą one obejmować kryteria specyficzne dla danego elementu Product Backlogu, które nie zostały już ujęte w Definicji Dostarczonej Wartości. W przypadku pojawienia się pytań, Kryteria Wartości wskazują kierunek; mogą mieć formę narracyjną lub mierzalną, przy czym preferowane są te drugie. Kryteria Wartości mogą ewoluować w dowolnym momencie, nawet podczas pracy Product Developerów nad nimi.
+Outcome Criteria, jeśli istnieją, opisują intencję Elementu Product Backlogu - czyli _dlaczego_ kryjące się za _co_. Spełnienie Outcome Criteria często uzupełnia Definition of Outcome Done dla Produktu. Mogą zawierać kryteria specyficzne dla danego Elementu Product Backlogu, których nie uwzględniono wcześniej w Definition of Outcome Done. Jeśli pojawiają się pytania, Outcome Criteria wskazują kierunek; mogą przyjmować formę narracyjną lub mierzalną - najlepiej tę drugą. Outcome Criteria mogą ewoluować w dowolnym momencie - nawet podczas pracy Product Developerów nad danym elementem.
 
 #### Refinement {#refinement}
 
-Refinement to aktywność. Może mieć charakter formalny (dodatkowe wydarzenie) lub nieformalny. Refinement jest ciągłym, wyłaniającym się procesem, który sprzyja klarowności i redukuje ryzyko; buduje wystarczające zrozumienie i pewność, że wybrane lub nadchodzące elementy Product Backlogu są gotowe (mogą zostać ukończone zgodnie z Definicją Ukończonej Pracy w ciągu kilku dni lub krócej). Uwzględniane są różne typy zależności.
+Refinement to aktywność. Może mieć formę formalną (dodatkowe wydarzenie) lub nieformalną. Jest to ciągły emergentny proces, który sprzyja klarowności i ograniczaniu ryzyka; buduje wystarczające zrozumienie i przekonania, że wybrane lub nadchodzące Elementy Product Backlogu są gotowe (mogą zostać ukończone zgodnie z Definition of Output Done w ciągu kilku dni lub szybciej). Uwzględnia się różne typy zależności.
 
-Refinement obejmuje rozbijanie elementów Product Backlogu na mniejsze, bardziej zrozumiałe (przede wszystkim dla Scrum Teamu) elementy Product Backlogu. W trakcie refinementu można dodać więcej szczegółów, takich jak opis, Kryteria Akceptacji, Kryteria Wartości, kolejność oraz rozmiar. Atrybuty mogą się różnić, ale powinny być znaczące dla Scrum Teamu. Refinement może obejmować badania, w tym, ale nie tylko, walidację problemu lub szansy, doświadczenie użytkownika lub klienta, walidację rozwiązania. Za określanie rozmiaru elementów Product Backlogu odpowiadają wyłącznie Product Developerzy. Product Owner może wpływać na Product Developerów, pomagając im zrozumieć i wybrać potencjalne kompromisy.
+Refinement obejmuje dzielenie Elementów Product Backlogu na mniejsze, bardziej zrozumiałe (głównie dla Scrum Teamu) Elementy Product Backlogu. W jego ramach można dodawać więcej szczegółów, takich jak opis, Acceptance Criteria, Outcome Criteria, kolejność i rozmiar. Atrybuty mogą się różnić, ale powinny mieć sens  dla Scrum Teamu. Refinement może obejmować badania, w tym między innymi walidację problemu lub szansy, doświadczeń użytkownika lub klienta, walidację rozwiązania. Za oszacowanie rozmiaru Elementów Product Backlogu odpowiedzialni (responsible) są wyłącznie Product Developerzy. Product Owner może wpływać na Product Developerów, pomagając im zrozumieć i wybrać potencjalne kompromisy.
 
-W Refinemencie często uczestniczą Interesariusze oraz członkowie Scrum Teamu; nie jest rzadkością, że Product Developerzy współpracują bezpośrednio z Interesariuszami. Refinement jest często wspierany lub facylitowany przez Product Ownera. Product Owner może _skupić się_ bardziej na własności Produktu, jeśli Product Developerzy mają szerokie zrozumienie Produktu. Ogólnie rzecz biorąc, jest to aktywność zorientowana na przyszłość, która zapewnia jasność, kierunek i potencjalne _skupienie_ na nadchodzące Sprinty.
+W Refinemencie często uczestniczą Interesariusze oraz członkowie Scrum Teamu; nie jest niczym niezwykłym, że Product Developers współpracują bezpośrednio z Interesariuszami. Refinement jest często wspierany lub facylitowany przez Product Ownera. Product Owner może bardziej _Skupić_ się na Product ownership, jeśli Product Developers mają szerokie zrozumienie Produktu. Ogólnie rzecz biorąc, jest to aktywność zorientowana na przyszłość, która oferuje przejrzystość, kierunek i potencjalne _Skupienie_ w nadchodzących Sprintach.
 
 #### Zobowiązanie: Cel Produktu  {#commitment:-product-goal}
 
-Cel Produktu to zobowiązanie. Jest reprezentowany poprzez Product Backlog, którego właścicielem jest Product Owner. Stanowi aktualny, pojedynczy, bardziej strategiczny i ambitny cel (czyli _dlaczego_). Nadaje kierunek Produktowi i umożliwia _Skupienie_ Product Developerom pracującym nad Produktem. Zwiększa Przejrzystość, zapewniając jasny, wartościowy kierunek, do którego Product Developerzy mogą dążyć, wykorzystując bardziej taktyczny Cel Sprintu (czyli _dlaczego_ dla Sprintu).
+Cel Produktu jest zobowiązaniem. Jest reprezentowany przez Product Backlog, który należy do Product Ownera. Stanowi on aktualny, pojedynczy, bardziej strategiczny, ambitny cel (czyli _dlaczego_). Nadaje kierunek dla Produktu i umożliwia Product Developers pracujących nad Produktem _Skupienie_. Zwiększa Transparencję, dostarczając jasnego, wartościowego kierunku, ku któremu Product Developers mogą zmierzać, używając bardziej taktycznego Celu Sprintu (czyli _dlaczego_ dla Sprintu).
 
-Cel Produktu to średnioterminowy cel dla Scrum Teamu oraz Interesariuszy (i Supporterów). Scrum Team powinien zrealizować (lub porzucić) jeden Cel Produktu, zanim podejmie się kolejnego.
+Cel Produktu to średnioterminowy cel dla Scrum Teamu oraz Interesariuszy (w tym i Supporterów). Scrum Team powinien zrealizować (lub porzucić) jeden Cel Produktu, zanim podejmie się kolejnego.
 
-Cel Produktu to zazwyczaj jeszcze niepotwierdzone twierdzenie dotyczące wartości. Może być wyrażony na wiele sposobów, w tym jako zestaw hipotez dotyczących zamykania lub zmniejszania luk satysfakcji. Odpowiednio równoważy oczekiwania i ograniczenia, koncentrując się na wybranej części zróżnicowanych oczekiwań Interesariuszy (w tym, ale nie tylko, klientów lub użytkowników). Dzięki Inspekcji i Adaptacji kluczowe jest akceptowanie niepewności (72), informacji zwrotnej na temat Wartości, skutków ubocznych oraz innych wniosków.
+Cel Produktu to zazwyczaj jeszcze niezweryfikowane twierdzenie dotyczące wartości. Może być wyrażony w różnych formach, w tym jako zestaw hipotez dotyczących zamknięcia lub zmniejszenia luk w satysfakcji. Zachowuje równowagę, koncentrując się na wybranych oczekiwaniach i ograniczeniach wielu Interesariuszy (w tym, choć nie tylko, klientów lub użytkowników). Poprzez Inspekcję i Adaptację istotne jest zaakceptowanie niepewności (72), informacji zwrotnej z wyników, efektów ubocznych i innych wniosków płynących z nauki.
 
 #### A co z Wizją Produktu? {#what-about-a-product-vision?}
 
-Wiele organizacji pracuje z Wizją Produktu, która pomaga zobrazować potencjalną przyszłość. Scrum Team może wykorzystać Wizję jako punkt wyjścia do rozważenia Celu Produktu. Wizja Produktu to znaczący, długoterminowy zestaw pożądanych, wartościowych wyników. Średnioterminowy Cel Produktu często stanowi krok w kierunku realizacji długoterminowej Wizji Produktu.
+Wiele organizacji pracuje z Wizją Produktu, która pomaga zobrazować potencjalną przyszłość. Scrum Team może wykorzystać Wizję jako wkład  do zastanowienia się nad Celem Produktu. Wizja Produktu to znaczący, długoterminowy zbiór pożądanych, wartościowych outcomes. Średnioterminowy Cel Produktu jest często krokiem w kierunku długoterminowej Wizji Produktu.
 
-W miarę jak Scrum Team i Interesariusze dokonują Inspekcji i Adaptacji w kierunku Celu Produktu, powinni być otwarci na to, że zarówno Wizja Produktu, jak i sam Cel Produktu mogą również wymagać dostosowania. Często podczas dążenia do realizacji wizji osiąga się kolejno kilka Celów Produktu.
+W miarę jak Scrum Team i Interesariusze dokonują inspekcji i adaptacji w kierunku Celu Produktu, powinni być _Otwarci_ na możliwość, że Wizja Produktu lub Cel Produktu również mogą wymagać adaptacji. Często realizuje się kolejne Cele Produktu w sposób sekwencyjny, pracując w kierunku jednej wizji.
 
-Kluczową rzeczą, którą należy zauważyć, jest to, że Wizja Produktu często jest dziełem fikcji; nic z niej nie musi być prawdą. Formułowanie hipotez i przeprowadzanie eksperymentów w określonym kierunku jest niezbędne - właśnie tutaj Scrum może wnieść największą wartość.
+Kluczową rzeczą do zapamiętania jest to, że Wizja Produktu jest często dziełem fikcji - nic z niej nie musi być prawdą. Formułowanie hipotez i przeprowadzanie eksperymentów w określonym kierunku jest niezbędne - i to właśnie tutaj Scrum może dostarczyć najwięcej wartości.
 
-Wizja Produktu często inspiruje, ale może być przytłaczająca. Cel Produktu ogranicza to poczucie przytłoczenia, działając jako bardziej namacalny, pionowy wycinek Wizji Produktu lub jako czynnik umożliwiający jej realizację.
+Wizja Produktu często jest inspirująca, ale może też przytłaczać. Cel Produktu redukuje to przytłoczenie, ponieważ stanowi bardziej namacalny wycinek Wizji Produktu lub działa jako czynnik umożliwiający realizację Wizji Produktu. 
 
 ### Sprint Backlog {#sprint-backlog}
 
-Sprint Backlog jest artefaktem. Składa się z Celu Sprintu (czyli _dlaczego_ realizowany jest Sprint), zestawu wybranych elementów Product Backlogu (czyli _co_, znane również jako prognoza) na Sprint oraz często zawiera wykonalny plan dostarczenia Incrementu (czyli _jak_). Sprint Backlog zapewnia Przejrzystość (jasność pracy) przez cały Sprint.
+Sprint Backlog to artefakt. Składa się z Celu Sprintu (_dlaczego_ Sprint jest realizowany), zestawu wybranych Elementów Product Backlogu (_co_, znane również jako prognoza) na Sprint oraz często zawiera dający możliwość działania plan dostarczenia Incrementu (_jak_). Zapewnia Transparencję (klarowność pracy) w trakcie całego Sprintu.
 
-Sprint Backlog to plan tworzony przez i dla Product Developerów. Stanowi on perspektywę Product Developerów na zrozumianą pracę niezbędną do osiągnięcia Celu Sprintu (czyli dlaczego realizowany jest Sprint). W przypadku nieoptymalnego scenariusza, gdy większość elementów Sprint Backlogu jest stale niepowiązana z Celem Produktu, wartości Scrum — _Skupienie_ oraz _Zobowiązanie_ — nie są przestrzegane.
+Sprint Backlog to plan tworzony przez i dla Product Developerów. Jest to punkt widzenia Product Developerów na uzgodnioną pracę niezbędną do osiągnięcia Celu Sprintu (dlaczego Sprint jest realizowany). Jeśli nieustannie większość elementów Sprint Backlogu nie jest powiązana z Celem Produktu, co jest suboptymalne, to wskazuje to na brak przestrzegania wartości Scrumowych: _Skupienia_ i _Zaangażowania_. 
 
-W kontekście Celu Sprintu Product Developerzy aktualizują swój plan, w tym prognozę, przez cały Sprint, w miarę jak zdobywają nowe informacje. Sprint Backlog powinien zawierać wystarczającą ilość pracy, aby rozpocząć Sprint, np. zaczynając od jednego lub dwóch elementów Product Backlogu prowadzących do realizacji Celu Sprintu. Product Developerzy dokonują inspekcji postępów w kierunku Celu Sprintu podczas Daily Scrum lub częściej. Product Developerzy uczą się adaptować i reagować na niepewność (72).
+W kontekście Celu Sprintu Product Developerzy aktualizują swój plan, w tym prognozę, przez cały Sprint w miarę zdobywania wiedzy. Sprint Backlog powinien zawierać wystarczającą ilość pracy, aby zacząć, np. rozpocząć od jednego lub dwóch Elementów Product Backlogu prowadzących do realizacji Celu Sprintu. Product Developerzy dokonują inspekcji swojego postępu względem Celu Sprintu podczas Daily Scrum lub częściej. Product Developerzy uczą się dostosowywać i reagować na niepewność (72).
 
 #### Zobowiązanie: Cel Sprintu {#commitment:-sprint-goal}
 
-Cel Sprintu to zobowiązanie tworzone i posiadane przez Scrum Team. Cel Sprintu jest pojedynczym, jednoczącym celem Sprintu (czyli _dlaczego_) dla Product Developerów, ustalanym podczas Planowania Sprintu. Realizacja Celu Sprintu jest zobowiązaniem Product Developerów. Sprint Backlog (zawierający _dlaczego_, _co_ oraz często _jak_) zapewnia _Skupienie_ i elastyczność wobec zmieniającej się pracy, zwiększając tym samym Przejrzystość.
+Cel Sprintu jest zobowiązaniem tworzonym i należącym do  Scrum Teamu. Cel Sprintu to jedyny, jednoczący  cel Sprintu (_dlaczego_) dla Product Developerów, tworzony podczas Sprint Planningu. Dostarczenie Celu Sprintu to zobowiązanie Product Developerów. Sprint Backlog (zawierający _dlaczego_, _co_ i często _jak_) zapewnia _Skupienie_ oraz elastyczność względem ewoluującej pracy, co poprawia Transparencję.
 
-Cel Sprintu zachęca Scrum Team do wspólnej pracy, zamiast realizowania oddzielnych inicjatyw. Jeśli praca okazuje się inna, niż oczekiwali Product Developerzy, współpracują oni z Product Ownerem, aby negocjować możliwe rozwiązania w ramach Sprintu, nie naruszając Celu Sprintu. Nikt nie mówi Product Developerom, jak mają szacować lub wykonywać swoją pracę.
+Cel Sprintu zachęca Scrum Team do pracy zespołowej, zamiast do realizacji odrębnych inicjatyw. Jeśli praca okaże się inna, niż Product Developerzy się spodziewali, współpracują oni z Product Ownerem, negocjując  możliwe zmiany w ramach Sprintu, bez wpływu na Cel Sprintu. Nikt nie mówi Product Developerom, jak mają szacować rozmiar swojej pracy ani jak ją wykonywać.
 
-## Wydarzenia Scrum w Expansion Pack {#the-scrum-events-in-the-expansion-pack}
+## Wydarzenia Scrum w Rozszerzeniach{#the-scrum-events-in-the-expansion-pack}
 
-Scrum łączy cztery wydarzenia o określonych ramach czasowych, służące Inspekcji i Adaptacji, w ramach piątego wydarzenia o ustalonej długości, czyli Sprintu. Wydarzenia te wspierają filary Scruma: Przejrzystość, Inspekcję i Adaptację. Wydania umożliwiają dostarczanie wartości, najlepiej w sposób ciągły. Rzadkie wydania prowadzą do opóźnionej informacji zwrotnej na temat Wartości.
+Scrum łączy cztery wydarzenia o ograniczonym czasie trwania (timeboxy), służące Inspekcji i Adaptacji, mieszczące się w ramach piątego, nadrzędnego wydarzenia o określonej długości - Sprincie. Wydarzenia te wspierają filary Scruma: Transparencję, Inspekcję oraz Adaptację. Wydania umożliwiają dostarczanie wartości, najlepiej w sposób ciągły. Rzadkie wydania prowadzą do opóźnionej informacji zwrotnej z rezultatów.
 
-Ramy czasowe to określona maksymalna ilość upływającego czasu od początku do końca zdefiniowanego wydarzenia, której nie należy mylić z oczekiwaniem wykorzystania całego tego czasu. Celem ram czasowych w Scrumie jest wspieranie wyboru najistotniejszej pracy, tworząc _Skupienie_ na szybkim osiągnięciu pożądanych rezultatów. W Scrumie, dla danego Scrum Teamu, długość sprintu jest stała, więc nie jest ramą czasową.
+Timebox to ustalony maksymalny czas trwania danego zdarzenia - od początku do końca - i nie należy go mylić z oczekiwaniem wykorzystania całego dostępnego czasu. Celem timeboxów w Scrumie jest promowanie wyboru najistotniejszej pracy, tworząc Skupienie niezbędne do szybkiego osiągania pożądanych rezultatów. W Scrumie długość Sprintu dla danego Scrum Teamu jest stała, więc Sprint nie jest timeboxem.
 
-Wydarzenia tworzą rytm pracy i minimalizują potrzebę innych spotkań, które nie są częścią Scruma. Idealnie każde wydarzenie odbywa się w tym samym czasie i miejscu, co redukuje złożoność (30-35) i sprzyja kształtowaniu nawyków. Umiejętna facylitacja zwiększa skuteczność wydarzeń. Nieskuteczne wydarzenia niosą ryzyko utraty nacisku na Cel Sprintu, Cel Produktu, Przejrzystość, Inspekcję, Adaptację oraz Wartości Scrum.
+Wydarzenia nadają rytm i ograniczają potrzebę organizowania innych spotkań niezwiązanych bezpośrednio ze Scrumem. Idealnie każde wydarzenie odbywa się w tym samym miejscu i o tej samej porze, co redukuje złożoność (30-35) i sprzyja kształtowaniu nawyków. Umiejętna facylitacja zwiększa efektywność. Nieskuteczne wydarzenia mogą prowadzić do utraty _Skupienia_ na Celu Sprintu, Celu Produktu, oraz osłabienia Transparencji, Inspekcji, Adaptacji i Wartości Scrumowych.
 
-Każde wydarzenie ma swój własny cel i powinno obejmować głęboką, znaczącą pracę. Razem wydarzenia Scrum tworzą rusztowanie Przejrzystości, umożliwiające inspekcję i adaptację, zatrzymanie się oraz refleksję. Wydarzenia Scrum wspierają uporządkowane myślenie i działanie, efektywność oraz zrównoważone obciążenie pracą
+Każde wydarzenie ma swój cel i powinno obejmować pogłębioną, istotną pracę. Razem wydarzenia Scrumowe tworzą rusztowanie dla Transparencji, umożliwiające Inspekcję, Adaptację, zatrzymanie się i refleksję. Wspierają one uporządkowane myślenie i działanie, efektywność i zrównoważony wysiłek.
 
-Komunikacja jest kluczowa, aby Scrum Team i Supporterzy mogli _skupić się_ na właściwych rzeczach. Poza Sprintem, wydarzenia mogą zajmować mniej czasu, o ile nie zostaje utracona spójność.
+Komunikacja jest kluczowa, aby Scrum Team i Supporterzy mogli się _Skupić_ na właściwych aspektach. Poza Sprintem, wydarzenia mogą zajmować mniej czasu, o ile nie tracą spójności.
 
 ### Sprint {#the-sprint}
 
-Sprint to wydarzenie, podczas którego pomysły zamieniane są w wartość. Sprint jest wydarzeniem - kontenerem innych wydarzeń. To iteracja o określonym czasie trwania, w której realizowana jest praca. Zapewnia _Skupienie_ i stabilność. Sprint nie trwa dłużej niż cztery tygodnie. Nowy Sprint rozpoczyna się natychmiast po zakończeniu poprzedniego Sprintu. Cała praca niezbędna do osiągnięcia Celu Produktu odbywa się w ramach Sprintów.
+Sprint to wydarzenie, podczas którego pomysły zamieniają się w wartość. Sprint to zdarzenie nadrzędne. To iteracja o określonym czasie trwania, w trakcie której realizowana jest praca. Zapewnia _Skupienie_ i stabilność. Sprint nie trwa dłużej niż cztery tygodnie. Nowy Sprint rozpoczyna się natychmiast po zakończeniu poprzedniego. Cała praca niezbędna do osiągnięcia Celu Produktu odbywa się w ramach Sprintów.
 
-Sprinty są sercem Scruma, w których Scrum Team zamienia pomysły w użyteczne, przydatne i potencjalnie wartościowe Incrementy. Increment jest wydawany tak szybko, jak to praktycznie możliwe, z uwzględnieniem potrzeby wczesnej informacji zwrotnej na temat Wartości. Brak wydania Incrementu do części Interesariuszy (w tym, ale nie tylko, do rzeczywistych klientów, decydentów i użytkowników) może prowadzić do braku terminowej informacji zwrotnej na temat Wartości. W jednym Sprincie może powstać wiele Incrementów; Scrum Team powinien dążyć do walidacji wartości poprzez wczesne i częste wydania, tam gdzie to możliwe.
+Sprinty są rytmem Scruma - to właśnie wtedy Scrum Team zamienia pomysły w użyteczne, używalne i potencjalnie wartościowe Incrementy. Increment jest wydawany jak najszybciej, biorąc pod uwagę potrzebę uzyskania wczesnej informacji zwrotnej z rezultatów. Brak wydania dla części Interesariuszy (w tym, ale nie wyłącznie: klientów, decydentów i użytkowników) może skutkować brakiem terminowej informacji zwrotnej z rezultatów. W jednym Sprincie może powstać wiele Incrementów ; Scrum Team powinien dążyć do walidacji wartości poprzez częste i wczesne wydania - tam, gdzie to możliwe.
 
-Podczas Sprintu:
+W trakcie Sprintu:
 
 - Nie wprowadza się zmian, które mogłyby zagrozić Celowi Sprintu;
-- Increment(y) nie powinny tracić na jakości;
-- Product Backlog jest doprecyzowywany w razie potrzeby;
-- W miarę zdobywania nowych informacji bieżąca praca może być doprecyzowana i renegocjowana z Product Ownerem, pod warunkiem że nie wpływa to na Cel Sprintu.
+- Nie obniża się jakości Incrementu(ów);
+- Product Backlog jest doprecyzowany w razie potrzeby;
+- W miarę zdobywania wiedzy bieżąca praca może być doprecyzowana i renegocjowana z Product Ownerem, bez wpływu na Cel Sprintu.
 
-Sprinty umożliwiają osiąganie Wartości poprzez zapewnienie Inspekcji i Adaptacji postępów w kierunku Celu Sprintu co najmniej raz na cztery tygodnie. Gdy Sprint jest zbyt długi, Cel Sprintu może stracić aktualność, co zwiększa złożoność (30-35) i ryzyko. Krótsze Sprinty często generują więcej cykli uczenia się; mogą także ograniczać ryzyko.
+Sprinty umożliwiają osiąganie outcomes poprzez zapewnienie Inspekcji i Adaptacji postępów względem Celu Sprintu przynajmniej co cztery tygodnie. Zbyt długi Sprint może sprawić, że Cel Sprintu przestanie być aktualny, co zwiększa złożoność (30-35) i ryzyko. Krótsze Sprinty często umożliwiają więcej cykli uczenia się; mogą też ograniczać ryzyko.
 
-Krótsze Sprinty zazwyczaj wymagają podniesienia kompetencji, takich jak doprecyzowanie, pionowe cięcie, znajomość domeny technicznej i biznesowej. Kontekst ma znaczenie, a Scrum Team dąży do znalezienia właściwej równowagi.
+Krótsze Sprinty zazwyczaj wymagają większych kompetencji (np. doskonalenia backlogu, pionowego dzielenia[^5] [elementów Product Backlogu], znajomości dziedziny technicznej i biznesowej). Kontekst ma znaczenie - Scrum Team dąży do znalezienia właściwej równowagi.
 
-Istnieje wiele praktyk uzupełniających służących ocenie lub prognozowaniu postępów, takich jak burn-downy, burn-upy, analityka flow, prognozy probabilistyczne Monte Carlo, szacowanie dużego nakładu pracy, zbiory rozmyte (110) itp. Choć są one przydatne, nie zastępują znaczenia empiryzmu (67). W złożonych środowiskach (30-35) to, co już się wydarzyło, może być wykorzystywane do podejmowania decyzji na przyszłość, jednak to, co się wydarzy, pozostaje nieznane.
+Istnieją różne praktyki uzupełniające, które służą ocenie lub prognozowaniu postępu, takie jak wykresy spalania [burn-downs, burn-ups], analityka przepływu, prognozy probabilistyczne Monte Carlo, szacowanie dużych zadań, zbiory rozmyte (110) itp. Mimo że są użyteczne, nie zastępują one znaczenia empiryzmu (67). W złożonym (30-35) środowisku to, co już się wydarzyło, może służyć do podejmowania decyzji na przyszłość, ale to, co się wydarzy, pozostaje nieznane.
 
-Można myśleć o Sprincie jak o mini-projekcie z jasno określonym Wartością, z góry ustaloną długością i przewidywalnymi kosztami. Jednak różne aktywności wykonywane są równolegle, a nie w sekwencyjny, liniowy sposób.
+Sprint można postrzegać jako mini-projekt z jasnym outcome, określoną długością i znanym kosztem. Jednakże prace w jego ramach odbywają się równolegle, a nie w liniowej, sekwencyjnej kolejności.
 
-Sprint może zostać anulowany, jeśli Cel Sprintu stanie się nieaktualny. Tylko Product Owner ma uprawnienia do anulowania Sprintu. Krótsze Sprinty zmniejszają prawdopodobieństwo anulowania.
+Sprint może zostać anulowany, jeśli Cel Sprintu straci sens. Tylko Product Owner ma umocowanie do anulowania Sprintu. Krótsze Sprinty zmniejszają prawdopodobieństwo anulowania.
 
 ### Sprint Planning {#sprint-planning}
 
-Sprint Planning to wydarzenie. Jest to pierwsze wydarzenie Sprintu, podczas którego Scrum Team nadaje _Skupienie_ i tworzy zobowiązanie
+Sprint Planning to wydarzenie. To pierwsze wydarzenie w Sprincie, w którym Scrum Team Skupia się się i buduje Zaangażowanie.
 
-Podczas Sprint Planningu rozważany jest bardziej strategiczny Cel Produktu (czyli _dlaczego_ dla Product Backlogu), który nadaje kierunek. W tym procesie Product Developerzy tworzą Sprint Backlog, który składa się z krótkoterminowego, bardziej taktycznego Celu Sprintu (czyli _dlaczego_ dla Sprintu), początkowo zidentyfikowanej pracy oraz planu jej realizacji.
+Podczas Sprint Planningu brany jest pod uwagę bardziej strategiczny Cel Produktu (czyli _dlaczego_ dla Product Backlogu), który nadaje kierunek. W tym kontekście Product Developerzy tworzą Sprint Backlog, który składa się z bardziej taktycznego, krótkoterminowego Celu Sprintu (_dlaczego_ dla Sprintu), początkowo zidentyfikowanej pracy oraz planu dostarczenia.
 
-Sprint Planning obejmuje następujące zagadnienia:
+Sprint Planning dotyczy następujących tematów:
 
-#### _Dlaczego_ realizujemy Sprint {#the-why-for-the-sprint}
+#### _Dlaczego_ Sprintu {#the-why-for-the-sprint}
 
-Product Owner proponuje pomysły na to, jak Produkt może zwiększyć swoją wartość i użyteczność w bieżącym Sprincie. Następnie Scrum Team współpracuje, aby zdefiniować Cel Sprintu, który komunikuje, dlaczego Sprint jest wartościowy dla Interesariuszy w kontekście Celu Produktu. Cel Sprintu musi zostać sfinalizowany do końca Sprint Planning
+Product Owner przedstawia pomysły na to, jak można zwiększyć wartość i użyteczność Produktu w bieżącym Sprincie. Następnie Scrum Team współpracuje, aby zdefiniować Cel Sprintu, który komunikuje, dlaczego Sprint jest wartościowy dla Interesariuszy w kontekście Celu Produktu. Cel Sprintu musi zostać sfinalizowany do końca Sprint Planningu.
 
-#### _Co_ prowadzi do realizacji _Dlaczego_ {#the-what-toward-the-why}
+#### _Co_ względem _Dlaczego_ {#the-what-toward-the-why}
 
-Współpracując z Product Ownerem, Product Developerzy wybierają elementy z Product Backlogu do realizacji w bieżącym Sprincie. Scrum Team może doprecyzować te elementy, co zwiększa zrozumienie i pewność. Wybrane elementy powinny być osiągalne zgodnie ze standardem Definicji Ukończonej Pracy, obok innych elementów.
+We współpracy z Product Ownerem, Product Developerzy wybierają elementy z Product Backlogu do realizacji w bieżącym Sprincie. Scrum Team może je doprecyzować, co zwiększa zrozumienie i pewność. Wybrane elementy powinny być możliwe do zrealizowania zgodnie ze standardem Definition of Output Done, razem z pozostałymi elementami.
 
-Określenie, ile pracy można zrealizować w ramach Sprintu, bywa trudne. Jednak im więcej Product Developerzy wiedzą o swoim dotychczasowym wykonaniu, technikach pionowego cięcia (vertical slicing), nadchodzącej dostępności oraz Definicji Ukończonej Pracy (Definition of Output Done), tym większą mają pewność w prognozowaniu wyników Sprintu.
+Określenie, ile pracy da się zrealizować w Sprincie, może być wyzwaniem. Im więcej Product Developerzy wiedzą o swojej historycznej wydajności, technikach pionowego dzielenia [elementów Product Backlogu], nadchodzącej dostępności i Definition of Output Done, tym większą mają pewność w prognozowaniu outcomes Sprintu.
 
-Skuteczne Scrum Teamy nie przeciążają się pracą. W rzeczywistości planują zakończyć pracę wcześniej, czasem pozostawiając bufor na nieprzewidziane zdarzenia (85). Pomaga to Scrum Teamowi zachować skupienie, poprawić jakość i zadowolić Interesariuszy poprzez szybsze dostarczanie wartości. Przewlekłe przeciążenie lub nagłe zmiany mogą powodować nadmierny, negatywny stres, który Jeff Sutherland nazywa „Bayesian surprise”. Mogą one zakłócić psychologiczny flow Scrum Teamu (70) oraz jego wydajność. Jasna komunikacja, profesjonalne podejście do emergencji (71) oraz małe, regularne zmiany pomagają temu zapobiegać, dlatego Scrum Teamy powinny dążyć do wczesnego dostarczania.
+Skuteczne Scrum Teamy nie przeciążają się. Planują  one zakończenie pracy wcześniej, czasem z użyciem bufora na nieprzewidziane sytuacje (85). Pomaga to zespołowi utrzymać Skupienie, poprawiać jakość i zadowalać Interesariuszy poprzez szybsze dostarczanie wartości. Chroniczne przeciążenie lub nagłe zmiany mogą powodować nadmierny stres negatywny, który Jeff Sutherland nazywa „Bayesian surprise”. Mogą one zaburzać stan psychologicznego flow  (70) i efektywność Scrum Teamu. Klarowna komunikacja, profesjonalne radzenie sobie z emergencją (71) oraz małe, regularne zmiany pomagają temu zapobiec - dlatego Scrum Teamy powinny dążyć do wcześniejszego dostarczania.
 
-#### _Jak_ zrealizować _Co_ {#the-how-for-the-what}
+#### _Jak_ dla _Co_ {#the-how-for-the-what}
 
-To, jak praca jest wykonywana, leży wyłącznie w gestii Product Developerów. Nikt inny nie mówi Product Developerom, jak mają wykonywać swoją pracę. Product Developerzy sami wybierają swoją pracę - nikt inny nie przydziela im ani nie narzuca elementów Product Backlogu, nawet Product Owner.
+To, jak praca zostanie wykonana, zależy wyłącznie od Product Developerów. Nikt inny nie mówi im, jak mają wykonywać swoją pracę. Product Developerzy sami wybierają, co będą robić; nikt nie przydziela im elementów Product Backlogu ani nie wymusza ich realizacji - nawet Product Owner.
 
-Sprint Planning jest ograniczony ramą czasową do maksymalnie ośmiu godzin dla czterotygodniowego Sprintu. W przypadku krótszych Sprintów to wydarzenie zazwyczaj trwa krócej. Kontekst ma znaczenie. Jednak jako ogólna zasada, należy zaplanować tyle, aby móc rozpocząć pracę, np. zaplanować kilka elementów Product Backlogu w kierunku Celu Sprintu.
+Sprint Planning ma timebox do maksymalnie ośmiu godzin dla Sprintu czterotygodniowego. Dla krótszych Sprintów zdarzenie to zazwyczaj jest krótsze. Kontekst ma znaczenie. Jednak jako ogólną zasadę przyjmuje się, że planowania powinno być tyle, aby można było rozpocząć pracę - np. zaplanować kilka elementów Product Backlogu wspierających realizację Celu Sprintu.
 
 ### Daily Scrum {#daily-scrum}
 
-Daily Scrum jest wydarzeniem. Podczas Daily Scrum Product Developerzy współpracują, aby monitorować postępy w kierunku Celu Sprintu i aktualizują wykonalny plan, czyli Sprint Backlog, do następnego Daily Scrum. Jeśli Cel Sprintu został już osiągnięty, Product Developerzy współpracują nad znaczącym postępem w kierunku Celu Produktu.
+Daily Scrum to wydarzenie. Podczas Daily Scrum Product Developerzy współpracują, aby ocenić postęp w realizacji Celu Sprintu i aktualizują plan działania - Sprint Backlog - do następnego Daily Scrum. Jeśli Cel Sprintu został już osiągnięty, Product Developerzy pracują w kierunku Celu Produktu.
 
-Daily Scrum zapewnia _Skupienie_, spójność i poczucie pilności oraz wspiera samozarządzanie (49). Zazwyczaj uczestniczą w nim wyłącznie Product Developerzy. Dla uproszczenia często odbywa się w tym samym rytmie, miejscu i czasie.
+Daily Scrum zapewnia _Skupienie_, spójność i poczucie pilności oraz wspiera samozarządzanie (49). Zazwyczaj biorą w nim udział tylko Product Developerzy. Dla uproszczenia często odbywa się według tej samej kadencji, w tym samym miejscu i czasie.
 
-Product Developerzy mogą wybrać dowolną strukturę i techniki, które chcą stosować. Daily Scrum poprawia komunikację w celu realizacji Celu Sprintu, pozwala identyfikować i usuwać ryzyka oraz przeszkody, sprzyja szybkiemu podejmowaniu decyzji, a w konsekwencji eliminuje potrzebę organizowania innych spotkań.
+Product Developerzy mogą wybrać dowolną strukturę i techniki. Daily Scrum usprawnia komunikację wokół realizacji Celu Sprintu, identyfikuje i pomaga rozwiązywać ryzyka oraz przeszkody, wspiera szybkie podejmowanie decyzji, a co za tym idzie - eliminuje potrzebę innych spotkań.
 
-Daily Scrum to nie jedyny moment, w którym Product Developerzy dostosowują swój plan na Sprint w kontekście Celu Sprintu lub Celu Produktu. Product Developerzy często spotykają się w ciągu dnia, aby szczegółowo omówić modyfikacje planu.
+Daily Scrum nie jest jedynym momentem, w którym Product Developerzy dostosowują plan Sprintu w kontekście Celu Sprintu lub Celu Produktu. Product Developerzy często spotykają się w ciągu dnia, by omawiać szczegóły.
 
-Aby umożliwić przepływ wartości (68,69) i przyspieszyć osiąganie potencjalnych wyników, Product Developerzy powinni skupiać się na jednym lub kilku elementach jednocześnie i spełniać Definicję Ukończonej Pracy, zanim rozpoczną pracę nad kolejnymi elementami. Product Developerzy mogą to osiągnąć poprzez skupienie, ograniczenie liczby zadań w toku oraz proaktywne kończenie pracy zamiast rozpoczynania nowych zadań. Product Developerzy monitorują pracę oczekującą, a nie osoby oczekujące.
+Aby umożliwić przepływ wartości (68, 69) i szybszą realizację potencjalnych outcomes, Product Developerzy powinni koncentrować się na jednym lub kilku elementach naraz i doprowadzać je do stanu zgodnego z Definition of Output Done, zanim przejdą do kolejnych. Osiągają to poprzez Skupienie, ograniczenie liczby zadań w toku i priorytetyzowanie kończenia pracy nad rozpoczynaniem nowej. Product Developerzy monitorują przestoje w pracy, a nie bezczynność osób.
 
-Daily Scrum ma ramę czasową do maksymalnie piętnastu minut dziennie; może trwać krócej.
+Daily Scrum ma timebox do maksymalnie piętnastu minut dziennie; może być krótszy.
 
 ### Sprint Review {#sprint-review}
 
-Sprint Review jest wydarzeniem. To interaktywna, wspólna sesja robocza. Scrum Team często dzieli się aktualnym Celem Produktu oraz prezentuje Definicję Ukończonej Pracy i Definicję Dostarczonej Wartości interesariuszom. Scrum Team przedstawia wyniki swojej pracy, omawia dokonane kompromisy oraz postęp w kierunku Celu Produktu (czyli dlaczego ta praca została wykonana). Jeśli dostępne są aktualne i bieżące miary postępu względem Definicji Dostarczonej Wartości, są one prezentowane i brane pod uwagę.
+Sprint Review to wydarzenie. To interaktywna, oparta na współpracy sesja robocza. Często Scrum Team dzieli się aktualnym Celem Produktu oraz przedstawia Definition of Output Done i Definition of Outcome Done Interesariuszom. Zespół dzieli się rezultatami swojej pracy, kompromisami, na które się zdecydował, oraz tym, jaki postęp został osiągnięty w kierunku Celu Produktu („dlaczego” stojące za pracą). Jeśli są dostępne, udostępniane i omawiane są bieżące i aktualne miary postępu względem Definition of Outcome Done.
 
-Sprint Review obejmuje inspekcję wielu aspektów związanych z Produktem, takich jak Cel Produktu, Product Backlog, Cel Sprintu, zdobyte nauki, Increment, oczekiwania i ograniczenia Interesariuszy, informacje zwrotne dotyczące rezultatów, skutki uboczne, postęp prac nad Produktem, rynek, a także kwestie przyszłościowe, np. jakie nowe pomysły i możliwości się pojawiły oraz potencjalne kolejne kroki.
+Sprint Review obejmuje inspekcję wielu aspektów związanych z Produktem, takich jak: Cel Produktu, Product Backlog, Cel Sprintu, nowa wiedza, Increment, oczekiwania Interesariuszy oraz ograniczenia, informacja zwrotna z rezultatów, skutki uboczne, postęp prac nad Produktem, rynek, a także spojrzenie w przyszłość - jakie pojawiły się nowe pomysły i możliwości, jakie są potencjalne kolejne kroki.
 
-W oparciu o to, czego się nauczono:
+Na podstawie zdobytych informacji:
 
-- Uczestnicy wyczuwają, słuchają, uczą się i współpracują nad tym, co potencjalnie zrobić dalej;
-- Product Backlog (czyli co) jest dostosowywany, a czasem również Cel Produktu, najlepiej w oparciu o dowody lub obserwacje i zgodnie z Celem Produktu lub opcjonalną Wizją Produktu;
-- Uczestnicy dostosowują Definicję Dostarczonej Wartości Produktu na przyszłe Sprinty
+- Uczestnicy zastanawiają się, wzajemnie się słuchają, uczą się i współpracują, by określić nad czym warto pracować dalej;
+- Adaptowany jest Product Backlog (czyli „co”) oraz - ewentualnie - Cel Produktu, najlepiej przy wsparciu dowodami lub obserwacjami i ukierunkowany na Cel Produktu lub opcjonalną Wizję Produktu;
+- Uczestnicy adaptują Definition of Outcome Done dla przyszłych Sprintów.
 
-Zawsze należy brać pod uwagę Interesariuszy i to, co dla nich ma wartość, w tym nieożywionych, nie-ludzkich Interesariuszy, takich jak prawo.
+Zawsze ważne jest uwzględnianie Interesariuszy - w tym także nieożywionych, innych-niż-ludzie Interesariuszy, jak np. prawo - oraz tego, co jest dla nich wartościowe.
 
-Nieukończone elementy Product Backlogu wracają do Product Backlogu do ponownego rozważenia w przyszłości i nie są prezentowane; czasami są przenoszone do następnego Sprintu.
+Nieukończone elementy Product Backlogu wracają do Backlogu i nie są prezentowane; czasami przenoszone są do kolejnego Sprintu.
 
-Sprint Review to przedostatnie wydarzenie Sprintu i jest ograniczone ramą czasowo do maksymalnie czterech godzin dla czterotygodniowego Sprintu. Dla krótszych Sprintów wydarzenie to trwa zazwyczaj krócej.
+Sprint Review to przedostatnie wydarzenie Sprintu, timebox wynosi maksymalnie cztery godziny dla Sprintu czterotygodniowego. Dla krótszych Sprintów wydarzenie jest zazwyczaj krótsze.
 
 ### Sprint Retrospective {#sprint-retrospective}
 
-Sprint Retrospective jest wydarzeniem. Podczas tego wydarzenia Scrum Team uzgadnia, jak się ulepszyć. Analizowane są także błędne założenia, czyli takie, które skierowały Scrum Team w niewłaściwym kierunku. Wskazywane lub wzmacniane mogą być również dobre rzeczy, takie jak konkretne technologie, procesy, wzorce itp. Inspekcja obejmuje często różne elementy, w zależności od domeny pracy. Refleksja jest skuteczniejsza w środowisku zapewniającym psychologiczne bezpieczeństwo.
+Sprint Retrospective to wydarzenie. Podczas tego wydarzenia Scrum Team uzgadnia, jak się usprawnić. Analizowane są również błędne założenia - takie, które popchnęły Scrum Team w niewłaściwym kierunku. Wskazywane lub wzmacniane mogą być także dobre rzeczy, takie jak konkretne technologie, procesy, wzorce itp. Zakres inspekcji często zależy od domeny pracy. Refleksja jest skuteczniejsza w środowisku zapewniającym bezpieczeństwo psychologiczne.
 
-Sprint Retrospective koncentruje się na najbardziej pomocnych zmianach prowadzących do ulepszeń, takich jak:
+Sprint Retrospective koncentruje się na najbardziej pomocnych zmianach, które wspierają usprawnienia, takich jak:
 
-- Increment
-- Wartości
-- Profesjonalizm, np. umiejętności, praktyki techniczne, narzędzia, zdolność do innowacji
-- Flow zwalidowanej wartości (68,69), np. metryki przepływu end-to-end, time-to-market
-- Efektywność (czyli jak), np. technologie, procesy, zależności
-- Interakcje i dynamika Scrum Teamu, np. współpraca, ustalenia dotyczące pracy
-- Radiatory informacyjne, np. ściana produktowa, metryki
-- Definicja Ukończonej Pracy na przyszłe Sprinty
-- Dalsze adaptacje Definicji Dostarczonej Wartości na przyszłe Sprinty
-- Sposoby automatycznego uzyskiwania miar dotyczących Definicji Dostarczonej Wartości
-- i inne.
+- Increment,
+- Outcomes,
+- Profesjonalizm, np. umiejętności, praktyki techniczne, narzędzia, zdolność do innowacji;
+- Przepływ zwalidowanej wartości (68, 69), np. metryki end-to-end, czas dostarczenia;
+- Efektywność (_jak_), np. technologia, procesy, zależności;
+- Interakcje i dynamika Scrum Teamu, np. współpraca, organizacja pracy;
+- Radiatory informacji, np. Product Wall, metryki;
+- Definition of Output Done dla przyszłych Sprintów;
+- Dalsze adaptacje Definition of Outcome Done dla przyszłych Sprintów;
+- Sposoby automatycznego pozyskiwania miar związanych z Definition of Outcome Done;
+- I więcej.
 
-Najistotniejsze usprawnienia powinny być wdrażane tak szybko, jak to możliwe. Scrum Team nie powinien jedynie rozmawiać o ulepszeniach; Scrum opiera się na znaczącym, ciągłym wdrażaniu usprawnień. Niektóre działania usprawniające wymagają wsparcia ze strony Supporterów, ale to nie oznacza, że Scrum Team nie powinien dążyć do netto usprawnienia niezależnie (np. poprzez ciągłe, nawet niewielkie postępy).
+Usprawnienia o (potencjalnie) największym wpływie powinny być wdrażane jak najszybciej. Scrum Team nie powinien jedynie rozmawiać o usprawnieniach - Scrum opiera się na istotnej ciągłej realizacji działań usprawniających. Niektóre działania wymagają wsparcia Supporterów, ale to nie oznacza, że Scrum Team nie powinien dążyć do poprawy niezależnie (np. poprzez ciągłe, choćby niewielkie usprawnienia).
 
-Sprint Retrospective kończy Sprint. Jest ograniczony ramą czasową do maksymalnie trzech godzin dla czterotygodniowego Sprintu. W przypadku krótszych Sprintów wydarzenie to zwykle trwa krócej.
+Sprint Retrospective zamyka Sprint. Timebox to maksymalnie trzy godziny dla Sprintu czterotygodniowego. Dla krótszych Sprintów wydarzenie jest zazwyczaj krótsze.
 
 ## Produkt Multi-Scrum-Teamów {#multi-scrum-team-products}
 
-Jeśli Scrum Team staje się zbyt duży, powinien rozważyć reorganizację na kilka spójnych Scrum Teamów, z których każdy koncentruje się na tym samym Produkcie. W przypadku wielu Scrum Teamów pracujących nad tym samym Produktem, powinny one dzielić ten sam Cel Produktu, Product Backlog, Product Ownera, bazową Definicję Dostarczonej Wartości oraz bazową Definicję Ukończonej Pracy.
+Jeśli Scrum Team staje się zbyt liczny, powinien rozważyć reorganizację na kilka spójnych Scrum Teamów, z których każdy będzie skoncentrowany na tym samym Produkcie. W przypadku wielu Scrum Teamów pracujących nad tym samym Produktem, powinny one dzielić ten sam Cel Produktu, Product Backlog, Product Ownera, bazową Definition of Outcome Done oraz bazową Definition of Output Done.
 
-Należy uważać na ślepe założenia, że więcej Scrum Teamów oznacza większą wartość. Skaluj tylko wtedy, gdy korzyści wyraźnie przewyższają dodatkowe koszty i złożoność. Zanim zdecydujesz się na skalowanie, pojedynczy Scrum Team musi być w stanie niezawodnie dostarczać Increment w każdym Sprincie. Jeśli jednak skalowanie jest konieczne, zastosuj podejście spójne z tym dokumentem. Często mniej zespołów prowadzi do większej liczby rezultatów.
+Należy uważać na bezpodstawne założenia, że więcej Scrum Teamów oznacza więcej dostarczanej wartości. Skaluj tylko wtedy, gdy korzyści wyraźnie przewyższają dodatkowe obciążenie organizacyjne. Zanim zdecydujesz się na skalowanie, pojedynczy Scrum Team musi być w stanie niezawodnie dostarczać Increment w każdym Sprincie. Jeśli jednak musisz skalować, zastosuj podejście spójne z niniejszym dokumentem. Często mniejsza liczba zespołów prowadzi do większej liczby outcomes.
 
-W kontekście wielu Scrum Teamów, Scrum Teamy mogą ograniczać zależności międzyzespołowe, stając się bardziej przekrojowe poprzez współpracę, wymianę wiedzy, transfer nauki oraz celowe interakcje. Wymagane umiejętności są często szerokie i zależą od domeny pracy. W środowisku wielu Scrum Teamów celowe i intencjonalne interakcje oraz profesjonalizm (w tym ciągła integracja) stają się jeszcze ważniejsze.
+W kontekście multi-Scrum-Team, Scrum Teamy mogą zmniejszać zależności międzyzespołowe, stając się bardziej crossfunkcjonalne dzięki współpracy, wymianie wiedzy i doświadczeń (cross-pollination), transferowi nauki oraz celowym interakcjom. Umiejętności potrzebne w takim kontekście są zazwyczaj szerokie i zależą od specyfiki domeny pracy. W środowisku multi-Scrum-Team celowe i świadome interakcje oraz profesjonalizm (w tym ciągła integracja) stają się jeszcze bardziej istotne.
 
-W przypadku jednego Product Ownera i jednego Scrum Teamu, Product Ownerem może być Product manager, dyrektor marketingu, dyrektor technologii itp. W przypadku wielu Scrum Teamów pracujących nad jednym Produktem, ideałem pozostaje nadal jeden Product Owner, który powinien być liderem Produktu. Aby Product Owner mógł skutecznie zarządzać wieloma Scrum Teamami pracującymi nad tym samym Produktem, często staje się bardziej strategiczny i deleguje rozwiązywanie problemów oraz wykorzystywanie szans Product Developerom, w tym na przykład aspekty projektowania Produktu lub zarządzania Produktem.
+W konfiguracji z jednym Product Ownerem i jednym Scrum Teamem, Product Ownerem może być menedżer produktu, dyrektor marketingu, dyrektor ds. technologii itp. W konfiguracji multi-Scrum-Team dla jednego Produktu, ideałem jest nadal tylko jeden Product Owner, który powinien być liderem Produktu. Aby umożliwić Product Ownerowi pracę z wieloma Scrum Teamami przy tym samym Produkcie, Product Owner często staje się bardziej strategiczny i deleguje problemy do rozwiązania oraz szanse do wykorzystania Product Developerom, w tym np. aspekty projektowania Produktu lub zarządzania Produktem.
 
-Product Backlog jest narzędziem zwiększającym Przejrzystość.
+Product Backlog jest narzędziem zwiększającym transparencję.
 
-Zasadniczo, im mniej Product Backlogów na Produkt (niezależnie czy są one jawne, czy ukryte, np. jako filtr Product Backlogu):
+Zasadniczo, im mniej Product Backlogów na Produkt - niezależnie od tego, czy są one niejawne (np. jako filtry głównego Product Backlogu), czy jawne - tym:
 
-- Tym mniej silosów w Produkcie i większa Przejrzystość w całym Produkcie;
-- Tym bardziej przejrzyste jest monitorowanie postępu w całym Produkcie;
-- Tym lepsza jest ogólna jasność co do wartości w skali całego Produktu;
-- Tym większe prawdopodobieństwo, że Scrum Team zauważy, że pracuje nad elementami o niskiej wartości z perspektywy Produktu;
-- Tym łatwiej zaobserwować poprawę w osiąganiu wartości;
-- Tym bardziej strategiczny staje się Product Owner, delegując pracę przekrojową Product Developerom.
+- mniej silosów w Produkcie i większa transparencja w odniesieniu do całego Produktu;
+- bardziej przejrzyste śledzenie postępów w pracy nad całym Produktem;
+- większa jasność co do wartości z perspektywy całości Produktu;
+- większe prawdopodobieństwo, że Scrum Team zorientuje się, iż pracuje nad elementami o niskiej wartości z punktu widzenia Produktu;
+- większe prawdopodobieństwo zaobserwowania poprawy w osiąganiu wartości; oraz
+- większa szansa, że Product Owner stanie się bardziej strategiczny, delegując prace Product Developerom w obrębie całego Produktu.
 
-Mniej Product Backlogów na Produkt sprzyja większej adaptacyjności (80), ale bez realnego upodmiotowienia właściciela, spójnego zakresu kontroli lub bezpośredniego kontaktu z odpowiednimi Interesariuszami pojawią się luki. Scrum wspiera klimat sprzyjający przypadkowym odkryciom oraz wielokierunkowemu uczeniu się - gdy różne osoby i Scrum Teamy współpracują, mogą dzielić się odkryciami i wnioskami, które można wykorzystać. Jest to mało prawdopodobne w środowisku, gdzie każda część ma własny, odizolowany Product Backlog.
+Mniejsza liczba Product Backlogów dla jednego Produktu sprzyja adaptacyjności (80), jednak bez sprawczego Product ownership, spójnego zakresu kontroli oraz bezpośredniego kontaktu z odpowiednimi Interesariuszami, mogą pojawić się luki. Scrum wspiera klimat sprzyjający przypadkowym odkryciom i wieloaspektowemu uczeniu się - gdy różne osoby i Scrum Teamy współpracują, mogą dzielić się odkryciami i spostrzeżeniami, które mogą zostać wykorzystane. Jest to mało prawdopodobne w środowisku, gdzie każdy komponent ma osobny Product Backlog funkcjonujący w izolacji.
 
-Przypadek (happenstance) w kontekście „The New New Product Development Game” (29) oznacza, że czasami przydatne pomysły lub rozwiązania pojawiają się przez przypadek, a nie w wyniku starannego planowania. Gdy Scrum Teamy ściśle ze sobą współpracują i dzielą się informacjami, mogą odkryć nowe podejścia lub odpowiedzi po prostu dlatego, że są otwarte na nieoczekiwane zdarzenia lub przypadkowe odkrycia. 
+Przypadkowe odkrycia (happenstance) w kontekście „The New New Product Development Game” (29) oznaczają, że czasami użyteczne pomysły lub rozwiązania pojawiają się przypadkiem, a nie w wyniku starannego planowania. Gdy Scrum Teamy ściśle współpracują i dzielą się informacjami, mogą odkrywać nowe podejścia lub odpowiedzi po prostu dlatego, że są otwarte na nieoczekiwane zdarzenia lub przypadkowe odkrycia.
 
-Multi-learning oznacza, że członkowie zespołu uczą się na wiele różnych sposobów jednocześnie. Zdobywają nowe umiejętności i wiedzę nie tylko w swojej własnej dziedzinie, ale także w innych obszarach, ucząc się zarówno indywidualnie, jak i jako grupa oraz jako część całej organizacji. Dzięki temu zespół staje się bardziej elastyczny i zdolny do szybkiego rozwiązywania szerokiego zakresu problemów, ponieważ wszyscy uczą się od siebie nawzajem i ze wspólnych doświadczeń podczas współpracy.
+Wielokierunkowe uczenie się (multilearning) oznacza, że członkowie zespołu uczą się na wiele różnych sposobów jednocześnie. Przyswajają nowe umiejętności i wiedzę nie tylko w swoim obszarze, lecz także w innych obszarach, uczą się jako jednostki, jako grupa oraz jako część całej organizacji. To pomaga zespołowi stać się bardziej elastycznym i zdolnym do szybkiego rozwiązywania szerokiego zakresu problemów, ponieważ wszyscy uczą się od siebie nawzajem i ze wspólnych doświadczeń podczas współpracy.
 
-Znalezienie właściwej równowagi to dylemat. Zawsze trzeba brać pod uwagę kompromisy. Jednak sprawdzoną zasadą jest: im mniej Product Backlogów, zarówno jawnych, jak i ukrytych, tym lepiej - osiągane dzięki multi-learningowi oraz organizacyjnemu transferowi wiedzy pomiędzy Scrum Teamami, działami i Produktami.
+Znalezienie właściwej równowagi to dylemat. Zawsze istnieją kompromisy do rozważenia. Jednak dobrą heurystyką jest: im mniej Product Backlogów - jawnych lub niejawnych - tym lepiej, co jest możliwe dzięki wielokierunkowemu uczeniu się i organizacyjnemu transferowi wiedzy pomiędzy Scrum Teamami, działami i Produktami.
 
-Organizacyjny transfer uczenia się, zgodnie z opisem w „The New New Product Development Game” (29), to proces, w którym wiedza i wnioski zdobyte w jednym obszarze rozwoju nowego Produktu są regularnie przekazywane i wykorzystywane w kolejnych obszarach lub innych działach organizacji.
+Organizacyjny transfer wiedzy, opisany w „The New New Product Development Game” (29), to proces, w którym wiedza i spostrzeżenia zdobyte w jednym obszarze rozwoju nowego Produktu są regularnie udostępniane i stosowane w kolejnych obszarach lub innych działach organizacji.
 
-Organizacje są często projektowane z myślą o łatwości zarządzania, a nie o łatwości osiągania rezultatów. Zadaj sobie pytanie, ile Scrum Teamów musi być zaangażowanych, aby rozwiązać dany problem lub wykorzystać daną szansę i dostarczyć wartość - zazwyczaj im mniejsza ta liczba, tym lepiej.
+Organizacje są często projektowane z myślą o łatwości zarządzania, a nie łatwości osiągania outcomes. Zadaj sobie pytanie, ile Scrum Teamów dany problem lub szansa musi zaangażować, aby dostarczyć wartość - ogólnie rzecz biorąc, im mniejsza jest ta liczba, tym lepiej.
 
-Uwolnij zespoły od zarządzania nakazowo-kontrolnego. Skłaniaj się ku zestrojonej autonomii. Wspieraj celowe, intencjonalne interakcje wewnątrz i pomiędzy samozarządzającymi Scrum Teamami (49). Twórz środowisko pracy z minimalną, ale wystarczającą liczbą procesów zarządczych, rusztowań i granic. Równoważ i pielęgnuj oczekiwania oraz ograniczenia Interesariuszy. Buduj sprawczość zmiany i ciągłe doskonalenie w określonym kierunku, nie tylko w dostarczaniu, ale także w rytmie pracy.
+Uwolnij zespoły od podejścia typu command and control. W razie wątpliwości, wybieraj autonomię przy zachowaniu spójności. Wspieraj celowe, intencjonalne interakcje w ramach i pomiędzy samozarządzającymi się Scrum Teamami (49). Kształtuj środowisko pracy z minimalnymi, lecz wystarczającymi procesami zarządczymi, wsparciem strukturalnym i granicami. Równoważ i pielęgnuj oczekiwania oraz granice Interesariuszy. Buduj sprawczość do wprowadzania zmiany oraz ciągłe doskonalenie w określonym kierunku - nie tylko dostarczanie - w ramach kadencji.
 
-W razie wątpliwości zapoznaj się z „The New New Product Development Game” (29), korzystaj z tego, co dobre i nowe we współczesności, ale porzuć wszelkie wyobrażenia o kompleksie przemysłowym (30-35), w którym tylko odważni mają sprawczość.
+W razie wątpliwości, sięgnij do „The New New Product Development Game” (29), czerp z tego, co dobre we współczesnych rozwiązaniach, ale porzuć kompleks industrialny (industrial complex)[^6] (30-35), zgodnie z którym jedynie odważni ludzie mają sprawczość, by cokolwiek zdziałać.
 
 ## Nota końcowa {#end-note}
 
-Wdrożenie Scruma przez Jeffa Sutherlanda w Easel w 1993 roku było inspirowane pracami Christophera Langtona (36,37) dotyczącymi teorii Złożonych Systemów Adaptacyjnych (CAS) (74-77) z laboratorium Los Alamos, które pokazują, że systemy ewoluują szybciej na krawędzi chaosu.
+Wdrożenie Scruma przez Jeffa Sutherlanda w 1993 roku w firmie Easel było inspirowane publikacjami Christophera Langtona (36, 37) na temat teorii Złożonych Systemów Adaptacyjnych (Complex Adaptive Systems, CAS) (74-77) z Los Alamos Labs, które pokazują, że systemy ewoluują szybciej na granicy chaosu.
 
-Scrum został opisany w [2020 Scrum Guide](https://scrumguides.org/) (40). [„A Simple Guide to Scrum”](https://scrum.academy/guide/) Tobiasa Mayera (58) to skrócona, zredagowana wersja oficjalnego Scrum Guide autorstwa Kena Schwabera i Jeffa Sutherlanda. [„Scrum Hexis”](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (52) rozwija 2020 Scrum Guide z perspektywy roku 2025, jednak to właśnie 2020 Scrum Guide pozostaje podstawowym odniesieniem dla Scruma(40).
+Scrum został opisany w [Scrum Guide 2020](https://scrumguides.org/) (40). [A Simple Guide to Scrum](https://scrum.academy/guide/) (58) Tobiasa Mayera to skrócona i zredagowana wersja oficjalnego Scrum Guide, którego autorami są Ken Schwaber i Jeff Sutherland. [Scrum Hexis](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (52) rozwija Scrum Guide 2020 z perspektywy roku 2025, jednak to Scrum Guide 2020 pozostaje podstawowym odniesieniem dla Scruma.
 
-Scrum jest jak lustro. Jeśli obraz w lustrze nie jest taki, jakiego się spodziewano, czy należy ukryć lustro?
+Scrum jest jak lustro. Jeśli obraz w lustrze nie jest zgodny z oczekiwaniami - czy należy ukryć lustro?
 
-Wypracuj nawyk dostarczania co najmniej jednego Incrementu w każdym Sprincie, zanim zaczniesz adaptować Scruma. Każdy element Scruma ma swój cel - zrozumienie „dlaczego” każdego z nich jest kluczowe. Weź pod uwagę kontekst. Krótkoterminowo liczy się dostarczanie. Długoterminowo chodzi o skuteczną, emergentną zmianę w określonym kierunku oraz trwałe dostarczanie wartości. Skuteczna adopcja Scruma zależy od właściwego wyważenia między perspektywą krótkoterminową a długoterminową.
+Dbaj o wykształcenie nawyku osiągania przynajmniej jednego Incrementu w każdym Sprincie zanim zaczniesz dostosowywać Scruma do swoich potrzeb. Każda część Scruma ma swój cel - zrozumienie „dlaczego” każdej z nich jest kluczowe. Weź pod uwagę kontekst. Krótkoterminowo chodzi o dostarczanie. Długoterminowo - o skuteczną emergentną zmianę w określonym kierunku oraz o zrównoważone dostarczanie wartości. Skuteczne wdrożenie Scruma zależy od znalezienia właściwej równowagi między krótkim a długim horyzontem czasowym.
 
-Uważaj na kopiowanie podejść z innych organizacji bez jednoczesnego budowania ich kultury. Emergentna zmiana w obranym kierunku jest właśnie tą zmianą. Zmiana obejmuje, ale nie ogranicza się do: przywództwa, przepływów pracy, procesów i systemów, w tym HR, finansów, zakupów i innych. Scrum jest częścią niekończącej się ekspedycji ciągłego doskonalenia i ewolucji w określonym kierunku, a nie osiągnięcia konkretnego celu.
+Uważaj na kopiowanie podejść innych organizacji bez jednoczesnego rozwijania kultury takiej jak ich. Emergentna zmiana w obranym kierunku jest tą zmianą. Obejmuje ona (choć nie jest do tego ograniczona) przywództwo, przepływy pracy, procesy i systemy, w tym HR, finanse, zakupy i inne. Scrum to część niekończącej się podróży ciągłego doskonalenia i ewolucji w obranym kierunku, a nie dotarcie do celu.
 
 ### Podziękowania {#acknowledgments}
 
-Scrum został zainspirowany przez Lean (63), System Produkcyjny Toyoty (59-60), artykuł „The New New Product Development Game” autorstwa Hirotaki Takeuchi i Ikujiro Nonaki opublikowany w Harvard Business Review (29) oraz empiryzm w firmie Dupont (61).
+Inspiracją dla Scruma był Lean (63), System Produkcyjny Toyoty (59-60), artykuł z Harvard Business Review pt. "The New New Product Development Game" autorstwa Hirotaki Takeuchiego i Ikujiro Nonaki (29) oraz Empiryzm w firmie Dupont (61).
 
-Scrum został opracowany na początku lat 90. Ken Schwaber i Jeff Sutherland po raz pierwszy wspólnie zaprezentowali Scruma na konferencji OOPSLA w 1995 roku (62). Pierwsza wersja [Scrum Guide](https://scrumguides.org/) (40) ukazała się w 2009 roku. Scrum stale się rozwija.
+Scrum został opracowany na początku lat 90. XX wieku. Ken Schwaber i Jeff Sutherland po raz pierwszy wspólnie zaprezentowali Scruma podczas konferencji OOPSLA w 1995 roku (62). Pierwsza wersja [Scrum Guide](https://scrumguides.org/) (40) ukazała się w 2009 roku. Scrum stale ewoluuje.
 
-Dziękujemy również recenzentom, którzy przekazali uwagi do wcześniejszych wersji, w tym między innymi: Daryn Basson, Alex Benes, Kurt Bittner, Deb Bhattacharya, Magdalena Firlit, Nichervan Fazel, Peter Fischbach, Michael Forni, Tom Gilb, Martin Hinshelwood, Jesse Houwing, Michael Huynh, Matthew Ijogi, Marc Kaufmann, Christian Neverdal, Stas Pavlov, Ian Sharp, Alisa Stolze, Mark Summers oraz Nader Talai.
+Dziękujemy również recenzentom, którzy przekazali swoje uwagi do wcześniejszych wersji dokumentu, w tym (choć nie wyłącznie): Darynowi Bassonowi, Alexowi Benesowi, Kurtowi Bittnerowi, Debowi Bhattacharyi, Magdalenie Firlit, Nichervanowi Fazelowi, Peterowi Fischbachowi, Michaelowi Forniemu, Tomowi Gilbowi, Martinowi Hinshelwoodowi, Jesse'emu Houwingowi, Michaelowi Huynhowi, Matthew Ijogiemu, Marcowi Kaufmannowi, Tomowi Mellorowi, Christianowi Neverdalowi, Stasowi Pavlovowi, Ianowi Sharpowi, Alisie Stolze, Markowi Summersowi oraz Naderowi Talaiowi.
 
 #
 
 ## Rozszerzony Scrum na jednej stronie {#scrum-expanded-on-one-page}
 
-Scrum został opisany w [2020 Scrum Guide](https://scrumguides.org/) (40). Scrum to lekkie ramy postępowania do pracy złożonej (30-35), szczególnie w obszarach odkrywania, rozwoju, dostarczania Produktu i realizacji wartości. Scrum opiera się na empirycznej kontroli procesu (podejmowanie decyzji w oparciu o dowody) oraz lean thinking (ograniczanie marnotrawstwa i koncentracja na przepływie wartości) (63). Scrum jest celowo niekompletny - prowadzi interakcje, zamiast narzucać szczegółowe recepty.
+Scrum został opisany w [2020 Scrum Guide](https://scrumguides.org/) (40). SScrum to lekki framework przeznaczony do pracy w warunkach złożoności (30-35), w szczególności w zakresie odkrywania (Discovery), tworzenia, dostarczania Produktu oraz realizacji wartości. Scrum opiera się na empirycznej kontroli procesu (podejmowanie decyzji w oparciu o dowody) i myśleniu Lean (ograniczanie marnotrawstwa i koncentrowanie się na przepływie wartości) (63). Scrum jest celowo niekompletny - nadaje kierunek interakcjom, zamiast narzucać szczegółowe instrukcje.
 
 **Dlaczego warto używać Scruma?**  
-Scrum umożliwia Scrum Teamom identyfikowanie, reprezentowanie lub mierzenie emergencji (71), akceptowanie niepewności, reagowanie na zmiany, częste dostarczanie i walidowanie wartości oraz ciągłe doskonalenie. Scrum wspiera współpracę, odpowiedzialność i podejmowanie decyzji w oparciu o dowody, co sprzyja osiąganiu najlepszych możliwych wyników w szybko zmieniającym się otoczeniu. Samozarządzające Scrum Teamy, zorganizowane wokół wartości, są kluczowe dla kreatywnego rozwiązywania problemów i wykorzystywania szans; zespoły nie-samozarządzające utrudniają radzenie sobie ze złożonością (30-35). Samozarządzające Scrum Teamy nie powinny być mylone z indywidualnym samozarządzaniem.
+Scrum umożliwia Scrum Teamom identyfikowanie, przedstawianie lub mierzenie emergencji (71), akceptowanie niepewności, reagowanie na zmiany, częste dostarczanie i walidację wartości oraz ciągłe doskonalenie. Scrum wspiera współpracę, odpowiedzialność (accountability) i podejmowanie decyzji w oparciu o dowody, co pozwala osiągać najlepsze możliwe outcomes w dynamicznie zmieniającym się środowisku. Samozarządzające Scrum Teamy, zorganizowane wokół wartości, są kluczowe dla kreatywnego rozwiązywania problemów i wykorzystywania szans; Scrum Teamy niesamozarządzające ograniczają zdolność radzenia sobie ze złożonością (30-35). Samozarządzające Scrum Teamy nie powinny być mylone z indywidualnym samozarządzaniem.
 
 **Elementy Scruma**
 
-1\. Teoria Scruma: Zbudowana na trzech filarach:
+1\. Teoria Scruma - oparta na trzech filarach:
 
-- Przejrzystość - Ujawnianie pracy i wartości, aby umożliwić Inspekcję.
-- Inspekcja - Regularna ocena postępów i wyników w celu Adaptacji.
-- Adaptacja - Dostosowywanie planów na podstawie wniosków i informacji zwrotnych.
+- Transparencja - Uwidacznianie pracy i wartości dla Inspekcji.
+- Inspekcja - Regularna ocena postępów i outcomes na potrzeby Adaptacji.
+- Adaptacja - Dostosowywanie planów w oparciu o spostrzeżenia i informacje zwrotne.
 
-2\. Wartości Scrum:
+2\. Wartości Scruma:
 
-- _Skupienie_, _Otwartość_, _Odwaga_, _Zobowiązanie_ i _Szacunek_ umożliwiają efektywną pracę zespołową; wspierają zaufanie.
+_Skupienie_, _Otwartość_, _Odwaga_, _Zaangażowanie_ i _Szacunek_ umożliwiają efektywną pracę zespołową; wspierają zaufanie.
 
-3\. Role / Odpowiedzialności:
+3\. _Role_ / Odpowiedzialności (Accountabilities):
 
-- Scrum Team - Mały, samozarządzający, przekrojowy, poznawczo zróżnicowany zespół składający się z:
-  - Product Owner - Maksymalizuje długoterminową wartość, angażuje Interesariuszy i zarządza Product Backlogiem.
-  - Scrum Master - Prowadzi wdrożenie Scruma, usuwa przeszkody i wspiera ciągłe doskonalenie.
-  - Product Developerzy - Dostarczają Incrementy w każdym Sprincie dzięki swoim przekrojowym kompetencjom.
-- Interesariusz - podmiot, osoba lub grupa zainteresowana, mająca wpływ lub będąca pod wpływem wejść, działań i wyników, z bezpośrednim lub pośrednim interesem wewnątrz lub na zewnątrz organizacji, jej Produktów lub usług.
-  - Supporter, typ Interesariusza - Wspiera klimat i środowisko pracy oraz uczestniczy na żądanie.
-  - AI - Jako narzędzie lub potencjalnie także Product Developer, ale nie do końca godny zaufania na tym etapie.
+- Scrum Team - mały, samozarządzający, crossfunkcjonalny i poznawczo zróżnicowany zespół składający się z:
+  - Product Ownera - maksymalizuje długoterminową wartość, angażuje Interesariuszy i zarządza Product Backlogiem.
+  - Scrum Mastera - wspiera wdrożenie Scruma, usuwa przeszkody i wspomaga ciągłe doskonalenie.
+  - Product Developerów - dostarczają Incrementy w każdym Sprincie dzięki swoim crossfunkcjonalnym kompetencjom.
+- _Interesariusz (Stakeholder) - jednostka, podmiot lub grupa, która jest zainteresowana, której dotyczy lub która wpływa na dane wejściowe, działania i outcomes, mając bezpośredni lub pośredni interes wewnątrz lub na zewnątrz organizacji, jej Produktów lub usług._
+  - _Supporter (typ Interesariusza) - wspiera klimat i środowisko pracy oraz uczestniczy w procesie zgodnie z potrzebą._
+  - _AI - jako narzędzie, a potencjalnie również jako Product Developer, jednak nie w pełni godny zaufania na obecnym etapie._
 
-4\. Wydarzenia i działania Scrum
+4\. Wydarzenia i Aktywności Scruma
 
-- Scrum działa w Sprintach (_iteracjach o określonym czasie trwania do czterech tygodni_) z czterema wydarzeniami ograniczonymi czasowo:
-- Sprint Planning - Określenie Celu Sprintu i zaplanowanie pracy.
-- Daily Scrum - Product Developerzy codziennie synchronizują postęp w realizacji Celu Sprintu lub Celu Produktu.
-- Sprint Review - Inspekcja Incrementu, wartości i rynku oraz adaptacja Product Backlogu.
-- Sprint Retrospective - Refleksja i usprawnianie Scrum Teamu.
-- Refinement - Wyjaśnianie nadchodzącej lub wybranej pracy, formalnie (_jako wydarzenie opcjonalne_) lub nieformalnie.
+- Scrum działa w ramach Sprintów (iteracji o określonej długości _do czterech tygodni_), obejmujących cztery wydarzenia z timeboxem:
+- Sprint Planning - określenie Celu Sprintu i zaplanowanie pracy.
+- Daily Scrum - Product Developerzy codziennie synchronizują się w kontekście postępu względem Celu Sprintu lub Celu Produktu.
+- Sprint Review - inspekcja Incrementu, wartości i rynku oraz adaptacja Product Backlogu.
+- Sprint Retrospective - refleksja i doskonalenie Scrum Teamu.
+- Refinement - doprecyzowanie nadchodzącej lub wybranej pracy, formalnie (_jako opcjonalne wydarzenie_) lub nieformalnie.
 
-5\. Artefakty i zobowiązania Scrum
+5\. Artefakty Scruma i Zobowiązania
 
-- _Produkt i Definicja Dostarczonej Wartości (Definition of Outcome Done) - Produkt oraz wartościowe rezultaty, które dostarczają dowodów na osiągnięte korzyści._
-- Increment i Definicja Ukończonej Pracy (Definition of Output Done) - Potencjalnie wartościowa, gotowa do wydania aktualizacja Produktu.
-- Product Backlog i Cel Produktu (Product Goal) - uporządkowana (sekwencyjna) lista prac potrzebnych do osiągnięcia średnioterminowego, bardziej strategicznego celu.
-- Sprint Backlog i Cel Sprintu (Sprint Goal) - Wybrane elementy Product Backlogu oraz plan na Sprint, czyli cel krótkoterminowy.
+- _Produkt i Definition of Outcome Done - Produkt oraz wartościowe outcomes, które dostarczają dowodów na zrealizowane korzyści._
+- Przyrost i Definition of Output Done - Potencjalnie wartościowy, możliwy do wydania kandydat na aktualizację Produktu.
+- Product Backlog i Cel Produktu (Product Goal) - uporządkowana (sekwencyjna) lista prac prowadzących do średnioterminowego, bardziej strategicznego celu.
+- Sprint Backlog i Cel Sprintu (Sprint Goal) - wybrane elementy Product Backlogu oraz plan na Sprint, cel krótkoterminowy.
+
 
 #
 
-## Log Rozszerzenia {#expansion-log}
+## Log Rozszerzeń {#expansion-log}
 
-Dodatki
-
+Dodatki:
 - Sekcja dotycząca AI
-- Sekcje: Samozarządzający się Scrum Team, Kadencja, Profesjonalizm
-- Sekcja Emergence (Emergencja), otwarta na ideę, że ryzyko lub odchylenia od oczekiwań niekoniecznie maleją z czasem
-- Sekcja Złożoność (30-35) - Uzasadnienie dla Scruma
-- Sekcje dotyczące Przywództwa i myślenia systemowego
-- Sekcje dotyczące myślenia produktowego i odkrywania produktu (Product thinking, Discovery)
-- Sekcje: Najważniejsze zasady, Ludzie i Zmiana
-- Sekcja dotycząca produktów realizowanych przez Multi-Scrum-Teamów
+- Sekcje o samozarządzającym się Scrum Teamie, Kadencji, Profesjonalizmie
+- Sekcja o emergencji, otwartość na to, że ryzyko i odchylenia od oczekiwań niekoniecznie maleją z czasem
+- Złożoność (30-35) - dlaczego Scrum? 
+- Sekcje o Przywództwie i myśleniu Systemowym
+- Sekcje o myśleniu produktowym i Discovery
+- Sekcje o Myśleniu od podstaw, Ludziach i Zmianie
+- Sekcja o Produktach rozwijanych przez wiele Scrum Teamów (Multi-Scrum-Team)
 - Rola Interesariusza (w tym klientów, decydentów i użytkowników), Supporter jako typ Interesariusza
-- Sekcje dotyczące Refinement i elementów Product Backlogu
-- Opcjonalnie: Wizja Produktu, Kryteria Akceptacji, Kryteria Wartości
-- Definicja Dostarczonej Wartości (Definition of Outcome Done), ze szczególnym naciskiem na adaptację opartą o dowody dotyczące osiągniętych wyników
-- Zdefiniowane pojęcia: Interesariusz, wartość, informacja zwrotna z wartości, release, wyniki, ryzyko, przeszkoda, lider
-- Analityka przepływu, prognozy probabilistyczne Monte Carlo, estymacja na dużą skalę, zbiory rozmyte (wszystko opcjonalnie)
-- Scrum rozszerzony na jednej stronie
-- Potrzeba zapewnienia spójności workflowów, projektów, procesów, systemów i środowiska pracy z emergencją
-- „Product Ownership wymaga silnych umiejętności zarządzania produktem i wiedzy domenowej... Product Owner, który nie jest gotowy, chętny lub zdolny do zdobycia tych umiejętności, powinien zrezygnować z tej roli.”
-- Product Developer, który nie jest gotowy, chętny ani zdolny do bycia profesjonalistą, powinien zrezygnować.
-- Scrum Master, który nie jest gotowy, chętny ani zdolny do bycia agentem zmiany, powinien zrezygnować.
-- Załączniki: Cynefin® - wyjaśnienie nieoficjalne i nieautoryzowane, Strategia emergentna, Adaptive Enterprise (80), Adaptive Executive lub Board Member.
+- Sekcje o Refinemencie i Product Backlog Itemach
+- Opcjonalnie: Wizja Produktu, Acceptance Criteria, Outcome Criteria
+- Definition of Outcome Done, dodatkowy nacisk na adaptację opartą na dowodach pochodzących z outcomes
+- Zdefiniowane pojęcia: Interesariusz, wartość, informacja zwrotna z wyników (result feedback), wydanie (release), outcomes, ryzyko, przeszkoda (impediment) oraz lider
+- Analityka przepływu (flow analytics), probabilistyczne prognozy Monte Carlo, estymacje na dużym poziomie ogólności, zbiory rozmyte (wszystkie opcjonalnie)
+- Scrum w rozszerzonej wersji na jednej stronie
+- Potrzeba dostosowania przepływów pracy, projektów, procesów, systemów oraz środowiska pracy do warunków emergencji
+- „Product Ownership  wymaga silnych umiejętności zarządzania produktem i znajomości domeny… Product Owner, który nie chce, nie jest gotowy lub nie jest w stanie zdobyć umiejętności zarządzania produktem, powinien zrezygnować z roli Product Ownera.”
+- Product Developer, który nie chce, nie jest gotowy lub nie jest w stanie być profesjonalistą, powinien zrezygnować z roli.
+- Scrum Master, który nie chce, nie jest gotowy lub nie jest w stanie być agentem zmiany, powinien zrezygnować z roli.
+- Załączniki: Cynefin® Kind of Explanation - nieoficjalne i nieautoryzowane, Emergent Strategy, Adaptive (80) Enterprise, Adaptive Executive or Board Member.
 
 Sugestie
 
-- Doprecyzowanie i modyfikacja odpowiedzialności przy jednoczesnym „akceptowaniu niejednoznaczności” (embracing fuzziness) (73)
-- Przejście od „Scrum jest niezmienny lub prosty” do „Scrum ewoluuje”; w niektórych przypadkach złagodzenie sformułowań z „musi” na „powinien”
-- Odpowiedzialność Product Ownera: z roli Product Ownera wynika odpowiedzialność za maksymalizację długoterminowej wartości.
-- Odpowiedzialność Developerów: przypisanie odpowiedzialności do roli Product Developera.
-- Odpowiedzialność Scrum Mastera: przypisanie odpowiedzialności do roli Scrum Mastera; Scrum Master to jedna osoba, nie AI.
-- Product Developerzy mogą być ludźmi lub AI, bądź wspierani przez AI, jednak w zespole musi być co najmniej jeden człowiek; większa liczba ludzkich Product Developerów sprzyja różnorodności poznawczej i lepszemu radzeniu sobie ze złożonością.
-- Scrum Team zobowiązuje się do realizacji Celu Sprintu, a nie tylko dawni Developerzy; ważne, aby Product Owner był skupiony
-- Sprint Backlog w kierunku Celu Sprintu lub Celu Produktu, a nie tylko Celu Sprintu
-- Definicja produktu, wzmianka o strategii produktu, roadmapach, modelach produktu, skalowaniu, podejściach zorientowanych na cele
-- Podkreślenie uczenia się, informacji zwrotnej z rezultatów, skutków ubocznych, wartości ponad outputy
-- Aby zachować przepływ wartości, nieukończone elementy Product Backlog nie muszą wracać do Product Backlog
-- Definicja Ukończenia przemianowana na Definicję Ukończonej Pracy
-- Nacisk na cały cykl życia produktu, pełny cykl życia funkcji oraz realizację wartości
-- Tematy Sprint Planning 1-3 przemianowane na Dlaczego, Co i Jak; Sprint do 4 tygodni zamiast do 1 miesiąca
-- Możliwy dodatkowy przegląd Incrementu i Wartości w bezpieczniejszym psychologicznie środowisku podczas Sprint Retrospective
-- Większy nacisk na to, że Increment jest zawsze Ukończony, stąd określenie „Ukończony Increment” jest zbędne
-- Wyraźne wskazanie na plastyczność Celu Produktu (w granicach rozsądku)
-- Od optymistycznego założenia dostarczania wartości do intencjonalnego Skupienia na realizacji wartości
-- Etyka wbudowanej jakości, przejrzystości, decyzji opartych na danych, intencjonalnych interakcji, emergencji (71), Wartości ponad outputy, zatrzymania i refleksji, realizacji wartości, zrozumienia problemu lub szansy, budowania klimatu/sprzyjającego środowiska dla spójnej adopcji Scruma oraz ciągłego doskonalenia w określonym kierunku
-- Odejście od niejasnej organizacji na rzecz przypisania zmian do ról
-- Bardziej intencjonalne przestrzeganie Wartości Scrum, z uwzględnieniem kontekstu
+- Doprecyzowanie i modyfikacja odpowiedzialności (responsibilities) przy jednoczesnym „zaakceptowaniu niejednoznaczności” (73)
+- Od podejścia „Scrum jest niezmienny lub prosty” do „Scrum ewoluuje”; w niektórych przypadkach złagodzenie sformułowań z „musi” na „powinien”
+- Odpowiedzialność (accountability) Product Ownera jako rola Product Ownera z ponoszeniem odpowiedzialności (accountability); maksymalizowanie długoterminowej wartości
+- Odpowiedzialność (accountability) Developerów jako rola Product Developers z ponoszeniem odpowiedzialności (accountability)
+- Odpowiedzialność (accountability) Scrum Mastera jako rola Scrum Mastera z ponoszeniem odpowiedzialności (accountability); Scrum Master to jedna osoba, nie AI
+- Product Developerzy mogą być ludźmi lub AI, albo wspierani przez AI; co najmniej jeden Product Developer powinien być człowiekiem; większa liczba Product Developerów, którzy są ludźmi, wspiera różnorodność poznawczą i radzenie sobie ze złożonością
+- Scrum Team, a nie – jak miało to miejsce wcześniej – jedynie Developerzy, zobowiązuje się do realizacji Celu Sprintu; istotne, by Product Owner zachowywał skupienie.
+- Sprint Backlog ukierunkowany na Sprint Goal lub Product Goal, a nie tylko Sprint Goal
+- Definicja Produktu, wzmianka o strategii Produktu, roadmapach, modelach Produktu, skalowalności, podejściach zorientowanych na cele
+- Podkreślenie znaczenia uczenia się, informacji zwrotnej o rezultatach, efektów ubocznych, outcomes zamiast outputs
+- Aby zachować przepływ wartości, nieukończone elementy Product Backlogu nie muszą wracać do Product Backlogu
+- Definition of Done przemianowane na Definition of Output Done
+- Podkreślenie pełnego cyklu życia Produktu, pełnego cyklu życia funkcjonalności oraz urzeczywistniania wartości
+- Tematy Sprint Planningu 1–3 przemianowane na Dlaczego, Co i Jak; Sprint do 4 tygodni zamiast do 1 miesiąca
+- Możliwość dodatkowego przeglądu Incrementu oraz outcomes w bezpieczniejszym psychologicznie środowisku podczas Sprint Retrospective
+- Większy nacisk na to, że Increment jest zawsze Done, dlatego wyrażenie „Done Increment” jest zbędne
+- Wyraźne zaznaczenie podatności Celu Produktu na zmiany (w rozsądnych granicach)
+- Od optymistycznego założenia dostarczania wartości do celowego Skupienia się na realizacji wartości
+- Etos wbudowanej jakości, przejrzystości, decyzji opartych na danych, intencjonalnych interakcji, emergencji (71), outcomes ponad outputs, zatrzymania się i refleksji, realizacji wartości, rozumienia problemu lub szansy, wspierania klimatu/środowiska dla spójnej adaptacji Scruma oraz ciągłego doskonalenia w określonym kierunku
+- Zmniejszenie nacisku na nieokreśloną „organizację”, aby przypisać zmianę do ról
+- Większa intencjonalność w przestrzeganiu Wartości Scrumowych, z uwzględnieniem kontekstu
 
-## Aneks {#appendix}
+## Załącznik {#appendix}
 
-**Sekcja 2: Wyciąg „MORE executive SUCCESS”**  
+**Sekcja 2: Wyciąg "MORE executive SUCCESS"**  
 Tytuł: Wyciąg z "MORE executive SUCCESS"  
 Autor: John Coleman  
 Żródło: (6)  
 Licencja/Prawa autorskie: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), © 2017-2025 Orderly Disruption Limited  
 Uwaga: Niniejsza sekcja została zamieszczona w oryginalnej, niezmodyfikowanej formie, zgodnie z warunkami licencji [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Nie dokonano żadnych zmian.
 
-### Adaptacyjne przedsiębiorstwo {#the-adaptive-enterprise}
+### Organizacja adaptacyjna {#the-adaptive-enterprise}
 
-Trudno jest, by przedsiębiorstwo było adaptacyjne (80), jeśli nie istnieje klimat, w którym słowa i działania są spójne. Przeanalizowano ponad osiemdziesiąt modeli zaangażowania. Wśród nich znalazły się zarówno ramy postępowania skalujące, deskalujące, jak i Product Operating Model, które mogą być użyteczne w przypadku Produktów rozwijanych przez wiele Scrum Teamów. Modele te obejmują zarówno podejścia idące za daleko, jak i takie, które nie robią wystarczająco dużo, by pomóc organizacji produktowej stać się bardziej adaptacyjną. Nie istnieje uniwersalna, ponadkontekstowa „złota strefa”.
+Trudno być organizacją adaptacyjną (80) bez kultury, w której słowa pokrywają się z czynami. Przeanalizowano ponad osiemdziesiąt modeli zaangażowania. Wśród nich znalazły się zarówno ramy postępowania skalujące, deskalujące, jak i Product Operating Model, które mogą być użyteczne w przypadku Produktów rozwijanych przez wiele Scrum Teamów. Modele te obejmują zarówno podejścia idące za daleko, jak i takie, które nie robią wystarczająco dużo, by pomóc organizacji produktowej stać się bardziej adaptacyjną. Nie istnieje uniwersalna, ponadkontekstowa „Strefa Złotowłosej”.
 
-Spośród przeanalizowanych modeli zaangażowania wyróżnia się kilka godnych uwagi, takich jak Beyond Budgeting, Humanokracja czy Sociokracja, które - w zależności od kontekstu - warto rozważyć. Warto także rozpatrzyć ich łączenie ze sobą oraz z innymi podejściami.
+Spośród przeanalizowanych modeli zaangażowania wyróżnia się kilka godnych uwagi, takich jak Beyond Budgeting, Humanokracja czy Sociokracja, które warto rozważyć w zależności od kontekstu. Warto także rozpatrzyć ich łączenie ze sobą oraz z innymi podejściami.
 
 #### Beyond Budgeting {#beyond-budgeting}
 
-Beyond Budgeting (15-28, 90-98, 103) to filozofia zarządzania, która odrzuca tradycyjne, sztywne roczne budżetowanie na rzecz zdecentralizowanego i adaptacyjnego podejścia do kontroli organizacyjnej oraz zarządzania efektywnością. Opiera się na 12 zasadach przewodnich - sześciu dotyczących przywództwa i sześciu procesów zarządzania - które promują zdecentralizowane podejmowanie decyzji, Przejrzystość, autonomię zespołów oraz silne ukierunkowanie na wartość dla klienta.
+Beyond Budgeting (15-28, 90-98, 103) to filozofia zarządzania, która odrzuca tradycyjne, sztywne roczne budżetowanie na rzecz zdecentralizowanego i adaptacyjnego podejścia do kontroli organizacyjnej oraz zarządzania efektywnością. Opiera się na 12 zasadach przewodnich - sześciu dotyczących przywództwa i sześciu procesów zarządzania - które promują zdecentralizowane podejmowanie decyzji, Transparencję, autonomię zespołów oraz silne ukierunkowanie na wartość dla klienta.
 
 Zamiast sztywnych celów i szczegółowych rocznych planów, Beyond Budgeting zachęca do dynamicznego wyznaczania celów, ciągłego planowania oraz alokacji zasobów w oparciu o bieżące potrzeby, co sprzyja adaptacyjności i responsywności w szybko zmieniającym się środowisku biznesowym. Takie podejście ma na celu wzmocnienie zespołów, zwiększenie innowacyjności oraz zapewnienie organizacjom lepszych możliwości radzenia sobie z niepewnością (72) i złożonością (30-35). Beyond Budgeting to nazwa nietrafiona (fałszywe założenie, że chodzi tylko o finanse), a jednocześnie trafiona (bo rzeczywiście wykracza poza budżetowanie).
 
@@ -930,48 +958,48 @@ Zamiast sztywnych celów i szczegółowych rocznych planów, Beyond Budgeting za
 
 Humanokracja (2), zgodnie z definicją Gary’ego Hamela, to model zarządzania, który zastępuje sztywne hierarchie i scentralizowaną kontrolę systemami maksymalizującymi wkład i kreatywność każdej osoby. W humanokracji organizacje istnieją po to, by służyć i wzmacniać ludzi, a nie traktować pracowników wyłącznie jako zasoby do realizacji celów firmy.
 
-Opiera się ona na zasadach takich jak rozproszona odpowiedzialność, merytokracja, otwartość, eksperymentowanie i wspólnota, wspierając autonomię i innowacyjność. Autorytet wynika z kompetencji, a podejmowanie decyzji jest zdecentralizowane i przekazywane osobom najbliżej pracy. Humanokracja stawia na pierwszym miejscu zaufanie, zaangażowanie i uwalnianie ludzkiego potencjału, a nie zgodność i kontrolę, dążąc do budowy odpornych, innowacyjnych miejsc pracy, w których pracownicy napędzają realne zmiany.
+Opiera się ona na zasadach takich jak rozproszona odpowiedzialność (ownership), merytokracja, otwartość, eksperymentowanie i wspólnota, wspierając autonomię i innowacyjność. Autorytet wynika z kompetencji, a podejmowanie decyzji jest zdecentralizowane i przekazywane osobom najbliżej pracy. Humanokracja stawia na pierwszym miejscu zaufanie, zaangażowanie i uwalnianie ludzkiego potencjału, a nie zgodność i kontrolę, dążąc do budowy odpornych, innowacyjnych miejsc pracy, w których pracownicy napędzają realne zmiany.
 
 Podczas gdy modele takie jak Rendanheyi firmy Haier (56, 101) podzielają wartości decentralizacji i upodmiotowienia, humanokracja jest szerszą filozofią, skoncentrowaną na zastąpieniu biurokracji zasadami zorientowanymi na ludzi, które odblokowują zbiorowe możliwości i wartość.
 
-#### Sociokracja {#sociocracy}
+#### Socjokracja {#sociocracy}
 
-Sociokracja (1, 11-14) to system zarządzania, który organizuje ludzi w samozarządzające kręgi (49) i podejmuje decyzje na zasadzie zgody, a nie większości głosów. Opracowana przez Gerarda Endenburga (81) w Holandii w latach 70., zapewnia, że każda osoba, której dotyczy decyzja, ma głos, a propozycje są wdrażane, o ile nie zostanie zgłoszony uzasadniony sprzeciw. Kierując się zasadą „wystarczająco dobre na teraz, wystarczająco bezpieczne, by spróbować”, sociokracja rozprasza władzę, promuje Przejrzystość, odpowiedzialność i ciągłe doskonalenie, a także wspiera współpracę oraz współwłasność. Jej zasady wpłynęły na modele takie jak Holakracja i samozarządzające zespoły.
+Socjokracja (1, 11-14) to system zarządzania, który organizuje ludzi w samozarządzające kręgi (49) i podejmuje decyzje na zasadzie zgody, a nie większości głosów. Opracowana przez Gerarda Endenburga (81) w Holandii w latach 70., zapewnia, że każda osoba, której dotyczy decyzja, ma głos, a propozycje są wdrażane, o ile nie zostanie zgłoszony uzasadniony sprzeciw. Kierując się zasadą „wystarczająco dobre na teraz, wystarczająco bezpieczne, by spróbować”, socjokracja rozprasza władzę, promuje Transparencję, odpowiedzialność (accountability) i ciągłe doskonalenie, a także wspiera współpracę oraz współwłasność. Jej zasady wpłynęły na modele takie jak Holakracja i samozarządzające zespoły.
 
 Najbardziej ugruntowaną odmianą jest Sociocratic Circle-Organization Method (SCM), czyli oryginalna, sformalizowana metoda. SCM wykorzystuje półautonomiczne kręgi, podwójne powiązania (gdzie dwie osoby uczestniczą w dwóch bezpośrednio powiązanych kręgach, aby je połączyć), podejmowanie decyzji na zasadzie zgody oraz otwarte wybory na role. Taka struktura zapewnia zarówno efektywność organizacyjną, jak i równość członków, a jej skuteczność została dobrze udokumentowana w przedsiębiorstwach, spółdzielniach i szkołach w Holandii.
 
-Chociaż nowsze warianty, takie jak Sociokracja 3.0 (S3), oferują większą elastyczność, Sociocratic Circle-Organization Method (SCM) pozostaje najbardziej historycznie potwierdzoną i najlepiej udokumentowaną formą sociokracji.
+Chociaż nowsze warianty, takie jak Socjokracja 3.0 (S3), oferują większą elastyczność, Sociocratic Circle-Organization Method (SCM) pozostaje najbardziej historycznie potwierdzoną i najlepiej udokumentowaną formą socjokracji.
 
-### Adaptacyjny Członek Zarządu lub Dyrektor {#the-adaptive-executive-or-board-member}
+### Adaptacyjny menedżer lub członek zarządu {#the-adaptive-executive-or-board-member}
 
-MORE Executive SUCCESS identyfikuje szereg możliwości dla członków zarządu i dyrektorów:
+MORE Executive SUCCESS identyfikuje szereg możliwości dla menedżerów i członków zarządu:
 
-- Pozyskiwanie wiedzy o interesariuszach (w tym klientach), ich potrzebach i ograniczeniach, pracy, sposobie jej wykonywania, marnotrawstwie, antywzorcach, przestrzeni problemowej, szansach, dowodach na możliwość pozyskania wartości, zachowaniach i nawykach
-- Kształtowanie humanitarnego klimatu sprzyjającego efektywności oraz umożliwianie planowania sukcesji, które ten klimat chroni i rozwija
+- Pozyskiwanie wiedzy o interesariuszach (w tym klientach), ich potrzebach i ograniczeniach, pracy, sposobie jej wykonywania, marnotrawstwie, antywzorcach, domenie problemu, szansach, dowodach na możliwość pozyskania wartości, zachowaniach i nawykach
+- Kształtowanie środowiska z troską o człowieka, które sprzyja efektywności oraz umożliwia planowanie sukcesji, chroniącej i i rozwijającej to środowisko
 - Rozwijanie responsywności i flow (68,69) w sieciach wartości
 - Wspieranie emergencji (71) i adaptacyjności (80) w jasno określonym kierunku
 - Angażowanie ludzi, w tym klientów i współpracowników
 - Wspieranie skutecznego i terminowego planowania sukcesji
 
-Istnieje wiele wytycznych dla osób z dolnych, środkowych i bocznych struktur organizacji dotyczących zwiększania adaptacyjności (80). Natomiast na poziomie zarządczym brakuje wskazówek dotyczących terminowej, humanitarnej efektywności, interakcji z klientami oraz „jak działa praca”. Istnieje błędne przekonanie, że zatrudnieni agenci zmiany wypełniają tę lukę samodzielnie, co jest nierealistyczne, ponieważ to organizacja jest właścicielem zmiany.
+Istnieje wiele wskazówek dla osób ze szczebla operacyjnego , średniego oraz bocznego dotyczących zwiększania adaptacyjności (80). Tymczasem najwyższy szczebel zarządzania często pozostaje bez odpowiedniego wsparcia w zakresie ludzkiej skuteczności, kontaktu z klientami oraz zrozumienia „jak działa praca”.. Panuje błędne przekonanie, że zatrudnieni agenci zmiany wypełniają tę lukę samodzielnie, co jest nierealistyczne, ponieważ to organizacja jest właścicielem zmiany.
 
-Terminowa, humanitarna efektywność powinna przenikać całą strukturę korporacyjną, aby organizacja mogła czerpać z niej liczne korzyści. Nawet firmy, które „odniosły sukces we wdrażaniu zmiany”, są narażone na zagrożenia. Ludzie odchodzą, pojawiają się nowe perspektywy, a korporacyjne mody mogą zniweczyć osiągnięte postępy w adaptacyjności. Może pojawić się negatywny chaos.
+Terminowa, ludzka skuteczność powinna przenikać całą strukturę korporacyjną, aby organizacja mogła czerpać z niej liczne korzyści. Nawet firmy, które „odniosły sukces we wdrażaniu zmiany”, są narażone na zagrożenia. Ludzie odchodzą, pojawiają się nowe perspektywy, a korporacyjne mody mogą zniweczyć osiągnięte postępy w adaptacyjności. Może pojawić się negatywny chaos.
 
 Wielu graczy i modeli zaangażowania deklaruje wsparcie dla adaptacyjności na poziomie zarządczym, co jest pozytywne, ponieważ różne konteksty organizacyjne wymagają różnych podejść. Jednak pomimo dostępności licznych zasobów, ogólny krajobraz adaptacyjności na poziomie zarządczym nie zmienił się znacząco przez ponad 25 lat.
 
-Niezależnie od tego, czy organizacja korzysta z taktyk, strategii, metod i ram postępowania, czy też nie, powinna najpierw przyjąć etos będący fundamentem dwuręczności, humanitarnej efektywności, adaptacyjności i terminowości na najwyższym szczeblu. W przeciwnym razie członkowie zarządu i dyrektorzy nadal będą nadzorować „teatr zmiany” oraz niepełną mozaikę punktowych, terminowych, humanitarnych i efektywnych praktyk w organizacji.
+Niezależnie od tego, czy organizacja korzysta z taktyk, strategii, metod i frameworków, czy też nie, powinna najpierw przyjąć etos będący fundamentem, dwoistości strategii (ambidexterity)[^7] i, ludzkiej efektywności, adaptacyjności i terminowości na najwyższym szczeblu. W przeciwnym razie menedżerowie i członkowie zarządu nadal będą nadzorować „teatr zmiany” oraz niepełną mozaikę punktowych, terminowych, ludzkich i efektywnych praktyk w organizacji.
 
-#### Eksponowanie zachowań Członków Zarządu {#shining-a-light-on-executive-behavior}
+#### Eksponowanie zachowań Menedżerów {#shining-a-light-on-executive-behavior}
 
-Postawa lub działania członków zarządu i dyrektorów mają większy wpływ na nowe zachowania innych niż jakiekolwiek ich słowa czy polecenia. Niemniej jednak, warto zrewidować zadawane pytania, aby poprawić dwuręczność, humanitarną efektywność, adaptacyjność i terminowość.
+Postawa lub działania menedżerów i  członków zarządu mają większy wpływ na nowe zachowania innych niż jakiekolwiek ich słowa czy polecenia. Niemniej jednak, warto zrewidować zadawane pytania, aby poprawić dwoistość strategii, ludzką efektywność, adaptacyjność i terminowość.
 
-Dwuręczność, humanitarna efektywność, adaptacyjność i terminowość wymagają ostatecznego wyeliminowania niespójnych zachowań na poziomie zarządczym. Przykładami bardziej pomocnych zachowań są: akceptowanie porażek, poszukiwanie informacji przed oceną, dawanie możliwości próbowania nowych rzeczy w celu nauki, akceptacja niewiedzy oraz pomaganie ludziom w skupieniu się. Istnieje kilka godnych uwagi sposobów radzenia sobie z zachowaniami kadry zarządzającej.
+Dwoistość strategii, ludzka efektywność, adaptacyjność i terminowość wymagają ostatecznego wyeliminowania niespójnych zachowań na poziomie zarządczym. Przykładami bardziej pomocnych zachowań są: akceptowanie porażek, poszukiwanie informacji przed oceną, umożliwienie  próbowania nowych rzeczy w celu nauki, akceptacja niewiedzy oraz pomaganie ludziom w skupieniu się. Istnieje kilka godnych uwagi sposobów radzenia sobie z zachowaniami kadry zarządzającej.
 
 #### Immunity To Change® {#immunity-to-change®}
 
 Lisa Laskow Lahey i Robert Kegan (główni eksperci w The Developmental Edge) stworzyli podejście do zmiany znane jako Immunity to Change® (3,4). Ludzie często wiedzą, co powinni zrobić, ale tego nie robią z powodu wewnętrznych, sprzecznych zobowiązań. W przenośni mają „jedną nogę na gazie, a drugą na hamulcu”.
 
-Immunity to Change® to ramy pozwalające zdefiniować te „ukryte zobowiązania” i „ograniczające założenia”, które powstrzymują ludzi przed zmianą i realizacją ich celów. Teoria i mapa Immunity to Change® pomogły niezliczonym profesjonalistom i organizacjom odkryć oraz przekroczyć zobowiązania blokujące ich rozwój zawodowy i organizacyjny.
+Immunity to Change® to framework pozwalający zdefiniować te „ukryte zobowiązania” i „ograniczające założenia”, które powstrzymują ludzi przed zmianą i realizacją ich celów. Teoria i mapa Immunity to Change® pomogły niezliczonym profesjonalistom i organizacjom odkryć oraz przekroczyć zobowiązania blokujące ich rozwój zawodowy i organizacyjny.
 
 #### Intent-Based Leadership® {#intent-based-leadership®}
 
@@ -983,15 +1011,15 @@ _Intent-Based Leadership pomaga liderom budować organizacje, w których ludzie 
 
 _Praktyka komunikowania intencji umożliwia zespołom rozproszone podejmowanie decyzji przy jednoczesnym zachowaniu jedności wysiłku. Intent-Based Leadership International (IBLI) oferuje konsultacje, coaching, kursy online oraz książki dla liderów._
 
-**_Sekcja 3: Wyjaśnienie ram modelu Cynefin nieoficjalne i nieautoryzowane._**  
-_Title: Wyjaśnienie ram modelu Cynefin nieoficjalne i nieautoryzowane_  
-_Source: \[Link do oryginału [Cynefin wiki](https://cynefin.io/wiki/Main_Page)\], \[Link do oryginału\]_  
-_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._  
-_Disclaimer: Nie są udzielane żadne gwarancje. Korzystasz na własne ryzyko._  
+**_Sekcja 3: Wyjaśnienie frameworka modelu Cynefin nieoficjalne i nieautoryzowane._**  
+_Tytuł: Wyjaśnienie frameworka modelu Cynefin nieoficjalne i nieautoryzowane_  
+_Źródło: \[Link do oryginału [Cynefin wiki](https://cynefin.io/wiki/Main_Page)\], \[Link do oryginału\]_  
+_Licencja: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._  
+_Zastrzeżenie: Nie są udzielane żadne gwarancje. Korzystasz na własne ryzyko._  
 _Ta sekcja jest udostępniana na licencji Creative Commons Attribution-ShareAlike 4.0 International._  
 _Korzystając z tego „Wyjaśnienia ram modelu Cynefin nieoficjalnego i nieautoryzowanego”, akceptujesz warunki licencji [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)_
 
-## Cynefin® {#cynefin®}
+## Cynefin® {#cynefin}
 
 Cynefin® (30-35) oferuje kompas do podejmowania decyzji przywódczych. Zyskał popularność dzięki artykułowi HBR „A Leader's Framework for Decision Making” autorstwa Dave’a Snowdena i Mary Boone z 2007 roku oraz publikacji „Managing complexity (and chaos) in a crisis - a field guide for decision makers inspired by the Cynefin framework”, znanej także jako „EU Field Guide”. Założeniem Cynefin jest to, że należy działać inaczej w zależności od dynamiki danego obszaru. Model ten bywa często nadmiernie upraszczany. Dany problem może jednocześnie istnieć we wszystkich domenach, z których każda posiada inne aspekty.
 
@@ -999,23 +1027,23 @@ Przejście fazowe oznacza często nagłe przejście między domenami, szczególn
 
 Nie wszystkie aspekty rozwoju Produktu są złożone. Scrum Team, w danej sytuacji, może potrzebować rozważyć różne przejścia fazowe pomiędzy:
 
-- Uporządkowany: Kluczowa idea: stabilność, rutyna, najlepsze/dobre praktyki, ekspertyza
+- Uporządkowany[^8]: Kluczowa idea: stabilność, rutyna, najlepsze/dobre praktyki, ekspertyza
 
   - Ekspertyza jest wystarczająca, a związek przyczynowo-skutkowy jest przewidywalny lub możliwy do poznania
   - Możliwe reakcje obejmują, ale nie ograniczają się do: stosowania najlepszych/dobrych praktyk, przestrzegania zasad, korzystania z analizy eksperckiej, prowadzenia indywidualnych badań
   - Metafory: twarda lub ledwo zamrożona kostka lodu, przyjemna pogoda, szachy/sudoku
-  - Przykład z natury: nowoczesna, klimatyzowana szklarnia – przewidywalny, kontrolowany, zaplanowany wzrost
+  - Przykład z natury: nowoczesna, klimatyzowana szklarnia - przewidywalny, kontrolowany, zaplanowany wzrost
   - Przykład produktowy: rozwiązywanie trudnego problemu technicznego poprzez konsultacje z ekspertami i analizę logów
 
 - Złożony (30-35), gdzie ekspertyza jest cenna, ale niewystarczająca, a zrozumienie, dlaczego coś się wydarzyło, jest możliwe dopiero po fakcie. Kluczowa idea: emergencja, eksperymenty bezpieczne w razie niepowodzenia
 
   - Możliwe reakcje obejmują, ale nie ograniczają się do:
     - Wspierania uczenia się i adaptacji
-    - Próbowania kilku małych, równoległych, bezpiecznych w razie niepowodzenia eksperymentów
+    - Próbowania kilku małych, równoległych, eksperymentów o kontrolowanym ryzyku
     - Stymulowania świeżego myślenia poprzez różnorodność poznawczą i współpracę
     - Zapoznawania się z rozwiązaniami z innych obszarów, jeśli mogą pomóc
-    - Testowania przemyślanych hipotez lub intuicji, by sprawdzić, co działa
-  - Wszystko to odbywa się przy zachowaniu pomocnych wytycznych, które pozwalają na naturalny rozwój dobrych rezultatów
+    - Testowania domysłów lub intuicji, by sprawdzić, co działa
+  - Wszystko to odbywa się przy zachowaniu pomocnych wskazówek, które pozwalają na naturalny rozwój dobrych rezultatów
   - Metafory: płynąca woda, deszczowa pogoda, poker
   - Przykład z natury: gęstwina jeżyn – wszystko jest splątane, powiązania są nieprzewidywalne
   - Przykład produktowy: eksperymentowanie z różnymi funkcjami lub rozwiązaniami na podstawie opinii użytkowników, np. testy A/B nowych pomysłów na Produkt
@@ -1026,7 +1054,7 @@ Nie wszystkie aspekty rozwoju Produktu są złożone. Scrum Team, w danej sytuac
     - Metafory: roztrzaskująca się tafla lodu lub niekontrolowana eksplozja, toksyczny gaz, tornado, trzęsienie ziemi, pożar lasu, zamieszki na stadionie
     - Przykład z natury: katastrofa naturalna (np. tsunami) - nagła, destrukcyjna, nieprzewidywalna
     - Przykład produktowy: reakcja na krytyczne naruszenie bezpieczeństwa poprzez izolację systemów i wdrożenie awaryjnych poprawek
-  - Pozytywny: Kluczowa idea: generatywna dyzrupcja, szybka innowacja
+  - Pozytywny: Kluczowa idea: twórczy przełom, szybka innowacja
     - Możliwe reakcje (nie ograniczają się do): celowe wprowadzenie zakłócenia, zachęcanie do kreatywności, wykorzystanie energii, np. hackathon, inkubator, „Innowacyjny Piątek”
     - Metafory: kontrolowana eksplozja (silnik parowy), fajerwerki, ognisko podczas festiwalu
     - Przykład z natury: pożar lasu usuwający stare rośliny i dający miejsce nowym - odnowa ekosystemu
@@ -1036,36 +1064,36 @@ Liminalność (Liminality) to „stan pośredni”, coś na kształt progu. Czę
 
 - W liminalnym obszarze pomiędzy złożonością a uporządkowaniem znajduje się domyślna „strefa komfortu” Scruma:
 
-  - Uporządkowanie–Złożoność:
+  - Uporządkowanie-Złożoność:
     - Od analizy eksperckiej do adaptacyjnej eksploracji
     - Możliwe reakcje (nie ograniczają się do): poluzowanie niektórych zasad, wprowadzenie eksperymentowania, przygotowanie na emergencję
     - Metafory: topniejąca kostka lodu, pochmurna pogoda, przejście z szachów do pokera
-    - Przykład z natury: wiosenne roztopy – sztywny lód ustępuje miejsca płynącym strumieniom i nowemu wzrostowi
+    - Przykład z natury: wiosenne roztopy - sztywny lód ustępuje miejsca płynącym strumieniom i nowemu wzrostowi
     - Przykład produktowy: gdy rutynowy proces przestaje działać, zachęć zespół do wypróbowania różnych podejść
-  - Złożoność–Uporządkowanie:
+  - Złożoność-Uporządkowanie:
     - Możliwe reakcje (nie ograniczają się do): przekształcanie kreatywnych odkryć w eksperckie rutyny; stabilizowanie innowacji, obserwowanie i kodyfikowanie skutecznych wzorców; przejście do standaryzacji
     - Metafory: breja (między lodem a wodą), mgła ustępująca po deszczu, przejście z pokera do szachów
-    - Przykład z natury: delta rzeki tworząca kanały – od nieprzewidywalnych do stabilnych przepływów
+    - Przykład z natury: delta rzeki tworząca kanały - od nieprzewidywalnych do stabilnych przepływów
     - Przykład produktowy: przekształcenie udanej eksperymentalnej funkcji w udokumentowany, powtarzalny proces
 
 - W liminalnym obszarze pomiędzy złożonością a chaosem:
 
-  - Złożoność–Chaos (pozytywny):
+  - Złożoność-Chaos (pozytywny):
     - Sytuacja, w której należy poluzować ograniczenia, aby stworzyć czas i przestrzeń dla innowacji lub wynalazczości. Kluczowa idea: granica kreatywności, ryzyka i innowacji
     - Możliwe reakcje (nie ograniczają się do): rozluźnienie ograniczeń, zachęcanie do eksperymentowania, poszukiwanie przełomowych pomysłów
     - Metafory: wrząca woda (na granicy pary), wybuchająca burza, improwizowany teatr, jazzowa jam session
-    - Przykład z natury: wulkan tworzący nowy ląd – twórcza transformacja na granicy chaosu
+    - Przykład z natury: wulkan tworzący nowy ląd - twórcza transformacja na granicy chaosu
     - Przykład produktowy: organizacja ryzykownego hackathonu innowacyjnego w celu wygenerowania przełomowych pomysłów
-  - Złożoność–Chaos (negatywny):
+  - Złożoność-Chaos (negatywny):
     - Kluczowa idea: destrukcyjne przejście w kryzys
     - Możliwe reakcje (nie ograniczają się do): szybkie przywrócenie ograniczeń, stabilizacja sytuacji, zapobieganie dalszemu rozpadowi
     - Metafory: wybuchający szybkowar, nagłe tornado lub gwałtowna powódź, rozrzucone w gniewie pionki do gry, przewrócona plansza
-    - Przykład z natury: nagłe osuwisko – utrata struktury, destrukcyjne przejście
+    - Przykład z natury: nagłe osuwisko - utrata struktury, destrukcyjne przejście
     - Przykład produktowy: chaos po nieudanym wdrożeniu Produktu i pilna potrzeba odzyskania kontroli
-  - Chaos–Złożoność: Wychodzenie z chaosu – ponowne zebranie się
+  - Chaos-Złożoność: Wychodzenie z chaosu - ponowne zebranie się
     - Możliwe reakcje (nie ograniczają się do): dostrzeganie wyłaniającego się porządku, rozpoczęcie eksploracji, wspieranie współpracy, rozpoznawanie wzorców
     - Metafory: para skraplająca się w wodę, cisza po huraganie, wznowienie meczu po burzy
-    - Przykład z natury: gatunki pionierskie zasiedlające teren po pożarze – nowy wzrost po zakłóceniu
+    - Przykład z natury: gatunki pionierskie zasiedlające teren po pożarze - nowy wzrost po zakłóceniu
     - Przykład produktowy: po kryzysie ponowne zebranie zespołu, by eksperymentować z nowymi sposobami pracy lub nowymi kierunkami rozwoju Produktu
 
 - Aporia (liminalność paradoksalna): zatrzymanie się przy paradoksie w celu uzyskania nowego wglądu, być może po uświadomieniu sobie, że sytuacja nie była taka, jak się wydawało
@@ -1095,9 +1123,9 @@ Copyright: Wszelkie prawa zastrzeżone. Dostosowane
 
 ### Strategia emergentna {#emergent-strategy}
 
-Strategia nie jest ograniczona skalą; jeśli istnieje, powinna być jasno określona na poziomie korporacyjnym, jednostki biznesowej lub Produktu i pozostawać spójna oraz zintegrowana na wszystkich tych poziomach. Kluczowe jest, aby strategia rozróżniała cele końcowe (skwantyfikowane, cenione przez Interesariuszy wyniki) od środków (inicjatyw lub działań).
+Strategia nie jest ograniczona skalą; jeśli istnieje, powinna być jasno określona na poziomie korporacyjnym, jednostki biznesowej lub Produktu i pozostawać spójna oraz zintegrowana na wszystkich tych poziomach. Kluczowe jest, aby strategia rozróżniała cele końcowe (skwantyfikowane, cenione przez Interesariuszy outcomes) od środków (inicjatyw lub działań).
 
-Czerpiąc i adaptując prace Rogera L. Martina (41) oraz Toma Gilba(43-48), strategia polega na podejmowaniu zintegrowanych, jawnych wyborów - decydowaniu, co realizować, a czego nie, na podstawie jasno zdefiniowanej, mierzalnej aspiracji zwycięstwa, a nie tylko szeroko rozumianej misji czy wizji. Skuteczna strategia odpowiada na pytania:
+Czerpiąc i adaptując prace Rogera L. Martina (41) oraz Toma Gilba (43-48), strategia polega na podejmowaniu zintegrowanych, jawnych wyborów - decydowaniu, co realizować, a czego nie, na podstawie jasno zdefiniowanej, mierzalnej aspiracji zwycięstwa, a nie tylko szeroko rozumianej misji czy wizji. Skuteczna strategia odpowiada na pytania:
 
 - Gdzie będziemy działać?
 - Jak wygramy w sposób etyczny (57) i zrównoważony, równoważąc wiele oczekiwań i ograniczeń?
@@ -1106,37 +1134,37 @@ Czerpiąc i adaptując prace Rogera L. Martina (41) oraz Toma Gilba(43-48), stra
 
 Dla sytuacji, w których sama ekspertyza jest wystarczająca (lub niemal wystarczająca), aby zapewnić, że strategia jest iteracyjna, wykonalna i skoncentrowana na wartości:
 
-- Iteracyjnie kwantyfikuj i zarządzaj wartością dla Interesariuszy, wieloma wpływami lub skutkami ubocznymi, ryzykiem i kompromisami:
-  - Zidentyfikuj wszystkich kluczowych Interesariuszy (w tym, ale nie tylko, klientów) i określ ich cele wartości w mierzalnych kategoriach (np. „skrócenie czasu wdrożenia nowego użytkownika z 5-10 do 2-4 dni”).
-  - Wyraźnie kwantyfikuj kompromisy i ograniczenia oraz wracaj do nich, gdy pojawią się nowe informacje.
+- Iteracyjnie mierz i zarządzaj wartością dla Interesariuszy, wieloma wpływami lub skutkami ubocznymi, ryzykiem i kompromisami:
+  - Zidentyfikuj wszystkich kluczowych Interesariuszy (w tym, ale nie tylko, klientów) i określ ich cele względem wartości w mierzalnych kategoriach (np. „skrócenie czasu wdrożenia nowego użytkownika z 5-10 do 2-4 dni”).
+  - Wyraźnie mierz kompromisy i ograniczenia oraz wracaj do nich, gdy pojawią się nowe informacje.
   - Wykorzystuj myślenie integracyjne do kreatywnego rozwiązywania napięć.
 - Współtwórz i priorytetyzuj w sposób kolaboracyjny:
   - Twórz strategię, łącząc perspektywy z góry na dół i z dołu do góry oraz współpracę lateralną.
   - Wykorzystuj strukturalne warsztaty i pętle informacji zwrotnej, aby wspierać spójność, adaptacyjność i ciągłą repriorytetyzację niewykonanej pracy.
 - Dostarczaj wartość przyrostowo i mierz wyniki:
   - Iteracyjnie rozbijaj strategiczne aspiracje na małe, priorytetyzowane, mierzalne incrementy.
-  - Dostarczaj wartość w krótkich cyklach (np. Sprintach lub tygodniach), mierząc rzeczywiste wyniki i skutki uboczne względem pierwotnych, skwantyfikowanych celów.
+  - Dostarczaj wartość w krótkich cyklach (np. Sprintach lub tygodniach), mierząc rzeczywiste outcomes i skutki uboczne względem pierwotnych, wymiernych celów.
   - Wykorzystuj regularne przeglądy do dostosowywania działań na podstawie rzeczywistej informacji zwrotnej.
 - Umożliwiaj emergencję:
-  - Pozwól strategii ewoluować w odpowiedzi na nowe dane i informację zwrotną od Interesariuszy (w tym, ale nie tylko, użytkowników), w ramach jasnych, skwantyfikowanych celów, mierzalnych trendów i regularnej ponownej oceny ryzyk/korzyści.
+  - Pozwól strategii ewoluować w odpowiedzi na nowe dane i informację zwrotną od Interesariuszy (w tym, ale nie tylko, użytkowników), w ramach jasnych, skwantyfikowanych celów, mierzalnych trendów i regularnej oceny ryzyk/korzyści.
   - Wprowadzaj korekty kursu szybko i przejrzyście, gdy rzeczywistość się zmienia.
-- Zapewnij, by strategia i jej wdrożenie były zorientowane na wyniki i skupione (decydując, nad czym pracować, a czego nie robić). Rozróżniaj:
-  - Strategię, obejmującą intencje, uzasadnienie, cele i antycele (_co_ i _dlaczego_),
-  - Wdrożenie strategii: operacjonalizację strategii, iteracyjne sekwencjonowanie lub dekompozycję zintegrowanych wyborów dla strategii, zwykle w małych, zorientowanych na wynik fragmentach tego _co_ i _dlaczego_,
-  - Zorientowane na wynik, skupione elementy Product Backlog (mniejsze fragmenty _dla kogo_),
-  - Listy aktywności lub inicjatyw („co zrobimy” lub _jak_).
+- Zapewnij, by strategia i jej wdrożenie były zorientowane na outcomes i skupione (decydując, nad czym pracować, a czego nie robić). Rozróżniaj:
+  - Strategię, obejmującą intencje, uzasadnienie, cele i anty cele (_co_ i _dlaczego_),
+  - Wdrożenie strategii: operacjonalizację strategii, iteracyjne sekwencjonowanie lub dekompozycję zintegrowanych wyborów dla strategii, zwykle w małych, zorientowanych na outcome fragmentach tego _co_ i _dlaczego_,
+  - Zorientowane na outcome, skupione elementy Product Backlogu (mniejsze fragmenty dla _kogo_),
+  - Listy aktywności lub inicjatyw ("co zrobimy" lub _jak_).
 - Unikaj mylenia zbioru projektów ze spójną, opartą na wartości strategią.
 
 Dla sytuacji, w których ekspertyza jest cenna, ale niewystarczająca, związek przyczynowo-skutkowy jest czytelny dopiero po fakcie, a niepewność trzeba zaakceptować, Scrum Team i Interesariusze powinni:
 
 - Zaakceptować nieuporządkowany charakter pracy zorientowanej na wyniki, opartej na emergencji, w wybranym kierunku działania.
 - Przyjąć, że szczegółowe, długoterminowe plany są nieskuteczne. Zamiast tego organizacja powinna tworzyć warunki, w których użyteczne wzorce i innowacje mogą wyłaniać się z interakcji w systemie.
-- Zamiast testować po jednej idei i trzymać się tego, co działało wcześniej, Scrum Team powinien równolegle prowadzić kilka małych, bezpiecznych w razie niepowodzenia eksperymentów, by obserwować efekty i uczyć się z tego, co się wyłania.
+- Zamiast testować po jednej idei i trzymać się tego, co działało wcześniej, Scrum Team powinien równolegle prowadzić kilka małych,  eksperymentów o kontrolowanym ryzyku, by obserwować efekty i uczyć się z tego, co się wyłania.
 - Budować klimat sprzyjający kreatywnej eksploracji, innowacji i ewolucji od obecnego stanu. Tworzyć procesy i środowiska, w których ludzie mogą łączyć nowe pomysły, wnioski, przemyślane intuicje i uczyć się od siebie nawzajem, zamiast narzucać jednolitość czy sztywne KPI.
 - Możliwe reakcje obejmują, ale nie ograniczają się do:
   - Mapowania tego, co już wiadomo, i rozumienia potencjału ewolucyjnego systemu przed podjęciem zmiany
   - Wspierania samoorganizacji
-  - Przeprowadzania eksperymentów bezpiecznych w razie niepowodzenia (proby) - powinny być małe, równoległe i zaprojektowane tak, by ewentualna porażka była możliwa do przeżycia i pouczająca
+  - Przeprowadzania eksperymentów o kontrolowanym ryzyku (prób) - powinny być małe, równoległe i zaprojektowane tak, by ewentualne niepowodzenie było możliwe do przeżycia i pouczające
   - Poszukiwania świeżego spojrzenia
   - Prób rozwiązań różnych problemów w obecnej sytuacji
   - Testowania przemyślanych intuicji
@@ -1150,141 +1178,70 @@ Zasadniczo nagrody oparte na motywacji zewnętrznej powinny być unikane ze wzgl
 
 Niemniej jednak:
 
-- W literaturze recenzowanej (105-108) oraz w podstawowym artykule nierecenzowanym (109) istnieją rozbieżności co do tego, czy kwantyfikacja oczekiwań Interesariuszy, ich ograniczeń lub celów jest pomocna czy szkodliwa oraz czy obniża motywację wewnętrzną.
-- Należy brać pod uwagę kontekst. Warto także rozważyć, czy kwantyfikacja wspiera autonomię i poczucie sensu, czy raczej narzuca kontrolujące ograniczenia.
-- Na ten moment niniejszy dokument woli opowiadać się za doprecyzowaniem i wspólnym zrozumieniem idei, kwantyfikując oczekiwania Interesariuszy, ich ograniczenia oraz kierunek działania, przy wsparciu wysokiej jakości, precyzyjnych narracji (więcej historii tego typu, mniej historii innego typu).
+- W recenzowanej literaturze naukowej  (105-108) oraz w podstawowym artykule nierecenzowanym (109) istnieją rozbieżności co do tego, czy mierzenie oczekiwań Interesariuszy, ich ograniczeń lub celów jest pomocne czy szkodliwe oraz czy obniża motywację wewnętrzną.
+- Należy brać pod uwagę kontekst. Warto także rozważyć, czy mierzenie wspiera autonomię i poczucie sensu, czy raczej narzuca kontrolujące ograniczenia.
+- Na ten moment niniejszy dokument skłania się ku ostrożności i preferuje doprecyzowanie oraz wspólne rozumienie idei - poprzez kwantyfikację oczekiwań interesariuszy, ograniczeń interesariuszy oraz kierunku działania - wspartą wysokiej jakości, trafnymi narracjami (więcej historii tego typu, mniej historii tamtego typu).
 
-Strategia emergentna jest wspierana przez emergentną, zorientowaną na wyniki mapę drogową, która może obejmować wszystko od Celu Sprintu po Wizję Produktu i dalej. Wdrażanie strategii emergentnej (120-123) nie powinno być mylone ze strategią emergentną. Modele zmiany wektorowej (30-35, 54), Product Operating Model (113-119), modele skalowania i deskalowania (134-147) oraz emergentne modele zorientowane na cele (120-133) mogą być bardzo pomocne przy wdrażaniu strategii emergentnej. Zaleca się wybierać modele spójne z podejściem zmiany wektorowej, np. kierunek działania zamiast sztywnych celów.
+Strategia emergentna jest wspierana przez emergentną, zorientowaną na outcomes roadmapę, która może obejmować wszystko od Celu Sprintu po Wizję Produktu, a nawet dalej. Wdrażanie strategii emergentnej (120-123) nie powinno być mylone ze strategią emergentną. Modele zmiany wektorowej (30-35, 54), Product Operating Models (113-119), modele skalowania i deskalowania (134-147) oraz emergentne modele zorientowane na cele (120-133) mogą być bardzo pomocne przy wdrażaniu strategii emergentnej. Zaleca się wybierać modele spójne z podejściem zmiany wektorowej, np. kierunek działania zamiast sztywnych celów.
 Wdrażanie strategii emergentnej polega na umożliwieniu, by plany i działania rozwijały się naturalnie, gdy Scrum Team i Interesariusze reagują na rzeczywiste zmiany. Zamiast podążać ustaloną ścieżką, zwracają uwagę na to, co dzieje się wokół nich i dostosowują się w trakcie. Z czasem podjęte kroki tworzą wzorzec, który staje się faktyczną strategią, nawet jeśli odbiega od pierwotnych założeń.
 
 #
 
-## Przypisanie autorstwa dla zbioru Scrum Guide Expansion Pack{#attribution-for-the-scrum-guide-expansion-pack-collection}
+## Przypisanie autorstwa dla zbioru Scrum Guide: Rozszerzenia {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
-Ta zbiór został napisany i zredagowany przez _Ralpha Jochama, Johna Colemana i Jeffa Sutherlanda_. Każda sekcja ma przypisane indywidualne autorstwo powyżej i zachowuje swoją oryginalną licencję. Cały zbiór służy wyłącznie celom informacyjnym; prosimy o przestrzeganie warunków licencyjnych każdej sekcji.
+Niniejszy zbiór został napisany i zredagowany przez _Ralpha Jochama, Johna Colemana i Jeffa Sutherlanda_. Każda sekcja ma przypisane indywidualne autorstwo powyżej i zachowuje swoją oryginalną licencję. Cały zbiór służy wyłącznie celom informacyjnym; prosimy o przestrzeganie warunków licencyjnych każdej sekcji.
 
 #
 
-## Translator Acknowledgement {#translator-acknowledgement}
+## Nota od tłumaczy {#translator-acknowledgement}
 
-## Note {#translators-note}
+### Podziękowania {#translators-note}
 
-Pierwotne tłumaczenie i koordynację zmian wykonał [Michał (Mike) Januszewski](https://januszew.ski). Wsparcie i konsultacje dotyczące szczegółów dała społeczność skupiona wokół [Polish Agile Association](https://www.agile.org.pl/stowarzyszenie-agile-english/).
-
-Podczas tłumaczenia dokonaliśmy wielu wyborów co do decyzji pozostawienia oryginalnego określenia (np. Scrum Guide Expansion Pack) czy podążać za rozwiązaniami z Przewodnika po Scrumie (tłum. Tomek Włodarek) oraz Przewodnik po Scrum@Scale® (tłum. Mike Januszewski). Celem było znalezienie najbardziej wartościowego rozwiązania pomiędzy wcześniejszymi tłumaczeniami a współczesnym (2025) uzusem językowym, unikając ślepego powielania przestarzałych pojęć.
+Dziękujemy recenzentom, którzy wsparli nas w ulepszeniu niniejszego tłumaczenia: 
 
 |  |  |
 | :-- | :-- |
-| Translator Name(s) | Mike Januszewski |
-| Translation Group Name | Polish Agile Association |
-| Primary ​Contact Email | tlumaczenia@agile.org.pl |
-| Website | [agile.org.pl](https://www.agile.org.pl/) |
+| Tłumaczenie | [Magdalena Firlit](https://magdalenafirlit.com/) |
+| Tłumaczenie | [Iwo Hryniewicz](mailto:iwo@iwohryniewicz.com) |
+| Tłumaczenie | [Mike Januszewski](https://januszew.ski) |
+| Recenzja | Kate Hobler |
+| Recenzja | Izabela Januszewska |
+| Recenzja | Joanna Płaskonka |
+| Recenzja | Łukasz Czopek |
+| Recenzja | Marek Konderski |
+| Koordynacja | Magdalena Firlit |
 
-### Translation history log {#translation-history-log}
+Oraz wszystkim innym, którzy podzieli się z nami informacją zwrotną.
 
-| Version number | Significance | Version date |
+### Historia tłumaczenia {#translation-history-log}
+
+| Numer wersji | Znaczenie | Data wersji |
 | :-- | :-- | :-- |
-| 1.0 | Original translation | 25-06-2025 |
+| 1.0 | Oryginalne tłumaczenie | 25-06-2025 |
+| v2025.6.A | Oficjalne tłumaczenie v2025.6 | 02.10.2025 |
 
-## Glosariusz
+## Przypisy
 
-Poniżej zamieszczamy glosariusz sugerowany przez twórców Scrum Guide Expansion Pack. Glosariusz jako podstawą tłumaczenia nie jest zamknięty, nie jest ograniczony.
+[^1]:  Przypis tłumacza: Outcome - mierzalne zmiany (zachowania, satysfakcji, pożądanego doświadczenia lub możliwości) dostarczone użytkownikowi lub innemu interesariuszowi, które mogą bezpośrednio wpłynąć na pożądany wynik biznesowy; to efekt, który mierzymy przez obserwację ludzi, a nie przez liczbę dostarczonych funkcji.
 
-| **Scrum Guide Terms** |  |
-| :-- | :-- |
-| Scrum | Scrum |
-| Scrum Values | Wartości Scruma |
-| Three Pillars | Filary |
-| Sprint Planning | Sprint Planning |
-| Daily Scrum | Daily Scrum |
-| Sprint Review | Sprint Review |
-| Sprint Retrospective | Sprint Retrospective |
-| Scrum Team | Scrum Team |
-| Scrum Master | Scrum Master |
-| Product Owner | Product Owner |
-| Developer | Developer |
-| Product Backlog | Product Backlog |
-| Sprint Backlog | Sprint Backlog |
-| Increment | Increment |
-| Focus | Skupienie |
-| Openness | Otwartość |
-| Courage | Odwaga |
-| Commitment | Zaangażowanie |
-| Respect | Szacunek |
-| Transparency | Przejrzystość |
-| Inspection | Inspekcja |
-| Adaptation | Adaptacja |
-| Product Goal | Cel Produktu |
-| Sprint Goal | Cel Sprintu |
-| Definition of Done | Definicja Ukończenia |
-| Accountability | Odpowiedzialność |
-| accountable | odpowiedzialny |
-| **Expansion Pack Terms** |  |
-| Scrum Guide Expansion Pack | Scrum Guide Expansion Pack |
-| Leader | Lider |
-| Stakeholder | Interesariusz |
-| Supporter | Supporter |
-| Acceptance Criteria | Kryteria Akceptacji |
-| Outcome Criteria | Kryteria Wartości |
-| Definition of Output Done | Definicja Ukończonej Pracy |
-| Definition of Outcome Done | Definicja Dostarczonej Wartości |
-| Product Backlog Item | Element Product Backlogu |
-| Value | Wartość |
-| Outcome | Wartość |
-| Empirical Process Control | Empiryczna kontrola procesu |
-| Empiricism | Empiryzm |
-| Scrum's Three Pillars of Empirical Process Control | Trzy filary empirycznej kontroli procesu w Scrumie |
-| Lean | Lean |
-| Systems Thinking | Myślenie systemowe |
-| Product Thinking | Myślenie produktowe |
-| Discovery | Odkrywanie |
-| Value validation | Walidacja Wartości |
-| Values realization | Realizacja Wartości |
-| Multi-Scrum-Team | Multi-Scrum-Team |
-| adaptiveness | adaptacyjność |
-| effective ** | skutecznie |
-| emergence ** | emergencji |
-| probe ** | próbka |
-| safe-to-fail ** | bezpieczne w razie niepowodzenia |
-| Product | Produkt |
-| risk ** | ryzyko |
-| expectations ** | oczekiwania |
-| limits ** | granice |
-| complex ** | złożone |
-| complexity | złożoność |
-| scaling | skalowanie |
-| Role | Rola |
-| Self-managing Scrum Team | samozarządzający Scrum Team |
-| Professionalism | Profesjonalizm |
-| Cadence | Kadencja |
-| Cynefin | Cynefin |
-| strategy | strategia |
-| Strategy deployment | Wdrożenie strategii |
-| descaling | deskalowanie |
-| Product Operating Model | Product Operating Model |
-| goal-oriented | zorientowany na cel |
-| de-scaling | deskalowanie |
-| Adaptive enterprise | Adaptacyjne przedsiębiorstwo |
-| Adaptive executive or board member | Adaptacyjny Członek Zarządu lub Dyrektor |
-| Humanocracy | Humanokracja |
-| Sociocracy | Sociokracja |
-| Intent-Based Leadership | Intent-Based Leadership |
-| Immunity to Change | Immunity to Change |
-| Beyond Budgeting | Beyond Budgeting |
-| First Principles Thinking | Myślenie od podstaw |
-| People and Change | Ludzie i Zmiana |
-| Scrum Expansion | Rozszerzenie Scrum |
-| Scrum Expanded | Rozszerzony Scrum |
-| data-informed ** | oparte na danych |
-| Leadership | Przywództwo |
-| theory-informed ** | oparte na teorii |
-| evidence-informed ** | oparte na dowodach |
-| informed ** | w oparciu o |
-| Expansion Pack | Expansion Pack |
+[^2]:  Przypis tłumacza: Emergentny oznacza coś, co wyłania się lub pojawia stopniowo i nie da się tego łatwo przewidzieć. Jest to wynik współdziałania różnych elementów lub osób, które razem tworzą coś nowego, często niespodziewanego.
+W kontekście tekstu, emergentny może odnosić się do wyników pracy Scrum Teamu, które pojawiają się spontanicznie podczas współpracy, eksperymentowania i reagowania na zmiany.
+
+[^3]: Przypis tłumacza: Output to wynik pracy. Przykłady outputu to dostarczona funkcjonalność, ukończone zadanie, Increment, itp. Pomimo, że outputy są namacalnym rezultatem pracy, tylko potencjalnie niosą wartość.
+
+[^4]: Przypis tłumacza: W wielu językach istnieje tylko jedno słowo (odpowiedzialność) odpowiadające tym dwóm angielskim pojęciom (responsible i accountable). Ponieważ mogą pojawić się trudności w tłumaczeniu pojęcia odpowiedzialności, podajemy w nawiasie oryginalną wersję. Responsible oznacza osobiste podjęcie działań w celu wykonania tego, co należy do czyichś obowiązków. Accountable oznacza upewnienie się, że coś zostaje wykonane (przez kogoś innego). To odpowiedzialność za konsekwencje wynikające z delegowania.
+
+[^5]: Przypis tłumacza: Tzw. vertical slicing. Technika dzielenia pracy na niewielkie, funkcjonalne elementy, które obejmują wszystkie potrzebne warstwy systemu (np. interfejs, logikę biznesową, bazę danych), tak aby każdy fragment dostarczał pełną, możliwą do użycia wartość.
+
+[^6]: Przypis tłumacza: (Agile) Industrial Complex to pojęcie zaproponowane przez Martina Fowlera na oznaczenie  samoistnie podtrzymującego się system konsultantów, firm certyfikujących, dostawców narzędzi i Agile coachów, którzy sprzedają gotowe, uniwersalne metody pracy. Jest to nawiązanie do „military‑industrial complex”, które skupia się na generowaniu przychodu poprzez narzucanie procesów zamiast wspierania rzeczywistej efektywności.
+
+[^7]: Przypis tłumacza: Ambidexterity w kontekście organizacyjnym oraz procesów biznesowych, może być rozumiana jako dwoistość. Dwoiste zarządzanie procesami biznesowymi (ambidextrous business process management; ABPM). W kontekście badanej problematyki dwoistość rozumiana jest jako dynamiczne równoważenie, na poziomach systemowym i strukturalnym, dwóch aktywności (warstw) w organizacji (eksploatacji i eksploracji). (Za Piotr Sliż, Marek Szelągowski, Dyskusja nad pojęciem ambidexterity w zarządzaniu procesami, 2023)
+
+[^8]: Przypis tłumacza: Cynefin zawiera 5, tzw. „domen”: jasną (clear, wcześniej znaną jako simple), skomplikowaną (complicated), złożoną (complex), chaotyczną (chaos) oraz domenę pomieszania (confusion). Domeny po prawej stronie - jasna i skomplikowana - są „uporządkowane” (ordered): związki przyczynowo-skutkowe są znane lub możliwe do odkrycia. Domeny po lewej stronie - złożona i chaotyczna - są „nieuporządkowane”: związki przyczynowo-skutkowe można wywnioskować jedynie z perspektywy czasu lub wcale.
 
 #
 
-## Źródła {#references}
+## Bibliografia {#references}
 
 1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (Accessed: April 5, 2023)._
 2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (Accessed: April 5, 2023)._
