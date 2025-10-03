@@ -122,7 +122,7 @@ Ken SchwaberとJeff Sutherlandがスクラムフレームワークの開発を�
 この拡張パックは、自己管理チーム(49)によるプロダクトデリバリーのすべての側面を支援するよう設計されている。そうしたチームは、問題や機会に対するステークホルダーのニーズや要望を原動力としている。これにはプロダクト発見・開発・デリバリー・価値実現が含まれる（ただしこれらに限定されない）。もともとソフトウェアプロダクト開発から始まったスクラムは、現在は多様な領域で幅広く採用され、複雑な(30-35)仕事を通じた価値の提供を可能にしている。利用が拡大するにつれ、エンジニア・プログラマー・研究者・アナリスト・弁護士・マーケター・科学者などの専門家が、それぞれの分野でスクラムを効果的に適用する例が増えている。
 
 <!-- Stakeholder value refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes. -->
-ステークホルダー価値とは、ステークホルダーが重要と考え、チームが提供する、あらゆるニーズである（ステークホルダーには顧客、意思決定者、ユーザーを含むがこれらに限定されない）。ただしステークホルダー自身が、自分たちにとって価値あるものが何であるかを、かならずしも認識しているわけではない。観察やエビデンスを通じて、意図的もしくは意図しないところで価値が顕在化し、それが優先順位に影響を与えることがある。新しい情報が出てきたら、潜在的に価値のあるアイテムを特定し、検査し、リファインし、適応させるべきである。価値とは、観察や測定されたアウトカムなどのエビデンスによって確認されるまでは、あくまで仮説にすぎない。
+ステークホルダー価値とは、ステークホルダーが重要と考え、チームが提供する、あらゆるニーズである（ステークホルダーには顧客、意思決定者、ユーザーを含むがこれらに限定されない）。ただしステークホルダー自身が、自分たちにとって価値あるものが何であるかを、かならずしも認識しているわけではない。観察やエビデンスを通じて、意図的もしくは意図しないところで価値が顕在化し、それが優先順位に影響を与えることがある。新しい情報が出てきたら、潜在的に価値のあるアイテムを特定し、検査し、リファインし、適応させるべきである。価値とは、観察や計測されたアウトカムなどのエビデンスによって確認されるまでは、あくまで仮説にすぎない。
 
 <!-- ## Scrum in a Nutshell {#scrum-in-a-nutshell} -->
 ## スクラム早わかり {#スクラム早わかり}
@@ -1173,7 +1173,7 @@ _集中_ は、価値あるアウトカムを提供しながら、適切な投�
 資金提供者は、プロダクト開発、リリース、改善のために資金やリソースを提供する。資金提供者はプロダクトの実現可能性、価値、実行可能性を評価し、ステークホルダーに継続的に価値を提供できる可能性を見極めて投資を行う。資金提供者は投資回収や長期的な持続性との整合を確かなものとするため、プロダクトのビジョン、戦略、目標に影響を与える。スクラムの適用を成功させるためには、新しい情報が明らかになるにつれて、柔軟に姿勢や資金運用を変えることが求められる。
 
 <!-- Subject matter experts contribute deep knowledge or unique skills essential to Product creation, evolution, and maintenance. Whether focused on technology, design, compliance, or a specific domain, subject matter experts support the Product's usability, feasibility, professionalism, and extendability but do not get in the way of self-managing Scrum Teams (49). They can help address satisfaction gaps and contribute to the Product's ability to adapt and identify, represent, or measure emergence (71). For a successful Scrum adoption, it's crucial to foster regular transfer of learning from subject matter experts to and across the Scrum Team. -->
-特定分野のエキスパートは、プロダクトの作成、進化、保守に不可欠な深い知識や独自のスキルを提供する。技術、設計、コンプライアンス、特定ドメインなどの分野で、特定分野のエキスパートはプロダクトの使いやすさ、実現可能性、プロフェッショナリズム、拡張性を支援するが、自己管理スクラムチーム(49)を妨げてはならない。特定分野のエキスパートは満足度ギャップを解消し、プロダクトが適応しやすくなるよう支援し、創発(71)を特定、表現、測定する役割を担う。スクラムの適用を成功させるために、特定分野のエキスパートからスクラムチームへ、そしてスクラムチーム全体への定期的な学びの移転を促進することが重要である。
+特定分野のエキスパートは、プロダクトの作成、進化、保守に不可欠な深い知識や独自のスキルを提供する。技術、設計、コンプライアンス、特定ドメインなどの分野で、特定分野のエキスパートはプロダクトの使いやすさ、実現可能性、プロフェッショナリズム、拡張性を支援するが、自己管理スクラムチーム(49)を妨げてはならない。特定分野のエキスパートは満足度ギャップを解消し、プロダクトが適応しやすくなるよう支援し、創発(71)を特定、表現、評価する役割を担う。スクラムの適用を成功させるために、特定分野のエキスパートからスクラムチームへ、そしてスクラムチーム全体への定期的な学びの移転を促進することが重要である。
 
 <!-- The term satisfaction gap means the difference between what Stakeholders experience now and what they wish their experience was. In other words, it's the gap between how satisfied Stakeholders are with a Product today and how satisfied they could be. -->
 満足度ギャップとは、ステークホルダーが現在体験していることと彼らが体験したいと望むこととの差を指す。言い換えれば、ステークホルダーが現在のプロダクトにどれだけ満足しているかと、ここからどれだけ満足させられるかとの間のギャップである。
@@ -1378,7 +1378,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 - プロダクトバックログアイテムの作成と明確なコミュニケーション。
 - プロダクトバックログアイテムの並び替え。
 - プロダクトバックログの透明性が高く、関係者に正しく理解されることの保証。
-- アウトカム完成の定義において、測定指標に基づくアウトカムを効果的に伝えること。
+- アウトカム完成の定義において、計測指標に基づくアウトカムを効果的に伝えること。
 - アウトカム完成の定義に対する最終決定権。
 - 高品質な価値の創造・ディスカバリー・デリバリー・検証の促進。
 - 必要に応じた他のプロダクトマネジメント活動。
@@ -1458,7 +1458,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 <!-- - Helping establish emergent Product planning for a complex (30-35) environment; -->
 - 複雑な(30-35)環境における創発的なプロダクト計画の策定を支援する
 <!-- - Helping the Product Owner to express outcomes as measures through the Definition of Outcome Done; -->
-- アウトカム完成の定義に沿って測定されたアウトカムをプロダクトオーナーが表現できるようにする
+- アウトカム完成の定義に沿って計測されたアウトカムをプロダクトオーナーが表現できるようにする
 <!-- - Helping the Product Owner understand the need for clear and concise Product Backlog Items that deliver value; and, -->
 - 価値を提供する明確で簡潔なプロダクトバックログアイテムの必要性についてプロダクトオーナーに理解してもらう
 <!-- - Helping the Product Owner to _Focus_ on value realization. -->
@@ -1534,7 +1534,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 - スプリントバックログについては、スプリントゴール
 
 <!-- Upon release of the Increment (output), the Product is what creates value (outcomes). Value is the measurable or observable fulfillment or creation of expectations, needs, or wants from the Stakeholders' perspective. -->
-インクリメント（アウトプット）がリリースされることで、プロダクトが価値（アウトカム）を生み出すことになる。ここでいう価値とは、測定可能または観察可能な形で、ステークホルダーの視点から見た、期待やニーズ、要望が満たされたり、新たに生み出されたりすることである。
+インクリメント（アウトプット）がリリースされることで、プロダクトが価値（アウトカム）を生み出すことになる。ここでいう価値とは、計測可能または観察可能な形で、ステークホルダーの視点から見た、期待やニーズ、要望が満たされたり、新たに生み出されたりすることである。
 
 <!-- These commitments reinforce the pillars of Transparency, Inspection, and Adaptation, enabling empirical process control (64-66). The Product Goal is fixed for as long as no contrary evidence or observations emerge in the observed Product's Definition of Outcome Done. The Definition of Output Done is not weakened during the Sprint. So what could be diminished or changed instead? It could be the Acceptance Criteria for a specific Product Backlog Item, the implementation or fidelity of a specific feature, or even alternative Product Backlog Items for achieving the Sprint Goal, etc. -->
 これらのコミットメントは、透明性・検査・適応というスクラムの三本柱を強化し、経験的なプロセス制御を可能にする(64-66）。プロダクトゴールは、プロダクトのアウトカム完成の定義において反対のエビデンスや観察が現れない限り、固定される。アウトプット完成の定義はスプリント中に妥協されることはない。では、代わりに何が見直されたり変更されたりするのかというと、例えば、特定のプロダクトバックログアイテムの受け入れ基準や、特定の機能の実装内容や精度、あるいはスプリントゴール達成のための代替となるプロダクトバックログアイテムなどが挙げられる。
@@ -1569,7 +1569,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 <!-- - Has a compelling, clear, and outcome-metric-oriented Product Vision, Product strategy, and Product Goal, often including intent, rationale, and anti-goals; -->
 - 明確で説得力があり、成果指標に基づくプロダクトビジョン、プロダクト戦略、プロダクトゴールを備えている。その中には意図、根拠、避けるべきゴールが含まれる事が多い
 <!-- - Adapts and improves to identify, represent, or measure emergence (71); and, -->
-- 創発(71)を特定、表現、測定するために適応し改善する
+- 創発(71)を特定、表現、評価するために適応し改善する
 <!-- - Is extendable and maintainable. -->
 - 拡張可能であり、保守可能である
 
@@ -1580,16 +1580,16 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 #### コミットメント：アウトカム完成の定義 {#commitment:-definition-of-outcome-done}
 
 <!-- The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It's often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations. -->
-アウトカム完成の定義はコミットメントの一つである。これは、実現された価値を示すために必要な観察可能なエビデンスの測定基準（定量的または定性的）を記述し、しばしば価値検証と呼ばれる。これはプロダクト全体、または特定のゴールに対して設定される。バイアスや誤った解釈を避けるため、実装を開始する前に価値検証のための測定基準を定義しておくことが最善であることが多い。
+アウトカム完成の定義はコミットメントの一つである。これは、実現された価値を示すために必要な観察可能なエビデンスの計測基準（定量的または定性的）を記述し、しばしば価値検証と呼ばれる。これはプロダクト全体、または特定のゴールに対して設定される。バイアスや誤った解釈を避けるため、実装を開始する前に価値検証のための計測基準を定義しておくことが最善であることが多い。
 
 <!-- Outcomes and related interpretations inform future adaptations, ideally confirming the intended Stakeholder impact(including but not limited to business or user impact)—measuring whether the output fulfills the anticipated outcome(s) and delivers real value. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (120-124). Or a combination of both. -->
-アウトカムとそれに関連する解釈は、将来の適応のための情報として役立ち、理想的には意図したステークホルダーへの影響（ビジネスやユーザーの影響を含むがそれに限定されない）を確認することを目的とする。つまり、アウトプットが期待されたアウトカムを実現し、真の価値を提供したかどうかを測定する。これは、特定の大きな機能や複数の機能などに向けて設定された特定のゴールを対象とし、プロダクトのテレメトリ（プロダクト自身がその利用状況を測定する）によって検証される。あるいは、プロダクト全体を対象とし、戦略的影響や実施された戦略展開(120-124)の有効性の検証に関するものである。またはこれら両方の組み合わせである。
+アウトカムとそれに関連する解釈は、将来の適応のための情報として役立ち、理想的には意図したステークホルダーへの影響（ビジネスやユーザーの影響を含むがそれに限定されない）を確認することを目的とする。つまり、アウトプットが期待されたアウトカムを実現し、真の価値を提供したかどうかを計測する。これは、特定の大きな機能や複数の機能などに向けて設定された特定のゴールを対象とし、プロダクトのテレメトリ（プロダクト自身がその利用状況を計測する）によって検証される。あるいは、プロダクト全体を対象とし、戦略的影響や実施された戦略展開(120-124)の有効性の検証に関するものである。またはこれら両方の組み合わせである。
 
 <!-- Favor direct evidence over circumstantial evidence. For example: -->
 アウトカム完成の定義は状況証拠よりも直接的な証拠（エビデンス）を優先する。例えば以下のようなものである：
 
 <!-- - Customer outcomes could Focus on delivering measurable value to customers, such as increased customer satisfaction, customer long-term cost reduction, or the number of customer jobs addressed. -->
-- 顧客のアウトカムは顧客満足度の向上、顧客の長期コスト削減、対応した顧客の案件数など、測定可能な顧客価値の提供に集中することができる
+- 顧客のアウトカムは顧客満足度の向上、顧客の長期コスト削減、対応した顧客の案件数など、計測可能な顧客価値の提供に集中することができる
 <!-- - User outcomes could address specific changes in user behavior that solve problems and improve experiences, like completing tasks more efficiently or engaging with new features. -->
 - ユーザーのアウトカムはタスクをより効率的に完了することや新機能の利用など、問題を解決し体験を改善するユーザー行動の具体的な変化に対処することができる
 <!-- - Product Stakeholder outcomes could connect these behavioral changes to Product performance metrics, e.g., trends in Product customer, decision-maker/user metrics, Product time to release, time to learn, time to pivot, etc. -->
@@ -1603,7 +1603,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 ユーザーエクスペリエンス（UX）負債やカスタマーエクスペリエンス（CX）負債とは、意図的であるか否かに関わらず、プロダクトやサービスをユーザーや顧客にとって使いにくく、楽しめず、効果的でないものとする設計および実装上の選択の総和である。この負債を認識し、追跡し、対処することは、真にユーザーのニーズと期待に応えるプロダクトを提供するために不可欠である。
 
 <!-- Measures over time make Product, market, and Stakeholder trends (including but not limited to customer or user) transparent; these can be reviewed at any time during the Sprint, including the Sprint Review. -->
-時間の経過に伴い測定することで、プロダクト、市場、ステークホルダーのトレンド（顧客やユーザーを含むがこれらに限定されない）が透明化される。これらはスプリントレビューを含めスプリントの期間中のいつでも参照可能である。
+時間の経過に伴い計測することで、プロダクト、市場、ステークホルダーのトレンド（顧客やユーザーを含むがこれらに限定されない）が透明化される。これらはスプリントレビューを含めスプリントの期間中のいつでも参照可能である。
 
 <!-- ### Increment {#increment} -->
 ### インクリメント {#increment}
@@ -1657,7 +1657,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 #### 成果基準 {#outcome-criteria}
 
 <!-- Outcome criteria, if they exist, describe the intention of the Product Backlog Item; it is the _why_ behind the _what_. The fulfillment of Outcome Criteria often complements the Definition of Outcome Done for the Product. They can include criteria specific to a Product Backlog Item not already addressed in the Definition of Outcome Done. If questions arise, the Outcome Criteria provide direction; they can be in the form of a narrative or measures, ideally, the latter. Outcome Criteria can evolve anytime, even while Product Developers work on them. -->
-成果基準が存在する場合、プロダクトバックログアイテムの意図を記述する。つまり、何（_What_）の背後にあるなぜ（_Why_）を記述するものである。成果基準の達成は、しばしばプロダクトのアウトカム完成の定義を補完する。成果基準は、アウトカム完成の定義でまだ扱われていないプロダクトバックログアイテム固有の基準を含むことがある。疑問が生じた場合、成果基準は方向性を示す。それは、ナラティブ形式または測定可能な指標の形式を取るが、理想的には後者である。成果基準は、プロダクト開発者が作業している間であっても、いつでも進化する可能性がある。
+成果基準が存在する場合、プロダクトバックログアイテムの意図を記述する。つまり、何（_What_）の背後にあるなぜ（_Why_）を記述するものである。成果基準の達成は、しばしばプロダクトのアウトカム完成の定義を補完する。成果基準は、アウトカム完成の定義でまだ扱われていないプロダクトバックログアイテム固有の基準を含むことがある。疑問が生じた場合、成果基準は方向性を示す。それは、ナラティブ形式または計測可能な指標の形式を取るが、理想的には後者である。成果基準は、プロダクト開発者が作業している間であっても、いつでも進化する可能性がある。
 
 <!-- #### Refinement {#refinement} -->
 #### リファインメント {#refinement}
@@ -2008,7 +2008,7 @@ Jeff Sutherlandによる1993年のEasel社でのスクラムの適用は、ロ�
 **なぜスクラムを使うのか？**
 
 <!-- Scrum enables Scrum Teams to identify, represent, or measure emergence (71), embrace uncertainty, respond to change, deliver and validate value frequently, and continuously improve. Scrum fosters collaboration, accountability, and evidence-informed decision-making, fostering the best possible outcomes in a rapidly changing environment. Self-managing Scrum Teams, organized around value, are crucial for creative problem-solving and opportunity capture; non-self-managing Scrum Teams hinder the ability to deal with complexity (30-35). Self-managing Scrum Teams are not to be confused with individual self-management. -->
-スクラムは、スクラムチームが創発(71)を識別・表現・測定し、不確実性を受け入れ、変化に対応し、頻繁に価値を提供・検証し、継続的に改善することを可能にする。スクラムは、コラボレーション・説明責任・エビデンスに基づく意思決定を促進し、急速に変化する環境において最良のアウトカムを生み出す。価値を中心に組織された自己管理スクラムチームは、創造的な問題解決や機会の獲得において重要である。自己管理されていないスクラムチームは、複雑性(30-35)に対処する能力を妨げる。自己管理スクラムチームは、個人の自己管理と混同すべきではない。
+スクラムは、スクラムチームが創発(71)を識別・表現・評価し、不確実性を受け入れ、変化に対応し、頻繁に価値を提供・検証し、継続的に改善することを可能にする。スクラムは、コラボレーション・説明責任・エビデンスに基づく意思決定を促進し、急速に変化する環境において最良のアウトカムを生み出す。価値を中心に組織された自己管理スクラムチームは、創造的な問題解決や機会の獲得において重要である。自己管理されていないスクラムチームは、複雑性(30-35)に対処する能力を妨げる。自己管理スクラムチームは、個人の自己管理と混同すべきではない。
 
 <!-- **Elements of Scrum** -->
 **スクラムの要素**
@@ -2996,7 +2996,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 - ステークホルダー価値、複数の影響や副作用、リスク、トレードオフを反復的に定量化し管理する：
   - すべての重要なステークホルダー（顧客を含むがこれに限定されない）を特定し、
-    それぞれの価値目標を測定可能な形で定義する
+    それぞれの価値目標を計測可能な形で定義する
      （例：「新規ユーザーのオンボーディング時間を5〜10日から2〜4日に短縮する」）。
   - トレードオフと制約を明示的に定量化し、
     新しい情報が得られるたびに見直す。
