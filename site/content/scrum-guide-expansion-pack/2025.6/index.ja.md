@@ -1021,7 +1021,7 @@ Intentionality and daily progress
         最後に取りかかるものとしてはならない。 -->
 
 <!-- An effective Scrum adoption uses an emergent approach, has effective change agents (including Supporters and other Leaders), and engages enthusiastic support from those affected by it or affecting it. Intentionality and daily progress with the adoption are crucial; the adoption work should not be the last thing that is worked on after everything else is finished. -->
-効果的なスクラムの適用は、創発的なアプローチの活用や効果的なチェンジエージェント（サポーターや他のリーダーを含む）の存在、そして、スクラムの影響を受ける人や影響を与える人たちの熱心な協力を得ることが必要である。クラムの導入においては、意図的な取り組みと日々の進捗が重要であり、他のすべての作業が終わった後に最後に取りかかるものとしてはならない。
+効果的なスクラムの適用は、創発的なアプローチの活用や効果的なチェンジエージェント（サポーターや他のリーダーを含む）の存在、そして、スクラムの影響を受ける人や影響を与える人たちの熱心な協力を得ることが必要である。スクラムの導入においては、意図的な取り組みと日々の進捗が重要であり、他のすべての作業が終わった後に最後に取りかかるものとしてはならない。
 
 <!-- 
 Start with disciplined emergent change 
