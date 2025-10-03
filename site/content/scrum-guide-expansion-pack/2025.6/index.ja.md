@@ -370,7 +370,7 @@ Patterns (53) like _Swarming_, _Stable Teams_, and _Kaizen_
     help identify and shape emergent behavior. 
 Rather than forcing results, 
     Scrum enables the Scrum Team to discover desirable patterns, 
-        including but limited to innovative solutions or new ways of working, 
+        including but not limited to innovative solutions or new ways of working, 
     and amplify them while dampening unhelpful ones.
 -->
 スクラムチームは複雑適応系として運営され、
@@ -811,11 +811,11 @@ _尊敬_ は他のスクラムの価値基準が攻撃的に利用されるこ�
 <!-- - Observe—Openness and Respect can foster the gathering of all relevant evidence, and diverse perspectives. -->
 <!-- - Orient—Courage is needed to interpret reality, navigate uncertainty, and agree to adapt or pivot, potentially using a reflective pause to challenge assumptions and provoke new insights. -->
 <!-- - Decide—Deciding what to do requires timely analysis, such as backlog refinement, bringing potential next steps into Focus through parallel safe-to-fail experiments to test hypotheses, like small-scale probes (probes should be small, parallel, and designed so that failure is survivable and informative). -->
-<!-- - Act—With clarity on what needs to be done, why, and by whom, Commitment can drive the team to execute effectively within enabling constraints like time-boxed sprints, fostering emergent solutions. -->
+<!-- - Act—With clarity on what needs to be done, why, and by whom, Commitment can drive the team to execute effectively within enabling constraints like Sprint of determinant length, fostering emergent solutions. -->
 - 観察：公開と尊敬は、関連するすべてのエビデンスと多様な視点の収集を促進する。
 - 状況判断：現実を解釈し、不確実性を乗り越え、適応または方向転換に合意するには勇気が必要である。仮説を検証し新しい洞察を導き出すために、立ち止まって振り返ることもある。
 - 意思決定：何をするかを決めるには、タイムリーな分析が求められる。バックログリファインメントなどを通じて、仮説を検証するための安全に失敗できる実験を並行して行い、次のステップに集中できるようにする（これらの実験は小さく、並行して実行ができ、失敗しても致命的でなく、かつ有益な情報をもたらすよう設計するべきである）。
-- 行動：何を・なぜ・誰が行うかが明確であれば、コミットメントによりタイムボックス化されたスプリントなどの制約条件のもとでチームが効果的に行動し、創発的なソリューションを育むことができる。
+- 行動：何を・なぜ・誰が行うかが明確であれば、コミットメントによりスプリント長さのような制約条件のもとでチームが効果的に行動し、創発的なソリューションを育むことができる。
 
 <!-- ## More Supporting and Complementary Theory {#more-supporting-and-complementary-theory} -->
 ## さらなる支援・補完理論 {#さらなる支援・補完理論}
@@ -823,14 +823,14 @@ _尊敬_ は他のスクラムの価値基準が攻撃的に利用されるこ�
 <!-- ### Product Thinking {#product-thinking} -->
 ### プロダクト思考 {#プロダクト思考}
 
-<!-- People consume Products (including services), not projects. A Product is the conduit to deliver value, balancing the short- and long-term. This is why Scrum has a Product Owner and not a Project Owner. Products are long-term and need to be taken care of for their entire existence, whereas a project is time-boxed and often leaves an orphaned Product behind once the project is completed. -->
+<!-- People consume Products (including services), not projects. A Product is the conduit to deliver value, balancing the short- and long-term. This is why Scrum has a Product Owner and not a Project Owner. Products are long-term and need to be taken care of for their entire existence, whereas a project is timeboxed and often leaves an orphaned Product behind once the project is completed. -->
 人々が実際に使うのはプロジェクトではなく、プロダクト（サービスを含む）である。プロダクトは、ユーザーに価値を届けるためのものであり、短期的な成果と長期的な視点の両方が求められる。そのため、スクラムでは「プロジェクトオーナー」ではなく「プロダクトオーナー」の役割が設けられている。プロダクトは長期間にわたって継続的に管理・改善していく必要があるが、プロジェクトはタイムボックスが決まっており、プロジェクトが完了するとプロダクトが十分にサポートされず放置されてしまうことがよくある。
 
 <!-- Product thinking (86-88) deals with the tension (111) that Products often need to _Focus_ on growth in the short-term but also need to address long-term concerns, e.g., gaining traction with early adopters, 'crossing the chasm' (5), expanding, updating Product versions, continuous change, customer lifetime value and total cost of ownership. -->
 プロダクト思考(86-88)とは、プロダクトが短期的な成長に _集中_ する必要がある一方で、長期的な課題にも対応しなければならないという葛藤(111)を扱う考え方である。たとえば、短期的には、アーリーアダプターを獲得し勢いを得ながら、プロダクトの利用を広げることが重要である。一方で、長期的には「キャズム（普及の壁）を超え」(5)、プロダクトを拡張し、バージョンアップや継続的な改善を行いながら、顧客のライフタイムバリュー（生涯価値）や総所有コストといった観点にも目を向ける必要がある。
 
-<!-- To 'cross the chasm,' a strategy shift is needed from targeting savvy, risk-taking customers to winning over more pragmatic, risk-averse buyers, decision-makers, users, or other Stakeholders by focusing on a specific niche market or target and delivering a complete, reliable solution that solves real problems. This step is crucial for a Product's transition from niche success to widespread adoption, as it moves from appealing to early adopters to attracting the early majority. The early majority often requires clear evidence of the Product's reliability and problem-solving capabilities within a specific context. By focusing on a niche and providing a complete solution, a company can build credibility, create reference customers, and establish a strong market position, effectively bridging the 'chasm' between early adopters and the mainstream market. -->
-「キャズムを超える」には、新しいもの好きでリスクをいとわない顧客をターゲットにする戦略から、より現実的でリスク回避傾向が強い購入者や意思決定者、ユーザー、または他のステークホルダーを獲得するための戦略へとシフトする必要がある。そのためには、特定のニッチな市場やターゲット層に焦点を当て、実際の課題を解決できる、信頼性の高い完成度のあるソリューションを提供することが重要である。このステップは、一部のアーリーアダプターから、アーリーマジョリティに広く使われるようになるための分岐点となる。アーリーマジョリティは、特定の状況や用途でそのプロダクトが本当に信頼でき、問題解決に役立つという明確なエビデンスを求める傾向がある。ニッチな市場に集中し、完成度の高いソリューションを提供することで、企業は信頼を築き、他の顧客に紹介できる実績ある顧客（リファレンス顧客）を作り、市場での強固なポジションを確立できる。こうすることで、アーリーアダプターとメインストリームの市場の間にある「キャズム」を効果的に乗り越えることができる。
+<!-- To 'cross the chasm,' a strategy shift is needed from targeting savvy, risk-taking customers to winning over more pragmatic, risk-averse buyers, decision-makers, users, or other Stakeholders by focusing on a specific market area or target and delivering a complete, reliable solution that solves real problems. This step is crucial for a Product's transition from niche success to widespread adoption, as it moves from appealing to early adopters to attracting the early majority. The early majority often requires clear evidence of the Product's reliability and problem-solving capabilities within a specific context. By focusing on a niche and providing a complete solution, a company can build credibility, create reference customers, and establish a strong market position, effectively bridging the 'chasm' between early adopters and the mainstream market. -->
+「キャズムを超える」には、新しいもの好きでリスクをいとわない顧客をターゲットにする戦略から、より現実的でリスク回避傾向が強い購入者や意思決定者、ユーザー、または他のステークホルダーを獲得するための戦略へとシフトする必要がある。そのためには、特定の市場やターゲット層に焦点を当て、実際の課題を解決できる、信頼性の高い完成度のあるソリューションを提供することが重要である。このステップは、一部のアーリーアダプターから、アーリーマジョリティに広く使われるようになるための分岐点となる。アーリーマジョリティは、特定の状況や用途でそのプロダクトが本当に信頼でき、問題解決に役立つという明確なエビデンスを求める傾向がある。ニッチな市場に集中し、完成度の高いソリューションを提供することで、企業は信頼を築き、他の顧客に紹介できる実績ある顧客（リファレンス顧客）を作り、市場での強固なポジションを確立できる。こうすることで、アーリーアダプターとメインストリームの市場の間にある「キャズム」を効果的に乗り越えることができる。
 
 <!-- Product Owners need to master the handling of trade-offs between the _here_ and _now_ and the anticipated future (the _there_ and _then_) (148) through courage, humility, consultation, collaboration, healthy conflict, etc. -->
 プロダクトオーナーは、勇気や謙虚さを持ち、周囲と相談したり協力したり、ときには建設的な意見のぶつかり合いを通じて、ここ（_Here_）と今（_Now_）と、予想される未来（そこ（_There_）とその時（_Then_））(148)の間のトレードオフを上手く扱う力が求められる。
@@ -1010,7 +1010,7 @@ Intentionality and daily progress
         that is worked on 
         after everything else is finished. 
 -->
-効果的なスクラムの適用には、
+<!-- 効果的なスクラムの適用には、
     創発的なアプローチの活用や
     効果的なチェンジエージェントの存在、
     そして、スクラムの影響を受ける人や影響を与える人たちの
@@ -1018,7 +1018,10 @@ Intentionality and daily progress
 スクラムの導入においては、
     意図的な取り組みと日々の進捗が重要であり、
     他のすべての作業が終わった後に
-        最後に取りかかるものとしてはならない。
+        最後に取りかかるものとしてはならない。 -->
+
+<!-- An effective Scrum adoption uses an emergent approach, has effective change agents (including Supporters and other Leaders), and engages enthusiastic support from those affected by it or affecting it. Intentionality and daily progress with the adoption are crucial; the adoption work should not be the last thing that is worked on after everything else is finished. -->
+効果的なスクラムの適用は、創発的なアプローチの活用や効果的なチェンジエージェント（サポーターや他のリーダーを含む）の存在、そして、スクラムの影響を受ける人や影響を与える人たちの熱心な協力を得ることが必要である。クラムの導入においては、意図的な取り組みと日々の進捗が重要であり、他のすべての作業が終わった後に最後に取りかかるものとしてはならない。
 
 <!-- 
 Start with disciplined emergent change 
@@ -1042,7 +1045,7 @@ It's important to
 Change is hard work, 
     yet fulfilling. 
 -->
-方向性を持ち、
+<!-- 方向性を持ち、
     規律ある創発的変化から始めよう。
 創発的変化を当たり前にして、
     最終的に定常的な仕事の一部になるまで
@@ -1061,7 +1064,16 @@ Change is hard work,
     起こっていないことに
     耳を傾けることが重要である。
 変化は困難だが、
-    やりがいのある作業である。
+    やりがいのある作業である。 -->
+
+<!-- Start with disciplined emergent change in a direction. Strive to make emergent change a normality; eventually it becomes part of the scheduled work. A Scrum adoption has a direction but not a predefined destination. The change is emergent and therefore not predictable; a north star lights the path but is not a fixed destination. Curiosity enables a pattern of sense, listen, learn, and adapt in a direction. It’s important to foster relationships and understand perspectives, and to listen to what is not being said and what is not happening. Change is hard work, yet fulfilling. -->
+方向性を持ち、規律ある創発的変化から始めよう。創発的な変化を当たり前にして、やがてそれは定常的な仕事の一部になる。スクラムの適用には方向性はあるが、事前に定められた目的地はない。変化とは創発的なものであり、それゆえ予測できない。北極星が道を照らすことはあっても、それ自体が決まった目的地ではない。好奇心は、方向性を持った上で、感じる・聴く・学ぶ・適応するというパターンを可能にする。関係性を育み、多様な視点を理解し、語られていないことや起こっていないことに耳を傾けることが重要である。変化は困難だが、やりがいのある作業である。
+
+<!-- Scrum Practioners and Supporters try not to be victims and do not rely on others to change. They try to make continual marginal changes within their grasp and create continual positive momentum.
+Ideally they are change catalysts and they radiate realistic positivity and possibilities. -->
+スクラムの実践者とサポーターは、受け身の姿勢に甘んじず、他者の変化に依存しないように努める。自らの手の届く範囲で継続的に小さな変化を積み重ねることで、持続的な前向きな機運を生み出そうとする。
+理想的には、彼らは変化の推進役となり、実現可能な前向きさを広める存在である。
+
 
 <!-- ## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack} -->
 ## 拡張パックにおけるスクラムの役割 {#the-scrum-roles-in-the-expansion-pack}
@@ -1071,9 +1083,6 @@ Change is hard work,
 
 <!-- Not all roles have accountabilities, i.e. Stakeholder. The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team. -->
 すべての役割が説明責任を持つわけではなく、その一例がステークホルダーである。スクラムの4つの役割とは、プロダクトオーナー・プロダクト開発者・スクラムマスター・ステークホルダーである。これらは信頼を与え、信頼に報い、信頼を獲得し、一貫したリーダーシップを可能にする。
-
-<!-- The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team. -->
-<!-- スクラムの4つの役割とは、プロダクトオーナー・プロダクト開発者・スクラムマスター・ステークホルダーである。これらは信頼を与え、報い、獲得し、一貫したリーダーシップを可能にする。スクラムチームには、プロダクトオーナー、開発者、スクラムマスターの3つの説明責任のみが含まれる。 -->
 
 <!-- A person can hold more than one Scrum role. By taking on more than one role, one must be careful not to overstep. The Scrum roles are designed to keep check and balances in place. -->
 1人が複数のスクラムの役割を担うことができる。複数の役割を担う場合、越権行為をしないよう注意しなければならない。スクラムの役割は、チェック・アンド・バランスを保つよう設計されている。
@@ -1712,6 +1721,9 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 
 <!-- The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work. -->
 スプリントゴールはスクラムチームが個別に作業するのではなく、協力して作業することを促進する。もし作業がプロダクト開発者の予想と異なることが判明した場合は、スプリントゴールに影響を与えることがないように、プロダクト開発者はプロダクトオーナーと協力してスプリント内で対応する可能性を調整する。誰もプロダクト開発者に作業の見積りや進め方を指示することはない。
+
+<!-- If there are multiple objectives, as long as they are coherent with the Product Goal it might be ok. Be careful. Consider the trade off of context switching and focus. The Scrum Team should strive to attain balance over time –– balancing current team capabilities and climate, current stakeholder value, potential stakeholder value and time to value. -->
+複数のゴールがある場合でも、それらがプロダクトゴールと整合性がとれている限りは問題はないかもしれない。ただし、注意が必要だ。コンテキスト切り替えと集中のトレードオフを考慮することである。スクラムチームは、時間をかけてバランスをとるよう努めるべきであり、そのバランスとは現在のチームの能力と風土、現在のステークホルダーへの価値、潜在的なステークホルダーへの価値、そして価値を届けるまでの時間との間で成り立つものである。
 
 <!-- ## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack} -->
 ## 拡張パックにおけるスクラムイベント {#the-scrum-events-in-the-expansion-pack}
