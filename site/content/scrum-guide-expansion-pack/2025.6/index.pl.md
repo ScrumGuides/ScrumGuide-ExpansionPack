@@ -1,11 +1,6 @@
 ---
-<<<<<<< Updated upstream:site/content/scrum-guide-expansion-pack/2025.6/index.pl.md
-title: Scrum Guide Expansion Pack
-description: Scrum Guide Expansion Pack to kompleksowy towarzysz do Przewodnika po Scrumie z 2020 roku (2020 Scrum Guide), stworzony, aby pomóc profesjonalistom poruszać się w dzisiejszych złożonych środowiskach produktowych.
-=======
 title: "Scrum Guide: Rozszerzenia"
 description: "Scrum Guide: Rozszerzenia to kompleksowy towarzysz do Przewodnika po Scrumie z 2020 roku (2020 Scrum Guide), stworzony, aby pomóc profesjonalistom poruszać się w dzisiejszych złożonych środowiskach produktowych. Pogłębia zrozumienie podstawowych zasad Scrum, oferując dodatkowe wskazówki dotyczące złożoności, myślenia produktowego, systemów pracy i przywództwa, pozostając jednocześnie wiernym etosowi Scrum opartemu na empiryzmie i samozarządzaniu. To nie jest przepisanie, ale strategiczne wzmocnienie wspierające długoterminowe, zorientowane na wartość dostarczanie w nowoczesnych zespołach."
->>>>>>> Stashed changes:site/content/guide/index.pl.md
 keywords:
   - Scrum
   - modern Scrum
@@ -23,15 +18,6 @@ lang: pl
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-<<<<<<< Updated upstream:site/content/scrum-guide-expansion-pack/2025.6/index.pl.md
-=======
-guide_whatis: |
-  **Scrum Guide: Rozszerzenia** powstał, ponieważ sposób, w jaki budujemy produkty, ciągle się zmienia; szybko.
-
-  [Przewodnik po Scrumie z 2020 roku](https://scrumguides.org/scrum-guide.html) pozostaje aktualny, ale wielu praktyków zaczęło pytać, jak pozostać skupionym na wynikach, pracować z AI w zespole i utrzymać prostotę Scruma w szybko zmieniających się środowiskach.
-
-  Scrum Guide: Rozszerzenia nie zastępuje Scrum Guide 2020; uzupełnia go dla tych, którzy potrzebują większej jasności w dzisiejszym kontekście. Celem nie było dodanie reguł, ale wzmocnienie ducha Scruma, wokół myślenia produktowego, emergencji i skupienia strategicznego. Pomaga zespołom szybko się uczyć, adaptować i dostarczać wartość, nawet w niepewnych, przyspieszonych, napędzanych technologią środowiskach.
->>>>>>> Stashed changes:site/content/guide/index.pl.md
 sitemap:
    priority: 1.0
 ---
@@ -58,7 +44,6 @@ Ken Schwaber i Jeff Sutherland kierowali rozwojem frameworka (ram postępowania)
 
 ## Powód powstania Rozszerzeń do Scrum Guide {#purpose-of-the-scrum-guide-expansion-pack}
 
-<<<<<<< Updated upstream:site/content/scrum-guide-expansion-pack/2025.6/index.pl.md
 Dla skuteczniejszego wdrażania Scrum niniejsze Rozszerzenie oferuje dodatkowe wskazówki dostosowane do współczesnych realiów, bazując na Scrum Guidzie 2020 autorstwa Kena Schwabera i Jeffa Sutherlanda (40). Wkład Ralpha Jochama (89) w Scrum Guide 2020 nadał temu Rozszerzeniu dodatkową głębię, przenosząc do niego pierwotne idee Scrum Guide'a 2020 (40).
 
 Rozszerzenie do Scrum Guide'a wyjaśnia _co_ i _dlaczego_ każdego elementu Scruma próbując spojrzeć w przyszłość. Każda część pełni konkretną funkcję i przyczynia się do ogólnej wartości oraz rezultatów osiąganych dzięki Scrumowi. Niniejsze Rozszerzenie będzie regularnie ewoluowało. Czytelnik powinien zapoznać się z dokumentem sekwencyjnie, przynajmniej za pierwszym razem.
@@ -70,20 +55,6 @@ Praktycy oraz interesariusze powinni wdrażać Scrum tam, gdzie jest to odpowied
 To Rozszerzenie zostało zaprojektowane, aby wspierać wszystkie aspekty dostarczania produktów przez samoorganizujący się  Scrum Team (49), motywowany potrzebami lub oczekiwaniami interesariuszy w odpowiedzi na problemy lub szanse. Dotyczy to m.in. odkrywania produktu, rozwoju, dostarczania oraz realizacji wartości. Choć Scrum pierwotnie wywodzi się z obszaru tworzenia oprogramowania, został szeroko zaadaptowany w różnych dziedzinach, umożliwiając dostarczanie wartości dzięki pracy o złożonym charakterze (30-35). Wraz z rozszerzaniem się jego zastosowania, specjaliści tacy jak inżynierowie, programiści, badacze, analitycy, prawnicy, specjaliści marketingu oraz naukowcy coraz częściej z powodzeniem stosują Scrum w swoich obszarach.
 
 Wartość dla interesariuszy odnosi się do wszelkich odczuwalnych potrzeb, które interesariusze (w tym m.in. klienci, decydenci, użytkownicy) uważają za istotne i które zespół dostarcza. Jednak interesariusze nie zawsze są świadomi tego, co mogłoby być dla nich wartościowe. Obserwacje lub dowody mogą celowo lub przypadkowo ujawniać wartość oraz wpływać na priorytety. Wraz z pojawianiem się nowych informacji potencjalnie wartościowe elementy powinny być identyfikowane, poddawane inspekcji, analizowane i adaptowane. Wartość pozostaje hipotetyczna do momentu jej potwierdzenia przez dowody, takie jak obserwacje czy mierzalne rezultaty (outcomes).
-
-=======
-Dla skuteczniejszego wdrażania Scruma niniejsze Rozszerzenia oferuje dodatkowe wskazówki dostosowane do współczesnych realiów, bazując na Scrum Guide 2020 autorstwa Kena Schwabera i Jeffa Sutherlanda (40). Wkład Ralpha Jochama (89) w Scrum Guide z 2020 roku dodatkowo pogłębia włączenie oryginalnych idei Scrum Guide z 2020 roku (40) do niniejszego rozszerzonego opracowania.
-
-Scrum Guide: Rozszerzenia wyjaśnia _co_ oraz _dlaczego_ dla każdego elementu Scruma, próbując spojrzeć w przyszłość. Każdy element pełni konkretną funkcję i przyczynia się do ogólnej wartości oraz rezultatów osiąganych dzięki Scrumowi. Niniejsze Rozszerzenia będą regularnie ewoluowały. Czytelnik powinien zapoznać się z dokumentem od początku do końca, przynajmniej za pierwszym razem.
-
-Dokument zakłada pewną biegłość w Scrumie oraz znajomość powiązanego z nim słownictwa. Przydatne może być wcześniejsze przeczytanie Scrum Guide 2020 przed zapoznaniem się z niniejszym tekstem. Przypisy mają ułatwić dotarcie do tekstów źródłowych. Dodatek i przypisy stanowią okazję do pogłębienia wiedzy oraz dalszych poszukiwań dla szerszego i głębszego zrozumienia tematu.
-
-Praktycy oraz interesariusze powinni wdrażać Scrum tam, gdzie jest to właściwe, kierując się sprawczością, poczuciem pilności, odwagą, przejrzystością, inspekcją, adaptacją, rytmem i wytrzymałością (rezyliencją), oraz stale się doskonalić, aby wspierać cele produktu i organizacji. Pozostaje nadzieja, że wdrożenia Scruma będą wykraczać poza wytyczne przedstawione tutaj - zarówno w zakresie teorii, ról, artefaktów, wydarzeń, skalowania, jak i wszystkich innych aspektów omawianych w niniejszym dokumencie - i w ten sposób zainspirują nieustającą ciekawość do odkrywania, kwestionowania i ciągłego doskonalenia.
-
-Te Rozszerzenia zostały zaprojektowane, aby wspierać wszystkie aspekty dostarczania produktów przez samozarządzający się zespół (49), motywowany potrzebami lub oczekiwaniami interesariuszy w odpowiedzi na problemy lub szanse. Dotyczy to (choć nie jest do tego ograniczone) Product Discovery, rozwoju, dostarczania oraz realizacji wartości. Choć Scrum pierwotnie wywodzi się z obszaru tworzenia oprogramowania, został szeroko przyjęty w różnych dziedzinach, umożliwiając dostarczanie wartości dzięki pracy o złożonym charakterze (30-35). Wraz z rozszerzaniem się jego zastosowania, specjaliści tacy jak inżynierowie, programiści, badacze, analitycy, prawnicy, marketingowcy oraz naukowcy coraz częściej z powodzeniem stosują Scrum w swoich obszarach.
-
-Wartość dla interesariuszy odnosi się do wszelkich postrzeganych potrzeb, które interesariusze (w tym m.in. klienci, decydenci, użytkownicy) uważają za istotne i które dostarcza zespół. Jednak interesariusze nie zawsze są świadomi tego, co mogłoby być dla nich wartościowe. Obserwacje lub dowody mogą celowo lub przypadkowo ujawniać wartość oraz wpływać na priorytety. Wraz z pojawianiem się nowych informacji potencjalnie wartościowe elementy powinny być identyfikowane, poddawane inspekcji, udoskonalane i adaptowane. Wartość pozostaje hipotetyczna do momentu jej potwierdzenia przez dowody, takie jak obserwacje czy mierzalne outcomes[^1].
->>>>>>> Stashed changes:site/content/guide/index.pl.md
 
 ## Scrum w pigułce {#scrum-in-a-nutshell}
 
