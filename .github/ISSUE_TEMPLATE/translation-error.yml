@@ -20,6 +20,7 @@ body:
       options:
         - English (en)
         - Farsi (fa)
+        - Japanese (ja)
         - Other (please specify in description)
     validations:
       required: true

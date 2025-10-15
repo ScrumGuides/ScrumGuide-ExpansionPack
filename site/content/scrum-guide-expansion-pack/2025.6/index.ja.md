@@ -21,9 +21,34 @@ author:
   - Ralph Jocham
   - John Coleman
   - Jeff Sutherland
+translators:
+  - name: 内山遼子
+    githubUsername: RyokoUchiyama
+    url: https://www.linkedin.com/in/ryoko-uchiyama-0b870aa1/
+    role: translator
+    weight: 1
+  - name: 川⼝恭伸
+    githubUsername: kawaguti
+    url: https://www.linkedin.com/in/yasunobu-yesno-kawaguchi-b78ab65/
+    role: translator
+    weight: 2
+  - name: 長沢智治
+    githubUsername: tomoharunagasawa
+    url: https://nagasawa.social/
+    role: translator
+    weight: 3
+  - name: 山本尊人
+    githubUsername: Sonjin-Yamamoto
+    url: https://www.linkedin.com/in/sonjin/
+    role: translator
+    weight: 4
+  - name: 和⽥圭介
+    githubUsername: k8skwada
+    url: https://www.linkedin.com/in/wadak8sk/
+    role: translator
+    weight: 5   
 date: 2025-06-11T09:00:00Z
 type: guide
-# lang: en
 lang: ja
 mainfont: "Times New Roman"
 sansfont: "Arial"
@@ -97,7 +122,7 @@ Ken SchwaberとJeff Sutherlandがスクラムフレームワークの開発を�
 この拡張パックは、自己管理チーム(49)によるプロダクトデリバリーのすべての側面を支援するよう設計されている。そうしたチームは、問題や機会に対するステークホルダーのニーズや要望を原動力としている。これにはプロダクト発見・開発・デリバリー・価値実現が含まれる（ただしこれらに限定されない）。もともとソフトウェアプロダクト開発から始まったスクラムは、現在は多様な領域で幅広く採用され、複雑な(30-35)仕事を通じた価値の提供を可能にしている。利用が拡大するにつれ、エンジニア・プログラマー・研究者・アナリスト・弁護士・マーケター・科学者などの専門家が、それぞれの分野でスクラムを効果的に適用する例が増えている。
 
 <!-- Stakeholder value refers to any perceived need that a stakeholder (including but not limited to customers, decision-makers, and users) considers important and that a team delivers. However, stakeholders may not always be aware of what could be valuable to them. Observation or evidence could intentionally or unintentionally surface value and influence priorities. As new information arises, potentially valuable items should be identified, inspected, refined, and adapted. Value remains an assumption until confirmed by evidence, such as observation or measured outcomes. -->
-ステークホルダー価値とは、ステークホルダーが重要と考え、チームが提供する、あらゆるニーズである（ステークホルダーには顧客、意思決定者、ユーザーを含むがこれらに限定されない）。ただしステークホルダー自身が、自分たちにとって価値あるものが何であるかを、かならずしも認識しているわけではない。観察やエビデンスを通じて、意図的もしくは意図しないところで価値が顕在化し、それが優先順位に影響を与えることがある。新しい情報が出てきたら、潜在的に価値のあるアイテムを特定し、検査し、リファインし、適応させるべきである。価値とは、観察や測定されたアウトカムなどのエビデンスによって確認されるまでは、あくまで仮説にすぎない。
+ステークホルダー価値とは、ステークホルダーが重要と考え、チームが提供する、あらゆるニーズである（ステークホルダーには顧客、意思決定者、ユーザーを含むがこれらに限定されない）。ただしステークホルダー自身が、自分たちにとって価値あるものが何であるかを、かならずしも認識しているわけではない。観察やエビデンスを通じて、意図的もしくは意図しないところで価値が顕在化し、それが優先順位に影響を与えることがある。新しい情報が出てきたら、潜在的に価値のあるアイテムを特定し、検査し、リファインし、適応させるべきである。価値とは、観察や計測されたアウトカムなどのエビデンスによって確認されるまでは、あくまで仮説にすぎない。
 
 <!-- ## Scrum in a Nutshell {#scrum-in-a-nutshell} -->
 ## スクラム早わかり {#スクラム早わかり}
@@ -153,7 +178,7 @@ Scrum supports proactive risk management and opportunity discovery.
 スクラムは意図的に不完全である。詳細なプロセスを規定する代わりに、関係性および意図的な相互作用を導くフレームワークを提供する。様々なプロセス・技術・手法によってスクラムを補完することができる。しかし、そうしたものの適用は文脈に依存し、スクラムの用途ごとに異なるものになる。
 
 <!-- Scrum integrates with existing practices or, in some cases, makes them unnecessary or obsolete. By transparently assessing the effectiveness of the Scrum Team, Supporters, current management, work environment, and techniques, Scrum enables continuous improvement. -->
-スクラムは既存の他のプラクティスと融合するが、場合によってはそれらを不要にしたり、置き換えることもある。スクラムチーム・サポーター・現在のマネジメント・作業環境・技術の有効性を、透明性高く評価することによって、スクラムは継続的な改善を可能にする。
+スクラムは既存の他のプラクティスと融合するが、場合によってはそれらを不要にしたり、置き換えることもある。スクラムチーム・サポーター・現在のマネジメント・作業環境・技術の効果性を、透明性高く評価することによって、スクラムは継続的な改善を可能にする。
 
 <!-- In the context of knowledge work, the term Scrum, borrowed from the game of rugby, was coined by Takeuchi and Nonaka (29) to describe teams that worked this way and where knowledge was spread rapidly throughout an enterprise to deliver outstanding Products. -->
 知識労働の文脈において、スクラムという用語は、竹内弘高と野中郁次郎(29)がラグビーというゲームから借用して考案したものである。これまでに述べたような働き方をし、優れたプロダクトを提供するため、企業全体に知識を急速に広めるチームを説明するために用いられている。
@@ -245,13 +270,13 @@ The key point is that Product development often deals with unpredictability,
     前例のない、これまでに行われたことのないことを
     研究し、取り組んでいるかもしれない。
 しばらくして、スクラムチームがパターンや経験則を発見すると、
-    カオスな領域を脱し、複雑な領域に近づく。
+    カオス（混沌）な領域を脱し、複雑な領域に近づく。
 さらにしばらくして、目前の状況において、
-    スクラムチームは秩序ある空間に近づき、
+    スクラムチームは秩序ある領域に近づき、
     簡単ではないが計画可能なものとなっていく。
 あるいは、物事は逆方向に進む可能性もある。
 目前の状況において、
-    本当に自分たちが考えていた空間にいるかどうか
+    本当に自分たちが考えていた領域にいるかどうか
     立ち止まって振り返ることは、
 スクラムチームにとって良いプラクティスである。
 重要な点は、
@@ -345,7 +370,7 @@ Patterns (53) like _Swarming_, _Stable Teams_, and _Kaizen_
     help identify and shape emergent behavior. 
 Rather than forcing results, 
     Scrum enables the Scrum Team to discover desirable patterns, 
-        including but limited to innovative solutions or new ways of working, 
+        including but not limited to innovative solutions or new ways of working, 
     and amplify them while dampening unhelpful ones.
 -->
 スクラムチームは複雑適応系として運営され、
@@ -490,7 +515,7 @@ By focusing on the Lean principles,
 リーン原則は、
     継続的改善と人々への敬意の上に築かれている。
 リーン原則に焦点を当てることで、
-    組織は長期的なコストを最小限に抑えながら効率を高めることができる。
+    組織は長期的なコストを最小限に抑えながら効果性を高めることができる。
     そして、顧客によりよい価値を届けながら、
     同時に持続的な学習・開発の
         風土を育むことができる。
@@ -609,7 +634,7 @@ To foster Inspection and Adaptation,
 検査はスクラムの三本柱の一つである。
 検査とは、現実を見ることである。
     プロダクトの方向性（プロダクトゴール）と
-    スクラムチーム・ステークホルダーの有効性を確認する。
+    スクラムチーム・ステークホルダーの効果性を確認する。
 検査によって適応が可能となる。
 検査とは、現実を直視することであり、
     エビデンスや観察など、
@@ -766,7 +791,7 @@ The Scrum Team and Stakeholders
     継続的学習・適応および
     スクラムチーム間での学習の移転
     の時間を作ることを _確約_ する。
-    これらは長期的効果を確実にするためである。
+    これらは長期的な効果性を確実にするためである。
 スクラムチームとステークホルダーは、
     短期的成果と長期的影響を考慮するなどの
     トレードオフに意図的に取り組むべきである。
@@ -786,11 +811,11 @@ _尊敬_ は他のスクラムの価値基準が攻撃的に利用されるこ�
 <!-- - Observe—Openness and Respect can foster the gathering of all relevant evidence, and diverse perspectives. -->
 <!-- - Orient—Courage is needed to interpret reality, navigate uncertainty, and agree to adapt or pivot, potentially using a reflective pause to challenge assumptions and provoke new insights. -->
 <!-- - Decide—Deciding what to do requires timely analysis, such as backlog refinement, bringing potential next steps into Focus through parallel safe-to-fail experiments to test hypotheses, like small-scale probes (probes should be small, parallel, and designed so that failure is survivable and informative). -->
-<!-- - Act—With clarity on what needs to be done, why, and by whom, Commitment can drive the team to execute effectively within enabling constraints like time-boxed sprints, fostering emergent solutions. -->
+<!-- - Act—With clarity on what needs to be done, why, and by whom, Commitment can drive the team to execute effectively within enabling constraints like Sprint of determinant length, fostering emergent solutions. -->
 - 観察：公開と尊敬は、関連するすべてのエビデンスと多様な視点の収集を促進する。
 - 状況判断：現実を解釈し、不確実性を乗り越え、適応または方向転換に合意するには勇気が必要である。仮説を検証し新しい洞察を導き出すために、立ち止まって振り返ることもある。
 - 意思決定：何をするかを決めるには、タイムリーな分析が求められる。バックログリファインメントなどを通じて、仮説を検証するための安全に失敗できる実験を並行して行い、次のステップに集中できるようにする（これらの実験は小さく、並行して実行ができ、失敗しても致命的でなく、かつ有益な情報をもたらすよう設計するべきである）。
-- 行動：何を・なぜ・誰が行うかが明確であれば、コミットメントによりタイムボックス化されたスプリントなどの制約条件のもとでチームが効果的に行動し、創発的なソリューションを育むことができる。
+- 行動：何を・なぜ・誰が行うかが明確であれば、コミットメントによりスプリントの長さのような制約条件のもとでチームが効果的に行動し、創発的なソリューションを育むことができる。
 
 <!-- ## More Supporting and Complementary Theory {#more-supporting-and-complementary-theory} -->
 ## さらなる支援・補完理論 {#さらなる支援・補完理論}
@@ -798,14 +823,14 @@ _尊敬_ は他のスクラムの価値基準が攻撃的に利用されるこ�
 <!-- ### Product Thinking {#product-thinking} -->
 ### プロダクト思考 {#プロダクト思考}
 
-<!-- People consume Products (including services), not projects. A Product is the conduit to deliver value, balancing the short- and long-term. This is why Scrum has a Product Owner and not a Project Owner. Products are long-term and need to be taken care of for their entire existence, whereas a project is time-boxed and often leaves an orphaned Product behind once the project is completed. -->
+<!-- People consume Products (including services), not projects. A Product is the conduit to deliver value, balancing the short- and long-term. This is why Scrum has a Product Owner and not a Project Owner. Products are long-term and need to be taken care of for their entire existence, whereas a project is timeboxed and often leaves an orphaned Product behind once the project is completed. -->
 人々が実際に使うのはプロジェクトではなく、プロダクト（サービスを含む）である。プロダクトは、ユーザーに価値を届けるためのものであり、短期的な成果と長期的な視点の両方が求められる。そのため、スクラムでは「プロジェクトオーナー」ではなく「プロダクトオーナー」の役割が設けられている。プロダクトは長期間にわたって継続的に管理・改善していく必要があるが、プロジェクトはタイムボックスが決まっており、プロジェクトが完了するとプロダクトが十分にサポートされず放置されてしまうことがよくある。
 
 <!-- Product thinking (86-88) deals with the tension (111) that Products often need to _Focus_ on growth in the short-term but also need to address long-term concerns, e.g., gaining traction with early adopters, 'crossing the chasm' (5), expanding, updating Product versions, continuous change, customer lifetime value and total cost of ownership. -->
 プロダクト思考(86-88)とは、プロダクトが短期的な成長に _集中_ する必要がある一方で、長期的な課題にも対応しなければならないという葛藤(111)を扱う考え方である。たとえば、短期的には、アーリーアダプターを獲得し勢いを得ながら、プロダクトの利用を広げることが重要である。一方で、長期的には「キャズム（普及の壁）を超え」(5)、プロダクトを拡張し、バージョンアップや継続的な改善を行いながら、顧客のライフタイムバリュー（生涯価値）や総所有コストといった観点にも目を向ける必要がある。
 
-<!-- To 'cross the chasm,' a strategy shift is needed from targeting savvy, risk-taking customers to winning over more pragmatic, risk-averse buyers, decision-makers, users, or other Stakeholders by focusing on a specific niche market or target and delivering a complete, reliable solution that solves real problems. This step is crucial for a Product's transition from niche success to widespread adoption, as it moves from appealing to early adopters to attracting the early majority. The early majority often requires clear evidence of the Product's reliability and problem-solving capabilities within a specific context. By focusing on a niche and providing a complete solution, a company can build credibility, create reference customers, and establish a strong market position, effectively bridging the 'chasm' between early adopters and the mainstream market. -->
-「キャズムを超える」には、新しいもの好きでリスクをいとわない顧客をターゲットにする戦略から、より現実的でリスク回避傾向が強い購入者や意思決定者、ユーザー、または他のステークホルダーを獲得するための戦略へとシフトする必要がある。そのためには、特定のニッチな市場やターゲット層に焦点を当て、実際の課題を解決できる、信頼性の高い完成度のあるソリューションを提供することが重要である。このステップは、一部のアーリーアダプターから、アーリーマジョリティに広く使われるようになるための分岐点となる。アーリーマジョリティは、特定の状況や用途でそのプロダクトが本当に信頼でき、問題解決に役立つという明確なエビデンスを求める傾向がある。ニッチな市場に集中し、完成度の高いソリューションを提供することで、企業は信頼を築き、他の顧客に紹介できる実績ある顧客（リファレンス顧客）を作り、市場での強固なポジションを確立できる。こうすることで、アーリーアダプターとメインストリームの市場の間にある「キャズム」を効果的に乗り越えることができる。
+<!-- To 'cross the chasm,' a strategy shift is needed from targeting savvy, risk-taking customers to winning over more pragmatic, risk-averse buyers, decision-makers, users, or other Stakeholders by focusing on a specific market area or target and delivering a complete, reliable solution that solves real problems. This step is crucial for a Product's transition from niche success to widespread adoption, as it moves from appealing to early adopters to attracting the early majority. The early majority often requires clear evidence of the Product's reliability and problem-solving capabilities within a specific context. By focusing on a niche and providing a complete solution, a company can build credibility, create reference customers, and establish a strong market position, effectively bridging the 'chasm' between early adopters and the mainstream market. -->
+「キャズムを超える」には、新しいもの好きでリスクをいとわない顧客をターゲットにする戦略から、より現実的でリスク回避傾向が強い購入者や意思決定者、ユーザー、または他のステークホルダーを獲得するための戦略へとシフトする必要がある。そのためには、特定の市場やターゲット層に焦点を当て、実際の課題を解決できる、信頼性の高い完成度のあるソリューションを提供することが重要である。このステップは、一部のアーリーアダプターから、アーリーマジョリティに広く使われるようになるための分岐点となる。アーリーマジョリティは、特定の状況や用途でそのプロダクトが本当に信頼でき、問題解決に役立つという明確なエビデンスを求める傾向がある。ニッチな市場に集中し、完成度の高いソリューションを提供することで、企業は信頼を築き、他の顧客に紹介できる実績ある顧客（リファレンス顧客）を作り、市場での強固なポジションを確立できる。こうすることで、アーリーアダプターとメインストリームの市場の間にある「キャズム」を効果的に乗り越えることができる。
 
 <!-- Product Owners need to master the handling of trade-offs between the _here_ and _now_ and the anticipated future (the _there_ and _then_) (148) through courage, humility, consultation, collaboration, healthy conflict, etc. -->
 プロダクトオーナーは、勇気や謙虚さを持ち、周囲と相談したり協力したり、ときには建設的な意見のぶつかり合いを通じて、ここ（_Here_）と今（_Now_）と、予想される未来（そこ（_There_）とその時（_Then_））(148)の間のトレードオフを上手く扱う力が求められる。
@@ -942,12 +967,18 @@ It offers an approach
 第一原理に立ち返るための
     アプローチを提供している。
 
-<!-- 
-Scrum is not about adopting tools. 
-And Scrum doesn't end with impediment removal. 
-An impediment in Scrum is 
-    anything that blocks or slows down progress. 
-It is crucial to be 
+<!-- Scrum is not about adopting tools, short term delivery that sacrifices long term value. Often, incorrectly, Scrum practitioners only focus on short term impediment removal. Scrum requires change agency that balances the short term with the long term. -->
+スクラムは、ツールの導入や長期的な価値を犠牲にした短期的なデリバリーの追求を目的とするものではない。スクラム実践者は、短期的な障害物の除去だけに終始してしまうことがよくある。しかしスクラムに必要なのは、短期と長期のバランスを取る変革推進力である。
+
+<!-- スクラムとは、
+    単なるツールの導入ではない。
+障害物の除去だけに終始するものでもない。
+スクラムにおける障害物とは、
+    進捗を阻害または遅延させるあらゆる要因を指す。 -->
+<!-- A work related problem in Scrum could be anything that blocks or slows down progress, often addressed by self-managment of the Product Onwer and Product Developers. An impediment is a type of problem in Scrum and is anything that blocks or slows down progress and cannot be solved by the Developers & Product Owner.  -->
+スクラムにおける仕事上の問題とは、進捗を阻害または遅延させるあらゆるものを指し。多くの場合、プロダクトオーナーやプロダクト開発者による自己管理によって対処されるものである。障害物とはスクラムにおけるスクラムにおける問題の一種であり、進捗を阻害または遅延させるものであり、開発者やプロダクトオーナーだけでは解決できないものを指す。
+
+<!-- It is crucial to be
     intentional, unrelenting, and tenacious 
     about people, change, and communications. 
 The change often includes 
@@ -956,11 +987,6 @@ The change often includes
     language, habits, and the work climate. 
 Culture is an emerging result. 
 -->
-スクラムとは、
-    単なるツールの導入ではない。
-障害物の除去だけに終始するものでもない。
-スクラムにおける障害物とは、
-    進捗を阻害または遅延させるあらゆる要因を指す。
 人・変化・コミュニケーションについて、
     意図的に、手を緩めず、粘り強く
     取り組むことが必要不可欠である。
@@ -984,7 +1010,7 @@ Intentionality and daily progress
         that is worked on 
         after everything else is finished. 
 -->
-効果的なスクラムの適用には、
+<!-- 効果的なスクラムの適用には、
     創発的なアプローチの活用や
     効果的なチェンジエージェントの存在、
     そして、スクラムの影響を受ける人や影響を与える人たちの
@@ -992,7 +1018,10 @@ Intentionality and daily progress
 スクラムの導入においては、
     意図的な取り組みと日々の進捗が重要であり、
     他のすべての作業が終わった後に
-        最後に取りかかるものとしてはならない。
+        最後に取りかかるものとしてはならない。 -->
+
+<!-- An effective Scrum adoption uses an emergent approach, has effective change agents (including Supporters and other Leaders), and engages enthusiastic support from those affected by it or affecting it. Intentionality and daily progress with the adoption are crucial; the adoption work should not be the last thing that is worked on after everything else is finished. -->
+効果的なスクラムの適用は、創発的なアプローチの活用や効果的なチェンジエージェント（サポーターや他のリーダーを含む）の存在、そして、スクラムの影響を受ける人や影響を与える人たちの熱心な協力を得ることが必要である。スクラムの導入においては、意図的な取り組みと日々の進捗が重要であり、他のすべての作業が終わった後に最後に取りかかるものとしてはならない。
 
 <!-- 
 Start with disciplined emergent change 
@@ -1016,7 +1045,7 @@ It's important to
 Change is hard work, 
     yet fulfilling. 
 -->
-方向性を持ち、
+<!-- 方向性を持ち、
     規律ある創発的変化から始めよう。
 創発的変化を当たり前にして、
     最終的に定常的な仕事の一部になるまで
@@ -1035,13 +1064,25 @@ Change is hard work,
     起こっていないことに
     耳を傾けることが重要である。
 変化は困難だが、
-    やりがいのある作業である。
+    やりがいのある作業である。 -->
+
+<!-- Start with disciplined emergent change in a direction. Strive to make emergent change a normality; eventually it becomes part of the scheduled work. A Scrum adoption has a direction but not a predefined destination. The change is emergent and therefore not predictable; a north star lights the path but is not a fixed destination. Curiosity enables a pattern of sense, listen, learn, and adapt in a direction. It’s important to foster relationships and understand perspectives, and to listen to what is not being said and what is not happening. Change is hard work, yet fulfilling. -->
+方向性を持ち、規律ある創発的変化から始めよう。創発的な変化を当たり前にして、やがてそれは定常的な仕事の一部になる。スクラムの適用には方向性はあるが、事前に定められた目的地はない。変化とは創発的なものであり、それゆえ予測できない。北極星が道を照らすことはあっても、それ自体が決まった目的地ではない。好奇心は、方向性を持った上で、感じる・聴く・学ぶ・適応するというパターンを可能にする。関係性を育み、多様な視点を理解し、語られていないことや起こっていないことに耳を傾けることが重要である。変化は困難だが、やりがいのある作業である。
+
+<!-- Scrum Practioners and Supporters try not to be victims and do not rely on others to change. They try to make continual marginal changes within their grasp and create continual positive momentum.
+Ideally they are change catalysts and they radiate realistic positivity and possibilities. -->
+スクラムの実践者とサポーターは、受け身の姿勢に甘んじず、他者の変化に依存しないように努める。自らの手の届く範囲で継続的に小さな変化を積み重ねることで、持続的な前向きな機運を生み出そうとする。
+理想的には、彼らは変化の推進役となり、実現可能な前向きさを広める存在である。
+
 
 <!-- ## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack} -->
 ## 拡張パックにおけるスクラムの役割 {#the-scrum-roles-in-the-expansion-pack}
 
-<!-- The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team. -->
-スクラムの4つの役割とは、プロダクトオーナー・プロダクト開発者・スクラムマスター・ステークホルダーである。これらは信頼を与え、報い、獲得し、一貫したリーダーシップを可能にする。スクラムチームには、プロダクトオーナー、開発者、スクラムマスターの3つの説明責任のみが含まれる。
+<!-- [2020 Scrum Guide: 'The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint. Scrum defines three specific accountabilities within the Scrum Team: the Developers, the Product Owner, and the Scrum Master.' An accountability is a list of expectations that one is accountable for, e.g., the Product Owner accountable for value, the Scrum Master for the Scrum Team’s effectiveness, and Developers for creating the usable Increment. A role does not necessarily have accountabilities.] -->
+[2020年版スクラムガイド: 「スクラムチーム全体が、スプリントごとに価値のある有⽤なインクリメントを作成する責任を持つ。スクラムはスクラムチームにおいて、開発者、プロダクトオーナー、スクラムマスターという 3 つの明確な責任を定義する。」責任（説明責任）とは、それぞれが説明責任を負うことになる期待事項のリストである。例えば、プロダクトオーナーは価値に対して説明責任を持ち、スクラムマスターはスクラムチームの効果性に対して説明責任を持ち、開発者は有用なインクリメントの作成に対して説明責任を持つ。役割が必ずしも説明責任を伴うとは限らない。]
+
+<!-- Not all roles have accountabilities, i.e. Stakeholder. The four Scrum roles are Product Owner, Product Developer, Scrum Master, and Stakeholder. They give, reward, and earn trust and enable coherent leadership. Only the three accountabilities, Product Owner, Product Developer, and Scrum Master, are in the Scrum Team. -->
+すべての役割が説明責任を持つわけではなく、その一例がステークホルダーである。スクラムの4つの役割とは、プロダクトオーナー・プロダクト開発者・スクラムマスター・ステークホルダーである。これらは信頼を与え、信頼に報い、信頼を獲得し、一貫したリーダーシップを可能にする。
 
 <!-- A person can hold more than one Scrum role. By taking on more than one role, one must be careful not to overstep. The Scrum roles are designed to keep check and balances in place. -->
 1人が複数のスクラムの役割を担うことができる。複数の役割を担う場合、越権行為をしないよう注意しなければならない。スクラムの役割は、チェック・アンド・バランスを保つよう設計されている。
@@ -1132,7 +1173,7 @@ _集中_ は、価値あるアウトカムを提供しながら、適切な投�
 資金提供者は、プロダクト開発、リリース、改善のために資金やリソースを提供する。資金提供者はプロダクトの実現可能性、価値、実行可能性を評価し、ステークホルダーに継続的に価値を提供できる可能性を見極めて投資を行う。資金提供者は投資回収や長期的な持続性との整合を確かなものとするため、プロダクトのビジョン、戦略、目標に影響を与える。スクラムの適用を成功させるためには、新しい情報が明らかになるにつれて、柔軟に姿勢や資金運用を変えることが求められる。
 
 <!-- Subject matter experts contribute deep knowledge or unique skills essential to Product creation, evolution, and maintenance. Whether focused on technology, design, compliance, or a specific domain, subject matter experts support the Product's usability, feasibility, professionalism, and extendability but do not get in the way of self-managing Scrum Teams (49). They can help address satisfaction gaps and contribute to the Product's ability to adapt and identify, represent, or measure emergence (71). For a successful Scrum adoption, it's crucial to foster regular transfer of learning from subject matter experts to and across the Scrum Team. -->
-特定分野のエキスパートは、プロダクトの作成、進化、保守に不可欠な深い知識や独自のスキルを提供する。技術、設計、コンプライアンス、特定ドメインなどの分野で、特定分野のエキスパートはプロダクトの使いやすさ、実現可能性、プロフェッショナリズム、拡張性を支援するが、自己管理スクラムチーム(49)を妨げてはならない。特定分野のエキスパートは満足度ギャップを解消し、プロダクトが適応しやすくなるよう支援し、創発(71)を特定、表現、測定する役割を担う。スクラムの適用を成功させるために、特定分野のエキスパートからスクラムチームへ、そしてスクラムチーム全体への定期的な学びの移転を促進することが重要である。
+特定分野のエキスパートは、プロダクトの作成、進化、保守に不可欠な深い知識や独自のスキルを提供する。技術、設計、コンプライアンス、特定ドメインなどの分野で、特定分野のエキスパートはプロダクトの使いやすさ、実現可能性、プロフェッショナリズム、拡張性を支援するが、自己管理スクラムチーム(49)を妨げてはならない。特定分野のエキスパートは満足度ギャップを解消し、プロダクトが適応しやすくなるよう支援し、創発(71)を特定、表現、評価する役割を担う。スクラムの適用を成功させるために、特定分野のエキスパートからスクラムチームへ、そしてスクラムチーム全体への定期的な学びの移転を促進することが重要である。
 
 <!-- The term satisfaction gap means the difference between what Stakeholders experience now and what they wish their experience was. In other words, it's the gap between how satisfied Stakeholders are with a Product today and how satisfied they could be. -->
 満足度ギャップとは、ステークホルダーが現在体験していることと彼らが体験したいと望むこととの差を指す。言い換えれば、ステークホルダーが現在のプロダクトにどれだけ満足しているかと、ここからどれだけ満足させられるかとの間のギャップである。
@@ -1337,7 +1378,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 - プロダクトバックログアイテムの作成と明確なコミュニケーション。
 - プロダクトバックログアイテムの並び替え。
 - プロダクトバックログの透明性が高く、関係者に正しく理解されることの保証。
-- アウトカム完成の定義において、測定指標に基づくアウトカムを効果的に伝えること。
+- アウトカム完成の定義において、計測指標に基づくアウトカムを効果的に伝えること。
 - アウトカム完成の定義に対する最終決定権。
 - 高品質な価値の創造・ディスカバリー・デリバリー・検証の促進。
 - 必要に応じた他のプロダクトマネジメント活動。
@@ -1417,7 +1458,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 <!-- - Helping establish emergent Product planning for a complex (30-35) environment; -->
 - 複雑な(30-35)環境における創発的なプロダクト計画の策定を支援する
 <!-- - Helping the Product Owner to express outcomes as measures through the Definition of Outcome Done; -->
-- アウトカム完成の定義に沿って測定されたアウトカムをプロダクトオーナーが表現できるようにする
+- アウトカム完成の定義に沿って計測されたアウトカムをプロダクトオーナーが表現できるようにする
 <!-- - Helping the Product Owner understand the need for clear and concise Product Backlog Items that deliver value; and, -->
 - 価値を提供する明確で簡潔なプロダクトバックログアイテムの必要性についてプロダクトオーナーに理解してもらう
 <!-- - Helping the Product Owner to _Focus_ on value realization. -->
@@ -1493,7 +1534,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 - スプリントバックログについては、スプリントゴール
 
 <!-- Upon release of the Increment (output), the Product is what creates value (outcomes). Value is the measurable or observable fulfillment or creation of expectations, needs, or wants from the Stakeholders' perspective. -->
-インクリメント（アウトプット）がリリースされることで、プロダクトが価値（アウトカム）を生み出すことになる。ここでいう価値とは、測定可能または観察可能な形で、ステークホルダーの視点から見た、期待やニーズ、要望が満たされたり、新たに生み出されたりすることである。
+インクリメント（アウトプット）がリリースされることで、プロダクトが価値（アウトカム）を生み出すことになる。ここでいう価値とは、計測可能または観察可能な形で、ステークホルダーの視点から見た、期待やニーズ、要望が満たされたり、新たに生み出されたりすることである。
 
 <!-- These commitments reinforce the pillars of Transparency, Inspection, and Adaptation, enabling empirical process control (64-66). The Product Goal is fixed for as long as no contrary evidence or observations emerge in the observed Product's Definition of Outcome Done. The Definition of Output Done is not weakened during the Sprint. So what could be diminished or changed instead? It could be the Acceptance Criteria for a specific Product Backlog Item, the implementation or fidelity of a specific feature, or even alternative Product Backlog Items for achieving the Sprint Goal, etc. -->
 これらのコミットメントは、透明性・検査・適応というスクラムの三本柱を強化し、経験的なプロセス制御を可能にする(64-66）。プロダクトゴールは、プロダクトのアウトカム完成の定義において反対のエビデンスや観察が現れない限り、固定される。アウトプット完成の定義はスプリント中に妥協されることはない。では、代わりに何が見直されたり変更されたりするのかというと、例えば、特定のプロダクトバックログアイテムの受け入れ基準や、特定の機能の実装内容や精度、あるいはスプリントゴール達成のための代替となるプロダクトバックログアイテムなどが挙げられる。
@@ -1528,7 +1569,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 <!-- - Has a compelling, clear, and outcome-metric-oriented Product Vision, Product strategy, and Product Goal, often including intent, rationale, and anti-goals; -->
 - 明確で説得力があり、成果指標に基づくプロダクトビジョン、プロダクト戦略、プロダクトゴールを備えている。その中には意図、根拠、避けるべきゴールが含まれる事が多い
 <!-- - Adapts and improves to identify, represent, or measure emergence (71); and, -->
-- 創発(71)を特定、表現、測定するために適応し改善する
+- 創発(71)を特定、表現、評価するために適応し改善する
 <!-- - Is extendable and maintainable. -->
 - 拡張可能であり、保守可能である
 
@@ -1536,19 +1577,19 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 プロダクトは、我々が何のために仕事をしているのかを表現したものである。
 
 <!-- #### Commitment: Definition of Outcome Done {#commitment:-definition-of-outcome-done} -->
-#### 確約：アウトカム完成の定義 {#commitment:-definition-of-outcome-done}
+#### コミットメント：アウトカム完成の定義 {#commitment:-definition-of-outcome-done}
 
 <!-- The Definition of Outcome Done is a commitment. It describes the observable evidence measures (quantitative or qualitative) required to demonstrate realized benefits, often referred to as value validation. It could be for the overall Product or a specific goal. It's often best to define the measures for value validation before realization starts, as this avoids biases and mistaken interpretations. -->
-アウトカム完成の定義はコミットメントの一つである。これは、実現された価値を示すために必要な観察可能なエビデンスの測定基準（定量的または定性的）を記述し、しばしば価値検証と呼ばれる。これはプロダクト全体、または特定のゴールに対して設定される。バイアスや誤った解釈を避けるため、実装を開始する前に価値検証のための測定基準を定義しておくことが最善であることが多い。
+アウトカム完成の定義はコミットメントの一つである。これは、実現された価値を示すために必要な観察可能なエビデンスの計測基準（定量的または定性的）を記述し、しばしば価値検証と呼ばれる。これはプロダクト全体、または特定のゴールに対して設定される。バイアスや誤った解釈を避けるため、実装を開始する前に価値検証のための計測基準を定義しておくことが最善であることが多い。
 
 <!-- Outcomes and related interpretations inform future adaptations, ideally confirming the intended Stakeholder impact(including but not limited to business or user impact)—measuring whether the output fulfills the anticipated outcome(s) and delivers real value. It could be for a specific goal, such as a larger feature or several features, and be validated through Product telemetry (the Product can measure its own usage). Alternatively, it could be for the overall Product, where it is often about the strategic impact and the validation of the efficacy of the implemented strategic deployment (120-124). Or a combination of both. -->
-アウトカムとそれに関連する解釈は、将来の適応のための情報として役立ち、理想的には意図したステークホルダーへの影響（ビジネスやユーザーの影響を含むがそれに限定されない）を確認することを目的とする。つまり、アウトプットが期待されたアウトカムを実現し、真の価値を提供したかどうかを測定する。これは、特定の大きな機能や複数の機能などに向けて設定された特定のゴールを対象とし、プロダクトのテレメトリ（プロダクト自身がその利用状況を測定する）によって検証される。あるいは、プロダクト全体を対象とし、戦略的影響や実施された戦略展開(120-124)の有効性の検証に関するものである。またはこれら両方の組み合わせである。
+アウトカムとそれに関連する解釈は、将来の適応のための情報として役立ち、理想的には意図したステークホルダーへの影響（ビジネスやユーザーの影響を含むがそれに限定されない）を確認することを目的とする。つまり、アウトプットが期待されたアウトカムを実現し、真の価値を提供したかどうかを計測する。これは、特定の大きな機能や複数の機能などに向けて設定された特定のゴールを対象とし、プロダクトのテレメトリ（プロダクト自身がその利用状況を計測する）によって検証される。あるいは、プロダクト全体を対象とし、戦略的影響や実施された戦略展開(120-124)の有効性の検証に関するものである。またはこれら両方の組み合わせである。
 
 <!-- Favor direct evidence over circumstantial evidence. For example: -->
 アウトカム完成の定義は状況証拠よりも直接的な証拠（エビデンス）を優先する。例えば以下のようなものである：
 
 <!-- - Customer outcomes could Focus on delivering measurable value to customers, such as increased customer satisfaction, customer long-term cost reduction, or the number of customer jobs addressed. -->
-- 顧客のアウトカムは顧客満足度の向上、顧客の長期コスト削減、対応した顧客の案件数など、測定可能な顧客価値の提供に集中することができる
+- 顧客のアウトカムは顧客満足度の向上、顧客の長期コスト削減、対応した顧客の案件数など、計測可能な顧客価値の提供に集中することができる
 <!-- - User outcomes could address specific changes in user behavior that solve problems and improve experiences, like completing tasks more efficiently or engaging with new features. -->
 - ユーザーのアウトカムはタスクをより効率的に完了することや新機能の利用など、問題を解決し体験を改善するユーザー行動の具体的な変化に対処することができる
 <!-- - Product Stakeholder outcomes could connect these behavioral changes to Product performance metrics, e.g., trends in Product customer, decision-maker/user metrics, Product time to release, time to learn, time to pivot, etc. -->
@@ -1562,7 +1603,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 ユーザーエクスペリエンス（UX）負債やカスタマーエクスペリエンス（CX）負債とは、意図的であるか否かに関わらず、プロダクトやサービスをユーザーや顧客にとって使いにくく、楽しめず、効果的でないものとする設計および実装上の選択の総和である。この負債を認識し、追跡し、対処することは、真にユーザーのニーズと期待に応えるプロダクトを提供するために不可欠である。
 
 <!-- Measures over time make Product, market, and Stakeholder trends (including but not limited to customer or user) transparent; these can be reviewed at any time during the Sprint, including the Sprint Review. -->
-時間の経過に伴い測定することで、プロダクト、市場、ステークホルダーのトレンド（顧客やユーザーを含むがこれらに限定されない）が透明化される。これらはスプリントレビューを含めスプリントの期間中のいつでも参照可能である。
+時間の経過に伴い計測することで、プロダクト、市場、ステークホルダーのトレンド（顧客やユーザーを含むがこれらに限定されない）が透明化される。これらはスプリントレビューを含めスプリントの期間中のいつでも参照可能である。
 
 <!-- ### Increment {#increment} -->
 ### インクリメント {#increment}
@@ -1616,7 +1657,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 #### 成果基準 {#outcome-criteria}
 
 <!-- Outcome criteria, if they exist, describe the intention of the Product Backlog Item; it is the _why_ behind the _what_. The fulfillment of Outcome Criteria often complements the Definition of Outcome Done for the Product. They can include criteria specific to a Product Backlog Item not already addressed in the Definition of Outcome Done. If questions arise, the Outcome Criteria provide direction; they can be in the form of a narrative or measures, ideally, the latter. Outcome Criteria can evolve anytime, even while Product Developers work on them. -->
-成果基準が存在する場合、プロダクトバックログアイテムの意図を記述する。つまり、何（_What_）の背後にあるなぜ（_Why_）を記述するものである。成果基準の達成は、しばしばプロダクトのアウトカム完成の定義を補完する。成果基準は、アウトカム完成の定義でまだ扱われていないプロダクトバックログアイテム固有の基準を含むことがある。疑問が生じた場合、成果基準は方向性を示す。それは、ナラティブ形式または測定可能な指標の形式を取るが、理想的には後者である。成果基準は、プロダクト開発者が作業している間であっても、いつでも進化する可能性がある。
+成果基準が存在する場合、プロダクトバックログアイテムの意図を記述する。つまり、何（_What_）の背後にあるなぜ（_Why_）を記述するものである。成果基準の達成は、しばしばプロダクトのアウトカム完成の定義を補完する。成果基準は、アウトカム完成の定義でまだ扱われていないプロダクトバックログアイテム固有の基準を含むことがある。疑問が生じた場合、成果基準は方向性を示す。それは、ナラティブ形式または計測可能な指標の形式を取るが、理想的には後者である。成果基準は、プロダクト開発者が作業している間であっても、いつでも進化する可能性がある。
 
 <!-- #### Refinement {#refinement} -->
 #### リファインメント {#refinement}
@@ -1642,8 +1683,8 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 <!-- A Product Goal is usually an as-yet-unproven assertion about value. It can be expressed as one of many things, including a set of hypotheses about closing or lessening satisfaction gaps. It gets the balance right by focusing on a subset of the multiplicity of Stakeholders (including but not limited to customers or users) expectations and limits. Through Inspection and Adaptation, it's essential to embrace uncertainty (72), result feedback, side effects, and other learnings. -->
 プロダクトゴールは通常、価値に関する未証明の仮説である。満足度ギャップを埋めるもしくは大きくするための仮説のセットを含む、様々なものひとつとして表現される。それは、多様なステークホルダー（顧客やユーザーを含むがそれに限定されない）の期待や制約の中から、焦点を絞り適切なバランスを取るものである。検査と適応を通じて、不確実性(72）、結果からのフィードバック（結果フィードバック）、副作用、その他の学習を受け入れることが不可欠である。
 
-<!-- #### What about a Product Vision? {#what-about-a-product-vision?} -->
-#### プロダクトビジョンについては？ {#what-about-a-product-vision?}
+<!-- #### What about a Product Vision? {#what-about-a-product-vision} -->
+#### プロダクトビジョンについては？ {#what-about-a-product-vision}
 
 <!-- Many organizations work with a Product Vision, which helps visualize a potential future. The Scrum Team can use a Vision as input for considering a Product Goal. A Product Vision is a meaningful, long-term set of valuable desired outcomes. The medium-term Product Goal is often a stepping stone toward a long-term Product Vision. -->
 多くの組織では、未来の可能性を見える化するためにプロダクトビジョンを活用する。スクラムチームは、プロダクトゴールを検討するためのインプットとしてビジョンを用いることができる。プロダクトビジョンは、意味のある長期的な価値のある望ましいアウトカムのまとまりである。中期的なプロダクトゴールは、多くの場合、長期的なプロダクトビジョンに向けた踏み石となる。
@@ -1672,11 +1713,17 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 <!-- #### Commitment: Sprint Goal {#commitment:-sprint-goal} -->
 #### コミットメント：スプリントゴール {#commitment:-sprint-goal}
 
+<!-- [2020 Scrum Guide: '... the Sprint Goal is a commitment by the Developers ...']  -->
+[2020年版スクラムガイド: 「スプリントゴールは開発者が確約するものだが...」]
+
 <!-- The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint Goal is the single unifying objective of the Sprint (the _why_) for the Product Developers, created in Sprint Planning. Delivery of the Sprint Goal is a commitment by the Product Developers. The Sprint Backlog (including the _why_, the _what,_ and, often, the _how_) provides _Focus_ and flexibility regarding the evolving work, thus improving Transparency. -->
 スプリントゴールはスクラムチームによって作成され、所有されるコミットメントの一つである。スプリントゴールはプロダクト開発者にとってのスプリントの唯一のかつ統一された目的（なぜ（_Why_））であり、スプリントプランニングで作成される。スプリントゴールの達成はプロダクト開発者による確約である。スプリントバックログ（なぜ（_why_）、なに（_what_）、そして多くの場合どのように（_how_）を含む）は進化する作業に対して _集中_ と柔軟性をもたらし、透明性を向上させる。
 
 <!-- The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work. -->
 スプリントゴールはスクラムチームが個別に作業するのではなく、協力して作業することを促進する。もし作業がプロダクト開発者の予想と異なることが判明した場合は、スプリントゴールに影響を与えることがないように、プロダクト開発者はプロダクトオーナーと協力してスプリント内で対応する可能性を調整する。誰もプロダクト開発者に作業の見積りや進め方を指示することはない。
+
+<!-- If there are multiple objectives, as long as they are coherent with the Product Goal it might be ok. Be careful. Consider the trade off of context switching and focus. The Scrum Team should strive to attain balance over time –– balancing current team capabilities and climate, current stakeholder value, potential stakeholder value and time to value. -->
+複数のゴールがある場合でも、それらがプロダクトゴールと整合性がとれている限りは問題はないかもしれない。ただし、注意が必要だ。コンテキスト切り替えと集中のトレードオフを考慮することである。スクラムチームは、時間をかけてバランスをとるよう努めるべきであり、そのバランスとは現在のチームの能力と風土、現在のステークホルダーへの価値、潜在的なステークホルダーへの価値、そして価値を届けるまでの時間との間で成り立つものである。
 
 <!-- ## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack} -->
 ## 拡張パックにおけるスクラムイベント {#the-scrum-events-in-the-expansion-pack}
@@ -1718,7 +1765,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 - より多くの知見を得るにつれて、現在の作業は明確化され、スプリントゴールに影響を与えない範囲でプロダクトオーナーと再交渉される可能性がある。
 
 <!-- Sprints enable outcomes by ensuring Inspection and Adaptation of progress toward a Sprint Goal at least every four weeks. When a Sprint is too long, the Sprint Goal may become invalid, increasing complexity (30-35) and risk. Shorter Sprints often generate more learning cycles; they could also limit risk. -->
-スプリントによって、プロダクトゴールに対する進捗の検査と適応を少なくとも4週間ごとに確実行うことで、アウトカムが実現される。スプリントが長すぎると、スプリントゴールが役に⽴たなくなり、複雑性(30-35)とリスクが増加する。スプリントの期間を短くすれば、より多くの学習サイクルを作り出す可能性があり、同時にリスクを軽減できる。
+スプリントによって、プロダクトゴールに対する進捗の検査と適応を少なくとも4週間ごとに確実に行うことで、アウトカムが実現される。スプリントが長すぎると、スプリントゴールが役に⽴たなくなり、複雑性(30-35)とリスクが増加する。スプリントの期間を短くすれば、より多くの学習サイクルを作り出す可能性があり、同時にリスクを軽減できる。
 
 <!-- Shorter Sprints usually require improved capabilities (e.g., refining, vertical slicing, technical domain, business domain). Context matters and the Scrum Team strives to strike the right balance. -->
 スプリントを短くするには、リファインメント、垂直スライス、技術ドメインおよびビジネスドメインの知識といった能力の向上が求められる。文脈は重要であり、スクラムチームは適切なバランスを取るよう努める。
@@ -1799,7 +1846,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 スプリントレビューはイベントの一つである。これは相互作用があり協働的なワーキングセッションである。通常、スクラムチームは現在のプロダクトゴールを共有し、アウトプット完成の定義とアウトカム完成の定義をステークホルダーに提示する。スクラムチームは作業の結果、どのようなトレードオフが行われたか、プロダクトゴールに向けてどれだけの進捗が行われたか（作業の背後にあるなぜ）を共有する。可能であれば、アウトカム完成の定義に向けた進捗の現時点かつ最新の指標が共有され検討される。
 
 <!-- The Sprint Review inspects many things related to the Product, such as the Product Goal, Product Backlog, the Sprint Goal, the learnings, the Increment, Stakeholder expectations and limits, result feedback, side effects, progress with the Product, the market, as well as forward-looking, e.g., what new ideas and opportunities have emerged, potential next steps. -->
-スプリントレビューは、プロダクトゴール、プロダクトバックログ、スプリントゴール、学び、インクリメント、ステークホルダーの期待と制約、結果からのフィードバック（結果フィードバック）、副次的な影響、プロダクトの進捗状況、市場動向、さらに、将来を見据えた事項――新たに生まれたアイデアや機会、次に取り得る可能性のあるステップなど――について検査する。
+スプリントレビューは、プロダクトゴール、プロダクトバックログ、スプリントゴール、学び、インクリメント、ステークホルダーの期待と制約、結果からのフィードバック（結果フィードバック）、副次的な影響、プロダクトの進捗状況、市場動向、さらに、将来を見据えた事項 —— 新たに生まれたアイデアや機会、次に取り得る可能性のあるステップなど —— について検査する。
 
 <!-- Informed by what is learned: -->
 学習したことに基づいて：
@@ -1824,7 +1871,7 @@ The Product Owner should adopt appropriate behaviors depending on the situation;
 ### スプリントレトロスペクティブ {#sprint-retrospective}
 
 <!-- The Sprint Retrospective is an event. At this event, the Scrum Team agrees on how to improve. Bad assumptions are also explored, i.e., assumptions that led the Scrum Team in the wrong direction. Good things like particular technologies, processes, patterns, etc., might also be pointed out or reinforced. Inspected elements often vary with the domain of work. Reflection is more effective in a psychologically safe environment. -->
-スプリントレトロスペクティブはイベントの一つである。このイベントにおいて、スクラムチームは改善方法について合意する。誤った仮説、すなわちスクラムチームを誤った方向に導く仮説についても検討される。また、有益な事項――特定の技術、プロセス、パターンなど――が指摘されたり、強調されたりすることもある。検査される要素は、作業領域によってしばしば異なる。振り返りは、心理的安全性のある環境においてこそ、より効果的に行われる。
+スプリントレトロスペクティブはイベントの一つである。このイベントにおいて、スクラムチームは改善方法について合意する。誤った仮説、すなわちスクラムチームを誤った方向に導く仮説についても検討される。また、有益な事項 —— 特定の技術、プロセス、パターンなど —— が指摘されたり、強調されたりすることもある。検査される要素は、作業領域によってしばしば異なる。振り返りは、心理的安全性のある環境においてこそ、より効果的に行われる。
 
 <!-- The Sprint Retrospective focuses on the most helpful changes to improve, such as: -->
 スプリントレトロスペクティブは以下のような改善に最も役立つ変更に焦点を当てる：
@@ -1961,7 +2008,7 @@ Jeff Sutherlandによる1993年のEasel社でのスクラムの適用は、ロ�
 **なぜスクラムを使うのか？**
 
 <!-- Scrum enables Scrum Teams to identify, represent, or measure emergence (71), embrace uncertainty, respond to change, deliver and validate value frequently, and continuously improve. Scrum fosters collaboration, accountability, and evidence-informed decision-making, fostering the best possible outcomes in a rapidly changing environment. Self-managing Scrum Teams, organized around value, are crucial for creative problem-solving and opportunity capture; non-self-managing Scrum Teams hinder the ability to deal with complexity (30-35). Self-managing Scrum Teams are not to be confused with individual self-management. -->
-スクラムは、スクラムチームが創発(71)を識別・表現・測定し、不確実性を受け入れ、変化に対応し、頻繁に価値を提供・検証し、継続的に改善することを可能にする。スクラムは、コラボレーション・説明責任・エビデンスに基づく意思決定を促進し、急速に変化する環境において最良のアウトカムを生み出す。価値を中心に組織された自己管理スクラムチームは、創造的な問題解決や機会の獲得において重要である。自己管理されていないスクラムチームは、複雑性(30-35)に対処する能力を妨げる。自己管理スクラムチームは、個人の自己管理と混同すべきではない。
+スクラムは、スクラムチームが創発(71)を識別・表現・評価し、不確実性を受け入れ、変化に対応し、頻繁に価値を提供・検証し、継続的に改善することを可能にする。スクラムは、コラボレーション・説明責任・エビデンスに基づく意思決定を促進し、急速に変化する環境において最良のアウトカムを生み出す。価値を中心に組織された自己管理スクラムチームは、創造的な問題解決や機会の獲得において重要である。自己管理されていないスクラムチームは、複雑性(30-35)に対処する能力を妨げる。自己管理スクラムチームは、個人の自己管理と混同すべきではない。
 
 <!-- **Elements of Scrum** -->
 **スクラムの要素**
@@ -2008,7 +2055,7 @@ Jeff Sutherlandによる1993年のEasel社でのスクラムの適用は、ロ�
 4\. スクラムイベント & 活動
 
 <!-- 
-- Scrum operates in Sprints (iterations of determinate length _up to four weeks_) with four time-boxed events: 
+- Scrum operates in Sprints (iterations of determinate length _up to four weeks_) with four timeboxed events: 
 - Sprint Planning – Define the Sprint Goal and plan the work. 
 - Daily Scrum – Product Developers align daily on progress toward the Sprint Goal or Product Goal. 
 - Sprint Review – Inspect the Increment, value, and marketplace, and adapt the Product Backlog. 
@@ -2366,7 +2413,7 @@ The Immunity to Change® theory and map
        表出化して、それを乗り越えていくために。
 
 <!-- #### Intent-Based Leadership® {#intent-based-leadership®} -->
-#### 意図ベースリーダーシップ（_Intent-Based Leadership®） {#intent-based-leadership®}
+#### 意図ベースリーダーシップ（Intent-Based Leadership®） {#intent-based-leadership®}
 
 <!-- 
 _Intent-Based Leadership® (IBL)_ (7, 8, 9) 
@@ -2378,7 +2425,7 @@ It is based on the books
    Turn The Ship Around and Leadership is Language 
        by L. David Marquet._ 
 -->
-_意図ベースリーダーシップ（_Intent-Based Leadership®）（IBL）_(7,8,9)は、
+_意図ベースリーダーシップ（Intent-Based Leadership®）（IBL）_(7,8,9)_は、
    高いパフォーマンスを目指すチームが使用する言語であり、
        プログラム化された産業時代の言語を置き換えるものである。
 IBLは、
@@ -2386,7 +2433,7 @@ IBLは、
 これは、
    L. David Marquetによる
        「Turn The Ship Around」と「Leadership is Language」
-   という書籍に基づいている。
+   という書籍に基づいている。_
 
 <!-- 
 _One of the core beliefs is that 
@@ -2468,7 +2515,7 @@ _タイトル：クネビンフレームワーク 勝手に非公式解説_
 _出典：\[元の[クネビンwiki](https://cynefin.io/wiki/Main_Page)へのリンク\]、\[この適応版へのリンク\]_
 
 <!-- _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._   -->
-_ライセンス：クリエイティブ・コモンズ 表示-継承 4.0 国際（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）。_ © 2017-_2025 Cynefin.io._
+_ライセンス：クリエイティブ・コモンズ 表示-継承 4.0 国際（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）。 © 2017-2025 Cynefin.io._
 
 <!-- _Disclaimer: No warranties are given. Use at your own risk._   -->
 _免責事項：いかなる保証も提供されない。ご自身の責任で使用されたい。_
@@ -2531,7 +2578,7 @@ It marks a fundamental change in system behavior
 -->
 位相シフトとは、
    しばしば発生する、ドメイン間の急激な移行のことである。
-       特に秩序系から混沌系への移行において、
+       特に秩序から混沌への移行において、
        システムの制約
            （ルール、習慣、境界、フィードバック）
        が不整合を起こしたり崩壊したりした時に
@@ -2563,7 +2610,7 @@ It marks a fundamental change in system behavior
      Resolving a tricky technical issue 
          by consulting experts and analyzing logs 
 -->
-- 秩序系：主要概念：安定性、ルーチン、ベスト/グッドプラクティス、専門知識
+- 秩序：主要概念：安定性、ルーチン、ベスト/グッドプラクティス、専門知識
   - 専門知識で十分であり、
     原因と結果は予測可能または認識可能
   - 対応選択肢（これらに限定されない）：
@@ -2601,7 +2648,7 @@ It marks a fundamental change in system behavior
      Experimenting with different features or solutions informed by user feedback, 
          e.g., A/B testing new Product ideas 
 -->
-- 複雑系(30-35)：専門知識は価値があるが不十分で、
+- 複雑(30-35)：専門知識は価値があるが不十分で、
     なぜ物事が起こったかは事後にのみ理解できる。
     主要概念：創発、失敗しても安全な実験
   - 対応（これらに限定されない）：
@@ -2614,7 +2661,7 @@ It marks a fundamental change in system behavior
     有益なガイドラインに従いながら行う
   - 比喩：流れる水、雨天、ポーカー
   - 自然の例：
-    茨の茂み――すべてが絡み合い、つながりは予測不可能
+    茨の茂み —— すべてが絡み合い、つながりは予測不可能
   - プロダクトの例：
     ユーザーフィードバックに基づく異なるフィーチャーやソリューションの実験、
     例：新しいプロダクトアイデアのA/Bテスト
@@ -2652,7 +2699,7 @@ It marks a fundamental change in system behavior
            to seize new opportunities 
            (e.g., launching a feature in response to a competitor's move) 
 -->
-- 混沌系：
+- 混沌：
   - 負の場合：主要概念：破壊的危機、破綻、緊急行動
     - 対応（これらに限定されない）：
       秩序回復のための即座の行動、
@@ -2663,7 +2710,7 @@ It marks a fundamental change in system behavior
       毒ガス、竜巻、地震、山火事、
       スタジアムでの暴動
     - 自然の例：
-      自然災害（例：津波）——突然で、破壊的で、予測不可能
+      自然災害（例：津波） —— 突然で、破壊的で、予測不可能
     - プロダクトの例：
       システムを隔離し緊急修正を展開することで
       重大なセキュリティ侵害に対応する
@@ -2678,7 +2725,7 @@ It marks a fundamental change in system behavior
       花火、
       祭りのかがり火
     - 自然の例：
-      新しい植物のために古い成長を取り除く森林火災——生態系の更新
+      新しい植物のために古い成長を取り除く森林火災 —— 生態系の更新
     - プロダクトの例：
       新しい機会を捉えるために市場の混乱中にプロダクトを急速にピボットする
       （例：競合他社の動きに対応してフィーチャーを立ち上げる）
@@ -2721,8 +2768,8 @@ The often less-sudden phase shifts happen in the liminals: -->
        Taking a successful experimental feature 
            and turning it into a documented, repeatable process 
 -->
-- 複雑系と秩序系の間のリミナル。これはスクラムが最も得意とする領域である：
-  - 秩序系-複雑系：
+- 複雑と秩序の間のリミナル。これはスクラムが最も得意とする領域である：
+  - 秩序——複雑：
     - 専門家分析から適応的探索へ
       - 対応（これらに限定されない）：
         いくつかのルールを緩和し、
@@ -2733,11 +2780,11 @@ The often less-sudden phase shifts happen in the liminals: -->
         曇り天気、
         チェスからポーカーへの切り替え
       - 自然の例：
-        季節の解凍——硬い氷が流れる小川と新しい成長に道を譲る
+        季節の解凍 —— 硬い氷が流れる小川と新しい成長に道を譲る
       - プロダクトの例：
         ルーチンプロセスが機能しなくなったとき、
         チームに異なるアプローチを試すよう促す
-  - 複雑系-秩序系：
+  - 複雑——秩序：
     - 対応（これらに限定されない）：
       創造的発見を専門家ルーチンに変換し、
       イノベーションを安定化し、
@@ -2748,7 +2795,7 @@ The often less-sudden phase shifts happen in the liminals: -->
       雨後の霧の晴れ間、
       ポーカーからチェスへの切り替え
     - 自然の例：
-      水路を形成する川のデルタ——予測不可能から安定した流れへ
+      水路を形成する川のデルタ —— 予測不可能から安定した流れへ
     - プロダクトの例：
       成功した実験的フィーチャーを
       文書化された再現可能なプロセスに変換する
@@ -2803,8 +2850,8 @@ The often less-sudden phase shifts happen in the liminals: -->
        After a crisis, regrouping the team 
            to experiment with new ways of working or new Product directions 
 -->
-- 複雑系と混沌系の間のリミナル：
-  - 複雑系-混沌系（正）：
+- 複雑と混沌の間のリミナル：
+  - 複雑——混沌（正）：
     - イノベーションや発明のための時間と空間を作るために
       制約を緩和する必要がある状況。
       主要概念：創造性、リスク、イノベーションの端
@@ -2818,10 +2865,10 @@ The often less-sudden phase shifts happen in the liminals: -->
       即興劇場、
       ジャズジャムセッション
     - 自然の例：
-      新しい土地を創造する火山——混沌の端での創造的変革
+      新しい土地を創造する火山 —— 混沌の端での創造的変革
     - プロダクトの例：
       破壊的アイデアを生成するための高リスクイノベーションハッカソンの実行
-  - 複雑系-混沌系（負）：
+  - 複雑——混沌（負）：
     - 主要概念：危機への破壊的移行
     - 対応（これらに限定されない）：
       制約を急速に再課し、
@@ -2833,10 +2880,10 @@ The often less-sudden phase shifts happen in the liminals: -->
       怒りで投げられたゲームの駒、
       ひっくり返されたゲーム盤
     - 自然の例：
-      突然の地すべり——構造の喪失、破壊的移行
+      突然の地すべり —— 構造の喪失、破壊的移行
     - プロダクトの例：
       失敗したプロダクト立ち上げの混乱と、統制を取り戻す緊急の必要性
-  - 混沌系-複雑系：混沌からの脱出——再編成
+  - 混沌——複雑：混沌からの脱出 —— 再編成
     - 対応選択肢（これらに限定されない）：
       創発する秩序を感知し、
       探索を開始し、
@@ -2847,7 +2894,7 @@ The often less-sudden phase shifts happen in the liminals: -->
       ハリケーンの後の静寂、
       嵐の後のスポーツゲームの再開
     - 自然の例：
-      火災後に移住する先駆種——攪乱後の新しい成長
+      火災後に移住する先駆種 —— 攪乱後の新しい成長
     - プロダクトの例：
       危機の後、新しい働き方や新しいプロダクト方向を実験するための
       チームの再編成
@@ -2881,10 +2928,10 @@ The often less-sudden phase shifts happen in the liminals: -->
    - After a major production outage or Product crisis, a cross-functional crisis team rapidly stabilizes the situation with clear, minimal rules and temporary protocols 
    - Once the immediate danger is past, these are iteratively refined and formalized into sustainable, balanced processes, avoiding overcorrection or excessive bureaucracy 
 -->
-- 困難度のため稀に考慮される位相シフト：混沌-秩序リミナル
+- 困難度のため稀に考慮される位相シフト：混沌——秩序リミナル
   - 対応選択肢：強い制約を課し、ルールと構造を再確立する
   - 比喩：急速に再凍結する氷、嵐の後の寒波、混沌の後に審判が効果的に厳格さを取り戻す
-  - 自然の例：洪水の後にダムが成功裏に建設される——荒々しい川が突然封じ込められ統制される
+  - 自然の例：洪水の後にダムが成功裏に建設される —— 荒々しい川が突然封じ込められ統制される
   - プロダクトの例：
     - 大規模な本番障害またはプロダクト危機の後、機能横断的危機チームが
       明確で最小限のルールと一時的プロトコルで状況を急速に安定化させる
@@ -2900,7 +2947,7 @@ The often less-sudden phase shifts happen in the liminals: -->
 - 特に突然で負の位相シフトが一つある、それは秩序-混沌リミナルである：
   - 対応選択肢：脆弱性と過信を認識し、境界と安全を回復するために迅速に行動する
   - 比喩：破片に割れる氷、突然で激しい雹嵐、ゲームのルールが突然破棄される
-  - 自然の例：春に崩壊する凍った湖——安定した表面が突然砕け散る
+  - 自然の例：春に崩壊する凍った湖 —— 安定した表面が突然砕け散る
   - プロダクトの例：予期しない事象（例：大規模な障害）のために
     安定したプロダクトプロセスが突然破綻する
 
@@ -2949,7 +2996,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 - ステークホルダー価値、複数の影響や副作用、リスク、トレードオフを反復的に定量化し管理する：
   - すべての重要なステークホルダー（顧客を含むがこれに限定されない）を特定し、
-    それぞれの価値目標を測定可能な形で定義する
+    それぞれの価値目標を計測可能な形で定義する
      （例：「新規ユーザーのオンボーディング時間を5〜10日から2〜4日に短縮する」）。
   - トレードオフと制約を明示的に定量化し、
     新しい情報が得られるたびに見直す。
@@ -3070,7 +3117,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
    （このようなストーリーを増やし、あのようなストーリーを減らす）で補完することを推奨する。
 
 <!-- An Emergent Strategy is supported by an emergent outcome-oriented roadmap, which can range from the Sprint Goal to the Product Vision and beyond. Emergent Strategy Deployment (120-123) should not be confused with Emergent Strategy. Vector change models (30-35, 54\), Product Operating Models (113-119), scaling and descaling models (134-147), and emergent goal-oriented models (120-133) can be highly beneficial for Emergent Strategy Deployment. Err on the side of models coherent with vector-change, e.g., direction of travel over fixed goals.   -->
-創発的戦略は、スプリントゴールからプロダクトビジョン、さらにはその先に至るまでの、創発的かつアウトカム指向のロードマップによって支えられる。創発的戦略の展開(120-123)は創発的戦略そのものと混同するべきではない。ベクトル変化モデル(30-35,54)、プロダクトオペレーティングモデル(113-119）、スケーリングおよびデスケーリングモデル(134-147）、創発的ゴール指向モデル(120-133)は、創発的戦略の展開において非常に有益となりうる。あらかじめ固定した目標よりも進むべき方向性を重視するような、ベクトル変化と一貫性のあるモデルを採用することが望ましい。
+創発的戦略は、スプリントゴールからプロダクトビジョン、さらにはその先に至るまでの、創発的かつアウトカム指向のロードマップによって支えられる。創発的戦略の展開(120-123)は創発的戦略そのものと混同するべきではない。ベクトル変化モデル(30-35,54)、プロダクトオペレーティングモデル(113-119)、スケーリングおよびデスケーリングモデル(134-147）、創発的ゴール指向モデル(120-133)は、創発的戦略の展開において非常に有益となりうる。あらかじめ固定した目標よりも進むべき方向性を重視するような、ベクトル変化と一貫性のあるモデルを採用することが望ましい。
 
 <!-- Emergent strategy deployment involves allowing plans and actions to develop naturally as the Scrum Team and Stakeholders respond to real-world changes. Instead of following a fixed path, they pay attention to what is happening around them and make adjustments as they go. Over time, the steps taken form a pattern that becomes the actual strategy, even if it differs from what was initially intended. -->
 創発的戦略の展開は、スクラムチームおよびステークホルダーが現実世界の変化に対応する中で、計画と行動が自然に展開していくのを可能にすることを意味する。あらかじめ固定された道筋に従うのではなく、周囲で起きていることに注意を払いながら、状況に応じて調整を行う。そうして時間をかけて、取られたステップがたとえ当初意図したものと異なっていたとしても、実際の戦略となるパターンを形成するのである。
@@ -3085,27 +3132,30 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 # 
 
+## 翻訳について
+本ガイドは、[Scrum Guide Expansion Pack](https://scrumexpansion.org/)を⽇本語に翻訳したものである。⽇本語訳は内山遼子、川⼝恭伸、長沢智治、山本尊人、和⽥圭介が担当した。
+
 <!-- ## References {#references} -->
 ## 参考文献 {#references}
 
 <!-- 1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (Accessed: April 5, 2023)._ -->
-1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (2023年4月5日アクセス)._
+1. _Rau, T. (2022) Sociocracy \- Basic Concepts and principles, Sociocracy For All. At: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (2023年4月5日にアクセス)._
 <!-- 2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (Accessed: April 5, 2023)._ -->
-2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (2023年4月5日アクセス)._
+2. _Hamel, G. and Zanini, M. (2023) Humanocracy. At: [https://www.humanocracy.com/](https://www.humanocracy.com/) (2023年4月5日にアクセス)._
 <!-- 3. _Kegan, R. and Laskow Lahey, L. (2019) An everyone culture, The Developmental Edge. At: [https://developmentaledge.com/an-everyone-culture/](https://developmentaledge.com/an-everyone-culture/) (Accessed: April 4, 2023)._ -->
-3. _Kegan, R. and Laskow Lahey, L. (2019) An everyone culture, The Developmental Edge. At: [https://developmentaledge.com/an-everyone-culture/](https://developmentaledge.com/an-everyone-culture/) (2023年4月4日アクセス)._
+3. _Kegan, R. and Laskow Lahey, L. (2019) An everyone culture, The Developmental Edge. At: [https://developmentaledge.com/an-everyone-culture/](https://developmentaledge.com/an-everyone-culture/) (2023年4月4日にアクセス)._
 <!-- 4. _Laskow Lahey, L. and Kegan, R. (2023) News & thinking, The Developmental Edge. At: [https://developmentaledge.com/newsthinking/\#methodologies](https://developmentaledge.com/newsthinking/#methodologies) (Accessed: April 3, 2023)._ -->
-4. _Laskow Lahey, L. and Kegan, R. (2023) News & thinking, The Developmental Edge. At: [https://developmentaledge.com/newsthinking/\#methodologies](https://developmentaledge.com/newsthinking/#methodologies) (2023年4月3日アクセス)._
+4. _Laskow Lahey, L. and Kegan, R. (2023) News & thinking, The Developmental Edge. At: [https://developmentaledge.com/newsthinking/\#methodologies](https://developmentaledge.com/newsthinking/#methodologies) (2023年4月3日にアクセス)._
 <!-- 5. _Moore, G.A., 1991\. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers. New York: Harper Business._ -->
-5. _Moore, G.A., 1991. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers (日本語訳: キャズム). New York: Harper Business._
+5. _Moore, G.A., 1991. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers (日本語訳版: キャズム). New York: Harper Business._
 <!-- 6. Coleman, J., (2025) MORE executive SUCCESS. Unpublished. -->
 6. Coleman, J., (2025) MORE executive SUCCESS. 未出版.
 <!-- 7. _Marquet, L. D. (2013) Turn the Ship Around\! A True Story of Turning Followers into Leaders. Portfolio._ -->
-7. _Marquet, L. D. (2013) Turn the Ship Around\! A True Story of Turning Followers into Leaders (日本語訳: チーム・オブ・チームズ). Portfolio._
+7. _Marquet, L. D. (2013) Turn the Ship Around\! A True Story of Turning Followers into Leaders (日本語訳版: 米海軍で屈指の潜水艦艦長による「最強組織」の作り方). Portfolio._
 <!-- 8. _Marquet, L.D. (2021) Leadership is language: The hidden power of what you say and what you don't. Nakskov, Denmark: Nota._ -->
-8. _Marquet, L.D. (2021) Leadership is language: The hidden power of what you say and what you don't. Nakskov, Denmark: Nota._
+8. _Marquet, L.D. (2021) Leadership is language: The hidden power of what you say and what you don't.（日本語訳版: LEADER'S LANGUAGE 言葉遣いこそ最強の武器） Nakskov, Denmark: Nota._
 <!-- 9. _Marquet, L. D. (2021) Based Leadership® International with L. David Marquet \- IBLI. At:[https://davidmarquet.com/](https://davidmarquet.com/) (Accessed: April 5, 2023)._ -->
-9. _Marquet, L. D. (2021) Based Leadership® International with L. David Marquet \- IBLI. At:[https://davidmarquet.com/](https://davidmarquet.com/) (2023年4月5日アクセス)._
+9. _Marquet, L. D. (2021) Based Leadership® International with L. David Marquet \- IBLI. At:[https://davidmarquet.com/](https://davidmarquet.com/) (2023年4月5日にアクセス)._
 <!-- 10. _Rau, T.J. and Koch-Gonzalez, J. (2018) Many voices one song: Shared power with sociocracy. Amherst, MA: Sociocracy for All._ -->
 10. _Rau, T.J. and Koch-Gonzalez, J. (2018) Many voices one song: Shared power with sociocracy. Amherst, MA: Sociocracy for All._
 <!-- 11. _Buck, J. & Endenburg, G. (2012) The creative forces of self-organization. Sociocratic Center._ -->
@@ -3115,186 +3165,182 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 <!-- 13. _Endenburg, G. (1998) Sociocracy: The organization of decision-making. Delft: Eburon Publishers._ -->
 13. _Endenburg, G. (1998) Sociocracy: The organization of decision-making. Delft: Eburon Publishers._
 <!-- 14. _Priest, J. & Bockelbrink, B. (2018) Sociocracy 3.0 – The practical guide. Available at: [https://sociocracy30.org/](https://sociocracy30.org/) (Accessed: 17 May 2025)._ -->
-14. _Priest, J. & Bockelbrink, B. (2018) Sociocracy 3.0 – The practical guide. Available at: [https://sociocracy30.org/](https://sociocracy30.org/) (2025年5月17日アクセス)._
+14. _Priest, J. & Bockelbrink, B. (2018) Sociocracy 3.0 – The practical guide. Available at: [https://sociocracy30.org/](https://sociocracy30.org/) (2025年5月17日にアクセス)._
 <!-- 15. _Bogsnes, B. (2023) This is beyond budgeting: A guide to more adaptive and human organizations. Hoboken, NJ: John Wiley & Sons, Inc._ -->
 15. _Bogsnes, B. (2023) This is beyond budgeting: A guide to more adaptive and human organizations. Hoboken, NJ: John Wiley & Sons, Inc._
 <!-- 16. _Bogsnes, B. (2023) Beyond budgeting at 25 \- [bbrt.org](https://bbrt.org/), Beyond Budgeting Round Table. At: [https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf](https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf) (Accessed: April 7, 2023)._ -->
-16. _Bogsnes, B. (2023) Beyond budgeting at 25 (脱予算経営25周年) \- [bbrt.org](https://bbrt.org/), Beyond Budgeting Round Table. At: [https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf](https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf) (2023年4月7日アクセス)._
+16. _Bogsnes, B. (2023) Beyond budgeting at 25 \- [bbrt.org](https://bbrt.org/),_ _Beyond Budgeting Round Table. At: [https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf](https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf) (2023年4月7日にアクセス)._
 <!-- 17. _Olesen, A. (2016) Beyond budgeting: Principle 1 \- purpose, YouTube. At: [https://youtu.be/\_9ZW2NjyFxE](https://youtu.be/_9ZW2NjyFxE) (Accessed: April 7, 2023)._ -->
-17. _Olesen, A. (2016) Beyond budgeting: Principle 1 \- purpose (脱予算経営：原則1 - 目的), YouTube. At: [https://youtu.be/\_9ZW2NjyFxE](https://youtu.be/_9ZW2NjyFxE) (2023年4月7日アクセス)._
+17. _Olesen, A. (2016) Beyond budgeting: Principle 1 \- purpose, YouTube. At: [https://youtu.be/\_9ZW2NjyFxE](https://youtu.be/_9ZW2NjyFxE) (2023年4月7日にアクセス)._
 <!-- 18. _Larsson, D. (2016) Beyond budgeting: Principle 2 \- values, YouTube. At: [https://youtu.be/pl1BPrITbm4](https://youtu.be/pl1BPrITbm4) (Accessed: April 7, 2023)._ -->
-18. _Larsson, D. (2016) Beyond budgeting: Principle 2 \- values (脱予算経営：原則2 - 価値観), YouTube. At: [https://youtu.be/pl1BPrITbm4](https://youtu.be/pl1BPrITbm4) (2023年4月7日アクセス)._
+18. _Larsson, D. (2016) Beyond budgeting: Principle 2 \- values, YouTube. At: [https://youtu.be/pl1BPrITbm4](https://youtu.be/pl1BPrITbm4) (2023年4月7日にアクセス)._
 <!-- 19. _Player, S. (2016) Beyond budgeting: Principle 3 \- transparency, YouTube. At: [https://youtu.be/Mb7K8App2vw](https://youtu.be/Mb7K8App2vw) (Accessed: April 7, 2023)._ -->
-19. _Player, S. (2016) Beyond budgeting: Principle 3 \- transparency (脱予算経営：原則3 - 透明性), YouTube. At: [https://youtu.be/Mb7K8App2vw](https://youtu.be/Mb7K8App2vw) (2023年4月7日アクセス)._
+19. _Player, S. (2016) Beyond budgeting: Principle 3 \- transparency, YouTube. At: [https://youtu.be/Mb7K8App2vw](https://youtu.be/Mb7K8App2vw) (2023年4月7日にアクセス)._
 <!-- 20. _Röösli, F. (2016) Beyond budgeting: Principle 4 \- Organization, YouTube. At: [https://youtu.be/i8HIgc8OZYM](https://youtu.be/i8HIgc8OZYM) (Accessed: April 7, 2023)._ -->
-20. _Röösli, F. (2016) Beyond budgeting: Principle 4 \- Organization (脱予算経営：原則4 - 組織), YouTube. At: [https://youtu.be/i8HIgc8OZYM](https://youtu.be/i8HIgc8OZYM) (2023年4月7日アクセス)._
+20. _Röösli, F. (2016) Beyond budgeting: Principle 4 \- Organization, YouTube. At: [https://youtu.be/i8HIgc8OZYM](https://youtu.be/i8HIgc8OZYM) (2023年4月7日にアクセス)._
 <!-- 21. _Larsson, D. (2016) Beyond budgeting: Principle 5 \- autonomy, YouTube. At: [https://youtu.be/ipnjHtXYi-g](https://youtu.be/ipnjHtXYi-g) (Accessed: April 7, 2023)._ -->
-21. _Larsson, D. (2016) Beyond budgeting: Principle 5 \- autonomy (脱予算経営：原則5 - 自律性), YouTube. At: [https://youtu.be/ipnjHtXYi-g](https://youtu.be/ipnjHtXYi-g) (2023年4月7日アクセス)._
+21. _Larsson, D. (2016) Beyond budgeting: Principle 5 \- autonomy, YouTube. At: [https://youtu.be/ipnjHtXYi-g](https://youtu.be/ipnjHtXYi-g) (2023年4月7日にアクセス)._
 <!-- 22. _Player, S. (2016) Beyond budgeting: Principle 6 \- customers, YouTube. At: [https://youtu.be/\_6fut4R_wVw](https://youtu.be/_6fut4R_wVw) (Accessed: April 7, 2023)._ -->
-22. _Player, S. (2016) Beyond budgeting: Principle 6 \- customers (脱予算経営：原則6 - 顧客), YouTube. At: [https://youtu.be/\_6fut4R_wVw](https://youtu.be/_6fut4R_wVw) (2023年4月7日アクセス)._
+22. _Player, S. (2016) Beyond budgeting: Principle 6 \- customers, YouTube. At: [https://youtu.be/\_6fut4R_wVw](https://youtu.be/_6fut4R_wVw) (2023年4月7日にアクセス)._
 <!-- 23. _Bogsnes, B. (2016) Beyond budgeting: Principle 7 \- rhythm, YouTube. At: [https://youtu.be/rb_NsnPNIQQ](https://youtu.be/rb_NsnPNIQQ) (Accessed: April 7, 2023)._ -->
-23. _Bogsnes, B. (2016) Beyond budgeting: Principle 7 \- rhythm (脱予算経営：原則7 - リズム), YouTube. At: [https://youtu.be/rb_NsnPNIQQ](https://youtu.be/rb_NsnPNIQQ) (2023年4月7日アクセス)._
+23. _Bogsnes, B. (2016) Beyond budgeting: Principle 7 \- rhythm, YouTube. At: [https://youtu.be/rb_NsnPNIQQ](https://youtu.be/rb_NsnPNIQQ) (2023年4月7日にアクセス)._
 <!-- 24. _Röösli, F. (2016) Beyond budgeting: Principle 8 \- targets, YouTube. At: [https://youtu.be/up3mp7jN6XU](https://youtu.be/up3mp7jN6XU) (Accessed: April 7, 2023)._ -->
-24. _Röösli, F. (2016) Beyond budgeting: Principle 8 \- targets (脱予算経営：原則8 - 目標), YouTube. At: [https://youtu.be/up3mp7jN6XU](https://youtu.be/up3mp7jN6XU) (2023年4月7日アクセス)._
+24. _Röösli, F. (2016) Beyond budgeting: Principle 8 \- targets, YouTube. At: [https://youtu.be/up3mp7jN6XU](https://youtu.be/up3mp7jN6XU) (2023年4月7日にアクセス)._
 <!-- 25. _Player, S. (2016) Beyond budgeting: Principle 9 \- plans and forecasts, YouTube. At: [https://youtu.be/OWM7FUuXejI](https://youtu.be/OWM7FUuXejI) (Accessed: April 7, 2023)._ -->
-25. _Player, S. (2016) Beyond budgeting: Principle 9 \- plans and forecasts (脱予算経営：原則9 - 計画と予測), YouTube. At: [https://youtu.be/OWM7FUuXejI](https://youtu.be/OWM7FUuXejI) (2023年4月7日アクセス)._
+25. _Player, S. (2016) Beyond budgeting: Principle 9 \- plans and forecasts, YouTube. At: [https://youtu.be/OWM7FUuXejI](https://youtu.be/OWM7FUuXejI) (2023年4月7日にアクセス)._
 <!-- 26. _Olesen, A. (2016) Beyond budgeting: Principle 10 \- resource allocation, YouTube. At: [https://youtu.be/mPCYHmvi_b8](https://youtu.be/mPCYHmvi_b8) (Accessed: April 7, 2023)._ -->
-26. _Olesen, A. (2016) Beyond budgeting: Principle 10 \- resource allocation (脱予算経営：原則10 - リソース配分), YouTube. At: [https://youtu.be/mPCYHmvi_b8](https://youtu.be/mPCYHmvi_b8) (2023年4月7日アクセス)._
+26. _Olesen, A. (2016) Beyond budgeting: Principle 10 \- resource allocation, YouTube. At: [https://youtu.be/mPCYHmvi_b8](https://youtu.be/mPCYHmvi_b8) (2023年4月7日にアクセス)._
 <!-- 27. _Bogsnes, B. (2016) Beyond budgeting: Principle 11 \- performance evaluation, YouTube. At: [https://youtu.be/RfPVtG2B27E](https://youtu.be/RfPVtG2B27E) (Accessed: April 7, 2023)._ -->
-27. _Bogsnes, B. (2016) Beyond budgeting: Principle 11 \- performance evaluation (脱予算経営：原則11 - パフォーマンス評価), YouTube. At: [https://youtu.be/RfPVtG2B27E](https://youtu.be/RfPVtG2B27E) (2023年4月7日アクセス)._
+27. _Bogsnes, B. (2016) Beyond budgeting: Principle 11 \- performance evaluation, YouTube. At: [https://youtu.be/RfPVtG2B27E](https://youtu.be/RfPVtG2B27E) (2023年4月7日にアクセス)._
 <!-- 28. _Röösli, F. (2016) Beyond budgeting: Principle 12 \- rewards, YouTube. At: [https://youtu.be/ETU5TzNYiC0](https://youtu.be/ETU5TzNYiC0) (Accessed: April 7, 2023)._ -->
-28. _Röösli, F. (2016) Beyond budgeting: Principle 12 \- rewards (脱予算経営：原則12 - 報酬), YouTube. At: [https://youtu.be/ETU5TzNYiC0](https://youtu.be/ETU5TzNYiC0) (2023年4月7日アクセス)._
+28. _Röösli, F. (2016) Beyond budgeting: Principle 12 \- rewards, YouTube. At: [https://youtu.be/ETU5TzNYiC0](https://youtu.be/ETU5TzNYiC0) (2023年4月7日にアクセス)._
 <!-- 29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game, Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (Accessed: 21 January 2024)._ -->
-29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game (新たなる新製品開発の方法), Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (2024年1月21日アクセス)._
+29. _Takeuchi, H. and Nonaka, I. (2014) The new new product development game (日本語訳版: 新たなる新製品開発の方法), Harvard Business Review. At: [https://hbr.org/1986/01/the-new-new-product-development-game](https://hbr.org/1986/01/the-new-new-product-development-game) (2024年1月21日にアクセス)._
 <!-- 30. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (Accessed: April 4, 2023)._ -->
-30. [_Cynefin.io_](https://Cynefin.io/)_, V. (2022) Cynefin wiki (クネビンwiki), [Cynefin.io](https://Cynefin.io/). [Cynefin.io](https://Cynefin.io/). At: [https://cynefin.io/](https://cynefin.io/) (2023年4月4日アクセス)._
+<!-- PDF出力に影響があることもあり、リンク場所を調整し、不要と思われる「Cynfin.io.」を削除した -->
+30. _Cynefin.io, V. (2022) Cynefin wiki, [Cynefin.io](https://Cynefin.io/)_. _At: [https://cynefin.io/](https://cynefin.io/)  (2023年4月4日にアクセス)._
 <!-- 31. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._ -->
-31. _Rancati, A. and Snowden, D. (2021) 危機における複雑性（および混沌）の管理 - クネビンフレームワークに着想を得た意思決定者のためのフィールドガイド. Luxembourg, Belgium: Publications Office of the European Union._
+31. _Rancati, A. and Snowden, D. (2021) Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework. Luxembourg, Belgium: Publications Office of the European Union._
 <!-- 32. _Snowden, D. et al. (2022) Cynefin® weaving sense-making into the fabric of our world. 2nd edn. Edited by R. Greenberg and B. Bertsch. Singapore, Singapore: Cognitive Edge \- The Cynefin Co._ -->
-32. _Snowden, D. et al. (2022) クネビン® 私たちの世界の構造にセンスメイキングを織り込む. 第2版. R. Greenberg and B. Bertsch編. Singapore, Singapore: Cognitive Edge \- The Cynefin Co._
+32. _Snowden, D. et al. (2022) Cynefin® weaving sense-making into the fabric of our world. 2nd edn. Edited by R. Greenberg and B. Bertsch. Singapore, Singapore: Cognitive Edge \- The Cynefin Co._
 <!-- 33. _Snowden, D. (2023) Cynefin St David's 2023 1 of 2, Cynefin Co. [https://thecynefin.co/cynefin-st-davids-2023-1-of-2/](https://thecynefin.co/cynefin-st-davids-2023-1-of-2/) (Accessed: April 20, 2023)._ -->
-33. _Snowden, D. (2023) クネビン St David's 2023 1 of 2, Cynefin Co. [https://thecynefin.co/cynefin-st-davids-2023-1-of-2/](https://thecynefin.co/cynefin-st-davids-2023-1-of-2/) (2023年4月20日アクセス)._
+33. _Snowden, D. (2023) Cynefin St David's 2023 1 of 2, Cynefin Co. [https://thecynefin.co/cynefin-st-davids-2023-1-of-2/](https://thecynefin.co/cynefin-st-davids-2023-1-of-2/) (2023年4月20日にアクセス)._
 <!-- 34. _Snowden, D. (2023) Managing for emergence through abduction, The Cynefin Co. At: [https://thecynefin.co/managing-for-emergence/](https://thecynefin.co/managing-for-emergence/) (Accessed: June 24, 2023)._ -->
-34. _Snowden, D. (2023) アブダクションによる創発の管理, The Cynefin Co. At: [https://thecynefin.co/managing-for-emergence/](https://thecynefin.co/managing-for-emergence/) (2023年6月24日アクセス)._
+34. _Snowden, D. (2023) Managing for emergence through abduction, The Cynefin Co. At: [https://thecynefin.co/managing-for-emergence/](https://thecynefin.co/managing-for-emergence/) (2023年6月24日にアクセス)._
 <!-- 35. _Snowden, D. and Smith, N. (2023) Leadership discussion: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (Accessed: April 7, 2023)._ -->
-35. _Snowden, D. and Smith, N. (2023) リーダーシップディスカッション: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (2023年4月7日アクセス)._
+35. _Snowden, D. and Smith, N. (2023) Leadership discussion: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (2023年4月7日にアクセス)._
 <!-- 36. _Langton, C.G. (ed.) (1989) Artificial Life: Proceedings of an Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems, Los Alamos, New Mexico, September 1987\. Santa Fe Institute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley._ -->
-36. _Langton, C.G. (編) (1989) 人工生命：生命システムの合成とシミュレーションに関する学際的ワークショップの議事録, Los Alamos, New Mexico, September 1987\. Santa Fe Institute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley._
+36. _Langton, C.G. (ed.) (1989) Artificial Life: Proceedings of an Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems, Los Alamos, New Mexico, September 1987\. Santa Fe Institute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley._
 <!-- 37. _Langton, C.G. (1989) 'Life at the edge of chaos', in Langton, C.G. (ed.) Artificial Life: Proceedings of an Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems. Santa Fe In stitute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley, pp. 41–91._ -->
-37. _Langton, C.G. (1989) '混沌の境界での生命', in Langton, C.G. (編) 人工生命：生命システムの合成とシミュレーションに関する学際的ワークショップの議事録. Santa Fe In stitute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley, pp. 41–91._
+37. _Langton, C.G. (1989) 'Life at the edge of chaos', in Langton, C.G. (ed.) Artificial Life: Proceedings of an Interdisciplinary Workshop on the Synthesis and Simulation of Living Systems. Santa Fe In stitute Studies in the Sciences of Complexity, vol. VI. Redwood City, CA: Addison-Wesley, pp. 41–91._
 <!-- 38. _Wolfram, S. (2002) A new kind of science. Champaign, IL: Wolfram Media._ -->
-38. _Wolfram, S. (2002) 新しい種類の科学. Champaign, IL: Wolfram Media._
+38. _Wolfram, S. (2002) A new kind of science. Champaign, IL: Wolfram Media._
 <!-- 39. _Alexander, C. (1979) The timeless way of building. New York: Oxford University Press._ -->
-39. _Alexander, C. (1979) 時を超えた建設の道. New York: Oxford University Press._
+39. _Alexander, C. (1979) The timeless way of building（日本語訳版: 時を超えた建設の道）. New York: Oxford University Press._
 <!-- 40. _Schwaber, K. & Sutherland, J. (2020) The Scrum Guide: The definitive guide to Scrum: The rules of the game. Available at: [https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) (Accessed: 17 May 2025\)_ -->
-40. _Schwaber, K. & Sutherland, J. (2020) The Scrum Guide: The definitive guide to Scrum: The rules of the game (日本語訳: スクラムガイド). Available at: [https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) (2025年5月17日アクセス)_
+40. _Schwaber, K. & Sutherland, J. (2020) The Scrum Guide: The definitive guide to Scrum: The rules of the game (日本語訳版: スクラムガイド). Available at: [https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) (2025年5月17日にアクセス)_
 <!-- 41. _Martin, R.L. (2022) A new way to think your guide to Superior Management Effectiveness. Boston, MA, MA, USA: Harvard Business Review Press._ -->
-41. _Martin, R.L. (2022) 新しい思考法：優れた経営効果のためのガイド. Boston, MA, MA, USA: Harvard Business Review Press._
+41. _Martin, R.L. (2022) A new way to think your guide to Superior Management Effectiveness. Boston, MA, MA, USA: Harvard Business Review Press._
 <!-- 42. _Gilb, T. & Graham, D. (1993) Software Inspection. Harlow: Addison-Wesley._ -->
-42. _Gilb, T. & Graham, D. (1993) ソフトウェアインスペクション. Harlow: Addison-Wesley._
+42. _Gilb, T. & Graham, D. (1993) Software Inspection（日本語訳版: ソフトウェアインスペクション）. Harlow: Addison-Wesley._
 <!-- 43. _Gilb, T. (1988) 'Deeper perspectives on evolutionary delivery, in Principles of Software Engineering Management. Wokingham: Addison-Wesley, pp. \[chapter 15\]. Also available at: [https://bit.ly/TomGilbEvo](https://bit.ly/TomGilbEvo)._ -->
-43. _Gilb, T. (1988) '進化的デリバリーのより深い視点', in ソフトウェア工学管理の原則. Wokingham: Addison-Wesley, pp. \[chapter 15\]. Also available at: [https://bit.ly/TomGilbEvo](https://bit.ly/TomGilbEvo)._
+43. _Gilb, T. (1988) 'Deeper perspectives on evolutionary delivery, in Principles of Software Engineering Management. Wokingham: Addison-Wesley, pp. \[chapter 15\]. Also available at: [https://bit.ly/TomGilbEvo](https://bit.ly/TomGilbEvo)._
 <!-- 44. _Gilb, Tom & Maier, Mark. (2005). Managing Priorities: A Key to Systematic Decision Making. INCOSE International Symposium. 15\. 10.1002/j.2334-5837.2005.tb00782.x. Also available at: [https://bit.ly/TomGilbPriorities](https://bit.ly/TomGilbPriorities)._ -->
-44. _Gilb, Tom & Maier, Mark. (2005). 優先順位の管理：体系的意思決定の鍵. INCOSE International Symposium. 15\. 10.1002/j.2334-5837.2005.tb00782.x. Also available at: [https://bit.ly/TomGilbPriorities](https://bit.ly/TomGilbPriorities)._
+44. _Gilb, Tom & Maier, Mark. (2005). Managing Priorities: A Key to Systematic Decision Making. INCOSE International Symposium. 15\. 10.1002/j.2334-5837.2005.tb00782.x. Also available at: [https://bit.ly/TomGilbPriorities](https://bit.ly/TomGilbPriorities)._ 
 <!-- 45. _Gilb, T. (1988) 'Deeper perspectives on evolutionary delivery', in Principles of Software Engineering Management. Wokingham: Addison-Wesley, pp. \[chapter 15\]._ -->
-45. _Gilb, T. (1988) '進化的デリバリーのより深い視点', in ソフトウェア工学管理の原則. Wokingham: Addison-Wesley, pp. \[chapter 15\]._
+45. _Gilb, T. (1988) 'Deeper perspectives on evolutionary delivery', in Principles of Software Engineering Management. Wokingham: Addison-Wesley, pp. \[chapter 15\]._
 <!-- 46. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)._ -->
-46. _Gilb, T. (2005) 競争的エンジニアリング：Planguageを使用したシステム工学、要求工学、ソフトウェア工学のハンドブック. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)._
+46. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)._
 <!-- 47. _Gilb, T. (2009) 'Agile specification quality control: Shifting emphasis from cleanup to sampling defects', Testing Experience, March. Available at: [https://www.researchgate.net/publication/294196272_Agile_specification_quality_control](https://www.researchgate.net/publication/294196272_Agile_specification_quality_control) \[Accessed: 17 May 2025\]._ -->
-47. _Gilb, T. (2009) 'アジャイル仕様品質管理：クリーンアップから欠陥サンプリングへの重点の転換', Testing Experience, March. Available at: [https://www.researchgate.net/publication/294196272_Agile_specification_quality_control](https://www.researchgate.net/publication/294196272_Agile_specification_quality_control) \[2025年5月17日アクセス\]._
+47. _Gilb, T. (2009) 'Agile specification quality control: Shifting emphasis from cleanup to sampling defects', Testing Experience, March. Available at: [https://www.researchgate.net/publication/294196272_Agile_specification_quality_control](https://www.researchgate.net/publication/294196272_Agile_specification_quality_control) \[2025年5月17日にアクセス\]._
 <!-- 48. _Gilb, T. & Gilb, K. (1989) 'The McDonnell-Douglas case study of SQC and engineering improvement: Case DAC Inspection 1988–89'. Available at: [https://bit.ly/TomGilbMcDonnell-Douglas](https://bit.ly/TomGilbMcDonnell-Douglas) \[Accessed: 17 May 2025\]._ -->
-48. _Gilb, T. & Gilb, K. (1989) 'McDonnell-DouglasのSQCとエンジニアリング改善のケーススタディ：Case DAC Inspection 1988–89'. Available at: [https://bit.ly/TomGilbMcDonnell-Douglas](https://bit.ly/TomGilbMcDonnell-Douglas) \[2025年5月17日アクセス\]._
+48. _Gilb, T. & Gilb, K. (1989) 'The McDonnell-Douglas case study of SQC and engineering improvement: Case DAC Inspection 1988–89'. Available at: [https://bit.ly/TomGilbMcDonnell-Douglas](https://bit.ly/TomGilbMcDonnell-Douglas) \[2025年5月17日にアクセス\]._
 <!-- 49. _LeSS.works (n.d.) Self-managing teams. Available at: [https://less.works/less/management/self-managing-teams](https://less.works/less/management/self-managing-teams) (Accessed: 17 May 2025)._ -->
-49. _LeSS.works (n.d.) 自己管理チーム. Available at: [https://less.works/less/management/self-managing-teams](https://less.works/less/management/self-managing-teams) (2025年5月17日アクセス)._
+49. _LeSS.works (n.d.) Self-managing teams. Available at: [https://less.works/less/management/self-managing-teams](https://less.works/less/management/self-managing-teams) (2025年5月17日にアクセス)._
 <!-- 50. _Gothelf, J. & Seiden, J. (2021) Lean UX: Designing great products with agile teams. 3rd edn. Sebastopol, CA: O'Reilly Media_ -->
-50. _Gothelf, J. & Seiden, J. (2021) リーンUX：アジャイルチームで優れたプロダクトをデザインする. 第3版. Sebastopol, CA: O'Reilly Media_Douglas case study of SQC and engineering improvement: Case DAC Inspection 1988–89'. Available at: [https://bit.ly/TomGilbMcDonnell-Douglas](https://bit.ly/TomGilbMcDonnell-Douglas) \[Accessed: 17 May 2025\]._ -->
-<!-- 50. _Gothelf, J. & Seiden, J. (2021) Lean UX: Designing great products with agile teams. 3rd edn. Sebastopol, CA: O'Reilly Media_ -->
-50. _Gothelf, J. & Seiden, J. (2021) Lean UX: Designing great products with agile teams. 3rd edn. Sebastopol, CA: O'Reilly Media_
+50. _Gothelf, J. & Seiden, J. (2021) Lean UX: Designing great products with agile teams. 3rd edn（リーンUX 第3版：アジャイルなチームによるプロダクト開発）. Sebastopol, CA: O'Reilly Media_
 <!-- 51. _Torres, T. (2021) Continuous discovery habits: Discover products that create customer value and business value. North Charleston, SC: Product Talk_ -->
 51. _Torres, T. (2021) Continuous discovery habits: Discover products that create customer value and business value. North Charleston, SC: Product Talk_
 <!-- 52. _Scrum.org (2025) Scrum Hexis. Available at: [https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (Accessed: 17 May 2025)._ -->
-52. _Scrum.org (2025) Scrum Hexis. Available at: [https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (Accessed: 17 May 2025)._
+52. _Scrum.org (2025) Scrum Hexis. Available at: [https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv](https://thecynefin.co/product/hexi-scrumorg/?srsltid=AfmBOorcohLYeVy0qBsQFI6mK_bZtJA_uGC6hPL2BdptiTwNmMwpKTQv) (2025年5月17日にアクセス)._
 <!-- 53. _Sutherland, J., Coplien, J.O., Heasman, L., den Hollander, M., Ramos, C. and The Scrum Patterns Group (2019) A Scrum Book: The Spirit of the Game. Raleigh, NC: Pragmatic Press. Members of The Scrum Patterns Group: Vervloed, E., Harrison, N., Harada, K., Yoder, J., Kim, J., O'Callaghan, A., Beedle, M., Bjørnvig, G., Friis, D., Reijonen, V., Benefield, G., Østergaard, J., Eloranta, V.-P., Leonard, E. & Aguiar, A._ -->
 53. _Sutherland, J., Coplien, J.O., Heasman, L., den Hollander, M., Ramos, C. and The Scrum Patterns Group (2019) A Scrum Book: The Spirit of the Game. Raleigh, NC: Pragmatic Press. Members of The Scrum Patterns Group: Vervloed, E., Harrison, N., Harada, K., Yoder, J., Kim, J., O'Callaghan, A., Beedle, M., Bjørnvig, G., Friis, D., Reijonen, V., Benefield, G., Østergaard, J., Eloranta, V.-P., Leonard, E. & Aguiar, A._
 <!-- 54. _Snowden, D. (2025) 'Estuarine mapping first edition', The Cynefin Co, 22 April. Available at: [https://thecynefin.co/estuarine-mapping/](https://thecynefin.co/estuarine-mapping/) (Accessed: 8 June 2025\)_ -->
-54. _Snowden, D. (2025) 'Estuarine mapping first edition', The Cynefin Co, 22 April. Available at: [https://thecynefin.co/estuarine-mapping/](https://thecynefin.co/estuarine-mapping/) (Accessed: 8 June 2025\)_
+54. _Snowden, D. (2025) 'Estuarine mapping first edition', The Cynefin Co, 22 April. Available at: [https://thecynefin.co/estuarine-mapping/](https://thecynefin.co/estuarine-mapping/) (2025年6月8日にアクセス\)_
 <!-- 55. _Ackoff, R.L. (1999) Ackoff's Best: His Classic Writings on Management. New York: John Wiley & Sons._ -->
 55. _Ackoff, R.L. (1999) Ackoff's Best: His Classic Writings on Management. New York: John Wiley & Sons._
 <!-- 56. _Fischer, B., Minnaar, J., Moehrle, M., & Cornuel, E. (2020) RenDanHeYi: Pioneering the Quantum Organisation. EFMD Global Focus, Special Supplement. Available at: [https://bit.ly/RenDanHeYi](https://bit.ly/RenDanHeYi) \[Accessed 27 May 2025\]_ -->
-56. _Fischer, B., Minnaar, J., Moehrle, M., & Cornuel, E. (2020) RenDanHeYi: Pioneering the Quantum Organisation. EFMD Global Focus, Special Supplement. Available at: [https://bit.ly/RenDanHeYi](https://bit.ly/RenDanHeYi) \[Accessed 27 May 2025\]_
+56. _Fischer, B., Minnaar, J., Moehrle, M., & Cornuel, E. (2020) RenDanHeYi: Pioneering the Quantum Organisation. EFMD Global Focus, Special Supplement. Available at: [https://bit.ly/RenDanHeYi](https://bit.ly/RenDanHeYi) \[2025年5月27日にアクセス\]_
 <!-- 57. _Blackburn, S. (2003) Ethics: A Very Short Introduction. Oxford: Oxford University Press._ -->
 57. _Blackburn, S. (2003) Ethics: A Very Short Introduction. Oxford: Oxford University Press._
 <!-- 58. _Mayer, T. (2025) A Simple Guide to Scrum. \[Online\]. Available at: [https://scrum.academy/guide/](https://scrum.academy/guide/) (Accessed: 17 May 2025\)_ -->
-58. _Mayer, T. (2025) A Simple Guide to Scrum. \[Online\]. Available at: [https://scrum.academy/guide/](https://scrum.academy/guide/) (Accessed: 17 May 2025\)_
+58. _Mayer, T. (2025) A Simple Guide to Scrum. \[Online\]. Available at: [https://scrum.academy/guide/](https://scrum.academy/guide/) (2025年5月17日にアクセス\)_
 <!-- 59. _Ohno, T. (1988) Toyota Production System: Beyond Large-Scale Production. Portland, OR: Productivity Press._ -->
-59. _Ohno, T. (1988) Toyota Production System: Beyond Large-Scale Production. Portland, OR: Productivity Press._
+59. _Ohno, T. (1988) Toyota Production System: Beyond Large-Scale Production（日本語版: トヨタ生産方式 ― 脱規模の経営をめざして）. Portland, OR: Productivity Press._
 <!-- 60. _Toyota Motor Corporation (2024) Toyota Production System. Available at: [https://global.toyota/en/company/vision-and-philosophy/production-system/index.html](https://global.toyota/en/company/vision-and-philosophy/production-system/index.html) (Accessed: 17 May 2025)._ -->
-60. _Toyota Motor Corporation (2024) Toyota Production System. Available at: [https://global.toyota/en/company/vision-and-philosophy/production-system/index.html](https://global.toyota/en/company/vision-and-philosophy/production-system/index.html) (Accessed: 17 May 2025)._
-<!-- 61. _Hounshell, D.A. & Smith, J.K. (1988) Science and Corporate Strategy: DuPont R\&D, 1902–1980. Cambridge: Cambridge University Press._ -->
-61. Hounshell, D.A. & Smith, J.K. (1988) Science and Corporate Strategy: DuPont R&D, 1902–1980. Cambridge: Cambridge University Press._
+60. _Toyota Motor Corporation (2024) Toyota Production System（日本語版: トヨタ生産方式）. Available at: [https://global.toyota/en/company/vision-and-philosophy/production-system/index.html](https://global.toyota/en/company/vision-and-philosophy/production-system/index.html) (2025年5月17日にアクセス)._
 <!-- 61. _Hounshell, D.A. & Smith, J.K. (1988) Science and Corporate Strategy: DuPont R\&D, 1902–1980. Cambridge: Cambridge University Press._ -->
 61. _Hounshell, D.A. & Smith, J.K. (1988) Science and Corporate Strategy: DuPont R&D, 1902–1980. Cambridge: Cambridge University Press._
-<!-- 61. _Hounshell, D.A. & Smith, J.K. (1988) Science and Corporate Strategy: DuPont R\&D, 1902–1980. Cambridge: Cambridge University Press._ -->
-61. _Hounshell, D.A. & Smith, J.K. (1988) Science and Corporate Strategy: DuPont R\&D, 1902–1980. Cambridge: Cambridge University Press._
 <!-- 62. _Schwaber, K. and Sutherland, J. (1995) 'SCRUM Development Process', OOPSLA Business Object Design and Implementation Workshop. Austin, Texas, October 1995\. Available at: [http://jeffsutherland.org/oopsla/schwapub.pdf](http://jeffsutherland.org/oopsla/schwapub.pdf) (Accessed: 17 May 2025)._ -->
-62. _Schwaber, K. and Sutherland, J. (1995) 'SCRUM開発プロセス', OOPSLA Business Object Design and Implementation Workshop. Austin, Texas, October 1995\. Available at: [http://jeffsutherland.org/oopsla/schwapub.pdf](http://jeffsutherland.org/oopsla/schwapub.pdf) (2025年5月17日アクセス)._
+62. _Schwaber, K. and Sutherland, J. (1995) 'SCRUM Development Process', OOPSLA Business Object Design and Implementation Workshop. Austin, Texas, October 1995\. Available at: [http://jeffsutherland.org/oopsla/schwapub.pdf](http://jeffsutherland.org/oopsla/schwapub.pdf) (2025年5月17日アにクセス)._
 <!-- 63. _Womack, J.P. and Jones, D.T. (1996) Lean Thinking: Banish Waste and Create Wealth in Your Corporation. New York: Simon & Schuster._ -->
-63. _Womack, J.P. and Jones, D.T. (1996) Lean Thinking: Banish Waste and Create Wealth in Your Corporation (日本語訳: リーン思考). New York: Simon & Schuster._
+63. _Womack, J.P. and Jones, D.T. (1996) Lean Thinking: Banish Waste and Create Wealth in Your Corporation (日本語訳版: リーン・シンキング). New York: Simon & Schuster._
 <!-- 64. _Thurlow, N., Turner, J.R. and Podder, A. (2020) The Flow System: The Evolution of Agile and Lean Thinking in an Age of Complexity. Flow Consortium. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (Accessed: 17 May 2025)._ -->
-64. _Thurlow, N., Turner, J.R. and Podder, A. (2020) The Flow System: The Evolution of Agile and Lean Thinking in an Age of Complexity. Flow Consortium. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (2025年5月17日アクセス)._
+64. _Thurlow, N., Turner, J.R. and Podder, A. (2020) The Flow System: The Evolution of Agile and Lean Thinking in an Age of Complexity（日本語訳版: フローシステムガイド）. Flow Consortium. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (2025年5月17日にアクセス)._
 <!-- 65. _Felderer, M. and Travassos, G.H. (2020) 'The Evolution of Empirical Methods in Software Engineering'. Available at: [https://arxiv.org/pdf/1912.11512.pdf](https://arxiv.org/pdf/1912.11512.pdf) (Accessed: 17 May 2025)._ -->
-65. _Felderer, M. and Travassos, G.H. (2020) 'ソフトウェア工学における経験的手法の進化'. Available at: [https://arxiv.org/pdf/1912.11512.pdf](https://arxiv.org/pdf/1912.11512.pdf) (2025年5月17日アクセス)._
+65. _Felderer, M. and Travassos, G.H. (2020) 'The Evolution of Empirical Methods in Software Engineering'. Available at: [https://arxiv.org/pdf/1912.11512.pdf](https://arxiv.org/pdf/1912.11512.pdf) (2025年5月17日にアクセス)._
 <!-- 66. _Creative Wisdom (n.d.) 'Abduction, Deduction and Induction'. Available at: [https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf](https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf) (Accessed: 17 May 2025)._ -->
-66. _Creative Wisdom (n.d.) 'アブダクション、演繹、帰納'. Available at: [https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf](https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf) (2025年5月17日アクセス)._
+66. _Creative Wisdom (n.d.) 'Abduction, Deduction and Induction'. Available at: [https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf](https://www.creative-wisdom.com/teaching/WBI/abduction5.pdf) (2025年5月17日にアクセス)._
 <!-- 67. _Campbell, J. (2025) 'Empiricism', EBSCO Research Starters. Available at: [https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism](https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism) (Accessed: 17 May 2025\)_ -->
-67. _Campbell, J. (2025) '経験主義', EBSCO Research Starters. Available at: [https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism](https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism) (2025年5月17日アクセス)_
+67. _Campbell, J. (2025) 'Empiricism', EBSCO Research Starters. Available at: [https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism](https://www.ebsco.com/research-starters/religion-and-philosophy/empiricism) (2025年5月17日にアクセス)_
 <!-- 68. _Kanban Guides (2025) Available at: [https://kanbanguides.org](https://kanbanguides.org/) (Accessed: 17 May 2025\)_ -->
-68. _かんばんガイド (2025) Available at: [https://kanbanguides.org](https://kanbanguides.org/) (2025年5月17日アクセス)_
+68. _Kanban Guides (2025) （日本語訳版: 2025年版カンバンガイド） Available at: [https://kanbanguides.org](https://kanbanguides.org/) (2025年5月17日にアクセス)_
 <!-- 69. [_Scrum.org_](http://Scrum.org) _et al. (2021) The Kanban Guide for Scrum Teams. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (Accessed: 17 May 2025\)_ -->
-69. [_Scrum.org_](http://Scrum.org) _et al. (2021) スクラムチーム向けかんばんガイド. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (2025年5月17日アクセス)_
+<!-- PDF出力に影響もあることもあり、最初のScrum.orgをリンクにしないようにした -->
+69. _Scrum.org et al. (2021) The Kanban Guide for Scrum Teams（日本語訳版: スクラムチームのためのカンバンガイド）. Available at: [https://www.scrum.org/resources/kanban-guide-scrum-teams](https://www.scrum.org/resources/kanban-guide-scrum-teams) (2025年5月17日にアクセス)_
 <!-- 70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. New York: Harper & Row_ -->
-70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience (日本語訳: フロー体験). New York: Harper & Row_
+70. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience (日本語訳版: フロー体験 喜びの現象学). New York: Harper & Row_
 <!-- 71. _Templeton Foundation (2023) 'What Is Emergence?' John Templeton Foundation. Available at: [https://www.templeton.org/news/what-is-emergence](https://www.templeton.org/news/what-is-emergence) (Accessed: 17 May 2025)._ -->
-71. _Templeton Foundation (2023) '創発とは何か？' John Templeton Foundation. Available at: [https://www.templeton.org/news/what-is-emergence](https://www.templeton.org/news/what-is-emergence) (2025年5月17日アクセス)._
+71. _Templeton Foundation (2023) 'What Is Emergence?' John Templeton Foundation. Available at: [https://www.templeton.org/news/what-is-emergence](https://www.templeton.org/news/what-is-emergence) (2025年5月17日にアクセス)._
 <!-- 72. _van der Bles, A.M., van der Linden, S., Freeman, A.L.J. and Spiegelhalter, D.J. (2019) 'Communicating uncertainty about facts, numbers and science', Royal Society Open Science, 6(5), 181870\. Available at: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/) (Accessed: 17 May 2025)._ -->
-72. _van der Bles, A.M., van der Linden, S., Freeman, A.L.J. and Spiegelhalter, D.J. (2019) '事実、数値、科学に関する不確実性のコミュニケーション', Royal Society Open Science, 6(5), 181870\. Available at: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/) (2025年5月17日アクセス)._
+72. _van der Bles, A.M., van der Linden, S., Freeman, A.L.J. and Spiegelhalter, D.J. (2019) 'Communicating uncertainty about facts, numbers and science', Royal Society Open Science, 6(5), 181870\. Available at: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549952/) (2025年5月17日にアクセス)._
 <!-- 73. _Morieux, Y. (2015) How too many rules at work keep you from getting things done: Yves Morieux: Ted Talks, YouTube. At: [https://youtu.be/t NoFstCmQ](https://youtu.be/t__NoFstCmQ) (April 3, 2023)._ -->
 73. _Morieux, Y. (2015) How too many rules at work keep you from getting things done: Yves Morieux: Ted Talks, YouTube. At: [https://youtu.be/t NoFstCmQ](https://youtu.be/t__NoFstCmQ) (2023年4月3日)._
 <!-- 74. _Holland, J.H. (1992) Complex Adaptive Systems. Daedalus, 121(1), pp. 17–30. Available at: [https://www.jstor.org/stable/20025416](https://www.jstor.org/stable/20025416) (Accessed: 17 May 2025)._ -->
-74. _Holland, J.H. (1992) 複雑適応系. Daedalus, 121(1), pp. 17–30. Available at: [https://www.jstor.org/stable/20025416](https://www.jstor.org/stable/20025416) (2025年5月17日アクセス)._
+74. _Holland, J.H. (1992) Complex Adaptive Systems. Daedalus, 121(1), pp. 17–30. Available at: [https://www.jstor.org/stable/20025416](https://www.jstor.org/stable/20025416) (2025年5月17日にアクセス)._
 <!-- 75. _Axelrod, R. and Cohen, M.D. (2000) Harnessing Complexity: Organizational Implications of a Scientific Frontier. New York: Free Press._ -->
 75. _Axelrod, R. and Cohen, M.D. (2000) Harnessing Complexity: Organizational Implications of a Scientific Frontier. New York: Free Press._
 <!-- 76. _Juarrero, A. (1999) Dynamics in Action: Intentional Behavior as a Complex System. Cambridge, MA: MIT Press._ -->
 76. _Juarrero, A. (1999) Dynamics in Action: Intentional Behavior as a Complex System. Cambridge, MA: MIT Press._
 <!-- 77. _Snowden, D.J. and Boone, M.E. (2007) 'A leader's framework for decision making', Harvard Business Review, 85(11), pp. 68–76. Available at: [https://hbr.org/2007/11/a-leaders-framework-for-decision-making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) (Accessed: 17 May 2025\)_ -->
-77. _Snowden, D.J. and Boone, M.E. (2007) 'リーダーの意思決定フレームワーク', Harvard Business Review, 85(11), pp. 68–76. Available at: [https://hbr.org/2007/11/a-leaders-framework-for-decision-making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) (2025年5月17日アクセス)_
+77. _Snowden, D.J. and Boone, M.E. (2007) 'A leader's framework for decision making'（日本語訳版: 「クネビンフレームワーク」による臨機応変の意思決定手法）, Harvard Business Review, 85(11), pp. 68–76. Available at: [https://hbr.org/2007/11/a-leaders-framework-for-decision-making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) (2025年5月17日にアクセス)_
 <!-- 78. _Dictionary Marketing (2024) 'B2B2B'. Available at: [https://dictionarymarketing.com/definition/b2b2b/](https://dictionarymarketing.com/definition/b2b2b/) (Accessed: 17 May 2025)._ -->
-78. _Dictionary Marketing (2024) 'B2B2B'. Available at: [https://dictionarymarketing.com/definition/b2b2b/](https://dictionarymarketing.com/definition/b2b2b/) (2025年5月17日アクセス)._
+78. _Dictionary Marketing (2024) 'B2B2B'. Available at: [https://dictionarymarketing.com/definition/b2b2b/](https://dictionarymarketing.com/definition/b2b2b/) (2025年5月17日にアクセス)._
 <!-- 79. _NetSuite (2023) 'What Is Business to Business to Consumer (B2B2C)?' Available at: [https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml](https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml) (Accessed: 17 May 2025)._ -->
-79. _NetSuite (2023) 'What Is Business to Business to Consumer (B2B2C)?' (B2B2C（Business to Business to Consumer）とは？) Available at: [https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml](https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml) (2025年5月17日アクセス)._
+79. _NetSuite (2023) 'What Is Business to Business to Consumer (B2B2C)?' (B2B2C（Business to Business to Consumer）とは？) Available at: [https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml](https://www.netsuite.com/portal/resource/articles/ecommerce/b2b2c.shtml) (2025年5月17日にアクセス)._
 <!-- 80. _LeSS (n.d.) 'Why LeSS? Achieving adaptiveness'. Available at: [https://less.works/less/framework/why-less](https://less.works/less/framework/why-less) (Accessed: 17 May 2025)._ -->
-80. _LeSS (n.d.) 'Why LeSS? Achieving adaptiveness' (なぜLeSS？適応性の実現). Available at: [https://less.works/less/framework/why-less](https://less.works/less/framework/why-less) (2025年5月17日アクセス)._
+80. _LeSS (n.d.) 'Why LeSS? Achieving adaptiveness' (日本語訳版: 何故 LeSSなのか?). Available at: [https://less.works/less/framework/why-less](https://less.works/less/framework/why-less) (2025年5月17日にアクセス)._
 <!-- 81. _Sociocracy For All (n.d.) 'Gerard Endenburg: founder of Sociocratic Circle Method and pioneer of self-management'. Available at: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (Accessed: 18 May 2025)._ -->
-81. _Sociocracy For All (n.d.) 'Gerard Endenburg: founder of Sociocratic Circle Method and pioneer of self-management' (ジェラルド・エンデンバーグ：ソシオクラティック・サークル・メソッドの創設者と自己管理の先駆者). Available at: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (2025年5月18日アクセス)._
+81. _Sociocracy For All (n.d.) 'Gerard Endenburg: founder of Sociocratic Circle Method and pioneer of self-management'. Available at: [https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/](https://www.sociocracyforall.org/gerard-endenburg-founder-of-sociocratic-circle-method-and-pioneer-of-self-management/) (2025年5月18日にアクセス)._
 <!-- 82. _Patton, J. and Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product. Sebastopol, CA: O'Reilly Media._ -->
-82. _Patton, J. and Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product (日本語訳: ユーザーストーリーマッピング). Sebastopol, CA: O'Reilly Media._
+82. _Patton, J. and Economy, P. (2014) User Story Mapping: Discover the Whole Story, Build the Right Product (日本語訳版: ユーザーストーリーマッピング). Sebastopol, CA: O'Reilly Media._
 <!-- 83. _Kotter, J.P., 1996\. Leading Change. Boston: Harvard Business School Press._ -->
-83. _Kotter, J.P., 1996\. Leading Change (日本語訳: 企業変革力). Boston: Harvard Business School Press._
+83. _Kotter, J.P., 1996\. Leading Change (日本語訳版: 企業変革力). Boston: Harvard Business School Press._
 <!-- 84. _'Genchi Genbutsu' (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (Accessed: 18 May 2025)._ -->
-84. _'現地現物' (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (2025年5月18日アクセス)._
+84. _'Genchi Genbutsu（現地現物）' (2024) Wikipedia. Available at: [https://en.wikipedia.org/wiki/Genchi_genbutsu](https://en.wikipedia.org/wiki/Genchi_genbutsu) (2025年5月18日にアクセス)._
 <!-- 85. _ScrumPlop, n.d. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[Accessed: 18 May 2025\]._ -->
-85. _ScrumPlop, n.d. イリジティマス・ノン・インタラプタス. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[2025年5月18日アクセス\]._
+85. _ScrumPlop, n.d. Illigitimus Non Interruptis. The Scrum Book: The Spirit of the Game. Available at: [https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus](https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/illegitimus-non-interruptus) \[2025年5月18日にアクセス\]._
 <!-- 86. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love. 2nd ed. Hoboken, NJ: Wiley._ -->
-86. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love (日本語訳: INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント). 2nd ed. Hoboken, NJ: Wiley._
+86. _Cagan, M., 2018\. Inspired: How to Create Tech Products Customers Love. 2nd ed（日本語訳版: INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント）. Hoboken, NJ: Wiley._
 <!-- 87. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products. Hoboken, NJ: Wiley._ -->
-87. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products (日本語訳: EMPOWERED 普通のチームが並外れた製品を生み出すプロダクトリーダーシップ). Hoboken, NJ: Wiley._
+87. _Cagan, M. & Jones, C., 2020\. Empowered: Ordinary People, Extraordinary Products (日本語訳版: EMPOWERED 普通のチームが並外れた製品を生み出すプロダクトリーダーシップ). Hoboken, NJ: Wiley._
 <!-- 88. _Cagan, M., 2024\. Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._ -->
-88. _Cagan, M., 2024\. Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._
+88. _Cagan, M., 2024\. Transformed: Moving to the Product Operating Model（日本語訳版: TRANSFORMED イノベーションを起こし真のDXへと導くプロダクトモデル）. Hoboken, NJ: Wiley._
 <!-- 89. _Schwaber, K. (2023) 'Scrum Guide', Ken Schwaber's Blog, 25 September. Available at: [https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/](https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/) (Accessed: 20 May 2025)._ -->
-89. _Schwaber, K. (2023) 'Scrum Guide' (スクラムガイド), Ken Schwaber's Blog, 9月25日. Available at: [https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/](https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/) (2025年5月20日アクセス)._
+89. _Schwaber, K. (2023) 'Scrum Guide', Ken Schwaber's Blog, 25 September. Available at: [https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/](https://kenschwaber.wordpress.com/2023/09/25/scrum-guide/) (2025年5月20日にアクセス)._
 <!-- 90. _Future Ready: How to Master Business Forecasting_  -->
-90. _Future Ready: How to Master Business Forecasting_  
 <!--     _Morlidge, S. & Player, S., 2010\. Future Ready: How to Master Business Forecasting. Chichester: John Wiley & Sons._ -->
+90. _Future Ready: How to Master Business Forecasting_  
     _Morlidge, S. & Player, S., 2010\. Future Ready: How to Master Business Forecasting. Chichester: John Wiley & Sons._
 <!-- 91. _The Little Book of Beyond Budgeting_  -->
-91. _The Little Book of Beyond Budgeting_  
 <!--     _Morlidge, S., 2024\. The Little Book of Beyond Budgeting: A New Management Model for Organisations (Second Edition) \[Beyond Books Press\]_ -->
+91. _The Little Book of Beyond Budgeting_  
     _Morlidge, S., 2024\. The Little Book of Beyond Budgeting: A New Management Model for Organisations (Second Edition) \[Beyond Books Press\]_
 <!-- 92. _The Little (Illustrated) Book of Operational Forecasting_  -->
-92. _The Little (Illustrated) Book of Operational Forecasting_  
 <!--     _Morlidge, S., 2019\. The Little (Illustrated) Book of Operational Forecasting. \[Troubador\]._ -->
+92. _The Little (Illustrated) Book of Operational Forecasting_  
     _Morlidge, S., 2019\. The Little (Illustrated) Book of Operational Forecasting. \[Troubador\]._
 <!-- 93. _Present Sense_  -->
-93. _Present Sense_  
 <!--     _Morlidge, S., 2019\. Present Sense. \[Troubador\]._ -->
+93. _Present Sense_  
     _Morlidge, S., 2019\. Present Sense. \[Troubador\]._
 <!-- 94. _Zen and the Art of Organising Work_  -->
-94. _Zen and the Art of Organising Work_  
 <!--     _Morlidge, S., 2021\. Zen and the Art of Organising Work. \[Troubador\]._ -->
+94. _Zen and the Art of Organising Work_  
     _Morlidge, S., 2021\. Zen and the Art of Organising Work. \[Troubador\]._
 <!-- 95. _Cost Matters_  -->
-95. _Cost Matters_  
 <!--     _Morlidge, S., 2023\. Cost Matters. \[Beyond Books Press\]._ -->
+95. _Cost Matters_  
     _Morlidge, S., 2023\. Cost Matters. \[Beyond Books Press\]._
 <!-- 96. _Beyond Budgeting i praktiken Fahlén, K., 2016\. Beyond Budgeting i praktiken. Stockholm: Liber._ -->
 96. _Beyond Budgeting i praktiken Fahlén, K., 2016\. Beyond Budgeting i praktiken. Stockholm: Liber._
@@ -3305,109 +3351,112 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 <!-- 99. _Boyd, J.R. (1995–1996) The Essence of Winning and Losing. Unpublished briefing slides. Note: Boyd's OODA was primarily disseminated through military briefings and unpublished manuscripts. His final conceptualization appears in The Essence of Winning and Losing, which emphasizes nonlinear decision-making and adaptation in complex environments._ -->
 99. _Boyd, J.R. (1995–1996) The Essence of Winning and Losing. 未出版のブリーフィング・スライド. 注記：BoydのOODAは主に軍事ブリーフィングと未出版の原稿を通じて広まった。彼の最終的な概念化は「The Essence of Winning and Losing」に現れ、複雑な環境における非線形の意思決定と適応を強調している。_
 <!-- 100. _Turner, J.R., Thurlow, N. and Rivera, B. (2019) The Flow System Guide. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (Accessed: 24 May 2025). Summary: This guide integrates Boyd's OODA with complexity theory and agile practices, framing it as a dynamic, non-linear decision-making process for organizational flow._ -->
-100. _Turner, J.R., Thurlow, N. and Rivera, B. (2019) The Flow System Guide. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (2025年5月24日アクセス). 要約：このガイドはBoydのOODAを複雑性理論とアジャイル実践と統合し、組織のフローのための動的で非線形な意思決定プロセスとして枠組み化している。_
+100. _Turner, J.R., Thurlow, N. and Rivera, B. (2019) The Flow System Guide（日本語訳版: フローシステムガイド）. Available at: [https://flowguides.org/Flow_Guide.pdf](https://flowguides.org/Flow_Guide.pdf) (2025年5月24日にアクセス). 要約：このガイドはBoydのOODAを複雑性理論とアジャイル実践と統合し、組織のフローのための動的で非線形な意思決定プロセスとして枠組み化している。_
 <!-- 101. _Williamson, P.J. & Yin, E. (2018) 'Management Innovation Made in China: Haier's Rendanheyi', California Management Review, 61(1), pp. 71-93._ -->
-101. _Williamson, P.J. & Yin, E. (2018) '中国発の経営イノベーション：ハイアールの人単合一', California Management Review, 61(1), pp. 71-93._
+101. _Williamson, P.J. & Yin, E. (2018) 'Management Innovation Made in China: Haier's Rendanheyi', California Management Review, 61(1), pp. 71-93._
 <!-- 102. _Richards, C. (2004) Certain to Win: The Strategy of John Boyd, Applied to Business. Bloomington, IN: Xlibris_ -->
 102. _Richards, C. (2004) Certain to Win: The Strategy of John Boyd, Applied to Business. Bloomington, IN: Xlibris_
 <!-- 103. _Becker, S et al (co-author) The Viable Map Workbook 2023 \[Beyond Books Press\]_ -->
-103. _Becker, S et al (共著) The Viable Map Workbook 2023 \[Beyond Books Press\]_
+103. _Becker, S et al (co-author) The Viable Map Workbook 2023 \[Beyond Books Press\]_
 <!-- 104. _Frey, B.S. and Jegen, R. (2001) 'Motivation crowding theory', Journal of Economic Surveys, 15(5), pp. 589–611._ -->
-104. _Frey, B.S. and Jegen, R. (2001) 'モチベーション・クラウディング理論', Journal of Economic Surveys, 15(5), pp. 589–611._
+104. _Frey, B.S. and Jegen, R. (2001) 'Motivation crowding theory', Journal of Economic Surveys, 15(5), pp. 589–611._
 <!-- 105. _Cameron, J., Banko, K.M. and Pierce, W.D. (2001) 'Pervasive negative effects of rewards on intrinsic motivation: The myth continues', The Behavior Analyst, 24(1), pp. 1–44._ -->
-105. _Cameron, J., Banko, K.M. and Pierce, W.D. (2001) '内発的動機に対する報酬の広範囲な負の効果：神話は続く', The Behavior Analyst, 24(1), pp. 1–44._
+105. _Cameron, J., Banko, K.M. and Pierce, W.D. (2001) 'Pervasive negative effects of rewards on intrinsic motivation: The myth continues', The Behavior Analyst, 24(1), pp. 1–44._ 
 <!-- 106. _Deci, E.L., Koestner, R. and Ryan, R.M. (1999) 'A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation', Psychological Bulletin, 125(6), pp. 627–668._ -->
-106. _Deci, E.L., Koestner, R. and Ryan, R.M. (1999) '外発的報酬が内発的動機に与える効果を検証した実験のメタ分析レビュー', Psychological Bulletin, 125(6), pp. 627–668._
+106. _Deci, E.L., Koestner, R. and Ryan, R.M. (1999) 'A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation', Psychological Bulletin, 125(6), pp. 627–668._
 <!-- 107. _Ryan, R.M. and Deci, E.L. (2000) 'Intrinsic and extrinsic motivations: Classic definitions and new directions', Contemporary Educational Psychology, 25(1), pp. 54–67._ -->
-107. _Ryan, R.M. and Deci, E.L. (2000) '内発的動機と外発的動機：古典的定義と新しい方向性', Contemporary Educational Psychology, 25(1), pp. 54–67._
+107. _Ryan, R.M. and Deci, E.L. (2000) 'Intrinsic and extrinsic motivations: Classic definitions and new directions', Contemporary Educational Psychology, 25(1), pp. 54–67._
 <!-- 108. _Sandel, M.J. (2012) What money can't buy: The moral limits of markets. London: Allen Lane._ -->
-108. _Sandel, M.J. (2012) What money can't buy: The moral limits of markets (日本語訳: それをお金で買いますか). London: Allen Lane._
+108. _Sandel, M.J. (2012) What money can't buy: The moral limits of markets (日本語訳版: それをお金で買いますか 市場主義の限界). London: Allen Lane._
 <!-- 109. _Kohn, A. (1993) 'Why incentive plans cannot work', Harvard Business Review, 71(5), pp. 54–63._ -->
-109. _Kohn, A. (1993) 'インセンティブ制度が機能しない理由', Harvard Business Review, 71(5), pp. 54–63._
+109. _Kohn, A. (1993) 'Why incentive plans cannot work', Harvard Business Review, 71(5), pp. 54–63._
 <!-- 110. _Fuzzy Business: How to be roughly right rather than precisely wrong (unpublished)._ -->
 110. _Fuzzy Business: How to be roughly right rather than precisely wrong (未出版)._
 <!-- 111. _Lewis, R. (2023) An operating model for business agility: Agile for managers of the digital age. Independently published._ -->
 111. _Lewis, R. (2023) An operating model for business agility: Agile for managers of the digital age. 自費出版._
 <!-- 112. _less.works (n.d.) Technical Excellence. Available at: [https://less.works/less/technical-excellence](https://less.works/less/technical-excellence) (Accessed: 7 June 2025\)_ -->
-112. _less.works (n.d.) 技術的優秀性. Available at: [https://less.works/less/technical-excellence](https://less.works/less/technical-excellence) (2025年6月7日アクセス)_
+112. _less.works (n.d.) Technical Excellence（日本語訳: 技術的長所）. Available at: [https://less.works/less/technical-excellence](https://less.works/less/technical-excellence) (2025年6月7日にアクセス)_
 <!-- 113. _Cagan, M. (2024) Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._ -->
-113. _Cagan, M. (2024) Transformed: Moving to the Product Operating Model. Hoboken, NJ: Wiley._
+113. _Cagan, M. (2024) Transformed: Moving to the Product Operating Model（日本語訳版: TRANSFORMED　イノベーションを起こし真のＤＸへと導くプロダクトモデル）. Hoboken, NJ: Wiley._
 <!-- 114. _Cagan, M. (2025) 'The Product Operating Model', Silicon Valley Product Group, 17 March. Available at: [https://www.svpg.com/the-product-operating-model/](https://www.svpg.com/the-product-operating-model/) (Accessed: 8 June 2025)._ -->
-114. _Cagan, M. (2025) 'The Product Operating Model' (プロダクトオペレーティングモデル), Silicon Valley Product Group, 3月17日. Available at: [https://www.svpg.com/the-product-operating-model/](https://www.svpg.com/the-product-operating-model/) (2025年6月8日アクセス)._
+114. _Cagan, M. (2025) 'The Product Operating Model', Silicon Valley Product Group, 17 March. Available at: [https://www.svpg.com/the-product-operating-model/](https://www.svpg.com/the-product-operating-model/) (2025年6月8日にアクセス)._
 <!-- 115. _Cagan, M. (n.d.) 'The Product Operating Model: An Introduction', Silicon Valley Product Group. Available at: [https://www.svpg.com/the-product-operating-model-an-introduction/](https://www.svpg.com/the-product-operating-model-an-introduction/) (Accessed: 8 June 2025\)_ -->
-115. _Cagan, M. (n.d.) 'The Product Operating Model: An Introduction' (プロダクトオペレーティングモデル：入門), Silicon Valley Product Group. Available at: [https://www.svpg.com/the-product-operating-model-an-introduction/](https://www.svpg.com/the-product-operating-model-an-introduction/) (2025年6月8日アクセス)_
+115. _Cagan, M. (n.d.) 'The Product Operating Model: An Introduction', Silicon Valley Product Group. Available at: [https://www.svpg.com/the-product-operating-model-an-introduction/](https://www.svpg.com/the-product-operating-model-an-introduction/) (2025年6月8日にアクセス)_
 <!-- 116. _Scrum.org (2025) 'The Agile Product Operating Model', Scrum.org, 1 May. Available at: [https://www.scrum.org/resources/agile-product-operating-model](https://www.scrum.org/resources/agile-product-operating-model) (Accessed: 8 June 2025)._ -->
-116. _Scrum.org (2025) 'The Agile Product Operating Model' (アジャイルプロダクトオペレーティングモデル), Scrum.org, 5月1日. Available at: [https://www.scrum.org/resources/agile-product-operating-model](https://www.scrum.org/resources/agile-product-operating-model) (2025年6月8日アクセス)._
+116. _Scrum.org (2025) 'The Agile Product Operating Model' (日本語訳: アジャイルプロダクトオペレーティングモデル), Scrum.org, 5月1日. Available at: [https://www.scrum.org/resources/agile-product-operating-model](https://www.scrum.org/resources/agile-product-operating-model) (2025年6月8日にアクセス)._
 <!-- 117. _Scrum.org (2025) 'Agile Product Operating Model State of Play \- Part 1 \- Fundamentals', Scrum.org, 12 May. Available at: [https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals](https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals) (Accessed: 8 June 2025)._ -->
-117. _Scrum.org (2025) 'Agile Product Operating Model State of Play \- Part 1 \- Fundamentals' (アジャイルプロダクトオペレーティングモデルの現状 - パート1 - 基礎), Scrum.org, 5月12日. Available at: [https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals](https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals) (2025年6月8日アクセス)._
+117. _Scrum.org (2025) 'Agile Product Operating Model State of Play \- Part 1 \- Fundamentals', Scrum.org, 12 May. Available at: [https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals](https://www.scrum.org/resources/blog/agile-product-operating-model-state-play-part-1-fundamentals) (2025年6月8日にアクセス)._
 <!-- 118. _Scrum.org (2024) 'Project to Product and the Agile Product Operating Model', Scrum.org, 7 November. Available at: [https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model](https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model) (Accessed: 8 June 2025)._ -->
-118. _Scrum.org (2024) 'Project to Product and the Agile Product Operating Model' (プロジェクトからプロダクトへ、そしてアジャイルプロダクトオペレーティングモデル), Scrum.org, 11月7日. Available at: [https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model](https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model) (2025年6月8日アクセス)._
+118. _Scrum.org (2024) 'Project to Product and the Agile Product Operating Model', Scrum.org, 7 November. Available at: [https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model](https://www.scrum.org/resources/blog/project-product-and-agile-product-operating-model) (2025年6月8日アにクセス)._
 <!-- 119. _Scrum.org (2024) Moving to an Agile Product Operating Model \[PDF\]. Available at: [https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age](https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age) or [https://bit.ly/SDOAPOM](https://bit.ly/SDOAPOM). (Accessed: 8 June 2025\)_ -->
-119. _Scrum.org (2024) アジャイルプロダクトオペレーティングモデルへの移行 \[PDF\]. Available at: [https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age](https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age) or [https://bit.ly/SDOAPOM](https://bit.ly/SDOAPOM). (2025年6月8日アクセス)_
+119. _Scrum.org (2024) Moving to an Agile Product Operating Model \[PDF\]. Available at: [https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age](https://www.scrum.org/resources/moving-agile-product-operating-model-evidence-based-approach-delivering-products-digital-age)_ _or [https://bit.ly/SDOAPOM](https://bit.ly/SDOAPOM). (2025年6月8日にアクセス)_
 <!-- 120. _Scotland, K. (2023) Why strategy deployment? Here are three great reasons, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (Accessed: April 3, 2023)._ -->
-120. _Scotland, K. (2023) なぜ戦略展開なのか？3つの素晴らしい理由, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (2023年4月3日アクセス)._2001) 'Motivation crowding theory', Journal of Economic Surveys, 15(5), pp. 589–611._ -->
+120. _Scotland, K. (2023) Why strategy deployment? Here are three great reasons, AvailAgility. At: [https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/](https://availagility.co.uk/2023/02/16/why-strategy-deployment-here-are-three-great-reasons/) (2023年4月3日にアクセス)._
+<!-- 121. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (Accessed: April 3, 2023)._ -->
+121. _Scotland, K. (2019) Deploying strategies as choices, AvailAgility. At: [https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/](https://availagility.co.uk/2019/02/08/deploying-strategies-as-choices/) (2023年4月3日にアクセス)._
 <!-- 122. _Scotland, K. (2017) Strategy deployment and playing to win, AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (Accessed: April 3, 2023)._ -->
-122. _Scotland, K. (2017) Strategy deployment and playing to win (戦略展開と勝利への挑戦), AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (2023年4月3日アクセス)._
+122. _Scotland, K. (2017) Strategy deployment and playing to win, AvailAgility. At: [https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/](https://availagility.co.uk/2017/07/14/strategy-deployment-and-playing-to-win/) (2023年4月3日にアクセス)._
 <!-- 123. _Scotland, K. (2017) A strategy deployment cadence, AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (Accessed: April 3, 2023)._ -->
-123. _Scotland, K. (2017) A strategy deployment cadence (戦略展開のケイデンス), AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (2023年4月3日アクセス)._
+123. _Scotland, K. (2017) A strategy deployment cadence, AvailAgility. At: [https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/](https://availagility.co.uk/2017/09/06/a-strategy-deployment-cadence/) (2023年4月3日にアクセス)._
 <!-- 124. _Scotland, K. (2022) The ultimate X-matrix for your agile transformation is here, AvailAgility. At: [https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/](https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/) (Accessed: April 5, 2023)._ -->
-124. _Scotland, K. (2022) The ultimate X-matrix for your agile transformation is here (あなたのアジャイル変革のための究極のX-matrixがここに), AvailAgility. At: [https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/](https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/) (2023年4月5日アクセス)._
+124. _Scotland, K. (2022) The ultimate X-matrix for your agile transformation is here, AvailAgility. At: [https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/](https://availagility.co.uk/2022/11/03/the-ultimate-x-matrix-for-youragile-transformation-is-here/) (2023年4月5日にアクセス)._
 <!-- 125. _Krebs, J. (2023) Agile kata pro, Agile Kata Pro. At: [https://agilekata.pro/](https://agilekata.pro/) (Accessed: April 4, 2023)._ -->
-125. _Krebs, J. (2023) アジャイル・カタ・プロ, Agile Kata Pro. At: [https://agilekata.pro/](https://agilekata.pro/) (2023年4月4日アクセス)._
+125. _Krebs, J. (2023) アジャイルのカタ・プロ, Agile Kata Pro. At: [https://agilekata.pro/](https://agilekata.pro/) (2023年4月4日にアクセス)._
 <!-- 126. _Doerr, J. (2023) OKRs 101, What Matters. At: [https://www.whatmatters.com/get-started/](https://www.whatmatters.com/get-started/) (Accessed: April 4, 2023)._ -->
-126. _Doerr, J. (2023) OKRs 101, What Matters. At: [https://www.whatmatters.com/get-started/](https://www.whatmatters.com/get-started/) (2023年4月4日アクセス)._
+126. _Doerr, J. (2023) OKRs 101, What Matters. At: [https://www.whatmatters.com/get-started/](https://www.whatmatters.com/get-started/) (2023年4月4日にアクセス)._
 <!-- 127. _Wodtke, C. (2021) Radical focus achieving your most important goals with objectives and key results--. Palo Alto, CA: Cucina Media._ -->
-127. _Wodtke, C. (2021) Radical focus achieving your most important goals with objectives and key results--. Palo Alto, CA: Cucina Media._
+127. _Wodtke, C. (2021) Radical focus achieving your most important goals with objectives and key results--（日本語訳版: OKR(オーケーアール) シリコンバレー式で大胆な目標を達成する方法）. Palo Alto, CA: Cucina Media._
 <!-- 128. _Gothelf, J. & Seiden, J. (2024) Who Does What By How Much?: A Practical Guide to Customer-Centric OKRs. New York: Sense & Respond Press._ -->
 128. _Gothelf, J. & Seiden, J. (2024) Who Does What By How Much?: A Practical Guide to Customer-Centric OKRs. New York: Sense & Respond Press._
 <!-- 129. _Appelo, J. (2023) Sometimes, you \*don't\* want focus, unFIX. At: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (Accessed: 14 January 2024)._ -->
-129. _Appelo, J. (2023) Sometimes, you \*don't\* want focus (時には、あなたは集中を望まない), unFIX. At: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (2024年1月14日アクセス)._
+129. _Appelo, J. (2023) Sometimes, you \*don't\* want focus, unFIX. At: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (2024年1月14日にアクセス)._
 <!-- 130. _Appelo, J. (2023) Bets and objectives, unFIX. At: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (Accessed: 14 January 2024)._ -->
-130. _Appelo, J. (2023) Bets and objectives (賭けと目標), unFIX. At: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (2024年1月14日アクセス)._
+130. _Appelo, J. (2023) Bets and objectives, unFIX. At: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (2024年1月14日にアクセス)._
 <!-- 131. _McChesney, C. (2023) The 4 disciplines of execution (new), FranklinCovey. At: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (Accessed: April 4, 2023)._ -->
-131. _McChesney, C. (2023) The 4 disciplines of execution (new) (日本語訳: 実行の4つの規律), FranklinCovey. At: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (2023年4月4日アクセス)._
+131. _McChesney, C. (2023) The 4 disciplines of execution (new) (日本語訳版: 実行の4つの規律 行動を変容し継続性を徹底する), FranklinCovey. At: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (2023年4月4日にアクセス)._
 <!-- 132. _Scrum.org (2024) Evidence-Based Management (EBM) Framework, Scrum.org. Available at: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (Accessed: 8 June 2025)._ -->
-132. _Scrum.org (2024) Evidence-Based Management (EBM) Framework (エビデンスベースドマネジメント), Scrum.org. Available at: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (2025年6月8日アクセス)._
+132. _Scrum.org (2024) Evidence-Based Management (EBM) Framework (日本語訳: エビデンスベースドマネジメント), Scrum.org. Available at: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (2025年6月8日にアクセス)._
 <!-- 133. _Burrows, M. (2023) Home: Agendashift™, Agendashift. At: [https://www.agendashift.com/](https://www.agendashift.com/) (Accessed: April 4, 2023)._ -->
-133. _Burrows, M. (2023) ホーム: Agendashift™, Agendashift. At: [https://www.agendashift.com/](https://www.agendashift.com/) (2023年4月4日アクセス)._
+133. _Burrows, M. (2023) Home: Agendashift™, Agendashift. At: [https://www.agendashift.com/](https://www.agendashift.com/) (2023年4月4日にアクセス)._
 <!-- 134. _Kniberg, H. and Ivarsson, A. (2012) Scaling at Spotify, Crisp. At: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (Accessed: April 5, 2023)._ -->
-134. _Kniberg, H. and Ivarsson, A. (2012) Scaling at Spotify (Spotifyでのスケーリング), Crisp. At: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (2023年4月5日アクセス)._
+134. _Kniberg, H. and Ivarsson, A. (2012) Scaling at Spotify, Crisp. At: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (2023年4月5日にアクセス)._
 <!-- 135. _Ambler, S.W. and Lines, M. (2023) Disciplined Agile® Toolkit \- Project Management Institute, PMI. At: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (Accessed: April 5, 2023)._ -->
-135. _Ambler, S.W. and Lines, M. (2023) Disciplined Agile® Toolkit \- Project Management Institute, PMI. At: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (2023年4月5日アクセス)._
+135. _Ambler, S.W. and Lines, M. (2023) Disciplined Agile® Toolkit \- Project Management Institute, PMI. At: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (2023年4月5日にアクセス)._
 <!-- 136. _Leffingwell, D. and Knaster, R. (2023) Safe 6.0 framework, Scaled Agile Framework. At: [https://www.scaledagileframework.com/](https://www.scaledagileframework.com/) (Accessed: April 5, 2023)._ -->
-136. _Leffingwell, D. and Knaster, R. (2023) SAFe 6.0フレームワーク, Scaled Agile Framework. At: [https://www.scaledagileframework.com/](https://www.scaledagileframework.com/) (2023年4月5日アクセス)._
+136. _Leffingwell, D. and Knaster, R. (2023) Safe 6.0 framework, Scaled Agile Framework. At: [https://www.scaledagileframework.com/](https://www.scaledagileframework.com/) (2023年4月5日にアクセス)._
 <!-- 137. _Sutherland, J. (2021) Scrum@Scale \- the scaling framework created by dr. Jeff Sutherland, Scrum@Scale Framework. At: [https://www.scrumatscale.com/](https://www.scrumatscale.com/) (Accessed: April 5, 2023)._ -->
-137. _Sutherland, J. (2021) Scrum@Scale - Jeff Sutherland博士によって作られたスケーリングフレームワーク, Scrum@Scale Framework. At: [https://www.scrumatscale.com/](https://www.scrumatscale.com/) (2023年4月5日アクセス)._
+137. _Sutherland, J. (2021) Scrum@Scale - Jeff Sutherland博士によって作られたスケーリングフレームワーク, Scrum@Scale Framework. At: [https://www.scrumatscale.com/](https://www.scrumatscale.com/) (2023年4月5日にアクセス)._
 <!-- 138. _Skelton, M. and Pais, M. (2023) Team topologies, Team Topologies. At: [https://teamtopologies.com/](https://teamtopologies.com/) (Accessed: April 5, 2023)._ -->
-138. _Skelton, M. and Pais, M. (2023) Team topologies(チームトポロジー), Team Topologies. At: [https://teamtopologies.com/](https://teamtopologies.com/) (2023年4月5日アクセス)._
+138. _Skelton, M. and Pais, M. (2023) Team topologies(日本語訳版: チームトポロジー　価値あるソフトウェアをすばやく届ける適応型組織設計), Team Topologies. At: [https://teamtopologies.com/](https://teamtopologies.com/) (2023年4月5日にアクセス)._
 <!-- 139. _Appelo, J. (2023) Versatile Organization Design, unFIX. At: [https://unfix.com/](https://unfix.com/) (Accessed: April 5, 2023)._ -->
-139. _Appelo, J. (2023) 多用途組織デザイン, unFIX. At: [https://unfix.com/](https://unfix.com/) (2023年4月5日アクセス)._
+139. _Appelo, J. (2023) Versatile Organization Design, unFIX. At: [https://unfix.com/](https://unfix.com/) (2023年4月5日にアクセス)._
 <!-- 140. _Merel, P. (2023) Xscale Alliance, XSCALE Alliance. At: [https://xscalealliance.org/\#manifesto](https://xscalealliance.org/#manifesto) (Accessed: April 5, 2023)._ -->
-140. _Merel, P. (2023) Xscale Alliance, XSCALE Alliance. At: [https://xscalealliance.org/\#manifesto](https://xscalealliance.org/#manifesto) (2023年4月5日アクセス)._
+140. _Merel, P. (2023) Xscale Alliance, XSCALE Alliance. At: [https://xscalealliance.org/\#manifesto](https://xscalealliance.org/#manifesto) (2023年4月5日にアクセス)._
 <!-- 141. _Schwaber, K. et al. (2021) Online nexus guide, Scrum.org. At: [https://www.scrum.org/resources/online-nexus-guide](https://www.scrum.org/resources/online-nexus-guide) (Accessed: April 5, 2023)._ -->
-141. _Schwaber, K. et al. (2021) Online nexus guide (オンライン・ネクサス・ガイド), Scrum.org. At: [https://www.scrum.org/resources/online-nexus-guide](https://www.scrum.org/resources/online-nexus-guide) (2023年4月5日アクセス)._
+141. _Schwaber, K. et al. (2021) Online nexus guide (日本語訳: Nexusガイド), Scrum.org. At: [https://www.scrum.org/resources/online-nexus-guide](https://www.scrum.org/resources/online-nexus-guide) (2023年4月5日にアクセス)._
 <!-- 142. _Quartel, R. et al. (2024) FaST guide, Fluid Scaling Technology. At: [https://www.fastagile.io/](https://www.fastagile.io/) (Accessed: December 6, 2023)._ -->
-142. _Quartel, R. et al. (2024) FaSTガイド, Fluid Scaling Technology. At: [https://www.fastagile.io/](https://www.fastagile.io/) (2023年12月6日アクセス)._
+142. _Quartel, R. et al. (2024) FaST guide（日本語訳: FaSTガイド）, Fluid Scaling Technology. At: [https://www.fastagile.io/](https://www.fastagile.io/) (2023年12月6日にアクセス)._
 <!-- 143. _Ramos, C. and Pavlichenko, I. (2023) Creating agile organizations, Creating Agile Organizations. At: [https://creatingagileorganizations.com/](https://creatingagileorganizations.com/) (Accessed: April 15, 2023)._ -->
-143. _Ramos, C. and Pavlichenko, I. (2023) Creating agile organizations(アジャイル組織の創造), Creating Agile Organizations. At: [https://creatingagileorganizations.com/](https://creatingagileorganizations.com/) (2023年4月15日アクセス)._
+143. _Ramos, C. and Pavlichenko, I. (2023) Creating agile organizations, Creating Agile Organizations. At: [https://creatingagileorganizations.com/](https://creatingagileorganizations.com/) (2023年4月15日にアクセス)._
 <!-- 144. _Larman, C. & Vodde, B. (2025) LeSS (Large-Scale Scrum) Framework. Available at: [https://less.works/less/framework](https://less.works/less/framework) (Accessed: 8 June 2025\)_ -->
-144. _Larman, C. & Vodde, B. (2025) LeSS（大規模スクラム）フレームワーク. Available at: [https://less.works/less/framework](https://less.works/less/framework) (2025年6月8日アクセス)_
+144. _Larman, C. & Vodde, B. (2025) LeSS (Large-Scale Scrum) Framework. Available at: [https://less.works/less/framework](https://less.works/less/framework) (2025年6月8日にアクセス)_
 <!-- 145. _Flight Levels GmbH (2025) Flight Levels Framework. Available at: [https://www.flightlevels.io/what-is-flight-levels/](https://www.flightlevels.io/what-is-flight-levels/) (Accessed: 8 June 2025)._ -->
-145. _Flight Levels GmbH (2025) Flight Levels Framework (フライトレベルズ・フレームワーク). Available at: [https://www.flightlevels.io/what-is-flight-levels/](https://www.flightlevels.io/what-is-flight-levels/) (2025年6月8日アクセス)._
+145. _Flight Levels GmbH (2025) Flight Levels Framework. Available at: [https://www.flightlevels.io/what-is-flight-levels/](https://www.flightlevels.io/what-is-flight-levels/) (2025年6月8日にアクセス)._
 <!-- 146. _Krivitsky, A. and Flemm, R. (2022) Org topologies, Org Topologies. At: [https://www.orgtopologies.com/](https://www.orgtopologies.com/) (Accessed: April 4, 2023)._ -->
-146. _Krivitsky, A. and Flemm, R. (2022) Org topologies (組織トポロジー), Org Topologies. At: [https://www.orgtopologies.com/](https://www.orgtopologies.com/) (2023年4月4日アクセス)._
+146. _Krivitsky, A. and Flemm, R. (2022) Org topologies, Org Topologies. At: [https://www.orgtopologies.com/](https://www.orgtopologies.com/) (2023年4月4日にアクセス)._
 <!-- 147. _Singh, P. (2023) Scaling Simplified: A Practitioner's Guide to Scaling Flow. Florida: Self-published. Available at: [https://leanpub.com/scalingsimplified](https://leanpub.com/scalingsimplified) (Accessed: 8 June 2025\)_ -->
-147. _Singh, P. (2023) Scaling Simplified: A Practitioner's Guide to Scaling Flow. Florida: 自費出版. Available at: [https://leanpub.com/scalingsimplified](https://leanpub.com/scalingsimplified) (2025年6月8日アクセス)_
+147. _Singh, P. (2023) Scaling Simplified: A Practitioner's Guide to Scaling Flow. Florida: 自費出版. Available at: [https://leanpub.com/scalingsimplified](https://leanpub.com/scalingsimplified) (2025年6月8日にアクセス)_
 <!-- 148. _Davies, Dan. (2025) The Unaccountability Machine: Why Big Systems Make Terrible Decisions—and How the World Lost Its Mind. London: Profile Books Ltd. (Paperback edition)._ -->
 148. _Davies, Dan. (2025) The Unaccountability Machine: Why Big Systems Make Terrible Decisions—and How the World Lost Its Mind. London: Profile Books Ltd. (ペーパーバック版)._
 <!-- 149. _Stripe (2025) 'Sir Jony Ive and Patrick Collison Fireside Chat | Stripe Sessions 2025', YouTube video, 8 May. Available at: [https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3\&t=1390](https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3&t=1390) (Accessed: 8 June 2025\)_ -->
-149. _Stripe (2025) 'Sir Jony Ive and Patrick Collison Fireside Chat (サー・ジョニー・アイブとパトリック・コリソンの炉辺談話) | Stripe Sessions 2025', YouTube動画, 5月8日. Available at: [https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3\&t=1390](https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3&t=1390) (2025年6月8日アクセス)_
+149. _Stripe (2025) 'Sir Jony Ive and Patrick Collison Fireside Chat | Stripe Sessions 2025', YouTube video, 8 May. Available at: [https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3\&t=1390](https://youtu.be/wLb9g_8r-mE?si=1rEJxU0sxixvblQ3&t=1390) (2025年6月8日にアクセス)_
 
 
 ## スクラムガイド拡張パック用語集
 &nbsp;
 
 **役割・チーム**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Scrum Team | スクラムチーム | スクラムマスター、プロダクトオーナー、開発者で構成される |
@@ -3428,6 +3477,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 &nbsp;
 
 **作成物（Artifacts）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Product | プロダクト | 価値を提供する成果物 |
@@ -3439,6 +3489,7 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 &nbsp;
 
 **コミットメント（Commitments）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Product Goal | プロダクトゴール | プロダクトの将来の状態 |
@@ -3451,7 +3502,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**イベント（Events）**
+**イベント（Events）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Sprint | スプリント | 作業の反復期間 |
@@ -3463,7 +3515,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**価値基準（Values）**
+**価値基準（Values）**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Commitment | 確約 | ゴール達成への献身 |
@@ -3474,7 +3527,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**三本柱**
+**三本柱**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Transparency | 透明性 | 作業と成果の可視化 |
@@ -3483,7 +3537,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**理論・概念**
+**理論・概念**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Empiricism | 経験主義 | 経験と観察に基づく知識獲得 |
@@ -3499,7 +3554,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**プロダクト関連**
+**プロダクト関連**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Product Vision | プロダクトビジョン | 長期的な望ましい成果 |
@@ -3519,7 +3575,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**プロセス・活動**
+**プロセス・活動**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Discovery | 発見 | 問題や機会の探索 |
@@ -3533,7 +3590,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**品質・技術**
+**品質・技術**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Technical Excellence | 技術的卓越性 | 高品質な技術実践 |
@@ -3543,7 +3601,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**組織・フレームワーク**
+**組織・フレームワーク**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Beyond Budgeting | 脱予算経営 | 従来予算を超越した管理手法 |
@@ -3554,7 +3613,8 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**AI・技術**
+**AI・技術**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Artificial Intelligence (AI) | 人工知能（AI） | 人間の知能を模倣する技術 |
@@ -3563,21 +3623,23 @@ For situations where expertise alone is sufficient (or perhaps bordering on bein
 
 &nbsp;
 
-**フレームワーク・理論**
+**フレームワーク・理論**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Cynefin® | クネビン | 意思決定のためのフレームワーク Basic Cynefin® |
-| Ordered | 秩序系 | クネビン：因果関係が明確で、ベストプラクティスが適用可能な問題領域 |
-| Complicated | 煩雑系 | クネビン：因果関係は分析可能だが、専門知識が必要な問題領域 |
-| Complex | 複雑系 | クネビン：因果関係が事後的にのみ理解でき、創発的実践が必要な問題領域 |
-| Chaotic | 混沌系 | クネビン：因果関係が不明で、迅速な行動と安定化が必要な問題領域 |
-| Disorder | 無秩序 | クネビン：どの領域に属するか不明な状態 |
+| Ordered | 秩序 | クネビン：因果関係が明確で、ベストプラクティスが適用可能な問題領域 |
+| Complicated | 煩雑 | クネビン：因果関係は分析可能だが、専門知識が必要な問題領域 |
+| Complex | 複雑 | クネビン：因果関係が事後的にのみ理解でき、創発的実践が必要な問題領域 |
+| Chaotic | 混沌 | クネビン：因果関係が不明で、迅速な行動と安定化が必要な問題領域 |
+| Aporetic | 無秩序 | クネビン：どの領域に属するか不明な状態 |
 | OODA | OODA | 観察・方向付け・決定・行動のサイクル。迅速な意思決定と適応のためのループ |
 | Systems Thinking | システム思考 | 部分最適化を避け、システム全体の相互作用を考慮した思考法 |
 
 &nbsp;
 
-**その他**
+**その他**  
+
 | 英語 | 日本語 | 説明 |
 |------|--------|------|
 | Timebox | タイムボックス | 作業時間の上限設定 |
