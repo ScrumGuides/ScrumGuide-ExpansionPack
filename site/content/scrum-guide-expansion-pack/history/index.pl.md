@@ -1,5 +1,5 @@
 ---
-title: "History"
+title: "Historia"
 layout: history
 type: guide
 ---
