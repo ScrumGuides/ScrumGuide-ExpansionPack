@@ -10,7 +10,7 @@ languages:
   fa:
     disabled: false
   pl:
-    disabled: true
+    disabled: false
   nl:
     disabled: true
   de:
