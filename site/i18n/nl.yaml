@@ -8,6 +8,7 @@
 - id: read_online_action
   translation: "Online lezen"
 
+- id: read_online_description
 # Missing translations for Dutchtion
   translation: "Krijg digitaal toegang tot de volledige gids met interactieve functies en eenvoudige navigatie."
 
