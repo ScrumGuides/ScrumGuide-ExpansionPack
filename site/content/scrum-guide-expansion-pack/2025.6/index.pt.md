@@ -1,6 +1,6 @@
 ---
 title: Pacote de Expansão do Guia do Scrum
-description: O Pacote de Expansão do Guia do Scrum é um guia complementar abrangente ao Guia do Scrum 2020, criado para ajudar profissionais a navegarem pelos complexos ambientes de produto da atualidade. Ele aprofunda a compreensão dos princípios centrais do Scrum ao oferecer orientações adicionais sobre complexidade, mentalidade de produto, sistemas de trabalho e liderança, mantendo-se fiel aos pilares do Scrum: empirismo e autogestão. Não se trata de uma reescrita, mas sim de uma ampliação estratégica para apoiar entregas sustentáveis e orientadas por valor em equipes modernas.
+description: "O Pacote de Expansão do Guia do Scrum é um guia complementar abrangente ao Guia do Scrum 2020, criado para ajudar profissionais a navegarem pelos complexos ambientes de produto da atualidade. Ele aprofunda a compreensão dos princípios centrais do Scrum ao oferecer orientações adicionais sobre complexidade, mentalidade de produto, sistemas de trabalho e liderança, mantendo-se fiel aos pilares do Scrum: empirismo e autogestão. Não se trata de uma reescrita, mas sim de uma ampliação estratégica para apoiar entregas sustentáveis e orientadas por valor em equipes modernas."
 keywords:
   - Scrum
   - Scrum moderno
@@ -14,7 +14,7 @@ author:
   - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 type: guide
-lang: en
+lang: pt
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
