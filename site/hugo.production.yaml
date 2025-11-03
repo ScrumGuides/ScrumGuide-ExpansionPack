@@ -19,3 +19,5 @@ languages:
     disabled: true
   es:
     disabled: false
+  pt:
+    disabled: false
