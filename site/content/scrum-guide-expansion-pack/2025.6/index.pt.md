@@ -12,7 +12,7 @@ author:
   - Ralph Jocham
   - John Coleman
   - Jeff Sutherland
-date: 2025-06-11T09:00:00Z
+date: 2025-11-03T09:00:00Z
 type: guide
 lang: pt
 mainfont: "Times New Roman"
@@ -21,7 +21,7 @@ monofont: "Courier New"
 sitemap:
   priority: 1.0
 aliases:
-  - /scrum-guide-expansion-pack/latest/
+  - /pt/scrum-guide-expansion-pack/latest/
 ---
 
 Baseado no [Scrum Guide](https://scrumguides.org/) original de Ken Schwaber & Jeff Sutherland (40)
