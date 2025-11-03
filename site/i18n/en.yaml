@@ -193,3 +193,58 @@
 
 - id: download_reference_status
   translation: "Reference"
+
+# Missing translations found in Farsi file
+- id: breadcrumb_home
+  translation: "Home"
+
+- id: nav_read_guide
+  translation: "Read Guide"
+
+- id: translations_button
+  translation: "Translations"
+
+- id: nav_history
+  translation: "History"
+
+- id: history_button
+  translation: "History"
+
+- id: at_a_glance_title
+  translation: "At a Glance"
+
+- id: guide_table_of_contents
+  translation: "Table of Contents"
+
+- id: current_open_guide_label
+  translation: "Current Open Guide"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_updated_label
+  translation: "Updated"
+
+- id: available_languages_label
+  translation: "Available Languages"
+
+- id: translators_label
+  translation: "Translators"
+
+- id: pdf_downloads_label
+  translation: "PDF Downloads"
+
+- id: guide_version_label
+  translation: "Version"
+
+- id: living_document_updated_label
+  translation: "This living document was last updated on"
+
+- id: read_guide_button
+  translation: "Read Guide"
+
+- id: translations_button_small
+  translation: "Translations"
+
+- id: guide_back_to_home
+  translation: "Back to Home"

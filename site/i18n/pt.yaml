@@ -193,3 +193,58 @@
 
 - id: download_reference_status
   translation: "Referência"
+
+# Missing translations from Farsi file
+- id: breadcrumb_home
+  translation: "Início"
+
+- id: nav_read_guide
+  translation: "Ler Guia"
+
+- id: translations_button
+  translation: "Traduções"
+
+- id: nav_history
+  translation: "Histórico"
+
+- id: history_button
+  translation: "Histórico"
+
+- id: at_a_glance_title
+  translation: "Visão Geral"
+
+- id: guide_table_of_contents
+  translation: "Índice"
+
+- id: current_open_guide_label
+  translation: "Guia Aberto Atual"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_updated_label
+  translation: "Atualizado"
+
+- id: available_languages_label
+  translation: "Idiomas Disponíveis"
+
+- id: translators_label
+  translation: "Tradutores"
+
+- id: pdf_downloads_label
+  translation: "Downloads PDF"
+
+- id: guide_version_label
+  translation: "Versão"
+
+- id: living_document_updated_label
+  translation: "Este documento vivo foi atualizado pela última vez em"
+
+- id: read_guide_button
+  translation: "Ler Guia"
+
+- id: translations_button_small
+  translation: "Traduções"
+
+- id: guide_back_to_home
+  translation: "Voltar ao Início"
