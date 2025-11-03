@@ -86,6 +86,14 @@ languages:
     params:
       description: ScrumExpansion.orgは、複雑な作業やAI、適応的な戦略にスクラムを適用するための最新ガイダンス「スクラムガイド拡張パック」を提供しています。
       keywords: スクラム, ScrumExpansion.org, スクラムガイド拡張パック
+  pt:
+    languageName: Português
+    weight: 5
+    title: Pacote de Expansão do Guia Scrum
+    languageCode: pt
+    params:
+      description: ScrumExpansion.org hospeda o Pacote de Expansão do Guia Scrum—orientações modernas para aplicar Scrum em trabalhos complexos, IA e estratégia adaptativa.
+      keywords: Scrum, ScrumExpansion.org, Pacote de Expansão do Guia Scrum, orientações Scrum, práticas avançadas de Scrum, Scrum para trabalho moderno, empresa adaptativa, entrega ágil de produto, Scrum empírico, pensamento de produto, teoria da complexidade em Scrum, liderança Scrum, Scrum profissional, Scrum e IA, recursos Scrum, centro de aprendizagem Scrum, site da comunidade Scrum
 params:
   description: Scrum Guides 2025 Expansion Pack
   keywords: Scrum
