@@ -1,37 +1,37 @@
 ---
-title: Scrum Guide Expansion Pack
-description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments.
-slug: scrum-guide-expansion-pack
+title: Pacote de Expansão do Guia Scrum
+description: O Pacote de Expansão do Guia Scrum é um companheiro abrangente do Guia Scrum 2020, criado para ajudar profissionais a navegar pelos ambientes complexos de produtos de hoje.
+slug: pacote-expansao-guia-scrum
 Type: "guide"
 Layout: "root"
 brand:
   bg_colour: "#0072B2"
   image: "images/scrum-guide-expansion-pack-logo-solo.png"
 guide_whatis: |
-  The **Scrum Guide Expansion Pack** exists because the way we build products keeps changing; fast.
+  O **Pacote de Expansão do Guia Scrum** existe porque a forma como construímos produtos continua mudando; rapidamente.
 
-  The [2020 Scrum Guide](https://scrumguides.org/scrum-guide.html) remains solid, but many practitioners began asking how to stay focused on outcomes, work with AI in the team, and keep Scrum simple in fast-moving environments.
+  O [Guia Scrum 2020](https://scrumguides.org/scrum-guide.html) permanece sólido, mas muitos praticantes começaram a perguntar como manter o foco nos resultados, trabalhar com IA na equipe e manter o Scrum simples em ambientes de movimento rápido.
 
-  This Expansion Pack doesn’t replace the Scrum Guide; it complements it for those needing more clarity in today’s context. The goal wasn’t to add rules, but to reinforce the spirit of Scrum, around product thinking, emergence, and strategic focus. It helps teams learn fast, adapt, and deliver value, even in uncertain, accelerated, tech-driven settings.
+  Este Pacote de Expansão não substitui o Guia Scrum; ele o complementa para aqueles que precisam de mais clareza no contexto atual. O objetivo não era adicionar regras, mas reforçar o espírito do Scrum, em torno do pensamento de produto, emergência e foco estratégico. Ajuda as equipes a aprender rapidamente, adaptar-se e entregar valor, mesmo em configurações incertas, aceleradas e orientadas pela tecnologia.
 guide_overview: |
   TODO guide_overview
 weight: 2
 guide_license: |
-  License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
+  Licença: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0 ).
 guide_comparison:
-  - title: Purpose
-    content: "Strategic companion to the Scrum Guide"
+  - title: Propósito
+    content: "Companheiro estratégico do Guia Scrum"
   - title: Ethos
-    content: "Empirical, value-driven, system-aware"
-  - title: Audience
-    content: "Scrum professionals facing complex delivery challenges"
-  - title: Use Case
-    content: "How do we deepen our Scrum practice in modern environments?"
-  - title: Content
-    content: "Focused on complexity, systems of work, product thinking, and leadership"
-  - title: Update Model
-    content: "Expert-curated, community-informed"
+    content: "Empírico, orientado por valor, consciente do sistema"
+  - title: Público
+    content: "Profissionais Scrum enfrentando desafios complexos de entrega"
+  - title: Caso de Uso
+    content: "Como aprofundamos nossa prática Scrum em ambientes modernos?"
+  - title: Conteúdo
+    content: "Focado em complexidade, sistemas de trabalho, pensamento de produto e liderança"
+  - title: Modelo de Atualização
+    content: "Curado por especialistas, informado pela comunidade"
 which_to_use_summary: |
-  The Scrum Guide Expansion Pack is a comprehensive companion to the [2020 Scrum Guide](https://scrumguides.org), created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
+  O Pacote de Expansão do Guia Scrum é um companheiro abrangente do [Guia Scrum 2020](https://scrumguides.org), criado para ajudar profissionais a navegar pelos ambientes complexos de produtos de hoje. Aprofunda a compreensão dos princípios fundamentais do Scrum oferecendo orientação adicional sobre complexidade, pensamento de produto, sistemas de trabalho e liderança; permanecendo fiel ao ethos do Scrum de empirismo e autogerenciamento. Não é uma reescrita, mas uma amplificação estratégica para apoiar a entrega de valor de longo prazo e orientada por valor em equipes modernas.
 categories: [headline]
 ---
