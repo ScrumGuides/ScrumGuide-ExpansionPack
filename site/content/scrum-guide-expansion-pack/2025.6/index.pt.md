@@ -20,8 +20,6 @@ sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 1.0
-aliases:
-  - /pt/scrum-guide-expansion-pack/latest/
 ---
 
 Baseado no [Scrum Guide](https://scrumguides.org/) original de Ken Schwaber & Jeff Sutherland (40)
