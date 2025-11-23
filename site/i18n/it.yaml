@@ -3,7 +3,7 @@
   translation: "e"
 
 - id: read_online_title
-  translation: "Leggi la {{ .Site.Title }} online"
+  translation: "Leggi il {{ .Site.Title }} online"
 
 - id: read_online_description
   translation: "Accedi alla guida completa in modo digitale con funzionalità interattive e una facile navigazione."
@@ -12,150 +12,150 @@
   translation: "Leggi online"
 
 - id: what_is_guide_title
-  translation: "Cosa è la {{ .Site.Title }}?"
+  translation: "Cosa è il {{ .Site.Title }}?"
 
 - id: open_source_title
   translation: "Open Source & Community Driven"
 
 - id: open_source_description
-  translation: "Questa {{ .Site.Title }} è un progetto open source che prospera sulla collaborazione della community. Sia che tu voglia suggerire miglioramenti, riportare segnalazioni o contribuire ai contenuti, ci fa piacere la tua partecipazione. Insieme, possiamo rendere questa risorsa ancora più di valore per la comunity Scrum in tutto il mondo."
+  translation: "Questo {{ .Site.Title }} è un progetto open source che cresce e si arricchisce grazie alla collaborazione della community. Sia che tu voglia suggerire miglioramenti, riportare segnalazioni o contribuire ai contenuti, ci fa piacere la tua partecipazione. Insieme, possiamo rendere questa risorsa ancora più di valore per la comunity Scrum in tutto il mondo."
 
 - id: join_discussion_button
-  translation: "Join the Discussion"
+  translation: "Partecipa alla Discussione"
 
 - id: join_discussion_title
-  translation: "Join the {{ .Site.Title }} Discussion"
+  translation: "Partecipa alla Discussione sul {{ .Site.Title }}"
 
 - id: join_discussion_description
-  translation: "Engage with the community, share your insights, and help shape the future of the {{ .Site.Title }}. Your contributions are invaluable in making this guide a comprehensive resource for Scrum practitioners."
+  translation: "Partecipa attivamente alla community, condividi le tue idee e contribuisci a plasmare il futuro di {{ .Site.Title }}. Il tuo contributo è prezioso per rendere questa guida una risorsa completa per tutti i professionisti di Scrum."
 
 - id: download_title
-  translation: "Download the {{ .Site.Title }}"
+  translation: "Scarica il {{ .Site.Title }}"
 
 - id: download_description
-  translation: "Ottieni la {{ .Site.Title }} completa in formato PDF per leggere offline. Perfetta per quelli che preferiscono una copia fisica o hanno bisogno di fare riferimento alla guida senza una connessione internet."
+  translation: "Ottieni il {{ .Site.Title }} completo in formato PDF per leggere offline. Perfetto per quelli che preferiscono una copia fisica o hanno bisogno di fare riferimento alla guida senza una connessione internet."
 
 - id: download_button
-  translation: "Download PDF"
+  translation: "Scarica PDF"
 
 - id: about_creators_title
-  translation: "About the creators of {{ .Site.Title }}"
+  translation: "Chi sono i creatori del {{ .Site.Title }}"
 
 - id: read_bio_button
-  translation: "Read {{ .Name }}'s bio"
+  translation: "Leggi la biografia di {{ .Name }}"
 
 - id: guide_content_not_found
-  translation: "Guide content not found"
+  translation: "Contenuto della guida non trovato"
 
 - id: reportTranslationError
-  translation: "Report Translation Error"
+  translation: "Riporta un errore di traduzione"
 
 # Navigation translations
 - id: nav_read_online
-  translation: "Read Online"
+  translation: "Leggi Online"
 
 - id: nav_translations
-  translation: "Translations"
+  translation: "Traduzioni"
 
 - id: nav_pdf_version
-  translation: "PDF Version"
+  translation: "Versione PDF"
 
 - id: nav_creators
-  translation: "Creators"
+  translation: "Creatori"
 
 - id: nav_all_creators
-  translation: "All Creators"
+  translation: "Tutti i Creatori"
 
 - id: nav_faq
   translation: "FAQ"
 
 # Guide page PDF download translations
 - id: guide_pdf_download_button
-  translation: "Download PDF"
+  translation: "Scarica il PDF"
 
 - id: guide_pdf_not_available
-  translation: "PDF not available"
+  translation: "PDF non disponibile"
 
 - id: guide_pdf_intro_text
-  translation: "You can also download this guide as a PDF for offline reading."
+  translation: "Puoi anche scaricare questa guida come PDF per leggerlo offline."
 
 - id: guide_pdf_intro_link
-  translation: "download it here"
+  translation: "scaricalo qui"
 
 # Download page translations
 - id: download_page_title
-  translation: "Read & Download the official {{ .Title }}"
+  translation: "Leggi & Scarica il {{ .Title }} ufficiale"
 
 - id: download_page_description
-  translation: "{{ .Title }} is defined here by"
+  translation: "{{ .Title }} è definito qui da"
 
 - id: download_page_originators
-  translation: ", the originators of the {{ .Title }}."
+  translation: ", i creatori del {{ .Title }}."
 
 - id: download_translations_provided
-  translation: "Translations provided by the generous individuals and groups listed below. Please select the guide in the language you would like to download."
+  translation: "Le traduzioni sono state realizzate grazie al contributo dei generosi individui e gruppi elencati di seguito. Seleziona la lingua in cui desideri scaricare la guida."
 
 - id: download_translation_error
-  translation: "If you have found a possible translation error with the {{ .Title }} please contact the translator directly. If you need additional support please contact"
+  translation: "Se hai individuato un possibile errore di traduzione in {{ .Title }}, contatta direttamente il traduttore. Per ulteriore assistenza, ti preghiamo di contattare"
 
 - id: download_official_version
-  translation: "Official Version"
+  translation: "Versione ufficiale"
 
 - id: download_community_translations
-  translation: "Community Translations"
+  translation: "Traduzioni della Community"
 
 - id: download_current_version_released
-  translation: "The current official version of the {{ .Site.Title }} was released in"
+  translation: "L’attuale versione ufficiale del {{ .Site.Title }} è stata rilasciata nel"
 
 - id: download_older_translations_notice
-  translation: "Translations of the {{ .Site.Title }} with older dates may not contain the most recent information."
+  translation: "Le traduzioni del {{ .Site.Title }} con data precedente potrebbero non includere le informazioni più recenti."
 
 - id: download_table_language
-  translation: "Language"
+  translation: "Lingua"
 
 - id: download_table_translations_by
-  translation: "Translations By"
+  translation: "Traduzioni di"
 
 - id: download_table_written_by
-  translation: "Written By"
+  translation: "Scritto da"
 
 - id: download_table_action
-  translation: "Action"
+  translation: "Azione"
 
 - id: download_official_current_version
-  translation: "Official Current Version"
+  translation: "Versione ufficiale attuale"
 
 - id: download_button_text
-  translation: "Download"
+  translation: "Scarica"
 
 - id: download_coming_soon
-  translation: "Coming Soon"
+  translation: "Presto disponibile"
 
 - id: download_missing_language
-  translation: "Missing your language?"
+  translation: "Manca la tua lingua?"
 
 - id: download_contribute_translation
-  translation: "Help the community by contributing a new translation."
+  translation: "Aiuta la community contribuendo con una nuova traduzione."
 
 - id: download_add_translation
-  translation: "Add Translation"
+  translation: "Aggiungi una traduzione"
 
 - id: download_community_contributors
   translation: "Community Contributors"
 
 - id: read_online_action
-  translation: "Read Online"
+  translation: "Leggi Online"
 
 # PDF Download functionality
 - id: guide_pdf_download_button
-  translation: "Download PDF"
+  translation: "Scarica PDF"
 
 - id: guide_pdf_not_available
-  translation: "PDF not available"
+  translation: "PDF non disponibile"
 
 - id: guide_pdf_intro_text
-  translation: "This guide is also available as a PDF download."
+  translation: "Questa guida è disponibile anche in PDF da scaricare."
 
 - id: guide_pdf_intro_link
-  translation: "Download PDF"
+  translation: "Scarica PDF"
 

@@ -24,13 +24,12 @@ sameAs:
   - "https://evolved.institute"
 ---
 
-John Coleman hosts the Evolved podcast, focusing on product and design leadership, as well as executive management. He is a co-founder of Evolved.Institute and Orderly Disruption.
+John Coleman è il conduttore del podcast Evolved, dedicato alla leadership di prodotto e design, nonché alla gestione esecutiva. È co-fondatore di Evolved.Institute e Orderly Disruption.
 
-He is a consultant and trainer on several approaches that address ambidexterity, adaptiveness, humane effectiveness, and timeliness. He specializes in executive content, product management, scaling, descaling, measurement, and coherence between team approach and management processes.
+Svolge attività di consulenza e formazione su diversi approcci che promuovono ambidestrità, adattabilità, efficacia umana e tempestività. È specializzato in contenuti per dirigenti, product management, scaling e descaling organizzativo, misurazione delle performance e coerenza tra l'approccio dei team e i processi di management.
 
-His typical consulting footprint spans from the West Coast of the USA to Eastern Europe, with a primary focus on the USA. His training footprint is global. His globally recognized training badges do not restrict John’s work. He is well-researched and pragmatic.
+La sua attività di consulenza si estende dalla costa occidentale degli Stati Uniti fino all'Europa orientale, con un focus principale sul mercato americano, mentre la sua attività di formazione ha una portata globale. Sebbene possieda riconoscimenti formativi di livello internazionale, John non limita il suo lavoro a un singolo framework: il suo approccio è sempre fondato sulla ricerca e orientato alla pragmatica applicazione.
 
-He co-created Kanplexity, an approach based on Kanban and Cynefin, the complexity sense-making framework; it has only two roles: team/crew and guide.
+È co-creatore di Kanplexity, un metodo basato su Kanban e Cynefin, il framework per la comprensione della complessità; questo approccio prevede solo due ruoli: team/crew e guide.
 
-He also created MORE executive success, an approach for executives and company board members to improve adaptiveness to market needs.
-
+Ha inoltre ideato MORE Executive Success, un modello pensato per dirigenti e membri dei consigli di amministrazione volto a migliorare la capacità di adattamento dell'organizzazione alle esigenze del mercato.
