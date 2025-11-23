@@ -8,18 +8,4 @@ disableAliases: true
 
 languages:
   tlh:
-    languageName: Klingon
-    weight: 2
-    languageCode: "tlh"
-    languageDirection: "ltr"
-    title: pOlonyuS puqloD
-    params:
-      description: pOlonyuS puqloD
-      keywords: Yach
-  it:
-    languageName: Italian
-    weight: 3
-    title: Guida Scrum Pacchetto di Espansione
-    params:
-      description: ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
-      keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack
+    disabled: false

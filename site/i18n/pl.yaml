@@ -1,0 +1,232 @@
+# Polish translations
+- id: and
+  translation: "i"
+
+- id: read_online_title
+  translation: "Czytaj {{ .Site.Title }} online"
+
+- id: read_online_description
+  translation: "Dostęp do pełnego przewodnika w wersji cyfrowej z funkcjami interaktywnymi i prostą nawigacją."
+
+- id: read_online_button
+  translation: "Czytaj online"
+
+- id: what_is_guide_title
+  translation: "Czym jest {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open Source & Rozwijane przez Społeczność"
+
+- id: open_source_description
+  translation: "{{ .Site.Title }} to projekt Open Source, który rozwija się dzięki współpracy społeczności. Niezależnie od tego, czy chcesz zaproponować ulepszenia, zgłosić problemy, czy wnieść treści, Twój udział jest mile widziany. Wspólnie możemy sprawić, że ten zasób stanie się jeszcze bardziej wartościowy dla światowej społeczności Scrum."
+
+- id: join_discussion_button
+  translation: "Dołącz do dyskusji"
+
+- id: join_discussion_title
+  translation: "Dołącz do dyskusji o {{ .Site.Title }}"
+
+- id: join_discussion_description
+  translation: "Włącz się do społeczności, dziel się obserwacjami i pomóż w kształtowaniu przyszłości {{ .Site.Title }}. Twój wkład jest bezcenny w tworzeniu tego przewodnika jako wszechstronnego zasobu dla praktyków Scruma."
+
+- id: download_title
+  translation: "Pobierz {{ .Site.Title }}"
+
+- id: download_description
+  translation: "Pobierz cały {{ .Site.Title }} w formacie PDF do czytania offline. Doskonały dla osób, które wolą fizyczną kopię lub muszą korzystać z przewodnika bez dostępu do internetu."
+
+- id: download_button
+  translation: "Pobierz PDF"
+
+- id: about_creators_title
+  translation: "O twórcach {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "Przeczytaj bio {{ .Name }}"
+
+- id: guide_content_not_found
+  translation: "Nie znaleziono treści przewodnika"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "Czytaj Online"
+
+- id: nav_translations
+  translation: "Tłumaczenia"
+
+- id: nav_pdf_version
+  translation: "Wersja PDF"
+
+- id: nav_creators
+  translation: "Twórcy"
+
+- id: nav_all_creators
+  translation: "Wszyscy twórcy"
+
+- id: nav_faq
+  translation: "FAQ"
+
+# Download page translations
+- id: download_page_title
+  translation: "Pobierz oficjalny {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} został tutaj opisany przez"
+
+- id: download_page_originators
+  translation: ", pomysłodawców {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Tłumaczenia dostarczone przez życzliwe osoby i grupy wymienione poniżej. Wybierz przewodnik w języku, który chciałbyś pobrać."
+
+- id: download_translation_error
+  translation: "Jeśli znalazłeś możliwy błąd tłumaczenia w {{ .Title }}, skontaktuj się bezpośrednio z tłumaczem. Jeśli potrzebujesz dodatkowego wsparcia, skontaktuj się z"
+
+- id: download_official_version
+  translation: "Wersja oficjalna"
+
+- id: download_community_translations
+  translation: "Tłumaczenia Społeczności"
+
+- id: download_current_version_released
+  translation: "Najnowsza wersja oficjalna {{ .Site.Title }} została wydana"
+
+- id: download_older_translations_notice
+  translation: "Tłumaczenia {{ .Site.Title }} z wcześniejszymi datami mogą nie zawierać najnowszych informacji."
+
+- id: download_table_language
+  translation: "Język"
+
+- id: download_table_translations_by
+  translation: "Przetłumaczone przez"
+
+- id: download_table_written_by
+  translation: "Napisane przez"
+
+- id: download_table_action
+  translation: "Czytaj"
+
+- id: download_official_current_version
+  translation: "Oficjalna aktualna wersja"
+
+- id: download_button_text
+  translation: "Pobierz"
+
+- id: download_coming_soon
+  translation: "Coming Soon"
+
+- id: download_missing_language
+  translation: "Brakuje Twojego języka?"
+
+- id: download_contribute_translation
+  translation: "Wspieraj społeczność, przygotowując nowe tłumaczenie."
+
+- id: download_add_translation
+  translation: "Dodaj tłumaczenie"
+
+- id: download_community_contributors
+  translation: "Społeczność"
+
+- id: read_online_action
+  translation: "Czytaj Online"
+
+# Missing translations for Polish
+- id: breadcrumb_home
+  translation: "Strona główna"
+
+- id: translations_button
+  translation: "Tłumaczenia"
+
+- id: history_page_title
+  translation: "Historia"
+
+- id: nav_read_guide
+  translation: "Czytaj przewodnik"
+
+- id: nav_history
+  translation: "Historia"
+
+- id: history_button
+  translation: "Historia"
+
+- id: current_open_guide_label
+  translation: "Aktualnie otwarty przewodnik"
+
+- id: at_a_glance_title
+  translation: "Na pierwszy rzut oka"
+
+- id: guide_join_discussion
+  translation: "Dołącz do dyskusji"
+
+- id: download_table_contributed_by
+  translation: "Autor tłumaczenia"
+
+- id: reportTranslationError
+  translation: "Zgłoś błąd tłumaczenia"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_table_of_contents
+  translation: "Spis treści"
+
+- id: guide_pdf_download_button
+  translation: "Pobierz PDF"
+
+- id: available_languages_label
+  translation: "Dostępne języki"
+
+- id: guide_updated_label
+  translation: "Zaktualizowano"
+
+- id: guide_version_label
+  translation: "Wersja"
+
+- id: pdf_downloads_label
+  translation: "Pobieranie PDF"
+
+- id: guide_version_latest
+  translation: "Najnowsza"
+
+- id: living_document_updated_label
+  translation: "Ten żywy dokument został ostatnio zaktualizowany"
+
+- id: download_preview_status
+  translation: "W podglądzie"
+
+- id: guide_back_to_home
+  translation: "Powrót do strony głównej"
+
+- id: read_guide_button
+  translation: "Czytaj przewodnik"
+
+- id: translations_button_small
+  translation: "Tłumaczenia"
+
+- id: download_preview_translations
+  translation: "Podgląd tłumaczeń"
+
+- id: download_preview_description
+  translation: "Te tłumaczenia są dostępne w podglądzie i potrzebują co najmniej 5 recenzentów ze społeczności, zanim będą mogły zostać przeniesione na stronę główną. Pomóż nam przejrzeć i ulepszyć te tłumaczenia!"
+
+- id: download_visit_preview
+  translation: "Odwiedź stronę podglądu"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_preview_action
+  translation: "Podgląd"
+
+- id: download_discussion_action
+  translation: "Dyskusja"
+
+- id: download_reference_status
+  translation: "Odniesienie"
+
+- id: contributors_label
+  translation: "Współtwórcy"
+
+- id: contributors_label
+  translation: "Współtwórcy"
+

@@ -1,0 +1,251 @@
+# Deutsche Übersetzungen (ohne Gendern)
+- id: and
+  translation: "und"
+
+- id: read_online_title
+  translation: "Lies das {{ .Site.Title }} online"
+
+- id: read_online_description
+  translation: "Greife digital auf den vollständigen Leitfaden zu – mit interaktiven Funktionen und einfacher Navigation."
+
+- id: read_online_button
+  translation: "Online lesen"
+
+- id: what_is_guide_title
+  translation: "Was ist das {{ .Site.Title }}?"
+
+- id: open_source_title
+  translation: "Open Source & Community-getrieben"
+
+- id: open_source_description
+  translation: "Dieses {{ .Site.Title }} ist ein Open-Source-Projekt, das von der Zusammenarbeit der Community lebt. Ob du Verbesserungen vorschlagen, Fehler melden oder Inhalte beisteuern möchtest – deine Beteiligung ist willkommen. Gemeinsam können wir diese Ressource für die Scrum-Community weltweit noch wertvoller machen."
+
+- id: join_discussion_button
+  translation: "Diskussion beitreten"
+
+- id: join_discussion_title
+  translation: "Beteilige dich an der {{ .Site.Title }}-Diskussion"
+
+- id: join_discussion_description
+  translation: "Tausche dich mit der Community aus, teile deine Erfahrungen und gestalte die Zukunft des {{ .Site.Title }} mit. Deine Beiträge sind entscheidend, um diesen Leitfaden zu einer umfassenden Ressource für Scrum-Anwender zu machen."
+
+- id: download_title
+  translation: "{{ .Site.Title }} herunterladen"
+
+- id: download_description
+  translation: "Lade das vollständige {{ .Site.Title }} als PDF zum Offline-Lesen herunter. Perfekt für alle, die eine gedruckte Version bevorzugen oder den Leitfaden ohne Internetzugang nutzen möchten."
+
+- id: download_button
+  translation: "PDF herunterladen"
+
+- id: about_creators_title
+  translation: "Über die Ersteller von {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "Biografie von {{ .Name }} lesen"
+
+- id: guide_content_not_found
+  translation: "Leitfaden-Inhalt nicht gefunden"
+
+- id: reportTranslationError
+  translation: "Übersetzungsfehler melden"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "Online lesen"
+
+- id: nav_translations
+  translation: "Übersetzungen"
+
+- id: nav_pdf_version
+  translation: "PDF-Version"
+
+- id: nav_creators
+  translation: "Ersteller"
+
+- id: nav_all_creators
+  translation: "Alle Ersteller"
+
+- id: nav_faq
+  translation: "FAQ"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "PDF herunterladen"
+
+- id: guide_pdf_not_available
+  translation: "PDF nicht verfügbar"
+
+- id: guide_pdf_intro_text
+  translation: "Du kannst diesen Leitfaden auch als PDF zum Offline-Lesen herunterladen."
+
+- id: guide_pdf_intro_link
+  translation: "hier herunterladen"
+
+# Download page translations
+- id: download_page_title
+  translation: "Lies & lade die offizielle {{ .Title }} herunter"
+
+- id: download_page_description
+  translation: "{{ .Title }} wird hier definiert von"
+
+- id: download_page_originators
+  translation: ", den Urhebern des {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Die Übersetzungen werden von den unten aufgeführten Einzelpersonen und Gruppen bereitgestellt. Bitte wähle die gewünschte Sprache für den Download des Leitfadens aus."
+
+- id: download_translation_error
+  translation: "Solltest du einen möglichen Übersetzungsfehler im {{ .Title }} finden, kontaktiere bitte direkt den Übersetzer. Falls du weitere Unterstützung benötigst, kontaktiere bitte"
+
+- id: download_official_version
+  translation: "Offizielle Version"
+
+- id: download_community_translations
+  translation: "Community-Übersetzungen"
+
+- id: download_current_version_released
+  translation: "Die aktuelle offizielle Version des {{ .Site.Title }} wurde veröffentlicht in"
+
+- id: download_older_translations_notice
+  translation: "Übersetzungen des {{ .Site.Title }} mit älteren Datumsangaben enthalten möglicherweise nicht die neuesten Informationen."
+
+- id: download_table_language
+  translation: "Sprache"
+
+- id: download_table_translations_by
+  translation: "Übersetzung von"
+
+- id: download_table_written_by
+  translation: "Verfasst von"
+
+- id: download_table_action
+  translation: "Aktion"
+
+- id: download_official_current_version
+  translation: "Offizielle aktuelle Version"
+
+- id: download_button_text
+  translation: "Herunterladen"
+
+- id: download_coming_soon
+  translation: "Demnächst verfügbar"
+
+- id: download_missing_language
+  translation: "Deine Sprache fehlt?"
+
+- id: download_contribute_translation
+  translation: "Hilf der Community, indem du eine neue Übersetzung beisteuerst."
+
+- id: download_add_translation
+  translation: "Übersetzung hinzufügen"
+
+- id: download_community_contributors
+  translation: "Community-Beitragende"
+
+- id: read_online_action
+  translation: "Online lesen"
+
+# PDF Download functionality
+- id: guide_pdf_download_button
+  translation: "PDF herunterladen"
+
+- id: guide_pdf_not_available
+  translation: "PDF nicht verfügbar"
+
+- id: contributors_label
+  translation: "Beitragende"
+
+- id: guide_pdf_intro_text
+  translation: "Dieser Leitfaden ist auch als PDF-Download verfügbar."
+
+- id: guide_pdf_intro_link
+  translation: "PDF herunterladen"
+
+# Missing translations for German
+- id: breadcrumb_home
+  translation: "Startseite"
+
+- id: translations_button
+  translation: "Übersetzungen"
+
+- id: nav_read_guide
+  translation: "Leitfaden lesen"
+
+- id: nav_history
+  translation: "Geschichte"
+
+- id: history_button
+  translation: "Geschichte"
+
+- id: history_page_title
+  translation: "Geschichte"
+
+- id: guide_join_discussion
+  translation: "Diskussion beitreten"
+
+- id: at_a_glance_title
+  translation: "Auf einen Blick"
+
+- id: current_open_guide_label
+  translation: "Aktuell geöffneter Leitfaden"
+
+- id: download_table_contributed_by
+  translation: "Beigetragen von"
+
+- id: guide_table_of_contents
+  translation: "Inhaltsverzeichnis"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_updated_label
+  translation: "Aktualisiert"
+
+- id: guide_version_label
+  translation: "Version"
+
+- id: available_languages_label
+  translation: "Verfügbare Sprachen"
+
+- id: guide_version_latest
+  translation: "Neueste"
+
+- id: pdf_downloads_label
+  translation: "PDF-Downloads"
+
+- id: guide_back_to_home
+  translation: "Zurück zur Startseite"
+
+- id: living_document_updated_label
+  translation: "Dieses lebende Dokument wurde zuletzt aktualisiert am"
+
+- id: read_guide_button
+  translation: "Leitfaden lesen"
+
+- id: translations_button_small
+  translation: "Übersetzungen"
+
+- id: download_preview_status
+  translation: "In Vorschau"
+
+- id: download_preview_translations
+  translation: "Vorschau-Übersetzungen"
+
+- id: download_preview_description
+  translation: "Diese Übersetzungen sind als Vorschau verfügbar und benötigen mindestens 5 Community-Prüfer, bevor sie zur Hauptseite verschoben werden können. Hilf uns, diese Übersetzungen zu überprüfen und zu verbessern!"
+
+- id: download_visit_preview
+  translation: "Vorschau-Seite besuchen"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_preview_action
+  translation: "Vorschau"
+
+- id: download_discussion_action
+  translation: "Diskussion"
+
+- id: download_reference_status
+  translation: "Referenz"

@@ -20,6 +20,9 @@
 - id: open_source_description
   translation: "This {{ .Site.Title }} is an open source project that thrives on community collaboration. Whether you want to suggest improvements, report issues, or contribute content, we welcome your participation. Together, we can make this resource even more valuable for the Scrum community worldwide."
 
+- id: history_page_title
+  translation: "History"
+
 - id: join_discussion_button
   translation: "Join the Discussion"
 
@@ -80,7 +83,29 @@
   translation: "You can also download this guide as a PDF for offline reading."
 
 - id: guide_pdf_intro_link
-  translation: "download it here"
+  translation: "Download PDF"
+
+# Preview Translations functionality
+- id: download_preview_translations
+  translation: "Preview Translations"
+
+- id: download_preview_description
+  translation: "These translations are available in preview and need at least 5 community reviewers before they can be moved to the main site. Help us review and improve these translations!"
+
+- id: download_visit_preview
+  translation: "Visit preview site"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_preview_status
+  translation: "In Preview"
+
+- id: download_preview_action
+  translation: "Preview"
+
+- id: download_discussion_action
+  translation: "Discussion"
 
 # Download page translations
 - id: download_page_title
@@ -113,6 +138,9 @@
 - id: download_table_language
   translation: "Language"
 
+- id: download_table_contributed_by
+  translation: "Contributed By"
+
 - id: download_table_translations_by
   translation: "Translations By"
 
@@ -143,18 +171,80 @@
 - id: download_community_contributors
   translation: "Community Contributors"
 
+- id: contributors_label
+  translation: "Contributors"
+
 - id: read_online_action
   translation: "Read Online"
 
-# PDF Download functionality
-- id: guide_pdf_download_button
-  translation: "Download PDF"
 
-- id: guide_pdf_not_available
-  translation: "PDF not available"
+# Guide template translations
+- id: guide_join_discussion
+  translation: "Join Discussion"
 
-- id: guide_pdf_intro_text
-  translation: "This guide is also available as a PDF download."
+- id: guide_version_dropdown_label
+  translation: "Select version"
 
-- id: guide_pdf_intro_link
-  translation: "Download PDF"
+- id: guide_version_current
+  translation: "Current"
+
+- id: guide_version_latest
+  translation: "Latest"
+
+- id: download_reference_status
+  translation: "Reference"
+
+# Missing translations found in Farsi file
+- id: breadcrumb_home
+  translation: "Home"
+
+- id: nav_read_guide
+  translation: "Read Guide"
+
+- id: translations_button
+  translation: "Translations"
+
+- id: nav_history
+  translation: "History"
+
+- id: history_button
+  translation: "History"
+
+- id: at_a_glance_title
+  translation: "At a Glance"
+
+- id: guide_table_of_contents
+  translation: "Table of Contents"
+
+- id: current_open_guide_label
+  translation: "Current Open Guide"
+
+- id: active_status_label
+  translation: "Status"
+
+- id: guide_updated_label
+  translation: "Updated"
+
+- id: available_languages_label
+  translation: "Available Languages"
+
+- id: translators_label
+  translation: "Translators"
+
+- id: pdf_downloads_label
+  translation: "PDF Downloads"
+
+- id: guide_version_label
+  translation: "Version"
+
+- id: living_document_updated_label
+  translation: "This living document was last updated on"
+
+- id: read_guide_button
+  translation: "Read Guide"
+
+- id: translations_button_small
+  translation: "Translations"
+
+- id: guide_back_to_home
+  translation: "Back to Home"

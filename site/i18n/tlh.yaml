@@ -146,15 +146,93 @@
 - id: read_online_action
   translation: "laHbe'"
 
-# PDF Download functionality
-- id: guide_pdf_download_button
+# Missing translations for Klingon
+- id: breadcrumb_home
+  translation: "juH"
+
+- id: translations_button
+  translation: "mugh"
+
+- id: nav_read_guide
+  translation: "nugh laH"
+
+- id: nav_history
+  translation: "DIch"
+
+- id: history_button
+  translation: "DIch"
+
+- id: history_page_title
+  translation: "DIch"
+
+- id: guide_join_discussion
+  translation: "jaq DIch"
+
+- id: at_a_glance_title
+  translation: "naDev"
+
+- id: download_table_contributed_by
+  translation: "chenmoH"
+
+- id: guide_table_of_contents
+  translation: "naDev nav"
+
+- id: current_open_guide_label
+  translation: "DaH teywI'"
+
+- id: active_status_label
+  translation: "DIch"
+
+- id: guide_updated_label
+  translation: "choq"
+
+- id: guide_version_label
+  translation: "DIch"
+
+- id: available_languages_label
+  translation: "DIlo' Hol"
+
+- id: guide_version_latest
+  translation: "nugh"
+
+- id: pdf_downloads_label
   translation: "PDF tlhap"
 
-- id: guide_pdf_not_available
-  translation: "PDF DIlo'"
+- id: guide_back_to_home
+  translation: "juH chegh"
 
-- id: guide_pdf_intro_text
-  translation: "nugh teywI' je PDF DIch DIlo'."
+- id: download_preview_status
+  translation: "DIch DIch"
 
-- id: guide_pdf_intro_link
-  translation: "PDF tlhap"
+- id: living_document_updated_label
+  translation: "naDev teywI' choq"
+
+- id: read_guide_button
+  translation: "nugh laH"
+
+- id: translations_button_small
+  translation: "mugh"
+
+- id: download_preview_translations
+  translation: "DIch mugh"
+
+- id: download_preview_description
+  translation: "mugh DIch DIch chenmoH DIch DIch DIch."
+
+- id: download_visit_preview
+  translation: "DIch DIch"
+
+- id: download_table_status
+  translation: "DIch"
+
+- id: download_preview_action
+  translation: "DIch"
+
+- id: download_discussion_action
+  translation: "jaq"
+
+- id: download_reference_status
+  translation: "nugh"
+
+- id: contributors_label
+  translation: "chenmoHwI'"

@@ -8,6 +8,8 @@ taxonomies: {}
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
+enableMissingTranslationPlaceholders: true
+printI18nWarnings: true
 languages:
   en:
     languageName: English
@@ -16,29 +18,106 @@ languages:
     params:
       description: ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
       keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site
+  de:
+    languageName: Deutsch
+    weight: 2
+    title: Scrum Guide Expansion Pack
+    params:
+      description: ScrumExpansion.org bietet das Scrum Guide Expansion Pack—moderne Empfehlungen für die Anwendung von Scrum bei komplexer Arbeit, KI und adaptiver Strategie.
+      keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum Anleitung, fortgeschrittene Scrum Praktiken, Scrum für moderne Arbeit, adaptive Unternehmen, agile Produktlieferung, empirisches Scrum, Produktdenken, Komplexitätstheorie in Scrum, Scrum Führung, professionelles Scrum, Scrum und KI, Scrum Ressourcen, Scrum Lernplattform, Scrum Community Website
+  tlh:
+    languageName: Klingon (reference)
+    weight: 1000
+    languageCode: tlh
+    languageDirection: ltr
+    title: pOlonyuS puqloD
+    params:
+      description: pOlonyuS puqloD
+      status: reference
+      keywords: Yach
   fa:
     languageName: فارسی
     weight: 2
     languageCode: fa
     languageDirection: rtl
-    title: بسته گسترش‌یافته راهنمای اسکرام
+    title: مقاله‌ی مکمل راهنمای اسکرام
     params:
-      description: ScrumExpansion.org میزبان بسته گسترش‌یافته راهنمای اسکرام است — راهنمایی مدرن برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی و راهبردهای تطبیقی.
-      keywords: اسکرام، ScrumExpansion.org، بسته گسترش‌یافته راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته اسکرام، اسکرام برای کار مدرن، سازمان تطبیق‌پذیر، تحویل چابک محصول، اسکرام تجربی، تفکر محصول، نظریه پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه اسکرام
+      description: سایت ScrumExpansion.org میزبان مقاله‌ی مکمل راهنمای اسکرام است — راهنمایی‌های نوین برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی، و استراتژی‌های تطبیقی.
+      keywords: اسکرام، ScrumExpansion.org، مقاله‌ی مکمل راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته‌ی اسکرام، اسکرام برای کارهای مدرن، سازمان تطبیقی، تحویل محصول اجایل، اسکرام تجربی، تفکر محصول، نظریه‌ی پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه‌ی اسکرام
+      discussionId: 61
+  pl:
+    languageName: Polski
+    weight: 3
+    languageCode: pl
+    title: "Scrum Guide: Rozszerzenia"
+    params:
+      description: ScrumExpansion.org udostępnia - aktualne wytyczne do wykorzystania Scruma w złożonej pracy, sztucznej inteligencji i adaptacyjnych strategiach.
+      keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, wytyczne Scrum, zaawansowane praktyki Scrum, Scrum dla nowoczesnej pracy, adaptacyjne przedsiębiorstwo, zwinne dostarczanie produktów, empiryczny Scrum, myślenie produktowe, teoria złożoności w Scrum, przywództwo Scrum, profesjonalny Scrum, Scrum i AI, zasoby Scrum, centrum nauki Scrum, strona społeczności Scrum
+      discussionId: 131
+  nl:
+    languageName: Nederlands
+    weight: 3
+    languageCode: nl
+    title: Scrum Guide Expansion Pack
+    params:
+      description: ScrumExpansion.org is de thuisbasis van het Scrum Gids Uitbreidingspakket — moderne richtlijnen voor het toepassen van Scrum op complexe werkzaamheden, AI en adaptieve strategie.
+      keywords: Scrum, ScrumExpansion.org, Scrum Gids Uitbreidingspakket, Scrum richtlijnen, geavanceerde Scrum praktijken, Scrum voor modern werk, adaptieve onderneming, agile productlevering, empirische Scrum, productdenken, complexiteitstheorie in Scrum, Scrum leiderschap, professioneel Scrum, Scrum en AI, Scrum bronnen, Scrum leerhub, Scrum gemeenschapssite
+      discussionId: 125
+  ro:
+    languageName: Română
+    weight: 4
+    title: Ghidul Scrum Pachetul Extins
+    languageCode: ro
+    params:
+      description: ScrumExpansion.org găzduiește Pachetul Extins al Ghidului Scrum — ghid modern pentru aplicarea Scrum în activitatea complexă, inteligența artificială și strategia adaptivă.
+      keywords: Scrum, ScrumExpansion.org, Ghidul Scrum Pachetul Extins, ghid Scrum, practici Scrum avansate, Scrum pentru munca modernă, întreprindere adaptivă, livrare agilă de produs, Scrum empiric, gândire bazată pe dezvoltarea produselor, teoria complexității în Scrum, leadership în Scrum, Scrum profesional, Scrum Educativ Scrum și inteligența artificială, resurse Scrum, hub de învățare Scrum, site al comunității Scrum.
+  es:
+    languageName: Spanish
+    weight: 4
+    title: Scrum Guide Expansion Pack
+    params:
+      description: El Scrum Guide Expansion Pack es un complemento integral a la Guía Scrum 2020, creado para ayudar a los profesionales a desenvolverse en entornos de producto cada vez más complejos.
+      keywords: Scrum, Scrum moderno, Gestión de producto, Desarrollo de producto empírico, Scrum en entornos complejos, Scrum e IA
+  ja:
+    languageName: 日本語
+    weight: 1001
+    title: スクラムガイド拡張パック
+    languageCode: ja
+    params:
+      description: ScrumExpansion.orgは、複雑な作業やAI、適応的な戦略にスクラムを適用するための最新ガイダンス「スクラムガイド拡張パック」を提供しています。
+      keywords: スクラム, ScrumExpansion.org, スクラムガイド拡張パック
+  pt:
+    languageName: Português
+    weight: 5
+    title: Pacote de Expansão do Guia Scrum
+    languageCode: pt
+    params:
+      description: ScrumExpansion.org hospeda o Pacote de Expansão do Guia Scrum—orientações modernas para aplicar Scrum em trabalhos complexos, IA e estratégia adaptativa.
+      keywords: Scrum, ScrumExpansion.org, Pacote de Expansão do Guia Scrum, orientações Scrum, práticas avançadas de Scrum, Scrum para trabalho moderno, empresa adaptativa, entrega ágil de produto, Scrum empírico, pensamento de produto, teoria da complexidade em Scrum, liderança Scrum, Scrum profissional, Scrum e IA, recursos Scrum, centro de aprendizagem Scrum, site da comunidade Scrum
   it:
     languageName: Italian
     weight: 3
     title: Pacchetto di Espansione della Guida a Scrum
+    languageCode: it
     params:
       description: ScrumExpansion.org ospita il Pacchetto di Espansione della Guida a Scrum — linee guida moderne per applicare Scrum al lavoro complesso, all'IA e alle strategie adattive.
       keywords: Scrum, ScrumExpansion.org, Pacchetto di Espansione della Guida a Scrum
 params:
   description: Scrum Guides 2025 Expansion Pack
   keywords: Scrum
-  og_image: /images/og-image.jpg
-  siteProdUrl: https://scrumexpansion.org
+  og_image: /images/scrum-guide-expansion-pack-logo-512.png
+  siteProdUrl: https://scrumexpansion.org/
   supportEmail: support@scrumexpansion.org
   githubUrl: https://github.com/ScrumGuides/ScrumGuide-ExpansionPack
+  previewSiteUrl: https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/
+  productionSiteUrl: https://scrumexpansion.org/
+  logo_image: /images/scrum-guide-expansion-pack-logo-512.png
+  menu_logo: /images/scrum-guide-expansion-pack-logo-solo.png
+  AzureSitesConfig: '#{Guides_AzureSitesConfig}#'
+  GitVersion_SemVer: v#{GitVersion.SemVer}#
+  GoogleTagManagerID: G-TS77V93FQJ
+  features:
+    guideDetails: false
 sitemap:
   filename: sitemap.xml
   changefreq: daily
@@ -49,25 +128,33 @@ rss:
   description: Subscribe to our RSS feed
 outputs:
   home:
-  - html
-  - json
-  - rss
+    - html
+    - json
+    - rss
+    - languages
   section:
-  - html
-  - rss
+    - html
+    - rss
   taxonomy:
-  - html
-  - rss
+    - html
+    - rss
   term:
-  - html
-  - rss
+    - html
+    - rss
   page:
-  - html
-  - rss
+    - html
+    - rss
 outputFormats:
   json:
     mediaType: application/json
     baseName: pages
+  languages:
+    mediaType: application/json
+    baseName: languages
+    isPlainText: true
+module:
+  imports:
+    - path: github.com/nkdAgility/HugoGuides/module
 markup:
   goldmark:
     renderer:
@@ -80,4 +167,3 @@ markup:
       attribute:
         block: true
         title: true
-
