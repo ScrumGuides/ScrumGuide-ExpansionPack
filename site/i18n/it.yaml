@@ -20,6 +20,9 @@
 - id: open_source_description
   translation: "Questo {{ .Site.Title }} è un progetto open source che cresce e si arricchisce grazie alla collaborazione della community. Sia che tu voglia suggerire miglioramenti, riportare segnalazioni o contribuire ai contenuti, ci fa piacere la tua partecipazione. Insieme, possiamo rendere questa risorsa ancora più di valore per la comunity Scrum in tutto il mondo."
 
+- id: history_page_title
+  translation: "Storia"
+
 - id: join_discussion_button
   translation: "Partecipa alla Discussione"
 
@@ -82,6 +85,28 @@
 - id: guide_pdf_intro_link
   translation: "scaricalo qui"
 
+# Preview Translations functionality
+- id: download_preview_translations
+  translation: "Anteprima delle Traduzioni"
+
+- id: download_preview_description
+  translation: "Queste traduzioni sono disponibili in anteprima e hanno bisogno di almeno 5 reviewers della community prima di essere promosse nel sito. Aiutaci a revisionare e migliorare queste traduzioni!"
+
+- id: download_visit_preview
+  translation: "Visita l'anteprima del sito"
+
+- id: download_table_status
+  translation: "Stato"
+
+- id: download_preview_status
+  translation: "In Anteprima"
+
+- id: download_preview_action
+  translation: "Anteprima"
+
+- id: download_discussion_action
+  translation: "Discussione"
+
 # Download page translations
 - id: download_page_title
   translation: "Leggi & Scarica il {{ .Title }} ufficiale"
@@ -113,6 +138,9 @@
 - id: download_table_language
   translation: "Lingua"
 
+- id: download_table_contributed_by
+  translation: "Contributo di"
+
 - id: download_table_translations_by
   translation: "Traduzioni di"
 
@@ -143,19 +171,80 @@
 - id: download_community_contributors
   translation: "Community Contributors"
 
+- id: contributors_label
+  translation: "Contributori"
+
 - id: read_online_action
   translation: "Leggi Online"
 
-# PDF Download functionality
-- id: guide_pdf_download_button
-  translation: "Scarica PDF"
 
-- id: guide_pdf_not_available
-  translation: "PDF non disponibile"
+# Guide template translations
+- id: guide_join_discussion
+  translation: "Unisciti alla Discussione"
 
-- id: guide_pdf_intro_text
-  translation: "Questa guida è disponibile anche in PDF da scaricare."
+- id: guide_version_dropdown_label
+  translation: "Scegli la versione"
 
-- id: guide_pdf_intro_link
-  translation: "Scarica PDF"
+- id: guide_version_current
+  translation: "Corrente"
 
+- id: guide_version_latest
+  translation: "Ultima"
+
+- id: download_reference_status
+  translation: "Referenza"
+
+# Missing translations found in Farsi file
+- id: breadcrumb_home
+  translation: "Home"
+
+- id: nav_read_guide
+  translation: "Leggi la Guida"
+
+- id: translations_button
+  translation: "Traduzioni"
+
+- id: nav_history
+  translation: "Storia"
+
+- id: history_button
+  translation: "Storia"
+
+- id: at_a_glance_title
+  translation: "Panoramica rapida"
+
+- id: guide_table_of_contents
+  translation: "Sommario"
+
+- id: current_open_guide_label
+  translation: "Guida Attuale"
+
+- id: active_status_label
+  translation: "Stato"
+
+- id: guide_updated_label
+  translation: "Aggiornata"
+
+- id: available_languages_label
+  translation: "Lingue Disponibili"
+
+- id: translators_label
+  translation: "Traduzioni"
+
+- id: pdf_downloads_label
+  translation: "Scarico dei PDF"
+
+- id: guide_version_label
+  translation: "Versione"
+
+- id: living_document_updated_label
+  translation: "Questo documento in continua evoluzione è stato aggiornato il"
+
+- id: read_guide_button
+  translation: "Leggi la Guida"
+
+- id: translations_button_small
+  translation: "Traduzioni"
+
+- id: guide_back_to_home
+  translation: "Ritorna alla Home"
