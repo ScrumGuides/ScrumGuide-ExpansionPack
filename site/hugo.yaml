@@ -94,6 +94,14 @@ languages:
     params:
       description: ScrumExpansion.org hospeda o Pacote de Expansão do Guia Scrum—orientações modernas para aplicar Scrum em trabalhos complexos, IA e estratégia adaptativa.
       keywords: Scrum, ScrumExpansion.org, Pacote de Expansão do Guia Scrum, orientações Scrum, práticas avançadas de Scrum, Scrum para trabalho moderno, empresa adaptativa, entrega ágil de produto, Scrum empírico, pensamento de produto, teoria da complexidade em Scrum, liderança Scrum, Scrum profissional, Scrum e IA, recursos Scrum, centro de aprendizagem Scrum, site da comunidade Scrum
+  it:
+    languageName: Italian
+    weight: 3
+    title: Pacchetto di Espansione della Guida a Scrum
+    languageCode: it
+    params:
+      description: ScrumExpansion.org ospita il Pacchetto di Espansione della Guida a Scrum — linee guida moderne per applicare Scrum al lavoro complesso, all'IA e alle strategie adattive.
+      keywords: Scrum, ScrumExpansion.org, Pacchetto di Espansione della Guida a Scrum
 params:
   description: Scrum Guides 2025 Expansion Pack
   keywords: Scrum
@@ -120,22 +128,22 @@ rss:
   description: Subscribe to our RSS feed
 outputs:
   home:
-  - html
-  - json
-  - rss
-  - languages
+    - html
+    - json
+    - rss
+    - languages
   section:
-  - html
-  - rss
+    - html
+    - rss
   taxonomy:
-  - html
-  - rss
+    - html
+    - rss
   term:
-  - html
-  - rss
+    - html
+    - rss
   page:
-  - html
-  - rss
+    - html
+    - rss
 outputFormats:
   json:
     mediaType: application/json
@@ -146,7 +154,7 @@ outputFormats:
     isPlainText: true
 module:
   imports:
-  - path: github.com/nkdAgility/HugoGuides/module
+    - path: github.com/nkdAgility/HugoGuides/module
 markup:
   goldmark:
     renderer:
@@ -159,4 +167,3 @@ markup:
       attribute:
         block: true
         title: true
-
