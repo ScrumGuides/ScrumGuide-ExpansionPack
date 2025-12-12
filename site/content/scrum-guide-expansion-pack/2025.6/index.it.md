@@ -1214,7 +1214,7 @@ L'implementazione di una strategia emergente implica lasciare che piani e azioni
 
 #
 
-## Attribuzione per la collezione del Pacchetto di Espansione della Gruida Scrum {#attribution-for-the-scrum-guide-expansion-pack-collection}
+## Attribuzione per la raccolta del Pacchetto di Espansione della Guida Scrum {#attribution-for-the-scrum-guide-expansion-pack-collection}
 
 Questa raccolta è stata scritta e compilata da _Ralph Jocham, John Coleman, e Jeff Sutherland_.
 La traduzione in lingua Italiana è stata curata da Michael F Forni, Felice Grisi e Andrea Feraco.
