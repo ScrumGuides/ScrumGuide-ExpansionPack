@@ -1,3 +1,4 @@
 ---
 title: "Leadership"
+slug: leadership
 ---

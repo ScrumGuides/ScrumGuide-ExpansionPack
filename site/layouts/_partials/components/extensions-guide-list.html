@@ -6,8 +6,8 @@
 {{- $extensionSections = where $extensionSections "Params.categories" "intersect" (slice "extensions") }}
 
 {{/* If this is a tag page, filter extensions by the current tag */}}
-{{- if and (eq .Kind "term") (eq .Type "tags") }}
-  {{- $currentTag := .Title }}
+{{- if eq .Kind "term" }}
+  {{- $currentTag := .Data.Term }}
   {{- $extensionSections = where $extensionSections "Params.tags" "intersect" (slice $currentTag) }}
 {{- end }}
 {{- if gt (len $extensionSections) 0 }}

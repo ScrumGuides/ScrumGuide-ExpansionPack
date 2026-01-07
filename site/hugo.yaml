@@ -113,7 +113,7 @@ params:
   productionSiteUrl: https://scrumexpansion.org/
   logo_image: /images/scrum-guide-expansion-pack-logo-512.png
   menu_logo: /images/scrum-guide-expansion-pack-logo-solo.png
-  AzureSitesConfig: '#{Guides_AzureSitesConfig}#'
+  AzureSitesConfig: "#{Guides_AzureSitesConfig}#"
   GitVersion_SemVer: v#{GitVersion.SemVer}#
   GoogleTagManagerID: G-TS77V93FQJ
   features:
@@ -159,6 +159,9 @@ permalinks:
   taxonomy:
     tags: "/topics/"
 
+taxonomies:
+  tag: tags
+  category: categories
 
 module:
   imports:
