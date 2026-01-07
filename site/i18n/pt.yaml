@@ -177,7 +177,6 @@
 - id: read_online_action
   translation: "Ler Online"
 
-
 # Traduções do template do guia
 - id: guide_join_discussion
   translation: "Participar da Discussão"
@@ -230,6 +229,9 @@
 
 - id: view_on_github
   translation: "Ver no GitHub"
+
+- id: all_topics
+  translation: "Todos"
 
 # Missing translations from Farsi file
 - id: breadcrumb_home

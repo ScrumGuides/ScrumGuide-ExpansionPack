@@ -177,7 +177,6 @@
 - id: read_online_action
   translation: "Leggi Online"
 
-
 # Guide template translations
 - id: guide_join_discussion
   translation: "Unisciti alla Discussione"
@@ -285,3 +284,6 @@
 
 - id: view_on_github
   translation: "Visualizza su GitHub"
+
+- id: all_topics
+  translation: "Tutti"

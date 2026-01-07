@@ -2,6 +2,9 @@
 - id: and
   translation: "und"
 
+- id: all_topics
+  translation: "Alle"
+
 - id: read_online_title
   translation: "Lies das {{ .Site.Title }} online"
 

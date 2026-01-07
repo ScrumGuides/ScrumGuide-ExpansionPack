@@ -230,7 +230,6 @@
 - id: contributors_label
   translation: "Współtwórcy"
 
-
 # Homepage specific translations
 - id: hero_badge
   translation: "Towarzysz Przewodnika Scrum 2020"
@@ -267,3 +266,6 @@
 
 - id: view_on_github
   translation: "Zobacz na GitHub"
+
+- id: all_topics
+  translation: "Wszystkie"

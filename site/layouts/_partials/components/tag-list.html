@@ -9,16 +9,16 @@
 
     {{/* Build a sorted list of tags by extensions count */}}
     {{- $tagList := slice }}
-    {{- range .Site.Taxonomies.tags }}
+    {{- range $tagName, $taxonomy := .Site.Taxonomies.tags }}
       {{/* Count only pages with "extensions" category */}}
       {{- $extensionsCount := 0 }}
-      {{- range .Pages }}
+      {{- range $taxonomy.Pages }}
         {{- if in .Params.categories "extensions" }}
           {{- $extensionsCount = add $extensionsCount 1 }}
         {{- end }}
       {{- end }}
       {{- if gt $extensionsCount 0 }}
-        {{- $tagList = $tagList | append (dict "Page" .Page "Count" $extensionsCount) }}
+        {{- $tagList = $tagList | append (dict "Page" $taxonomy.Page "TagName" $tagName "Count" $extensionsCount) }}
       {{- end }}
     {{- end }}
 
@@ -30,8 +30,15 @@
           {{- $isActive = true }}
         {{- end }}
       {{- end }}
-      <a href="{{ .Page.RelPermalink }}" class="btn btn-outline-primary {{ if $isActive }}active{{ end }}">
-        {{ .Page.Title }}
+      {{/* Construct tag URL - fallback to manual construction if page doesn't exist */}}
+      {{- $tagURL := "" }}
+      {{- if .Page }}
+        {{- $tagURL = .Page.RelPermalink }}
+      {{- else }}
+        {{- $tagURL = printf "/topics/%s/" (.TagName | urlize) }}
+      {{- end }}
+      <a href="{{ $tagURL }}" class="btn btn-outline-primary {{ if $isActive }}active{{ end }}">
+        {{ .Page.Title | default .TagName }}
         <span class="badge bg-primary text-white ms-1">{{ .Count }}</span>
       </a>
     {{- end }}

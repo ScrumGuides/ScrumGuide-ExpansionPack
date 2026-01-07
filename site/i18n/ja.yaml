@@ -350,9 +350,6 @@
   # translation: "Contributed By"
   translation: "貢献者"
 
-
-
-
 # Homepage specific translations
 - id: hero_badge
   translation: "スクラムガイド2020の補足"
@@ -389,3 +386,6 @@
 
 - id: view_on_github
   translation: "GitHubで見る"
+
+- id: all_topics
+  translation: "すべて"

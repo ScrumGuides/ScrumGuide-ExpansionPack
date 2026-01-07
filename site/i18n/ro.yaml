@@ -145,7 +145,7 @@
   translation: "Traducători"
 
 - id: download_table_written_by
-  translation: "Scris de"     
+  translation: "Scris de"
 
 - id: download_table_action
   translation: "Acțiune"
@@ -176,7 +176,6 @@
 
 - id: read_online_action
   translation: "Citește online"
-
 
 # Guide template translations
 - id: guide_join_discussion
@@ -274,7 +273,7 @@
 - id: guide_back_to_home
   translation: "Înapoi la pagina principală"
 
-- id: living_document_updated_label 
+- id: living_document_updated_label
   translation: "Acest document live a fost actualizat ultima dată în"
 
 - id: read_guide_button
@@ -306,3 +305,6 @@
 
 - id: translators_button_small
   translation: "Traducători"
+
+- id: all_topics
+  translation: "Toate"

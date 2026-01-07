@@ -277,3 +277,6 @@
 
 - id: contributors_label
   translation: "مشارکت‌کنندگان"
+
+- id: all_topics
+  translation: "همه"

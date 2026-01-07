@@ -8,7 +8,6 @@
 - id: read_online_description
   translation: "Accede a la guía completa en formato digital con funciones interactivas y navegación sencilla."
 
-  
 - id: read_online_button
   translation: "Leer en línea"
 
@@ -278,3 +277,18 @@
 
 - id: translators_label
   translation: "Traductores"
+
+- id: all_topics
+  translation: "Todos"
+
+- id: guide_historical_version_notice_title
+  translation: "Versión Histórica"
+
+- id: guide_historical_version_notice_text
+  translation: "Esta es una versión histórica de la guía."
+
+- id: guide_historical_version_notice_link
+  translation: "Ver la versión actual"
+
+- id: guide_historical_version_notice_suffix
+  translation: "para el contenido más reciente."

@@ -9,7 +9,7 @@
   translation: "Online lezen"
 
 - id: read_online_description
-# Missing translations for Dutchtion
+  # Missing translations for Dutchtion
   translation: "Krijg digitaal toegang tot de volledige gids met interactieve functies en eenvoudige navigatie."
 
 - id: read_online_button
@@ -285,6 +285,9 @@
 
 - id: view_on_github
   translation: "Bekijk op GitHub"
+
+- id: all_topics
+  translation: "Alle"
 
 - id: translations_button_small
   translation: "Vertalingen"

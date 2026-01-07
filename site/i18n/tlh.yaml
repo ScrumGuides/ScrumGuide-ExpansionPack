@@ -273,3 +273,33 @@
 
 - id: view_on_github
   translation: "GitHub legh"
+
+- id: all_topics
+  translation: "Hoch"
+
+- id: guide_content_unavailable_note
+  translation: "Note:"
+
+- id: forked_from_indicator
+  translation: "Forked From:"
+
+- id: guide_content_unavailable_message
+  translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."
+
+- id: current_fork_label
+  translation: "Current Fork:"
+
+- id: active_fork_label
+  translation: "Active Fork:"
+
+- id: fork_indicator
+  translation: "Fork Indicator"
+
+- id: this_is_fork_label
+  translation: "This is a fork"
+
+- id: active_fork_updated_label
+  translation: "Last Updated:"
+
+- id: read_fork_button
+  translation: "Read Fork"
