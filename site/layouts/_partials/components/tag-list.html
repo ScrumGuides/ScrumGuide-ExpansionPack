@@ -57,8 +57,12 @@
       {{- else }}
         {{- $tagURL = printf "/topics/%s/" (.TagName | urlize) }}
       {{- end }}
-      <a href="{{ $tagURL }}" class="btn {{ if .IsEnglish }}btn-outline-secondary{{ else }}btn-outline-primary{{ end }} {{ if $isActive }}active{{ end }}">
-        {{ .Page.Title | default .TagName }}{{ if .IsEnglish }}[en]{{ end }}
+      {{- $buttonTitle := .Page.Title | default .TagName }}
+      {{- if .IsEnglish }}
+        {{- $buttonTitle = printf "%s [english only]" $buttonTitle }}
+      {{- end }}
+      <a href="{{ $tagURL }}" class="btn {{ if .IsEnglish }}btn-outline-secondary{{ else }}btn-outline-primary{{ end }} {{ if $isActive }}active{{ end }}" title="{{ $buttonTitle }}">
+        {{ .Page.Title | default .TagName }}
         <span class="badge {{ if .IsEnglish }}bg-secondary{{ else }}bg-primary{{ end }} text-white ms-1">{{ .Count }}</span>
       </a>
     {{- end }}
