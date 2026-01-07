@@ -37,7 +37,13 @@
                 {{/* Check if content is only in English */}}
                 {{- $defaultSite := index $.Site.Sites 0 }}
                 {{- if ne $.Site.Language.Lang $defaultSite.Language.Lang }}
+                  {{- $showEnglishOnly := false }}
                   {{- if not .Translations }}
+                    {{- $showEnglishOnly = true }}
+                  {{- else if eq (trim .Content " \n\t") "" }}
+                    {{- $showEnglishOnly = true }}
+                  {{- end }}
+                  {{- if $showEnglishOnly }}
                     <div class="mb-3">
                       <span class="badge border border-warning text-warning bg-transparent" title="This content is only available in English"><i class="fa-solid fa-language me-1"></i>English Only</span>
                     </div>
