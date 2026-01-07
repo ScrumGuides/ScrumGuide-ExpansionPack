@@ -114,7 +114,15 @@
                         <div class="d-flex align-items-center justify-content-between pt-3 border-top">
                           <div class="d-flex align-items-center gap-2 text-muted small">
                             <i class="fa-solid fa-clock"></i>
-                            <span>15 min</span>
+                            {{- $allVersions := partial "functions/get-all-versions" . -}}
+                            {{- if gt (len $allVersions) 0 }}
+                              {{- $latestVersionObj := index $allVersions 0 }}
+                              {{- with $latestVersionObj.page }}
+                                <span>{{ .ReadingTime }} min read</span>
+                              {{- end }}
+                            {{- else }}
+                              <span>15 min read</span>
+                            {{- end }}
                           </div>
                           <i class="fa-solid fa-arrow-right text-primary"></i>
                         </div>
@@ -169,7 +177,15 @@
                         <div class="d-flex align-items-center justify-content-between pt-3 border-top">
                           <div class="d-flex align-items-center gap-2 text-muted small">
                             <i class="fa-solid fa-clock"></i>
-                            <span>15 min</span>
+                            {{- $allVersions := partial "functions/get-all-versions" . -}}
+                            {{- if gt (len $allVersions) 0 }}
+                              {{- $latestVersionObj := index $allVersions 0 }}
+                              {{- with $latestVersionObj.page }}
+                                <span>{{ .ReadingTime }} min read</span>
+                              {{- end }}
+                            {{- else }}
+                              <span>15 min read</span>
+                            {{- end }}
                           </div>
                           <i class="fa-solid fa-arrow-right text-primary"></i>
                         </div>
