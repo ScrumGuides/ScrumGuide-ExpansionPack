@@ -1,28 +1,36 @@
 {{/* Extensions Section */}}
 {{- $extensionSections := where .Site.Sections "Type" "guide" }}
 {{- range .Site.Home.Translations }}
-    {{- $extensionSections = $extensionSections | lang.Merge .Site.Sections }}
+  {{- $extensionSections = $extensionSections | lang.Merge .Site.Sections }}
 {{- end }}
 {{- $extensionSections = where $extensionSections "Params.categories" "intersect" (slice "extensions") }}
+
+{{/* If this is a tag page, filter extensions by the current tag */}}
+{{- if eq .Kind "term" }}
+  {{- if eq .Type "tags" }}
+    {{- $currentTag := .Title }}
+    {{- $extensionSections = where $extensionSections "Params.tags" "intersect" (slice $currentTag) }}
+  {{- end }}
+{{- end }}
 {{- if gt (len $extensionSections) 0 }}
-    <div class="mb-5">
+  <div class="mb-5">
     <div class="d-flex align-items-center gap-3 mb-4">
-        <span class="bg-primary rounded-pill" style="width: 0.375rem; height: 2rem;"></span>
-        <h2 class="h3 mb-0">{{ i18n "extensions_section_title" | default "Expansions" }}</h2>
-        <span class="text-muted">({{ len $extensionSections }} {{ i18n "documents" | default "documents" }})</span>
+      <span class="bg-primary rounded-pill" style="width: 0.375rem; height: 2rem;"></span>
+      <h2 class="h3 mb-0">{{ i18n "extensions_section_title" | default "Expansions" }}</h2>
+      <span class="text-muted">({{ len $extensionSections }} {{ i18n "documents" | default "documents" }})</span>
     </div>
 
     <div class="row g-4">
-        {{- range $extensionSections.ByWeight }}
+      {{- range $extensionSections.ByWeight }}
         <div class="col-12 col-md-6 col-lg-4">
-            <a href="{{ .RelPermalink }}" class="text-decoration-none">
+          <a href="{{ .RelPermalink }}" class="text-decoration-none">
             <div class="card h-100 border-0 shadow-sm hover-lift">
-                <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary opacity-0 hover-opacity-10 rounded"></div>
-                <div class="card-body p-4 position-relative d-flex flex-column">
+              <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary opacity-0 hover-opacity-10 rounded"></div>
+              <div class="card-body p-4 position-relative d-flex flex-column">
                 <div class="mb-4">
-                    <div class="p-3 rounded bg-primary bg-opacity-10 text-primary d-inline-block">
+                  <div class="p-3 rounded bg-primary bg-opacity-10 text-primary d-inline-block">
                     <i class="fa-solid fa-file-text fa-lg"></i>
-                    </div>
+                  </div>
                 </div>
 
                 <h3 class="h5 fw-bold mb-3 text-dark hover-text-primary">{{ .Params.short_title | default .Title }}</h3>
@@ -30,33 +38,34 @@
 
                 {{/* Categories/Tags */}}
                 {{- if .Params.tags }}
-                    <div class="d-flex flex-wrap gap-2 mb-4">
+                  <div class="d-flex flex-wrap gap-2 mb-4">
                     {{- range .Params.tags }}
-                        <span class="badge bg-secondary bg-opacity-50">{{ . | title }}</span>
+                      <span class="badge bg-secondary bg-opacity-50">{{ . | title }}</span>
                     {{- end }}
-                    </div>
+                  </div>
                 {{- end }}
 
+
                 <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
-                    <div class="d-flex align-items-center gap-2 text-muted small">
+                  <div class="d-flex align-items-center gap-2 text-muted small">
                     <i class="fa-solid fa-clock"></i>
                     {{- $allVersions := partial "functions/get-all-versions" . -}}
                     {{- if gt (len $allVersions) 0 }}
-                        {{- $latestVersionObj := index $allVersions 0 }}
-                        {{- with $latestVersionObj.page }}
+                      {{- $latestVersionObj := index $allVersions 0 }}
+                      {{- with $latestVersionObj.page }}
                         <span>{{ .ReadingTime }} min read</span>
-                        {{- end }}
+                      {{- end }}
                     {{- else }}
-                        <span>15 min read</span>
+                      <span>15 min read</span>
                     {{- end }}
-                    </div>
-                    <i class="fa-solid fa-arrow-right text-primary"></i>
+                  </div>
+                  <i class="fa-solid fa-arrow-right text-primary"></i>
                 </div>
-                </div>
+              </div>
             </div>
-            </a>
+          </a>
         </div>
-        {{- end }}
+      {{- end }}
     </div>
-    </div>
+  </div>
 {{- end }}
