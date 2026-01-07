@@ -2,6 +2,9 @@
 - id: and
   translation: "and"
 
+- id: all_topics
+  translation: "All"
+
 - id: read_online_title
   translation: "Read the {{ .Site.Title }} online"
 
@@ -176,7 +179,6 @@
 
 - id: read_online_action
   translation: "Read Online"
-
 
 # Guide template translations
 - id: guide_join_discussion

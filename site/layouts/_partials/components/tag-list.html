@@ -1,0 +1,24 @@
+{{/* Tag Filter List */}}
+<div class="mb-5">
+  <div class="d-flex flex-wrap justify-content-center gap-2">
+    {{/* All button (Homepage link) */}}
+    <a href="{{ .Site.Home.RelPermalink }}" class="btn btn-outline-primary {{ if .IsHome }}active{{ end }}">
+      <i class="fa-solid fa-grid-2 me-2"></i>
+      {{ i18n "all_topics" | default "All" }}
+    </a>
+
+    {{/* List all tags */}}
+    {{- range .Site.Taxonomies.tags.ByCount }}
+      {{- $isActive := false }}
+      {{- if $.Param "term" }}
+        {{- if eq $.Param "term" .Page.Title }}
+          {{- $isActive = true }}
+        {{- end }}
+      {{- end }}
+      <a href="{{ .Page.RelPermalink }}" class="btn btn-outline-primary {{ if $isActive }}active{{ end }}">
+        {{ .Page.Title }}
+        <span class="badge bg-primary text-white ms-1">{{ .Count }}</span>
+      </a>
+    {{- end }}
+  </div>
+</div>
