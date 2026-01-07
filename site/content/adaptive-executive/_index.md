@@ -1,6 +1,6 @@
 ---
 title: Adaptive Executive
-description: Adaptive Executive
+description: Executive-level guidance for leading agile transformations and creating environments...
 Type: "guide"
 Layout: "root"
 brand:

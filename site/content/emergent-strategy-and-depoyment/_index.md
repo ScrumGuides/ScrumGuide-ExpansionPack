@@ -1,6 +1,6 @@
 ---
 title: Emergent Strategy and Depoyment
-description: Emergent Strategy and Depoyment
+description: Learn how strategy emerges from Scrum practices and how to deploy changes...
 Type: "guide"
 Layout: "root"
 brand:

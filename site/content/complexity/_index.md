@@ -1,6 +1,6 @@
 ---
 title: Complexity
-description: Complexity
+description: Navigate complex adaptive systems and understand how to apply Scrum principles...
 Type: "guide"
 Layout: "root"
 brand:

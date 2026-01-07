@@ -1,6 +1,6 @@
 ---
 title: Multi Team Scrum
-description: Multi Team Scrum
+description: Scale Scrum effectively across multiple teams while maintaining agility and avoiding common...
 Type: "guide"
 Layout: "root"
 brand:

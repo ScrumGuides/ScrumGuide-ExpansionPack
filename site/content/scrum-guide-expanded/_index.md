@@ -1,42 +1,23 @@
 ---
 title: Scrum Guide Expanded
-description: Scrum Guide Expanded
+description: The comprehensive companion to the 2020 Scrum Guide, providing deeper insights into implementing Scrum effectively in complex environments.
 Type: "guide"
 Layout: "root"
 brand:
   bg_colour: "#0072B2"
   image: "images/scrum-guide-expansion-pack-logo-solo.png"
-guide_whatis: |
-  Scrum Guide Expanded
-guide_overview: |
-  TODO guide_overview
 weight: 2
 guide_license: |
   License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
-guide_comparison:
-  - title: Purpose
-    content: "Strategic companion to the Scrum Guide"
-  - title: Ethos
-    content: "Empirical, value-driven, system-aware"
-  - title: Audience
-    content: "Scrum professionals facing complex delivery challenges"
-  - title: Use Case
-    content: "How do we deepen our Scrum practice in modern environments?"
-  - title: Content
-    content: "Focused on complexity, systems of work, product thinking, and leadership"
-  - title: Update Model
-    content: "Expert-curated, community-informed"
-which_to_use_summary: |
-  Scrum Guide Expanded
-categories: 
+categories:
   - core
 tags:
- - Foundation
- - Framework
+  - Foundation
+  - Framework
 cascade:
-- build:
-    list: never
-    render: never
-  target:
-    environment: production
+  - build:
+      list: never
+      render: never
+    target:
+      environment: production
 ---
