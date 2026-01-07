@@ -16,14 +16,14 @@ languages:
     weight: 1
     title: Scrum Guide Expansion Pack
     params:
-      description: ScrumExpansion.org hosts the Scrum Guide Expansion Pack—modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
+      description: Navigate today's complex product environments with practical guidance on *complexity*, *product thinking*, *systems of work*, and *leadership*.
       keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site
   de:
     languageName: Deutsch
     weight: 2
     title: Scrum Guide Expansion Pack
     params:
-      description: ScrumExpansion.org bietet das Scrum Guide Expansion Pack—moderne Empfehlungen für die Anwendung von Scrum bei komplexer Arbeit, KI und adaptiver Strategie.
+      description: Navigieren Sie die komplexen Produktumgebungen von heute mit praktischer Anleitung zu *Komplexität*, *Produktdenken*, *Arbeitssystemen* und *Führung*.
       keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum Anleitung, fortgeschrittene Scrum Praktiken, Scrum für moderne Arbeit, adaptive Unternehmen, agile Produktlieferung, empirisches Scrum, Produktdenken, Komplexitätstheorie in Scrum, Scrum Führung, professionelles Scrum, Scrum und KI, Scrum Ressourcen, Scrum Lernplattform, Scrum Community Website
   tlh:
     languageName: Klingon (reference)
@@ -42,7 +42,7 @@ languages:
     languageDirection: rtl
     title: مقاله‌ی مکمل راهنمای اسکرام
     params:
-      description: سایت ScrumExpansion.org میزبان مقاله‌ی مکمل راهنمای اسکرام است — راهنمایی‌های نوین برای به‌کارگیری اسکرام در کارهای پیچیده، هوش مصنوعی، و استراتژی‌های تطبیقی.
+      description: محیط‌های پیچیده محصول امروز را با راهنمایی عملی در مورد *پیچیدگی*، *تفکر محصول*، *سیستم‌های کاری* و *رهبری* هدایت کنید.
       keywords: اسکرام، ScrumExpansion.org، مقاله‌ی مکمل راهنمای اسکرام، راهنمای اسکرام، شیوه‌های پیشرفته‌ی اسکرام، اسکرام برای کارهای مدرن، سازمان تطبیقی، تحویل محصول اجایل، اسکرام تجربی، تفکر محصول، نظریه‌ی پیچیدگی در اسکرام، رهبری در اسکرام، اسکرام حرفه‌ای، اسکرام و هوش مصنوعی، منابع اسکرام، مرکز یادگیری اسکرام، سایت جامعه‌ی اسکرام
       discussionId: 61
   pl:
@@ -51,7 +51,7 @@ languages:
     languageCode: pl
     title: "Scrum Guide: Rozszerzenia"
     params:
-      description: ScrumExpansion.org udostępnia - aktualne wytyczne do wykorzystania Scruma w złożonej pracy, sztucznej inteligencji i adaptacyjnych strategiach.
+      description: Nawiguj w dzisiejszych złożonych środowiskach produktowych z praktycznymi wskazówkami dotyczącymi *złożoności*, *myślenia produktowego*, *systemów pracy* i *przywództwa*.
       keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, wytyczne Scrum, zaawansowane praktyki Scrum, Scrum dla nowoczesnej pracy, adaptacyjne przedsiębiorstwo, zwinne dostarczanie produktów, empiryczny Scrum, myślenie produktowe, teoria złożoności w Scrum, przywództwo Scrum, profesjonalny Scrum, Scrum i AI, zasoby Scrum, centrum nauki Scrum, strona społeczności Scrum
       discussionId: 131
   nl:
@@ -60,7 +60,7 @@ languages:
     languageCode: nl
     title: Scrum Guide Expansion Pack
     params:
-      description: ScrumExpansion.org is de thuisbasis van het Scrum Gids Uitbreidingspakket — moderne richtlijnen voor het toepassen van Scrum op complexe werkzaamheden, AI en adaptieve strategie.
+      description: Navigeer door de complexe productomgevingen van vandaag met praktische begeleiding over *complexiteit*, *productdenken*, *werksystemen* en *leiderschap*.
       keywords: Scrum, ScrumExpansion.org, Scrum Gids Uitbreidingspakket, Scrum richtlijnen, geavanceerde Scrum praktijken, Scrum voor modern werk, adaptieve onderneming, agile productlevering, empirische Scrum, productdenken, complexiteitstheorie in Scrum, Scrum leiderschap, professioneel Scrum, Scrum en AI, Scrum bronnen, Scrum leerhub, Scrum gemeenschapssite
       discussionId: 125
   ro:
@@ -69,14 +69,14 @@ languages:
     title: Ghidul Scrum Pachetul Extins
     languageCode: ro
     params:
-      description: ScrumExpansion.org găzduiește Pachetul Extins al Ghidului Scrum — ghid modern pentru aplicarea Scrum în activitatea complexă, inteligența artificială și strategia adaptivă.
+      description: Navigați prin mediile complexe de produs de astăzi cu îndrumări practice privind *complexitatea*, *gândirea bazată pe produs*, *sistemele de lucru* și *leadership*.
       keywords: Scrum, ScrumExpansion.org, Ghidul Scrum Pachetul Extins, ghid Scrum, practici Scrum avansate, Scrum pentru munca modernă, întreprindere adaptivă, livrare agilă de produs, Scrum empiric, gândire bazată pe dezvoltarea produselor, teoria complexității în Scrum, leadership în Scrum, Scrum profesional, Scrum Educativ Scrum și inteligența artificială, resurse Scrum, hub de învățare Scrum, site al comunității Scrum.
   es:
     languageName: Spanish
     weight: 4
     title: Scrum Guide Expansion Pack
     params:
-      description: El Scrum Guide Expansion Pack es un complemento integral a la Guía Scrum 2020, creado para ayudar a los profesionales a desenvolverse en entornos de producto cada vez más complejos.
+      description: Navegue por los entornos de producto complejos de hoy con orientación práctica sobre *complejidad*, *pensamiento de producto*, *sistemas de trabajo* y *liderazgo*.
       keywords: Scrum, Scrum moderno, Gestión de producto, Desarrollo de producto empírico, Scrum en entornos complejos, Scrum e IA
   ja:
     languageName: 日本語
@@ -84,7 +84,7 @@ languages:
     title: スクラムガイド拡張パック
     languageCode: ja
     params:
-      description: ScrumExpansion.orgは、複雑な作業やAI、適応的な戦略にスクラムを適用するための最新ガイダンス「スクラムガイド拡張パック」を提供しています。
+      description: "*複雑性*、*プロダクト思考*、*作業システム*、*リーダーシップ*に関する実践的なガイダンスで、今日の複雑なプロダクト環境をナビゲートします。"
       keywords: スクラム, ScrumExpansion.org, スクラムガイド拡張パック
   pt:
     languageName: Português
@@ -92,7 +92,7 @@ languages:
     title: Pacote de Expansão do Guia Scrum
     languageCode: pt
     params:
-      description: ScrumExpansion.org hospeda o Pacote de Expansão do Guia Scrum—orientações modernas para aplicar Scrum em trabalhos complexos, IA e estratégia adaptativa.
+      description: Navegue pelos ambientes de produto complexos de hoje com orientação prática sobre *complexidade*, *pensamento de produto*, *sistemas de trabalho* e *liderança*.
       keywords: Scrum, ScrumExpansion.org, Pacote de Expansão do Guia Scrum, orientações Scrum, práticas avançadas de Scrum, Scrum para trabalho moderno, empresa adaptativa, entrega ágil de produto, Scrum empírico, pensamento de produto, teoria da complexidade em Scrum, liderança Scrum, Scrum profissional, Scrum e IA, recursos Scrum, centro de aprendizagem Scrum, site da comunidade Scrum
   it:
     languageName: Italian
@@ -100,7 +100,7 @@ languages:
     title: Pacchetto di Espansione della Guida a Scrum
     languageCode: it
     params:
-      description: ScrumExpansion.org ospita il Pacchetto di Espansione della Guida a Scrum — linee guida moderne per applicare Scrum al lavoro complesso, all'IA e alle strategie adattive.
+      description: Naviga negli ambienti di prodotto complessi di oggi con una guida pratica su *complessità*, *pensiero di prodotto*, *sistemi di lavoro* e *leadership*.
       keywords: Scrum, ScrumExpansion.org, Pacchetto di Espansione della Guida a Scrum
 params:
   description: Scrum Guides 2025 Expansion Pack

@@ -1,6 +1,6 @@
 ---
 title: Adaptive Enterprise
-description: Adaptive Enterprise
+description: Transform your organization into an adaptive enterprise that thrives in uncertainty and...
 Type: "guide"
 Layout: "root"
 brand:
@@ -30,6 +30,9 @@ which_to_use_summary: |
   Adaptive Enterprise
 categories: 
   - extensions
+tags:
+ - Organisation
+ - Leadership
 cascade:
 - build:
     list: never

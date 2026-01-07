@@ -34,7 +34,7 @@ guide_comparison:
 which_to_use_summary: |
   The Scrum Guide Expansion Pack is a comprehensive companion to the [2020 Scrum Guide](https://scrumguides.org), created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
 categories: 
-  - core
+  - original
 tags:
  - Foundation
  - Framework

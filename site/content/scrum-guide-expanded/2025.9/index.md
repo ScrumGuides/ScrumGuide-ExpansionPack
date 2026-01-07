@@ -21,8 +21,6 @@ monofont: "Courier New"
 forked_from: scrum-guide-expansion-pack/2025.6
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
