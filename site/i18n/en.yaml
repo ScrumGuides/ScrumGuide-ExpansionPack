@@ -294,8 +294,7 @@
 
 - id: hero_title
   translation: |
-    Scrum Guide
-    *Expansion Pack*
+    Scrum Guide<br />*Expansion Pack*
 - id: hero_description
   translation: |
     Navigate today's complex product environments with practical guidance on *complexity*, *product thinking*, *systems of work*, and *leadership*.
