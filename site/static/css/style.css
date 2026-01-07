@@ -4,7 +4,8 @@
 
 /* ============ Gradient Hero Section ============ */
 .bg-gradient-hero {
-  background: linear-gradient(135deg, #1a1a1a 0%, #1a1a1a 50%, rgba(19, 82, 137, 0.2) 100%);
+  background-color: #1a1a1a;
+  background: linear-gradient(135deg, #1a1a1a 0%, #0d1f2d 50%, #135289 100%);
 }
 
 .gradient-orb {
