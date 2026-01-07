@@ -238,5 +238,42 @@
 - id: download_reference_status
   translation: "مرجع"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "همراه راهنمای اسکرام 2020"
+
+- id: created_by
+  translation: "ایجاد شده توسط"
+
+- id: explore_expansions
+  translation: "بسط‌ها را کاوش کنید"
+
+- id: core_section_title
+  translation: "بسته توسعه راهنمای اسکرام"
+
+- id: core_document_badge
+  translation: "سند اصلی"
+
+- id: extensions_section_title
+  translation: "بسط‌ها"
+
+- id: documents
+  translation: "اسناد"
+
+- id: community_description
+  translation: "این بسته توسعه بر همکاری جامعه شکوفا می‌شود. به متخصصان سراسر جهان بپیوندید تا اسکرام را برای همه در دسترس‌تر و کاربردی‌تر کنید."
+
+- id: expansions
+  translation: "بسط‌ها"
+
+- id: expert_authors
+  translation: "نویسندگان متخصص"
+
+- id: possibilities
+  translation: "امکانات"
+
+- id: view_on_github
+  translation: "مشاهده در GitHub"
+
 - id: contributors_label
   translation: "مشارکت‌کنندگان"

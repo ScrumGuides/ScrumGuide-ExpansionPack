@@ -249,6 +249,43 @@
 - id: download_reference_status
   translation: "Referentie"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "Metgezel van de Scrum Guide 2020"
+
+- id: created_by
+  translation: "Gemaakt door"
+
+- id: explore_expansions
+  translation: "Verken de Uitbreidingen"
+
+- id: core_section_title
+  translation: "Scrum Guide Uitbreiding"
+
+- id: core_document_badge
+  translation: "Hoofddocument"
+
+- id: extensions_section_title
+  translation: "Uitbreidingen"
+
+- id: documents
+  translation: "documenten"
+
+- id: community_description
+  translation: "Dit uitbreidingspakket gedijt op samenwerking van de gemeenschap. Sluit je aan bij praktijkmensen wereldwijd om Scrum toegankelijker en praktischer te maken voor iedereen."
+
+- id: expansions
+  translation: "Uitbreidingen"
+
+- id: expert_authors
+  translation: "Expert Auteurs"
+
+- id: possibilities
+  translation: "Mogelijkheden"
+
+- id: view_on_github
+  translation: "Bekijk op GitHub"
+
 - id: translations_button_small
   translation: "Vertalingen"
 

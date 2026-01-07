@@ -153,6 +153,11 @@ outputFormats:
     baseName: languages
     isPlainText: true
 
+permalinks:
+  term:
+    tags: "/topics/:slug/"
+  taxonomy:
+    tags: "/topics/"
 
 
 module:

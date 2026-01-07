@@ -194,6 +194,43 @@
 - id: download_reference_status
   translation: "Referência"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "Companheiro do Guia Scrum 2020"
+
+- id: created_by
+  translation: "Criado por"
+
+- id: explore_expansions
+  translation: "Explorar as Expansões"
+
+- id: core_section_title
+  translation: "Expansão do Guia Scrum"
+
+- id: core_document_badge
+  translation: "Documento Principal"
+
+- id: extensions_section_title
+  translation: "Expansões"
+
+- id: documents
+  translation: "documentos"
+
+- id: community_description
+  translation: "Este pacote de expansão prospera com a colaboração da comunidade. Junte-se a profissionais de todo o mundo para tornar o Scrum mais acessível e prático para todos."
+
+- id: expansions
+  translation: "Expansões"
+
+- id: expert_authors
+  translation: "Autores Especialistas"
+
+- id: possibilities
+  translation: "Possibilidades"
+
+- id: view_on_github
+  translation: "Ver no GitHub"
+
 # Missing translations from Farsi file
 - id: breadcrumb_home
   translation: "Início"

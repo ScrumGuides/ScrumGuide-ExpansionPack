@@ -230,3 +230,40 @@
 - id: contributors_label
   translation: "Współtwórcy"
 
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Towarzysz Przewodnika Scrum 2020"
+
+- id: created_by
+  translation: "Stworzony przez"
+
+- id: explore_expansions
+  translation: "Odkryj Rozszerzenia"
+
+- id: core_section_title
+  translation: "Rozszerzenie Przewodnika Scrum"
+
+- id: core_document_badge
+  translation: "Dokument Główny"
+
+- id: extensions_section_title
+  translation: "Rozszerzenia"
+
+- id: documents
+  translation: "dokumenty"
+
+- id: community_description
+  translation: "Ten pakiet rozszerzeń rozwija się dzięki współpracy społeczności. Dołącz do praktyków z całego świata, aby uczynić Scrum bardziej dostępnym i praktycznym dla wszystkich."
+
+- id: expansions
+  translation: "Rozszerzenia"
+
+- id: expert_authors
+  translation: "Autorzy Eksperci"
+
+- id: possibilities
+  translation: "Możliwości"
+
+- id: view_on_github
+  translation: "Zobacz na GitHub"

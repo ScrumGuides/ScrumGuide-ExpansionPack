@@ -249,3 +249,40 @@
 
 - id: download_reference_status
   translation: "Referenz"
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Begleiter zum Scrum Guide 2020"
+
+- id: created_by
+  translation: "Erstellt von"
+
+- id: explore_expansions
+  translation: "Erkunde die Erweiterungen"
+
+- id: core_section_title
+  translation: "Scrum Guide Erweiterung"
+
+- id: core_document_badge
+  translation: "Hauptdokument"
+
+- id: extensions_section_title
+  translation: "Erweiterungen"
+
+- id: documents
+  translation: "Dokumente"
+
+- id: community_description
+  translation: "Dieses Erweiterungspaket lebt von der Zusammenarbeit der Community. Schließe dich Praktikern weltweit an, um Scrum für alle zugänglicher und praktischer zu machen."
+
+- id: expansions
+  translation: "Erweiterungen"
+
+- id: expert_authors
+  translation: "Fachautoren"
+
+- id: possibilities
+  translation: "Möglichkeiten"
+
+- id: view_on_github
+  translation: "Auf GitHub ansehen"

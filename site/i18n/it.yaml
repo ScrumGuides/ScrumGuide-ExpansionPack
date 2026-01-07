@@ -248,3 +248,40 @@
 
 - id: guide_back_to_home
   translation: "Ritorna alla Home"
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Compagno della Guida Scrum 2020"
+
+- id: created_by
+  translation: "Creato da"
+
+- id: explore_expansions
+  translation: "Esplora le Espansioni"
+
+- id: core_section_title
+  translation: "Espansione della Guida Scrum"
+
+- id: core_document_badge
+  translation: "Documento Principale"
+
+- id: extensions_section_title
+  translation: "Espansioni"
+
+- id: documents
+  translation: "documenti"
+
+- id: community_description
+  translation: "Questo pacchetto di espansione prospera sulla collaborazione della comunità. Unisciti ai professionisti di tutto il mondo per rendere Scrum più accessibile e pratico per tutti."
+
+- id: expansions
+  translation: "Espansioni"
+
+- id: expert_authors
+  translation: "Autori Esperti"
+
+- id: possibilities
+  translation: "Possibilità"
+
+- id: view_on_github
+  translation: "Visualizza su GitHub"

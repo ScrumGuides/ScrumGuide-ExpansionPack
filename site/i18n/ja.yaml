@@ -352,3 +352,40 @@
 
 
 
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "スクラムガイド2020の補足"
+
+- id: created_by
+  translation: "作成者"
+
+- id: explore_expansions
+  translation: "拡張を探索する"
+
+- id: core_section_title
+  translation: "スクラムガイド拡張"
+
+- id: core_document_badge
+  translation: "コアドキュメント"
+
+- id: extensions_section_title
+  translation: "拡張"
+
+- id: documents
+  translation: "ドキュメント"
+
+- id: community_description
+  translation: "この拡張パックはコミュニティのコラボレーションによって成長します。世界中の実践者と共に、スクラムをすべての人にとってよりアクセスしやすく実用的なものにしましょう。"
+
+- id: expansions
+  translation: "拡張"
+
+- id: expert_authors
+  translation: "専門家著者"
+
+- id: possibilities
+  translation: "可能性"
+
+- id: view_on_github
+  translation: "GitHubで見る"

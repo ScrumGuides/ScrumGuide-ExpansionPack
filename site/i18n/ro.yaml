@@ -194,6 +194,43 @@
 - id: download_reference_status
   translation: "Referință"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "Însoțitor al Ghidului Scrum 2020"
+
+- id: created_by
+  translation: "Creat de"
+
+- id: explore_expansions
+  translation: "Explorează Extensiile"
+
+- id: core_section_title
+  translation: "Extensie Ghid Scrum"
+
+- id: core_document_badge
+  translation: "Document Principal"
+
+- id: extensions_section_title
+  translation: "Extensii"
+
+- id: documents
+  translation: "documente"
+
+- id: community_description
+  translation: "Acest pachet de extensii prosperă prin colaborarea comunității. Alătură-te practicienilor din întreaga lume pentru a face Scrum mai accesibil și practic pentru toată lumea."
+
+- id: expansions
+  translation: "Extensii"
+
+- id: expert_authors
+  translation: "Autori Experți"
+
+- id: possibilities
+  translation: "Posibilități"
+
+- id: view_on_github
+  translation: "Vizualizează pe GitHub"
+
   # Missing translations for Romanian
 - id: breadcrumb_home
   translation: "Acasă"
