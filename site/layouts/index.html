@@ -3,15 +3,8 @@
   {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
   
   {{/* Hero Section */}}
-  <section class="position-relative min-vh-85 d-flex align-items-center justify-content-center overflow-hidden bg-gradient-hero">
-    {{/* Gradient background orbs (using CSS only) */}}
-    <div class="position-absolute top-0 start-0 bottom-0 end-0 overflow-hidden">
-      <div class="gradient-orb gradient-orb-1"></div>
-      <div class="gradient-orb gradient-orb-2"></div>
-      <div class="gradient-orb gradient-orb-3"></div>
-    </div>
-
-    <div class="container position-relative" style="z-index: 10;">
+  <section class="min-vh-85 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #1a1a1a 0%, #0d1f2d 50%, #135289 100%);">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-xl-10 text-center">
           {{/* Badge */}}
