@@ -9,7 +9,20 @@
 
     {{/* Build a sorted list of tags by extensions count */}}
     {{- $tagList := slice }}
+    {{- $allTags := dict }}
+    {{- $defaultSite := index .Site.Sites 0 }}
+    {{- $currentLangTags := .Site.Taxonomies.tags }}
+
+    {{/* Always merge tags from default language to show untranslated tags */}}
+    {{- range $tagName, $taxonomy := $defaultSite.Taxonomies.tags }}
+      {{- $allTags = merge $allTags (dict $tagName $taxonomy) }}
+    {{- end }}
+    {{/* Then merge current language tags (they override default if they exist) */}}
     {{- range $tagName, $taxonomy := .Site.Taxonomies.tags }}
+      {{- $allTags = merge $allTags (dict $tagName $taxonomy) }}
+    {{- end }}
+
+    {{- range $tagName, $taxonomy := $allTags }}
       {{/* Count only pages with "extensions" category */}}
       {{- $extensionsCount := 0 }}
       {{- range $taxonomy.Pages }}
@@ -18,7 +31,14 @@
         {{- end }}
       {{- end }}
       {{- if gt $extensionsCount 0 }}
-        {{- $tagList = $tagList | append (dict "Page" $taxonomy.Page "TagName" $tagName "Count" $extensionsCount) }}
+        {{/* Check if this tag is from English (not in current language) */}}
+        {{- $isEnglishTag := false }}
+        {{- if ne $.Site.Language.Lang $defaultSite.Language.Lang }}
+          {{- if not (index $currentLangTags $tagName) }}
+            {{- $isEnglishTag = true }}
+          {{- end }}
+        {{- end }}
+        {{- $tagList = $tagList | append (dict "Page" $taxonomy.Page "TagName" $tagName "Count" $extensionsCount "IsEnglish" $isEnglishTag) }}
       {{- end }}
     {{- end }}
 
@@ -37,9 +57,9 @@
       {{- else }}
         {{- $tagURL = printf "/topics/%s/" (.TagName | urlize) }}
       {{- end }}
-      <a href="{{ $tagURL }}" class="btn btn-outline-primary {{ if $isActive }}active{{ end }}">
-        {{ .Page.Title | default .TagName }}
-        <span class="badge bg-primary text-white ms-1">{{ .Count }}</span>
+      <a href="{{ $tagURL }}" class="btn {{ if .IsEnglish }}btn-outline-secondary{{ else }}btn-outline-primary{{ end }} {{ if $isActive }}active{{ end }}">
+        {{ .Page.Title | default .TagName }}{{ if .IsEnglish }}[en]{{ end }}
+        <span class="badge {{ if .IsEnglish }}bg-secondary{{ else }}bg-primary{{ end }} text-white ms-1">{{ .Count }}</span>
       </a>
     {{- end }}
   </div>
