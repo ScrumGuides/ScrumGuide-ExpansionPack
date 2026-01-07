@@ -2,7 +2,7 @@
 <div class="mb-5">
   <div class="d-flex flex-wrap justify-content-center gap-2">
     {{/* All button (Homepage link) */}}
-    <a href="{{ .Site.Home.RelPermalink }}" class="btn btn-outline-primary {{ if .IsHome }}active{{ end }}">
+    <a href="{{ .Site.Home.RelPermalink }}" class="btn {{ if .IsHome }}btn-primary{{ else }}btn-outline-primary{{ end }}">
       <i class="fa-solid fa-grid-2 me-2"></i>
       {{ i18n "all_topics" | default "All" }}
     </a>
@@ -44,12 +44,6 @@
 
     {{/* Sort by count descending */}}
     {{- range sort $tagList "Count" "desc" }}
-      {{- $isActive := false }}
-      {{- if $.Param "term" }}
-        {{- if eq $.Param "term" .Page.Title }}
-          {{- $isActive = true }}
-        {{- end }}
-      {{- end }}
       {{/* Construct tag URL - fallback to manual construction if page doesn't exist */}}
       {{- $tagURL := "" }}
       {{- if .Page }}
@@ -57,11 +51,33 @@
       {{- else }}
         {{- $tagURL = printf "/topics/%s/" (.TagName | urlize) }}
       {{- end }}
+      {{/* Check if this tag is active by comparing URLs */}}
+      {{- $isActive := false }}
+      {{- if eq $.Kind "term" }}
+        {{- if eq $.RelPermalink $tagURL }}
+          {{- $isActive = true }}
+        {{- end }}
+      {{- end }}
       {{- $buttonTitle := .Page.Title | default .TagName }}
       {{- if .IsEnglish }}
         {{- $buttonTitle = printf "%s [english only]" $buttonTitle }}
       {{- end }}
-      <a href="{{ $tagURL }}" class="btn {{ if .IsEnglish }}btn-outline-secondary{{ else }}btn-outline-primary{{ end }} {{ if $isActive }}active{{ end }}" title="{{ $buttonTitle }}">
+      {{/* Determine button style based on active state and language */}}
+      {{- $buttonClass := "" }}
+      {{- if $isActive }}
+        {{- if .IsEnglish }}
+          {{- $buttonClass = "btn-secondary" }}
+        {{- else }}
+          {{- $buttonClass = "btn-primary" }}
+        {{- end }}
+      {{- else }}
+        {{- if .IsEnglish }}
+          {{- $buttonClass = "btn-outline-secondary" }}
+        {{- else }}
+          {{- $buttonClass = "btn-outline-primary" }}
+        {{- end }}
+      {{- end }}
+      <a href="{{ $tagURL }}" class="btn {{ $buttonClass }}" title="{{ $buttonTitle }}">
         {{ .Page.Title | default .TagName }}
         <span class="badge {{ if .IsEnglish }}bg-secondary{{ else }}bg-primary{{ end }} text-white ms-1">{{ .Count }}</span>
       </a>
