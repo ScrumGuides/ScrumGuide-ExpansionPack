@@ -7,8 +7,23 @@
       {{ i18n "all_topics" | default "All" }}
     </a>
 
-    {{/* List all tags */}}
-    {{- range .Site.Taxonomies.tags.ByCount }}
+    {{/* Build a sorted list of tags by extensions count */}}
+    {{- $tagList := slice }}
+    {{- range .Site.Taxonomies.tags }}
+      {{/* Count only pages with "extensions" category */}}
+      {{- $extensionsCount := 0 }}
+      {{- range .Pages }}
+        {{- if in .Params.categories "extensions" }}
+          {{- $extensionsCount = add $extensionsCount 1 }}
+        {{- end }}
+      {{- end }}
+      {{- if gt $extensionsCount 0 }}
+        {{- $tagList = $tagList | append (dict "Page" .Page "Count" $extensionsCount) }}
+      {{- end }}
+    {{- end }}
+
+    {{/* Sort by count descending */}}
+    {{- range sort $tagList "Count" "desc" }}
       {{- $isActive := false }}
       {{- if $.Param "term" }}
         {{- if eq $.Param "term" .Page.Title }}
