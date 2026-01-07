@@ -6,11 +6,9 @@
 {{- $extensionSections = where $extensionSections "Params.categories" "intersect" (slice "extensions") }}
 
 {{/* If this is a tag page, filter extensions by the current tag */}}
-{{- if eq .Kind "term" }}
-  {{- if eq .Type "tags" }}
-    {{- $currentTag := .Title }}
-    {{- $extensionSections = where $extensionSections "Params.tags" "intersect" (slice $currentTag) }}
-  {{- end }}
+{{- if and (eq .Kind "term") (eq .Type "tags") }}
+  {{- $currentTag := .Title }}
+  {{- $extensionSections = where $extensionSections "Params.tags" "intersect" (slice $currentTag) }}
 {{- end }}
 {{- if gt (len $extensionSections) 0 }}
   <div class="mb-5">
