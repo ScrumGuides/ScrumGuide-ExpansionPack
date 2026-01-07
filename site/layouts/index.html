@@ -1,96 +1,238 @@
 {{- define "main" }}
   {{- $guidePage := .Site.GetPage "/guide" }}
   {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
-  <section class="section container-fluid main-header">
-    <div class="container my-5">
-      <!-- Guide Cards with lighter design -->
-      <div class="row">
-        {{ $sections := .Site.Sections }}
-        {{ range .Site.Home.Translations }}
-          {{ $sections = $sections | lang.Merge .Site.Sections }}
-        {{ end }}
-        {{ $sections = where $sections "Type" "guide" }}
-         {{ $sections = where $sections "Params.categories" "intersect" (slice "headline") }}
-        {{- range $sections.ByWeight }}
-          <div class="col-12 col-lg-12 col-xl-12 p-3">
-            <div class="card h-100 shadow-sm border-0" style="background: #ffffff;">
-              <div class="card-header bg-white border-0 text-center py-3">
-                <h5 class="card-title mb-2 text-dark">{{ .Params.short_title | default .Title }}</h5>
-                <div class="mx-auto rounded" style="height: 4px; width: 60px; background-color: {{ .Params.brand.bg_colour | default "#135289" }};"></div>
-              </div>
-              <div class="card-body d-flex flex-column p-4">
-                <p class="flex-grow-1 text-muted">{{ .Params.which_to_use_summary | markdownify }}</p>
+  
+  {{/* Hero Section */}}
+  <section class="position-relative min-vh-85 d-flex align-items-center justify-content-center overflow-hidden bg-gradient-hero">
+    {{/* Gradient background orbs (using CSS only) */}}
+    <div class="position-absolute top-0 start-0 bottom-0 end-0 overflow-hidden">
+      <div class="gradient-orb gradient-orb-1"></div>
+      <div class="gradient-orb gradient-orb-2"></div>
+      <div class="gradient-orb gradient-orb-3"></div>
+    </div>
 
-                <!-- Action buttons with more inviting design -->
-                <div class="d-flex flex-wrap gap-2 justify-content-center py-3">
-                  {{- $latestVersion := partial "functions/get-latest-version" . }}
-                  <a href="{{ partial "functions/safe-page-link.html" .Path }}" class="btn btn-primary btn-sm px-3">
-                    <i class="fa-solid fa-book-open me-2"></i>{{ i18n "read_online_button" }}
-                  </a>
-                  <a href="{{ partial "functions/safe-page-link.html"  (path.Join .Path "translations") }}" class="btn btn-outline-secondary btn-sm px-3">
-                    <i class="fa-solid fa-globe me-2"></i>{{ i18n "translations_button" }}
-                  </a>
-                  <a href="{{ partial "functions/safe-page-link.html" (path.Join .Path "history") }}" class="btn btn-outline-secondary btn-sm px-3">
-                    <i class="fa-solid fa-clock-rotate-left me-2"></i>{{ i18n "history_button" }}
-                  </a>
-                </div>
-               <!-- Comparison details with better visual hierarchy -->
-                {{- if .Params.guide_comparison }}
-                  {{- $guideComparison := .Params.guide_comparison }}
-                  {{- if and $guideComparison (reflect.IsSlice $guideComparison) (gt (len $guideComparison) 0) }}
-                    <div class="mt-3 p-3 rounded" style="background-color: #f8f9fa;">
-                      <h6 class="text-primary mb-3 fw-bold text-center"><i class="fa-solid fa-list-check me-2"></i>{{ i18n "at_a_glance_title" . }}</h6>
-                      <div class="small">
-                        {{- range $index, $item := $guideComparison }}
-                          <div class="row {{ if eq $index (sub (len $guideComparison) 1) }}mb-0{{ else }}mb-2{{ end }}">
-                            <div class="col-5 text-end fw-semibold text-secondary">{{ $item.title | title }}:</div>
-                            <div class="col-7 text-dark">{{ $item.content | markdownify }}</div>
+    <div class="container position-relative" style="z-index: 10;">
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-10 text-center">
+          {{/* Badge */}}
+          <div class="d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill bg-primary bg-opacity-20 text-white border border-primary border-opacity-30 mb-4">
+            <i class="fa-solid fa-sparkles"></i>
+            <span class="small fw-medium">Companion to the 2020 Scrum Guide</span>
+          </div>
+
+          {{/* Main Title */}}
+          <h1 class="display-3 display-md-1 fw-bold text-white mb-4 lh-sm">
+            Scrum Guide<br>
+            <span class="text-primary">Expansion Pack</span>
+          </h1>
+
+          {{/* Subtitle */}}
+          <p class="fs-5 fs-md-4 text-white text-opacity-70 mb-5 mx-auto" style="max-width: 48rem;">
+            Navigate today's complex product environments with practical guidance on
+            <span class="text-primary fw-semibold"> complexity</span>,
+            <span class="text-primary fw-semibold"> product thinking</span>,
+            <span class="text-primary fw-semibold"> systems of work</span>, and
+            <span class="text-primary fw-semibold"> leadership</span>.
+          </p>
+
+          {{/* Creators */}}
+          <div class="d-flex flex-column align-items-center gap-4 mb-5">
+            <span class="text-white text-opacity-50 small text-uppercase fw-light ls-wider">Created by</span>
+            <div class="d-flex align-items-center gap-4 gap-md-5 flex-wrap justify-content-center">
+              {{- $pages := .Site.RegularPages }}
+              {{- range .Site.Home.Translations }}
+                {{- $pages = $pages | lang.Merge .Site.RegularPages }}
+              {{- end }}
+              {{- range where $pages "Section" "creators" }}
+                {{- if ne .Title "Creators" }}
+                  <div class="d-flex align-items-center gap-3">
+                    {{- $imageResource := "" }}
+                    {{- if .Params.image }}
+                      {{- $imageResource = .Resources.GetMatch .Params.image }}
+                    {{- end }}
+                    {{- if not $imageResource }}
+                      {{- $urlifiedTitle := .Title | urlize }}
+                      {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
+                    {{- end }}
+                    {{ with $imageResource }}
+                      <img src="{{ .Permalink }}" alt="{{ $.Title }}" class="rounded-circle border border-primary border-2 border-opacity-50" width="48" height="48">
+                    {{ end }}
+                    <div class="text-start">
+                      <p class="mb-0 text-white fw-semibold small">{{ .Title }}</p>
+                      <p class="mb-0 text-white text-opacity-50 small">{{ .Params.role }}</p>
+                    </div>
+                  </div>
+                {{- end }}
+              {{- end }}
+            </div>
+          </div>
+
+          {{/* Scroll indicator */}}
+          <div class="d-flex flex-column align-items-center gap-2 text-white text-opacity-60">
+            <span class="small text-uppercase fw-light ls-wider">Explore the Expansions</span>
+            <i class="fa-solid fa-arrow-down fa-bounce"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* Main Content */}}
+  <main id="content" class="container my-5 py-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11 col-xxl-10">
+        {{/* Core Guide Section */}}
+        {{- $coreSections := where .Site.Sections "Type" "guide" }}
+        {{- range .Site.Home.Translations }}
+          {{- $coreSections = $coreSections | lang.Merge .Site.Sections }}
+        {{- end }}
+        {{- $coreSections = where $coreSections "Params.categories" "intersect" (slice "core") }}
+        {{- if gt (len $coreSections) 0 }}
+          <div class="mb-5 pb-4">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <span class="bg-primary rounded-pill" style="width: 0.375rem; height: 2rem;"></span>
+              <h2 class="h3 mb-0">Scrum Guide Expansion</h2>
+            </div>
+            
+            <div class="row g-4">
+              {{- range $coreSections.ByWeight }}
+                <div class="col-12">
+                  <a href="{{ .RelPermalink }}" class="text-decoration-none">
+                    <div class="card h-100 border-2 border-primary shadow-sm hover-lift">
+                      <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary opacity-0 hover-opacity-10 rounded"></div>
+                      <div class="card-body p-4 p-lg-5 position-relative">
+                        <div class="d-flex align-items-start justify-content-between mb-3">
+                          <div class="p-3 rounded bg-primary text-white">
+                            <i class="fa-solid fa-file-text fa-lg"></i>
                           </div>
-                        {{- end }}
+                          <span class="badge bg-primary text-white border border-primary">Core Document</span>
+                        </div>
+
+                        <h3 class="h4 fw-bold text-primary mb-3 hover-text-primary">{{ .Params.short_title | default .Title }}</h3>
+                        <p class="text-muted mb-4">{{ .Params.which_to_use_summary | markdownify }}</p>
+
+                        <div class="d-flex align-items-center justify-content-between pt-3 border-top">
+                          <div class="d-flex align-items-center gap-2 text-muted small">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>15 min</span>
+                          </div>
+                          <i class="fa-solid fa-arrow-right text-primary"></i>
+                        </div>
                       </div>
                     </div>
-                  {{- end }}
-                {{- end }}
-              </div>
+                  </a>
+                </div>
+              {{- end }}
+            </div>
+          </div>
+        {{- end }}
+
+        {{/* Extensions Section */}}
+        {{- $extensionSections := where .Site.Sections "Type" "guide" }}
+        {{- range .Site.Home.Translations }}
+          {{- $extensionSections = $extensionSections | lang.Merge .Site.Sections }}
+        {{- end }}
+        {{- $extensionSections = where $extensionSections "Params.categories" "intersect" (slice "extensions") }}
+        {{- if gt (len $extensionSections) 0 }}
+          <div class="mb-5">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <span class="bg-primary rounded-pill" style="width: 0.375rem; height: 2rem;"></span>
+              <h2 class="h3 mb-0">Expansions</h2>
+              <span class="text-muted">({{ len $extensionSections }} documents)</span>
+            </div>
+
+            <div class="row g-4">
+              {{- range $extensionSections.ByWeight }}
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="{{ .RelPermalink }}" class="text-decoration-none">
+                    <div class="card h-100 border-0 shadow-sm hover-lift">
+                      <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary opacity-0 hover-opacity-10 rounded"></div>
+                      <div class="card-body p-4 position-relative">
+                        <div class="mb-4">
+                          <div class="p-3 rounded bg-primary bg-opacity-10 text-primary d-inline-block">
+                            <i class="fa-solid fa-file-text fa-lg"></i>
+                          </div>
+                        </div>
+
+                        <h3 class="h5 fw-bold mb-3 text-dark hover-text-primary">{{ .Params.short_title | default .Title }}</h3>
+                        <p class="text-muted small mb-4 line-clamp-3">{{ .Params.which_to_use_summary | markdownify }}</p>
+
+                        {{/* Categories/Tags */}}
+                        {{- if .Params.tags }}
+                          <div class="d-flex flex-wrap gap-2 mb-4">
+                            {{- range .Params.tags }}
+                              <span class="badge bg-secondary bg-opacity-50">{{ . | title }}</span>
+                            {{- end }}
+                          </div>
+                        {{- end }}
+
+                        <div class="d-flex align-items-center justify-content-between pt-3 border-top">
+                          <div class="d-flex align-items-center gap-2 text-muted small">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>15 min</span>
+                          </div>
+                          <i class="fa-solid fa-arrow-right text-primary"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              {{- end }}
             </div>
           </div>
         {{- end }}
       </div>
     </div>
-  </section>
-  <section class="section container-fluid">
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-12 col-lg-4 col-xl-6">
-          <div class="row d-none d-xl-flex">
-            <div class="col-2"></div>
-            {{- $pages := .Site.RegularPages }}
-            {{- range .Site.Home.Translations }}
-              {{- $pages = $pages | lang.Merge .Site.RegularPages }}
-            {{- end }}
-            {{- range where $pages "Section" "creators" }}
-              {{- if ne .Title "Creators" }}
-                <div class="col-3">
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </div>
-              {{- end }}
-            {{- end }}
+  </main>
+
+  {{/* Community Section */}}
+  <section class="py-5 bg-gradient-to-bottom">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8 text-center">
+          <div class="d-inline-flex align-items-center justify-content-center rounded bg-primary bg-opacity-10 text-primary mb-4" style="width: 4rem; height: 4rem;">
+            <i class="fa-solid fa-heart fa-2x"></i>
           </div>
-          <a href="{{ (.Site.GetPage "/creators").Permalink }}"><img src="/images/scrum-guide-expansion-pack-logo.png" class="img-fluid mb-3" alt="{{ .Site.Title }} Creators" /></a>
-        </div>
-        <div class="col-12 col-lg-8 col-xl-6">
-          <div>
-            <div class="col-12">
-              <h2 class="text-center">{{ i18n "open_source_title" }}</h2>
-              <p class="lead text-center">
-                {{ i18n "open_source_description" . }}
-              </p>
-              {{ if $isComingSoon }}
-                <a href="#" class="btn btn-primary disabled">{{ i18n "join_discussion_button" }}</a>
-              {{ else }}
-                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary d-block mx-auto" target="_blank">{{ i18n "join_discussion_button" }}</a>
-              {{ end }}
+          
+          <h2 class="display-6 fw-bold mb-4">Open Source &amp; Community Driven</h2>
+          <p class="fs-5 text-muted mb-5 mx-auto" style="max-width: 42rem;">
+            This expansion pack thrives on community collaboration. Join practitioners worldwide in making Scrum more accessible and practical for everyone.
+          </p>
+
+          <div class="row g-4 mb-5 justify-content-center">
+            <div class="col-4 col-md-3">
+              <div class="text-center">
+                <div class="display-6 fw-bold text-primary mb-2">{{ len .Site.Sections }}+</div>
+                <div class="small text-muted">Expansions</div>
+              </div>
             </div>
+            <div class="col-4 col-md-3">
+              <div class="text-center">
+                <div class="display-6 fw-bold text-primary mb-2">3</div>
+                <div class="small text-muted">Expert Authors</div>
+              </div>
+            </div>
+            <div class="col-4 col-md-3">
+              <div class="text-center">
+                <div class="display-6 fw-bold text-primary mb-2">∞</div>
+                <div class="small text-muted">Possibilities</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            {{ if $isComingSoon }}
+              <a href="#" class="btn btn-primary btn-lg disabled">
+                <i class="fa-solid fa-message-circle me-2"></i>Join the Discussion
+              </a>
+            {{ else }}
+              <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                <i class="fa-solid fa-message-circle me-2"></i>Join the Discussion
+              </a>
+            {{ end }}
+            <a href="{{ .Site.Params.githubUrl }}" class="btn btn-outline-secondary btn-lg" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github me-2"></i>View on GitHub
+            </a>
           </div>
         </div>
       </div>

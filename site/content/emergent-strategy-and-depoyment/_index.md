@@ -28,6 +28,8 @@ guide_comparison:
     content: "Expert-curated, community-informed"
 which_to_use_summary: |
   Emergent Strategy and Depoyment
+categories: 
+  - extensions
 cascade:
 - build:
     list: never

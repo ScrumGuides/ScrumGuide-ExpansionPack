@@ -1,0 +1,282 @@
+/* ==================================
+   Scrum Guide Expansion Pack Styles
+   ================================== */
+
+/* ============ Gradient Hero Section ============ */
+.bg-gradient-hero {
+  background: linear-gradient(135deg, #1a1a1a 0%, #1a1a1a 50%, rgba(19, 82, 137, 0.2) 100%);
+}
+
+.gradient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+.gradient-orb-1 {
+  top: 5rem;
+  left: 2.5rem;
+  width: 18rem;
+  height: 18rem;
+  background: rgba(19, 82, 137, 0.1);
+}
+
+.gradient-orb-2 {
+  bottom: 5rem;
+  right: 2.5rem;
+  width: 24rem;
+  height: 24rem;
+  background: rgba(19, 82, 137, 0.05);
+}
+
+.gradient-orb-3 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 37.5rem;
+  height: 37.5rem;
+  background: rgba(19, 82, 137, 0.05);
+}
+
+/* ============ Utility Classes ============ */
+.min-vh-85 {
+  min-height: 85vh;
+}
+
+.bg-gradient-to-bottom {
+  background: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%);
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, rgba(19, 82, 137, 0.05) 0%, transparent 100%);
+}
+
+.hover-opacity-10:hover {
+  opacity: 0.1 !important;
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.hover-text-primary:hover {
+  color: #135289 !important;
+}
+
+.ls-wider {
+  letter-spacing: 0.1em;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ============ Dark Card Styling (Legacy) ============ */
+.card-dark {
+  background-color: #353535;
+  color: white;
+  border: none;
+}
+
+.card-dark .card-body {
+  background-color: #353535;
+}
+
+.card-dark .card-footer {
+  background-color: #353535;
+  border-top: 1px solid #555;
+}
+
+/* ============ Checkbox Lists ============ */
+li:has(> input[type="checkbox"]) {
+  list-style: none;
+}
+
+ul li input[type="checkbox"] {
+  margin-left: -1.2em;
+}
+
+li input[type="checkbox"] + * {
+  margin-left: 0.3em;
+}
+
+/* ============ Header Styling ============ */
+.main-header {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-header .header-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* ============ Navbar (Legacy) ============ */
+.navbar-dark {
+  background-color: #343a40 !important;
+  border-bottom: 1px solid #495057;
+}
+
+.navbar-dark .navbar-brand {
+  color: white !important;
+}
+
+.navbar-dark .nav-link {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+  color: white !important;
+}
+
+.navbar-dark .nav-link.active {
+  color: white !important;
+  background-color: #495057;
+  border-radius: 0.375rem;
+}
+
+/* ============ Dropdown Submenus ============ */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-menu {
+  overflow: visible;
+}
+
+.dropdown-submenu .dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+  border-radius: 0 6px 6px 6px;
+  display: none;
+  min-width: 200px;
+  z-index: 1000;
+}
+
+.dropdown-submenu .dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu .dropdown-toggle::after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu .dropdown-toggle[aria-expanded="true"]::after {
+  border-left-color: #fff;
+}
+
+/* ============ Print Styles ============ */
+@media print {
+  .navbar,
+  .footer,
+  .btn,
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* ============ Custom Bootstrap Theme Overrides ============ */
+:root {
+  --bs-primary: #135289;
+  --bs-primary-rgb: 19, 82, 137;
+  --bs-secondary: #6c757d;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0f4370;
+  border-color: #0d3b60;
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+.border-primary {
+  border-color: var(--bs-primary) !important;
+}
+
+.badge.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+/* ============ Responsive Utilities ============ */
+@media (min-width: 768px) {
+  .fs-md-4 {
+    font-size: 1.5rem !important;
+  }
+  
+  .display-md-1 {
+    font-size: calc(1.625rem + 4.5vw) !important;
+  }
+}
+
+/* ============ Animations (CSS-only) ============ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Font Awesome bounce animation (already in FA but ensuring it's available) */
+.fa-bounce {
+  animation: fa-bounce 1s ease-in-out infinite;
+}
+
+@keyframes fa-bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-0.5rem);
+  }
+  60% {
+    transform: translateY(-0.25rem);
+  }
+}

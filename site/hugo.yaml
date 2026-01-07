@@ -4,7 +4,7 @@ publishDir: ../public
 resourceDir: ../resources
 summaryLength: 30
 enableRobotsTXT: true
-taxonomies: {}
+
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 disableDefaultLanguageRedirect: false
@@ -152,6 +152,9 @@ outputFormats:
     mediaType: application/json
     baseName: languages
     isPlainText: true
+
+
+
 module:
   imports:
     - path: github.com/nkdAgility/HugoGuides/module

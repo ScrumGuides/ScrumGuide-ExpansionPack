@@ -28,6 +28,8 @@ guide_comparison:
     content: "Expert-curated, community-informed"
 which_to_use_summary: |
   Adaptive Enterprise
+categories: 
+  - extensions
 cascade:
 - build:
     list: never

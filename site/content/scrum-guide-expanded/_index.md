@@ -28,6 +28,11 @@ guide_comparison:
     content: "Expert-curated, community-informed"
 which_to_use_summary: |
   Scrum Guide Expanded
+categories: 
+  - core
+tags:
+ - Foundation
+ - Framework
 cascade:
 - build:
     list: never
