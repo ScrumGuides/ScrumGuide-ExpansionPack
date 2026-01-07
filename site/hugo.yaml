@@ -16,7 +16,7 @@ languages:
     weight: 1
     title: Scrum Guide Expansion Pack
     params:
-      description: Navigate today's complex product environments with practical guidance on *complexity*, *product thinking*, *systems of work*, and *leadership*.
+      description: Navigate today's complex product environments with practical guidance on complexity, product thinking, systems of work, and leadership.
       keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site
   de:
     languageName: Deutsch
@@ -58,7 +58,7 @@ languages:
     languageName: Nederlands
     weight: 3
     languageCode: nl
-    title: Scrum Guide Expansion Pack
+    title: Scrum Guide *Expansion Pack*
     params:
       description: Navigeer door de complexe productomgevingen van vandaag met praktische begeleiding over *complexiteit*, *productdenken*, *werksystemen* en *leiderschap*.
       keywords: Scrum, ScrumExpansion.org, Scrum Gids Uitbreidingspakket, Scrum richtlijnen, geavanceerde Scrum praktijken, Scrum voor modern werk, adaptieve onderneming, agile productlevering, empirische Scrum, productdenken, complexiteitstheorie in Scrum, Scrum leiderschap, professioneel Scrum, Scrum en AI, Scrum bronnen, Scrum leerhub, Scrum gemeenschapssite

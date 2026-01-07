@@ -292,3 +292,12 @@
 
 - id: guide_historical_version_notice_suffix
   translation: "para el contenido más reciente."
+
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Expansion Pack*
+
+- id: hero_description
+  translation: |
+    Navegue por los entornos de producto complejos de hoy con orientación práctica sobre *complejidad*, *pensamiento de producto*, *sistemas de trabajo* y *liderazgo*.

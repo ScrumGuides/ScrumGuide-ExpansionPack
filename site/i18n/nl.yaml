@@ -286,6 +286,15 @@
 - id: view_on_github
   translation: "Bekijk op GitHub"
 
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Expansion Pack*
+
+- id: hero_description
+  translation: |
+    Navigeer door de complexe productomgevingen van vandaag met praktische begeleiding over *complexiteit*, *productdenken*, *werksystemen* en *leiderschap*.
+
 - id: all_topics
   translation: "Alle"
 

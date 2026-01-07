@@ -229,7 +229,14 @@
 
 - id: view_on_github
   translation: "Vizualizează pe GitHub"
+- id: hero_title
+  translation: |
+    Ghidul Scrum
+    *Pachetul Extins*
 
+- id: hero_description
+  translation: |
+    Navigați prin mediile complexe de produs de astăzi cu îndrumări practice privind *complexitatea*, *gândirea bazată pe produs*, *sistemele de lucru* și *leadership*.
   # Missing translations for Romanian
 - id: breadcrumb_home
   translation: "Acasă"

@@ -298,6 +298,15 @@
 - id: this_is_fork_label
   translation: "This is a fork"
 
+- id: hero_title
+  translation: |
+    pOlonyuS
+    *puqloD*
+
+- id: hero_description
+  translation: |
+    pOlonyuS puqloD
+
 - id: active_fork_updated_label
   translation: "Last Updated:"
 

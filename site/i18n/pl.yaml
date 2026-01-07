@@ -267,5 +267,14 @@
 - id: view_on_github
   translation: "Zobacz na GitHub"
 
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Rozszerzenia*
+
+- id: hero_description
+  translation: |
+    Nawiguj w dzisiejszych złożonych środowiskach produktowych z praktycznymi wskazówkami dotyczącymi *złożoności*, *myślenia produktowego*, *systemów pracy* i *przywództwa*.
+
 - id: all_topics
   translation: "Wszystkie"

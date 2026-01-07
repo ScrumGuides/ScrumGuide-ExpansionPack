@@ -285,5 +285,14 @@
 - id: view_on_github
   translation: "Visualizza su GitHub"
 
+- id: hero_title
+  translation: |
+    Guida a Scrum
+    *Pacchetto di Espansione*
+
+- id: hero_description
+  translation: |
+    Naviga negli ambienti di prodotto complessi di oggi con una guida pratica su *complessità*, *pensiero di prodotto*, *sistemi di lavoro* e *leadership*.
+
 - id: all_topics
   translation: "Tutti"

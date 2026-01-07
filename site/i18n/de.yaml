@@ -289,3 +289,12 @@
 
 - id: view_on_github
   translation: "Auf GitHub ansehen"
+
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Expansion Pack*
+
+- id: hero_description
+  translation: |
+    Navigieren Sie die komplexen Produktumgebungen von heute mit praktischer Anleitung zu *Komplexität*, *Produktdenken*, *Arbeitssystemen* und *Führung*.

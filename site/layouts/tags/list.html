@@ -6,68 +6,7 @@
   {{- $guidePage := .Site.GetPage "/guide" }}
   {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
 
-  {{/* Hero Section */}}
-  <section class="min-vh-85 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #1a1a1a 0%, #0d1f2d 50%, #135289 100%);">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-xl-10 text-center">
-          {{/* Badge */}}
-          <div class="d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill bg-primary bg-opacity-20 text-white border border-primary border-opacity-30 mb-4">
-            <i class="fa-solid fa-sparkles"></i>
-            <span class="small fw-medium">{{ i18n "hero_badge" | default "Companion to the 2020 Scrum Guide" }}</span>
-          </div>
-
-          {{/* Main Title */}}
-          <h1 class="display-3 display-md-1 fw-bold text-white mb-4 lh-sm">
-            {{ .Site.Title | markdownify }}
-          </h1>
-
-          {{/* Subtitle */}}
-          <p class="fs-5 fs-md-4 text-white text-opacity-70 mb-5 mx-auto" style="max-width: 48rem;">
-            {{ .Site.Params.Description | markdownify }}
-          </p>
-
-          {{/* Creators */}}
-          <div class="d-flex flex-column align-items-center gap-4 mb-5">
-            <span class="text-white text-opacity-50 small text-uppercase fw-light ls-wider">{{ i18n "created_by" | default "Created by" }}</span>
-            <div class="d-flex align-items-center gap-4 gap-md-5 flex-wrap justify-content-center">
-              {{- $pages := .Site.RegularPages }}
-              {{- range .Site.Home.Translations }}
-                {{- $pages = $pages | lang.Merge .Site.RegularPages }}
-              {{- end }}
-              {{- range where $pages "Section" "creators" }}
-                {{- if ne .Title "Creators" }}
-                  <div class="d-flex align-items-center gap-3">
-                    {{- $imageResource := "" }}
-                    {{- if .Params.image }}
-                      {{- $imageResource = .Resources.GetMatch .Params.image }}
-                    {{- end }}
-                    {{- if not $imageResource }}
-                      {{- $urlifiedTitle := .Title | urlize }}
-                      {{- $imageResource = .Resources.GetMatch (printf "%s.*" $urlifiedTitle) }}
-                    {{- end }}
-                    {{ with $imageResource }}
-                      <img src="{{ .Permalink }}" alt="{{ $.Title }}" class="rounded-circle border border-primary border-2 border-opacity-50" width="48" height="48" />
-                    {{ end }}
-                    <div class="text-start">
-                      <p class="mb-0 text-white fw-semibold small">{{ .Title }}</p>
-                      <p class="mb-0 text-white text-opacity-50 small">{{ .Params.role }}</p>
-                    </div>
-                  </div>
-                {{- end }}
-              {{- end }}
-            </div>
-          </div>
-
-          {{/* Scroll indicator */}}
-          <div class="d-flex flex-column align-items-center gap-2 text-white text-opacity-60">
-            <span class="small text-uppercase fw-light ls-wider">{{ i18n "explore_expansions" | default "Explore the Expansions" }}</span>
-            <i class="fa-solid fa-arrow-down fa-bounce"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  {{- partial "components/home-hero.html" . }}
 
   {{/* Main Content */}}
   <main id="content" class="container my-5 py-5">

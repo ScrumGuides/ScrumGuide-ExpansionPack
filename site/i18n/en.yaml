@@ -256,7 +256,8 @@
   translation: "Companion to the 2020 Scrum Guide"
 
 - id: hero_subtitle
-  translation: "Navigate today's complex product environments with practical guidance on <span class='text-primary fw-semibold'>complexity</span>, <span class='text-primary fw-semibold'>product thinking</span>, <span class='text-primary fw-semibold'>systems of work</span>, and <span class='text-primary fw-semibold'>leadership</span>."
+  translation: |
+    "Navigate today's complex product environments with practical guidance on <span class='text-primary fw-semibold'>complexity</span>, <span class='text-primary fw-semibold'>product thinking</span>, <span class='text-primary fw-semibold'>systems of work</span>, and <span class='text-primary fw-semibold'>leadership</span>."
 
 - id: created_by
   translation: "Created by"
@@ -290,3 +291,11 @@
 
 - id: view_on_github
   translation: "View on GitHub"
+
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Expansion Pack*
+- id: hero_description
+  translation: |
+    Navigate today's complex product environments with practical guidance on *complexity*, *product thinking*, *systems of work*, and *leadership*.
