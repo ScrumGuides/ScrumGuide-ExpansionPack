@@ -18,11 +18,9 @@ lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-forked_from: scrum-guide-expansion-pack/2025.6
+forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
@@ -62,7 +60,6 @@ Sociocracy (37-41) is a governance system that organizes people into self-managi
 The most established variant is the Sociocratic Circle-Organization Method (SCM), the original, formalized method. SCM uses semi-autonomous circles, double-linking (where two people attend two directly related circles to connect those circles), consent-based decision-making, and open elections for roles. This structure maintains both organizational efficiency and member equivalence, and has a well-documented track record in businesses, cooperatives, and schools in the Netherlands.
 
 While newer variants like Sociocracy 3.0 (S3) offer more flexibility, SCM remains the most historically validated and widely documented form of sociocracy.
-
 
 ## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 

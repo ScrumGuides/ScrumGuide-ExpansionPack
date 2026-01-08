@@ -18,7 +18,7 @@ lang: tlh
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-forked_from: scrum-guide-expansion-pack/2025.6
+forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.1
 ---

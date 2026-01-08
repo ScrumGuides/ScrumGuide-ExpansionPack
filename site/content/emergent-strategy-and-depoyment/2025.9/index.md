@@ -18,11 +18,9 @@ lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-forked_from: scrum-guide-expansion-pack/2025.6
+forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
@@ -96,7 +94,6 @@ Nevertheless:
 
 An Emergent Strategy is supported by an emergent outcome-oriented roadmap, which can range from the Sprint Goal to the Product Vision and beyond. Emergent Strategy Deployment (16-19) should not be confused with Emergent Strategy. Vector change models (30-35, 54\), Product Operating Models (20-26), scaling and descaling models (27-40), and emergent goal-oriented models (16-19, 41-50) can be highly beneficial for Emergent Strategy Deployment. Err on the side of models coherent with vector-change, e.g., direction of travel over fixed goals.  
 Emergent strategy deployment involves allowing plans and actions to develop naturally as the Scrum Team and Stakeholders respond to real-world changes. Instead of following a fixed path, they pay attention to what is happening around them and make adjustments as they go. Over time, the steps taken form a pattern that becomes the actual strategy, even if it differs from what was initially intended.
-
 
 ## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 

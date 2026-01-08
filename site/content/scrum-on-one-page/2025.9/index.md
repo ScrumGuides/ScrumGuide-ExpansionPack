@@ -1,5 +1,5 @@
 ---
-title: Scrum Expanded on One Page of the Scrum Guide Expansion Pack 2025 
+title: Scrum Expanded on One Page of the Scrum Guide Expansion Pack 2025
 description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
 keywords:
   - Scrum
@@ -18,11 +18,9 @@ lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-forked_from: scrum-guide-expansion-pack/2025.6
+forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
