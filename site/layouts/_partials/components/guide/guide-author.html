@@ -1,0 +1,34 @@
+{{- /* Accept parameters or use defaults */ -}}
+{{- $author := . -}}
+{{- $lightList := false -}}
+
+{{- if reflect.IsMap . -}}
+  {{- $author = .author -}}
+  {{- with .lightList -}}
+    {{- $lightList = . -}}
+  {{- end -}}
+{{- end -}}
+
+<span class="author-item {{ if not $lightList }}me-3{{ end }} text-nowrap" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="{{ partial "components/guide/guide-author-tooltip.html" $author | safeHTMLAttr }}">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4 text-muted-foreground me-1" style="width: 16px; height: 16px; vertical-align: middle;"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+  {{- if $author.gravatarHash }}
+    <img src="https://www.gravatar.com/avatar/{{ $author.gravatarHash }}?s=24&d=mp" alt="{{ $author.name }}" aria-label="Profile picture of {{ $author.name }}" class="author-avatar rounded-circle me-1" style="width: 24px; height: 24px; object-fit: cover;" />
+  {{- else if $author.githubUsername }}
+    <img src="https://avatars.githubusercontent.com/{{ $author.githubUsername }}?size=24" alt="{{ $author.name }}" aria-label="Profile picture of {{ $author.name }}" class="author-avatar rounded-circle me-1" style="width: 24px; height: 24px; object-fit: cover;" />
+  {{- else if $author.image }}
+    <img src="{{ $author.image }}" alt="{{ $author.name }}" aria-label="Profile picture of {{ $author.name }}" class="author-avatar rounded-circle me-1" style="width: 24px; height: 24px; object-fit: cover;" />
+  {{- end }}
+  {{- if not $lightList }}
+    {{- if $author.url }}
+      <a href="{{ $author.url }}" class="text-decoration-none" target="_blank" rel="noopener">
+        <strong>{{ $author.name }}</strong>
+      </a>
+    {{- else if $author.githubUsername }}
+      <a href="https://github.com/{{ $author.githubUsername }}" class="text-decoration-none" target="_blank" rel="noopener">
+        <strong>{{ $author.name }}</strong>
+      </a>
+    {{- else }}
+      <strong>{{ $author.name }}</strong>
+    {{- end }}
+  {{- end }}
+</span>

@@ -4,3 +4,7 @@ github.com/nkdAgility/HugoGuides/module v0.7.3 h1:FB0JQzOlfXfwR6fcLhCk+n2uGsbWW+
 github.com/nkdAgility/HugoGuides/module v0.7.3/go.mod h1:VGUy7t0I5Ba4FWVFpuBzVI1RN/cOBvcWSeYGsAj37tE=
 github.com/nkdAgility/HugoGuides/module v0.7.4 h1:q0i/8W2FPnKOSaIAblCp3cCkTSzQ/qcW9vdTtc5zZ7w=
 github.com/nkdAgility/HugoGuides/module v0.7.4/go.mod h1:VGUy7t0I5Ba4FWVFpuBzVI1RN/cOBvcWSeYGsAj37tE=
+github.com/nkdAgility/HugoGuides/module v0.7.5 h1:u9vIwvLoe6jmgMsDOIAY0pp3OOMv9Z4NAISWrJGrNT4=
+github.com/nkdAgility/HugoGuides/module v0.7.5/go.mod h1:VGUy7t0I5Ba4FWVFpuBzVI1RN/cOBvcWSeYGsAj37tE=
+github.com/nkdAgility/HugoGuides/module v0.7.6 h1:4z227g0PklqSrmRqG9e3zXVAqho+u4rfadjUuuCxx8w=
+github.com/nkdAgility/HugoGuides/module v0.7.6/go.mod h1:VGUy7t0I5Ba4FWVFpuBzVI1RN/cOBvcWSeYGsAj37tE=

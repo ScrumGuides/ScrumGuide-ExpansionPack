@@ -59,6 +59,9 @@
                   </div>
                 {{- end }}
 
+                {{/* Contributors - Light List */}}
+                {{ partial "components/guide/guide-contributors.html" (dict "context" . "roles" (slice "contributor" "creator" "reviewer") "lightList" true) }}
+
 
                 <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
                   <div class="d-flex align-items-center gap-2 text-muted small">
