@@ -20,8 +20,6 @@ sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 based on the original [Scrum Guide](https://scrumguides.org/) by Ken Schwaber & Jeff Sutherland (40)
@@ -277,7 +275,7 @@ Scrum is not about adopting tools, short term delivery that sacrifices long term
 
 A work related problem in Scrum could be anything that blocks or slows down progress, often addressed by self-managment of the Product Onwer and Product Developers. An impediment is a type of problem in Scrum and is anything that blocks or slows down progress and cannot be solved by the Developers & Product Owner.
 
-It is crucial to be intentional, unrelenting, and tenacious about people, change, and communications. The change often includes people development, designs, workflows, processes, systems, attitudes, behaviors, language, habits, and the work climate. Culture is an emerging result. 
+It is crucial to be intentional, unrelenting, and tenacious about people, change, and communications. The change often includes people development, designs, workflows, processes, systems, attitudes, behaviors, language, habits, and the work climate. Culture is an emerging result.
 
 An effective Scrum adoption uses an emergent approach, has effective change agents (including Supporters and other Leaders), and engages enthusiastic support from those affected by it or affecting it. Intentionality and daily progress with the adoption are crucial; the adoption work should not be the last thing that is worked on after everything else is finished.
 
@@ -641,13 +639,13 @@ Within the context of the Sprint Goal, the Product Developers update their plan,
 
 #### Commitment: Sprint Goal {#commitment:-sprint-goal}
 
-[2020 Scrum Guide: '... the Sprint Goal is a commitment by the Developers ...'] 
+[2020 Scrum Guide: '... the Sprint Goal is a commitment by the Developers ...']
 
 The Sprint Goal is a commitment created and owned by the Scrum Team. The Sprint Goal is the single unifying objective (coherent with the Product Goal) of the Sprint (the _why_) for the Product Developers, created in Sprint Planning. Delivery of the Sprint Goal is a commitment by the Product Developers. The Sprint Backlog (including the _why_, the _what,_ and, often, the _how_) provides _Focus_ and flexibility regarding the evolving work, thus improving Transparency.
 
 The Sprint Goal encourages the Scrum Team to work together rather than on separate initiatives. If the work turns out to be different from what the Product Developers expected, the Product Developers collaborate with the Product Owner to negotiate possibilities within the Sprint without affecting the Sprint Goal. No one tells the Product Developers how to size or do their work.
 
-If there are multiple objectives, as long as they are coherent with the Product Goal it might be ok. Be careful. Consider the trade off of context switching and focus. The Scrum Team should strive to attain balance over time –– balancing current team capabilities and climate, current stakeholder value, potential stakeholder value and time to value. 
+If there are multiple objectives, as long as they are coherent with the Product Goal it might be ok. Be careful. Consider the trade off of context switching and focus. The Scrum Team should strive to attain balance over time –– balancing current team capabilities and climate, current stakeholder value, potential stakeholder value and time to value.
 
 ## The Scrum Events in the Expansion Pack {#the-scrum-events-in-the-expansion-pack}
 
@@ -1014,7 +1012,6 @@ A phase shift refers to an often abrupt transition between domains, particularly
 Not all aspects of Product development are complex. The Scrum Team, for a given situation, might need to consider a variety of phase shifts between:
 
 - Ordered: Key idea: Stability, routine, best/good practice, expertise
-
   - Expertise is sufficient, and cause and effect are predictable or knowable
   - Response options not limited to: Apply best/good practices, follow rules, use expert analysis, do individual research
   - Metaphors: Hard to barely frozen ice cube, pleasant weather, or chess/sudoku
@@ -1022,7 +1019,6 @@ Not all aspects of Product development are complex. The Scrum Team, for a given 
   - Product example: Resolving a tricky technical issue by consulting experts and analyzing logs
 
 - Complex (30-35), where expertise is valuable but not enough, and one can only understand why things happened after the fact. Key idea: emergence, safe-to-fail experiments
-
   - Responses not limited to:
     - Encourage learning and adaptation
     - Trying several small, parallel, safe-to-fail experiments
@@ -1049,7 +1045,6 @@ Not all aspects of Product development are complex. The Scrum Team, for a given 
 Liminality is an ‘in-between’ stage, like a threshold. The often less-sudden phase shifts happen in the liminals:
 
 - In the liminal between complex and ordered, this is Scrum’s default sweetspot:
-
   - Ordered-Complex:
     - From expert analysis to adaptive exploration
     - Responses not limited to: Relax some rules, introduce experimentation, prepare for emergence
@@ -1063,7 +1058,6 @@ Liminality is an ‘in-between’ stage, like a threshold. The often less-sudden
     - Product example: Taking a successful experimental feature and turning it into a documented, repeatable process
 
 - In the liminal between complex and chaotic:
-
   - Complex–Chaotic (positive):
     - A situation where constraints need to be relaxed to create time and space for innovation or invention. Key idea: The edge of creativity, risk, and innovation
     - Responses not limited to: Loosen constraints, encourage experimentation, seek breakthrough ideas

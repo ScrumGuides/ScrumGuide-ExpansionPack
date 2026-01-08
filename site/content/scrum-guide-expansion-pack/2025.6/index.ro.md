@@ -13,11 +13,11 @@ author:
   - John Coleman
   - Jeff Sutherland
 translators:
-- name: Liviu Meseșan
-  githubUsername: agile22
-  url: https://www.agileeducation.ro/
-  role: translator
-  weight: 1  
+  - name: Liviu Meseșan
+    githubUsername: agile22
+    url: https://www.agileeducation.ro/
+    role: translator
+    weight: 1
 date: 2025-06-11T09:00:00Z
 type: guide
 lang: ro
@@ -26,14 +26,11 @@ sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 bazat pe versiunea originală [Ghidul Scrum](https://scrumguides.org/) scris de Ken Schwaber și Jeff Sutherland (40)
 
-
-**_Acest document este o colecție de lucrări independente. Fiecare secțiune își păstrează licența originală sau statutul de copyright, așa cum este indicat. Vă rugăm să consultați fiecare secțiune pentru drepturi de utilizare și cerințe specifice._
+\*\*_Acest document este o colecție de lucrări independente. Fiecare secțiune își păstrează licența originală sau statutul de copyright, așa cum este indicat. Vă rugăm să consultați fiecare secțiune pentru drepturi de utilizare și cerințe specifice._
 
 **_Secțiunea 1: Pachetul Extins al Ghidului Scrum 1 (Adaptare)_**  
 _Titlu: Pachetul Extins al Ghidului Scrum, Adaptare după: Ghidul Scrum original_
@@ -54,13 +51,13 @@ Ken Schwaber și Jeff Sutherland au condus dezvoltarea cadrului de lucru Scrum. 
 
 Pentru o adoptare mai eficientă, acest Pachet Extins oferă îndrumări suplimentare adaptate vremurilor actuale, bazate pe Ghidul Scrum 2020 realizat de Ken Schwaber și Jeff Sutherland (40). Contribuția lui Ralph Jocham (89) la Ghidul Scrum din 2020 a adus profunzime suplimentară, facilitând integrarea ideilor originale ale Ghidului Scrum din 2020 (40) în acest pachet extins.
 
-Acest Pachet Extins explică  _ce este_ și _de ce există_ fiecare element Scrum, dintr-o perspectivă orientată spre viitor. Fiecare element are un scop specific și contribuie la valoarea și rezultatele obținute prin Scrum. Documentul va evolua constant, iar cititorul este încurajat să-l parcurgă în ordine, cel puțin la prima lectură.
+Acest Pachet Extins explică _ce este_ și _de ce există_ fiecare element Scrum, dintr-o perspectivă orientată spre viitor. Fiecare element are un scop specific și contribuie la valoarea și rezultatele obținute prin Scrum. Documentul va evolua constant, iar cititorul este încurajat să-l parcurgă în ordine, cel puțin la prima lectură.
 
 Se presupune că cititorul are deja o înțelegere de bază a Scrum și a limbajului asociat. Este recomandat să se citească mai întâi Ghidul Scrum din 2020. Anexele și referințele oferă oportunitatea de a explora, cerceta și învăța pentru a dobândi o înțelegere mai amplă și mai profundă.
 
 Profesioniști și Stakeholderii (părțile interesate) ar trebui să adopte Scrum atunci când este potrivit, cu inițiativă, urgență, curaj, transparență, inspecție, adaptare, ritm și reziliență; și să îmbunătățească constant echipele, produsele și organizațiile. Se speră că adopțiile Scrum să depășească ghidajul prezentat aici, dincolo de teorie, roluri, artefacte, evenimente și scalare; inspirând o curiozitate permanentă de a explora, a pune întrebări și a îmbunătăți continuu.
 
-Acest Pachet Extins sprijină toate aspectele livrării unui produs de către o echipă auto-organizată (49), orientată pe nevoile sau dorințele  Stakeholderilor, ca răspuns la o problemă sau oportunitate. Include (dar nu se limitează la) descoperirea, dezvoltarea, livrarea și realizarea valorii produsului. Deși Scrum își are rădăcinile în dezvoltarea de software, în timp a fost adoptat pe scară largă în diferite domenii, facilitând livrarea de valoare în activitățile complexe. Profesioniști precum ingineri, programatori, cercetători, analiști, avocați, specialiști în marketing și oameni de știință aplică Scrum cu succes în domeniile lor.
+Acest Pachet Extins sprijină toate aspectele livrării unui produs de către o echipă auto-organizată (49), orientată pe nevoile sau dorințele Stakeholderilor, ca răspuns la o problemă sau oportunitate. Include (dar nu se limitează la) descoperirea, dezvoltarea, livrarea și realizarea valorii produsului. Deși Scrum își are rădăcinile în dezvoltarea de software, în timp a fost adoptat pe scară largă în diferite domenii, facilitând livrarea de valoare în activitățile complexe. Profesioniști precum ingineri, programatori, cercetători, analiști, avocați, specialiști în marketing și oameni de știință aplică Scrum cu succes în domeniile lor.
 
 Valoarea pentru Stakeholderi se referă la orice nevoie percepută pe care un stakeholder (inclusiv, dar fără a se limita la clienți, factori de decizie și utilizatori) o consideră importantă și pe care o echipă o livrează. Totuși, Stakeholderii nu sunt întotdeauna conștienți de ceea ce ar putea însemna valoare pentru ei. Observația sau dovezile pot scoate la iveală valoare, fie intenționat, fie neintenționat, și pot influența prioritățile. Pe măsură ce apar informații noi, elementele potențial valoroase trebuie identificate, inspectate, rafinate și adaptate. Valoarea rămâne o presupunere până când este confirmată prin dovezi, cum ar fi observațiile sau rezultatele măsurabile.
 
@@ -95,11 +92,11 @@ Scrum se poate integra cu practici existente sau poate face unele dintre ele inu
 
 Scrum se bazează pe: o echipă Scrum autogestionată (49), emergență, empirism (67) și gândire Lean (63). Este susținut de teoria complementară și de idei precum:
 
-•	Asumarea responsabilității,
-•	Reducerea risipei care nu adaugă valoare (inclusiv a ineficiențelor organizaționale),
-•	Încadrarea muncii ca probleme sau oportunități,
-•	Descoperirea, livrarea și realizarea valorii, și
-•	Îmbunătățirea continuă.
+• Asumarea responsabilității,
+• Reducerea risipei care nu adaugă valoare (inclusiv a ineficiențelor organizaționale),
+• Încadrarea muncii ca probleme sau oportunități,
+• Descoperirea, livrarea și realizarea valorii, și
+• Îmbunătățirea continuă.
 
 ### Complexitate – Motivația pentru Scrum {#complexity–the-case-for-scrum}
 
@@ -117,7 +114,7 @@ Construiește încrederea printr-o echipă autogestionată, Inspecție, Adaptare
 
 Emergența (71) apare atunci când, din interacțiunile din cadrul unor sisteme complexe (30–35), iau naștere tipare sau comportamente semnificative — tipare care nu pot fi prevăzute doar prin analizarea părților individuale. În Scrum, emergența nu este controlată strict, ci este ghidată prin constrângeri, prin ghidare, precum timebox-urile, rolurile și buclele de feedback, care creează condițiile necesare pentru autogestionare și adaptabilitate, fără a impune rezultate exacte. Aceste structuri funcționează ca niște „insule” într-un ocean de impredictibilitate, similar modului în care sistemele fizice pot forma spontan tipare organizate în mijlocul aleatoriului, așa cum este descris în lucrările lui Stephen Wolfram (38). Esența constă în faptul că structura oferită de Scrum asigură suficientă orientare pentru ca echipele să se autogestioneze și pentru ca soluții noi să poată apărea, fără a prescrie fiecare detaliu în mod rigid.
 
-Echipele Scrum, funcționând ca sisteme adaptive complexe, sunt influențate, nu dirijate, prin experimente scurte, paralele, sigure în caz de eșec și prin feedback continuu. Patternurile (Patterns - Tipare) (53) precum  _Swarming (Colaborare intensă)_, _Stable Teams (Echipe Stabile)_, și _Kaizen_ ajută la identificarea și modelarea comportamentului emergent. În loc să forțeze rezultate, Scrum permite echipei Scrum să descopere tipare dorite — inclusiv, dar fără a se limita la soluții inovatoare sau noi moduri de lucru — și să le amplifice, reducând în același timp influența celor care nu aduc valoare.
+Echipele Scrum, funcționând ca sisteme adaptive complexe, sunt influențate, nu dirijate, prin experimente scurte, paralele, sigure în caz de eșec și prin feedback continuu. Patternurile (Patterns - Tipare) (53) precum _Swarming (Colaborare intensă)_, _Stable Teams (Echipe Stabile)_, și _Kaizen_ ajută la identificarea și modelarea comportamentului emergent. În loc să forțeze rezultate, Scrum permite echipei Scrum să descopere tipare dorite — inclusiv, dar fără a se limita la soluții inovatoare sau noi moduri de lucru — și să le amplifice, reducând în același timp influența celor care nu aduc valoare.
 
 Această abordare recunoaște că autogestionarea (49) nu este ceva ce poate fi proiectat de sus în jos, ci este ceva ce trebuie descoperit într-un mediu potrivit, un mediu care se simte plin de sens, coerent și viu, reflectând conceptul lui Christopher Alexander, ‘Quality Without a Name’ („Calitate fără nume”) (39). În cele din urmă, Scrum nu tratează emergența ca pe un risc ce trebuie eliminat, ci ca pe o forță ce merită cultivată pentru a atinge excelența în dezvoltarea de Produse.
 
@@ -133,7 +130,7 @@ Profesionalism înseamnă dorința de a atinge excelența și de a colabora pent
 
 A fi profesionist înseamnă să îți asumi întreaga responsabilitate pentru Produs, de la început până la sfârșit, pe tot parcursul ciclului său de viață. Profesionalismul include și mentenanța, adesea sub forma operațiunilor, și oferă Dezvoltatorilor de Produs oportunități valoroase de învățare prin feedbackul rezultat din activitatea de inginerie.
 
-În contextul dezvoltării de software, profesionalismul include, dar nu se limitează la, Technical excellence (Excelența Tehnică) (112). Technical excellence cuprinde, fără a se limita la: Specification by Example,  (Specificare prin Exemplu), Clean Code (Cod Curat), Unit Testing (Testare Unitară), Test-Driven Development - TDD (Dezvoltare Condusă de Teste), Test Automation (Automatizarea Testelor), Continuous Integration (Integrare Continuă), Continuous Delivery (Livrare Continuă), Architecture and Design (Arhitectură și Design), Acceptance Testing (Testare de Acceptanță) și o abordare conștientă și intenționată a procesului de testare.
+În contextul dezvoltării de software, profesionalismul include, dar nu se limitează la, Technical excellence (Excelența Tehnică) (112). Technical excellence cuprinde, fără a se limita la: Specification by Example, (Specificare prin Exemplu), Clean Code (Cod Curat), Unit Testing (Testare Unitară), Test-Driven Development - TDD (Dezvoltare Condusă de Teste), Test Automation (Automatizarea Testelor), Continuous Integration (Integrare Continuă), Continuous Delivery (Livrare Continuă), Architecture and Design (Arhitectură și Design), Acceptance Testing (Testare de Acceptanță) și o abordare conștientă și intenționată a procesului de testare.
 
 ### Lean thinking (Gândirea Lean) {#lean-thinking}
 
@@ -201,7 +198,7 @@ Echipa Scrum și Susținătorii ar trebui să aibă _Courage (Curajul)_ de a fac
 
 Echipa Scrum _Commits (își ia Angajamentul)_ să atingă Scopul Sprintului și să se sprijine reciproc. Angajamentul înseamnă realizarea muncii relevante pentru atingerea Scopului Sprintului, în conformitate cu Definition of Output Done (Finalizarea muncii), cel târziu până la finalul Sprintului, de preferat, mult mai devreme. Angajamentul înseamnă, de asemenea, atingerea rezultatelor dorite prin realizarea valorii.
 
-Principalul lor _Focus_ este să facă cel mai bun progres posibil către Scopul Sprintului. Focalizarea secundară este să avanseze cât mai bine posibil către Scopul Produsului. Susținătorii _Commit (se angajează)_ să ofere un spațiu și un mediu psihologic sigur pentru ca echipa Scrum să livreze Incrementuri; în cadrul propriului _Focus_,  echipa Scrum și Susținătorii _Commit (se angajează)_ să creeze timp pentru Învățare Continuă și Adaptare, precum și pentru transferul de cunoștințe între echipele Scrum, pentru a asigura eficacitatea pe termen lung. Echipa Scrum și Stakeholderii ar trebui să abordeze în mod intenționat compromisurile, inclusiv luarea în considerare a câștigurilor pe termen scurt cu consecințe pe termen lung.
+Principalul lor _Focus_ este să facă cel mai bun progres posibil către Scopul Sprintului. Focalizarea secundară este să avanseze cât mai bine posibil către Scopul Produsului. Susținătorii _Commit (se angajează)_ să ofere un spațiu și un mediu psihologic sigur pentru ca echipa Scrum să livreze Incrementuri; în cadrul propriului _Focus_, echipa Scrum și Susținătorii _Commit (se angajează)_ să creeze timp pentru Învățare Continuă și Adaptare, precum și pentru transferul de cunoștințe între echipele Scrum, pentru a asigura eficacitatea pe termen lung. Echipa Scrum și Stakeholderii ar trebui să abordeze în mod intenționat compromisurile, inclusiv luarea în considerare a câștigurilor pe termen scurt cu consecințe pe termen lung.
 
 Echipa Scrum și Susținătorii (și alți Stakeholderi) se _Respectă_ reciproc ca profesioniști calificați; își _Respectă_ reciproc expertiza și perspectivele diferite și sunt constructivi atunci când nu sunt de acord. Comportamentul respectuos susține încrederea. Echipa Scrum și Susținătorii ar trebui să critice ideea sau abordarea pentru a găsi opțiuni mai eficiente, nu persoana (persoanele).
 
@@ -224,7 +221,7 @@ Oamenii folosesc Produse (inclusiv servicii), nu proiecte. Un Produs este canalu
 
 Gândirea orientată pe Produs (Product Thinking) (86–88) abordează tensiunea (111) generată de faptul că Produsele trebuie adesea să se _focalizeze_ pe creșterea pe termen scurt, dar în același timp să țină cont de preocupările pe termen lung, cum ar fi: Atragerea utilizatorilor timpurii, ‘crossing the chasm’( „Traversarea prăpastiei”) (5), Extinderea, Actualizarea versiunilor Produsului, Schimbarea continuă, Valoarea obținută de clienți pe întreaga durată de viață a produsului și Costul total de deținere.
 
-Pentru ca un produs să treacă de la adoptarea timpurie la succes pe scară largă (a „traversa prăpastia” - ‘crossing the chasm’),  este necesară o schimbare de strategie: de la a viza clienți cunoscători și dispuși să-și asume riscuri, la a câștiga încrederea cumpărătorilor, factorilor de decizie, utilizatorilor sau altor Stakeholderi mai pragmatici și mai puțin dispuși la a-și asuma riscuri, prin concentrarea pe o nișă sau un segment de piață specific și livrarea unei soluții complete și fiabile care rezolvă probleme reale. Acest pas este esențial pentru tranziția unui Produs de la un succes de nișă la o adopție largă, pe măsură ce trece de la atragerea inovatorilor timpurii la convingerea majorității timpurii. Această categorie din urmă are adesea nevoie de dovezi clare privind fiabilitatea Produsului și capacitatea sa de a rezolva probleme într-un context concret. Prin focalizarea pe o nișă și furnizarea unei soluții complete, o companie poate construi credibilitate, poate obține clienți de referință și poate stabili o poziție solidă pe piață, reușind astfel să „treacă prăpastia” dintre inovatorii timpurii și piața de masă.
+Pentru ca un produs să treacă de la adoptarea timpurie la succes pe scară largă (a „traversa prăpastia” - ‘crossing the chasm’), este necesară o schimbare de strategie: de la a viza clienți cunoscători și dispuși să-și asume riscuri, la a câștiga încrederea cumpărătorilor, factorilor de decizie, utilizatorilor sau altor Stakeholderi mai pragmatici și mai puțin dispuși la a-și asuma riscuri, prin concentrarea pe o nișă sau un segment de piață specific și livrarea unei soluții complete și fiabile care rezolvă probleme reale. Acest pas este esențial pentru tranziția unui Produs de la un succes de nișă la o adopție largă, pe măsură ce trece de la atragerea inovatorilor timpurii la convingerea majorității timpurii. Această categorie din urmă are adesea nevoie de dovezi clare privind fiabilitatea Produsului și capacitatea sa de a rezolva probleme într-un context concret. Prin focalizarea pe o nișă și furnizarea unei soluții complete, o companie poate construi credibilitate, poate obține clienți de referință și poate stabili o poziție solidă pe piață, reușind astfel să „treacă prăpastia” dintre inovatorii timpurii și piața de masă.
 
 Product Ownerul trebuie să stăpânească gestionarea compromisurilor între _aici_ și _acum_ și viitorul anticipat (_acolo_ și _atunci_) (148), prin curaj, modestie, consultare, colaborare, conflict sănătos, gândire strategică, etc.
 
@@ -234,10 +231,10 @@ Technical Debt (datoria tehnică) reprezintă munca suplimentară care se acumul
 
 Pentru Produse, Scrum sprijină fezabilitatea, utilizabilitatea, dorința pieței, valoarea și viabilitatea în limite etice (57) prin:
 
--	Designul Produsului
--	Managementul Produsului
--	Considerarea intenționată a interacțiunii coerente dintre Stakeholderi, cercetare, obiective, descoperire, design, livrare și realizarea continuă a valorii
--	În cazul specific al Produselor Tehnologice, prin ingineria Produsului.
+- Designul Produsului
+- Managementul Produsului
+- Considerarea intenționată a interacțiunii coerente dintre Stakeholderi, cercetare, obiective, descoperire, design, livrare și realizarea continuă a valorii
+- În cazul specific al Produselor Tehnologice, prin ingineria Produsului.
 
 Scrum favorizează un echilibru sănătos între termenul scurt și termenul lung. Orientarea către obiective permite obținerea unor rezultate potențiale prin accentul pus pe valoare și reducerea riscurilor. Scopul Sprintului (_aici_ și _acum_) ar trebui să reprezinte un pas către Scopul Produsului (_acolo_ și _atunci_), care deschide căi către termenul lung. Scopul Produsului sprijină adesea Strategia Produsului și Viziunea Produsului.
 
@@ -257,7 +254,7 @@ Dacă este necesară Descoperirea, aceasta ar trebui (pe cât posibil) să fie i
 
 ### Leadership {#leadership}
 
-Leadershipul este capacitatea de a influența, ghida și inspira un grup de oameni pentru a atinge un scop comun, evitând în același timp de-motivarea. El inspiră gândirea, acțiunea și pasiunea și promovează direcții strategice clare. Leadershipul presupune o abordare conștientă și intenționată de: Go, See, Listen, Understand (du-te pe teren, ascultă, înțelege), colectând fapte și observații care să fundamenteze deciziile, cunoscută și sub denumirea de Genchi Genbutsu (84). 
+Leadershipul este capacitatea de a influența, ghida și inspira un grup de oameni pentru a atinge un scop comun, evitând în același timp de-motivarea. El inspiră gândirea, acțiunea și pasiunea și promovează direcții strategice clare. Leadershipul presupune o abordare conștientă și intenționată de: Go, See, Listen, Understand (du-te pe teren, ascultă, înțelege), colectând fapte și observații care să fundamenteze deciziile, cunoscută și sub denumirea de Genchi Genbutsu (84).
 
 Leadershipul este un proces social dinamic care implică responsabilitate, construirea de relații și împuternicire. Un leadership de succes duce la co-crearea unei direcții comune, alinierea eficientă a resurselor și a oamenilor necesari, precum și la un _Angajament_ reciproc între membrii grupului.
 
@@ -271,9 +268,9 @@ Product Ownerul și Scrum Masterul echilibrează Leadershipul, autoritatea și c
 
 First Principles Thinking este o metodă de rezolvare a problemelor care presupune descompunerea provocărilor până la cele mai de bază adevăruri și construirea soluțiilor de la zero. În loc să se bazeze pe analogii sau convenții deja stabilite, această abordare pune întrebarea: _Ce știm cu certitudine?_ și reconstruiește înțelegerea și soluțiile pornind de la aceste elemente fundamentale. Exemplele pot include, dar nu se limitează la:
 
--	Încurajarea echipei Scrum să se _Focalizeze_ pe factorii esențiali ai eficienței, adaptabilității (80) și promptitudinii \ precum autonomia, transparența și adaptarea — în loc să urmeze orbește procese sau să copieze ce au făcut alții.
--	Punerea sub semnul întrebării a fiecărei presupuneri și reconstruirea soluțiilor pe baza faptelor și principiilor esențiale, ceea ce poate duce la descoperiri semnificative.
--	Susținerea gândirii originale, a îmbunătățirii continue și a _Curajului_ de a contesta status quo-ul — eliberând creativitatea și permițând obținerea unor rezultate transformatoare.
+- Încurajarea echipei Scrum să se _Focalizeze_ pe factorii esențiali ai eficienței, adaptabilității (80) și promptitudinii \ precum autonomia, transparența și adaptarea — în loc să urmeze orbește procese sau să copieze ce au făcut alții.
+- Punerea sub semnul întrebării a fiecărei presupuneri și reconstruirea soluțiilor pe baza faptelor și principiilor esențiale, ceea ce poate duce la descoperiri semnificative.
+- Susținerea gândirii originale, a îmbunătățirii continue și a _Curajului_ de a contesta status quo-ul — eliberând creativitatea și permițând obținerea unor rezultate transformatoare.
 
 ### Oamenii și schimbarea {#people-and-change}
 
@@ -296,7 +293,7 @@ O echipă Scrum este o echipă care practică Scrum, abordează cele trei _Respo
 Echipa Scrum ar trebui să fie cross-functional (multifuncțională), ceea ce înseamnă că este formată din membri cu competențe multidisciplinare, incluzând abilități tehnice și din domeniul de business. Nu există o ierarhie explicită în cadrul echipei Scrum. Echipa Scrum ar trebui să dețină toate abilitățile și sprijinul necesar pentru:
 
 - Discover - A Descoperi (inclusiv prin cercetare și design), atunci când este necesar;
-- Deliver - A	Livra (inclusiv prin activități de inginerie, acolo unde este potrivit); și
+- Deliver - A Livra (inclusiv prin activități de inginerie, acolo unde este potrivit); și
 - Validate - A Valida realizarea valorii (precum și utilizabilitatea, atractivitatea și viabilitatea, în limitele etice (57)).
 
 Echipa Scrum, sprijinită de către Suporteri, are în grijă în mod colectiv de domeniul problemei sau al oportunității, descoperirea Produsului, livrarea, verificarea și calitatea integrată, lansarea pe piață și validarea valorii, toate în direcția Scopului Produsului. Echipa Scrum urmărește îmbunătățiri nete; fiind auto-organizată (49), aceasta decide _cine_ face _ce_, _cum_, _când_ și _unde_.
@@ -397,7 +394,7 @@ _Cel puțin un Product Developer ar trebui să fie o ființă umană._ Mai mulț
 Dezvoltatorii de Produs sunt întotdeauna colectiv responsabili pentru::
 
 - Crearea unui plan emergent în Backlog-ul Sprintului pentru atingerea Obiectivului Sprintului;
-- Asigurarea calității prin respectarea și îmbunătățirea Definition of Output Done (Definiția Livrabilului Finalizat); 
+- Asigurarea calității prin respectarea și îmbunătățirea Definition of Output Done (Definiția Livrabilului Finalizat);
 - Crearea a cel puțin unui Increment utilizabil în fiecare Sprint;
 - Învățare continuă, adesea prin date ghidate de Definition of Output Done (Definiția Livrabilului Finalizat);
 - Adaptarea zilnică a planului în direcția îndeplinirii Obiectivului Sprintului;
@@ -542,7 +539,7 @@ Contextul contează. Totuși, ca regulă generală, pentru ca un Produs să atra
 - Abordează suficient de bine decalajele de satisfacție;
 - Este valoros, dorit, viabil, ușor de utilizat, fezabil, sigur și securizat;
 - Are profesionalism încorporat;
-- Dispune de  Product Vision (Viziune), Product Strategy (Strategie) și Product Goal (Obiectiv) convingătoare, clare și orientate spre metrici de rezultate, incluzând adesea intenție, motivație și anti-obiective;
+- Dispune de Product Vision (Viziune), Product Strategy (Strategie) și Product Goal (Obiectiv) convingătoare, clare și orientate spre metrici de rezultate, incluzând adesea intenție, motivație și anti-obiective;
 - Se adaptează și se îmbunătățește pentru a identifica, reprezenta sau măsura emergența (71); și
 - Este extensibil și ușor de întreținut.
 
@@ -721,7 +718,7 @@ Daily Scrum este limitat în timp la maximum cincisprezece minute pe zi, dar poa
 
 Sprint Review (Revizuirea Sprintului) este un eveniment. Este o sesiune interactivă și colaborativă de lucru. Adesea, Echipa Scrum împărtășește Product Goalul curent și prezintă Definition of Output Done și Definition of Outcome Done către Stakeholderi. Echipa Scrum împărtășește rezultatele muncii sale, ce compromisuri au fost făcute și cât progres s-a realizat în direcția Product Goal (motivul din spatele muncii). Dacă sunt disponibile, se prezintă și se iau în considerare măsurători actualizate privind progresul către Definition of Outcome Done.
 
-Revizuirea Sprintului inspectează multe aspecte legate de Produs, cum ar fi Product Goal, Product Backlog, Sprint Goal, învățămintele acumulate, Incrementul, așteptările și limitele Stakeholderilor, feedbackul rezultat, efectele secundare, progresul asupra Produsului, piața, precum și aspecte orientate spre viitor, de exemplu: ce idei și oportunități noi au apărut  și care sunt pașii următori potențiali.
+Revizuirea Sprintului inspectează multe aspecte legate de Produs, cum ar fi Product Goal, Product Backlog, Sprint Goal, învățămintele acumulate, Incrementul, așteptările și limitele Stakeholderilor, feedbackul rezultat, efectele secundare, progresul asupra Produsului, piața, precum și aspecte orientate spre viitor, de exemplu: ce idei și oportunități noi au apărut și care sunt pașii următori potențiali.
 
 Informații despre ceea ce s-a învățat:
 
@@ -775,7 +772,7 @@ Product Backlogul este un instrument pentru creșterea transparenței.
 - Cu atât mai transparentă este urmărirea progresului general în raport cu întregul Produs;
 - Cu atât mai clară este înțelegerea valorii la nivel de ansamblu pentru întregul Produs;
 - Cu atât mai probabil este ca o Echipa Scrum să își dea seama că lucrează la elemente cu valoare redusă din perspectiva Produsului;
-- Cu atât mai probabil este să fie observată o îmbunătățire în atingerea valorii; și, 
+- Cu atât mai probabil este să fie observată o îmbunătățire în atingerea valorii; și,
 - Cu atât mai strategic devine Product Ownerul, delegând lucrul transversal legat de Produs către Product Developeri.
 
 Cu cât există mai puține Product Backlog per Produs, cu atât mai mare este capacitatea de adaptare (80). Însă, în absența unui ownership real, a unui control coerent și a contactului direct cu Stakeholderii relevanți, vor apărea lacune. Scrum creează un climat propice întâmplării fericite (happenstance) și învățării multiple: pe măsură ce diverse persoane și Echipe Scrum colaborează, descoperirile și înțelegerile pot fi împărtășite și valorificate. Acest lucru este puțin probabil într-un mediu în care fiecare componentă are un Product Backlog izolat.
@@ -835,9 +832,9 @@ Scrum permite Echipei Scrum să identifice, să reprezinte sau să măsoare emer
 
 - _Focus (Focusul)_, _Openness (Deschiderea)_, _Courage (Curajul)_, _Commitment (Angajamentul)_, și _Respect (Respectul)_ permit colaborarea eficientă; ele susțin încrederea.
 
-3\.  _Roluri_ / Responsabilități:
+3\. _Roluri_ / Responsabilități:
 
-- Echipa Scrum  – O echipă mică, auto-organizată, cross-functional (multifuncțională) și diversă cognitiv, compusă din:
+- Echipa Scrum – O echipă mică, auto-organizată, cross-functional (multifuncțională) și diversă cognitiv, compusă din:
   - Product Owner – Maximizează valoarea pe termen lung, se implică activ cu Stakeholderii și gestionează Product Backlogul.
   - Scrum Master – Ghidează adoptarea Scrum, înlătură impedimentele și încurajează îmbunătățirea continuă.
   - Product Developers – Livrează Incremente în fiecare Sprint, folosindu-și capabilitățile multifuncționale.
@@ -845,7 +842,7 @@ Scrum permite Echipei Scrum să identifice, să reprezinte sau să măsoare emer
   - _Supporter (Susținător), un tip de Stakeholder – Susține climatul și mediul de lucru și participă atunci când este solicitat._
   - _AI – Ca și instrument sau chiar un posibil Product Developer, dar încă nu poate fi pe deplin de încredere._
 
-4\. Evenimente Scrum & Activități 
+4\. Evenimente Scrum & Activități
 
 - Scrum funcționează în Sprinturi (iterații de durată determinată, _de până la patru săptămâni_) care includ patru evenimente cu durată limitată (time-boxed):
 - Sprint Planning – Se definește Obiectivului Sprintului și se planifică activitatea.
@@ -964,7 +961,7 @@ Există numeroase îndrumări pentru persoanele aflate la baza, în mijlocul sau
 
 Eficiența umană și oportună ar trebui să străbată întreaga structură corporativă pentru a genera beneficiile sale multiple. Chiar și organizațiile care au „reușit în adoptarea schimbării” se confruntă cu riscuri. Oamenii pleacă, apar noi perspective, iar modelele corporative efemere pot eroda progresele în materie de adaptabilitate. Astfel, poate apărea un haos negativ.
 
-Există mulți actori și modele de implicare care susțin, cel puțin declarativ, adaptabilitatea executivă, lucru benefic, deoarece diferitele contexte organizaționale necesită abordări diferite. Totuși, în ciuda resurselor disponibile, peisajul general al adaptabilității executive nu s-a schimbat semnificativ în bine,  în ultimii 25+ de ani.
+Există mulți actori și modele de implicare care susțin, cel puțin declarativ, adaptabilitatea executivă, lucru benefic, deoarece diferitele contexte organizaționale necesită abordări diferite. Totuși, în ciuda resurselor disponibile, peisajul general al adaptabilității executive nu s-a schimbat semnificativ în bine, în ultimii 25+ de ani.
 
 Indiferent dacă folosesc tactici, strategii, metode, cadre sau deloc, organizațiile ar trebui să adopte mai întâi ethosul care stă la baza ambidextriei, eficienței umane, adaptabilității și oportunității la nivel de conducere. În absența acestuia, directorii executivi și membrii consiliilor de administrație vor continua să supravegheze un „teatru al schimbării” și un mozaic incomplet de inițiative izolate, eficiente doar parțial, în cadrul organizațiilor.
 
@@ -995,7 +992,7 @@ _Titlu: Un fel de explicație pentru Framework-ul Cynefin neoficială & neautori
 _Sursa: \[Link către documentul original [Cynefin wiki](https://cynefin.io/wiki/Main_Page)\], \[Link către această adaptare\]_  
 _Licență: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._ © 2017-_2025 Cynefin.io._  
 _Disclaimer: Nu se oferă garanții. Utilizați pe propriul risc_  
-_Această secțiune este oferită sub licența  Attribution-ShareAlike 4.0 International license of Creative Commons._  
+_Această secțiune este oferită sub licența Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _Prin utilizarea acestei Explicații pentru Framework-ul Cynefin neoficială & neautorizată sunteți de acord cu termenii licenței [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)._
 
 ### Cynefin® {#cynefin®}
@@ -1007,7 +1004,6 @@ O schimbare de fază (phase shift) se referă la o tranziție adesea bruscă în
 Nu toate aspectele dezvoltării unui Produs sunt complexe. Echipa Scrum, într-o situație dată, ar putea avea nevoie să ia în considerare o varietate de tranziții de fază între:
 
 - Ordonat: Idee-cheie: Stabilitate, rutină, bune practici, expertiză
-
   - Expertiza este suficientă, iar cauza și efectul sunt predictibile sau pot fi cunoscute
   - Opțiuni de răspuns (fără a se limita la): aplicarea celor mai bune practici, respectarea regulilor, utilizarea analizei experților, cercetare individuală
   - Metafore: Cub de gheață tare sau abia înghețat, vreme plăcută, sau șah/sudoku
@@ -1015,7 +1011,6 @@ Nu toate aspectele dezvoltării unui Produs sunt complexe. Echipa Scrum, într-o
   - Exemplu de Produs: Rezolvarea unei probleme tehnice dificile prin consultarea experților și analiza log-urilor
 
 - Complex (30-35), unde expertiza este valoroasă dar nu suficientă, iar de ce s-au întâmplat lucrurile devine clar abia ulterior. Idee-cheie: emergență, experimente sigure pentru eșec (safe-to-fail)
-
   - Răspunsuri (fără a se limita la):
     - Încurajarea învățării și adaptării
     - Relizarea mai multor experimente mici, în paralel, sigure în caz de eșec
@@ -1042,7 +1037,6 @@ Nu toate aspectele dezvoltării unui Produs sunt complexe. Echipa Scrum, într-o
 Liminalitatea este o stare „de tranziție”, ca un prag. Trecerea între faze se întâmplă adesea mai puțin brusc în zonele liminale:
 
 - În liminalul dintre complex și ordonat, acesta este punctul forte implicit al Scrum:
-
   - Ordonat–Complex:
     - De la analiza experților la explorare adaptivă
     - Răspunsuri (fără a se limita la): relaxarea unor reguli, introducerea experimentării, pregătirea pentru emergență
@@ -1056,7 +1050,6 @@ Liminalitatea este o stare „de tranziție”, ca un prag. Trecerea între faze
     - Exemplu de Produs: Transformarea unei funcționalități experimentale de succes într-un proces documentat și repetabil
 
 - În liminalul dintre complex și haotic:
-
   - Complex–Haotic (pozitiv):
     - O situație în care constrângerile trebuie relaxate pentru a crea timp și spațiu pentru inovație sau invenție. Idee cheie: Muchia creativității, riscului și inovației
     - Răspunsuri (fără a se limita la): relaxarea constrângerilor, încurajarea experimentării, căutarea de idei revoluționare
@@ -1161,7 +1154,7 @@ Cu toate acestea:
 - Este important să luăm în considerare contextul. De asemenea, trebuie analizat dacă cuantificarea sprijină autonomia și sensul, sau dacă impune constrângeri de tip control.
 - În prezent, acest document preferă să încline balanța în favoarea clarificării și a înțelegerii comune a unei idei, prin: cuantificarea așteptărilor Stakeholderilor, a limitărilor acestora și a direcției de deplasare, susținută de narațiuni bine construite și corecte (mai multe povești „ca asta”, mai puține „ca cealaltă”).
 
-O Strategie Emergentă este susținută de o hartă de parcurs orientată pe rezultate emergente, care poate varia de la Sprint Goal până la Product Vision și chiar mai departe. Implementarea Strategiei Emergente (120–123) nu trebuie confundată cu Strategia Emergentă. Modele precum: modelele de schimbare vectorială (30–35, 54), modelele de operare a Produsului (113–119), modelele de scalare și descalare (134–147) și modelele de obiective emergente (120–133) pot fi foarte utile pentru Implementarea Strategiei Emergente. Este de preferat să folosim modele coerente cu schimbarea direcțională, adică o direcție de mers în locul unor obiective fixe.   
+O Strategie Emergentă este susținută de o hartă de parcurs orientată pe rezultate emergente, care poate varia de la Sprint Goal până la Product Vision și chiar mai departe. Implementarea Strategiei Emergente (120–123) nu trebuie confundată cu Strategia Emergentă. Modele precum: modelele de schimbare vectorială (30–35, 54), modelele de operare a Produsului (113–119), modelele de scalare și descalare (134–147) și modelele de obiective emergente (120–133) pot fi foarte utile pentru Implementarea Strategiei Emergente. Este de preferat să folosim modele coerente cu schimbarea direcțională, adică o direcție de mers în locul unor obiective fixe.  
 Implementarea strategiei emergente înseamnă să permitem planurilor și acțiunilor să se dezvolte natural, pe măsură ce Echipa Scrum și Stakeholderii reacționează la schimbările reale din mediu. În loc să urmeze o cale fixă, aceștia observă ce se întâmplă în jurul lor și se ajustează din mers. În timp, pașii făcuți formează un tipar care devine strategia reală, chiar dacă aceasta diferă de ceea ce fusese inițial planificat.
 
 #
@@ -1175,7 +1168,7 @@ Această colecție a fost scrisă și compilată de _Ralph Jocham, John Coleman,
 ## Referințe {#references}
 
 1. _Rau, T. (2022) Sociocrația \- Concepte și principii de bază, Sociocrația pentru toți. (Sociocracy \- Basic Concepts and principles, Sociocracy For All.) Disponibil la: [https://www.sociocracyforall.org/sociocracy/](https://www.sociocracyforall.org/sociocracy/) (Accesat: 5 aprilie 2023)._
-2. _Hamel, G. și  Zanini, M. (2023) Umanocrația. (Humanocracy.) Disponibil la: [https://www.humanocracy.com/](https://www.humanocracy.com/) (Accesat: 5 aprilie 2023)._
+2. _Hamel, G. și Zanini, M. (2023) Umanocrația. (Humanocracy.) Disponibil la: [https://www.humanocracy.com/](https://www.humanocracy.com/) (Accesat: 5 aprilie 2023)._
 3. _Kegan, R. și Laskow Lahey, L. (2019) O cultură pentru toți, Avantajul dezvoltării. (An everyone culture, The Developmental Edge.) Disponibil la: [https://developmentaledge.com/an-everyone-culture/](https://developmentaledge.com/an-everyone-culture/) (Accesat: 4 aprilie 2023)._
 4. _Laskow Lahey, L. and Kegan, R. (2023) Noutăți și reflecții, Avantajul dezvoltării. (News & thinking, The Developmental Edge.) Disponibil la: [https://developmentaledge.com/newsthinking/\#methodologies](https://developmentaledge.com/newsthinking/#methodologies) (Accesat: 3 aprilie 2023)._
 5. _Moore, G.A., 1991\. Trecând peste prăpastie: Marketingul și vânzarea de produse de înaltă tehnologie către clienții mainstream (Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers). New York: Harper Business._
@@ -1188,7 +1181,7 @@ Această colecție a fost scrisă și compilată de _Ralph Jocham, John Coleman,
 12. _Buck, J. & Villines, S. (2017) Noi, oamenii: Consimțământul într-o democrație mai profundă. Ed. a 2-a. (We the people: Consenting to a deeper democracy. 2nd edn.) Sociocracy.info Press._
 13. _Endenburg, G. (1998) Sociocracy: Sociocrația: Organizarea procesului decizional (The organization of decision-making). Delft: Eburon Publishers._
 14. _Priest, J. & Bockelbrink, B. (2018) Sociocrație 3.0 – Ghid practic (Sociocracy 3.0 – The practical guide). Disponibil la: [https://sociocracy30.org/](https://sociocracy30.org/) (Accesat: 17 mai 2025)._
-15. _Bogsnes, B. (2023) Acesta este 'Beyond Budgeting': Un ghid pentru organizații mai adaptabile și umane.  (This is beyond budgeting: A guide to more adaptive and human organizations). Hoboken, NJ: John Wiley & Sons, Inc._
+15. _Bogsnes, B. (2023) Acesta este 'Beyond Budgeting': Un ghid pentru organizații mai adaptabile și umane. (This is beyond budgeting: A guide to more adaptive and human organizations). Hoboken, NJ: John Wiley & Sons, Inc._
 16. _Bogsnes, B. (2023) Beyond Budgeting la 25 de ani (Beyond budgeting at 25) \- [bbrt.org](https://bbrt.org/), Masa rotundă Beyond Budgeting (Beyond Budgeting Round Table). Disponibil la: [https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf](https://bbrt.org/wp-content/uploads/bb-white-paper_a.pdf) (Accesat: 7 aprilie 2023)._
 17. _Olesen, A. (2016) Beyond budgeting: Principiul 1 \- scop, YouTube. Disponibil la: [https://youtu.be/\_9ZW2NjyFxE](https://youtu.be/_9ZW2NjyFxE) (Accesat: 7 aprilie 2023)._
 18. _Larsson, D. (2016) Beyond budgeting: Principiul 2 \- valori, YouTube. Disponibil la: [https://youtu.be/pl1BPrITbm4](https://youtu.be/pl1BPrITbm4) (Accesat: 7 aprilie 2023)._
@@ -1269,7 +1262,7 @@ Această colecție a fost scrisă și compilată de _Ralph Jocham, John Coleman,
 91. _The Little Book of Beyond Budgeting_  
     _Morlidge, S., 2024\. Micul ghid al managementului dincolo de bugetare: Un nou model de management pentru organizații (Ediția a doua) (The Little Book of Beyond Budgeting: A New Management Model for Organisations (Second Edition)) \[Beyond Books Press\]_
 92. _The Little (Illustrated) Book of Operational Forecasting_  
-    _Morlidge, S., 2019\. Micul ghid (ilustrat)  al previziunilor operaționale (The Little (Illustrated) Book of Operational Forecasting). \[Troubador\]._
+    _Morlidge, S., 2019\. Micul ghid (ilustrat) al previziunilor operaționale (The Little (Illustrated) Book of Operational Forecasting). \[Troubador\]._
 93. _Present Sense_  
     _Morlidge, S., 2019\. Simțul prezentului (Present Sense). \[Troubador\]._
 94. _Zen and the Art of Organising Work_  
@@ -1287,7 +1280,7 @@ Această colecție a fost scrisă și compilată de _Ralph Jocham, John Coleman,
 104. _Frey, B.S. and Jegen, R. (2001) Teoria aglomerării motivaționale (‘Motivation crowding theory’), Journal of Economic Surveys, 15(5), pp. 589–611._
 105. _Cameron, J., Banko, K.M. and Pierce, W.D. (2001) „Efectele negative pervazive ale recompenselor asupra motivației intrinseci: Mitul continuă” (‘Pervasive negative effects of rewards on intrinsic motivation: The myth continues’), The Behavior Analyst, 24(1), pp. 1–44._
 106. _Deci, E.L., Koestner, R. and Ryan, R.M. (1999) „O analiză meta-analitică a experimentelor privind efectele recompenselor extrinseci asupra motivației intrinseci” (‘A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation’), Psychological Bulletin, 125(6), pp. 627–668._
-107. _Ryan, R.M. și  Deci, E.L. (2000) „Motivațiile intrinseci și extrinseci: definiții clasice și noi direcții” (‘Intrinsic and extrinsic motivations: Classic definitions and new directions’), Contemporary Educational Psychology, 25(1), pp. 54–67._
+107. _Ryan, R.M. și Deci, E.L. (2000) „Motivațiile intrinseci și extrinseci: definiții clasice și noi direcții” (‘Intrinsic and extrinsic motivations: Classic definitions and new directions’), Contemporary Educational Psychology, 25(1), pp. 54–67._
 108. _Sandel, M.J. (2012) Ce nu poate fi cumpărat cu bani: limitele morale ale piețelor (What money can’t buy: The moral limits of markets). London: Allen Lane._
 109. _Kohn, A. (1993) „De ce nu pot funcționa planurile de stimulente” (‘Why incentive plans cannot work’), Harvard Business Review, 71(5), pp. 54–63._
 110. _Fuzzy Business: Cum să fii aproximativ corect în loc de precis greșit (How to be roughly right rather than precisely wrong) (nepublicat)._
@@ -1312,7 +1305,7 @@ Această colecție a fost scrisă și compilată de _Ralph Jocham, John Coleman,
 129. _Appelo, J. (2023) Uneori, nu vrei să ai focus, unFIX (Sometimes, you \*don’t\* want focus, unFIX). Disponibil la: [https://unfix.com/blog/sometimes-you-dont-want-focus](https://unfix.com/blog/sometimes-you-dont-want-focus) (Accesat: 14 Ianuarie 2024)._
 130. _Appelo, J. (2023) Pariuri și obiective, unFIX (Bets and objectives, unFIX). Disponibil la: [https://unfix.com/bets-and-objectives](https://unfix.com/bets-and-objectives) (Accesat: 14 Ianuarie 2024)._
 131. _McChesney, C. (2023) Cele 4 discipline ale execuției (ediție nouă) (The 4 disciplines of execution (new)), FranklinCovey. Disponibil la: [https://www.franklincovey.com/the-4-disciplines/](https://www.franklincovey.com/the-4-disciplines/) (Accesat: 4 aprilie, 2023)._
-132. _Scrum.org (2024) Frameworkul de Management Bazat pe Dovezi  (Evidence-Based Management (EBM) Framework), Scrum.org. Disponibil la: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (Accesat: 8 Iunie 2025)._
+132. _Scrum.org (2024) Frameworkul de Management Bazat pe Dovezi (Evidence-Based Management (EBM) Framework), Scrum.org. Disponibil la: [https://www.scrum.org/resources/evidence-based-management](https://www.scrum.org/resources/evidence-based-management). (Accesat: 8 Iunie 2025)._
 133. _Burrows, M. (2023) Pagina principală: Agendashift™ (Home: Agendashift™), Agendashift. Disponibil la: [https://www.agendashift.com/](https://www.agendashift.com/) (Accesat: 4 aprilie 2023)._
 134. _Kniberg, H. and Ivarsson, A. (2012) Scalare la Spotify (Scaling at Spotify), Crisp. Disponibil la: [https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) (Accesat: 5 aprilie 2023)._
 135. _Ambler, S.W. and Lines, M. (2023) Trusa de unelte Disciplined Agile® (Disciplined Agile® Toolkit) \- Project Management Institute, PMI. Disponibil la: [https://www.pmi.org/disciplined-agile/](https://www.pmi.org/disciplined-agile/) (Accesat: 5 aprilie, 2023)._
