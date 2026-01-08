@@ -315,3 +315,16 @@
 
 - id: all_topics
   translation: "Toate"
+
+# Version-specific translations (English placeholders - needs Romanian translation)
+- id: guide_historical_version_notice_title
+  translation: "Notificare Versiune Istorică:"
+
+- id: guide_historical_version_notice_text
+  translation: "Vizualizați versiunea {{ .CurrentVersion }} a acestui ghid."
+
+- id: guide_historical_version_notice_link
+  translation: "Vizualizați cea mai recentă versiune ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "pentru informațiile cele mai actualizate."

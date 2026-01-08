@@ -54,6 +54,7 @@ guide_whatis: |
 
 aliases:
   - /es/scrum-guide-expansion-pack/2025.6/
+  - /es/scrum-guide-expansion-pack/
 
 sitemap:
   priority: 1.0
@@ -1121,7 +1122,7 @@ Liminalidad es una etapa "intermedia", como un umbral. Los cambios de fase menos
   - Ejemplo en la naturaleza: Estuario donde se encuentran río, mar y tierra: todos los estados y posibilidades coexisten
   - Ejemplo de producto: El equipo está atrapado entre estrategias o visiones contradictorias y debe hacer una pausa para reflexionar y realinearse
 
-- Cambio de fase raramente considerado debido a su dificultad**: liminal **Caótico–Ordenado\*\*
+- Cambio de fase raramente considerado debido a su dificultad**: liminal**Caótico–Ordenado\*\*
   - Posibles respuestas: imponer fuertes restricciones, restablecer reglas y estructura
   - Metáforas: Hielo que se vuelve a congelar rápidamente, ola de frío tras una tormenta, un árbitro estrictamente eficaz tras el caos
   - Ejemplo en la naturaleza: Se construye una presa después de una inundación: un río salvaje contenido de forma repentina y controlada

@@ -23,6 +23,7 @@ sitemap:
   priority: 1.0
 aliases:
   - /tlh/scrum-guide-expansion-pack/2025.6/
+  - /tlh/scrum-guide-expansion-pack/
 ---
 
 ngoq'a' [Scrum Guide](https://scrumguides.org/) chenmoHpu'bogh Ken Schwaber je Jeff Sutherland (40) wIqel

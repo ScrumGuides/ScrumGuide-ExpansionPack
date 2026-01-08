@@ -28,6 +28,7 @@ sitemap:
 priority: 1.0
 aliases:
   - /it/scrum-guide-expansion-pack/2025.6/
+  - /it/scrum-guide-expansion-pack/
 ---
 
 basato sulla [Guida a Scrum](https://scrumguides.org/) originale di Ken Schwaber e Jeff Sutherland (40)

@@ -298,3 +298,22 @@
 - id: hero_description
   translation: |
     Navigate today's complex product environments with practical guidance on *complexity*, *product thinking*, *systems of work*, and *leadership*.
+
+# Version-specific translations
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
+
+- id: guide_content_unavailable_note
+  translation: "Note:"
+
+- id: guide_content_unavailable_message
+  translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."

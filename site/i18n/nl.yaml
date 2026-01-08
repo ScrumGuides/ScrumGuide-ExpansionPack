@@ -304,5 +304,27 @@
 - id: contributors_label
   translation: "Bijdragers"
 
-- id: contributors_label
-  translation: "Bijdragers"
+# Version-specific translations (English placeholders - needs Dutch translation)
+- id: guide_version_dropdown_label
+  translation: "Selecteer versie"
+
+- id: guide_version_current
+  translation: "Huidig"
+
+- id: guide_historical_version_notice_title
+  translation: "Historische Versie Kennisgeving:"
+
+- id: guide_historical_version_notice_text
+  translation: "U bekijkt versie {{ .CurrentVersion }} van deze gids."
+
+- id: guide_historical_version_notice_link
+  translation: "Bekijk de nieuwste versie ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "voor de meest actuele informatie."
+
+- id: guide_content_unavailable_note
+  translation: "Opmerking:"
+
+- id: guide_content_unavailable_message
+  translation: "Deze pagina-inhoud is momenteel niet beschikbaar in {{ .Language }}. De standaard gidsinhoud wordt hieronder weergegeven."

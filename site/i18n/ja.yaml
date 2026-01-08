@@ -398,3 +398,16 @@
 
 - id: all_topics
   translation: "すべて"
+
+# Version-specific translations (English placeholders - needs Japanese translation)
+- id: guide_historical_version_notice_title
+  translation: "履歴バージョン通知:"
+
+- id: guide_historical_version_notice_text
+  translation: "このガイドのバージョン {{ .CurrentVersion }} を表示しています。"
+
+- id: guide_historical_version_notice_link
+  translation: "最新バージョン（{{ .LatestVersion }}）を表示"
+
+- id: guide_historical_version_notice_suffix
+  translation: "最新の情報を確認してください。"

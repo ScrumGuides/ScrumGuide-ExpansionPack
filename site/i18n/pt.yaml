@@ -296,3 +296,22 @@
 
 - id: guide_back_to_home
   translation: "Voltar ao Início"
+
+# Version-specific translations (English placeholders - needs Portuguese translation)
+- id: guide_historical_version_notice_title
+  translation: "Aviso de Versão Histórica:"
+
+- id: guide_historical_version_notice_text
+  translation: "Você está visualizando a versão {{ .CurrentVersion }} deste guia."
+
+- id: guide_historical_version_notice_link
+  translation: "Ver a versão mais recente ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "para obter as informações mais atualizadas."
+
+- id: guide_content_unavailable_note
+  translation: "Nota:"
+
+- id: guide_content_unavailable_message
+  translation: "O conteúdo desta página está atualmente indisponível em {{ .Language }}. Mostrando o conteúdo padrão do guia abaixo."

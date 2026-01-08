@@ -298,3 +298,28 @@
 - id: hero_description
   translation: |
     Navigieren Sie die komplexen Produktumgebungen von heute mit praktischer Anleitung zu *Komplexität*, *Produktdenken*, *Arbeitssystemen* und *Führung*.
+
+# Version-specific translations (English placeholders - needs German translation)
+- id: guide_version_dropdown_label
+  translation: "Version auswählen"
+
+- id: guide_version_current
+  translation: "Aktuell"
+
+- id: guide_historical_version_notice_title
+  translation: "Hinweis zur historischen Version:"
+
+- id: guide_historical_version_notice_text
+  translation: "Sie betrachten Version {{ .CurrentVersion }} dieses Leitfadens."
+
+- id: guide_historical_version_notice_link
+  translation: "Neueste Version ansehen ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "für die aktuellsten Informationen."
+
+- id: guide_content_unavailable_note
+  translation: "Hinweis:"
+
+- id: guide_content_unavailable_message
+  translation: "Dieser Seiteninhalt ist derzeit nicht auf {{ .Language }} verfügbar. Der Standard-Leitfadeninhalt wird unten angezeigt."

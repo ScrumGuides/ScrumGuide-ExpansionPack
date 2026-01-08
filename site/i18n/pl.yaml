@@ -278,3 +278,31 @@
 
 - id: all_topics
   translation: "Wszystkie"
+
+# Version-specific translations (English placeholders - needs Polish translation)
+- id: guide_version_dropdown_label
+  translation: "Wybierz wersję"
+
+- id: guide_version_current
+  translation: "Bieżąca"
+
+- id: guide_pdf_not_available
+  translation: "PDF niedostępny"
+
+- id: guide_historical_version_notice_title
+  translation: "Powiadomienie o Wersji Historycznej:"
+
+- id: guide_historical_version_notice_text
+  translation: "Przeglądasz wersję {{ .CurrentVersion }} tego przewodnika."
+
+- id: guide_historical_version_notice_link
+  translation: "Zobacz najnowszą wersję ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "aby uzyskać najbardziej aktualne informacje."
+
+- id: guide_content_unavailable_note
+  translation: "Uwaga:"
+
+- id: guide_content_unavailable_message
+  translation: "Ta zawartość strony jest obecnie niedostępna w języku {{ .Language }}. Poniżej wyświetlana jest domyślna zawartość przewodnika."

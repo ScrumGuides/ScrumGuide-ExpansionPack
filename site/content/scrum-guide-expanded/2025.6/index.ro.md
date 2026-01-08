@@ -28,6 +28,7 @@ sitemap:
   priority: 1.0
 aliases:
   - /ro/scrum-guide-expansion-pack/2025.6/
+  - /ro/scrum-guide-expansion-pack/
 ---
 
 bazat pe versiunea originală [Ghidul Scrum](https://scrumguides.org/) scris de Ken Schwaber și Jeff Sutherland (40)

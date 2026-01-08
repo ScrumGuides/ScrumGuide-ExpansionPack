@@ -312,3 +312,28 @@
 
 - id: read_fork_button
   translation: "Read Fork"
+
+# Version-specific translations (English placeholders - needs Klingon translation)
+- id: guide_version_dropdown_label
+  translation: "Select version"
+
+- id: guide_version_current
+  translation: "Current"
+
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
+
+- id: historical_fork_label
+  translation: "Historical Fork"
+
+- id: view_archive_button
+  translation: "View Archive"

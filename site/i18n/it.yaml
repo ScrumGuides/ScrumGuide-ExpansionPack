@@ -296,3 +296,16 @@
 
 - id: all_topics
   translation: "Tutti"
+
+# Version-specific translations (English placeholders - needs Italian translation)
+- id: guide_historical_version_notice_title
+  translation: "Avviso Versione Storica:"
+
+- id: guide_historical_version_notice_text
+  translation: "Stai visualizzando la versione {{ .CurrentVersion }} di questa guida."
+
+- id: guide_historical_version_notice_link
+  translation: "Visualizza l'ultima versione ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "per le informazioni più aggiornate."

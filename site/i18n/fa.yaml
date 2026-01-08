@@ -289,3 +289,28 @@
 - id: hero_description
   translation: |
     محیط‌های پیچیده محصول امروز را با راهنمایی عملی در مورد *پیچیدگی*، *تفکر محصول*، *سیستم‌های کاری* و *رهبری* هدایت کنید.
+
+# Version-specific translations (English placeholders - needs Farsi translation)
+- id: guide_version_dropdown_label
+  translation: "Select version"
+
+- id: guide_version_current
+  translation: "Current"
+
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
+
+- id: guide_content_unavailable_note
+  translation: "Note:"
+
+- id: guide_content_unavailable_message
+  translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."

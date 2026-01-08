@@ -15,6 +15,8 @@ categories:
 tags:
   - Foundation
   - Framework
+aliases:
+  - /scrum-guide-expansion-pack/
 cascade:
   - build:
       list: never

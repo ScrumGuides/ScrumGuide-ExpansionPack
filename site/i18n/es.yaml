@@ -301,3 +301,10 @@
 - id: hero_description
   translation: |
     Navegue por los entornos de producto complejos de hoy con orientación práctica sobre *complejidad*, *pensamiento de producto*, *sistemas de trabajo* y *liderazgo*.
+
+# Additional version translations
+- id: guide_content_unavailable_note
+  translation: "Nota:"
+
+- id: guide_content_unavailable_message
+  translation: "Este contenido de página no está disponible actualmente en {{ .Language }}. Se muestra el contenido predeterminado de la guía a continuación."
