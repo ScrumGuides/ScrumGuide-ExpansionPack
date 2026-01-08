@@ -1,6 +1,7 @@
 ---
 title: Scrum Guide Expanded
 description: The comprehensive companion to the 2020 Scrum Guide, providing deeper insights into implementing Scrum effectively in complex environments.
+slug: scrum-guide-expanded
 Type: "guide"
 Layout: "root"
 brand:
