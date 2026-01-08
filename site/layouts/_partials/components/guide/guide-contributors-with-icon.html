@@ -1,0 +1,92 @@
+{{- /* Accept parameters or use defaults */ -}}
+{{- $context := . -}}
+{{- $roles := slice "contributor" "creator" "reviewer" -}}
+{{- $applyFounderFilter := true -}}
+{{- $founderValue := true -}}
+{{- $lightList := false -}}
+
+{{- /* Check if custom parameter keys exist to determine if it's a dict */ -}}
+{{- $isParamDict := or (isset . "roles") (isset . "lightList") (isset . "founder") (isset . "skipFounderFilter") -}}
+{{- if $isParamDict -}}
+  {{- if .context -}}
+    {{- $context = .context -}}
+  {{- end -}}
+  {{- with .roles -}}
+    {{- $roles = . -}}
+  {{- end -}}
+  {{- if isset . "founder" -}}
+    {{- $applyFounderFilter = true -}}
+    {{- $founderValue = .founder -}}
+  {{- else if isset . "skipFounderFilter" -}}
+    {{- $applyFounderFilter = not .skipFounderFilter -}}
+  {{- end -}}
+  {{- with .lightList -}}
+    {{- $lightList = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{ $contributors := partial "functions/get-contributors.html" $context }}
+{{- if $applyFounderFilter -}}
+  {{- $contributors = where $contributors "founder" $founderValue -}}
+{{- end -}}
+{{- $contributors = where $contributors "role" "in" $roles -}}
+
+{{ if $contributors }}
+  <div class="content-authors mt-3">
+    {{ if not $lightList }}
+    <div class="row">
+      <div class="col-12 col-md-2">
+        <span class="text-muted me-2">{{ i18n "contributors_label" $context }}:</span>
+      </div>
+      <div class="col-12 col-md-10">
+    {{ end }}
+        <div class="d-flex flex-wrap align-items-center{{ if $lightList }} avatar-overlap{{ end }}">
+          {{ if $lightList }}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users text-muted me-2"
+            style="width: 24px; height: 24px; flex-shrink: 0;">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+          {{ end }}
+          {{ range sort $contributors "weight" "asc" }}
+            {{ partial "components/guide/guide-author.html" (dict "author" . "lightList" $lightList) }}
+          {{ end }}
+        </div>
+    {{ if not $lightList }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ if $lightList }}
+  <style>
+    .avatar-overlap svg.lucide-users {
+      margin-left: 0 !important;
+      margin-right: 0.5rem;
+    }
+    .avatar-overlap .author-item {
+      margin-left: var(--avatar-overlap-offset, -12px);
+      transition: transform var(--avatar-transition-speed, 0.2s) ease;
+    }
+    .avatar-overlap svg.lucide-users + .author-item {
+      margin-left: 0;
+    }
+    .avatar-overlap .author-item:hover {
+      transform: scale(var(--avatar-hover-scale, 1.1));
+      z-index: 10;
+      position: relative;
+    }
+  </style>
+  {{ end }}
+{{ end }}

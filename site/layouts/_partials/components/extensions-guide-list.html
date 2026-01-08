@@ -60,7 +60,7 @@
                 {{- end }}
 
                 {{/* Contributors - Light List */}}
-                {{ partial "components/guide/guide-contributors.html" (dict "context" . "roles" (slice "contributor" "creator" "reviewer") "lightList" true) }}
+                {{ partial "components/guide/guide-contributors-with-icon.html" (dict "context" . "roles" (slice "contributor" "creator" "reviewer") "lightList" true) }}
 
 
                 <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
