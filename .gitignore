@@ -13,3 +13,5 @@ scripts/scrum-guide-expansion-pack-template.*
 CLAUDE.md
 
 .DS_Store
+node_modules/*
+

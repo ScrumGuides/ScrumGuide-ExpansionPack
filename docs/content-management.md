@@ -166,6 +166,7 @@ Die Scrum Ereignisse sind zeitlich begrenzte Meetings...
 
 - **Maintain structure** - Keep the same heading hierarchy
 - **Preserve links** - Update internal links to translated pages
+- **Keep categories and tags identical** - Do not translate `categories` or `tags` in frontmatter; use exact same values as English
 - **Cultural adaptation** - Adapt examples for local context
 - **Consistent terminology** - Use established Scrum translations
 - **Review process** - Have native speakers review translations

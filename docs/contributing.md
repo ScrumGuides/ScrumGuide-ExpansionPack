@@ -228,6 +228,7 @@ According to Smith (42), Scrum teams should...
 
 - **Accuracy**: Maintain the meaning and intent of the original content
 - **Consistency**: Use consistent terminology throughout
+- **Categories and Tags**: Keep `categories` and `tags` in frontmatter identical to English - do not translate these
 - **Cultural Sensitivity**: Adapt content appropriately for the target culture
 - **Technical Terms**: Keep technical Scrum terms in their commonly accepted form
 - **Formatting**: Preserve markdown formatting and structure
@@ -327,21 +328,18 @@ chore(deps): update Hugo version
 ### Pull Request Review
 
 1. **Automated Checks**:
-
    - Hugo build succeeds
    - No broken links
    - Markdown linting passes
    - Spell checking passes
 
 2. **Content Review**:
-
    - Accuracy of information
    - Consistency with existing content
    - Proper attribution and references
    - Language and grammar
 
 3. **Technical Review**:
-
    - Code quality and standards
    - Performance impact
    - Browser compatibility

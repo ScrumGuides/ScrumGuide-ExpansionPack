@@ -350,5 +350,64 @@
   # translation: "Contributed By"
   translation: "貢献者"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "スクラムガイド2020の補足"
 
+- id: created_by
+  translation: "作成者"
 
+- id: explore_expansions
+  translation: "拡張を探索する"
+
+- id: core_section_title
+  translation: "スクラムガイド拡張"
+
+- id: core_document_badge
+  translation: "コアドキュメント"
+
+- id: extensions_section_title
+  translation: "拡張"
+
+- id: documents
+  translation: "ドキュメント"
+
+- id: community_description
+  translation: "この拡張パックはコミュニティのコラボレーションによって成長します。世界中の実践者と共に、スクラムをすべての人にとってよりアクセスしやすく実用的なものにしましょう。"
+
+- id: expansions
+  translation: "拡張"
+
+- id: expert_authors
+  translation: "専門家著者"
+
+- id: possibilities
+  translation: "可能性"
+
+- id: view_on_github
+  translation: "GitHubで見る"
+
+- id: hero_title
+  translation: |
+    スクラムガイド
+    *拡張パック*
+
+- id: hero_description
+  translation: |
+    *複雑性*、*プロダクト思考*、*作業システム*、*リーダーシップ*に関する実践的なガイダンスで、今日の複雑なプロダクト環境をナビゲートします。
+
+- id: all_topics
+  translation: "すべて"
+
+# Version-specific translations (English placeholders - needs Japanese translation)
+- id: guide_historical_version_notice_title
+  translation: "履歴バージョン通知:"
+
+- id: guide_historical_version_notice_text
+  translation: "このガイドのバージョン {{ .CurrentVersion }} を表示しています。"
+
+- id: guide_historical_version_notice_link
+  translation: "最新バージョン（{{ .LatestVersion }}）を表示"
+
+- id: guide_historical_version_notice_suffix
+  translation: "最新の情報を確認してください。"

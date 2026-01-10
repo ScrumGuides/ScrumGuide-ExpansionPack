@@ -236,3 +236,104 @@
 
 - id: contributors_label
   translation: "chenmoHwI'"
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Scrum Guide 2020 rInDI'"
+
+- id: created_by
+  translation: "chenmoHta'"
+
+- id: explore_expansions
+  translation: "tInmo'taHghach tu'lu'"
+
+- id: core_section_title
+  translation: "Scrum Guide tInmo'taHghach"
+
+- id: core_document_badge
+  translation: "potlh De'"
+
+- id: extensions_section_title
+  translation: "tInmo'taHghachmey"
+
+- id: documents
+  translation: "De'mey"
+
+- id: community_description
+  translation: "tInmo'taHghach De'vam 'ej Hoch nuv boQ. qo' Hoch Scrum lo'wI'pu' bIghoStaH 'ej Hoch nuv Qaptaugh Scrum."
+
+- id: expansions
+  translation: "tInmo'taHghachmey"
+
+- id: expert_authors
+  translation: "po'wI' QeH"
+
+- id: possibilities
+  translation: "DuH"
+
+- id: view_on_github
+  translation: "GitHub legh"
+
+- id: all_topics
+  translation: "Hoch"
+
+- id: guide_content_unavailable_note
+  translation: "Note:"
+
+- id: forked_from_indicator
+  translation: "Forked From:"
+
+- id: guide_content_unavailable_message
+  translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."
+
+- id: current_fork_label
+  translation: "Current Fork:"
+
+- id: active_fork_label
+  translation: "Active Fork:"
+
+- id: fork_indicator
+  translation: "Fork Indicator"
+
+- id: this_is_fork_label
+  translation: "This is a fork"
+
+- id: hero_title
+  translation: |
+    pOlonyuS
+    *puqloD*
+
+- id: hero_description
+  translation: |
+    pOlonyuS puqloD
+
+- id: active_fork_updated_label
+  translation: "Last Updated:"
+
+- id: read_fork_button
+  translation: "Read Fork"
+
+# Version-specific translations (English placeholders - needs Klingon translation)
+- id: guide_version_dropdown_label
+  translation: "Select version"
+
+- id: guide_version_current
+  translation: "Current"
+
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
+
+- id: historical_fork_label
+  translation: "Historical Fork"
+
+- id: view_archive_button
+  translation: "View Archive"

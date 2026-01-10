@@ -238,5 +238,79 @@
 - id: download_reference_status
   translation: "مرجع"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "همراه راهنمای اسکرام 2020"
+
+- id: created_by
+  translation: "ایجاد شده توسط"
+
+- id: explore_expansions
+  translation: "بسط‌ها را کاوش کنید"
+
+- id: core_section_title
+  translation: "بسته توسعه راهنمای اسکرام"
+
+- id: core_document_badge
+  translation: "سند اصلی"
+
+- id: extensions_section_title
+  translation: "بسط‌ها"
+
+- id: documents
+  translation: "اسناد"
+
+- id: community_description
+  translation: "این بسته توسعه بر همکاری جامعه شکوفا می‌شود. به متخصصان سراسر جهان بپیوندید تا اسکرام را برای همه در دسترس‌تر و کاربردی‌تر کنید."
+
+- id: expansions
+  translation: "بسط‌ها"
+
+- id: expert_authors
+  translation: "نویسندگان متخصص"
+
+- id: possibilities
+  translation: "امکانات"
+
+- id: view_on_github
+  translation: "مشاهده در GitHub"
+
 - id: contributors_label
   translation: "مشارکت‌کنندگان"
+
+- id: all_topics
+  translation: "همه"
+
+- id: hero_title
+  translation: |
+    راهنمای اسکرام
+    *مقاله‌ی مکمل*
+
+- id: hero_description
+  translation: |
+    محیط‌های پیچیده محصول امروز را با راهنمایی عملی در مورد *پیچیدگی*، *تفکر محصول*، *سیستم‌های کاری* و *رهبری* هدایت کنید.
+
+# Version-specific translations (English placeholders - needs Farsi translation)
+- id: guide_version_dropdown_label
+  translation: "Select version"
+
+- id: guide_version_current
+  translation: "Current"
+
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
+
+- id: guide_content_unavailable_note
+  translation: "Note:"
+
+- id: guide_content_unavailable_message
+  translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."

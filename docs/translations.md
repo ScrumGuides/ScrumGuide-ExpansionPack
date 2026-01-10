@@ -153,6 +153,7 @@ description: "Your translated description"
    - Hugo shortcodes
    - Reference numbers (40), (58), etc.
    - HTML comments and IDs
+   - **Categories and tags** - Keep these identical to the English version (do not translate)
 
 **B. UI Translation File**
 
@@ -212,7 +213,6 @@ git push origin translation/add-{LANG}-language
 ```
 
 2. **Create Pull Request:**
-
    - Go to your fork on GitHub
    - Click "New Pull Request"
    - Use title: "Add {Language Name} translation"
@@ -233,7 +233,6 @@ git push origin translation/add-{LANG}-language
 ### Step 1: Get Translation Templates
 
 1. **Download files to translate:**
-
    - [Main Guide Template](https://raw.githubusercontent.com/nkdAgility/ScrumGuide-ExpansionPack/main/site/content/guide/index.md)
    - [UI Translations Template](https://raw.githubusercontent.com/nkdAgility/ScrumGuide-ExpansionPack/main/site/i18n/en.yaml)
 
@@ -244,8 +243,8 @@ git push origin translation/add-{LANG}-language
 ### Step 2: Translate Content
 
 1. **Main Guide (`index.{LANG}.md`):**
-
    - Translate title and description in the frontmatter
+   - **Keep categories and tags exactly the same as English** - Do not translate
    - Translate all body content
    - Keep all Markdown formatting intact
    - Preserve reference numbers and links
@@ -264,13 +263,11 @@ git push origin translation/add-{LANG}-language
 ### Step 4: Submit Translation
 
 1. **Create GitHub Issue:**
-
    - Go to [Issues page](https://github.com/nkdAgility/ScrumGuide-ExpansionPack/issues)
    - Click "New Issue"
    - Title: "Translation Submission: {Language Name}"
 
 2. **Include in issue:**
-
    - Language name and code
    - Attach your translated files
    - List any collaborators to credit
@@ -306,13 +303,12 @@ Use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two-lette
 ### Content Guidelines
 
 1. **Preserve Structure:**
-
    - Keep all headings, links, and formatting
    - Maintain reference numbers exactly: (40), (58)
+   - **Keep categories and tags unchanged** - Use the same values as the English version
    - Don't translate technical terms unnecessarily
 
 2. **Cultural Adaptation:**
-
    - Adapt examples to local context when appropriate
    - Maintain the professional, educational tone
    - Consider regional business practices

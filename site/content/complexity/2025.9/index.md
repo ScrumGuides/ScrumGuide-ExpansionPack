@@ -18,11 +18,9 @@ lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
-forked_from: scrum-guide-expansion-pack/2025.6
+forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
@@ -45,7 +43,6 @@ A phase shift refers to an often abrupt transition between domains, particularly
 Not all aspects of Product development are complex. The Scrum Team, for a given situation, might need to consider a variety of phase shifts between:
 
 - Ordered: Key idea: Stability, routine, best/good practice, expertise
-
   - Expertise is sufficient, and cause and effect are predictable or knowable
   - Response options not limited to: Apply best/good practices, follow rules, use expert analysis, do individual research
   - Metaphors: Hard to barely frozen ice cube, pleasant weather, or chess/sudoku
@@ -53,7 +50,6 @@ Not all aspects of Product development are complex. The Scrum Team, for a given 
   - Product example: Resolving a tricky technical issue by consulting experts and analyzing logs
 
 - Complex (1-6), where expertise is valuable but not enough, and one can only understand why things happened after the fact. Key idea: emergence, safe-to-fail experiments
-
   - Responses not limited to:
     - Encourage learning and adaptation
     - Trying several small, parallel, safe-to-fail experiments
@@ -80,7 +76,6 @@ Not all aspects of Product development are complex. The Scrum Team, for a given 
 Liminality is an ‘in-between’ stage, like a threshold. The often less-sudden phase shifts happen in the liminals:
 
 - In the liminal between complex and ordered, this is Scrum’s default sweetspot:
-
   - Ordered-Complex:
     - From expert analysis to adaptive exploration
     - Responses not limited to: Relax some rules, introduce experimentation, prepare for emergence
@@ -94,7 +89,6 @@ Liminality is an ‘in-between’ stage, like a threshold. The often less-sudden
     - Product example: Taking a successful experimental feature and turning it into a documented, repeatable process
 
 - In the liminal between complex and chaotic:
-
   - Complex–Chaotic (positive):
     - A situation where constraints need to be relaxed to create time and space for innovation or invention. Key idea: The edge of creativity, risk, and innovation
     - Responses not limited to: Loosen constraints, encourage experimentation, seek breakthrough ideas
@@ -132,7 +126,6 @@ One phase shift is particularly sudden and negative, that is, the ordered-chaoti
 - Metaphors: Ice cracking into shards, sudden and violent hailstorm, game rules suddenly thrown out
 - Nature example: Frozen lake breaking up in spring––stable surface suddenly shattering
 - Product example: A stable Product process suddenly breaks down due to an unexpected event (e.g., major outage)
-
 
 ## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 

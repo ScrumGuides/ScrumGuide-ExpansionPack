@@ -1,0 +1,77 @@
+{{- define "breadcrumbs" }}
+  <div></div>
+{{- end }}
+
+{{- define "main" }}
+  {{- $guidePage := .Site.GetPage "/guide" }}
+  {{- $isComingSoon := and $guidePage $guidePage.Date (lt now $guidePage.Date) (eq hugo.Environment "production") }}
+
+  {{- partial "components/home-hero.html" . }}
+
+  {{/* Main Content */}}
+  <main id="content" class="container my-5 py-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11 col-xxl-10">
+        {{ partial "components/tag-list.html" . }}
+
+        {{ partial "components/core-guide-list.html" . }}
+
+        {{ partial "components/extensions-guide-list.html" . }}
+      </div>
+    </div>
+  </main>
+
+  {{/* Community Section */}}
+  <section class="py-5 bg-gradient-to-bottom">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8 text-center">
+          <div class="d-inline-flex align-items-center justify-content-center rounded bg-primary bg-opacity-10 text-primary mb-4" style="width: 4rem; height: 4rem;">
+            <i class="fa-solid fa-heart fa-2x"></i>
+          </div>
+
+          <h2 class="display-6 fw-bold mb-4">{{ i18n "open_source_title" | default "Open Source &amp; Community Driven" }}</h2>
+          <p class="fs-5 text-muted mb-5 mx-auto" style="max-width: 42rem;">
+            {{ i18n "community_description" | default "This expansion pack thrives on community collaboration. Join practitioners worldwide in making Scrum more accessible and practical for everyone." }}
+          </p>
+
+          <div class="row g-4 mb-5 justify-content-center">
+            <div class="col-4 col-md-3">
+              <div class="text-center">
+                <div class="display-6 fw-bold text-primary mb-2">{{ len .Site.Sections }}+</div>
+                <div class="small text-muted">{{ i18n "expansions" | default "Expansions" }}</div>
+              </div>
+            </div>
+            <div class="col-4 col-md-3">
+              <div class="text-center">
+                <div class="display-6 fw-bold text-primary mb-2">3</div>
+                <div class="small text-muted">{{ i18n "expert_authors" | default "Expert Authors" }}</div>
+              </div>
+            </div>
+            <div class="col-4 col-md-3">
+              <div class="text-center">
+                <div class="display-6 fw-bold text-primary mb-2">∞</div>
+                <div class="small text-muted">{{ i18n "possibilities" | default "Possibilities" }}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            {{ if $isComingSoon }}
+              <a href="#" class="btn btn-primary btn-lg disabled">
+                <i class="fa-solid fa-message-circle me-2"></i>{{ i18n "join_discussion_button" | default "Join the Discussion" }}
+              </a>
+            {{ else }}
+              <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                <i class="fa-solid fa-message-circle me-2"></i>{{ i18n "join_discussion_button" | default "Join the Discussion" }}
+              </a>
+            {{ end }}
+            <a href="{{ .Site.Params.githubUrl }}" class="btn btn-outline-secondary btn-lg" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github me-2"></i>{{ i18n "view_on_github" | default "View on GitHub" }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{- end }}

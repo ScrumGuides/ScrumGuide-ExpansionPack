@@ -9,7 +9,7 @@
   translation: "Online lezen"
 
 - id: read_online_description
-# Missing translations for Dutchtion
+  # Missing translations for Dutchtion
   translation: "Krijg digitaal toegang tot de volledige gids met interactieve functies en eenvoudige navigatie."
 
 - id: read_online_button
@@ -249,11 +249,82 @@
 - id: download_reference_status
   translation: "Referentie"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "Metgezel van de Scrum Guide 2020"
+
+- id: created_by
+  translation: "Gemaakt door"
+
+- id: explore_expansions
+  translation: "Verken de Uitbreidingen"
+
+- id: core_section_title
+  translation: "Scrum Guide Uitbreiding"
+
+- id: core_document_badge
+  translation: "Hoofddocument"
+
+- id: extensions_section_title
+  translation: "Uitbreidingen"
+
+- id: documents
+  translation: "documenten"
+
+- id: community_description
+  translation: "Dit uitbreidingspakket gedijt op samenwerking van de gemeenschap. Sluit je aan bij praktijkmensen wereldwijd om Scrum toegankelijker en praktischer te maken voor iedereen."
+
+- id: expansions
+  translation: "Uitbreidingen"
+
+- id: expert_authors
+  translation: "Expert Auteurs"
+
+- id: possibilities
+  translation: "Mogelijkheden"
+
+- id: view_on_github
+  translation: "Bekijk op GitHub"
+
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Expansion Pack*
+
+- id: hero_description
+  translation: |
+    Navigeer door de complexe productomgevingen van vandaag met praktische begeleiding over *complexiteit*, *productdenken*, *werksystemen* en *leiderschap*.
+
+- id: all_topics
+  translation: "Alle"
+
 - id: translations_button_small
   translation: "Vertalingen"
 
 - id: contributors_label
   translation: "Bijdragers"
 
-- id: contributors_label
-  translation: "Bijdragers"
+# Version-specific translations (English placeholders - needs Dutch translation)
+- id: guide_version_dropdown_label
+  translation: "Selecteer versie"
+
+- id: guide_version_current
+  translation: "Huidig"
+
+- id: guide_historical_version_notice_title
+  translation: "Historische Versie Kennisgeving:"
+
+- id: guide_historical_version_notice_text
+  translation: "U bekijkt versie {{ .CurrentVersion }} van deze gids."
+
+- id: guide_historical_version_notice_link
+  translation: "Bekijk de nieuwste versie ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "voor de meest actuele informatie."
+
+- id: guide_content_unavailable_note
+  translation: "Opmerking:"
+
+- id: guide_content_unavailable_message
+  translation: "Deze pagina-inhoud is momenteel niet beschikbaar in {{ .Language }}. De standaard gidsinhoud wordt hieronder weergegeven."

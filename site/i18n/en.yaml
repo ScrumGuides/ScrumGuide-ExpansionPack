@@ -2,6 +2,9 @@
 - id: and
   translation: "and"
 
+- id: all_topics
+  translation: "All"
+
 - id: read_online_title
   translation: "Read the {{ .Site.Title }} online"
 
@@ -177,7 +180,6 @@
 - id: read_online_action
   translation: "Read Online"
 
-
 # Guide template translations
 - id: guide_join_discussion
   translation: "Join Discussion"
@@ -248,3 +250,70 @@
 
 - id: guide_back_to_home
   translation: "Back to Home"
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Companion to the 2020 Scrum Guide"
+
+- id: hero_subtitle
+  translation: |
+    "Navigate today's complex product environments with practical guidance on <span class='text-primary fw-semibold'>complexity</span>, <span class='text-primary fw-semibold'>product thinking</span>, <span class='text-primary fw-semibold'>systems of work</span>, and <span class='text-primary fw-semibold'>leadership</span>."
+
+- id: created_by
+  translation: "Created by"
+
+- id: explore_expansions
+  translation: "Explore the Expansions"
+
+- id: core_section_title
+  translation: "Scrum Guide Expansion"
+
+- id: core_document_badge
+  translation: "Core Document"
+
+- id: extensions_section_title
+  translation: "Expansions"
+
+- id: documents
+  translation: "documents"
+
+- id: community_description
+  translation: "This expansion pack thrives on community collaboration. Join practitioners worldwide in making Scrum more accessible and practical for everyone."
+
+- id: expansions
+  translation: "Expansions"
+
+- id: expert_authors
+  translation: "Expert Authors"
+
+- id: possibilities
+  translation: "Possibilities"
+
+- id: view_on_github
+  translation: "View on GitHub"
+
+- id: hero_title
+  translation: |
+    Scrum Guide<br />*Expansion Pack*
+- id: hero_description
+  translation: |
+    Navigate today's complex product environments with practical guidance on *complexity*, *product thinking*, *systems of work*, and *leadership*.
+
+# Version-specific translations
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
+
+- id: guide_content_unavailable_note
+  translation: "Note:"
+
+- id: guide_content_unavailable_message
+  translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."

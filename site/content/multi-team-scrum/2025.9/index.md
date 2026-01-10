@@ -21,8 +21,6 @@ monofont: "Courier New"
 forked_from: scrum-guide-expansion-pack/2025.6
 sitemap:
   priority: 1.0
-aliases:
-  - /scrum-guide-expansion-pack/latest/
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
@@ -74,7 +72,6 @@ Organizations are often designed for ease of management over ease of outcomes. A
 Free teams from command and control. Err on the side of aligned autonomy. Foster purposeful, intentional interactions within and between self-managing Scrum Teams (3). Foster a work climate with minimal but sufficient management processes, scaffolding, and boundaries. Balance and nurture Stakeholder expectations and limits. Build change agency and continual improvement in a direction, not just delivery, into a cadence.
 
 When in doubt, study the New New Product Development Game (2), embrace the good of what’s new in the present, but abandon any notions of an industrial complex (4-9) where only the brave people have the agency to do anything.
-
 
 ## Attribution for the Scrum Guide Expansion Pack Collection {#attribution-for-the-scrum-guide-expansion-pack-collection}
 

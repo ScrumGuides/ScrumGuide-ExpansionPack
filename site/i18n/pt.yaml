@@ -177,7 +177,6 @@
 - id: read_online_action
   translation: "Ler Online"
 
-
 # Traduções do template do guia
 - id: guide_join_discussion
   translation: "Participar da Discussão"
@@ -193,6 +192,55 @@
 
 - id: download_reference_status
   translation: "Referência"
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Companheiro do Guia Scrum 2020"
+
+- id: created_by
+  translation: "Criado por"
+
+- id: explore_expansions
+  translation: "Explorar as Expansões"
+
+- id: core_section_title
+  translation: "Expansão do Guia Scrum"
+
+- id: core_document_badge
+  translation: "Documento Principal"
+
+- id: extensions_section_title
+  translation: "Expansões"
+
+- id: documents
+  translation: "documentos"
+
+- id: community_description
+  translation: "Este pacote de expansão prospera com a colaboração da comunidade. Junte-se a profissionais de todo o mundo para tornar o Scrum mais acessível e prático para todos."
+
+- id: expansions
+  translation: "Expansões"
+
+- id: expert_authors
+  translation: "Autores Especialistas"
+
+- id: possibilities
+  translation: "Possibilidades"
+
+- id: view_on_github
+  translation: "Ver no GitHub"
+
+- id: hero_title
+  translation: |
+    Guia Scrum
+    *Pacote de Expansão*
+
+- id: hero_description
+  translation: |
+    Navegue pelos ambientes de produto complexos de hoje com orientação prática sobre *complexidade*, *pensamento de produto*, *sistemas de trabalho* e *liderança*.
+
+- id: all_topics
+  translation: "Todos"
 
 # Missing translations from Farsi file
 - id: breadcrumb_home
@@ -248,3 +296,22 @@
 
 - id: guide_back_to_home
   translation: "Voltar ao Início"
+
+# Version-specific translations (English placeholders - needs Portuguese translation)
+- id: guide_historical_version_notice_title
+  translation: "Aviso de Versão Histórica:"
+
+- id: guide_historical_version_notice_text
+  translation: "Você está visualizando a versão {{ .CurrentVersion }} deste guia."
+
+- id: guide_historical_version_notice_link
+  translation: "Ver a versão mais recente ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "para obter as informações mais atualizadas."
+
+- id: guide_content_unavailable_note
+  translation: "Nota:"
+
+- id: guide_content_unavailable_message
+  translation: "O conteúdo desta página está atualmente indisponível em {{ .Language }}. Mostrando o conteúdo padrão do guia abaixo."

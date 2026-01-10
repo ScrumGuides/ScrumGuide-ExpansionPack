@@ -145,7 +145,7 @@
   translation: "Traducători"
 
 - id: download_table_written_by
-  translation: "Scris de"     
+  translation: "Scris de"
 
 - id: download_table_action
   translation: "Acțiune"
@@ -177,7 +177,6 @@
 - id: read_online_action
   translation: "Citește online"
 
-
 # Guide template translations
 - id: guide_join_discussion
   translation: "Alăturați-vă discuției"
@@ -194,6 +193,50 @@
 - id: download_reference_status
   translation: "Referință"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "Însoțitor al Ghidului Scrum 2020"
+
+- id: created_by
+  translation: "Creat de"
+
+- id: explore_expansions
+  translation: "Explorează Extensiile"
+
+- id: core_section_title
+  translation: "Extensie Ghid Scrum"
+
+- id: core_document_badge
+  translation: "Document Principal"
+
+- id: extensions_section_title
+  translation: "Extensii"
+
+- id: documents
+  translation: "documente"
+
+- id: community_description
+  translation: "Acest pachet de extensii prosperă prin colaborarea comunității. Alătură-te practicienilor din întreaga lume pentru a face Scrum mai accesibil și practic pentru toată lumea."
+
+- id: expansions
+  translation: "Extensii"
+
+- id: expert_authors
+  translation: "Autori Experți"
+
+- id: possibilities
+  translation: "Posibilități"
+
+- id: view_on_github
+  translation: "Vizualizează pe GitHub"
+- id: hero_title
+  translation: |
+    Ghidul Scrum
+    *Pachetul Extins*
+
+- id: hero_description
+  translation: |
+    Navigați prin mediile complexe de produs de astăzi cu îndrumări practice privind *complexitatea*, *gândirea bazată pe produs*, *sistemele de lucru* și *leadership*.
   # Missing translations for Romanian
 - id: breadcrumb_home
   translation: "Acasă"
@@ -237,7 +280,7 @@
 - id: guide_back_to_home
   translation: "Înapoi la pagina principală"
 
-- id: living_document_updated_label 
+- id: living_document_updated_label
   translation: "Acest document live a fost actualizat ultima dată în"
 
 - id: read_guide_button
@@ -269,3 +312,19 @@
 
 - id: translators_button_small
   translation: "Traducători"
+
+- id: all_topics
+  translation: "Toate"
+
+# Version-specific translations (English placeholders - needs Romanian translation)
+- id: guide_historical_version_notice_title
+  translation: "Notificare Versiune Istorică:"
+
+- id: guide_historical_version_notice_text
+  translation: "Vizualizați versiunea {{ .CurrentVersion }} a acestui ghid."
+
+- id: guide_historical_version_notice_link
+  translation: "Vizualizați cea mai recentă versiune ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "pentru informațiile cele mai actualizate."

@@ -177,7 +177,6 @@
 - id: read_online_action
   translation: "Leggi Online"
 
-
 # Guide template translations
 - id: guide_join_discussion
   translation: "Unisciti alla Discussione"
@@ -248,3 +247,65 @@
 
 - id: guide_back_to_home
   translation: "Ritorna alla Home"
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Compagno della Guida Scrum 2020"
+
+- id: created_by
+  translation: "Creato da"
+
+- id: explore_expansions
+  translation: "Esplora le Espansioni"
+
+- id: core_section_title
+  translation: "Espansione della Guida Scrum"
+
+- id: core_document_badge
+  translation: "Documento Principale"
+
+- id: extensions_section_title
+  translation: "Espansioni"
+
+- id: documents
+  translation: "documenti"
+
+- id: community_description
+  translation: "Questo pacchetto di espansione prospera sulla collaborazione della comunità. Unisciti ai professionisti di tutto il mondo per rendere Scrum più accessibile e pratico per tutti."
+
+- id: expansions
+  translation: "Espansioni"
+
+- id: expert_authors
+  translation: "Autori Esperti"
+
+- id: possibilities
+  translation: "Possibilità"
+
+- id: view_on_github
+  translation: "Visualizza su GitHub"
+
+- id: hero_title
+  translation: |
+    Guida a Scrum
+    *Pacchetto di Espansione*
+
+- id: hero_description
+  translation: |
+    Naviga negli ambienti di prodotto complessi di oggi con una guida pratica su *complessità*, *pensiero di prodotto*, *sistemi di lavoro* e *leadership*.
+
+- id: all_topics
+  translation: "Tutti"
+
+# Version-specific translations (English placeholders - needs Italian translation)
+- id: guide_historical_version_notice_title
+  translation: "Avviso Versione Storica:"
+
+- id: guide_historical_version_notice_text
+  translation: "Stai visualizzando la versione {{ .CurrentVersion }} di questa guida."
+
+- id: guide_historical_version_notice_link
+  translation: "Visualizza l'ultima versione ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "per le informazioni più aggiornate."

@@ -230,3 +230,79 @@
 - id: contributors_label
   translation: "Współtwórcy"
 
+# Homepage specific translations
+- id: hero_badge
+  translation: "Towarzysz Przewodnika Scrum 2020"
+
+- id: created_by
+  translation: "Stworzony przez"
+
+- id: explore_expansions
+  translation: "Odkryj Rozszerzenia"
+
+- id: core_section_title
+  translation: "Rozszerzenie Przewodnika Scrum"
+
+- id: core_document_badge
+  translation: "Dokument Główny"
+
+- id: extensions_section_title
+  translation: "Rozszerzenia"
+
+- id: documents
+  translation: "dokumenty"
+
+- id: community_description
+  translation: "Ten pakiet rozszerzeń rozwija się dzięki współpracy społeczności. Dołącz do praktyków z całego świata, aby uczynić Scrum bardziej dostępnym i praktycznym dla wszystkich."
+
+- id: expansions
+  translation: "Rozszerzenia"
+
+- id: expert_authors
+  translation: "Autorzy Eksperci"
+
+- id: possibilities
+  translation: "Możliwości"
+
+- id: view_on_github
+  translation: "Zobacz na GitHub"
+
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Rozszerzenia*
+
+- id: hero_description
+  translation: |
+    Nawiguj w dzisiejszych złożonych środowiskach produktowych z praktycznymi wskazówkami dotyczącymi *złożoności*, *myślenia produktowego*, *systemów pracy* i *przywództwa*.
+
+- id: all_topics
+  translation: "Wszystkie"
+
+# Version-specific translations (English placeholders - needs Polish translation)
+- id: guide_version_dropdown_label
+  translation: "Wybierz wersję"
+
+- id: guide_version_current
+  translation: "Bieżąca"
+
+- id: guide_pdf_not_available
+  translation: "PDF niedostępny"
+
+- id: guide_historical_version_notice_title
+  translation: "Powiadomienie o Wersji Historycznej:"
+
+- id: guide_historical_version_notice_text
+  translation: "Przeglądasz wersję {{ .CurrentVersion }} tego przewodnika."
+
+- id: guide_historical_version_notice_link
+  translation: "Zobacz najnowszą wersję ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "aby uzyskać najbardziej aktualne informacje."
+
+- id: guide_content_unavailable_note
+  translation: "Uwaga:"
+
+- id: guide_content_unavailable_message
+  translation: "Ta zawartość strony jest obecnie niedostępna w języku {{ .Language }}. Poniżej wyświetlana jest domyślna zawartość przewodnika."

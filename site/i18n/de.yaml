@@ -2,6 +2,9 @@
 - id: and
   translation: "und"
 
+- id: all_topics
+  translation: "Alle"
+
 - id: read_online_title
   translation: "Lies das {{ .Site.Title }} online"
 
@@ -249,3 +252,74 @@
 
 - id: download_reference_status
   translation: "Referenz"
+
+# Homepage specific translations
+- id: hero_badge
+  translation: "Begleiter zum Scrum Guide 2020"
+
+- id: created_by
+  translation: "Erstellt von"
+
+- id: explore_expansions
+  translation: "Erkunde die Erweiterungen"
+
+- id: core_section_title
+  translation: "Scrum Guide Erweiterung"
+
+- id: core_document_badge
+  translation: "Hauptdokument"
+
+- id: extensions_section_title
+  translation: "Erweiterungen"
+
+- id: documents
+  translation: "Dokumente"
+
+- id: community_description
+  translation: "Dieses Erweiterungspaket lebt von der Zusammenarbeit der Community. Schließe dich Praktikern weltweit an, um Scrum für alle zugänglicher und praktischer zu machen."
+
+- id: expansions
+  translation: "Erweiterungen"
+
+- id: expert_authors
+  translation: "Fachautoren"
+
+- id: possibilities
+  translation: "Möglichkeiten"
+
+- id: view_on_github
+  translation: "Auf GitHub ansehen"
+
+- id: hero_title
+  translation: |
+    Scrum Guide
+    *Expansion Pack*
+
+- id: hero_description
+  translation: |
+    Navigieren Sie die komplexen Produktumgebungen von heute mit praktischer Anleitung zu *Komplexität*, *Produktdenken*, *Arbeitssystemen* und *Führung*.
+
+# Version-specific translations (English placeholders - needs German translation)
+- id: guide_version_dropdown_label
+  translation: "Version auswählen"
+
+- id: guide_version_current
+  translation: "Aktuell"
+
+- id: guide_historical_version_notice_title
+  translation: "Hinweis zur historischen Version:"
+
+- id: guide_historical_version_notice_text
+  translation: "Sie betrachten Version {{ .CurrentVersion }} dieses Leitfadens."
+
+- id: guide_historical_version_notice_link
+  translation: "Neueste Version ansehen ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "für die aktuellsten Informationen."
+
+- id: guide_content_unavailable_note
+  translation: "Hinweis:"
+
+- id: guide_content_unavailable_message
+  translation: "Dieser Seiteninhalt ist derzeit nicht auf {{ .Language }} verfügbar. Der Standard-Leitfadeninhalt wird unten angezeigt."
