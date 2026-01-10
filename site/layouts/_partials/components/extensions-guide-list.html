@@ -1,9 +1,24 @@
-{{/* Extensions Section */}}
+{{/* Extensions Section - All guides except scrum-guide-expanded */}}
 {{- $extensionSections := where .Site.Sections "Type" "guide" }}
 {{- range .Site.Home.Translations }}
   {{- $extensionSections = $extensionSections | lang.Merge .Site.Sections }}
 {{- end }}
-{{- $extensionSections = where $extensionSections "Params.categories" "intersect" (slice "extensions") }}
+{{/* Exclude scrum-guide-expanded from extensions */}}
+{{- $filtered := slice }}
+{{- range $extensionSections }}
+  {{- $isCoreGuide := false }}
+  {{- if .File }}
+    {{- if or (eq .File.ContentBaseName "scrum-guide-expanded") (strings.Contains .RelPermalink "scrum-guide-expanded") }}
+      {{- $isCoreGuide = true }}
+    {{- end }}
+  {{- else if strings.Contains .RelPermalink "scrum-guide-expanded" }}
+    {{- $isCoreGuide = true }}
+  {{- end }}
+  {{- if not $isCoreGuide }}
+    {{- $filtered = $filtered | append . }}
+  {{- end }}
+{{- end }}
+{{- $extensionSections = $filtered }}
 
 {{/* If this is a tag page, filter extensions by the current tag */}}
 {{- if eq .Kind "term" }}
