@@ -12,8 +12,8 @@ guide_license: |
 categories:
   - extensions
 tags:
-  - Theory
-  - Systems
+  - Strategy
+  - Engineering
 cascade:
   - build:
       list: never

@@ -12,7 +12,6 @@ guide_license: |
 categories:
   - extensions
 tags:
-  - Organisation
   - Leadership
 cascade:
   - build:

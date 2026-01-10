@@ -12,7 +12,7 @@ guide_license: |
 categories:
   - extensions
 tags:
-  - Executive
+  - Leadership
   - Strategy
 cascade:
   - build:

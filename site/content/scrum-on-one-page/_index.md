@@ -12,8 +12,7 @@ guide_license: |
 categories:
   - extensions
 tags:
-  - Theory
-  - Framework
+  - Strategy
 cascade:
   - build:
       list: never

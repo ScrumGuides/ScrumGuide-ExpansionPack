@@ -13,7 +13,7 @@ categories:
   - extensions
 tags:
   - Strategy
-  - Deployment
+  - Engineering
 cascade:
   - build:
       list: never

@@ -13,7 +13,6 @@ categories:
   - extensions
 tags:
   - Engineering
-  - Quality
 cascade:
   - build:
       list: never

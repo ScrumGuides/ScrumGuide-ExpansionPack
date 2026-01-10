@@ -12,7 +12,7 @@ guide_license: |
 categories:
   - extensions
 tags:
-  - Scaling
+  - Strategy
   - Teams
 cascade:
   - build:

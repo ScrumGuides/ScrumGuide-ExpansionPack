@@ -13,7 +13,6 @@ categories:
   - extensions
 tags:
   - AI
-  - Innovation
 cascade:
   - build:
       list: never

@@ -13,8 +13,7 @@ guide_license: |
 categories:
   - core
 tags:
-  - Foundation
-  - Framework
+  - Strategy
 aliases:
   - /scrum-guide-expansion-pack/
 ---
