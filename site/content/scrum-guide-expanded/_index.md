@@ -17,10 +17,4 @@ tags:
   - Framework
 aliases:
   - /scrum-guide-expansion-pack/
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
 ---

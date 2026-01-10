@@ -17,6 +17,12 @@ monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 1.0
+cascade:
+  - build:
+      list: never
+      render: never
+    target:
+      environment: production
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
