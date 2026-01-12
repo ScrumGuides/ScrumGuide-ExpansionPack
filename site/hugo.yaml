@@ -153,11 +153,12 @@ outputFormats:
     baseName: languages
     isPlainText: true
 
+disableKinds:
+  - taxonomy
+
 permalinks:
   term:
-    categories: "/topics/:slug/"
-  taxonomy:
-    categories: "/topics/"
+    categories: "/:slug/"
 
 taxonomies:
   tag: tags
