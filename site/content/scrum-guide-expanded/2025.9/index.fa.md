@@ -16,7 +16,6 @@ mainfont: HMXRoya
 sansfont: HMXRoya
 monofont: HMXRoya
 pdf-engine: xelatex
-forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 1.0
 ---
