@@ -135,6 +135,7 @@ outputs:
   section:
     - html
     - rss
+    - guide-translations
   taxonomy:
     - html
     - rss
@@ -148,9 +149,16 @@ outputFormats:
   json:
     mediaType: application/json
     baseName: pages
+  translations:
+    mediaType: application/json
+    baseName: translations
   languages:
     mediaType: application/json
     baseName: languages
+    isPlainText: true
+  guide-translations:
+    mediaType: application/json
+    baseName: guide-translations
     isPlainText: true
 
 disableKinds:
