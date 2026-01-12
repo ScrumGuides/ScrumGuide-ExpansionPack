@@ -66,9 +66,9 @@
                 {{- end }}
 
                 {{/* Categories/Tags */}}
-                {{- if .Params.tags }}
+                {{- if .Params.categories }}
                   <div class="d-flex flex-wrap gap-2 mb-4">
-                    {{- range .Params.tags }}
+                    {{- range .Params.categories }}
                       <span class="badge bg-secondary bg-opacity-50">{{ . | title }}</span>
                     {{- end }}
                   </div>

@@ -155,9 +155,9 @@ outputFormats:
 
 permalinks:
   term:
-    tags: "/topics/:slug/"
+    categories: "/topics/:slug/"
   taxonomy:
-    tags: "/topics/"
+    categories: "/topics/"
 
 taxonomies:
   tag: tags

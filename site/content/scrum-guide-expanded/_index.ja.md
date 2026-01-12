@@ -7,8 +7,6 @@ slug: scrum-guide-expanded
 Type: "guide"
 Layout: "root"
 categories:
-  - core
-tags:
   - Foundation
   - Framework
 brand:

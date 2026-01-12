@@ -1,0 +1,96 @@
+{{/* Category Filter List */}}
+<div class="mb-5">
+  <div class="d-flex flex-wrap justify-content-center gap-2">
+    {{/* All button (Homepage link) */}}
+    <a href="{{ .Site.Home.RelPermalink }}" class="btn {{ if .IsHome }}btn-primary{{ else }}btn-outline-primary{{ end }}">
+      <i class="fa-solid fa-grid-2 me-2"></i>
+      {{ i18n "all_topics" | default "All" }}
+    </a>
+
+    {{/* Build a sorted list of categories by extensions count */}}
+    {{- $categoryList := slice }}
+    {{- $allCategories := dict }}
+    {{- $defaultSite := index .Site.Sites 0 }}
+    {{- $currentLangCategories := .Site.Taxonomies.categories }}
+
+    {{/* Always merge categories from default language to show untranslated categories */}}
+    {{- range $categoryName, $taxonomy := $defaultSite.Taxonomies.categories }}
+      {{- $allCategories = merge $allCategories (dict $categoryName $taxonomy) }}
+    {{- end }}
+    {{/* Then merge current language categories (they override default if they exist) */}}
+    {{- range $categoryName, $taxonomy := .Site.Taxonomies.categories }}
+      {{- $allCategories = merge $allCategories (dict $categoryName $taxonomy) }}
+    {{- end }}
+
+    {{- range $categoryName, $taxonomy := $allCategories }}
+      {{/* Count only pages that are extensions (guides except scrum-guide-expanded) */}}
+      {{- $extensionsCount := 0 }}
+      {{- range $taxonomy.Pages }}
+        {{- if eq .Type "guide" }}
+          {{- $isExtension := true }}
+          {{- if .File }}
+            {{- if or (eq .File.ContentBaseName "scrum-guide-expanded") (strings.Contains .RelPermalink "scrum-guide-expanded") }}
+              {{- $isExtension = false }}
+            {{- end }}
+          {{- else if strings.Contains .RelPermalink "scrum-guide-expanded" }}
+            {{- $isExtension = false }}
+          {{- end }}
+          {{- if $isExtension }}
+            {{- $extensionsCount = add $extensionsCount 1 }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+      {{- if gt $extensionsCount 0 }}
+        {{/* Check if this category is from English (not in current language) */}}
+        {{- $isEnglishCategory := false }}
+        {{- if ne $.Site.Language.Lang $defaultSite.Language.Lang }}
+          {{- if not (index $currentLangCategories $categoryName) }}
+            {{- $isEnglishCategory = true }}
+          {{- end }}
+        {{- end }}
+        {{- $categoryList = $categoryList | append (dict "Page" $taxonomy.Page "CategoryName" $categoryName "Count" $extensionsCount "IsEnglish" $isEnglishCategory) }}
+      {{- end }}
+    {{- end }}
+
+    {{/* Sort by count descending */}}
+    {{- range sort $categoryList "Count" "desc" }}
+      {{/* Construct category URL - fallback to manual construction if page doesn't exist */}}
+      {{- $categoryURL := "" }}
+      {{- if .Page }}
+        {{- $categoryURL = .Page.RelPermalink }}
+      {{- else }}
+        {{- $categoryURL = printf "/categories/%s/" (.CategoryName | urlize) }}
+      {{- end }}
+      {{/* Check if this category is active by comparing URLs */}}
+      {{- $isActive := false }}
+      {{- if eq $.Kind "term" }}
+        {{- if eq $.RelPermalink $categoryURL }}
+          {{- $isActive = true }}
+        {{- end }}
+      {{- end }}
+      {{- $buttonTitle := .Page.Title | default .CategoryName }}
+      {{- if .IsEnglish }}
+        {{- $buttonTitle = printf "%s [english only]" $buttonTitle }}
+      {{- end }}
+      {{/* Determine button style based on active state and language */}}
+      {{- $buttonClass := "" }}
+      {{- if $isActive }}
+        {{- if .IsEnglish }}
+          {{- $buttonClass = "btn-secondary" }}
+        {{- else }}
+          {{- $buttonClass = "btn-primary" }}
+        {{- end }}
+      {{- else }}
+        {{- if .IsEnglish }}
+          {{- $buttonClass = "btn-outline-secondary" }}
+        {{- else }}
+          {{- $buttonClass = "btn-outline-primary" }}
+        {{- end }}
+      {{- end }}
+      <a href="{{ $categoryURL }}" class="btn {{ $buttonClass }}" title="{{ $buttonTitle }}">
+        {{ .Page.Title | default .CategoryName }}
+        <span class="badge {{ if .IsEnglish }}bg-secondary{{ else }}bg-primary{{ end }} text-white ms-1">{{ .Count }}</span>
+      </a>
+    {{- end }}
+  </div>
+</div>
