@@ -187,16 +187,57 @@ type: "download"
 
 ## Multilingual Content Management
 
-### Language Structure
+### Two-Layer Translation System
 
-Each language has its own content directory structure:
+The site implements a sophisticated two-layer translation system:
+
+#### Layer 1: Wrapper (Site Structure)
+
+- **Location**: `site/i18n/{LANG}.yaml`
+- **Content**: UI elements, navigation, buttons, labels
+- **Independence**: Can be translated without any guide content
+- **Benefit**: Users navigate in their language even if content is English
+
+#### Layer 2: Content (Guide Documents)
+
+- **Location**: `site/content/{guide-name}/{version}/index.{LANG}.md`
+- **Versioning**: Each version can have independent translations
+- **Fallback**: Hugo shows latest available translated version
+- **Flexibility**: Translate older versions first, update later
+
+### File Naming Convention
 
 ```
-content/
-├── guide/          # English (default)
-├───├──   index.md       # English (default)
-├───├──   index.de.md       # German (Deutsch) example
+site/content/scrum-guide-expanded/
+├── _index.md                # Guide metadata (all languages see this)
+├── 2025.9/                 # Latest version
+│   ├── index.md            # English (default)
+│   ├── index.de.md         # German
+│   ├── index.es.md         # Spanish
+│   ├── index.pt.md         # Portuguese
+│   └── index.{LANG}.md     # Other languages
+└── 2025.6/                 # Previous version
+    ├── index.md            # English
+    ├── index.de.md         # German (may exist even if 2025.9 doesn't)
+    ├── index.ro.md         # Romanian
+    └── index.nl.md         # Dutch
 ```
+
+### Version Fallback Logic
+
+**Example Scenario:**
+
+1. **User visits**: `/de/scrum-guide-expanded/` (German site)
+2. **Hugo checks** for German content:
+   - ✅ `2025.9/index.de.md` exists? → Display this
+   - ❌ Doesn't exist? → Check `2025.6/index.de.md`
+   - ✅ `2025.6/index.de.md` exists? → Display this (older but translated)
+   - ❌ No German at all? → Display English with "English Only" badge
+
+3. **User experience:**
+   - Site wrapper (navigation) always in German (`i18n/de.yaml`)
+   - Content shows best available: German 2025.6 (not English 2025.9)
+   - Better UX: old translation > no translation
 
 ### Translation Workflow
 

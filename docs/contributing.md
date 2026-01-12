@@ -236,29 +236,49 @@ According to Smith (42), Scrum teams should...
 
 ## Translation Contributions
 
+### Understanding Our Translation System
+
+Our site uses a **two-layer translation system**:
+
+1. **Wrapper** (`site/i18n/{LANG}.yaml`): Site UI, navigation, buttons
+   - Can be translated independently of content
+   - Provides localized navigation even without translated content
+
+2. **Content** (`site/content/{guide}/{version}/index.{LANG}.md`): Actual guide text
+   - Organized by version (2025.9, 2025.6, etc.)
+   - Each version can be translated independently
+   - Site automatically uses latest available translation
+
+**Key Benefit**: You can translate older versions (e.g., 2025.6) and they remain useful when new versions are released. Hugo automatically shows the latest translated version available.
+
+See the [Translation Guide](./translations.md) for complete details.
+
 ### Adding a New Language
 
-1. **Create language files**:
+**Quick Start:**
+
+1. **Translate Wrapper** (Site UI):
 
    ```bash
-   # Add to Hugo configuration
-   # site/hugo.yaml - add language config
-
-   # Create translation file
-   # site/i18n/[language-code].yaml
+   # Copy and translate UI elements
+   cp site/i18n/en.yaml site/i18n/{LANG}.yaml
+   # Edit site/hugo.yaml to add language configuration
    ```
 
-2. **Translate content**:
+2. **Translate Content** (Optional but recommended):
 
    ```bash
-   # Create language-specific content
-   # site/content/[language-code]/
+   # Choose a version to translate (start with latest or previous stable)
+   cp site/content/scrum-guide-expanded/2025.9/index.md \
+      site/content/scrum-guide-expanded/2025.9/index.{LANG}.md
    ```
 
-3. **Update navigation**:
-   - Translate menu items
-   - Update language switcher
-   - Test all navigation elements
+3. **Test Your Translation**:
+   ```bash
+   cd site
+   hugo server -D
+   # Visit http://localhost:1313/{LANG}/
+   ```
 
 ### Translation Guidelines
 
@@ -268,6 +288,28 @@ According to Smith (42), Scrum teams should...
 - **Cultural Sensitivity**: Adapt content appropriately for the target culture
 - **Technical Terms**: Keep technical Scrum terms in their commonly accepted form
 - **Formatting**: Preserve markdown formatting and structure
+- **Version Strategy**: You can translate any version - your work remains valuable even when new versions release
+
+### Version-Specific Translation
+
+**File Structure:**
+
+```
+site/content/scrum-guide-expanded/
+├── 2025.9/            # Latest version
+│   ├── index.md       # English
+│   └── index.de.md    # German (if translated)
+└── 2025.6/            # Previous version
+    ├── index.md       # English
+    └── index.de.md    # German (may exist without 2025.9)
+```
+
+**Fallback Logic:**
+
+- User visits German site (`/de/`)
+- Hugo uses German 2025.9 if available
+- Falls back to German 2025.6 if 2025.9 not translated
+- Shows English with "English Only" badge as last resort
 
 ### Translation Review Process
 
