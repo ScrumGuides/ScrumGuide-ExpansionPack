@@ -149,12 +149,47 @@ git push origin feature/your-feature-name
 
 ## Content Contributions
 
+### Understanding the Content Structure
+
+Before contributing content, it's important to understand how guides are organized:
+
+- **Core Guide** (`scrum-guide-expanded`): The foundational document that serves as the comprehensive companion to the 2020 Scrum Guide. This is featured prominently on the homepage.
+- **Extension Guides**: Specialized guides covering specific topics (AI, Complexity, Multi-Team Scrum, etc.). These appear in the Extensions grid on the homepage.
+
+See the [Homepage Structure Guide](./homepage-structure.md) for complete details.
+
 ### Editing Guide Content
 
-The main guide content is located in:
+Guide content is organized in version-specific directories:
 
 ```
-site/content/guide/index.md
+site/content/
+├── scrum-guide-expanded/     # CORE GUIDE
+│   ├── _index.md            # Guide metadata
+│   ├── 2025.9/              # Latest version
+│   │   └── index.md         # Main content
+│   └── 2025.6/              # Previous version
+└── ai-and-scrum/            # EXTENSION GUIDE
+    ├── _index.md            # Guide metadata
+    └── 2025.9/
+        └── index.md         # Main content
+```
+
+#### Creating or Editing Guide Metadata (`_index.md`)
+
+```yaml
+---
+title: Your Guide Title
+short_title: Short Title # Used in cards
+description: A brief description
+Type: "guide" # REQUIRED for homepage display
+Layout: "root"
+weight: 10 # Lower numbers appear first
+categories:
+  - Strategy # For filtering
+tags:
+  - YourTag # Additional taxonomy
+---
 ```
 
 #### Content Structure
@@ -163,6 +198,7 @@ site/content/guide/index.md
 - Follow the existing structure and formatting
 - Include proper headings and subheadings
 - Add references where appropriate
+- Use semantic markdown (H1 → H2 → H3)
 
 #### Markdown Guidelines
 

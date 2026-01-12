@@ -12,6 +12,7 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 - [Getting Started](./getting-started.md)
 - [Contributing Guidelines](./contributing.md)
 - [Content Management](./content-management.md)
+- [Homepage Structure](./homepage-structure.md) ⭐ **New!**
 
 ### Technical Documentation
 
@@ -29,12 +30,30 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 
 The Scrum Guide Expansion Pack is a multilingual static website built with Hugo that provides an expanded interpretation of the official 2020 Scrum Guide. The project includes:
 
-- **Multi-language support** (English, German, Spanish, French)
+- **Multi-language support** (English, German, Spanish, French, and more)
 - **Modern responsive design** with Bootstrap 5
 - **Static site generation** with Hugo
 - **Automated deployment** via Azure Static Web Apps
 - **PDF generation** capabilities
 - **Community contribution features**
+
+### Guide Organization
+
+The site organizes content into two main categories:
+
+- **Core Guide**: The foundational **Scrum Guide Expanded** document that serves as the comprehensive companion to the 2020 Scrum Guide
+- **Extensions**: Additional specialized guides covering specific topics such as:
+  - Adaptive Enterprise
+  - Adaptive Executive Leadership
+  - AI and Scrum
+  - Complexity
+  - Emergent Strategy and Deployment
+  - Multi-Team Scrum
+  - Product Thinking
+  - Software Engineering Practices
+  - And more...
+
+This structure allows users to start with the core expanded guide and then explore specialized extensions based on their needs.
 
 ## Key Features
 
@@ -70,7 +89,17 @@ ScrumGuide-ExpansionPack/
 ├── docs/                           # 📚 Documentation
 ├── site/                           # 🏗️ Hugo site source
 │   ├── content/                    # 📝 Content files
+│   │   ├── scrum-guide-expanded/  # 🎯 Core Guide
+│   │   ├── adaptive-enterprise/   # 📦 Extension Guide
+│   │   ├── ai-and-scrum/         # 📦 Extension Guide
+│   │   ├── complexity/           # 📦 Extension Guide
+│   │   └── ...                    # 📦 Other Extensions
 │   ├── layouts/                    # 🎨 HTML templates
+│   │   ├── index.html             # 🏠 Homepage with guide lists
+│   │   ├── _partials/             # 🧩 Reusable components
+│   │   │   └── components/
+│   │   │       ├── core-guide-list.html       # Core guide display
+│   │   │       └── extensions-guide-list.html # Extensions display
 │   ├── static/                     # 📁 Static assets
 │   ├── data/                       # 🗃️ Data files
 │   ├── i18n/                       # 🌐 Translations

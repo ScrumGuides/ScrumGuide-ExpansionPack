@@ -8,42 +8,118 @@ The site's content is organized in a hierarchical structure that supports multip
 
 ```
 site/content/
-├── _index.md                    # Homepage content
-├── guide/
-│   └── index.md                 # Main Guide content
+├── _index.md                           # Homepage content
+├── scrum-guide-expanded/              # CORE GUIDE (featured on homepage)
+│   ├── _index.md                      # Guide index with metadata
+│   ├── 2025.9/                        # Latest version
+│   │   └── index.md                   # Main guide content
+│   ├── 2025.6/                        # Previous version
+│   └── history/                       # Version history
+├── adaptive-enterprise/               # EXTENSION GUIDE
+│   ├── _index.md                      # Guide metadata
+│   └── 2025.9/
+│       └── index.md                   # Guide content
+├── ai-and-scrum/                      # EXTENSION GUIDE
+├── complexity/                         # EXTENSION GUIDE
+├── emergent-strategy-and-deployment/  # EXTENSION GUIDE
+├── multi-team-scrum/                  # EXTENSION GUIDE
+├── product-thinking/                   # EXTENSION GUIDE
+├── software-engineering-practices/    # EXTENSION GUIDE
 ├── creators/
-│   ├── _index.md               # Creators index page
+│   ├── _index.md                      # Creators index page
 │   ├── ralph-jocham/
-│   │   ├── index.md            # Ralph's profile
-│   │   └── ralph-jocham.jpg    # Profile image
+│   │   ├── index.md                   # Ralph's profile
+│   │   └── ralph-jocham.jpg          # Profile image
 │   ├── john-coleman/
-│   │   └── index.md            # John's profile
+│   │   └── index.md                   # John's profile
 │   └── jeff-sutherland/
-│       ├── index.md            # Jeff's profile
-│       └── jeff-sutherland.jpg # Profile image
+│       ├── index.md                   # Jeff's profile
+│       └── jeff-sutherland.jpg       # Profile image
 └── download/
-    └── _index.md               # Download page content
+    └── _index.md                      # Download page content
 ```
+
+### Guide Organization Philosophy
+
+The site uses a **Core + Extensions** model:
+
+- **Core Guide** (`scrum-guide-expanded`): The foundational document that provides comprehensive expansion of the 2020 Scrum Guide
+- **Extensions**: Specialized guides that dive deep into specific topics, contexts, or applications of Scrum
+
+This structure allows users to:
+
+1. Start with the comprehensive core guide
+2. Explore specific extensions based on their needs
+3. Navigate by categories and tags to find related content
 
 ## Content Types
 
 ### 1. Guide Content
 
-The main Scrum Guide expansion content is stored in `/content/guide/index.md`.
+Guides are the primary content type and come in two flavors:
 
-#### Front Matter Structure
+#### Core Guide (`scrum-guide-expanded`)
+
+The foundational document, featured prominently on the homepage.
+
+**Location**: `/content/scrum-guide-expanded/`
+
+**Front Matter Structure**:
 
 ```yaml
 ---
-title: "Scrum Guide Expansion Pack"
-description: "An expanded interpretation of the 2020 Scrum Guide"
+title: Scrum Guide Expanded
+short_title: Scrum Guide Expanded # Used in card displays
+description: The comprehensive companion to the 2020 Scrum Guide, providing deeper insights into implementing Scrum effectively in complex environments.
+slug: scrum-guide-expanded
+Type: "guide"
+Layout: "root"
+weight: 2
+categories:
+  - Strategy
+---
+```
+
+**Key Characteristics**:
+
+- Always displayed in the "Core Guide" section of the homepage
+- Features prominent styling with primary color border
+- Shows "Core Document" badge
+- Has higher visual weight than extensions
+
+#### Extension Guides
+
+Specialized guides covering specific topics.
+
+**Locations**: Various directories like `/content/adaptive-enterprise/`, `/content/ai-and-scrum/`, etc.
+
+**Front Matter Structure**:
+
+```yaml
+---
+title: "AI and Scrum"
+short_title: "AI & Scrum" # Used in card displays
+description: "Practical guidance for integrating AI into Scrum teams and processes"
 date: 2025-06-09
 weight: 10
 draft: false
 type: "guide"
-layout: "single"
+layout: "root"
+categories:
+  - Technology
+  - Innovation
+tags:
+  - AI
+  - Machine Learning
 ---
 ```
+
+**Key Characteristics**:
+
+- Displayed in the "Extensions" grid on homepage
+- Automatically excluded from core guide section
+- Supports categories and tags for filtering
+- Shown in responsive card grid layout
 
 #### Content Guidelines
 

@@ -79,13 +79,20 @@ hugo server -D --verbose --debug
 site/
 ├── content/              # Content files (.md)
 ├── layouts/              # Templates (.html) - Updated for Hugo v0.146.0+
+│   ├── index.html       # Homepage template
 │   ├── _partials/       # Reusable template components (renamed from partials/)
+│   │   ├── components/  # UI components
+│   │   │   ├── home-hero.html              # Hero section
+│   │   │   ├── core-guide-list.html        # Core guide display
+│   │   │   ├── extensions-guide-list.html  # Extensions grid
+│   │   │   └── category-list.html          # Category filters
+│   │   └── functions/   # Helper functions
+│   │       └── is-expansion.html           # Guide type checker
 │   ├── _shortcodes/     # Custom shortcodes (renamed from shortcodes/)
 │   ├── _markup/         # Render hooks for markdown elements
 │   ├── baseof.html      # Base template (moved from _default/)
 │   ├── single.html      # Single page template (moved from _default/)
 │   ├── list.html        # List page template (moved from _default/)
-│   ├── home.html        # Homepage template (renamed from index.html)
 │   └── [content-type]/  # Content-specific templates
 ├── static/               # Static assets
 ├── data/                 # Data files (.yaml/.json)
@@ -142,13 +149,11 @@ hugo new content/creators/new-creator/index.md
 ### Content Best Practices
 
 1. **Front Matter**
-
    - Always include `title`, `description`, `date`
    - Use `weight` for ordering
    - Set `draft: false` when ready to publish
 
 2. **Markdown**
-
    - Use semantic heading hierarchy (H1 → H2 → H3)
    - Include alt text for images
    - Use relative links for internal pages

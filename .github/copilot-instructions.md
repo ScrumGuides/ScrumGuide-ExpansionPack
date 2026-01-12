@@ -45,14 +45,27 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 ├── scripts/                    # PowerShell automation scripts
 ├── site/                       # Hugo source files
 │   ├── content/               # Markdown content files
+│   │   ├── scrum-guide-expanded/     # CORE GUIDE (featured on homepage)
+│   │   ├── adaptive-enterprise/      # Extension Guide
+│   │   ├── ai-and-scrum/             # Extension Guide
+│   │   ├── complexity/               # Extension Guide
+│   │   ├── multi-team-scrum/         # Extension Guide
+│   │   └── ...                       # Other Extension Guides
 │   ├── data/                  # Data files
 │   ├── i18n/                  # Internationalization files
 │   ├── layouts/               # Hugo templates (v0.146.0+ structure)
+│   │   ├── index.html        # Homepage template
 │   │   ├── baseof.html       # Base template (moved from _default/)
-│   │   ├── home.html         # Homepage (renamed from index.html)
 │   │   ├── single.html       # Single pages (moved from _default/)
 │   │   ├── list.html         # List pages (moved from _default/)
 │   │   ├── _partials/        # Reusable components (renamed from partials/)
+│   │   │   ├── components/   # UI components
+│   │   │   │   ├── home-hero.html              # Hero section
+│   │   │   │   ├── core-guide-list.html        # Core guide display
+│   │   │   │   ├── extensions-guide-list.html  # Extensions grid
+│   │   │   │   └── category-list.html          # Category filters
+│   │   │   └── functions/    # Helper functions
+│   │   │       └── is-expansion.html           # Guide type checker
 │   │   ├── _shortcodes/      # Custom shortcodes (renamed from shortcodes/)
 │   │   └── _markup/          # Render hooks for markdown elements
 │   ├── static/                # Static assets (CSS, images, etc.)
@@ -70,6 +83,56 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 - Content files are located in `site/content/`
 - Use Hugo's built-in shortcodes when possible
 - Follow the established content structure for consistency
+
+#### Homepage Structure & Guide Organization
+
+The site uses a **Core + Extensions** model:
+
+**Homepage Sections:**
+
+1. **Hero Section** - Welcome message and CTAs
+2. **Category List** - Quick topic filters
+3. **Core Guide Section** - Featured display of `scrum-guide-expanded`
+4. **Extensions Section** - Grid of specialized guides
+5. **Community Section** - Contribution info
+
+**Guide Types:**
+
+- **Core Guide** (`scrum-guide-expanded`): The foundational comprehensive companion to the 2020 Scrum Guide
+  - Featured prominently with enhanced styling (primary border, "Core Document" badge)
+  - Displayed in dedicated section with full-width card
+  - Location: `site/content/scrum-guide-expanded/`
+
+- **Extension Guides**: Specialized guides covering specific topics
+  - Displayed in responsive grid (1-3 columns based on screen size)
+  - Categories and tags for filtering
+  - Examples: AI and Scrum, Complexity, Multi-Team Scrum, Product Thinking
+  - Location: Various directories like `site/content/ai-and-scrum/`
+
+**Guide Structure:**
+
+```
+guide-name/
+├── _index.md          # Guide metadata with Type: "guide"
+├── 2025.9/            # Latest version
+│   └── index.md       # Main content
+└── history/           # Version history
+```
+
+**Required Front Matter:**
+
+```yaml
+---
+title: Guide Title
+short_title: Short Title # Used in cards
+description: Brief description
+Type: "guide" # REQUIRED for homepage display
+Layout: "root"
+weight: 10 # For sorting (lower = higher priority)
+categories:
+  - Strategy # For filtering
+---
+```
 
 #### Templating
 
@@ -115,7 +178,18 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 - Write for Scrum practitioners and leaders
 - Focus on practical, actionable guidance
 - Maintain consistency with Scrum Guide terminology
-- **Multilingual support**: Site supports multiple languages (currently English and Klingon)
+- **Multilingual support**: Site supports multiple languages:
+  - English (en) - Default
+  - German (de) - Deutsch
+  - Spanish (es) - Español
+  - Italian (it) - Italiano
+  - Japanese (ja) - 日本語
+  - Portuguese (pt) - Português
+  - Polish (pl) - Polski
+  - Dutch (nl) - Nederlands
+  - Romanian (ro) - Română
+  - Farsi (fa) - فارسی
+  - Klingon (tlh) - Reference language
 - Use `scripts\Create-TranslationTemplate.ps1` for adding new language support
 - Ensure all content changes are reflected across all language versions
 - Test content rendering in all supported languages
@@ -159,8 +233,22 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 
 - Consistent front matter across all content
 - Proper heading hierarchy (H1 for titles, H2+ for sections)
-- Use Hugo's taxonomy system if categorization is needed
+- Use Hugo's taxonomy system for categorization
 - Implement proper internal linking
+
+**Guide Versioning:**
+
+- Each guide has versioned content in dated directories (e.g., `2025.9/`, `2025.6/`)
+- Guide metadata in `_index.md` at guide root
+- Actual content in version subdirectories
+- Latest version is automatically detected and displayed
+
+**Homepage Display Logic:**
+
+- Core guide (`scrum-guide-expanded`) is hard-coded in `core-guide-list.html`
+- Extensions are automatically collected from all sections with `Type: "guide"`
+- `is-expansion.html` helper function filters out the core guide
+- Sorting by `weight` (lower numbers appear first)
 
 ### Performance
 
@@ -300,15 +388,43 @@ You can organize templates by content structure:
 ```text
 layouts/
 ├── baseof.html              # Global base template
-├── home.html               # Homepage
+├── index.html              # Homepage (main entry point)
 ├── single.html             # Default single page
 ├── guide/                  # Guide-specific templates
 │   ├── single.html        # Override for guide pages
 │   └── list.html          # Override for guide lists
 └── _partials/              # Reusable components
-    ├── components/
-    └── functions/
+    ├── components/         # UI components
+    │   ├── home-hero.html            # Hero section
+    │   ├── core-guide-list.html      # Core guide display
+    │   ├── extensions-guide-list.html # Extensions grid
+    │   ├── category-list.html        # Category filters
+    │   └── guide/                     # Guide-specific components
+    └── functions/          # Helper functions
+        └── is-expansion.html         # Determines if guide is extension
 ```
+
+### Key Homepage Components
+
+**`core-guide-list.html`**: Displays the `scrum-guide-expanded` guide
+
+- Hard-coded to fetch `/scrum-guide-expanded` page
+- Enhanced styling with primary border and "Core Document" badge
+- Shows contributors, reading time, and description
+
+**`extensions-guide-list.html`**: Displays all other guides
+
+- Automatically collects all sections with `Type: "guide"`
+- Filters out core guide using `is-expansion.html` helper
+- Responsive grid layout (1-3 columns)
+- Shows categories, reading time, and language indicators
+- Supports category/tag filtering on taxonomy pages
+
+**`is-expansion.html`**: Helper function
+
+- Returns `true` for extension guides, `false` for core guide
+- Checks section name and content base name
+- Used to separate core from extensions
 
 ### Internal Template Migration
 
@@ -327,6 +443,9 @@ Replace old internal template calls:
 - [Hugo Documentation](https://gohugo.io/documentation/)
 - [Azure Static Web Apps Documentation](https://docs.microsoft.com/en-us/azure/static-web-apps/)
 - [Project Contributing Guidelines](../docs/contributing.md)
+- [Homepage Structure Guide](../docs/homepage-structure.md) - **Detailed guide organization explanation**
+- [Content Management Guide](../docs/content-management.md)
+- [Architecture Overview](../docs/architecture.md)
 - [Project README](../readme.md)
 
 ---

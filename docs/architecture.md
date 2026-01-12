@@ -86,6 +86,26 @@ Auto-generated static site files (not committed to version control in production
 
 ## Content Architecture
 
+### Homepage Structure
+
+The homepage is organized into distinct sections that help users navigate the content:
+
+1. **Hero Section** - Welcome message and key calls-to-action
+2. **Categories** - Quick filters for browsing guides by topic
+3. **Core Guide** - Featured display of the **Scrum Guide Expanded** (the foundational document)
+4. **Extensions** - Grid of specialized guides covering specific topics
+5. **Community Section** - Contribution and engagement information
+
+#### Core vs Extensions
+
+The site distinguishes between two types of guides:
+
+- **Core Guide**: The `scrum-guide-expanded` document is the primary, comprehensive companion to the 2020 Scrum Guide. It's featured prominently on the homepage with enhanced styling (primary border, larger card, "Core Document" badge).
+
+- **Extensions**: All other guide documents are treated as extensions. These cover specialized topics and are displayed in a responsive grid. Extensions are identified by:
+  - Their `Type: "guide"` front matter
+  - Exclusion logic in `extensions-guide-list.html` that filters out `scrum-guide-expanded`
+
 ### Multilingual Support
 
 The site supports multiple languages using Hugo's built-in i18n features:
@@ -93,14 +113,23 @@ The site supports multiple languages using Hugo's built-in i18n features:
 - **English** (`en`) - Default language
 - **German** (`de`) - Deutsch
 - **Spanish** (`es`) - Español
-- **French** (`fr`) - Français
+- **Italian** (`it`) - Italiano
+- **Japanese** (`ja`) - 日本語
+- **Portuguese** (`pt`) - Português
+- **Polish** (`pl`) - Polski
+- **Dutch** (`nl`) - Nederlands
+- **Romanian** (`ro`) - Română
+- **Farsi** (`fa`) - فارسی
+- **Klingon** (`tlh`) - Reference language
 
 ### Content Types
 
-1. **Guide Content** - Main Scrum expansion content
-2. **Creator Profiles** - Information about authors
-3. **Download Pages** - PDF and resource downloads
-4. **Static Pages** - About, legal, etc.
+1. **Core Guide** - The foundational Scrum Guide Expanded document
+2. **Extension Guides** - Specialized guides on specific topics
+3. **Creator Profiles** - Information about authors and contributors
+4. **Download Pages** - PDF and resource downloads
+5. **Categories** - Taxonomies for organizing guides
+6. **Static Pages** - About, legal, etc.
 
 ## Template Hierarchy
 
