@@ -23,24 +23,15 @@
     {{- end }}
 
     {{- range $categoryName, $taxonomy := $allCategories }}
-      {{/* Count only pages that are extensions (guides except scrum-guide-expanded) */}}
-      {{- $extensionsCount := 0 }}
+      {{/* Count only pages that are expansions (guides except scrum-guide-expanded) */}}
+      {{- $expansionsCount := 0 }}
       {{- range $taxonomy.Pages }}
-        {{- if eq .Type "guide" }}
-          {{- $isExtension := true }}
-          {{- if .File }}
-            {{- if or (eq .File.ContentBaseName "scrum-guide-expanded") (strings.Contains .RelPermalink "scrum-guide-expanded") }}
-              {{- $isExtension = false }}
-            {{- end }}
-          {{- else if strings.Contains .RelPermalink "scrum-guide-expanded" }}
-            {{- $isExtension = false }}
-          {{- end }}
-          {{- if $isExtension }}
-            {{- $extensionsCount = add $extensionsCount 1 }}
-          {{- end }}
+        {{- $isExpansion := partial "functions/is-expansion.html" . }}
+        {{- if $isExpansion }}
+          {{- $expansionsCount = add $expansionsCount 1 }}
         {{- end }}
       {{- end }}
-      {{- if gt $extensionsCount 0 }}
+      {{- if gt $expansionsCount 0 }}
         {{/* Check if this category is from English (not in current language) */}}
         {{- $isEnglishCategory := false }}
         {{- if ne $.Site.Language.Lang $defaultSite.Language.Lang }}
@@ -48,7 +39,7 @@
             {{- $isEnglishCategory = true }}
           {{- end }}
         {{- end }}
-        {{- $categoryList = $categoryList | append (dict "Page" $taxonomy.Page "CategoryName" $categoryName "Count" $extensionsCount "IsEnglish" $isEnglishCategory) }}
+        {{- $categoryList = $categoryList | append (dict "Page" $taxonomy.Page "CategoryName" $categoryName "Count" $expansionsCount "IsEnglish" $isEnglishCategory) }}
       {{- end }}
     {{- end }}
 

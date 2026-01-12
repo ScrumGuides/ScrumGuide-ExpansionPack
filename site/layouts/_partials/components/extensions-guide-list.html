@@ -1,40 +1,37 @@
-{{/* Extensions Section - All guides except scrum-guide-expanded */}}
-{{- $extensionSections := where .Site.Sections "Type" "guide" }}
+{{/* Expansions Section - All guides except scrum-guide-expanded */}}
+{{- $expansionSections := where .Site.Sections "Type" "guide" }}
 {{- range .Site.Home.Translations }}
-  {{- $extensionSections = $extensionSections | lang.Merge .Site.Sections }}
+  {{- $expansionSections = $expansionSections | lang.Merge .Site.Sections }}
 {{- end }}
-{{/* Exclude scrum-guide-expanded from extensions */}}
+{{/* Exclude scrum-guide-expanded from expansions */}}
 {{- $filtered := slice }}
-{{- range $extensionSections }}
-  {{- $isCoreGuide := false }}
-  {{- if .File }}
-    {{- if or (eq .File.ContentBaseName "scrum-guide-expanded") (strings.Contains .RelPermalink "scrum-guide-expanded") }}
-      {{- $isCoreGuide = true }}
-    {{- end }}
-  {{- else if strings.Contains .RelPermalink "scrum-guide-expanded" }}
-    {{- $isCoreGuide = true }}
-  {{- end }}
-  {{- if not $isCoreGuide }}
+{{- range $expansionSections }}
+  {{- $isExpansion := partial "functions/is-expansion.html" . }}
+  {{- if $isExpansion }}
     {{- $filtered = $filtered | append . }}
   {{- end }}
 {{- end }}
-{{- $extensionSections = $filtered }}
+{{- $expansionSections = $filtered }}
 
-{{/* If this is a tag page, filter extensions by the current tag */}}
+{{/* If this is a category or tag page, filter expansions by the current term */}}
 {{- if eq .Kind "term" }}
-  {{- $currentTag := .Data.Term }}
-  {{- $extensionSections = where $extensionSections "Params.tags" "intersect" (slice $currentTag) }}
+  {{- $currentTerm := .Data.Term }}
+  {{- if eq .Data.Singular "category" }}
+    {{- $expansionSections = where $expansionSections "Params.categories" "intersect" (slice $currentTerm) }}
+  {{- else if eq .Data.Singular "tag" }}
+    {{- $expansionSections = where $expansionSections "Params.tags" "intersect" (slice $currentTerm) }}
+  {{- end }}
 {{- end }}
-{{- if gt (len $extensionSections) 0 }}
+{{- if gt (len $expansionSections) 0 }}
   <div class="mb-5">
     <div class="d-flex align-items-center gap-3 mb-4">
       <span class="bg-primary rounded-pill" style="width: 0.375rem; height: 2rem;"></span>
       <h2 class="h3 mb-0">{{ i18n "extensions_section_title" | default "Expansions" }}</h2>
-      <span class="text-muted">({{ len $extensionSections }} {{ i18n "documents" | default "documents" }})</span>
+      <span class="text-muted">({{ len $expansionSections }} {{ i18n "documents" | default "documents" }})</span>
     </div>
 
     <div class="row g-4">
-      {{- range $extensionSections.ByWeight }}
+      {{- range $expansionSections.ByWeight }}
         <div class="col-12 col-md-6 col-lg-4">
           <a href="{{ .RelPermalink }}" class="text-decoration-none">
             <div class="card h-100 border-0 shadow-sm hover-lift">

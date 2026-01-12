@@ -1,0 +1,21 @@
+{{/* is-expansion.html
+
+  Determines if a page is an expansion (a guide that is not the core scrum-guide-expanded).
+
+  Usage:
+  {{ $isExpansion := partial "functions/is-expansion.html" .
+}}
+
+Parameters: - . (Page): The page to check Returns: - bool: true if the page is an expansion, false otherwise */}}
+{{- $isExpansion := false }}
+{{- if eq .Type "guide" }}
+  {{- $isExpansion = true }}
+  {{- if .File }}
+    {{- if or (eq .File.ContentBaseName "scrum-guide-expanded") (strings.Contains .RelPermalink "scrum-guide-expanded") }}
+      {{- $isExpansion = false }}
+    {{- end }}
+  {{- else if strings.Contains .RelPermalink "scrum-guide-expanded" }}
+    {{- $isExpansion = false }}
+  {{- end }}
+{{- end }}
+{{- return $isExpansion -}}
