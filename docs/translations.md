@@ -64,33 +64,36 @@ Our site uses a **two-layer translation system** that separates site structure f
 
 ---
 
-## 🎯 Quick Start - Choose Your Path
+## 🎯 How to Contribute Translations
 
-### Option 1: GitHub Collaboration (for contributors familiar with GitHub)
+### GitHub Fork & Pull Request Workflow
 
-**Best for:** Translators familiar with Git, GitHub, and the [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests) Workflow.
+All translation contributions must be submitted via **GitHub Fork and Pull Request**. This ensures:
 
-**Process:**
+✅ **Quality Control**: Community review and validation  
+✅ **Proper Attribution**: All contributors are credited  
+✅ **Version Control**: Track changes and maintain history  
+✅ **Collaboration**: Multiple translators can work together  
+✅ **Integration**: Automated testing and deployment
 
-1. Fork the repository
-2. Create translation files with our [Automated Setup](#option-a-automated-setup-powershell---recommended)
-3. Collaborate with other translators
-4. Submit Pull Request for review
+**New to GitHub?** Don't worry! We provide:
 
-[📖 Skip to GitHub Workflow](#github-workflow) →
+- Step-by-step instructions below
+- Automated setup scripts to simplify the process
+- Links to GitHub's official learning resources
 
-### Option 2: Manual Submission (for contributors who don't understand GitHub)
+**Need Help Getting Started?**
 
-**Best for:** Translators who are non-technical and dont want to [collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
+If you or your translation team are not comfortable with GitHub:
 
-**Process:**
+1. 🔍 **Find a Developer**: Reach out to your local developer community, university tech programs, or online developer forums
+2. 🤝 **Collaborate**: They can help set up the fork, create branches, and submit PRs while you focus on translation
+3. 💡 **Learn Together**: This is a great opportunity to learn Git/GitHub basics
+4. 🌐 **Join Discussions**: Ask for help in our [GitHub Discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)
 
-1. Download translation templates
-2. Work independently or collaborate via email/messaging
-3. Submit completed translations via GitHub Issues
-4. We'll create the Pull Request for community review
+> 💡 **Pro Tip**: Many Scrum practitioners work with developers daily. Ask your team's developers - they'll likely be happy to help!
 
-[📖 Skip to Manual Workflow](#manual-workflow) →
+[📖 Continue to GitHub Workflow](#github-workflow) →
 
 ---
 
@@ -98,9 +101,7 @@ Our site uses a **two-layer translation system** that separates site structure f
 
 You can contribute at different levels depending on your time and expertise:
 
-### Level 1: Wrapper Only (Quickest Impact) ⚡
-
-**Time Required:** ~2-3 hours
+### Level 1: Wrapper (Technical Infrastructure) 🔧
 
 **Files:**
 
@@ -111,28 +112,26 @@ You can contribute at different levels depending on your time and expertise:
 
 **Example:** Portuguese wrapper means Brazilian users see "Início", "Expansões", "Contribuir" instead of "Home", "Expansions", "Contribute".
 
-### Level 2: Core Guide Content 📚
-
-**Time Required:** ~40-60 hours (large document)
+### Level 2: Core Guide Content 📚 (PRIMARY FOCUS)
 
 **Files:**
 
-- Wrapper (from Level 1)
+- Wrapper infrastructure (Level 1 - typically handled by dev team)
 - `site/content/scrum-guide-expanded/{VERSION}/index.{LANG}.md`
   - Start with latest version (currently 2025.9)
   - Or translate previous version (2025.6) first
 
-**Impact:** Users get the foundational Scrum Guide Expansion in their language.
+**Impact:** Users get the foundational Scrum Guide Expansion in their language. This is the most valuable translation contribution.
+
+**Scope:** Large document covering comprehensive Scrum expansion.
 
 **Note:** Each version is independent. If you translate 2025.6, it remains useful even when 2025.9 is released (fallback system).
 
 ### Level 3: Extension Guides 🎯
 
-**Time Required:** ~5-15 hours per guide
-
 **Files:**
 
-- Wrapper (from Level 1)
+- Wrapper infrastructure (Level 1 - typically handled by dev team)
 - Individual extension guides:
   - `site/content/ai-and-scrum/{VERSION}/index.{LANG}.md`
   - `site/content/complexity/{VERSION}/index.{LANG}.md`
@@ -140,6 +139,8 @@ You can contribute at different levels depending on your time and expertise:
   - etc.
 
 **Impact:** Users get specialized deep-dives in their language.
+
+**Scope:** Focused documents on specific Scrum topics and contexts.
 
 **Strategy:** Prioritize guides most relevant to your audience.
 
@@ -405,61 +406,6 @@ git push origin translation/add-{LANG}-language
 
 ---
 
-## 📝 Manual Workflow
-
-> 💡 **Tip:** Even if you're using the manual workflow, you can still use our [PowerShell automation script](#option-a-automated-setup-powershell---recommended) to generate the template files - just fork the repo temporarily, run the script, then download the generated files to work with locally.
-
-### Step 1: Get Translation Templates
-
-1. **Download files to translate:**
-   - [Main Guide Template](https://raw.githubusercontent.com/nkdAgility/ScrumGuide-ExpansionPack/main/site/content/guide/index.md)
-   - [UI Translations Template](https://raw.githubusercontent.com/nkdAgility/ScrumGuide-ExpansionPack/main/site/i18n/en.yaml)
-
-2. **Save locally** with your language code:
-   - `index.{LANG}.md` (e.g., `index.pt.md`)
-   - `{LANG}.yaml` (e.g., `pt.yaml`)
-
-### Step 2: Translate Content
-
-1. **Main Guide (`index.{LANG}.md`):**
-   - Translate title and description in the frontmatter
-   - **Keep categories and tags exactly the same as English** - Do not translate
-   - Translate all body content
-   - Keep all Markdown formatting intact
-   - Preserve reference numbers and links
-
-2. **UI File (`{LANG}.yaml`):**
-   - Translate only the text after `translation:`
-   - Keep the `id:` values unchanged
-   - Maintain YAML formatting
-
-### Step 3: Collaborate (Optional)
-
-- Share files with other translators via email or messaging
-- Use Google Docs or similar for collaborative editing
-- Coordinate with existing translation communities
-
-### Step 4: Submit Translation
-
-1. **Create GitHub Issue:**
-   - Go to [Issues page](https://github.com/nkdAgility/ScrumGuide-ExpansionPack/issues)
-   - Click "New Issue"
-   - Title: "Translation Submission: {Language Name}"
-
-2. **Include in issue:**
-   - Language name and code
-   - Attach your translated files
-   - List any collaborators to credit
-   - Note any questions or concerns
-
-3. **We'll handle the rest:**
-   - Create proper Git commits
-   - Set up Pull Request
-   - Coordinate community review
-   - Handle technical integration
-
----
-
 ## 🔄 How Version Fallback Works (Technical Details)
 
 ### For Technical Contributors
@@ -680,23 +626,51 @@ For using the automated translation setup script:
 
 ## 🤝 Getting Help
 
+### Need Technical Assistance?
+
+If you're unfamiliar with Git/GitHub:
+
+**Find a Developer to Help:**
+
+- 👥 **Your Scrum Team**: Ask the developers you work with
+- 🎓 **Universities**: Reach out to computer science departments
+- 💼 **Local Tech Meetups**: Many developers are happy to help open source projects
+- 🌐 **Online Communities**: Post in developer forums or Reddit (r/learnprogramming, r/git)
+- 💬 **Our Community**: Ask in [GitHub Discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)
+
+**What to Ask For:**
+
+- "Can you help me fork a repository and create a pull request?"
+- "I have translations ready - can you help me submit them to GitHub?"
+- "Can you teach me the basics of Git for contributing to open source?"
+
 ### Before You Start
 
-- Review the existing Klingon translation (`tlh`) as an example implementation
+- Review the existing translations (e.g., German, Spanish) as examples
 - Check if your language is already in progress
-- Join our community discussions
+- Join our [community discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)
 
 ### During Translation
 
-- **GitHub Users:** Comment on your Pull Request
-- **Community Contributors:** Comment on your submission issue
-- **General Questions:** Create a [new issue](https://github.com/nkdAgility/ScrumGuide-ExpansionPack/issues)
+- **Questions about content:** Comment on your Pull Request
+- **Technical Git/GitHub issues:** Ask in [GitHub Discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)
+- **General questions:** Create a [new issue](https://github.com/nkdAgility/ScrumGuide-ExpansionPack/issues)
+
+### Learning Resources
+
+If you want to learn Git/GitHub yourself:
+
+- 📚 [GitHub's Official Learning Lab](https://lab.github.com/)
+- 📖 [GitHub Docs: Quickstart](https://docs.github.com/en/get-started/quickstart)
+- 🎥 [Git and GitHub for Beginners (YouTube)](https://www.youtube.com/results?search_query=git+github+for+beginners)
+- 📝 [First Contributions Tutorial](https://github.com/firstcontributions/first-contributions)
 
 ### Translation Communities
 
 - Connect with other translators in your language
 - Share resources and terminology decisions
 - Coordinate on quality review
+- Find translation partners who know GitHub
 
 ---
 

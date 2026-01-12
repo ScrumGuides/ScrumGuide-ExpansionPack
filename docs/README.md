@@ -9,22 +9,22 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 
 ## Quick Navigation
 
-- [Getting Started](./getting-started.md)
-- [Contributing Guidelines](./contributing.md)
-- [Content Management](./content-management.md)
-- [Homepage Structure](./homepage-structure.md) ⭐ **New!**
+- [Getting Started](getting-started.md)
+- [Contributing Guidelines](contributing.md)
+- [Content Management](content-management.md)
+- [Homepage Structure](homepage-structure.md) ⭐ **New!**
 
 ### Technical Documentation
 
-- [Architecture Overview](./architecture.md)
-- [Development Guide](./development.md)
-- [Deployment Guide](./deployment.md)
-- [Configuration Reference](./configuration.md)
-- [Maintainer Guide](./maintainer-guide.md)
-- [Translation Guide](./translations.md)
-- [Troubleshooting](./troubleshooting.md)
+- [Architecture Overview](architecture.md)
+- [Development Guide](development.md)
+- [Deployment Guide](deployment.md)
+- [Configuration Reference](configuration.md)
+- [Maintainer Guide](maintainer-guide.md)
+- [Translation Guide](translations.md)
+- [Troubleshooting](troubleshooting.md)
 
-> **🚨 Important**: This project uses Hugo's new template system (v0.146.0+). See the [Development Guide](./development.md) for details about template structure and migration.
+> **🚨 Important**: This project uses Hugo's new template system (v0.146.0+). See the [Development Guide](development.md) for details about template structure and migration.
 
 ## Project Overview
 
@@ -140,7 +140,7 @@ ScrumGuide-ExpansionPack/
 
 ## Contributing
 
-We welcome contributions from the community! Please see our [Contributing Guidelines](./contributing.md) for detailed information on:
+We welcome contributions from the community! Please see our [Contributing Guidelines](contributing.md) for detailed information on:
 
 - Setting up your development environment
 - Content contribution process
@@ -156,7 +156,7 @@ We welcome contributions from the community! Please see our [Contributing Guidel
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. See the [LICENSE](../LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. See the [LICENSE](.LICENSE) file for details.
 
 ## Authors and Attribution
 
@@ -170,4 +170,4 @@ Based on the original [2020 Scrum Guide](https://scrumguides.org/) by Ken Schwab
 
 ---
 
-📚 **Next Steps**: Start with the [Getting Started Guide](./getting-started.md) to set up your development environment.
+📚 **Next Steps**: Start with the [Getting Started Guide](getting-started.md) to set up your development environment.
