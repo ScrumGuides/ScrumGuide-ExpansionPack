@@ -1,10 +1,6 @@
-{{/* Core Guide Section */}}
-{{- $coreSections := where .Site.Sections "Type" "guide" }}
-{{- range .Site.Home.Translations }}
-  {{- $coreSections = $coreSections | lang.Merge .Site.Sections }}
-{{- end }}
-{{- $coreSections = where $coreSections "Params.categories" "intersect" (slice "core") }}
-{{- if gt (len $coreSections) 0 }}
+{{/* Core Guide Section - Hard-coded to scrum-guide-expanded only */}}
+{{- $coreGuide := .Site.GetPage "/scrum-guide-expanded" }}
+{{- if $coreGuide }}
   <div class="mb-5 pb-4">
     <div class="d-flex align-items-center gap-3 mb-4">
       <span class="bg-primary rounded-pill" style="width: 0.375rem; height: 2rem;"></span>
@@ -12,64 +8,62 @@
     </div>
 
     <div class="row g-4">
-      {{- range $coreSections.ByWeight }}
-        <div class="col-12">
-          <a href="{{ .RelPermalink }}" class="text-decoration-none">
-            <div class="card h-100 border-2 border-primary shadow-sm hover-lift">
-              <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary opacity-0 hover-opacity-10 rounded"></div>
-              <div class="card-body p-4 p-lg-5 position-relative d-flex flex-column">
-                <div class="d-flex align-items-start justify-content-between mb-3">
-                  <div class="p-3 rounded bg-primary text-white">
-                    <i class="fa-solid fa-file-text fa-lg"></i>
-                  </div>
-                  <span class="badge bg-primary text-white border border-primary">{{ i18n "core_document_badge" | default "Core Document" }}</span>
+      <div class="col-12">
+        <a href="{{ $coreGuide.RelPermalink }}" class="text-decoration-none">
+          <div class="card h-100 border-2 border-primary shadow-sm hover-lift">
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary opacity-0 hover-opacity-10 rounded"></div>
+            <div class="card-body p-4 p-lg-5 position-relative d-flex flex-column">
+              <div class="d-flex align-items-start justify-content-between mb-3">
+                <div class="p-3 rounded bg-primary text-white">
+                  <i class="fa-solid fa-file-text fa-lg"></i>
                 </div>
+                <span class="badge bg-primary text-white border border-primary">{{ i18n "core_document_badge" | default "Core Document" }}</span>
+              </div>
 
-                <h3 class="h4 fw-bold text-primary mb-3 hover-text-primary">{{ .Params.short_title | default .Title }}</h3>
+              <h3 class="h4 fw-bold text-primary mb-3 hover-text-primary">{{ $coreGuide.Params.short_title | default $coreGuide.Title }}</h3>
 
-                {{/* Check if content is only in English */}}
-                {{- $defaultSite := index $.Site.Sites 0 }}
-                {{- if ne $.Site.Language.Lang $defaultSite.Language.Lang }}
-                  {{- $showEnglishOnly := false }}
-                  {{- if not .Translations }}
-                    {{- $showEnglishOnly = true }}
-                  {{- else if eq (trim .Content " \n\t") "" }}
-                    {{- $showEnglishOnly = true }}
-                  {{- end }}
-                  {{- if $showEnglishOnly }}
-                    <div class="mb-3">
-                      <span class="badge border border-warning text-warning bg-transparent" title="This content is only available in English"><i class="fa-solid fa-language me-1"></i>English Only</span>
-                    </div>
-                  {{- end }}
+              {{/* Check if content is only in English */}}
+              {{- $defaultSite := index $.Site.Sites 0 }}
+              {{- if ne $.Site.Language.Lang $defaultSite.Language.Lang }}
+                {{- $showEnglishOnly := false }}
+                {{- if not $coreGuide.Translations }}
+                  {{- $showEnglishOnly = true }}
+                {{- else if eq (trim $coreGuide.Content " \n\t") "" }}
+                  {{- $showEnglishOnly = true }}
                 {{- end }}
-
-
-                <p class="text-muted mb-4">{{ .Params.description | markdownify }}</p>
-
-                {{/* Contributors - Light List */}}
-                {{ partial "components/guide/guide-contributors-with-icon.html" (dict "context" . "roles" (slice "contributor" "creator" "reviewer") "lightList" true) }}
-
-
-                <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
-                  <div class="d-flex align-items-center gap-2 text-muted small">
-                    <i class="fa-solid fa-clock"></i>
-                    {{- $allVersions := partial "functions/get-all-versions" . -}}
-                    {{- if gt (len $allVersions) 0 }}
-                      {{- $latestVersionObj := index $allVersions 0 }}
-                      {{- with $latestVersionObj.page }}
-                        <span>{{ .ReadingTime }} min read</span>
-                      {{- end }}
-                    {{- else }}
-                      <span>15 min read</span>
-                    {{- end }}
+                {{- if $showEnglishOnly }}
+                  <div class="mb-3">
+                    <span class="badge border border-warning text-warning bg-transparent" title="This content is only available in English"><i class="fa-solid fa-language me-1"></i>English Only</span>
                   </div>
-                  <i class="fa-solid fa-arrow-right text-primary"></i>
+                {{- end }}
+              {{- end }}
+
+
+              <p class="text-muted mb-4">{{ $coreGuide.Params.description | markdownify }}</p>
+
+              {{/* Contributors - Light List */}}
+              {{ partial "components/guide/guide-contributors-with-icon.html" (dict "context" $coreGuide "roles" (slice "contributor" "creator" "reviewer") "lightList" true) }}
+
+
+              <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
+                <div class="d-flex align-items-center gap-2 text-muted small">
+                  <i class="fa-solid fa-clock"></i>
+                  {{- $allVersions := partial "functions/get-all-versions" $coreGuide -}}
+                  {{- if gt (len $allVersions) 0 }}
+                    {{- $latestVersionObj := index $allVersions 0 }}
+                    {{- with $latestVersionObj.page }}
+                      <span>{{ .ReadingTime }} min read</span>
+                    {{- end }}
+                  {{- else }}
+                    <span>15 min read</span>
+                  {{- end }}
                 </div>
+                <i class="fa-solid fa-arrow-right text-primary"></i>
               </div>
             </div>
-          </a>
-        </div>
-      {{- end }}
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 {{- end }}
