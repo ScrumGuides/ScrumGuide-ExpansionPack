@@ -1,6 +1,6 @@
 ---
-title: Scrum Expanded on One Page of the Scrum Guide Expansion Pack 2025
-description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
+title: Scrum Expanded on One Page
+description: Scrum on one page, expanded for modern product work. A concise, practical view of Scrum’s roles, events, and commitments, with added clarity for complexity, product thinking, and evidence-based delivery.
 keywords:
   - Scrum
   - modern Scrum
