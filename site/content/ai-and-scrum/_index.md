@@ -1,5 +1,5 @@
 ---
-title: AI and Scrum
+title: AI and Scrum (NOT DONE)
 description: Explore how artificial intelligence can enhance Scrum practices and help teams make better...
 Type: "guide"
 Layout: "root"
