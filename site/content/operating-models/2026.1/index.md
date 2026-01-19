@@ -73,6 +73,20 @@ In dynamic environments, a third question becomes equally determinative:
 
 Operating models differ materially in how they answer this third question.
 
+### Dynamic markets and environments
+
+Dynamic markets are characterised by persistent and often rapid change in one or more of the following dimensions:
+
+- **Customer needs and preferences** - What customers value evolves frequently and unpredictably, often faster than annual or quarterly planning cycles.
+- **Competitive landscape** - New entrants, substitute products, and competitive moves occur at high frequency, enabled by low barriers to entry and fast distribution.
+- **Technology evolution** - Underlying technologies, platforms, and capabilities change continuously, creating new possibilities and obsoleting existing approaches.
+- **Regulatory and external constraints** - Laws, standards, and market conditions shift in ways that require rapid organisational response.
+- **Market information velocity** - Feedback from customers, users, and markets arrives continuously at daily or faster timescales, making long-range predictions decay rapidly.
+
+In dynamic markets, the primary competitive advantage shifts from execution efficiency to learning speed. Organisations that can detect change, understand its implications, and respond quickly capture disproportionate value. Those that rely on long planning cycles and fixed commitments systematically lag, regardless of execution quality.
+
+The distinction is not binary. Markets exist on a spectrum from stable to dynamic, and the degree of dynamism often varies within an organisation across different product lines or customer segments. The key criterion is whether the rate of environmental change exceeds the organisation's decision and adaptation cycles.
+
 ### Scrum outcomes and operating model dependency
 
 Scrum is designed to support empirical product development through transparency, inspection, and adaptation. Scrum creates learning loops. It does not, by itself, create the organisational conditions required for those loops to influence decisions at the speed and fidelity needed in dynamic markets.
