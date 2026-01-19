@@ -1,5 +1,5 @@
 ---
-title: Product Thinking
+title: Product Thinking (Expansion of the SGEP)
 description: Modern Scrum demands product thinking, shifting teams from delivering outputs to owning outcomes and long-term impact through evidence, feedback loops, and continuous learning, supported by SGEP’s Definitions of Output Done and Outcome Done and Evidence-Based Management.
 keywords:
   - Outcome ownership

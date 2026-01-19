@@ -1,5 +1,5 @@
 ---
-title: Software Engineering Practices for Scrum
+title: Software Engineering Practices for Scrum (Expansion of the SGEP)
 description: Effective software engineering enables Scrum to deliver fast feedback, safe change, and continuously releasable software. By working in small, testable steps with practices like CI, CD, automation, and TDD, teams achieve higher quality, speed, and adaptability without trade-offs.
 keywords:
   - Scrum
