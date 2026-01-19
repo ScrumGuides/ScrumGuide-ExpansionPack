@@ -8,7 +8,7 @@ keywords:
   - empirische Produktentwicklung
   - Scrum in komplexen Umgebungen
   - Scrum und KI
-date: 2025-09-11T09:00:00Z
+date: 2026-01-18T09:00:00Z
 type: guide
 lang: de
 mainfont: "Times New Roman"

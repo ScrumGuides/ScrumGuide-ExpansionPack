@@ -8,7 +8,7 @@ keywords:
   - dezvoltare empirică de produse
   - Scrum în medii complexe
   - Scrum și IA
-date: 2025-09-11T09:00:00Z
+date: 2026-01-18T09:00:00Z
 type: guide
 lang: ro
 mainfont: "Times New Roman"

@@ -8,7 +8,7 @@ keywords:
   - wanI' Qu' chenmoH
   - Scrum Dotlh Qu'mey
   - Scrum 'ej AI
-date: 2025-09-11T09:00:00Z
+date: 2026-01-18T09:00:00Z
 type: guide
 lang: tlh
 mainfont: "Times New Roman"

@@ -8,7 +8,7 @@ keywords:
   - desarrollo empírico de productos
   - Scrum en entornos complejos
   - Scrum e IA
-date: 2025-09-11T09:00:00Z
+date: 2026-01-18T09:00:00Z
 type: guide
 lang: es
 mainfont: "Times New Roman"

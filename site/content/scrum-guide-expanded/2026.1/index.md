@@ -8,7 +8,7 @@ keywords:
   - empirical product development
   - Scrum in complex environments
   - Scrum and AI
-date: 2025-09-11T09:00:00Z
+date: 2026-01-18T09:00:00Z
 type: guide
 lang: en
 mainfont: "Times New Roman"
