@@ -164,6 +164,17 @@ foreach ($guide in $guidesToProcess) {
             continue
         }
         
+        # Check if file has actual content beyond front matter
+        $fileContent = Get-Content -Path $file.FullName -Raw
+        # Remove front matter and check if there's any meaningful content left
+        $contentWithoutFrontMatter = $fileContent -replace '(?s)^---\s*\n.*?\n---\s*\n', ''
+        $contentWithoutFrontMatter = $contentWithoutFrontMatter.Trim()
+        
+        if ([string]::IsNullOrWhiteSpace($contentWithoutFrontMatter)) {
+            Write-Host "   ⏭️  $langCode - Skipping (no content beyond front matter)" -ForegroundColor Yellow
+            continue
+        }
+        
         # Create PDF filename: guide-name.version.lang.pdf
         $pdfFileName = "$($guide.Name).$($latestVersion.Name).$langCode.pdf"
         $outputPath = Join-Path $pdfOutputDir $pdfFileName
