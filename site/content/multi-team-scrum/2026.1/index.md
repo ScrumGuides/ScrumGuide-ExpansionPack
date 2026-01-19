@@ -1,18 +1,15 @@
 ---
 title: Multi Team Scrum section of the Scrum Guide Expansion Pack 2025
-description: The Scrum Guide Expansion Pack is a comprehensive companion to the 2020 Scrum Guide, created to help professionals navigate today’s complex product environments. It deepens understanding of core Scrum principles by offering additional guidance on complexity, product thinking, systems of work, and leadership; while remaining true to Scrum’s ethos of empiricism and self-management. It’s not a rewrite, but a strategic amplification to support long-term, value-driven delivery in modern teams.
+description: Guidance for leaders and practitioners deciding whether and how to scale Scrum, showing when multiple teams on one Product increase outcomes and when they simply add coordination overhead.
 keywords:
-  - Scrum
-  - modern Scrum
-  - Product Management
-  - empirical product development
-  - Scrum in complex environments
-  - Scrum and AI
+  - Mutli-Team Scrum
+  - Aligned autonomy
+  - Shared Product Backlog
+  - Continuous Integration
 author:
   - Ralph Jocham
   - John Coleman
-  - Jeff Sutherland
-date: 2025-06-11T09:00:00Z
+date: 2026-01-18T09:00:00Z
 type: guide
 lang: en
 mainfont: "Times New Roman"
