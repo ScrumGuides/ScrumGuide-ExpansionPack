@@ -12,10 +12,9 @@ guide_license: |
 categories:
   - Strategy
   - Teams
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
+tags:
+  - Mutli-Team Scrum
+  - Aligned autonomy
+  - Shared Product Backlog
+  - Continuous Integration
 ---

@@ -7,11 +7,12 @@
 /.processing/
 tex2pdf.*/*
 /.claude/
+media-*/
 
 scripts/scrum-guide-expansion-pack-template.*
 !scripts/scrum-guide-expansion-pack-template.tex
 CLAUDE.md
 
 .DS_Store
-node_modules/*
+node_modules/
 

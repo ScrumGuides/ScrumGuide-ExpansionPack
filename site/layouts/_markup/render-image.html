@@ -1,0 +1,42 @@
+{{- /* 
+  Image Render Hook for Markdown Images
+  Automatically makes all images responsive and adds proper attributes
+*/ -}}
+
+{{- $alt := .Text -}}
+{{- $src := .Destination -}}
+{{- $title := .Title -}}
+
+{{- /* Try to get image resource if it's a page resource */ -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
+
+{{- if $image -}}
+  {{- /* If it's a page resource, use Hugo's image processing */ -}}
+  {{- $resized := $image.Resize "1200x" -}}
+  <figure class="figure">
+    <img src="{{ $resized.RelPermalink }}" 
+         alt="{{ $alt }}" 
+         {{- with $title }} title="{{ . }}"{{ end }}
+         class="figure-img img-fluid rounded"
+         loading="lazy"
+         width="{{ $resized.Width }}"
+         height="{{ $resized.Height }}"
+    />
+    {{- with $title }}
+      <figcaption class="figure-caption text-center">{{ . }}</figcaption>
+    {{- end }}
+  </figure>
+{{- else -}}
+  {{- /* Static image or external URL */ -}}
+  <figure class="figure">
+    <img src="{{ $src | safeURL }}" 
+         alt="{{ $alt }}" 
+         {{- with $title }} title="{{ . }}"{{ end }}
+         class="figure-img img-fluid rounded"
+         loading="lazy"
+    />
+    {{- with $title }}
+      <figcaption class="figure-caption text-center">{{ . }}</figcaption>
+    {{- end }}
+  </figure>
+{{- end -}}

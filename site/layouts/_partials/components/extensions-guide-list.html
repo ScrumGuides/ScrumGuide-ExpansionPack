@@ -42,7 +42,6 @@
                     <i class="fa-solid fa-file-text fa-lg"></i>
                   </div>
                 </div>
-
                 <h3 class="h5 fw-bold mb-3 text-dark hover-text-primary">{{ .Params.short_title | default .Title }}</h3>
                 <p class="text-muted small mb-4 line-clamp-3">{{ .Params.Description | markdownify }}</p>
 
@@ -62,15 +61,33 @@
                   {{- end }}
                 {{- end }}
 
+ <div class="d-flex flex-wrap gap-2 mb-4">
                 {{/* Categories/Tags */}}
                 {{- if .Params.categories }}
-                  <div class="d-flex flex-wrap gap-2 mb-4">
                     {{- range .Params.categories }}
                       <span class="badge bg-secondary bg-opacity-50">{{ . | title }}</span>
                     {{- end }}
-                  </div>
                 {{- end }}
-
+                {{/* Badges: excluded from production / preview based on cascade rules */}}
+              {{- $cascade := .Param "cascade" -}}
+              {{- with $cascade -}}
+                {{- range . -}}
+                  {{- $env := .target.environment -}}
+                  {{- $renderNever := eq .build.render "never" -}}
+                  {{- $listNever := eq .build.list "never" -}}
+                  {{- if and (eq $env "production") (or $renderNever $listNever) -}}
+                    <span class="badge bg-danger" title="Will not be built in production">
+                      <i class="fa-solid fa-eye-slash me-1"></i>Production
+                    </span>
+                  {{- end -}}
+                  {{- if and (eq $env "preview") (or $renderNever $listNever) -}}
+                    <span class="badge bg-warning text-dark" title="Will not be built in preview">
+                      <i class="fa-solid fa-eye-slash me-1"></i>Preview
+                    </span>
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}
+              </div>
                 {{/* Contributors - Light List */}}
                 {{ partial "components/guide/guide-contributors-with-icon.html" (dict "context" . "roles" (slice "contributor" "creator" "reviewer") "lightList" true) }}
 

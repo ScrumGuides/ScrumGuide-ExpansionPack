@@ -12,10 +12,4 @@ guide_license: |
 categories:
   - Product
   - Value
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
 ---

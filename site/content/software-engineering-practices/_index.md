@@ -1,6 +1,6 @@
 ---
 title: Software Engineering Practices
-description: Technical excellence matters. Discover engineering practices that enable sustainable development, high-quality products, and effective collaboration.
+description: Scrum only works when engineering enables fast feedback, safe change, and continuously releasable software. This guide covers the core practices, CI/CD, automation, TDD, and design for manageable complexity.
 Type: "guide"
 Layout: "root"
 brand:
@@ -8,13 +8,14 @@ brand:
   image: "images/scrum-guide-expansion-pack-logo-solo.png"
 weight: 2
 guide_license: |
-  License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
+  CC BY-NC-ND 4.0 | This section is included in its original, unaltered form with permission under the terms of the CC BY-NC-ND 4.0 license. No changes have been made.
 categories:
   - Engineering
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
+tags:
+  - Scrum
+  - Modern Scrum
+  - Product Management
+  - Modern Software Engineering
+  - Continuous Delivery
+  - Development Practices
 ---

@@ -2,11 +2,11 @@
 # This file contains information about all contributors to the Guide 1
 
 # All contributors in a flat list
-- name: Martin Hinshelwood
-  githubUsername: MrHinsh
-  url: https://hinshelwood.com
+- name: Dave Farley
+  url: https://www.continuous-delivery.co.uk/
+  image: /images/contributors/david-farley.jpg
   contributions:
-    - "2025.9"
+    - "2026.1"
   role: creator
   founder: true
   weight: 1

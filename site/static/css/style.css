@@ -204,6 +204,24 @@ li input[type="checkbox"] + * {
   }
 }
 
+/* ============ Responsive Images ============ */
+/* Make all images in content responsive and constrained to text width */
+.content img,
+article img,
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Add subtle shadow and border for images */
+.content img,
+article img {
+  border-radius: 0.375rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
 /* ============ Custom Bootstrap Theme Overrides ============ */
 :root {
   --bs-primary: #135289;

@@ -161,7 +161,6 @@ permalinks:
     categories: "/:slug/"
 
 taxonomies:
-  tag: tags
   category: categories
 
 module:

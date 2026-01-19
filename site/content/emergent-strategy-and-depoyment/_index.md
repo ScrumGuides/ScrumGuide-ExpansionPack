@@ -1,5 +1,5 @@
 ---
-title: Emergent Strategy and Depoyment
+title: Emergent Strategy and Depoyment (NOT DONE)
 description: Learn how strategy emerges from Scrum practices and how to deploy changes...
 Type: "guide"
 Layout: "root"

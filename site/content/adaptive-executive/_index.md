@@ -1,6 +1,6 @@
 ---
 title: Adaptive Executive
-description: Executive-level guidance for leading agile transformations and creating environments...
+description: "For executives and board members who want real adaptiveness, not change theatre. Learn what adaptive leadership looks like in practice: say–do match, customer proximity, decentralised decisions, humane effectiveness, and succession. Includes practical lenses from Immunity to Change and Intent-Based Leadership."
 Type: "guide"
 Layout: "root"
 brand:
@@ -12,10 +12,9 @@ guide_license: |
 categories:
   - Leadership
   - Strategy
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
+tags:
+- Adaptive executive leadership  
+- Say-do match  
+- Humane effectiveness  
+- Decentralized decision-making  
 ---

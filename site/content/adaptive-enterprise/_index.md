@@ -1,6 +1,6 @@
 ---
 title: Adaptive Enterprise
-description: Transform your organization into an adaptive enterprise that thrives in uncertainty and...
+description: For leaders designing adaptive product organisations at scale. Understand why no single operating model fits all contexts and how decentralised approaches like Beyond Budgeting, Humanocracy, and Sociocracy strengthen decision-making, transparency, and adaptability when combined deliberately.
 Type: "guide"
 Layout: "root"
 brand:
@@ -11,10 +11,5 @@ guide_license: |
   License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
 categories:
   - Leadership
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
+
 ---
