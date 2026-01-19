@@ -11,4 +11,11 @@ guide_license: |
   CC BY-NC-ND 4.0 | This section is included in its original, unaltered form with permission under the terms of the CC BY-NC-ND 4.0 license. No changes have been made.
 categories:
   - Engineering
+tags:
+  - Scrum
+  - Modern Scrum
+  - Product Management
+  - Modern Software Engineering
+  - Continuous Delivery
+  - Development Practices
 ---
