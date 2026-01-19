@@ -73,6 +73,20 @@ In dynamic environments, a third question becomes equally determinative:
 
 Operating models differ materially in how they answer this third question.
 
+### Stable markets and environments
+
+Stable markets are characterised by predictability and slow change across multiple dimensions:
+
+- **Customer needs and preferences** - What customers value remains consistent over extended periods, changing slowly enough that annual or multi-year planning remains valid.
+- **Competitive landscape** - Competition is constrained by capital requirements, distribution barriers, or regulatory protections. Market entry is difficult and infrequent. Competitive positions change slowly.
+- **Technology evolution** - Underlying technologies, platforms, and capabilities evolve gradually. Established approaches remain viable for years. Technology changes are incremental rather than disruptive.
+- **Regulatory and external constraints** - Laws, standards, and market conditions remain relatively constant, or change through predictable cycles with advance notice.
+- **Market information velocity** - Feedback from customers and markets arrives slowly. Product lifecycles are long. Planning horizons can extend years without significant information decay.
+
+In stable markets, competitive advantage comes primarily from execution efficiency, cost reduction, and operational reliability. Organisations that optimise processes, achieve economies of scale, and deliver consistent quality at low cost capture disproportionate value. Long-range planning and standardisation are effective because the future resembles the present.
+
+Truly stable markets were the dominant condition during the industrial era. Today, even organisations with stable product lines or operational contexts typically operate within broader dynamic market conditions. A utility company may have stable infrastructure operations while facing dynamic competitive pressures from distributed energy, regulatory change, and customer expectations. A manufacturer may produce commoditised components reliably while experiencing rapid shifts in supply chains, customer demands, and technological capabilities. The stable characteristics may apply to specific products, services, or operational domains within an organisation, but rarely to the organisation's entire competitive environment.
+
 ### Dynamic markets and environments
 
 Dynamic markets are characterised by persistent and often rapid change in one or more of the following dimensions:
@@ -242,7 +256,7 @@ The predictive model aligns with industrial-era economic conditions that dominat
 - Customer choice was limited by availability and geography.
 - Efficiency gains translated directly into market advantage.
 
-In this environment, customers purchased what was available rather than what was custom-fitted to evolving needs. Mass production and standardisation created economic value precisely because markets were relatively stagnant and predictable. Scientific management and early industrial organisational design optimised for throughput and repeatability under these conditions. Specialisation, separation of planning from execution, and hierarchical control created efficiency and reliability.
+In this environment, customers purchased what was available rather than what was custom-fitted to evolving needs. Mass production and standardisation created economic value precisely because markets were relatively stable and predictable. Scientific management and early industrial organisational design optimised for throughput and repeatability under these conditions. Specialisation, separation of planning from execution, and hierarchical control created efficiency and reliability.
 
 The model was not an error. It was a rational response to a stable environment and a coherent theory of the business.
 
