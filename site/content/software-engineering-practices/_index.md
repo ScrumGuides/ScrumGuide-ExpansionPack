@@ -1,6 +1,6 @@
 ---
 title: Software Engineering Practices
-description: Effective software engineering practices are essential for Scrum to work as intended, by enabling fast feedback, safe change, and continuously releasable software. Better software faster, depends on working in small, testable steps, managing complexity through good design, and treating every change as a learning experiment. Drawing on proven practices such as continuous integration, continuous delivery, automation, and test-driven development, it shows that quality, speed, and adaptability reinforce each other rather than being trade-offs, as evidenced by real-world research and experience from Dave Farley and the DORA studies.
+description: Scrum only works when engineering enables fast feedback, safe change, and continuously releasable software. This guide covers the core practices, CI/CD, automation, TDD, and design for manageable complexity.
 Type: "guide"
 Layout: "root"
 brand:
