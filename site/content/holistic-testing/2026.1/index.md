@@ -41,13 +41,13 @@ The Holistic Testing Model reflects the need for the whole Scrum Team to take ow
 
 There are no handoffs between Scrum Teams in modern software testing. The pauses in the model indicate a time for the Scrum Team to pause and reflect on what they've done so far and whether they are ready to continue to the next stage. There are no rules about how long the Scrum Team should spend in each stage when implementing a new change to a product. They may get to a stage and realize they have to circle back to a previous stage where they missed something.
 
-![Holistic Testing Model, copyright 2025, Janet Gregory and Lisa Crispin](images/holistic-testing-model.jpg)
+![Holistic Testing Model, copyright 2025, Janet Gregory and Lisa Crispin](/holistic-testing/2026.1/images/holistic-testing-model.jpg)
 
 The next figure shows the same Holistic Testing Model with example testing activities. These are only examples, not necessarily best practices. Different Scrum Teams may do different activities, at different times, depending on their context. The key is to have effective conversations about testing and quality, with the whole team and Supporters, throughout the development cycle. Continuous improvement through small experiments and short feedback loops is the focus. Each Scrum Team needs to plan a testing strategy that includes all the necessary activities at the right time - throughout the development cycle.
 
 Let's walk through the different stages of the model, which are basically the stages of the modern software development life cycle. Software development is an infinite loop, and new changes often begin with discovery, so we will start there.
 
-![Holistic Testing Model with Example Testing Activities](images/holistic-testing-model-example-testing-activities.jpg)
+![Holistic Testing Model with Example Testing Activities](/holistic-testing/2026.1/images/holistic-testing-model-example-testing-activities.jpg)
 
 ## **Testing Early \- Discover and Plan**
 
@@ -67,7 +67,7 @@ Prioritizing the top risks and quality attributes helps the Scrum Team plan how 
 
 Here's an example of a risk brainstorming exercise done by members of the delivery Scrum Team and Stakeholders whose company has a "horse and donkey motels" web-based application. They considered risks around a new product backlog item (in story format) to add the capability for customers to cancel their booking for their equine and people accommodation.
 
-!["Brisk de-risking" board example for an equine motel company application](images/brisk-derisking-board-example.png)
+!["Brisk de-risking" board example for an equine motel company application](/holistic-testing/2026.1/images/brisk-derisking-board-example.png)
 
 These planning discussions often show that a proposed feature is too big and needs to be broken down into smaller components. The goal of this stage is to break each new feature into small, testable product backlog items.
 
@@ -83,7 +83,7 @@ Here's a sample example map from a Scrum Team working on a web-based app that al
 
 The yellow card is the product backlog item. Blue cards contain business rules, and green cards provide examples that illustrate the desired behavior for the business rules. The red cards have questions that need to be answered before the Sprint Planning.
 
-![Sample example map](images/sample-map.png)
+![Sample example map](/holistic-testing/2026.1/images/sample-map.png)
 
 ## **Testing Activities While We Build**
 
