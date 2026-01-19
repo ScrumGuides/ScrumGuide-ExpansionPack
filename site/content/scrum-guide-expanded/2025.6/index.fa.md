@@ -56,7 +56,7 @@ sansfont: HMXRoya
 monofont: HMXRoya
 pdf-engine: xelatex
 sitemap:
-  priority: 1
+  priority: 0.8
 aliases:
   - /fa/scrum-guide-expansion-pack/2025.6/
   - /fa/scrum-guide-expansion-pack/

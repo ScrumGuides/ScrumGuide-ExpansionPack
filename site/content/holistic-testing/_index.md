@@ -17,4 +17,6 @@ tags:
   - Built-in quality
   - Fest feedback loops
   - Whole-Team responsibility
+sitemap:
+  priority: 0.8
 ---

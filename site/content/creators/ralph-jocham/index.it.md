@@ -25,6 +25,8 @@ expertise:
   - "Building successful products"
   - "Enterprise transformation at scale"
   - "Data-driven agile frameworks"
+sitemap:
+  priority: 0.3
 ---
 
 Autorità nello Sviluppo di Prodotti:

@@ -57,7 +57,7 @@ aliases:
   - /es/scrum-guide-expansion-pack/
 
 sitemap:
-  priority: 1.0
+  priority: 0.8
 ---
 
 basada en la [Guía Scrum](https://scrumguides.org/) original, de Ken Schwaber yJeff Sutherland (40)

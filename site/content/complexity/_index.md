@@ -17,4 +17,6 @@ tags:
   - Cynefin
   - Empirical learning
   - Liminality
+sitemap:
+  priority: 0.8
 ---

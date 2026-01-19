@@ -12,4 +12,6 @@ guide_license: |
 categories:
   - Product
   - Value
+sitemap:
+  priority: 0.8
 ---

@@ -17,4 +17,6 @@ tags:
 - Say-do match  
 - Humane effectiveness  
 - Decentralized decision-making  
+sitemap:
+  priority: 0.8
 ---

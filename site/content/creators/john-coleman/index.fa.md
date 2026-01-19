@@ -22,6 +22,8 @@ creator:
   - "MORE Executive Success"
 sameAs:
   - "https://evolved.institute"
+sitemap:
+  priority: 0.3
 ---
 
 جان کولمن میزبان پادکست *Evolved* است؛ پادکستی که بر رهبری محصول و طراحی، همچنین مدیریت اجرایی تمرکز دارد. او هم‌بنیان‌گذار *Evolved.Institute* و *Orderly Disruption* است.

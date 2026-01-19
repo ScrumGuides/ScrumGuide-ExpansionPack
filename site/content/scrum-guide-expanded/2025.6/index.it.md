@@ -25,7 +25,7 @@ guide_whatis: |
 
   Questo Pacchetto di Espansione non sostituisce la Guida a Scrum; la completa per coloro che necessitano di più chiarezza nel contesto dei nostri giorni. L'obiettivo non era aggiungere regole, ma rafforzare lo spirito di Scrum, incentrato sul pensiero orientato al prodotto, sull'emersione e sul focus strategico. Aiuta i team ad apprendere rapidamente, adattarsi e erogare Valore, anche in contesti incerti, in frenetico cambiamento e guidati dalla tecnologia.
 sitemap:
-priority: 1.0
+  priority: 0.8
 aliases:
   - /it/scrum-guide-expansion-pack/2025.6/
   - /it/scrum-guide-expansion-pack/

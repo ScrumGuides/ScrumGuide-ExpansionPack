@@ -22,7 +22,7 @@ sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
-  priority: 1.0
+  priority: 0.7
 ---
 
 ***DRAFT ONLY: DO NOT PUBLISH***

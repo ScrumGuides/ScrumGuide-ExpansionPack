@@ -25,6 +25,8 @@ expertise:
   - "Erfolgreiche Produkte entwickeln"
   - "Enterprise Transformation im großen Maßstab"
   - "Datengetriebene agile Frameworks"
+sitemap:
+  priority: 0.3
 ---
 
 Product Development Authority:  

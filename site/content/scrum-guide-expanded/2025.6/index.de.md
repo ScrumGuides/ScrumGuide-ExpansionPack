@@ -11,7 +11,7 @@ keywords:
 date: 2025-06-11T09:00:00Z
 type: guide
 sitemap:
-  priority: 1.0
+  priority: 0.8
 aliases:
   - /de/scrum-guide-expansion-pack/2025.6/
   - /de/scrum-guide-expansion-pack/

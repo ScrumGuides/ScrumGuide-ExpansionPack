@@ -13,4 +13,6 @@ guide_license: |
 categories:
   - Foundation
   - Framework
+sitemap:
+  priority: 0.9
 ---

@@ -31,6 +31,8 @@ author:
   - "Scrum: El arte de hacer el doble de trabajo en la mitad de tiempo"
 sameAs:
   - "https://www.scruminc.com"
+sitemap:
+  priority: 0.3
 ---
 
 Jeff Sutherland, el inventor y co-creador de Scrum y Scrum@Scale, ha trabajado con miles de empresas implementando Scrum y recientemente lanzó dos programas de formación global para Trainers Registrados de Scrum y Trainers Registrados de Scrum@Scale, además de crear empresas independientes, comenzando con Scrum Inc Japan. Es fundador y director general de Tesla Investment Holdings LLC, un fondo de inversión que co-invierte con OpenView Venture Partners y CompanyOn Ventures. Como presidente de JVS Management Inc, apoya el fondo de inversión y su cartera de empresas. Todas estas organizaciones maximizan su impacto implementando Scrum@Scale e invirtiendo en empresas ágiles.

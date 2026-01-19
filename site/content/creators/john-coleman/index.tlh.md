@@ -23,6 +23,8 @@ creator:
   - "MORE DevwI' Qapchu'ghach"
 sameAs:
   - "https://evolved.institute"
+sitemap:
+  priority: 0.3
 ---
 
 john coleman, _Evolved_ pong podcast DevwI', product Dev 'ej qoghDu' DevwI' mIw le'Ha' ghojmoHwI'. Evolved.Institute 'ej Orderly Disruption chenmoHwI' ghaH.

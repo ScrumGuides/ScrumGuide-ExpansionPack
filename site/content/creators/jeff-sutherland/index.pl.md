@@ -31,6 +31,8 @@ author:
   - "Scrum: The Art of Doing Twice the Work in Half the Time"
 sameAs:
   - "https://www.scruminc.com"
+sitemap:
+  priority: 0.3
 ---
 eff Sutherland, pomysłodawca i współtwórca Scruma i Scrum@Scale, pracował z tysiącami organizacji wdrażających Scrum i i niedawno uruchomił dwa globalne programy szkoleniowe dla Registered Scrum Trainers oraz Registered Scrum@Scale Trainers, a także stworzył niezależne firmy, zaczynając od Scrum Inc Japan. Jest założycielem i dyrektorem zarządzającym Tesla Investment Holdings LLC, który jest funduszem inwestycyjnym współinwestującym z OpenView Venture Partners oraz CompanyOn Ventures. Jako Prezes JVS Management Inc wspiera fundusz inwestycyjny i portfel spółek. Wszystkie organizacje maksymalizują wpływ poprzez wdrażanie Scrum@Scale i inwestowanie w agile'owe firmy.
 

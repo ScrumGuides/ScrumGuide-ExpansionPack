@@ -22,6 +22,8 @@ creator:
   - "MORE executive success"
 sameAs:
   - "https://evolved.institute"
+sitemap:
+  priority: 0.3
 ---
 
 John Coleman presenteert de Evolved-podcast, die zich richt op product- en designleiderschap, evenals executive management. Hij is medeoprichter van Evolved.Institute en Orderly Disruption.

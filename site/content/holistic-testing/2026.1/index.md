@@ -15,7 +15,7 @@ mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
-  priority: 0.8
+  priority: 0.7
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  

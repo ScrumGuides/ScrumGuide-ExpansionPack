@@ -22,6 +22,8 @@ creator:
   - "MORE executive success"
 sameAs:
   - "https://evolved.institute"
+sitemap:
+  priority: 0.3
 ---
 
 John Coleman es el anfitrión del pódcast _Evolved_, centrado en liderazgo de producto y diseño, así como en gestión ejecutiva. Es cofundador de Evolved.Institute y Orderly Disruption.

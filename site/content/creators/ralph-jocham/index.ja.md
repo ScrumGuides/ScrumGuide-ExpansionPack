@@ -41,6 +41,8 @@ expertise:
   - "大規模な企業変革"
   # - "Data-driven agile frameworks"
   - "データ駆動によるアジャイルフレームワーク"
+sitemap:
+  priority: 0.3
 ---
 
 <!-- Product Development Authority: -->

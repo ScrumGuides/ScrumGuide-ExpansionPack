@@ -14,4 +14,6 @@ categories:
   - Strategy
 aliases:
   - /scrum-guide-expansion-pack/
+sitemap:
+  priority: 0.9
 ---
