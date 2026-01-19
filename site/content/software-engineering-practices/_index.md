@@ -11,10 +11,4 @@ guide_license: |
   CC BY-NC-ND 4.0 | This section is included in its original, unaltered form with permission under the terms of the CC BY-NC-ND 4.0 license. No changes have been made.
 categories:
   - Engineering
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
 ---
