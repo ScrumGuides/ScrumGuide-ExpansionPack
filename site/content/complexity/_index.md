@@ -1,6 +1,6 @@
 ---
-title: Complexity (NOT DONE)
-description: Navigate complex adaptive systems and understand how to apply Scrum principles...
+title: Complexity
+description: Learn how the Cynefin Framework explains complexity in product development, and why Scrum works best where stability and experimentation meet. A practical guide to sensing change, avoiding fragile certainty, and adapting how teams work as patterns emerge.
 Type: "guide"
 Layout: "root"
 brand:
@@ -12,10 +12,9 @@ guide_license: |
 categories:
   - Strategy
   - Engineering
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
+tags:
+  - Complexity
+  - Cynefin
+  - Empirical learning
+  - Liminality
 ---
