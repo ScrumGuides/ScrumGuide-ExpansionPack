@@ -234,16 +234,19 @@ This is not primarily a team problem. It is an operating-model incompatibility.
 
 ## The Predictive Operating Model in historical context
 
-The predictive model aligns with industrial-era economic conditions:
+The predictive model aligns with industrial-era economic conditions that dominated from the late 19th century through much of the 20th century:
 
 - Demand growth was often stable and long-term.
 - Product lifecycles were long.
 - Competition was constrained by capital requirements and distribution limits.
+- Customer choice was limited by availability and geography.
 - Efficiency gains translated directly into market advantage.
 
-Scientific management and early industrial organisational design optimised for throughput and repeatability under these conditions. Specialisation, separation of planning from execution, and hierarchical control created efficiency and reliability.
+In this environment, customers purchased what was available rather than what was custom-fitted to evolving needs. Mass production and standardisation created economic value precisely because markets were relatively stagnant and predictable. Scientific management and early industrial organisational design optimised for throughput and repeatability under these conditions. Specialisation, separation of planning from execution, and hierarchical control created efficiency and reliability.
 
 The model was not an error. It was a rational response to a stable environment and a coherent theory of the business.
+
+However, these stable, supply-constrained markets have largely disappeared. Modern markets are characterised by abundant choice, globalised competition, low barriers to entry, and direct customer feedback loops. Customers can and do switch providers rapidly based on experience and value perception. Distribution channels no longer create natural protection. The industrial-era conditions that made predictive models effective have been replaced by customer choice-driven dynamic markets where adaptability matters more than efficiency alone.
 
 ## Why the Predictive Operating Model becomes invalid in dynamic markets
 
