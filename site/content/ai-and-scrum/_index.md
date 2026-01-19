@@ -1,6 +1,6 @@
 ---
-title: AI and Scrum (NOT DONE)
-description: Explore how artificial intelligence can enhance Scrum practices and help teams make better...
+title: AI and Scrum
+description: Using AI in Scrum? Learn how to keep outcomes, quality, and learning in control, so speed translates into real customer value, not faster failure.
 Type: "guide"
 Layout: "root"
 brand:
@@ -11,10 +11,4 @@ guide_license: |
   License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
 categories:
   - AI
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
 ---
