@@ -6,7 +6,7 @@
   githubUsername: ViralGoodAgile
   url: https://www.linkedin.com/in/johnanthonycoleman/
   contributions:
-    - "2025.9"
+    - "2026.1"
   role: creator
   founder: true
   weight: 1
@@ -15,16 +15,8 @@
   githubUsername: rjocham
   url: https://effectiveagile.com/
   contributions:
-    - "2025.9"
+    - "2026.1"
   role: creator
   weight: 1
   founder: true
 
-- name: Jeff Sutherland
-  githubUsername: jeffsutherlandd
-  url: https://www.scruminc.com/
-  contributions:
-    - "2025.9"
-  role: creator
-  weight: 1
-  founder: true
