@@ -4,6 +4,7 @@
 # All contributors in a flat list
 - name: Dave Farley
   url: https://www.continuous-delivery.co.uk/
+  image: /images/contributors/david-farley.jpg
   contributions:
     - "2026.1"
   role: creator
