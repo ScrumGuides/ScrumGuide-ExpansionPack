@@ -45,13 +45,8 @@ catch {
     throw "Pandoc required but not found"
 }
 
-# Ensure output directory exists
-if (-not (Test-Path $pdfOutputDir)) {
-    New-Item -ItemType Directory -Path $pdfOutputDir -Force | Out-Null
-}
-
-# Simple front matter parser
-function Get-FrontMatter {
+# Function to find all guide directories with versioned content
+function Get-GuideDirectories {
     param([string]$FilePath)
     
     $content = Get-Content -Path $FilePath -Raw
@@ -133,14 +128,15 @@ foreach ($guide in $guidesToProcess) {
     }
     
     Write-Host "   📅 Using version: $($latestVersion.Name)" -ForegroundColor Gray
-    # Create PDF output directory for this guide
-    $pdfOutputDir = Join-Path $guide.FullName "pdf"
+    # Create PDF output directory within the version folder
+    $pdfOutputDir = Join-Path $latestVersion.FullName "pdf"
     if (-not (Test-Path $pdfOutputDir)) {
         New-Item -ItemType Directory -Path $pdfOutputDir -Force | Out-Null
     }
     # Find all markdown files in the version folder
     $markdownFiles = Get-ChildItem -Path $latestVersion.FullName -Filter "*.md" | Where-Object {
-        $_.Name -match '^index\.(\w{2,3})\.md$'
+        # Match index.{lang}.md OR index.md (default/English)
+        $_.Name -match '^index(\.\w{2,3})?\.md$'
     }
     
     # If Language parameter is specified, filter to that language
@@ -157,9 +153,12 @@ foreach ($guide in $guidesToProcess) {
     
     # Process each language file
     foreach ($file in $markdownFiles) {
-        # Extract language code
+        # Extract language code (or use 'en' for index.md)
         if ($file.Name -match '^index\.([^.]+)\.md$') {
             $langCode = $matches[1]
+        }
+        elseif ($file.Name -eq 'index.md') {
+            $langCode = 'en'  # Default to English for index.md
         }
         else {
             continue
