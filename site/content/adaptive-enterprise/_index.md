@@ -1,5 +1,5 @@
 ---
-title: Adaptive Enterprise
+title: Adaptive Enterprise (NOT DONE)
 description: Transform your organization into an adaptive enterprise that thrives in uncertainty and...
 Type: "guide"
 Layout: "root"
