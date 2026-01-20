@@ -56,7 +56,7 @@
                   {{- end }}
                   {{- if $showEnglishOnly }}
                     <div class="mb-3">
-                      <span class="badge border border-warning text-warning bg-transparent" title="This content is only available in English"><i class="fa-solid fa-language me-1"></i>English Only</span>
+                      <span class="badge border border-warning text-warning bg-transparent" title="{{ i18n "badge_english_only_title" }}"><i class="fa-solid fa-language me-1"></i>{{ i18n "badge_english_only" }}</span>
                     </div>
                   {{- end }}
                 {{- end }}
@@ -76,13 +76,13 @@
                   {{- $renderNever := eq .build.render "never" -}}
                   {{- $listNever := eq .build.list "never" -}}
                   {{- if and (eq $env "production") (or $renderNever $listNever) -}}
-                    <span class="badge bg-danger" title="Will not be built in production">
-                      <i class="fa-solid fa-eye-slash me-1"></i>Production
+                    <span class="badge bg-danger" title="{{ i18n "badge_not_in_production_title" }}">
+                      <i class="fa-solid fa-eye-slash me-1"></i>{{ i18n "badge_not_in_production" }}
                     </span>
                   {{- end -}}
                   {{- if and (eq $env "preview") (or $renderNever $listNever) -}}
-                    <span class="badge bg-warning text-dark" title="Will not be built in preview">
-                      <i class="fa-solid fa-eye-slash me-1"></i>Preview
+                    <span class="badge bg-warning text-dark" title="{{ i18n "badge_not_in_preview_title" }}">
+                      <i class="fa-solid fa-eye-slash me-1"></i>{{ i18n "badge_not_in_preview" }}
                     </span>
                   {{- end -}}
                 {{- end -}}

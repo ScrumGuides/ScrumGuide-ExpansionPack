@@ -411,3 +411,40 @@
 
 - id: guide_historical_version_notice_suffix
   translation: "最新の情報を確認してください。"
+
+- id: guide_content_unavailable_note
+  translation: "注意:"
+
+- id: guide_content_unavailable_message
+  translation: "このページのコンテンツは現在{{ .Language }}では利用できません。以下にデフォルトのガイドコンテンツを表示しています。"
+
+# Badge translations for guide lists
+- id: badge_english_only
+  translation: "英語のみ"
+
+- id: badge_english_only_title
+  translation: "このコンテンツは英語でのみ利用可能です"
+
+- id: badge_newer_english_version
+  translation: "新しい英語版が利用可能"
+
+- id: badge_newer_english_version_title
+  translation: "新しいバージョンが英語で利用可能です"
+
+- id: badge_versions_count
+  translation: "バージョン"
+
+- id: badge_versions_available
+  translation: "{{ .Count }} バージョン利用可能"
+
+- id: badge_not_in_production
+  translation: "本番環境"
+
+- id: badge_not_in_production_title
+  translation: "本番環境ではビルドされません"
+
+- id: badge_not_in_preview
+  translation: "プレビュー"
+
+- id: badge_not_in_preview_title
+  translation: "プレビュー環境ではビルドされません"

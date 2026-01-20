@@ -101,11 +101,11 @@
                 
                 {{- if $showEnglishOnly }}
                   <div class="mb-3">
-                    <span class="badge border border-warning text-warning bg-transparent" title="This content is only available in English"><i class="fa-solid fa-language me-1"></i>English Only</span>
+                    <span class="badge border border-warning text-warning bg-transparent" title="{{ i18n "badge_english_only_title" }}"><i class="fa-solid fa-language me-1"></i>{{ i18n "badge_english_only" }}</span>
                   </div>
                 {{- else if $showNewerEnglishVersion }}
                   <div class="mb-3">
-                    <span class="badge border border-info text-info bg-transparent" title="A newer version is available in English"><i class="fa-solid fa-clock me-1"></i>Newer English Version Available</span>
+                    <span class="badge border border-info text-info bg-transparent" title="{{ i18n "badge_newer_english_version_title" }}"><i class="fa-solid fa-clock me-1"></i>{{ i18n "badge_newer_english_version" }}</span>
                   </div>
                 {{- end }}
               {{- end }}
@@ -125,21 +125,21 @@
                   {{- $renderNever := eq .build.render "never" -}}
                   {{- $listNever := eq .build.list "never" -}}
                   {{- if and (eq $env "production") (or $renderNever $listNever) -}}
-                    <span class="badge bg-danger" title="Will not be built in production">
-                      <i class="fa-solid fa-eye-slash me-1"></i>Production
+                    <span class="badge bg-danger" title="{{ i18n "badge_not_in_production_title" }}">
+                      <i class="fa-solid fa-eye-slash me-1"></i>{{ i18n "badge_not_in_production" }}
                     </span>
                   {{- end -}}
                   {{- if and (eq $env "preview") (or $renderNever $listNever) -}}
-                    <span class="badge bg-warning text-dark" title="Will not be built in preview">
-                      <i class="fa-solid fa-eye-slash me-1"></i>Preview
+                    <span class="badge bg-warning text-dark" title="{{ i18n "badge_not_in_preview_title" }}">
+                      <i class="fa-solid fa-eye-slash me-1"></i>{{ i18n "badge_not_in_preview" }}
                     </span>
                   {{- end -}}
                 {{- end -}}
               {{- end -}}
               {{/* Version count badge */}}
               {{- if gt (len $allVersions) 1 }}
-                <span class="badge bg-info bg-opacity-75" title="{{ len $allVersions }} versions available">
-                  <i class="fa-solid fa-code-branch me-1"></i>{{ len $allVersions }} versions
+                <span class="badge bg-info bg-opacity-75" title="{{ i18n "badge_versions_available" (dict "Count" (len $allVersions)) }}">
+                  <i class="fa-solid fa-code-branch me-1"></i>{{ len $allVersions }} {{ i18n "badge_versions_count" }}
                 </span>
               {{- end }}
               </div>
