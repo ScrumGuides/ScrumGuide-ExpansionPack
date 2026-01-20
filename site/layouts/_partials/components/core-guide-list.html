@@ -1,6 +1,45 @@
 {{/* Core Guide Section - Hard-coded to scrum-guide-expanded only */}}
-{{- $coreGuide := .Site.GetPage "/scrum-guide-expanded" }}
-{{- if $coreGuide }}
+{{- $coreGuideSection := .Site.GetPage "/scrum-guide-expanded" }}
+{{- if $coreGuideSection }}
+  {{/* Get all versions and find the latest one */}}
+  {{- $allVersions := partial "functions/get-all-versions" $coreGuideSection }}
+  {{- $coreGuide := "" }}
+  {{- $linkToPage := "" }}
+  
+  {{/* Find the latest version page (should be first in the list) */}}
+  {{- $latestVersionNumber := "" }}
+  {{- $linkUrl := "" }}
+  {{- if gt (len $allVersions) 0 }}
+    {{- $latestVersionObj := index $allVersions 0 }}
+    {{- $coreGuide = $latestVersionObj.page }}
+    {{- $linkToPage = $coreGuide }}
+    {{- $latestVersionNumber = $latestVersionObj.version }}
+    
+    {{/* Check if latest version has content */}}
+    {{- $hasContent := gt $coreGuide.WordCount 10 }}
+    {{- $isLatest := true }}
+    
+    {{/* If current version has no content, find the latest version with content to link to */}}
+    {{- if not $hasContent }}
+      {{- range $allVersions }}
+        {{- if gt .page.WordCount 10 }}
+          {{- $linkToPage = .page }}
+          {{- $isLatest = false }}
+          {{- break }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    
+    {{/* Use section root URL for latest version, versioned URL for older versions */}}
+    {{- if $isLatest }}
+      {{- $linkUrl = $coreGuideSection.RelPermalink }}
+    {{- else }}
+      {{- $linkUrl = $linkToPage.RelPermalink }}
+    {{- end }}
+  {{- end }}
+  
+  {{- if $linkToPage }}
+  
   <div class="mb-5 pb-4">
     <div class="d-flex align-items-center gap-3 mb-4">
       <span class="bg-primary rounded-pill" style="width: 0.375rem; height: 2rem;"></span>
@@ -9,7 +48,7 @@
 
     <div class="row g-4">
       <div class="col-12">
-        <a href="{{ $coreGuide.RelPermalink }}" class="text-decoration-none">
+        <a href="{{ $linkUrl }}" class="text-decoration-none">
           <div class="card h-100 border-2 border-primary shadow-sm hover-lift">
             <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary opacity-0 hover-opacity-10 rounded"></div>
             <div class="card-body p-4 p-lg-5 position-relative d-flex flex-column">
@@ -24,18 +63,49 @@
 
               <h3 class="h4 fw-bold text-primary mb-3 hover-text-primary">{{ $coreGuide.Params.short_title | default $coreGuide.Title }}</h3>
 
-              {{/* Check if content is only in English */}}
+              {{/* Check if content is only in English or if there's a newer English version */}}
               {{- $defaultSite := index $.Site.Sites 0 }}
               {{- if ne $.Site.Language.Lang $defaultSite.Language.Lang }}
                 {{- $showEnglishOnly := false }}
-                {{- if not $coreGuide.Translations }}
-                  {{- $showEnglishOnly = true }}
-                {{- else if eq (trim $coreGuide.Content " \n\t") "" }}
-                  {{- $showEnglishOnly = true }}
+                {{- $showNewerEnglishVersion := false }}
+                {{- $hasContent := gt $coreGuide.WordCount 10 }}
+                
+                {{/* If current version has no content, we already found the version with content above */}}
+                {{- if not $hasContent }}
+                  {{- if ne $linkToPage $coreGuide }}
+                    {{/* We're linking to an older version, so check if English has a newer version */}}
+                    {{- $englishGuide := $defaultSite.GetPage $coreGuideSection.Section }}
+                    {{- if $englishGuide }}
+                      {{- $englishVersions := partial "functions/get-all-versions" $englishGuide }}
+                      {{- if gt (len $englishVersions) 0 }}
+                        {{- $englishLatestObj := index $englishVersions 0 }}
+                        {{- $englishLatest := $englishLatestObj.version }}
+                        {{- $translationVersion := "" }}
+                        {{- $pathParts := split $linkToPage.RelPermalink "/" }}
+                        {{- range $pathParts }}
+                          {{- if and (ne . "") (findRE `^\d{4}\.\d+$` .) }}
+                            {{- $translationVersion = . }}
+                            {{- break }}
+                          {{- end }}
+                        {{- end }}
+                        {{- if and $englishLatest $translationVersion (ne $translationVersion $englishLatest) }}
+                          {{- $showNewerEnglishVersion = true }}
+                        {{- end }}
+                      {{- end }}
+                    {{- end }}
+                  {{- else }}
+                    {{/* No translation with content exists at all */}}
+                    {{- $showEnglishOnly = true }}
+                  {{- end }}
                 {{- end }}
+                
                 {{- if $showEnglishOnly }}
                   <div class="mb-3">
                     <span class="badge border border-warning text-warning bg-transparent" title="This content is only available in English"><i class="fa-solid fa-language me-1"></i>English Only</span>
+                  </div>
+                {{- else if $showNewerEnglishVersion }}
+                  <div class="mb-3">
+                    <span class="badge border border-info text-info bg-transparent" title="A newer version is available in English"><i class="fa-solid fa-clock me-1"></i>Newer English Version Available</span>
                   </div>
                 {{- end }}
               {{- end }}
@@ -50,12 +120,8 @@
               <div class="d-flex align-items-center justify-content-between pt-3 border-top mt-auto">
                 <div class="d-flex align-items-center gap-2 text-muted small">
                   <i class="fa-solid fa-clock"></i>
-                  {{- $allVersions := partial "functions/get-all-versions" $coreGuide -}}
-                  {{- if gt (len $allVersions) 0 }}
-                    {{- $latestVersionObj := index $allVersions 0 }}
-                    {{- with $latestVersionObj.page }}
-                      <span>{{ .ReadingTime }} min read</span>
-                    {{- end }}
+                  {{- if $linkToPage }}
+                    <span>{{ $linkToPage.ReadingTime }} min read</span>
                   {{- else }}
                     <span>15 min read</span>
                   {{- end }}
@@ -68,4 +134,5 @@
       </div>
     </div>
   </div>
+  {{- end }}
 {{- end }}
