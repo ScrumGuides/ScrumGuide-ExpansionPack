@@ -66,7 +66,7 @@ Two questions anchor the theory of the business in value delivery:
 
 In dynamic environments, a third question becomes equally determinative:
 
-- How quickly must the organization learn and respond for the customer's value to be captured?
+- How quickly must the organization learn and respond for the customer's value to be captured and sustained?
 
 Operating models differ materially in how they answer this third question.
 
@@ -88,9 +88,9 @@ Truly stable markets were the dominant condition during the industrial era. Toda
 
 Dynamic markets are characterised by persistent and often rapid change in one or more of the following dimensions:
 
-- **Customer needs and preferences** - What customers value evolves frequently and unpredictably, often faster than annual or quarterly planning cycles.
+- **Customer needs and preferences** - What customers value evolves frequently and unpredictably, often exceeds annual or quarterly planning cycles.
 - **Competitive landscape** - New entrants, substitute products, and competitive moves occur at high frequency, enabled by low barriers to entry and fast distribution.
-- **Technology evolution** - Underlying technologies, platforms, and capabilities change continuously, creating new possibilities and obsoleting existing approaches.
+- **Technology evolution** - Underlying technologies, platforms, and capabilities change continuously, creating new possibilities and obsoleting existing approaches. AI acceleration of work production further compounds this dynamic by increasing the rate at which options can be explored and delivered, widening the gap between organizations optimized for execution speed and those optimized for learning speed.
 - **Regulatory and external constraints** - Laws, standards, and market conditions shift in ways that require rapid organizational response.
 - **Market information velocity** - Feedback from customers, users, and markets arrives continuously at daily or faster timescales, making long-range predictions decay rapidly.
 
