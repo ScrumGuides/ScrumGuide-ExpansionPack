@@ -31,6 +31,8 @@ sitemap:
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
+---
+
 Scrum thrives when people are willing to share what they see, even when it is incomplete, inconvenient, or uncomfortable. Speaking up should be the default, not the exception. Psychological safety creates an environment for meaningful inspection and adaptation, which is how Scrum delivers learning and enables high performance.
 
 ### The fear tax in Scrum Teams

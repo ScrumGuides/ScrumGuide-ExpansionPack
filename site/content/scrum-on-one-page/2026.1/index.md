@@ -22,17 +22,13 @@ sitemap:
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
-**_Section: Scrum Expanded on One Page_**
-_Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
-_Author: Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Source: [Scrum Guide Expansion Pack](https://scrumexpansion.org)_  
 _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
 © _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
 _Disclaimer: No warranties are given. Use at your own risk._  
 _This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
 
-# Scrum _Expanded_ on One Page {#scrum-expanded-on-one-page}
+---
 
 Scrum is described in the [2020 Scrum Guide](https://scrumguides.org/) (40). Scrum is a lightweight framework for addressing complex (30-35) work, particularly in Product discovery, development, delivery, and value realization. Scrum is based on empirical process control (decisions informed by evidence) and lean thinking (reducing waste and focusing on the flow of value) (63). Scrum is purposefully incomplete, guiding interactions rather than prescribing detailed recipes.
 

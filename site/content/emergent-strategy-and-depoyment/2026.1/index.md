@@ -9,10 +9,9 @@ keywords:
   - Scrum in complex environments
   - Scrum and AI
 author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
-date: 2025-06-11T09:00:00Z
+  - Roger L. Martin
+  - Tom Gilb 
+date: 2026-01-18T09:00:00Z
 type: guide
 lang: en
 mainfont: "Times New Roman"
@@ -26,12 +25,9 @@ sitemap:
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
-**Section: Emergent Strategy and Strategy Deployment**  
-Author: Roger L. Martin, Tom Gilb  
-Source: (1-8)  
 Copyright: All rights reserved. Adapted
 
-# Emergent Strategy {#emergent-strategy}
+---
 
 Strategy is not limited by scale; if it exists, it should be clearly articulated at the corporate, business unit, or Product level and remain coherent and integrated across these levels. Crucially, strategy should distinguish between ends (quantified, Stakeholder-valued outcomes) and means (initiatives or activities).
 

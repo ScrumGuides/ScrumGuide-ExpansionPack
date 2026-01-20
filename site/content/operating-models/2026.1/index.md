@@ -26,10 +26,10 @@ sitemap:
   priority: 0.7
 ---
 
-***DRAFT ONLY: DO NOT PUBLISH***
-
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
+
+---
 
 ### Purpose and scope
 

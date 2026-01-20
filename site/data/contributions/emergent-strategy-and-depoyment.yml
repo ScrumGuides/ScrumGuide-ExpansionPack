@@ -1,0 +1,16 @@
+- name: Tom Gilb
+  githubUsername: Tom-Gilb
+  contributions:
+    - "2026.1"
+  weight: 100
+  founder: true
+  role: creator
+
+- name: Roger L. Martin
+  url: https://rogerlmartin.com/
+  image: https://rogerlmartin.com/images/default-source/default-album/roger-martin.jpg?sfvrsn=1d620382_1
+  contributions:
+    - "2026.1"
+  weight: 100
+  founder: true
+  role: creator

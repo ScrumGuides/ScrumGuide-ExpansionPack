@@ -10,3 +10,12 @@
   role: creator
   founder: true
   weight: 1
+
+- name: Janet Gregory
+  url: https://janetgregory.ca/
+  image: https://janetgregory.ca/wp-content/uploads/2013/07/janet-gregory-large.jpg
+  contributions:
+    - "2026.1"
+  role: contributor
+  founder: true
+  weight: 2
