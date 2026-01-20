@@ -314,3 +314,34 @@
 
 - id: guide_content_unavailable_message
   translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."
+
+# Badge translations for guide lists
+- id: badge_english_only
+  translation: "فقط به انگلیسی"
+
+- id: badge_english_only_title
+  translation: "این محتوا فقط به زبان انگلیسی در دسترس است"
+
+- id: badge_newer_english_version
+  translation: "نسخه جدیدتر انگلیسی موجود است"
+
+- id: badge_newer_english_version_title
+  translation: "نسخه جدیدتر به زبان انگلیسی در دسترس است"
+
+- id: badge_versions_count
+  translation: "نسخه‌ها"
+
+- id: badge_versions_available
+  translation: "{{ .Count }} نسخه موجود"
+
+- id: badge_not_in_production
+  translation: "تولید"
+
+- id: badge_not_in_production_title
+  translation: "در محیط تولید ساخته نخواهد شد"
+
+- id: badge_not_in_preview
+  translation: "پیش‌نمایش"
+
+- id: badge_not_in_preview_title
+  translation: "در محیط پیش‌نمایش ساخته نخواهد شد"

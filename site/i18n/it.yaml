@@ -309,3 +309,40 @@
 
 - id: guide_historical_version_notice_suffix
   translation: "per le informazioni più aggiornate."
+
+- id: guide_content_unavailable_note
+  translation: "Nota:"
+
+- id: guide_content_unavailable_message
+  translation: "Il contenuto di questa pagina non è attualmente disponibile in {{ .Language }}. Di seguito viene mostrato il contenuto predefinito della guida."
+
+# Badge translations for guide lists
+- id: badge_english_only
+  translation: "Solo in inglese"
+
+- id: badge_english_only_title
+  translation: "Questo contenuto è disponibile solo in inglese"
+
+- id: badge_newer_english_version
+  translation: "Versione inglese più recente disponibile"
+
+- id: badge_newer_english_version_title
+  translation: "È disponibile una versione più recente in inglese"
+
+- id: badge_versions_count
+  translation: "versioni"
+
+- id: badge_versions_available
+  translation: "{{ .Count }} versioni disponibili"
+
+- id: badge_not_in_production
+  translation: "Produzione"
+
+- id: badge_not_in_production_title
+  translation: "Non sarà costruito in produzione"
+
+- id: badge_not_in_preview
+  translation: "Anteprima"
+
+- id: badge_not_in_preview_title
+  translation: "Non sarà costruito in anteprima"

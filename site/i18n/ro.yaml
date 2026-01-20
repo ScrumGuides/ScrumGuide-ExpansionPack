@@ -328,3 +328,40 @@
 
 - id: guide_historical_version_notice_suffix
   translation: "pentru informațiile cele mai actualizate."
+
+- id: guide_content_unavailable_note
+  translation: "Notă:"
+
+- id: guide_content_unavailable_message
+  translation: "Conținutul acestei pagini nu este disponibil momentan în {{ .Language }}. Se afișează conținutul implicit al ghidului mai jos."
+
+# Badge translations for guide lists
+- id: badge_english_only
+  translation: "Doar în engleză"
+
+- id: badge_english_only_title
+  translation: "Acest conținut este disponibil doar în engleză"
+
+- id: badge_newer_english_version
+  translation: "Versiune în engleză mai nouă disponibilă"
+
+- id: badge_newer_english_version_title
+  translation: "O versiune mai nouă este disponibilă în engleză"
+
+- id: badge_versions_count
+  translation: "versiuni"
+
+- id: badge_versions_available
+  translation: "{{ .Count }} versiuni disponibile"
+
+- id: badge_not_in_production
+  translation: "Producție"
+
+- id: badge_not_in_production_title
+  translation: "Nu va fi construit în producție"
+
+- id: badge_not_in_preview
+  translation: "Previzualizare"
+
+- id: badge_not_in_preview_title
+  translation: "Nu va fi construit în previzualizare"
