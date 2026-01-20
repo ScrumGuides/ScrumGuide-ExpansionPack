@@ -110,6 +110,39 @@
                 {{- end }}
               {{- end }}
 
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                {{/* Categories/Tags */}}
+                {{- if $coreGuide.Params.categories }}
+                    {{- range $coreGuide.Params.categories }}
+                      <span class="badge bg-secondary bg-opacity-50">{{ . | title }}</span>
+                    {{- end }}
+                {{- end }}
+                {{/* Badges: excluded from production / preview based on cascade rules */}}
+              {{- $cascade := $coreGuide.Param "cascade" -}}
+              {{- with $cascade -}}
+                {{- range . -}}
+                  {{- $env := .target.environment -}}
+                  {{- $renderNever := eq .build.render "never" -}}
+                  {{- $listNever := eq .build.list "never" -}}
+                  {{- if and (eq $env "production") (or $renderNever $listNever) -}}
+                    <span class="badge bg-danger" title="Will not be built in production">
+                      <i class="fa-solid fa-eye-slash me-1"></i>Production
+                    </span>
+                  {{- end -}}
+                  {{- if and (eq $env "preview") (or $renderNever $listNever) -}}
+                    <span class="badge bg-warning text-dark" title="Will not be built in preview">
+                      <i class="fa-solid fa-eye-slash me-1"></i>Preview
+                    </span>
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}
+              {{/* Version count badge */}}
+              {{- if gt (len $allVersions) 1 }}
+                <span class="badge bg-info bg-opacity-75" title="{{ len $allVersions }} versions available">
+                  <i class="fa-solid fa-code-branch me-1"></i>{{ len $allVersions }} versions
+                </span>
+              {{- end }}
+              </div>
 
               <p class="text-muted mb-4">{{ $coreGuide.Params.description | markdownify }}</p>
 
