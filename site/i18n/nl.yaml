@@ -328,3 +328,34 @@
 
 - id: guide_content_unavailable_message
   translation: "Deze pagina-inhoud is momenteel niet beschikbaar in {{ .Language }}. De standaard gidsinhoud wordt hieronder weergegeven."
+
+# Badge translations for guide lists
+- id: badge_english_only
+  translation: "Alleen Engels"
+
+- id: badge_english_only_title
+  translation: "Deze inhoud is alleen beschikbaar in het Engels"
+
+- id: badge_newer_english_version
+  translation: "Nieuwere Engelse versie beschikbaar"
+
+- id: badge_newer_english_version_title
+  translation: "Een nieuwere versie is beschikbaar in het Engels"
+
+- id: badge_versions_count
+  translation: "versies"
+
+- id: badge_versions_available
+  translation: "{{ .Count }} versies beschikbaar"
+
+- id: badge_not_in_production
+  translation: "Productie"
+
+- id: badge_not_in_production_title
+  translation: "Wordt niet gebouwd in productie"
+
+- id: badge_not_in_preview
+  translation: "Voorbeeld"
+
+- id: badge_not_in_preview_title
+  translation: "Wordt niet gebouwd in voorbeeld"

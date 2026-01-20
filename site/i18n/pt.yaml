@@ -315,3 +315,34 @@
 
 - id: guide_content_unavailable_message
   translation: "O conteúdo desta página está atualmente indisponível em {{ .Language }}. Mostrando o conteúdo padrão do guia abaixo."
+
+# Badge translations for guide lists
+- id: badge_english_only
+  translation: "Somente em inglês"
+
+- id: badge_english_only_title
+  translation: "Este conteúdo está disponível apenas em inglês"
+
+- id: badge_newer_english_version
+  translation: "Versão em inglês mais recente disponível"
+
+- id: badge_newer_english_version_title
+  translation: "Uma versão mais recente está disponível em inglês"
+
+- id: badge_versions_count
+  translation: "versões"
+
+- id: badge_versions_available
+  translation: "{{ .Count }} versões disponíveis"
+
+- id: badge_not_in_production
+  translation: "Produção"
+
+- id: badge_not_in_production_title
+  translation: "Não será construído em produção"
+
+- id: badge_not_in_preview
+  translation: "Visualização"
+
+- id: badge_not_in_preview_title
+  translation: "Não será construído em visualização"

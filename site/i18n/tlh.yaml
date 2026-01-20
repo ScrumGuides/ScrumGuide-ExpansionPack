@@ -337,3 +337,43 @@
 
 - id: view_archive_button
   translation: "View Archive"
+
+- id: guide_content_unavailable_note
+  translation: "ghu:"
+
+- id: guide_content_unavailable_message
+  translation: "{{ .Language }} De' DaHjaj tu'be'lu'. chaq standard De' yIlegh."
+
+# Badge translations for guide lists
+- id: badge_english_only
+  translation: "DIvI' Hol neH"
+
+- id: badge_english_only_title
+  translation: "DIvI' Hol neH De' tu'lu'"
+
+- id: badge_newer_english_version
+  translation: "chu' DIvI' Hol version tu'lu'"
+
+- id: badge_newer_english_version_title
+  translation: "DIvI' Hol chu' version tu'lu'"
+
+- id: badge_versions_count
+  translation: "versions"
+
+- id: badge_versions_available
+  translation: "{{ .Count }} versions tu'lu'"
+
+- id: badge_not_in_production
+  translation: "chenmoH"
+
+- id: badge_not_in_production_title
+  translation: "production chenmoHbe'lu'"
+
+- id: badge_not_in_preview
+  translation: "preview"
+
+- id: badge_not_in_preview_title
+  translation: "preview chenmoHbe'lu'"
+
+- id: current_version_label
+  translation: "DaH version"
