@@ -1,6 +1,6 @@
 ---
-title: Scrum on One Page
-description: Scrum on one page, expanded for modern product work. A concise, practical view of Scrum’s roles, events, and commitments, with added clarity for complexity, product thinking, and evidence-based delivery.
+title: Strategy
+description: Scale Scrum effectively across multiple teams while maintaining agility and avoiding common...
 Type: "guide"
 Layout: "root"
 brand:
@@ -11,6 +11,12 @@ guide_license: |
   License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
 categories:
   - Strategy
+  - Teams
+tags:
+  - Holistic Testing
+  - Built-in quality
+  - Fest feedback loops
+  - Whole-Team responsibility
 sitemap:
   priority: 0.8
 ---
