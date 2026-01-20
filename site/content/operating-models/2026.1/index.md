@@ -35,13 +35,13 @@ Note: This section is included in its original, unaltered form with permission u
 
 Operating model choice is a leadership and organisational design decision that constrains or enables the outcomes associated with Scrum. Scrum, as a social technology grounded in empiricism, cannot realise its intended benefits when implemented within a Predictive Operating Model in dynamic market conditions. The following content defines the characteristics of an Adaptive Operating Model and positions product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, as non-exclusive approaches that align organisational structure, decision rights, and learning loops to the realities of modern product work.
 
-What follows is a formal reference establishing definitions, assumptions, constraints, and consequences. Predictive models are not inherently wrong; their applicability is contextual. Where the theory of the business embedded in the operating model no longer matches the environment, the model becomes a systematic source of waste and reduces the value achievable from Scrum.
+What follows is a formal reference establishing definitions, assumptions, constraints, and consequences. Predictive models are not inherently wrong; their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
 
 ## Definitions
 
 ### Operating model
 
-An operating model defines the essential structure and mechanisms by which an organisation consistently delivers value, translating strategy into actionable workflows, roles, and decision rights. It is the enduring “way we work” across the organisation, shaping how teams, technology, governance, and processes interact to achieve outcomes at scale.
+An operating model defines the essential structure and mechanisms by which an organisation consistently delivers value, translating strategy into actionable workflows, roles, and decision rights - whether through deliberate deployment or emergent adaptation. It is the enduring "way we work" across the organisation, shaping how teams, technology, governance, and processes interact to achieve outcomes at scale.
 
 An operating model is not a delivery framework, a set of practices, or a methodology. It is the organisational system within which frameworks and practices operate. It determines:
 
@@ -57,7 +57,7 @@ The term "operating model" is used here in this precise organisational sense, no
 
 ### Theory of the business
 
-Every organisation operates on an implicit or explicit theory of the business, a set of assumptions about the environment, the organisation’s mission, who the customer is, what the customer values, and what capabilities are necessary for success. Operating models encode these assumptions into organisational structure and governance. When assumptions cease to match the environment, the operating model becomes a structural impediment, regardless of how well it is executed.
+Every organisation operates on an implicit or explicit theory of the business, a set of assumptions about the environment, the organisation’s mission, who the customer is, what the customer values, and what capabilities are necessary for success. Operating models encode these assumptions into organisational structure and governance. When assumptions no longer align the environment, the operating model becomes a structural impediment, regardless of how well it is executed.
 
 Two questions anchor the theory of the business in value delivery:
 
@@ -94,9 +94,7 @@ Dynamic markets are characterised by persistent and often rapid change in one or
 - **Regulatory and external constraints** - Laws, standards, and market conditions shift in ways that require rapid organisational response.
 - **Market information velocity** - Feedback from customers, users, and markets arrives continuously at daily or faster timescales, making long-range predictions decay rapidly.
 
-In dynamic markets, the primary competitive advantage shifts from execution efficiency to learning speed. Organisations that can detect change, understand its implications, and respond quickly capture disproportionate value. Those that rely on long planning cycles and fixed commitments systematically lag, regardless of execution quality.
-
-The distinction is not binary. Markets exist on a spectrum from stable to dynamic, and the degree of dynamism often varies within an organisation across different product lines or customer segments. The key criterion is whether the rate of environmental change exceeds the organisation's decision and adaptation cycles.
+In dynamic markets, the primary competitive advantage shifts from execution efficiency to learning speed. Organisations that can detect change, understand its implications, and respond quickly capture disproportionate value. The distinction between stable and dynamic markets is not binary. Markets exist on a spectrum from stable to dynamic, and the degree of dynamism often varies within an organisation across different product lines or customer segments. The key criterion is whether the rate of environmental change exceeds the organisation's decision-making and ability to adapt.
 
 ## Scrum outcomes and operating model dependency
 
