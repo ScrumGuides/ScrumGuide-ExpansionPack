@@ -31,6 +31,8 @@ author:
   - "Scrum: The Art of Doing Twice the Work in Half the Time"
 sameAs:
   - "https://www.scruminc.com"
+sitemap:
+  priority: 0.3
 ---
 
 Jeff Sutherland, de bedenker en medebedenker van Scrum en Scrum@Scale, heeft met duizenden bedrijven samengewerkt die Scrum implementeren en onlangs twee wereldwijde trainingsprogramma's gelanceerd voor geregistreerde Scrum-trainers en geregistreerde Scrum@Scale-trainers. Daarnaast heeft hij onafhankelijke bedrijven opgericht, te beginnen met Scrum Inc. Japan. Hij is oprichter en algemeen directeur van Tesla Investment Holdings LLC, een investeringsfonds dat samen met OpenView Venture Partners en CompanyOn Ventures investeert. Als directeur van JVS Management Inc. ondersteunt hij het investeringsfonds en de portfolio van bedrijven. Alle organisaties maximaliseren hun impact door Scrum@Scale te implementeren en te investeren in agile bedrijven.

@@ -1,5 +1,5 @@
 ---
-title: Scrum Expanded on One Page
+title: Scrum on One Page
 description: Scrum on one page, expanded for modern product work. A concise, practical view of Scrum’s roles, events, and commitments, with added clarity for complexity, product thinking, and evidence-based delivery.
 Type: "guide"
 Layout: "root"
@@ -11,4 +11,6 @@ guide_license: |
   License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
 categories:
   - Strategy
+sitemap:
+  priority: 0.8
 ---

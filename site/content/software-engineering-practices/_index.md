@@ -18,4 +18,6 @@ tags:
   - Modern Software Engineering
   - Continuous Delivery
   - Development Practices
+sitemap:
+  priority: 0.8
 ---

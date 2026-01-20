@@ -32,6 +32,8 @@ author:
   - "Scrum: cha'logh Qu' Qav SuvwI'"
 sameAs:
   - "https://www.scruminc.com"
+sitemap:
+  priority: 0.3
 ---
 
 **jeff sutherland**

@@ -1,5 +1,6 @@
 ---
 title: AI and Scrum (Expansion of the SGEP)
+subtitle: An Evidence-Informed Integration Guide
 description: AI can accelerate delivery, but it can also scale waste if you build the wrong things faster. This guide shows how Scrum’s transparency, inspection, and adaptation keeps humans accountable, protects quality, and turns AI-accelerated output into measurable outcomes, with practical guidance for Product Owners, Product Developers, Scrum Masters, and leaders.
 keywords:
 - AI-accelerated delivery
@@ -22,12 +23,7 @@ sitemap:
 ***Collected Resources for Scrum Guide Expansion Pack***  
 *This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements.*
 
-Title: AI and Scrum  
-Author: *Ralph Jocham, Jeff Sutherland*  
-Source: (1)  
-License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
-
-# AI and Scrum: An Evidence-Informed Integration Guide
+---
 
 ## Introduction
 

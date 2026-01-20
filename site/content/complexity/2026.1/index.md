@@ -1,5 +1,6 @@
 ---
 title: Complexity (Expansion of the SGEP)
+subtitle: Cynefin Framework Kind of Explanation unofficial & unauthorized
 description: Understand why product development fails when teams apply one fixed process to every situation. This guide explains complexity through the Cynefin Framework and shows how different contexts demand different responses. It clarifies why Scrum works best in complex, liminal spaces, where stability and experimentation coexist, helping leaders and teams sense change early, avoid fragile certainty, and adapt their way of working as patterns emerge.
 keywords:
 - Complexity
@@ -23,15 +24,14 @@ sitemap:
 ***Collected Resources for Scrum Guide Expansion Pack***  
 *This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements.*
 
-***Section, Cynefin Framework Kind of Explanation unofficial & unauthorized***  
-*Title: Cynefin Framework Kind of Explanation unofficial & unauthorized*  
-*Source: [Link to original [Cynefin wiki](https://cynefin.io/wiki/Main_Page)], [Link to this adaptation]*  
 *License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).* © 2017-*2025 Cynefin.io.*  
 *Disclaimer: No warranties are given. Use at your own risk.*  
 *This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons.*  
 *By using this Cynefin Framework Kind of Explanation unofficial & unauthorized, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.*
 
-# Cynefin®
+---
+
+## Cynefin®
 
 Cynefin® \[1-6\] offers a compass for leadership decision-making. It was popularized by the HBR article ‘A Leader's Framework for Decision Making’ by Dave Snowden and Mary Boone in 2007 and again in ‘Managing complexity (and chaos) in a crisis \- a field guide for decision makers inspired by the Cynefin framework’, also known as the ‘EU Field Guide.’ Its premise is that one should act differently depending on the dynamics of the space. It is often oversimplified. A given problem could exist in all domains simultaneously, each having different aspects.
 

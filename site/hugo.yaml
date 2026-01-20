@@ -121,7 +121,7 @@ params:
 sitemap:
   filename: sitemap.xml
   changefreq: daily
-  priority: 0.5
+  priority: 0.4
 rss:
   filename: rss.xml
   name: RSS Feed

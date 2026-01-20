@@ -19,7 +19,7 @@ mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
-  priority: 1.0
+  priority: 0.8
 aliases:
   - /scrum-guide-expansion-pack/2025.6/
 ---

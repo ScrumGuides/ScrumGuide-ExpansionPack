@@ -17,24 +17,18 @@ mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
-  priority: 0.8
+  priority: 0.7
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**
 
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
-**Title:** Software Engineering Practices for Scrum
-
-**Author:** _Dave Farley_
-
-**Source:** (1)
-
 **License/Copyright:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 **Note:** This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
-# Software Engineering Practices for Scrum
+---
 
 Scrum is a framework for developing and sustaining complex products. It provides the structure within which Scrum Teams can deliver value iteratively and incrementally. Scrum does not specify how Scrum Teams should build products or which techniques they must use. However, Scrum requires Scrum Teams to execute this iterative, incremental work effectively.
 

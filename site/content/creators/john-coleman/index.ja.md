@@ -30,6 +30,8 @@ creator:
   - "MORE executive success"
 sameAs:
   - "https://evolved.institute"
+sitemap:
+  priority: 0.3
 ---
 
 John Colemanは、プロダクトとデザインにおけるリーダーシップ、および経営管理に焦点を当てたポッドキャスト「Evolved」のホストを務めている。Evolved.Instituteおよび Orderly Disruptionの共同創設者でもある。

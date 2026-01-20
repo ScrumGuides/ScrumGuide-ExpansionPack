@@ -1,5 +1,5 @@
 ---
-title: Holistic Testing (Expansion of the SGEP)
+title: Holistic Testing, Quality Engineering, and Scrum (Expansion of the SGEP)
 description: Holistic Testing explains how Scrum Teams build quality in from discovery to production, using fast feedback, small changes, automation, observability, and safe releases to reduce risk and deliver customer value.
 keywords:
   - Holistic Testing
@@ -15,21 +15,16 @@ mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
-  priority: 0.8
+  priority: 0.7
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
-Title: Holistic Testing  
-Author: _Lisa Crispin_  
-Source: (1)  
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
-# **Holistic Testing, Quality Engineering, and Scrum**
-
-Lisa Crispin (with material from Janet Gregory)
+---
 
 Cross-functional Scrum Teams collaborate closely with customers, users, Stakeholders, and Supporters to deliver products that their customers value. The Supporters and customers expect quality to be built into the products. The entire Scrum Team is responsible for quality and testing. Testing activities occur throughout the whole infinite loop of software development.
 

@@ -17,4 +17,6 @@ tags:
   - Aligned autonomy
   - Shared Product Backlog
   - Continuous Integration
+sitemap:
+  priority: 0.8
 ---

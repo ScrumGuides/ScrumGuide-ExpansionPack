@@ -17,23 +17,19 @@ sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expansion-pack/2025.6
 sitemap:
-  priority: 1.0
+  priority: 0.7
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
-**_Section: Multi Team Scrum _**  
-_Title: Scrum Guide Expansion Pack Adaptation of: The original Scrum Guide_  
-_Author: Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Source: [Scrum Guide Expansion Pack](https://scrumexpansion.org)_  
 _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
 © _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
 _Disclaimer: No warranties are given. Use at your own risk._  
 _This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
 
-# Multi-Scrum-Team Products {#multi-scrum-team-products}
+---
 
 If a Scrum Team becomes too large, it should consider reorganizing into multiple cohesive Scrum Teams, each focused on the same Product. Multiple Scrum Teams on the same Product should share the same Product Goal, Product Backlog, Product Owner, baseline Definition of Outcome Done, and baseline Definition of Output Done.
 

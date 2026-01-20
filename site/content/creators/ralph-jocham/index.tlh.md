@@ -25,6 +25,8 @@ expertise:
   - "nIqHom nIv chenmoHmeH mIw"
   - "yoS tInDaq qochmey choHmeH"
   - "De' Devbogh agile patmey"
+sitemap:
+  priority: 0.3
 ---
 
 **ralph jocham**

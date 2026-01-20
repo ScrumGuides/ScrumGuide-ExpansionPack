@@ -1,5 +1,6 @@
 ---
 title: Product Thinking (Expansion of the SGEP)
+subtitle: From Output to Outcome – Product Management for Real Impact
 description: Modern Scrum demands product thinking, shifting teams from delivering outputs to owning outcomes and long-term impact through evidence, feedback loops, and continuous learning, supported by SGEP’s Definitions of Output Done and Outcome Done and Evidence-Based Management.
 keywords:
   - Outcome ownership
@@ -17,20 +18,16 @@ sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expansion-pack/2025.6
 sitemap:
-  priority: 1.0
+  priority: 0.7
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
 _This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
 
-**Section: Adaptive Executive**  
-Title: Product Thinking  
-Author: _Magdalena Firlit, Ralph Jocham_  
-Source: (1)  
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
-# From Output to Outcome – Product Management for Real Impact
+---
 
 ## Introduction
 

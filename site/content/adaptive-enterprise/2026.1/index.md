@@ -17,20 +17,16 @@ sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
-  priority: 1.0
+  priority: 0.7
 ---
 
 ***Collected Resources for Scrum Guide Expansion Pack***  
 *This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements.*
 
-**Section: Adaptive Enterprise**  
-Title: MORE executive SUCCESS extract  
-Author: John Coleman  
-Source: (1)  
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), © 2017-2025 Orderly Disruption Limited  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
-# The Adaptive Enterprise
+---
 
 It’s difficult for an enterprise to be adaptive \[2\] without a climate where words and actions match. Over eighty engagement models were studied. Amongst those were scaling or descaling frameworks, and Product operating models, which can be useful for multi-Scrum-Team Products. Models range from going too far to not doing enough in helping the Product organization become more adaptive. There is no grand, universal truth or context-free ‘Goldilocks zone.’
 

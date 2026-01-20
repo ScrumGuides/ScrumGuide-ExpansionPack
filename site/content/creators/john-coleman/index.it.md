@@ -22,6 +22,8 @@ creator:
   - "MORE executive success"
 sameAs:
   - "https://evolved.institute"
+sitemap:
+  priority: 0.3
 ---
 
 John Coleman è il conduttore del podcast Evolved, dedicato alla leadership di prodotto e design, nonché alla gestione esecutiva. È co-fondatore di Evolved.Institute e Orderly Disruption.

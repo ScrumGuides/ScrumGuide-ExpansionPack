@@ -1,5 +1,6 @@
 ---
 title: Operating Model as a Leadership Decision (Expansion of the SGEP)
+subtitle: The organisational preconditions for adaptive value delivery
 description: Operating model choice is a leadership decision that determines how organisations learn, adapt, and deliver value. Understand why predictive models fail in dynamic environments and how adaptive operating models enable decentralised decisions and continuous value delivery.
 keywords:
 - Operating model
@@ -22,17 +23,13 @@ sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
-  priority: 1.0
+  priority: 0.7
 ---
-
-***DRAFT ONLY: DO NOT PUBLISH***
 
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
-## Operating Model as a Leadership Decision
-
-**The organisational preconditions for adaptive value delivery**
+---
 
 ### Purpose and scope
 
@@ -101,7 +98,7 @@ In dynamic markets, the primary competitive advantage shifts from execution effi
 
 The distinction is not binary. Markets exist on a spectrum from stable to dynamic, and the degree of dynamism often varies within an organisation across different product lines or customer segments. The key criterion is whether the rate of environmental change exceeds the organisation's decision and adaptation cycles.
 
-### Scrum outcomes and operating model dependency
+## Scrum outcomes and operating model dependency
 
 Scrum is designed to support empirical product development through transparency, inspection, and adaptation. Scrum creates learning loops. It does not, by itself, create the organisational conditions required for those loops to influence decisions at the speed and fidelity needed in dynamic markets.
 

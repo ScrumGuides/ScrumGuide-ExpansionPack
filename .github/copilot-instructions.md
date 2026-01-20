@@ -112,6 +112,8 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 
 ### Content Guidelines
 
+#### Core Principles
+
 - Write for Scrum practitioners and leaders
 - Focus on practical, actionable guidance
 - Maintain consistency with Scrum Guide terminology
@@ -119,6 +121,52 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 - Use `scripts\Create-TranslationTemplate.ps1` for adding new language support
 - Ensure all content changes are reflected across all language versions
 - Test content rendering in all supported languages
+
+#### Writing and Style Guidelines
+
+**Purpose**
+- Write as a formal reference, not an article or blog post
+- Explain concepts, rationale, and implications, not persuasion or storytelling
+
+**Tone**
+- Professional, neutral, instructional
+- No casual language, humour, metaphors, or narrative devices
+- Assume a knowledgeable reader
+
+**Language**
+- Precise and technical
+- Use established Scrum and systems terminology consistently
+- Prefer explicit definitions over implied meaning
+- Avoid ambiguity and rhetorical questions
+
+**Structure**
+- Clear hierarchy with headings and sub-sections
+- Logical progression, concepts build on prior concepts
+- Suitable for sequential reading and later reference
+
+**Content Density**
+- High information density
+- Every paragraph introduces or clarifies a concept
+- No filler, anecdotes, or repetition
+
+**Explanatory Approach**
+- Focus on the *what* and the *why*
+- Make assumptions and principles explicit
+- Clarify intent, constraints, and consequences
+
+**Style Conventions**
+- Declarative sentences
+- Minimal adjectives and qualifiers
+- No marketing language or emotional framing
+- Use references where appropriate
+
+**Audience**
+- Practitioners seeking depth and precision
+- Assumes familiarity with Scrum fundamentals
+
+**Overall Character**
+- Canonical, educational, reference-oriented
+- Extends understanding rather than simplifying
 
 ### UX Validation & Testing
 
@@ -161,6 +209,50 @@ This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, host
 - Proper heading hierarchy (H1 for titles, H2+ for sections)
 - Use Hugo's taxonomy system if categorization is needed
 - Implement proper internal linking
+
+#### Reference Formatting Standards
+
+**ALWAYS use the academic reference format** as demonstrated in `site/content/psychological-safety-in-scrum-teams/2026.1/index.md`. This format ensures consistency, credibility, and proper attribution across all guide content.
+
+**In-Text Citations:**
+- Use footnote references (e.g., `[^1]`, `[^2]`) immediately after the cited material
+- Number references sequentially as they appear in the text
+- Place footnote markers after punctuation: `According to Smith (42), teams should...[^1]`
+
+**Reference Section:**
+- Include a `## References` heading at the end of every guide document
+- Format each reference using this structure:
+
+```markdown
+[^1]: Author(s) (Year) 'Article/Chapter title', *Journal/Book Title*, Volume(Issue), pp. page-range.
+
+[^2]: Author(s) (Year) *Book Title*. City: Publisher.
+
+[^3]: Organization/Website (Date or 'no date') *Page Title*. Available at: [URL](URL) (Accessed: DD Month YYYY).
+
+[^4]: Platform (Year) *Video/Resource Title* [Medium]. Available at: [URL](URL) (Accessed: DD Month YYYY).
+```
+
+**Examples from Psychological Safety guide:**
+- Journal article: `[^2]: Edmondson, A. (1999) 'Psychological safety and learning behavior in work teams', *Administrative Science Quarterly*, 44(2), pp. 350–383.`
+- Book: `[^4] Edmondson, A.C. (2018) *The fearless organization: Creating psychological safety in the workplace for learning, innovation, and growth*. Hoboken, NJ: John Wiley & Sons.`
+- Website: `[^5] Google Re:Work (no date) *Understanding team effectiveness*. Available at: [https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness](https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness) (Accessed: 7 January 2026).`
+- Video: `[^18]: YouTube (2020) *Amy Edmondson: The Fearless Organization* [Video]. Available at: [https://www.youtube.com/watch?v=LhoLuui9gX8](https://www.youtube.com/watch?v=LhoLuui9gX8) (Accessed: 7 January 2026).`
+
+**Key formatting rules:**
+- Use italics for titles: `*Book Title*` or `*Journal Name*`
+- Use single quotes for article/chapter titles: `'Article Title'`
+- Include access dates for all online resources: `(Accessed: 7 January 2026)`
+- Maintain consistent punctuation and spacing
+- List references in numerical order as footnotes
+- Keep URLs clickable within square brackets: `[URL](URL)`
+
+**When converting existing references:**
+- Identify all citations and quotes in the content
+- Add sequential footnote markers `[^1]`, `[^2]`, etc.
+- Create properly formatted reference entries
+- Ensure every footnote marker has a corresponding reference entry
+- Verify all URLs are working and properly formatted
 
 ### Performance
 

@@ -25,6 +25,8 @@ expertise:
   - "Succesvolle producten bouwen"
   - "Bedrijfstransformatie op schaal"
   - "Datagestuurde agile frameworks"
+sitemap:
+  priority: 0.3
 ---
 
 Autoriteit in productontwikkeling:

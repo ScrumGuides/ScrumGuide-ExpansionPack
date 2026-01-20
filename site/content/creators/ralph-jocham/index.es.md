@@ -25,6 +25,8 @@ expertise:
   - "Construcción de productos exitosos"
   - "Transformación empresarial a gran escala"
   - "Marcos ágiles basados en datos"
+sitemap:
+  priority: 0.3
 ---
 
 **Autoridad en Desarrollo de Productos:**  
