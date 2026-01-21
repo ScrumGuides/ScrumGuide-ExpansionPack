@@ -207,6 +207,7 @@ Operating models can be described as a hierarchy of intent and specialization:
 
 - *Operating Model*
   - Predictive Operating Model
+    - Project Operating Model
   - Adaptive Operating Model
     - Product Operating Model
     - Agile Product Operating Model
