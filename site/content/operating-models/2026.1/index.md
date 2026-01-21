@@ -32,7 +32,7 @@ License/Copyright: Creative Commons Attribution 4.0 International ([CC BY 4.0](h
 
 ### Purpose and scope
 
-Operating model choice is a leadership and organizational design decision that constrains or enables the outcomes associated with Scrum. Scrum, as a social technology grounded in empiricism, cannot realize its intended benefits when implemented within a Predictive Operating Model in dynamic market conditions. The following content defines the characteristics of an Adaptive Operating Model and positions product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, as non-exclusive approaches that align organizational structure, decision rights, and learning loops to the realities of modern product work.
+Operating model choice is a leadership and organizational design decision that constrains or enables the outcomes associated with Scrum. Scrum, as a social technology grounded in empiricism, has its benefits systematically constrained when implemented within a Predictive Operating Model in dynamic market conditions. The following content defines the characteristics of an Adaptive Operating Model and positions product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, as non-exclusive approaches that align organizational structure, decision rights, and learning loops to the realities of modern product work.
 
 What follows is a formal reference establishing definitions, assumptions, constraints, and consequences. Predictive models are not inherently wrong; their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
 
@@ -93,7 +93,7 @@ Dynamic markets are characterized by persistent and often rapid change in one or
 - **Regulatory and external constraints** - Laws, standards, and market conditions shift in ways that require rapid organizational response.
 - **Market information velocity** - Feedback from customers, users, and markets arrives continuously at daily or faster timescales, making long-range predictions decay rapidly.
 
-In dynamic markets, the primary competitive advantage shifts from execution efficiency to learning speed[^6]. Organizations that can detect change, understand its implications, and respond quickly capture disproportionate value. The distinction between stable and dynamic markets is not binary. Markets exist on a spectrum from stable to dynamic, and the degree of dynamism often varies within an organization across different product lines or customer segments. The key criterion is whether the rate of environmental change exceeds the organization's decision-making and ability to adapt.
+In dynamic markets, the primary competitive advantage shifts from execution efficiency to learning speed[^6]. Organizations that can detect change, understand its implications, and respond quickly capture disproportionate value. Learning speed includes distinguishing signal from noise; otherwise rapid feedback drives tampering. The distinction between stable and dynamic markets is not binary. Markets exist on a spectrum from stable to dynamic, and the degree of dynamism often varies within an organization across different product lines or customer segments. The key criterion is whether the rate of environmental change exceeds the organization's decision-making and ability to adapt.
 
 ## Complexity in Operating Models
 
@@ -262,7 +262,7 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **System stability with deliberate change** - The operating model keeps team boundaries, funding models, product boundaries, and decision rights stable, enabling capability building and continuous learning. Within that stability, strategy, backlog ordering, and investment allocation change continuously based on evidence. Structural changes to the stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction prevents the misread that stable teams means frozen direction—teams remain stable while direction adapts.
 
-- **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction. It avoids stage gates that delay learning and force speculative commitments.
+- **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction, with explicit limits and escalation rules. It avoids stage gates that delay learning and force speculative commitments.
 
 - **Technical excellence as a condition of speed** - In knowledge work, fast adaptation requires low-cost and quick change. Technical excellence reduces the cost and risk of change (and perhaps faster), enabling frequent increments and emergent feedback[^9][^10].
 
@@ -397,7 +397,7 @@ Utilization metrics assume the objective is to keep resources busy. In dynamic e
 - Experimentation and learning
 - Cross-skilling
 
-Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. In-progress work is a liability while realized value is an asset.
+Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. High utilization also increases queuing delay and reduces capacity for improvement work. In-progress work is a liability while realized value is an asset.
 
 Adaptive models measure outcomes (customer satisfaction, market results), capability (cycle time improvement, quality trends), and system flow (lead time, throughput), explicitly for learning and improvement rather than for individual judgement[^8]. Flow measures require guardrails: optimizing one team's throughput while degrading end-to-end delivery creates system waste. Measures exist to surface reality and guide adaptation, not to rank people or justify resource allocation decisions.
 
@@ -723,6 +723,6 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 
 [^20]: Cutler, J. (2026) 'TBM 402: The Real-World Journey to Value and Product-Centricity', *The Beautiful Mess*. Available at: [https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to](https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to) (Accessed: 21 January 2026).
 
-[^21]: Deming, W.E. (1994) *The New Economics for Industry, Government, Education*. Second Edition. Cambridge, MA: MIT Press.
+[^21]: Deming, W.E. (1993) *The New Economics for Industry, Government, Education*. Cambridge, MA: MIT Press.
 
-[^22]: Deming, W.E. (1986) *Out of the Crisis*. Cambridge, MA: MIT Press.
+[^22]: Deming, W.E. (1982) *Out of the Crisis*. Cambridge, MA: MIT Press.
