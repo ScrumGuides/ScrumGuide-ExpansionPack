@@ -236,6 +236,34 @@ The site supports enhanced callouts for highlighting important information:
 
 See the [Content Management Guide](./content-management.md#blockquotes-and-callouts) for detailed examples.
 
+#### Diagrams with Mermaid.js
+
+The site supports Mermaid.js for creating diagrams. To use diagrams in your content:
+
+1. **Enable Mermaid in front matter:**
+   ```yaml
+   ---
+   title: "Your Guide Page"
+   enableMermaid: true
+   ---
+   ```
+
+2. **Create diagram in markdown:**
+   ````markdown
+   ```mermaid
+   flowchart LR
+       A[Product Backlog] --> B[Sprint Planning]
+       B --> C[Sprint Backlog]
+       C --> D[Increment]
+   ```
+   ````
+
+**Note:** Mermaid is **disabled by default** for performance. Only enable it on pages that actually use diagrams.
+
+**Supported diagram types:** Flowcharts, sequence diagrams, class diagrams, state diagrams, Gantt charts, and more.
+
+See the [Content Management Guide](./content-management.md#diagrams-with-mermaidjs) for detailed examples and best practices.
+
 ### Adding References
 
 When adding references, follow this format:

@@ -42,8 +42,20 @@ weight: 10
 draft: false
 type: "guide"
 layout: "single"
+enableMermaid: false  # Optional: Enable Mermaid.js diagrams (default: false)
 ---
 ```
+
+##### Front Matter Options
+
+- **`title`** - Page title (required)
+- **`description`** - SEO meta description (required)
+- **`date`** - Publication date (required)
+- **`weight`** - Sort order for navigation (optional)
+- **`draft`** - Set to `true` to hide from production (default: `false`)
+- **`type`** - Content type (e.g., "guide", "creator")
+- **`layout`** - Template layout to use
+- **`enableMermaid`** - Enable Mermaid.js for diagrams (default: `false`)
 
 #### Content Guidelines
 
@@ -131,6 +143,99 @@ For more prominent callouts, use GitHub-flavored alert syntax with these types:
 > utilization is not a product issue. It's a leadership and organizational design 
 > issue masquerading as an execution problem.
 ```
+
+#### Diagrams with Mermaid.js
+
+The site supports Mermaid.js for creating diagrams directly in markdown. This feature must be explicitly enabled per page.
+
+##### Enabling Mermaid
+
+To use Mermaid diagrams on a page, add `enableMermaid: true` to the front matter:
+
+```yaml
+---
+title: "Your Guide Page"
+enableMermaid: true
+---
+```
+
+**Important:** Mermaid is **disabled by default** to optimize page load performance. Only enable it on pages that actually use diagrams.
+
+##### Creating Diagrams
+
+Once enabled, create diagrams using fenced code blocks with the `mermaid` language identifier:
+
+**Flowchart Example:**
+
+````markdown
+```mermaid
+flowchart TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Action 1]
+    B -->|No| D[Action 2]
+    C --> E[End]
+    D --> E
+```
+````
+
+**Sequence Diagram Example:**
+
+````markdown
+```mermaid
+sequenceDiagram
+    participant PO as Product Owner
+    participant DEV as Developers
+    participant SM as Scrum Master
+    
+    PO->>DEV: Define Product Goal
+    DEV->>SM: Request facilitation
+    SM->>DEV: Facilitate Sprint Planning
+    DEV->>PO: Clarify requirements
+```
+````
+
+**Gantt Chart Example:**
+
+````markdown
+```mermaid
+gantt
+    title Sprint Timeline
+    dateFormat YYYY-MM-DD
+    section Sprint 1
+    Sprint Planning    :2025-06-09, 2d
+    Development        :2025-06-11, 10d
+    Sprint Review      :2025-06-21, 1d
+    Sprint Retro       :2025-06-21, 1d
+```
+````
+
+##### Supported Diagram Types
+
+Mermaid.js supports many diagram types:
+
+- **Flowcharts** - Process flows and decision trees
+- **Sequence Diagrams** - Interaction between participants
+- **Class Diagrams** - Object-oriented structures
+- **State Diagrams** - State machines and transitions
+- **Entity-Relationship Diagrams** - Database schemas
+- **Gantt Charts** - Project timelines
+- **Pie Charts** - Data visualization
+- **Git Graphs** - Branch and merge visualization
+
+##### Best Practices
+
+- **Enable only when needed** - Keep `enableMermaid: false` unless the page uses diagrams
+- **Keep diagrams simple** - Complex diagrams may be hard to read on mobile
+- **Use descriptive labels** - Make diagram elements self-explanatory
+- **Test rendering** - Preview diagrams locally before committing
+- **Provide alt text context** - Add explanatory text before/after diagrams
+- **Consider accessibility** - Ensure diagrams complement, not replace, text explanations
+
+##### Mermaid Resources
+
+- [Mermaid.js Official Documentation](https://mermaid.js.org/)
+- [Mermaid Live Editor](https://mermaid.live/) - Test diagrams online
+- [Syntax Reference](https://mermaid.js.org/intro/syntax-reference.html)
 
 ### 2. Creator Profiles
 
