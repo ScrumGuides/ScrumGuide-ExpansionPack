@@ -222,6 +222,8 @@ The Predictive Operating Model is effective when its assumptions hold. It is app
 
 The model’s success in stable environments is a reason it persists. It is familiar, operationally legible, and measurably efficient when the environment does not require frequent adaptation.
 
+Even in stable environments, the imperative to understand variation, improve the system as a whole, and enable continuous improvement remains[^21][^22]. Predictive structures address execution efficiency, but they do not eliminate the need for learning, quality improvement, and respect for people. The adaptive operating model intensifies these requirements by adding environmental volatility, not by replacing them.
+
 ## The Adaptive Operating Model
 
 ### Core assumption
@@ -401,7 +403,7 @@ Such measurement regimes also create fear, encouraging people to protect metrics
 
 Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. High utilization also increases queuing delay and reduces capacity for improvement work. In-progress work is a liability while realized value is an asset.
 
-Adaptive models measure outcomes (customer satisfaction, market results), capability (cycle time improvement, quality trends), and system flow (lead time, throughput), explicitly for learning and improvement rather than for individual judgement[^8]. Flow measures require guardrails: optimizing one team's throughput while degrading end-to-end delivery creates system waste. Measures exist to surface reality and guide adaptation, not to rank people or justify resource allocation decisions.
+Adaptive models measure outcomes (customer satisfaction, market results), capability (cycle time improvement, quality trends), and system flow (lead time, throughput), explicitly for learning and improvement rather than for individual judgement[^8]. Teams can only be accountable for outcomes when they also have authority over the system constraints that shape those outcomes. Flow measures require guardrails: optimizing one team's throughput while degrading end-to-end delivery creates system waste. Measures exist to surface reality and guide adaptation, not to rank people or justify resource allocation decisions.
 
 ### Stage gates and approval chains
 
