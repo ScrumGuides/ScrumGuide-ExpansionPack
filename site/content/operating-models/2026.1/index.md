@@ -369,15 +369,15 @@ Project funding typically assumes:
 
 Scrum assumes:
 
-- Value is discovered and refined through feedback
+- Value is discovered and refined through result feedback
 - The Product Backlog evolves with learning
 - The Product Owner makes ordering decisions continuously
 
-Fixed scope governance treats adaptation as deviation. Scrum treats adaptation as required. The conflict is structural.
+Fixed-scope governance treats adaptation as deviation. Scrum treats adaptation as required. The conflict is structural.
 
 A compatible funding approach funds products, value streams, or persistent teams, and expects scope to evolve within strategic boundaries.
 
-Lean-agile procurement and Beyond Budgeting practices[^13] provide complementary approaches that reduce the need for speculative commitments and enable rolling decisions based on evidence.
+Lean-agile procurement[^19] and Beyond Budgeting practices[^13] provide complementary approaches that reduce the need for speculative commitments and enable rolling decisions based on evidence.
 
 ### Functional silos and dependency-based delivery
 
@@ -630,3 +630,5 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 [^16]: Mezick, D. et al. (2015) *The OpenSpace Agility Handbook*. Connecticut: New Technology Solutions, Inc.
 [^17]: Snowden, D.J. and Boone, M.E. (2007) 'A Leader's Framework for Decision Making', *Harvard Business Review*, November, pp. 69-76.
 [^18]: Vodde, B. (2015) *Dynamic Reteaming and Organizational Design in LeSS* [Video]. Available at: [https://youtu.be/cxmLO0U6gQ0](https://youtu.be/cxmLO0U6gQ0) (Accessed: 18 January 2026).
+
+[^19]: Mirko Kleiner (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time* <https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half>
