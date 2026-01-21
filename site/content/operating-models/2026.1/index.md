@@ -26,7 +26,7 @@ sitemap:
   priority: 0.7
 ---
 
-Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). © 2026 Martin Hinshelwood.
+License/Copyright: Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). © 2026 Martin Hinshelwood.
 
 ---
 
