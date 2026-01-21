@@ -96,6 +96,50 @@ Dynamic markets are characterised by persistent and often rapid change in one or
 
 In dynamic markets, the primary competitive advantage shifts from execution efficiency to learning speed[^6]. Organizations that can detect change, understand its implications, and respond quickly capture disproportionate value. The distinction between stable and dynamic markets is not binary. Markets exist on a spectrum from stable to dynamic, and the degree of dynamism often varies within an organization across different product lines or customer segments. The key criterion is whether the rate of environmental change exceeds the organization's decision-making and ability to adapt.
 
+## Complexity in Operating Models
+
+Markets differ not only in their rate of change, but in their essential nature. Understanding this distinction is critical for leaders choosing an operating model, yet complexity is often overcomplicated.
+
+Dave Snowden's Cynefin framework[^17] describes different domains of work. For leadership purposes, two domains matter most:
+
+### Simple contexts
+
+Simple contexts have clear cause-and-effect relationships that are predictable and repeatable. Best practices exist and can be codified. When you apply a known solution, you get a known result. Learning and standardization turn complicated problems into simple ones.
+
+In simple contexts:
+
+- Solutions are discoverable through expertise and analysis
+- Repeatable processes produce consistent outcomes
+- Knowledge accumulation reduces uncertainty
+- Standardization improves efficiency and reliability
+
+Most operational work, once understood, becomes simple. Manufacturing processes, transaction processing, and established service delivery models operate in this domain. The predictive operating model excels here because cause-and-effect is knowable and stable.
+
+### Complex contexts
+
+Complex contexts have cause-and-effect relationships that are only understood in retrospect, if at all. Outcomes emerge from interactions between many agents and factors. The same action can produce different results depending on context, timing, and state.
+
+In complex contexts:
+
+- Solutions cannot be known in advance
+- Outcomes emerge through experimentation and interaction
+- Learning helps adaptation, but does not produce predictability
+- Standardization offers no advantage because conditions keep changing
+
+Product work in dynamic markets operates in the complex domain. Customer needs, competitive responses, technology evolution, and regulatory shifts interact in ways that cannot be planned away. No amount of learning converts complex work into simple work. Learning only helps you adapt faster when surprise inevitably occurs.
+
+### Why this matters for operating models
+
+The predictive operating model assumes the work is simple or can be made simple through analysis and planning. It seeks to eliminate variability and standardize execution. This works when cause-and-effect is stable.
+
+The adaptive operating model assumes the work is complex and will remain so. It structures the organization to sense, respond, and learn continuously. It treats variability as information rather than noise, and expects emergence rather than plan conformance.
+
+**The critical leadership error is applying a simple-context operating model to complex-context work.** When leaders assume product development can be planned like manufacturing, they create structural waste. Teams gather requirements that decay before delivery. Plans become outdated before execution. Governance enforces conformance to obsolete assumptions. The organization optimizes for efficiency in execution while the real challenge is speed of learning.
+
+Scrum was designed specifically for complex work[^7]. It assumes outcomes cannot be predicted precisely, that learning must be continuous, and that adaptation is normal rather than exceptional. Scrum therefore requires an operating model aligned to complexity—one that enables fast feedback, distributed decision-making, and continuous adjustment based on evidence.
+
+The choice is not about preference or culture. It is about matching the operating model to the actual nature of the work.
+
 ## Scrum outcomes and operating model dependency
 
 Scrum is designed to support empirical product development through transparency, inspection, and adaptation[^7]. Scrum creates learning loops. It does not, by itself, create the organizational conditions required for those loops to influence decisions at the speed and fidelity needed in dynamic markets.
@@ -179,8 +223,6 @@ The Predictive Operating Model is effective when its assumptions hold. It is app
 
 The model’s success in stable environments is a reason it persists. It is familiar, operationally legible, and measurably efficient when the environment does not require frequent adaptation.
 
----
-
 ## The Adaptive Operating Model
 
 ### Core assumption
@@ -217,19 +259,19 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **Decentralized decision rights** - Decision-making authority is intentionally located close to where information emerges[^5], with explicit boundaries and clear escalation criteria. This reduces decision latency and prevents stale information from shaping outcomes.
 
-- **Explicit learning loops** - Learning is designed into the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and measurement.
+- **Explicit learning loops** - Learning is 'designed into' the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and continuous measurement.
 
-- **Stable structure with flexible execution** - Teams and accountabilities remain stable over time. The work and priorities change, not the organizational shape. This reduces coordination overhead and builds deep capability.
+- **Generally stable structure with flexible execution** - Teams and accountabilities remain stable over time as the default pattern. The work and priorities change, not the organizational shape. This reduces coordination overhead and builds broad and deep capability. However, stability does not mean rigidity. Intentional team reformation or dynamic reteaming can be a deliberate adaptive practice when organizational learning or strategic shifts require it[^18]. The distinction is between stable-by-default versus constant reorganization, and between intentional reformation versus arbitrary reassignment.
 
 - **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction. It avoids stage gates that delay learning and force speculative commitments.
 
-- **Technical excellence as a condition of speed** - In knowledge work, fast adaptation requires low-cost change. Technical excellence reduces the cost and risk of change, enabling frequent increments and reliable feedback[^9][^10].
+- **Technical excellence as a condition of speed** - In knowledge work, fast adaptation requires low-cost and quick change. Technical excellence reduces the cost and risk of change (and perhaps faster), enabling frequent increments and emergent feedback[^9][^10].
 
 These characteristics create organizational compatibility with empiricism, and therefore compatibility with Scrum's intent.
 
 ## Why the distinction matters for Scrum
 
-Scrum is frequently implemented as a team-level process improvement while the organization retains a predictive operating model. In such implementations:
+Scrum is frequently adopted as a team-level process improvement while the organization retains a predictive operating model. In such adoptions, common contradictions arise:
 
 - Teams are asked to adapt within Sprints, while governance demands plan adherence across quarters and years.
 - Product Backlogs are treated as contract scope rather than emergent value hypotheses.
@@ -237,7 +279,7 @@ Scrum is frequently implemented as a team-level process improvement while the or
 - Teams are cross-functional in name, but depend on functional departments for completion.
 - Product Owners are accountable for value, but are constrained by project funding, fixed scope, and centralized prioritization.
 
-In these conditions, Scrum events may occur and artefacts may exist, but the learning loops are prevented from influencing organizational behavior. Scrum becomes a reporting structure rather than an empirical system.
+In these conditions, Scrum events may occur, and artefacts may exist, but the learning loops are prevented from influencing organizational behavior. Scrum becomes a reporting structure rather than an empirical system.
 
 This is not primarily a team problem. It is an operating-model incompatibility.
 
@@ -255,7 +297,7 @@ In this environment, customers purchased what was available rather than what was
 
 The model was not an error. It was a rational response to a stable environment and a coherent theory of the business.
 
-However, these stable, supply-constrained markets have largely disappeared. Modern markets are characterized by abundant choice, globalized competition, low barriers to entry, and direct customer feedback loops. Customers can and do switch providers rapidly based on experience and value perception. Distribution channels no longer create natural protection. The industrial-era conditions that made predictive models effective have been replaced by customer choice-driven dynamic markets where adaptability matters more than efficiency alone.
+However, these stable, supply-constrained markets are less prevent in the current era. Modern markets are characterized by abundant choice, globalized competition, low barriers to entry, and direct customer feedback loops. Customers can and do switch providers rapidly based on experience and value perception. Distribution channels no longer create natural protection. The industrial-era conditions that made predictive models effective have been replaced by customer choice-driven dynamic markets where adaptability matters more than efficiency alone.
 
 ## Why the Predictive Operating Model becomes invalid in dynamic markets
 
@@ -585,3 +627,5 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 [^15]: Laloux, F. (2014) *Reinventing Organizations: A Guide to Creating Organizations Inspired by the Next Stage of Human Consciousness*. Brussels: Nelson Parker.
 
 [^16]: Mezick, D. et al. (2015) *The OpenSpace Agility Handbook*. Connecticut: New Technology Solutions, Inc.
+[^17]: Snowden, D.J. and Boone, M.E. (2007) 'A Leader's Framework for Decision Making', *Harvard Business Review*, November, pp. 69-76.
+[^18]: Vodde, B. (2015) *Dynamic Reteaming and Organizational Design in LeSS* [Video]. Available at: [https://youtu.be/cxmLO0U6gQ0](https://youtu.be/cxmLO0U6gQ0) (Accessed: 18 January 2026).
