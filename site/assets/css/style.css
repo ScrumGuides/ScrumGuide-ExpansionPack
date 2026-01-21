@@ -501,3 +501,12 @@ a.footnote-ref:hover {
 sup + sup {
   margin-left: 0.2rem;
 }
+
+h2 {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--bs-primary);
+  padding-bottom: 0.75rem;
+}
