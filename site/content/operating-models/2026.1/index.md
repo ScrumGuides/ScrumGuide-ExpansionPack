@@ -260,7 +260,7 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **Explicit learning loops** - Learning is 'designed into' the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and measurement focused on outcomes, capability, quality, and flow rather than activity or utilization.
 
-- **System stability with deliberate change** - The operating model keeps team boundaries, funding models, product boundaries, and decision rights stable, enabling capability building and continuous learning. Within that stability, strategy, backlog ordering, and investment allocation change continuously based on evidence. Structural changes to the stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction prevents the misread that stable teams means frozen direction—teams remain stable while direction adapts.
+- **System stability with deliberate change** - The operating model keeps team boundaries, funding models, product boundaries, and decision rights stable, creating constancy of purpose while enabling continuous adaptation of strategy, priorities, and investment. Structural changes to the stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction prevents the misread that stable teams means frozen direction—teams remain stable while direction adapts.
 
 - **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction, with explicit limits and escalation rules. It avoids stage gates that delay learning and force speculative commitments.
 
@@ -346,7 +346,7 @@ Operating model choice is not an optimization problem within delivery teams. It 
 - How risk is managed
 - How accountability is expressed
 
-Scrum adoption without operating model alignment creates a structural contradiction. Teams are held accountable for outcomes while being governed as if outcomes were predictable.
+Scrum adoption without operating model alignment creates a structural contradiction. Teams are held accountable for outcomes while being governed as if outcomes were predictable. An operating model does not manage itself; it must be deliberately designed, monitored, and adjusted by leadership, because system behavior dominates individual performance.
 
 The leadership decision is therefore not "do we use Scrum?" It is:
 
@@ -396,6 +396,8 @@ Utilization metrics assume the objective is to keep resources busy. In dynamic e
 - Incident response
 - Experimentation and learning
 - Cross-skilling
+
+Such measurement regimes also create fear, encouraging people to protect metrics rather than surface reality, directly corrupting the feedback loops empiricism depends on.
 
 Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. High utilization also increases queuing delay and reduces capacity for improvement work. In-progress work is a liability while realized value is an asset.
 
