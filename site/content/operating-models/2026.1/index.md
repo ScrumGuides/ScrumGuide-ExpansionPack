@@ -381,7 +381,7 @@ Lean-agile procurement[^19] and Beyond Budgeting practices[^13] provide compleme
 
 ### Functional silos and dependency-based delivery
 
-Scrum Teams require the skills necessary to create a Done Increment[^6]. Functional silos create dependencies that delay completion and fragment accountability. A team can be labelled "cross-functional" while still relying on other departments for testing, security approval, release, or operations.
+Scrum Teams require the skills necessary to create a Done Increment[^6]. Functional silos create dependencies that delay completion and fragment accountabilityy; AI-powered development makes organization inefficiencies more obvious than before AI. A team can be labelled "cross-functional" while still relying on other departments for testing, security approval, release, or operations.
 
 Dependencies reduce feedback speed and introduce queueing effects[^9]. This undermines empiricism because learning arrives late and is expensive to act upon.
 
@@ -389,7 +389,7 @@ Adaptive models address this by making teams persistently cross-functional, and 
 
 ### Utilization and individual productivity controls
 
-Utilization metrics assume the objective is keeping resources busy. In dynamic environments the objective is learning and value. High utilization reduces slack, and slack is required for:
+Utilization metrics assume the objective is to keep resources busy. In dynamic environments the objective is learning and value. High utilization reduces slack, and slack is required for:
 
 - Discovery work
 - Technical improvement
@@ -397,15 +397,24 @@ Utilization metrics assume the objective is keeping resources busy. In dynamic e
 - Experimentation and learning
 - Cross-skilling
 
-Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value.
+Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. In a way, in progress work is a liability and realized value is an asset.
 
 Scrum outcomes improve when teams are measured on product outcomes and system capability rather than on individual activity[^8].
 
 ### Stage gates and approval chains
 
-Stage gates assume risk is managed by preventing progress until compliance is proven. In dynamic contexts, the primary risk is delayed learning. Gated progress delays discovery of errors and reduces the time available for correction.
+Stage gates assume risk is managed by preventing progress until compliance is proven. In dynamic contexts, the primary risk is delayed learning. Gated progress delays the discovery of errors and reduces the time available for correction.
 
 Scrum assumes continuous inspection and adaptation. Governance should therefore focus on transparency and fast correction rather than on delayed approval.
+
+Adaptive governance operates through principles that enable flow while managing risk:
+
+- **Risk management through transparency and feedback** - Rather than preventing progress until risk is proven absent, adaptive governance surfaces risk continuously through inspection and addresses it through fast correction cycles.
+- **Decision authority at the point of information** - Approval chains delay decisions until information becomes stale. Adaptive governance delegates authority within clear boundaries and escalates only when boundaries are exceeded.
+- **Learning gates instead of approval gates** - Progress is governed by whether teams are learning and adapting effectively, not by whether plans are being followed or approvals have been obtained.
+- **Investment decisions based on evidence** - Funding and capacity allocation respond to demonstrated value and learning rather than to projected ROI and speculative business cases.
+
+These principles do not eliminate governance. They reorient governance from control through prevention to enablement through transparency and rapid response.
 
 ## Why adopting an Adaptive Operating Model becomes imperative
 
