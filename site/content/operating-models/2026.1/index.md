@@ -61,6 +61,8 @@ The term "operating model" is used here in this precise organizational sense, no
 
 Every organization operates on an implicit or explicit theory of the business[^3], a set of assumptions about the environment, the organization's mission, who the customer is, what the customer values, and what capabilities are necessary for success. Operating models encode these assumptions into organizational structure and governance. When assumptions no longer align with the environment, the operating model becomes a structural impediment, regardless of how well it is executed.
 
+> Every system is perfectly designed to get the results it gets. – Edward Deming
+
 Two questions anchor the theory of the business in value delivery[^3]:
 
 - Who is the customer?
@@ -395,6 +397,12 @@ Mismatch produces distinct forms of waste that are structural, not incidental:
 - **Tampering waste** - Fast feedback without understanding variation leads executives to intervene on normal system fluctuations, creating instability[^22]. Leadership intervention should cross explicit decision thresholds—"Three consecutive Sprints below target"—not respond to single data points. Effective adaptive governance uses trends and ranges to distinguish system performance from random variation.
 
 These wastes reduce Scrum’s effectiveness because Scrum depends on transparency and adaptation. Predictive structures systematically discourage both; they even discourage inspection at times.
+
+### Common objections and when they hold
+
+- **Efficiency loss** - Holds when genuine economies of scale outweigh adaptation speed and efficiency includes cost of delays, rework, and missed opportunities—not just utilization
+- **Coordination costs** - Holds when integration complexity is inherent to work rather than created by silos and technical debt
+- **Capability gaps** - Always holds initially; clarifies required work (leadership capability in system design, team capability in continuous delivery, operational definitions) rather than justifying inaction
 
 ### Speed mismatch
 
