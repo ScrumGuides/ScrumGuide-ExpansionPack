@@ -311,33 +311,33 @@ In dynamic markets, the predictive model’s assumption set becomes systematical
 - Technology enables rapid competitive entry and substitution.
 - Market information changes continuously, often at daily timescales.
 - Regulatory and geopolitical changes can alter constraints rapidly.
-- Distribution and feedback channels shorten, increasing the penalty for slow response.
+- Distribution and feedback channels are shortened, increasing the penalty for slow response.
 
-When the environment shifts, the predictive model does not degrade gracefully. Its governance and structure amplify error.
+When the environment shifts, the predictive model degrades poorly. Its governance and structure amplify error.
 
-### Types of waste created by mismatch
+### Types of waste created by a mismatch
 
 Mismatch produces distinct forms of waste that are structural, not incidental:
 
 - **Planning waste** - Detailed upfront planning consumes capacity while producing plans that decay faster than they can be executed. The organization invests in certainty production rather than learning. Change then requires governance exceptions, escalating the cost of responding to reality.
-- **Decision latency waste** - Hierarchical decision-making delays responses to current information. When decisions arrive, they are based on stale abstractions rather than present conditions. Teams closest to customers lack authority to act on what they learn.
-- **Handoff and dependency waste** - Functional specialization creates handoffs, queues, and dependency management overhead. In dynamic contexts, these delays reduce the value of learning because responses arrive late.
-- **Innovation waste**
-Stage gates and risk controls designed for large capital bets prevent small experiments. This blocks safe-to-learn approaches, forcing organizations into speculative commitments.
-- **Measurement distortion waste** - Output-based measures (utilization, "on time and on budget," plan adherence) reward behaviors that suppress transparency and discourage adaptation[^8]. The organization optimizes visible activity rather than value creation.
-- **Human capability waste** - Treating people as interchangeable resources reduces ownership and undermines team-level learning. Continuous improvement requires persistent teams that evolve their capability, not project staffing cycles.
+- **Decision latency waste** - Hierarchical decision-making delays responses to current information. When decisions are made, they are based on stale abstractions rather than current conditions. Teams closest to customers lack the authority to act on what they learn.
+- **Handoff and dependency waste** - Functional specialization creates handoffs, queues, and overhead for dependency management. In dynamic contexts, these delays reduce the value of learning because responses arrive late.
+- **Innovation waste** - Stage gates and risk controls designed for large capital bets prevent small experiments. This blocks safe-to-learn approaches, forcing organizations into speculative commitments.
+- **Measurement distortion waste** - Output-based measures (utilization, "on time and on budget," plan adherence) reward behaviors that suppress transparency and discourage adaptation[^8]. The organization optimizes visible activity or outputs rather than value realisation.
+- **Human capability waste** - Treating people as interchangeable 'resources' reduces ownership and undermines team-level learning. Continuous improvement requires teams that evolve their capability, not project staffing cycles.
+- **System capability waste** - Optimizing individual teams or functions in isolation degrades overall system performance. Without explicit mechanisms for cross-team coherence and integration, organizations create local efficiency at the expense of end-to-end value delivery.
 
-These wastes reduce Scrum’s effectiveness because Scrum depends on transparency and adaptation. Predictive structures systematically discourage both.
+These wastes reduce Scrum’s effectiveness because Scrum depends on transparency and adaptation. Predictive structures systematically discourage both; they even discourage inspection at times.
 
 ### Speed mismatch
 
-In dynamic markets, the organization competes on learning speed. Predictive models operate on long horizons, annual budgets, quarterly plans, multi-month projects. Scrum operates on a Sprint cadence, and modern product learning operates even faster.
+In dynamic markets, the organization competes on learning and adaptation speed. Predictive models operate on long horizons, annual budgets, quarterly plans, and multi-month projects. Scrum operates on a Sprint cadence, and modern product learning operates even faster.
 
 When the organization's decision horizon is slower than the market's change horizon, empirical methods cannot produce competitive outcomes. The organization may still deliver outputs, but those outputs increasingly miss current value opportunities.
 
 ## Operating models as a leadership decision
 
-Operating model choice is not an optimization problem within delivery teams. It is a leadership-level decision because it determines:
+Operating model choice is not an optimization problem within delivery teams. It is a system-level decision because it determines:
 
 - Where authority resides
 - What behaviors are rewarded
@@ -348,11 +348,11 @@ Operating model choice is not an optimization problem within delivery teams. It 
 
 Scrum adoption without operating model alignment creates a structural contradiction. Teams are held accountable for outcomes while being governed as if outcomes were predictable.
 
-The leadership decision is therefore not "do we use Scrum." It is:
+The leadership decision is therefore not "do we use Scrum?" It is:
 
-- Which operating model will the organization use to translate strategy into value delivery?
-- What assumptions will leadership embed into decision rights, funding, governance, and measurement?[^3]
-- Will the organization treat uncertainty as a planning failure, or as a condition requiring empiricism?
+- Which operating model will the organization use to translate [strategy]({{< ref "/strategy" >}}) into value delivery?
+- What assumptions will leadership embed into decision rights, funding, governance, and measurement?[^3]. Will they become an [adaptive enterprise]({{< ref "/adaptive-enterprise" >}}) or remain a [predictive enterprise?
+- Will the organization treat uncertainty as a planning failure, or as a condition requiring adaptiveness?
 
 ## Operating-model incompatibilities with Scrum outcomes
 
