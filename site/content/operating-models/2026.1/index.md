@@ -611,7 +611,7 @@ Within an adaptive model, AI accelerates:
 - Automation of delivery and validation practices
 - Rapid iteration while preserving quality through engineering discipline
 
-The result is not merely faster delivery, but faster learning[^10]. Because dynamic markets reward learning speed, AI increases the penalty of predictive governance. Slow decision cycles become more costly when teams can quickly generate validated options.
+The result is not merely faster delivery, but faster learning[^10]. Because dynamic markets reward learning speed, AI increases the penalty of predictive governance: when AI accelerates option generation while decision latency remains unchanged, organizations generate more validated alternatives that are never acted upon, increasing misallocation and rework. Slow decision cycles become more costly when teams can quickly generate validated options.
 
 AI therefore, strengthens the case that operating model choice is a leadership imperative. Increased production capacity without increased learning capacity increases waste.
 
@@ -619,7 +619,7 @@ AI therefore, strengthens the case that operating model choice is a leadership i
 
 Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control in teh face of uncertainty.
 
-Operating-model hygiene is the disciplined practice of:
+Operating-model hygiene is the routine removal of policies that assume predictability in contexts where prediction error dominates. This disciplined practice includes:
 
 - Removing structures and governance mechanisms that assume predictability where it does not exist
 - Preventing the reintroduction of those mechanisms under pressure
