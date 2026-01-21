@@ -297,7 +297,7 @@ In this environment, customers purchased what was available rather than what was
 
 The model was not an error. It was a rational response to a stable environment and a coherent theory of the business.
 
-However, these stable, supply-constrained markets are less prevent in the current era. Modern markets are characterized by abundant choice, globalized competition, low barriers to entry, and direct customer feedback loops. Customers can and do switch providers rapidly based on experience and value perception. Distribution channels no longer create natural protection. The industrial-era conditions that made predictive models effective have been replaced by customer choice-driven dynamic markets where adaptability matters more than efficiency alone.
+However, these stable, supply-constrained markets are less prevalent in the current era. Modern markets are characterized by abundant choice, globalized competition, low barriers to entry, and direct customer feedback loops. Customers can and do switch providers rapidly based on experience and value perception. Distribution channels no longer create natural protection. The industrial-era conditions that made predictive models effective have been replaced by customer choice-driven dynamic markets where adaptability matters more than efficiency alone.
 
 ## Why the Predictive Operating Model becomes invalid in dynamic markets
 
@@ -323,7 +323,7 @@ Mismatch produces distinct forms of waste that are structural, not incidental:
 - **Decision latency waste** - Hierarchical decision-making delays responses to current information. When decisions are made, they are based on stale abstractions rather than current conditions. Teams closest to customers lack the authority to act on what they learn.
 - **Handoff and dependency waste** - Functional specialization creates handoffs, queues, and overhead for dependency management. In dynamic contexts, these delays reduce the value of learning because responses arrive late.
 - **Innovation waste** - Stage gates and risk controls designed for large capital bets prevent small experiments. This blocks safe-to-learn approaches, forcing organizations into speculative commitments.
-- **Measurement distortion waste** - Output-based measures (utilization, "on time and on budget," plan adherence) reward behaviors that suppress transparency and discourage adaptation[^8]. The organization optimizes visible activity or outputs rather than value realisation.
+- **Measurement distortion waste** - Output-based measures (utilization, "on time and on budget," plan adherence) reward behaviors that suppress transparency and discourage adaptation[^8]. The organization optimizes visible activity or outputs rather than value realization.
 - **Human capability waste** - Treating people as interchangeable 'resources' reduces ownership and undermines team-level learning. Continuous improvement requires teams that evolve their capability, not project staffing cycles.
 - **System capability waste** - Optimizing individual teams or functions in isolation degrades overall system performance. Without explicit mechanisms for cross-team coherence and integration, organizations create local efficiency at the expense of end-to-end value delivery.
 
@@ -381,7 +381,7 @@ Lean-agile procurement[^19] and Beyond Budgeting practices[^13] provide compleme
 
 ### Functional silos and dependency-based delivery
 
-Scrum Teams require the skills necessary to create a Done Increment[^6]. Functional silos create dependencies that delay completion and fragment accountabilityy; AI-powered development makes organization inefficiencies more obvious than before AI. A team can be labelled "cross-functional" while still relying on other departments for testing, security approval, release, or operations.
+Scrum Teams require the skills necessary to create a Done Increment[^6]. Functional silos create dependencies that delay completion and fragment accountability; AI-powered development makes organization inefficiencies more obvious than before AI. A team can be labelled "cross-functional" while still relying on other departments for testing, security approval, release, or operations.
 
 Dependencies reduce feedback speed and introduce queueing effects[^9]. This undermines empiricism because learning arrives late and is expensive to act upon.
 
@@ -397,7 +397,7 @@ Utilization metrics assume the objective is to keep resources busy. In dynamic e
 - Experimentation and learning
 - Cross-skilling
 
-Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. In a way, in progress work is a liability and realized value is an asset.
+Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. In-progress work is a liability while realized value is an asset.
 
 Scrum outcomes improve when teams are measured on product outcomes and system capability rather than on individual activity[^8].
 
@@ -436,28 +436,90 @@ This framing remains contextual, not moral. Predictive models are appropriate in
 
 Scrum operationalises empirical process control within a defined structure of roles, artefacts, and events. It creates short, local feedback loops where teams make work visible, inspect outcomes, and adapt based on evidence.
 
-An adaptive operating model is the organisational expression of empiricism. It is the set of leadership decisions, constraints, and policies that determines whether evidence from teams can influence strategy, investment, and direction.
+An adaptive operating model is the organizational expression of empiricism. It is the set of leadership decisions, constraints, and policies that determines whether evidence from teams can influence strategy, investment, and direction.
 
-At organisational scale, empirical process control only exists when leaders ensure that the same empirical properties apply beyond the team:
+At organizational scale, empirical process control only exists when leaders ensure that the same empirical properties apply beyond the team:
 
-- The organisation can see reality, through transparency of outcomes, constraints, and system behaviour
-- The organisation can learn from reality, through inspection of results from experiments, hypotheses, and delivery evidence
-- The organisation can change based on learning, through adaptation of strategy, investment, governance, and operating policies
+- The organization can see reality, through transparency of outcomes, constraints, and system behavior
+- The organization can learn from reality, through inspection of results from experiments, hypotheses, and delivery evidence
+- The organization can change based on learning, through adaptation of strategy, investment, governance, and operating policies
 
-This requires parallel safe-to-fail experiments, hypothesis-driven change, and adapted PDSA cycles. These are not academic constructs, they are practical mechanisms for organisational learning.
+This requires parallel safe-to-fail experiments, hypothesis-driven change, and adapted PDSA cycles. These are not academic constructs, they are practical mechanisms for organizational learning.
 
-Scrum creates local empirical cycles. The operating model determines whether the signals from those cycles have authority to shape organisational decisions. An adaptive operating model is therefore the mechanism that allows Scrum’s empirical process control to matter beyond the team boundary.
+Scrum creates local empirical cycles. The operating model determines whether the signals from those cycles have authority to shape organizational decisions. An adaptive operating model is therefore the mechanism that allows Scrum's empirical process control to matter beyond the team boundary.
 
 ## Product-centric adaptive implementations
 
 Adaptive operating models are general. Product-centric implementations specialize them for organizations whose primary value delivery mechanism is products.
 
-Two influential product-centric implementations are treated here as distinct and compatible:
+Rather than representing destinations or maturity stages, product operating models function as **adaptive lenses**. They become relevant under different organizational constraints and may be applied unevenly, in parallel, and revisited over time.
 
-- Marty Cagan's Product Operating Model
-- Scrum.org's Agile Product Operating Model
+The organising premise for understanding these lenses is that transformation is non-linear, uneven, and frequently contradictory.
 
-They are not mutually exclusive. They emphasize different aspects of the same foundational adaptive properties. Organizations may combine elements of both, provided accountabilities and decision rights remain clear.
+### The transformation journey is non-linear
+
+The journey toward product-centric adaptive implementation is not a linear progression through maturity stages[^20]. Organizations experience multiple stages simultaneously, with different parts of the organization operating under competing mental models. This creates a "mash-up" where conversations about work hierarchies, goal cascades, and value models occur at the same time, often in tension with each other[^20].
+
+The dominant narrative typically shifts through recognizable patterns[^20]:
+
+- **Work-centric focus** - Delivery predictability, dependency management, and work-in-progress reduction dominate. Success means moving work items through stages reliably. "Say/Do ratio" becomes the primary measure of performance.
+
+- **Early goal introduction** - OKRs or similar frameworks are introduced, but goals remain annotations on pre-determined work rather than primary expressions of intent. The work hierarchy persists, and goal cascades often mirror the organizational chart rather than value flows.
+
+- **Goals-first orientation** - Objectives begin to precede work selection. Initiatives become interventions to achieve results, and the language of hypotheses, bets, and opportunities emerges. This transition is contingent on architectural improvements that reduce batch sizes and team dependencies[^20].
+
+- **Emerging value models** - Organizations begin distinguishing value from objectives. Customer journeys, capability trees, platform thinking, and value streams emerge as distinct concepts. Multiple frameworks compete for attention, creating organizational confusion but also opportunity for clarification[^20].
+
+- **Value model convergence** - Organizational structure, team boundaries, funding models, and architecture align around shared value structures. Objectives attach to these structures. Work flows through them. Investment decisions reference them[^20].
+
+This evolution is not sequential. Organizations commonly introduce OKRs without understanding outcomes, attempt outcome orientation without controlling work-in-progress, or pursue product funding without clarity on what constitutes a product[^20]. Progress in one dimension often exposes fragility in another.
+
+### Prerequisites for outcome orientation
+
+Outcome-oriented product development cannot be "installed" through process frameworks alone[^20]. Teams require:
+
+- **Architectural independence** - Teams must be capable of delivering value without excessive dependencies. This is an architectural and organizational design problem, not merely a mindset shift[^20].
+
+- **Reduced batch sizes** - Large batches prevent rapid feedback and force premature convergence on solutions. Batch size reduction must precede meaningful outcome orientation[^20].
+
+- **Stable team structures** - Teams need persistent membership and clear boundaries. Designers, researchers, and engineers cannot be matrixed across dozens of teams and remain effective[^20].
+
+- **Clear value models** - Teams cannot be funded as products if no one has a reasonable sense of what a product, node in the value chain, or value-creating capability actually is[^20].
+
+Without these conditions, product operating model adoption creates the appearance of progress while preserving the underlying predictive structure.
+
+### The challenge of maintaining explicit models
+
+Organizations that successfully internalize product operating models face a paradox[^20]. As value models, team boundaries, and outcome-orientation become embedded in daily practice, the explicit frameworks that enabled the transition become less visible. Teams aligned around customer journeys may stop articulating that alignment because it has become organizational common sense. Metrics trees and value chains may exist informally rather than as documented artifacts.
+
+This creates difficulty for organizations in transition. They require more explicit structure and formality to maintain coherence while multiple mental models compete[^20]. Without visible value models, different groups pursuing product-centricity may create incompatible structures. The organization needs legibility, clear, shared understanding of how value is created, precisely because it lacks the internalized agreement that mature product organizations possess.
+
+Therefore, the explicitness of frameworks is contextual:
+
+- **Organizations in transition** benefit from formal value models, documented team boundaries, explicit measures, and visible integration mechanisms. The formality creates shared language and prevents competing frameworks from fragmenting the organization.
+
+- **Organizations with internalized models** may appear less formal because the models are embedded in organizational structure, funding patterns, and daily practice. The informality reflects maturity, not absence of structure[^20].
+
+Attempting to copy the informal practices of mature product organizations without the underlying internalized models reproduces appearance without capability.
+
+## Product operating model lenses (applied, not adopted)
+
+It is critical to be explicit about what these lenses are *not*.
+
+They are **not the only viable product operating models**, and they are **not blueprints to be copied or installed**. They represent well-articulated responses to specific historical and organizational constraints, not universal designs.
+
+Most successful product organizations do not "adopt" a model wholesale. They **construct their own operating model**, often implicitly at first, through repeated cycles of experimentation, failure, learning, and adaptation. This is exactly how their original operating model emerged, even if it later became rigid or implicit.
+
+In a non-linear transformation journey, the work is not to replace one operating model with another, but to:
+
+- Make the existing operating model visible
+- Surface where it constrains learning, decision-making, or value delivery
+- Introduce practices, structures, or constraints that improve adaptability
+- Internalize what works, and discard what no longer serves
+
+Named models help by providing language and patterns, but the operating model that matters is the one an organization actually builds and lives with.
+
+Once non-linearity and prerequisites are understood, product operating models become useful as lenses for diagnosis and intervention, not as destinations.
 
 ### Marty Cagan’s Product Operating Model as an adaptive implementation
 
@@ -478,6 +540,8 @@ This aligns with adaptive operating model characteristics:
 - Governance enabling fast learning rather than plan compliance
 
 Cagan's framing provides strong emphasis on the product management and discovery system required for modern product success. It highlights the organizational conditions necessary for product teams to act on evidence.
+
+Cagan's model addresses the distinction between objectives (expressions of intent) and value models (organizational context structures)[^20]. Customer segments, market opportunities, and product capabilities represent value context that grounds objectives and makes them actionable. Without this context, objectives float as aspirational statements disconnected from how teams organize work and investment.
 
 ### Scrum.org’s Agile Product Operating Model as an adaptive implementation
 
@@ -504,7 +568,7 @@ The constraint is not conceptual overlap, it is organizational clarity. Combinin
 - Decision rights between leadership, product management, and Scrum Teams
 - Measures used to guide investment and evaluate outcomes
 - Integration mechanisms for multi-team products
-- How discovery and delivery interact without creating separate “discovery teams” and “delivery teams”
+- How discovery and delivery interact without creating separate "discovery teams" and "delivery teams"
 
 Done well, the combination increases learning fidelity and delivery reliability. Done poorly, it creates dual operating systems and reintroduces handoffs.
 
@@ -646,4 +710,6 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 [^17]: Snowden, D.J. and Boone, M.E. (2007) 'A Leader's Framework for Decision Making', *Harvard Business Review*, November, pp. 69-76.
 [^18]: Vodde, B. (2015) *Dynamic Reteaming and Organizational Design in LeSS* [Video]. Available at: [https://youtu.be/cxmLO0U6gQ0](https://youtu.be/cxmLO0U6gQ0) (Accessed: 18 January 2026).
 
-[^19]: Mirko Kleiner (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time* <https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half>
+[^19]: Kleiner, M. (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time*. Available at: [https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half](https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half) (Accessed: 18 January 2026).
+
+[^20]: Cutler, J. (2026) 'TBM 402: The Real-World Journey to Value and Product-Centricity', *The Beautiful Mess*. Available at: [https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to](https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to) (Accessed: 21 January 2026).
