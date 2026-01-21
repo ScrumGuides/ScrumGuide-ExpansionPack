@@ -37,7 +37,7 @@ Operating model choice is a leadership and organizational design decision that c
 This reference establishes definitions, assumptions, constraints, and consequences of operating model choice. Predictive models are effective when their underlying assumptions align with environmental conditions. Their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
 
 > [!HIGHLIGHT] Model Mismatch
-> When the business theory embedded in your operating model no longer aligns with your environment, the model becomes a systematic source of waste—no matter how well you execute it.
+> When the business theory embedded in your operating model no longer aligns with your environment, the model becomes a systematic source of waste, regardless of how well you execute it.
 
 ## Definitions
 
@@ -175,7 +175,7 @@ The choice is not about preference or culture. It is about matching the operatin
 | **Cause and Effect** | Predictable and repeatable | Only understood in retrospect |
 | **Solutions** | Discoverable through analysis | Emerge through experimentation |
 | **Knowledge Impact** | Reduces uncertainty, improves predictability | Helps adaptation, not prediction |
-| **Standardization** | Improves efficiency and reliability | Offers no advantage—conditions keep changing |
+| **Standardization** | Improves efficiency and reliability | Offers no advantage because conditions keep changing |
 | **Examples** | Operational work whose cause-and-effect relationships have been established through repeated observation: manufacturing processes with known parameters, transaction processing with defined rules, established service delivery models | Product development in dynamic markets, customer discovery |
 | **Best Operating Model** | Predictive | Adaptive |
 {.table .table-striped .table-sm}
@@ -250,7 +250,7 @@ The Predictive Operating Model rests on beliefs that were historically compatibl
 These beliefs are coherent when the environment is stable, the work is repeatable, and the primary economic challenge is unit cost reduction through scale.
 
 > [!HIGHLIGHT] Historical Context
-> The Predictive Operating Model wasn't wrong—it was a rational response to stable, supply-constrained industrial-era markets. The error is applying it unchanged to today's dynamic, customer-choice-driven environments.
+> The Predictive Operating Model was not wrong. It was a rational response to stable, supply-constrained industrial-era markets. The error is applying it unchanged to today's dynamic, customer-choice-driven environments.
 
 ### Customer and value assumptions
 
@@ -330,7 +330,7 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **Explicit learning loops** - Learning is 'designed into' the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and measurement focused on outcomes, capability, quality, and flow rather than activity or utilization.
 
-- **Stable organizational systems with adaptive direction** - Stable organizational systems—where team boundaries, funding models, product boundaries, and decision rights remain consistent—enable teams to build capability and maintain context while strategy, priorities, and investment adapt continuously based on evidence. Structural changes to these stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction is critical: system stability does not mean frozen direction—teams remain stable while direction adapts.
+- **Stable organizational systems with adaptive direction** - Stable organizational systems (where team boundaries, funding models, product boundaries, and decision rights remain consistent) enable teams to build capability and maintain context while strategy, priorities, and investment adapt continuously based on evidence. Structural changes to these stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction is critical: system stability does not mean frozen direction. Teams remain stable while direction adapts.
 
 - **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction, with explicit limits and escalation rules. It avoids stage gates that delay learning and force speculative commitments.
 
@@ -395,13 +395,13 @@ Mismatch produces distinct forms of waste that are structural, not incidental:
 - **Measurement distortion waste** - Output-based measures (utilization, "on time and on budget," plan adherence) reward behaviors that suppress transparency and discourage adaptation[^8]. The organization optimizes visible activity rather than value realization.
 - **Human capability waste** - Treating people as interchangeable 'resources' reduces ownership and undermines team-level learning. Continuous improvement requires teams that evolve their capability, not project staffing cycles.
 - **System capability waste** - Optimizing individual teams or functions in isolation degrades overall system performance. Without explicit mechanisms for cross-team coherence and integration, organizations create local efficiency at the expense of end-to-end value delivery.
-- **Tampering waste** - Fast feedback without understanding variation leads executives to intervene on normal system fluctuations, creating instability[^22]. Leadership intervention should cross explicit decision thresholds—"Three consecutive Sprints below target"—not respond to single data points. Effective adaptive governance uses trends and ranges to distinguish system performance from random variation.
+- **Tampering waste** - Fast feedback without understanding variation leads executives to intervene on normal system fluctuations, creating instability[^22]. Leadership intervention should cross explicit decision thresholds, such as "Three consecutive Sprints below target," rather than respond to single data points. Effective adaptive governance uses trends and ranges to distinguish system performance from random variation.
 
 These wastes reduce Scrum’s effectiveness because Scrum depends on transparency and adaptation. Predictive structures systematically discourage both; they even discourage inspection at times.
 
 ### Common objections and when they hold
 
-- **Efficiency loss** - Holds when genuine economies of scale outweigh adaptation speed and efficiency includes cost of delays, rework, and missed opportunities—not just utilization
+- **Efficiency loss** - Holds when genuine economies of scale outweigh adaptation speed and efficiency includes cost of delays, rework, and missed opportunities, not just utilization
 - **Coordination costs** - Holds when integration complexity is inherent to work rather than created by silos and technical debt
 - **Capability gaps** - Always holds initially; clarifies required work (leadership capability in system design, team capability in continuous delivery, operational definitions) rather than justifying inaction
 
@@ -423,15 +423,15 @@ The relationship between operating model choice and market conditions determines
 
 **Key insights:**
 
-- **Predictive + Stable Markets**: The model matches the context—efficiency and reliability create advantage.
-- **Predictive + Dynamic Markets**: Systematic failure—assumptions about predictability don't align with reality, creating structural waste.
-- **Adaptive + Stable Markets**: Over-engineered but functional—the organization has more adaptive capacity than the environment requires.
-- **Adaptive + Dynamic Markets**: Competitive advantage—the model's learning speed and adaptability match environmental demands.
+- **Predictive + Stable Markets**: The model matches the context. Efficiency and reliability create advantage.
+- **Predictive + Dynamic Markets**: Systematic failure. Assumptions about predictability do not align with reality, creating structural waste.
+- **Adaptive + Stable Markets**: Over-engineered but functional. The organization has more adaptive capacity than the environment requires.
+- **Adaptive + Dynamic Markets**: Competitive advantage. The model's learning speed and adaptability match environmental demands.
 
 ## Operating models as a leadership decision
 
 > [!HIGHLIGHT] On "We Can't Say No"
-> If your organization can't say no, creating elaborate discovery, rationalization, and hypothesis processes is theater. The real work is establishing decision rights and governance that can act on evidence—including evidence that says "stop this, do that instead." Without that, you're optimizing a system that can't adapt.
+> If your organization cannot say no, creating elaborate discovery, rationalization, and hypothesis processes is theater. The real work is establishing decision rights and governance that can act on evidence, including evidence that says "stop this, do that instead." Without that, you are optimizing a system that cannot adapt.
 
 Operating model choice is not an optimization problem within delivery teams. It is a system-level decision because it determines:
 
@@ -452,7 +452,7 @@ The leadership decision is therefore not "do we use Scrum?" It is:
 - Will the organization enable parallel safe-to-fail experiments to manage uncertainty and accelerate learning, or demand sequential approvals and large-batch commitments?
 
 > [!HIGHLIGHT] Challenging Senior Leaders
-> You don't need to tell experienced people they're "wrong." Instead, make the model mismatch visible: "Our operating model assumes predictability. Here's evidence the market is dynamic. Which model matches our reality?" Frame it as diagnosis, not criticism. The data—customer churn, missed opportunities, competitor speed—makes the case. Your job is transparency, not persuasion.
+> You do not need to tell experienced people they are wrong. Instead, make the model mismatch visible: "Our operating model assumes predictability. Here is evidence the market is dynamic. Which model matches our reality?" Frame it as diagnosis, not criticism. The data (customer churn, missed opportunities, competitor speed) makes the case. Your job is transparency, not persuasion.
 
 ## Operating-model incompatibilities with Scrum outcomes
 
@@ -537,7 +537,7 @@ This framing remains contextual, not moral. Predictive models are appropriate in
 
 Adaptive must not be misinterpreted as reactive. An adaptive operating model requires greater discipline than a predictive model because it demands explicit operational definitions, testable predictions, and systematic decision rules[^21][^22].
 
-Terms such as "value," "learning," "Done," and "risk" must have measurable definitions. Every experiment must include explicit predictions. Deming's shift from "Check" to "Study" in PDSA emphasizes comparing results against predictions and distinguishing common cause variation (inherent in the system) from special cause variation (indicating something changed). Without prediction and study of variation, responses become tampering rather than learning. Organizations require decision rules specifying when to change course, when to hold steady, and when to investigate—for example: "Change strategy if three consecutive Sprints show declining engagement below threshold X, but not based on week-to-week fluctuations within expected variation." Without operational definitions, predictions, and decision rules, organizations cannot distinguish learning from opinion.
+Terms such as "value," "learning," "Done," and "risk" must have measurable definitions. Every experiment must include explicit predictions. Deming's shift from "Check" to "Study" in PDSA emphasizes comparing results against predictions and distinguishing common cause variation (inherent in the system) from special cause variation (indicating something changed). Without prediction and study of variation, responses become tampering rather than learning. Organizations require decision rules specifying when to change course, when to hold steady, and when to investigate. For example: "Change strategy if three consecutive Sprints show declining engagement below threshold X, but not based on week-to-week fluctuations within expected variation." Without operational definitions, predictions, and decision rules, organizations cannot distinguish learning from opinion.
 
 These mechanisms are not bureaucratic overhead. They are the preconditions for empiricism at scale. Organizations that lack operational definitions, testable predictions, and decision rules cannot distinguish learning from opinion, and cannot sustain adaptation under pressure.
 
@@ -594,7 +594,7 @@ Outcome-oriented product development cannot be "installed" through process frame
 
 - **Reduced batch sizes** - Large batches prevent rapid feedback and force premature convergence on solutions. Batch size reduction must precede meaningful outcome orientation.
 
-- **Stable organizational systems** - Teams need stable organizational systems: consistent team boundaries, funding models, product boundaries, and decision rights. Within this system stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes—shifting team composition, reassigning people to projects, reorganizing structures for utilization—teams cannot build capability or maintain context. System stability enables adaptive direction.
+- **Stable organizational systems** - Teams need stable organizational systems: consistent team boundaries, funding models, product boundaries, and decision rights. Within this system stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes (shifting team composition, reassigning people to projects, reorganizing structures for utilization), teams cannot build capability or maintain context. System stability enables adaptive direction.
 
 - **Clear value models** - Teams cannot be funded as products if no one has a reasonable sense of what a product, node in the value chain, or value-creating capability actually is.
 
@@ -707,19 +707,19 @@ An organization can execute Scrum and still be unable to act on learning if proc
 AI accelerates the rate at which work can be produced, information can be processed, and options can be explored. This does not automatically create customer value. It amplifies the operating model it enters.
 
 > [!HIGHLIGHT] AI's Forcing Function
-> AI doesn't fix broken operating models—it amplifies them. In predictive models, AI increases output while preserving slow decisions, creating more work based on stale assumptions. In adaptive models, AI accelerates learning speed, widening the competitive gap.
+> AI does not fix broken operating models; it amplifies them. In predictive models, AI increases output while preserving slow decisions, creating more work based on stale assumptions. In adaptive models, AI accelerates learning speed, widening the competitive gap.
 
 Within a predictive model, AI often increases the volume of output while preserving slow decision-making, gated governance, and fixed-scope constraints. The organization becomes capable of producing more work that is still selected, sequenced, and governed based on stale assumptions.
 
 Within an adaptive model, AI accelerates:
 
 - Experimentation cadence
-- Time-to-feedback
+- Time to feedback
 - Information processing for customer insight
 - Automation of delivery and validation practices
 - Rapid iteration while preserving quality through engineering discipline
 
-The result is not merely faster delivery, but faster learning[^10]. Because dynamic markets reward learning speed, AI increases the penalty of predictive governance: when AI accelerates option generation while decision latency remains unchanged, organizations generate more validated alternatives that are never acted upon, increasing misallocation and rework. Slow decision cycles become more costly when teams can quickly generate validated options.
+The result is not merely faster delivery, but faster learning[^10]. Because dynamic markets reward learning speed, AI increases the penalty of predictive governance. When AI accelerates option generation while decision latency remains unchanged, organizations generate more validated alternatives that are never acted upon, increasing misallocation and rework. Slow decision cycles become more costly when teams can quickly generate validated options.
 
 AI therefore, strengthens the case that operating model choice is a leadership imperative. Increased production capacity without increased learning capacity increases waste.
 
@@ -727,7 +727,7 @@ AI therefore, strengthens the case that operating model choice is a leadership i
 
 Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control in the face of uncertainty.
 
-Operating-model hygiene—the deliberate, systematic removal of policies that assume predictability in contexts where prediction error dominates—is essential practice for maintaining adaptive capability. This disciplined practice includes:
+Operating model hygiene is the deliberate, systematic removal of policies that assume predictability in contexts where prediction error dominates. This is essential practice for maintaining adaptive capability. This disciplined practice includes:
 
 - Removing structures and governance mechanisms that assume predictability where it does not exist
 - Preventing the reintroduction of those mechanisms under pressure
@@ -751,7 +751,7 @@ Without hygiene, Scrum becomes a local practice within a global predictive syste
 
 ## Making the transition at operating-model level
 
-Transitioning from predictive to adaptive is a system change, not a process adjustment.[^14] Because predictive elements reinforce each other, partial change produces contradictions:
+Transitioning from predictive to adaptive is a system change rather than a process adjustment.[^14] Because predictive elements reinforce each other, partial change produces contradictions:
 
 - Agile teams operating under fixed scope project governance
 - Product Owners accountable for outcomes but constrained by centralized decisions
@@ -760,11 +760,11 @@ Transitioning from predictive to adaptive is a system change, not a process adju
 
 System change requires alignment across:
 
-- Structure, cross-functional teams operating within stable organizational systems (consistent team boundaries, funding, and product boundaries) aligned to products or value streams
-- Governance, outcome-oriented, evidence-based decision processes
-- Funding, capacity allocated within stable organizational systems through product-based investment models
-- Measurement, outcome, and capability measures rather than output and utilization
-- Leadership behaviors, system stewardship rather than execution control
+- Structure: cross-functional teams operating within stable organizational systems (consistent team boundaries, funding, and product boundaries) aligned to products or value streams
+- Governance: outcome-oriented, evidence-based decision processes
+- Funding: capacity allocated within stable organizational systems through product-based investment models
+- Measurement: outcome and capability measures rather than output and utilization
+- Leadership behaviors: system stewardship rather than execution control
 
 Open Space Agile can provide a mechanism for organizational participation in designing these changes within constraints[^16], but it remains an implementation approach rather than the operating model itself. The operating model shift must be explicit and leadership-owned.
 
@@ -772,8 +772,8 @@ Open Space Agile can provide a mechanism for organizational participation in des
 
 For Scrum practitioners, the operating model framing clarifies several recurring failure patterns:
 
-- “Scrum does not work here” frequently indicates operating-model incompatibility, not Scrum inadequacy.
-- Increasing ceremony fidelity does not compensate for decision-latency and fixed-scope governance.
+- "Scrum does not work here" frequently indicates operating model incompatibility rather than Scrum inadequacy.
+- Increasing ceremony fidelity does not compensate for decision latency and fixed scope governance.
 - Team-level improvements plateau when organizational constraints prevent acting on learning.
 - Scaling efforts fail when they add coordination layers instead of improving product coherence and integration capability.
 
