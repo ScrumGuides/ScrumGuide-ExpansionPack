@@ -19,3 +19,12 @@
   role: creator
   weight: 2
   founder: true
+
+- name: Jeff Patton
+  url: https://www.linkedin.com/in/productdesigncoach/
+  image: https://media.licdn.com/dms/image/v2/D5603AQG93nxt9BBCSQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692880069997?e=1770854400&v=beta&t=OLfS8QIqd92mF4C28G1mjITJddonDsMvhKDIgIeeHPY
+  contributions:
+    - "2026.1"
+  role: contributor
+  weight: 10
+  founder: true
