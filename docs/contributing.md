@@ -186,6 +186,56 @@ _Italic text_ for subtle emphasis
 [Link text](URL) for external links
 ```
 
+#### Using Blockquotes and Callouts
+
+The site supports enhanced callouts for highlighting important information:
+
+**Standard Blockquote:**
+
+```markdown
+> This is a standard blockquote for quotations or simple callouts.
+```
+
+**Alert-Style Callouts:**
+
+```markdown
+> [!NOTE]
+> General information or additional context.
+
+> [!TIP] Pro Tip
+> Helpful suggestions with optional custom title.
+
+> [!IMPORTANT]
+> Critical information that must not be overlooked.
+
+> [!WARNING]
+> Important warnings about potential issues.
+
+> [!CAUTION]
+> Serious warnings about significant risks.
+
+> [!HIGHLIGHT] Key Insight
+> Emphasize key concepts, principles, or memorable takeaways.
+```
+
+**When to Use Each Type:**
+
+- **NOTE** - Additional context, explanations, clarifications
+- **TIP** - Best practices, helpful suggestions
+- **IMPORTANT** - Critical information requiring attention
+- **WARNING** - Potential pitfalls, common mistakes
+- **CAUTION** - Serious consequences or risks
+- **HIGHLIGHT** - Key insights that deserve special emphasis
+
+**Best Practices:**
+
+- Use sparingly to maintain effectiveness
+- Add custom titles for clarity (e.g., `[!TIP] Pro Tip`)
+- Keep content concise and focused
+- Place near related content for context
+
+See the [Content Management Guide](./content-management.md#blockquotes-and-callouts) for detailed examples.
+
 ### Adding References
 
 When adding references, follow this format:

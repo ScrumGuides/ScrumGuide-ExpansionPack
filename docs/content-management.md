@@ -53,6 +53,85 @@ layout: "single"
 - Use **blockquotes** for important callouts
 - Include **practical examples** and scenarios
 
+#### Blockquotes and Callouts
+
+The site supports standard blockquotes and enhanced alert-style callouts to highlight important information.
+
+##### Standard Blockquotes
+
+Use standard markdown blockquotes for quotations or simple callouts:
+
+```markdown
+> This is a standard blockquote.
+> It can span multiple lines.
+```
+
+**Renders as:**
+A styled blockquote with a vertical accent bar on the left.
+
+##### Alert-Style Callouts
+
+For more prominent callouts, use GitHub-flavored alert syntax with these types:
+
+**Available Alert Types:**
+
+- **`[!NOTE]`** - General information (blue, info icon ℹ️)
+- **`[!TIP]`** - Helpful suggestions (green, lightbulb icon 💡)
+- **`[!IMPORTANT]`** - Critical information (yellow, warning icon ⚠️)
+- **`[!WARNING]`** - Important warnings (yellow, warning icon ⚠️)
+- **`[!CAUTION]`** - Serious warnings (red, alert icon 🚨)
+- **`[!HIGHLIGHT]`** - Key concepts to emphasize (special highlight style)
+
+**Syntax:**
+
+```markdown
+> [!NOTE]
+> This is a note with default title.
+
+> [!TIP] Custom Title
+> This is a tip with a custom title.
+
+> [!IMPORTANT]
+> This is important information that requires attention.
+
+> [!WARNING] Proceed with Caution
+> This warning has a custom title.
+
+> [!CAUTION]
+> This is a serious caution message.
+
+> [!HIGHLIGHT] Model Mismatch
+> When the business theory embedded in your operating model no longer aligns 
+> with your environment, the model becomes a systematic source of waste—no 
+> matter how well you execute it.
+```
+
+**Usage Guidelines:**
+
+- **Use sparingly** - Too many callouts reduce their effectiveness
+- **Be specific** - Choose the alert type that best matches the content's purpose
+- **Custom titles** - Add descriptive titles after the alert type for clarity
+- **Keep concise** - Callouts should be brief and focused
+- **Placement** - Position callouts near related content for context
+
+**Best Practices:**
+
+- `[!NOTE]` - For additional context, explanations, or clarifications
+- `[!TIP]` - For helpful suggestions, best practices, or pro tips
+- `[!IMPORTANT]` - For critical information that must not be overlooked
+- `[!WARNING]` - For potential pitfalls or common mistakes to avoid
+- `[!CAUTION]` - For serious consequences or risks
+- `[!HIGHLIGHT]` - For key insights, principles, or memorable takeaways
+
+**Example from Operating Models Guide:**
+
+```markdown
+> [!HIGHLIGHT] The Leadership Error
+> Claiming "We're agile" while demanding fixed scope, fixed dates, and maximum 
+> utilization is not a product issue. It's a leadership and organizational design 
+> issue masquerading as an execution problem.
+```
+
 ### 2. Creator Profiles
 
 Creator profiles showcase the authors and contributors to the expansion pack.
