@@ -525,11 +525,14 @@ Once non-linearity and prerequisites are understood, product operating models be
 
 A product operating model in Cagan's sense centres on[^11][^12]:
 
-- Product teams oriented to solving customer problems
-- Continuous discovery as a first-class discipline[^11]
-- Product strategy as an organizational capability
-- Empowered teams operating within clear strategic boundaries
-- Decision-making anchored in customer outcomes and evidence
+- Product teams oriented to solving customer problems rather than implementing features
+- Continuous discovery as a first-class discipline integrated with delivery[^11]
+- Product strategy as an organizational capability that guides empowered decision-making
+- Empowered teams operating within clear strategic boundaries and intent
+- Decision-making anchored in customer outcomes, business viability, and evidence
+- Competent people in well-defined product roles with appropriate coaching and development
+- Inspired product vision and strategy that provides context for team decisions
+- Collaborative product culture where teams work directly with stakeholders and customers
 
 This aligns with adaptive operating model characteristics:
 
@@ -539,7 +542,7 @@ This aligns with adaptive operating model characteristics:
 - System stability that enables sustained team learning and capability development
 - Governance enabling fast learning rather than plan compliance
 
-Cagan's framing provides strong emphasis on the product management and discovery system required for modern product success. It highlights the organizational conditions necessary for product teams to act on evidence.
+Cagan's framing provides strong emphasis on the product management and discovery system required for modern product success. It highlights the organizational conditions necessary for product teams are informed by evidence.
 
 Cagan's model addresses the distinction between objectives (expressions of intent) and value models (organizational context structures)[^20]. Customer segments, market opportunities, and product capabilities represent value context that grounds objectives and makes them actionable. Without this context, objectives float as aspirational statements disconnected from how teams organize work and investment.
 
@@ -553,7 +556,7 @@ Scrum.org's Agile Product Operating Model aligns product value delivery with emp
 - Evidence-based measures of value and capability[^8]
 - Coherence across multiple teams working on one product through shared goals and integrated delivery
 
-It operationalizes adaptive principles through explicit connections to Scrum's accountabilities and artefacts. It provides a structured approach to aligning organizational governance and measurement with empirical product development.
+It operationalizes adaptive principles by explicitly linking them to Scrum's accountabilities and artefacts. It provides a structured approach to aligning organizational governance and measurement with empirical product development.
 
 ### Compatibility and non-exclusivity
 
@@ -562,7 +565,7 @@ These implementations can reinforce each other:
 - Cagan’s model strengthens the discovery and product strategy system, clarifying what teams should learn and why.
 - Scrum.org’s model strengthens the empirical governance and delivery coherence system, clarifying how learning is integrated into execution and accountability.
 
-The constraint is not conceptual overlap, it is organizational clarity. Combining models requires explicit decisions about:
+The constraint is not conceptual overlap; it is organizational clarity. Combining models requires explicit decisions about:
 
 - Product accountability boundaries
 - Decision rights between leadership, product management, and Scrum Teams
@@ -579,7 +582,7 @@ An adaptive operating model requires governance and funding practices that toler
 - Funding horizons become adaptable rather than fixed commitments
 - Investment decisions can be revisited based on evidence
 - Capacity is allocated within stable organizational systems rather than through project assignments
-- Governance emphasizes transparency, trust boundaries, and measurable outcomes
+- Governance emphasizes transparency, trust boundaries, and outcome trends
 
 These approaches are not "agile finance practices" layered onto predictive governance. They are complementary operating-model mechanisms that align financial decision-making with empirical product development.
 
@@ -599,13 +602,13 @@ Within an adaptive model, AI accelerates:
 - Automation of delivery and validation practices
 - Rapid iteration while preserving quality through engineering discipline
 
-The result is not merely faster delivery, it is faster learning[^10]. Because dynamic markets reward learning speed, AI increases the penalty of predictive governance. Slow decision cycles become more costly when teams can generate validated options quickly.
+The result is not merely faster delivery, but faster learning[^10]. Because dynamic markets reward learning speed, AI increases the penalty of predictive governance. Slow decision cycles become more costly when teams can quickly generate validated options.
 
-AI therefore strengthens the case that operating model choice is a leadership imperative. Increased production capacity without increased learning capacity increases waste.
+AI therefore, strengthens the case that operating model choice is a leadership imperative. Increased production capacity without increased learning capacity increases waste.
 
 ## Operating-model hygiene and regression risk
 
-Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control under uncertainty.
+Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control in teh face of uncertainty.
 
 Operating-model hygiene is the disciplined practice of:
 
@@ -643,8 +646,8 @@ System change requires alignment across:
 - Structure, cross-functional teams operating within stable organizational systems aligned to products or value streams
 - Governance, outcome-oriented, evidence-based decision processes
 - Funding, capacity allocated within stable systems and product-based investment models
-- Measurement, outcome and capability measures rather than output and utilization
-- Leadership behaviors, system stewardship rather than execution control[^15]
+- Measurement, outcome, and capability measures rather than output and utilization
+- Leadership behaviors, system stewardship rather than execution control
 
 Open Space Agile can provide a mechanism for organizational participation in designing these changes within constraints[^16], but it remains an implementation approach rather than the operating model itself. The operating model shift must be explicit and leadership-owned.
 
@@ -660,7 +663,7 @@ For Scrum practitioners, the operating model framing clarifies several recurring
 This does not reduce accountability for good Scrum practice. It clarifies where accountability lies:
 
 - Scrum Teams are accountable for creating valuable, Done increments and learning through inspection.
-- Leadership is accountable for designing an operating model in which that learning can influence outcomes.
+- Leadership is accountable for designing an operating model in which learning can influence outcomes.
 
 ## Conclusion
 
@@ -703,8 +706,6 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 [^13]: Bogsnes, B. (2016) *Implementing Beyond Budgeting: Unlocking the Performance Potential*. Second Edition. Hoboken, NJ: John Wiley & Sons.
 
 [^14]: Pflaeging, N. & Steinmann, H. (2014) *Organize for Complexity: How to Get Life Back into Work to Build the High-Performance Organization*. Third Edition. Hamburg: BetaCodex Publishing.
-
-[^15]: Laloux, F. (2014) *Reinventing Organizations: A Guide to Creating Organizations Inspired by the Next Stage of Human Consciousness*. Brussels: Nelson Parker.
 
 [^16]: Mezick, D. et al. (2015) *The OpenSpace Agility Handbook*. Connecticut: New Technology Solutions, Inc.
 [^17]: Snowden, D.J. and Boone, M.E. (2007) 'A Leader's Framework for Decision Making', *Harvard Business Review*, November, pp. 69-76.
