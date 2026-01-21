@@ -346,7 +346,7 @@ Operating model choice is not an optimization problem within delivery teams. It 
 - How risk is managed
 - How accountability is expressed
 
-Scrum adoption without operating model alignment creates a structural contradiction. Teams are held accountable for outcomes while being governed as if outcomes were predictable. An operating model does not manage itself; it must be deliberately designed, monitored, and adjusted by leadership, because system behavior dominates individual performance.
+Scrum adoption without operating model alignment creates a structural contradiction. Teams are held accountable for outcomes while being governed as if outcomes were predictable. An operating model does not manage itself; it must be deliberately designed, monitored, and adjusted by leadership, because system behavior dominates individual performance. This is leadership work, improving the system itself, not supervision of individuals within a flawed system.
 
 The leadership decision is therefore not "do we use Scrum?" It is:
 
