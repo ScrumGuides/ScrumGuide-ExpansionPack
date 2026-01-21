@@ -478,3 +478,26 @@ article img {
 [dir="rtl"] .avatar-overlap .author-item:first-child {
   margin-right: 0;
 }
+
+/* ============ Footnote Reference Spacing ============ */
+sup {
+  margin-left: 0.05rem;
+  margin-right: 0.05rem;
+}
+
+a.footnote-ref {
+  display: inline-block;
+  padding: 0;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+a.footnote-ref:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/* Space consecutive footnote references */
+sup + sup {
+  margin-left: 0.2rem;
+}
