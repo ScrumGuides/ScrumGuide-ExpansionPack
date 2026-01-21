@@ -30,7 +30,7 @@
     <div class="alert alert-{{ index $alertTypes .AlertType | default "secondary" }} subtle-alert" role="alert">
         {{ with .AlertTitle }}
           <h5 class="alert-heading subtle-heading">
-            {{ index $alertEmoji .AlertType }}
+            {{ index $alertEmoji $.AlertType }}
             {{ . }}
           </h5>
         {{ else }}

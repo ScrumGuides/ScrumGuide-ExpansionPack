@@ -87,7 +87,7 @@ Stable markets are characterized by predictability and slow change across multip
 
 In stable markets, competitive advantage comes primarily from execution efficiency, cost reduction, and operational reliability[^4]. Organizations that optimize processes, achieve economies of scale, and deliver consistent quality at low cost capture disproportionate value. Long-range planning and standardization are effective because the future resembles the present.
 
-Truly stable markets were the dominant condition during the industrial era[^4]. Today, even organizations with stable product lines or operational contexts typically operate within broader dynamic market conditions. A utility company may have stable infrastructure operations while facing dynamic competitive pressures from distributed energy, regulatory change, and customer expectations. A manufacturer may produce commoditized components reliably while experiencing rapid shifts in supply chains, customer demands, and technological capabilities. The stable characteristics may apply to specific products, services, or operational domains within an organization, but rarely to the organization's entire competitive environment.
+Historically, stable markets were the dominant condition during the industrial era[^4]. Contemporary evidence suggests that even organizations with stable product lines or operational contexts increasingly operate within broader dynamic market conditions. A utility company may have stable infrastructure operations while facing dynamic competitive pressures from distributed energy, regulatory change, and customer expectations. A manufacturer may produce commoditized components reliably while experiencing rapid shifts in supply chains, customer demands, and technological capabilities. The stable characteristics may apply to specific products, services, or operational domains within an organization, but rarely to the organization's entire competitive environment.
 
 ### Dynamic markets and environments
 
@@ -132,6 +132,9 @@ In complex contexts:
 - Standardization offers no advantage because conditions keep changing
 
 Product work in dynamic markets operates in the complex domain. Customer needs, competitive responses, technology evolution, and regulatory shifts interact in ways that cannot be planned away. No amount of learning converts complex work into simple work. Learning only helps you adapt faster when surprise inevitably occurs.
+
+> [!note] Complicated Contexts
+> Cynefin also describes complicated contexts, where cause-and-effect relationships exist but require expertise and analysis to discern. Complicated problems ultimately yield to predictability through learning—once understood, they can be addressed through refined predictive approaches. This analysis focuses on the simple-complex distinction because it determines operating model choice: simple contexts reward standardization and efficiency, while complex contexts require continuous adaptation. Complicated work, while requiring specialized expertise, remains compatible with predictive models in stable environments.
 
 ### Why this matters for operating models
 
