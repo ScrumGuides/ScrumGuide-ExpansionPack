@@ -173,7 +173,10 @@ Scrum outcomes depend on:
 - Decision rights located where information emerges
 - Cross-functional teams with the authority and capability to deliver increments without excessive dependencies
 - A governance and funding model that can change direction based on evidence
-- Measures that support learning and improvement rather than judgement—tracking outcomes (customer and market results), capability (ability to deliver and learn), quality (defects, reliability, change failure rate), and flow (lead time, throughput, work-in-progress), with explicit guardrails against local optimization
+- Measures that support learning and improvement rather than judgement
+
+> [!note] Evidence-Based Measurement
+> The Evidence-Based Management Guide[^8] provides operational definitions for tracking outcomes (customer and market results) and capability (ability to deliver and learn). Quality metrics (defects, reliability, change failure rate) and flow metrics (lead time, throughput, work-in-progress)[^9] [^10] provide complementary transparency into system health and delivery effectiveness, with explicit guardrails against local optimization.
 
 These conditions are operating-model properties. Scrum can be executed faithfully and still fail to produce meaningful organizational outcomes if the operating model constrains learning, decentralization, and outcome-driven change.
 
