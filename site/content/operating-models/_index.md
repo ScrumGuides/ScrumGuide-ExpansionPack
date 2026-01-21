@@ -38,12 +38,6 @@ tags:
 - Product Operating Model
 - Agile Product Operating Model
 - AI as a Forcing Function
-cascade:
-  - build:
-      list: never
-      render: never
-    target:
-      environment: production
 sitemap:
   priority: 0.8
 ---

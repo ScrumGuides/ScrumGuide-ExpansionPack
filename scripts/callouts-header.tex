@@ -1,0 +1,29 @@
+% LaTeX preamble for callout boxes
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Make tcolorbox play nice with page breaks
+\tcbset{
+  breakable,
+  enhanced,
+  sharp corners,
+  boxrule=0.5pt,
+  left=5pt,
+  right=5pt,
+  top=5pt,
+  bottom=5pt,
+  parbox=false,
+  after skip=10pt,
+  before skip=10pt
+}
+
+% Reduce spacing inside tcolorbox and remove bottom paragraph spacing
+\AtBeginEnvironment{tcolorbox}{%
+  \setlength{\parskip}{0.5em}%
+  \setlength{\parindent}{0pt}%
+}
+
+% Remove extra space after last paragraph in tcolorbox
+\makeatletter
+\preto\endtcolorbox{\par\@afterindentfalse\@afterheading}
+\makeatother

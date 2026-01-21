@@ -193,9 +193,13 @@ foreach ($guide in $guidesToProcess) {
         
         # Build pandoc command - let front matter handle everything
         $pdfEngine = "xelatex"
+        $luaFilterPath = Join-Path $scriptDir "callouts-latex.lua"
+        $latexHeaderPath = Join-Path $scriptDir "callouts-header.tex"
         $pandocArgs = @(
             $file.FullName
             "--pdf-engine=$pdfEngine"
+            "--lua-filter=$luaFilterPath"
+            "--include-in-header=$latexHeaderPath"
             "-o", $outputPath
         )
         
