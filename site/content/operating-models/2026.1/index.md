@@ -26,8 +26,7 @@ sitemap:
   priority: 0.7
 ---
 
-License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
+Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). © 2026 Martin Hinshelwood.
 
 ---
 
@@ -72,7 +71,7 @@ Operating models differ materially in how they answer this third question.
 
 ### Stable markets and environments
 
-Stable markets are characterised by predictability and slow change across multiple dimensions:
+Stable markets are characterized by predictability and slow change across multiple dimensions:
 
 - **Customer needs and preferences** - What customers value remains consistent over extended periods, changing slowly enough that annual or multi-year planning remains valid.
 - **Competitive landscape** - Competition is constrained by capital requirements, distribution barriers, or regulatory protections. Market entry is difficult and infrequent. Competitive positions change slowly.
@@ -86,7 +85,7 @@ Truly stable markets were the dominant condition during the industrial era[^4]. 
 
 ### Dynamic markets and environments
 
-Dynamic markets are characterised by persistent and often rapid change in one or more of the following dimensions:
+Dynamic markets are characterized by persistent and often rapid change in one or more of the following dimensions:
 
 - **Customer needs and preferences** - What customers value evolves frequently and unpredictably, often exceeds annual or quarterly planning cycles.
 - **Competitive landscape** - New entrants, substitute products, and competitive moves occur at high frequency, enabled by low barriers to entry and fast distribution.
@@ -532,7 +531,7 @@ Once non-linearity and prerequisites are understood, product operating models be
 
 ### Marty Cagan’s Product Operating Model as an adaptive implementation
 
-A product operating model in Cagan's sense centres on[^11][^12]:
+A product operating model in Cagan's sense centers on[^11][^12]:
 
 - Product teams oriented to solving customer problems rather than implementing features
 - Continuous discovery as a first-class discipline integrated with delivery[^11]
