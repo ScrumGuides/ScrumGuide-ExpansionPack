@@ -69,49 +69,68 @@ function BlockQuote(el)
   for i = 2, #el.content do
     table.insert(body_blocks, el.content[i])
   end
+  
+  -- Remove trailing empty paragraphs
+  while #body_blocks > 0 do
+    local last = body_blocks[#body_blocks]
+    if last.t == "Para" and #last.content == 0 then
+      table.remove(body_blocks)
+    else
+      break
+    end
+  end
+
+  -- Escape special LaTeX characters in title
+  display_title = display_title:gsub("([\\{}$&#_%%])", "\\%1")
 
   -- Handle HIGHLIGHT specially (like content-highlight div)
   if type_lower == "highlight" then
-    -- Build a simpler box for highlights
-    local latex = "\\begin{tcolorbox}[colback=gray!5,colframe=gray!30,boxrule=0.5pt,sharp corners,left=10pt,right=10pt,top=8pt,bottom=8pt"
+    -- Create a Div with RawBlock wrappers
+    local blocks = {pandoc.RawBlock("latex", "\\begin{tcolorbox}[colback=gray!5,colframe=gray!30,boxrule=0.5pt,sharp corners,left=10pt,right=10pt,top=5pt,bottom=5pt,before skip=10pt,after skip=10pt")}
     
     if display_title ~= "" then
-      latex = latex .. string.format(",title={%s}", display_title)
+      blocks[1] = pandoc.RawBlock("latex", "\\begin{tcolorbox}[colback=gray!5,colframe=gray!30,boxrule=0.5pt,sharp corners,left=10pt,right=10pt,top=5pt,bottom=5pt,before skip=10pt,after skip=10pt,title={" .. display_title .. "}]")
+    else
+      blocks[1] = pandoc.RawBlock("latex", "\\begin{tcolorbox}[colback=gray!5,colframe=gray!30,boxrule=0.5pt,sharp corners,left=10pt,right=10pt,top=5pt,bottom=5pt,before skip=10pt,after skip=10pt]")
     end
     
-    latex = latex .. "]\n"
+    -- Add body blocks
+    for _, block in ipairs(body_blocks) do
+      table.insert(blocks, block)
+    end
     
-    -- Convert body blocks to LaTeX and append
-    local body_doc = pandoc.Pandoc(body_blocks)
-    local body_latex = pandoc.write(body_doc, "latex")
+    table.insert(blocks, pandoc.RawBlock("latex", "\\end{tcolorbox}"))
     
-    latex = latex .. body_latex .. "\n\\end{tcolorbox}"
-    return pandoc.RawBlock("latex", latex)
+    return blocks
   end
 
   -- Start building LaTeX for alert-style callouts
-  local latex = string.format(
-    "\\begin{tcolorbox}[colback=%s,colframe=%s,boxrule=0.8pt,sharp corners,left=10pt,right=10pt,top=10pt,bottom=10pt",
+  local latex_open = string.format(
+    "\\begin{tcolorbox}[colback=%s,colframe=%s,boxrule=0.8pt,sharp corners,left=10pt,right=10pt,top=8pt,bottom=5pt,before skip=10pt,after skip=10pt",
     style.color,
     style.frame
   )
   
   -- Add title with icon if present
   if display_title ~= "" and style.icon ~= "" then
-    latex = latex .. string.format(",title={%s %s}", style.icon, display_title)
+    latex_open = latex_open .. string.format(",title={%s %s}]", style.icon, display_title)
   elseif display_title ~= "" then
-    latex = latex .. string.format(",title={%s}", display_title)
+    latex_open = latex_open .. string.format(",title={%s}]", display_title)
   elseif style.icon ~= "" then
-    latex = latex .. string.format(",title={%s}", style.icon)
+    latex_open = latex_open .. string.format(",title={%s}]", style.icon)
+  else
+    latex_open = latex_open .. "]"
+  end
+
+  -- Build blocks array
+  local blocks = {pandoc.RawBlock("latex", latex_open)}
+  
+  for _, block in ipairs(body_blocks) do
+    table.insert(blocks, block)
   end
   
-  latex = latex .. "]\n"
-
-  -- Convert body blocks to LaTeX and append
-  local body_doc = pandoc.Pandoc(body_blocks)
-  local body_latex = pandoc.write(body_doc, "latex")
+  table.insert(blocks, pandoc.RawBlock("latex", "\\end{tcolorbox}"))
   
-  latex = latex .. body_latex .. "\n\\end{tcolorbox}"
-
-  return pandoc.RawBlock("latex", latex)
+  return blocks
 end
+
