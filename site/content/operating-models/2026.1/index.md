@@ -75,6 +75,24 @@ Operating models differ materially in how they answer this third question.
 > [!HIGHLIGHT] The Critical Question
 > How quickly must your organization learn and respond for customer value to be captured and sustained? Your answer determines whether a predictive or adaptive model is appropriate.
 
+### Empiricism
+
+Empirical process control is a way of making decisions and adapting direction based on observation of reality rather than on prediction or assumption[^7]. It requires three pillars:
+
+- **Transparency** - The actual state of work, progress, and outcomes must be visible to those making decisions
+- **Inspection** - Work and results must be examined frequently enough to detect problems or variances
+- **Adaptation** - When inspection reveals unacceptable deviation, the process or work must be adjusted
+
+Empirical control becomes organizationally meaningful only when inspection cycles are short enough for adaptation to have economic effect, and when decision rights enable those with information to act on it.
+
+### Governance
+
+Governance is the system of decision rights, approval mechanisms, risk management practices, and oversight policies that determine how work is authorized, prioritized, funded, monitored, and changed. It translates organizational intent and risk tolerance into operational constraints, maintaining accountability and managing risk while enabling the organization to respond to its environment.
+
+### Value stream
+
+A value stream is the sequence of activities, people, and systems required to deliver value from initial concept or customer request through to the realization of customer value. It represents the end-to-end flow of work necessary to create, deliver, and support a product or service, following value delivery rather than organizational hierarchy.
+
 ### Stable markets and environments
 
 Stable markets are characterized by predictability and slow change across multiple dimensions:
@@ -313,7 +331,7 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction, with explicit limits and escalation rules. It avoids stage gates that delay learning and force speculative commitments.
 
-- **Technical excellence as a condition of speed** - In knowledge work, fast adaptation requires low-cost and quick change. Technical excellence reduces the cost and risk of change (and perhaps faster), enabling frequent increments and emergent feedback[^9][^10].
+- **Technical excellence as a condition of speed** - Technical excellence is the organizational capability to make changes quickly, safely, and repeatedly through engineering practices that reduce the cost and risk of change[^9][^10]. This includes automated testing, continuous integration, evolutionary architecture, refactoring discipline, and deployment automation. In knowledge work, fast adaptation depends on technical systems that enable frequent increments, fast feedback, and rapid response to learning without accumulating technical debt or increasing defect rates.
 
 These characteristics create organizational compatibility with empiricism, and therefore compatibility with Scrum's intent.
 
