@@ -36,6 +36,9 @@ Operating model choice is a leadership and organizational design decision that c
 
 What follows is a formal reference establishing definitions, assumptions, constraints, and consequences. Predictive models are not inherently wrong; their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
 
+> [!HIGHLIGHT] Model Mismatch
+> When the business theory embedded in your operating model no longer aligns with your environment, the model becomes a systematic source of waste—no matter how well you execute it.
+
 ## Definitions
 
 ### Operating model
@@ -68,6 +71,9 @@ In dynamic environments, a third question becomes equally determinative:
 - How quickly must the organization learn and respond for the customer's value to be captured and sustained?
 
 Operating models differ materially in how they answer this third question.
+
+> [!HIGHLIGHT] The Critical Question
+> How quickly must your organization learn and respond for customer value to be captured and sustained? Your answer determines whether a predictive or adaptive model is appropriate.
 
 ### Stable markets and environments
 
@@ -139,6 +145,21 @@ Scrum was designed specifically for complex work[^7]. It assumes outcomes cannot
 
 The choice is not about preference or culture. It is about matching the operating model to the actual nature of the work.
 
+### Understanding Context: Simple vs Complex Work
+
+| **Aspect** | **Simple Context** | **Complex Context** |
+|------------|-------------------|---------------------|
+| **Cause and Effect** | Predictable and repeatable | Only understood in retrospect |
+| **Solutions** | Discoverable through analysis | Emerge through experimentation |
+| **Knowledge Impact** | Reduces uncertainty, improves predictability | Helps adaptation, not prediction |
+| **Standardization** | Improves efficiency and reliability | Offers no advantage—conditions keep changing |
+| **Examples** | Manufacturing processes, transaction processing | Product development in dynamic markets, customer discovery |
+| **Best Operating Model** | Predictive | Adaptive |
+{.table .table-striped .table-sm}
+
+> [!HIGHLIGHT] The Leadership Error
+> Applying a simple-context operating model (Predictive) to complex-context work (Product Development) creates structural waste. No amount of effort at the team level can overcome this mismatch.
+
 ## Scrum outcomes and operating model dependency
 
 Scrum is designed to support empirical product development through transparency, inspection, and adaptation[^7]. Scrum creates learning loops. It does not, by itself, create the organizational conditions required for those loops to influence decisions at the speed and fidelity needed in dynamic markets.
@@ -165,6 +186,22 @@ Operating models can be described as a hierarchy of intent and specialization:
 
 The focus here is on the Predictive and Adaptive operating models, and on product-centric adaptive implementations as examples of how an adaptive model can be expressed at scale.
 
+### Operating Models at a Glance
+
+| **Characteristic** | **Predictive Operating Model** | **Adaptive Operating Model** |
+|-------------------|-------------------------------|-----------------------------|
+| **Core Assumption** | Environment is predictable | Environment is dynamic |
+| **Success Driver** | Efficiency and standardization | Learning speed and adaptation |
+| **Decision Rights** | Centralized, hierarchical | Decentralized, near information |
+| **Planning Approach** | Detailed upfront plans | Emergent, hypothesis-driven |
+| **Work Organization** | Projects with fixed scope | Products with evolving outcomes |
+| **Risk Management** | Stage gates and approval chains | Transparency and fast correction |
+| **Change Management** | Variance is deviation/failure | Variance is information/learning |
+| **Team Structure** | Functional silos with handoffs | Empowered, cross-functional teams |
+| **Measures** | Utilization, plan adherence | Outcomes, capability, flow |
+| **Best Context** | Stable markets, simple work | Dynamic markets, complex work |
+{.table .table-striped .table-sm}
+
 ## The Predictive Operating Model
 
 ### Core assumption
@@ -183,6 +220,9 @@ The Predictive Operating Model rests on beliefs that were historically compatibl
 - Management optimizes throughput by controlling deviation and enforcing standards.
 
 These beliefs are coherent when the environment is stable, the work is repeatable, and the primary economic challenge is unit cost reduction through scale.
+
+> [!HIGHLIGHT] Historical Context
+> The Predictive Operating Model wasn't wrong—it was a rational response to stable, supply-constrained industrial-era markets. The error is applying it unchanged to today's dynamic, customer-choice-driven environments.
 
 ### Customer and value assumptions
 
@@ -337,7 +377,27 @@ In dynamic markets, the organization competes on learning and adaptation speed. 
 
 When the organization's decision horizon is slower than the market's change horizon, empirical methods cannot produce competitive outcomes. The organization may still deliver outputs, but those outputs increasingly miss current value opportunities.
 
+### Operating Model Fit: A Strategic View
+
+The relationship between operating model choice and market conditions determines organizational outcomes:
+
+| **Operating Model** | **Stable Markets** | **Dynamic Markets** |
+|---------------------|-------------------|---------------------|
+| **Predictive** | ✓ Efficient & Reliable<br/>*Appropriate model for context* | ✗ Declining Competitiveness<br/>*Model assumes predictability in unpredictable environment* |
+| **Adaptive** | ✗ Over-Engineered<br/>*More flexibility than needed, but capable* | ✓ Competitive Advantage<br/>*Model matches environment* |
+{.table .table-bordered .table-striped}
+
+**Key insights:**
+
+- **Predictive + Stable Markets**: The model matches the context—efficiency and reliability create advantage.
+- **Predictive + Dynamic Markets**: Systematic failure—assumptions about predictability don't align with reality, creating structural waste.
+- **Adaptive + Stable Markets**: Over-engineered but functional—the organization has more adaptive capacity than the environment requires.
+- **Adaptive + Dynamic Markets**: Competitive advantage—the model's learning speed and adaptability match environmental demands.
+
 ## Operating models as a leadership decision
+
+> [!HIGHLIGHT] On "We Can't Say No"
+> If your organization can't say no, creating elaborate discovery, rationalization, and hypothesis processes is theater. The real work is establishing decision rights and governance that can act on evidence—including evidence that says "stop this, do that instead." Without that, you're optimizing a system that can't adapt.
 
 Operating model choice is not an optimization problem within delivery teams. It is a system-level decision because it determines:
 
@@ -356,6 +416,9 @@ The leadership decision is therefore not "do we use Scrum?" It is:
 - What assumptions will leadership embed into decision rights, funding, governance, and measurement? Will they become an [adaptive enterprise]({{< ref "/adaptive-enterprise" >}}) or remain a predictive enterprise? [^3]
 - Will the organization treat uncertainty as a planning failure, or as a condition requiring adaptiveness?
 - Will the organization enable parallel safe-to-fail experiments to manage uncertainty and accelerate learning, or demand sequential approvals and large-batch commitments?
+
+> [!HIGHLIGHT] Challenging Senior Leaders
+> You don't need to tell experienced people they're "wrong." Instead, make the model mismatch visible: "Our operating model assumes predictability. Here's evidence the market is dynamic. Which model matches our reality?" Frame it as diagnosis, not criticism. The data—customer churn, missed opportunities, competitor speed—makes the case. Your job is transparency, not persuasion.
 
 ## Operating-model incompatibilities with Scrum outcomes
 
@@ -471,6 +534,9 @@ The organising premise for understanding these lenses is that transformation is 
 ### The transformation journey is non-linear
 
 The journey toward product-centric adaptive implementation is not a linear progression through maturity stages[^20]. Organizations experience multiple stages simultaneously, with different parts of the organization operating under competing mental models. This creates a "mash-up" where conversations about work hierarchies, goal cascades, and value models occur at the same time, often in tension with each other[^20].
+
+> [!HIGHLIGHT] Reality Check
+> Transformation isn't a clean progression from A to B. Organizations experience multiple stages simultaneously, with different parts operating under competing mental models. This "mash-up" is normal, not a sign of failure.
 
 The dominant narrative typically shifts through recognizable patterns[^20]:
 
@@ -603,6 +669,9 @@ An organization can execute Scrum and still be unable to act on learning if proc
 ## AI as a forcing function
 
 AI accelerates the rate at which work can be produced, information can be processed, and options can be explored. This does not automatically create customer value. It amplifies the operating model it enters.
+
+> [!HIGHLIGHT] AI's Forcing Function
+> AI doesn't fix broken operating models—it amplifies them. In predictive models, AI increases output while preserving slow decisions, creating more work based on stale assumptions. In adaptive models, AI accelerates learning speed, widening the competitive gap.
 
 Within a predictive model, AI often increases the volume of output while preserving slow decision-making, gated governance, and fixed-scope constraints. The organization becomes capable of producing more work that is still selected, sequenced, and governed based on stale assumptions.
 

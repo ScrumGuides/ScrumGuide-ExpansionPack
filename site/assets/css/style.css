@@ -97,6 +97,126 @@
   border-top: 1px solid #555;
 }
 
+/* ============ Blockquote Styling ============ */
+blockquote,
+.blockquote {
+  position: relative;
+  padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+  margin: 2rem 0;
+  background: linear-gradient(135deg, rgba(19, 82, 137, 0.03) 0%, rgba(19, 82, 137, 0.08) 100%);
+  border-left: 4px solid var(--bs-primary);
+  border-radius: 0.5rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #2c3e50;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Highlight Blockquote - Subtle right-aligned content highlight */
+.content-highlight {
+  position: relative;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0 2rem auto;
+  max-width: 80%;
+  background: linear-gradient(135deg, rgba(19, 82, 137, 0.02) 0%, rgba(19, 82, 137, 0.04) 100%);
+  border-left: 3px solid rgba(19, 82, 137, 0.3);
+  border-radius: 0.375rem;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #4a5568;
+  font-style: italic;
+  text-align: left;
+}
+
+/* Remove quote mark from content-highlight */
+.content-highlight::before {
+  content: none !important;
+}
+
+.content-highlight p {
+  margin-bottom: 0.5rem;
+}
+
+.content-highlight p:last-child {
+  margin-bottom: 0;
+}
+
+.content-highlight strong {
+  color: #135289;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Dark mode support for content highlight */
+@media (prefers-color-scheme: dark) {
+  .content-highlight {
+    background: linear-gradient(135deg, rgba(19, 82, 137, 0.04) 0%, rgba(19, 82, 137, 0.06) 100%);
+    color: #cbd5e0;
+    border-left-color: rgba(19, 82, 137, 0.5);
+  }
+  
+  .content-highlight strong {
+    color: #6db3e6;
+  }
+}
+
+blockquote::before,
+.blockquote::before {
+  content: '\201C';
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  font-size: 3rem;
+  font-family: Georgia, serif;
+  color: var(--bs-primary);
+  opacity: 0.3;
+  line-height: 1;
+}
+
+blockquote p,
+.blockquote p {
+  margin-bottom: 0;
+}
+
+blockquote p:last-child,
+.blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote strong,
+.blockquote strong {
+  color: var(--bs-primary);
+  font-weight: 600;
+}
+
+/* Hover effect for interactive feel */
+blockquote:hover,
+.blockquote:hover {
+  background: linear-gradient(135deg, rgba(19, 82, 137, 0.05) 0%, rgba(19, 82, 137, 0.1) 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* Dark mode support if needed */
+@media (prefers-color-scheme: dark) {
+  blockquote,
+  .blockquote {
+    background: linear-gradient(135deg, rgba(19, 82, 137, 0.1) 0%, rgba(19, 82, 137, 0.15) 100%);
+    color: #e0e0e0;
+    border-left-color: #4a9fd8;
+  }
+  
+  blockquote::before,
+  .blockquote::before {
+    color: #4a9fd8;
+  }
+  
+  blockquote strong,
+  .blockquote strong {
+    color: #6db3e6;
+  }
+}
+
 /* ============ Checkbox Lists ============ */
 li:has(> input[type="checkbox"]) {
   list-style: none;
