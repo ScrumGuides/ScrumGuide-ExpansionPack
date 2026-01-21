@@ -539,52 +539,52 @@ Before examining specific product operating model implementations, it is essenti
 
 Transformation is non-linear, uneven, and frequently contradictory. This premise is essential for understanding how product operating models apply in practice.
 
-The journey toward product-centric adaptive implementation is not a linear progression through maturity stages[^20]. Organizations experience multiple stages simultaneously, with different parts of the organization operating under competing mental models. This creates a "mash-up" where conversations about work hierarchies, goal cascades, and value models occur at the same time, often in tension with each other[^20].
+The journey toward product-centric adaptive implementation is not a linear progression through maturity stages. Organizations experience multiple stages simultaneously, with different parts of the organization operating under competing mental models. This creates a "mash-up" where conversations about work hierarchies, goal cascades, and value models occur at the same time, often in tension with each other[^20].
 
 > [!HIGHLIGHT] Reality Check
 > Transformation isn't a clean progression from A to B. Organizations experience multiple stages simultaneously, with different parts operating under competing mental models. This "mash-up" is normal, not a sign of failure.
 
-The dominant narrative typically shifts through recognizable patterns[^20]:
+The dominant narrative typically shifts through recognizable patterns:
 
 - **Work-centric focus** - Delivery predictability, dependency management, and work-in-progress reduction dominate. Success means moving work items through stages reliably. "Say/Do ratio" becomes the primary measure of performance.
 
 - **Early goal introduction** - OKRs or similar frameworks are introduced, but goals remain annotations on pre-determined work rather than primary expressions of intent. The work hierarchy persists, and goal cascades often mirror the organizational chart rather than value flows.
 
-- **Goals-first orientation** - Objectives begin to precede work selection. Initiatives become interventions to achieve results, and the language of hypotheses, bets, and opportunities emerges. This transition is contingent on architectural improvements that reduce batch sizes and team dependencies[^20].
+- **Goals-first orientation** - Objectives begin to precede work selection. Initiatives become interventions to achieve results, and the language of hypotheses, bets, and opportunities emerges. This transition is contingent on architectural improvements that reduce batch sizes and team dependencies.
 
-- **Emerging value models** - Organizations begin distinguishing value from objectives. Customer journeys, capability trees, platform thinking, and value streams emerge as distinct concepts. Multiple frameworks compete for attention, creating organizational confusion but also opportunity for clarification[^20].
+- **Emerging value models** - Organizations begin distinguishing value from objectives. Customer journeys, capability trees, platform thinking, and value streams emerge as distinct concepts. Multiple frameworks compete for attention, creating organizational confusion but also opportunity for clarification.
 
-- **Value model convergence** - Organizational structure, team boundaries, funding models, and architecture align around shared value structures. Objectives attach to these structures. Work flows through them. Investment decisions reference them[^20].
+- **Value model convergence** - Organizational structure, team boundaries, funding models, and architecture align around shared value structures. Objectives attach to these structures. Work flows through them. Investment decisions reference them.
 
-This evolution is not sequential. Organizations commonly introduce OKRs without understanding outcomes, attempt outcome orientation without controlling work-in-progress, or pursue product funding without clarity on what constitutes a product[^20]. Progress in one dimension often exposes fragility in another.
+This evolution is not sequential. Organizations commonly introduce OKRs without understanding outcomes, attempt outcome orientation without controlling work-in-progress, or pursue product funding without clarity on what constitutes a product. Progress in one dimension often exposes fragility in another[^20].
 
 ### Prerequisites for outcome orientation
 
-Outcome-oriented product development cannot be "installed" through process frameworks alone[^20]. Teams require:
+Outcome-oriented product development cannot be "installed" through process frameworks alone. Teams require:
 
-- **Architectural independence** - Teams must be capable of delivering value without excessive dependencies. This is an architectural and organizational design problem, not merely a mindset shift[^20].
+- **Architectural independence** - Teams must be capable of delivering value without excessive dependencies. This is an architectural and organizational design problem, not merely a mindset shift.
 
-- **Reduced batch sizes** - Large batches prevent rapid feedback and force premature convergence on solutions. Batch size reduction must precede meaningful outcome orientation[^20].
+- **Reduced batch sizes** - Large batches prevent rapid feedback and force premature convergence on solutions. Batch size reduction must precede meaningful outcome orientation.
 
-- **Stable organizational systems** - Teams need stable team boundaries, funding models, product boundaries, and decision rights. Within this stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes—shifting team composition, reassigning people to projects, reorganizing structures for utilization—teams cannot build capability or maintain context[^20]. Stability of system does not mean stability of direction.
+- **Stable organizational systems** - Teams need stable team boundaries, funding models, product boundaries, and decision rights. Within this stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes—shifting team composition, reassigning people to projects, reorganizing structures for utilization—teams cannot build capability or maintain context. Stability of system does not mean stability of direction.
 
-- **Clear value models** - Teams cannot be funded as products if no one has a reasonable sense of what a product, node in the value chain, or value-creating capability actually is[^20].
+- **Clear value models** - Teams cannot be funded as products if no one has a reasonable sense of what a product, node in the value chain, or value-creating capability actually is.
 
-Without these conditions, product operating model adoption creates the appearance of progress while preserving the underlying predictive structure.
+Without these conditions, product operating model adoption creates the appearance of progress while preserving the underlying predictive structure[^20].
 
 ### The challenge of maintaining explicit models
 
-Organizations that successfully internalize product operating models face a paradox[^20]. As value models, team boundaries, and outcome-orientation become embedded in daily practice, the explicit frameworks that enabled the transition become less visible. Teams aligned around customer journeys may stop articulating that alignment because it has become organizational common sense. Metrics trees and value chains may exist informally rather than as documented artifacts.
+Organizations that successfully internalize product operating models face a paradox. As value models, team boundaries, and outcome-orientation become embedded in daily practice, the explicit frameworks that enabled the transition become less visible. Teams aligned around customer journeys may stop articulating that alignment because it has become organizational common sense. Metrics trees and value chains may exist informally rather than as documented artifacts.
 
-This creates difficulty for organizations in transition. They require more explicit structure and formality to maintain coherence while multiple mental models compete[^20]. Without visible value models, different groups pursuing product-centricity may create incompatible structures. The organization needs legibility, clear, shared understanding of how value is created, precisely because it lacks the internalized agreement that mature product organizations possess.
+This creates difficulty for organizations in transition. They require more explicit structure and formality to maintain coherence while multiple mental models compete. Without visible value models, different groups pursuing product-centricity may create incompatible structures. The organization needs legibility, clear, shared understanding of how value is created, precisely because it lacks the internalized agreement that mature product organizations possess.
 
 Therefore, the explicitness of frameworks is contextual:
 
 - **Organizations in transition** benefit from formal value models, documented team boundaries, explicit measures, and visible integration mechanisms. The formality creates shared language and prevents competing frameworks from fragmenting the organization.
 
-- **Organizations with internalized models** may appear less formal because the models are embedded in organizational structure, funding patterns, and daily practice. The informality reflects maturity, not absence of structure[^20].
+- **Organizations with internalized models** may appear less formal because the models are embedded in organizational structure, funding patterns, and daily practice. The informality reflects maturity, not absence of structure.
 
-Attempting to copy the informal practices of mature product organizations without the underlying internalized models reproduces appearance without capability.
+Attempting to copy the informal practices of mature product organizations without the underlying internalized models reproduces appearance without capability[^20].
 
 ## Product operating model lenses (applied, not adopted)
 
@@ -630,7 +630,7 @@ This aligns with adaptive operating model characteristics:
 
 Cagan's framing provides strong emphasis on the product management and discovery system required for modern product success. It highlights the organizational conditions necessary for product teams are informed by evidence.
 
-Cagan's model addresses the distinction between objectives (expressions of intent) and value models (organizational context structures)[^20]. Customer segments, market opportunities, and product capabilities represent value context that grounds objectives and makes them actionable. Without this context, objectives float as aspirational statements disconnected from how teams organize work and investment.
+Cagan's model addresses the distinction between objectives (expressions of intent) and value models (organizational context structures). Customer segments, market opportunities, and product capabilities represent value context that grounds objectives and makes them actionable. Without this context, objectives float as aspirational statements disconnected from how teams organize work and investment[^20].
 
 ### Scrum.org’s Agile Product Operating Model as an adaptive implementation
 
@@ -714,7 +714,7 @@ This includes systematic abandonment of[^2]:
 
 Hygiene is not removal alone. It requires purposeful innovation[^2], building the capabilities that make adaptation safe:
 
-- Modern engineering practices enabling low-risk change[^9][^10]
+- Modern engineering practices enabling low-risk change[^9] [^10]
 - Clear outcome measures that guide decentralized decisions
 - Explicit boundaries for decision rights and escalation
 - Stable organizational systems providing teams with consistent funding, clear boundaries, and coherent product direction
