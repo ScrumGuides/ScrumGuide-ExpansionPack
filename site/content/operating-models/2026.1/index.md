@@ -34,7 +34,7 @@ License/Copyright: Creative Commons Attribution 4.0 International ([CC BY 4.0](h
 
 Operating model choice is a leadership and organizational design decision that constrains or enables the outcomes associated with Scrum. Scrum, as a social technology grounded in empiricism, has its benefits systematically constrained when implemented within a Predictive Operating Model in dynamic market conditions. The following content defines the characteristics of an Adaptive Operating Model and positions product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, as non-exclusive approaches that align organizational structure, decision rights, and learning loops to the realities of modern product work.
 
-What follows is a formal reference establishing definitions, assumptions, constraints, and consequences. Predictive models are not inherently wrong; their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
+This reference establishes definitions, assumptions, constraints, and consequences of operating model choice. Predictive models are effective when their underlying assumptions align with environmental conditions. Their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
 
 > [!HIGHLIGHT] Model Mismatch
 > When the business theory embedded in your operating model no longer aligns with your environment, the model becomes a systematic source of waste—no matter how well you execute it.
@@ -156,7 +156,7 @@ The choice is not about preference or culture. It is about matching the operatin
 | **Solutions** | Discoverable through analysis | Emerge through experimentation |
 | **Knowledge Impact** | Reduces uncertainty, improves predictability | Helps adaptation, not prediction |
 | **Standardization** | Improves efficiency and reliability | Offers no advantage—conditions keep changing |
-| **Examples** | Manufacturing processes, transaction processing | Product development in dynamic markets, customer discovery |
+| **Examples** | Operational work whose cause-and-effect relationships have been established through repeated observation: manufacturing processes with known parameters, transaction processing with defined rules, established service delivery models | Product development in dynamic markets, customer discovery |
 | **Best Operating Model** | Predictive | Adaptive |
 {.table .table-striped .table-sm}
 
@@ -288,7 +288,7 @@ The Adaptive Operating Model assumes uncertainty is persistent and often irreduc
 - Direction is provided through goals and constraints, not fixed plans.
 - Leadership designs enabling systems rather than controlling execution.
 
-The adaptive model is a coherent response to environments where speed of learning is a primary driver of competitiveness.
+The adaptive model aligns with environmental conditions where speed of learning is a primary driver of competitiveness.
 
 ### Customer and value assumptions
 
@@ -533,9 +533,11 @@ Understanding these structural incompatibilities between predictive and adaptive
 
 ## Understanding transformation non-linearity and prerequisites
 
-Before examining specific product operating model implementations, it is essential to understand that organizational transformation toward adaptive operating models is non-linear, uneven, and frequently contradictory. This understanding shapes realistic expectations about change and clarifies why product operating models function as adaptive lenses rather than sequential maturity stages.
+Before examining specific product operating model implementations, it is essential to understand that organizational transformation toward adaptive operating models is non-linear, uneven, and frequently contradictory. This understanding shapes realistic expectations about change and clarifies why product operating models function as diagnostic and interventional frameworks—not sequential maturity stages—for understanding which organizational constraints prevent adaptation.
 
 ### The transformation journey is non-linear
+
+Transformation is non-linear, uneven, and frequently contradictory. This premise is essential for understanding how product operating models apply in practice.
 
 The journey toward product-centric adaptive implementation is not a linear progression through maturity stages[^20]. Organizations experience multiple stages simultaneously, with different parts of the organization operating under competing mental models. This creates a "mash-up" where conversations about work hierarchies, goal cascades, and value models occur at the same time, often in tension with each other[^20].
 
@@ -695,9 +697,9 @@ AI therefore, strengthens the case that operating model choice is a leadership i
 
 ## Operating-model hygiene and regression risk
 
-Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control in teh face of uncertainty.
+Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control in the face of uncertainty.
 
-Operating-model hygiene is the routine removal of policies that assume predictability in contexts where prediction error dominates. This disciplined practice includes:
+Operating-model hygiene—the deliberate, systematic removal of policies that assume predictability in contexts where prediction error dominates—is essential practice for maintaining adaptive capability. This disciplined practice includes:
 
 - Removing structures and governance mechanisms that assume predictability where it does not exist
 - Preventing the reintroduction of those mechanisms under pressure
