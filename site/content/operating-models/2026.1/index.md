@@ -150,7 +150,7 @@ Scrum outcomes depend on:
 - Decision rights located where information emerges
 - Cross-functional teams with the authority and capability to deliver increments without excessive dependencies
 - A governance and funding model that can change direction based on evidence
-- Measures that reward outcomes and learning rather than plan adherence
+- Measures that support learning and improvement rather than judgement—tracking outcomes (customer and market results), capability (ability to deliver and learn), quality (defects, reliability, change failure rate), and flow (lead time, throughput, work-in-progress), with explicit guardrails against local optimization
 
 These conditions are operating-model properties. Scrum can be executed faithfully and still fail to produce meaningful organizational outcomes if the operating model constrains learning, decentralization, and outcome-driven change.
 
@@ -259,7 +259,7 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **Decentralized decision rights** - Decision-making authority is intentionally located close to where information emerges[^5], with explicit boundaries and clear escalation criteria. This reduces decision latency and prevents stale information from shaping outcomes.
 
-- **Explicit learning loops** - Learning is 'designed into' the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and continuous measurement.
+- **Explicit learning loops** - Learning is 'designed into' the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and measurement focused on outcomes, capability, quality, and flow rather than activity or utilization.
 
 - **System stability with deliberate change** - The operating model provides stable funding, boundaries, decision rights, and accountabilities within which teams operate. Structural changes occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This stability enables capability building and continuous learning; constant reorganization prevents both.
 
@@ -323,9 +323,10 @@ Mismatch produces distinct forms of waste that are structural, not incidental:
 - **Decision latency waste** - Hierarchical decision-making delays responses to current information. When decisions are made, they are based on stale abstractions rather than current conditions. Teams closest to customers lack the authority to act on what they learn.
 - **Handoff and dependency waste** - Functional specialization creates handoffs, queues, and overhead for dependency management. In dynamic contexts, these delays reduce the value of learning because responses arrive late.
 - **Innovation waste** - Stage gates and risk controls designed for large capital bets prevent small experiments. This blocks safe-to-learn approaches, forcing organizations into speculative commitments.
-- **Measurement distortion waste** - Output-based measures (utilization, "on time and on budget," plan adherence) reward behaviors that suppress transparency and discourage adaptation[^8]. The organization optimizes visible activity or outputs rather than value realization.
+- **Measurement distortion waste** - Output-based measures (utilization, "on time and on budget," plan adherence) reward behaviors that suppress transparency and discourage adaptation[^8]. The organization optimizes visible activity rather than value realization.
 - **Human capability waste** - Treating people as interchangeable 'resources' reduces ownership and undermines team-level learning. Continuous improvement requires teams that evolve their capability, not project staffing cycles.
 - **System capability waste** - Optimizing individual teams or functions in isolation degrades overall system performance. Without explicit mechanisms for cross-team coherence and integration, organizations create local efficiency at the expense of end-to-end value delivery.
+- **Tampering waste** - Fast feedback without understanding variation leads executives to intervene on normal system fluctuations, creating instability[^22]. Leadership intervention should cross explicit decision thresholds—"Three consecutive Sprints below target"—not respond to single data points. Effective adaptive governance uses trends and ranges to distinguish system performance from random variation.
 
 These wastes reduce Scrum’s effectiveness because Scrum depends on transparency and adaptation. Predictive structures systematically discourage both; they even discourage inspection at times.
 
@@ -399,7 +400,7 @@ Utilization metrics assume the objective is to keep resources busy. In dynamic e
 
 Utilization-driven systems discourage collaboration and local optimization, and they incentivize starting work rather than finishing value. In-progress work is a liability while realized value is an asset.
 
-Scrum outcomes improve when teams are measured on product outcomes and system capability rather than on individual activity[^8].
+Adaptive models measure outcomes (customer satisfaction, market results), capability (cycle time improvement, quality trends), and system flow (lead time, throughput), explicitly for learning and improvement rather than for individual judgement[^8]. Flow measures require guardrails: optimizing one team's throughput while degrading end-to-end delivery creates system waste. Measures exist to surface reality and guide adaptation, not to rank people or justify resource allocation decisions.
 
 ### Stage gates and approval chains
 
@@ -431,6 +432,14 @@ The predictive model assumes that the primary path to growth lies in execution e
 Therefore, adopting an adaptive model is not an improvement initiative. It is a leadership response to an environmental condition.
 
 This framing remains contextual, not moral. Predictive models are appropriate in stable contexts. The issue is the increasing prevalence of dynamic conditions in modern product environments.
+
+## Adaptive as disciplined, not reactive
+
+Adaptive must not be misinterpreted as reactive. An adaptive operating model requires greater discipline than a predictive model because it demands explicit operational definitions, testable predictions, and systematic decision rules[^21][^22].
+
+Terms such as "value," "learning," "Done," and "risk" must have measurable definitions. Every experiment must include explicit predictions. Deming's shift from "Check" to "Study" in PDSA emphasizes comparing results against predictions and distinguishing common cause variation (inherent in the system) from special cause variation (indicating something changed). Without prediction and study of variation, responses become tampering rather than learning. Organizations require decision rules specifying when to change course, when to hold steady, and when to investigate—for example: "Change strategy if three consecutive Sprints show declining engagement below threshold X, but not based on week-to-week fluctuations within expected variation." Without operational definitions, predictions, and decision rules, organizations cannot distinguish learning from opinion.
+
+These mechanisms are not bureaucratic overhead. They are the preconditions for empiricism at scale. Organizations that lack operational definitions, testable predictions, and decision rules cannot distinguish learning from opinion, and cannot sustain adaptation under pressure.
 
 ## The Adaptive Operating Model as the organizational expression of empiricism
 
@@ -714,3 +723,7 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 [^19]: Kleiner, M. (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time*. Available at: [https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half](https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half) (Accessed: 18 January 2026).
 
 [^20]: Cutler, J. (2026) 'TBM 402: The Real-World Journey to Value and Product-Centricity', *The Beautiful Mess*. Available at: [https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to](https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to) (Accessed: 21 January 2026).
+
+[^21]: Deming, W.E. (1994) *The New Economics for Industry, Government, Education*. Second Edition. Cambridge, MA: MIT Press.
+
+[^22]: Deming, W.E. (1986) *Out of the Crisis*. Cambridge, MA: MIT Press.
