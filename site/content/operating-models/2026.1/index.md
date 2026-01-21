@@ -172,6 +172,7 @@ Scrum outcomes depend on:
 - Short feedback cycles producing usable information
 - Decision rights located where information emerges
 - Cross-functional teams with the authority and capability to deliver increments without excessive dependencies
+- Stable organizational systems that enable teams to build capability while direction adapts
 - A governance and funding model that can change direction based on evidence
 - Measures that support learning and improvement rather than judgement
 
@@ -308,7 +309,7 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **Explicit learning loops** - Learning is 'designed into' the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and measurement focused on outcomes, capability, quality, and flow rather than activity or utilization.
 
-- **System stability with deliberate change** - The operating model keeps team boundaries, funding models, product boundaries, and decision rights stable, creating constancy of purpose while enabling continuous adaptation of strategy, priorities, and investment. Structural changes to the stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction prevents the misread that stable teams means frozen direction—teams remain stable while direction adapts.
+- **Stable organizational systems with adaptive direction** - Stable organizational systems—where team boundaries, funding models, product boundaries, and decision rights remain consistent—enable teams to build capability and maintain context while strategy, priorities, and investment adapt continuously based on evidence. Structural changes to these stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction is critical: system stability does not mean frozen direction—teams remain stable while direction adapts.
 
 - **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction, with explicit limits and escalation rules. It avoids stage gates that delay learning and force speculative commitments.
 
@@ -566,7 +567,7 @@ Outcome-oriented product development cannot be "installed" through process frame
 
 - **Reduced batch sizes** - Large batches prevent rapid feedback and force premature convergence on solutions. Batch size reduction must precede meaningful outcome orientation.
 
-- **Stable organizational systems** - Teams need stable team boundaries, funding models, product boundaries, and decision rights. Within this stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes—shifting team composition, reassigning people to projects, reorganizing structures for utilization—teams cannot build capability or maintain context. Stability of system does not mean stability of direction.
+- **Stable organizational systems** - Teams need stable organizational systems: consistent team boundaries, funding models, product boundaries, and decision rights. Within this system stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes—shifting team composition, reassigning people to projects, reorganizing structures for utilization—teams cannot build capability or maintain context. System stability enables adaptive direction.
 
 - **Clear value models** - Teams cannot be funded as products if no one has a reasonable sense of what a product, node in the value chain, or value-creating capability actually is.
 
@@ -732,9 +733,9 @@ Transitioning from predictive to adaptive is a system change, not a process adju
 
 System change requires alignment across:
 
-- Structure, cross-functional teams operating within stable organizational systems aligned to products or value streams
+- Structure, cross-functional teams operating within stable organizational systems (consistent team boundaries, funding, and product boundaries) aligned to products or value streams
 - Governance, outcome-oriented, evidence-based decision processes
-- Funding, capacity allocated within stable systems and product-based investment models
+- Funding, capacity allocated within stable organizational systems through product-based investment models
 - Measurement, outcome, and capability measures rather than output and utilization
 - Leadership behaviors, system stewardship rather than execution control
 
@@ -760,7 +761,7 @@ Operating model choice is a leadership decision that encodes a theory of the bus
 
 The Predictive Operating Model remains effective where its assumptions hold. In stable environments it can provide efficiency, repeatability, and control. In dynamic markets, its assumptions become systematically invalid. The result is structural waste, decision latency, delayed learning, and diminished ability to capture customer value. Implementing Scrum within a predictive operating model in dynamic conditions produces contradiction: teams are expected to adapt while the organization is designed to prevent adaptation.
 
-The Adaptive Operating Model provides an organizational structure aligned to uncertainty, enabling outcome-oriented work, decentralized decision rights, explicit learning loops, system stability (stable teams, funding, boundaries, decision rights) within which direction continuously adapts based on evidence, and governance that enables flow. Product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, provide compatible approaches for organizations delivering value through products. They are not mutually exclusive. They can be combined when accountabilities, decision boundaries, and measures remain explicit.
+The Adaptive Operating Model provides an organizational structure aligned to uncertainty, enabling outcome-oriented work, decentralized decision rights, explicit learning loops, stable organizational systems (consistent team boundaries, funding, product boundaries, decision rights) within which direction continuously adapts based on evidence, and governance that enables flow. Product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, provide compatible approaches for organizations delivering value through products. They are not mutually exclusive. They can be combined when accountabilities, decision boundaries, and measures remain explicit.
 
 AI intensifies the consequences of operating model choice. It accelerates production capacity, which increases the cost of slow decision cycles and fixed-scope governance. In adaptive models, AI can accelerate learning and value delivery. In predictive models, it often accelerates output without improving relevance, increasing waste.
 
