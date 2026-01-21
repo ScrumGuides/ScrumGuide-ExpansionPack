@@ -796,11 +796,11 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 
 [^14]: Pflaeging, N. & Steinmann, H. (2014) *Organize for Complexity: How to Get Life Back into Work to Build the High-Performance Organization*. Third Edition. Hamburg: BetaCodex Publishing.
 
-[^16]: Mezick, D. et al. (2015) *The OpenSpace Agility Handbook*. Connecticut: New Technology Solutions, Inc.
+[^16]: Mezick, D., Sheffield, J. and Fredrick, M. (2015) *The OpenSpace Agility Handbook*. Connecticut: New Technology Solutions, Inc.
 [^17]: Snowden, D.J. and Boone, M.E. (2007) 'A Leader's Framework for Decision Making', *Harvard Business Review*, November, pp. 69-76.
-[^18]: Vodde, B. (2015) *Dynamic Reteaming and Organizational Design in LeSS* [Video]. Available at: [https://youtu.be/cxmLO0U6gQ0](https://youtu.be/cxmLO0U6gQ0) (Accessed: 18 January 2026).
+[^18]: YouTube (2015) *Dynamic Reteaming and Organizational Design in LeSS* [Video]. Available at: [https://youtu.be/cxmLO0U6gQ0](https://youtu.be/cxmLO0U6gQ0) (Accessed: 18 January 2026).
 
-[^19]: Kleiner, M. (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time*. Available at: [https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half](https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half) (Accessed: 18 January 2026).
+[^19]: Kleiner, M. (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time*. Independently published.
 
 [^20]: Cutler, J. (2026) 'TBM 402: The Real-World Journey to Value and Product-Centricity', *The Beautiful Mess*. Available at: [https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to](https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to) (Accessed: 21 January 2026).
 
