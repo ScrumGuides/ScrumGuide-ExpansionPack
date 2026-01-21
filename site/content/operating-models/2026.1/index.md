@@ -34,7 +34,10 @@ License/Copyright: Creative Commons Attribution 4.0 International ([CC BY 4.0](h
 
 Operating model choice is a leadership and organizational design decision that constrains or enables the outcomes associated with Scrum. Scrum, as a social technology grounded in empiricism, has its benefits systematically constrained when implemented within a Predictive Operating Model in dynamic market conditions. The following content defines the characteristics of an Adaptive Operating Model and positions product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, as non-exclusive approaches that align organizational structure, decision rights, and learning loops to the realities of modern product work.
 
-What follows is a formal reference establishing definitions, assumptions, constraints, and consequences. Predictive models are not inherently wrong; their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
+This reference establishes definitions, assumptions, constraints, and consequences of operating model choice. Predictive models are effective when their underlying assumptions align with environmental conditions. Their applicability is contextual. When the business theory embedded in the operating model no longer aligns with the environment, the model becomes a systematic source of waste and reduces the value achievable through Scrum.
+
+> [!HIGHLIGHT] Model Mismatch
+> When the business theory embedded in your operating model no longer aligns with your environment, the model becomes a systematic source of waste—no matter how well you execute it.
 
 ## Definitions
 
@@ -58,6 +61,8 @@ The term "operating model" is used here in this precise organizational sense, no
 
 Every organization operates on an implicit or explicit theory of the business[^3], a set of assumptions about the environment, the organization's mission, who the customer is, what the customer values, and what capabilities are necessary for success. Operating models encode these assumptions into organizational structure and governance. When assumptions no longer align with the environment, the operating model becomes a structural impediment, regardless of how well it is executed.
 
+> Every system is perfectly designed to get the results it gets. – Edward Deming
+
 Two questions anchor the theory of the business in value delivery[^3]:
 
 - Who is the customer?
@@ -68,6 +73,27 @@ In dynamic environments, a third question becomes equally determinative:
 - How quickly must the organization learn and respond for the customer's value to be captured and sustained?
 
 Operating models differ materially in how they answer this third question.
+
+> [!HIGHLIGHT] The Critical Question
+> How quickly must your organization learn and respond for customer value to be captured and sustained? Your answer determines whether a predictive or adaptive model is appropriate.
+
+### Empiricism
+
+Empirical process control is a way of making decisions and adapting direction based on observation of reality rather than on prediction or assumption[^7]. It requires three pillars:
+
+- **Transparency** - The actual state of work, progress, and outcomes must be visible to those making decisions
+- **Inspection** - Work and results must be examined frequently enough to detect problems or variances
+- **Adaptation** - When inspection reveals unacceptable deviation, the process or work must be adjusted
+
+Empirical control becomes organizationally meaningful only when inspection cycles are short enough for adaptation to have economic effect, and when decision rights enable those with information to act on it.
+
+### Governance
+
+Governance is the system of decision rights, approval mechanisms, risk management practices, and oversight policies that determine how work is authorized, prioritized, funded, monitored, and changed. It translates organizational intent and risk tolerance into operational constraints, maintaining accountability and managing risk while enabling the organization to respond to its environment.
+
+### Value stream
+
+A value stream is the sequence of activities, people, and systems required to deliver value from initial concept or customer request through to the realization of customer value. It represents the end-to-end flow of work necessary to create, deliver, and support a product or service, following value delivery rather than organizational hierarchy.
 
 ### Stable markets and environments
 
@@ -81,7 +107,7 @@ Stable markets are characterized by predictability and slow change across multip
 
 In stable markets, competitive advantage comes primarily from execution efficiency, cost reduction, and operational reliability[^4]. Organizations that optimize processes, achieve economies of scale, and deliver consistent quality at low cost capture disproportionate value. Long-range planning and standardization are effective because the future resembles the present.
 
-Truly stable markets were the dominant condition during the industrial era[^4]. Today, even organizations with stable product lines or operational contexts typically operate within broader dynamic market conditions. A utility company may have stable infrastructure operations while facing dynamic competitive pressures from distributed energy, regulatory change, and customer expectations. A manufacturer may produce commoditized components reliably while experiencing rapid shifts in supply chains, customer demands, and technological capabilities. The stable characteristics may apply to specific products, services, or operational domains within an organization, but rarely to the organization's entire competitive environment.
+Historically, stable markets were the dominant condition during the industrial era[^4]. Contemporary evidence suggests that even organizations with stable product lines or operational contexts increasingly operate within broader dynamic market conditions. A utility company may have stable infrastructure operations while facing dynamic competitive pressures from distributed energy, regulatory change, and customer expectations. A manufacturer may produce commoditized components reliably while experiencing rapid shifts in supply chains, customer demands, and technological capabilities. The stable characteristics may apply to specific products, services, or operational domains within an organization, but rarely to the organization's entire competitive environment.
 
 ### Dynamic markets and environments
 
@@ -127,6 +153,9 @@ In complex contexts:
 
 Product work in dynamic markets operates in the complex domain. Customer needs, competitive responses, technology evolution, and regulatory shifts interact in ways that cannot be planned away. No amount of learning converts complex work into simple work. Learning only helps you adapt faster when surprise inevitably occurs.
 
+> [!note] Complicated Contexts
+> Cynefin also describes complicated contexts, where cause-and-effect relationships exist but require expertise and analysis to discern. Complicated problems ultimately yield to predictability through learning—once understood, they can be addressed through refined predictive approaches. This analysis focuses on the simple-complex distinction because it determines operating model choice: simple contexts reward standardization and efficiency, while complex contexts require continuous adaptation. Complicated work, while requiring specialized expertise, remains compatible with predictive models in stable environments.
+
 ### Why this matters for operating models
 
 The predictive operating model assumes the work is simple or can be made simple through analysis and planning. It seeks to eliminate variability and standardize execution. This works when cause-and-effect is stable.
@@ -139,6 +168,21 @@ Scrum was designed specifically for complex work[^7]. It assumes outcomes cannot
 
 The choice is not about preference or culture. It is about matching the operating model to the actual nature of the work.
 
+### Understanding Context: Simple vs Complex Work
+
+| **Aspect** | **Simple Context** | **Complex Context** |
+|------------|-------------------|---------------------|
+| **Cause and Effect** | Predictable and repeatable | Only understood in retrospect |
+| **Solutions** | Discoverable through analysis | Emerge through experimentation |
+| **Knowledge Impact** | Reduces uncertainty, improves predictability | Helps adaptation, not prediction |
+| **Standardization** | Improves efficiency and reliability | Offers no advantage—conditions keep changing |
+| **Examples** | Operational work whose cause-and-effect relationships have been established through repeated observation: manufacturing processes with known parameters, transaction processing with defined rules, established service delivery models | Product development in dynamic markets, customer discovery |
+| **Best Operating Model** | Predictive | Adaptive |
+{.table .table-striped .table-sm}
+
+> [!HIGHLIGHT] The Leadership Error
+> Applying a simple-context operating model (Predictive) to complex-context work (Product Development) creates structural waste. No amount of effort at the team level can overcome this mismatch.
+
 ## Scrum outcomes and operating model dependency
 
 Scrum is designed to support empirical product development through transparency, inspection, and adaptation[^7]. Scrum creates learning loops. It does not, by itself, create the organizational conditions required for those loops to influence decisions at the speed and fidelity needed in dynamic markets.
@@ -148,8 +192,12 @@ Scrum outcomes depend on:
 - Short feedback cycles producing usable information
 - Decision rights located where information emerges
 - Cross-functional teams with the authority and capability to deliver increments without excessive dependencies
+- Stable organizational systems that enable teams to build capability while direction adapts
 - A governance and funding model that can change direction based on evidence
-- Measures that support learning and improvement rather than judgement—tracking outcomes (customer and market results), capability (ability to deliver and learn), quality (defects, reliability, change failure rate), and flow (lead time, throughput, work-in-progress), with explicit guardrails against local optimization
+- Measures that support learning and improvement rather than judgement
+
+> [!note] Evidence-Based Measurement
+> The Evidence-Based Management Guide[^8] provides operational definitions for tracking outcomes (customer and market results) and capability (ability to deliver and learn). Quality metrics (defects, reliability, change failure rate) and flow metrics (lead time, throughput, work-in-progress)[^9] [^10] provide complementary transparency into system health and delivery effectiveness, with explicit guardrails against local optimization.
 
 These conditions are operating-model properties. Scrum can be executed faithfully and still fail to produce meaningful organizational outcomes if the operating model constrains learning, decentralization, and outcome-driven change.
 
@@ -159,11 +207,28 @@ Operating models can be described as a hierarchy of intent and specialization:
 
 - *Operating Model*
   - Predictive Operating Model
+    - Project Operating Model
   - Adaptive Operating Model
     - Product Operating Model
     - Agile Product Operating Model
 
 The focus here is on the Predictive and Adaptive operating models, and on product-centric adaptive implementations as examples of how an adaptive model can be expressed at scale.
+
+### Operating Models at a Glance
+
+| **Characteristic** | **Predictive Operating Model** | **Adaptive Operating Model** |
+|-------------------|-------------------------------|-----------------------------|
+| **Core Assumption** | Environment is predictable | Environment is dynamic |
+| **Success Driver** | Efficiency and standardization | Learning speed and adaptation |
+| **Decision Rights** | Centralized, hierarchical | Decentralized, near information |
+| **Planning Approach** | Detailed upfront plans | Emergent, hypothesis-driven |
+| **Work Organization** | Projects with fixed scope | Products with evolving outcomes |
+| **Risk Management** | Stage gates and approval chains | Transparency and fast correction |
+| **Change Management** | Variance is deviation/failure | Variance is information/learning |
+| **Team Structure** | Functional silos with handoffs | Empowered, cross-functional teams |
+| **Measures** | Utilization, plan adherence | Outcomes, capability, flow |
+| **Best Context** | Stable markets, simple work | Dynamic markets, complex work |
+{.table .table-striped .table-sm}
 
 ## The Predictive Operating Model
 
@@ -183,6 +248,9 @@ The Predictive Operating Model rests on beliefs that were historically compatibl
 - Management optimizes throughput by controlling deviation and enforcing standards.
 
 These beliefs are coherent when the environment is stable, the work is repeatable, and the primary economic challenge is unit cost reduction through scale.
+
+> [!HIGHLIGHT] Historical Context
+> The Predictive Operating Model wasn't wrong—it was a rational response to stable, supply-constrained industrial-era markets. The error is applying it unchanged to today's dynamic, customer-choice-driven environments.
 
 ### Customer and value assumptions
 
@@ -242,7 +310,7 @@ The Adaptive Operating Model assumes uncertainty is persistent and often irreduc
 - Direction is provided through goals and constraints, not fixed plans.
 - Leadership designs enabling systems rather than controlling execution.
 
-The adaptive model is a coherent response to environments where speed of learning is a primary driver of competitiveness.
+The adaptive model aligns with environmental conditions where speed of learning is a primary driver of competitiveness.
 
 ### Customer and value assumptions
 
@@ -262,11 +330,11 @@ An adaptive operating model is defined by structural properties that make empiri
 
 - **Explicit learning loops** - Learning is 'designed into' the operating model. Feedback from customers, users, systems, and markets is systematically gathered and used to adjust direction. This includes discovery work, delivery validation, and measurement focused on outcomes, capability, quality, and flow rather than activity or utilization.
 
-- **System stability with deliberate change** - The operating model keeps team boundaries, funding models, product boundaries, and decision rights stable, creating constancy of purpose while enabling continuous adaptation of strategy, priorities, and investment. Structural changes to the stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction prevents the misread that stable teams means frozen direction—teams remain stable while direction adapts.
+- **Stable organizational systems with adaptive direction** - Stable organizational systems—where team boundaries, funding models, product boundaries, and decision rights remain consistent—enable teams to build capability and maintain context while strategy, priorities, and investment adapt continuously based on evidence. Structural changes to these stable elements occur through deliberate, democratized processes with team participation rather than arbitrary management reassignments[^18]. This distinction is critical: system stability does not mean frozen direction—teams remain stable while direction adapts.
 
 - **Governance that enables flow** - Governance manages risk through transparency, evidence, and fast correction, with explicit limits and escalation rules. It avoids stage gates that delay learning and force speculative commitments.
 
-- **Technical excellence as a condition of speed** - In knowledge work, fast adaptation requires low-cost and quick change. Technical excellence reduces the cost and risk of change (and perhaps faster), enabling frequent increments and emergent feedback[^9][^10].
+- **Technical excellence as a condition of speed** - Technical excellence is the organizational capability to make changes quickly, safely, and repeatedly through engineering practices that reduce the cost and risk of change[^9][^10]. This includes automated testing, continuous integration, evolutionary architecture, refactoring discipline, and deployment automation. In knowledge work, fast adaptation depends on technical systems that enable frequent increments, fast feedback, and rapid response to learning without accumulating technical debt or increasing defect rates.
 
 These characteristics create organizational compatibility with empiricism, and therefore compatibility with Scrum's intent.
 
@@ -331,13 +399,39 @@ Mismatch produces distinct forms of waste that are structural, not incidental:
 
 These wastes reduce Scrum’s effectiveness because Scrum depends on transparency and adaptation. Predictive structures systematically discourage both; they even discourage inspection at times.
 
+### Common objections and when they hold
+
+- **Efficiency loss** - Holds when genuine economies of scale outweigh adaptation speed and efficiency includes cost of delays, rework, and missed opportunities—not just utilization
+- **Coordination costs** - Holds when integration complexity is inherent to work rather than created by silos and technical debt
+- **Capability gaps** - Always holds initially; clarifies required work (leadership capability in system design, team capability in continuous delivery, operational definitions) rather than justifying inaction
+
 ### Speed mismatch
 
 In dynamic markets, the organization competes on learning and adaptation speed. Predictive models operate on long horizons, annual budgets, quarterly plans, and multi-month projects. Scrum operates on a Sprint cadence, and modern product learning operates even faster.
 
 When the organization's decision horizon is slower than the market's change horizon, empirical methods cannot produce competitive outcomes. The organization may still deliver outputs, but those outputs increasingly miss current value opportunities.
 
+### Operating Model Fit: A Strategic View
+
+The relationship between operating model choice and market conditions determines organizational outcomes:
+
+| **Operating Model** | **Stable Markets** | **Dynamic Markets** |
+|---------------------|-------------------|---------------------|
+| **Predictive** | ✓ Efficient & Reliable<br/>*Appropriate model for context* | ✗ Declining Competitiveness<br/>*Model assumes predictability in unpredictable environment* |
+| **Adaptive** | ✗ Over-Engineered<br/>*More flexibility than needed, but capable* | ✓ Competitive Advantage<br/>*Model matches environment* |
+{.table .table-bordered .table-striped}
+
+**Key insights:**
+
+- **Predictive + Stable Markets**: The model matches the context—efficiency and reliability create advantage.
+- **Predictive + Dynamic Markets**: Systematic failure—assumptions about predictability don't align with reality, creating structural waste.
+- **Adaptive + Stable Markets**: Over-engineered but functional—the organization has more adaptive capacity than the environment requires.
+- **Adaptive + Dynamic Markets**: Competitive advantage—the model's learning speed and adaptability match environmental demands.
+
 ## Operating models as a leadership decision
+
+> [!HIGHLIGHT] On "We Can't Say No"
+> If your organization can't say no, creating elaborate discovery, rationalization, and hypothesis processes is theater. The real work is establishing decision rights and governance that can act on evidence—including evidence that says "stop this, do that instead." Without that, you're optimizing a system that can't adapt.
 
 Operating model choice is not an optimization problem within delivery teams. It is a system-level decision because it determines:
 
@@ -356,6 +450,9 @@ The leadership decision is therefore not "do we use Scrum?" It is:
 - What assumptions will leadership embed into decision rights, funding, governance, and measurement? Will they become an [adaptive enterprise]({{< ref "/adaptive-enterprise" >}}) or remain a predictive enterprise? [^3]
 - Will the organization treat uncertainty as a planning failure, or as a condition requiring adaptiveness?
 - Will the organization enable parallel safe-to-fail experiments to manage uncertainty and accelerate learning, or demand sequential approvals and large-batch commitments?
+
+> [!HIGHLIGHT] Challenging Senior Leaders
+> You don't need to tell experienced people they're "wrong." Instead, make the model mismatch visible: "Our operating model assumes predictability. Here's evidence the market is dynamic. Which model matches our reality?" Frame it as diagnosis, not criticism. The data—customer churn, missed opportunities, competitor speed—makes the case. Your job is transparency, not persuasion.
 
 ## Operating-model incompatibilities with Scrum outcomes
 
@@ -460,61 +557,68 @@ This requires parallel safe-to-fail experiments, hypothesis-driven change, and a
 
 Scrum creates local empirical cycles. The operating model determines whether the signals from those cycles have authority to shape organizational decisions. An adaptive operating model is therefore the mechanism that allows Scrum's empirical process control to matter beyond the team boundary.
 
-## Product-centric adaptive implementations
+Understanding these structural incompatibilities between predictive and adaptive models provides necessary diagnostic clarity, but it does not prescribe how organizations should navigate the transition. Real organizations exist in mixed states—with legacy structures, ongoing commitments, political realities, and market pressures that cannot be resolved through wholesale replacement. The transformation itself is empirical: organizations must experiment, learn, and adapt their operating models while continuing to deliver value. This requires recognizing that the shift toward adaptive operating models is itself a non-linear journey, not a predetermined sequence of maturity stages.
 
-Adaptive operating models are general. Product-centric implementations specialize them for organizations whose primary value delivery mechanism is products.
+## Understanding transformation non-linearity and prerequisites
 
-Rather than representing destinations or maturity stages, product operating models function as **adaptive lenses**. They become relevant under different organizational constraints and may be applied unevenly, in parallel, and revisited over time.
-
-The organising premise for understanding these lenses is that transformation is non-linear, uneven, and frequently contradictory.
+Before examining specific product operating model implementations, it is essential to understand that organizational transformation toward adaptive operating models is non-linear, uneven, and frequently contradictory. This understanding shapes realistic expectations about change and clarifies why product operating models function as diagnostic and interventional frameworks—not sequential maturity stages—for understanding which organizational constraints prevent adaptation.
 
 ### The transformation journey is non-linear
 
-The journey toward product-centric adaptive implementation is not a linear progression through maturity stages[^20]. Organizations experience multiple stages simultaneously, with different parts of the organization operating under competing mental models. This creates a "mash-up" where conversations about work hierarchies, goal cascades, and value models occur at the same time, often in tension with each other[^20].
+Transformation is non-linear, uneven, and frequently contradictory. This premise is essential for understanding how product operating models apply in practice.
 
-The dominant narrative typically shifts through recognizable patterns[^20]:
+The journey toward product-centric adaptive implementation is not a linear progression through maturity stages. Organizations experience multiple stages simultaneously, with different parts of the organization operating under competing mental models. This creates a "mash-up" where conversations about work hierarchies, goal cascades, and value models occur at the same time, often in tension with each other[^20].
+
+> [!HIGHLIGHT] Reality Check
+> Transformation isn't a clean progression from A to B. Organizations experience multiple stages simultaneously, with different parts operating under competing mental models. This "mash-up" is normal, not a sign of failure.
+
+The dominant narrative typically shifts through recognizable patterns:
 
 - **Work-centric focus** - Delivery predictability, dependency management, and work-in-progress reduction dominate. Success means moving work items through stages reliably. "Say/Do ratio" becomes the primary measure of performance.
 
 - **Early goal introduction** - OKRs or similar frameworks are introduced, but goals remain annotations on pre-determined work rather than primary expressions of intent. The work hierarchy persists, and goal cascades often mirror the organizational chart rather than value flows.
 
-- **Goals-first orientation** - Objectives begin to precede work selection. Initiatives become interventions to achieve results, and the language of hypotheses, bets, and opportunities emerges. This transition is contingent on architectural improvements that reduce batch sizes and team dependencies[^20].
+- **Goals-first orientation** - Objectives begin to precede work selection. Initiatives become interventions to achieve results, and the language of hypotheses, bets, and opportunities emerges. This transition is contingent on architectural improvements that reduce batch sizes and team dependencies.
 
-- **Emerging value models** - Organizations begin distinguishing value from objectives. Customer journeys, capability trees, platform thinking, and value streams emerge as distinct concepts. Multiple frameworks compete for attention, creating organizational confusion but also opportunity for clarification[^20].
+- **Emerging value models** - Organizations begin distinguishing value from objectives. Customer journeys, capability trees, platform thinking, and value streams emerge as distinct concepts. Multiple frameworks compete for attention, creating organizational confusion but also opportunity for clarification.
 
-- **Value model convergence** - Organizational structure, team boundaries, funding models, and architecture align around shared value structures. Objectives attach to these structures. Work flows through them. Investment decisions reference them[^20].
+- **Value model convergence** - Organizational structure, team boundaries, funding models, and architecture align around shared value structures. Objectives attach to these structures. Work flows through them. Investment decisions reference them.
 
-This evolution is not sequential. Organizations commonly introduce OKRs without understanding outcomes, attempt outcome orientation without controlling work-in-progress, or pursue product funding without clarity on what constitutes a product[^20]. Progress in one dimension often exposes fragility in another.
+This evolution is not sequential. Organizations commonly introduce OKRs without understanding outcomes, attempt outcome orientation without controlling work-in-progress, or pursue product funding without clarity on what constitutes a product. Progress in one dimension often exposes fragility in another[^20].
 
 ### Prerequisites for outcome orientation
 
-Outcome-oriented product development cannot be "installed" through process frameworks alone[^20]. Teams require:
+Outcome-oriented product development cannot be "installed" through process frameworks alone. Teams require:
 
-- **Architectural independence** - Teams must be capable of delivering value without excessive dependencies. This is an architectural and organizational design problem, not merely a mindset shift[^20].
+- **Architectural independence** - Teams must be capable of delivering value without excessive dependencies. This is an architectural and organizational design problem, not merely a mindset shift.
 
-- **Reduced batch sizes** - Large batches prevent rapid feedback and force premature convergence on solutions. Batch size reduction must precede meaningful outcome orientation[^20].
+- **Reduced batch sizes** - Large batches prevent rapid feedback and force premature convergence on solutions. Batch size reduction must precede meaningful outcome orientation.
 
-- **Stable organizational systems** - Teams need stable team boundaries, funding models, product boundaries, and decision rights. Within this stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes—shifting team composition, reassigning people to projects, reorganizing structures for utilization—teams cannot build capability or maintain context[^20]. Stability of system does not mean stability of direction.
+- **Stable organizational systems** - Teams need stable organizational systems: consistent team boundaries, funding models, product boundaries, and decision rights. Within this system stability, strategy, priorities, and investment decisions adapt continuously based on evidence. When the organizational system constantly changes—shifting team composition, reassigning people to projects, reorganizing structures for utilization—teams cannot build capability or maintain context. System stability enables adaptive direction.
 
-- **Clear value models** - Teams cannot be funded as products if no one has a reasonable sense of what a product, node in the value chain, or value-creating capability actually is[^20].
+- **Clear value models** - Teams cannot be funded as products if no one has a reasonable sense of what a product, node in the value chain, or value-creating capability actually is.
 
-Without these conditions, product operating model adoption creates the appearance of progress while preserving the underlying predictive structure.
+Without these conditions, product operating model adoption creates the appearance of progress while preserving the underlying predictive structure[^20].
 
 ### The challenge of maintaining explicit models
 
-Organizations that successfully internalize product operating models face a paradox[^20]. As value models, team boundaries, and outcome-orientation become embedded in daily practice, the explicit frameworks that enabled the transition become less visible. Teams aligned around customer journeys may stop articulating that alignment because it has become organizational common sense. Metrics trees and value chains may exist informally rather than as documented artifacts.
+Organizations that successfully internalize product operating models face a paradox. As value models, team boundaries, and outcome-orientation become embedded in daily practice, the explicit frameworks that enabled the transition become less visible. Teams aligned around customer journeys may stop articulating that alignment because it has become organizational common sense. Metrics trees and value chains may exist informally rather than as documented artifacts.
 
-This creates difficulty for organizations in transition. They require more explicit structure and formality to maintain coherence while multiple mental models compete[^20]. Without visible value models, different groups pursuing product-centricity may create incompatible structures. The organization needs legibility, clear, shared understanding of how value is created, precisely because it lacks the internalized agreement that mature product organizations possess.
+This creates difficulty for organizations in transition. They require more explicit structure and formality to maintain coherence while multiple mental models compete. Without visible value models, different groups pursuing product-centricity may create incompatible structures. The organization needs legibility, clear, shared understanding of how value is created, precisely because it lacks the internalized agreement that mature product organizations possess.
 
 Therefore, the explicitness of frameworks is contextual:
 
 - **Organizations in transition** benefit from formal value models, documented team boundaries, explicit measures, and visible integration mechanisms. The formality creates shared language and prevents competing frameworks from fragmenting the organization.
 
-- **Organizations with internalized models** may appear less formal because the models are embedded in organizational structure, funding patterns, and daily practice. The informality reflects maturity, not absence of structure[^20].
+- **Organizations with internalized models** may appear less formal because the models are embedded in organizational structure, funding patterns, and daily practice. The informality reflects maturity, not absence of structure.
 
-Attempting to copy the informal practices of mature product organizations without the underlying internalized models reproduces appearance without capability.
+Attempting to copy the informal practices of mature product organizations without the underlying internalized models reproduces appearance without capability[^20].
 
 ## Product operating model lenses (applied, not adopted)
+
+With an understanding of transformation non-linearity and prerequisites established, specific product operating models can be examined as adaptive lenses for diagnosis and intervention, not as destinations.
+
+Adaptive operating models are general. Product-centric implementations specialize them for organizations whose primary value delivery mechanism is products. Rather than representing destinations or maturity stages, product operating models function as **adaptive lenses**. They become relevant under different organizational constraints and may be applied unevenly, in parallel, and revisited over time.
 
 It is critical to be explicit about what these lenses are *not*.
 
@@ -530,8 +634,6 @@ In a non-linear transformation journey, the work is not to replace one operating
 - Internalize what works, and discard what no longer serves
 
 Named models help by providing language and patterns, but the operating model that matters is the one an organization actually builds and lives with.
-
-Once non-linearity and prerequisites are understood, product operating models become useful as lenses for diagnosis and intervention, not as destinations.
 
 ### Marty Cagan’s Product Operating Model as an adaptive implementation
 
@@ -556,7 +658,7 @@ This aligns with adaptive operating model characteristics:
 
 Cagan's framing provides strong emphasis on the product management and discovery system required for modern product success. It highlights the organizational conditions necessary for product teams are informed by evidence.
 
-Cagan's model addresses the distinction between objectives (expressions of intent) and value models (organizational context structures)[^20]. Customer segments, market opportunities, and product capabilities represent value context that grounds objectives and makes them actionable. Without this context, objectives float as aspirational statements disconnected from how teams organize work and investment.
+Cagan's model addresses the distinction between objectives (expressions of intent) and value models (organizational context structures). Customer segments, market opportunities, and product capabilities represent value context that grounds objectives and makes them actionable. Without this context, objectives float as aspirational statements disconnected from how teams organize work and investment[^20].
 
 ### Scrum.org’s Agile Product Operating Model as an adaptive implementation
 
@@ -604,6 +706,9 @@ An organization can execute Scrum and still be unable to act on learning if proc
 
 AI accelerates the rate at which work can be produced, information can be processed, and options can be explored. This does not automatically create customer value. It amplifies the operating model it enters.
 
+> [!HIGHLIGHT] AI's Forcing Function
+> AI doesn't fix broken operating models—it amplifies them. In predictive models, AI increases output while preserving slow decisions, creating more work based on stale assumptions. In adaptive models, AI accelerates learning speed, widening the competitive gap.
+
 Within a predictive model, AI often increases the volume of output while preserving slow decision-making, gated governance, and fixed-scope constraints. The organization becomes capable of producing more work that is still selected, sequenced, and governed based on stale assumptions.
 
 Within an adaptive model, AI accelerates:
@@ -620,9 +725,9 @@ AI therefore, strengthens the case that operating model choice is a leadership i
 
 ## Operating-model hygiene and regression risk
 
-Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control in teh face of uncertainty.
+Organizations frequently attempt to adopt adaptive patterns while maintaining predictive incentives and governance. Over time, regression occurs because predictive practices are familiar and appear to offer control in the face of uncertainty.
 
-Operating-model hygiene is the routine removal of policies that assume predictability in contexts where prediction error dominates. This disciplined practice includes:
+Operating-model hygiene—the deliberate, systematic removal of policies that assume predictability in contexts where prediction error dominates—is essential practice for maintaining adaptive capability. This disciplined practice includes:
 
 - Removing structures and governance mechanisms that assume predictability where it does not exist
 - Preventing the reintroduction of those mechanisms under pressure
@@ -637,7 +742,7 @@ This includes systematic abandonment of[^2]:
 
 Hygiene is not removal alone. It requires purposeful innovation[^2], building the capabilities that make adaptation safe:
 
-- Modern engineering practices enabling low-risk change[^9][^10]
+- Modern engineering practices enabling low-risk change[^9] [^10]
 - Clear outcome measures that guide decentralized decisions
 - Explicit boundaries for decision rights and escalation
 - Stable organizational systems providing teams with consistent funding, clear boundaries, and coherent product direction
@@ -655,9 +760,9 @@ Transitioning from predictive to adaptive is a system change, not a process adju
 
 System change requires alignment across:
 
-- Structure, cross-functional teams operating within stable organizational systems aligned to products or value streams
+- Structure, cross-functional teams operating within stable organizational systems (consistent team boundaries, funding, and product boundaries) aligned to products or value streams
 - Governance, outcome-oriented, evidence-based decision processes
-- Funding, capacity allocated within stable systems and product-based investment models
+- Funding, capacity allocated within stable organizational systems through product-based investment models
 - Measurement, outcome, and capability measures rather than output and utilization
 - Leadership behaviors, system stewardship rather than execution control
 
@@ -683,7 +788,7 @@ Operating model choice is a leadership decision that encodes a theory of the bus
 
 The Predictive Operating Model remains effective where its assumptions hold. In stable environments it can provide efficiency, repeatability, and control. In dynamic markets, its assumptions become systematically invalid. The result is structural waste, decision latency, delayed learning, and diminished ability to capture customer value. Implementing Scrum within a predictive operating model in dynamic conditions produces contradiction: teams are expected to adapt while the organization is designed to prevent adaptation.
 
-The Adaptive Operating Model provides an organizational structure aligned to uncertainty, enabling outcome-oriented work, decentralized decision rights, explicit learning loops, system stability (stable teams, funding, boundaries, decision rights) within which direction continuously adapts based on evidence, and governance that enables flow. Product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, provide compatible approaches for organizations delivering value through products. They are not mutually exclusive. They can be combined when accountabilities, decision boundaries, and measures remain explicit.
+The Adaptive Operating Model provides an organizational structure aligned to uncertainty, enabling outcome-oriented work, decentralized decision rights, explicit learning loops, stable organizational systems (consistent team boundaries, funding, product boundaries, decision rights) within which direction continuously adapts based on evidence, and governance that enables flow. Product-centric adaptive implementations, including Marty Cagan's Product Operating Model and Scrum.org's Agile Product Operating Model, provide compatible approaches for organizations delivering value through products. They are not mutually exclusive. They can be combined when accountabilities, decision boundaries, and measures remain explicit.
 
 AI intensifies the consequences of operating model choice. It accelerates production capacity, which increases the cost of slow decision cycles and fixed-scope governance. In adaptive models, AI can accelerate learning and value delivery. In predictive models, it often accelerates output without improving relevance, increasing waste.
 
@@ -719,11 +824,11 @@ For organizations seeking Scrum outcomes in modern product environments, operati
 
 [^14]: Pflaeging, N. & Steinmann, H. (2014) *Organize for Complexity: How to Get Life Back into Work to Build the High-Performance Organization*. Third Edition. Hamburg: BetaCodex Publishing.
 
-[^16]: Mezick, D. et al. (2015) *The OpenSpace Agility Handbook*. Connecticut: New Technology Solutions, Inc.
+[^16]: Mezick, D., Sheffield, J. and Fredrick, M. (2015) *The OpenSpace Agility Handbook*. Connecticut: New Technology Solutions, Inc.
 [^17]: Snowden, D.J. and Boone, M.E. (2007) 'A Leader's Framework for Decision Making', *Harvard Business Review*, November, pp. 69-76.
-[^18]: Vodde, B. (2015) *Dynamic Reteaming and Organizational Design in LeSS* [Video]. Available at: [https://youtu.be/cxmLO0U6gQ0](https://youtu.be/cxmLO0U6gQ0) (Accessed: 18 January 2026).
+[^18]: YouTube (2015) *Dynamic Reteaming and Organizational Design in LeSS* [Video]. Available at: [https://youtu.be/cxmLO0U6gQ0](https://youtu.be/cxmLO0U6gQ0) (Accessed: 18 January 2026).
 
-[^19]: Kleiner, M. (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time*. Available at: [https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half](https://www.amazon.com/Lean-Agile-Procurement-Twice-Value-Half) (Accessed: 18 January 2026).
+[^19]: Kleiner, M. (2023) *Lean-Agile Procurement: How to get Twice the Value in Half the Time*. Independently published.
 
 [^20]: Cutler, J. (2026) 'TBM 402: The Real-World Journey to Value and Product-Centricity', *The Beautiful Mess*. Available at: [https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to](https://cutlefish.substack.com/p/tbm-402-the-real-world-journey-to) (Accessed: 21 January 2026).
 

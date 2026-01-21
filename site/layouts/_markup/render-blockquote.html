@@ -1,0 +1,54 @@
+{{ $alertTypes := dict
+  "note" "info"
+  "tip" "success"
+  "important" "warning"
+  "warning" "warning"
+  "caution" "danger"
+}}
+{{ $alertEmoji := dict
+  "note" "ℹ️"
+  "tip" "💡"
+  "important" "⚠️"
+  "warning" "⚠️"
+  "caution" "🚨"
+}}
+
+{{if eq hugo.Environment "development"}}
+<div>[BLOCKQUOTE Type="{{ .Type }}" AlertType="{{ .AlertType }}" AlertTitle="{{ .AlertTitle }}"]</div>
+{{ end }}
+{{ if eq .Type "alert" }}
+{{ if eq .AlertType "highlight" }}
+  <div class="content-highlight">
+     {{ with .AlertTitle }}
+          <h5 class="subtle-heading">
+            {{ . }}
+          </h5>
+        {{ end }}
+    <p class="subtle-text">{{ .Text | safeHTML }}</p>
+  </div>
+{{else}}
+    <div class="alert alert-{{ index $alertTypes .AlertType | default "secondary" }} subtle-alert" role="alert">
+        {{ with .AlertTitle }}
+          <h5 class="alert-heading subtle-heading">
+            {{ index $alertEmoji $.AlertType }}
+            {{ . }}
+          </h5>
+        {{ else }}
+          <h5 class="alert-heading subtle-heading">
+            {{ index $alertEmoji .AlertType }}
+            {{ .AlertType | title }}
+          </h5>
+        {{ end }}
+    
+      <p class="subtle-text">{{ .Text | safeHTML }}</p>
+    </div>
+{{ end }}
+{{ else }}
+  <blockquote class="blockquote">
+    {{ .Text | safeHTML }}
+  </blockquote>
+{{ end }}
+
+{{if eq hugo.Environment "development"}}
+<div>[/BLOCKQUOTE]</div>
+{{ end }}
