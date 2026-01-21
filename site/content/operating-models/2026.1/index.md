@@ -61,7 +61,7 @@ The term "operating model" is used here in this precise organizational sense, no
 
 Every organization operates on an implicit or explicit theory of the business[^3], a set of assumptions about the environment, the organization's mission, who the customer is, what the customer values, and what capabilities are necessary for success. Operating models encode these assumptions into organizational structure and governance. When assumptions no longer align with the environment, the operating model becomes a structural impediment, regardless of how well it is executed.
 
-> Every system is perfectly designed to get the results it gets. – Edward Deming
+> Every system is perfectly designed to get the results it gets. – W. Edwards Deming
 
 Two questions anchor the theory of the business in value delivery[^3]:
 
