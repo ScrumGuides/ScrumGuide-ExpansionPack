@@ -434,11 +434,11 @@ This framing remains contextual, not moral. Predictive models are appropriate in
 
 ## The Adaptive Operating Model as the organizational expression of empiricism
 
-Scrum operationalises empiricism within a defined structure of roles, artefacts, and events. It creates short, local feedback loops where teams make work visible, inspect outcomes, and adapt based on evidence.
+Scrum operationalises empirical process control within a defined structure of roles, artefacts, and events. It creates short, local feedback loops where teams make work visible, inspect outcomes, and adapt based on evidence.
 
 An adaptive operating model is the organisational expression of empiricism. It is the set of leadership decisions, constraints, and policies that determines whether evidence from teams can influence strategy, investment, and direction.
 
-At organisational scale, empiricism only exists when leaders ensure that the same empirical properties apply beyond the team:
+At organisational scale, empirical process control only exists when leaders ensure that the same empirical properties apply beyond the team:
 
 - The organisation can see reality, through transparency of outcomes, constraints, and system behaviour
 - The organisation can learn from reality, through inspection of results from experiments, hypotheses, and delivery evidence
@@ -446,7 +446,7 @@ At organisational scale, empiricism only exists when leaders ensure that the sam
 
 This requires parallel safe-to-fail experiments, hypothesis-driven change, and adapted PDSA cycles. These are not academic constructs, they are practical mechanisms for organisational learning.
 
-Scrum creates local empirical cycles. The operating model determines whether the signals from those cycles have authority to shape organisational decisions. An adaptive operating model is therefore the mechanism that allows Scrum’s empiricism to matter beyond the team boundary.
+Scrum creates local empirical cycles. The operating model determines whether the signals from those cycles have authority to shape organisational decisions. An adaptive operating model is therefore the mechanism that allows Scrum’s empirical process control to matter beyond the team boundary.
 
 ## Product-centric adaptive implementations
 
