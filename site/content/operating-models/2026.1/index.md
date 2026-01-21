@@ -523,13 +523,11 @@ This requires parallel safe-to-fail experiments, hypothesis-driven change, and a
 
 Scrum creates local empirical cycles. The operating model determines whether the signals from those cycles have authority to shape organizational decisions. An adaptive operating model is therefore the mechanism that allows Scrum's empirical process control to matter beyond the team boundary.
 
-## Product-centric adaptive implementations
+Understanding these structural incompatibilities between predictive and adaptive models provides necessary diagnostic clarity, but it does not prescribe how organizations should navigate the transition. Real organizations exist in mixed states—with legacy structures, ongoing commitments, political realities, and market pressures that cannot be resolved through wholesale replacement. The transformation itself is empirical: organizations must experiment, learn, and adapt their operating models while continuing to deliver value. This requires recognizing that the shift toward adaptive operating models is itself a non-linear journey, not a predetermined sequence of maturity stages.
 
-Adaptive operating models are general. Product-centric implementations specialize them for organizations whose primary value delivery mechanism is products.
+## Understanding transformation non-linearity and prerequisites
 
-Rather than representing destinations or maturity stages, product operating models function as **adaptive lenses**. They become relevant under different organizational constraints and may be applied unevenly, in parallel, and revisited over time.
-
-The organising premise for understanding these lenses is that transformation is non-linear, uneven, and frequently contradictory.
+Before examining specific product operating model implementations, it is essential to understand that organizational transformation toward adaptive operating models is non-linear, uneven, and frequently contradictory. This understanding shapes realistic expectations about change and clarifies why product operating models function as adaptive lenses rather than sequential maturity stages.
 
 ### The transformation journey is non-linear
 
@@ -582,6 +580,10 @@ Attempting to copy the informal practices of mature product organizations withou
 
 ## Product operating model lenses (applied, not adopted)
 
+With an understanding of transformation non-linearity and prerequisites established, specific product operating models can be examined as adaptive lenses for diagnosis and intervention, not as destinations.
+
+Adaptive operating models are general. Product-centric implementations specialize them for organizations whose primary value delivery mechanism is products. Rather than representing destinations or maturity stages, product operating models function as **adaptive lenses**. They become relevant under different organizational constraints and may be applied unevenly, in parallel, and revisited over time.
+
 It is critical to be explicit about what these lenses are *not*.
 
 They are **not the only viable product operating models**, and they are **not blueprints to be copied or installed**. They represent well-articulated responses to specific historical and organizational constraints, not universal designs.
@@ -596,8 +598,6 @@ In a non-linear transformation journey, the work is not to replace one operating
 - Internalize what works, and discard what no longer serves
 
 Named models help by providing language and patterns, but the operating model that matters is the one an organization actually builds and lives with.
-
-Once non-linearity and prerequisites are understood, product operating models become useful as lenses for diagnosis and intervention, not as destinations.
 
 ### Marty Cagan’s Product Operating Model as an adaptive implementation
 
