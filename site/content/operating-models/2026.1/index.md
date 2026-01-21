@@ -418,15 +418,15 @@ These principles do not eliminate governance. They reorient governance from cont
 
 ## Why adopting an Adaptive Operating Model becomes imperative
 
-In dynamic markets, the predictive model does not merely reduce performance, it constrains growth. Growth depends on:
+In dynamic markets, the predictive model does not merely reduce performance; it constrains growth. Growth depends on:
 
 - Responsiveness to emerging demand
 - Ability to exploit new technology quickly
-- Retention of capable people through meaningful autonomy and ownership
+- Retention and attraction of capable people through meaningful autonomy and ownership
 - Continuous refinement of product-market fit
 - Capacity to adapt to external constraints
 
-The predictive model assumes that the main path to growth is execution efficiency. In dynamic markets, the main path to growth is learning and adaptation at speed.
+The predictive model assumes that the primary path to growth lies is execution efficiency. In dynamic markets, the main path to growth is learning and adaptation at speed.
 
 Therefore, adopting an adaptive model is not an improvement initiative. It is a leadership response to an environmental condition.
 
@@ -434,13 +434,19 @@ This framing remains contextual, not moral. Predictive models are appropriate in
 
 ## The Adaptive Operating Model as the organizational expression of empiricism
 
-Scrum operationalizes empiricism within a defined structure of roles, artefacts, and events. The Adaptive Operating Model operationalizes empiricism at organizational scale by ensuring:
+Scrum operationalises empiricism within a defined structure of roles, artefacts, and events. It creates short, local feedback loops where teams make work visible, inspect outcomes, and adapt based on evidence.
 
-- The organization can see reality (transparency)
-- The organization can learn from reality (inspection)
-- The organization can change based on learning (adaptation)
+An adaptive operating model is the organisational expression of empiricism. It is the set of leadership decisions, constraints, and policies that determines whether evidence from teams can influence strategy, investment, and direction.
 
-Scrum creates local empirical cycles. The operating model determines whether those cycles can influence strategy, investment, and governance. An adaptive operating model is therefore the organizational mechanism that allows Scrum's empiricism to matter beyond the team boundary.
+At organisational scale, empiricism only exists when leaders ensure that the same empirical properties apply beyond the team:
+
+- The organisation can see reality, through transparency of outcomes, constraints, and system behaviour
+- The organisation can learn from reality, through inspection of results from experiments, hypotheses, and delivery evidence
+- The organisation can change based on learning, through adaptation of strategy, investment, governance, and operating policies
+
+This requires parallel safe-to-fail experiments, hypothesis-driven change, and adapted PDSA cycles. These are not academic constructs, they are practical mechanisms for organisational learning.
+
+Scrum creates local empirical cycles. The operating model determines whether the signals from those cycles have authority to shape organisational decisions. An adaptive operating model is therefore the mechanism that allows Scrum’s empiricism to matter beyond the team boundary.
 
 ## Product-centric adaptive implementations
 
