@@ -34,13 +34,22 @@
           <div class="row g-4 mb-5 justify-content-center">
             <div class="col-4 col-md-3">
               <div class="text-center">
-                <div class="display-6 fw-bold text-primary mb-2">{{ len .Site.Sections }}+</div>
+                <div class="display-6 fw-bold text-primary mb-2">{{ len (where .Site.Sections "Type" "guide") }}+</div>
                 <div class="small text-muted">{{ i18n "expansions" | default "Expansions" }}</div>
               </div>
             </div>
             <div class="col-4 col-md-3">
               <div class="text-center">
-                <div class="display-6 fw-bold text-primary mb-2">3</div>
+                {{- $uniqueContributors := slice }}
+                {{- range $key, $value := .Site.Data.contributions }}
+                  {{- range $value }}
+                    {{- $identifier := .githubUsername | default .name }}
+                    {{- if not (in $uniqueContributors $identifier) }}
+                      {{- $uniqueContributors = $uniqueContributors | append $identifier }}
+                    {{- end }}
+                  {{- end }}
+                {{- end }}
+                <div class="display-6 fw-bold text-primary mb-2">{{ len $uniqueContributors }}</div>
                 <div class="small text-muted">{{ i18n "expert_authors" | default "Expert Authors" }}</div>
               </div>
             </div>
