@@ -7,4 +7,7 @@ aliases:
   - /downloads/
   - /download/
   - /translations/
+build:
+  list: never
+  render: never
 ---

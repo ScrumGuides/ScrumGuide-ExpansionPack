@@ -24,4 +24,9 @@ cascade:
       render: never
     target:
       environment: preview
+  - build:
+      list: never
+      render: never
+    target:
+      environment: canary
 ---

@@ -5,3 +5,6 @@ buildDrafts: true
 buildFuture: true
 buildExpired: true
 
+languages:
+  tlh:
+    disabled: true
