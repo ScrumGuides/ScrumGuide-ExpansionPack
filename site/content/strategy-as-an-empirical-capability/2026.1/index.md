@@ -45,7 +45,7 @@ Consider three Scrum Teams building e-commerce features. Team A focuses on burni
 
 This guide introduces ten strategic qualities (image below) that can transform good Scrum Teams into exceptional ones. It represents one curated perspective from selected influential leaders, rather than a definitive view resulting from exhaustive analysis. You'll learn how to connect daily work to meaningful outcomes and business impact, make better decisions when priorities seem to conflict, contribute strategic insights from your unique perspective, and navigate uncertainty while maintaining focus.
 
-![Ten Strategic Qualities](/strategy/2026.1/images/ten-strategic-qualities.png)
+![Ten Strategic Qualities](/strategy-as-an-empirical-capability/2026.1/images/ten-strategic-qualities.png)
 
 Strategy isn't about abandoning Scrum's empirical nature - it's about thinking more clearly about the value Scrum Teams create and why it matters.
 
