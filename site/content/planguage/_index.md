@@ -1,6 +1,6 @@
 ---
 title: Planguage
-description: "...."
+description: "A practical guide for leaders and teams who want measurable clarity, evidence-based decisions, and faster value delivery, without big-bang change or planning theatre."
 Type: "guide"
 Layout: "root"
 brand:
@@ -10,34 +10,47 @@ weight: 2
 guide_license: |
   Copyright © 1960-2026 Tom Gilb. Manually curated, edited, and adapted by John Anthony Coleman with permission
 keywords:
-- Operating model
-- Leadership decision
-- Organisational design
-- Adaptive operating model
-- Predictive operating model
-- Value delivery
-- Decision-making
-- Empiricism
-- Organisational adaptability
-- Product organisations
+- Planguage
+- Value Planning
+- evidence-based management
+- measurable objectives
+- impact estimation tables
+- decision-making under uncertainty
+- empirical planning
+- Plan-Do-Study-Act (PDSA)
+- evolutionary delivery
+- adaptive strategy
+- portfolio optimisation
+- outcome measurement
+- stakeholder value
+- ambiguity reduction
+- specification quality
+- credibility scoring
+- management decision tools
+- quantified objectives
+
 categories:
   - Leadership
   - Strategy
 tags:
-- Operating Model
-- Adaptive Operating Model
-- Predictive Operating Model
-- Organisational Design
-- Leadership Accountability
-- Decision Rights
-- Decentralisation
-- Empirical Learning
-- Value Delivery Systems
-- Beyond Budgeting
-- Lean-Agile Procurement
-- Product Operating Model
-- Agile Product Operating Model
-- AI as a Forcing Function
+- Value Planning
+- evidence-based management
+- measurable objectives
+- impact estimation tables
+- decision-making under uncertainty
+- empirical planning
+- Plan-Do-Study-Act (PDSA)
+- evolutionary delivery
+- adaptive strategy
+- portfolio optimisation
+- outcome measurement
+- stakeholder value
+- ambiguity reduction
+- specification quality
+- credibility scoring
+- management decision tools
+- quantified objectives
+
 sitemap:
   priority: 0.8
 cascade:
