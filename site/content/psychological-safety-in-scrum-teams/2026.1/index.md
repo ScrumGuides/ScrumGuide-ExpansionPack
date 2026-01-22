@@ -186,20 +186,19 @@ Scrum exposes uncertainty and invites learning, but effective learning only happ
 
 [^2]: Edmondson, A. (1999) 'Psychological safety and learning behavior in work teams', *Administrative Science Quarterly*, 44(2), pp. 350–383.
 
-[^4] Edmondson, A.C. (2018) *The fearless organization: Creating psychological safety in the workplace for learning, innovation, and growth*. Hoboken, NJ: John Wiley & Sons.
+[^4]: Edmondson, A.C. (2018) *The fearless organization: Creating psychological safety in the workplace for learning, innovation, and growth*. Hoboken, NJ: John Wiley & Sons.
 
-[^5] Google Re:Work (no date) *Understanding team effectiveness*. Available at: [https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness](https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness) (Accessed: 7 January 2026).
+[^5]: Google Re:Work (no date) *Understanding team effectiveness*. Available at: [https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness](https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness) (Accessed: 7 January 2026).
 
-[^6] Schlenker, B.R. (1980) *Impression management*. Monterey, CA: Brooks/Cole.
-[^7] Klein, G. (2017) *Seeing What Others Don’t: The Remarkable Ways We Gain Insights*. London: John Murray Press.
+[^6]: Schlenker, B.R. (1980) *Impression management*. Monterey, CA: Brooks/Cole.
 
-[^8] TeamAsOne (no date) *Psychological safety*. Available at: [https://teamasone.com/psychological-safety/](https://teamasone.com/psychological-safety/) (Accessed: 7 January 2026).
+[^7]: Klein, G. (2017) *Seeing What Others Don't: The Remarkable Ways We Gain Insights*. London: John Murray Press.
 
-[^9] Scrum Expansion (2025) *Scrum Guide Expansion Pack*. Available at: [https://scrumexpansion.org/scrum-guide-expansion-pack/](https://scrumexpansion.org/scrum-guide-expansion-pack/) (Accessed: 7 January 2026).
+[^8]: TeamAsOne (no date) *Psychological safety*. Available at: [https://teamasone.com/psychological-safety/](https://teamasone.com/psychological-safety/) (Accessed: 7 January 2026).
 
-[^10]: Edmondson, A.C. (2023) *Right kind of wrong: The science of failing well*. New York: Simon & Schuster.
+[^9]: Scrum Expansion (2025) *Scrum Guide Expansion Pack*. Available at: [https://scrumexpansion.org/scrum-guide-expansion-pack/](https://scrumexpansion.org/scrum-guide-expansion-pack/) (Accessed: 7 January 2026).
 
-[^11]: Kerth, N.L. (2013) *Project retrospectives: A handbook for team reviews*. Boston, MA: Addison-Wesley.
+[^10]: Kerth, N.L. (2013) *Project retrospectives: A handbook for team reviews*. Boston, MA: Addison-Wesley.
 
 [^12]: Verheyen, G. (no date) *The Scrum values*. Available at: [https://guntherverheyen.com/library/the-scrum-values/](https://guntherverheyen.com/library/the-scrum-values/) (Accessed: 7 January 2026).
 
