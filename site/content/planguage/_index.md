@@ -40,5 +40,11 @@ tags:
 - AI as a Forcing Function
 sitemap:
   priority: 0.8
+cascade:
+  - build:
+      list: never
+      render: never
+    target:
+      environment: production
 ---
 
