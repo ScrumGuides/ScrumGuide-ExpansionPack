@@ -18,6 +18,11 @@ cascade:
       render: never
     target:
       environment: production
+  - build:
+      list: never
+      render: never
+    target:
+      environment: preview
 sitemap:
   priority: 0.8
 ---
