@@ -136,12 +136,6 @@
                   {{- end -}}
                 {{- end -}}
               {{- end -}}
-              {{/* Version count badge */}}
-              {{- if gt (len $allVersions) 1 }}
-                <span class="badge bg-info bg-opacity-75" title="{{ i18n "badge_versions_available" (dict "Count" (len $allVersions)) }}">
-                  <i class="fa-solid fa-code-branch me-1"></i>{{ len $allVersions }} {{ i18n "badge_versions_count" }}
-                </span>
-              {{- end }}
               </div>
 
               <p class="text-muted mb-4">{{ $coreGuide.Params.description | markdownify }}</p>
