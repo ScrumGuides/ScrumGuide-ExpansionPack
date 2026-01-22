@@ -447,7 +447,7 @@ Scrum adoption without operating model alignment creates a structural contradict
 The leadership decision is therefore not "do we use Scrum?" It is:
 
 - Which operating model will the organization use to translate [strategy]({{< ref "/strategy-as-an-empirical-capability" >}}) into value delivery?
-- What assumptions will leadership embed into decision rights, funding, governance, and measurement? Will they become an [adaptive enterprise]({{< ref "/adaptive-enterprise" >}}) or remain a predictive enterprise? [^3]
+- What assumptions will leadership embed into decision rights, funding, governance, and measurement? Will they become an adaptive enterprise or remain a predictive enterprise? [^3]
 - Will the organization treat uncertainty as a planning failure, or as a condition requiring adaptiveness?
 - Will the organization enable parallel safe-to-fail experiments to manage uncertainty and accelerate learning, or demand sequential approvals and large-batch commitments?
 
