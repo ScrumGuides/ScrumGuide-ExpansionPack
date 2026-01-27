@@ -256,7 +256,7 @@
 
 # Homepage specific translations
 - id: hero_badge
-  translation: "Towarzysz Przewodnika Scrum 2020"
+  translation: "Towarzysz Scrum Guide 2020"
 
 - id: created_by
   translation: "Stworzony przez"
@@ -265,7 +265,7 @@
   translation: "Odkryj Rozszerzenia"
 
 - id: core_section_title
-  translation: "Rozszerzenie Przewodnika Scrum"
+  translation: "Scrum Guide: Rozszerzenia"
 
 - id: core_document_badge
   translation: "Dokument Główny"
