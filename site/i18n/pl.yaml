@@ -2,6 +2,9 @@
 - id: and
   translation: "i"
 
+- id: all_topics
+  translation: "Wszystkie"
+
 - id: read_online_title
   translation: "Czytaj {{ .Site.Title }} online"
 
@@ -19,6 +22,9 @@
 
 - id: open_source_description
   translation: "{{ .Site.Title }} to projekt Open Source, który rozwija się dzięki współpracy społeczności. Niezależnie od tego, czy chcesz zaproponować ulepszenia, zgłosić problemy, czy wnieść treści, Twój udział jest mile widziany. Wspólnie możemy sprawić, że ten zasób stanie się jeszcze bardziej wartościowy dla światowej społeczności Scrum."
+
+- id: history_page_title
+  translation: "Historia"
 
 - id: join_discussion_button
   translation: "Dołącz do dyskusji"
@@ -47,6 +53,9 @@
 - id: guide_content_not_found
   translation: "Nie znaleziono treści przewodnika"
 
+- id: reportTranslationError
+  translation: "Zgłoś błąd tłumaczenia"
+
 # Navigation translations
 - id: nav_read_online
   translation: "Czytaj Online"
@@ -65,6 +74,41 @@
 
 - id: nav_faq
   translation: "FAQ"
+
+# Gpage PDF download translations
+- id: guide_pdf_download_button
+  translation: "Pobierz PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF niedostępny"
+
+- id: guide_pdf_intro_text
+  translation: "Możesz również pobrać ten przewodnik jako PDF do czytania offline."
+
+- id: guide_pdf_intro_link
+  translation: "Pobierz PDF"
+
+# Preview Translations functionality
+- id: download_preview_translations
+  translation: "Podgląd tłumaczeń"
+
+- id: download_preview_description
+  translation: "Te tłumaczenia są dostępne w wersji podglądowej i wymagają co najmniej 5 recenzentów ze społeczności, zanim będą mogły zostać przeniesione na główną stronę. Pomóż nam sprawdzić i ulepszyć te tłumaczenia!"
+
+- id: download_visit_preview
+  translation: "Odwiedź stronę podglądu"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_preview_status
+  translation: "W podglądzie"
+
+- id: download_preview_action
+  translation: "Podgląd"
+
+- id: download_discussion_action
+  translation: "Dyskusja"
 
 # Download page translations
 - id: download_page_title
@@ -97,6 +141,9 @@
 - id: download_table_language
   translation: "Język"
 
+- id: download_table_contributed_by
+  translation: "Wkład od"
+
 - id: download_table_translations_by
   translation: "Przetłumaczone przez"
 
@@ -127,8 +174,27 @@
 - id: download_community_contributors
   translation: "Społeczność"
 
+- id: contributors_label
+  translation: "Współtwórcy"
+
 - id: read_online_action
   translation: "Czytaj Online"
+
+# Guide template translations
+- id: guide_join_discussion
+  translation: "Dołącz do dyskusji"
+
+- id: guide_version_dropdown_label
+  translation: "Wybierz wersję"
+
+- id: guide_version_current
+  translation: "Bieżąca"
+
+- id: guide_version_latest
+  translation: "Najnowsza"
+
+- id: download_reference_status
+  translation: "Odniesienie"
 
 # Missing translations for Polish
 - id: breadcrumb_home
@@ -155,23 +221,11 @@
 - id: at_a_glance_title
   translation: "Na pierwszy rzut oka"
 
-- id: guide_join_discussion
-  translation: "Dołącz do dyskusji"
-
-- id: download_table_contributed_by
-  translation: "Autor tłumaczenia"
-
-- id: reportTranslationError
-  translation: "Zgłoś błąd tłumaczenia"
-
 - id: active_status_label
   translation: "Status"
 
 - id: guide_table_of_contents
   translation: "Spis treści"
-
-- id: guide_pdf_download_button
-  translation: "Pobierz PDF"
 
 - id: available_languages_label
   translation: "Dostępne języki"
@@ -185,14 +239,8 @@
 - id: pdf_downloads_label
   translation: "Pobieranie PDF"
 
-- id: guide_version_latest
-  translation: "Najnowsza"
-
 - id: living_document_updated_label
   translation: "Ten żywy dokument został ostatnio zaktualizowany"
-
-- id: download_preview_status
-  translation: "W podglądzie"
 
 - id: guide_back_to_home
   translation: "Powrót do strony głównej"
@@ -203,32 +251,8 @@
 - id: translations_button_small
   translation: "Tłumaczenia"
 
-- id: download_preview_translations
-  translation: "Podgląd tłumaczeń"
-
-- id: download_preview_description
-  translation: "Te tłumaczenia są dostępne w podglądzie i potrzebują co najmniej 5 recenzentów ze społeczności, zanim będą mogły zostać przeniesione na stronę główną. Pomóż nam przejrzeć i ulepszyć te tłumaczenia!"
-
-- id: download_visit_preview
-  translation: "Odwiedź stronę podglądu"
-
-- id: download_table_status
-  translation: "Status"
-
-- id: download_preview_action
-  translation: "Podgląd"
-
-- id: download_discussion_action
-  translation: "Dyskusja"
-
 - id: download_reference_status
   translation: "Odniesienie"
-
-- id: contributors_label
-  translation: "Współtwórcy"
-
-- id: contributors_label
-  translation: "Współtwórcy"
 
 # Homepage specific translations
 - id: hero_badge
@@ -280,14 +304,6 @@
   translation: "Wszystkie"
 
 # Version-specific translations (English placeholders - needs Polish translation)
-- id: guide_version_dropdown_label
-  translation: "Wybierz wersję"
-
-- id: guide_version_current
-  translation: "Bieżąca"
-
-- id: guide_pdf_not_available
-  translation: "PDF niedostępny"
 
 - id: guide_historical_version_notice_title
   translation: "Powiadomienie o Wersji Historycznej:"
