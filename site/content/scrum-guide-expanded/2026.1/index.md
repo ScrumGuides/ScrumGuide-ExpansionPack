@@ -266,7 +266,7 @@ The level of difficulty in adopting Scrum should not be underestimated. Scrum of
 
 Scrum is not about adopting tools, short term delivery that sacrifices long term value. Often, incorrectly, Scrum practitioners only focus on short term impediment removal. Scrum requires change agency that balances the short term with the long term.
 
-A work related problem in Scrum could be anything that blocks or slows down progress, often addressed by self-managment of the Product Owner and Product Developers. An impediment is a type of problem in Scrum and is anything that blocks or slows down progress and cannot be solved by the Developers & Product Owner.
+A work related problem in Scrum could be anything that blocks or slows down progress, often addressed by self-management of the Product Owner and Product Developers. An impediment is a type of problem in Scrum and is anything that blocks or slows down progress and cannot be solved by the Developers & Product Owner.
 
 It is crucial to be intentional, unrelenting, and tenacious about people, change, and communications. The change often includes people development, designs, workflows, processes, systems, attitudes, behaviors, language, habits, and the work climate. Culture is an emerging result.
 
