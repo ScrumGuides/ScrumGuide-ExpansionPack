@@ -275,7 +275,7 @@ The level of difficulty in adopting Scrum should not be underestimated. Scrum of
 
 Scrum is not about adopting tools, short term delivery that sacrifices long term value. Often, incorrectly, Scrum practitioners only focus on short term impediment removal. Scrum requires change agency that balances the short term with the long term.
 
-A work related problem in Scrum could be anything that blocks or slows down progress, often addressed by self-managment of the Product Onwer and Product Developers. An impediment is a type of problem in Scrum and is anything that blocks or slows down progress and cannot be solved by the Developers & Product Owner.
+A work related problem in Scrum could be anything that blocks or slows down progress, often addressed by self-management of the Product Owner and Product Developers. An impediment is a type of problem in Scrum and is anything that blocks or slows down progress and cannot be solved by the Developers & Product Owner.
 
 It is crucial to be intentional, unrelenting, and tenacious about people, change, and communications. The change often includes people development, designs, workflows, processes, systems, attitudes, behaviors, language, habits, and the work climate. Culture is an emerging result.
 
@@ -283,7 +283,7 @@ An effective Scrum adoption uses an emergent approach, has effective change agen
 
 Start with disciplined emergent change in a direction. Strive to make emergent change a normality; eventually it becomes part of the scheduled work. A Scrum adoption has a direction but not a predefined destination. The change is emergent and therefore not predictable; a north star lights the path but is not a fixed destination. Curiosity enables a pattern of sense, listen, learn, and adapt in a direction. It’s important to foster relationships and understand perspectives, and to listen to what is not being said and what is not happening. Change is hard work, yet fulfilling.
 
-Scrum Practioners and Supporters try not to be victims and do not rely on others to change. They try to make continual marginal changes within their grasp and create continual positive momentum.
+Scrum Practitioners and Supporters try not to be victims and do not rely on others to change. They try to make continual marginal changes within their grasp and create continual positive momentum.
 Ideally they are change catalysts and they radiate realistic positivity and possibilities.
 
 ## The Scrum Roles in the Expansion Pack {#the-scrum-roles-in-the-expansion-pack}
