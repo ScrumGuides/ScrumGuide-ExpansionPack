@@ -72,7 +72,7 @@ Scrum Teams often face interpersonal risks during formal events, informal meetin
 - **Embracing Diversity:** When product assumptions, decisions, or technical approaches are challenged during Sprint Planning or Backlog Refinement, especially when that challenge comes from someone with less formal authority or seniority.  
 - **Taking Risks:** When Scrum Teams are encouraged to run experiments, technical spikes, or discovery work where outcomes are uncertain, and learning may show up as “no, not this path” rather than visible success.  
 - **Asking for Help:** Asking for help, pairing, or clarification can expose gaps in understanding to peers or stakeholders.  
-- **Mutual Support:** When supporting a teammate under pressure means sharing responsibility for outcomes rather than protecting individual credibility (*mutual support*).  
+- **Mutual Support:** When supporting a teammate under pressure means sharing responsibility for outcomes rather than protecting individual credibility.  
 - **Appreciation:** When contributing expertise or effort that improves long-term product quality or team effectiveness, knowing that this contribution may not be immediately visible or rewarded.
 
 These situations are not edge cases; they are everyday moments where psychological safety is either strengthened or diminished. The seven behavioral patterns named above are consistent with the Team Psychological Safety assessment vocabulary[^8].
@@ -186,6 +186,8 @@ Scrum exposes uncertainty and invites learning, but effective learning only happ
 
 [^2]: Edmondson, A. (1999) 'Psychological safety and learning behavior in work teams', *Administrative Science Quarterly*, 44(2), pp. 350–383.
 
+[^3]: Lencioni, P.M. (2012) *The five dysfunctions of a team: Team assessment*. Hoboken, NJ: John Wiley & Sons.
+
 [^4]: Edmondson, A.C. (2018) *The fearless organization: Creating psychological safety in the workplace for learning, innovation, and growth*. Hoboken, NJ: John Wiley & Sons.
 
 [^5]: Google Re:Work (no date) *Understanding team effectiveness*. Available at: [https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness](https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness) (Accessed: 7 January 2026).
@@ -198,7 +200,9 @@ Scrum exposes uncertainty and invites learning, but effective learning only happ
 
 [^9]: Scrum Expansion (2025) *Scrum Guide Expansion Pack*. Available at: [https://scrumexpansion.org/scrum-guide-expansion-pack/](https://scrumexpansion.org/scrum-guide-expansion-pack/) (Accessed: 7 January 2026).
 
-[^10]: Kerth, N.L. (2013) *Project retrospectives: A handbook for team reviews*. Boston, MA: Addison-Wesley.
+[^10]: Edmondson, A.C. (2023) *Right kind of wrong: The science of failing well*. New York: Simon & Schuster.
+
+[^11]: Kerth, N.L. (2013) *Project retrospectives: A handbook for team reviews*. Boston, MA: Addison-Wesley.
 
 [^12]: Verheyen, G. (no date) *The Scrum values*. Available at: [https://guntherverheyen.com/library/the-scrum-values/](https://guntherverheyen.com/library/the-scrum-values/) (Accessed: 7 January 2026).
 
