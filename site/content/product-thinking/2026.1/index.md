@@ -10,6 +10,7 @@ keywords:
 author:
   - Ralph Jocham
   - Magdalena Firlit
+  - Jeff Patton
 date: 2026-01-18T09:00:00Z
 type: guide
 lang: en
@@ -55,7 +56,7 @@ This reflection revealed a deeper truth: **output is not the same as outcome** [
 
 This shift is not just about **what** is done, but about **why** and **for whom** it is done [^4]. Too often, teams obsess over delivery speed or process optimization while losing sight of the purpose behind their work. The original intent of Agile, when applied with the **why** and **who** in mind, forces us to ask: _How does this activity or output help customers and strengthen the company's future?_ That question grounds day-to-day work in long-term impact.
 
-![Logic Model - Expanded Value Chain](/product-thinking/images/value-chain-feedback-loop.png)
+![Logic Model - Expanded Value Chain](/product-thinking/2026.1/images/value-chain-feedback-loop.png)
 
 This document explores that shift. Using the lens of the Scrum Guide Expansion Pack (SGEP) [^14] and frameworks such as Evidence-Based Management (EBM), this analysis explains why product teams should shift from focusing on activities and outputs to intentionally owning outcomes and impacts [^5]
 
