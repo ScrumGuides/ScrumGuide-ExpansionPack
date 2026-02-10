@@ -56,8 +56,6 @@ This reflection revealed a deeper truth: **output is not the same as outcome** [
 
 This shift is not just about **what** is done, but about **why** and **for whom** it is done [^4]. Too often, teams obsess over delivery speed or process optimization while losing sight of the purpose behind their work. The original intent of Agile, when applied with the **why** and **who** in mind, forces us to ask: _How does this activity or output help customers and strengthen the company's future?_ That question grounds day-to-day work in long-term impact.
 
-![Logic Model - Expanded Value Chain](/product-thinking/2026.1/images/value-chain-feedback-loop.png)
-
 This document explores that shift. Using the lens of the Scrum Guide Expansion Pack (SGEP) [^14] and frameworks such as Evidence-Based Management (EBM), this analysis explains why product teams should shift from focusing on activities and outputs to intentionally owning outcomes and impacts [^5]
 
 ## Why the Agile Manifesto Looked Like It Did
@@ -93,6 +91,8 @@ Inputs are often shown as the first step. However, something happens before that
 - **Assumption** — In the product world, it is about the challenges people have, whether they complain about them or not. The things that people love and desire. These ‘needs’, combined with an understanding of the technologies used to build products and deliver services, form the seeds of innovation. Solving a problem that people already recognize \- using a solution they can readily imagine \- is one thing. True innovation is meeting a need people did not realize they had, with a solution they could not have anticipated. This is often described as a core driver of personal and business success.
 
 Following through, let’s take a closer look at the value chain, which can be seen as a feedback loop with various learning exit points and starting points, not necessarily linear.
+
+![Logic Model - Expanded Value Chain](/product-thinking/2026.1/images/value-chain-feedback-loop.png)
 
 - **Inputs** — Skills, knowledge (including learning from past decisions like outcome, impact, and experiment results), budget, working hours, and tools such as laptops, AI, software, and systems that enable the work. Also, feature requests, to-do lists, action plans, Increments, standards, and sometimes even bug reports can be considered as Inputs. Context matters. Inputs are easy to control.
 
