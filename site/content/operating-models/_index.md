@@ -21,8 +21,9 @@ keywords:
 - Organisational adaptability
 - Product organisations
 categories:
-  - Leadership
-  - Strategy
+  - Governance
+  - Alignment
+  - Feedback
 tags:
 - Operating Model
 - Adaptive Operating Model
