@@ -21,9 +21,6 @@ sitemap:
   priority: 0.8
 ---
 
-***Collected Resources for Scrum Guide Expansion Pack***  
-*This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements.*
-
 *License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).* © 2017-*2025 Cynefin.io.*  
 *Disclaimer: No warranties are given. Use at your own risk.*  
 *This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons.*  
@@ -131,10 +128,6 @@ One phase shift is particularly sudden and negative, that is, the ordered-chaoti
 - Metaphors: Ice cracking into shards, sudden and violent hailstorm, game rules suddenly thrown out
 - Nature example: Frozen lake breaking up in spring--stable surface suddenly shattering  
 - Product example: A stable Product process suddenly breaks down due to an unexpected event (e.g., major outage)
-
-## Attribution for the Scrum Guide Expansion Pack Collection
-
-This collection was written and compiled by *Ralph Jocham, John Coleman, and Jeff Sutherland*. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
 
 ## References
 
