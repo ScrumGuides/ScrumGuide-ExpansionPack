@@ -20,8 +20,8 @@ sitemap:
   priority: 0.8
 ---
 
-License/Copyright: CC BY-NC-ND 4.0, © 2026 Ralph Jocha, Jeff Sutherland
-Note: This section is included in its original, unaltered form with permission under the terms of the CC BY-NC-ND 4.0 license. No changes have been made.
+License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), © 2026 Ralph Jocham, Jeff Sutherland
+Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
 ---
 
