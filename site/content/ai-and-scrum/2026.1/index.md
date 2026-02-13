@@ -20,8 +20,8 @@ sitemap:
   priority: 0.8
 ---
 
-***Collected Resources for *Scrum Guide Expansion Pack****  
-*This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements.*
+License/Copyright: CC BY-NC-ND 4.0, © 2026 Ralph Jocha, Jeff Sutherland
+Note: This section is included in its original, unaltered form with permission under the terms of the CC BY-NC-ND 4.0 license. No changes have been made.
 
 ---
 
