@@ -20,9 +20,6 @@ sitemap:
   priority: 0.7
 ---
 
-***Collected Resources for Scrum Guide Expansion Pack***  
-*This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements.*
-
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), © 2017-2025 Orderly Disruption Limited  
 Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
 
@@ -94,10 +91,6 @@ Immunity to Change® is a framework for defining those 'hidden commitments' and 
 *Intent-Based Leadership helps leaders build organizations where people are at their best because they have a sense of autonomy, tap their intrinsic motivation, feel listened to, and have a drive for excellence. They feel high levels of ownership and control, so they engage their hearts and heads. They gain psychological rewards as they see the fruits of their decisions and work. There is a bias for action, and teams are more agile and resilient because error creation and propagation are reduced.*
 
 *The practice of stating intent allows teams to have distributed decision-making while maintaining unity of effort. The Intent-Based Leadership International (IBLI website) offers consulting, coaching, online courses, and books for leaders.*
-
-## Attribution for the Scrum Guide Expansion Pack Collection
-
-This collection was written and compiled by *Ralph Jocham, John Coleman, and Jeff Sutherland*. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
 
 ## References
 
