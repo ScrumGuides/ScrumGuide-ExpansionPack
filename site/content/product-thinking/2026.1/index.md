@@ -22,8 +22,11 @@ sitemap:
   priority: 0.7
 ---
 
-License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-Note: This section is included in its original, unaltered form with permission under the terms of the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. No changes have been made.
+License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+© 2026 Magdalena Firlit, Ralph Jocham, Jeff Patton
+Disclaimer: No warranties are given. Use at your own risk.
+This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons.
+By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 ---
 

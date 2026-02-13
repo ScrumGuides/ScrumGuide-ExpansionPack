@@ -20,55 +20,49 @@ sitemap:
   priority: 0.7
 ---
 
-**_Collected Resources for Scrum Guide Expansion Pack_**  
-_This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
+*License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).*  
+© *2026 Ralph Jocham, John Coleman*  
+*Disclaimer: No warranties are given. Use at your own risk.*  
+*This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons.*  
+*By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.*
 
-_License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
-© _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
-_Disclaimer: No warranties are given. Use at your own risk._  
-_This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
-_By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
+# Multi-Scrum-Team Products
 
----
+The first rule of scaling is not to scale. There are lots of ways to improve value delivery from existing Scrum Teams. But if you did all that and feel you must still scale, here is some guidance.
 
-If a Scrum Team becomes too large, it should consider reorganizing into multiple cohesive Scrum Teams, each focused on the same Product. Multiple Scrum Teams on the same Product should share the same Product Goal, Product Backlog, Product Owner, baseline Definition of Outcome Done, and baseline Definition of Output Done.
+If a Scrum Team becomes too large, it should consider reorganizing into multiple cohesive Scrum Teams, each focused on the same Product. Multiple Scrum Teams on the same Product should share a common Product Goal, Product Backlog, Product Owner, baseline Definition of Outcome Done, and baseline Definition of Output Done.
 
-Be careful with blind assumptions that more value is produced from more Scrum Teams. Scale only when the benefits clearly outweigh the additional overhead. Before you scale, the single Scrum Team setup has to be able to reliably produce an Increment every Sprint. But if you must scale, use an approach that is coherent with this document. Often, fewer teams result in more outcomes.
+Avoid assuming that more Scrum Teams automatically produce more value. Scale only when the benefits clearly outweigh the overhead. Before scaling, the single Scrum Team setup has to be able to reliably produce an Increment every Sprint, ideally multiple times per Sprint. If scaling becomes necessary, use an approach that is consistent with this document’s guidance. Often, fewer teams result in more outcomes.
 
-In a multi-Scrum-Team context, Scrum Teams may reduce inter-Scrum-Team dependencies by becoming more cross-functional through collaboration, cross-pollination, transfer of learning, and intentional interactions. The specific skills needed are often broad and will vary with the domain of work. In a multi-Scrum-Team setting, purposeful and intentional interactions and professionalism (including continuous integration) become even more important.
+In a multi-Scrum-Team context, Scrum Teams may reduce inter-Scrum-Team dependencies by becoming more cross-functional through tighter collaboration around a common goal, knowledge sharing, and intentional interactions. The skills needed vary by domain. In such setups, purposeful, intentional interactions and professionalism (including continuous integration) become even more important.
 
-In a one Product Owner and one Scrum Team setup, the Product Owner could be a Product manager, marketing director, technology director, etc. In a multi-Scrum-Team setup for a Product, the ideal is still only one Product Owner, who should be a leader for the Product. To allow the Product Owner to handle multiple Scrum Teams on the same Product, the Product Owner often becomes more strategic and delegates problems to solve and opportunities to the Product Developers, including, for example, aspects of Product design or Product management.
+In a single Scrum Team setup, the Product Owner could be a Product manager, marketing director, technology director, etc. When several Scrum Teams work on a single Product, the ideal is still to have only one Product Owner, who should serve as the Product's overall leader. To allow the Product Owner to handle multiple Scrum Teams on the same Product, the Product Owner often operates more strategically and delegates problems to solve and opportunities to the Product Developers, including, for example, aspects of customer discovery, Product design, or Product management for parts of the product
 
-The Product Backlog is a tool for increasing transparency.
+The Product Backlog increases transparency. Generally, the fewer Product Backlogs per Product, implicit (like a filter of a Product Backlog) or explicit, means:
 
-Generally, the fewer Product Backlogs per Product, implicit (like a filter of a Product Backlog) or explicit:
+- One cohesive direction of travel ((SGEP/Complexity));   
+- Fewer silos in the Product and greater transparency across the entire Product;  
+- Clearer visibility into overall progress across the entire Product;  
+- A better understanding of where value is emerging;  
+- Easier detection of low-value work from a Product perspective;  
+- Improved alignment and measurable value outcomes; and,  
+- A more strategic Product Owner who delegates cross-Product work to the Product Developers.
 
-- The fewer the silos in the Product and the greater the transparency across the entire Product;
-- The more transparent the overall progress tracking across the entire Product;
-- The better the big-picture value clarity across the entire Product;
-- The more likely a Scrum Team would know it’s working on low-value items from a Product perspective;
-- The more likely one is to observe improvement in the attainment of value; and,
-- The more strategic the Product Owner becomes by delegating cross-Product work to the Product Developers.
+Fewer Product Backlogs per Product are better for adaptiveness \[1\]; however, without empowered ownership, a coherent span of control, or regular direct contact with relevant Stakeholders, gaps will appear. Scrum encourages happenstance and multi-learning as people and Scrum Teams collaborate; unplanned discoveries and insights often emerge through these interactions. Such positive emergence rarely occurs when components are isolated behind separate Product Backlogs.
 
-Fewer Product Backlogs per Product are better for adaptiveness \[1\], but without empowered ownership, a coherent span of control, or direct contact with relevant Stakeholders, gaps will arise. Scrum fosters a climate for happenstance and multi-learning as various people and Scrum Teams collaborate, discoveries and insights can be shared and leveraged. This is unlikely to happen in an environment where each component has a Product Backlog in isolation.
+Happenstance in the context of ‘The New New Product Development Game’ \[2\] describes how sometimes useful ideas or solutions come about by chance, through close collaboration and shared awareness. 
 
-Happenstance in the context of ‘The New New Product Development Game’ \[2\] means that sometimes useful ideas or solutions come about by chance, not by careful planning. When Scrum Teams work closely together and share information, they might discover new approaches or answers simply because they are open to unexpected events or accidental findings.
+Multi-learning means that team members learn in multiple ways and domains simultaneously. They not only deepen their expertise but also acquire skills beyond their primary discipline. They learn as individuals, as a group, and as part of the whole company. This breadth of learning builds flexibility and resilience, enabling Scrum Teams to solve diverse problems more effectively.
 
-Multi-learning means that team members learn in many different ways at the same time. They pick up new skills and knowledge not only in their own area but also in other areas, and they learn as individuals, as a group, and as part of the whole company. This helps the team become more flexible and able to solve a wide range of problems quickly, because everyone is learning from each other and from their experiences as they work together.
-
-Finding the right balance is a dilemma. There are always trade-offs to consider. However, a good heuristic is: The fewer Product Backlogs, implicit or explicit, the better, enabled through multi-learning and the organizational transfer of learning across Scrum Teams, departments, and Products.
+Finding the right balance is a dilemma. There are always trade-offs to consider. A reliable heuristic is: The fewer Product Backlogs (implicit or explicit), the better, supported by multi-learning and active knowledge transfer across Scrum Teams, departments, and Products.
 
 Organizational transfer of learning, as described in 'The New New Product Development Game' \[2\], is the process by which knowledge and insights gained in one new Product development area are regularly shared and applied to subsequent areas or other divisions within the organization.
 
-Organizations are often designed for ease of management over ease of outcomes. Ask yourself how many Scrum Teams a problem or opportunity touches to deliver value; generally, the lower that number, the better.
+Many organizations are designed for ease of management rather than ease of outcomes. Examine how many Scrum Teams a problem or opportunity touches to deliver value; generally, the fewer involved, the better the adaptiveness.
 
-Free teams from command and control. Err on the side of aligned autonomy. Foster purposeful, intentional interactions within and between self-managing Scrum Teams \[3\]. Foster a work climate with minimal but sufficient management processes, scaffolding, and boundaries. Balance and nurture Stakeholder expectations and limits. Build change agency and continual improvement in a direction, not just delivery, into a cadence.
+Free teams from command and control. Favor aligned autonomy, supported by purposeful, intentional interactions within and between self-managing Scrum Teams \[3\]. Maintain only the minimum required management scaffolding. Balance and nurture Stakeholder expectations and limits. Build agency for change and continual improvement (in a direction of travel) into a cadence. Prioritize designing Scrum Teams for the successful delivery of outcomes rather than for administrative convenience. Where matrix structures exist, consider softening them — they often dilute accountability, hinder autonomy, and can lead to learned helplessness ((SGEP/PsychologicalSafety)).
 
-When in doubt, study the New New Product Development Game \[2\], embrace the good of what’s new in the present, but abandon any notions of an industrial complex \[4-9\] where only the brave people have the agency to do anything.
-
-## Attribution for the Scrum Guide Expansion Pack Collection
-
-This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
+When in doubt, re-study the New New Product Development Game \[2\], embrace the good of what’s new in the present, but reject any notions of an industrial complex \[4-9\] where only the bold few have the agency to act.
 
 ## References
 
@@ -88,4 +82,4 @@ This collection was written and compiled by _Ralph Jocham, John Coleman, and Jef
 
 \[8\] Snowden, D. (2023) Managing for emergence through abduction, The Cynefin Co. At: [https://thecynefin.co/managing-for-emergence/](https://thecynefin.co/managing-for-emergence/) (Accessed: June 24, 2023).
 
-\[9\] Snowden, D. and Smith, N. (2023) Leadership discussion: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (Accessed: April 7, 2023).
+\[9\] Snowden, D. and Smith, N. (2023) Leadership discussion: Dave and Natalie \- the Cynefin co, YouTube. At: [https://youtu.be/WcPZ8ybDF0w](https://youtu.be/WcPZ8ybDF0w) (Accessed: April 7, 2023).  
