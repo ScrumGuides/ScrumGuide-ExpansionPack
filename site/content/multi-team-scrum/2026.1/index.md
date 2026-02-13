@@ -20,11 +20,8 @@ sitemap:
   priority: 0.7
 ---
 
-**_Collected Resources for Scrum Guide Expansion Pack_**  
-_This document is a collection of independent works. Each section retains its original license or copyright status, as indicated. Please refer to each section for specific usage rights and requirements._
-
 _License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))._  
-© _2025 Ralph Jocham, John Coleman, and Jeff Sutherland._  
+© _2025 Ralph Jocham, John Coleman
 _Disclaimer: No warranties are given. Use at your own risk._  
 _This section is offered under the Attribution-ShareAlike 4.0 International license of Creative Commons._  
 _By using this Scrum Guide Expansion Pack, you agree to the terms of the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license._
@@ -65,10 +62,6 @@ Organizations are often designed for ease of management over ease of outcomes. A
 Free teams from command and control. Err on the side of aligned autonomy. Foster purposeful, intentional interactions within and between self-managing Scrum Teams \[3\]. Foster a work climate with minimal but sufficient management processes, scaffolding, and boundaries. Balance and nurture Stakeholder expectations and limits. Build change agency and continual improvement in a direction, not just delivery, into a cadence.
 
 When in doubt, study the New New Product Development Game \[2\], embrace the good of what’s new in the present, but abandon any notions of an industrial complex \[4-9\] where only the brave people have the agency to do anything.
-
-## Attribution for the Scrum Guide Expansion Pack Collection
-
-This collection was written and compiled by _Ralph Jocham, John Coleman, and Jeff Sutherland_. Each section is individually attributed above and retains its original license. The collection as a whole is for informational purposes; please respect the license terms of each section.
 
 ## References
 
