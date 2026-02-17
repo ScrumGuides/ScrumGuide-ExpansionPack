@@ -5,7 +5,8 @@ This guide provides detailed information for developers working on the Scrum Gui
 ## 🌐 Live Sites for Reference
 
 - **Production**: [scrumexpansion.org](https://scrumexpansion.org) - **Live production site**
-- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **Test environment with latest changes**
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - **preview environment with latest changes in MAIN**
+- **Canary**: [agreeable-island-0c966e810-{PR-NUMBER}.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-{PR-NUMBER}.centralus.6.azurestaticapps.net/) - **Test environment with latest changes in the PR - Deleted after PR closed**
 
 ## Development Environment Setup
 
@@ -129,14 +130,14 @@ Your markdown content here...
 ### Creating New Pages
 
 ```powershell
-# Create a new page
-hugo new content/your-page.md
+# Create a new extension guide
+hugo new content/my-new-guide/_index.md
 
-# Create a new guide section
+# Create a new version of a guide
+hugo new content/my-new-guide/2026.1/index.md
+
+# Create a guide section
 hugo new content/guide/new-section.md
-
-# Create a creator profile
-hugo new content/creators/new-creator/index.md
 ```
 
 ### Content Best Practices
@@ -259,6 +260,7 @@ layouts/
    ```
 
 2. **Use in Templates**
+
    ```html
    <h1>{{ i18n "welcome" }}</h1>
    ```
@@ -482,22 +484,25 @@ This is an info alert.
 Use data files for structured content:
 
 ```yaml
-# data/creators.yaml
-- name: "Ralph Jocham"
-  role: "Scrum Trainer"
-  image: "ralph-jocham.jpg"
+# data/guides.yaml
+- name: "Scrum Guide Expanded"
+  slug: "scrum-guide-expanded"
+  type: "core"
+  current_version: "2026.1"
 
-- name: "John Coleman"
-  role: "Agile Coach"
+- name: "Complexity"
+  slug: "complexity"
+  type: "extension"
+  current_version: "2026.1"
 ```
 
 Access in templates:
 
 ```html
-{{ range .Site.Data.creators }}
-<div class="creator">
+{{ range .Site.Data.guides }}
+<div class="guide">
   <h3>{{ .name }}</h3>
-  <p>{{ .role }}</p>
+  <p>Version: {{ .current_version }}</p>
 </div>
 {{ end }}
 ```

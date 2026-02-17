@@ -4,7 +4,7 @@
 
 # Remove default ownership for /site/content/ (will be handled by specific rules below)
 
-/site/content/
+/site/content/ 
 
 # Technical and configuration files
 
@@ -26,7 +26,7 @@ LICENSE @mrhinsh
 
 # Site content - specific areas
 
-/site/content/guide/ @jeffsutherland @ViralGoodAgile @rjocham
+/site/content/guide/ 
 /site/content/creators/jeff-sutherland/ @jeffsutherland
 /site/content/creators/john-coleman/ @ViralGoodAgile
 /site/content/creators/ralph-jocham/ @rjocham

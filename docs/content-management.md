@@ -4,45 +4,109 @@ This guide covers content creation, management, and maintenance for the Scrum Gu
 
 ## Content Structure Overview
 
-The site's content is organized in a hierarchical structure that supports multiple languages and different content types.
+The site's content is organized around **versioned guides** that support multiple languages. Each guide is a self-contained document with version control.
+
+### Guide Structure
 
 ```
 site/content/
-├── _index.md                    # Homepage content
-├── guide/
-│   └── index.md                 # Main Guide content
-├── creators/
-│   ├── _index.md               # Creators index page
-│   ├── ralph-jocham/
-│   │   ├── index.md            # Ralph's profile
-│   │   └── ralph-jocham.jpg    # Profile image
-│   ├── john-coleman/
-│   │   └── index.md            # John's profile
-│   └── jeff-sutherland/
-│       ├── index.md            # Jeff's profile
-│       └── jeff-sutherland.jpg # Profile image
-└── download/
-    └── _index.md               # Download page content
+├── _index.md                              # Homepage content
+├── scrum-guide-expanded/                  # CORE GUIDE - Main comprehensive document
+│   ├── _index.md                         # Guide landing page
+│   ├── 2026.1/                           # Version 2026.1
+│   │   ├── index.md                      # English version
+│   │   ├── index.de.md                   # German version
+│   │   ├── index.es.md                   # Spanish version
+│   │   └── pdf/                          # Generated PDFs
+│   ├── 2025.6/                           # Previous version
+│   ├── history/                          # Version history
+│   └── translations/                     # Translation metadata
+├── complexity/                            # EXTENSION GUIDE - Complexity in Scrum
+│   ├── _index.md
+│   ├── 2026.1/
+│   ├── history/
+│   └── translations/
+├── psychological-safety-in-scrum-teams/  # EXTENSION GUIDE
+│   ├── _index.md
+│   ├── 2026.1/
+│   ├── history/
+│   └── translations/
+├── adaptive-enterprise/                   # EXTENSION GUIDE
+├── multi-team-scrum/                      # EXTENSION GUIDE
+├── software-engineering-practices/        # EXTENSION GUIDE
+└── creators/                              # LEGACY - Kept for backward compatibility
+    ├── _index.md
+    ├── ralph-jocham/
+    ├── john-coleman/
+    └── jeff-sutherland/
 ```
 
-## Content Types
+### Content Types
 
-### 1. Guide Content
+#### 1. Core Guide
 
-The main Scrum Guide expansion content is stored in `/content/guide/index.md`.
+**Location**: `/content/scrum-guide-expanded/`
+
+The main comprehensive companion to the 2020 Scrum Guide. This is the primary document that all extension guides build upon.
+
+#### 2. Extension Guides
+
+**Locations**: `/content/complexity/`, `/content/psychological-safety-in-scrum-teams/`, etc.
+
+Specialized guides that expand on specific topics. Each extension guide:
+
+
+- Has its own versioning
+- Can be updated independently
+- References the core guide
+- Follows the same structure as the core guide
 
 #### Front Matter Structure
 
+**Guide Index (`_index.md`)** - Defines the guide itself:
+
 ```yaml
 ---
-title: "Scrum Guide Expansion Pack"
-description: "An expanded interpretation of the 2020 Scrum Guide"
-date: 2025-06-09
-weight: 10
-draft: false
-type: "guide"
-layout: "single"
-enableMermaid: false  # Optional: Enable Mermaid.js diagrams (default: false)
+title: Psychological Safety in Scrum Teams
+description: Learn why Scrum turns into empty mechanics when people do not feel safe to speak up.
+Type: "guide"
+Layout: "root"
+brand:
+  bg_colour: "#0072B2"
+  image: "images/scrum-guide-expansion-pack-logo-solo.png"
+weight: 2
+guide_license: |
+  License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
+categories:
+  - Safety
+  - Transparency
+  - Teams
+tags:
+  - Psychological safety
+  - Scrum Teams
+sitemap:
+  priority: 0.8
+---
+```
+
+**Version Content (`2026.1/index.md`)** - The actual guide content:
+
+```yaml
+---
+title: Psychological Safety in Scrum Teams (Expansion of the SGEP)
+subtitle: An empirical lens on safety as a foundation for learning
+description: A research-based examination of psychological safety in Scrum Teams.
+keywords:
+  - Psychological safety
+  - Scrum Teams
+  - Empiricism
+author:
+  - Joanna Płaskonka 
+date: 2026-01-18T09:00:00Z
+type: guide
+lang: en
+sitemap:
+  priority: 0.7
 ---
 ```
 

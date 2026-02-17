@@ -46,28 +46,43 @@ The main Hugo site directory containing all source files:
 
 ```text
 site/
-├── content/           # Markdown content files
-│   ├── _index.md     # Homepage content
-│   ├── creators/     # Creator profiles
-│   ├── download/     # Download pages
-│   └── guide/        # Main guide content
-├── layouts/          # HTML templates (Hugo v0.146.0+ structure)
-│   ├── baseof.html   # Base template (moved from _default/)
-│   ├── home.html     # Homepage template (renamed from index.html)
-│   ├── single.html   # Single page template (moved from _default/)
-│   ├── list.html     # List template (moved from _default/)
-│   ├── guide/        # Guide-specific layouts
-│   ├── creators/     # Creator-specific layouts
-│   ├── _partials/    # Reusable components (renamed from partials/)
-│   ├── _shortcodes/  # Custom shortcodes (renamed from shortcodes/)
-│   └── _markup/      # Render hooks for markdown elements
-├── static/           # Static assets
-│   ├── css/         # Custom stylesheets
-│   ├── images/      # Images and graphics
-│   └── pdf/         # PDF files
-├── data/            # Structured data files
-├── i18n/            # Translation files
-└── hugo.yaml        # Hugo configuration
+├── content/                    # Markdown content files
+│   ├── _index.md              # Homepage content
+│   ├── scrum-guide-expanded/  # CORE GUIDE - Main comprehensive document
+│   │   ├── _index.md          # Guide landing page
+│   │   ├── 2026.1/            # Version 2026.1
+│   │   │   ├── index.md       # English content
+│   │   │   ├── index.de.md    # German content
+│   │   │   └── pdf/           # Generated PDFs
+│   │   ├── 2025.6/            # Previous version
+│   │   ├── history/           # Version history
+│   │   └── translations/      # Translation metadata
+│   ├── complexity/            # EXTENSION GUIDE - Complexity in Scrum
+│   │   ├── _index.md
+│   │   ├── 2026.1/
+│   │   ├── history/
+│   │   └── translations/
+│   ├── psychological-safety-in-scrum-teams/  # EXTENSION GUIDE
+│   ├── adaptive-enterprise/                    # EXTENSION GUIDE
+│   ├── multi-team-scrum/                      # EXTENSION GUIDE
+│   ├── software-engineering-practices/        # EXTENSION GUIDE
+│   └── creators/              # LEGACY - Kept for backward compatibility
+├── layouts/                   # HTML templates (Hugo v0.146.0+ structure)
+│   ├── baseof.html           # Base template (moved from _default/)
+│   ├── home.html             # Homepage template (renamed from index.html)
+│   ├── single.html           # Single page template (moved from _default/)
+│   ├── list.html             # List template (moved from _default/)
+│   ├── guide/                # Guide-specific layouts
+│   ├── _partials/            # Reusable components (renamed from partials/)
+│   ├── _shortcodes/          # Custom shortcodes (renamed from shortcodes/)
+│   └── _markup/              # Render hooks for markdown elements
+├── static/                    # Static assets
+│   ├── css/                  # Custom stylesheets
+│   ├── images/               # Images and graphics
+│   └── pdf/                  # PDF files
+├── data/                      # Structured data files
+├── i18n/                      # Translation files
+└── hugo.yaml                  # Hugo configuration
 ```
 
 ### `/docs/` - Documentation
@@ -86,21 +101,57 @@ Auto-generated static site files (not committed to version control in production
 
 ## Content Architecture
 
+### Versioned Guides Model
+
+The site uses a **versioned guides architecture** where each guide is a self-contained, version-controlled document:
+
+**Structure:**
+```
+guide-name/
+├── _index.md           # Guide metadata and landing page
+├── 2026.1/             # Current version
+│   ├── index.md        # English content
+│   ├── index.de.md     # German content
+│   ├── index.es.md     # Spanish content
+│   └── pdf/            # Generated PDFs
+├── 2025.6/             # Previous version  
+├── history/            # Version history and changelog
+└── translations/       # Translation tracking
+```
+
+**Guide Types:**
+
+1. **Core Guide** (`scrum-guide-expanded/`)
+   - Main comprehensive companion to the 2020 Scrum Guide
+   - Foundation document that extension guides reference
+   - Most comprehensive and detailed
+
+2. **Extension Guides** (e.g., `complexity/`, `psychological-safety-in-scrum-teams/`)
+   - Specialized topics that expand on core concepts
+   - Can be updated independently with their own versioning
+   - Reference the core guide for foundational concepts
+
+3. **Legacy Content** (`creators/`)
+   - Kept for backward compatibility
+   - No longer actively maintained
+   - Redirects handled for old URLs
+
 ### Multilingual Support
 
-The site supports multiple languages using Hugo's built-in i18n features:
+Each version of a guide supports multiple languages:
 
-- **English** (`en`) - Default language
-- **German** (`de`) - Deutsch
-- **Spanish** (`es`) - Español
-- **French** (`fr`) - Français
+- **English** (`en`) - Default language (index.md)
+- **German** (`de`) - Deutsch (index.de.md)
+- **Spanish** (`es`) - Español (index.es.md)
+- **Italian** (`it`) - Italiano (index.it.md)
+- **And more** - Additional languages as translated
 
 ### Content Types
 
-1. **Guide Content** - Main Scrum expansion content
-2. **Creator Profiles** - Information about authors
-3. **Download Pages** - PDF and resource downloads
-4. **Static Pages** - About, legal, etc.
+1. **Versioned Guide Content** - Main content with version control
+2. **Guide Landing Pages** - Overview and navigation for each guide
+3. **History Pages** - Track changes between versions
+4. **Translation Metadata** - Translation status and contributors
 
 ## Template Hierarchy
 

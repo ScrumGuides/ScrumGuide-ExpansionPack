@@ -57,7 +57,7 @@ menu:
     - name: 'Guide'
       url: '/guide/'
       weight: 10
-    - name: 'Creators'
+    - name: 'Creators'           # LEGACY - Kept for backward compatibility
       url: '/creators/'
       weight: 20
     - name: 'Download'
@@ -225,7 +225,7 @@ enableRobotsTXT: false
       "statusCode": 200
     },
     {
-      "route": "/creators",
+      "route": "/creators",        // LEGACY - Kept for backward compatibility
       "serve": "/creators/index.html",
       "statusCode": 200
     },
@@ -357,7 +357,7 @@ Translation files are stored in the `i18n/` directory:
   translation: "Home"
 - id: "nav_guide"
   translation: "Guide"
-- id: "nav_creators"
+- id: "nav_creators"         # LEGACY - Kept for backward compatibility
   translation: "Creators"
 - id: "nav_download"
   translation: "Download"
