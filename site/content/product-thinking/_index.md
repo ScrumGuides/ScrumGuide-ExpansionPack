@@ -10,9 +10,7 @@ weight: 2
 guide_license: |
   License: Creative Commons Attribution-ShareAlike 4.0 International ( CC BY-SA 4.0  ).
 categories:
-  - Outcomes
-  - Discovery
-  - Product
+  - Product Excellence
 sitemap:
   priority: 0.8
 ---
