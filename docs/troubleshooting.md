@@ -181,6 +181,7 @@ content/
    ```
 
 3. **Check for missing translations**:
+
    ```powershell
    # Search for untranslated strings
    Select-String -Path "layouts/**/*.html" -Pattern "{{ i18n" | Where-Object { $_.Line -notmatch "translation" }
@@ -232,6 +233,7 @@ markup:
    ```
 
 3. **Check file permissions**:
+
    ```powershell
    # Verify file exists and is readable
    Test-Path "static/images/your-image.jpg"
@@ -354,7 +356,10 @@ gh run view --log <run-id>
 **Solutions**:
 
 ```html
-<!-- Check that Bootstrap is included in baseof.html -->
+<!-- Check that Bootstrap is included in the base template -->
+<!-- Note: Base templates (baseof.html, home.html, etc.) come from the -->
+<!-- Hugo module: github.com/nkdAgility/HugoGuides/module -->
+<!-- To override, create baseof.html in local layouts/ directory -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 ```
 

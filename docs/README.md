@@ -2,6 +2,8 @@
 
 Welcome to the documentation for the **Scrum Guide Expansion Pack** project. This documentation provides comprehensive information about the project structure, development workflow, and contribution guidelines.
 
+> **🤖 For AI Assistants**: See the [AI Agent Guide](../agents.md) for comprehensive instructions on working with this codebase.
+
 ## 🌐 Live Sites
 
 - **Production**: [scrumexpansion.org](https://scrumexpansion.org) - **Live production site**
@@ -9,6 +11,7 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 
 ## Quick Navigation
 
+- [AI Agent Guide](../agents.md) - **For AI assistants and automated tools**
 - [Getting Started](./getting-started.md)
 - [Contributing Guidelines](./contributing.md)
 - [Content Management](./content-management.md)

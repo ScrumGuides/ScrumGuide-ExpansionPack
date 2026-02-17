@@ -248,21 +248,40 @@ ScrumGuide-ExpansionPack/
 ├── site/                    # Hugo site source
 │   ├── content/            # Markdown content files
 │   │   ├── _index.md      # Homepage content
-│   │   ├── guide/         # Main guide content
-│   │   ├── creators/      # Creator profiles
-│   │   └── download/      # Download page
-│   ├── layouts/           # HTML templates
-│   │   ├── _default/      # Default layouts
-│   │   ├── guide/         # Guide-specific layouts
-│   │   └── partials/      # Reusable components
+│   │   ├── scrum-guide-expanded/  # Core comprehensive guide
+│   │   │   ├── _index.md  # Guide landing page
+│   │   │   ├── 2026.1/    # Current version
+│   │   │   ├── 2025.6/    # Previous version
+│   │   │   ├── history/   # Version history
+│   │   │   └── translations/  # Translation metadata
+│   │   ├── complexity/    # Extension guide (versioned)
+│   │   ├── psychological-safety-in-scrum-teams/  # Extension guide
+│   │   ├── [+12 more extension guides]/  # Additional guides
+│   │   └── creators/      # LEGACY - Kept for compatibility
+│   ├── layouts/           # HTML templates (Hugo module + overrides)
+│   │   ├── index.html    # Homepage template
+│   │   ├── categories/    # Category templates
+│   │   ├── creators/      # Creator templates (legacy)
+│   │   ├── _partials/     # Reusable components
+│   │   │   ├── components/
+│   │   │   ├── functions/
+│   │   │   └── hooks/
+│   │   └── _markup/       # Render hooks
+│   │       ├── render-blockquote.html
+│   │       └── render-image.html
 │   ├── static/            # Static assets (CSS, images, PDFs)
 │   ├── data/              # Data files (YAML/JSON)
 │   ├── i18n/              # Translation files
-│   └── hugo.yaml          # Hugo configuration
+│   └── hugo.yaml          # Hugo configuration (includes module import)
+├── scripts/               # Automation scripts
+│   └── Create-GuidePDFs.ps1  # PDF generation script
 ├── public/                # Generated site (git-ignored)
 ├── docs/                  # Project documentation
+├── agents.md              # AI assistant guide
 └── .github/               # GitHub Actions workflows
 ```
+
+**Note**: Base Hugo templates come from an imported module (`github.com/nkdAgility/HugoGuides/module`). Local `layouts/` contains only overrides and site-specific templates.
 
 ## Next Steps
 

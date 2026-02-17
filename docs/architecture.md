@@ -46,29 +46,52 @@ The main Hugo site directory containing all source files:
 
 ```text
 site/
-├── content/           # Markdown content files
-│   ├── _index.md     # Homepage content
-│   ├── creators/     # Creator profiles
-│   ├── download/     # Download pages
-│   └── guide/        # Main guide content
-├── layouts/          # HTML templates (Hugo v0.146.0+ structure)
-│   ├── baseof.html   # Base template (moved from _default/)
-│   ├── home.html     # Homepage template (renamed from index.html)
-│   ├── single.html   # Single page template (moved from _default/)
-│   ├── list.html     # List template (moved from _default/)
-│   ├── guide/        # Guide-specific layouts
-│   ├── creators/     # Creator-specific layouts
-│   ├── _partials/    # Reusable components (renamed from partials/)
-│   ├── _shortcodes/  # Custom shortcodes (renamed from shortcodes/)
-│   └── _markup/      # Render hooks for markdown elements
-├── static/           # Static assets
-│   ├── css/         # Custom stylesheets
-│   ├── images/      # Images and graphics
-│   └── pdf/         # PDF files
-├── data/            # Structured data files
-├── i18n/            # Translation files
-└── hugo.yaml        # Hugo configuration
+├── content/                    # Markdown content files
+│   ├── _index.md              # Homepage content
+│   ├── scrum-guide-expanded/  # CORE GUIDE - Main comprehensive document
+│   │   ├── _index.md          # Guide landing page
+│   │   ├── 2026.1/            # Version 2026.1
+│   │   │   ├── index.md       # English content
+│   │   │   ├── index.de.md    # German content
+│   │   │   └── pdf/           # Generated PDFs
+│   │   ├── 2025.6/            # Previous version
+│   │   ├── history/           # Version history
+│   │   └── translations/      # Translation metadata
+│   ├── complexity/            # EXTENSION GUIDE - Complexity in Scrum
+│   ├── psychological-safety-in-scrum-teams/  # EXTENSION GUIDE
+│   ├── adaptive-enterprise/   # EXTENSION GUIDE
+│   ├── adaptive-executive/    # EXTENSION GUIDE
+│   ├── ai-and-scrum/          # EXTENSION GUIDE
+│   ├── holistic-testing/      # EXTENSION GUIDE
+│   ├── multi-team-scrum/      # EXTENSION GUIDE
+│   ├── product-thinking/      # EXTENSION GUIDE
+│   ├── software-engineering-practices/  # EXTENSION GUIDE
+│   ├── [+6 more guides]/      # Additional extension guides
+│   └── creators/              # LEGACY - Kept for backward compatibility
+├── layouts/                   # HTML templates (uses Hugo module + local overrides)
+│   ├── index.html            # Homepage template
+│   ├── categories/           # Category-specific templates
+│   │   └── list.html
+│   ├── creators/             # Creator-specific templates (legacy)
+│   │   ├── list.html
+│   │   └── single.html
+│   ├── _partials/            # Reusable components
+│   │   ├── components/
+│   │   ├── functions/
+│   │   └── hooks/
+│   └── _markup/              # Render hooks for markdown elements
+│       ├── render-blockquote.html
+│       └── render-image.html
+├── static/                    # Static assets
+│   ├── css/                  # Custom stylesheets
+│   ├── images/               # Images and graphics
+│   └── pdf/                  # PDF files
+├── data/                      # Structured data files
+├── i18n/                      # Translation files
+└── hugo.yaml                  # Hugo configuration (includes module import)
 ```
+
+**Note**: Base templates (`baseof.html`, `single.html`, `list.html`) are provided by the imported Hugo module (`github.com/nkdAgility/HugoGuides/module`). The local `layouts/` directory contains only template overrides and site-specific templates.
 
 ### `/docs/` - Documentation
 
@@ -86,51 +109,97 @@ Auto-generated static site files (not committed to version control in production
 
 ## Content Architecture
 
+### Versioned Guides Model
+
+The site uses a **versioned guides architecture** where each guide is a self-contained, version-controlled document:
+
+**Structure:**
+```
+guide-name/
+├── _index.md           # Guide metadata and landing page
+├── 2026.1/             # Current version
+│   ├── index.md        # English content
+│   ├── index.de.md     # German content
+│   ├── index.es.md     # Spanish content
+│   └── pdf/            # Generated PDFs
+├── 2025.6/             # Previous version  
+├── history/            # Version history and changelog
+└── translations/       # Translation tracking
+```
+
+**Guide Types:**
+
+1. **Core Guide** (`scrum-guide-expanded/`)
+   - Main comprehensive companion to the 2020 Scrum Guide
+   - Foundation document that extension guides reference
+   - Most comprehensive and detailed
+
+2. **Extension Guides** (e.g., `complexity/`, `psychological-safety-in-scrum-teams/`)
+   - Specialized topics that expand on core concepts
+   - Can be updated independently with their own versioning
+   - Reference the core guide for foundational concepts
+
+3. **Legacy Content** (`creators/`)
+   - Kept for backward compatibility
+   - No longer actively maintained
+   - Redirects handled for old URLs
+
 ### Multilingual Support
 
-The site supports multiple languages using Hugo's built-in i18n features:
+Each version of a guide supports multiple languages:
 
-- **English** (`en`) - Default language
-- **German** (`de`) - Deutsch
-- **Spanish** (`es`) - Español
-- **French** (`fr`) - Français
+- **English** (`en`) - Default language (index.md)
+- **German** (`de`) - Deutsch (index.de.md)
+- **Spanish** (`es`) - Español (index.es.md)
+- **Italian** (`it`) - Italiano (index.it.md)
+- **And more** - Additional languages as translated
 
 ### Content Types
 
-1. **Guide Content** - Main Scrum expansion content
-2. **Creator Profiles** - Information about authors
-3. **Download Pages** - PDF and resource downloads
-4. **Static Pages** - About, legal, etc.
+1. **Versioned Guide Content** - Main content with version control
+2. **Guide Landing Pages** - Overview and navigation for each guide
+3. **History Pages** - Track changes between versions
+4. **Translation Metadata** - Translation status and contributors
 
-## Template Hierarchy
+## Template Architecture
 
-Hugo's new template system (v0.146.0+) follows a streamlined lookup order that considers multiple identifiers:
+### Hugo Module System
 
-### Template Lookup Order
+This site uses **Hugo Modules** for template management, importing the majority of its functionality from an external module:
 
-1. **Custom Layout** - Defined in front matter (`layout: myCustomLayout`)
-2. **Page Kinds** - `home`, `section`, `taxonomy`, `term`, `page`
-3. **Standard Layouts** - `list`, `single`, `all`
-4. **Output Format** - `html`, `rss`, `json`
-5. **Language** - `en`, `de`, `es`, etc.
-6. **Page Path** - Content-specific paths for targeted templates
+```yaml
+# hugo.yaml
+module:
+  imports:
+    - path: github.com/nkdAgility/HugoGuides/module
+```
 
-### Key Template Changes
+**Module Repository**: [github.com/nkdAgility/HugoGuides](https://github.com/nkdAgility/HugoGuides/)
 
-- **No `_default/` folder**: All default templates moved to `layouts/` root
-- **Renamed folders**: `partials/` → `_partials/`, `shortcodes/` → `_shortcodes/`
-- **New `_markup/` folder**: For render hooks (links, images, code blocks)
-- **Homepage template**: `index.html` → `home.html`
-- **Base templates**: `list-baseof.html` → `baseof.list.html`
+**What this means:**
+- Base templates (`baseof.html`, `single.html`, `list.html`, `home.html`) come from the imported module
+- Local `layouts/` directory contains only **overrides** and **site-specific templates**
+- Module provides consistent structure across multiple guide sites
+- The majority of site functionality (templates, partials, layouts) is maintained in the HugoGuides module
+- Updates to base templates happen at the module level
+- This allows multiple guide sites to share common functionality
 
-### Template Examples
+### Local Template Structure
 
-For a guide page (`/guide/my-guide/`), Hugo looks for templates in this order:
+The local `layouts/` directory contains:
 
-1. `layouts/guide/my-guide/single.html` - Most specific
-2. `layouts/guide/single.html` - Content type specific
-3. `layouts/single.html` - Default single template
-4. `layouts/baseof.html` - Base template
+1. **Homepage**: `index.html` - Custom homepage layout
+2. **Content-specific overrides**: `creators/`, `categories/`
+3. **Partials**: `_partials/components/`, `_partials/functions/`, `_partials/hooks/`
+4. **Render hooks**: `_markup/render-blockquote.html`, `_markup/render-image.html`
+
+### Template Lookup
+
+Hugo follows standard template lookup but checks local layouts first, then falls back to the module:
+
+1. Local `layouts/` directory (overrides)
+2. Hugo module templates (base/default)
+3. Hugo's built-in templates (last resort)
 
 ### Key Templates
 

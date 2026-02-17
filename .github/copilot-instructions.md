@@ -1,426 +1,203 @@
 # GitHub Copilot Instructions for Scrum Guide Expansion Pack
 
-## Project Overview
+> **📖 Main AI Guide**: For comprehensive AI assistant instructions, see [agents.md](../agents.md)
 
-This is a **Hugo-based static website** for the Scrum Guide Expansion Pack, hosted on **Azure Static Web Apps**. The site provides modern guidance for applying Scrum to complex work, AI, and adaptive strategy.
+## Quick Reference
 
-## Technology Stack
+This is a **Hugo-based static website** (v0.146.0+) hosted on **Azure Static Web Apps**. The site provides guidance for applying Scrum to complex work, AI, and adaptive strategy.
 
-### Core Technologies
+**Live Sites:**
+- **Production**: [scrumexpansion.org](https://scrumexpansion.org)
+- **Preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/)
 
-- **Hugo** - Static site generator (Extended v0.146.0+ required for new template system)
-- **Go Templates** - Hugo templating engine
-- **Markdown** - Content authoring
-- **YAML** - Configuration and front matter
-- **HTML5** - Layout templates
-- **CSS3** - Custom styling
-- **JavaScript** - Client-side functionality
-- **PowerShell** - Automation scripts
+## 🚨 Critical Information
 
-### Hosting & Deployment
+### ⚠️ Primary Editing Location
 
-- **Azure Static Web Apps** - Primary hosting platform
-- **GitHub Actions** - CI/CD pipeline
-- **GitVersion** - Semantic versioning
-- **Azure DevOps** - Additional pipeline support
+**CRITICAL**: Most edits should be made to `site/content/` only. Other areas require deep knowledge of:
+- Hugo static site generator and Hugo Modules
+- Azure Static Web Apps deployment pipeline
+- Bootstrap 5 and responsive design
+- Multilingual i18n architecture
 
-### Testing & Quality Assurance
+**Safe Editing Zones:**
+- ✅ `site/content/` - Content files (Markdown)
+- ✅ `site/data/contributions/` - Contributor attribution (YAML)
+- ✅ `site/i18n/` - Translation strings (with guidance)
 
-- **Playwright MCP Server** - Docker-based UX validation and testing
-- Automated browser testing for responsive design
-- Cross-browser compatibility validation
+**Restricted Zones (Advanced Knowledge Required):**
+- ⚠️ `site/layouts/` - Hugo templates (requires Hugo module understanding)
+- ⚠️ `site/static/` - Assets and CSS (requires Bootstrap 5 knowledge)
+- ⚠️ `.github/workflows/` - GitHub Actions (requires CI/CD expertise)
+- ⚠️ `scripts/` - Automation scripts (requires PowerShell expertise)
+- ⚠️ `site/hugo.yaml` - Configuration (requires Hugo expertise)
 
-### Configuration Files
+### Deployment Model
 
-- `hugo.yaml` - Main Hugo configuration
-- `staticwebapp.config.json` - Azure Static Web Apps configuration
-- Environment-specific configs: `hugo.local.yaml`, `hugo.preview.yaml`, `hugo.production.yaml`, `hugo.canary.yaml`
+**IMPORTANT**: Understand the deployment workflow before making suggestions:
 
-## Project Structure
+1. **Fork/Branch** → Make changes → Test locally
+2. **Create PR** → Automatic deployment to PR-specific test site (`...{PullRequestId}.centralus.6.azurestaticapps.net`)
+3. **Merge to Main** → Automatic deployment to **Preview** environment
+4. **Create GitHub Release** with version tag → Automatic deployment to **Production**
+
+**Production Deployment**: Use semantic versioning for releases:
+- **Patch** (v1.0.1): Typo fixes, tiny changes
+- **Minor** (v1.1.0): New sections, content additions
+- **Major** (v2.0.0): Complete document revamp, breaking changes
+
+### Hugo Version Requirement
+
+- **Minimum**: Hugo Extended v0.146.0+
+- **Hugo Modules**: Site uses [HugoGuides module](https://github.com/nkdAgility/HugoGuides/) for base templates
+- **Local templates**: Only overrides and site-specific templates in `layouts/`
+
+### Key File Locations
 
 ```
-├── .github/                    # GitHub workflows and configurations
-├── docs/                       # Project documentation
-├── public/                     # Generated static site output
-├── scripts/                    # PowerShell automation scripts
-├── site/                       # Hugo source files
-│   ├── content/               # Markdown content files
-│   ├── data/                  # Data files
-│   ├── i18n/                  # Internationalization files
-│   ├── layouts/               # Hugo templates (v0.146.0+ structure)
-│   │   ├── baseof.html       # Base template (moved from _default/)
-│   │   ├── home.html         # Homepage (renamed from index.html)
-│   │   ├── single.html       # Single pages (moved from _default/)
-│   │   ├── list.html         # List pages (moved from _default/)
-│   │   ├── _partials/        # Reusable components (renamed from partials/)
-│   │   ├── _shortcodes/      # Custom shortcodes (renamed from shortcodes/)
-│   │   └── _markup/          # Render hooks for markdown elements
-│   ├── static/                # Static assets (CSS, images, etc.)
-│   └── hugo.yaml             # Hugo configuration
-└── staticwebapp.config.*.json # Azure Static Web Apps configs
+site/
+├── content/         # Markdown content
+├── layouts/         # Local template overrides only
+│   ├── index.html  # Homepage override
+│   ├── categories/ # Category templates
+│   ├── creators/   # Creator templates (legacy)
+│   ├── _partials/  # Local partial overrides
+│   └── _markup/    # Render hooks
+│   
+│   # Base templates from Hugo module (NOT in local layouts/):
+│   # - baseof.html, home.html, single.html, list.html
+│   # Provided by: github.com/nkdAgility/HugoGuides/module
+│
+├── static/         # CSS, images, assets
+├── i18n/           # Translations
+└── hugo.yaml       # Main configuration (includes module imports)
 ```
 
-## Development Guidelines
+## 📚 Documentation References
 
-### Hugo-Specific Instructions
+For detailed information, always reference these documents:
 
-#### Content Management
+| Topic | Document | Purpose |
+|-------|----------|---------|
+| **AI Guide** | [agents.md](../agents.md) | Complete AI assistant instructions |
+| **Getting Started** | [docs/getting-started.md](../docs/getting-started.md) | Setup and installation |
+| **Development** | [docs/development.md](../docs/development.md) | Development workflows, Hugo template system |
+| **Deployment** | [docs/deployment.md](../docs/deployment.md) | Deployment process and environments |
+| **Content** | [docs/content-management.md](../docs/content-management.md) | Content creation, academic references |
+| **Contributing** | [docs/contributing.md](../docs/contributing.md) | Contribution guidelines, PR process |
+| **Translations** | [docs/translations.md](../docs/translations.md) | i18n process, language support |
+| **Troubleshooting** | [docs/troubleshooting.md](../docs/troubleshooting.md) | Common issues and solutions |
 
-- All content is written in **Markdown** with YAML front matter
-- Content files are located in `site/content/`
-- Use Hugo's built-in shortcodes when possible
-- Follow the established content structure for consistency
+## 🎯 Quick Guidelines
 
-#### Templating
+### Content Writing Style
 
-- Templates are located in `site/layouts/`
-- Use Hugo's Go template syntax
-- **New Template System (v0.146.0+)**: Updated structure and lookup order
-- Follow the current template hierarchy:
-  - `baseof.html` - Base template (moved from `_default/`)
-  - `home.html` - Homepage template (renamed from `index.html`)
-  - `single.html` - Single pages (moved from `_default/`)
-  - `list.html` - List pages (moved from `_default/`)
-  - `_partials/` - Reusable components (renamed from `partials/`)
-  - `_shortcodes/` - Custom shortcodes (renamed from `shortcodes/`)
-  - `_markup/` - Render hooks for markdown elements (new)
-  - Content-specific templates in subdirectories (enhanced path-based lookup)
+- **Formal reference style**, not blog/article
+- Professional, neutral, instructional tone
+- Academic references with footnotes: `[^1]`, `[^2]`
+- High information density, no filler
+- Suitable for Scrum practitioners seeking depth
 
-#### Configuration
+### References Format
 
-- Main config: `site/hugo.yaml`
-- Environment-specific configs override main config
-- Support for multiple output formats: HTML, JSON, RSS
-- Internationalization enabled (English and Klingon)
-
-#### Static Assets
-
-- CSS files in `site/static/css/`
-- Images and other assets in `site/static/`
-- Use Hugo's asset pipeline when needed
-
-### Styling & UI
-
-- **Bootstrap 5** responsive design framework
-- Custom CSS in `site/static/css/style.css`
-- Dark theme with primary colors:
-  - Primary blue: `#135289`
-  - Dark cards: `#353535`
-- **Font Awesome** icons used throughout
-- Mobile-first responsive design
-- Use Bootstrap 5 classes and components for consistency
-
-### Content Guidelines
-
-#### Core Principles
-
-- Write for Scrum practitioners and leaders
-- Focus on practical, actionable guidance
-- Maintain consistency with Scrum Guide terminology
-- **Multilingual support**: Site supports multiple languages (currently English and Klingon)
-- Use `scripts\Create-TranslationTemplate.ps1` for adding new language support
-- Ensure all content changes are reflected across all language versions
-- Test content rendering in all supported languages
-
-#### Writing and Style Guidelines
-
-**Purpose**
-- Write as a formal reference, not an article or blog post
-- Explain concepts, rationale, and implications, not persuasion or storytelling
-
-**Tone**
-- Professional, neutral, instructional
-- No casual language, humour, metaphors, or narrative devices
-- Assume a knowledgeable reader
-
-**Language**
-- Precise and technical
-- Use established Scrum and systems terminology consistently
-- Prefer explicit definitions over implied meaning
-- Avoid ambiguity and rhetorical questions
-
-**Structure**
-- Clear hierarchy with headings and sub-sections
-- Logical progression, concepts build on prior concepts
-- Suitable for sequential reading and later reference
-
-**Content Density**
-- High information density
-- Every paragraph introduces or clarifies a concept
-- No filler, anecdotes, or repetition
-
-**Explanatory Approach**
-- Focus on the *what* and the *why*
-- Make assumptions and principles explicit
-- Clarify intent, constraints, and consequences
-
-**Style Conventions**
-- Declarative sentences
-- Minimal adjectives and qualifiers
-- No marketing language or emotional framing
-- Use references where appropriate
-
-**Audience**
-- Practitioners seeking depth and precision
-- Assumes familiarity with Scrum fundamentals
-
-**Overall Character**
-- Canonical, educational, reference-oriented
-- Extends understanding rather than simplifying
-
-### UX Validation & Testing
-
-- **Playwright MCP Server** - Use Docker-based Playwright for automated UX validation
-- Test responsive design across different viewport sizes
-- Validate accessibility standards compliance
-- Cross-browser compatibility testing (Chrome, Firefox, Safari, Edge)
-- Multilingual UX testing to ensure consistent experience across languages
-- Performance testing for page load times and user interactions
-
-### Build & Deployment
-
-- Hugo builds to `public/` directory
-- GitHub Actions workflow in `.github/workflows/main.yaml`
-- Supports multiple deployment rings: local, preview, canary, production
-- Azure Static Web Apps configuration handles routing and auth
-
-## Coding Standards
-
-### File Naming
-
-- Use kebab-case for files and directories
-- Markdown files: lowercase with hyphens
-- Template files: descriptive names with `.html` extension
-- Config files: environment-specific suffixes
-
-### Hugo Best Practices
-
-- Use Hugo's built-in functions when available
-- Leverage partials for reusable components (now in `_partials/`)
-- **Template System**: Follow Hugo v0.146.0+ new template structure and lookup order
-- **Internal Templates**: Replace `{{ template "_internal/..." }}` with `{{ partial "..." }}`
-- Implement proper SEO with meta tags and structured data
-- Use Hugo's image processing for optimization
-- Implement proper caching strategies
-
-### Content Structure
-
-- Consistent front matter across all content
-- Proper heading hierarchy (H1 for titles, H2+ for sections)
-- Use Hugo's taxonomy system if categorization is needed
-- Implement proper internal linking
-
-#### Reference Formatting Standards
-
-**ALWAYS use the academic reference format** as demonstrated in `site/content/psychological-safety-in-scrum-teams/2026.1/index.md`. This format ensures consistency, credibility, and proper attribution across all guide content.
-
-**In-Text Citations:**
-- Use footnote references (e.g., `[^1]`, `[^2]`) immediately after the cited material
-- Number references sequentially as they appear in the text
-- Place footnote markers after punctuation: `According to Smith (42), teams should...[^1]`
-
-**Reference Section:**
-- Include a `## References` heading at the end of every guide document
-- Format each reference using this structure:
-
+Always use academic format:
 ```markdown
-[^1]: Author(s) (Year) 'Article/Chapter title', *Journal/Book Title*, Volume(Issue), pp. page-range.
-
-[^2]: Author(s) (Year) *Book Title*. City: Publisher.
-
-[^3]: Organization/Website (Date or 'no date') *Page Title*. Available at: [URL](URL) (Accessed: DD Month YYYY).
-
-[^4]: Platform (Year) *Video/Resource Title* [Medium]. Available at: [URL](URL) (Accessed: DD Month YYYY).
+[^1]: Author (Year) 'Article title', *Journal*, Volume(Issue), pp. pages.
 ```
+See [content-management.md](../docs/content-management.md) for complete reference formatting guide.
 
-**Examples from Psychological Safety guide:**
-- Journal article: `[^2]: Edmondson, A. (1999) 'Psychological safety and learning behavior in work teams', *Administrative Science Quarterly*, 44(2), pp. 350–383.`
-- Book: `[^4] Edmondson, A.C. (2018) *The fearless organization: Creating psychological safety in the workplace for learning, innovation, and growth*. Hoboken, NJ: John Wiley & Sons.`
-- Website: `[^5] Google Re:Work (no date) *Understanding team effectiveness*. Available at: [https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness](https://rework.withgoogle.com/intl/en/guides/understanding-team-effectiveness) (Accessed: 7 January 2026).`
-- Video: `[^18]: YouTube (2020) *Amy Edmondson: The Fearless Organization* [Video]. Available at: [https://www.youtube.com/watch?v=LhoLuui9gX8](https://www.youtube.com/watch?v=LhoLuui9gX8) (Accessed: 7 January 2026).`
+### Hugo Templates
 
-**Key formatting rules:**
-- Use italics for titles: `*Book Title*` or `*Journal Name*`
-- Use single quotes for article/chapter titles: `'Article Title'`
-- Include access dates for all online resources: `(Accessed: 7 January 2026)`
-- Maintain consistent punctuation and spacing
-- List references in numerical order as footnotes
-- Keep URLs clickable within square brackets: `[URL](URL)`
+- Use `_partials/` not `partials/`
+- Use `_shortcodes/` not `shortcodes/`
+- Homepage is `home.html` not `index.html`
+- Templates in root `layouts/` not `layouts/_default/`
 
-**When converting existing references:**
-- Identify all citations and quotes in the content
-- Add sequential footnote markers `[^1]`, `[^2]`, etc.
-- Create properly formatted reference entries
-- Ensure every footnote marker has a corresponding reference entry
-- Verify all URLs are working and properly formatted
+### Styling
 
-### Performance
+- **Bootstrap 5** for all UI components
+- Custom CSS in `site/static/css/style.css`
+- Mobile-first responsive design
+- Dark theme: Primary `#135289`, Cards `#353535`
 
-- Optimize images using Hugo's image processing
-- Minimize CSS and JavaScript
-- Use Hugo's minification features
-- Implement proper caching headers
+### Internationalization
 
-## Development Workflow
+- All content must support multiple languages
+- Use PowerShell script: `.\scripts\Create-TranslationTemplate.ps1`
+- Test all language versions
 
-### Local Development
+## 🔄 GitHub Actions Workflows
 
-1. **Development server** (from project root):
-   ```bash
-   hugo serve --source site --config hugo.yaml,hugo.local.yaml
-   ```
-2. **Build only** (from project root):
-   ```bash
-   hugo --source site --config hugo.yaml,hugo.local.yaml
-   ```
-3. Use `hugo.local.yaml` for local configuration overrides
-4. Test responsive Bootstrap 5 design across devices
-5. Test content in all supported languages
-6. **UX Validation** - Use Playwright MCP server for automated testing and validation
+The repository uses automated workflows for CI/CD and maintenance:
 
-### Content Creation
+- **main.yaml**: Primary build and deployment workflow (all environments)
+- **close-pr.yaml**: Automatically cleans up PR test environments
+- **docs-to-wiki.yml**: Syncs `/docs` folder to GitHub Wiki
+- **copilot-setup-steps.yml**: Development environment setup (manual)
+- **discussion-tag-external-edits.yml**: Tags external contributor discussions
+- **stale-issues.yml**: Closes stale duplicate issues (daily)
+- **⛔ azure-static-web-apps-*.yml**: LEGACY - DO NOT USE
 
-1. Create new content using Hugo archetypes
-2. Follow established front matter structure
-3. Use markdown best practices
-4. Test content in all supported languages
+See [agents.md](../agents.md#-github-actions-workflows) for complete workflow details.
 
-### Deployment
+## ⚠️ Critical Warnings
 
-1. Changes to `main` branch trigger automatic deployment
-2. Pull requests create preview deployments
-3. Use environment-specific configurations
-4. Monitor Azure Static Web Apps deployment status
+### DO NOT
 
-## Integration Points
+- ❌ Edit files outside `site/content/` unless user explicitly understands technical implications
+- ❌ Edit Hugo templates without understanding the Hugo Modules architecture
+- ❌ Modify workflows without CI/CD expertise
+- ❌ Edit or run `.github/workflows/azure-static-web-apps-agreeable-island-0c966e810.yml` (legacy)
+- ❌ Deploy to production without proper version tagging via GitHub Release
+- ❌ Use Hugo versions below v0.146.0
+- ❌ Skip multilingual support for content changes
+- ❌ Use casual/blog style writing
+- ❌ Forget academic references for claims
 
-### Azure Static Web Apps Features
+### ALWAYS
 
-- Authentication with GitHub providers
-- Custom routing rules
-- Environment-specific configurations
-- Global CDN distribution
+- ✅ Read [agents.md](../agents.md) for complete AI instructions
+- ✅ Reference appropriate documentation before changes
+- ✅ Test locally: `hugo server -D --source site`
+- ✅ Follow semantic versioning for releases
+- ✅ Maintain multilingual support
+- ✅ Use academic reference format
+- ✅ Follow PR process
 
-### GitHub Integration
-
-- Actions for CI/CD
-- Branch protection rules
-- Issue and PR templates
-- Community contribution guidelines
-
-### Adding New Language Translations
-
-Use the PowerShell script to create complete translation templates:
+## 🔧 Common Commands
 
 ```powershell
-# Create a new language translation (from project root)
-.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "de" -LanguageName "German" -Title "Scrum Guide Erweiterungspaket"
+# Local development
+hugo server -D --source site
 
-# Create translation with all optional parameters
-.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "es" -LanguageName "Spanish" -Weight 3 -Description "Guía de expansión Scrum" -Keywords "Scrum, guía" -Force
-```
+# Production build
+hugo --environment production --minify --source site
 
-This script automatically:
+# Create translation template
+.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "de" -LanguageName "German"
 
-- Adds language configuration to `hugo.yaml`
-- Creates i18n translation files in `site/i18n/`
-- Creates translated content files based on English defaults
-- Validates the translation setup
-
-### Updating Styles
-
-- Modify `site/static/css/style.css`
-- Follow existing CSS patterns
-- Test across browsers and devices
-
-### Configuration Changes
-
-- Update appropriate `hugo.*.yaml` file
-- Test with Hugo server before deployment
-- Consider impact on all environments
-
-## Troubleshooting
-
-### Common Issues
-
-- **Build failures**: Check Hugo version compatibility (v0.146.0+ required)
-- **Template errors**: Verify new template system structure (\_partials/, \_shortcodes/, \_markup/)
-- **Missing assets**: Verify file paths and Hugo's asset pipeline
-- **Internationalization**: Ensure all translation keys exist
-- **Deployment issues**: Check Azure Static Web Apps logs
-
-### Debug Commands
-
-```bash
-# Hugo version and environment info
+# Check Hugo version
 hugo version
-hugo env
-
-# Build with verbose output
-hugo --verbose
-
-# Check configuration
-hugo config
 ```
 
-## Hugo Template System (v0.146.0+)
+## 🌐 Technology Stack
 
-This project uses Hugo's new template system introduced in v0.146.0. Key changes to be aware of:
+- **Hugo Extended** v0.146.0+ (static site generator)
+- **Bootstrap 5** (CSS framework)
+- **Azure Static Web Apps** (hosting)
+- **GitHub Actions** (CI/CD)
+- **PowerShell 7+** (automation)
 
-### Template Structure Changes
+## 📖 For Complete Information
 
-- **No `_default/` folder**: All default templates are now in the root `layouts/` directory
-- **Renamed folders**: `partials/` → `_partials/`, `shortcodes/` → `_shortcodes/`
-- **New `_markup/` folder**: For render hooks (links, images, code blocks, etc.)
-- **Homepage template**: `index.html` → `home.html`
-
-### Template Lookup Order
-
-The new system considers these identifiers in order of importance:
-
-1. **Custom Layout** - Set in front matter (`layout: myCustomLayout`)
-2. **Page Kinds** - `home`, `section`, `taxonomy`, `term`, `page`
-3. **Standard Layouts** - `list`, `single`, `all`
-4. **Output Format** - `html`, `rss`, `json`
-5. **Language** - `en`, `de`, `es`, etc.
-6. **Page Path** - Content-specific paths for targeted templates
-
-### Path-Based Templates
-
-You can organize templates by content structure:
-
-```text
-layouts/
-├── baseof.html              # Global base template
-├── home.html               # Homepage
-├── single.html             # Default single page
-├── guide/                  # Guide-specific templates
-│   ├── single.html        # Override for guide pages
-│   └── list.html          # Override for guide lists
-└── _partials/              # Reusable components
-    ├── components/
-    └── functions/
-```
-
-### Internal Template Migration
-
-Replace old internal template calls:
-
-```html
-<!-- Old Way -->
-{{ template "_internal/opengraph.html" . }}
-
-<!-- New Way -->
-{{ partial "opengraph.html" . }}
-```
-
-## Additional Resources
-
-- [Hugo Documentation](https://gohugo.io/documentation/)
-- [Azure Static Web Apps Documentation](https://docs.microsoft.com/en-us/azure/static-web-apps/)
-- [Project Contributing Guidelines](../docs/contributing.md)
-- [Project README](../readme.md)
+See the comprehensive [AI Agent Guide (agents.md)](../agents.md) for:
+- Detailed deployment model explanation
+- Complete version numbering strategy
+- Task-specific workflows
+- Template system migration guide
+- Common tasks and troubleshooting
+- Security considerations
 
 ---
 
-When working on this project, always consider the multilingual nature, responsive design requirements, and the professional Scrum community audience. Prioritize accessibility, performance, and maintainability in all contributions.
+**Remember**: Accuracy and consistency over speed. Reference [agents.md](../agents.md) and documentation before making changes.
