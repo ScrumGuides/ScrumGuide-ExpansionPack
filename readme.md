@@ -254,6 +254,56 @@ Add attribution for contributors to a specific guide.
 
 **Image Priority**: 1) `githubUsername` (auto) → 2) `gravatar` → 3) `image` (manual)
 
+#### 8. Review a Pull Request
+
+Review and provide feedback on community contributions.
+
+**Steps:**
+
+1. Find open PRs in [GitHub Pull Requests](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/pulls)
+2. Visit PR preview site: `https://agreeable-island-0c966e810-{PR#}.centralus.6.azurestaticapps.net`
+   - Replace `{PR#}` with the actual PR number (e.g., PR #42 → `...810-42.centralus...`)
+3. Test functionality and check translations
+4. Leave constructive feedback in PR comments
+5. Approve or request changes
+
+**Note:** PR preview sites are only created for PRs from the main repository, not from forks.
+
+#### 9. Report an Issue or Bug
+
+Report problems or suggest improvements following the encouraged workflow.
+
+**Steps:**
+
+1. Check [existing issues](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues) first
+2. Create [new issue](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues/new) with clear title
+3. Include:
+   - What happened vs. what you expected
+   - Steps to reproduce
+   - Browser/device information (if applicable)
+4. Add screenshots if helpful
+5. Reference related PRs or discussions
+
+**Encouraged Workflow**: Discussion → Issue → Pull Request (see [Contributing Guide](./docs/contributing.md))
+
+#### 10. Update Project Documentation
+
+Improve documentation in the `docs/` folder.
+
+**Steps:**
+
+1. Identify outdated or missing documentation
+2. Edit files in `docs/` folder:
+   - `getting-started.md` - Setup instructions
+   - `development.md` - Development workflows
+   - `content-management.md` - Content guidelines
+   - `troubleshooting.md` - Common issues
+   - Other documentation files
+3. Test all links and formatting locally
+4. Submit PR with clear description of improvements
+
+**Safe Zone**: ✅ `docs/` folder is safe for editing
+
 ### Translation Guidelines
 
 **All translations must follow:**

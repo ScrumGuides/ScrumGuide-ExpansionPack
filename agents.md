@@ -450,6 +450,115 @@ Add attribution for contributors to a specific guide.
   role: creator
 ```
 
+#### Task 8: Review a Pull Request
+
+**✅ Safe Task - Community engagement**
+
+Review and provide feedback on community contributions.
+
+**Steps:**
+
+1. Find open PRs in [GitHub Pull Requests](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/pulls)
+2. Visit PR preview site: `https://agreeable-island-0c966e810-{PR#}.centralus.6.azurestaticapps.net`
+   - Replace `{PR#}` with the actual PR number
+   - Example: PR #42 → `https://agreeable-island-0c966e810-42.centralus.6.azurestaticapps.net`
+3. Test the changes:
+   - Navigate through affected pages
+   - Check translations if applicable
+   - Verify links and formatting
+   - Test on mobile if layout changes
+4. Leave constructive feedback:
+   - Comment on specific lines of code
+   - Suggest improvements
+   - Ask clarifying questions
+   - Praise good work
+5. Approve or request changes
+
+**Important Notes:**
+
+- PR preview sites only work for PRs from the main repository (not forks)
+- Be respectful and constructive in feedback
+- Focus on content accuracy and adherence to guidelines
+
+#### Task 9: Report an Issue or Bug
+
+**✅ Safe Task - Community engagement**
+
+Report problems or suggest improvements following the encouraged workflow.
+
+**Steps:**
+
+1. Check [existing issues](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues) to avoid duplicates
+2. If issue is complex or needs discussion:
+   - Start with [GitHub Discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions)
+   - Build consensus with community
+   - Document outcome in issue
+3. Create [new issue](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues/new) with:
+   - **Clear title**: Brief description of the problem
+   - **What happened**: Actual behavior observed
+   - **What you expected**: Desired behavior
+   - **Steps to reproduce**: Detailed steps to see the issue
+   - **Environment**: Browser, device, OS (if relevant)
+   - **Screenshots**: Visual evidence if applicable
+4. Reference related PRs, discussions, or documentation
+5. Use appropriate labels (bug, enhancement, documentation, etc.)
+
+**Encouraged Workflow**: Discussion → Issue → Pull Request
+
+See [Contributing Guide](./docs/contributing.md) for complete workflow.
+
+#### Task 10: Update Project Documentation
+
+**✅ Safe Task - Editing `docs/` only**
+
+Improve or update documentation in the `docs/` folder.
+
+**Steps:**
+
+1. Identify documentation that needs improvement:
+   - Outdated information
+   - Missing details
+   - Broken links
+   - Unclear instructions
+   - New features not documented
+2. Edit files in `docs/` folder:
+   - Read [Documentation Structure](./docs/README.md)
+   - Common files to update:
+     - `getting-started.md` - Setup and installation
+     - `development.md` - Development workflows
+     - `deployment.md` - Deployment processes
+     - `content-management.md` - Content guidelines
+     - `troubleshooting.md` - Common problems
+     - `translations.md` - Translation workflows
+3. Follow documentation style:
+   - Use clear headings (H2 `##`, H3 `###`)
+   - Include code examples with syntax highlighting
+   - Add links to related documentation
+   - Use tables for structured information
+   - Include emojis for visual scanning (✅, ⚠️, 🎯, etc.)
+4. Test all links and code examples
+5. Preview with Hugo locally: `hugo server -D --source site`
+6. Submit PR with:
+   - Clear title: "docs: update {file-name} with {improvement}"
+   - Description of what changed and why
+   - Before/after screenshots if layout changed
+
+**Safe Zone**: ✅ `docs/` folder is safe for editing
+
+**Documentation Files:**
+
+- `README.md` - Documentation index
+- `getting-started.md` - Initial setup
+- `development.md` - Development guide
+- `deployment.md` - Deployment process
+- `content-management.md` - Content creation
+- `contributing.md` - Contribution guidelines
+- `translations.md` - Translation workflows
+- `troubleshooting.md` - Common issues
+- `architecture.md` - Technical architecture
+- `configuration.md` - Configuration reference
+- `maintainer-guide.md` - Maintainer workflows
+
 ### For Admins: Management Tasks
 
 #### Task: Release a New Version (Production Deployment)
