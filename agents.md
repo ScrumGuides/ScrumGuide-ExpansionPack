@@ -286,9 +286,18 @@ The repository uses several automated workflows for different purposes:
 4. Recommend creating GitHub release with appropriate tag
 5. User creates release in GitHub UI
 
-## 📖 Hugo Template System (v0.146.0+)
+## 📖 Hugo Template System & Module Architecture
 
-**Critical:** This project uses Hugo's **new template system**. Key differences:
+**Critical:** This project uses [**Hugo Modules**](https://github.com/nkdAgility/HugoGuides/) for the majority of its functionality. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) are provided by the imported module from `github.com/nkdAgility/HugoGuides/module` and **do not exist in the local** `layouts/` **directory**.
+
+**Local `layouts/` contains only:**
+- `index.html` - Homepage override
+- `categories/` - Category templates
+- `creators/` - Legacy creator templates
+- `_partials/` - Local partial overrides
+- `_markup/` - Render hooks
+
+**Hugo v0.146.0+ Template System Changes** (general Hugo information):
 
 | Old System | New System | Action |
 |------------|------------|--------|
@@ -296,6 +305,8 @@ The repository uses several automated workflows for different purposes:
 | `layouts/partials/` | `layouts/_partials/` | Note underscore prefix |
 | `layouts/shortcodes/` | `layouts/_shortcodes/` | Note underscore prefix |
 | `layouts/index.html` | `layouts/home.html` | Renamed homepage |
+
+**For this project**: Most templates are module-provided. To override a module template, create a file with the same name in your local `layouts/` directory.
 
 **More details**: See [Development Guide - Hugo Template System](./docs/development.md#hugo-template-system-migration-v01460)
 

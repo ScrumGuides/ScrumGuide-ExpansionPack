@@ -79,20 +79,23 @@ hugo server -D --verbose --debug
 ```text
 site/
 ├── content/              # Content files (.md)
-├── layouts/              # Templates (.html) - Updated for Hugo v0.146.0+
-│   ├── _partials/       # Reusable template components (renamed from partials/)
-│   ├── _shortcodes/     # Custom shortcodes (renamed from shortcodes/)
-│   ├── _markup/         # Render hooks for markdown elements
-│   ├── baseof.html      # Base template (moved from _default/)
-│   ├── single.html      # Single page template (moved from _default/)
-│   ├── list.html        # List page template (moved from _default/)
-│   ├── home.html        # Homepage template (renamed from index.html)
-│   └── [content-type]/  # Content-specific templates
+├── layouts/              # Templates (.html) - Local overrides only
+│   ├── index.html       # Homepage template (local override)
+│   ├── categories/      # Category templates (local)
+│   ├── creators/        # Creator templates (legacy, local)
+│   ├── _partials/       # Reusable template components (local overrides)
+│   ├── _markup/         # Render hooks for markdown elements (local)
+│   │
+│   └── [FROM MODULE: baseof.html, home.html, single.html, list.html]
+│       # Base templates provided by github.com/nkdAgility/HugoGuides/module
+│       # See hugo.yaml module imports for details
 ├── static/               # Static assets
 ├── data/                 # Data files (.yaml/.json)
 ├── i18n/                 # Translations (.yaml)
-└── hugo.yaml            # Configuration
+└── hugo.yaml            # Configuration (includes module imports)
 ```
+
+**Important**: This site uses [Hugo Modules](https://github.com/nkdAgility/HugoGuides/) for the majority of its template functionality. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) are provided by the imported module and do not exist in the local `layouts/` directory.
 
 ### Naming Conventions
 
@@ -224,24 +227,34 @@ Use in templates:
 
 ### Content-Specific Templates
 
-With the new template system, you can organize templates by content path:
+This site uses Hugo Modules for base templates. You can create local overrides or content-specific templates:
 
 ```text
 layouts/
-├── baseof.html              # Base template for all pages
-├── home.html                # Homepage template
-├── single.html              # Default single page template
-├── list.html                # Default list page template
-├── guide/                   # Guide-specific templates
-│   ├── single.html         # Guide single page template
-│   └── list.html           # Guide list template
-└── _partials/
-    ├── components/
-    │   ├── navigation.html
-    │   └── language-switcher.html
-    └── functions/
-        └── get-page-param.html
+├── index.html               # Local homepage override
+├── categories/              # Category-specific templates (local)
+│   └── list.html
+├── creators/                # Creator profiles (legacy, local)
+│   ├── single.html
+│   └── list.html
+├── _partials/               # Local partial overrides
+│   ├── components/
+│   │   ├── navigation.html
+│   │   └── language-switcher.html
+│   └── functions/
+│       └── get-page-param.html
+└── _markup/                 # Custom render hooks (local)
+    ├── render-blockquote.html
+    └── render-image.html
+
+# Base templates from module (not in local layouts/):
+# - baseof.html              # Module-provided base template
+# - home.html                # Module-provided homepage
+# - single.html              # Module-provided single page
+# - list.html                # Module-provided list page
 ```
+
+**Note**: To override a module template, create a file with the same name in your local `layouts/` directory.
 
 ## Internationalization (i18n)
 
@@ -509,7 +522,9 @@ Access in templates:
 
 ## Hugo Template System Migration (v0.146.0+)
 
-This project has been updated to use Hugo's new template system introduced in v0.146.0. Here's what you need to know:
+> **Note for This Project**: This site uses [Hugo Modules](https://github.com/nkdAgility/HugoGuides/) for template management. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) come from the imported module, **not from the local `layouts/` directory**. The migration notes below apply to Hugo v0.146.0+ in general but are less relevant to this project since most templates are module-provided.
+
+This project uses Hugo's new template system introduced in v0.146.0. Here's what you need to know:
 
 ### Key Changes Summary
 

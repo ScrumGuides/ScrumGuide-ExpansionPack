@@ -29,22 +29,28 @@ This is a **Hugo-based static website** (v0.146.0+) hosted on **Azure Static Web
 ### Hugo Version Requirement
 
 - **Minimum**: Hugo Extended v0.146.0+
-- **New template system**: No `_default/` folder, partials in `_partials/`, shortcodes in `_shortcodes/`
+- **Hugo Modules**: Site uses [HugoGuides module](https://github.com/nkdAgility/HugoGuides/) for base templates
+- **Local templates**: Only overrides and site-specific templates in `layouts/`
 
 ### Key File Locations
 
 ```
 site/
 ├── content/         # Markdown content
-├── layouts/         # Templates (v0.146.0+ structure)
-│   ├── baseof.html # Base template (not in _default/)
-│   ├── home.html   # Homepage (renamed from index.html)
-│   ├── _partials/  # Reusable components
-│   ├── _shortcodes/# Custom shortcodes
+├── layouts/         # Local template overrides only
+│   ├── index.html  # Homepage override
+│   ├── categories/ # Category templates
+│   ├── creators/   # Creator templates (legacy)
+│   ├── _partials/  # Local partial overrides
 │   └── _markup/    # Render hooks
+│   
+│   # Base templates from Hugo module (NOT in local layouts/):
+│   # - baseof.html, home.html, single.html, list.html
+│   # Provided by: github.com/nkdAgility/HugoGuides/module
+│
 ├── static/         # CSS, images, assets
 ├── i18n/           # Translations
-└── hugo.yaml       # Main configuration
+└── hugo.yaml       # Main configuration (includes module imports)
 ```
 
 ## 📚 Documentation References

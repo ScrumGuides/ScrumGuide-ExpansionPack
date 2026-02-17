@@ -256,23 +256,32 @@ ScrumGuide-ExpansionPack/
 │   │   │   └── translations/  # Translation metadata
 │   │   ├── complexity/    # Extension guide (versioned)
 │   │   ├── psychological-safety-in-scrum-teams/  # Extension guide
+│   │   ├── [+12 more extension guides]/  # Additional guides
 │   │   └── creators/      # LEGACY - Kept for compatibility
-│   ├── layouts/           # HTML templates (v0.146.0+ structure)
-│   │   ├── baseof.html    # Base template (moved from _default/)
-│   │   ├── home.html      # Homepage (renamed from index.html)
-│   │   ├── guide/         # Guide-specific layouts
-│   │   ├── _partials/     # Reusable components (renamed from partials/)
-│   │   ├── _shortcodes/   # Custom shortcodes
+│   ├── layouts/           # HTML templates (Hugo module + overrides)
+│   │   ├── index.html    # Homepage template
+│   │   ├── categories/    # Category templates
+│   │   ├── creators/      # Creator templates (legacy)
+│   │   ├── _partials/     # Reusable components
+│   │   │   ├── components/
+│   │   │   ├── functions/
+│   │   │   └── hooks/
 │   │   └── _markup/       # Render hooks
+│   │       ├── render-blockquote.html
+│   │       └── render-image.html
 │   ├── static/            # Static assets (CSS, images, PDFs)
 │   ├── data/              # Data files (YAML/JSON)
 │   ├── i18n/              # Translation files
-│   └── hugo.yaml          # Hugo configuration
+│   └── hugo.yaml          # Hugo configuration (includes module import)
+├── scripts/               # Automation scripts
+│   └── Create-GuidePDFs.ps1  # PDF generation script
 ├── public/                # Generated site (git-ignored)
 ├── docs/                  # Project documentation
 ├── agents.md              # AI assistant guide
 └── .github/               # GitHub Actions workflows
 ```
+
+**Note**: Base Hugo templates come from an imported module (`github.com/nkdAgility/HugoGuides/module`). Local `layouts/` contains only overrides and site-specific templates.
 
 ## Next Steps
 
