@@ -3,6 +3,11 @@ title: "Scrum Guide Expansion Pack | Evolving Scrum for Modern Product Developme
 url: "/"
 aliases:
   - /topics/
+  - /engineering/
+  - /teams/
+  - /ai/
+  - /product/
+  - /value/
 sitemap:
   priority: 1.0
 ---

@@ -8,6 +8,7 @@
 tex2pdf.*/*
 /.claude/
 media-*/
+/output
 
 scripts/scrum-guide-expansion-pack-template.*
 !scripts/scrum-guide-expansion-pack-template.tex

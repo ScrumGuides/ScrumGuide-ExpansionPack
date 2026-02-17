@@ -5,6 +5,12 @@
 - id: all_topics
   translation: "Alle"
 
+- id: show_more
+  translation: "Mehr anzeigen"
+
+- id: show_less
+  translation: "Weniger anzeigen"
+
 - id: read_online_title
   translation: "Lies das {{ .Site.Title }} online"
 
