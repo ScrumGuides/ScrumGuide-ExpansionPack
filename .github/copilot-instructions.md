@@ -12,6 +12,25 @@ This is a **Hugo-based static website** (v0.146.0+) hosted on **Azure Static Web
 
 ## 🚨 Critical Information
 
+### ⚠️ Primary Editing Location
+
+**CRITICAL**: Most edits should be made to `site/content/` only. Other areas require deep knowledge of:
+- Hugo static site generator and Hugo Modules
+- Azure Static Web Apps deployment pipeline
+- Bootstrap 5 and responsive design
+- Multilingual i18n architecture
+
+**Safe Editing Zones:**
+- ✅ `site/content/` - Content files (Markdown)
+- ✅ `site/i18n/` - Translation strings (with guidance)
+
+**Restricted Zones (Advanced Knowledge Required):**
+- ⚠️ `site/layouts/` - Hugo templates (requires Hugo module understanding)
+- ⚠️ `site/static/` - Assets and CSS (requires Bootstrap 5 knowledge)
+- ⚠️ `.github/workflows/` - GitHub Actions (requires CI/CD expertise)
+- ⚠️ `scripts/` - Automation scripts (requires PowerShell expertise)
+- ⚠️ `site/hugo.yaml` - Configuration (requires Hugo expertise)
+
 ### Deployment Model
 
 **IMPORTANT**: Understand the deployment workflow before making suggestions:
@@ -124,6 +143,9 @@ See [agents.md](../agents.md#-github-actions-workflows) for complete workflow de
 
 ### DO NOT
 
+- ❌ Edit files outside `site/content/` unless user explicitly understands technical implications
+- ❌ Edit Hugo templates without understanding the Hugo Modules architecture
+- ❌ Modify workflows without CI/CD expertise
 - ❌ Edit or run `.github/workflows/azure-static-web-apps-agreeable-island-0c966e810.yml` (legacy)
 - ❌ Deploy to production without proper version tagging via GitHub Release
 - ❌ Use Hugo versions below v0.146.0

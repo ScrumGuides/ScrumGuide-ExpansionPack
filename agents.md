@@ -164,40 +164,71 @@ The repository uses several automated workflows for different purposes:
 ### Key Workflows Details
 
 **main.yaml** - The primary deployment workflow:
+
 - Triggered by pushes to main, PRs, and release creation
 - Handles all environment deployments
 - Runs Hugo builds with appropriate configurations
 - Deploys to Azure Static Web Apps
 
 **close-pr.yaml** - Environment cleanup:
+
 - Automatically triggered when a PR is closed
 - Removes the PR-specific test environment from Azure
 - Prevents unused environments from accumulating
 
 **docs-to-wiki.yml** - Documentation synchronization:
+
 - Keeps GitHub Wiki in sync with `/docs` folder
 - Runs on changes to documentation files
 - Can be manually triggered to force full sync
 
 ## 🎯 Agent Responsibilities
 
-### When Assisting with Code Changes
+### ⚠️ Primary Editing Location
 
-1. **Read relevant documentation** before making changes
-2. **Follow Hugo v0.146.0+ template system** conventions
-3. **Test locally** before suggesting changes
-4. **Use Bootstrap 5** classes for styling
-5. **Maintain multilingual support** in all changes
-6. **Follow the project's naming conventions** (kebab-case)
+**CRITICAL**: Most edits should be made to `site/content/` only. Other areas require deep knowledge of:
 
-### When Assisting with Content
+- Hugo static site generator and Hugo Modules
+- Azure Static Web Apps deployment pipeline
+- Bootstrap 5 and responsive design
+- Multilingual i18n architecture
 
-1. **Use the academic reference format** (see [Content Management](./content-management.md))
-2. **Create content for all supported languages**
+**Safe Editing Zones:**
+
+- ✅ `site/content/` - Content files (Markdown)
+- ✅ `site/i18n/` - Translation strings (with guidance)
+
+**Restricted Zones (Advanced Knowledge Required):**
+
+- ⚠️ `site/layouts/` - Hugo templates (requires Hugo module understanding)
+- ⚠️ `site/static/` - Assets and CSS (requires Bootstrap 5 knowledge)
+- ⚠️ `.github/workflows/` - GitHub Actions (requires CI/CD expertise)
+- ⚠️ `scripts/` - Automation scripts (requires PowerShell expertise)
+- ⚠️ `site/hugo.yaml` - Configuration (requires Hugo expertise)
+
+### When Assisting with Content Changes
+
+**Primary Task**: Edit files in `site/content/`
+
+1. **Use the academic reference format** (see [Content Management](./docs/content-management.md))
+2. **Create content for all supported languages** in version folders
 3. **Follow the formal reference style** (not blog/article style)
 4. **Include proper front matter** with title, description, date, weight
 5. **Add in-text citations** with footnote references `[^1]`
 6. **Format references** in the References section
+7. **Test locally** before submitting: `hugo server -D --source site`
+
+### When Assisting with Technical Changes
+
+**⚠️ Only proceed if user explicitly requests technical changes AND provides context.**
+
+1. **Read relevant documentation** before making changes
+2. **Understand Hugo Modules** - Base templates come from [HugoGuides module](https://github.com/nkdAgility/HugoGuides/)
+3. **Follow Hugo v0.146.0+ template system** conventions
+4. **Test locally** before suggesting changes
+5. **Use Bootstrap 5** classes for styling
+6. **Maintain multilingual support** in all changes
+7. **Follow the project's naming conventions** (kebab-case)
 
 ### When Assisting with Deployment
 
@@ -218,6 +249,9 @@ The repository uses several automated workflows for different purposes:
 
 ### DO NOT
 
+- ❌ **Edit files outside `site/content/`** unless the user explicitly understands the technical implications
+- ❌ **Edit Hugo templates** without understanding the Hugo Modules architecture
+- ❌ **Modify workflows** without CI/CD expertise
 - ❌ **Edit or run** `.github/workflows/azure-static-web-apps-agreeable-island-0c966e810.yml` (legacy workflow)
 - ❌ **Deploy to production** without proper version tagging
 - ❌ **Make breaking changes** without major version bump
@@ -236,61 +270,206 @@ The repository uses several automated workflows for different purposes:
 
 ## 🔍 Common Tasks and References
 
-### Task: Add New Content
+### For Anyone: Content Contribution Tasks
+
+All tasks follow the workflow: **Fork → Make Changes → Test Locally → Create PR → Preview → Review → Merge**
+
+#### Task 1: Add a New Extension (Guide)
+
+**✅ Safe Task - Editing `site/content/` only**
+
+Create a new guide to extend the core Scrum Guide.
 
 **Steps:**
 
 1. Read [Content Management Guide](./docs/content-management.md)
-2. Create content in `site/content/`
-3. Add translations for all languages
-4. Test locally: `hugo server -D --source site`
-5. Create PR for review
+2. Create directory structure:
 
-### Task: Update Templates
+   ```
+   site/content/{new-guide-name}/
+   ├── _index.md              # Guide landing page
+   ├── 2026.1/                # First version
+   │   ├── index.md           # English content
+   │   ├── index.de.md        # German (if available)
+   │   └── pdf/               # Generated PDFs
+   ├── history/               # Version history
+   └── translations/          # Translation metadata
+   ```
+
+3. Follow academic reference format with footnotes
+4. Test locally: `hugo server -D --source site`
+5. Submit PR for review
+
+#### Task 2: Add a New Document Version to an Existing Extension
+
+**✅ Safe Task - Editing `site/content/` only**
+
+Create a new version of an existing guide.
+
+**Steps:**
+
+1. Create new version folder: `site/content/{guide-name}/2026.2/`
+2. Copy content from previous version as starting point
+3. Update content in new version folder
+4. Update version history: `site/content/{guide-name}/history/`
+5. Test locally: `hugo server -D --source site`
+6. Submit PR for review
+
+#### Task 3: Add a New Site Language (Translation Wrapper)
+
+**✅ Safe Task - Editing `site/content/` and `site/i18n/`**
+
+Add support for a new language across the entire site.
+
+**Required Reading:**
+
+- [Translations Guide](./docs/translations.md)
+- [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
+
+**Steps:**
+
+1. Run PowerShell script: `.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "xx" -LanguageName "Language Name"`
+2. Update `site/i18n/{lang}.yaml` with translated UI strings
+3. Add homepage translation: `site/content/_index.{lang}.md`
+4. Test language switcher: `hugo server -D --source site`
+5. Submit PR for review
+
+#### Task 4: Translate a Guide or Extension
+
+**✅ Safe Task - Editing `site/content/` only**
+
+**⚠️ Important:** All translation PRs must be approved by the guide owner.
+
+**Required Reading:**
+
+- [Translations Guide](./docs/translations.md)
+- [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
+
+**Steps:**
+
+1. Fork the repository
+2. Create translation file: `site/content/{guide-name}/2026.1/index.{lang}.md`
+3. Translate content:
+   - Maintain academic reference format
+   - Preserve meaning, emphasis, and nuance
+   - Keep citations and references intact
+4. Test locally: `hugo server -D --source site`
+5. Submit PR (automatic preview site will be created)
+6. Guide owner reviews and approves
+
+**Example:**
+
+- Translate complexity guide to German: `site/content/complexity/2026.1/index.de.md`
+- Translate core guide to Spanish: `site/content/scrum-guide-expanded/2026.1/index.es.md`
+
+#### Task 5: Translate a Specific Version of a Guide
+
+**✅ Safe Task - Editing `site/content/` only**
+
+Translate a specific version of a guide or extension.
+
+**Steps:**
+
+1. Follow steps from "Task 4: Translate a Guide or Extension" above
+2. Target specific version folder: `site/content/{guide-name}/{version}/index.{lang}.md`
+3. Ensure consistency with original version content
+4. Submit PR for review by guide owner
+
+#### Task 6: Generate New PDFs
+
+**✅ Safe Task - Running automation script**
+
+Generate PDF versions of guides for all languages.
+
+**Prerequisites:**
+
+- PowerShell 7+
+- Pandoc
+- LaTeX (XeLaTeX)
+- See [PDF Generation Guide](./docs/simple-pdf-generation.md)
+
+**Steps:**
+
+1. Generate all PDFs: `.\scripts\Create-GuidePDFs.ps1`
+2. Generate specific guide: `.\scripts\Create-GuidePDFs.ps1 -GuideName "complexity"`
+3. Generate specific language: `.\scripts\Create-GuidePDFs.ps1 -Language "de"`
+4. Force regeneration: `.\scripts\Create-GuidePDFs.ps1 -Force`
+5. PDFs saved to: `site/content/{guide-name}/{version}/pdf/`
+6. Commit and submit PR
+
+### For Admins: Management Tasks
+
+#### Task: Release a New Version (Production Deployment)
+
+**⚠️ Admin Only - Requires repository admin permissions**
+
+Deploy to production at [scrumexpansion.org](https://scrumexpansion.org).
+
+**Steps:**
+
+1. Verify all changes are merged to `main` branch
+2. Confirm [Preview site](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) looks correct
+3. Navigate to **GitHub → Releases → Draft a new release**
+4. Create a tag with higher version number:
+   - **Patch** (v1.0.1): Typo fixes, small corrections
+   - **Minor** (v1.1.0): New sections, content additions
+   - **Major** (v2.0.0): Complete revamp, breaking changes
+5. Add release title and description
+6. Click **Publish release**
+7. Automatic deployment to production begins
+8. Monitor deployment in GitHub Actions
+
+**More Details:** See [Deployment Guide](./docs/deployment.md)
+
+### Legacy Tasks (Advanced)
+
+These tasks require advanced technical knowledge.
+
+#### Task: Add New Content (Edit Existing)
+
+**✅ Safe Task - Editing `site/content/` only**
+
+Edit existing content in a guide version.
+
+**Steps:**
+
+1. Read [Content Management Guide](./docs/content-management.md)
+2. Locate the guide version folder: `site/content/{guide-name}/2026.1/`
+3. Edit the appropriate language file:
+   - English: `index.md`
+   - German: `index.de.md`
+   - Spanish: `index.es.md`
+   - etc.
+4. Follow academic reference format with footnotes
+5. Add translations for all languages (or note which languages updated)
+6. Test locally: `hugo server -D --source site`
+7. Create PR for review
+
+**Content Examples:**
+
+- Edit core guide: `site/content/scrum-guide-expanded/2026.1/index.md`
+- Edit complexity guide: `site/content/complexity/2026.1/index.md`
+- Edit German translation: `site/content/complexity/2026.1/index.de.md`
+
+#### Task: Update Templates
+
+**⚠️ Advanced Task - Requires Hugo module understanding**
 
 **Steps:**
 
 1. Read [Development Guide](./docs/development.md) - Hugo Template System section
-2. Edit templates in `site/layouts/` (note the v0.146.0+ structure)
-3. Test rendering locally
-4. Verify Bootstrap 5 compatibility
-5. Create PR for review
-
-### Task: Add New Language
-
-**Steps:**
-
-1. Read [Translations Guide](./docs/translations.md)
-2. Run: `.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "xx" -LanguageName "Language"`
-3. Translate all content files
-4. Test language switcher
-5. Create PR for review
-
-### Task: Fix Deployment Issues
-
-**Steps:**
-
-1. Read [Troubleshooting Guide](./docs/troubleshooting.md)
-2. Check GitHub Actions logs
-3. Verify environment configuration
-4. Test build locally: `hugo --environment production --minify`
-5. Review [Deployment Guide](./docs/deployment.md)
-
-### Task: Propose Production Release
-
-**Steps:**
-
-1. Verify all changes are in `main` branch
-2. Confirm preview site looks correct
-3. Determine version increment (patch/minor/major)
-4. Recommend creating GitHub release with appropriate tag
-5. User creates release in GitHub UI
+2. **Understand Hugo Modules** - Base templates from [HugoGuides module](https://github.com/nkdAgility/HugoGuides/)
+3. Edit templates in `site/layouts/` (note the v0.146.0+ structure)
+4. Test rendering locally
+5. Verify Bootstrap 5 compatibility
+6. Create PR for review
 
 ## 📖 Hugo Template System & Module Architecture
 
 **Critical:** This project uses [**Hugo Modules**](https://github.com/nkdAgility/HugoGuides/) for the majority of its functionality. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) are provided by the imported module from `github.com/nkdAgility/HugoGuides/module` and **do not exist in the local** `layouts/` **directory**.
 
 **Local `layouts/` contains only:**
+
 - `index.html` - Homepage override
 - `categories/` - Category templates
 - `creators/` - Legacy creator templates
