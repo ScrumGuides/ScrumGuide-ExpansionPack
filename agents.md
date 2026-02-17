@@ -397,6 +397,59 @@ Generate PDF versions of guides for all languages.
 5. PDFs saved to: `site/content/{guide-name}/{version}/pdf/`
 6. Commit and submit PR
 
+#### Task 7: Add a Contributor to a Guide
+
+**✅ Safe Task - Editing `site/data/contributions/` only**
+
+Add attribution for contributors to a specific guide.
+
+**Steps:**
+1. Read [Content Management Guide](./docs/content-management.md) - Contributor Attribution section
+2. Identify the guide slug (e.g., `complexity`, `software-engineering-practices`)
+3. Open contributor file: `site/data/contributions/{guide-slug}.yml`
+4. Add contributor entry:
+   ```yaml
+   - name: "Contributor Full Name"
+     githubUsername: "their-github-username"  # PREFERRED (automatically fetches GitHub profile image)
+     url: "https://their-website-or-linkedin.com"
+     contributions:
+       - "2026.1"  # Version(s) they contributed to
+     role: "contributor"  # creator, contributor, translator, reviewer
+     weight: 10  # Optional: Display order
+   ```
+5. **For custom images** (only if GitHub username not available):
+   - Upload image to: `site/static/images/contributors/`
+   - Use format: `firstname-lastname.jpg` (lowercase, hyphenated)
+   - Add to YAML: `image: /images/contributors/firstname-lastname.jpg`
+   - Recommended size: 200x200px minimum, square
+6. Test locally: `hugo server -D --source site`
+7. Submit PR for review
+
+**Image Priority Order:**
+1. `githubUsername` - Automatic from GitHub profile (PREFERRED)
+2. `gravatar` - Gravatar email hash
+3. `image` - Manual upload path
+
+**Example:**
+```yaml
+# Using GitHub (preferred - automatic image)
+- name: Ralph Jocham
+  githubUsername: rjocham
+  url: https://effectiveagile.com/
+  contributions:
+    - "2026.1"
+  role: creator
+  founder: true
+
+# Using custom image (fallback)
+- name: Dave Farley
+  url: https://www.continuous-delivery.co.uk/
+  image: /images/contributors/david-farley.jpg
+  contributions:
+    - "2026.1"
+  role: creator
+```
+
 ### For Admins: Management Tasks
 
 #### Task: Release a New Version (Production Deployment)

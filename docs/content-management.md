@@ -337,7 +337,176 @@ Brief biography and background...
 - Areas of expertise
 ```
 
-### 3. Download Pages
+### 3. Contributor Attribution (Current System)
+
+**Location**: `site/data/contributions/`
+
+Each guide has a corresponding contributor file that tracks all contributors to that specific guide. This system provides proper attribution and enables the site to display contributor information consistently.
+
+#### Structure
+
+Each guide has a YAML file named after the guide's slug:
+
+```
+site/data/contributions/
+├── scrum-guide-expanded.yml         # Core guide contributors
+├── complexity.yml                    # Complexity guide contributors
+├── psychological-safety-in-scrum-teams.yml
+├── software-engineering-practices.yml
+└── [other-guide-slug].yml
+```
+
+#### Contributor File Format
+
+Each file contains a list of contributors with their information:
+
+```yaml
+# Contributions Data
+# This file contains information about all contributors to [Guide Name]
+
+# All contributors in a flat list
+- name: John Coleman
+  githubUsername: ViralGoodAgile
+  url: https://www.linkedin.com/in/johnanthonycoleman/
+  contributions:
+    - "2026.1"
+    - "2025.6"
+  role: creator
+  founder: true
+  weight: 1
+
+- name: Dave Farley
+  url: https://www.continuous-delivery.co.uk/
+  image: /images/contributors/david-farley.jpg
+  contributions:
+    - "2026.1"
+  role: contributor
+  weight: 2
+```
+
+#### Contributor Properties
+
+| Property | Required | Description | Example |
+|----------|----------|-------------|---------|
+| `name` | ✅ Yes | Full name of contributor | `"John Coleman"` |
+| `url` | ✅ Yes | Personal website or LinkedIn profile | `"https://linkedin.com/in/..."` |
+| `githubUsername` | ⚠️ Preferred | GitHub username (automatically pulls profile image) | `"ViralGoodAgile"` |
+| `gravatar` | No | Gravatar email hash for profile image | `"abc123..."` |
+| `image` | No | Path to uploaded image | `"/images/contributors/name.jpg"` |
+| `contributions` | ✅ Yes | List of version numbers contributed to | `["2026.1", "2025.6"]` |
+| `role` | ✅ Yes | Contributor role | `"creator"`, `"contributor"`, `"translator"` |
+| `founder` | No | Boolean indicating founding contributor | `true` or `false` |
+| `weight` | No | Display order (lower numbers first) | `1`, `2`, `3`, etc. |
+
+#### Image Priority System
+
+The site displays contributor images using the following priority:
+
+1. **`githubUsername`** - Automatically fetches from GitHub profile (PREFERRED)
+2. **`gravatar`** - Uses Gravatar email hash
+3. **`image`** - Uses uploaded image path
+
+**Example Priority:**
+
+```yaml
+# Priority 1: GitHub (automatic, always current)
+- name: Ralph Jocham
+  githubUsername: rjocham
+  url: https://effectiveagile.com/
+
+# Priority 3: Custom image (manual upload required)
+- name: Dave Farley
+  image: /images/contributors/david-farley.jpg
+  url: https://www.continuous-delivery.co.uk/
+```
+
+#### Adding a New Contributor
+
+**Steps:**
+
+1. **Identify the guide**: Determine which guide the person contributed to
+2. **Open the contributor file**: `site/data/contributions/{guide-slug}.yml`
+3. **Add contributor entry**:
+
+```yaml
+- name: "Contributor Full Name"
+  githubUsername: "their-github-username"  # PREFERRED METHOD
+  url: "https://their-website-or-linkedin.com"
+  contributions:
+    - "2026.1"  # Version(s) they contributed to
+  role: "contributor"  # creator, contributor, translator, reviewer
+  weight: 10  # Display order (optional)
+```
+
+4. **For custom images** (if GitHub not available):
+   - Upload image to: `site/static/images/contributors/`
+   - Use format: `firstname-lastname.jpg` (lowercase, hyphens)
+   - Reference as: `image: /images/contributors/firstname-lastname.jpg`
+   - Recommended size: 200x200px minimum, square aspect ratio
+
+5. **Test locally**: `hugo server -D --source site`
+6. **Submit PR**: Follow [Contributing Guide](./contributing.md)
+
+#### Contributor Roles
+
+| Role | Description | Example Use |
+|------|-------------|-------------|
+| `creator` | Original author of the guide | Core guide authors |
+| `contributor` | Added content or significant edits | Subject matter experts |
+| `translator` | Translated guide to another language | Language translators |
+| `reviewer` | Reviewed and provided feedback | Technical reviewers |
+
+#### Example: Complete Contributor File
+
+```yaml
+# Contributions Data
+# This file contains information about all contributors to the Software Engineering Practices Guide
+
+# Founders (original creators)
+- name: Dave Farley
+  url: https://www.continuous-delivery.co.uk/
+  image: /images/contributors/david-farley.jpg
+  contributions:
+    - "2026.1"
+  role: creator
+  founder: true
+  weight: 1
+
+# Contributors
+- name: Martin Hinshelwood
+  githubUsername: nkdAgility
+  url: https://nkdagility.com/
+  contributions:
+    - "2026.1"
+  role: contributor
+  weight: 2
+
+# Translators
+- name: German Translation Team
+  url: https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions
+  contributions:
+    - "2026.1"
+  role: translator
+  weight: 10
+```
+
+#### Best Practices
+
+**DO:**
+- ✅ Use `githubUsername` whenever possible (automatic image updates)
+- ✅ List all version numbers contributor worked on
+- ✅ Keep entries in logical order using `weight`
+- ✅ Include meaningful URLs (LinkedIn, personal site, GitHub)
+- ✅ Use consistent role naming
+
+**DON'T:**
+- ❌ Upload images if GitHub username is available
+- ❌ Use high-resolution images (keep under 500KB)
+- ❌ Forget to add new version numbers when updates occur
+- ❌ Remove previous contributors without permission
+- ❌ Use placeholder or demo content
+
+### 4. Download Pages
 
 Information about available downloads, including PDFs and resources.
 

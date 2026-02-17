@@ -68,15 +68,18 @@ Making Scrum knowledge accessible globally is essential.
 **⚠️ Important: For most contributions, you only need to edit files in `site/content/`**
 
 **Content Structure:**
+
 - **Versioned Guides**: `site/content/{guide-name}/2026.1/index.md` (English)
 - **Translations**: `site/content/{guide-name}/2026.1/index.{lang}.md` (e.g., index.de.md)
 - **Homepage**: `site/content/_index.md` (English) and `_index.{lang}.md`
 
 **Available Guides:**
+
 - `scrum-guide-expanded/` - Core comprehensive guide
 - `complexity/`, `psychological-safety-in-scrum-teams/`, `ai-and-scrum/`, and 12 more extension guides
 
 **Content Contributions Include:**
+
 - **Enhance content** - Improve clarity and depth
 - **Clarify concepts** - Make explanations more accessible
 - **Suggest new sections** - Propose additions
@@ -84,6 +87,7 @@ Making Scrum knowledge accessible globally is essential.
 - **Add translations** - Expand language support
 
 **📖 Read First:**
+
 - [Content Management Guide](./docs/content-management.md) - Structure, versioning, academic references
 - [Contributing Guidelines](./docs/contributing.md) - PR process, standards
 
@@ -92,12 +96,14 @@ Making Scrum knowledge accessible globally is essential.
 **⚠️ Caution: Only edit files outside `site/content/` if you understand Hugo, Azure Static Web Apps, and the deployment pipeline.**
 
 **Technical areas:**
+
 - **Hugo templates** - `site/layouts/` (uses [HugoGuides module](https://github.com/nkdAgility/HugoGuides/))
 - **Styling** - `site/static/css/`
 - **Infrastructure** - `.github/workflows/`, Azure configuration
 - **Build scripts** - `scripts/` (PowerShell automation)
 
 **📖 Technical Documentation:**
+
 - [Documentation Overview](./docs/README.md)
 - [Getting Started Guide](./docs/getting-started.md)
 - [Development Guide](./docs/development.md)
@@ -137,6 +143,7 @@ These tasks can be performed by any contributor. All changes follow the standard
 Create a new guide to extend the core Scrum Guide.
 
 **Steps:**
+
 1. Read [Content Management Guide](./docs/content-management.md) for structure
 2. Create directory: `site/content/{new-guide-name}/`
 3. Create version folder: `site/content/{new-guide-name}/2026.1/`
@@ -151,6 +158,7 @@ Create a new guide to extend the core Scrum Guide.
 Create a new version of an existing guide.
 
 **Steps:**
+
 1. Create new version folder: `site/content/{guide-name}/2026.2/`
 2. Copy content from previous version: `site/content/{guide-name}/2026.1/`
 3. Update content in new version folder
@@ -163,6 +171,7 @@ Create a new version of an existing guide.
 Add support for a new language across the entire site.
 
 **Steps:**
+
 1. Read [Translations Guide](./docs/translations.md)
 2. Read [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
 3. Run PowerShell script: `.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "xx" -LanguageName "Language Name"`
@@ -177,6 +186,7 @@ Translate content of a core guide or extension.
 **Important:** All translation PRs must be approved by the guide owner.
 
 **Steps:**
+
 1. Read [Translations Guide](./docs/translations.md)
 2. Read [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
 3. Fork the repository
@@ -192,6 +202,7 @@ Translate content of a core guide or extension.
 Translate a specific version of a guide or extension.
 
 **Steps:**
+
 1. Follow steps from "Translate a Guide or Extension" above
 2. Target specific version folder: `site/content/{guide-name}/{version}/index.{lang}.md`
 3. Ensure consistency with original version content
@@ -202,11 +213,13 @@ Translate a specific version of a guide or extension.
 Generate PDF versions of guides for all languages.
 
 **Requirements:**
+
 - PowerShell 7+
 - Pandoc
 - LaTeX (XeLaTeX)
 
 **Steps:**
+
 1. Install prerequisites (see [PDF Generation Guide](./docs/simple-pdf-generation.md))
 2. Run script: `.\scripts\Create-GuidePDFs.ps1`
 3. Or for specific guide: `.\scripts\Create-GuidePDFs.ps1 -GuideName "complexity"`
@@ -214,13 +227,42 @@ Generate PDF versions of guides for all languages.
 5. PDFs generated in: `site/content/{guide-name}/{version}/pdf/`
 6. Commit PDFs and submit PR
 
+#### 7. Add a Contributor to a Guide
+
+Add attribution for contributors to a specific guide.
+
+**Steps:**
+
+1. Read [Content Management Guide - Contributor Attribution](./docs/content-management.md#3-contributor-attribution-current-system)
+2. Open contributor file: `site/data/contributions/{guide-slug}.yml`
+3. Add contributor entry:
+
+   ```yaml
+   - name: "Contributor Full Name"
+     githubUsername: "their-github-username"  # PREFERRED (auto-fetches image)
+     url: "https://their-website.com"
+     contributions:
+       - "2026.1"
+     role: "contributor"  # creator, contributor, translator, reviewer
+   ```
+
+4. **For custom images** (if no GitHub):
+   - Upload to: `site/static/images/contributors/firstname-lastname.jpg`
+   - Add: `image: /images/contributors/firstname-lastname.jpg`
+5. Test locally: `hugo server -D --source site`
+6. Submit PR for review
+
+**Image Priority**: 1) `githubUsername` (auto) → 2) `gravatar` → 3) `image` (manual)
+
 ### Translation Guidelines
 
 **All translations must follow:**
+
 - [Translation Guide](./docs/translations.md) - Technical process
 - [Translation Code of Conduct](./docs/translations-code-of-conduct.md) - Standards and expectations
 
 **Key Points:**
+
 - Maintain academic reference format
 - Preserve meaning, emphasis, and nuance
 - All PRs require guide owner approval
@@ -235,6 +277,7 @@ These tasks require repository admin permissions.
 Deploy to production at [scrumexpansion.org](https://scrumexpansion.org).
 
 **Steps:**
+
 1. Ensure all changes are merged to `main` branch
 2. Verify [Preview site](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) looks correct
 3. Navigate to **GitHub → Releases → Draft a new release**

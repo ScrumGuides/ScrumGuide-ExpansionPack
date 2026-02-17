@@ -22,6 +22,7 @@ This is a **Hugo-based static website** (v0.146.0+) hosted on **Azure Static Web
 
 **Safe Editing Zones:**
 - ✅ `site/content/` - Content files (Markdown)
+- ✅ `site/data/contributions/` - Contributor attribution (YAML)
 - ✅ `site/i18n/` - Translation strings (with guidance)
 
 **Restricted Zones (Advanced Knowledge Required):**
