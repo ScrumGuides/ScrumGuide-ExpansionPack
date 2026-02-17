@@ -63,29 +63,51 @@ Making Scrum knowledge accessible globally is essential.
 
 ## How to Contribute
 
-### Content Contributors
+### 📝 Content Contributors (Most Contributors)
 
-- Default English: `site/content/guide/_index.md`
-- Language versions: `site/content/guide/_index.{lang}.md`
+**⚠️ Important: For most contributions, you only need to edit files in `site/content/`**
 
-Contributions include:
+**Content Structure:**
 
-- **Enhance content**
-- **Clarify concepts**
-- **Suggest new sections**
-- **Review and edit**
+- **Versioned Guides**: `site/content/{guide-name}/2026.1/index.md` (English)
+- **Translations**: `site/content/{guide-name}/2026.1/index.{lang}.md` (e.g., index.de.md)
+- **Homepage**: `site/content/_index.md` (English) and `_index.{lang}.md`
 
-### Technical Contributors
+**Available Guides:**
 
-- **Improve platform functionality**
-- **Optimize performance**
-- **Maintain infrastructure**
+- `scrum-guide-expanded/` - Core comprehensive guide
+- `complexity/`, `psychological-safety-in-scrum-teams/`, `ai-and-scrum/`, and 12 more extension guides
 
-**Guidance:**
+**Content Contributions Include:**
+
+- **Enhance content** - Improve clarity and depth
+- **Clarify concepts** - Make explanations more accessible
+- **Suggest new sections** - Propose additions
+- **Review and edit** - Fix typos, improve grammar
+- **Add translations** - Expand language support
+
+**📖 Read First:**
+
+- [Content Management Guide](./docs/content-management.md) - Structure, versioning, academic references
+- [Contributing Guidelines](./docs/contributing.md) - PR process, standards
+
+### 🔧 Technical Contributors (Advanced)
+
+**⚠️ Caution: Only edit files outside `site/content/` if you understand Hugo, Azure Static Web Apps, and the deployment pipeline.**
+
+**Technical areas:**
+
+- **Hugo templates** - `site/layouts/` (uses [HugoGuides module](https://github.com/nkdAgility/HugoGuides/))
+- **Styling** - `site/static/css/`
+- **Infrastructure** - `.github/workflows/`, Azure configuration
+- **Build scripts** - `scripts/` (PowerShell automation)
+
+**📖 Technical Documentation:**
 
 - [Documentation Overview](./docs/README.md)
 - [Getting Started Guide](./docs/getting-started.md)
-- [Contributing Guidelines](./docs/contributing.md)
+- [Development Guide](./docs/development.md)
+- [Architecture Overview](./docs/architecture.md)
 
 ## About the Authors
 
@@ -111,6 +133,217 @@ Attribution is requested.
 See [LICENSE](./LICENSE) for complete terms.
 
 ## Getting Started
+
+### Common Tasks for Anyone
+
+These tasks can be performed by any contributor. All changes follow the standard workflow: **Fork → Make Changes → Test Locally → Create PR → Preview → Review → Merge**
+
+#### 1. Add a New Extension (Guide)
+
+Create a new guide to extend the core Scrum Guide.
+
+**Steps:**
+
+1. Read [Content Management Guide](./docs/content-management.md) for structure
+2. Create directory: `site/content/{new-guide-name}/`
+3. Create version folder: `site/content/{new-guide-name}/2026.1/`
+4. Add content: `index.md` (English), `index.{lang}.md` (other languages)
+5. Create `_index.md` for guide landing page
+6. Add history folder: `site/content/{new-guide-name}/history/`
+7. Test locally: `hugo server -D --source site`
+8. Submit PR for review
+
+#### 2. Add a New Document Version to an Existing Extension
+
+Create a new version of an existing guide.
+
+**Steps:**
+
+1. Create new version folder: `site/content/{guide-name}/2026.2/`
+2. Copy content from previous version: `site/content/{guide-name}/2026.1/`
+3. Update content in new version folder
+4. Update version history in `site/content/{guide-name}/history/`
+5. Test locally: `hugo server -D --source site`
+6. Submit PR for review
+
+#### 3. Add a New Site Language (Translation Wrapper)
+
+Add support for a new language across the entire site.
+
+**Steps:**
+
+1. Read [Translations Guide](./docs/translations.md)
+2. Read [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
+3. Run PowerShell script: `.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "xx" -LanguageName "Language Name"`
+4. Update `site/i18n/{lang}.yaml` with translated UI strings
+5. Test language switcher: `hugo server -D --source site`
+6. Submit PR for review
+
+#### 4. Translate a Guide or Extension
+
+Translate content of a core guide or extension.
+
+**Important:** All translation PRs must be approved by the guide owner.
+
+**Steps:**
+
+1. Read [Translations Guide](./docs/translations.md)
+2. Read [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
+3. Fork the repository
+4. Create translation file: `site/content/{guide-name}/2026.1/index.{lang}.md`
+5. Translate content following academic reference format
+6. Test locally: `hugo server -D --source site`
+7. Submit PR for review
+8. **Preview site** will be automatically created for your PR
+9. Guide owner reviews and approves
+
+#### 5. Translate a Specific Version of a Guide
+
+Translate a specific version of a guide or extension.
+
+**Steps:**
+
+1. Follow steps from "Translate a Guide or Extension" above
+2. Target specific version folder: `site/content/{guide-name}/{version}/index.{lang}.md`
+3. Ensure consistency with original version content
+4. Submit PR for review by guide owner
+
+#### 6. Generate New PDFs
+
+Generate PDF versions of guides for all languages.
+
+**Requirements:**
+
+- PowerShell 7+
+- Pandoc
+- LaTeX (XeLaTeX)
+
+**Steps:**
+
+1. Install prerequisites (see [PDF Generation Guide](./docs/simple-pdf-generation.md))
+2. Run script: `.\scripts\Create-GuidePDFs.ps1`
+3. Or for specific guide: `.\scripts\Create-GuidePDFs.ps1 -GuideName "complexity"`
+4. Or for specific language: `.\scripts\Create-GuidePDFs.ps1 -Language "de"`
+5. PDFs generated in: `site/content/{guide-name}/{version}/pdf/`
+6. Commit PDFs and submit PR
+
+#### 7. Add a Contributor to a Guide
+
+Add attribution for contributors to a specific guide.
+
+**Steps:**
+
+1. Read [Content Management Guide - Contributor Attribution](./docs/content-management.md#3-contributor-attribution-current-system)
+2. Open contributor file: `site/data/contributions/{guide-slug}.yml`
+3. Add contributor entry:
+
+   ```yaml
+   - name: "Contributor Full Name"
+     githubUsername: "their-github-username"  # PREFERRED (auto-fetches image)
+     url: "https://their-website.com"
+     contributions:
+       - "2026.1"
+     role: "contributor"  # creator, contributor, translator, reviewer
+   ```
+
+4. **For custom images** (if no GitHub):
+   - Upload to: `site/static/images/contributors/firstname-lastname.jpg`
+   - Add: `image: /images/contributors/firstname-lastname.jpg`
+5. Test locally: `hugo server -D --source site`
+6. Submit PR for review
+
+**Image Priority**: 1) `githubUsername` (auto) → 2) `gravatar` → 3) `image` (manual)
+
+#### 8. Review a Pull Request
+
+Review and provide feedback on community contributions.
+
+**Steps:**
+
+1. Find open PRs in [GitHub Pull Requests](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/pulls)
+2. Visit PR preview site: `https://agreeable-island-0c966e810-{PR#}.centralus.6.azurestaticapps.net`
+   - Replace `{PR#}` with the actual PR number (e.g., PR #42 → `...810-42.centralus...`)
+3. Test functionality and check translations
+4. Leave constructive feedback in PR comments
+5. Approve or request changes
+
+**Note:** PR preview sites are only created for PRs from the main repository, not from forks.
+
+#### 9. Report an Issue or Bug
+
+Report problems or suggest improvements following the encouraged workflow.
+
+**Steps:**
+
+1. Check [existing issues](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues) first
+2. Create [new issue](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues/new) with clear title
+3. Include:
+   - What happened vs. what you expected
+   - Steps to reproduce
+   - Browser/device information (if applicable)
+4. Add screenshots if helpful
+5. Reference related PRs or discussions
+
+**Encouraged Workflow**: Discussion → Issue → Pull Request (see [Contributing Guide](./docs/contributing.md))
+
+#### 10. Update Project Documentation
+
+Improve documentation in the `docs/` folder.
+
+**Steps:**
+
+1. Identify outdated or missing documentation
+2. Edit files in `docs/` folder:
+   - `getting-started.md` - Setup instructions
+   - `development.md` - Development workflows
+   - `content-management.md` - Content guidelines
+   - `troubleshooting.md` - Common issues
+   - Other documentation files
+3. Test all links and formatting locally
+4. Submit PR with clear description of improvements
+
+**Safe Zone**: ✅ `docs/` folder is safe for editing
+
+### Translation Guidelines
+
+**All translations must follow:**
+
+- [Translation Guide](./docs/translations.md) - Technical process
+- [Translation Code of Conduct](./docs/translations-code-of-conduct.md) - Standards and expectations
+
+**Key Points:**
+
+- Maintain academic reference format
+- Preserve meaning, emphasis, and nuance
+- All PRs require guide owner approval
+- Use fork-PR-preview-review workflow
+
+### Admin Tasks
+
+These tasks require repository admin permissions.
+
+#### Release a New Version (Production Deployment)
+
+Deploy to production at [scrumexpansion.org](https://scrumexpansion.org).
+
+**Steps:**
+
+1. Ensure all changes are merged to `main` branch
+2. Verify [Preview site](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) looks correct
+3. Navigate to **GitHub → Releases → Draft a new release**
+4. Create a tag with higher version number:
+   - **Patch** (v1.0.1): Typo fixes, small corrections
+   - **Minor** (v1.1.0): New sections, content additions
+   - **Major** (v2.0.0): Complete revamp, breaking changes
+5. Add release title and description
+6. Click **Publish release**
+7. Automatic deployment to production begins
+
+**More Details:** See [Deployment Guide](./docs/deployment.md)
+
+---
+
+### Quick Links
 
 1. **[Read the expansion](https://scrumexpansion.org)** - Production site
 2. **[Test latest changes](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/)** - Preview site  

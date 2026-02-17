@@ -4,7 +4,7 @@
 
 # Remove default ownership for /site/content/ (will be handled by specific rules below)
 
-/site/content/
+/site/content/ 
 
 # Technical and configuration files
 
@@ -24,18 +24,31 @@ LICENSE @mrhinsh
 
 \*.md @ViralGoodAgile @rjocham
 
-# Site content - specific areas
+# Site content - Extensions (by creator)
 
-/site/content/guide/ @jeffsutherland @ViralGoodAgile @rjocham
-/site/content/creators/jeff-sutherland/ @jeffsutherland
-/site/content/creators/john-coleman/ @ViralGoodAgile
-/site/content/creators/ralph-jocham/ @rjocham
+/site/content/adaptive-enterprise/ @ViralGoodAgile @rjocham
+/site/content/adaptive-executive/ @ViralGoodAgile @rjocham
+/site/content/ai-and-scrum/ @rjocham @jeffsutherland
+/site/content/complexity/ @ViralGoodAgile @rjocham
+/site/content/emergent-strategy-and-depoyment/ @Tom-Gilb
+/site/content/holistic-testing/ @lisacrispin
+/site/content/multi-team-scrum/ @ViralGoodAgile @rjocham @jeffsutherland
+/site/content/operating-models/ @mrhinsh
+/site/content/planguage/ @Tom-Gilb
+/site/content/product-thinking/ @rjocham @Magdalena-Firlit
+/site/content/psychological-safety-in-scrum-teams/ @JotPePL
+/site/content/scrum-guide-expanded/ @ViralGoodAgile @rjocham @jeffsutherland
+/site/content/scrum-on-one-page/ @ViralGoodAgile @rjocham
+/site/content/software-engineering-practices/
+/site/content/strategy-as-an-empirical-capability/ @kjscotland
 
 # Site content - general areas
 
-/site/content/download/ @mrhinsh
 /site/content/\_index.md @ViralGoodAgile @rjocham
-/site/content/creators/\_index.md @ViralGoodAgile @rjocham
+/site/content/creators/ @ViralGoodAgile @rjocham
+/site/content/creators/jeff-sutherland/ @jeffsutherland
+/site/content/creators/john-coleman/ @ViralGoodAgile
+/site/content/creators/ralph-jocham/ @rjocham
 
 # Hugo theme and layout files
 

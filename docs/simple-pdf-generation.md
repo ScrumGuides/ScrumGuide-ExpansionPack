@@ -151,17 +151,77 @@ pandoc index.tlh.md -o scrum-guide-expansion-pack.tlh.pdf --include-before-body=
 
 > **📋 Prerequisites**: Ensure [PowerShell 7+](#prerequisites) is installed before running the script.
 
-The `Create-GuidePDFs.ps1` script automates the process:
+The `Create-GuidePDFs.ps1` script automates the PDF generation process for all versioned guides.
+
+### How the Script Works
+
+The script intelligently discovers and processes all versioned guides in the repository:
+
+1. **Auto-Discovery**: Scans `site/content/` for directories containing versioned subfolders (e.g., `2026.1/`, `2025.6/`)
+2. **Latest Version Detection**: Identifies the most recent version folder for each guide
+3. **Multi-Language Support**: Finds all language variants (index.md, index.de.md, index.fa.md, etc.)
+4. **PDF Generation**: Uses Pandoc with frontmatter configuration to generate PDFs
+5. **Output Organization**: Saves PDFs to `{guide}/{version}/pdf/` directory
+
+### Script Parameters
 
 ```powershell
-# Generate all PDFs
+# Generate PDFs for all guides in all languages (uses latest version only)
 .\scripts\Create-GuidePDFs.ps1
 
-# Force regeneration
+# Force regeneration (overwrites existing PDFs)
 .\scripts\Create-GuidePDFs.ps1 -Force
 
-# Generate specific language
+# Generate PDFs for a specific language only
 .\scripts\Create-GuidePDFs.ps1 -Language fa
+.\scripts\Create-GuidePDFs.ps1 -Language de
+
+# Generate PDFs for a specific guide only
+.\scripts\Create-GuidePDFs.ps1 -GuideName "complexity"
+.\scripts\Create-GuidePDFs.ps1 -GuideName "scrum-guide-expanded"
+
+# Combine parameters
+.\scripts\Create-GuidePDFs.ps1 -GuideName "ai-and-scrum" -Language de -Force
+```
+
+### Versioned Guides Support
+
+The script automatically handles the versioned guide structure:
+
+```
+site/content/
+├── complexity/
+│   ├── _index.md
+│   ├── 2026.1/            ← Latest version (detected automatically)
+│   │   ├── index.md       ← English PDF generated
+│   │   ├── index.de.md    ← German PDF generated
+│   │   └── pdf/           ← PDFs saved here
+│   ├── 2025.6/            ← Previous version (skipped)
+│   └── history/
+├── scrum-guide-expanded/
+│   ├── 2026.1/            ← Latest version processed
+│   └── ...
+└── [13 more versioned guides]
+```
+
+**Currently Supported Guides** (15 total):
+- `scrum-guide-expanded` (Core Guide)
+- `complexity`, `psychological-safety-in-scrum-teams`, `adaptive-enterprise`, `adaptive-executive`, `ai-and-scrum`, `emergent-strategy-and-deployment`, `holistic-testing`, `multi-team-scrum`, `operating-models`, `planguage`, `product-thinking`, `software-engineering-practices`, `strategy-as-an-empirical-capability`, `scrum-on-one-page` (Extension Guides)
+
+### Output Example
+
+```
+Processing: complexity (Version: 2026.1)
+  ✓ Generated: complexity/2026.1/pdf/complexity.2026.1.en.pdf
+  ✓ Generated: complexity/2026.1/pdf/complexity.2026.1.de.pdf
+  ✓ Generated: complexity/2026.1/pdf/complexity.2026.1.es.pdf
+
+Processing: scrum-guide-expanded (Version: 2026.1)
+  ✓ Generated: scrum-guide-expanded/2026.1/pdf/scrum-guide-expanded.2026.1.en.pdf
+  ✓ Generated: scrum-guide-expanded/2026.1/pdf/scrum-guide-expanded.2026.1.de.pdf
+  ...
+
+Total: 45 PDFs generated successfully
 ```
 
 ## How It Works

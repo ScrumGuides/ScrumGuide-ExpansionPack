@@ -50,10 +50,16 @@ To add a new language to the site, you'll need to translate:
 - **Content:** Navigation, buttons, labels, and interface text
 - **Size:** ~40 translation keys
 
-### 3. Supporting Content (Optional)
+### 3. Guide Content
 
-- Creator pages in `site/content/creators/`
-- Download page content
+- Core guide in `site/content/scrum-guide-expanded/2026.1/index.md`
+- Extension guides in their respective version folders (e.g., `complexity/2026.1/index.md`)
+- Each guide version needs separate translation
+
+### 4. Supporting Content (Optional/Legacy)
+
+- Legacy creator pages in `site/content/creators/` (maintained for backward compatibility)
+- Additional static pages as needed
 
 ---
 
