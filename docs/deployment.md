@@ -206,17 +206,20 @@ The repository uses several GitHub Actions workflows:
 | **LEGACY** | `azure-static-web-apps-*.yml` | ⛔ **DO NOT USE** - Disabled legacy workflow | Disabled |
 
 **Primary Deployment Workflow (`main.yaml`):**
+
 - Builds Hugo site with environment-specific configuration
 - Deploys to Azure Static Web Apps
 - Supports all three environments: PR test sites, Preview, and Production
 - Handles version tagging and release management
 
 **Environment Cleanup (`close-pr.yaml`):**
+
 - Automatically removes PR-specific test environments from Azure
 - Runs when a pull request is closed
 - Prevents accumulation of unused test environments
 
 **Documentation Sync (`docs-to-wiki.yml`):**
+
 - Keeps GitHub Wiki synchronized with `/docs` folder
 - Runs automatically on documentation changes
 - Can be manually triggered for full sync
@@ -279,6 +282,102 @@ enableRobotsTXT: false
 # Different analytics for canary
 googleAnalytics: "G-CANARY-ID"
 ```
+
+## Release Gating (Feature Flags)
+
+Content and translations can be merged to `main` (and therefore visible on **Preview**) before they are ready for production. Two mechanisms prevent unfinished work from reaching [scrumexpansion.org](https://scrumexpansion.org):
+
+### 1. Language Gating via `hugo.production.yaml`
+
+Languages that have **not yet met the review requirements** defined in [translations-code-of-conduct.md](./translations-code-of-conduct.md) (in particular, the minimum of five mother-tongue reviewers — see Section 4, items 5–6) should still be merged to `main` so they are visible on Preview for review. To prevent them from appearing on Production, set `disabled: true` for the language in `site/hugo.production.yaml`:
+
+```yaml
+# site/hugo.production.yaml
+languages:
+  tlh:
+    disabled: true   # Klingon – reference language, never enabled
+  nl:
+    disabled: true   # Dutch – awaiting reviewer sign-off
+  de:
+    disabled: true   # German – awaiting reviewer sign-off
+  ro:
+    disabled: true   # Romanian – awaiting reviewer sign-off
+  it:
+    disabled: true   # Italian – awaiting reviewer sign-off
+  fa:
+    disabled: false  # Farsi – review complete, enabled
+  es:
+    disabled: false  # Spanish – review complete, enabled
+```
+
+**Workflow:**
+
+1. Translator opens PR with the new language content.
+2. PR is reviewed, merged to `main` → content is live on **Preview** for review.
+3. The language entry in `hugo.production.yaml` is set to `disabled: true` (or already is).
+4. Reviewers validate the translation on Preview, and the translation guardian confirms the [Translation Code of Conduct](./translations-code-of-conduct.md) criteria are met.
+5. A follow-up PR sets `disabled: false` for that language in `hugo.production.yaml`.
+6. The next GitHub Release includes the newly enabled language in **Production**.
+
+### 2. Content Gating via Hugo Build Tags
+
+Individual **documents**, **document versions**, and **document translations** can be excluded from Production using Hugo's `build` settings with an environment target. This is useful for work-in-progress guides or translations that are not ready for public release.
+
+Add the following to the front matter of the relevant content page:
+
+```yaml
+# Prevents this page (and its children via cascade) from being
+# listed or rendered in the production environment.
+cascade:
+  - build:
+      list: never
+      render: never
+    target:
+      environment: production
+```
+
+**Where to apply it:**
+
+| Scope | File to edit | Effect |
+|-------|-------------|--------|
+| **Entire document** (all versions & translations) | `site/content/{guide}/_index.md` | The `cascade` propagates to every child page under that guide |
+| **Single version** (all languages for that version) | `site/content/{guide}/{version}/index.md` | Only that version is hidden; other versions remain visible |
+| **Single translation** | `site/content/{guide}/{version}/index.{lang}.md` | Only that one translation is hidden |
+
+> **Important:** Hugo's `cascade` does **not** propagate from the English page to other language files at the same level. If you need to gate a specific version for all languages, you must add the `build` block to **every language file** in that version folder, or add `cascade` to the parent `_index.md` for the document root.
+
+**Example — gate an entire guide (Planguage):**
+
+```yaml
+# site/content/planguage/_index.md
+---
+title: Planguage
+cascade:
+  - build:
+      list: never
+      render: never
+    target:
+      environment: production
+---
+```
+
+This keeps the Planguage guide visible on Preview and Canary environments for review while hiding it from the production build at [scrumexpansion.org](https://scrumexpansion.org).
+
+**Workflow:**
+
+1. Author creates guide content and adds the `cascade` build block to the guide's `_index.md` (or individual pages).
+2. Content is merged to `main` → visible on **Preview** for review.
+3. Once the guide is approved for public release, a follow-up PR removes the `cascade` build block.
+4. The next GitHub Release includes the guide on **Production**.
+
+### Combining Both Mechanisms
+
+For a new guide written in a new language, both mechanisms may apply:
+
+- The **language** itself is gated via `hugo.production.yaml` (`disabled: true`).
+- The **guide content** is gated via `cascade` build tags in its front matter.
+
+Both must be resolved before the content appears on Production. They are independent — removing the build tag does not enable the language, and enabling the language does not remove the build tag.
 
 ## Manual Deployment
 
