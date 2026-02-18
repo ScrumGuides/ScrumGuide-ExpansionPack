@@ -8,6 +8,10 @@ keywords:
   - empirical product development
   - Scrum in complex environments
   - Scrum and AI
+author:
+  - Ralph Jocham
+  - John Coleman
+  - Jeff Sutherland
 date: 2026-01-18T09:00:00Z
 type: guide
 lang: en
