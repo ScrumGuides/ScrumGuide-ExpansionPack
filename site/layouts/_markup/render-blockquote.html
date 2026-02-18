@@ -20,31 +20,31 @@
 {{ if eq .AlertType "highlight" }}
   <div class="content-highlight">
      {{ with .AlertTitle }}
-          <h5 class="subtle-heading">
+          <h5>MOO1
             {{ . }}
           </h5>
         {{ end }}
-    <p class="subtle-text">{{ .Text | safeHTML }}</p>
+    <p>{{ .Text | safeHTML }}</p>
   </div>
 {{else}}
-    <div class="alert alert-{{ index $alertTypes .AlertType | default "secondary" }} subtle-alert" role="alert">
+    <div class="alert alert-{{ index $alertTypes .AlertType | default "secondary" }}" role="alert">
         {{ with .AlertTitle }}
-          <h5 class="alert-heading subtle-heading">
+          <h5 class="alert-heading">MOO2
             {{ index $alertEmoji $.AlertType }}
             {{ . }}
           </h5>
         {{ else }}
-          <h5 class="alert-heading subtle-heading">
+          <h5 class="alert-heading">MOO3
             {{ index $alertEmoji .AlertType }}
             {{ .AlertType | title }}
           </h5>
         {{ end }}
     
-      <p class="subtle-text">{{ .Text | safeHTML }}</p>
+      <p>{{ .Text | safeHTML }}</p>
     </div>
 {{ end }}
 {{ else }}
-  <blockquote class="blockquote">
+  <blockquote class="blockquote">MOO4
     {{ .Text | safeHTML }}
   </blockquote>
 {{ end }}

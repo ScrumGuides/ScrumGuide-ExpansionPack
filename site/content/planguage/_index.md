@@ -30,8 +30,7 @@ keywords:
 - quantified objectives
 
 categories:
-  - Leadership
-  - Strategy
+  - Strategy & Product
 tags:
 - Value Planning
 - evidence-based management

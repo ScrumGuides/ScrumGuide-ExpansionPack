@@ -10,7 +10,7 @@ weight: 2
 guide_license: |
   CC BY-NC-ND 4.0 | This section is included in its original, unaltered form with permission under the terms of the CC BY-NC-ND 4.0 license. No changes have been made.
 categories:
-  - Engineering & Delivery
+  - Technical Excellence
 tags:
   - Scrum
   - Modern Scrum

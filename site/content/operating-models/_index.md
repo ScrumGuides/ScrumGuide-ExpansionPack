@@ -22,6 +22,7 @@ keywords:
 - Product organisations
 categories:
   - Leadership & Organization
+  - Strategy & Product
 tags:
 - Operating Model
 - Adaptive Operating Model
