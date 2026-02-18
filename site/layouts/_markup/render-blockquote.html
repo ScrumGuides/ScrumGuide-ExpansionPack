@@ -20,7 +20,7 @@
 {{ if eq .AlertType "highlight" }}
   <div class="content-highlight">
      {{ with .AlertTitle }}
-          <h5>MOO1
+          <h5>
             {{ . }}
           </h5>
         {{ end }}
@@ -29,12 +29,12 @@
 {{else}}
     <div class="alert alert-{{ index $alertTypes .AlertType | default "secondary" }}" role="alert">
         {{ with .AlertTitle }}
-          <h5 class="alert-heading">MOO2
+          <h5 class="alert-heading">
             {{ index $alertEmoji $.AlertType }}
             {{ . }}
           </h5>
         {{ else }}
-          <h5 class="alert-heading">MOO3
+          <h5 class="alert-heading">
             {{ index $alertEmoji .AlertType }}
             {{ .AlertType | title }}
           </h5>
@@ -44,7 +44,7 @@
     </div>
 {{ end }}
 {{ else }}
-  <blockquote class="blockquote">MOO4
+  <blockquote class="blockquote">
     {{ .Text | safeHTML }}
   </blockquote>
 {{ end }}
