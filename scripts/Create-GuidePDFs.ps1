@@ -200,6 +200,7 @@ foreach ($guide in $guidesToProcess) {
             "--pdf-engine=$pdfEngine"
             "--lua-filter=$luaFilterPath"
             "--include-in-header=$latexHeaderPath"
+            "--resource-path=$contentDir"
             "-o", $outputPath
         )
         

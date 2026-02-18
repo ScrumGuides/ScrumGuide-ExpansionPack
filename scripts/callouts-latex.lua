@@ -4,6 +4,14 @@
 --
 -- Output: LaTeX environment with tcolorbox
 
+-- Strip leading "/" from image paths so --resource-path can resolve them
+function Image(el)
+  if el.src:sub(1, 1) == "/" then
+    el.src = el.src:sub(2)
+  end
+  return el
+end
+
 local function starts_with_callout_marker(inlines)
   if not inlines or #inlines == 0 then return nil end
   if inlines[1].t ~= "Str" then return nil end
