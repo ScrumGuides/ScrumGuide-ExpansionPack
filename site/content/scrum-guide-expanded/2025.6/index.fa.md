@@ -49,7 +49,6 @@ translators:
     role: translation reviewer
     weight: 1
 type: guide
-lang: fa
 dir: rtl
 mainfont: HMXRoya
 sansfont: HMXRoya
