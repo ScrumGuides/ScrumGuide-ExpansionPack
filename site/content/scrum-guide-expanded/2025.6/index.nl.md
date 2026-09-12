@@ -17,7 +17,6 @@ contributors:
   - name: Bob Kosse
     link: https://linkedin.com/in/bobkosse
 type: guide
-lang: nl
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"

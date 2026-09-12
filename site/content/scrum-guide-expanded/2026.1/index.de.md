@@ -10,7 +10,6 @@ keywords:
   - Scrum und KI
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: de
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"

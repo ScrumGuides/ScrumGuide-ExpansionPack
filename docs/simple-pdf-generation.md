@@ -87,7 +87,6 @@ Each Markdown file must include the following frontmatter for PDF generation:
 ---
 title: Your Document Title
 description: Document description for cover page
-lang: en
 dir: ltr
 mainfont: "Times New Roman"
 sansfont: "Arial"
@@ -105,7 +104,6 @@ creator:
 ---
 title: عنوان سند شما
 description: توضیحات سند برای صفحه جلد
-lang: fa
 dir: rtl
 mainfont: "BNazanin"
 sansfont: "BNazanin"
@@ -119,32 +117,35 @@ creator:
 
 ## Key Frontmatter Parameters
 
-- **`lang`**: Language code (e.g., `en`, `fa`, `tlh`)
+Language comes from the filename (for example, index.fa.md or index.es-419.md). For index.md, the script reads defaultContentLanguage from Hugo configuration. Do not add a top-level lang field: Hugo rejects it. The script passes --metadata lang=... to Pandoc. Keep dir and font settings in front matter.
+
 - **`dir`**: Text direction (`ltr` or `rtl`)
 - **`mainfont`**: Main font for the document
 - **`sansfont`**: Sans-serif font
 - **`monofont`**: Monospace font
 - **`pdf-engine`**: Use `xelatex` for Unicode support
 
+The PDF script also requires Hugo on PATH to read the configured default language. Manual Pandoc calls must supply the correct language explicitly, as shown below.
+
 ## Manual Pandoc Command
 
 You can generate PDFs manually using this simple command:
 
 ```bash
-pandoc input.md -o output.pdf --include-before-body=cover-page.tex
+pandoc input.md --metadata lang=en -o output.pdf --include-before-body=cover-page.tex
 ```
 
 ### Example Commands
 
 ```bash
 # English version
-pandoc index.md -o scrum-guide-expansion-pack.en.pdf --include-before-body=cover-page.tex
+pandoc index.md --metadata lang=en -o scrum-guide-expansion-pack.en.pdf --include-before-body=cover-page.tex
 
 # Farsi version
-pandoc index.fa.md -o scrum-guide-expansion-pack.fa.pdf --include-before-body=cover-page.tex
+pandoc index.fa.md --metadata lang=fa -o scrum-guide-expansion-pack.fa.pdf --include-before-body=cover-page.tex
 
 # Klingon version
-pandoc index.tlh.md -o scrum-guide-expansion-pack.tlh.pdf --include-before-body=cover-page.tex
+pandoc index.tlh.md --metadata lang=tlh -o scrum-guide-expansion-pack.tlh.pdf --include-before-body=cover-page.tex
 ```
 
 ## Using the PowerShell Script
@@ -226,10 +227,10 @@ Total: 45 PDFs generated successfully
 
 ## How It Works
 
-1. **Pandoc reads frontmatter automatically** - All configuration comes from the YAML header
+1. **Pandoc reads frontmatter automatically** - Layout configuration comes from the YAML header; language is supplied explicitly
 2. **Cover page injection** - The `--include-before-body` argument adds the cover page
 3. **Font handling** - XeLaTeX engine handles Unicode and custom fonts
-4. **No external variables** - Everything is self-contained in the Markdown files
+4. **Explicit language** - The script passes the filename language, or the configured default for index.md, to Pandoc.
 
 ## Font Requirements
 
@@ -302,13 +303,13 @@ For more complex documents, you can still use additional Pandoc options:
 
 ```bash
 # With custom template
-pandoc input.md -o output.pdf --template=simple-template.tex --include-before-body=cover-page.tex
+pandoc input.md --metadata lang=en -o output.pdf --template=simple-template.tex --include-before-body=cover-page.tex
 
 # With additional filters
-pandoc input.md -o output.pdf --include-before-body=cover-page.tex --filter pandoc-citeproc
+pandoc input.md --metadata lang=en -o output.pdf --include-before-body=cover-page.tex --filter pandoc-citeproc
 
 # With variables
-pandoc input.md -o output.pdf --include-before-body=cover-page.tex -V geometry:margin=2cm
+pandoc input.md --metadata lang=en -o output.pdf --include-before-body=cover-page.tex -V geometry:margin=2cm
 ```
 
 But remember: the goal is simplicity. Only add complexity when necessary.

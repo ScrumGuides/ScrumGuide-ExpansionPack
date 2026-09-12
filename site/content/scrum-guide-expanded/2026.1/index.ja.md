@@ -10,7 +10,6 @@ keywords:
   - スクラムとAI
 date: 2025-09-11T09:00:00Z
 type: guide
-lang: ja
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"

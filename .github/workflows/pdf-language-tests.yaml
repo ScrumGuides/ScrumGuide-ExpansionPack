@@ -1,0 +1,28 @@
+name: PDF language tests
+
+on:
+  pull_request:
+    paths:
+      - scripts/**
+      - .github/workflows/pdf-language-tests.yaml
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - .github/workflows/pdf-language-tests.yaml
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: PDF language tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Pester
+        shell: pwsh
+        run: |
+          Install-Module Pester -RequiredVersion 5.7.1 -Scope CurrentUser -Force
+          Import-Module Pester -RequiredVersion 5.7.1
+          Invoke-Pester -Path scripts/tests/GuidePdfLanguage.Tests.ps1 -Output Detailed -CI
