@@ -17,6 +17,8 @@ monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.7
+aliases:
+  - /adaptive-executive/latest
 ---
 
 ***Collected Resources for Scrum Guide Expansion Pack***  

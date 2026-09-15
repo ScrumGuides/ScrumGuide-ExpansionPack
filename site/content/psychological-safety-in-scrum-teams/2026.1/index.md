@@ -21,6 +21,8 @@ sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 0.7
+aliases:
+  - /psychological-safety-in-scrum-teams/latest
 ---
 
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) © 2026 Joanna Płaskonka 

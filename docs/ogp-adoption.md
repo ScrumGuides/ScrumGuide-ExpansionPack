@@ -2,12 +2,20 @@
 
 ## Current v1 adoption — 15 September 2026
 
-The supported updater installed `v1.0.0`. Settings select floating stable `v1`, and the shared build caller uses `@v1`. Version-tag, PR, main, merge-group and manual triggers remain present. Existing destination settings migrated into `.OpenGuidePlatform/settings.yaml`; `deploy: false` remains explicit.
+The supported updater installed `v1.0.0`. Settings select floating stable `v1`, and the shared build caller uses `@v1`. PR, main, version-tag, merge-group and manual triggers remain present. Deployment remains disabled.
 
-All 171 baseline Markdown/PDF source hashes match. Workflow YAML assertions and all seven tool-supported Actions lock checks pass. Root acceptance builds were attempted: canary fails on a relative-base-URL platform exception; with an absolute BaseUrl it reaches validation. Preview and production reach validation but fail required translated scaffolding/latest-alias checks against existing source. No translations, guide aliases or supplied PDFs were changed to bypass these checks. These builds do not establish deployment readiness.
+### Site validation fixes
 
-The maintainer explicitly requested the v1 change through a PR and merge after these blockers were disclosed. The unresolved platform compatibility and site-validation findings remain follow-up work. The v1 copy-link issue identified in other consumers is also under platform review. No site deployment or production release tag was requested or performed as part of this migration.
+- Added 30 missing language root/history/translation wrapper pages and 29 latest-edition aliases. Existing translation bodies and fallback behavior are preserved.
+- Assigned the global download/translation aliases to the core guide only; retained the Italian historical URL on the historical edition.
+- Supplied missing UI labels, with explicit English fallbacks for untranslated history controls.
+- Repaired Planguage image paths using its existing assets and removed two dangling hyperlink wrappers while retaining their text.
 
+All supplied PDF hashes match the preserved baseline. Independent review verified that existing guide bodies change only in those Planguage URL repairs. The full canary build passes Prepare, Build and Validate using an explicit absolute BaseUrl. Reports: `.processing/fixed-canary3.log`.
+
+Preview and production Prepare and Build pass, but Validate still incorrectly requires latest routes and PDFs for guides excluded by existing environment cascades. These are shared platform discovery defects; the exclusions remain intact. The PR report job also has a separate missing-comment-user failure. These remaining failures must be fixed and hosted checks rerun before claiming complete acceptance. Reports: `.processing/fixed-preview3.log` and `.processing/fixed-production3.log`.
+
+No production deployment, rule bypass or release tag is part of these source fixes.
 ## Earlier adoption evidence and unresolved checklist
 
 The following records the earlier preview adoption work; it is historical evidence, not a claim that v1 acceptance has passed.

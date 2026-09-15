@@ -30,6 +30,8 @@ sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 0.7
+aliases:
+  - /planguage/latest
 ---
 
 **Copyright © 1960-2026 Tom Gilb. Manually curated, edited, and adapted by John Anthony Coleman with permission**
@@ -330,7 +332,7 @@ WISH: 1.0 seconds
 
 - **Stop** (kill it---this isn't delivering value)
 
-![image](<img src="images/media/image1.png"
+![image](<img src="/planguage/2026.1/images/image1.png"
 style="width:6.26508in;height:3.52381in"
 alt="CC BY-SA 4.0 Cultivate Environment W. Edwards Deming popularized the Plan Do Study Act (PDSA) cycle idea. The innovation here is the parallel focus on cultivating the environment. PLAN DO STUDY ACT (and cultivate the environment) PLAN DO STUDY ACT loop diagram with a watering can watering budding and blossoming flowers in the middle of the loop. Read like a time clock from 1 or 2 o&#39;clock. 1). Plan experiment Observe current condition, then plan change OR test OR new method OR comparison with methods 2). Do experiment as per the layout in step 1 plan 3). Study evidence Did the experiment correspond with hope and expectations? What went wrong? 4). Act Adopt the change OR abandon it OR run through the cycle again, possibly under different environmental conditions, possibly with small changes. Persevere, pivot, or stop. " />*\
 In parallel with PDSA, cultivate the work environment and climate (hence the gardening metaphor -- a watering can for the plants)*
@@ -575,7 +577,7 @@ Credibility: 65%
 
 - **No "end"** to product development---continuous evolution while there's competition or it makes sense (other ideas might become relatively more valuable over time)
 
-![image](<img src="images/media/image2.png"
+![image](<img src="/planguage/2026.1/images/image2.png"
 style="width:3.69101in;height:2.07614in"
 alt="© 2024 Tom Gilb Evidence -&gt; Estimate -&gt; Sum Impacts on all values Evidence ...&gt; +/- Uncertainty or range Evidence -&gt; Credibility Source -&gt; Credibility Estimate -&gt; Sum of Impacts on one value Estimate -&gt; Value for Resource Ration for 1 Strategy +/-$ Source" />
 
@@ -962,7 +964,7 @@ AUTHORITY Market Insights team
 
 *\*
 
-### ![image](<img src="images/media/image3.png"
+### ![image](<img src="/planguage/2026.1/images/image3.png"
 
 style="width:6.28542in;height:3.53542in"
 alt="© 2024 Tom Gilb A diagram of function with inbound and outbound text Inbound text: Financial Budget for Stakeholder A Financial Budget for Stakeholder B Elapsed Time Effort Outbound Text Usability Reliability Security Environment Innovation Cost Reduction Client Accounts Multiple stakeholders and multiple costs, each stakeholder with different things they value on different scales... Simultaneously means that we want to achieve all performance target objectives, within all resource constraints, and by respecting all other known constraints. We will be looking for a set of strategies to achieve that balance. Figure 3 I: A model of an Abstract Strategy, with defined function, and multiple performance and cost attributes. The arrow on the scale (---&gt;---) arrow, represents a goal or a budget level. " />Planguage Limits (left hand side) and Expectations (right hand side)
@@ -975,7 +977,7 @@ alt="© 2024 Tom Gilb A diagram of function with inbound and outbound text Inbou
 
 ## Value Planning
 
-> ![image](<img src="images/media/image4.png"
+> ![image](<img src="/planguage/2026.1/images/image4.png"
 > style="width:6.25903in;height:3.52014in"
 > alt="© 2024 Tom Gilb Waterfall Development Life Cycle Investigate problem space Design Implement Test Incremental Development Life Cycle Investigate problem space Cycle 1 Cycle 2 Cycle 3 Cycle 4 Cycle 5 Cycle 6 Cycle 7 Cycle 8 Cycle 9 Cycle 10 …. Cycle n Plan Design Implement Test Evolutionary Development Life Cycle Investigate problem space Cycle 1 Cycle 2 Cycle 3 Cycle 4 Cycle 5 Cycle 6 Cycle 7 Cycle 8 Cycle 9 Cycle 10 …. Cycle n Re-assess Design Implement Test Customers: Use N-1 Plan N + 1 Figure 7.4 C [Evolutionary Fusion: A Customer- Oriented Incremental LifeCycle for Fusion by Todd A http://www.gilb.com/DL35 August 1996 Hewlett-Packard Journal] 3 approaches to delivering projects. The Evolutionary Cycle (bottom) is characterized by stakeholder feedback and change. Adaptations to the referenced materials include incremental and evolutionary starting sooner and not having a big test at the end. " />Officially, the traditional approach has its place, although I have not needed to use it since 2004. Incremental is insufficient for emergent strategy unless it includes assessments of result feedback and telemetry, and adapts based on it. Value Planning is evolutionary. Scrum as described in the Scrum Guide Expansion Pack is evolutionary. But let's take a journey back in time before Scrum. Let's go back in time.
 
@@ -1071,7 +1073,7 @@ alt="© 2024 Tom Gilb A diagram of function with inbound and outbound text Inbou
 
 > Rinse and repeat... Plan, Do, Study, Act (intentionally skipping steps as needed)
 
-![image](<img src="images/media/image5.jpeg"
+![image](<img src="/planguage/2026.1/images/image5.jpeg"
 style="width:6.25764in;height:3.21319in"
 alt="PLAN DO STUDY ACT CULTIVATE loop diagram with a watering can watering budding and blossoming flowers in the middle of the loop. Read like a time clock from 1 or 2 o&#39;clock, with keys to explain icons for 1). Plan experiment 2). Do experiment 3). Study evidence 4). Act 5). Cultivate " />
 
@@ -1081,7 +1083,7 @@ alt="PLAN DO STUDY ACT CULTIVATE loop diagram with a watering can watering buddi
 
 -
 
-![image](<img src="images/media/image6.png"
+![image](<img src="/planguage/2026.1/images/image6.png"
 style="width:6.26389in;height:3.52314in"
 alt="CC BY-SA 4.0 Cultivate Environment W. Edwards Deming popularized the Plan Do Study Act (PDSA) cycle idea. The innovation here is the parallel focus on cultivating the environment. PLAN DO STUDY ACT (and cultivate the environment) PLAN DO STUDY ACT loop diagram with a watering can watering budding and blossoming flowers in the middle of the loop. Read like a time clock from 1 or 2 o&#39;clock. 1). Plan experiment Observe current condition, then plan change OR test OR new method OR comparison with methods 2). Do experiment as per the layout in step 1 plan 3). Study evidence Did the experiment correspond with hope and expectations? What went wrong? 4). Act Adopt the change OR abandon it OR run through the cycle again, possibly under different environmental conditions, possibly with small changes. Persevere, pivot, or stop. " />
 
@@ -1090,7 +1092,7 @@ alt="CC BY-SA 4.0 Cultivate Environment W. Edwards Deming popularized the Plan D
 2). Cultivate the work environment and climate (hence the gardening metaphor -- a watering can for the plants), and\
 3). Sometimes replace "Act" with "Adjust" or "Adapt"*
 
-![image](<img src="images/media/image7.png"
+![image](<img src="/planguage/2026.1/images/image7.png"
 style="width:6.26806in;height:3.52569in"
 alt="Direction of Travel Diagram A graph adapted to a Direction of Travel diagram from Scrum.org Evidence-Based Management™ (EBM) &quot;magic wand diagram&quot; for goals, going back to Improvement Kata roots de-emphasis on the nonsense of foxed goals even in the medium term when counter-evidence is compelling„ with firm attribution to Scrum.org and Mike Rother. Attribution text is taking over the right-hand side of the image. Vertical axis - measures (of success) Horizontal axis - calendar time Icons depicting the meandering journey to the current state 45-degree angle trajectory from the current state to the target condition in the short term, the &quot;rallying cry&quot; in the medium term, and the direction of travel in the long term. But the target condition, &quot;rallying cry,&quot; and direction of travel icons depict uncertainty about where we will end up, maybe to the left or right of the original intention. " />
 
@@ -2433,7 +2435,7 @@ Credibility (0-1.0)
 >
 > But I still needed to ask the 12 tough questions (covered in the next section). Value Planning was not selected in that context; the client was wedded to continuing with "Sprints" with maybe not the best discipline. I needed to ensure IETs were updated as new information emerged, usually when result feedback comes in from users.
 >
-> ![image](<img src="images/media/image8.png"
+> ![image](<img src="/planguage/2026.1/images/image8.png"
 > style="width:5.69792in;height:3.205in"
 > alt="© 2024 Tom Gilb Cumulative Measurement Measurement Quickly and Cheaply Managing the uncertainty of Estimates Evidence &amp; Credibility Source of Evidence +/- Range Managing the uncertainty of Estimates Rough Priority Decisions Impact Estimation Tables % Sums Diagram 4.4. Some factors that help us manage the problem of understanding and correcting, our estimates of the effects of strategies, on our objectives and costs. " />
 >
@@ -2491,7 +2493,7 @@ Credibility (0-1.0)
 <ol start="7" type="1">
 <li>
 <p>
-How do you know it works that way? `<em>How do you know perception is `<a href="#36">reality`</a>?`</em>
+How do you know it works that way? `<em>How do you know perception is `reality`?`</em>
 </p>
 </li>
 </ol>
@@ -2571,7 +2573,7 @@ How does your idea affect my goals?
 <ol start="11" type="1">
 <li>
 <p>
-How can we be sure the plan is working?`<br /> `<em>And what`</em> `<em>`<a href="#60">rhythm`</a> is in place to help us inspect and adapt quickly?`</em>
+How can we be sure the plan is working?`<br /> `<em>And what`</em> `<em>`rhythm` is in place to help us inspect and adapt quickly?`</em>
 </p>
 </li>
 </ol>
@@ -2825,7 +2827,7 @@ Is it no cure, no pay, in a contract? Why not? `<em>What is the risk of not harv
 
 - The Statement Tags (solution-option A & A1 & A2 & A3) permit us to have a single tagged 'master' planning element, independent of updates, avoiding the confusion of multiple versions in multiple plans and presentations. All plans should refer to these tags rather than dangerously cutting and pasting. Updating the master plan element updates all references to it simultaneously. Tom Gilb and Kai Gilb found it amazing how little formal 'tagging' conventional planners did in their plans and how little coordination there was between various versions of the 'truth' that were doomed to be misunderstood.
 
-> ![image](<img src="images/media/image9.png"
+> ![image](<img src="/planguage/2026.1/images/image9.png"
 > style="width:6.11655in;height:3.44048in"
 > alt="© 2024 Tom Gilb A diagram of strategies A, B, and C. Like a Venn diagram, Strategy does not fit within Constraints&#39; specifications. Strategy B is within two of three constraints. Only Strategy a is within all of them. Figure 3.2. Strategies must not fall foul of specified constraints. And important constraints need to be formally specified. Formally specified constraints are cited here, as a tool for managers, to nudge strategy in relevant directions, without actually dictating the exact strategy." />
 >
@@ -2887,7 +2889,7 @@ Is it no cure, no pay, in a contract? Why not? `<em>What is the risk of not harv
 
 - And measure again. Dump losing ideas fast but not so fast not to give them a real chance.
 
-> ![image](<img src="images/media/image10.png"
+> ![image](<img src="/planguage/2026.1/images/image10.png"
 > style="width:6.12361in;height:3.44444in"
 > alt="© 2024 Tom Gilb Strategy A - more cost than Strategy B for a Function, both strategies have &quot;resource remaining&quot; Strategy A - more impact Estimate for Strategy A than Strategy B Performance Gap in Strategy B Figure 2.5. Evaluation of 2 strategies with respect to 2 resources. The width of the strategy rectangle is the extent of the cost or effect" />
 >
@@ -2935,7 +2937,7 @@ Is it no cure, no pay, in a contract? Why not? `<em>What is the risk of not harv
 
 - The most successful revolutions are made by a series of mountain goat steps of change. One works towards larger long-term goals, one practical step at a time, as sure-footed as mountain goats. It seems to be how some highly successful organizations operate, if it's sometimes a bit slow.
 
-> ![image](<img src="images/media/image11.png"
+> ![image](<img src="/planguage/2026.1/images/image11.png"
 > style="width:6.19861in;height:3.48663in"
 > alt="© 2024 Tom Gilb Not decomposition for this: Build 1..4 then deploy and measure More Like This: Emergent strategy Create and deploy increment or experiment Get feedback Tweak Realize value Rinse Repeat Figure 2.7.B. Two attitudes towards strategy decomposition. 1. Build and see what happens later. 2 Deliver value as you build change: measure progress, learn faster." />
 >
@@ -2993,7 +2995,7 @@ Is it no cure, no pay, in a contract? Why not? `<em>What is the risk of not harv
 
 > One might plan for a range, a comfort zone, or a 'landing zone' rather than an exact number.
 
-![image](<img src="images/media/image12.png"
+![image](<img src="/planguage/2026.1/images/image12.png"
 style="width:6.6803in;height:3.75758in"
 alt="© 2024 Tom Gilb Evidence -&gt; Estimate -&gt; Sum Impacts on all values Evidence ...&gt; +/- Uncertainty or range Evidence -&gt; Credibility Source -&gt; Credibility Estimate -&gt; Sum of Impacts on one value Estimate -&gt; Value for Resource Ration for 1 Strategy +/-$ +/- Uncertainty of range --&gt; lowest range level --&gt; Credibility and Lowest Range Credibility -&gt; Credibility --&gt; Credibility and Lowest Range Figure 9.5 D. Finally we can calculate 3 notions of the riskiness of our numbers. 1. The lowest range level. For example 70±20=50. This is ‘the worst level’ experienced by anyone according to the evidence. 2. The Credibility level. For Example 70x0.5=35. An arbitrary but useful impact reduction, for less perfect evidence and sources. 3. The combination: the ‘Worst Worst Case’. For example 70±20=50x0.5=25 4. and we can do this for individual strategies, and for sums of strategies (the 3 right hand sums in the diagram) These calculations are usually done automatically in a spreadsheet or a tool. These riskiness calculations can be used to directly and automatically select winning strategies according to your decision-making policy; like ‘pick the strategy which is best in the most conservative case’. " />
 
@@ -3009,7 +3011,7 @@ alt="© 2024 Tom Gilb Evidence -&gt; Estimate -&gt; Sum Impacts on all values Ev
 >
 > *Example: If an impact estimate were 40% and its credibility were 0.5, then the credibility-adjusted estimate would be 20% (40% multiplied by 0.5).*
 
-![image](<img src="images/media/image13.png"
+![image](<img src="/planguage/2026.1/images/image13.png"
 style="width:6.35705in;height:3.57576in"
 alt="© 2024 Tom Gilb Evidence -&gt; Estimate -&gt; Sum Impacts on all values Evidence ...&gt; +/- Uncertainty or range Evidence -&gt; Credibility Source -&gt; Credibility Estimate -&gt; Sum of Impacts on one value Estimate -&gt; Value for Resource Ration for 1 Strategy +/-$ Source" />
 
@@ -3038,7 +3040,7 @@ Consider money or value points for value. But for effort, consider estimated num
 
 - Non-quality values can be, for example, costs, time, and work capacity of systems, and one is pretty good at quantifying them.
 
-![image](<img src="images/media/image14.png"
+![image](<img src="/planguage/2026.1/images/image14.png"
 style="width:6.35691in;height:3.57551in"
 alt="© 2024 Tom Gilb Customer Service Availability Scale % of 24/7 a customer gets a qualified answer without waiting or failing. [ Past Last Year, Our Main Service System] 95% ←←← Service report. Record [Last Year, Our best competitor] 98% ←←← Competitor&#39;s PR. Record [Worldwide, Last 10 years, Similar Customer Service Systems to Ours] 99.98% ←←← Industry Surveys. Trend [by Next Year, Based on Last 5 years, Our Main Service System] 93% ?? Trend [Next Year, Our best competitor] 99% ?? “Based on these benchmarks - what is a reasonable planned level?” Tolerable [by Next Year, Our Main Service System] 99% ? ←←← Mkt Dir. Goal [by Next Year, Our Main Service System] 99.5% ←←← CTO. Planguage Example 7.5 A. Examples of the use of ‘Record’, and ‘Trend’ statements." />
 
@@ -3088,7 +3090,7 @@ alt="© 2024 Tom Gilb Customer Service Availability Scale % of 24/7 a customer g
 
 > Dr. Juran (Quality Control Handbook, Juran Institute) \[490\] made the point in one of his many books that the most significant single thing he learned from his teacher (also Deming's teacher), Walter Shewhart, the originator of Statistical Process Control \[299\] \[[330](https://deming.org/explore/pdsa/)\] \[488\] \[489\], was to focus management attention on 'common causes of problems which are inside the set natural variation control limits' (problems which occur repeatedly and are often due to a single cause; they are well worth fixing).
 >
-> ![image](<img src="images/media/image15.png"
+> ![image](<img src="/planguage/2026.1/images/image15.png"
 > style="width:6.35706in;height:3.57576in"
 > alt="© 2024 Tom Gilb Graph showing a scatter plot of observations in sequence plotting observation values showing markers for the mean and +/- 3σ (the 99.73% area), within which is shown a yellow common cause variation area, outside which one sees an orange special-cause variation area. Two plot points from 20 or so are in the special-cause variation area. Diagram 7.8 B Variations, outside the acceptable performance range, the Upper and Lower control limits, are deemed due to “special causes” (i.e. they are not normal system variability). They need to be tackled as one-time fixes, and tackled locally: on the shop floor, not by “top” management: not by strategic planning. By supervisory management, by local teams, by the individual concerned. Note that Daniel Vacanti’s book Actionable Actionable Metrics II (referencing work from Wheeler, Shewhart, and Deming), offers a compelling and fresh perspective on the use of similar charts." />
 >
@@ -3118,7 +3120,7 @@ alt="© 2024 Tom Gilb Customer Service Availability Scale % of 24/7 a customer g
 
 - Make sure that supplier contracts are based on value for payment.
 
-> ![image](<img src="images/media/image16.png"
+> ![image](<img src="/planguage/2026.1/images/image16.png"
 > style="width:4.94949in;height:2.78402in"
 > alt="© 2024 Tom Gilb Iceberg Above the water line: ACQUISITION Below the water line:Documentation Training Test Penalties Maintenance Repairs Upgrades Installation Software Modifications Obsolescence Tool Infrastructure servicing Removal from service Figure 4.8 A. The hidden long-term problem: some of the strategies that must be planned to maintain system performance levels in the long term." />
 >

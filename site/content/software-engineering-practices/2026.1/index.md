@@ -17,6 +17,8 @@ sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 0.7
+aliases:
+  - /software-engineering-practices/latest
 ---
 
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) © 2026 Dave Farley

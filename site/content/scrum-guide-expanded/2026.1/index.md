@@ -19,6 +19,8 @@ sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 0.8
+aliases:
+  - /scrum-guide-expanded/latest
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  
