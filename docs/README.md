@@ -18,6 +18,7 @@ Welcome to the documentation for the **Scrum Guide Expansion Pack** project. Thi
 
 ### Technical Documentation
 
+- [OpenGuidePlatform Adoption](./ogp-adoption.md) - Migration status, baseline and acceptance checks
 - [Architecture Overview](./architecture.md)
 - [Development Guide](./development.md)
 - [Deployment Guide](./deployment.md)
