@@ -1,15 +1,30 @@
 # OpenGuidePlatform adoption
 
+## Current v1 adoption — 15 September 2026
+
+The supported updater installed `v1.0.0`. Settings select floating stable `v1`, and the shared build caller uses `@v1`. Version-tag, PR, main, merge-group and manual triggers remain present. Existing destination settings migrated into `.OpenGuidePlatform/settings.yaml`; `deploy: false` remains explicit.
+
+All 171 baseline Markdown/PDF source hashes match. Workflow YAML assertions and all seven tool-supported Actions lock checks pass. Root acceptance builds were attempted: canary fails on a relative-base-URL platform exception; with an absolute BaseUrl it reaches validation. Preview and production reach validation but fail required translated scaffolding/latest-alias checks against existing source. No translations, guide aliases or supplied PDFs were changed to bypass these checks. These builds do not establish deployment readiness.
+
+The maintainer explicitly requested the v1 change through a PR and merge after these blockers were disclosed. The unresolved platform compatibility and site-validation findings remain follow-up work. The v1 copy-link issue identified in other consumers is also under platform review. No site deployment or production release tag was requested or performed as part of this migration.
+
+## Earlier adoption evidence and unresolved checklist
+
+The following records the earlier preview adoption work; it is historical evidence, not a claim that v1 acceptance has passed.
 ## Status — 15 September 2026
 
-Adoption preparation is in progress on `codex/ogp-adoption`, based on main
-`7ce0683dd1548af108e391a31e34fe43c6f10d90`. Platform installation and deployment
-are not complete. Existing workflows, native module dependency, instructions,
-guide content and PDFs remain unchanged.
+Installation succeeded on `codex/ogp-adoption` using `v0.5.6-Preview.1`, source
+`6e85901bebeca53a002be88b2d011b9060706cd7`. The native Hugo dependency,
+installation record, launcher, managed skills and instruction shims were updated together.
+No guide content or supplied PDF has been edited. No site has been deployed.
 
-The remote bootstrap selected and verified `v0.5.4-Preview.2`, source
-`1dca12a5a42f7a9a7fbc2cc2f5eb73a56cbb43c0`. Its GuideSite archive SHA256 is
-`a57fb86cac28d2995e24a6cc9f6f32dd6d44c1b3e260155486199039ca1cdd2f`.
+The site-owned main caller preserves PR, main, merge-group and manual validation,
+concurrency and the hosting-secret mapping. Deployment remains disabled. Existing
+cleanup is retained while its environment naming is reconciled with OGP.
+Historical agent instructions, the embedded main workflow and the manually disabled
+duplicate-key Azure workflow are byte-preserved under `docs/adoption-history/`.
+Site-specific rules are in `site/AGENTS.md`, `.github/AGENTS.md` and the scoped
+Copilot instruction file. Root shims are platform-managed symbolic links.
 
 ## Acceptance baseline
 
@@ -67,45 +82,57 @@ foreach ($target in @('canary', 'preview', 'production')) {
 }
 ```
 
-## Installation findings
 
-The verified installer with `-Install -WhatIf` stops on three managed-file
-conflicts: `.github/workflows/main.yaml`, `AGENTS.md` (the existing lowercase
-`agents.md` on Windows), and `.github/copilot-instructions.md`. No managed files
-were installed.
+## Current acceptance blockers
 
-The package's root entry point was also exercised with `-Product GuideSite
--Stage Prepare -Target preview`. It reports `PREPARE_INPUT_UNAVAILABLE` because
-the canonical OGP module is not yet a dependency. This is an expected sequencing
-failure, not evidence of a guide defect. The report is in
-`.processing/ogp-adoption/preview/prepare/assessment.md`.
+1. **Existing Polish alias rejected by OGP schema.** Prepare discovers
+   `pl/pl/downloads/index.html` and `pl/pl/download/index.html` from the existing
+   Polish translations aliases. The baseline actually contains these paths.
+   The released `site-policy.schema.json` permits only one optional path segment
+   before `download(s)`, so it rejects its own discovered inventory at
+   `/wrapper/legacyAliases/12/targets/0`. Preserve the source aliases and public
+   paths; OGP must support this existing Hugo output in discovery validation.
+2. **Shared cleanup does not preserve the site environment name.** The existing
+   site cleanup targets `canary-<PR>`. Released OGP `guide-site-close-pr.yaml`
+   hardcodes `<PR>` and exposes no environment input. Add a supported environment
+   input or shared delivery-context resolution before migrating cleanup and
+   enabling preview deployment. Delivery configuration retains `canary-{pr}`;
+   the canary URL must be confirmed against the actual Azure deployment before
+   acceptance.
 
-### OGP integration contract to resolve
+Installed Prepare reports are under `.processing/ogp-adoption/installed-*/prepare/`.
+Diagnostic rendering against the new native module is under
+`.processing/ogp-adoption/native-diagnostics/`; these direct Hugo builds do not
+replace the blocked root-entry-point acceptance builds. No generated discovery
+file, schema or installation checksum was edited to bypass a check.
 
-The release generates and hashes `main.yaml`, the canonical agent instructions
-and Copilot instructions as managed files. Update rejects edits to those files;
-the installed guidance also forbids editing generated adapters by hand. Meanwhile,
-first-adoption documentation tells maintainers to configure the shared workflow's
-deployment inputs and secret mapping. This site's merge-group trigger and bespoke
-guidance also need deliberate preservation.
+## Native-module diagnostic comparison
 
-Before replacing these files, establish an update-safe ownership contract:
-site-owned workflow wiring and site-specific instructions must survive platform
-updates, while shared implementation and dependency versions remain coordinated.
-Do not bypass conflict detection, discard site guidance or alter recorded hashes
-to simulate support. Canary itself is supported by the released delivery resolver;
-the target distinction is an integration requirement, not a missing platform target.
+All three diagnostic builds completed with exit code 0 and no ERROR lines.
+Their complete output-path sets match the preserved baseline: canary has 499
+files (210 HTML, 31 PDF), preview 483 (202 HTML, 31 PDF), and production 329
+(132 HTML, 22 PDF). Every output PDF hash matches. All 171 captured Markdown
+and PDF source hashes remain unchanged.
 
+Some HTML, JSON and XML hashes differ. The preview homepage difference is the
+expected module identity/version in its debug table; the remaining differences
+still require disposition, followed by browser checks. Path and PDF equivalence
+alone does not establish rendered-content or visual equivalence.
+
+The workflow lockfile was generated with `gh actions-lock --no-narrow` and
+`gh actions-lock --verify-local` passed for all seven active workflows. This
+covers tool-supported action dependencies; it does not lock the reusable OGP
+workflow reference. The main caller retains automatic GitVersion-based target
+selection, with an explicit manual override, and `deploy: false`.
 ## Remaining work
 
-- [x] Fast-forward latest main and create the adoption branch.
-- [x] Capture existing-site diagnostic builds and source/output hashes.
-- [x] Preview the verified release installation and record conflicts.
-- [ ] Resolve the OGP managed-file ownership contract.
-- [ ] Install the coordinated release and migrate site integration/instructions.
-- [ ] Configure delivery and cleanup, preserve triggers, and lock workflow dependencies.
-- [ ] Run root-entry-point Prepare, Build and Validate for all three targets.
-- [ ] Compare routes, catalogues, downloads, hashes and browser output; disposition
-      existing link/avatar findings rather than silently accepting them.
-- [ ] Independently review the exact implementation and verification evidence.
-- [ ] Verify an adoption preview separately from any production approval.
+- [x] Preserve current-main baseline and create the agreed adoption branch.
+- [x] Install the released coordinated platform and migrate the main caller.
+- [x] Preserve bespoke site rules and archive inactive legacy files.
+- [ ] Resolve OGP alias-schema support and configurable cleanup environment.
+- [ ] Pass root-entry-point Prepare, Build and Validate for all three targets.
+- [ ] Verify route/catalogue/download equivalence and browser appearance.
+- [ ] Reconcile contributor getting-started commands with the root entry point.
+- [ ] Resolve the independent agent-control enforcement requirement in managed adoption guidance.
+- [ ] Complete independent review of acceptance evidence and commit the verified migration.
+- [ ] Verify the adoption preview separately from production approval.

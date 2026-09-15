@@ -277,7 +277,7 @@ ScrumGuide-ExpansionPack/
 │   └── Create-GuidePDFs.ps1  # PDF generation script
 ├── public/                # Generated site (git-ignored)
 ├── docs/                  # Project documentation
-├── agents.md              # AI assistant guide
+├── AGENTS.md              # AI assistant guide
 └── .github/               # GitHub Actions workflows
 ```
 

@@ -1,5 +1,23 @@
 # Scrum Guide Expansion Pack
 
+## Build and validate with OpenGuidePlatform
+
+This site tracks stable OpenGuidePlatform `v1` through `.OpenGuidePlatform/settings.yaml`. See [adoption status](docs/ogp-adoption.md) for known validation issues. Deployment remains disabled in the caller.
+
+From the repository root, use PowerShell 7.4 or newer:
+
+```powershell
+./build.ps1 Dependencies
+./build.ps1 -Target canary
+./build.ps1 -Target preview
+./build.ps1 -Target production
+./build.ps1 -Stage Serve -Target local
+```
+
+To update the coordinated platform installation, use `./build.ps1 Update -PlatformRelease v1` on the existing review branch. Install the GitHub Actions locking extension with `gh extension install github/gh-actions-lock`. Keep site contributor rules in [site/AGENTS.md](site/AGENTS.md); platform-managed instructions and skills update with the installation.
+
+These build commands do not deploy the site. Production approval is separate from preview validation.
+
 ## Visit the Guide
 
 ### 🌐 Live Sites

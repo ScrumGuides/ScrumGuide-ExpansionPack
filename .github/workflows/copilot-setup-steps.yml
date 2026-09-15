@@ -1,3 +1,5 @@
+# This workflow is managed by gh actions-lock.
+
 name: Copilot Setup Steps
 
 on: workflow_dispatch
