@@ -281,7 +281,7 @@ ScrumGuide-ExpansionPack/
 └── .github/               # GitHub Actions workflows
 ```
 
-**Note**: Base Hugo templates come from an imported module (`github.com/nkdAgility/HugoGuides/module`). Local `layouts/` contains only overrides and site-specific templates.
+**Note**: Base Hugo templates come from an imported module (`github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides`). Local `layouts/` contains only overrides and site-specific templates.
 
 ## Next Steps
 

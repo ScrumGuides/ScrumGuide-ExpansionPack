@@ -87,7 +87,7 @@ site/
 │   ├── _markup/         # Render hooks for markdown elements (local)
 │   │
 │   └── [FROM MODULE: baseof.html, home.html, single.html, list.html]
-│       # Base templates provided by github.com/nkdAgility/HugoGuides/module
+│       # Base templates provided by github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides
 │       # See hugo.yaml module imports for details
 ├── static/               # Static assets
 ├── data/                 # Data files (.yaml/.json)
@@ -95,7 +95,7 @@ site/
 └── hugo.yaml            # Configuration (includes module imports)
 ```
 
-**Important**: This site uses [Hugo Modules](https://github.com/nkdAgility/HugoGuides/) for the majority of its template functionality. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) are provided by the imported module and do not exist in the local `layouts/` directory.
+**Important**: This site uses [Hugo Modules](https://github.com/nkdAgility/OpenGuidePlatform/) for the majority of its template functionality. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) are provided by the imported module and do not exist in the local `layouts/` directory.
 
 ### Naming Conventions
 
@@ -522,7 +522,7 @@ Access in templates:
 
 ## Hugo Template System Migration (v0.146.0+)
 
-> **Note for This Project**: This site uses [Hugo Modules](https://github.com/nkdAgility/HugoGuides/) for template management. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) come from the imported module, **not from the local `layouts/` directory**. The migration notes below apply to Hugo v0.146.0+ in general but are less relevant to this project since most templates are module-provided.
+> **Note for This Project**: This site uses [Hugo Modules](https://github.com/nkdAgility/OpenGuidePlatform/) for template management. Base templates (`baseof.html`, `home.html`, `single.html`, `list.html`) come from the imported module, **not from the local `layouts/` directory**. The migration notes below apply to Hugo v0.146.0+ in general but are less relevant to this project since most templates are module-provided.
 
 This project uses Hugo's new template system introduced in v0.146.0. Here's what you need to know:
 

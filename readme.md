@@ -115,7 +115,7 @@ Making Scrum knowledge accessible globally is essential.
 
 **Technical areas:**
 
-- **Hugo templates** - `site/layouts/` (uses [HugoGuides module](https://github.com/nkdAgility/HugoGuides/))
+- **Hugo templates** - `site/layouts/` (uses [OpenGuidePlatform module](https://github.com/nkdAgility/OpenGuidePlatform/))
 - **Styling** - `site/static/css/`
 - **Infrastructure** - `.github/workflows/`, Azure configuration
 - **Build scripts** - `scripts/` (PowerShell automation)
