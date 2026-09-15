@@ -10,11 +10,13 @@ title: Strategia Emergente (Espansione del SGEP)
 cascade:
 - build:
     render: never
+    publishResources: false
     list: never
   target:
     environment: production
 - build:
     render: never
+    publishResources: false
     list: never
   target:
     environment: preview

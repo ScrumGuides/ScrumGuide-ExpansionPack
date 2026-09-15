@@ -13,8 +13,9 @@ The supported updater installed `v1.0.0`. Settings select floating stable `v1`, 
 
 All supplied PDF hashes match the preserved baseline. Independent review verified that existing guide bodies change only in those Planguage URL repairs. The full canary build passes Prepare, Build and Validate using an explicit absolute BaseUrl. Reports: `.processing/fixed-canary3.log`.
 
-Preview and production Prepare and Build pass, but Validate still incorrectly requires latest routes and PDFs for guides excluded by existing environment cascades. These are shared platform discovery defects; the exclusions remain intact. The PR report job also has a separate missing-comment-user failure. These remaining failures must be fixed and hosted checks rerun before claiming complete acceptance. Reports: `.processing/fixed-preview3.log` and `.processing/fixed-production3.log`.
+The existing exclusion cascades now also set `publishResources: false`, including the Italian wrapper, so excluded guides do not leak bundled PDFs or images. All three targets pass Prepare, Build and Validate against the candidate platform on `codex/scrum-validation-fixes`, using the root entry point with `-PlatformSource Path`. Platform workspace logs: `.processing/scrum-candidate-canary.log`, `.processing/scrum-candidate-preview2.log`, and `.processing/scrum-candidate-production2.log`. These are local candidate results, not released-platform or deployment evidence.
 
+The candidate platform fixes source discovery of environment exclusions and empty GitHub comment responses. Its stable release must be adopted and hosted checks must pass before merge acceptance is complete.
 No production deployment, rule bypass or release tag is part of these source fixes.
 ## Earlier adoption evidence and unresolved checklist
 
