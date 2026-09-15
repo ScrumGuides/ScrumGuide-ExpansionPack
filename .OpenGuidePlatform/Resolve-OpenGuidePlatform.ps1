@@ -12,7 +12,7 @@ function Get-PlatformSettings([string]$Root) {
     $settingsPath=Join-Path $Root '.OpenGuidePlatform/settings.yaml'
     if(-not (Test-Path -LiteralPath $settingsPath)){return $null}
     if((Get-Item -LiteralPath $settingsPath).Attributes -band [IO.FileAttributes]::ReparsePoint){throw 'Linked platform settings are not supported.'}
-    if(-not (Get-Module -ListAvailable powershell-yaml)){
+    if(-not (Get-Module -ListAvailable powershell-yaml | Where-Object Version -ge ([version]'0.4.12'))){
         Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope CurrentUser -Force -Repository PSGallery -ErrorAction Stop
     }
     Import-Module powershell-yaml -MinimumVersion 0.4.12 -ErrorAction Stop

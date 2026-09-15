@@ -2,7 +2,7 @@
 
 ## Current v1 adoption — 15 September 2026
 
-The supported updater installed `v1.0.0`. Settings select floating stable `v1`, and the shared build caller uses `@v1`. PR, main, version-tag, merge-group and manual triggers remain present. Deployment remains disabled.
+The supported updater installed `v1.0.1` (OGP source `1013e1c2faad7bc314c5274177280fa8c6ed6cd3`). Settings select floating stable `v1`, and the shared build caller uses `@v1`. PR, main, version-tag, merge-group and manual triggers remain present. Deployment remains disabled.
 
 ### Site validation fixes
 
@@ -11,11 +11,12 @@ The supported updater installed `v1.0.0`. Settings select floating stable `v1`, 
 - Supplied missing UI labels, with explicit English fallbacks for untranslated history controls.
 - Repaired Planguage image paths using its existing assets and removed two dangling hyperlink wrappers while retaining their text.
 
-All supplied PDF hashes match the preserved baseline. Independent review verified that existing guide bodies change only in those Planguage URL repairs. The full canary build passes Prepare, Build and Validate using an explicit absolute BaseUrl. Reports: `.processing/fixed-canary3.log`.
+All 31 supplied PDF hashes match the preserved baseline. Independent review verified that existing guide bodies change only in the Planguage URL repairs. The existing exclusion cascades also set `publishResources: false`, including the Italian wrapper, so excluded guides do not leak bundled PDFs or images.
 
-The existing exclusion cascades now also set `publishResources: false`, including the Italian wrapper, so excluded guides do not leak bundled PDFs or images. All three targets pass Prepare, Build and Validate against the candidate platform on `codex/scrum-validation-fixes`, using the root entry point with `-PlatformSource Path`. Platform workspace logs: `.processing/scrum-candidate-canary.log`, `.processing/scrum-candidate-preview2.log`, and `.processing/scrum-candidate-production2.log`. These are local candidate results, not released-platform or deployment evidence.
+The released `v1.0.1` passes root-entry-point Prepare, Build and Validate for canary, preview and production, with no ERROR lines. Run `./build.ps1 -Target <target> -PullRequestNumber 345` for each target. Reports are `.processing/released-v1-canary.log`, `.processing/released-v1-preview.log`, and `.processing/released-v1-production.log`. Candidate platform and consumer diffs received independent read-only reviews. `gh actions-lock --verify` passed for the supported action locks; the reusable OGP caller is not covered by that lockfile.
 
-The candidate platform fixes source discovery of environment exclusions and empty GitHub comment responses. Its stable release must be adopted and hosted checks must pass before merge acceptance is complete.
+OGP PR #48 fixed source discovery of environment exclusions and empty GitHub comment responses; its required hosted checks passed and stable release verification succeeded. Final hosted checks on this consumer PR remain required before merge. Local artifact verification is separate from deployment or visual-equivalence evidence.
+
 No production deployment, rule bypass or release tag is part of these source fixes.
 ## Earlier adoption evidence and unresolved checklist
 

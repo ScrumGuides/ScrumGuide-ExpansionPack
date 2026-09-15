@@ -1,27 +1,31 @@
 assembly-versioning-scheme: MajorMinorPatch
-mode: ContinuousDeployment
-continuous-delivery-fallback-tag: "Canary"
+mode: ContinuousDelivery
 next-version: 1.0.0
 branches:
   main:
-    mode: ContinuousDeployment
-    tag: "preview"
+    mode: ContinuousDelivery
     increment: Patch
-    is-mainline: true
-    prevent-increment-of-merged-branch-version: false
     tracks-release-branches: true
     regex: ^master$|^main$
+    label: preview
+    is-main-branch: true
+    prevent-increment:
+      of-merged-branch: false
   release:
-    mode: ContinuousDelivery
-    tag: ""
+    mode: ManualDeployment
     increment: Patch
     track-merge-target: false
     regex: ^release(s)?[\/-]
     source-branches:
-      - master
-      - main
+    - main
     is-release-branch: true
-    is-mainline: false
+    label: ""
+    is-main-branch: false
 ignore:
   sha: []
 merge-message-formats: {}
+commit-message-incrementing: Enabled
+major-version-bump-message: (\+semver:\s?(breaking|major))|(^[a-z]+(\([^\r\n)]+\))?!:)|(BREAKING[ -]CHANGE:)
+minor-version-bump-message: (\+semver:\s?(feature|minor))|(^feat(\([^\r\n)]+\))?:)
+patch-version-bump-message: (\+semver:\s?(fix|patch))|(^(fix|perf)(\([^\r\n)]+\))?:)
+no-bump-message: '\+semver:\s?(none|skip)'

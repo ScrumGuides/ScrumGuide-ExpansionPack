@@ -9,7 +9,7 @@ Do not put lang in Hugo front matter; PDF generation passes Pandoc language meta
 Never enable permanently excluded languages in production.
 Do not modify generated platform adapters, skills or the installation record by hand.
 Workflow callers are site-owned. Preserve site triggers, inputs and secrets; use the coordinated update to change OGP release references and regenerate the Actions lockfile.
-Update them using ./build.ps1 Update -ring preview on a review branch and review the complete diff.
+Update them using ./build.ps1 Update -WhatIf, then ./build.ps1 Update on a review branch and review the complete diff. The selected version family and ring come from .OpenGuidePlatform/settings.yaml.
 For first installation, use the remote bootstrap command documented in the platform README.
 
 Shared skills are in .agents/skills. To load the installed Core module in PowerShell:
