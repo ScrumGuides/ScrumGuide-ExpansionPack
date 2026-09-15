@@ -18,6 +18,8 @@ monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.8
+aliases:
+  - /complexity/latest
 ---
 
 *License: Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).* © 2017-*2025 Cynefin.io.*  

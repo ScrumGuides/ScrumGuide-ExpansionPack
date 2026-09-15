@@ -18,6 +18,8 @@ monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.8
+aliases:
+  - /complexity/latest
 ---
 
 ***Collected Resources for Scrum Guide Expansion Pack***  

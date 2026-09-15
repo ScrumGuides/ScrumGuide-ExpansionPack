@@ -277,11 +277,11 @@ ScrumGuide-ExpansionPack/
 │   └── Create-GuidePDFs.ps1  # PDF generation script
 ├── public/                # Generated site (git-ignored)
 ├── docs/                  # Project documentation
-├── agents.md              # AI assistant guide
+├── AGENTS.md              # AI assistant guide
 └── .github/               # GitHub Actions workflows
 ```
 
-**Note**: Base Hugo templates come from an imported module (`github.com/nkdAgility/HugoGuides/module`). Local `layouts/` contains only overrides and site-specific templates.
+**Note**: Base Hugo templates come from an imported module (`github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides`). Local `layouts/` contains only overrides and site-specific templates.
 
 ## Next Steps
 

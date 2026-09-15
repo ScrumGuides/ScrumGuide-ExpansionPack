@@ -165,7 +165,7 @@ taxonomies:
 
 module:
   imports:
-    - path: github.com/nkdAgility/HugoGuides/module
+    - path: github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides
 markup:
   goldmark:
     renderer:

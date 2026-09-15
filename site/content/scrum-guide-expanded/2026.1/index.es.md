@@ -16,4 +16,6 @@ monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.8
+aliases:
+  - /scrum-guide-expanded/latest
 ---

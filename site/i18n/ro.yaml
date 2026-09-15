@@ -365,3 +365,40 @@
 
 - id: badge_not_in_preview_title
   translation: "Nu va fi construit în previzualizare"
+
+- id: show_more
+  translation: "Arată mai mult"
+
+- id: show_less
+  translation: "Arată mai puțin"
+
+# English fallback for history labels awaiting translation.
+- id: active_fork_label
+  translation: "Fork"
+
+- id: active_fork_updated_label
+  translation: "Active fork updated"
+
+- id: current_fork_label
+  translation: "Current Fork"
+
+- id: fork_indicator
+  translation: "Forked from:"
+
+- id: forked_from_indicator
+  translation: "Forked from:"
+
+- id: historical_fork_label
+  translation: "Historical fork from"
+
+- id: historical_version_label
+  translation: "Historical version from"
+
+- id: read_fork_button
+  translation: "Read Fork"
+
+- id: this_is_fork_label
+  translation: "This is a fork"
+
+- id: view_archive_button
+  translation: "View Archive"
