@@ -16,6 +16,7 @@ languages:
     weight: 1
     title: Scrum Guide Expansion Pack
     params:
+      seo_title: "Scrum Guide Expansion Pack | Practical Scrum Guidance"
       description: Navigate today's complex product environments with practical guidance on complexity, product thinking, systems of work, and leadership.
       keywords: Scrum, ScrumExpansion.org, Scrum Guide Expansion Pack, Scrum guidance, advanced Scrum practices, Scrum for modern work, adaptive enterprise, agile product delivery, empirical Scrum, product thinking, complexity theory in Scrum, Scrum leadership, professional Scrum, Scrum and AI, Scrum resources, Scrum learning hub, Scrum community site
   de:
