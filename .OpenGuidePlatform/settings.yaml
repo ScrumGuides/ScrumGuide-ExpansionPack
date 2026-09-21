@@ -5,7 +5,7 @@ site:
   source: site
 delivery:
   canary:
-    url: https://agreeable-island-0c966e810-canary-{pr}.centralus.6.azurestaticapps.net/
+    url: https://agreeable-island-0c966e810-canary{pr}.centralus.6.azurestaticapps.net/
     environment: canary-{pr}
   preview:
     url: https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/
