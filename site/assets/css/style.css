@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/vazirmatn@33.0.3/Vazirmatn-font-face.css");
+
 /* ==================================
    Scrum Guide Expansion Pack Styles
    ================================== */
@@ -506,9 +508,19 @@ sup + sup {
 
 h2 {
   position: relative;
-  padding-left: 1.5rem;
+  padding-inline-start: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  border-left: 4px solid var(--bs-primary);
+  border-inline-start: 4px solid var(--bs-primary);
   padding-bottom: 0.75rem;
+}
+
+/* Vazirmatn for Persian and other right-to-left pages */
+[dir="rtl"] {
+  --bs-body-font-family: "Vazirmatn", Tahoma, sans-serif;
+  --bs-font-sans-serif: "Vazirmatn", Tahoma, sans-serif;
+}
+
+[dir="rtl"] body {
+  font-family: "Vazirmatn", Tahoma, sans-serif;
 }
