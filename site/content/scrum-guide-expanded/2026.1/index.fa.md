@@ -22,13 +22,13 @@ translators:
   - name: Pedram Keshavarzi
     githubUsername: pedicurus
     url: https://www.agile-gap.com/p/pedram-keshavarzi
-    role: contributor
-    weight: 2
+    role: translator
+    weight: 1
   - name: Ali Naderivarandi
     githubUsername: Alinaderivarandi
     url: https://www.linkedin.com/in/ali-naderivarandi-9a269a261
-    role: contributor
-    weight: 2
+    role: translator
+    weight: 1
   - name: Jamasb Samia Kalantari
     githubUsername: JaamySkm
     role: contributor
