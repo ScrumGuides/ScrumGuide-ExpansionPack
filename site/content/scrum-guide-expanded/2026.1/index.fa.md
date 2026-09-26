@@ -31,24 +31,24 @@ translators:
     weight: 1
   - name: Jamasb Samia Kalantari
     githubUsername: JaamySkm
-    role: contributor
-    weight: 2
+    role: translation reviewer
+    weight: 1
   - name: Farzad Tarapourvala
     githubUsername: farzadtara
-    role: contributor
-    weight: 2
+    role: translation reviewer
+    weight: 1
   - name: Pantea Shahriari
     githubUsername: pantehash
-    role: contributor
-    weight: 2
+    role: translation reviewer
+    weight: 1
   - name: Ali Saxaei
     githubUsername: AliSaxaei
-    role: contributor
-    weight: 2
+    role: translation reviewer
+    weight: 1
   - name: Mohammad Javad Bathaei
     githubUsername: javadbat
-    role: contributor
-    weight: 2
+    role: translation reviewer
+    weight: 1
 type: guide
 dir: rtl
 mainfont: HMXRoya
