@@ -50,13 +50,13 @@ A Scrum Guide Expansion Pack a Scrum minden egyes elemét a „*mit és miért?�
 
 Ez a dokumentum feltételezi a Scrum és a kapcsolódó nyelvezet bizonyos szintű ismeretét. Hasznos lehet, ha a dokumentum elolvasása előtt először a 2020 Scrum Guide-ot olvassa el. A hivatkozások forrásmegjelölés céljából szerepelnek a dokumentumban. Emellett a kapcsolódó SGEP-dokumentumok és azok hivatkozásai lehetőséget biztosítanak az olvasónak a felfedezésre, a kutatásra és a tanulásra, hogy szélesebb körű és mélyebb megértést szerezzen.
 
-A Scrumot a gyakorlati szakembereknek és a Stakeholdereknek akkor érdemes alkalmazniuk, amikor az valóban a megfelelő megközelítés. Alkalmazásakor a cselekvőképesség, az időszerű cselekvés, a bátorság, az átláthatóság, az értékelés (Inspection), az alkalmazkodás (Adaptation), a munkaritmus és a reziliencia szemléletére építve folyamatos fejlődésre kell törekedniük annak érdekében, hogy támogassák a termék céljait (a felhasználók számára megvalósuló Outcome-okat) és a szervezet céljait (az üzleti Impact elérését). Remélhetőleg a Scrum alkalmazása túl fog mutatni az itt leírt iránymutatáson és ezáltal tartós motivációt épít majd a felfedezésre, a kérdezésre és a folyamatos fejlődésre.
+A Scrumot a gyakorlati szakembereknek és a Stakeholdereknek akkor érdemes alkalmazniuk, amikor az valóban a megfelelő megközelítés. Alkalmazásakor a cselekvőképesség, az időszerű cselekvés, a bátorság, az átláthatóság, az ellenőrzés (Inspection), az alkalmazkodás (Adaptation), a munkaritmus és a reziliencia szemléletére építve folyamatos fejlődésre kell törekedniük annak érdekében, hogy támogassák a termék céljait (a felhasználók számára megvalósuló Outcome-okat) és a szervezet céljait (az üzleti Impact elérését). Remélhetőleg a Scrum alkalmazása túl fog mutatni az itt leírt iránymutatáson és ezáltal tartós motivációt épít majd a felfedezésre, a kérdezésre és a folyamatos fejlődésre.
 
-A kiegészítő csomag (Expansion Pack) arra szolgál, hogy támogassa az önszerveződő csapatok [11] által végzett termékszállítás rengeteg aspektusát, amelyet a Stakeholderek igényei vagy elvárásai vezérelnek, egy problémára vagy lehetőségre adott válaszként. Ez magában foglalja (de nem kizárólagosan) a termék felfedezését, fejlesztését, leszállítását és az érték megvalósítását. Bár a Scrum eredetileg szoftverfejlesztési környezetből származik, mára számos más területen is széles körben elterjedt, lehetővé téve az értékteremtést komplex [12–17] tevékenységek révén. Használatának terjedésével egyre több szakember – mérnökök, programozók, kutatók, elemzők, jogászok, marketingesek és tudósok – alkalmazza sikeresen a Scrumot saját szakterületén.
+A kiegészítő csomag (Expansion Pack) arra szolgál, hogy támogassa az önmenedzselő csapatok [11] által végzett termékszállítás rengeteg aspektusát, amelyet a Stakeholderek igényei vagy elvárásai vezérelnek, egy problémára vagy lehetőségre adott válaszként. Ez magában foglalja (de nem kizárólagosan) a termék felfedezését, fejlesztését, leszállítását és az érték megvalósítását. Bár a Scrum eredetileg szoftverfejlesztési környezetből származik, mára számos más területen is széles körben elterjedt, lehetővé téve az értékteremtést komplex [12–17] tevékenységek révén. Használatának terjedésével egyre több szakember – mérnökök, programozók, kutatók, elemzők, jogászok, marketingesek és tudósok – alkalmazza sikeresen a Scrumot saját szakterületén.
 
 A Stakeholderek számára teremtett érték (a Scrum Guide 2020 csupán általánosságban beszél az értékről) minden olyan észlelt vagy megélt szükségletet jelent, amelyet egy Stakeholder – ideértve többek között az ügyfeleket, a döntéshozókat és a felhasználókat – fontosnak tart, és amelynek kielégítését a csapat biztosítja. Azonban az érdekelt felek nem mindig vannak tisztában azzal, mi lehet számukra valóban értékes. A megfigyelés vagy bármilyen bizonyíték – akár szándékosan, akár véletlenül – felszínre hozhatja az értéket, és hatással lehet a prioritásokra.
 
-Amint új információk bukkannak fel, a potenciálisan értékes elemeket azonosítani, megfigyelni (Inspection), finomítani és adaptálni kell. Az érték mindaddig csupán feltételezés, amíg azt bizonyítékok – például megfigyelések vagy mért Outcome-ok – nem támasztják alá. Ezek összesített hatása jelenik meg a szervezet szintjén Impactként.
+Amint új információk bukkannak fel, a potenciálisan értékes elemeket azonosítani, ellenőrizni (Inspection), finomítani és adaptálni kell. Az érték mindaddig csupán feltételezés, amíg azt bizonyítékok – például megfigyelések vagy mért Outcome-ok – nem támasztják alá. Ezek összesített hatása jelenik meg a szervezet szintjén Impactként.
 
 ## Scrum dióhéjban
 
@@ -70,15 +70,15 @@ A Scrum ösztönzi a problémákat vagy lehetőségeket bemutató Stakeholder é
 
 Dióhéjban a Scrum egy olyan környezetre épül, ahol:
 
-1.  A támogató Stakeholderek – a továbbiakban Támogatók (Supporters) – a Scrum Master útmutatásával és támogatásával proaktívan elősegítik a Scrum bevezetését és megerősödését. (a Scrum Guide 2020 14-szer említi, de nem definiálja a stakeholder fogalmát)
+1.  A támogató Stakeholderek – a továbbiakban Supporterek (támogatók) – a Scrum Master útmutatásával és támogatásával proaktívan elősegítik a Scrum bevezetését és megerősödését. (a Scrum Guide 2020 14-szer említi, de nem definiálja a stakeholder fogalmát)
 
 2.  A Product Owner meghatározza a Product Goal-t, amely kulcsszerepet játszik a Stakeholderek számára az értékteremtésben.
 
-3.  Az önszerveződő Scrum Team [11] meghatározza, finomhangolja és értékes eredményekké alakítja a kiválasztott munka elemeket.
+3.  Az önmenedzselő Scrum Team [11] meghatározza, finomhangolja és értékes eredményekké alakítja a kiválasztott munka elemeket.
 
-4.  A Scrum Team és az érintettek a Sprint során közösen ellenőrzik az eredményeket, és a tapasztalatok alapján alkalmazkodnak a változásokhoz.
+4.  A Scrum Team és a Stakeholderek a Sprint során közösen ellenőrzik az eredményeket, és a tapasztalatok alapján alkalmazkodnak a változásokhoz.
 
-5.  A Támogatók (Supporters) segítik a Scrum Team-et a sikeres működésben. (A Scrum Guide 2020 még nem vezeti be a Támogató (Supporter) fogalmát.)
+5.  A Supporterek segítik a Scrum Team-et a sikeres működésben. (A Scrum Guide 2020 még nem vezeti be a Supporter (támogató) fogalmát.)
 
 6.  Ezután a ciklus megismétlése következik.
 
@@ -88,13 +88,13 @@ Ez a fejlesztési ciklus egy fordulópontját jelöli, amikor a termék átkerü
 
 A Scrum szándékosan nem teljes. Ahelyett, hogy részletes folyamatokat írna elő, egy olyan keretrendszert biztosít, amely iránymutatást nyújt az emberi kapcsolatok és a célirányos együttműködés terén. Különféle folyamatok, technikák és módszerek egészíthetik ki a Scrumot, de ezek alkalmazása mindig a kontextustól függ, ezért lehetnek különbségek a Scrum felhasználásában.
 
-A Scrum képes beilleszkedni a meglévő gyakorlatokba, de bizonyos esetekben szükségtelenné vagy elavulttá is teheti azokat. A Scrum Team, a Támogatók (Supporters), a vezetés, a munkakörnyezet és az alkalmazott technikák átlátható értékelése révén a Scrum elősegíti a folyamatos fejlődést.
+A Scrum képes beilleszkedni a meglévő gyakorlatokba, de bizonyos esetekben szükségtelenné vagy elavulttá is teheti azokat. A Scrum Team, a Supporterek, a vezetés, a munkakörnyezet és az alkalmazott technikák átlátható értékelése révén a Scrum elősegíti a folyamatos fejlődést.
 
 A „Scrum” kifejezést – amely eredetileg a rögbi játékból származik – Hirotaka Takeuchi és Ikujiro Nonaka alkotta meg [18] a tudásalapú munkavégzés kontextusában azoknak a csapatoknak a leírására, amelyek ilyen módon működtek, és amelyeknél a tudás gyorsan terjedt az egész szervezeten belül a kiváló termékek létrehozása érdekében.
 
 ## Támogató és kiegészítő elmélet
 
-A Scrum alapja az önszerveződő Scrum Team [11], az emergens folyamatok, az empirikus [19] megközelítés és a lean gondolkodás [20]. Ezt támasztják alá az alábbi támogató és kiegészítő elméletek, valamint olyan gondolatok, mint például:
+A Scrum alapja az önmenedzselő Scrum Team [11], az emergens folyamatok, az empirikus [19] megközelítés és a lean gondolkodás [20]. Ezt támasztják alá az alábbi támogató és kiegészítő elméletek, valamint olyan gondolatok, mint például:
 
 - Felelősségvállalás,
 
@@ -110,13 +110,13 @@ A Scrum alapja az önszerveződő Scrum Team [11], az emergens folyamatok, az em
 
 Az olyan komplex feladatok esetében, mint a termékek fejlesztése, ahol több a kiszámíthatatlan tényező, mint a biztos információ, a szakértelem önmagában értékes, de nem elegendő, mivel az ok-okozati hatásmechanizmus csak utólagosan visszatekintve nyer értelmet. A komplexitásalapú megközelítés [12–17] értékes eszközöket és ötleteket nyújt, továbbá elősegíti a mélyebb megértést. A Scrum Team tagjainak időre van szükségük a gondolkodáshoz, egymás segítéséhez, az újratervezéshez vagy új megközelítések alkalmazásához. A kognitív sokszínűség és az empirizmus segíthet a komplex munka kezelésében.
 
-Minden "ismertnek" hitt tényező, beleértve a piacot és a Stakeholdereket (nem csak az ügyfeleket értjük ezalatt), téves is lehet. Egyes elvárások, igények vagy szükségletek idővel megjelennek, vagy eltűnnek, fontosságuk vagy sürgősségük viszonylagosan változik. Az empirikus megközelítés mechanizmusokat biztosít a feltételezések teszteléséhez, valamint a vizsgálatra (Inspection) és az alkalmazkodásra (Adaptation).
+Minden "ismertnek" hitt tényező, beleértve a piacot és a Stakeholdereket (nem csak az ügyfeleket értjük ezalatt), téves is lehet. Egyes elvárások, igények vagy szükségletek idővel megjelennek, vagy eltűnnek, fontosságuk vagy sürgősségük viszonylagosan változik. Az empirikus megközelítés mechanizmusokat biztosít a feltételezések teszteléséhez, valamint az ellenőrzésre (Inspection) és az alkalmazkodásra (Adaptation).
 
 Általában semmi sem marad örökre ugyanazon a helyen. A Scrum Team olyan, eddig ismeretlen megoldások feltárásán és fejlesztésén dolgozhat, amelyek során természetes módon a komplexitás és a káosz határán mozog. Egy idő után, ahogy felfedezik a mintákat és heurisztikákat, a helyzet kevésbé kaotikus, inkább komplex lesz. Később az adott helyzethez képest, a Scrum Team talán közelebb kerül a rendezett térhez, ami ugyan nem könnyen, de megtervezhető. Vagy a dolgok fordítva is alakulhatnak. A Scrum-csapat számára célszerű megállni egy pillanatra és átgondolni, hogy a jelenlegi helyzetben valóban ott tart-e, ahol gondolta. A lényeg az, hogy a termékfejlesztés során gyakran kell szembesülni a kiszámíthatatlansággal, és a Scrum hasznosabb megközelítés lehet, mint a kiszámíthatóság illúzióival kecsegtető variánsok.
 
-*A ki, miért, mit, hogyan, hol és mikor* megvizsgálásán (Inspection) és adaptálásán keresztül rengeteg lehetőség kínálkozik. Fontos, hogy mérsékeljük azt, ami nem működik, és erősítsük azt, ami működik. Az átláthatóság, a vizsgálat és a kitűzött célokhoz való alkalmazkodás - az eredményekről kapott visszajelzések (és a nem kívánt következmények) alapján - értékteremtést, betekintést, kockázatokat és megkérdőjelezett feltételezéseket eredményez; ez elősegítheti a folyamatos fejlődést.
+*A ki, miért, mit, hogyan, hol és mikor* ellenőrzésén (Inspection) és adaptálásán keresztül rengeteg lehetőség kínálkozik. Fontos, hogy mérsékeljük azt, ami nem működik, és erősítsük azt, ami működik. Az átláthatóság, a vizsgálat és a kitűzött célokhoz való alkalmazkodás - az eredményekről kapott visszajelzések (és a nem kívánt következmények) alapján - értékteremtést, betekintést, kockázatokat és megkérdőjelezett feltételezéseket eredményez; ez elősegítheti a folyamatos fejlődést.
 
-Építs bizalmat egy önszerveződő csapattal, a vizsgálat, az alkalmazkodás, az értékes munka elvégzése és az új meglátások feltárása révén.
+Építs bizalmat egy önmenedzselő csapattal, a vizsgálat, az alkalmazkodás, az értékes munka elvégzése és az új meglátások feltárása révén.
 
 ## Kibontakozás (Emergence)
 
@@ -124,19 +124,19 @@ Az emergencia [21] azt jelenti, amikor komplex rendszereken [12–17] belüli k�
 
 A Scrum csapatok komplex, adaptív rendszerekként működnek, nem irányítás alatt állnak, hanem rövid, párhuzamosan futó, biztonságosan elbukható kísérletek és a folyamatosan érkező visszajelzések révén formálódnak. Az olyan minták [23], mint a Swarming, a Stable Teams és a Kaizen, segítenek a kialakuló viselkedésmódok felismerésében és formálásában. A Scrum nem kényszerít ki eredményeket, hanem lehetőséget teremt arra, hogy a Scrum Team felfedezze a saját működési formáit – például innovatív megoldások vagy új munkamódszerek használatát – és felerősítse azokat, miközben a kevésbé hasznosakat minimalizálja.
 
-Ez a megközelítés felismeri, hogy az önszerveződés [11] nem egy felülről lefelé (top-down) megtervezendő dolog, inkább valami, amit a megfelelő környezetben a felszínre hozhatunk – egy olyan környezetben, amely céltudatos, összehangolt és életteli, visszhangozva Christopher Alexander „Quality Without a Name” (QWAN) [24] elgondolását. A Scrum végső soron nem kockázatként kezeli ezt az önmegvalósítást (emergence), amelyet el kellene kerülni, hanem olyan erőként, amelyet érdemes éltetni a termékfejlesztés kiválóságának elérése érdekében.
+Ez a megközelítés felismeri, hogy az önmenedzselés [11] nem egy felülről lefelé (top-down) megtervezendő dolog, inkább valami, amit a megfelelő környezetben a felszínre hozhatunk – egy olyan környezetben, amely céltudatos, összehangolt és életteli, visszhangozva Christopher Alexander „Quality Without a Name” (QWAN) [24] elgondolását. A Scrum végső soron nem kockázatként kezeli ezt a kibontakozást (emergence), amelyet el kellene kerülni, hanem olyan erőként, amelyet érdemes éltetni a termékfejlesztés kiválóságának elérése érdekében.
 
-## Önszerveződő Scrum Team
+## Önmenedzselő Scrum Team
 
-Az önszerveződő [11] Scrum Team maga ellenőrzi, hogy jó úton halad-e, cselekszik, ha nem így van, eldönti, hogyan dolgozzon, megoldja a csapaton belüli konfliktusokat és orvosolja a felmerülő problémákat. Ez azt jelenti, hogy a vezetők (managers) [25] – amennyiben szerepet játszanak a folyamatban – nem mondják meg a Scrum Teamnek, mit tegyen, és nem döntenek arról sem, hogy a csapat mely tagjának kellene a problémák megoldására fókuszálnia – sem közvetlenül, sem közvetetten. Ha jelen vannak a vezetők, általában kedvezőbb, ha vezetői képességeket mutatnak.
+Az önmenedzselő [11] Scrum Team maga ellenőrzi, hogy jó úton halad-e, cselekszik, ha nem így van, eldönti, hogyan dolgozzon, megoldja a csapaton belüli konfliktusokat és orvosolja a felmerülő problémákat. Ez azt jelenti, hogy a vezetők (managers) [25] – amennyiben szerepet játszanak a folyamatban – nem mondják meg a Scrum Teamnek, mit tegyen, és nem döntenek arról sem, hogy a csapat mely tagját kellene félrehívni a problémák rendezése érdekében – sem közvetlenül, sem közvetetten. Ha jelen vannak a vezetők, általában kedvezőbb, ha vezetői képességeket mutatnak.
 
-Az érték köré szerveződő, önmenedzselő Scrum csapatok elengedhetetlenek a kreatív problémamegoldáshoz és az új lehetőségek kiaknázásához; a nem önszerveződő Scrum Teamekre való támaszkodás gátolja a komplexitás kezelésének képességét [12–17]. Az önszerveződő Scrum Team [11] nem tévesztendő össze az egyéni szinten megjelenő „önmenedzseléssel”. A zökkenőmentes együttműködés teszi lehetővé egy kiváló csapat kialakulását. A csapatszintű autonómia és a fokozott döntéshozatali hatékonyság egy hierarchiamentes környezetben sokban hozzájárulhat az önállóság fejlesztéséhez.
+Az érték köré szerveződő, önmenedzselő Scrum csapatok elengedhetetlenek a kreatív problémamegoldáshoz és az új lehetőségek kiaknázásához; a nem önmenedzselő Scrum Teamekre való támaszkodás gátolja a komplexitás kezelésének képességét [12–17]. Az önmenedzselő Scrum Team [11] nem tévesztendő össze az egyéni szinten megjelenő „önmenedzseléssel”. A zökkenőmentes együttműködés teszi lehetővé egy kiváló csapat kialakulását. A csapatszintű autonómia és a fokozott döntéshozatali hatékonyság egy hierarchiamentes környezetben sokban hozzájárulhat az önállóság fejlesztéséhez.
 
 ## Professzionalizmus
 
 A szakmaiság (Professionalism) a kiválóságra való törekvést, valamint az együttműködésen alapuló értékteremtést jelenti — tisztelet, átláthatóság és felelősségvállalás mentén. Professzionálisan viselkedni azt jelenti, hogy adott dolgokat mindig megteszünk, másokat pedig soha, függetlenül a körülményektől.
 
-A profizmus magába foglalja azt is, hogy maximális felelősséget vállalunk a termékért (Product), annak teljes életciklusa során – a kezdetektől a végéig. Ez a felelősség kiterjed a karbantartásra is - gyakran üzemeltetés formájában - és kiváló lehetőséget nyújt a termékfejlesztőknek az eredményekről szóló visszajelzésekből való tanulásra, amit gyakran DevOps-nak neveznek.
+A profizmus magába foglalja azt is, hogy maximális felelősséget vállalunk a termékért (Product), annak teljes életciklusa során – a kezdetektől a végéig. Ez a felelősség kiterjed a karbantartásra is - gyakran üzemeltetés formájában - és kiváló lehetőséget nyújt a termékfejlesztőknek az eredményekről szóló visszajelzésekből való tanulásra.
 
 A szoftverfejlesztés területén a professzionalizmusnak része a technikai kiválóság [26] is, de nem csak ezzel azonosítjuk. A technikai kiválóság magában foglal – többek között – olyan gyakorlatokat, mint: Specification by Example, Clean Code, Unit Testing, Test-Driven Development, Test Automation, Continuous Integration, Continuous Delivery, Architecture and Design, Acceptance Testing valamint a tesztelés tudatos és szándékos figyelembevétele.
 
@@ -164,9 +164,9 @@ Az empirizmus alapvetően az a filozófia, miszerint a tudás tapasztalásból �
 
 ## Átláthatóság (Transparency)
 
-Az átláthatóság a Scrum egyik alappillére. Felfedi a valóságot és a munka áttekinthetőségét, valamint lehetővé teszi az empirikus megközelítést. Az átláthatóság pontosabb képet nyújt a valóságról, kiindulópontja a ellenőrzésnek (Inspection) és az alkalmazkodásnak (Adaptation). A kialakuló folyamatnak, az munkának és az elért eredményeknek láthatónak kell lenniük azok számára, akik a munkát végzik, illetve akik a célok és Product Backlog-elemek formájában kapják a bemeneti adatokat, és az az Inkrementumok formájában a kapcsolódó kimeneti eredményeket.
+Az átláthatóság a Scrum egyik alappillére. Felfedi a valóságot és a munka áttekinthetőségét, valamint lehetővé teszi az empirikus megközelítést. Az átláthatóság pontosabb képet nyújt a valóságról, kiindulópontja az ellenőrzésnek (Inspection) és az alkalmazkodásnak (Adaptation). A kialakuló folyamatnak, a munkának és az elért eredményeknek láthatónak kell lenniük azok számára, akik a munkát végzik, illetve akik a célok és Product Backlog-elemek formájában kapják a bemeneti adatokat, és az Inkrementumok formájában a kapcsolódó kimeneti eredményeket.
 
-A fontos döntések az eredménytermékeken, (artifacts), kísérleteken, release-eken vagy eredmény-visszajelzéseken alapulnak. Az átláthatatlanság gyengítheti a megfigyelés hatékonyságát, ami olyan döntésekhez vezethet, amelyek redukálják a teremtett értéket és növelik a kockázatot. Az átláthatóság lehetővé teszi a hatékony ellenőrzést.
+A fontos döntések az artifaktokon (artifacts), kísérleteken, release-eken vagy eredmény-visszajelzéseken alapulnak. Az átláthatatlanság gyengítheti az ellenőrzés (Inspection) hatékonyságát, ami olyan döntésekhez vezethet, amelyek redukálják a teremtett értéket és növelik a kockázatot. Az átláthatóság lehetővé teszi a hatékony ellenőrzést.
 
 Az eredmény-visszajelzés olyan - ideális esetben mennyiségi és minőségi – adatokat jelent, amelyek a termék vagy a környezet változásaiból származhatnak. Hozzájárul a Stakeholder számára nyújtott értékekhez, a ráfordított erőfeszítésekhez, erőforrásokhoz vagy költségekhez. Az emberek nem erőforrások.
 
@@ -174,17 +174,17 @@ Az átláthatóság megvalósítása irreális és potenciálisan lehetetlen, ha
 
 ## Ellenőrzés (Inspection)
 
-Az ellenőrzésa Scrum egy másik alappillére. A valóság célzott vizsgálatát jelenti, tekintettel a termék célra (Product Goal), valamint a Scrum Team és a Stakeholderek hatékonyságára. Az ellenőrzés lehetővé teszi az alkalmazkodást. Az ellenőrzés a valóság szándékos vizsgálatát jelenti, és azon információkra épül, amelyeket láthatóvá tettek – beleértve a bizonyítékokat és a megfigyeléseket is. A Scrum eseményei biztosítják azt a ritmust (cadence), amely támogatja az ellenőrzést és az alkalmazkodást.
+Az ellenőrzés a Scrum egy másik alappillére. A valóság célzott vizsgálatát jelenti, tekintettel a termék célra (Product Goal), valamint a Scrum Team és a Stakeholderek hatékonyságára. Az ellenőrzés lehetővé teszi az alkalmazkodást. Az ellenőrzés a valóság szándékos vizsgálatát jelenti, és azon információkra épül, amelyeket láthatóvá tettek – beleértve a bizonyítékokat és a megfigyeléseket is. A Scrum eseményei biztosítják azt a ritmust (cadence), amely támogatja az ellenőrzést és az alkalmazkodást.
 
-A Scrum Artefaktumok (Artifacts), a hozzájuk kapcsolódó kötelezettségvállalásokat (commitments), valamint az elfogadott célok felé tett előrehaladást gyakran és alaposan kell ellenőrizni annak érdekében, hogy időben felismerjük a kialakuló tendenciákat [21]. Az artefaktumok, kísérletek, release folyamatok, a piac vagy az eredményekből származó visszajelzések (result feedback) ellenőrzése új tanulságokat vagy mellékhatásokat tárhat fel. Mellékhatás alatt értjük a váratlan vagy nem szándékos eredményeket/következményeket.
+A Scrum artifaktok (Artifacts), a hozzájuk kapcsolódó kötelezettségvállalások (commitments), valamint az elfogadott célok felé tett előrehaladást gyakran és alaposan kell ellenőrizni annak érdekében, hogy időben felismerjük a kialakuló tendenciákat [21]. Az artifaktok, kísérletek, release folyamatok, a piac vagy az eredményekből származó visszajelzések (result feedback) ellenőrzése új tanulságokat vagy mellékhatásokat tárhat fel. Mellékhatás alatt értjük a váratlan vagy nem szándékos eredményeket/következményeket.
 
 A transzparencia nélküli ellenőrzés nem informatív, félrevezető és pazarló lehet.
 
 ## Alkalmazkodás (Adaptation)
 
-Az alkalmazkodás a Scrum egyik alappillére. A termék irányvonalát figyelembe véve elvárás, hogy a Scrum Team és az érdekelt felek (Stakeholders) a valósághoz alkalmazkodjanak abban a pillanatban, amikor javítási lehetőségek merülnek fel – ilyen lehet például egy kísérlet eredménye (Outcome), új ismeretek, kockázatok vagy lehetőségek. Az alkalmazkodás különösen nehézzé válik, ha a szervezetben hatékonysági problémák állnak fenn, vagy ha az érintett szerepkörök nem álnak készen, nem hajlandóak vagy nem képesek elvégezni a szükséges lépéseket.
+Az alkalmazkodás a Scrum egyik alappillére. A termék irányvonalát figyelembe véve elvárás, hogy a Scrum Team és az érdekelt felek (Stakeholders) a valósághoz alkalmazkodjanak abban a pillanatban, amikor javítási lehetőségek merülnek fel – ilyen lehet például egy kísérlet eredménye (Outcome), új ismeretek, kockázatok vagy lehetőségek. Az alkalmazkodás különösen nehézzé válik, ha a szervezetben hatékonysági problémák állnak fenn, vagy ha az érintett szerepkörök nem állnak készen, nem hajlandóak vagy nem képesek elvégezni a szükséges lépéseket.
 
-Az alkalmazkodás a tényeken alapuló „valóság” elfogadásával kezdődik. Az alkalmazkodás tipikusan a Scrum Artefaktumok (Artifacts), a hozzájuk tartozó kötelezettségvállalások (commitments), a Scrum csapat, a Stakeholderek, a Vezetők (Leaders) és a szervezet szintjén valósul meg. Ha bármelyik területen az elfogadható értékhatárokon túl történik eltérés, vagy az elkészült termék nem felel meg az elvárásoknak, a lehető leghamarabb cselekedni kell és elvégezni az indokolt változtatásokat.
+Az alkalmazkodás a tényeken alapuló „valóság” elfogadásával kezdődik. Az alkalmazkodás tipikusan a Scrum artifaktok (Artifacts), a hozzájuk tartozó kötelezettségvállalások (commitments), a Scrum csapat, a Stakeholderek, a Vezetők (Leaders) és a szervezet szintjén valósul meg. Ha bármelyik területen az elfogadható értékhatárokon túl történik eltérés, vagy az elkészült termék nem felel meg az elvárásoknak, a lehető leghamarabb cselekedni kell és elvégezni az indokolt változtatásokat.
 
 Alkalmazkodás (Adaptation) nélkül az átláthatóság (Transparency) és az ellenőrzés (Inspection) elveszíti az értelmét.
 
@@ -200,11 +200,11 @@ A Scrum Team és a Supporterek vállalják, hogy őszintén kommunikálnak a vé
 
 A nagy sávszélességű beszélgetések olyan kommunikációs formák, amelyek gyors, gazdag és világos információcserét tesznek lehetővé. Jellemzően személyes megbeszéléseket jelent– akár személyesen, akár videóhíváson, vizuális menedzsmenten vagy (fizikai vagy digitális) táblákon keresztül – ahol a résztvevők nemcsak a szavakat, hanem a hangszínt, arckifejezéseket, rajzolást vagy a testbeszédet is felhasználhatják egymás teljes megértése érdekében.
 
-Mivel a sprintek rövidek, az esetleges kudacroknak kicsinek és átmenetinek kell lenniük, a kockázatokat pedig gyors és nyílt visszajelzések révén kell felismerni és kezelni. Talán az egyetlen valódi kudarc az, ha nem tanulunk semmit.
+Mivel a sprintek rövidek, az esetleges kudarcoknak kicsinek és átmenetinek kell lenniük, a kockázatokat pedig gyors és nyílt visszajelzések révén kell felismerni és kezelni. Talán az egyetlen valódi kudarc az, ha nem tanulunk semmit.
 
 A Scrum Teamnek és a Supportereknek bátorságra (Courage) van szükségük ahhoz, hogy helyes döntéseket hozzanak, és szembenézzenek a nehéz kihívásokkal. Bátran kell felfedezniük az ismeretlent, irányt váltaniuk, információt kérniük és megosztaniuk, valamint az udvarias vitákba bocsátkozniuk – például egészséges konfliktusokba és építő jellegű véleménykülönbségekbe. A Scrum Team bátran kérhet segítséget a Supporterektől vagy a vezetőktől, ha szükséges.
 
-A Scrum Team elköteleződik a Sprint Goal elérése, a Product Goal felé vezető folyamatos ellenőrzés (Inspection) és alkalmazkodás (Adaptation) (amely a Scrum Guide 2020-ban kisebb hangsúlyt kap), valamint egymás támogatása mellett. Ez azt jelenti, hogy a célhoz kapcsolódó munka legkésőbb a sprint végére, de lehetőség szerint már korábban teljesül, megfelelve a Definition of Done-nak. Az elköteleződés azt is jelenti, hogy a kívánt eredményeket (Outcome) az érték realizálásán keresztül érik el.
+A Scrum Team elköteleződik a Sprint Goal elérése, a Product Goal felé vezető folyamatos ellenőrzés (Inspection) és alkalmazkodás (Adaptation) (amely a Scrum Guide 2020-ban kisebb hangsúlyt kap), valamint egymás támogatása mellett. Ez azt jelenti, hogy a célhoz kapcsolódó munka legkésőbb a sprint végére, de lehetőség szerint már korábban teljesül, megfelelve a Definition of Output Done-nak. Az elköteleződés azt is jelenti, hogy a kívánt eredményeket (Outcome) az érték realizálásán keresztül érik el.
 
 Elsődleges céljuk (Focus) hogy a lehető legnagyobb előrelépést érjék el a Sprint Goal felé. Másodlagos céljuk pedig a Product Goal megvalósítása. A Supporterek vállalják, hogy pszichológiailag biztonságos környezetet teremtenek az Inkrementumok (Increment) leszállításához. A fókusz részeként a Scrum Team és a Supporterek elkötelezettek amellett, hogy időt szánnak a folyamatos tanulásra és alkalmazkodásra (Adaptation), valamint Scrum csapatok közti tudásmegosztás támogatására, ezzel segítve a hosszú távú hatékonyságot. A Scrum Teamnek és a Stakeholdereknek tudatosan kell mérlegelniük a kompromisszumokat – ideértve a rövid távú nyereségek és a hosszú távú következmények közötti egyensúlyt is.
 
@@ -220,7 +220,7 @@ A Scrum Team egyes tagjai John Boyd OODA-modelljének szemszögéből tekinthetn
 
 - Orient – Bátorság kell a valóság értelmezéséhez, a bizonytalanság kezeléséhez, valamint az alkalmazkodás vagy irányváltás elfogadásához, akár gondolkodási szünetet tartva, hogy megkérdőjelezzük a feltételezéseinket és új meglátásokat ösztönözzünk.
 
-- Decide – A tennivalók maghatározása időt igényel, gondoljunk például a Backlog Refinement eseményre vagy olyan biztonságos, párhuzamosan elvégezhető kísérletekre, amelyekkel hipotézisek tesztelhetők – ezek legyenek kisléptékűek, könnyen kezelhetőek és kudarc esetén is legyenek informatívak
+- Decide – A tennivalók meghatározása időben elvégzett elemzést igényel – például a Backlog Refinement során –, amely a lehetséges következő lépéseket fókuszba hozza biztonságosan elbukható, párhuzamos kísérletek révén, amelyekkel hipotézisek tesztelhetők – ezek legyenek kisléptékűek, könnyen kezelhetőek és kudarc esetén is legyenek informatívak
 
 - Act – Amikor világos, hogy mit kell megvalósítani, miért, és ki a felelős érte, az Elkötelezettség segíti a csapatot abban, hogy hatékonyan hajtsa végre a munkát olyan irányt adó korlátok között, mint az előre meghatározott időtartamú Sprint, elősegítve a megfelelő megoldások kibontakozását.
 
@@ -232,16 +232,16 @@ Az emberek termékeket (beleértve a szolgáltatásokat is) fogyasztanak – nem
 
 A termékszemlélet [31–33] azzal a feszültséggel [25] foglalkozik, hogy a termékeknek egyszerre kell rövid távú növekedésre összpontosítaniuk, miközben a hosszú távú kihívásokat is kezelniük kell – például: a kezdeti felhasználók elérése, a „szakadék átlépése” [34], a bővítés, az új verziók kiadása, a folyamatos változtatások, az ügyfél-élettartam értékének növelése, valamint a teljes tulajdonlási költség kezelése.
 
-A „szakadék átlépéséhez” (cross the chasm) stratégiai szemléletváltásra van szükség: a hangsúlyt a tájékozott, kockázatvállaló korai ügyfelekről át kell helyezni a gyakorlatiasabb, kockázatkerülő vásárlók, döntéshozók, felhasználók és egyéb Stakeholderek megnyerésére. Ez a lépés kulcsfontosságú ahhoz, hogy egy termék a szűk rétegek körében elért sikertől eljusson a széles körű elterjedésig, hiszen ekkor a korai felhasználók megnyeréséről a korai többség megnyerésére helyeződik át a hangsúly.. A korai többség gyakran egyértelmű bizonyítékot igényel a termék megbízhatóságáról és problémamegoldó képességeiről egy adott kontextusban. Egy jól megcélzott piaci rés és egy átfogó megoldás hitelességet épít, referencia felhasználókat eredményez, és erős piaci pozíciót biztosít, ezzel áthidalva a „szakadékot” a korai felhasználók és a mainstream piac között.
+A „szakadék átlépéséhez” (cross the chasm) stratégiai szemléletváltásra van szükség: a hangsúlyt a tájékozott, kockázatvállaló korai ügyfelekről át kell helyezni a gyakorlatiasabb, kockázatkerülő vásárlók, döntéshozók, felhasználók és egyéb Stakeholderek megnyerésére. Ez a lépés kulcsfontosságú ahhoz, hogy egy termék a szűk rétegek körében elért sikertől eljusson a széles körű elterjedésig, hiszen ekkor a korai felhasználók megnyeréséről a korai többség megnyerésére helyeződik át a hangsúly. A korai többség gyakran egyértelmű bizonyítékot igényel a termék megbízhatóságáról és problémamegoldó képességeiről egy adott kontextusban. Egy jól megcélzott piaci rés és egy átfogó megoldás hitelességet épít, referencia felhasználókat eredményez, és erős piaci pozíciót biztosít, ezzel áthidalva a „szakadékot” a korai felhasználók és a mainstream piac között.
 
 A Product Ownerek feladata, hogy elsajátítsák a „jelen pillanat” és a „várható jövő” [35] (az „itt és most” kontra „ott és akkor”) közötti tudatos egyensúlyozás képességét – ehhez bátorság, alázatosság, konzultáció, együttműködés és egészséges konfliktuskezelés szükséges.
 
 Ha az érintettek kizárólag rövid távon gondolkodnak, annak hosszú távon mellékhatásai lehetnek: technikai adósság, a Scrum Team alacsony morálja, túlterheltség, az output túlhangsúlyozása stb… Ezért elengedhetetlen olyan tényezők bevezetése, amelyek enyhítik ezeket a hatásokat és támogatják a hosszú távú célokat.
 
 A technikai adósság az a felhalmozódó többletmunka, amely - tudatosan vagy tudattalanul – akkor keletkezik, amikor a gyorsabb eredmény elérése érdekében rövidítéseket alkalmazunk a megvalósítás vagy a tervezés során. Idővel ez lelassítja a munkát – akárcsak egy pénzügyi adósság, kamatokkal –, mivel a későbbi változtatásokat megnehezíti és kockázatosabbá teszi. A szakemberek igyekeznek minimalizálni a technikai adósságot és a hanyagságot.
-Ha mégis vállalják ezt az adósságot, annak átláthatónak kell lennie, és lehetőség szerint létre kell hozni egy vészhelyzeti kockázatcsökkentési tervet.
+Ha mégis vállalják ezt az adósságot, annak átláthatónak kell lennie, és lehetőség szerint létre kell hozni egy emergens (menet közben alakuló) kockázatcsökkentési tervet.
 
-A termékek esetében a Scrum az alábbiak révén támogatja az etikus [30] keretek között zajló megvalósíthatóságot, használhatóságot, figyelem felkeltést, értékteremtést és életképességet:
+A termékek esetében a Scrum az alábbiak révén támogatja az etikus [30] keretek között zajló megvalósíthatóságot, használhatóságot, kívánatosságot, értékteremtést és életképességet:
 
 - Terméktervezés (Product Design)
 
@@ -273,19 +273,19 @@ A vezetés az a képesség, hogy befolyásolni, irányítani és inspirálni tud
 
 A vezetés dinamikus társadalmi folyamat, amely magában foglalja a felelősségvállalást, a kapcsolatépítést és a felhatalmazást. A sikeres vezetés eredménye az irányvonal közös kialakítása, a szükséges erőforrások és emberek hatékony összehangolása, valamint a csoporttagok kölcsönös *Kötelezettségvállalása (Commitment)*.
 
-A Scrum egy sajátos vezetési stílusra törekszik, azaz a rugalmasságra irányuló vezetésre, amely inkább tulajdonságok összessége, nem pedig egy vezetői pozíció. Így a vezetésnek magában kell foglalnia többek között, de nem kizárólagosan az Önszerveződő Scrum Teamek számára megfelelő környezet kialakítását, az egyértelműséget, a bizalmat, az átláthatóságot, az irányultság kialakulását [21], a munkában való kiteljesedést, a bizonytalanság [41] és a kudarcok elfogadását, a jobb döntésekhez szükséges információk gyűjtését, a kockázatok proaktív kezelését és a szervezeti hatékonysági hiányosságok megszüntetését.
+A Scrum egy sajátos vezetési stílusra törekszik, azaz a rezilienciára irányuló vezetésre, amely inkább tulajdonságok összessége, nem pedig egy vezetői pozíció. Így a vezetésnek magában kell foglalnia többek között, de nem kizárólagosan az önmenedzselő Scrum Teamek számára megfelelő környezet kialakítását, az egyértelműséget, a bizalmat, az átláthatóságot, az irányultság kialakulását [21], a munkában való kiteljesedést, a bizonytalanság [41] és a kudarcok elfogadását, a jobb döntésekhez szükséges információk gyűjtését, a kockázatok proaktív kezelését és a szervezeti hatékonysági hiányosságok megszüntetését.
 
 A vezetés minden irányból érvényesül, minden szinten jelen kell lennie, és a megfelelő pillanatokban ösztönöznie kell az önreflexiót. A vezetésnek könyörtelenül az értékteremtésre kell törekednie, ugyanakkor együttérzőnek és etikusnak kell lennie. A vezetéshez kitartó cselekvőképességre van szükség a munkafolyamatok, folyamatok, rendszerek és a munkakörnyezet megváltoztatásához; ez magában foglalja (de nem kizárólagosan) a HR, a pénzügyek és a beszállítói menedzsment területét. A vezető az, aki vezetői képességeket mutat.
 
-A Product Ownerek és a Scrum Masterek egyensúlyt teremtenek a vezetés, a tekintély és a finom ellenőrzés között azáltal, hogy világos célokat fogalmaznak meg, ösztönzik a kezdeményezőkészséget és megerősítik a felelősségvállalást. Inkább útmutatást nyújtanak, mintsem mikromenedzselnek, biztosítva, hogy a Scrum Team megértse a jövőképet és a célokat, rendelkezzen a végrehajtáshoz szükséges önállósággal, és továbbra is felelősséget vállaljon az eredményekért. Ha beavatkozásra van szükség, határozottan lépnek közbe, miközben megőrzik a Scrum Team felelősségvállalását. A Developer-ek az önmenedzselő csapatorientációjukkal, szakmaiságukkal és célorientáltságukkal bizonyítják vezetői képességüket; az önmenedzselés felelősséggel jár. A Supporterek azzal demostrálják vezetői képességeiket, hogy támogatják a rövid és hosszú távú akadályok elhárítását, javítják a menedzsment folyamatok és a Scrum összhangját, és kérésre támogatják a felmerülő változásokat egy hatékony irányba.
+A Product Ownerek és a Scrum Masterek egyensúlyt teremtenek a vezetés, a tekintély és a finom ellenőrzés között azáltal, hogy világos célokat fogalmaznak meg, ösztönzik a kezdeményezőkészséget és megerősítik a felelősségvállalást. Inkább útmutatást nyújtanak, mintsem mikromenedzselnek, biztosítva, hogy a Scrum Team megértse a jövőképet és a célokat, rendelkezzen a végrehajtáshoz szükséges önállósággal, és továbbra is felelősséget vállaljon az eredményekért. Ha beavatkozásra van szükség, határozottan lépnek közbe, miközben megőrzik a Scrum Team felelősségvállalását. A Product Developerek az önmenedzselő csapatorientációjukkal, szakmaiságukkal és célorientáltságukkal bizonyítják vezetői képességüket; az önmenedzselés felelősséggel jár. A Supporterek azzal demonstrálják vezetői képességeiket, hogy támogatják a rövid és hosszú távú akadályok elhárítását, javítják a menedzsment folyamatok és a Scrum összhangját, és kérésre támogatják a felmerülő változásokat egy hatékony irányba.
 
 ## Alapelveken alapuló gondolkodás
 
 Az alapelveken alapuló gondolkodás a problémamegoldás olyan módszere, amely a kihívásokat a legmélyebb alapjaira bontja le, és a megoldásokat az alapoktól kezdve építi fel. Az analógiákra vagy bevett konvenciókra való támaszkodás helyett ez a megközelítés azt a kérdést teszi fel, hogy *"*Mit *tudunk biztosan?"*, *és* ezekből az alapelemekből *építi fel* a megértést és a megoldásokat. Példaként említhetjük többek között a következőket:
 
-- A Scrum Team ösztönzése arra, hogy a hatékonyság, az alkalmazkodóképesség [37] és a pontosság alapvető mozgatórugóira - mint például az önállóság, az átláthatóság és az alkalmazkodás - összpontosítson, ahelyett, hogy vakon követné a folyamatokat vagy mások gyakorlatát másolná.
+- A Scrum Team ösztönzése arra, hogy a hatékonyság, az alkalmazkodóképesség [37] és az időszerűség alapvető mozgatórugóira - mint például az önállóság, az átláthatóság és az alkalmazkodás - összpontosítson, ahelyett, hogy vakon követné a folyamatokat vagy mások gyakorlatát másolná.
 
-- Minden feltételezés megkérdőjelezése és a megoldásokat a tényeken és alapvető elveken alapulva alakítsák át, ami áttöréseket tesz lehetővé.
+- Minden feltételezés megkérdőjelezése, és a megoldások újraépítése tényekre és alapvető elvekre támaszkodva, ami áttöréseket tesz lehetővé.
 
 - Az eredeti gondolkodás, a folyamatos fejlesztés és a status quo megkérdőjelezéséhez szükséges *bátorság* támogatása, a kreativitás felszabadítása és az átalakító eredmények lehetővé tétele.
 
@@ -309,11 +309,11 @@ A Scrumot alkalmazó szakemberek és a Supporterek nem tekintenek magukra áldoz
 
 Az elszámoltathatóság (accountability) azon elvárások összessége, amelyek teljesítéséért egy szereplő felelősséggel tartozik. Például a Product Owner az értékért, a Scrum Master a Scrum Team eredményes működéséért, a Product Developerek pedig a használható Increment létrehozásáért felelősek. Nem minden szerep rendelkezik meghatározott elszámoltathatósággal; erre példa a Stakeholder szerepe.
 
-A négy Scrum-szerepkör a Product Owner, a Product Developer, a Scrum Master és a Stakeholder. Ezek a szerepkörök bizalmat adnak, megerősítenek és kiérdemelnek, valamint összehangolt vezetést tesznek lehetővé. A Scrum Teamben viszont csak három szerepkör, a Product Owner, a Product Developer és a Scrum Master jelenik meg.
+A négy Scrum-szerepkör a Product Owner, a Product Developer, a Scrum Master és a Stakeholder. Ezek a szerepkörök bizalmat adnak, megerősítenek és kiérdemelnek, valamint összehangolt vezetést tesznek lehetővé. A Scrum Teamben viszont csak három elszámoltathatóság, a Product Owner, a Product Developer és a Scrum Master jelenik meg.
 
 Egy személy több Scrum-szerepet is betölthet, ám ebben az esetben figyelnie kell arra, hogy ne lépje át a szerepkörök közötti határokat A Scrum-szerepek célja, hogy biztosítsák az egymást kölcsönösen ellenőrző és kiegyensúlyozó mechanizmusokat.
 
-A Scrum Team egy olyan csapat, amely Scrumot alkalmaz, és lefedi a három *felelősségi kört*, nevezetesen a Scrum Master, a Product Owner és a Product Developer szerepét. Feladata a Stakeholderek (beleértve, de nem kizárólagosan a felhasználókat és megrendelőket) problémáinak és lehetőségeinek kezelése, valamint a Scrum Team és az érdekelt felek szempontjából hasznos, használható és potenciálisan értékes inkrementumokat szállít a Product Goal elérése érdekében. Komplex munkakörnyezetben [12–17] a Scrum Team optimális esetben kisméretű, kognitívan sokszínű és önmenedzselő. Tagjai – akiket gyakran technológia is támogat – odafigyelnek egymás munkájára, és idővel képesek elsajátítani egymás feladatainak elvégzését is.
+A Scrum Team egy olyan csapat, amely Scrumot alkalmaz, és lefedi a három *elszámoltathatóságot*, nevezetesen a Scrum Master, a Product Owner és a Product Developer szerepét. Feladata a Stakeholderek (beleértve, de nem kizárólagosan a felhasználókat és megrendelőket) problémáinak és lehetőségeinek kezelése, valamint a Scrum Team és az érdekelt felek szempontjából hasznos, használható és potenciálisan értékes inkrementumokat szállít a Product Goal elérése érdekében. Komplex munkakörnyezetben [12–17] a Scrum Team optimális esetben kisméretű, kognitívan sokszínű és önmenedzselő. Tagjai – akiket gyakran technológia is támogat – odafigyelnek egymás munkájára, és idővel képesek elsajátítani egymás feladatainak elvégzését is.
 
 A Scrum Teamnek keresztfunkcionálisnak kell lennie, azaz több szakterület kompetenciáit kell egyesítenie, beleértve a technikai és üzleti szakterületi ismereteket is. A Scrum Teamen belül nincs formális hierarchia.
 
@@ -325,23 +325,23 @@ A Scrum Teamnek rendelkeznie kell minden olyan kompetenciával és támogatássa
 
 - Validálja az érték megvalósulását (valamint a használhatóságot, a kívánatosságot és az életképességet, az etikai [57] keretek figyelembevételével).
 
-A Scrum Csapat – a Supporterek támogatásával – közösen gondoskodik a problémák vagy lehetőségek kezeléséről, a termék felfedezéséről, szállításáról, ellenőrzéséről és beépített minőségéről, piacra viteléről és az érték Product Goal-al szembeni ellenőrzéséről. Mivel a csapat önszerveződő [11], maga dönti el, hogy *ki mit, mikor, hol* és *hogyan* csinál.
+A Scrum Team – a Supporterek támogatásával – közösen gondoskodik a problémák vagy lehetőségek kezeléséről, a termék felfedezéséről, szállításáról, verifikációjáról és beépített minőségéről, piacra viteléről és az érték Product Goal felé történő validálásáról. Mivel a csapat önmenedzselő [11], maga dönti el, hogy *ki mit, mikor, hol* és *hogyan* csinál.
 
-Az érték ellenőrzése azt jelenti, hogy az elvárt eredmények megvalósulása – vagy épp meg nem valósulása – a megadott kereteken belül visszaigazolást nyer.
+Az érték validálása (value validation) azt jelenti, hogy az elvárt eredmények megvalósulása – vagy épp meg nem valósulása – a megadott kereteken belül visszaigazolást nyer.
 
-A Scrum Team minden Sprint során leszállít egy vagy több használatra kész eredményt (Increment), folyamatosan önszerveződik [11], hogy megkeresse és orvosolja a problémákat, folyamatosan szinkronizál, és gyakran bocsát ki release-t (új verziót). A Scrum Team elég kicsi ahhoz, hogy rugalmas maradjon, és elég nagy ahhoz, hogy jelentőségteljes munkát végezzen el egy Sprinten belül. Gyakran előfordul, hogy a kisebb Scrum Teamek jobban kommunikálnak és produktívabbak.
+A Scrum Team minden Sprint során leszállít egy vagy több használatra kész eredményt (Increment), folyamatosan önmenedzselő módon működik [11], hogy megkeresse és orvosolja a problémákat, folyamatosan szinkronizál, és gyakran bocsát ki release-t (új verziót). A Scrum Team elég kicsi ahhoz, hogy rugalmas maradjon, és elég nagy ahhoz, hogy jelentőségteljes munkát végezzen el egy Sprinten belül. Gyakran előfordul, hogy a kisebb Scrum Teamek jobban kommunikálnak és produktívabbak.
 
-A Scrum önszerveződő Scrum csapatokra [11] épül, egy meghatározott szervezeti vagy termékstruktúrán belül. Az autonómia jelen van, de keretek között: ide tartoznak a Scrum események, szerepkörök, artefaktumok, kötelezettségvállalások, alapelvek, értékek, valamint a szervezeti igények.
+A Scrum önmenedzselő Scrum Teamekre [11] épül, egy meghatározott szervezeti vagy termékstruktúrán belül. Az autonómia jelen van, de keretek között: ide tartoznak a Scrum események, elszámoltathatóságok, artifaktok, kötelezettségvállalások, pillérek, értékek, valamint a szervezeti igények.
 
 A Scrum olyan emberek csoportjait mozgósítja, akik közösen rendelkeznek vagy megszerzik a feladathoz szükséges készségeket és tudást, és ezeket egymással is megosztják. A siker esélyét elősegíti, ha a vezetők támogatják a tudatos együttműködést.
 
 A Fókusznak a Product Goal leghatékonyabb módon való elérésén kell maradnia arányosan befektetett munkával, miközben a csapat értékes eredményeket szállít.
 
-A Scrum az együttműködésre épül, a folyamatos kapcsolattartást és a közös felelősségvállalást támogatja, szemben a szekvenciális, silószerű működéssel. Ez a megközelítés lehetővé teszi a Scrum Team és a Stakeholderek számára a bizonytalanság [41] elfogadását, és elősegíti a folyamatos tanulás és visszacsatolás alapján történő gyorsabb alkalmazkodást. A felfedezés, fejlesztés és ellenőrzés egymást átfedő folyamatai rugalmas [37], értékalapú termékfejlesztést tesznek lehetővé.
+A Scrum az együttműködésre épül, a folyamatos kapcsolattartást és a közös felelősségvállalást támogatja, szemben a szekvenciális, silószerű működéssel. Ez a megközelítés lehetővé teszi a Scrum Team és a Stakeholderek számára a bizonytalanság [41] elfogadását, és elősegíti a folyamatos tanulás és visszacsatolás alapján történő gyorsabb alkalmazkodást. A felfedezés, fejlesztés és értékvalidálás egymást átfedő folyamatai alkalmazkodóképes [37], értékalapú termékfejlesztést tesznek lehetővé.
 
-A feladatok átfedése elősegíti a közös felelősségvállalást a Scrum Team tagjai között, növelik az elköteleződést és a bevonódást. A Scrum Team figyelme a kihívásokra és lehetőségekre irányul, ösztönzi proaktivitást, támogatja a sokoldalú készségfejlesztést, és folyamatosan növeli a piaci környezet iránti érzékenységét.
+A feladatok átfedése elősegíti a közös felelősségvállalást a Scrum Team tagjai között, növeli az elköteleződést és a bevonódást. A Scrum Team figyelme a kihívásokra és lehetőségekre irányul, ösztönzi a proaktivitást, támogatja a sokoldalú készségfejlesztést, és folyamatosan növeli a piaci környezet iránti érzékenységét.
 
-A Scrum Team minden, a termékkel kapcsolatos tevékenységet ellát: a Stakeholderekkel való együttműködéstől az érték ellenőrzést, ideértve az tesztelést, karbantartást, működtetést, kísérletezést, kutatást és fejlesztést, valamint minden egyéb szükséges feladatot. A Scrum Team gondoskodik a minőségről. A Supporterek gondoskodnak arról, hogy a szervezet megteremtse a megfelelő légkört és munkafeltételeket, és felhatalmazza a Scrum Team-et az önszerveződésre [11]. A sprintekben, fenntartható ütemben végzett munka javítja a *Fókuszt* és a következetességet.
+A Scrum Team minden, a termékkel kapcsolatos tevékenységet ellát: a Stakeholderekkel való együttműködéstől az érték validálásáig, ideértve a verifikációt, karbantartást, működtetést, kísérletezést, kutatást és fejlesztést, valamint minden egyéb szükséges feladatot. A Scrum Team gondoskodik a minőségről. A Supporterek gondoskodnak arról, hogy a szervezet megteremtse a megfelelő légkört és munkafeltételeket, és felhatalmazza a Scrum Team-et az önmenedzselésre [11]. A sprintekben, fenntartható ütemben végzett munka javítja a *Fókuszt* és a következetességet.
 
 A Scrum Team és a Stakeholderek gyakran nem tudják előre, mit fognak tanulni. Egyes tanulságok növelik a bizonyosságot, mások újabb bizonytalanságokat hoznak [41]. Bizonyos elemek előtérbe kerülhetnek, eltűnhetnek, háttérbe szorulhatnak vagy elveszíthetik addigi prioritásaikat.
 
@@ -355,7 +355,7 @@ A Stakeholder (érintett vagy érdekelt fél) egy szerepkör. A Stakeholder lehe
 
 Az Stakeholderek közé tartozhatnak például (de nem kizárólagosan) az ügyfelek, döntéshozók, felhasználók, beszállítók, influenszerek, menedzserek, kollégák, vezetők, jogalkotók, pénzügyi szponzorok, témaszakértők, vállalatirányítási (ún. governance) ellenőrzés. Ezenkívül figyelembe kell vennünk az olyan élettelen, nem emberi Stakeholdereket, mint például a törvényi szabályozások vagy a mesterséges intelligencia. Egyes Stakeholderek nagyobb hatást gyakorolnak a folyamatra, mint mások és fordítva: egyes Stakeholderekre nagyobb hatással van a folyamat, vagy annak eredménytermékei, mint másokra, és mindegyik érintett különböző tényezőket részesíthet előnyben. Minden egyes érintett eltérő szintű hatalommal vagy befolyással rendelkezik.
 
-A customer (vásárló/felhasználó) olyan Stakeholder, aki a termékből származó értékben részesül azáltal, hogy megvásárolja és/vagy kiválasztja azt. A „customer” kategóriába tartozhatnak a vásárlók (akik fizetnek a termékért vagy megszerzik azt), a döntéshozók (akik jóváhagyják vagy engedélyezik a termék bevezetését), és a végfelhasználók (akik közvetlenül használják a terméket). Előfordul, hogy a vásárló „Customer” nem azonos a végfelhasználóval „End-customer”-rel, például B2B2C [42] vagy B2B2B [43] modellekben.
+A customer (ügyfél) olyan Stakeholder, aki a termékből származó értékben részesül azáltal, hogy megvásárolja és/vagy kiválasztja azt. A „customer” kategóriába tartozhatnak a vásárlók (akik fizetnek a termékért vagy megszerzik azt), a döntéshozók (akik jóváhagyják vagy engedélyezik a termék bevezetését), és a végfelhasználók (akik közvetlenül használják a terméket). Előfordul, hogy az ügyfél (customer) nem azonos a végső ügyféllel (end-customer), például B2B2C [42] vagy B2B2B [43] modellekben.
 
 A Scrum sikeres bevezetéséhez elengedhetetlen, hogy a Stakeholderek (ideértve, de nem kizárólag az ügyfeleket és a felhasználókat) és a Scrum Team között tudatosan szervezett, rendszeres kapcsolattartás legyen.
 
@@ -367,11 +367,11 @@ A jogalkotók – ideértve jelen dokumentum céljából a külső vagy belső s
 
 A pénzügyi szponzorok biztosítják a termék fejlesztéséhez, bevezetéséhez és továbbfejlesztéséhez szükséges forrásokat és finanszírozást. Értékelik a termék életképességét, értékét és megvalósíthatóságát, és ezek ismeretében hoznak befektetési döntést attól függően, hogy a termék képes-e folyamatos értéket nyújtani a Stakeholdereknek. A pénzügyi szponzorok befolyásolják a termék vízióját, stratégiáját és célkitűzéseit, annak érdekében, hogy biztosítsák a beruházások megtérülését és a hosszú távú fenntarthatóságot. A Scrum sikeres működéséhez elengedhetetlen a rugalmas hozzáállás és a rugalmas finanszírozás, ahogy idővel újabb és újabb információk kerülnek felszínre.
 
-A témaszakértők (subject matter experts) olyan mélyreható szaktudással vagy speciális készségekkel járulnak hozzá a termék létrehozásához, fejlesztéséhez és fenntartásához, amelyek elengedhetetlenek ezekhez a folyamatokhoz. Legyen szó technológiáról, dizájnról, a szabályozások betartásáról vagy egy adott szakterületről, a témaszakértők hozzájárulnak a termék használhatóságához, megvalósíthatóságához, szakmai színvonalához és bővíthetőségéhez – ugyanakkor nem akadályozhatják az önszerveződő Scrum Team-eket [11]. Segíthetnek a felhasználói elégedetlenséghez vezető hiányosságok (elégedettségi rés) kezelésében, továbbá hozzájárulhatnak ahhoz, hogy a termék képes legyen alkalmazkodni, felismerni, képviselni vagy mérni a kibontakozó változásokat (emergence) [21]. A Scrum sikeres működéséhez kulcsfontosságú, hogy rendszeres tudásátadás valósuljon meg a témaszakértők és a Scrum Team, valamint a Scrum csapat tagjai között.
+A témaszakértők (subject matter experts) olyan mélyreható szaktudással vagy speciális készségekkel járulnak hozzá a termék létrehozásához, fejlesztéséhez és fenntartásához, amelyek elengedhetetlenek ezekhez a folyamatokhoz. Legyen szó technológiáról, dizájnról, a szabályozások betartásáról vagy egy adott szakterületről, a témaszakértők hozzájárulnak a termék használhatóságához, megvalósíthatóságához, szakmai színvonalához és bővíthetőségéhez – ugyanakkor nem akadályozhatják az önmenedzselő Scrum Team-eket [11]. Segíthetnek a felhasználói elégedetlenséghez vezető hiányosságok (elégedettségi rés) kezelésében, továbbá hozzájárulhatnak ahhoz, hogy a termék képes legyen alkalmazkodni, felismerni, képviselni vagy mérni a kibontakozó változásokat (emergence) [21]. A Scrum sikeres működéséhez kulcsfontosságú, hogy rendszeres tudásátadás valósuljon meg a témaszakértők és a Scrum Team, valamint a Scrum csapat tagjai között.
 
 Az „elégedettségi rés” (satisfaction gap) kifejezés azt a különbséget jelöli, amely a Stakeholderek jelenlegi tapasztalata és az általuk kívánt élmény között fennáll. Másként fogalmazva: az a távolság, amely a termékkel kapcsolatos aktuális elégedettségi szintjük és a potenciálisan elérhető elégedettségük között húzódik.
 
-Az irányítási keretrendszer (governance) a termék irányának, döntéshozatali mechanizmusainak és elszámoltathatóságának tudatos keretek közé terelését szolgáló struktúrákat, szabványokat, előírásokat, normákat, folyamatokat és gyakorlatokat jelenti. A governance elősegíti az átláthatóságot, valamint irányt mutat az értékteremtésre, megvalósíthatóságra és szakmai színvonalra vonatkozó elvárások betartására. Ezen felül mechanizmusokat biztosít a kockázatok kezelésére és a Termék változó igényekhez vagy környezethez való alkalmazkodására, támogatva annak hosszú távú és állandóan fejlődő jellegét. A Scrum sikeres működéséhez elengedhetetlen, hogy a governance által biztosított keretek összhangban legyenek a Scrummal — például minden irányítási területhez rendelve legyen egy kapcsolattartó, aki tudatosan együttműködik a Scrum Team-mel a minőség és a szabályok betartása tekintetében, illetve rendszeresen felülvizsgálja és fejleszti az irányítási gyakorlatokat (Inspection and Adaptation), hogy elkerüljük a váratlan meglepetéseket.
+Az irányítási keretrendszer (governance) a termék irányának, döntéshozatali mechanizmusainak és elszámoltathatóságának tudatos keretek közé terelését szolgáló struktúrákat, szabványokat, előírásokat, normákat, folyamatokat és gyakorlatokat jelenti. A governance elősegíti az átláthatóságot, valamint irányt mutat az értékteremtésre, életképességre (viability) és szakmai színvonalra vonatkozó elvárások betartására. Ezen felül mechanizmusokat biztosít a kockázatok kezelésére és a Termék változó igényekhez vagy környezethez való alkalmazkodására, támogatva annak hosszú távú és állandóan fejlődő jellegét. A Scrum sikeres működéséhez elengedhetetlen, hogy a governance által biztosított keretek összhangban legyenek a Scrummal — például minden irányítási területhez rendelve legyen egy kapcsolattartó, aki tudatosan együttműködik a Scrum Team-mel a minőség és a szabályok betartása tekintetében, illetve rendszeresen felülvizsgálja és fejleszti az irányítási gyakorlatokat (Inspection and Adaptation), hogy elkerüljük a váratlan meglepetéseket.
 
 ## Supporter
 
@@ -403,7 +403,7 @@ A lehetőségek szintén határtalanok. A Scrum Teamek a mesterséges intelligen
 
 - A Product Backlog finomhangolását fejlesszék
 
-- felfedjék a szövegekben rejlő kétértelműségeket, és folyamatosan vizsgálják saját javaslataik és eredményeik esetleges torzításait, hibáit és nem kívánt következményeit,
+- felfedjék a szövegekben rejlő kétértelműségeket, és folyamatosan vizsgálják az AI saját javaslatainak és eredményeinek esetleges torzításait, hibáit és nem kívánt következményeit,
 
 - rendszeresen validálják és adaptálják a modelleket és alkalmazásokat,
 
@@ -423,13 +423,13 @@ A hangsúlynak továbbra is a csapatmunka és az együttműködés emberi dinami
 
 ## Termékfejlesztő (Product Developer)
 
-A Product Developer egy szerepkör és egy felelősségvállalás is egyben. A Product Developer-ek együttesen kell, hogy rendelkezzenek mindazon képességekkel, amelyek Inkrementumok létrehozásához szükségesek. Ezt az összetett készségkészletet gyakran nevezzük keresztfunkcionális (cross-functional) kompetenciának.
+A Product Developer egy szerepkör és egy elszámoltathatóság (accountability) is egyben. A Product Developer-ek együttesen kell, hogy rendelkezzenek mindazon képességekkel, amelyek Inkrementumok létrehozásához szükségesek. Ezt az összetett készségkészletet gyakran nevezzük keresztfunkcionális (cross-functional) kompetenciának.
 
 A Product Developer lehet emberi szereplő vagy automatizált rendszer. Az emberi termékfejlesztők *Elkötelezetten* dolgoznak azon, hogy minden egyes Sprint során a kibocsátható Inkrementum bármely aspektusát létrehozzák, kutassák, ellenőrizzék (Inspect) és szükség esetén módosítsák (Adapt). Elsődleges fókuszuk az adott Sprinten van, azonban kapacitásuk egy részét gyakran előretekintő finomításra, eredmény-visszajelzések, mellékhatások vagy más tanulságok vizsgálatára fordítják.
 
 A termékfejlesztők betartják a Definition of Output Done közösen elfogadott kritériumait, és elkötelezettek a valódi értékteremtő fejlődés iránt. A fejlesztők akkor képesek a legnagyobb értéket teremteni, ha egy adott Termékre koncentrálnak. Amennyiben a Product Owner vagy a Scrum Master egy adott időpontban aktívan részt vesz a Sprint Backlogban szereplő item-ek végrehajtásában, akkor ebben az esetben Product Developer (termékfejlesztői) szerepkört töltenek be.
 
-A termékfejlesztőknek a helyzethez illően kell működniük – ezek a viselkedésmódok lehetnek (de nem kizárólagosan): együttműködő, alkotó, a technikai minőséget előtérbe helyező, felfedező, szállító, valamint az érték-ellenőrzés bajnoka (champion of Value Inspection).
+A termékfejlesztőknek a helyzethez illően kell működniük – ezek a viselkedésmódok lehetnek (de nem kizárólagosan): együttműködő, alkotó, a technikai minőséget előtérbe helyező, felfedező, szállító, valamint az értékvalidálás bajnoka (champion of value validation).
 
 *Fontos, hogy legalább egy termékfejlesztő emberi szereplő legyen.* Több emberi fejlesztő jelenléte jellemzően növeli a kognitív diverzitást, ami előnyt jelent a komplex helyzetek kezelésében.
 
@@ -443,7 +443,7 @@ A termékfejlesztőknek a helyzethez illően kell működniük – ezek a viselk
 
 - Folyamatos tanulás, jellemzően olyan adatok mentén, amelyek a Definition of Outcome Done alapján értelmezhetők;
 
-- A napi tervek finomhangolása a Sprintcél elérése érdekében;
+- A napi tervek finomhangolása a Sprint Goal elérése érdekében;
 
 - Egymás szakmai elszámoltathatóságának biztosítása és fenntartása;
 
@@ -453,7 +453,7 @@ A kontextus számít – elengedhetetlen, hogy figyelembe vegyük az adott helyz
 
 ## Product Owner
 
-A Product Owner egy szerepkör és felelősségvállalás is egyben. A Product Owner-nek embernek kell lennie. Ahhoz, hogy hatékonyan működjön, vezetőként kell képviselnie a Terméket. A Product Owner célja a hosszú távú érték maximalizálása – ehhez tudnia kell, hogy miben rejlik az érték, és mikor van az érték szállítására aktuálisan szükség. A Product Owner-tól elvárás, hogy minden releváns üzleti területen, minden szinten aktívan jelen legyen. A Product Owner az értékteremtés érdekében együttműködik a Stakeholderekkel, a Scrum Masterrel és a Termékfejlesztőkkel.
+A Product Owner egy szerepkör és elszámoltathatóság (accountability) is egyben. A Product Owner-nek embernek kell lennie. Ahhoz, hogy hatékonyan működjön, vezetőként kell képviselnie a Terméket. A Product Owner célja a hosszú távú érték maximalizálása – ehhez tudnia kell, hogy miben rejlik az érték, és mikor van az érték szállítására aktuálisan szükség. A Product Owner-tól elvárás, hogy minden releváns üzleti területen, minden szinten aktívan jelen legyen. A Product Owner az értékteremtés érdekében együttműködik a Stakeholderekkel, a Scrum Masterrel és a Termékfejlesztőkkel.
 
 A Product Owner a Product Backlog segítségével határozza meg, hogy mit és milyen sorrendben célszerű megépíteni. Döntéseit mindig a Product Goal irányából szemléli, és elsődleges célja, hogy minden lépésben a hosszú távú értéket növelje.
 
@@ -495,7 +495,7 @@ A Product Owner mindig felelős az alábbiakért:
 
 A Product Owner mindezt elvégezheti önállóan, vagy a Scrum Team-mel együttműködve meghatározhatják, hogy ki mely feladatért felel. Az elszámoltathatóság azonban mindig a Product Owner-é marad.
 
-A sikeres Product Ownership záloga, hogy a Stakeholderek és a Supporterek *tiszteletben tartsák* (Respect) a Product Owner döntéseit. Ezek a döntések jól tükröződnek a Product Backlog tartalmában és priorizálásában, valamint a Sprint Review során bemutatott Inkrementumokban. A Product Owner a szervezet által delegált hatáskörrel rendelkezik.
+A sikeres Product Ownership záloga, hogy a Stakeholderek és a Supporterek *tiszteletben tartsák* (Respect) a Product Owner döntéseit. Ezek a döntések jól tükröződnek a Product Backlog tartalmában és sorrendjében, valamint a Sprint Review során bemutatott Inkrementumokban. A Product Owner a szervezet által delegált hatáskörrel rendelkezik.
 
 A Product Owner-i szerepkör (Product Ownership) gyakorlásához erős termékmenedzsment- és szakterületi (domain) ismeretekre van szükség. Az ilyen készségekkel nem rendelkező Product Owner-nak támogatásra és útmutatásra lehet szüksége, amíg a szükséges kompetenciák kialakulnak. A kontextus számít, de általános irányelvként elmondható: ha egy Product Owner nem elkötelezett, nem felkészült, és nem képes termékmenedzsment-képességeket elsajátítani, akkor vissza kell, hogy lépjen ebből a szerepkörből. Fontos megérteni, hogy egy szakterületi szakértő nem feltétlenül ideális választás a Product Owner szerepre, hiszen itt nem csak szakmai tudásra, hanem termékmenedzsmentre és vezetői készségekre is szükség van – ezek hiányában a Product Developer szerep lehet megfelelőbb.
 
@@ -505,11 +505,11 @@ A Product Owner egyetlen személy – nem bizottság, és nem technológia. Aki 
 
 ## Scrum Master
 
-A Scrum Master egy szerepkör és egy felelősségvállalás is egyben. A Scrum Master-nek embernek kell lennie.
+A Scrum Master egy szerepkör és egy elszámoltathatóság (accountability) is egyben. A Scrum Master-nek embernek kell lennie.
 
 A Scrum Master változás közvetítő szereplő (change agent), aki a szervezet minden szintjén és üzleti területén tevékenykedik. Példamutató magatartása adja meg a többiek számára a helyes irányt, illetve támogatja a Product Owner-t, a Scrum Team-et, a Stakeholder-eket és a Supporter-eket abban, hogy eredményesen alkalmazzák a Scrum-ot. A Scrum Master érti a komplexitás természetét [12–17], és képes arra, hogy segítsen felismerni és megtenni a leginkább helyénvaló következő lépést.
 
-A Scrum Masternek a helyzethez illeszkedően kell viselkednie; szerepei közé tartozhat – de nem kizárólagosan – az útmutató, coach, mentor, oktató, megfigyelő, akadályeltávolító, változást kezdeményező, a hatékony működés előmozdítója és a folyamatos fejlődés bajnoka. A Scrum Master nem adminisztrátor, státusz riportoló, taszk tologató, szabályt diktáló, tárgyalófoglaló, a státuszriportok dashboardjának kezelője, elnök, „megmentő”, koordinátor, sem egy „távollévő” Scrum Master, aki tétlenségét az önszerveződésre hárítja.
+A Scrum Masternek a helyzethez illeszkedően kell viselkednie; szerepei közé tartozhat – de nem kizárólagosan – az útmutató, coach, mentor, oktató, megfigyelő, akadályeltávolító, változást kezdeményező, a hatékony működés előmozdítója és a folyamatos fejlődés bajnoka. A Scrum Master nem adminisztrátor, státusz riportoló, taszk tologató, szabályt diktáló, tárgyalófoglaló, a státuszriportok dashboardjának kezelője, elnök, „megmentő”, koordinátor, sem egy „távollévő” Scrum Master, aki tétlenségét az önmenedzselésre hárítja.
 
 A Scrum Master felelős a Scrum Team, a Stakeholderek, a Supporterek és az érintettek hatékonyságáért a tapasztalati tanulás (empirizmus [19]), az önmenedzsment és a Scrum alkalmazásának előmozdításában, ahogyan azt ez a dokumentum leírja. A Scrum Master feladata kezelni mindazokat az akadályokat, amelyek lassítják vagy gátolják a Scrum Team előrehaladását, és amelyeket a csapat önállóan nem tud megoldani.
 
@@ -533,7 +533,7 @@ A Scrum Master többféleképpen támogatja a Scrum Teamet, a Product Ownert és
 
 - Elősegíti az alkalmazkodóképesség (adaptiveness) [37] fejlesztését, és optimalizálja az értékáramlást;
 
-- Támogatja az eredményeken alapuló magabiztos működés kialakulását, de együttérző és időben történő beavatkozással segít megelőzni a túlzott magabiztosságot;
+- Támogatja a bizonyítékokon alapuló (evidence-informed) magabiztos működés kialakulását, de együttérző és időben történő beavatkozással segít megelőzni a túlzott magabiztosságot;
 
 - Ösztönzi a változások előmozdításához szükséges (change agency) és az általános belső hajtóerő (agency) kialakulását a Scrum Team-ben és a Supporter-ekben;
 
@@ -567,7 +567,7 @@ A Scrum Master többféle módon támogatja a Product Ownert, többek között:
 
 > ○ Az empirikus megközelítést komplex [12–17] munkakörnyezetben, ahol az ok-okozati összefüggések csak utólag válnak világossá;
 >
-> ○ Az empirikus folyamatszabályozáson túlmutató működést. Ilyen lehet például a több, párhuzamosan futó, hibázásra biztonságosan lehetőséget adó kísérlet, új gondolkodásmód felfedezése, az exaptáció, vagy a megalapozott sejtések igazolása.. Az exaptáció olyan jelenség, amikor egy eszköz, megoldás vagy gyakorlat eredetileg más célra készült vagy használták, de új vagy bizonytalan környezetben váratlanul hasznosnak bizonyul egy másik cél eléréséhez.
+> ○ Az empirikus folyamatirányításon túlmutató működést. Ilyen lehet például a több, párhuzamosan futó, hibázásra biztonságosan lehetőséget adó kísérlet, új gondolkodásmód felfedezése, az exaptáció, vagy a megalapozott sejtések igazolása. Az exaptáció olyan jelenség, amikor egy eszköz, megoldás vagy gyakorlat eredetileg más célra készült vagy használták, de új vagy bizonytalan környezetben váratlanul hasznosnak bizonyul egy másik cél eléréséhez.
 
 - Elősegíti azokat a lépéseket, amelyek a „Ne új feladatot kezdj el, hanem fejezz be egyet!” alapelvet támogatják;
 
@@ -619,9 +619,9 @@ Minden artifakt tartalmaz egy kötelezettségvállalást (Commitment):
 
 Az Inkrementum (output) leszállításával a Termék az, ami ténylegesen értéket teremt (outcomes)*.* Az érték a Stakeholderek nézőpontjából az elvárások, igények vagy vágyak olyan mértékű beteljesülése vagy megvalósulása, amely mérhető vagy megfigyelhető.
 
-Ezek a Commitmentek megerősítik az átláthatóság (Transparency), a megfigyelés (Inspection) és az alkalmazkodás (Adaptation) pilléreit, ezzel biztosítva az empirikus folyamatirányítás működésének feltételeit [27–29]. A Product Goal mindaddig változatlan marad, amíg a Product Definition of Outcome Done-ban megfogalmazott elvárásoknak ellentmondó bizonyíték vagy megfigyelés nem merül fel. A Definition of Output Done nem gyengülhet a Sprint során. Akkor mégis mit lehet módosítani helyette? Például egy adott Product Backlog Item elfogadási kritériuma, egy funkció megvalósításának részletessége vagy hűsége, illetve akár a Sprint Goal elérését szolgáló Product Backlog Itemek is módosíthatók vagy lecserélhetők.
+Ezek a Commitmentek megerősítik az átláthatóság (Transparency), az ellenőrzés (Inspection) és az alkalmazkodás (Adaptation) pilléreit, ezzel biztosítva az empirikus folyamatirányítás működésének feltételeit [27–29]. A Product Goal mindaddig változatlan marad, amíg a Product Definition of Outcome Done-ban megfogalmazott elvárásoknak ellentmondó bizonyíték vagy megfigyelés nem merül fel. A Definition of Output Done nem gyengülhet a Sprint során. Akkor mégis mit lehet módosítani helyette? Például egy adott Product Backlog Item elfogadási kritériuma, egy funkció megvalósításának részletessége vagy hűsége, illetve akár a Sprint Goal elérését szolgáló Product Backlog Itemek is módosíthatók vagy lecserélhetők.
 
-Ha a Product Goal gyakran változik, az arra utalhat, hogy valami nem megfelelően működik – például, hogy hiányzik a *Fókusz* a valóban lényeges dolgokról. A fókusz a professzionalizmus része: a professzionális működéshez ugyanúgy hozzátartozik annak meghatározása, hogy min dolgozunk, mint annak eldöntése, hogy min nem.
+Ha a Product Goal gyakran változik, az arra utalhat, hogy valami nem megfelelően működik – például, hogy hiányzik a *Fókusz* a valóban lényeges dolgokra. A fókusz a professzionalizmus része: a professzionális működéshez ugyanúgy hozzátartozik annak meghatározása, hogy min dolgozunk, mint annak eldöntése, hogy min nem.
 
 ## Termék (Product)
 
@@ -669,21 +669,19 @@ A User eXperience (UX) vagy Customer eXperience (CX) adósság azon tervezési �
 
 Ennek az adósságnak a felismerése, nyomon követése és kezelése elengedhetetlen ahhoz, hogy olyan termékeket szállítsunk, amelyek valóban megfelelnek a felhasználói igényeknek és elvárásoknak.
 
-Ennek az adósságnak a felismerése, nyomon követése és kezelése alapvető fontosságú ahhoz, hogy a felhasználók igényeinek és elvárásainak valóban megfelelő termékeket nyújtsunk.
-
 Az időbeli mérések átláthatóvá teszik a termék-, piac- és Stakeholder-trendeket (beleértve, de nem kizárólagosan a vásárlókat vagy felhasználókat); ezek bármikor áttekinthetők a Sprint során, beleértve a Sprint Review eseményt is.
 
 ## Inkrementum (Increment)
 
 Az Inkrementum egy artifakt. Az elkészült munka integrációja a „Definition of Output Done” minőségi sztenderdjei szerint. Az Inkrementum egy kimenet (output), valamint egy lehetséges Termék (Product) jelölt.
 
-Egy Sprint során több Inkrementum is létrejöhet Product Backlog elemek (Product Backlog Items) teljesítésével. Minden egyes Inkrementumot alaposan ellenőrizni kell, mindegyiknek használható állapotúnak kell lennie, és integrálva kell lennie az összes korábbi Inkrementummal. Az így létrejött összegzett Inkrementumot a lehető leghamarabb – legkésőbb a Sprint Review során – meg kell vizsgálni (megfigyelés). Az Inkrementumnak használhatónak és hasznosnak kell lennie ahhoz, hogy eredményalapú visszajelzést (result feedback) tegyen lehetővé. Az Inkrementum központi eleme a Scrumnak, mivel lehetővé teszi az érték folyamatos validálását.
+Egy Sprint során több Inkrementum is létrejöhet Product Backlog elemek (Product Backlog Items) teljesítésével. Minden egyes Inkrementumot alaposan ellenőrizni kell, mindegyiknek használható állapotúnak kell lennie, és integrálva kell lennie az összes korábbi Inkrementummal. Az így létrejött összegzett Inkrementumot a lehető leghamarabb – legkésőbb a Sprint Review során – ellenőrizni kell (Inspection). Az Inkrementumnak használhatónak és hasznosnak kell lennie ahhoz, hogy eredményalapú visszajelzést (result feedback) tegyen lehetővé. Az Inkrementum központi eleme a Scrumnak, mivel lehetővé teszi az érték folyamatos validálását.
 
 Egy Inkrementum-jelölt csak akkor válik tényleges Inkrementummá, ha teljesíti a „Definition of Output Done” minőségi követelményeit. Csak az Inkrementum bocsátható ki (release). Az Inkrementumnak kézzelfogható mérföldkőnek kell lennie a Product Goal felé vezető úton. Az Inkrementumokat a Stakeholderek számára történő szállításra(delivery) vagy akár a Sprint Review előtti kiadásra (release) is fel lehet használni. *A legjobb értékvalidálás az eredményalapú visszajelzés révén érhető el.*
 
 ## Kötelezettségvállalás (Commitment): Definition of Output Done
 
-A Definition of Output Done (az elkészült kimenet definíciója) egy kötelezettségvállalás. Hivatalosan leírja azokat a minőségi kritériumokat, amelyek biztosítják az Inkrementum megfelelő gondossággal történő elkészítését, hogy az szállíthatólegyen a Stakeholderek számára.
+A Definition of Output Done (az elkészült kimenet definíciója) egy kötelezettségvállalás. Hivatalosan leírja azokat a minőségi kritériumokat, amelyek biztosítják az Inkrementum megfelelő gondossággal történő elkészítését, hogy az szállítható legyen a Stakeholderek számára.
 
 A Definition of Output Done jellemzően magában foglalja – de nem kizárólag – a technikai sztenderdeket és a termékkel szembeni minőségi elvárásokat. Amennyiben az adott szervezet nem biztosít minimum elvárásokat, a Scrum Team hozza létre a definíciót. Ha több Scrum Team dolgozik ugyanazon a Terméken, közösen osztoznak a Definition of Output Done alapvető változatán, de azt továbbfejleszthetik.
 
@@ -703,13 +701,13 @@ Egy Product Backlog Item egyetlen munkaegység, amely értéket tár fel vagy sz
 
 ## Acceptance Criteria (elfogadási kritériumok)
 
-Az elfogadási kritériumok – ha léteznek – leírják, hogy egy adott Product Backlog Itemből származó eredmény (output)mikor tekinthető késznek, a Definition of Output Done mellett. A refinement során átdolgozott elemekben szereplő elfogadási kritériumok egyértelműen kell hogy meghatározzák, mi az elvárt eredmény. Az Acceptance Criteria olyan szempontokat tartalmaz, amelyek kifejezetten az adott Product Backlog elemrevonatkoznak, és amelyeket a Definition of Output Done nem fed le; ezek lehetnek funkcionális vagy nem-funkcionális jellegűek. Az elfogadási kritériumok bármikor változhatnak, akár akkor is, amikor a Product Developerek már dolgoznak rajtuk.
+Az elfogadási kritériumok – ha léteznek – leírják, hogy egy adott Product Backlog Itemből származó kimenet (output) mikor tekinthető késznek, a Definition of Output Done mellett. A refinement során átdolgozott elemekben szereplő elfogadási kritériumok egyértelműen kell hogy meghatározzák, mi az elvárt eredmény. Az Acceptance Criteria olyan szempontokat tartalmaz, amelyek kifejezetten az adott Product Backlog elemre vonatkoznak, és amelyeket a Definition of Output Done nem fed le; ezek lehetnek funkcionális vagy nem-funkcionális jellegűek. Az elfogadási kritériumok bármikor változhatnak, akár akkor is, amikor a Product Developerek már dolgoznak rajtuk.
 
 Ennek alcsoportját alkotják, az eredmény kritériumok (outcome criteria), melyek – ha léteznek – leírják a Product Backlog Item szándékát; ez a „miért” a „mi” mögött. Az eredmény kritériumok teljesülése gyakran kiegészíti a Termékre vonatkozó Definition of Outcome Done-t. Tartalmazhatnak olyan szempontokat, amelyek kifejezetten az adott Product Backlog Itemre vonatkoznak, és amelyeket a Definition of Outcome Done (a kész eredmény definíciója) nem fed le. Ha kérdések merülnek fel, az outcome criteria irányt mutat; a kritériumok lehetnek elbeszélő formájúak vagy mérőszámok – ideális esetben ez utóbbiak. Az eredmény kritériumok bármikor változhatnak, akár akkor is, amikor a Product Developerek már dolgoznak rajtuk.
 
 ## Refinement (finomhangolás)
 
-A refinement egy tevékenység. Lehet formális (külön esemény) vagy informális.(Az SGEP-ben a Refinement kiemelt jelentőségű elem.) A finomhangolás egy folyamatosan zajló, emergens folyamat, amely elősegíti a tisztánlátást és csökkenti a kockázatot; elegendő megértést és bizalmat épít ki ahhoz, hogy a kiválasztott vagy soron következő Product Backlog elemek készen álljanak (azaz néhány napon belül vagy rövidebb idő alatt elvégezhetők legyenek a Definition of Output Done szerint). Különféle függőségeket vesznek figyelembe.
+A refinement egy tevékenység. Lehet formális (külön esemény) vagy informális.(Az SGEP-ben a Refinement kiemelt jelentőségű elem.) A finomhangolás egy folyamatosan zajló, emergens folyamat, amely elősegíti a tisztánlátást és csökkenti a kockázatot; elegendő megértést és magabiztosságot épít ki ahhoz, hogy a kiválasztott vagy soron következő Product Backlog elemek készen álljanak (azaz néhány napon belül vagy rövidebb idő alatt elvégezhetők legyenek a Definition of Output Done szerint). Különféle függőségeket vesznek figyelembe.
 
 A refinement során a Product Backlog elemeket kisebb, érthetőbb (elsősorban a Scrum Team számára értelmezhető) Product Backlog elemekre bontják. Több részlet is hozzáadható, például leírás, Elfogadási Kritériumok, sorrend és méret. Az attribútumok változóak, de a Scrum Team számára relevánsak kell legyenek. A refinement kutatást is magában foglalhat, beleértve – de nem kizárólag – a probléma vagy lehetőség validálását, a felhasználói vagy ügyfélélményt, illetve a megoldás validálását. A Product Backlog elemekbecsléséért kizárólag a Product Developerek felelnek. A Product Owner hatással lehet a Product Developerekre, ha segít megérteni és kiválasztani a lehetséges trade-offokat.
 
@@ -721,13 +719,13 @@ A Product Goal (Termékcél) egy kötelezettségvállalás (Commitment). A Produ
 
 A Product Goal középtávú célkitűzés a Scrum Team, a Stakeholderek (és a Supporterek) számára. A Scrum Teamnek teljesítenie kell (vagy el kell vetnie) egy Product Goalt, mielőtt újat vállalna.
 
-A Product Goal rendszerint egy egyelőre még nem bizonyított feltételezés az értékteremtésről. Többféleképpen is kifejezhető, többek között olyan hipotézisek összességeként, amelyek a szükségletek kielégítésében mutatkozó hiányok megszüntetésére vagy csökkentésére (Outcome-ok), valamint ezek várható üzleti hatására vonatkoznak. A megfelelő egyensúlyt úgy éri el, hogy a Stakeholderek (beleértve, de nem kizárólag az ügyfeleket vagy felhasználókat) sokféle elvárásának és korlátjának egy részhalmazára összpontosít. A Scrumban fontos, hogy az Inspection és Adaptation révén nyitottak maradjunk a bizonytalanságokra [41], a visszacsatolásként kapott eredményekre, a mellékhatásokra és más tanulságokra.
+A Product Goal rendszerint egy egyelőre még nem bizonyított feltételezés az értékteremtésről. Többféleképpen is kifejezhető, többek között olyan hipotézisek összességeként, amelyek az elégedettségi rések (satisfaction gaps) megszüntetésére vagy csökkentésére (Outcome-ok), valamint ezek várható üzleti hatására vonatkoznak. A megfelelő egyensúlyt úgy éri el, hogy a Stakeholderek (beleértve, de nem kizárólag az ügyfeleket vagy felhasználókat) sokféle elvárásának és korlátjának egy részhalmazára összpontosít. A Scrumban fontos, hogy az Inspection és Adaptation révén nyitottak maradjunk a bizonytalanságokra [41], a visszacsatolásként kapott eredményekre, a mellékhatásokra és más tanulságokra.
 
 ## Mi a helyzet a termékvízióval?
 
-Számos szervezet dolgozik Product Vision-nel (Termékvízióval), amely segít elképzelni egy lehetséges jövőképet. (Az SGEP által bevezetett fogalom.) A Scrum Team felhasználhatja a Víziót bemenetként a Product Goal (Termékcél) megfontolásához. A Product Vision egy értelmes, hosszú távra szóló, kívánatos eredményekből álló információhalmaz. A középtávú Termékcél gyakran egy lépcsőfok a hosszú távú Termékvízió felé vezető úton.
+Számos szervezet dolgozik Product Vision-nel (Termékvízióval), amely segít elképzelni egy lehetséges jövőképet. (Az SGEP által bevezetett fogalom.) A Scrum Team felhasználhatja a Víziót bemenetként a Product Goal (Termékcél) megfontolásához. A Product Vision egy értelmes, hosszú távra szóló, kívánatos eredményekből álló információhalmaz. A középtávú Product Goal gyakran egy lépcsőfok a hosszú távú Termékvízió felé vezető úton.
 
-Ahogy a Scrum Team és a Stakeholderek a Termékcél elérésére törekedve ellenőrzik és alakítják a folyamatokat , nyitottnak kell lenniük arra a lehetőségre is, hogy akár a Product Vision, akár a Product Goal módosulhat.. Gyakran több Product Goal valósul meg egymás után, miközben a vízió felé haladnak.
+Ahogy a Scrum Team és a Stakeholderek a Product Goal elérésére törekedve ellenőrzik és alakítják a folyamatokat , nyitottnak kell lenniük arra a lehetőségre is, hogy akár a Product Vision, akár a Product Goal módosulhat. Gyakran több Product Goal valósul meg egymás után, miközben a vízió felé haladnak.
 
 A legfontosabb dolog, amit szem előtt kell tartani: a Product Vision gyakran fikció – előfordulhat, hogy semmi sem bizonyul igaznak belőle. Hipotézisek felállítása és kísérletek futtatása a megfelelő irányban elengedhetetlen – és ez az a terület, ahol a Scrum a legnagyobb értéket tudja teremteni.
 
@@ -737,17 +735,17 @@ A Product Vision gyakran inspiráló, ugyanakkor túlterhelő is lehet. A Produc
 
 A Sprint Backlog egy artifakt. Három részből áll: a Sprint Goal-ból (a Sprint “miért”-je), az adott Sprintre kiválasztott Product Backlog elemek halmazából (a „mi”, más néven előrejelzés), valamint gyakran egy cselekvési tervből, amely az Inkrementum leszállítását szolgálja (a „hogyan”). Átláthatóságot (a munkát illetően egyértelműséget) biztosít a teljes Sprint során.
 
-A Sprint Backlog a Product Developerek terve – tőlük származik, és nekik szól. Ez a Product Developerek nézőpontja a megértett munkáról, amely a Sprint cél(a Sprint „miért”-je) eléréséhez szükséges. Tegyük fel, hogy egy nem optimális helyzettel állunk szemben, amelyben a Sprint Backlog elemeinek többsége folyamatosan nincs kapcsolatban a Product Goal-lal – ebben az esetben a Focus és Commitment Scrum értékek nem érvényesülnek.
+A Sprint Backlog a Product Developerek terve – tőlük származik, és nekik szól. Ez a Product Developerek nézőpontja a megértett munkáról, amely a Sprint Goal (a Sprint „miért”-je) eléréséhez szükséges. Tegyük fel, hogy egy nem optimális helyzettel állunk szemben, amelyben a Sprint Backlog elemeinek többsége folyamatosan nincs kapcsolatban a Product Goal-lal – ebben az esetben a Focus és Commitment Scrum értékek nem érvényesülnek.
 
 A Sprint Goal kontextusán belül a Product Developerek folyamatosan frissítik a tervüket – beleértve az előrejelzést is –, ahogy újabb tanulságokat szereznek a Sprint során. A Sprint Backlognak tartalmaznia kell elegendő munkát a kezdéshez – például egy vagy két Product Backlog elemet a Sprint Goal irányába. (A Scrum Guide 2017-ben is megjelenő szemlélet, amelyet az SGEP ismét hangsúlyoz.) A Product Developerek a haladásukat a Sprint Goal felé minden Daily Scrum során, vagy akár gyakrabban is ellenőrzik. A Product Developerek megtanulják, hogyan reagáljanak és alkalmazkodjanak a bizonytalansághoz [41].
-
-Ha több célkitűzés is van, az elfogadható lehet, amennyiben azok összhangban állnak a Product Goallal. Ugyanakkor ezt körültekintően kell kezelni. Érdemes mérlegelni a kontextusváltás és a fókusz közötti kompromisszumokat. A Scrum Teamnek arra kell törekednie, hogy hosszabb távon egyensúlyt teremtsen az aktuális csapatképességek és légkör, a stakeholderek számára jelenleg teremtett érték, a potenciális stakeholderérték, valamint az értékteremtéshez szükséges idő között. (Az SGEP itt a DevSecOps szemléletét is figyelembe veszi.)
 
 ## Kötelezettségvállalás (Commitment): Sprint Goal (Sprint cél)
 
 A közös irány és összhang megteremtése érdekében a Sprint Goal egy olyan Commitment, amelyet a Scrum Team közösen alakít ki és közösen vállal. (Az SGEP ezt a Scrum Teamhez rendeli, míg a Scrum Guide 2020 a Developereket nevezte meg a Commitment tulajdonosaként.) A Sprint Goal a Sprint egyetlen, egységet teremtő célja (összhangban a Product Goallal), amely a Product Developerek számára a Sprint „miértjét” jelenti, és a Sprint Planning során jön létre. A Sprint Goal teljesítése a Product Developerek vállalása. A Sprint Backlog (amely tartalmazza a „miért”-et, a „mit”-et, és gyakran a „hogyan”-t is) fókuszt és rugalmasságot biztosít a változó munka során, ezáltal növelve az átláthatóságot.
 
-A Sprint Goal arra ösztönzi a Scrum Teamet, hogy közösen dolgozzanak, ne pedig különálló kezdeményezéseken. Ha a munka eltér attól, amire a Product Developerek számítottak, a Product Developerek együttműködnek a Product Ownerrel, hogy lehetőségeket tárgyaljanak meg a Sprinten belül, anélkül hogy ez érintené a Sprintcél. Senki sem mondja meg a Product Developereknek, hogyan becsüljék vagy végezzék el a munkájukat.
+A Sprint Goal arra ösztönzi a Scrum Teamet, hogy közösen dolgozzanak, ne pedig különálló kezdeményezéseken. Ha a munka eltér attól, amire a Product Developerek számítottak, a Product Developerek együttműködnek a Product Ownerrel, hogy lehetőségeket tárgyaljanak meg a Sprinten belül, anélkül hogy ez érintené a Sprint Goalt. Senki sem mondja meg a Product Developereknek, hogyan becsüljék vagy végezzék el a munkájukat.
+
+Ha több célkitűzés is van, az elfogadható lehet, amennyiben azok összhangban állnak a Product Goallal. Ugyanakkor ezt körültekintően kell kezelni. Érdemes mérlegelni a kontextusváltás és a fókusz közötti kompromisszumokat. A Scrum Teamnek arra kell törekednie, hogy hosszabb távon egyensúlyt teremtsen az aktuális csapatképességek és légkör, a stakeholderek számára jelenleg teremtett érték, a potenciális stakeholderérték, valamint az értékteremtéshez szükséges idő között. (Az SGEP itt a DevSecOps szemléletét is figyelembe veszi.)
 
 ## A Scrum események az Expansion Pack-ben
 
@@ -755,45 +753,45 @@ A Scrum négy, az Inspectiont és az Adaptationt szolgáló, timeboxolt esemény
 
 Az időkeret (timebox) egy adott esemény számára meghatározott maximális időtartam – ez nem azt jelenti, hogy az egész időt feltétlenül ki kell használni. Az időkeret célja a Scrum keretrendszerben az, hogy a csapat a lényegi munkára *fókuszáljon*, és ezáltal gyorsabban érjen el értékes eredményeket.
 
-Az események ritmust (cadence) adnak a munkának, és csökkentik annak szükségességét, hogy a csapatok további, a Scrumban meghatározott ceremóniákon felül további megbeszéléseket tartsanak. Ideális esetben minden esemény ugyanabban az időpontban és helyen történik, hogy csökkentse a komplexitást [12–17] és elősegítse a szokások kialakulását. A tapasztalt facilitáció növeli az események hatékonyságát. Ha az események nem hatékonyak, akkor könnyen elterelődik a fókusz a Sprint célról, a Termékcélról, az Átláthatóságról, az Ellenőrzésről, az Alkalmazkodásról és a Scrum értékekről.
+Az események ritmust (cadence) adnak a munkának, és csökkentik a Scrumhoz nem tartozó egyéb megbeszélések szükségességét. Ideális esetben minden esemény ugyanabban az időpontban és helyen történik, hogy csökkentse a komplexitást [12–17] és elősegítse a szokások kialakulását. A tapasztalt facilitáció növeli az események hatékonyságát. Ha az események nem hatékonyak, akkor könnyen elterelődik a fókusz a Sprint Goalról, a Product Goalról, az Átláthatóságról, az Ellenőrzésről, az Alkalmazkodásról és a Scrum értékekről.
 
 Minden Scrum esemény egyedi célt szolgál, és mélyreható, jelentőségteljes munkát kell lehetővé tennie. A Scrum esemény-együttes egy Átláthatóságra épülő keretrendszert biztosít a folyamatos vizsgálathoz, alkalmazkodáshoz, tudatos megálláshoz és visszatekintéshez. A Scrum eseményei támogatják a strukturált gondolkodást, a strukturált munkavégzést, az eredményességet és a kiegyensúlyozott munkaterhelést. (Az SGEP szemléletére a Cynefin és az Evidence-Based Management is hatással volt.)
 
-A hatékony kommunikáció biztosítja, hogy a Scrum Csapat és a Supporterek a legnagyobb értéket képviselő célokra *koncentráljanak (Focus)*. A Sprinten kívüli események rövidebbek is lehetnek, feltéve, hogy az összhang és következetesség nem sérül.
+A hatékony kommunikáció biztosítja, hogy a Scrum Team és a Supporterek a legnagyobb értéket képviselő célokra *koncentráljanak (Focus)*. A Sprint kivételével az események rövidebbek is lehetnek, feltéve, hogy az összhang és következetesség nem sérül.
 
 ## A Sprint
 
-A Sprint egy olyan esemény, amelyben ötletekből érték keletkezik. Ez a “konténer-esemény” tartalmazza az összes többi eseményt. Ez egy meghatározott idejű iteráció, amelyben a munka megvalósul. *Fókuszt* és stabilitást biztosít. Egy Sprint legfeljebb négy hét hosszú lehet, és az új Sprint azonnal elindul az előző befejezése után. A Termékcél eléréséhez szükséges összes munka a Sprintekben történik.
+A Sprint egy olyan esemény, amelyben ötletekből érték keletkezik. Ez a “konténer-esemény” tartalmazza az összes többi eseményt. Ez egy meghatározott idejű iteráció, amelyben a munka megvalósul. *Fókuszt* és stabilitást biztosít. Egy Sprint legfeljebb négy hét hosszú lehet, és az új Sprint azonnal elindul az előző befejezése után. A Product Goal eléréséhez szükséges összes munka a Sprintekben történik.
 
-A Sprintek a Scrum szívdobbanásai – itt alakítja át a Scrum Csapat az ötleteket használható, hasznos és potenciálisan értékes Inkrementumokká. Az Inkrementum kiadása, üzleti és technikai szempontokat figyelembe véve, a lehető legkorábban megtörténik, mivel a gyors visszajelzések kulcsfontosságúak az érték validálásához és az irány korrekciójához. Ha az Inkrementum nem jut el időben bizonyos Érintettekhez – többek között az ügyfelekhez, döntéshozókhoz vagy végfelhasználókhoz –, az késlelteti az időben beérkező eredményalapú visszajelzéseket. Egy Sprint során több Inkrementum is létrejöhet – a Scrum Csapatnak törekednie kell a gyakori, korai kiadásokon keresztüli értékvalidálásra, ahol ez lehetséges.
+A Sprintek a Scrum szívdobbanásai – itt alakítja át a Scrum Team az ötleteket használható, hasznos és potenciálisan értékes Inkrementumokká. Az Inkrementum kiadása, üzleti és technikai szempontokat figyelembe véve, a lehető legkorábban megtörténik, mivel a gyors visszajelzések kulcsfontosságúak az érték validálásához és az irány korrekciójához. Ha az Inkrementum nem jut el időben bizonyos Stakeholderekhez – többek között az ügyfelekhez, döntéshozókhoz vagy végfelhasználókhoz –, az késlelteti az időben beérkező eredményalapú visszajelzéseket. Egy Sprint során több Inkrementum is létrejöhet – a Scrum Teamnek törekednie kell a gyakori, korai kiadásokon keresztüli értékvalidálásra, ahol ez lehetséges.
 
 > A Sprint során:
 
-- Nem történhet olyan változás, ami veszélyezteti a Sprint Cél elérését;
+- Nem történhet olyan változás, ami veszélyezteti a Sprint Goal elérését;
 
 - Az Inkrementum(ok) minősége nem csökkenhet;
 
 - A Product Backlog szükség szerint finomhangolható; és
 
-- Ahogy a csapat új ismeretekre tesz szert, a folyamatban lévő munka pontosítása és újratárgyalása is megtörténhet a Product Ownerrel – mindez anélkül, hogy ez veszélyeztetné a Sprint Cél elérését.
+- Ahogy a csapat új ismeretekre tesz szert, a folyamatban lévő munka pontosítása és újratárgyalása is megtörténhet a Product Ownerrel – mindez anélkül, hogy ez veszélyeztetné a Sprint Goal elérését.
 
-A sprintek lehetővé teszik az eredmények elérését azáltal, hogy legalább négyhetenként biztosítják a Sprint Cél felé tett haladás rendszeres ellenőrzését (Inspection) és szükség szerinti módosítását (Adaptation). Ha egy Sprint túl hosszú, a Sprint Goal már nem biztosít megfelelő összhangot, ami növeli a komplexitást [12–17] és a kockázatot. A rövidebb sprintek gyakran több tanulási ciklust generálnak, és csökkenthetik a kockázatokat is.
+A sprintek lehetővé teszik az eredmények elérését azáltal, hogy legalább négyhetenként biztosítják a Sprint Goal felé tett haladás rendszeres ellenőrzését (Inspection) és szükség szerinti módosítását (Adaptation). Ha egy Sprint túl hosszú, a Sprint Goal már nem biztosít megfelelő összhangot, ami növeli a komplexitást [12–17] és a kockázatot. A rövidebb sprintek gyakran több tanulási ciklust generálnak, és csökkenthetik a kockázatokat is.
 
-A rövidebb Sprintek általában fejlettebb képességeket igényelnek (pl. backlog finomhangolás, vertikális darabolás, technikai és üzleti tudás). A kontextus számít, a Scrum Csapatnak meg kell találnia a megfelelő egyensúlyt.
+A rövidebb Sprintek általában fejlettebb képességeket igényelnek (pl. backlog finomhangolás, vertikális darabolás, technikai és üzleti tudás). A kontextus számít, a Scrum Teamnek meg kell találnia a megfelelő egyensúlyt.
 
 Számos kiegészítő gyakorlat létezik a haladás értékelésére vagy előrejelzésére, például a burn-down és burn-up diagramok, folyamatelemzések, Monte Carlo valószínűségi előrejelzések, nagyszabású erőforrás-becslések, fuzzy halmazok [55] stb. Bár hasznosak, ezek nem helyettesítik az empirikus megközelítés [19] jelentőségét. Komplex [12–17] környezetben a múltbeli történések alapján lehet előre jelezni és döntéseket hozni, azonban a jövő eseményei továbbra is bizonytalanok.
 
 A Sprintre gondolhatunk úgy is, mint egy kis projektre, egyértelmű kimenettel, meghatározott hosszúsággal és jól ismert költségekkel – ugyanakkor a tevékenységek nem szigorúan egymás után következnek, hanem párhuzamosan zajlanak.
 
-Egy Sprint akkor állítható le, ha a Sprint Cél megvalósítása értelmét veszti. Csak a Product Owner jogosult Sprintet törölni. Rövidebb sprintek esetén kisebb az esélye annak, hogy a sprintet törölni kell.
+Egy Sprint akkor állítható le, ha a Sprint Goal megvalósítása értelmét veszti. Csak a Product Owner jogosult Sprintet törölni. Rövidebb sprintek esetén kisebb az esélye annak, hogy a sprintet törölni kell.
 
 ## Sprint Planning
 
-A Sprint tervezés egy Scrum-esemény. Ez a Sprint első eseménye, ahol a Scrum Csapat meghatározza a fókuszt és elköteleződik a célok mellett.
+A Sprint Planning egy Scrum-esemény. Ez a Sprint első eseménye, ahol a Scrum Team meghatározza a fókuszt és elköteleződik a célok mellett.
 
-A Sprint tervezés során a Scrum Csapat figyelembe veszi az inkább stratégiai szintű Termékcélt – vagyis azt, hogy *miért* létezik a Product Backlog –, ez ad irányt a munkának. E folyamat során a Product Developerek létrehozzák a Sprint Backlogot, amely tartalmazza a rövidebb távú, inkább taktikai jellegű Sprint Célt (vagyis a Sprint *miértjét*), a kezdeti azonosított feladatokat, valamint az azok megvalósítására szolgáló tervet.
+A Sprint Planning során a Scrum Team figyelembe veszi az inkább stratégiai szintű Product Goalt – vagyis azt, hogy *miért* létezik a Product Backlog –, ez ad irányt a munkának. E folyamat során a Product Developerek létrehozzák a Sprint Backlogot, amely tartalmazza a rövidebb távú, inkább taktikai jellegű Sprint Goalt (vagyis a Sprint *miértjét*), a kezdeti azonosított feladatokat, valamint az azok megvalósítására szolgáló tervet.
 
-A Sprint Tervezés az alábbi témaköröket érinti:
+A Sprint Planning az alábbi témaköröket érinti:
 
 ## A Sprint *Miértje*
 
@@ -801,57 +799,57 @@ A Product Owner adatokra épülő javaslatokat fogalmaz meg arra vonatkozóan, h
 
 ## A *Mit* a *Miért* irányába
 
-A Product Ownerrel együttműködve a Fejlesztők kiválasztják azokat az elemeket a Product Backlogból, amelyeket beemelnek az aktuális Sprintbe. A Scrum Csapat ezeket az elemeket tovább finomíthatja, ami növeli a közös megértést és a bizalmat. A kiválasztott elemeknek megvalósíthatónak kell lenniük a Definition of Output Done-nak megfelelően, más elemekkel együtt.
+A Product Ownerrel együttműködve a Product Developerek kiválasztják azokat az elemeket a Product Backlogból, amelyeket beemelnek az aktuális Sprintbe. A Scrum Team ezeket az elemeket tovább finomíthatja, ami növeli a közös megértést és a magabiztosságot. A kiválasztott elemeknek megvalósíthatónak kell lenniük a Definition of Output Done-nak megfelelően, más elemekkel együtt.
 
-Annak meghatározása, hogy mennyi munka fér bele egy Sprintbe, kihívást jelenthet. Ugyanakkor minél többet tudnak a Fejlesztők a korábbi teljesítményükről, a vertikális darabolásról, a várható kapacitásukról és a Definition of Outcome Done-ról, annál nagyobb magabiztossággal tudják előre jelezni a Sprint eredményeit.
+Annak meghatározása, hogy mennyi munka fér bele egy Sprintbe, kihívást jelenthet. Ugyanakkor minél többet tudnak a Product Developerek a korábbi teljesítményükről, a vertikális darabolásról, a várható kapacitásukról és a Definition of Output Done-ról, annál nagyobb magabiztossággal tudják előre jelezni a Sprint eredményeit.
 
-A sikeres Scrum Csapatok nem terhelik túl magukat. Valójában gyakran előre tervezik a munka korai befejezését, és időnként tartalékot (buffer) is beépítenek a váratlan események kezelésére [56]. Ez segíti a csapatot abban, hogy megőrizze fókuszát, javítsa a minőséget, és hamarabb szállítson értéket a Stakeholderek számára. A krónikus túlterheltség vagy hirtelen változások túlzott negatív stresszt okozhatnak, amit Jeff Sutherland váratlan kognitív sokként (Bayesian surprise) említ. Ezek megzavarhatják a Scrum Csapat pszichológiai flow élményét [46] és ronthatják a csapat teljesítményét. A világos kommunikáció, az előre nem látható történések professzionális kezelése (emergence) [21], valamint a kismértékű és rendszeres változtatások segítenek megelőzni ezt, ezért a Scrum Csapatoknak érdemes a minél korábbi szállításra törekedni. (Az SGEP támogatja a slack alkalmazását.)
+A sikeres Scrum Teamek nem terhelik túl magukat. Valójában gyakran előre tervezik a munka korai befejezését, és időnként tartalékot (buffer) is beépítenek a váratlan események kezelésére [56]. Ez segíti a csapatot abban, hogy megőrizze fókuszát, javítsa a minőséget, és hamarabb szállítson értéket a Stakeholderek számára. A krónikus túlterheltség vagy hirtelen változások túlzott negatív stresszt okozhatnak, amit Jeff Sutherland váratlan kognitív sokként (Bayesian surprise) említ. Ezek megzavarhatják a Scrum Team pszichológiai flow élményét [46] és ronthatják a csapat teljesítményét. A világos kommunikáció, az előre nem látható történések professzionális kezelése (emergence) [21], valamint a kismértékű és rendszeres változtatások segítenek megelőzni ezt, ezért a Scrum Teameknek érdemes a minél korábbi szállításra törekedni. (Az SGEP támogatja a slack alkalmazását.)
 
 ## A *Hogyan* a *Mit-hez*
 
-A munka elvégzésének módjáról kizárólag a Fejlesztők döntenek. Senki más nem mondja meg nekik, hogyan végezzék a munkájukat. A Fejlesztők maguk választják ki a feladataikat; senki nem osztja ki, vagy „nyomja rájuk” a Product Backlog elemeket – még a Product Owner sem.
+A munka elvégzésének módjáról kizárólag a Product Developerek döntenek. Senki más nem mondja meg nekik, hogyan végezzék a munkájukat. A Product Developerek maguk választják ki a feladataikat; senki nem osztja ki, vagy „nyomja rájuk” a Product Backlog elemeket – még a Product Owner sem.
 
-A Sprint Tervezés időkerete (timebox) legfeljebb nyolc óra lehet egy négyhetes Sprint esetén. Rövidebb Sprinteknél ez az esemény jellemzően rövidebb ideig tart. A kontextus számít – de ökölszabályként elmondható: annyi tervezés történjen, amennyi elegendő a munkakezdéshez – például néhány, a Sprint Célt támogató Product Backlog elem megtervezése.
+A Sprint Planning időkerete (timebox) legfeljebb nyolc óra lehet egy négyhetes Sprint esetén. Rövidebb Sprinteknél ez az esemény jellemzően rövidebb ideig tart. A kontextus számít – de ökölszabályként elmondható: annyi tervezés történjen, amennyi elegendő a munkakezdéshez – például néhány, a Sprint Goalt támogató Product Backlog elem megtervezése.
 
 ## Daily Scrum
 
-A Daily Scrum egy esemény. Ezen az eseményen a Fejlesztők együttműködnek a Sprint Cél elérése érdekében, és frissítik a cselekvési tervet, a Sprint Backlogot a következő Daily Scrum eseményig. Ha a Sprint Cél már teljesült, a Fejlesztők a Product Cél irányába történő következő érdemi előrelépésen dolgoznak tovább.(Az SGEP az irány fenntartását hangsúlyozza.)
+A Daily Scrum egy esemény. Ezen az eseményen a Product Developerek együttműködnek a Sprint Goal elérése érdekében, és frissítik a cselekvési tervet, a Sprint Backlogot a következő Daily Scrum eseményig. Ha a Sprint Goal már teljesült, a Product Developerek a Product Goal irányába történő következő érdemi előrelépésen dolgoznak tovább.(Az SGEP az irány fenntartását hangsúlyozza.)
 
-A Daily Scrum fókuszt, összetartást és időbeli nyomást teremt, valamint elősegíti az önmenedzselést [11]. Általában kizárólag a Fejlesztők vesznek részt rajta. Az egyszerűség érdekében gyakran ugyanabban az időpontban és helyszínen, azonos menetrenddel kerül megrendezésre.
+A Daily Scrum fókuszt, összetartást és időbeli nyomást teremt, valamint elősegíti az önmenedzselést [11]. Általában kizárólag a Product Developerek vesznek részt rajta. Az egyszerűség érdekében gyakran ugyanabban az időpontban és helyszínen, azonos menetrenddel kerül megrendezésre.
 
-A Fejlesztők szabadon választhatják meg a számukra megfelelő struktúrát és technikákat. A Daily Scrum javítja a Sprint Cél elérését támogató kommunikációt, segít a kockázatok és akadályok azonosításában és kezelésében, gyors döntéshozatalt kíván meg, és így csökkenti a további megbeszélések szükségességét.
+A Product Developerek szabadon választhatják meg a számukra megfelelő struktúrát és technikákat. A Daily Scrum javítja a Sprint Goal elérését támogató kommunikációt, segít a kockázatok és akadályok azonosításában és kezelésében, gyors döntéshozatalt kíván meg, és így csökkenti a további megbeszélések szükségességét.
 
-A Daily Scrum nem az egyetlen alkalom, amikor a Fejlesztők módosíthatják a Sprintre vonatkozó tervüket a Sprint Cél vagy a Termék Cél kontextusában. Gyakran napközben is találkoznak, hogy részletesebb egyeztetéseket folytassanak.
+A Daily Scrum nem az egyetlen alkalom, amikor a Product Developerek módosíthatják a Sprintre vonatkozó tervüket a Sprint Goal vagy a Product Goal kontextusában. Gyakran napközben is találkoznak, hogy részletesebb egyeztetéseket folytassanak.
 
-A folyamatos értékáramlás [48–49] és a lehető legkorábbi eredmények elérése érdekében a Fejlesztőknek célszerű egyszerre egy vagy néhány elemre összpontosítani, és teljesíteni a Definition of Output Done kritériumait, mielőtt új munkába kezdenének. Ezt úgy érhetik el, ha koncentráltak maradnak, kevés elem van folyamatban, és inkább befejezik a megkezdett munkát, ahelyett hogy újat kezdenének. A Fejlesztők a „várakozó munkát” figyelik, nem pedig az „üresjáratban lévő embereket”. (Az SGEP a flow szemléletét hangsúlyozza.)
+A folyamatos értékáramlás [48–49] és a lehető legkorábbi eredmények elérése érdekében a Product Developereknek célszerű egyszerre egy vagy néhány elemre összpontosítani, és teljesíteni a Definition of Output Done kritériumait, mielőtt új munkába kezdenének. Ezt úgy érhetik el, ha koncentráltak maradnak, kevés elem van folyamatban, és inkább befejezik a megkezdett munkát, ahelyett hogy újat kezdenének. A Product Developerek a „várakozó munkát” figyelik, nem pedig az „üresjáratban lévő embereket”. (Az SGEP a flow szemléletét hangsúlyozza.)
 
 A Daily Scrum időkerete legfeljebb napi 15 perc.
 
 ## Sprint Review
 
-A Sprint Review egy esemény. Ez egy interaktív, együttműködésen alapuló munkafolyamat. Ezen az eseményen legtöbbször a Scrum Csapat megosztja az aktuális Product Célt, valamint bemutatja a Definition of Output Done-t és a Definition of Outcome Done-t az Érintettek (Stakeholders) számára. A Scrum Csapat bemutatja munkájának eredményeit, a meghozott kompromisszumokat, valamint azt, hogy milyen mértékű előrelépés történt a Product Cél irányába (azaz a munkavégzés mögötti „miért” irányába). Ha rendelkezésre állnak, a Definition of Outcome Done teljesülésére vonatkozó aktuális, naprakész mérőszámokat is ismertetik és közösen átgondolják.
+A Sprint Review egy esemény. Ez egy interaktív, együttműködésen alapuló munkafolyamat. Ezen az eseményen legtöbbször a Scrum Team megosztja az aktuális Product Goalt, valamint bemutatja a Definition of Output Done-t és a Definition of Outcome Done-t a Stakeholderek számára. A Scrum Team bemutatja munkájának eredményeit, a meghozott kompromisszumokat, valamint azt, hogy milyen mértékű előrelépés történt a Product Goal irányába (azaz a munkavégzés mögötti „miért” irányába). Ha rendelkezésre állnak, a Definition of Outcome Done teljesülésére vonatkozó aktuális, naprakész mérőszámokat is ismertetik és közösen átgondolják.
 
-A Sprint Review során számos, a Termékhez kapcsolódó aspektust vizsgálnak meg, például: a Termék Célt, a Product Backlogot, a Sprint Célt, a tanulságokat, az Inkrementumot, az Érintettek elvárásait és korlátait, a visszajelzéseket, a mellékhatásokat, a Termék előrehaladását, a piaci tényezőket, valamint előretekintő szempontokat is, például új ötleteket, lehetőségeket vagy lehetséges következő lépéseket.
+A Sprint Review során számos, a Termékhez kapcsolódó aspektust vizsgálnak meg, például: a Product Goalt, a Product Backlogot, a Sprint Goalt, a tanulságokat, az Inkrementumot, a Stakeholderek elvárásait és korlátait, a visszajelzéseket, a mellékhatásokat, a Termék előrehaladását, a piaci tényezőket, valamint előretekintő szempontokat is, például új ötleteket, lehetőségeket vagy lehetséges következő lépéseket.
 
 A tanultak alapján:
 
 - A résztvevők érzékelik, meghallgatják egymást, tanulnak, és közösen gondolkodnak arról, mi lehet a következő lépés;
 
-- A Product Backlog (a „mi”) és szükség esetén a Termék Cél is módosulhat — lehetőség szerint adatokra vagy megfigyelésekre támaszkodva, és a Product Goal vagy az opcionális Product Vision által vezérelt módon; és
+- A Product Backlog (a „mi”) és szükség esetén a Product Goal is módosulhat — lehetőség szerint adatokra vagy megfigyelésekre támaszkodva, és a Product Goal vagy az opcionális Product Vision által vezérelt módon; és
 
 - A jövőbeli Sprintekre vonatkozóan résztvevők módosíthatják a Product Definition of Outcome Done tartalmát is.
 
-Mindig fontos figyelembe venni az érintetteket, valamint azt, hogy mely értékeket, szempontokat tartanak fontosnak, ideértve az élettelen, nem emberi érintetteket is, mint például a jogszabályok.
+Mindig fontos figyelembe venni a Stakeholdereket, valamint azt, hogy mely értékeket, szempontokat tartanak fontosnak, ideértve az élettelen, nem emberi Stakeholdereket is, mint például a jogszabályok.
 
 A be nem fejezett Product Backlog elemek visszakerülnek a Product Backlogba további megfontolásra, és nem kerülnek bemutatásra; esetenként ezek átkerülnek a következő Sprintbe.
 
 A Sprint Review a Sprint utolsó előtti eseménye, amelynek időkerete négy óra egy négyhetes Sprint esetén. Rövidebb Sprinteknél az esemény időtartama jellemzően rövidebb.
 
-## Sprint Retrospektív
+## Sprint Retrospective
 
-A Sprint Retrospektív egy esemény. Ennek során a Scrum Csapat megállapodik abban, hogy min és hogyan érdemes javítani. Sor kerülhet téves feltételezések feltárására is – olyanokra, amelyek korábban tévútra vitték a csapatot. Emellett pozitív tapasztalatokat – például jól bevált technológiákat, folyamatokat, működési mintákat – is ki lehet emelni, megerősíteni. Az eseményen vizsgált szempontok gyakran a tevékenységi terület sajátosságaihoz igazodnak. A visszatekintés akkor a leghatékonyabb, ha pszichológiailag biztonságos környezetben zajlik.
+A Sprint Retrospective egy esemény. Ennek során a Scrum Team megállapodik abban, hogy min és hogyan érdemes javítani. Sor kerülhet téves feltételezések feltárására is – olyanokra, amelyek korábban tévútra vitték a csapatot. Emellett pozitív tapasztalatokat – például jól bevált technológiákat, folyamatokat, működési mintákat – is ki lehet emelni, megerősíteni. Az eseményen vizsgált szempontok gyakran a tevékenységi terület sajátosságaihoz igazodnak. A visszatekintés akkor a leghatékonyabb, ha pszichológiailag biztonságos környezetben zajlik.
 
-A Sprint Retrospektív azokra a változásokra fókuszál, amelyek a legnagyobb mértékben járulhatnak hozzá a fejlődéshez, például:
+A Sprint Retrospective azokra a változásokra fókuszál, amelyek a legnagyobb mértékben járulhatnak hozzá a fejlődéshez, például:
 
 - Az Inkrementumra
 
@@ -871,11 +869,11 @@ A Sprint Retrospektív azokra a változásokra fókuszál, amelyek a legnagyobb 
 
 - A következő Sprintek Definition of Outcome Done-jának további finomítására;
 
-- Annak módjára, hogyan lehet biztosítani automatikusan a *Definition of Outcome Done* mérőszámainak teljesülését;
+- Annak módjára, hogyan lehet a *Definition of Outcome Done* mérőszámait automatikusan előállítani (begyűjteni);
 
 - …és más szempontokra.
 
-A legnagyobb hatású fejlesztési lehetőségeket a lehető leghamarabb érdemes kezelni. A Scrum Csapat célja nem csupán a fejlődésről való beszélgetés – a Scrum a valódi, folyamatos fejlődést meg is valósító törekvésekre épül. Egyes fejlesztési lépésekhez a Támogatók (Supporters) bevonása szükséges lehet, de ez nem jelenti azt, hogy a Scrum Csapatnak ne kellene törekednie valós előrelépésekre – például a folyamatos, apró javításokra (marginal gains).
+A legnagyobb hatású fejlesztési lehetőségeket a lehető leghamarabb érdemes kezelni. A Scrum Team célja nem csupán a fejlődésről való beszélgetés – a Scrum a valódi, folyamatos fejlődést meg is valósító törekvésekre épül. Egyes fejlesztési lépésekhez a Supporterek bevonása szükséges lehet, de ez nem jelenti azt, hogy a Scrum Teamnek ne kellene törekednie valós előrelépésekre – például a folyamatos, apró javításokra (marginal gains).
 
 A Sprint Retrospective a Sprint utolsó eseménye. Egy négyhetes Sprint esetén három óráig tart. Rövidebb Sprintek esetén jellemzően rövidebb ideig zajlik.
 
@@ -885,7 +883,7 @@ A Scrum olyan, mint egy tükör. Ha a tükörképed nem olyan, amilyennek szeret
 
 Mielőtt a Scrum testreszabására törekednél, alakítsd ki szokássá legalább egy Inkrement elérését minden Sprintben. A Scrum minden egyes elemének célja van – ezek megértése elengedhetetlen. Vedd figyelembe a kontextust. A rövid táv a szállításról szól, a hosszú táv pedig a sikeres, emergens változásról egy irányban, valamint az érték fenntartható szállításáról: Outcome-ok teremtéséről a Stakeholderek számára és Impact eléréséről a szervezetek számára. A Scrum sikeres bevezetése azon múlik, hogy meg tudjuk-e találni az egyensúlyt a rövid és hosszú táv között.
 
-Óvakodj attól, hogy más szervezetektől átvett megközelítéseket alkalmazz anélkül, hogy azok kultúráját is kialakítanád.Az emergens változás a haladás irányában maga a változás. A változás magába foglalja (de nem kizárólag) a vezetést, munkafolyamatokat, eljárásokat és rendszereket – beleértve a HR-t, pénzügyet, beszerzést és még sok mást. A Scrum nem egy végcél, hanem egy soha véget nem érő, folyamatos fejlődéssel és javítással járó expedíció egy meghatározott irányban.
+Óvakodj attól, hogy más szervezetektől átvett megközelítéseket alkalmazz anélkül, hogy azok kultúráját is kialakítanád. Az emergens változás a haladás irányában maga a változás. A változás magába foglalja (de nem kizárólag) a vezetést, munkafolyamatokat, eljárásokat és rendszereket – beleértve a HR-t, pénzügyet, beszerzést és még sok mást. A Scrum nem egy végcél, hanem egy soha véget nem érő, folyamatos fejlődéssel és javítással járó expedíció egy meghatározott irányban.
 
 ## Köszönetnyilvánítás
 
