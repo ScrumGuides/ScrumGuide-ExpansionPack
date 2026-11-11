@@ -513,11 +513,11 @@ A Scrum Masternek a helyzethez illeszkedően kell viselkednie; szerepei közé t
 
 A Scrum Master felelős a Scrum Team, a Stakeholderek, a Supporterek és az érintettek hatékonyságáért a tapasztalati tanulás (empirizmus [19]), az önmenedzsment és a Scrum alkalmazásának előmozdításában, ahogyan azt ez a dokumentum leírja. A Scrum Master feladata kezelni mindazokat az akadályokat, amelyek lassítják vagy gátolják a Scrum Team előrehaladását, és amelyeket a csapat önállóan nem tud megoldani.
 
-A Scrum Master többféleképpen támogatja a Scrum Teamet, a Product Ownert és a Supportereket, többek között az alábbi módokon:
+A Scrum Master többféleképpen támogatja a Scrum Teamet, a Product Ownert, a Stakeholdereket és a Supportereket, többek között az alábbi módokon:
 
 - Segít mindenkinek megérteni a Scrum elméletét és gyakorlatát, szükség esetén oktatással vagy coachinggal támogat;
 
-- Képessé teszi a Scrum Teamet és a Supporter-eket arra, hogy folyamatosan, sokféle módon fejlődjenek;
+- Képessé teszi a Scrum Teamet, a Stakeholdereket és a Supporter-eket arra, hogy folyamatosan, sokféle módon fejlődjenek;
 
 - Elősegíti, hogy az interakciók időszerűek, célirányosak és tudatos szándékkal történjenek.
 
@@ -665,7 +665,7 @@ A közvetlen bizonyítékokat részesítsük előnyben a közvetett bizonyíték
 
 - Scrum Team-eredmények, mint például a technikai képességek fejlődése (pszichológiai flow [46], kiadás gyakorisága, eszközhasználat, készségek, technikai adósság, UX vagy CX adósság, kapacitás), valamint a légkör/kultúra fejlődése és az innováció támogatása.
 
-A User eXperience (UX) vagy Customer eXperience (CX) adósság azon tervezési és megvalósítási döntések összessége – akár szándékosak, akár nem –, amelyek kevésbé használhatóvá, élvezhetővé vagy hatékonnyá tesznek egy terméket vagy szolgáltatást a felhasználók vagy vásárlók számára.
+A UX- (User eXperience) vagy CX- (Customer eXperience) adósság azon tervezési és megvalósítási döntések összessége – akár szándékosak, akár nem –, amelyek kevésbé használhatóvá, élvezhetővé vagy hatékonnyá tesznek egy terméket vagy szolgáltatást a felhasználók vagy vásárlók számára.
 
 Ennek az adósságnak a felismerése, nyomon követése és kezelése elengedhetetlen ahhoz, hogy olyan termékeket szállítsunk, amelyek valóban megfelelnek a felhasználói igényeknek és elvárásoknak.
 
@@ -733,7 +733,7 @@ A Product Vision gyakran inspiráló, ugyanakkor túlterhelő is lehet. A Produc
 
 ## Sprint Backlog
 
-A Sprint Backlog egy artifakt. Három részből áll: a Sprint Goal-ból (a Sprint “miért”-je), az adott Sprintre kiválasztott Product Backlog elemek halmazából (a „mi”, más néven előrejelzés), valamint gyakran egy cselekvési tervből, amely az Inkrementum leszállítását szolgálja (a „hogyan”). Átláthatóságot (a munkát illetően egyértelműséget) biztosít a teljes Sprint során.
+A Sprint Backlog egy artifakt. Három részből áll: a Sprint Goal-ból (a Sprint „miért”-je), az adott Sprintre kiválasztott Product Backlog-elemek halmazából (a „mit”, más néven előrejelzés), valamint gyakran egy cselekvési tervből, amely az Inkrementum leszállítását szolgálja (a „hogyan”). Átláthatóságot (a munkát illetően egyértelműséget) biztosít a teljes Sprint során.
 
 A Sprint Backlog a Product Developerek terve – tőlük származik, és nekik szól. Ez a Product Developerek nézőpontja a megértett munkáról, amely a Sprint Goal (a Sprint „miért”-je) eléréséhez szükséges. Tegyük fel, hogy egy nem optimális helyzettel állunk szemben, amelyben a Sprint Backlog elemeinek többsége folyamatosan nincs kapcsolatban a Product Goal-lal – ebben az esetben a Focus és Commitment Scrum értékek nem érvényesülnek.
 
@@ -767,7 +767,7 @@ A Sprintek a Scrum szívdobbanásai – itt alakítja át a Scrum Team az ötlet
 
 > A Sprint során:
 
-- Nem történhet olyan változás, ami veszélyezteti a Sprint Goal elérését;
+- Nem történhet olyan változtatás, ami veszélyezteti a Sprint Goal elérését;
 
 - Az Inkrementum(ok) minősége nem csökkenhet;
 
@@ -839,7 +839,7 @@ A tanultak alapján:
 
 - A jövőbeli Sprintekre vonatkozóan résztvevők módosíthatják a Product Definition of Outcome Done tartalmát is.
 
-Mindig fontos figyelembe venni a Stakeholdereket, valamint azt, hogy mely értékeket, szempontokat tartanak fontosnak, ideértve az élettelen, nem emberi Stakeholdereket is, mint például a jogszabályok.
+Mindig fontos figyelembe venni a Stakeholdereket, valamint azt, hogy mely értékeket, szempontokat tartanak fontosnak, ideértve az élettelen, nem emberi Stakeholdereket is, mint például a jogszabályokat.
 
 A be nem fejezett Product Backlog elemek visszakerülnek a Product Backlogba további megfontolásra, és nem kerülnek bemutatásra; esetenként ezek átkerülnek a következő Sprintbe.
 
