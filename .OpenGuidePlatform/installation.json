@@ -1,54 +1,54 @@
 {
   "schemaVersion": 1,
   "kind": "preview-installation",
-  "releaseTag": "v1.1.6-Preview.7",
+  "releaseTag": "v1.1.6",
   "sourcePath": "site",
   "release": {
     "schemaVersion": 2,
     "product": "OpenGuidePlatform",
-    "version": "1.1.6-Preview.7",
+    "version": "1.1.6",
     "sourceCommit": "ec7ecbd8fb4a8c110853778ffefc4cf20c49f980",
-    "channel": "preview",
+    "channel": "stable",
     "packages": {
       "GuideSite": {
         "archive": "OpenGuidePlatform-GuideSite.zip",
-        "version": "1.1.6-Preview.7",
-        "sha256": "afa73d8a393d56cc65b489d56bb5e71e398a3ffff1817ca9ac247192f73f6ad8",
+        "version": "1.1.6",
+        "sha256": "cd9bc5ca5991cb7aa67f105fc161ef407054e9b5d66500c8ec8042fd6672fbc7",
         "components": {
-          "OpenGuidePlatform.Agents.Integration": "1.1.6-Preview.7",
-          "OpenGuidePlatform.Hugo.Guides": "1.1.6-Preview.7",
-          "OpenGuidePlatform.PowerShell.AgentControls": "1.1.6-Preview.7",
-          "OpenGuidePlatform.PowerShell.Contributor": "1.1.6-Preview.7",
-          "OpenGuidePlatform.PowerShell.Core": "1.1.6-Preview.7",
-          "OpenGuidePlatform.PowerShell.GuideSiteAdoption": "1.1.6-Preview.7",
-          "OpenGuidePlatform.PowerShell.GuideSiteBuild": "1.1.6-Preview.7"
+          "OpenGuidePlatform.Agents.Integration": "1.1.6",
+          "OpenGuidePlatform.Hugo.Guides": "1.1.6",
+          "OpenGuidePlatform.PowerShell.AgentControls": "1.1.6",
+          "OpenGuidePlatform.PowerShell.Contributor": "1.1.6",
+          "OpenGuidePlatform.PowerShell.Core": "1.1.6",
+          "OpenGuidePlatform.PowerShell.GuideSiteAdoption": "1.1.6",
+          "OpenGuidePlatform.PowerShell.GuideSiteBuild": "1.1.6"
         }
       },
       "PlatformBuild": {
         "archive": "OpenGuidePlatform-PlatformBuild.zip",
-        "version": "1.1.6-Preview.7",
-        "sha256": "4270b1bbd2cb5b0cf550314c9a4d4edabd3d3afd11134fce6b996ad2253c6df2",
+        "version": "1.1.6",
+        "sha256": "656be0349b9ba3cfda1775f0168709744e6fbdd57be191c390eb36e35db59855",
         "components": {
-          "OpenGuidePlatform.PowerShell.PlatformBuild": "1.1.6-Preview.7"
+          "OpenGuidePlatform.PowerShell.PlatformBuild": "1.1.6"
         },
         "dependencies": {
           "GuideSite": {
-            "version": "1.1.6-Preview.7",
-            "sha256": "afa73d8a393d56cc65b489d56bb5e71e398a3ffff1817ca9ac247192f73f6ad8"
+            "version": "1.1.6",
+            "sha256": "cd9bc5ca5991cb7aa67f105fc161ef407054e9b5d66500c8ec8042fd6672fbc7"
           }
         }
       }
     },
     "nativeHugoModule": {
       "path": "github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides",
-      "version": "v1.1.6-Preview.7",
-      "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.6-Preview.7",
+      "version": "v1.1.6",
+      "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.6",
       "sourceCommit": "ec7ecbd8fb4a8c110853778ffefc4cf20c49f980"
     },
     "workflow": {
       "repository": "nkdAgility/OpenGuidePlatform",
       "path": ".github/workflows/guide-site-build.yaml",
-      "version": "v1.1.6-Preview.7",
+      "version": "v1.1.6",
       "sourceCommit": "ec7ecbd8fb4a8c110853778ffefc4cf20c49f980"
     },
     "requirements": {
@@ -61,13 +61,13 @@
   "hugoResolution": "native-module",
   "nativeHugoModule": {
     "path": "github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides",
-    "version": "v1.1.6-Preview.7",
-    "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.6-Preview.7",
+    "version": "v1.1.6",
+    "tag": "system/OpenGuidePlatform.Hugo.Guides/v1.1.6",
     "sourceCommit": "ec7ecbd8fb4a8c110853778ffefc4cf20c49f980"
   },
   "nativeChecksums": {
-    "goModSum": "h1:rAE0g1D+UCeGL3BUQvtngp1S76QDcVozQoa9V8mAukg=",
-    "sum": "h1:LzcEmsgYY+2oQH6LZNmCQKoG4DUXGACKdUTBYSJi2wU="
+    "sum": "h1:I51hJ3PDtbPRXnj8ZH1RsAvu9A2lEE3hJFJInjdjYaw=",
+    "goModSum": "h1:rAE0g1D+UCeGL3BUQvtngp1S76QDcVozQoa9V8mAukg="
   },
   "adoptionBlockers": [
     "Coordinated agent controls and independent enforcement"
@@ -95,5 +95,5 @@
       "nkdAgility/OpenGuidePlatform/.github/workflows/guide-site-build.yaml"
     ]
   },
-  "workflowReference": "v1.1.6-Preview.7"
+  "workflowReference": "v1.1.6"
 }

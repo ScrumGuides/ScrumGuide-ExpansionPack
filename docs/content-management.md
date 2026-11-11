@@ -336,7 +336,7 @@ Brief biography and background...
 
 ### 3. Contributor Attribution (Current System)
 
-Use the [shared contributor and credit procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md). Guide creators/contributors and translation teams have separate files in `site/data/contributions/`. Keep existing attribution intact unless the relevant owner approves a change; do not infer consent, identities or roles. Creator profile pages under `site/content/creators/` are bespoke site content and are separate from guide credit records.
+Use the [shared contributor and credit procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md). Guide creators/contributors and translation teams have separate files in `site/data/contributions/`. Keep existing attribution intact unless the relevant owner approves a change; do not infer consent, identities or roles. Creator profile pages under `site/content/creators/` are bespoke site content and are separate from guide credit records.
 
 Site contributor portraits live under `site/static/images/contributors/`. Obtain consent for public names, profile links and images. Existing supplied PDFs are protected resources, not outputs to regenerate during a package update.
 
@@ -362,11 +362,11 @@ type: "download"
 
 ## Multilingual Content Management
 
-Follow [site translation policy](translations.md) and OGP's [shared translation tasks](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/translation.md). Preserve categories/tags, academic references, partial translations, fallback intent and production exclusions. The core and each extension have independent editions; discover the selected inventory rather than copying a fixed file list.
+Follow [site translation policy](translations.md) and OGP's [shared translation tasks](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/translation.md). Preserve categories/tags, academic references, partial translations, fallback intent and production exclusions. The core and each extension have independent editions; discover the selected inventory rather than copying a fixed file list.
 
 ## Content Creation Workflow
 
-Use OGP's [content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) and [validation/submission procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Agree the purpose and audience before drafting. This site requires self-review, technical Scrum review, editorial review, translation review when applicable, and final guide-owner/maintainer approval. Successful rendering does not grant publication approval.
+Use OGP's [content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) and [validation/submission procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Agree the purpose and audience before drafting. This site requires self-review, technical Scrum review, editorial review, translation review when applicable, and final guide-owner/maintainer approval. Successful rendering does not grant publication approval.
 
 ## Content Maintenance
 
