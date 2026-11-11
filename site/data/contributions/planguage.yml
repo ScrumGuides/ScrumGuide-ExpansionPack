@@ -1,0 +1,4 @@
+- name: "Tom Gilb"
+  role: "creator"
+  weight: 1
+  contributions: ["2026.1"]

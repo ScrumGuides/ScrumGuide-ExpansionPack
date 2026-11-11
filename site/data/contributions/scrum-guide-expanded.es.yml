@@ -1,0 +1,26 @@
+- url: "https://www.itnove.com"
+  name: "Alex Ballarin"
+  weight: 1
+  role: "translator"
+  githubUsername: "itnove"
+  contributions: ["2025.6"]
+- url: "https://www.linkedin.com/in/kendybriceno/"
+  name: "Kendy Briceño"
+  weight: 2
+  role: "reviewer"
+  contributions: ["2025.6"]
+- url: "https://www.linkedin.com/in/cristinasanher/"
+  name: "Cristina Sánchez Hernández"
+  weight: 3
+  role: "reviewer"
+  contributions: ["2025.6"]
+- url: "https://www.linkedin.com/in/mlluva/"
+  name: "Marc Lluva"
+  weight: 4
+  role: "reviewer"
+  contributions: ["2025.6"]
+- url: "https://www.linkedin.com/in/joseantonioquesada/"
+  name: "Marc Lluva"
+  weight: 5
+  role: "reviewer"
+  contributions: ["2025.6"]

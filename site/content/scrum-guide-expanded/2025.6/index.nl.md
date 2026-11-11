@@ -8,18 +8,11 @@ keywords:
   - empirische product ontwikkeling
   - Scrum in complexe omgevingen
   - Scrum en AI
-author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 contributors:
   - name: Bob Kosse
     link: https://linkedin.com/in/bobkosse
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 sitemap:
   priority: 0.8
 aliases:

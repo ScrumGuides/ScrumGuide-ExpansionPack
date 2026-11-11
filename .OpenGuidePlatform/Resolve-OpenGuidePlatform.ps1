@@ -13,7 +13,7 @@ function Get-PlatformSettings([string]$Root) {
     if(-not (Test-Path -LiteralPath $settingsPath)){return $null}
     if((Get-Item -LiteralPath $settingsPath).Attributes -band [IO.FileAttributes]::ReparsePoint){throw 'Linked platform settings are not supported.'}
     if(-not (Get-Module -ListAvailable powershell-yaml | Where-Object Version -ge ([version]'0.4.12'))){
-        Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope CurrentUser -Force -Repository PSGallery -ErrorAction Stop
+        Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope AllUsers -Force -Repository PSGallery -ErrorAction Stop
     }
     Import-Module powershell-yaml -MinimumVersion 0.4.12 -ErrorAction Stop
     $settings=Get-Content -LiteralPath $settingsPath -Raw|ConvertFrom-Yaml
@@ -326,7 +326,7 @@ if($Product -eq 'Platform' -and (Test-Path "$selected/release-manifest.json") -a
     $zip=[IO.Compression.ZipFile]::OpenRead($archivePath)
     $names=[Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
     try{foreach($entry in $zip.Entries){
-        if(-not $names.Add($entry.FullName) -or $entry.FullName -match '(^/|\\|:|(^|/)\.\.?(/|$))' -or (($entry.ExternalAttributes -shr 16) -band 0xF000) -eq 0xA000 -or ($entry.FullName -cne 'platform-build.json' -and -not $entry.FullName.StartsWith('system/OpenGuidePlatform.PowerShell.PlatformBuild/'))){throw 'PlatformBuild contains an unsafe or overlapping entry.'}
+        if(-not $names.Add($entry.FullName) -or $entry.FullName -match '(^/|\\|:|(^|/)\.\.?(/|$))' -or (($entry.ExternalAttributes -shr 16) -band 0xF000) -eq 0xA000 -or ($entry.FullName -cne 'platform-build.json' -and $entry.FullName -cne 'release.ps1' -and -not $entry.FullName.StartsWith('system/OpenGuidePlatform.PowerShell.PlatformBuild/'))){throw 'PlatformBuild contains an unsafe or overlapping entry.'}
     }}finally{$zip.Dispose()}
     [IO.Compression.ZipFile]::ExtractToDirectory($archivePath,$selected)
     $identity=Get-Content "$selected/platform-build.json" -Raw|ConvertFrom-Json

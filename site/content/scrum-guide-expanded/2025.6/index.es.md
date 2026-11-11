@@ -8,39 +8,8 @@ keywords:
   - Desarrollo de producto empírico
   - Scrum en entornos complejos
   - Scrum e IA
-author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
-
-translators:
-  - name: Alex Ballarin
-    githubUsername: itnove
-    url: https://www.itnove.com
-    role: translator
-    weight: 1
-  - name: Kendy Briceño
-    url: https://www.linkedin.com/in/kendybriceno/
-    role: reviewer
-    weight: 2
-  - name: Cristina Sánchez Hernández
-    url: https://www.linkedin.com/in/cristinasanher/
-    role: reviewer
-    weight: 3
-  - name: Marc Lluva
-    url: https://www.linkedin.com/in/mlluva/
-    role: reviewer
-    weight: 4
-  - name: Marc Lluva
-    url: https://www.linkedin.com/in/joseantonioquesada/
-    role: reviewer
-    weight: 5
-
 date: 2025-06-11T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 guide_whatis: |
   El **Paquete de expansión de la Guía Scrum** existe porque la manera en que desarrollamos productos cambia, y lo hace cada vez más rápido.
 

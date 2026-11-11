@@ -100,8 +100,6 @@ keywords:
   - Psychological safety
   - Scrum Teams
   - Empiricism
-author:
-  - Joanna Płaskonka 
 date: 2026-01-18T09:00:00Z
 type: guide
 sitemap:
@@ -338,172 +336,9 @@ Brief biography and background...
 
 ### 3. Contributor Attribution (Current System)
 
-**Location**: `site/data/contributions/`
+Use the [shared contributor and credit procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md). Guide creators/contributors and translation teams have separate files in `site/data/contributions/`. Keep existing attribution intact unless the relevant owner approves a change; do not infer consent, identities or roles. Creator profile pages under `site/content/creators/` are bespoke site content and are separate from guide credit records.
 
-Each guide has a corresponding contributor file that tracks all contributors to that specific guide. This system provides proper attribution and enables the site to display contributor information consistently.
-
-#### Structure
-
-Each guide has a YAML file named after the guide's slug:
-
-```
-site/data/contributions/
-├── scrum-guide-expanded.yml         # Core guide contributors
-├── complexity.yml                    # Complexity guide contributors
-├── psychological-safety-in-scrum-teams.yml
-├── software-engineering-practices.yml
-└── [other-guide-slug].yml
-```
-
-#### Contributor File Format
-
-Each file contains a list of contributors with their information:
-
-```yaml
-# Contributions Data
-# This file contains information about all contributors to [Guide Name]
-
-# All contributors in a flat list
-- name: John Coleman
-  githubUsername: ViralGoodAgile
-  url: https://www.linkedin.com/in/johnanthonycoleman/
-  contributions:
-    - "2026.1"
-    - "2025.6"
-  role: creator
-  founder: true
-  weight: 1
-
-- name: Dave Farley
-  url: https://www.continuous-delivery.co.uk/
-  image: /images/contributors/david-farley.jpg
-  contributions:
-    - "2026.1"
-  role: contributor
-  weight: 2
-```
-
-#### Contributor Properties
-
-| Property | Required | Description | Example |
-|----------|----------|-------------|---------|
-| `name` | ✅ Yes | Full name of contributor | `"John Coleman"` |
-| `url` | ✅ Yes | Personal website or LinkedIn profile | `"https://linkedin.com/in/..."` |
-| `githubUsername` | ⚠️ Preferred | GitHub username (automatically pulls profile image) | `"ViralGoodAgile"` |
-| `gravatar` | No | Gravatar email hash for profile image | `"abc123..."` |
-| `image` | No | Path to uploaded image | `"/images/contributors/name.jpg"` |
-| `contributions` | ✅ Yes | List of version numbers contributed to | `["2026.1", "2025.6"]` |
-| `role` | ✅ Yes | Contributor role | `"creator"`, `"contributor"`, `"translator"` |
-| `founder` | No | Boolean indicating founding contributor | `true` or `false` |
-| `weight` | No | Display order (lower numbers first) | `1`, `2`, `3`, etc. |
-
-#### Image Priority System
-
-The site displays contributor images using the following priority:
-
-1. **`githubUsername`** - Automatically fetches from GitHub profile (PREFERRED)
-2. **`gravatar`** - Uses Gravatar email hash
-3. **`image`** - Uses uploaded image path
-
-**Example Priority:**
-
-```yaml
-# Priority 1: GitHub (automatic, always current)
-- name: Ralph Jocham
-  githubUsername: rjocham
-  url: https://effectiveagile.com/
-
-# Priority 3: Custom image (manual upload required)
-- name: Dave Farley
-  image: /images/contributors/david-farley.jpg
-  url: https://www.continuous-delivery.co.uk/
-```
-
-#### Adding a New Contributor
-
-**Steps:**
-
-1. **Identify the guide**: Determine which guide the person contributed to
-2. **Open the contributor file**: `site/data/contributions/{guide-slug}.yml`
-3. **Add contributor entry**:
-
-```yaml
-- name: "Contributor Full Name"
-  githubUsername: "their-github-username"  # PREFERRED METHOD
-  url: "https://their-website-or-linkedin.com"
-  contributions:
-    - "2026.1"  # Version(s) they contributed to
-  role: "contributor"  # creator, contributor, translator, reviewer
-  weight: 10  # Display order (optional)
-```
-
-4. **For custom images** (if GitHub not available):
-   - Upload image to: `site/static/images/contributors/`
-   - Use format: `firstname-lastname.jpg` (lowercase, hyphens)
-   - Reference as: `image: /images/contributors/firstname-lastname.jpg`
-   - Recommended size: 200x200px minimum, square aspect ratio
-
-5. **Test locally**: `hugo server -D --source site`
-6. **Submit PR**: Follow [Contributing Guide](./contributing.md)
-
-#### Contributor Roles
-
-| Role | Description | Example Use |
-|------|-------------|-------------|
-| `creator` | Original author of the guide | Core guide authors |
-| `contributor` | Added content or significant edits | Subject matter experts |
-| `translator` | Translated guide to another language | Language translators |
-| `reviewer` | Reviewed and provided feedback | Technical reviewers |
-
-#### Example: Complete Contributor File
-
-```yaml
-# Contributions Data
-# This file contains information about all contributors to the Software Engineering Practices Guide
-
-# Founders (original creators)
-- name: Dave Farley
-  url: https://www.continuous-delivery.co.uk/
-  image: /images/contributors/david-farley.jpg
-  contributions:
-    - "2026.1"
-  role: creator
-  founder: true
-  weight: 1
-
-# Contributors
-- name: Martin Hinshelwood
-  githubUsername: nkdAgility
-  url: https://nkdagility.com/
-  contributions:
-    - "2026.1"
-  role: contributor
-  weight: 2
-
-# Translators
-- name: German Translation Team
-  url: https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions
-  contributions:
-    - "2026.1"
-  role: translator
-  weight: 10
-```
-
-#### Best Practices
-
-**DO:**
-- ✅ Use `githubUsername` whenever possible (automatic image updates)
-- ✅ List all version numbers contributor worked on
-- ✅ Keep entries in logical order using `weight`
-- ✅ Include meaningful URLs (LinkedIn, personal site, GitHub)
-- ✅ Use consistent role naming
-
-**DON'T:**
-- ❌ Upload images if GitHub username is available
-- ❌ Use high-resolution images (keep under 500KB)
-- ❌ Forget to add new version numbers when updates occur
-- ❌ Remove previous contributors without permission
-- ❌ Use placeholder or demo content
+Site contributor portraits live under `site/static/images/contributors/`. Obtain consent for public names, profile links and images. Existing supplied PDFs are protected resources, not outputs to regenerate during a package update.
 
 ### 4. Download Pages
 
@@ -527,118 +362,11 @@ type: "download"
 
 ## Multilingual Content Management
 
-### Language Structure
-
-Each language has its own content directory structure:
-
-```
-content/
-├── guide/          # English (default)
-├───├──   index.md       # English (default)
-├───├──   index.de.md       # German (Deutsch) example
-```
-
-### Translation Workflow
-
-#### 1. Create Base Content (English)
-
-Start with English content as the source:
-
-```markdown
----
-title: "Scrum Events"
-description: "Detailed explanation of Scrum Events"
-date: 2025-06-09
-weight: 30
-draft: false
----
-
-# Scrum Events
-
-The Scrum Events are timeboxed meetings...
-```
-
-#### 2. Translate Content
-
-Create corresponding files in other languages:
-
-**German (`content/guide/events.de.md`)**:
-
-```markdown
----
-title: "Scrum Ereignisse"
-description: "Detaillierte Erklärung der Scrum Ereignisse"
-date: 2025-06-09
-weight: 30
-draft: false
----
-
-# Scrum Ereignisse
-
-Die Scrum Ereignisse sind zeitlich begrenzte Meetings...
-```
-
-#### 3. Translation Guidelines
-
-- **Maintain structure** - Keep the same heading hierarchy
-- **Preserve links** - Update internal links to translated pages
-- **Keep categories and tags identical** - Do not translate `categories` or `tags` in frontmatter; use exact same values as English
-- **Cultural adaptation** - Adapt examples for local context
-- **Consistent terminology** - Use established Scrum translations
-- **Review process** - Have native speakers review translations
-
-### Translation Resources
-
-- **Scrum.org** official translations
-- **Agile Alliance** glossary
-- **Local Scrum communities** for terminology consistency
+Follow [site translation policy](translations.md) and OGP's [shared translation tasks](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/translation.md). Preserve categories/tags, academic references, partial translations, fallback intent and production exclusions. The core and each extension have independent editions; discover the selected inventory rather than copying a fixed file list.
 
 ## Content Creation Workflow
 
-### 1. Planning Phase
-
-Before creating content:
-
-- [ ] **Define objectives** - What should readers learn?
-- [ ] **Identify audience** - Who will read this content?
-- [ ] **Research thoroughly** - Ensure accuracy and completeness
-- [ ] **Plan structure** - Outline headings and sections
-- [ ] **Consider translations** - Plan for multilingual versions
-
-### 2. Content Creation
-
-```powershell
-# Create new content file
-cd site
-hugo new content/guide/new-section.md
-
-# Edit the file with your preferred editor
-code content/guide/new-section.md
-```
-
-### 3. Content Review Process
-
-1. **Self-review** - Check for errors and clarity
-2. **Technical review** - Verify Scrum concepts are accurate
-3. **Editorial review** - Check grammar and style
-4. **Translation review** - Review translated versions
-5. **Final approval** - Get maintainer approval
-
-### 4. Publishing Process
-
-```powershell
-# Set draft to false when ready
-# Update front matter in content file
-draft: false
-
-# Test locally
-hugo server -D
-
-# Commit and push
-git add .
-git commit -m "feat: add new content section"
-git push origin feature/new-content
-```
+Use OGP's [content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) and [validation/submission procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Agree the purpose and audience before drafting. This site requires self-review, technical Scrum review, editorial review, translation review when applicable, and final guide-owner/maintainer approval. Successful rendering does not grant publication approval.
 
 ## Content Maintenance
 
@@ -724,27 +452,7 @@ static/images/
 
 ### PDF Management
 
-#### PDF Generation
-
-PDFs are generated from the Hugo site content using external tools or services.
-
-#### PDF Storage
-
-```
-static/pdf/
-├── scrum-guide-expansion-pack-en.pdf
-├── scrum-guide-expansion-pack-de.pdf
-├── scrum-guide-expansion-pack-es.pdf
-└── scrum-guide-expansion-pack-fr.pdf
-```
-
-#### PDF Update Process
-
-1. **Generate** new PDF from updated content
-2. **Review** PDF for formatting and accuracy
-3. **Replace** old PDF in `/static/pdf/` directory
-4. **Update** download links if needed
-5. **Test** download functionality
+Follow [ScrumExpansion PDF policy](simple-pdf-generation.md) and the linked shared procedure. Preserve supplied PDFs and their paths. Any new eligible PDF needs approved presentation choices and visual review of script shaping, fonts, covers, attribution, citations and pagination.
 
 ## Content Analytics and Optimization
 

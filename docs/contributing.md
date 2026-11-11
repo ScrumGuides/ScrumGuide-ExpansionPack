@@ -1,5 +1,7 @@
 # 🤝 Contributing to the Scrum Guide Expansion Pack
 
+**Want to translate a guide? [Start here](translations.md#start-here)** for the team contact, agent setup, shared instructions and submission handoff. No tool installation is needed to ask for help.
+
 We welcome and appreciate contributions from the community! This guide outlines how you can contribute to the Scrum Guide Expansion Pack project.
 
 ## 🌐 Live Sites
@@ -60,92 +62,11 @@ We welcome and appreciate contributions from the community! This guide outlines 
 
 ## Getting Started
 
-### 1. Read the Guidelines
-
-Before contributing, please read:
-
-- [Code of Conduct](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/blob/main/CODE_OF_CONDUCT.md)
-- [License Information](../LICENSE)
-- This contributing guide
-
-### 2. Set Up Your Environment
-
-Follow the [Getting Started Guide](./getting-started.md) to set up your development environment.
-
-### 3. Find an Issue
-
-- Browse [open issues](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues)
-- Look for issues labeled `good first issue` for beginners
-- Check issues labeled `help wanted` for priority items
-- Create a new issue if you find a bug or have a feature request
-
-### 4. Test Your Ideas
-
-- **Review the live site**: [scrumexpansion.org](https://scrumexpansion.org)
-- **Test contributions on preview**: [agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net](https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/) - See how your changes will look before they go to production
+Agree the proposed change with the community and relevant guide owner. Use OGP's [setup guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and the [site context](getting-started.md).
 
 ## Contribution Workflow
 
-### 1. Fork and Clone
-
-```bash
-# Fork the repository on GitHub, then clone your fork
-git clone https://github.com/YOUR-USERNAME/ScrumGuide-ExpansionPack.git
-cd ScrumGuide-ExpansionPack
-
-# Add the original repository as a remote
-git remote add upstream https://github.com/ScrumGuides/ScrumGuide-ExpansionPack.git
-```
-
-### 2. Create a Branch
-
-```bash
-# Create and switch to a new branch
-git checkout -b feature/your-feature-name
-
-# Use descriptive branch names:
-# - feature/add-spanish-translation
-# - fix/navigation-bug
-# - docs/update-installation-guide
-```
-
-### 3. Make Your Changes
-
-- Follow the [Style Guidelines](#style-guidelines)
-- Test your changes locally
-- Ensure all tests pass
-- Update documentation if needed
-
-### 4. Commit Your Changes
-
-```bash
-# Stage your changes
-git add .
-
-# Commit with a descriptive message
-git commit -m "feat: add Spanish translation for main guide"
-
-# Use conventional commit format:
-# feat: new feature
-# fix: bug fix
-# docs: documentation
-# style: formatting changes
-# refactor: code refactoring
-# test: adding tests
-# chore: maintenance tasks
-```
-
-### 5. Push and Create Pull Request
-
-```bash
-# Push your branch to your fork
-git push origin feature/your-feature-name
-
-# Create a pull request on GitHub
-# - Use a clear title and description
-# - Reference any related issues
-# - Add screenshots if applicable
-```
+Use the [shared task index](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) to choose a supported operation and [validation/submission instructions](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) for evidence and review. Include the prior discussion, selected guide/edition/language, unresolved decisions and actual validation status in the PR. Site editorial and publication approval remain with the guide owner and maintainers.
 
 ## Content Contributions
 
@@ -154,7 +75,7 @@ git push origin feature/your-feature-name
 The main guide content is located in:
 
 ```
-site/content/guide/index.md
+site/content/scrum-guide-expanded/{edition}/index.md
 ```
 
 #### Content Structure
@@ -278,46 +199,7 @@ According to Smith (42), Scrum teams should...
 
 ## Translation Contributions
 
-### Adding a New Language
-
-1. **Create language files**:
-
-   ```bash
-   # Add to Hugo configuration
-   # site/hugo.yaml - add language config
-
-   # Create translation file
-   # site/i18n/[language-code].yaml
-   ```
-
-2. **Translate content**:
-
-   ```bash
-   # Create language-specific content
-   # site/content/[language-code]/
-   ```
-
-3. **Update navigation**:
-   - Translate menu items
-   - Update language switcher
-   - Test all navigation elements
-
-### Translation Guidelines
-
-- **Accuracy**: Maintain the meaning and intent of the original content
-- **Consistency**: Use consistent terminology throughout
-- **Categories and Tags**: Keep `categories` and `tags` in frontmatter identical to English - do not translate these
-- **Cultural Sensitivity**: Adapt content appropriately for the target culture
-- **Technical Terms**: Keep technical Scrum terms in their commonly accepted form
-- **Formatting**: Preserve markdown formatting and structure
-
-### Translation Review Process
-
-1. **Initial Translation**: Create the translation
-2. **Self Review**: Review your own work for accuracy
-3. **Peer Review**: Have another native speaker review
-4. **Technical Review**: Ensure technical accuracy
-5. **Final Review**: Project maintainers review for consistency
+Follow [ScrumExpansion translation policy](translations.md) and the [shared walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6-Preview.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md). The guardian and relevant guide owner approve language decisions; technical checks do not establish language quality. Keep categories and tags identical to the English source, preserve academic citations, formatting and reserved terms, and record incomplete work accurately.
 
 ## Code Contributions
 

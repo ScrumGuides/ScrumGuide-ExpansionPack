@@ -8,51 +8,8 @@ keywords:
   - توسعه تجربی محصول
   - اسکرام در محیط‌های پیچیده
   - اسکرام و هوش مصنوعی
-author:
-  - رالف یوخام
-  - جان کولمن
-  - جف ساترلند
 date: 2025-06-11T09:00:00Z
-translators:
-  - name: Pedram Keshavarzi
-    githubUsername: pedicurus
-    url: https://www.agile-gap.com/p/pedram-keshavarzi
-    role: translator
-    weight: 1
-  - name: Ali Naderivarandi
-    githubUsername: Alinaderivarandi
-    url: https://www.linkedin.com/in/ali-naderivarandi-9a269a261
-    role: translator
-    weight: 1
-  - name: Pooya Sabramooz
-    githubUsername: sabramooz
-    role: contributor
-    weight: 1
-  - name: Jamasb Samia Kalantari
-    githubUsername: JaamySkm
-    role: translation reviewer
-    weight: 1
-  - name: Farzad Tarapourvala
-    githubUsername: farzadtara
-    role: translation reviewer
-    weight: 1
-  - name: Pantea Shahriari
-    githubUsername: pantehash
-    role: translation reviewer
-    weight: 1
-  - name: Ali Saxaei
-    githubUsername: AliSaxaei
-    role: translation reviewer
-    weight: 1
-  - name: Mohammad Javad Bathaei
-    githubUsername: javadbat
-    role: translation reviewer
-    weight: 1
 type: guide
-dir: rtl
-mainfont: HMXRoya
-sansfont: HMXRoya
-monofont: HMXRoya
 pdf-engine: xelatex
 sitemap:
   priority: 0.8
