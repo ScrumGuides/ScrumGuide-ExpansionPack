@@ -1,6 +1,6 @@
 # ScrumExpansion PDF policy
 
-Use OGP's [credits and PDF guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md) for eligibility, supported operations, font requirements and rendering review. These procedures ship with the installed package; this repository owns presentation choices and publication approval.
+Use OGP's [credits and PDF guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md) for eligibility, supported operations, font requirements and rendering review. These procedures ship with the installed package; this repository owns presentation choices and publication approval.
 
 Existing supplied PDFs are protected source resources. A package or documentation update must preserve their bytes. Do not run legacy scripts over them or replace them with newly generated copies. New generation requires an explicitly selected eligible guide, edition and language and owner-approved presentation settings.
 

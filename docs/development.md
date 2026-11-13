@@ -10,7 +10,9 @@ This guide provides detailed information for developers working on the Scrum Gui
 
 ## Development Environment Setup
 
-Use the [shared setup guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and [site context](getting-started.md). Root `build.ps1` is the supported build/serve/validation entry point; the [shared validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) explains commands and evidence. Site-owned template overrides, Bootstrap styling, catalogues and delivery configuration remain local responsibilities.
+Use the [shared setup guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and [site context](getting-started.md). Root `build.ps1` is the supported build/serve/validation entry point; the [shared validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) explains commands and evidence. Site-owned template overrides, Bootstrap styling, catalogues and delivery configuration remain local responsibilities.
+
+On a new machine, ask an administrator to run `Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope AllUsers` in PowerShell 7. Once installed, open an ordinary PowerShell 7 window in your local copy of the repository. Run `./build.ps1 -Target preview` to build and check the site or `./build.ps1 -Stage Serve -Target local` to start the local preview.
 
 ## Code Standards and Guidelines
 
@@ -72,7 +74,7 @@ Your markdown content here...
 
 ### Creating New Pages
 
-Use the [shared content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) and obtain the relevant guide owner's approval. Preserve bespoke wrapper layouts and catalogue relationships; a manually created file is not a substitute for discovery or supported edition operations.
+Use the [shared content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) and obtain the relevant guide owner's approval. Preserve bespoke wrapper layouts and catalogue relationships; a manually created file is not a substitute for discovery or supported edition operations.
 
 ### Content Best Practices
 
@@ -189,7 +191,7 @@ layouts/
 
 ## Internationalization (i18n)
 
-Use the [shared site-language procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/add-language.md) and [local translation policy](translations.md). Preserve i18n identifiers, placeholders, categories/tags and machine values in bespoke templates. Use OGP discovery for actual wrappers and editions; do not assume language subdirectories or a fixed guide inventory.
+Use the [shared site-language procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/add-language.md) and [local translation policy](translations.md). Preserve i18n identifiers, placeholders, categories/tags and machine values in bespoke templates. Use OGP discovery for actual wrappers and editions; do not assume language subdirectories or a fixed guide inventory.
 
 ## Styling and CSS
 
@@ -237,7 +239,7 @@ Add custom styles to `/static/css/style.css`:
 
 ### Local Testing
 
-Follow the [shared root-entry-point validation procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Inspect site-owned templates, navigation, responsive layouts and the selected language before requesting review.
+Follow the [shared root-entry-point validation procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Inspect site-owned templates, navigation, responsive layouts and the selected language before requesting review.
 
 ### Content Validation
 
@@ -504,7 +506,7 @@ The project uses GitHub Actions for automated builds and deployments. See deploy
 
 ### Local Build Testing
 
-Use the [shared validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) and root entry point. Test the bespoke wrapper, core/extension catalogues, creator profiles and production exclusions. Local production validation does not deploy.
+Use the [shared validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) and root entry point. Test the bespoke wrapper, core/extension catalogues, creator profiles and production exclusions. Local production validation does not deploy.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ## Build and validate with OpenGuidePlatform
 
-Use the [shared OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) for plain-English explanations, diagrams, setup and supported commands. This site selects OGP `v1.1.6`. The package selection and delivery destinations live in [.OpenGuidePlatform/settings.yaml](.OpenGuidePlatform/settings.yaml). See [adoption evidence](docs/ogp-adoption.md) for actual validation status.
+Use the [shared OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) for plain-English explanations, diagrams, setup and supported commands. This site selects OGP `v1.1.7`. The package selection and delivery destinations live in [.OpenGuidePlatform/settings.yaml](.OpenGuidePlatform/settings.yaml). See [adoption evidence](docs/ogp-adoption.md) for actual validation status.
 
 Local policy lives in [contributing](docs/contributing.md), [translations](docs/translations.md) and [site instructions](site/AGENTS.md). Production approval is separate from local or preview validation.
 
@@ -146,13 +146,13 @@ See [LICENSE](./LICENSE) for complete terms.
 
 | Task | Shared instructions | ScrumExpansion decisions |
 |---|---|---|
-| Review wording without developer tools | [Reviewer handoff](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md) | Guide owner and translation guardian review |
-| First translation | [Walkthrough with diagrams](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md) | [Translation policy](docs/translations.md) |
-| Inspect readiness | [Status and discovery](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/status.md) | Core and independently versioned extensions |
-| Add a language or translate selected bodies | [Translation tasks](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/translation.md) | Keep production exclusions and approved scope |
-| Add/edit a guide or edition | [Content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) | Formal academic style, citations and owner approval |
-| Credits and PDFs | [Credits and PDF procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md) | Existing attribution and supplied PDFs need separate owner review |
-| Validate and submit | [Validation and handoffs](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) | Site caller, review environments and publication approval |
+| Review wording without developer tools | [Reviewer handoff](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md) | Guide owner and translation guardian review |
+| First translation | [Walkthrough with diagrams](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md) | [Translation policy](docs/translations.md) |
+| Inspect readiness | [Status and discovery](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/status.md) | Core and independently versioned extensions |
+| Add a language or translate selected bodies | [Translation tasks](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/translation.md) | Keep production exclusions and approved scope |
+| Add/edit a guide or edition | [Content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) | Formal academic style, citations and owner approval |
+| Credits and PDFs | [Credits and PDF procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md) | Existing attribution and supplied PDFs need separate owner review |
+| Validate and submit | [Validation and handoffs](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) | Site caller, review environments and publication approval |
 
 ### Translation Guidelines
 

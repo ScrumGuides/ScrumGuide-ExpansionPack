@@ -62,11 +62,11 @@ We welcome and appreciate contributions from the community! This guide outlines 
 
 ## Getting Started
 
-Agree the proposed change with the community and relevant guide owner. Use OGP's [setup guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and the [site context](getting-started.md).
+Agree the proposed change with the community and relevant guide owner. Use OGP's [setup guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and the [site context](getting-started.md).
 
 ## Contribution Workflow
 
-Use the [shared task index](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) to choose a supported operation and [validation/submission instructions](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) for evidence and review. Include the prior discussion, selected guide/edition/language, unresolved decisions and actual validation status in the PR. Site editorial and publication approval remain with the guide owner and maintainers.
+Use the [shared task index](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) to choose a supported operation and [validation/submission instructions](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) for evidence and review. Include the prior discussion, selected guide/edition/language, unresolved decisions and actual validation status in the PR. Site editorial and publication approval remain with the guide owner and maintainers.
 
 ## Content Contributions
 
@@ -199,7 +199,7 @@ According to Smith (42), Scrum teams should...
 
 ## Translation Contributions
 
-Follow [ScrumExpansion translation policy](translations.md) and the [shared walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md). The guardian and relevant guide owner approve language decisions; technical checks do not establish language quality. Keep categories and tags identical to the English source, preserve academic citations, formatting and reserved terms, and record incomplete work accurately.
+Follow [ScrumExpansion translation policy](translations.md) and the [shared walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md). The guardian and relevant guide owner approve language decisions; technical checks do not establish language quality. Keep categories and tags identical to the English source, preserve academic citations, formatting and reserved terms, and record incomplete work accurately.
 
 ## Code Contributions
 

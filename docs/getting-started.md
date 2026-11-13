@@ -1,6 +1,6 @@
 # Getting started with ScrumExpansion
 
-The [OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) supplies plain-English explanations, diagrams and technical reference for this site's shared tooling. Begin with [setup](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md), or [review wording without developer tools](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md).
+The [OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) supplies plain-English explanations, diagrams and technical reference for this site's shared tooling. Begin with [setup](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md), or [review wording without developer tools](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md).
 
 ## Site policy and structure
 
@@ -12,6 +12,6 @@ Preserve formal academic style, citations, licensing, partial translations, fall
 
 ## Environment configurations
 
-Site settings and hostnames live in [settings.yaml](../.OpenGuidePlatform/settings.yaml). Local development, PR canary, preview and production are distinct targets. A local production build validates output without publishing it. Use the shared [validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) for root entry-point commands, submission evidence and handoffs.
+Site settings and hostnames live in [settings.yaml](../.OpenGuidePlatform/settings.yaml). Local development, PR canary, preview and production are distinct targets. A local production build validates output without publishing it. Use the shared [validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) for root entry-point commands, submission evidence and handoffs.
 
 Production publication requires explicit approval. A fork PR cannot deploy automatically under the current caller; ask maintainers to arrange review through the normal contribution discussion. Shared workflow explanations and diagrams are maintained in OGP.

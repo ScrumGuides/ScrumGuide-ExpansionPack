@@ -89,7 +89,7 @@ ScrumGuide-ExpansionPack/
 
 ## Quick Start
 
-Start with the [shared OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) for both newcomer explanations and technical procedures. It includes diagrams, a [first-translation walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md) and [review without developer tools](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.6/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md).
+Start with the [shared OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) for both newcomer explanations and technical procedures. It includes diagrams, a [first-translation walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md) and [review without developer tools](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md).
 
 This repository retains [ScrumExpansion setup context](getting-started.md), [contribution policy](contributing.md), [translation policy](translations.md), content conventions and bespoke site design. Shared procedures belong in OGP.
 
