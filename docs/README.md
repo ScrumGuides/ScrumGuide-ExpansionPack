@@ -1,5 +1,7 @@
 # Scrum Guide Expansion Pack Documentation
 
+**Want to translate a guide? [Start here](translations.md#start-here)** for the team contact, agent setup, shared instructions and submission handoff. No tool installation is needed to ask for help.
+
 Welcome to the documentation for the **Scrum Guide Expansion Pack** project. This documentation provides comprehensive information about the project structure, development workflow, and contribution guidelines.
 
 > **🤖 For AI Assistants**: See the [AI Agent Guide](../AGENTS.md) for comprehensive instructions on working with this codebase.
@@ -87,31 +89,9 @@ ScrumGuide-ExpansionPack/
 
 ## Quick Start
 
-1. **Clone the repository**
+Start with the [shared OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) for both newcomer explanations and technical procedures. It includes diagrams, a [first-translation walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md) and [review without developer tools](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md).
 
-   ```bash
-   git clone https://github.com/ScrumGuides/ScrumGuide-ExpansionPack.git
-   cd ScrumGuide-ExpansionPack
-   ```
-
-2. **Install Hugo**
-
-   ```bash
-   # Using package managers
-   choco install hugo-extended  # Windows (Chocolatey)
-   brew install hugo            # macOS (Homebrew)
-   snap install hugo           # Linux (Snap)
-   ```
-
-3. **Run the development server**
-
-   ```bash
-   cd site
-   hugo server -D --bind 0.0.0.0
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:1313`
+This repository retains [ScrumExpansion setup context](getting-started.md), [contribution policy](contributing.md), [translation policy](translations.md), content conventions and bespoke site design. Shared procedures belong in OGP.
 
 ## Contributing
 

@@ -14,6 +14,16 @@
   },
   "routes": [
     {
+      "route": "/nl/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.nl.pdf",
+      "redirect": "/nl/scrum-guide-expanded/2025.6/pdf/scrum-guide-expansion-pack.nl.pdf",
+      "statusCode": 301
+    },
+    {
+      "route": "/pl/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.pl.pdf",
+      "redirect": "/pl/scrum-guide-expanded/2025.6/pdf/scrum-guide-expansion-pack.pl.pdf",
+      "statusCode": 301
+    },
+    {
       "route": "/history/",
       "redirect": "/scrum-guide-expansion-pack/history/",
       "statusCode": 301

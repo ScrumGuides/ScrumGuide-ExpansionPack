@@ -8,14 +8,8 @@ keywords:
   - empirical product development
   - Scrum in complex environments
   - Scrum and AI
-author:
-  - Roger L. Martin
-  - Tom Gilb 
 date: 2026-01-18T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.7

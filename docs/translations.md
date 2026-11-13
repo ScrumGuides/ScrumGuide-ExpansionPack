@@ -1,396 +1,58 @@
-# Translation Guide
+# ScrumExpansion translation guidance
 
-Help us make the Scrum Guide Expansion Pack accessible to everyone worldwide by contributing translations!
+## Start here
 
-Please read the [Code of Conduct for Translation Contributors](translations-code-of-conduct.md) before starting.
+You can translate words without knowing how to change website files. Start with the team before installing anything.
 
-## 🎯 Quick Start - Choose Your Path
+1. Open [ScrumExpansion translation discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions) and search for your language and guide. A free GitHub account lets you post and reply. Join the existing discussion if there is one; otherwise choose **New discussion** and use a title such as **Kannada translation help**.
+2. Send the message below, replacing the words in square brackets. The team will identify the person who approves the work and the person who reviews the language. Keep using that same discussion for setup questions and your final submission link.
+3. Read the [translation Code of Conduct](translations-code-of-conduct.md), then agree the guide, edition (version), language and review team before translating. If you do not know the edition or language code, say so; ask the team to confirm them.
 
-### Option 1: GitHub Collaboration (for contributors familiar with GitHub)
+> I want to help translate [Scrum Guide Expanded or the named extension] into [language and regional variant]. I would like to [start a translation / improve an existing translation]. I am new to the tools and want an agent to handle the files. Please confirm the work, the wording reviewer and the person who approves it. Please provide the supported agent setup and help opening my own working copy. If that cannot be arranged, please give me a review sheet and identify someone who will apply my words and submit the translation. I can help with [translation / reviewing / both].
 
-**Best for:** Translators familiar with Git, GitHub, and the [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests) Workflow.
+**What happens next:** follow the shared walkthrough below using this site's installed OGP skills. If the website already works in your language, keep it and work only on the agreed guide text. For a new language, the team first arranges translated menus and introductory pages. Existing translations, credits and supplied PDFs stay intact.
 
-**Process:**
+**If you prefer the manual commands:** say so in the same discussion and ask for the module's published version, supported tool versions and administrator installation help before following shared setup. You can supply words while another volunteer handles the files.
 
-1. Fork the repository
-2. Create translation files with our [Automated Setup](#option-a-automated-setup-powershell---recommended)
-3. Collaborate with other translators
-4. Submit Pull Request for review
+**Manual setup:** the shared guide describes the PowerShell Gallery install. The module is not currently published there. Ask the team to arrange the supported agent setup or a review-sheet handoff.
 
-[📖 Skip to GitHub Workflow](#github-workflow) →
+## Shared translation instructions
 
-### Option 2: Manual Submission (for contributors who don't understand GitHub)
+Start with OGP's [first translation walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md). It explains the tasks, roles and handoffs with diagrams. To help without developer tools, use [reviewing wording](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md). Technical volunteers use [setup](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and the [shared task index](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md).
 
-**Best for:** Translators who are non-technical and dont want to [collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
+These shared explanations ship with OGP. This page records ScrumExpansion's policy and site details; it does not duplicate the technical procedure.
 
-**Process:**
+## Agree the work
 
-1. Download translation templates
-2. Work independently or collaborate via email/messaging
-3. Submit completed translations via GitHub Issues
-4. We'll create the Pull Request for community review
+Read the [translation Code of Conduct](./translations-code-of-conduct.md) and contact the translation guardian before starting. Use the repository's [new translation request](../.github/ISSUE_TEMPLATE/new-translation.yml) to coordinate the language, team and review. The relevant guide owner must approve translation changes.
 
-[📖 Skip to Manual Workflow](#manual-workflow) →
+Agree the language or regional variant, glossary, website scope and selected guide editions. The core guide is `scrum-guide-expanded`; extension guides have their own editions and owners. Selecting one body does not select every extension or historical edition. OGP discovery identifies the actual inventory.
 
----
+Preserve meaning, formal academic style, footnote citations, references and licensing. Preserve categories, tags, machine values and placeholders. Agree terminology and script conventions with the owner rather than silently changing them. Record incomplete translations accurately.
 
-## 📋 What Needs Translation
+## Site boundaries
 
-To add a new language to the site, you'll need to translate:
+The bespoke wrapper, core/extension catalogues and creator profiles are site-owned. Guide editions live under `site/content/{guide}/{edition}/`; the surrounding website and interface messages also need review when adding a language. Do not copy another language's file list as a creation recipe.
 
-### 1. Main Guide Content
+Keep new languages excluded from production during review. Preserve Klingon's production exclusion and the existing cascades excluding Adaptive Enterprise and Emergent Strategy and Depoyment from preview/production, and Planguage from production. Preserve current public paths, fallback behavior, partial translations and supplied PDFs.
 
-- **File:** `site/content/guide/index.{LANG}.md`
-- **Content:** The complete Scrum Guide Expansion Pack document
-- **Size:** ~900 lines of Markdown content
+Guide and translation credits belong in `site/data/contributions/`; PDF presentation belongs in `site/pdf/` under the shared contract. Changes to existing attribution or supplied PDF content require separate owner review. See [site PDF policy](./simple-pdf-generation.md).
 
-### 2. User Interface Elements
+## Review and publication
 
-- **File:** `site/i18n/{LANG}.yaml`
-- **Content:** Navigation, buttons, labels, and interface text
-- **Size:** ~40 translation keys
+Follow the Code of Conduct's native-speaker review, acknowledgement, consent and reserved-term requirements. Submit the agreed scope, source/candidate evidence, unresolved language decisions and rendered review results with the PR. Automated checks establish technical readiness, not language approval.
 
-### 3. Guide Content
+Use OGP's [validation and submission guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Local production validation does not publish anything. Review the bespoke wrapper, navigation, credits and target-script rendering on narrow and wide screens.
 
-- Core guide in `site/content/scrum-guide-expanded/2026.1/index.md`
-- Extension guides in their respective version folders (e.g., `complexity/2026.1/index.md`)
-- Each guide version needs separate translation
+Delivery destinations are in [settings.yaml](../.OpenGuidePlatform/settings.yaml). The [workflow caller](../.github/workflows/main.yaml) permits PR deployment only for branches in this repository; maintainers must arrange review for fork contributions. Canary uses `canary-{pr}`, preview is separate, and production publication requires explicit approval. A preview link or passing build does not approve publication.
 
-### 4. Supporting Content (Optional/Legacy)
 
-- Legacy creator pages in `site/content/creators/` (maintained for backward compatibility)
-- Additional static pages as needed
+## Complete your submission
 
----
+A pull request (PR) is the submission asking this site's team to review your changed files. It does not publish them. Include the link to the discussion where you agreed the work.
 
-## 🔧 GitHub Workflow
+If your agent or technical volunteer can submit, ask them for the PR link and a website review link. Open the PR and confirm it names the right language, guide and edition, includes the agreed files and records actual checks and unfinished work. If a review website cannot be provided, record that review as missing.
 
-### Prerequisites
+If someone else must submit, reply in the same [ScrumExpansion discussion](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions): “My reviewed words for [guide, edition and language] are at [link or agreed handoff]. Here are the review decisions, consented credits, actual check results and open questions: [details]. Please confirm who will submit this work and reply with the PR and website review links.” Do not post passwords or private contact details. If no existing discussion can be found, use [the site discussions](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/discussions); [open issues](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues) can show whether the work is already tracked.
 
-- GitHub account
-- Basic understanding of Git/GitHub
-- Markdown knowledge helpful but not required
-
-### Step 1: Set Up Your Fork
-
-1. **Fork the repository**
-   - Go to [ScrumGuide-ExpansionPack](https://github.com/nkdAgility/ScrumGuide-ExpansionPack)
-   - Click "Fork" button
-   - Clone your fork locally
-
-```bash
-git clone https://github.com/YOUR-USERNAME/ScrumGuide-ExpansionPack.git
-cd ScrumGuide-ExpansionPack
-```
-
-### Step 2: Create Translation Branch
-
-```bash
-git checkout -b translation/add-{LANG}-language
-```
-
-Replace `{LANG}` with your language code (e.g., `pt` for Portuguese, `ja` for Japanese).
-
-### Step 3: Create Translation Files
-
-#### Option A: Automated Setup (PowerShell - Recommended)
-
-**Prerequisites:** [PowerShell 7+](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell) (Windows, macOS, or Linux)
-
-Use our automated translation template script to set up all necessary files:
-
-> ⚠️ **Note:** The script will automatically install the required `powershell-yaml` module if it's not already available.
-
-```powershell
-# Basic usage
-.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "de" -LanguageName "German"
-
-# Advanced usage with custom settings
-.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "es" -LanguageName "Spanish" -Title "Guía Scrum Paquete de Expansión" -Weight 3 -Force
-```
-
-**What the script does:**
-
-- ✅ Adds language configuration to `hugo.yaml`
-- ✅ Creates `site/i18n/{LANG}.yaml` from English template
-- ✅ Creates all translated content files (`*.{LANG}.md`)
-- ✅ Sets up proper frontmatter with placeholders
-- ✅ Validates the complete setup
-- ✅ Provides next steps guidance
-
-> 🕒 **Time savings:** The script reduces setup time from ~30 minutes manual work to ~2 minutes automated setup.
-
-**Script Parameters:**
-
-- `LanguageCode` - ISO language code (e.g., 'de', 'es', 'fr')
-- `LanguageName` - Display name (e.g., 'German', 'Spanish')
-- `Title` - Translated site title (optional)
-- `Description` - Translated site description (optional)
-- `Keywords` - Translated site keywords (optional)
-- `Weight` - Language menu order (optional, auto-calculated)
-- `Force` - Overwrite existing files
-
-> 💡 **Don't have PowerShell?** Install it from [Microsoft's official guide](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell) - it's free and available for Windows, macOS, and Linux.
-
-#### Option B: Manual Setup
-
-If you prefer manual setup or don't have PowerShell:
-
-**A. Main Guide Translation**
-
-1. Copy the English guide:
-
-```bash
-cp site/content/guide/index.md site/content/guide/index.{LANG}.md
-```
-
-2. Edit the frontmatter in `site/content/guide/index.{LANG}.md`:
-
-```yaml
----
-title: "Your Translated Title"
-description: "Your translated description"
-# ... translate other metadata
----
-```
-
-3. Translate the entire content while preserving:
-   - Markdown formatting (`##`, `**bold**`, `[links](url)`)
-   - Hugo shortcodes
-   - Reference numbers (40), (58), etc.
-   - HTML comments and IDs
-   - **Categories and tags** - Keep these identical to the English version (do not translate)
-
-**B. UI Translation File**
-
-1. Copy the English translations:
-
-```bash
-cp site/i18n/en.yaml site/i18n/{LANG}.yaml
-```
-
-2. Translate each entry in `site/i18n/{LANG}.yaml`:
-
-```yaml
-# Example - keep the ID, translate the text
-- id: read_online_title
-  translation: "Your translated text here"
-```
-
-**C. Add Language to Hugo Configuration**
-
-Add your language to `site/hugo.yaml` in the `languages:` section:
-
-```yaml
-languages:
-  # ... existing languages
-  { LANG }:
-    languageName: Your Language Name
-    weight: 2 # Adjust as needed
-    title: Your Translated Site Title
-    params:
-      description: "Your translated description"
-      keywords: "Your translated keywords"
-```
-
-### Step 4: Test Your Translation
-
-1. **Install Hugo** (see [Development Guide](development.md))
-2. **Start the development server:**
-
-```bash
-cd site
-hugo server --config hugo.yaml,hugo.local.yaml
-```
-
-3. **View your translation:**
-   - Navigate to `http://localhost:1313/{LANG}/`
-   - Check all pages and UI elements
-   - Verify language switching works correctly
-
-### Step 5: Submit for Review
-
-1. **Commit your changes:**
-
-```bash
-git add .
-git commit -m "Add {LANG} translation"
-git push origin translation/add-{LANG}-language
-```
-
-2. **Create Pull Request:**
-   - Go to your fork on GitHub
-   - Click "New Pull Request"
-   - Use title: "Add {Language Name} translation"
-   - Include translation details in description
-
-3. **Review Process:**
-   - Creators and community will review
-   - Native speakers may suggest improvements
-   - Collaborate on refinements
-   - Merge when approved
-
----
-
-## 📝 Manual Workflow
-
-> 💡 **Tip:** Even if you're using the manual workflow, you can still use our [PowerShell automation script](#option-a-automated-setup-powershell---recommended) to generate the template files - just fork the repo temporarily, run the script, then download the generated files to work with locally.
-
-### Step 1: Get Translation Templates
-
-1. **Download files to translate:**
-   - [Main Guide Template](https://raw.githubusercontent.com/nkdAgility/ScrumGuide-ExpansionPack/main/site/content/guide/index.md)
-   - [UI Translations Template](https://raw.githubusercontent.com/nkdAgility/ScrumGuide-ExpansionPack/main/site/i18n/en.yaml)
-
-2. **Save locally** with your language code:
-   - `index.{LANG}.md` (e.g., `index.pt.md`)
-   - `{LANG}.yaml` (e.g., `pt.yaml`)
-
-### Step 2: Translate Content
-
-1. **Main Guide (`index.{LANG}.md`):**
-   - Translate title and description in the frontmatter
-   - **Keep categories and tags exactly the same as English** - Do not translate
-   - Translate all body content
-   - Keep all Markdown formatting intact
-   - Preserve reference numbers and links
-
-2. **UI File (`{LANG}.yaml`):**
-   - Translate only the text after `translation:`
-   - Keep the `id:` values unchanged
-   - Maintain YAML formatting
-
-### Step 3: Collaborate (Optional)
-
-- Share files with other translators via email or messaging
-- Use Google Docs or similar for collaborative editing
-- Coordinate with existing translation communities
-
-### Step 4: Submit Translation
-
-1. **Create GitHub Issue:**
-   - Go to [Issues page](https://github.com/nkdAgility/ScrumGuide-ExpansionPack/issues)
-   - Click "New Issue"
-   - Title: "Translation Submission: {Language Name}"
-
-2. **Include in issue:**
-   - Language name and code
-   - Attach your translated files
-   - List any collaborators to credit
-   - Note any questions or concerns
-
-3. **We'll handle the rest:**
-   - Create proper Git commits
-   - Set up Pull Request
-   - Coordinate community review
-   - Handle technical integration
-
----
-
-## 🌍 Translation Guidelines
-
-### Language Codes
-
-Use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two-letter codes when available, or [ISO 639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) three-letter codes for languages not covered:
-
-**Two-letter codes:**
-
-- `de` - German (Deutsch)
-- `es` - Spanish (Español)
-- `fr` - French (Français)
-- `pt` - Portuguese
-- `ja` - Japanese
-- `zh` - Chinese
-
-**Three-letter codes:**
-
-- `tlh` - Klingon (example implementation available)
-
-### Content Guidelines
-
-1. **Preserve Structure:**
-   - Keep all headings, links, and formatting
-   - Maintain reference numbers exactly: (40), (58)
-   - **Keep categories and tags unchanged** - Use the same values as the English version
-   - Don't translate technical terms unnecessarily
-
-2. **Cultural Adaptation:**
-   - Adapt examples to local context when appropriate
-   - Maintain the professional, educational tone
-   - Consider regional business practices
-
-3. **Consistency:**
-   - Use consistent terminology throughout
-   - Create a glossary for key Scrum terms
-   - Follow existing translation patterns if available
-
-### Quality Standards
-
-- **Accuracy:** Faithful to original meaning
-- **Clarity:** Clear and understandable for target audience
-- **Completeness:** All content translated
-- **Formatting:** Markdown and YAML syntax preserved
-
----
-
-## 🔗 Technical Resources
-
-### PowerShell Installation
-
-For using the automated translation setup script:
-
-- **Windows:** [Install PowerShell 7+](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
-- **macOS:** [Install PowerShell on macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos)
-- **Linux:** [Install PowerShell on Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
-
-### Hugo Documentation
-
-- [Hugo i18n Documentation](https://gohugo.io/content-management/multilingual/)
-- [Hugo Content Management](https://gohugo.io/content-management/)
-- [Markdown Guide](https://www.markdownguide.org/)
-
-### YAML Resources
-
-- [YAML Syntax Guide](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
-- [YAML Validator](https://yamlchecker.com/)
-
-### Project Resources
-
-- [Development Setup](development.md)
-- [Contributing Guidelines](contributing.md)
-- [Content Management](content-management.md)
-
----
-
-## 🤝 Getting Help
-
-### Before You Start
-
-- Review the existing Klingon translation (`tlh`) as an example implementation
-- Check if your language is already in progress
-- Join our community discussions
-
-### During Translation
-
-- **GitHub Users:** Comment on your Pull Request
-- **Community Contributors:** Comment on your submission issue
-- **General Questions:** Create a [new issue](https://github.com/nkdAgility/ScrumGuide-ExpansionPack/issues)
-
-### Translation Communities
-
-- Connect with other translators in your language
-- Share resources and terminology decisions
-- Coordinate on quality review
-
----
-
-## 🎉 Recognition
-
-All translation contributors will be:
-
-- Credited in the translated version
-- Listed in project contributors
-- Recognized in release notes
-- Invited to join the translation team
-
-Thank you for helping make Scrum knowledge accessible worldwide! 🌍
+Your submission is confirmed when you can open its PR link and find the intended changes. If you have only handed over words, record the named person making the PR and keep the submission pending until that link is supplied. The site team then completes its required technical and language review and decides publication separately.

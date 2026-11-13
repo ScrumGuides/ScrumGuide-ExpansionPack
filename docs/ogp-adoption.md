@@ -1,6 +1,14 @@
 # OpenGuidePlatform adoption
 
-## Current v1 adoption — 15 September 2026
+## OGP v1.1.7
+
+The coordinated updater selected [OGP v1.1.7](https://github.com/nkdAgility/OpenGuidePlatform/releases/tag/v1.1.7). The installation, native Hugo module, shared workflow and contributor links use that release.
+
+The metadata migration moves 19 existing translation-team credits into language-specific contribution files. It retains existing website roles and stores the [ordered legacy author lists](adoption-history/legacy-author-lists.md) for cases where the old PDF metadata and website credits disagree. Persian names and fonts retain their original spellings. Guide bodies and all 31 supplied PDFs match the pre-migration hashes. The historical Polish PDF URL redirects to its current location. The Dutch redirect works in canary and preview, where Dutch is enabled.
+
+Run `./build.ps1 -Target preview`, `./build.ps1 -Target production` and `./build.ps1 -Target canary -PullRequestNumber <number>` to reproduce local validation. Prepare may warn when an existing translation has no translator credit on record. Confirm those credits with the guide owner before adding names. The Gallery module remains unavailable, so coordinate agent setup or a review-sheet handoff with the team.
+
+## Earlier v1 adoption — 15 September 2026
 
 The supported updater installed `v1.0.1` (OGP source `1013e1c2faad7bc314c5274177280fa8c6ed6cd3`). Settings select floating stable `v1`, and the shared build caller uses `@v1`. PR, main, version-tag, merge-group and manual triggers remain present. Deployment remains disabled.
 

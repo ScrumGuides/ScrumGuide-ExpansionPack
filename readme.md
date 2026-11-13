@@ -1,22 +1,12 @@
 # Scrum Guide Expansion Pack
 
+**Want to translate a guide? [Start here](docs/translations.md#start-here)** for the team contact, agent setup, shared instructions and submission handoff. No tool installation is needed to ask for help.
+
 ## Build and validate with OpenGuidePlatform
 
-This site tracks stable OpenGuidePlatform `v1` through `.OpenGuidePlatform/settings.yaml`. See [adoption status](docs/ogp-adoption.md) for known validation issues. Deployment remains disabled in the caller.
+Use the [shared OGP contributor guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md) for plain-English explanations, diagrams, setup and supported commands. This site selects OGP `v1.1.7`. The package selection and delivery destinations live in [.OpenGuidePlatform/settings.yaml](.OpenGuidePlatform/settings.yaml). See [adoption evidence](docs/ogp-adoption.md) for actual validation status.
 
-From the repository root, use PowerShell 7.4 or newer:
-
-```powershell
-./build.ps1 Dependencies
-./build.ps1 -Target canary
-./build.ps1 -Target preview
-./build.ps1 -Target production
-./build.ps1 -Stage Serve -Target local
-```
-
-To update the coordinated platform installation, use `./build.ps1 Update -PlatformRelease v1` on the existing review branch. Install the GitHub Actions locking extension with `gh extension install github/gh-actions-lock`. Keep site contributor rules in [site/AGENTS.md](site/AGENTS.md); platform-managed instructions and skills update with the installation.
-
-These build commands do not deploy the site. Production approval is separate from preview validation.
+Local policy lives in [contributing](docs/contributing.md), [translations](docs/translations.md) and [site instructions](site/AGENTS.md). Production approval is separate from local or preview validation.
 
 ## Visit the Guide
 
@@ -83,7 +73,7 @@ Making Scrum knowledge accessible globally is essential.
 
 ### 📝 Content Contributors (Most Contributors)
 
-**⚠️ Important: For most contributions, you only need to edit files in `site/content/`**
+Use the shared task instructions to discover the supported changes; adding a site language also includes the surrounding website.
 
 **Content Structure:**
 
@@ -94,7 +84,7 @@ Making Scrum knowledge accessible globally is essential.
 **Available Guides:**
 
 - `scrum-guide-expanded/` - Core comprehensive guide
-- `complexity/`, `psychological-safety-in-scrum-teams/`, `ai-and-scrum/`, and 12 more extension guides
+- `complexity/`, `psychological-safety-in-scrum-teams/`, `ai-and-scrum/`, and other extension guides (discover the current inventory)
 
 **Content Contributions Include:**
 
@@ -118,7 +108,7 @@ Making Scrum knowledge accessible globally is essential.
 - **Hugo templates** - `site/layouts/` (uses [OpenGuidePlatform module](https://github.com/nkdAgility/OpenGuidePlatform/))
 - **Styling** - `site/static/css/`
 - **Infrastructure** - `.github/workflows/`, Azure configuration
-- **Build scripts** - `scripts/` (PowerShell automation)
+- **Build entry point** - root `build.ps1`; retained `scripts/` tools are not the shared contributor workflow
 
 **📖 Technical Documentation:**
 
@@ -154,179 +144,21 @@ See [LICENSE](./LICENSE) for complete terms.
 
 ### Common Tasks for Anyone
 
-These tasks can be performed by any contributor. All changes follow the standard workflow: **Fork → Make Changes → Test Locally → Create PR → Preview → Review → Merge**
-
-#### 1. Add a New Extension (Guide)
-
-Create a new guide to extend the core Scrum Guide.
-
-**Steps:**
-
-1. Read [Content Management Guide](./docs/content-management.md) for structure
-2. Create directory: `site/content/{new-guide-name}/`
-3. Create version folder: `site/content/{new-guide-name}/2026.1/`
-4. Add content: `index.md` (English), `index.{lang}.md` (other languages)
-5. Create `_index.md` for guide landing page
-6. Add history folder: `site/content/{new-guide-name}/history/`
-7. Test locally: `hugo server -D --source site`
-8. Submit PR for review
-
-#### 2. Add a New Document Version to an Existing Extension
-
-Create a new version of an existing guide.
-
-**Steps:**
-
-1. Create new version folder: `site/content/{guide-name}/2026.2/`
-2. Copy content from previous version: `site/content/{guide-name}/2026.1/`
-3. Update content in new version folder
-4. Update version history in `site/content/{guide-name}/history/`
-5. Test locally: `hugo server -D --source site`
-6. Submit PR for review
-
-#### 3. Add a New Site Language (Translation Wrapper)
-
-Add support for a new language across the entire site.
-
-**Steps:**
-
-1. Read [Translations Guide](./docs/translations.md)
-2. Read [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
-3. Run PowerShell script: `.\scripts\Create-TranslationTemplate.ps1 -LanguageCode "xx" -LanguageName "Language Name"`
-4. Update `site/i18n/{lang}.yaml` with translated UI strings
-5. Test language switcher: `hugo server -D --source site`
-6. Submit PR for review
-
-#### 4. Translate a Guide or Extension
-
-Translate content of a core guide or extension.
-
-**Important:** All translation PRs must be approved by the guide owner.
-
-**Steps:**
-
-1. Read [Translations Guide](./docs/translations.md)
-2. Read [Translation Code of Conduct](./docs/translations-code-of-conduct.md)
-3. Fork the repository
-4. Create translation file: `site/content/{guide-name}/2026.1/index.{lang}.md`
-5. Translate content following academic reference format
-6. Test locally: `hugo server -D --source site`
-7. Submit PR for review
-8. **Preview site** will be automatically created for your PR
-9. Guide owner reviews and approves
-
-#### 5. Translate a Specific Version of a Guide
-
-Translate a specific version of a guide or extension.
-
-**Steps:**
-
-1. Follow steps from "Translate a Guide or Extension" above
-2. Target specific version folder: `site/content/{guide-name}/{version}/index.{lang}.md`
-3. Ensure consistency with original version content
-4. Submit PR for review by guide owner
-
-#### 6. Generate New PDFs
-
-Generate PDF versions of guides for all languages.
-
-**Requirements:**
-
-- PowerShell 7+
-- Pandoc
-- LaTeX (XeLaTeX)
-
-**Steps:**
-
-1. Install prerequisites (see [PDF Generation Guide](./docs/simple-pdf-generation.md))
-2. Run script: `.\scripts\Create-GuidePDFs.ps1`
-3. Or for specific guide: `.\scripts\Create-GuidePDFs.ps1 -GuideName "complexity"`
-4. Or for specific language: `.\scripts\Create-GuidePDFs.ps1 -Language "de"`
-5. PDFs generated in: `site/content/{guide-name}/{version}/pdf/`
-6. Commit PDFs and submit PR
-
-#### 7. Add a Contributor to a Guide
-
-Add attribution for contributors to a specific guide.
-
-**Steps:**
-
-1. Read [Content Management Guide - Contributor Attribution](./docs/content-management.md#3-contributor-attribution-current-system)
-2. Open contributor file: `site/data/contributions/{guide-slug}.yml`
-3. Add contributor entry:
-
-   ```yaml
-   - name: "Contributor Full Name"
-     githubUsername: "their-github-username"  # PREFERRED (auto-fetches image)
-     url: "https://their-website.com"
-     contributions:
-       - "2026.1"
-     role: "contributor"  # creator, contributor, translator, reviewer
-   ```
-
-4. **For custom images** (if no GitHub):
-   - Upload to: `site/static/images/contributors/firstname-lastname.jpg`
-   - Add: `image: /images/contributors/firstname-lastname.jpg`
-5. Test locally: `hugo server -D --source site`
-6. Submit PR for review
-
-**Image Priority**: 1) `githubUsername` (auto) → 2) `gravatar` → 3) `image` (manual)
-
-#### 8. Review a Pull Request
-
-Review and provide feedback on community contributions.
-
-**Steps:**
-
-1. Find open PRs in [GitHub Pull Requests](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/pulls)
-2. Visit PR preview site: `https://agreeable-island-0c966e810-{PR#}.centralus.6.azurestaticapps.net`
-   - Replace `{PR#}` with the actual PR number (e.g., PR #42 → `...810-42.centralus...`)
-3. Test functionality and check translations
-4. Leave constructive feedback in PR comments
-5. Approve or request changes
-
-**Note:** PR preview sites are only created for PRs from the main repository, not from forks.
-
-#### 9. Report an Issue or Bug
-
-Report problems or suggest improvements following the encouraged workflow.
-
-**Steps:**
-
-1. Check [existing issues](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues) first
-2. Create [new issue](https://github.com/ScrumGuides/ScrumGuide-ExpansionPack/issues/new) with clear title
-3. Include:
-   - What happened vs. what you expected
-   - Steps to reproduce
-   - Browser/device information (if applicable)
-4. Add screenshots if helpful
-5. Reference related PRs or discussions
-
-**Encouraged Workflow**: Discussion → Issue → Pull Request (see [Contributing Guide](./docs/contributing.md))
-
-#### 10. Update Project Documentation
-
-Improve documentation in the `docs/` folder.
-
-**Steps:**
-
-1. Identify outdated or missing documentation
-2. Edit files in `docs/` folder:
-   - `getting-started.md` - Setup instructions
-   - `development.md` - Development workflows
-   - `content-management.md` - Content guidelines
-   - `troubleshooting.md` - Common issues
-   - Other documentation files
-3. Test all links and formatting locally
-4. Submit PR with clear description of improvements
-
-**Safe Zone**: ✅ `docs/` folder is safe for editing
+| Task | Shared instructions | ScrumExpansion decisions |
+|---|---|---|
+| Review wording without developer tools | [Reviewer handoff](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md) | Guide owner and translation guardian review |
+| First translation | [Walkthrough with diagrams](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md) | [Translation policy](docs/translations.md) |
+| Inspect readiness | [Status and discovery](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/status.md) | Core and independently versioned extensions |
+| Add a language or translate selected bodies | [Translation tasks](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/translation.md) | Keep production exclusions and approved scope |
+| Add/edit a guide or edition | [Content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) | Formal academic style, citations and owner approval |
+| Credits and PDFs | [Credits and PDF procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/credits-pdfs.md) | Existing attribution and supplied PDFs need separate owner review |
+| Validate and submit | [Validation and handoffs](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) | Site caller, review environments and publication approval |
 
 ### Translation Guidelines
 
 **All translations must follow:**
 
-- [Translation Guide](./docs/translations.md) - Technical process
+- [Translation policy](./docs/translations.md) - Site decisions and shared workflow links
 - [Translation Code of Conduct](./docs/translations-code-of-conduct.md) - Standards and expectations
 
 **Key Points:**

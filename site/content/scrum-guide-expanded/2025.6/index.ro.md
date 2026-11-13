@@ -8,21 +8,8 @@ keywords:
   - dezvoltarea empirică a produselor
   - Scrum în medii complexe
   - Scrum și AI
-author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
-translators:
-  - name: Liviu Meseșan
-    githubUsername: agile22
-    url: https://www.agileeducation.ro/
-    role: translator
-    weight: 1
 date: 2025-06-11T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 sitemap:
   priority: 0.8
 aliases:
