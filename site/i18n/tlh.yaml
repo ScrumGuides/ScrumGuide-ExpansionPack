@@ -377,3 +377,13 @@
 
 - id: current_version_label
   translation: "DaH version"
+
+- id: show_more
+  translation: "Show More"
+
+- id: show_less
+  translation: "Show Less"
+
+# English fallback for history labels awaiting translation.
+- id: historical_version_label
+  translation: "Historical version from"

@@ -14,7 +14,6 @@ author:
   - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 type: guide
-lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"

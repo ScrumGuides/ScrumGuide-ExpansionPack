@@ -10,13 +10,14 @@ keywords:
   - Scrum and AI
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.7
+aliases:
+  - /scrum-on-one-page/latest
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  

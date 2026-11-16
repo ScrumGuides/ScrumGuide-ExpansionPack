@@ -358,7 +358,7 @@ gh run view --log <run-id>
 ```html
 <!-- Check that Bootstrap is included in the base template -->
 <!-- Note: Base templates (baseof.html, home.html, etc.) come from the -->
-<!-- Hugo module: github.com/nkdAgility/HugoGuides/module -->
+<!-- Hugo module: github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides -->
 <!-- To override, create baseof.html in local layouts/ directory -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 ```

@@ -17,11 +17,13 @@ cascade:
   - build:
       list: never
       render: never
+      publishResources: false
     target:
       environment: production
   - build:
       list: never
       render: never
+      publishResources: false
     target:
       environment: preview
 ---

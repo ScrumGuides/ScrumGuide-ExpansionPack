@@ -49,7 +49,6 @@ translators:
     weight: 5
 date: 2025-06-11T09:00:00Z
 type: guide
-lang: ja
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"

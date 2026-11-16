@@ -11,13 +11,14 @@ author:
   - John Coleman
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expansion-pack/2025.6
 sitemap:
   priority: 0.7
+aliases:
+  - /multi-team-scrum/latest
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  

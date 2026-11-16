@@ -91,7 +91,7 @@ site/
 └── hugo.yaml                  # Hugo configuration (includes module import)
 ```
 
-**Note**: Base templates (`baseof.html`, `single.html`, `list.html`) are provided by the imported Hugo module (`github.com/nkdAgility/HugoGuides/module`). The local `layouts/` directory contains only template overrides and site-specific templates.
+**Note**: Base templates (`baseof.html`, `single.html`, `list.html`) are provided by the imported Hugo module (`github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides`). The local `layouts/` directory contains only template overrides and site-specific templates.
 
 ### `/docs/` - Documentation
 
@@ -171,16 +171,16 @@ This site uses **Hugo Modules** for template management, importing the majority 
 # hugo.yaml
 module:
   imports:
-    - path: github.com/nkdAgility/HugoGuides/module
+    - path: github.com/nkdAgility/OpenGuidePlatform/system/OpenGuidePlatform.Hugo.Guides
 ```
 
-**Module Repository**: [github.com/nkdAgility/HugoGuides](https://github.com/nkdAgility/HugoGuides/)
+**Module Repository**: [github.com/nkdAgility/OpenGuidePlatform](https://github.com/nkdAgility/OpenGuidePlatform/)
 
 **What this means:**
 - Base templates (`baseof.html`, `single.html`, `list.html`, `home.html`) come from the imported module
 - Local `layouts/` directory contains only **overrides** and **site-specific templates**
 - Module provides consistent structure across multiple guide sites
-- The majority of site functionality (templates, partials, layouts) is maintained in the HugoGuides module
+- The majority of site functionality (templates, partials, layouts) is maintained in the OpenGuidePlatform module
 - Updates to base templates happen at the module level
 - This allows multiple guide sites to share common functionality
 

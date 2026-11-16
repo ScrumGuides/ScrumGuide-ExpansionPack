@@ -10,11 +10,12 @@ keywords:
   - Scrum e IA
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: pt
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.8
+aliases:
+  - /scrum-guide-expanded/latest
 ---

@@ -38,7 +38,6 @@ translators:
 
 date: 2025-06-11T09:00:00Z
 type: guide
-lang: es
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"

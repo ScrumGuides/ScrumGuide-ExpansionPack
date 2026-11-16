@@ -12,12 +12,13 @@ author:
   - Dave Farley
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 0.7
+aliases:
+  - /software-engineering-practices/latest
 ---
 
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) © 2026 Dave Farley

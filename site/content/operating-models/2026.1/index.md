@@ -17,13 +17,14 @@ author:
   - Martin Hinshelwood
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.7
+aliases:
+  - /operating-models/latest
 ---
 
 License/Copyright: Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). © 2026 Martin Hinshelwood.

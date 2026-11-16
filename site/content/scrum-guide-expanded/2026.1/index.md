@@ -14,12 +14,13 @@ author:
   - Jeff Sutherland
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
   priority: 0.8
+aliases:
+  - /scrum-guide-expanded/latest
 ---
 
 **_Collected Resources for Scrum Guide Expansion Pack_**  

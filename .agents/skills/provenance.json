@@ -1,0 +1,86 @@
+[
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.contributions/Manage-GuideContributions.ps1",
+    "sha256": "3928d0565246a65357ece13ef91e2d4a70ebf505142e6be1e8f0321f095a5346",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.contributions/SKILL.md",
+    "sha256": "66009144db4f4c77cc5b28ae2181a66c3b40ce0d39dc2a1ba25049fa83f9d83a",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.genpdfs/cover-page.tex",
+    "sha256": "815c0bc167502a80fcef775362a416c7a88ca7d209fa1df227f95b6c8c430f2c",
+    "treatment": "Template retained byte-for-byte"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.genpdfs/Create-GuidePDFs.ps1",
+    "sha256": "a0bce3f242e486cbbaa908d2ce12cf7b79d333979adf33bcf770a8d175e88989",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.genpdfs/SKILL.md",
+    "sha256": "084f2f267ab31ebb0a850eadd68b7100b4c3099ecdffc970f2efb7aab3c9128e",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.gravatar/Get-GravatarHash.ps1",
+    "sha256": "9efbbaeebddbd518d68fec6f4eaf20244b5c98316686a362e6dc86344912924a",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.gravatar/SKILL.md",
+    "sha256": "9c5fc7dc7530dae2c03b7babb8992d8684d0e730f138ab0078b085b14bb7449e",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.historicalversion/Create-HistoricalVersion.ps1",
+    "sha256": "192075271949eba95fa019ee010e1d48c5bdbc593dba958caeae3e3a35e2a57c",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.historicalversion/SKILL.md",
+    "sha256": "68e50714137fd8ef8814e092d54aecb244e3d5ffb98eb64f2d2effc9af90358c",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.transcreate/SKILL.md",
+    "sha256": "4c390b09aa8685cbf3762f7553a23abe633b001755086044719d70f4b8ad237f",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.transreconcile/SKILL.md",
+    "sha256": "3771a856fd7735cc503ccbac3ba14e67dfb01218fb124badd2004dfc92b9093f",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  },
+  {
+    "sourceRepository": "KanbanGuides/KanbanGuides",
+    "sourceCommit": "cb991c4df952309cea51cb677b5134350c359ba7",
+    "sourcePath": ".agents/skills/guide.transstatus/SKILL.md",
+    "sha256": "077c7366da87286ac54b7903e804df5e8fb49c323509b244fe3bef641332cbd6",
+    "treatment": "Skill guidance rewritten against shared Core; operations adapted, not verbatim copies"
+  }
+]

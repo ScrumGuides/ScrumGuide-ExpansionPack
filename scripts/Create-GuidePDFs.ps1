@@ -33,6 +33,15 @@ param(
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $projectRoot = Split-Path -Parent $scriptDir
 $contentDir = Join-Path $projectRoot "site/content"
+. (Join-Path $scriptDir "GuidePdfLanguage.ps1")
+
+# Read the site's configured default without loading or rendering guide content.
+$siteConfigJson = & hugo config --source (Join-Path $projectRoot "site") --config hugo.yaml --format json
+if ($LASTEXITCODE -ne 0) { throw "Could not read the Hugo language configuration" }
+$defaultLanguage = ($siteConfigJson | Out-String | ConvertFrom-Json).defaultContentLanguage
+if ([string]::IsNullOrWhiteSpace($defaultLanguage)) {
+    throw "Hugo configuration did not provide defaultContentLanguage"
+}
 
 Write-Host "📚 Generating PDFs for all guides..." -ForegroundColor Green
 
@@ -135,13 +144,13 @@ foreach ($guide in $guidesToProcess) {
     }
     # Find all markdown files in the version folder
     $markdownFiles = Get-ChildItem -Path $latestVersion.FullName -Filter "*.md" | Where-Object {
-        # Match index.{lang}.md OR index.md (default/English)
-        $_.Name -match '^index(\.\w{2,3})?\.md$'
+        # Match the default-language file and language suffixes, including regional codes.
+        Get-GuidePdfLanguage -FileName $_.Name -DefaultLanguage $defaultLanguage
     }
     
     # If Language parameter is specified, filter to that language
     if ($Language) {
-        $markdownFiles = $markdownFiles | Where-Object { $_.Name -match "^index\.$Language\.md$" }
+        $markdownFiles = $markdownFiles | Where-Object { (Get-GuidePdfLanguage -FileName $_.Name -DefaultLanguage $defaultLanguage) -eq $Language }
     }
     
     if ($markdownFiles.Count -eq 0) {
@@ -153,17 +162,8 @@ foreach ($guide in $guidesToProcess) {
     
     # Process each language file
     foreach ($file in $markdownFiles) {
-        # Extract language code (or use 'en' for index.md)
-        if ($file.Name -match '^index\.([^.]+)\.md$') {
-            $langCode = $matches[1]
-        }
-        elseif ($file.Name -eq 'index.md') {
-            $langCode = 'en'  # Default to English for index.md
-        }
-        else {
-            continue
-        }
-        
+        $langCode = Get-GuidePdfLanguage -FileName $file.Name -DefaultLanguage $defaultLanguage
+
         # Check if file has actual content beyond front matter
         $fileContent = Get-Content -Path $file.FullName -Raw
         # Remove front matter and check if there's any meaningful content left
@@ -191,13 +191,14 @@ foreach ($guide in $guidesToProcess) {
         
         Write-Host "   📄 Generating PDF for $langCode..." -ForegroundColor Blue
         
-        # Build pandoc command - let front matter handle everything
+        # Supply language explicitly: Hugo rejects top-level lang in front matter.
         $pdfEngine = "xelatex"
         $luaFilterPath = Join-Path $scriptDir "callouts-latex.lua"
         $latexHeaderPath = Join-Path $scriptDir "callouts-header.tex"
         $pandocArgs = @(
             $file.FullName
             "--pdf-engine=$pdfEngine"
+            "--metadata", "lang=$langCode"
             "--lua-filter=$luaFilterPath"
             "--include-in-header=$latexHeaderPath"
             "--resource-path=$contentDir"

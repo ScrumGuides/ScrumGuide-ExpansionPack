@@ -11,13 +11,14 @@ author:
   - John Coleman
 date: 2026-01-18T09:00:00Z
 type: guide
-lang: en
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.7
+aliases:
+  - /adaptive-executive/latest
 ---
 
 License/Copyright: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), © 2017-2025 Orderly Disruption Limited  
