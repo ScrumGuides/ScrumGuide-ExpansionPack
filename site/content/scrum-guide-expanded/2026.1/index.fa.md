@@ -10,10 +10,6 @@ keywords:
   - اسکرام و هوش مصنوعی
 date: 2026-01-18T09:00:00Z
 type: guide
-dir: rtl
-mainfont: HMXRoya
-sansfont: HMXRoya
-monofont: HMXRoya
 pdf-engine: xelatex
 forked_from: scrum-guide-expanded/2025.6
 sitemap:

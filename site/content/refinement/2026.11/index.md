@@ -13,14 +13,10 @@ keywords:
 - Product Backlog
 - Scrum
 - Product Owner
-author:
-  - Ralph Jocham
 date: 2026-09-26T09:00:00Z
 type: guide
-lang: en
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
+aliases:
+  - /refinement/latest
 forked_from: scrum-guide-expanded/2026.1
 sitemap:
   priority: 0.7

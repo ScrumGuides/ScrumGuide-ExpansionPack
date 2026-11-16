@@ -1,0 +1,42 @@
+- url: "https://www.agile-gap.com/p/pedram-keshavarzi"
+  name: "Pedram Keshavarzi"
+  weight: 1
+  role: "translator"
+  githubUsername: "pedicurus"
+  contributions: ["2025.6"]
+- url: "https://www.linkedin.com/in/ali-naderivarandi-9a269a261"
+  name: "Ali Naderivarandi"
+  weight: 1
+  role: "translator"
+  githubUsername: "Alinaderivarandi"
+  contributions: ["2025.6"]
+- name: "Pooya Sabramooz"
+  weight: 1
+  role: "contributor"
+  githubUsername: "sabramooz"
+  contributions: ["2025.6"]
+- name: "Jamasb Samia Kalantari"
+  weight: 1
+  role: "translation reviewer"
+  githubUsername: "JaamySkm"
+  contributions: ["2025.6"]
+- name: "Farzad Tarapourvala"
+  weight: 1
+  role: "translation reviewer"
+  githubUsername: "farzadtara"
+  contributions: ["2025.6"]
+- name: "Pantea Shahriari"
+  weight: 1
+  role: "translation reviewer"
+  githubUsername: "pantehash"
+  contributions: ["2025.6"]
+- name: "Ali Saxaei"
+  weight: 1
+  role: "translation reviewer"
+  githubUsername: "AliSaxaei"
+  contributions: ["2025.6"]
+- name: "Mohammad Javad Bathaei"
+  weight: 1
+  role: "translation reviewer"
+  githubUsername: "javadbat"
+  contributions: ["2025.6"]

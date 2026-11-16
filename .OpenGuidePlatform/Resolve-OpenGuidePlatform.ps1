@@ -8,12 +8,12 @@ param(
     [ValidateSet('GuideSite','Platform')][string]$Product='GuideSite',
     [switch]$ReadSettings,[switch]$UseInstalled,[switch]$FromWorkflow,[uri]$PackageUrl,[string]$PackageSha256,[string]$ExpectedVersion,[string]$ExpectedCommit,[string]$OutputPath
 )
-function Get-PlatformSettings([string]$Root) {
+function Get-PlatformSettings([string]$Root,[string]$DependencyScope='AllUsers') {
     $settingsPath=Join-Path $Root '.OpenGuidePlatform/settings.yaml'
     if(-not (Test-Path -LiteralPath $settingsPath)){return $null}
     if((Get-Item -LiteralPath $settingsPath).Attributes -band [IO.FileAttributes]::ReparsePoint){throw 'Linked platform settings are not supported.'}
     if(-not (Get-Module -ListAvailable powershell-yaml | Where-Object Version -ge ([version]'0.4.12'))){
-        Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope CurrentUser -Force -Repository PSGallery -ErrorAction Stop
+        Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope $DependencyScope -Force -Repository PSGallery -ErrorAction Stop
     }
     Import-Module powershell-yaml -MinimumVersion 0.4.12 -ErrorAction Stop
     $settings=Get-Content -LiteralPath $settingsPath -Raw|ConvertFrom-Yaml
@@ -82,13 +82,15 @@ param(
     [Parameter(Mandatory,ParameterSetName='Candidate')][ValidatePattern('^[a-fA-F0-9]{64}$')][string]$PackageSha256,
     [Parameter(Mandatory,ParameterSetName='Candidate')][ValidatePattern('^[0-9]+\.[0-9]+\.[0-9]+(?:-[A-Za-z0-9.-]+)?$')][string]$ExpectedVersion,
     [ValidatePattern('^[a-f0-9]{40}$')][string]$ExpectedCommit,
-    [Parameter(Mandatory)][string]$OutputPath
+    [Parameter(Mandatory)][string]$OutputPath,
+    [ValidateSet('AllUsers','CurrentUser')][string]$SettingsDependencyScope='AllUsers'
 )
 $ErrorActionPreference='Stop'
 $resolvedCommit=$ExpectedCommit
 $installedDigest=$null
 if($FromWorkflow){
-    $restore=@{OutputPath=$OutputPath;PlatformRing=$(if($env:PLATFORM_RING){$env:PLATFORM_RING}else{$PlatformRing})}
+    # Hosted restore reads settings before the runner installs its normal build dependencies.
+    $restore=@{OutputPath=$OutputPath;SettingsDependencyScope='CurrentUser';PlatformRing=$(if($env:PLATFORM_RING){$env:PLATFORM_RING}else{$PlatformRing})}
     if($resolvedCommit){$restore.ExpectedCommit=$resolvedCommit}
     if($env:PLATFORM_PACKAGE_URL){
         if($env:PLATFORM_RELEASE){throw 'Select a candidate URL or release tag, not both.'}
@@ -136,7 +138,7 @@ if($PSCmdlet.ParameterSetName -eq 'Candidate'){
         }
         if($resolvedCommit -and $resolvedCommit -cne $installedCommit){throw 'Prepared platform source differs from the installation pin.'}
         $resolvedCommit=$installedCommit
-        $settings=Get-PlatformSettings $WorkspaceRoot
+        $settings=Get-PlatformSettings $WorkspaceRoot -DependencyScope $SettingsDependencyScope
         if($settings){
             Assert-PlatformSettingsWorkflow $settings $installation
             $selectedTag=Select-PlatformRelease $settings.platform.version $settings.platform.ring
@@ -326,7 +328,7 @@ if($Product -eq 'Platform' -and (Test-Path "$selected/release-manifest.json") -a
     $zip=[IO.Compression.ZipFile]::OpenRead($archivePath)
     $names=[Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
     try{foreach($entry in $zip.Entries){
-        if(-not $names.Add($entry.FullName) -or $entry.FullName -match '(^/|\\|:|(^|/)\.\.?(/|$))' -or (($entry.ExternalAttributes -shr 16) -band 0xF000) -eq 0xA000 -or ($entry.FullName -cne 'platform-build.json' -and -not $entry.FullName.StartsWith('system/OpenGuidePlatform.PowerShell.PlatformBuild/'))){throw 'PlatformBuild contains an unsafe or overlapping entry.'}
+        if(-not $names.Add($entry.FullName) -or $entry.FullName -match '(^/|\\|:|(^|/)\.\.?(/|$))' -or (($entry.ExternalAttributes -shr 16) -band 0xF000) -eq 0xA000 -or ($entry.FullName -cne 'platform-build.json' -and $entry.FullName -cne 'release.ps1' -and -not $entry.FullName.StartsWith('system/OpenGuidePlatform.PowerShell.PlatformBuild/'))){throw 'PlatformBuild contains an unsafe or overlapping entry.'}
     }}finally{$zip.Dispose()}
     [IO.Compression.ZipFile]::ExtractToDirectory($archivePath,$selected)
     $identity=Get-Content "$selected/platform-build.json" -Raw|ConvertFrom-Json
