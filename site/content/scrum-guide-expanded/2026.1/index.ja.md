@@ -10,9 +10,6 @@ keywords:
   - スクラムとAI
 date: 2025-09-11T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 forked_from: scrum-guide-expanded/2025.6
 sitemap:
   priority: 0.8

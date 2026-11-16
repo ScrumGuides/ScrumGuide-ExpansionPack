@@ -8,15 +8,8 @@ keywords:
   - empirical product development
   - Scrum in complex environments
   - Scrum and AI
-author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 guide_whatis: |
   Il **Pacchetto di Espansione della Guida a Scrum** esiste perché il modo in cui realizziamo i prodotti continua a cambiare; e lo fa rapidamente.
 

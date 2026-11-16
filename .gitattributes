@@ -1,1 +1,9 @@
 * text=auto
+
+# OGP verifies exact managed-file bytes; preserve LF on Windows checkouts.
+/build.ps1 text eol=lf
+/.OpenGuidePlatform/Resolve-OpenGuidePlatform.ps1 text eol=lf
+/.OpenGuidePlatform/installation.json text eol=lf
+/.agents/agents.md text eol=lf
+/.agents/skills/** text eol=lf
+/.github/copilot-instructions.md text eol=lf
