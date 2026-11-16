@@ -3,6 +3,8 @@
 
 # All contributors in a flat list
 - name: John Coleman
+  localizedNames:
+    fa: جان کولمن
   githubUsername: ViralGoodAgile
   url: https://www.linkedin.com/in/johnanthonycoleman/
   contributions:
@@ -13,6 +15,8 @@
   weight: 1
 
 - name: Ralph Jocham
+  localizedNames:
+    fa: رالف یوخام
   githubUsername: rjocham
   url: https://effectiveagile.com/
   contributions:
@@ -23,6 +27,8 @@
   founder: true
 
 - name: Jeff Sutherland
+  localizedNames:
+    fa: جف ساترلند
   githubUsername: jeffsutherland
   url: https://www.scruminc.com/
   contributions:

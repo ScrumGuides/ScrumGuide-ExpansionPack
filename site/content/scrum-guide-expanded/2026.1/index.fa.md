@@ -50,10 +50,6 @@ translators:
     role: translation reviewer
     weight: 1
 type: guide
-dir: rtl
-mainfont: HMXRoya
-sansfont: HMXRoya
-monofont: HMXRoya
 pdf-engine: xelatex
 forked_from: scrum-guide-expanded/2025.6
 sitemap:

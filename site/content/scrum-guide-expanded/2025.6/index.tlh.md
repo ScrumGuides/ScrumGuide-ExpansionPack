@@ -8,16 +8,8 @@ keywords:
   - QIn malja' chenmoH
   - QIpyuS ghu'QeD
   - QIpyuS je valbogh De'wI'
-author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
 date: 2025-06-11T09:00:00Z
 type: guide
-dir: ltr
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 sitemap:
   priority: 0.8
 aliases:
