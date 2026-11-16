@@ -1,7 +1,10 @@
 platform:
+  version: v1.1.8
   ring: production
-  version: v1.1.7
 delivery:
+  canary:
+    environment: canary-{pr}
+    url: https://agreeable-island-0c966e810-canary{pr}.centralus.6.azurestaticapps.net/
   production:
     environment: production
     url: https://scrumexpansion.org/
@@ -11,8 +14,5 @@ delivery:
   preview:
     environment: preview
     url: https://agreeable-island-0c966e810-preview.centralus.6.azurestaticapps.net/
-  canary:
-    environment: canary-{pr}
-    url: https://agreeable-island-0c966e810-canary{pr}.centralus.6.azurestaticapps.net/
 site:
   source: site
