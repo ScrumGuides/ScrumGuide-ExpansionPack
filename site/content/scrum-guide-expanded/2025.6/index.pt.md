@@ -8,15 +8,8 @@ keywords:
   - Desenvolvimento empírico de produto
   - Scrum em ambientes complexos
   - Scrum e IA
-author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
 date: 2025-11-03T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 sitemap:
   priority: 0.8
 aliases:

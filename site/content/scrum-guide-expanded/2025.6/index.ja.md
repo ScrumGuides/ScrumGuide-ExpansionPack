@@ -17,41 +17,8 @@ keywords:
   - 経験的プロダクト開発
   - 複雑な環境でのスクラム
   - スクラムとAI
-author:
-  - Ralph Jocham
-  - John Coleman
-  - Jeff Sutherland
-translators:
-  - name: 内山遼子
-    githubUsername: RyokoUchiyama
-    url: https://www.linkedin.com/in/ryoko-uchiyama-0b870aa1/
-    role: translator
-    weight: 1
-  - name: 川⼝恭伸
-    githubUsername: kawaguti
-    url: https://www.linkedin.com/in/yasunobu-yesno-kawaguchi-b78ab65/
-    role: translator
-    weight: 2
-  - name: 長沢智治
-    githubUsername: tomoharunagasawa
-    url: https://nagasawa.social/
-    role: translator
-    weight: 3
-  - name: 山本尊人
-    githubUsername: Sonjin-Yamamoto
-    url: https://www.linkedin.com/in/sonjin/
-    role: translator
-    weight: 4
-  - name: 和⽥圭介
-    githubUsername: k8skwada
-    url: https://www.linkedin.com/in/wadak8sk/
-    role: translator
-    weight: 5
 date: 2025-06-11T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 sitemap:
   priority: 0.8
 aliases:
