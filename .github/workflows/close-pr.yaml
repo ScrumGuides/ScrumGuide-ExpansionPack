@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   close:
-    uses: nkdAgility/OpenGuidePlatform/.github/workflows/guide-site-close-pr.yaml@v1.1.7
+    uses: nkdAgility/OpenGuidePlatform/.github/workflows/guide-site-close-pr.yaml@v1.1.8
     with:
       deployment-environment: canary-${{ github.event.pull_request.number }}
     secrets:
