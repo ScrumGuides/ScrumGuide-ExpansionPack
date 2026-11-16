@@ -15,13 +15,11 @@
   "routes": [
     {
       "route": "/nl/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.nl.pdf",
-      "redirect": "/nl/scrum-guide-expanded/2025.6/pdf/scrum-guide-expansion-pack.nl.pdf",
-      "statusCode": 301
+      "rewrite": "/nl/scrum-guide-expanded/2025.6/pdf/scrum-guide-expansion-pack.nl.pdf"
     },
     {
       "route": "/pl/scrum-guide-expansion-pack/2025.6/pdf/scrum-guide-expansion-pack.pl.pdf",
-      "redirect": "/pl/scrum-guide-expanded/2025.6/pdf/scrum-guide-expansion-pack.pl.pdf",
-      "statusCode": 301
+      "rewrite": "/pl/scrum-guide-expanded/2025.6/pdf/scrum-guide-expansion-pack.pl.pdf"
     },
     {
       "route": "/history/",
