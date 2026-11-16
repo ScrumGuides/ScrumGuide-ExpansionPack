@@ -10,67 +10,9 @@ This guide provides detailed information for developers working on the Scrum Gui
 
 ## Development Environment Setup
 
-### Prerequisites
+Use the [shared setup guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and [site context](getting-started.md). Root `build.ps1` is the supported build/serve/validation entry point; the [shared validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) explains commands and evidence. Site-owned template overrides, Bootstrap styling, catalogues and delivery configuration remain local responsibilities.
 
-Before starting development, ensure you have:
-
-✅ **Hugo Extended** (v0.146.0+)  
-✅ **Git** (latest version)  
-✅ **PowerShell 7+** (required for automation scripts)  
-✅ **Text Editor/IDE** (VS Code recommended)  
-✅ **Node.js** (for advanced tooling, optional)
-
-> **⚠️ Important**: This project uses Hugo's new template system introduced in v0.146.0. Earlier Hugo versions are not compatible.
-
-> **📋 Installation Help**: For detailed PowerShell 7+ installation instructions, see the [Getting Started Guide](./getting-started.md#powershell-automation-scripts).
-
-### Installation Verification
-
-```powershell
-# Verify Hugo installation
-hugo version
-
-# Verify Git installation
-git --version
-
-# Verify you have Hugo Extended
-hugo env
-```
-
-## Project Setup
-
-### 1. Clone and Setup
-
-```powershell
-# Clone the repository
-git clone https://github.com/ScrumGuides/ScrumGuide-ExpansionPack.git
-cd ScrumGuide-ExpansionPack
-
-# Navigate to the Hugo site directory
-cd site
-
-# Start development server
-hugo server -D --bind 0.0.0.0
-```
-
-### 2. Development Server Options
-
-```powershell
-# Basic development server
-hugo server -D
-
-# With specific port and host binding
-hugo server -D --bind 0.0.0.0 --port 1313
-
-# With live reload and draft content
-hugo server -D --watch --liveReload
-
-# With specific environment
-hugo server -D --environment local
-
-# With verbose logging
-hugo server -D --verbose --debug
-```
+On a new machine, ask an administrator to run `Install-Module powershell-yaml -MinimumVersion 0.4.12 -Scope AllUsers` in PowerShell 7. Once installed, open an ordinary PowerShell 7 window in your local copy of the repository. Run `./build.ps1 -Target preview` to build and check the site or `./build.ps1 -Stage Serve -Target local` to start the local preview.
 
 ## Code Standards and Guidelines
 
@@ -132,16 +74,7 @@ Your markdown content here...
 
 ### Creating New Pages
 
-```powershell
-# Create a new extension guide
-hugo new content/my-new-guide/_index.md
-
-# Create a new version of a guide
-hugo new content/my-new-guide/2026.1/index.md
-
-# Create a guide section
-hugo new content/guide/new-section.md
-```
+Use the [shared content operations](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/content.md) and obtain the relevant guide owner's approval. Preserve bespoke wrapper layouts and catalogue relationships; a manually created file is not a substitute for discovery or supported edition operations.
 
 ### Content Best Practices
 
@@ -258,31 +191,7 @@ layouts/
 
 ## Internationalization (i18n)
 
-### Adding Translations
-
-1. **Create/Update Translation File**
-
-   ```yaml
-   # i18n/en.yaml
-   - id: "welcome"
-     translation: "Welcome"
-
-   # i18n/de.yaml
-   - id: "welcome"
-     translation: "Willkommen"
-   ```
-
-2. **Use in Templates**
-
-   ```html
-   <h1>{{ i18n "welcome" }}</h1>
-   ```
-
-### Content Translation
-
-- Create language-specific content in subdirectories
-- Use the same file structure for each language
-- Example: `content/en/guide/index.md` and `content/de/guide/index.md`
+Use the [shared site-language procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/add-language.md) and [local translation policy](translations.md). Preserve i18n identifiers, placeholders, categories/tags and machine values in bespoke templates. Use OGP discovery for actual wrappers and editions; do not assume language subdirectories or a fixed guide inventory.
 
 ## Styling and CSS
 
@@ -330,16 +239,7 @@ Add custom styles to `/static/css/style.css`:
 
 ### Local Testing
 
-```powershell
-# Build the site locally
-hugo --environment local
-
-# Check for broken links (if linkchecker is installed)
-linkchecker http://localhost:1313
-
-# Validate HTML (if html5validator is installed)
-html5validator --root public/
-```
+Follow the [shared root-entry-point validation procedure](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Inspect site-owned templates, navigation, responsive layouts and the selected language before requesting review.
 
 ### Content Validation
 
@@ -392,28 +292,13 @@ hugo config
 
 ### Debug Mode
 
-```powershell
-# Run with debug output
-hugo server -D --debug --verbose
-
-# Check configuration
-hugo config
-
-# List all content
-hugo list all
-```
+Retain root-entry-point logs and the prepared evidence directory when diagnosing a site defect. Report shared command/template defects to OGP; preserve the installed module pin while investigating.
 
 ## Performance Optimization
 
 ### Build Optimization
 
-```powershell
-# Production build with minification
-hugo --minify --environment production
-
-# Check build performance
-hugo --templateMetrics
-```
+Use root-entry-point builds for acceptance. Changes to the site's delivery or shared build behavior need maintainer review and OGP validation; do not replace the pipeline with an ad hoc Hugo command.
 
 ### Asset Optimization
 
@@ -621,16 +506,7 @@ The project uses GitHub Actions for automated builds and deployments. See deploy
 
 ### Local Build Testing
 
-Before pushing, test the build locally:
-
-```powershell
-# Test production build
-hugo --environment production --minify
-
-# Verify output
-cd public
-ls -la
-```
+Use the [shared validation guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.7/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md) and root entry point. Test the bespoke wrapper, core/extension catalogues, creator profiles and production exclusions. Local production validation does not deploy.
 
 ---
 

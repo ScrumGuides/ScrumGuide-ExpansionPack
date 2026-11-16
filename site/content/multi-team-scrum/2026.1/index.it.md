@@ -6,14 +6,8 @@ keywords:
   - Aligned autonomy
   - Shared Product Backlog
   - Continuous Integration
-author:
-  - Ralph Jocham
-  - John Coleman
 date: 2026-01-18T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 forked_from: scrum-guide-expansion-pack/2025.6
 sitemap:
   priority: 0.7

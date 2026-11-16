@@ -8,13 +8,8 @@ keywords:
   - Modern Software Engineering
   - Continuous Delivery
   - Development Practices
-author:
-  - Dave Farley
 date: 2026-01-18T09:00:00Z
 type: guide
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
 sitemap:
   priority: 0.7
 aliases:
