@@ -1,8 +1,8 @@
 # OpenGuidePlatform adoption
 
-## OGP v1.1.7
+## OGP v1.1.8
 
-The coordinated updater selected [OGP v1.1.7](https://github.com/nkdAgility/OpenGuidePlatform/releases/tag/v1.1.7). The installation, native Hugo module, shared workflow and contributor links use that release.
+The coordinated updater selected [OGP v1.1.8](https://github.com/nkdAgility/OpenGuidePlatform/releases/tag/v1.1.8). The installation, native Hugo module, shared workflow and contributor links use that release.
 
 The metadata migration moves 19 existing translation-team credits into language-specific contribution files. It retains existing website roles and stores the [ordered legacy author lists](adoption-history/legacy-author-lists.md) for cases where the old PDF metadata and website credits disagree. Persian names and fonts retain their original spellings. Guide bodies and all 31 supplied PDFs match the pre-migration hashes. Hugo 0.169.0 publishes the historical Polish PDF directly at its existing URL. It also serves the Dutch PDF directly in canary and preview, where Dutch is enabled.
 
