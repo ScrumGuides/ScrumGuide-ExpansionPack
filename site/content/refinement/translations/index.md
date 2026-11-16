@@ -1,0 +1,6 @@
+---
+title: Translations
+layout: translations
+type: guide
+description: Originals & Translations of the Scrum Guide Expansion Pack
+---
