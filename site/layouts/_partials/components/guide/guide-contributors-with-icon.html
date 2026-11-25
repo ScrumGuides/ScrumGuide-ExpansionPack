@@ -1,35 +1,6 @@
-{{- /* Accept parameters or use defaults */ -}}
-{{- $context := . -}}
-{{- $roles := slice "contributor" "creator" "reviewer" -}}
-{{- $applyFounderFilter := true -}}
-{{- $founderValue := true -}}
-{{- $lightList := false -}}
-
-{{- /* Check if custom parameter keys exist to determine if it's a dict */ -}}
-{{- $isParamDict := or (isset . "roles") (isset . "lightList") (isset . "founder") (isset . "skipFounderFilter") -}}
-{{- if $isParamDict -}}
-  {{- if .context -}}
-    {{- $context = .context -}}
-  {{- end -}}
-  {{- with .roles -}}
-    {{- $roles = . -}}
-  {{- end -}}
-  {{- if isset . "founder" -}}
-    {{- $applyFounderFilter = true -}}
-    {{- $founderValue = .founder -}}
-  {{- else if isset . "skipFounderFilter" -}}
-    {{- $applyFounderFilter = not .skipFounderFilter -}}
-  {{- end -}}
-  {{- with .lightList -}}
-    {{- $lightList = . -}}
-  {{- end -}}
-{{- end -}}
-
-{{ $contributors := partial "functions/get-contributors.html" $context }}
-{{- if $applyFounderFilter -}}
-  {{- $contributors = where $contributors "founder" $founderValue -}}
-{{- end -}}
-{{- $contributors = where $contributors "role" "in" $roles -}}
+{{- $context := .context -}}
+{{- $lightList := .lightList | default false -}}
+{{- $contributors := partial "functions/get-contributors.html" . -}}
 
 {{ if $contributors }}
   <div class="content-authors mt-3">
