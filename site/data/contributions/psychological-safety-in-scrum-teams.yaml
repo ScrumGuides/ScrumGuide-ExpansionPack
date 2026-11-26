@@ -4,5 +4,5 @@
   contributions:
     - "2026.1"
   role: creator
-  founder: true
+  flags: [founder]
   weight: 1

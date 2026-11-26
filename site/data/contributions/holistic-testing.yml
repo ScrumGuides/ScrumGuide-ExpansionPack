@@ -8,7 +8,7 @@
   contributions:
     - "2026.1"
   role: creator
-  founder: true
+  flags: [founder]
   weight: 1
 
 - name: Janet Gregory
@@ -17,5 +17,5 @@
   contributions:
     - "2026.1"
   role: contributor
-  founder: true
+  flags: [founder]
   weight: 2

@@ -3,7 +3,7 @@
   contributions:
     - "2026.1"
   weight: 100
-  founder: true
+  flags: [founder]
   role: creator
 
 - name: Roger L. Martin
@@ -12,5 +12,5 @@
   contributions:
     - "2026.1"
   weight: 100
-  founder: true
+  flags: [founder]
   role: creator
