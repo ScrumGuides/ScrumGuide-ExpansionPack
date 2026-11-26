@@ -104,6 +104,30 @@ languages:
       description: Naviga negli ambienti di prodotto complessi di oggi con una guida pratica su *complessità*, *pensiero di prodotto*, *sistemi di lavoro* e *leadership*.
       keywords: Scrum, ScrumExpansion.org, Pacchetto di Espansione della Guida a Scrum
 params:
+  contributorPresentation:
+    starFlag: founder
+  contributorFilters:
+    homepage:
+      requireAnyRole: [contributor, creator]
+    guideDetails:
+      requireAnyRole: [contributor, creator]
+      requireAllFlags: [founder]
+    versionCard:
+      requireAnyRole: [contributor, creator]
+      requireAllFlags: [founder]
+    versionCardWithContributors: {}
+    creators:
+      requireAnyRole: [creator]
+      requireAllFlags: [founder]
+    officialTranslation:
+      requireAnyRole: [contributor, creator]
+      requireAllFlags: [founder]
+    jsonLdAuthors:
+      requireAnyRole: [creator]
+      requireAllFlags: [founder]
+    guideContributors:
+      requireAnyRole: [contributor, creator, reviewer]
+      requireAllFlags: [founder]
   description: Scrum Guides 2025 Expansion Pack
   keywords: Scrum
   og_image: /images/scrum-guide-expansion-pack-logo-512.png
