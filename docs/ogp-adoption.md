@@ -1,5 +1,17 @@
 # OpenGuidePlatform adoption
 
+## Current: OGP v2.2.0-Preview.1
+
+The coordinated Update workflow selects `v2.2.0-Preview.1`, OGP source `e3a623c0926095eb14968075b43f364103c61cc6`, with platform ring `preview`. The installation, native Hugo dependency and existing shared workflow callers select that version. Site delivery configuration and deployment permission are unchanged.
+
+All 30 attribution files moved to their declared guide content roots: `data/contributors.yml` (or the existing `.yaml` extension) and `data/translators.<language>.yml`. No attribution records, roles, edition associations or localized names were edited. Preservation evidence compares 42 resolved credit selections and all 31 PDFs with the installed v2.1.0 baseline. Guide bodies, creator profiles and bespoke layouts remain intact.
+
+Validate through `./build.ps1 -Target preview` and `./build.ps1 -Target production`. Evidence for this adoption is retained under `.processing/attribution-preview` and `.processing/attribution-production`. These checks do not approve production promotion. Preserve Klingon exclusions, excluded-guide cascades, partial translations and fallback intent. Existing missing-translator findings require owner-confirmed identities; this adoption does not fill them automatically. Independent managed-agent controls remain the recorded adoption blocker.
+
+## Historical adoption evidence
+
+The remaining sections describe prior releases and decisions; the current installation above supersedes their version and file-location descriptions.
+
 ## OGP v1.1.8
 
 The coordinated updater selected [OGP v1.1.8](https://github.com/nkdAgility/OpenGuidePlatform/releases/tag/v1.1.8). The installation, native Hugo module, shared workflow and contributor links use that release.

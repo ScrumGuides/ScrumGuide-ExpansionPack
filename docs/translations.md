@@ -18,7 +18,7 @@ You can translate words without knowing how to change website files. Start with 
 
 ## Shared translation instructions
 
-Start with OGP's [first translation walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.8/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md). It explains the tasks, roles and handoffs with diagrams. To help without developer tools, use [reviewing wording](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.8/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md). Technical volunteers use [setup](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.8/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and the [shared task index](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.8/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md).
+Start with OGP's [first translation walkthrough](https://github.com/nkdAgility/OpenGuidePlatform/blob/v2.2.0-Preview.1/system/OpenGuidePlatform.Agents.Integration/contributor-guide/first-translation.md). It explains the tasks, roles and handoffs with diagrams. To help without developer tools, use [reviewing wording](https://github.com/nkdAgility/OpenGuidePlatform/blob/v2.2.0-Preview.1/system/OpenGuidePlatform.Agents.Integration/contributor-guide/review-wording.md). Technical volunteers use [setup](https://github.com/nkdAgility/OpenGuidePlatform/blob/v2.2.0-Preview.1/system/OpenGuidePlatform.Agents.Integration/contributor-guide/setup.md) and the [shared task index](https://github.com/nkdAgility/OpenGuidePlatform/blob/v2.2.0-Preview.1/system/OpenGuidePlatform.Agents.Integration/contributor-guide/README.md).
 
 These shared explanations ship with OGP. This page records ScrumExpansion's policy and site details; it does not duplicate the technical procedure.
 
@@ -36,13 +36,13 @@ The bespoke wrapper, core/extension catalogues and creator profiles are site-own
 
 Keep new languages excluded from production during review. Preserve Klingon's production exclusion and the existing cascades excluding Adaptive Enterprise and Emergent Strategy and Depoyment from preview/production, and Planguage from production. Preserve current public paths, fallback behavior, partial translations and supplied PDFs.
 
-Guide and translation credits belong in `site/data/contributions/`; PDF presentation belongs in `site/pdf/` under the shared contract. Changes to existing attribution or supplied PDF content require separate owner review. See [site PDF policy](./simple-pdf-generation.md).
+Guide credits belong in `site/content/<guide>/data/contributors.yml` and translation teams in `translators.<language>.yml`; PDF presentation belongs in `site/pdf/` under the shared contract. Changes to existing attribution or supplied PDF content require separate owner review. See [site PDF policy](./simple-pdf-generation.md).
 
 ## Review and publication
 
 Follow the Code of Conduct's native-speaker review, acknowledgement, consent and reserved-term requirements. Submit the agreed scope, source/candidate evidence, unresolved language decisions and rendered review results with the PR. Automated checks establish technical readiness, not language approval.
 
-Use OGP's [validation and submission guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v1.1.8/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Local production validation does not publish anything. Review the bespoke wrapper, navigation, credits and target-script rendering on narrow and wide screens.
+Use OGP's [validation and submission guide](https://github.com/nkdAgility/OpenGuidePlatform/blob/v2.2.0-Preview.1/system/OpenGuidePlatform.Agents.Integration/contributor-guide/validation.md). Local production validation does not publish anything. Review the bespoke wrapper, navigation, credits and target-script rendering on narrow and wide screens.
 
 Delivery destinations are in [settings.yaml](../.OpenGuidePlatform/settings.yaml). The [workflow caller](../.github/workflows/main.yaml) permits PR deployment only for branches in this repository; maintainers must arrange review for fork contributions. Canary uses `canary-{pr}`, preview is separate, and production publication requires explicit approval. A preview link or passing build does not approve publication.
 
