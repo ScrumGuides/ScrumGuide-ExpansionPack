@@ -6,7 +6,7 @@ Use ./build.ps1 -Stage Serve -Target local for local development. Run a full bui
 
 Preserve the bespoke wrapper, supplied/protected PDFs and deliberate multilingual guide structure.
 Do not put lang in Hugo front matter; PDF generation passes Pandoc language metadata separately.
-Guide credits live in data/contributions: <guide>.yml for creators (the authors) and contributors, <guide>.<lang>.yml for each translation team. PDF settings, templates and filters live in <site>/pdf. Never put author, translators, mainfont, sansfont, monofont or dir in guide front matter.
+Guide credits live in each guide's contentRoot/data directory: contributors.yml for creators (the authors) and contributors, translators.<lang>.yml for each translation team. PDF settings, templates and filters live in <site>/pdf. Never put author, translators, mainfont, sansfont, monofont or dir in guide front matter.
 Never enable permanently excluded languages in production.
 Do not modify generated platform adapters, skills or the installation record by hand.
 Workflow callers are site-owned. Preserve site triggers, inputs and secrets; use the coordinated update to change OGP release references and regenerate the Actions lockfile.
